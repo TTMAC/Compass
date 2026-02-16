@@ -1,0 +1,558 @@
+# Project CLAUDE.md — Compass: A Political Literacy Blog for South Africa's Missing Middle
+
+> **Scope:** Project-specific instructions that supplement the global CLAUDE.md. These instructions take precedence when working in this codebase.
+
+---
+
+## Quick Reference
+
+| Document | Location | Purpose |
+|----------|----------|---------|
+| Domain Model | `docs/DOMAIN_MODEL.md` | Content domain entities, article schema, bounded contexts |
+| Testing Strategy | `docs/TESTING_STRATEGY.md` | TDD workflow, test standards, coverage targets |
+| Market Requirements | `docs/MRD_Compass_Blog.md` | Market validation, job executor profile, success metrics |
+| Product Requirements | `docs/PRD_Compass_Blog.md` | Buildable product spec, page-by-page requirements, launch plan |
+| UX Design | `docs/UXD_Compass_Blog.md` | Five-plane UX model, information architecture, visual design |
+| System Requirements | `docs/SRD_Compass_Blog.docx` | Technical specifications, NFRs, traceability matrix |
+| Article Prompts | `docs/sa_political_system_article_series.md` | MECE article series structure and generation prompts |
+
+**Claude must read the relevant doc before making changes in that area.**
+
+---
+
+## Project Context
+
+**Project:** Compass
+
+**Description:** A free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. Delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — through a fast, mobile-first, reading-optimised static website.
+
+**Owner:** Tshepo Machele — Product, Engineering, Design, Business/GTM Lead (sole developer)
+
+**Target Launch:** Q3 2026
+
+**Domain:** compass.co.za
+
+**Tech Stack:**
+
+| Layer | Technology |
+|-------|------------|
+| Language | TypeScript / JavaScript (Astro components), Python (OG image generation script) |
+| Framework | Astro (static site generator with content collections) |
+| Styling | Tailwind CSS (utility-first, purged at build time) |
+| Database | None — file-based content architecture (Markdown + YAML frontmatter) |
+| Cache | Netlify edge CDN caching (static assets cached with immutable headers) |
+| Search | Pagefind (static search index generated at build time) |
+| Analytics | Google Analytics 4 (GA4) with consent banner, anonymised IP, 2-month data retention |
+| Email | Netlify Forms → webhook → Buttondown (or Mailchimp free tier) |
+| Hosting & CDN | Netlify (free tier — auto-deploys from Git, edge CDN, form handling) |
+| Version Control | Git (GitHub) |
+| Infrastructure | Netlify (no servers, no databases, no authentication) |
+
+**Repository Structure:**
+
+```
+compass-blog/
+├── astro.config.mjs
+├── tailwind.config.mjs
+├── package.json
+├── netlify.toml
+│
+├── src/
+│   ├── content/
+│   │   ├── config.ts              # Content collection schema (Zod)
+│   │   └── articles/
+│   │       ├── 1-1-architecture-of-the-state.md
+│   │       ├── 1-2-following-the-money.md
+│   │       ├── 1-3-who-watches-the-watchers.md
+│   │       ├── 1-4-measuring-what-matters.md
+│   │       └── ... (11 future articles)
+│   │
+│   ├── layouts/
+│   │   ├── BaseLayout.astro       # HTML shell, meta tags, GA4, cookie consent
+│   │   ├── ArticleLayout.astro    # Long-form reading layout (680px max-width)
+│   │   └── PageLayout.astro       # Standard page layout
+│   │
+│   ├── components/
+│   │   ├── Header.astro
+│   │   ├── Footer.astro
+│   │   ├── ReadingProgress.astro  # Scroll progress bar (~20 lines vanilla JS)
+│   │   ├── ArticleNav.astro       # Prev/next article links
+│   │   ├── SeriesCard.astro       # Article card for series page
+│   │   ├── ShareButtons.astro     # WhatsApp share + Copy Link
+│   │   ├── EmailCapture.astro     # Netlify Forms email subscription
+│   │   ├── TableOfContents.astro  # Sticky sidebar TOC (desktop) / inline (mobile)
+│   │   ├── Callout.astro          # Expert anecdotes, key takeaways, frameworks
+│   │   ├── CookieConsent.astro    # GA4 consent banner
+│   │   └── SphereFilter.astro     # Series page sphere filter toggle
+│   │
+│   ├── pages/
+│   │   ├── index.astro            # Home page
+│   │   ├── series.astro           # Series overview with sphere filtering
+│   │   ├── about.astro            # Editorial principles, non-partisan commitment
+│   │   ├── data-sources.astro     # Curated links to AGSA, Treasury, DPME, StatsSA, IEC
+│   │   ├── subscribe.astro        # Standalone email subscription page
+│   │   ├── privacy.astro          # Plain-language privacy policy (POPIA compliant)
+│   │   └── articles/
+│   │       └── [...slug].astro    # Dynamic article pages
+│   │
+│   └── styles/
+│       └── global.css             # Font-face declarations, base typography
+│
+├── public/
+│   ├── fonts/                     # Subsetted fonts (Latin only, variable if possible)
+│   ├── og/                        # Generated OG images (1200x630px per article)
+│   ├── robots.txt
+│   └── sitemap.xml                # Auto-generated by Astro
+│
+├── scripts/
+│   └── generate-og-images.py      # Python script for OG image generation
+│
+├── docs/
+│   ├── DOMAIN_MODEL.md
+│   ├── TESTING_STRATEGY.md
+│   ├── MRD_Compass_Blog.md
+│   ├── PRD_Compass_Blog.md
+│   ├── UXD_Compass_Blog.md
+│   ├── SRD_Compass_Blog.docx
+│   └── sa_political_system_article_series.md
+│
+├── tests/
+│   ├── unit/
+│   │   ├── content-schema.test.ts
+│   │   ├── reading-time.test.ts
+│   │   └── series-navigation.test.ts
+│   ├── integration/
+│   │   ├── article-rendering.test.ts
+│   │   ├── email-form.test.ts
+│   │   └── og-meta.test.ts
+│   └── e2e/
+│       ├── article-reading.e2e.test.ts
+│       └── email-subscribe.e2e.test.ts
+│
+└── CLAUDE.md                       # This file
+```
+
+---
+
+## Active Work
+
+**Current Focus:** Phase 0 — Build (project scaffold, core components, design system, deployment pipeline)
+
+**Branch:** `main` (single-environment production; branch deploys for previews)
+
+**Key Decisions Made:**
+
+- Astro for SSG — content collections provide type-safe schema validation for article frontmatter
+- Netlify for hosting — free tier covers expected traffic (100GB/month bandwidth), auto-deploys from Git
+- GA4 replaces Plausible Analytics — with consent banner, anonymised IP, and 2-month data retention to maintain reader trust
+- No database — all content is Markdown files in Git; the repository is the single source of truth
+- No authentication, no user accounts — this is a content-delivery platform, not an application platform
+- English only for MVP — the primary media consumption language for the target segment
+- 15-article series structure is fixed — MECE coverage of SA's three spheres of government
+- Non-partisan editorial position is non-negotiable — any perception of partisan alignment destroys credibility
+
+**Open Questions:**
+
+- OG image generation approach — Python script vs build-time Astro integration
+- Buttondown vs Mailchimp for ESP — Buttondown is lighter (free <100 subscribers), Mailchimp has more features (free <500)
+- Whether to implement Pagefind search for MVP or defer to post-Phase 0
+
+---
+
+## Domain Reminders
+
+> Full definitions in `docs/DOMAIN_MODEL.md`
+
+**Domain Overview:**
+
+This is a content-delivery domain, not a transactional domain. The core domain entities are implemented as Astro Content Collection schemas and TypeScript interfaces, not ORM models. All data is file-based (Markdown + YAML frontmatter) with no relational database.
+
+**Bounded Contexts in Scope:**
+
+| Context | Status | Notes |
+|---------|--------|-------|
+| Content Management | Active | Article schema, series navigation, sphere taxonomy — Phase 0 build |
+| Reader Experience | Active | Reading progress, TOC, share buttons, callout components |
+| Email Subscription | Planned | Netlify Forms → ESP webhook pipeline |
+| Analytics & Measurement | Planned | GA4 integration with consent, custom events |
+| SEO & Distribution | Planned | OG meta, structured data, WhatsApp preview optimisation |
+
+**Key Domain Entities:**
+
+| Entity | Type | Key Attributes |
+|--------|------|----------------|
+| Article | Aggregate Root | title, subtitle, part (1–5), articleNumber (X.Y), sphere, description, publishDate, readingTime, status, series.prev, series.next, seo |
+| Part | Derived Entity | number (1–5), title, description — derived from Article.part at build time |
+| Sphere | Enum / Value Object | national, provincial, municipal, all — with colour mapping in Tailwind config |
+| SEOMetadata | Value Object | ogImage, canonicalUrl, keywords[] — nested within Article schema |
+| SeriesNavigation | Value Object | prev (slug \| null), next (slug \| null) — doubly-linked reading order |
+| EmailSubscriber | External Entity | email, confirmedAt, source — managed by ESP, not stored in Compass repo |
+
+**Key Ubiquitous Language:**
+
+| Term | Meaning | Don't Say |
+|------|---------|-----------|
+| Article | A single long-form piece (5,000+ words) in the 15-article series | Post, Blog post, Entry |
+| Part | One of five thematic groupings (Foundation, National, Provincial, Municipal, Toolkit) | Section, Chapter, Module |
+| Sphere | One of SA's three constitutional governance spheres (national, provincial, municipal) or "all" for cross-cutting | Tier, Level, Layer |
+| Series | The complete 15-article collection forming one cohesive guide | Blog, Course, Curriculum |
+| Reader | The person consuming Compass content | User, Visitor, Customer |
+| Job Executor | The primary target reader (MRD §3.1) — Black South African, 25–45, Gauteng metro, R8K–R29K/month | Target audience, Persona |
+| Callout | Styled content block for expert anecdotes, key takeaways, or practical frameworks | Sidebar, Box, Card (in article context) |
+| Data Sources | Curated links to AGSA, Treasury, DPME, StatsSA, IEC and oversight bodies | Resources, Links, References |
+
+**Claude must:**
+
+- Use domain terms exactly as defined above
+- Reference `docs/DOMAIN_MODEL.md` for schema rules before modifying content collection config
+- Never refer to articles as "blog posts" — Compass is a structured educational series, not a blog feed
+- Respect the sphere taxonomy — every article is tagged with exactly one sphere enum value
+
+---
+
+## Content Architecture
+
+**The 15-Article Series:**
+
+| Part | Article | Title | Sphere | Status |
+|------|---------|-------|--------|--------|
+| **1: Foundational Framework** | 1.1 | The Architecture of the State | all | MVP |
+| | 1.2 | Following the Money | all | MVP |
+| | 1.3 | Who Watches the Watchers | all | MVP |
+| | 1.4 | Measuring What Matters | all | MVP |
+| **2: National Government** | 2.1 | Inside the Machine | national | Post-MVP |
+| | 2.2 | Your National Budget | national | Post-MVP |
+| | 2.3 | Parliament and You | national | Post-MVP |
+| **3: Provincial Government** | 3.1 | The Awkward Middle Child | provincial | Post-MVP |
+| | 3.2 | Provincial Budgets and Performance | provincial | Post-MVP |
+| | 3.3 | When Provinces Fail | provincial | Post-MVP |
+| **4: Municipal Government** | 4.1 | Where the Rubber Meets the Road | municipal | Post-MVP |
+| | 4.2 | Municipal Money | municipal | Post-MVP |
+| | 4.3 | When Municipalities Fail | municipal | Post-MVP |
+| | 4.4 | Your Ward, Your Power | municipal | Post-MVP |
+| **5: Citizen's Toolkit** | 5.1 | The Citizen's Toolkit | all | Post-MVP |
+
+**Article Generation:** Articles are generated using the prompts in `docs/sa_political_system_article_series.md`. Each prompt specifies a Nobel-level political economist writing in O'Reilly conversational style, 5,000+ words, with specific structural requirements, anecdotes, and sourcing standards.
+
+**Content Schema:** Defined in `src/content/config.ts` using Astro Content Collections and Zod. See `docs/DOMAIN_MODEL.md` §8.2.1 for full field specifications.
+
+---
+
+## Testing Reminders
+
+> Full standards in `docs/TESTING_STRATEGY.md`
+
+**TDD Required:** Yes for all component logic and content schema validation. Test-after acceptable for layout/styling components.
+
+**Quick Coverage Targets:**
+
+| Layer | Minimum | Target |
+|-------|---------|--------|
+| Content Schema (Zod validation, series navigation) | 90% | 95% |
+| Component Logic (reading progress, share, email form) | 80% | 90% |
+| Integration (article rendering, OG meta, form pipeline) | 70% | 80% |
+| E2E (critical reader journeys) | Critical paths only | — |
+
+**Test Pyramid:**
+
+```
+                    ┌───────────┐
+                   /   E2E/UI   \          ~10%
+                  / (slow, few)  \
+                 /────────────────\
+                /   Integration    \       ~20%
+               /  (moderate, some)  \
+              /──────────────────────\
+             /        Unit Tests      \    ~70%
+            /     (fast, many)         \
+           /────────────────────────────\
+```
+
+**Test Commands:**
+
+```bash
+# Unit tests
+npm test
+
+# Integration tests
+npm run test:integration
+
+# All tests with coverage
+npm run test:coverage
+
+# E2E tests (requires built site)
+npm run build && npm run test:e2e
+
+# Lighthouse performance audit
+npx lighthouse https://compass.co.za --throttling.cpuSlowdownMultiplier=4
+```
+
+**Critical E2E Paths:**
+
+| Journey | Priority |
+|---------|----------|
+| Reader loads article → reading progress bar works → reaches article footer | P0 |
+| Reader submits email → sees confirmation → receives double opt-in email | P0 |
+| WhatsApp share button → correct UTM URL → OG preview renders in WhatsApp | P1 |
+| Series page → sphere filter toggle → correct articles displayed | P1 |
+
+**Claude must:**
+
+- Write failing test before implementation (Red-Green-Refactor)
+- Reference `docs/TESTING_STRATEGY.md` for naming conventions and patterns
+- Flag if proposed changes would reduce coverage below thresholds
+- Test content schema validation rules (part range, sphere enum, description length, series linking)
+- Verify performance budget compliance after changes (see Performance Requirements below)
+
+---
+
+## Performance Requirements (Non-Negotiable)
+
+> The target reader is on a Samsung Galaxy A15 on 4G prepaid data. Every unnecessary byte costs them money (~R2/MB).
+
+| Metric | Target | Hard Limit |
+|--------|--------|------------|
+| First Contentful Paint (FCP) | < 1.0s | < 1.5s |
+| Largest Contentful Paint (LCP) | < 1.5s | < 2.5s |
+| Cumulative Layout Shift (CLS) | < 0.05 | < 0.1 |
+| Total page weight (article page, all resources) | < 250KB | < 450KB |
+| HTML document size | < 80KB | < 120KB |
+| CSS bundle | < 15KB | < 25KB |
+| Total JavaScript (all scripts) | < 20KB | < 35KB |
+| Font files | < 80KB total | < 120KB |
+| Lighthouse Performance score | ≥ 95 | ≥ 90 |
+| Lighthouse Accessibility score | ≥ 95 | ≥ 90 |
+
+**Performance Rules:**
+
+- Font subsetting: Latin characters only, variable fonts where possible, `font-display: swap`
+- No images in article body for MVP — if added later: lazy loading, WebP/AVIF with fallback, explicit width/height
+- CSS purging: Tailwind purge removes unused utilities
+- Preload: body font and critical CSS; preconnect to `www.googletagmanager.com`
+- Cookie consent banner JS shall not exceed 3KB minified and gzipped
+- Client-side JS is limited to: reading progress bar, scroll-depth analytics, email form submission feedback, cookie consent banner
+
+**Claude must:**
+
+- Run Lighthouse audit (4G throttle profile) after any change that adds JS, CSS, fonts, or images
+- Reject any change that pushes page weight above 450KB hard limit
+- Justify any new client-side JavaScript with a clear reader benefit
+
+---
+
+## Code Conventions
+
+**Style:**
+
+- Formatter: Prettier (configured in `.prettierrc`)
+- Linter: ESLint with Astro plugin
+- Run before commit: `npm run lint && npm run format`
+
+**Naming:**
+
+| Element | Convention | Example |
+|---------|------------|---------|
+| Files (components) | PascalCase.astro | `ReadingProgress.astro` |
+| Files (pages) | kebab-case.astro | `data-sources.astro` |
+| Files (content) | kebab-case.md (numbered prefix) | `1-1-architecture-of-the-state.md` |
+| CSS classes | Tailwind utilities (no custom CSS classes unless unavoidable) | `class="text-lg leading-relaxed"` |
+| TypeScript interfaces | PascalCase | `ArticleSchema` |
+| Functions | camelCase | `getReadingTime()` |
+| Constants | UPPER_SNAKE_CASE | `MAX_PAGE_WEIGHT_KB` |
+
+**Commit Messages (Conventional Commits):**
+
+```
+<type>(<scope>): <description>
+
+feat(article): add callout component for expert anecdotes
+fix(email): correct Netlify Forms honeypot field name
+perf(fonts): subset Inter to Latin-only reducing font bundle by 40KB
+test(schema): add validation tests for article frontmatter
+content(1.1): publish Architecture of the State article
+docs(claude): update testing reminders with new coverage targets
+```
+
+**Scopes:** `article`, `series`, `email`, `analytics`, `seo`, `fonts`, `layout`, `schema`, `og`, `consent`, `search`, `1.1`–`5.1` (article numbers for content commits)
+
+---
+
+## Compliance & Security
+
+| Requirement | Specification |
+|-------------|---------------|
+| **POPIA** (Protection of Personal Information Act) | Email addresses are personal information; legitimate interest basis; clear privacy policy at /privacy; easy unsubscribe; cookie consent banner for GA4; no data sharing with third parties beyond ESP and GA4 |
+| **WCAG 2.1 Level AA** | Colour contrast ≥ 4.5:1; keyboard navigation; screen reader compatibility; responsive text ≥ 16px; `lang="en-ZA"` attribute; descriptive link text; minimum 48px tap targets |
+| **GDPR** (if EU subscribers) | GA4 consent mode v2; `analytics_storage` defaults to "denied"; IP anonymisation enabled; 2-month data retention |
+
+**Security Headers (netlify.toml):**
+
+- `X-Frame-Options: DENY`
+- `X-Content-Type-Options: nosniff`
+- `Referrer-Policy: strict-origin-when-cross-origin`
+- Static assets cached with `Cache-Control: public, max-age=31536000, immutable`
+
+**Claude must:**
+
+- Never add third-party scripts beyond GA4 — no ad scripts, no tracking pixels, no social media embeds
+- Never store reader data in the repository — email subscriptions are handled entirely by the ESP
+- Ensure all new components meet WCAG 2.1 AA (contrast, keyboard nav, screen reader)
+- Maintain the cookie consent flow — GA4 must not fire before consent is granted
+
+---
+
+## Environment Setup
+
+**Prerequisites:**
+
+- Node.js 20+
+- npm
+- Git
+- Python 3.11+ (for OG image generation script only)
+
+**Local Setup:**
+
+```bash
+# Clone and install
+git clone https://github.com/[owner]/compass-blog.git
+cd compass-blog
+npm install
+
+# Start development server
+npm run dev
+# → Site available at http://localhost:4321
+
+# Build for production
+npm run build
+# → Static output in dist/
+
+# Preview production build locally
+npm run preview
+
+# Generate OG images
+python scripts/generate-og-images.py
+```
+
+**Environment Files:**
+
+| File | Purpose | Committed? |
+|------|---------|------------|
+| `.env.example` | Template with required vars (GA4 measurement ID, ESP webhook URL) | Yes |
+| `.env` | Local development values | No |
+| `netlify.toml` | Netlify build config, redirects, security headers | Yes |
+
+---
+
+## Deployment
+
+**Environments:**
+
+| Environment | Branch | URL | Deploy Method |
+|-------------|--------|-----|---------------|
+| Production | `main` | compass.co.za | Auto on push to main (Netlify) |
+| Preview | Any branch | `[branch]--compass.netlify.app` | Auto on push (Netlify branch deploys) |
+
+**Deploy Flow:**
+
+```
+git push origin main
+→ Netlify detects push
+→ Runs: npm run build
+→ Publishes: dist/
+→ Propagates to CDN edge in < 60 seconds
+→ Failed builds leave previous deploy intact (SRD-NFR-013)
+```
+
+**Scalability:**
+
+- 10,000+ concurrent readers supported (static CDN, no server bottleneck)
+- Netlify free tier: 100GB/month bandwidth
+- Content scales to 50+ articles (file-based, no DB migration needed)
+
+**Claude must:**
+
+- Never deploy without explicit instruction
+- Verify Lighthouse performance scores before suggesting deployment
+- Note if new articles require OG image generation before deploy
+
+---
+
+## Project-Specific Rules
+
+**Always:**
+
+- Maintain non-partisan editorial tone — Compass is a political education resource, not a political vehicle
+- Keep page weight under 450KB hard limit (target: 250KB)
+- Add `alt` text to any images
+- Test on mobile viewport (360px width minimum)
+- Ensure all forms have 48px minimum tap targets
+- Use serif or humanist sans-serif font optimised for long-form reading (body: 18–20px desktop, 17–18px mobile, line-height 1.6–1.7)
+- Content column max-width: 680px, centred
+
+**Never:**
+
+- Add third-party ad or tracking scripts (beyond GA4)
+- Store reader PII in the repository
+- Add client-side JS without a clear reader benefit and performance budget justification
+- Break the doubly-linked series navigation (every article must have correct prev/next)
+- Use clickbait patterns, dark UX, or flashy animations — trust is built through restraint
+- Add images to article body in MVP scope
+
+**Ask First:**
+
+- Before adding any new npm dependency (check bundle size impact)
+- Before modifying the content collection schema in `src/content/config.ts`
+- Before adding any new page route
+- Before changing the GA4 consent flow
+- Before modifying the email subscription pipeline
+
+---
+
+## Success Metrics (from MRD)
+
+**North Star:** Monthly readers who read at least 2 articles and spend 8+ minutes total on site.
+
+| Stage | Timeline | Key Targets |
+|-------|----------|-------------|
+| Discovery | Months 1–2 | Platform live; 4 Part 1 articles pass expert review |
+| Validation | Months 3–6 | 1,000 unique monthly readers; 8-min avg time-on-page; 30%+ WhatsApp referral share; 500 email subscribers |
+| Growth | Months 7–12 | 10,000 unique monthly readers; 40% return visit rate; 2,000 email subscribers |
+
+---
+
+## Implementation Roadmap
+
+| Phase | Weeks | Focus |
+|-------|-------|-------|
+| **Phase 0: Build** | 1–8 | Project scaffold, core components, design polish, integrations, QA |
+| **Phase 1: MVP Launch (Part 1)** | 9–16 | Articles 1.1–1.4 published at ~2-week cadence; WhatsApp distribution |
+| **Phase 2: National (Part 2)** | 17–24 | Articles 2.1–2.3 published |
+| **Phase 3: Provincial + Municipal (Parts 3–4)** | 25–40 | 7 articles; municipal articles prioritised for 2026 local elections |
+| **Phase 4: Toolkit (Part 5)** | 41–44 | Capstone article 5.1; series complete |
+| **Phase 5: PMF Assessment** | 48+ | Formal assessment against MRD §9 metrics; go/no-go on v2 |
+
+---
+
+## Out of Scope (MVP)
+
+- Monetisation (ads, paywalls, sponsorship) — deferred to post-PMF
+- Languages beyond English
+- User accounts or authentication
+- Comments or discussion features
+- Mobile app
+- CMS or admin interface
+- Real-time data dashboards
+- Interactive data visualisations
+- Podcast or video content
+
+---
+
+## Contacts & Ownership
+
+| Area | Owner | Notes |
+|------|-------|-------|
+| All areas | Tshepo Machele | Sole developer — Product, Engineering, Design, Business/GTM |
+
+---
+
+*Last updated: 2026-02-16*

@@ -1,0 +1,127 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const articles = await getCollection("articles");
+const firstArticle = articles.find((a) => a.data.articleNumber === "1.1");
+
+const parts = [
+  {
+    number: 1,
+    title: "The Architecture",
+    description:
+      "How South Africa's government is structured across three spheres.",
+  },
+  {
+    number: 2,
+    title: "The Money",
+    description: "How public money flows from Treasury to service delivery.",
+  },
+  {
+    number: 3,
+    title: "The Accountability",
+    description: "How oversight works — and where it breaks down.",
+  },
+  {
+    number: 4,
+    title: "The Participation",
+    description: "How citizens can meaningfully engage with government.",
+  },
+  {
+    number: 5,
+    title: "The Assessment",
+    description: "How to evaluate government performance using public data.",
+  },
+];
+---
+
+<BaseLayout
+  title="Compass — Making SA's governance system legible"
+  description="Making South Africa's governance system legible to ordinary citizens"
+>
+  <!-- Hero -->
+  <section class="bg-compass-green text-white py-16 md:py-24">
+    <div class="max-w-content mx-auto px-4 md:px-0 text-center">
+      <h1 class="font-heading text-3xl md:text-5xl font-bold mb-6 leading-tight">
+        Making South Africa's governance system legible to ordinary citizens
+      </h1>
+      <p class="text-lg md:text-xl opacity-90 max-w-lg mx-auto">
+        A free, long-form political education series for South Africa's missing
+        middle.
+      </p>
+    </div>
+  </section>
+
+  <!-- Problem statement -->
+  <section class="py-12 md:py-16 bg-bg-secondary">
+    <div class="max-w-content mx-auto px-4 md:px-0">
+      <h2 class="font-heading text-2xl font-bold text-text-primary mb-4">
+        The problem
+      </h2>
+      <p class="text-lg text-text-secondary leading-relaxed mb-4">
+        South Africa has a sophisticated constitutional democracy — but most
+        citizens have never been taught how it actually works. Without this
+        knowledge, frustrations get directed at the wrong people, accountability
+        mechanisms go unused, and public participation remains performative.
+      </p>
+      <p class="text-lg text-text-secondary leading-relaxed">
+        Compass is a 15-article series that changes this. Starting from the
+        basics — who does what, where the money goes — and building to
+        practical skills for holding government accountable.
+      </p>
+    </div>
+  </section>
+
+  <!-- Series overview -->
+  <section class="py-12 md:py-16">
+    <div class="max-w-content mx-auto px-4 md:px-0">
+      <h2 class="font-heading text-2xl font-bold text-text-primary mb-8">
+        The 5-Part Series
+      </h2>
+
+      <div class="space-y-4">
+        {
+          parts.map((part) => (
+            <div class="border border-gray-200 rounded-lg p-5 hover:border-compass-green transition-colors">
+              <div class="flex items-baseline gap-3">
+                <span class="font-heading text-sm font-semibold text-compass-green whitespace-nowrap">
+                  Part {part.number}
+                </span>
+                <div>
+                  <h3 class="font-heading text-lg font-bold text-text-primary">
+                    {part.title}
+                  </h3>
+                  <p class="text-text-secondary text-sm mt-1">
+                    {part.description}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-12 md:py-16 bg-compass-green-light">
+    <div class="max-w-content mx-auto px-4 md:px-0 text-center">
+      <h2 class="font-heading text-2xl font-bold text-text-primary mb-4">
+        Start reading
+      </h2>
+      <p class="text-text-secondary mb-6">
+        Begin with Article 1.1 — the foundation for everything that follows.
+      </p>
+      {
+        firstArticle && (
+          <a
+            href={`/articles/${firstArticle.id.replace(/\.md$/, "")}`}
+            class="inline-block px-6 py-3 bg-compass-green text-white font-heading font-semibold rounded hover:bg-opacity-90 transition-colors"
+          >
+            Read: {firstArticle.data.title}
+          </a>
+        )
+      }
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,173 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+
+interface Props {
+  title: string;
+  subtitle: string;
+  description: string;
+  articleNumber: string;
+  sphere: "national" | "provincial" | "municipal";
+  publishDate: Date;
+  readingTime: number;
+  canonicalUrl?: string;
+  ogImage?: string;
+  series: {
+    prev: string | null;
+    next: string | null;
+  };
+}
+
+const {
+  title,
+  subtitle,
+  description,
+  articleNumber,
+  sphere,
+  publishDate,
+  readingTime,
+  canonicalUrl,
+  ogImage,
+} = Astro.props;
+
+const sphereColors: Record<string, string> = {
+  national: "bg-sphere-national",
+  provincial: "bg-sphere-provincial",
+  municipal: "bg-sphere-municipal",
+};
+
+const formattedDate = publishDate.toLocaleDateString("en-ZA", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description: description,
+  datePublished: publishDate.toISOString(),
+  author: {
+    "@type": "Organization",
+    name: "Compass",
+    url: "https://compass.co.za",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Compass",
+    url: "https://compass.co.za",
+  },
+};
+---
+
+<BaseLayout
+  title={`${title} — Compass`}
+  description={description}
+  canonicalUrl={canonicalUrl}
+  ogImage={ogImage}
+  ogType="article"
+  jsonLd={jsonLd}
+>
+  <article class="max-w-content mx-auto px-4 md:px-0 py-8 md:py-12">
+    <header class="mb-8">
+      <div class="flex items-center gap-3 mb-4">
+        <span class="font-heading text-sm text-text-secondary">
+          Article {articleNumber}
+        </span>
+        <span
+          class={`inline-block px-2 py-0.5 text-xs font-heading font-semibold text-white rounded ${sphereColors[sphere]}`}
+        >
+          {sphere.charAt(0).toUpperCase() + sphere.slice(1)}
+        </span>
+      </div>
+
+      <h1 class="font-heading text-3xl md:text-4xl font-bold text-text-primary mb-3 leading-tight">
+        {title}
+      </h1>
+
+      <p class="text-lg md:text-xl text-text-secondary mb-4 font-body">
+        {subtitle}
+      </p>
+
+      <div class="flex items-center gap-4 text-sm text-text-secondary font-heading">
+        <time datetime={publishDate.toISOString()}>
+          {formattedDate}
+        </time>
+        <span aria-label={`${readingTime} minute read`}>
+          {readingTime} min read
+        </span>
+      </div>
+    </header>
+
+    <div class="prose prose-article" data-testid="article-content">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .prose-article {
+    font-size: 19px;
+    line-height: 1.65;
+  }
+
+  @media (max-width: 768px) {
+    .prose-article {
+      font-size: 17px;
+    }
+  }
+
+  .prose-article :global(h2) {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+  }
+
+  .prose-article :global(h3) {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: #1a1a1a;
+  }
+
+  .prose-article :global(p) {
+    margin-bottom: 1.25rem;
+  }
+
+  .prose-article :global(strong) {
+    font-weight: 700;
+  }
+
+  .prose-article :global(a) {
+    color: #1b6b4a;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .prose-article :global(a:hover) {
+    color: #145236;
+  }
+
+  .prose-article :global(ul),
+  .prose-article :global(ol) {
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+  }
+
+  .prose-article :global(li) {
+    margin-bottom: 0.5rem;
+  }
+
+  .prose-article :global(blockquote) {
+    border-left: 4px solid #1b6b4a;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    color: #4a4a4a;
+    font-style: italic;
+  }
+</style>

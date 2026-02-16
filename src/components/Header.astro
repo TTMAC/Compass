@@ -1,0 +1,116 @@
+---
+const navLinks = [
+  { href: "/", label: "Home" },
+  { href: "/series", label: "Series" },
+  { href: "/data-sources", label: "Data Sources" },
+  { href: "/about", label: "About" },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<header class="bg-bg-primary border-b border-gray-100" role="banner">
+  <nav
+    class="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between"
+    aria-label="Main navigation"
+  >
+    <a href="/" class="font-heading font-bold text-xl text-compass-green">
+      Compass
+    </a>
+
+    <!-- Desktop nav -->
+    <ul class="hidden md:flex items-center gap-6" role="list">
+      {
+        navLinks.map((link) => (
+          <li>
+            <a
+              href={link.href}
+              class={`font-heading text-sm transition-colors hover:text-compass-green ${
+                currentPath === link.href
+                  ? "text-compass-green font-semibold"
+                  : "text-text-secondary"
+              }`}
+              aria-current={currentPath === link.href ? "page" : undefined}
+            >
+              {link.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <!-- Mobile hamburger -->
+    <button
+      type="button"
+      class="md:hidden flex items-center justify-center w-12 h-12 -mr-2"
+      aria-label="Open menu"
+      aria-expanded="false"
+      data-menu-toggle
+    >
+      <svg
+        class="w-6 h-6 text-text-primary"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        aria-hidden="true"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div
+    class="md:hidden overflow-hidden transition-all duration-[250ms] ease-in-out max-h-0"
+    data-mobile-menu
+    aria-hidden="true"
+  >
+    <ul class="px-4 py-4 border-t border-gray-100 space-y-1" role="list">
+      {
+        navLinks.map((link) => (
+          <li>
+            <a
+              href={link.href}
+              class={`block py-3 px-3 font-heading text-sm rounded transition-colors hover:bg-compass-green-light hover:text-compass-green ${
+                currentPath === link.href
+                  ? "text-compass-green font-semibold bg-compass-green-light"
+                  : "text-text-secondary"
+              }`}
+              aria-current={currentPath === link.href ? "page" : undefined}
+            >
+              {link.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</header>
+
+<script>
+  const toggle = document.querySelector("[data-menu-toggle]");
+  const menu = document.querySelector("[data-mobile-menu]");
+
+  if (toggle && menu) {
+    toggle.addEventListener("click", () => {
+      const isOpen = toggle.getAttribute("aria-expanded") === "true";
+      toggle.setAttribute("aria-expanded", String(!isOpen));
+      toggle.setAttribute(
+        "aria-label",
+        isOpen ? "Open menu" : "Close menu",
+      );
+      menu.setAttribute("aria-hidden", String(isOpen));
+
+      if (isOpen) {
+        (menu as HTMLElement).style.maxHeight = "0";
+      } else {
+        (menu as HTMLElement).style.maxHeight =
+          menu.scrollHeight + "px";
+      }
+    });
+  }
+</script>

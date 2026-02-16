@@ -1,0 +1,56 @@
+---
+interface ArticleLink {
+  id: string;
+  title: string;
+  articleNumber: string;
+}
+
+interface Props {
+  prev: ArticleLink | null;
+  next: ArticleLink | null;
+}
+
+const { prev, next } = Astro.props;
+---
+
+{
+  (prev || next) && (
+    <nav
+      class="mt-12 pt-8 border-t border-gray-200"
+      aria-label="Article navigation"
+      data-testid="article-nav"
+    >
+      <div class="flex flex-col sm:flex-row justify-between gap-4">
+        {prev ? (
+          <a
+            href={`/articles/${prev.id}`}
+            class="group flex-1 p-4 border border-gray-200 rounded-lg hover:border-compass-green transition-colors"
+          >
+            <span class="font-heading text-xs text-text-secondary">
+              Previous
+            </span>
+            <p class="font-heading text-sm font-semibold text-text-primary group-hover:text-compass-green transition-colors">
+              {prev.articleNumber}: {prev.title}
+            </p>
+          </a>
+        ) : (
+          <div class="flex-1" />
+        )}
+
+        {next ? (
+          <a
+            href={`/articles/${next.id}`}
+            class="group flex-1 p-4 border border-gray-200 rounded-lg hover:border-compass-green transition-colors text-right"
+          >
+            <span class="font-heading text-xs text-text-secondary">Next</span>
+            <p class="font-heading text-sm font-semibold text-text-primary group-hover:text-compass-green transition-colors">
+              {next.articleNumber}: {next.title}
+            </p>
+          </a>
+        ) : (
+          <div class="flex-1" />
+        )}
+      </div>
+    </nav>
+  )
+}

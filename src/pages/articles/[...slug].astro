@@ -1,0 +1,56 @@
+---
+import { getCollection, render } from "astro:content";
+import ArticleLayout from "@layouts/ArticleLayout.astro";
+import TableOfContents from "@components/TableOfContents.astro";
+import ShareButtons from "@components/ShareButtons.astro";
+import ArticleNav from "@components/ArticleNav.astro";
+import ReadingProgress from "@components/ReadingProgress.astro";
+import EmailCapture from "@components/EmailCapture.astro";
+import { getSeriesNavigation } from "@utils/series-navigation";
+
+export async function getStaticPaths() {
+  const articles = await getCollection("articles");
+  return articles.map((article) => ({
+    params: { slug: article.id.replace(/\.md$/, "") },
+    props: { article, allArticles: articles },
+  }));
+}
+
+const { article, allArticles } = Astro.props;
+const { Content, headings } = await render(article);
+const slug = article.id.replace(/\.md$/, "");
+const articleUrl = `https://compass.co.za/articles/${slug}`;
+const seriesNav = getSeriesNavigation(article, allArticles);
+---
+
+<ReadingProgress />
+
+<ArticleLayout
+  title={article.data.title}
+  subtitle={article.data.subtitle}
+  description={article.data.description}
+  articleNumber={article.data.articleNumber}
+  sphere={article.data.sphere}
+  publishDate={article.data.publishDate}
+  readingTime={article.data.readingTime}
+  canonicalUrl={article.data.seo.canonicalUrl}
+  ogImage={article.data.seo.ogImage}
+  series={article.data.series}
+>
+  <TableOfContents headings={headings} />
+
+  <Content />
+
+  <div class="mt-8 pt-6 border-t border-gray-200">
+    <ShareButtons
+      title={article.data.title}
+      subtitle={article.data.subtitle}
+      url={articleUrl}
+      slug={slug}
+    />
+  </div>
+
+  <EmailCapture location="inline" />
+
+  <ArticleNav prev={seriesNav.prev} next={seriesNav.next} />
+</ArticleLayout>

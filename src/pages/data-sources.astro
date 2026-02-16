@@ -1,0 +1,88 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+
+const sources = [
+  {
+    name: "Auditor-General South Africa (AGSA)",
+    url: "https://www.agsa.co.za",
+    description:
+      "Annual audit reports on all government departments and municipalities. The primary source for financial accountability data.",
+  },
+  {
+    name: "National Treasury",
+    url: "https://www.treasury.gov.za",
+    description:
+      "Budget documents, expenditure reports, division of revenue, and fiscal policy frameworks.",
+  },
+  {
+    name: "Department of Planning, Monitoring and Evaluation (DPME)",
+    url: "https://www.dpme.gov.za",
+    description:
+      "Government performance monitoring, evaluation reports, and the Management Performance Assessment Tool (MPAT).",
+  },
+  {
+    name: "Statistics South Africa (StatsSA)",
+    url: "https://www.statssa.gov.za",
+    description:
+      "Census data, community surveys, General Household Survey, and socioeconomic indicators.",
+  },
+  {
+    name: "Independent Electoral Commission (IEC)",
+    url: "https://www.elections.org.za",
+    description:
+      "Election results, voter registration data, party funding disclosures, and electoral boundary information.",
+  },
+  {
+    name: "South African Government",
+    url: "https://www.gov.za",
+    description:
+      "Official government portal with legislation, policy documents, and departmental information.",
+  },
+  {
+    name: "Parliament of South Africa",
+    url: "https://www.parliament.gov.za",
+    description:
+      "Hansard records, committee reports, bills tracker, and parliamentary oversight documentation.",
+  },
+  {
+    name: "South African Local Government Association (SALGA)",
+    url: "https://www.salga.org.za",
+    description:
+      "Municipal governance research, best practices, and local government capacity data.",
+  },
+];
+---
+
+<PageLayout
+  title="Data Sources"
+  description="The official data sources used across the Compass series, including AGSA, Treasury, DPME, StatsSA, and IEC."
+>
+  <h1 class="font-heading text-3xl font-bold text-text-primary mb-4">
+    Data Sources
+  </h1>
+
+  <p class="text-text-secondary mb-8 leading-relaxed">
+    Every claim in Compass is backed by publicly available data. Here are the
+    primary sources we use, all freely accessible to any South African citizen.
+  </p>
+
+  <div class="space-y-6">
+    {
+      sources.map((source) => (
+        <div class="border border-gray-200 rounded-lg p-5">
+          <h2 class="font-heading text-lg font-semibold text-text-primary mb-1">
+            <a
+              href={source.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-compass-green hover:underline"
+            >
+              {source.name}
+            </a>
+          </h2>
+          <p class="text-sm text-text-secondary">{source.description}</p>
+        </div>
+      ))
+    }
+  </div>
+</PageLayout>

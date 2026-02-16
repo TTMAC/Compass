@@ -1,0 +1,104 @@
+---
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import CookieConsent from "@components/CookieConsent.astro";
+import "@styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalUrl?: string;
+  ogImage?: string;
+  ogType?: string;
+  jsonLd?: Record<string, unknown>;
+}
+
+const {
+  title,
+  description,
+  canonicalUrl,
+  ogImage = "/og/default.png",
+  ogType = "website",
+  jsonLd,
+} = Astro.props;
+
+const siteUrl = "https://compass.co.za";
+const fullCanonical = canonicalUrl || new URL(Astro.url.pathname, siteUrl).href;
+const fullOgImage = ogImage.startsWith("http")
+  ? ogImage
+  : new URL(ogImage, siteUrl).href;
+---
+
+<html lang="en-ZA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={fullCanonical} />
+
+    <!-- Font preloads -->
+    <link
+      rel="preload"
+      href="/fonts/Inter-Bold-Latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/SourceSerif4-Regular-Latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <!-- Preconnect for GA4 -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={fullCanonical} />
+    <meta property="og:image" content={fullOgImage} />
+    <meta property="og:site_name" content="Compass" />
+    <meta property="og:locale" content="en_ZA" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={fullOgImage} />
+
+    <!-- JSON-LD -->
+    {
+      jsonLd && (
+        <script
+          type="application/ld+json"
+          set:html={JSON.stringify(jsonLd)}
+        />
+      )
+    }
+
+    <slot name="head" />
+  </head>
+  <body class="min-h-screen bg-bg-primary text-text-primary font-body flex flex-col">
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-compass-green focus:text-white focus:rounded"
+    >
+      Skip to content
+    </a>
+
+    <Header />
+
+    <main id="main-content" class="flex-1">
+      <slot />
+    </main>
+
+    <Footer />
+
+    <CookieConsent />
+  </body>
+</html>

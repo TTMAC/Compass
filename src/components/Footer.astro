@@ -1,0 +1,82 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-bg-secondary border-t border-gray-100 mt-auto" role="contentinfo">
+  <div class="max-w-4xl mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Brand -->
+      <div>
+        <p class="font-heading font-bold text-lg text-compass-green mb-2">
+          Compass
+        </p>
+        <p class="text-sm text-text-secondary">
+          Making South Africa's governance system legible to ordinary citizens.
+        </p>
+      </div>
+
+      <!-- Links -->
+      <div>
+        <p class="font-heading font-semibold text-sm text-text-primary mb-3">
+          Navigate
+        </p>
+        <ul class="space-y-2" role="list">
+          <li>
+            <a
+              href="/about"
+              class="text-sm text-text-secondary hover:text-compass-green transition-colors"
+            >
+              About
+            </a>
+          </li>
+          <li>
+            <a
+              href="/series"
+              class="text-sm text-text-secondary hover:text-compass-green transition-colors"
+            >
+              Series
+            </a>
+          </li>
+          <li>
+            <a
+              href="/subscribe"
+              class="text-sm text-text-secondary hover:text-compass-green transition-colors"
+            >
+              Subscribe
+            </a>
+          </li>
+          <li>
+            <a
+              href="/privacy"
+              class="text-sm text-text-secondary hover:text-compass-green transition-colors"
+            >
+              Privacy Policy
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Subscribe CTA -->
+      <div>
+        <p class="font-heading font-semibold text-sm text-text-primary mb-3">
+          Stay informed
+        </p>
+        <p class="text-sm text-text-secondary mb-3">
+          Get new articles delivered to your inbox.
+        </p>
+        <a
+          href="/subscribe"
+          class="inline-block px-4 py-2 bg-compass-green text-white text-sm font-heading font-semibold rounded hover:bg-opacity-90 transition-colors"
+        >
+          Subscribe
+        </a>
+      </div>
+    </div>
+
+    <div class="mt-8 pt-6 border-t border-gray-200 text-center">
+      <p class="text-xs text-text-secondary">
+        &copy; {currentYear} Compass. Free political education for South Africa.
+      </p>
+    </div>
+  </div>
+</footer>

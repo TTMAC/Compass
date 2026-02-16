@@ -1,0 +1,23 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalUrl?: string;
+  ogImage?: string;
+}
+
+const { title, description, canonicalUrl, ogImage } = Astro.props;
+---
+
+<BaseLayout
+  title={`${title} — Compass`}
+  description={description}
+  canonicalUrl={canonicalUrl}
+  ogImage={ogImage}
+>
+  <div class="max-w-content mx-auto px-4 md:px-0 py-12">
+    <slot />
+  </div>
+</BaseLayout>

@@ -1,0 +1,99 @@
+---
+interface Props {
+  location: "inline" | "footer" | "standalone";
+}
+
+const { location } = Astro.props;
+
+const containerClass = {
+  inline: "my-8 p-6 bg-compass-green-light rounded-lg",
+  footer: "",
+  standalone: "max-w-md mx-auto",
+}[location];
+---
+
+<div class={containerClass} data-testid="email-capture" data-location={location}>
+  <form
+    name="subscribe"
+    method="POST"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+    class="space-y-3"
+    data-email-form
+  >
+    <input type="hidden" name="form-name" value="subscribe" />
+    <p class="hidden">
+      <label>
+        Don't fill this out: <input name="bot-field" />
+      </label>
+    </p>
+
+    {
+      location !== "footer" && (
+        <p class="font-heading text-sm font-semibold text-text-primary mb-2">
+          Get new articles in your inbox
+        </p>
+      )
+    }
+
+    <div class="flex gap-2">
+      <label for={`email-${location}`} class="sr-only">Email address</label>
+      <input
+        type="email"
+        id={`email-${location}`}
+        name="email"
+        required
+        placeholder="your@email.com"
+        class="flex-1 px-3 py-2 border border-gray-300 rounded text-sm font-body text-text-primary placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-compass-green focus:border-transparent"
+      />
+      <button
+        type="submit"
+        class="px-4 py-2 bg-compass-green text-white text-sm font-heading font-semibold rounded hover:bg-opacity-90 transition-colors whitespace-nowrap"
+      >
+        Subscribe
+      </button>
+    </div>
+
+    <div class="hidden text-sm font-heading" data-form-success>
+      <p class="text-compass-green">You're subscribed.</p>
+    </div>
+
+    <div class="hidden text-sm font-heading" data-form-error>
+      <p class="text-red-600">Something went wrong.</p>
+    </div>
+  </form>
+</div>
+
+<script>
+  const forms = document.querySelectorAll("[data-email-form]");
+
+  forms.forEach((form) => {
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const formEl = e.target as HTMLFormElement;
+      const successEl = formEl.querySelector("[data-form-success]");
+      const errorEl = formEl.querySelector("[data-form-error]");
+
+      try {
+        const response = await fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams(
+            new FormData(formEl) as unknown as Record<string, string>,
+          ).toString(),
+        });
+
+        if (response.ok) {
+          formEl.reset();
+          successEl?.classList.remove("hidden");
+          errorEl?.classList.add("hidden");
+        } else {
+          throw new Error("Form submission failed");
+        }
+      } catch {
+        successEl?.classList.add("hidden");
+        errorEl?.classList.remove("hidden");
+      }
+    });
+  });
+</script>

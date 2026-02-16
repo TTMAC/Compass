@@ -1,0 +1,151 @@
+---
+---
+
+<div
+  id="cookie-consent"
+  class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-lg z-40 transition-transform translate-y-full"
+  role="dialog"
+  aria-label="Cookie consent"
+  data-testid="cookie-consent"
+  style="max-height: 80px;"
+>
+  <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+    <p class="text-sm text-text-secondary font-body">
+      We use cookies for analytics to improve your experience.
+      <a href="/privacy" class="text-compass-green underline">Learn more</a>.
+    </p>
+    <div class="flex gap-2 shrink-0">
+      <button
+        type="button"
+        class="px-3 py-1.5 text-sm font-heading text-text-secondary border border-gray-300 rounded hover:bg-gray-50 transition-colors"
+        data-consent-decline
+      >
+        Decline
+      </button>
+      <button
+        type="button"
+        class="px-3 py-1.5 text-sm font-heading font-semibold text-white bg-compass-green rounded hover:bg-opacity-90 transition-colors"
+        data-consent-accept
+      >
+        Accept
+      </button>
+    </div>
+  </div>
+</div>
+
+<script is:inline>
+  // GA4 Consent Mode v2 — default to denied
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+  gtag("consent", "default", {
+    analytics_storage: "denied",
+  });
+
+  (function () {
+    var banner = document.getElementById("cookie-consent");
+    var stored = localStorage.getItem("cookie-consent");
+
+    if (stored === "accepted") {
+      gtag("consent", "update", { analytics_storage: "granted" });
+      loadGA4();
+    } else if (stored === "declined") {
+      // Do nothing, stay denied
+    } else {
+      // Show banner
+      if (banner) {
+        banner.style.transform = "translateY(0)";
+      }
+    }
+
+    var acceptBtn = document.querySelector("[data-consent-accept]");
+    var declineBtn = document.querySelector("[data-consent-decline]");
+
+    if (acceptBtn) {
+      acceptBtn.addEventListener("click", function () {
+        localStorage.setItem("cookie-consent", "accepted");
+        gtag("consent", "update", { analytics_storage: "granted" });
+        loadGA4();
+        hideBanner();
+      });
+    }
+
+    if (declineBtn) {
+      declineBtn.addEventListener("click", function () {
+        localStorage.setItem("cookie-consent", "declined");
+        hideBanner();
+      });
+    }
+
+    function hideBanner() {
+      if (banner) {
+        banner.style.transform = "translateY(100%)";
+      }
+    }
+
+    function loadGA4() {
+      var id = "G-XXXXXXXXXX"; // Replace with actual GA4 ID
+      if (document.querySelector('script[src*="googletagmanager"]')) return;
+
+      var script = document.createElement("script");
+      script.src = "https://www.googletagmanager.com/gtag/js?id=" + id;
+      script.async = true;
+      document.head.appendChild(script);
+
+      gtag("js", new Date());
+      gtag("config", id, {
+        anonymize_ip: true,
+        cookie_expires: 5184000, // 2 months in seconds
+      });
+
+      // Custom events
+      setupCustomEvents();
+    }
+
+    function setupCustomEvents() {
+      // Scroll depth tracking
+      var scrollThresholds = [25, 50, 75, 100];
+      var firedThresholds = {};
+
+      window.addEventListener("scroll", function () {
+        var scrollPercent = Math.round(
+          (window.scrollY /
+            (document.documentElement.scrollHeight - window.innerHeight)) *
+            100,
+        );
+
+        scrollThresholds.forEach(function (threshold) {
+          if (scrollPercent >= threshold && !firedThresholds[threshold]) {
+            firedThresholds[threshold] = true;
+            gtag("event", "scroll_depth", {
+              percent: threshold,
+            });
+          }
+        });
+      });
+
+      // WhatsApp share tracking
+      document.querySelectorAll('a[href*="api.whatsapp.com"]').forEach(function (link) {
+        link.addEventListener("click", function () {
+          gtag("event", "whatsapp_share");
+        });
+      });
+
+      // Copy link tracking
+      document.querySelectorAll("[data-copy-btn]").forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          gtag("event", "copy_link");
+        });
+      });
+
+      // Email subscribe tracking
+      document.querySelectorAll("[data-email-form]").forEach(function (form) {
+        form.addEventListener("submit", function () {
+          gtag("event", "email_subscribe");
+        });
+      });
+    }
+  })();
+</script>

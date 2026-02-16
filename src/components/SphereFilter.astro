@@ -1,0 +1,70 @@
+---
+const spheres = [
+  { value: "all", label: "All", color: "bg-compass-green" },
+  { value: "national", label: "National", color: "bg-sphere-national" },
+  { value: "provincial", label: "Provincial", color: "bg-sphere-provincial" },
+  { value: "municipal", label: "Municipal", color: "bg-sphere-municipal" },
+];
+---
+
+<div class="flex flex-wrap gap-2 mb-6" data-testid="sphere-filter" role="group" aria-label="Filter by sphere">
+  {
+    spheres.map((sphere) => (
+      <button
+        type="button"
+        class={`px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors ${
+          sphere.value === "all"
+            ? `${sphere.color} text-white`
+            : "bg-gray-100 text-text-secondary hover:bg-gray-200"
+        }`}
+        data-sphere={sphere.value}
+        aria-pressed={sphere.value === "all" ? "true" : "false"}
+      >
+        {sphere.label}
+      </button>
+    ))
+  }
+</div>
+
+<script>
+  const filterContainer = document.querySelector('[data-testid="sphere-filter"]');
+  const buttons = filterContainer?.querySelectorAll("button");
+  const cards = document.querySelectorAll("[data-testid='series-card']");
+
+  const sphereColorMap: Record<string, string> = {
+    all: "bg-compass-green",
+    national: "bg-sphere-national",
+    provincial: "bg-sphere-provincial",
+    municipal: "bg-sphere-municipal",
+  };
+
+  buttons?.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const sphere = btn.getAttribute("data-sphere") || "all";
+
+      // Update button styles
+      buttons.forEach((b) => {
+        const bSphere = b.getAttribute("data-sphere") || "all";
+        b.setAttribute("aria-pressed", "false");
+        b.className = `px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-gray-100 text-text-secondary hover:bg-gray-200`;
+      });
+
+      btn.setAttribute("aria-pressed", "true");
+      btn.className = `px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors ${sphereColorMap[sphere]} text-white`;
+
+      // Filter cards
+      cards.forEach((card) => {
+        const cardEl = card as HTMLElement;
+        if (sphere === "all") {
+          cardEl.style.display = "";
+        } else {
+          const cardSphere = cardEl
+            .querySelector("[class*='bg-sphere-']")
+            ?.textContent?.trim()
+            .toLowerCase();
+          cardEl.style.display = cardSphere === sphere ? "" : "none";
+        }
+      });
+    });
+  });
+</script>

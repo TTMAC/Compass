@@ -1,0 +1,41 @@
+{
+  "name": "compass",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Making South Africa's governance system legible to ordinary citizens",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && npx pagefind --site dist",
+    "preview": "astro preview",
+    "lint": "eslint . --ext .ts,.astro",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run tests/unit",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:integration": "astro build && vitest run tests/integration",
+    "test:all": "astro build && vitest run",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.3.0",
+    "@astrojs/tailwind": "^6.0.2",
+    "astro": "^5.7.0",
+    "remark-directive": "^4.0.0",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.0",
+    "@typescript-eslint/eslint-plugin": "^8.30.0",
+    "@typescript-eslint/parser": "^8.30.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-astro": "^1.3.0",
+    "happy-dom": "^17.4.0",
+    "pagefind": "^1.4.0",
+    "prettier": "^3.5.0",
+    "prettier-plugin-astro": "^0.14.0",
+    "vitest": "^3.1.0"
+  }
+}
