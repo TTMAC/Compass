@@ -23,7 +23,10 @@ test.describe("Performance basics", () => {
     const errors: string[] = [];
     page.on("console", (msg) => {
       if (msg.type() === "error") {
-        errors.push(msg.text());
+        const text = msg.text();
+        // Pagefind resources may 404 in preview if not yet indexed
+        if (text.includes("pagefind")) return;
+        errors.push(text);
       }
     });
 

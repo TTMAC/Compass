@@ -2,6 +2,7 @@ interface ArticleLink {
   id: string;
   title: string;
   articleNumber: string;
+  status: string;
 }
 
 interface SeriesNav {
@@ -14,6 +15,7 @@ interface ArticleEntry {
   data: {
     title: string;
     articleNumber: string;
+    status: string;
     series: {
       prev: string | null;
       next: string | null;
@@ -50,5 +52,6 @@ function findArticleLink(
     id: article.id.replace(/\.md$/, ""),
     title: article.data.title,
     articleNumber: article.data.articleNumber,
+    status: article.data.status,
   };
 }

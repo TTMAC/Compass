@@ -1,4 +1,5 @@
 ---
+import EmailCapture from "@components/EmailCapture.astro";
 const currentYear = new Date().getFullYear();
 ---
 
@@ -53,10 +54,19 @@ const currentYear = new Date().getFullYear();
               Privacy Policy
             </a>
           </li>
+          <li>
+            <button
+              type="button"
+              class="text-sm text-text-secondary hover:text-compass-green transition-colors"
+              data-cookie-settings
+            >
+              Cookie Settings
+            </button>
+          </li>
         </ul>
       </div>
 
-      <!-- Subscribe CTA -->
+      <!-- Subscribe -->
       <div>
         <p class="font-heading font-semibold text-sm text-text-primary mb-3">
           Stay informed
@@ -64,12 +74,7 @@ const currentYear = new Date().getFullYear();
         <p class="text-sm text-text-secondary mb-3">
           Get new articles delivered to your inbox.
         </p>
-        <a
-          href="/subscribe"
-          class="inline-block px-4 py-2 bg-compass-green text-white text-sm font-heading font-semibold rounded hover:bg-opacity-90 transition-colors"
-        >
-          Subscribe
-        </a>
+        <EmailCapture location="footer" />
       </div>
     </div>
 
@@ -80,3 +85,14 @@ const currentYear = new Date().getFullYear();
     </div>
   </div>
 </footer>
+
+<script>
+  const cookieBtn = document.querySelector("[data-cookie-settings]");
+  if (cookieBtn) {
+    cookieBtn.addEventListener("click", () => {
+      if (typeof (window as any).openCookieConsent === "function") {
+        (window as any).openCookieConsent();
+      }
+    });
+  }
+</script>

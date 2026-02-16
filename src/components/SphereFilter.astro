@@ -58,10 +58,7 @@ const spheres = [
         if (sphere === "all") {
           cardEl.style.display = "";
         } else {
-          const cardSphere = cardEl
-            .querySelector("[class*='bg-sphere-']")
-            ?.textContent?.trim()
-            .toLowerCase();
+          const cardSphere = cardEl.getAttribute("data-sphere");
           cardEl.style.display = cardSphere === sphere ? "" : "none";
         }
       });

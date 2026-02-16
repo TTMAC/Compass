@@ -25,7 +25,7 @@ test.describe("Article reading journey", () => {
     await expect(page.locator("text=Article 1.1")).toBeVisible();
 
     // Sphere tag
-    await expect(page.locator("text=National")).toBeVisible();
+    await expect(page.locator("text=National").first()).toBeVisible();
 
     // Reading time
     await expect(page.locator("text=min read")).toBeVisible();
@@ -65,7 +65,7 @@ test.describe("Article reading journey", () => {
 
   test("should have email capture form", async ({ page }) => {
     await page.goto("/articles/1-1-architecture-of-the-state/");
-    const emailCapture = page.locator('[data-testid="email-capture"]');
+    const emailCapture = page.locator('[data-testid="email-capture"]').first();
     await expect(emailCapture).toBeVisible();
   });
 

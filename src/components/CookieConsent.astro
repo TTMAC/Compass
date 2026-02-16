@@ -1,4 +1,5 @@
 ---
+const ga4Id = import.meta.env.PUBLIC_GA4_ID || "";
 ---
 
 <div
@@ -7,6 +8,7 @@
   role="dialog"
   aria-label="Cookie consent"
   data-testid="cookie-consent"
+  data-ga4-id={ga4Id}
   style="max-height: 80px;"
 >
   <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
@@ -79,14 +81,27 @@
       });
     }
 
+    function showBanner() {
+      if (banner) {
+        banner.style.transform = "translateY(0)";
+      }
+    }
+
     function hideBanner() {
       if (banner) {
         banner.style.transform = "translateY(100%)";
       }
     }
 
+    // Allow re-opening from footer Cookie Settings link
+    window.openCookieConsent = function () {
+      localStorage.removeItem("cookie-consent");
+      showBanner();
+    };
+
     function loadGA4() {
-      var id = "G-XXXXXXXXXX"; // Replace with actual GA4 ID
+      var id = banner ? banner.getAttribute("data-ga4-id") : "";
+      if (!id) return;
       if (document.querySelector('script[src*="googletagmanager"]')) return;
 
       var script = document.createElement("script");

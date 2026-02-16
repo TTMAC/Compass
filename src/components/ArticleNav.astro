@@ -3,6 +3,7 @@ interface ArticleLink {
   id: string;
   title: string;
   articleNumber: string;
+  status: string;
 }
 
 interface Props {
@@ -22,31 +23,61 @@ const { prev, next } = Astro.props;
     >
       <div class="flex flex-col sm:flex-row justify-between gap-4">
         {prev ? (
-          <a
-            href={`/articles/${prev.id}`}
-            class="group flex-1 p-4 border border-gray-200 rounded-lg hover:border-compass-green transition-colors"
-          >
-            <span class="font-heading text-xs text-text-secondary">
-              Previous
-            </span>
-            <p class="font-heading text-sm font-semibold text-text-primary group-hover:text-compass-green transition-colors">
-              {prev.articleNumber}: {prev.title}
-            </p>
-          </a>
+          prev.status === "published" ? (
+            <a
+              href={`/articles/${prev.id}`}
+              class="group flex-1 p-4 border border-gray-200 rounded-lg hover:border-compass-green transition-colors"
+              data-article-nav="prev"
+              data-target-slug={prev.id}
+            >
+              <span class="font-heading text-xs text-text-secondary">
+                Previous
+              </span>
+              <p class="font-heading text-sm font-semibold text-text-primary group-hover:text-compass-green transition-colors">
+                {prev.articleNumber}: {prev.title}
+              </p>
+            </a>
+          ) : (
+            <div class="flex-1 p-4 border border-gray-200 rounded-lg opacity-60">
+              <span class="font-heading text-xs text-text-secondary">
+                Previous
+              </span>
+              <p class="font-heading text-sm font-semibold text-text-secondary">
+                {prev.articleNumber}: {prev.title}
+              </p>
+              <span class="font-heading text-[10px] text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded">
+                Coming soon
+              </span>
+            </div>
+          )
         ) : (
           <div class="flex-1" />
         )}
 
         {next ? (
-          <a
-            href={`/articles/${next.id}`}
-            class="group flex-1 p-4 border border-gray-200 rounded-lg hover:border-compass-green transition-colors text-right"
-          >
-            <span class="font-heading text-xs text-text-secondary">Next</span>
-            <p class="font-heading text-sm font-semibold text-text-primary group-hover:text-compass-green transition-colors">
-              {next.articleNumber}: {next.title}
-            </p>
-          </a>
+          next.status === "published" ? (
+            <a
+              href={`/articles/${next.id}`}
+              class="group flex-1 p-4 border border-gray-200 rounded-lg hover:border-compass-green transition-colors text-right"
+              data-article-nav="next"
+              data-target-slug={next.id}
+            >
+              <span class="font-heading text-xs text-text-secondary">Next</span>
+              <p class="font-heading text-sm font-semibold text-text-primary group-hover:text-compass-green transition-colors">
+                {next.articleNumber}: {next.title}
+              </p>
+            </a>
+          ) : (
+            <div class="flex-1 p-4 border border-gray-200 rounded-lg opacity-60 text-right">
+              <span class="font-heading text-xs text-text-secondary">Next</span>
+              <p class="font-heading text-sm font-semibold text-text-secondary">
+                {next.articleNumber}: {next.title}
+              </p>
+              <span class="font-heading text-[10px] text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded">
+                Coming soon
+              </span>
+            </div>
+          )
         ) : (
           <div class="flex-1" />
         )}
@@ -54,3 +85,20 @@ const { prev, next } = Astro.props;
     </nav>
   )
 }
+
+<script>
+  document.querySelectorAll("[data-article-nav]").forEach((link) => {
+    link.addEventListener("click", () => {
+      if (typeof (window as any).gtag === "function") {
+        const direction = link.getAttribute("data-article-nav");
+        const targetSlug = link.getAttribute("data-target-slug");
+        const currentSlug = window.location.pathname.replace(/^\/articles\//, "").replace(/\/$/, "");
+        (window as any).gtag("event", "article_navigate", {
+          from: currentSlug,
+          to: targetSlug,
+          direction: direction,
+        });
+      }
+    });
+  });
+</script>

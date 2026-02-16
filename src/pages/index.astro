@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
+import EmailCapture from "@components/EmailCapture.astro";
 import { getCollection } from "astro:content";
 
 const articles = await getCollection("articles");
@@ -100,6 +101,13 @@ const parts = [
           ))
         }
       </div>
+    </div>
+  </section>
+
+  <!-- Email CTA -->
+  <section class="py-12 md:py-16 bg-bg-secondary">
+    <div class="max-w-content mx-auto px-4 md:px-0">
+      <EmailCapture location="inline" />
     </div>
   </section>
 

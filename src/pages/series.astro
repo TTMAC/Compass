@@ -1,5 +1,6 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
+import SphereFilter from "@components/SphereFilter.astro";
 import { getCollection } from "astro:content";
 
 const articles = await getCollection("articles");
@@ -25,6 +26,21 @@ const sphereColors: Record<string, string> = {
   provincial: "bg-sphere-provincial",
   municipal: "bg-sphere-municipal",
 };
+
+const sphereLabels: Record<string, string> = {
+  national: "National",
+  provincial: "Provincial",
+  municipal: "Municipal",
+};
+
+const articlesBySphere = (["national", "provincial", "municipal"] as const).map((sphere) => ({
+  sphere,
+  label: sphereLabels[sphere],
+  color: sphereColors[sphere],
+  articles: articles
+    .filter((a) => a.data.sphere === sphere)
+    .sort((a, b) => a.data.articleNumber.localeCompare(b.data.articleNumber)),
+}));
 ---
 
 <PageLayout
@@ -34,11 +50,33 @@ const sphereColors: Record<string, string> = {
   <h1 class="font-heading text-3xl font-bold text-text-primary mb-2">
     The Series
   </h1>
-  <p class="text-text-secondary mb-10">
+  <p class="text-text-secondary mb-6">
     15 articles across 5 parts. Read in order, or jump to what interests you.
   </p>
 
-  <div class="space-y-10">
+  <!-- View toggle -->
+  <div class="flex gap-2 mb-6" role="group" aria-label="View mode">
+    <button
+      type="button"
+      class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-compass-green text-white"
+      data-view-toggle="reading-order"
+      aria-pressed="true"
+    >
+      Reading Order
+    </button>
+    <button
+      type="button"
+      class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-gray-100 text-text-secondary hover:bg-gray-200"
+      data-view-toggle="by-sphere"
+      aria-pressed="false"
+    >
+      By Sphere
+    </button>
+  </div>
+
+  <SphereFilter />
+
+  <div class="space-y-10" id="reading-order-view">
     {
       articlesByPart.map(({ part, title, articles }) => (
         <section>
@@ -49,6 +87,7 @@ const sphereColors: Record<string, string> = {
           {articles.length > 0 ? (
             <div class="space-y-3">
               {articles.map((article) => (
+                <div data-testid="series-card" data-sphere={article.data.sphere}>
                 <a
                   href={
                     article.data.status === "published"
@@ -90,6 +129,7 @@ const sphereColors: Record<string, string> = {
                     )}
                   </div>
                 </a>
+                </div>
               ))}
             </div>
           ) : (
@@ -101,4 +141,98 @@ const sphereColors: Record<string, string> = {
       ))
     }
   </div>
+
+  <!-- By Sphere view (hidden by default) -->
+  <div class="space-y-10 hidden" id="by-sphere-view">
+    {
+      articlesBySphere.map(({ sphere, label, color, articles }) => (
+        <section>
+          <h2 class="font-heading text-xl font-bold text-text-primary mb-4 flex items-center gap-2">
+            <span class={`inline-block w-3 h-3 rounded-full ${color}`}></span>
+            {label}
+          </h2>
+
+          {articles.length > 0 ? (
+            <div class="space-y-3">
+              {articles.map((article) => (
+                <a
+                  href={
+                    article.data.status === "published"
+                      ? `/articles/${article.id.replace(/\.md$/, "")}`
+                      : undefined
+                  }
+                  class={`block border border-gray-200 rounded-lg p-4 transition-colors ${
+                    article.data.status === "published"
+                      ? "hover:border-compass-green cursor-pointer"
+                      : "opacity-60 cursor-default"
+                  }`}
+                >
+                  <div class="flex items-start justify-between gap-4">
+                    <div>
+                      <div class="flex items-center gap-2 mb-1">
+                        <span class="font-heading text-xs text-text-secondary">
+                          {article.data.articleNumber}
+                        </span>
+                        <span class="font-heading text-xs text-text-secondary">
+                          Part {article.data.part}
+                        </span>
+                        {article.data.status === "coming-soon" && (
+                          <span class="text-[10px] font-heading text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded">
+                            Coming soon
+                          </span>
+                        )}
+                      </div>
+                      <h3 class="font-heading text-base font-semibold text-text-primary">
+                        {article.data.title}
+                      </h3>
+                    </div>
+                    {article.data.status === "published" && (
+                      <span class="font-heading text-xs text-text-secondary whitespace-nowrap">
+                        {article.data.readingTime} min
+                      </span>
+                    )}
+                  </div>
+                </a>
+              ))}
+            </div>
+          ) : (
+            <p class="text-sm text-text-secondary italic">
+              Articles coming soon.
+            </p>
+          )}
+        </section>
+      ))
+    }
+  </div>
+
+  <script>
+    const toggleButtons = document.querySelectorAll("[data-view-toggle]");
+    const readingOrderView = document.getElementById("reading-order-view");
+    const bySphereView = document.getElementById("by-sphere-view");
+    const sphereFilter = document.querySelector('[data-testid="sphere-filter"]');
+
+    toggleButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const view = btn.getAttribute("data-view-toggle");
+
+        toggleButtons.forEach((b) => {
+          b.setAttribute("aria-pressed", "false");
+          b.className = "px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-gray-100 text-text-secondary hover:bg-gray-200";
+        });
+
+        btn.setAttribute("aria-pressed", "true");
+        btn.className = "px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-compass-green text-white";
+
+        if (view === "reading-order") {
+          readingOrderView?.classList.remove("hidden");
+          bySphereView?.classList.add("hidden");
+          (sphereFilter as HTMLElement)?.style.setProperty("display", "");
+        } else {
+          readingOrderView?.classList.add("hidden");
+          bySphereView?.classList.remove("hidden");
+          (sphereFilter as HTMLElement)?.style.setProperty("display", "none");
+        }
+      });
+    });
+  </script>
 </PageLayout>

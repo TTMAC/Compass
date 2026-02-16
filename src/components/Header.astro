@@ -37,6 +37,9 @@ const currentPath = Astro.url.pathname;
           </li>
         ))
       }
+      <li>
+        <div id="search-desktop" class="w-48"></div>
+      </li>
     </ul>
 
     <!-- Mobile hamburger -->
@@ -69,27 +72,32 @@ const currentPath = Astro.url.pathname;
     data-mobile-menu
     aria-hidden="true"
   >
-    <ul class="px-4 py-4 border-t border-gray-100 space-y-1" role="list">
-      {
-        navLinks.map((link) => (
-          <li>
-            <a
-              href={link.href}
-              class={`block py-3 px-3 font-heading text-sm rounded transition-colors hover:bg-compass-green-light hover:text-compass-green ${
-                currentPath === link.href
-                  ? "text-compass-green font-semibold bg-compass-green-light"
-                  : "text-text-secondary"
-              }`}
-              aria-current={currentPath === link.href ? "page" : undefined}
-            >
-              {link.label}
-            </a>
-          </li>
-        ))
-      }
-    </ul>
+    <div class="px-4 py-4 border-t border-gray-100 space-y-1">
+      <div id="search-mobile" class="mb-3"></div>
+      <ul class="space-y-1" role="list">
+        {
+          navLinks.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                class={`block py-3 px-3 font-heading text-sm rounded transition-colors hover:bg-compass-green-light hover:text-compass-green ${
+                  currentPath === link.href
+                    ? "text-compass-green font-semibold bg-compass-green-light"
+                    : "text-text-secondary"
+                }`}
+                aria-current={currentPath === link.href ? "page" : undefined}
+              >
+                {link.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
   </div>
 </header>
+
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
 
 <script>
   const toggle = document.querySelector("[data-menu-toggle]");
@@ -113,4 +121,27 @@ const currentPath = Astro.url.pathname;
       }
     });
   }
+
+  // Load Pagefind UI on-demand
+  async function initPagefind() {
+    const script = document.createElement("script");
+    script.src = "/pagefind/pagefind-ui.js";
+    script.onload = () => {
+      const PagefindUI = (window as any).PagefindUI;
+      if (!PagefindUI) return;
+
+      const desktopEl = document.getElementById("search-desktop");
+      const mobileEl = document.getElementById("search-mobile");
+
+      if (desktopEl) {
+        new PagefindUI({ element: desktopEl, showSubResults: false, showImages: false });
+      }
+      if (mobileEl) {
+        new PagefindUI({ element: mobileEl, showSubResults: false, showImages: false });
+      }
+    };
+    document.head.appendChild(script);
+  }
+
+  initPagefind();
 </script>
