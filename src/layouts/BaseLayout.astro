@@ -76,6 +76,7 @@ const fullOgImage = ogImage.startsWith("http")
     {
       jsonLd && (
         <script
+          is:inline
           type="application/ld+json"
           set:html={JSON.stringify(jsonLd)}
         />
