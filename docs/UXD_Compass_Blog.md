@@ -146,7 +146,7 @@ This is a 0→1 UX document. Use it when:
 
 | Goal Category | Specific Goal | Metric | MVP Target (Months 3–6) | V1.0 Target (Months 7–12) |
 |---------------|--------------|--------|--------------------------|---------------------------|
-| Acquisition | Unique monthly readers | Plausible unique visitors | 1,000 | 10,000 |
+| Acquisition | Unique monthly readers | GA4 unique users (after consent) | 1,000 | 10,000 |
 | Activation | Article engagement | Average time on page (long-form) | 8 minutes | 8 minutes |
 | Retention | Returning visitors | Returning visitor rate | — | 40% |
 | Referral | WhatsApp distribution | WhatsApp referral share of traffic | 30% | 30% |
@@ -162,7 +162,7 @@ This is a 0→1 UX document. Use it when:
 | Reader can identify which sphere of government is responsible for a specific service | Validates core value proposition (MRD H1) | Post-launch reader survey; qualitative feedback | 80% of surveyed readers report improved understanding | 90% |
 | Reader shares article with peers | Organic distribution via WhatsApp (MRD H3) | WhatsApp share button clicks; UTM-tagged referral traffic | 30% of traffic from WhatsApp | 30% |
 | Reader subscribes to email notifications | Retention and trust signal (MRD H6) | Email subscriptions via Netlify Forms | 500 subscribers | 2,000 subscribers |
-| Reader navigates to primary data sources (AGSA, Treasury, DPME) | Evidence of action-oriented engagement | Outbound link click events (Plausible custom event) | Tracking active | Baseline established |
+| Reader navigates to primary data sources (AGSA, Treasury, DPME) | Evidence of action-oriented engagement | Outbound link click events (GA4 custom event) | Tracking active | Baseline established |
 | Reader completes multiple articles | Deep engagement with structural content (MRD H2) | North Star metric: 2+ articles, 8+ min | 100/month | 1,000/month |
 
 ### 2.3 Brand Definition
@@ -248,7 +248,7 @@ Acceptance Criteria:
 - Given a reader on mobile, when they tap the WhatsApp share button, then WhatsApp opens with a pre-filled message containing the article link
 - Given a user receiving a Compass link in a WhatsApp group, when WhatsApp renders the link preview, then they see a branded OG image with the article title and a compelling description
 
-Outcome Measurement: WhatsApp share button click events (Plausible custom event); WhatsApp referral traffic share (target: 30%)
+Outcome Measurement: WhatsApp share button click events (GA4 custom event); WhatsApp referral traffic share (target: 30%)
 
 ---
 
@@ -271,7 +271,7 @@ Acceptance Criteria:
 - Given a reader who enters a valid email, when they submit, then they see a confirmation message within 2 seconds and receive a confirmation email within 60 seconds
 - Given a reader on mobile, when they encounter the email form, then the input field and button are thumb-friendly (min 48px tap target)
 
-Outcome Measurement: Email form submission events by location (Plausible custom event); subscriber count; confirmation rate
+Outcome Measurement: Email form submission events by location (GA4 custom event); subscriber count; confirmation rate
 
 ---
 
@@ -436,7 +436,7 @@ Articles are organised along two dimensions that allow flexible navigation:
 | **Immediate feedback** | Users know their actions registered | Button press states render within 100ms. Email form success replaces form inline. "Copied!" confirmation on link copy. Progress bar updates on scroll | Accessible |
 | **Minimal decisions** | Reduce cognitive load — the reader came to learn about governance, not to navigate a complex UI | Four primary nav items. One email field. One share button. Sequential article navigation (prev/next). No configuration, no settings, no accounts | Accessible, Empowering |
 | **Data costs money** | Every byte the reader downloads costs them real money (≈R2/MB on prepaid). Performance is a UX principle, not just a technical requirement | Total page weight under 200KB. Zero client-side JS by default (Astro static HTML). Font payload under 80KB. No images in article body for MVP | Trustworthy (respect for reader's resources) |
-| **Trust through restraint** | In a low-trust environment, what you don't do communicates as loudly as what you do | No tracking cookies (Plausible is cookie-less). No consent banners. No newsletter pop-ups. No social media embeds. No third-party scripts beyond analytics | Trustworthy, Non-partisan |
+| **Trust through restraint** | In a low-trust environment, what you don't do communicates as loudly as what you do | GA4 with consent mode v2 — no tracking until the reader explicitly grants consent. Lightweight cookie consent banner (≤ 3KB JS) is the only interruption. No newsletter pop-ups. No social media embeds. No third-party scripts beyond GA4 | Trustworthy, Non-partisan |
 
 #### 4.2.2 User Flow Documentation
 
@@ -822,7 +822,7 @@ Since Tshepo Machele is both designer and developer, this section serves as a se
 - Tailwind configuration implements the colour palette (§6.1.1) and typography scale (§6.1.2)
 - Responsive breakpoints match §5.4 and are tested on Chrome DevTools (Galaxy S20, iPhone 12, iPad)
 - All interactive elements have focus states, hover states, and active states
-- Plausible custom events match PRD Appendix B (scroll depth, share clicks, email submissions, outbound links, article navigation)
+- GA4 custom events match PRD Appendix B (scroll depth, share clicks, email submissions, outbound links, article navigation)
 - OG images generated per article via Python script (PRD Appendix C)
 - `prefers-reduced-motion` respected on reading progress bar
 - `font-display: swap` set on all `@font-face` declarations
@@ -860,7 +860,7 @@ Since Tshepo Machele is both designer and developer, this section serves as a se
 | DPME | Department of Planning, Monitoring and Evaluation — responsible for government performance tracking |
 | MECE | Mutually Exclusive, Collectively Exhaustive — a structuring principle ensuring no gaps or overlaps |
 | North Star Metric | The single metric that best captures the core value Compass delivers to readers |
-| Plausible | Privacy-respecting, cookie-less web analytics platform used by Compass |
+| GA4 | Google Analytics 4 — analytics platform used by Compass with consent mode v2, anonymised IP, and 2-month data retention |
 | Astro | Static site generator used to build Compass — renders HTML at build time with minimal client-side JavaScript |
 
 ### Appendix C: Document Maintenance

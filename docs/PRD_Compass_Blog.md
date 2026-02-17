@@ -198,7 +198,7 @@ Both dimensions are displayed on the series overview page and in article metadat
 | **Hosting & CDN** | Netlify | Free tier covers expected traffic; automatic deploys from Git; built-in form handling (email capture); edge CDN for South African readers; Tshepo has existing familiarity |
 | **Content format** | Markdown (.md) with YAML frontmatter | Simple authoring workflow; version-controlled content; Astro content collections provide type-safe schema validation |
 | **Styling** | Tailwind CSS (via Astro integration) | Utility-first approach speeds development; purged CSS results in tiny bundles; easy to maintain consistent design system |
-| **Analytics** | Plausible Analytics (self-hosted or cloud) | Privacy-respecting (no cookies, GDPR-compliant without consent banners); lightweight script (~1KB); tracks page views, time on page, referral sources, UTM parameters; South African readers won't see cookie consent friction |
+| **Analytics** | Google Analytics 4 (GA4) with consent banner | Industry-standard analytics with comprehensive event model and attribution; cookie consent banner required (implemented as lightweight inline notice ≤ 3KB JS); tracks page views, time on page, referral sources, UTM parameters; consent mode v2 defaults `analytics_storage` to "denied" until reader grants consent; anonymised IP; 2-month data retention |
 | **Email** | Netlify Forms → Zapier/webhook → Email provider (Buttondown or Mailchimp free tier) | Netlify Forms handles capture with zero client-side JS; webhook triggers email provider for confirmation and future notifications; Buttondown is lightweight and free for under 100 subscribers, Mailchimp free up to 500 |
 | **Search** | Pagefind (Astro-compatible) | Static search index generated at build time; no server required; works offline; fast and lightweight |
 | **Version control** | Git (GitHub) | Standard; Netlify auto-deploys on push to main |
@@ -449,7 +449,7 @@ Each entry includes: institution name, what they publish, direct URL, and a one-
 
 ### 6.7 Privacy Page (`/privacy`)
 
-**Content:** Plain-language privacy policy covering: what analytics data is collected (page views, referral source, country — via Plausible, no cookies, no personal data); what email data is collected (email address only, stored with email provider); how data is used (article notifications only); no data sold or shared; contact for data deletion requests.
+**Content:** Plain-language privacy policy covering: what analytics data is collected (page views, referral source, country — via Google Analytics 4, with cookie consent required before tracking begins, anonymised IP, 2-month data retention); what email data is collected (email address only, stored with email provider); how data is used (article notifications only); no data sold or shared; contact for data deletion requests.
 
 ---
 
@@ -567,20 +567,20 @@ Content is authored in Markdown files within the `src/content/articles/` directo
 
 ### 9.1 Analytics Platform
 
-**Plausible Analytics** (cloud plan at ~$9/month or self-hosted). Selected because: no cookies required (eliminates consent banner friction for SA readers on mobile); lightweight script (~1KB, negligible data cost); tracks all metrics needed; respects reader privacy (aligns with trust-building design philosophy); supports UTM parameter tracking (essential for WhatsApp attribution); provides referral source breakdown.
+**Google Analytics 4 (GA4)** with consent banner. Selected because: industry-standard analytics with comprehensive event model and robust attribution; free tier covers expected traffic; supports UTM parameter tracking (essential for WhatsApp attribution); provides referral source breakdown and real-time reporting. A lightweight cookie consent banner (≤ 3KB JS) is required — implemented as a non-intrusive inline notice at the bottom of the viewport. GA4 consent mode v2 defaults `analytics_storage` to "denied" until the reader explicitly grants consent, ensuring no tracking occurs without permission. IP anonymisation is enabled and data retention is set to 2 months to maintain reader trust.
 
 ### 9.2 Tracked Events & Metrics
 
 | Metric | Implementation | Maps to MRD Hypothesis |
 |--------|---------------|----------------------|
-| **Page views** | Automatic (Plausible default) | H2 (readership) |
-| **Unique visitors** | Automatic (Plausible default, cookie-less estimation) | MRD §1.4 (10K readers) |
-| **Time on page** | Automatic (Plausible default) | MRD §1.4 (8-min target); H2 |
+| **Page views** | Automatic (GA4 default, after consent) | H2 (readership) |
+| **Unique visitors** | Automatic (GA4 default, after consent) | MRD §1.4 (10K readers) |
+| **Time on page** | Automatic (GA4 engagement time) | MRD §1.4 (8-min target); H2 |
 | **Referral source** | Automatic + UTM parameters | H3 (WhatsApp distribution) |
 | **Scroll depth** | Custom event: fire at 25%, 50%, 75%, 100% scroll | H2 (article completion) |
 | **WhatsApp share clicks** | Custom event on WhatsApp button click | H3 |
 | **Copy link clicks** | Custom event on copy-link button click | H3 |
-| **Email form submissions** | Tracked via Netlify Forms + custom Plausible event | MRD §1.4 (2K subscribers) |
+| **Email form submissions** | Tracked via Netlify Forms + custom GA4 event | MRD §1.4 (2K subscribers) |
 | **Article-to-article navigation** | Custom event on prev/next click | Validates sequential reading |
 | **External link clicks (data sources)** | Custom event on outbound clicks to AGSA, NT, DPME | Validates US-5 and MRD Outcome #2 |
 
@@ -598,7 +598,7 @@ The email notification links will use:
 ?utm_source=email&utm_medium=notification&utm_campaign=article-[slug]
 ```
 
-Social sharing links (LinkedIn, X) will use appropriate source tags. This enables Plausible to report on channel-level acquisition, directly validating H3.
+Social sharing links (LinkedIn, X) will use appropriate source tags. This enables GA4 to report on channel-level acquisition, directly validating H3.
 
 ---
 
@@ -687,7 +687,7 @@ The target reader is on a mid-range Android smartphone (Samsung Galaxy A15 or si
 - **Font subsetting.** Fonts are subsetted to Latin characters only. Variable fonts are used where possible to serve one file instead of multiple weights.
 - **No images in article body (MVP).** If images are added later, they must use `<img loading="lazy">`, modern formats (WebP/AVIF with fallback), and explicit `width`/`height` attributes (to prevent CLS).
 - **CSS purging.** Tailwind's purge removes unused utility classes. Final CSS payload should be well under 15KB.
-- **Preloading.** Preload the body font and critical CSS. Preconnect to analytics domain (Plausible).
+- **Preloading.** Preload the body font and critical CSS. Preconnect to `www.googletagmanager.com`.
 
 ### 11.3 Data Cost Estimate
 
@@ -813,7 +813,7 @@ WhatsApp caches OG data aggressively. To force cache refresh after updates, appe
 | 1–2 | Astro project scaffold; Tailwind configuration; base layout components (Header, Footer, BaseLayout); Netlify deployment pipeline; domain procurement and DNS |
 | 3–4 | ArticleLayout component; ReadingProgress component; ShareButtons; EmailCapture; TableOfContents; Callout components; all page templates (Home, Series, About, Data Sources, Subscribe, Privacy) |
 | 5–6 | Design polish: typography tuning, colour implementation, responsive testing on Android devices (Chrome DevTools + real device if available), Lighthouse audit, accessibility testing |
-| 7 | Analytics integration (Plausible); email pipeline setup (Netlify Forms → Buttondown); OG image generation script; sitemap and robots.txt |
+| 7 | Analytics integration (GA4 with consent banner); email pipeline setup (Netlify Forms → Buttondown); OG image generation script; sitemap and robots.txt |
 | 8 | Final QA: all links tested, forms tested, analytics verified, performance budget verified, mobile UX review |
 
 ### 15.2 Phase 1: MVP Launch — Part 1 (Weeks 9–16)
@@ -905,33 +905,33 @@ seo:
 ---
 ```
 
-### Appendix B: Plausible Custom Events Reference
+### Appendix B: GA4 Custom Events Reference
 
 ```javascript
 // Reading progress milestones (scroll depth)
-plausible('Scroll', { props: { depth: '25%', article: slug } });
-plausible('Scroll', { props: { depth: '50%', article: slug } });
-plausible('Scroll', { props: { depth: '75%', article: slug } });
-plausible('Scroll', { props: { depth: '100%', article: slug } });
+gtag('event', 'scroll_depth', { depth_percentage: '25', article_slug: slug });
+gtag('event', 'scroll_depth', { depth_percentage: '50', article_slug: slug });
+gtag('event', 'scroll_depth', { depth_percentage: '75', article_slug: slug });
+gtag('event', 'scroll_depth', { depth_percentage: '100', article_slug: slug });
 
 // Share actions
-plausible('Share', { props: { method: 'whatsapp', article: slug } });
-plausible('Share', { props: { method: 'copy-link', article: slug } });
+gtag('event', 'share_whatsapp', { article_slug: slug });
+gtag('event', 'share_copy_link', { article_slug: slug });
 
 // Email subscription
-plausible('Subscribe', { props: { location: 'inline' | 'footer' | 'header' } });
+gtag('event', 'email_subscribe', { form_location: 'inline' | 'footer' | 'header' });
 
 // Outbound data source clicks
-plausible('Outbound', {
-  props: {
-    destination: 'agsa' | 'treasury' | 'dpme' | 'statssa',
-    article: slug
-  }
+gtag('event', 'outbound_click', {
+  destination: 'agsa' | 'treasury' | 'dpme' | 'statssa',
+  article_slug: slug
 });
 
 // Article navigation
-plausible('Navigate', {
-  props: { direction: 'next' | 'prev', from: slug, to: targetSlug }
+gtag('event', 'article_nav', {
+  direction: 'next' | 'prev',
+  from_slug: slug,
+  to_slug: targetSlug
 });
 ```
 
