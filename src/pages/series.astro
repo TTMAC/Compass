@@ -25,15 +25,17 @@ const sphereColors: Record<string, string> = {
   national: "bg-sphere-national",
   provincial: "bg-sphere-provincial",
   municipal: "bg-sphere-municipal",
+  all: "bg-compass-green",
 };
 
 const sphereLabels: Record<string, string> = {
   national: "National",
   provincial: "Provincial",
   municipal: "Municipal",
+  all: "All Spheres",
 };
 
-const articlesBySphere = (["national", "provincial", "municipal"] as const).map((sphere) => ({
+const articlesBySphere = (["all", "national", "provincial", "municipal"] as const).map((sphere) => ({
   sphere,
   label: sphereLabels[sphere],
   color: sphereColors[sphere],

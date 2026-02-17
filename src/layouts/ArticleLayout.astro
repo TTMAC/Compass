@@ -6,7 +6,7 @@ interface Props {
   subtitle: string;
   description: string;
   articleNumber: string;
-  sphere: "national" | "provincial" | "municipal";
+  sphere: "national" | "provincial" | "municipal" | "all";
   publishDate: Date;
   readingTime: number;
   canonicalUrl?: string;
@@ -33,6 +33,7 @@ const sphereColors: Record<string, string> = {
   national: "bg-sphere-national",
   provincial: "bg-sphere-provincial",
   municipal: "bg-sphere-municipal",
+  all: "bg-compass-green",
 };
 
 const formattedDate = publishDate.toLocaleDateString("en-ZA", {

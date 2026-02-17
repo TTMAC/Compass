@@ -1,6 +1,6 @@
 import { z, defineCollection } from "astro:content";
 
-const sphereEnum = z.enum(["national", "provincial", "municipal"]);
+const sphereEnum = z.enum(["national", "provincial", "municipal", "all"]);
 
 const articles = defineCollection({
   type: "content",
