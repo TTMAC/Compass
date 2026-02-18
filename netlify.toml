@@ -3,6 +3,11 @@
   publish = "dist"
 
 [[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+
+[[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"

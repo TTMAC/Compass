@@ -20,8 +20,8 @@ const articles = defineCollection({
     readingTime: z.number().int().positive(),
     status: z.enum(["published", "draft", "coming-soon"]),
     series: z.object({
-      prev: z.string().nullable().default(null),
-      next: z.string().nullable().default(null),
+      prev: z.preprocess((v) => (v === "" ? null : v), z.string().nullable().default(null)),
+      next: z.preprocess((v) => (v === "" ? null : v), z.string().nullable().default(null)),
     }),
     seo: z.object({
       ogImage: z.string().optional(),
