@@ -4,6 +4,20 @@
 
 This document contains a structured, MECE (Mutually Exclusive, Collectively Exhaustive) set of article titles and generation prompts designed to produce a comprehensive series explaining South Africa's political system. The series is organised into four parts: a foundational overview, followed by dedicated sections on National, Provincial, and Municipal government. Each prompt is engineered to produce articles of at least 5,000 words in an accessible, O'Reilly-style conversational tone for a general public audience.
 
+### Mandatory Expert and Citation Verification Protocol
+
+Every article in this series includes 2–3 expert anecdotes attributed to named South African scholars or practitioners. The following verification protocol is **mandatory and zero-tolerance** — no article proceeds to publication without completing it:
+
+1. **Expert identity verification:** Before citing any named expert, verify they are a real person at the stated institution via at least two independent sources: Google Scholar profile, institutional website, ORCID, Semantic Scholar, or OpenAlex. Confirm they have published in the specific domain being cited — a real scholar in an unrelated field does not qualify.
+
+2. **Publication verification:** Every paraphrased insight or analysis attributed to an expert must be grounded in their actual published research. Cite specific, verifiable publications (journal articles, book chapters, institutional reports) with enough detail to locate them (title, journal/publisher, year). Never fabricate publication titles, journal names, or institutional affiliations.
+
+3. **Fallback to institutional sources:** If an expert cannot be verified through at least two independent sources, replace the expert block with analysis citing a verified institutional source — PARI, SACN, AGSA, Parliamentary Monitoring Group, NEEDU, National Treasury, COGTA, Forum of Federations, or equivalent. Institutional sources are always verifiable and preferred over unverifiable individual attributions.
+
+4. **Resources section:** Every article must conclude with a Resources section listing all publications and institutional sources cited in expert blocks, with links to verifiable URLs (Google Scholar profiles, institutional websites, journal pages).
+
+5. **Quality control instruction:** AI-generated or fabricated expert names, credentials, institutional affiliations, or quotes are strictly prohibited. This rule exists because large language models can generate plausible-sounding but entirely fictitious scholars, publications, and institutional positions. The verification protocol above is specifically designed to catch and prevent this failure mode. When in doubt, use institutional sources.
+
 ---
 
 ## PART 1: FOUNDATIONAL FRAMEWORK

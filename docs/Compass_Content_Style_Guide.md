@@ -107,6 +107,8 @@ Think of the Compass voice as a knowledgeable friend who happens to be a governa
 
 **Expert anecdotes:** Every article includes two to three short anecdotes from named South African experts — M&E practitioners, public policy scholars, governance researchers from institutions like DPME, SAMEA, Twende Mbele, PARI, HSRC, or universities (Wits, UCT, Stellenbosch). These ground the analysis in practitioner reality.
 
+**Expert and citation verification (mandatory):** Every named expert cited in an article must be verified as a real person with published research in the relevant field before publication. Verification requires: (1) confirming the person exists at the stated institution via institutional website, Google Scholar profile, or academic database (ORCID, Semantic Scholar, OpenAlex); (2) confirming they have published in the domain being cited, not merely in a tangentially related field; and (3) ensuring that any paraphrased analysis accurately represents their documented research positions, with references to specific, verifiable publications. AI-generated or fabricated expert names, credentials, or quotes are strictly prohibited — this is a zero-tolerance rule. When direct quotes cannot be sourced from published material, reframe as paraphrased analysis of the expert's published research with links to verifiable publications. If a cited expert cannot be verified through at least two independent sources, replace with analysis citing a verified institutional source (PARI, SACN, AGSA, PMG, NEEDU, National Treasury, or equivalent). Every expert block must include a Resources section at the end of the article linking to the real publications or institutional sources referenced.
+
 **Practical toolkit ending:** Every article concludes with a practical section: a mental model, a checklist, a set of data sources with guidance on what to look for, or a complaint mechanism walkthrough. The reader must leave with something they can use immediately.
 
 **Cross-references:** Articles reference each other where relevant. Use the article title as the link text: "As we explored in Following the Money, the equitable share formula creates winners and losers among provinces."
@@ -313,6 +315,9 @@ Before any article is published, verify every item:
 | Does the article use "you" to address the reader throughout? | |
 | Are there zero bullet points in the article body prose? | |
 | Are there at least two to three named expert anecdotes? | |
+| Has every named expert been verified as a real person with published research in the cited field? (Google Scholar, institutional pages, ORCID, or academic databases — minimum two independent sources) | |
+| Are all expert insights paraphrased from verifiable published research with specific publications cited? (No fabricated quotes — zero tolerance) | |
+| Does the article include a Resources section linking to verifiable publications and institutional sources cited in expert blocks? | |
 | Does the article end with a practical toolkit / framework section? | |
 | Is every substantive claim supported by a specific data point or source? | |
 | Are all technical terms defined on first use? | |
