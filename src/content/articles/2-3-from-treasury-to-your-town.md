@@ -10,7 +10,7 @@ readingTime: 33
 status: "draft"
 series:
   prev: "2-2-the-budget-process"
-  next: "3-1-parliament-and-national-oversight"
+  next: "3-1-the-awkward-middle-child"
 seo:
   ogImage: "/og/2-3-from-treasury-to-your-town.png"
   keywords:

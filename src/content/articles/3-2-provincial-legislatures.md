@@ -9,7 +9,7 @@ publishDate: 2025-08-15
 readingTime: 9
 status: "coming-soon"
 series:
-  prev: "3-1-parliament-and-national-oversight"
+  prev: "3-1-the-awkward-middle-child"
   next: "3-3-municipal-councils"
 seo:
   ogImage: "/og/3-2-provincial-legislatures.png"
