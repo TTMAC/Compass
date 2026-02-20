@@ -10,7 +10,7 @@ readingTime: 38
 status: "draft"
 series:
   prev: "2-3-from-treasury-to-your-town"
-  next: "3-2-provincial-legislatures"
+  next: "3-2-health-and-education-at-the-provincial-coal-face"
 seo:
   ogImage: "/og/3-1-the-awkward-middle-child.png"
   keywords:

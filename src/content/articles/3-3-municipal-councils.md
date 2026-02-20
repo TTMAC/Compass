@@ -9,7 +9,7 @@ publishDate: 2025-09-15
 readingTime: 9
 status: "coming-soon"
 series:
-  prev: "3-2-provincial-legislatures"
+  prev: "3-2-health-and-education-at-the-provincial-coal-face"
   next: "4-1-your-right-to-participate"
 seo:
   ogImage: "/og/3-3-municipal-councils.png"
