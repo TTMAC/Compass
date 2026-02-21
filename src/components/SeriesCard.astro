@@ -4,7 +4,7 @@ interface Props {
   title: string;
   sphere: ("national" | "provincial" | "municipal" | "all")[];
   readingTime: number;
-  status: "published" | "draft" | "coming-soon";
+  status: "published" | "draft" | "coming-soon" | "scheduled";
   slug: string;
 }
 
@@ -43,7 +43,7 @@ const isClickable = status === "published";
           </span>
         ))}
         {
-          status === "coming-soon" && (
+          (status === "coming-soon" || status === "scheduled") && (
             <span class="text-[10px] font-heading text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded">
               Coming soon
             </span>

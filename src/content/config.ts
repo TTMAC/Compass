@@ -19,8 +19,9 @@ const articles = defineCollection({
       .min(150, "Description must be at least 150 characters for SEO")
       .max(160, "Description must be at most 160 characters for SEO"),
     publishDate: z.coerce.date(),
+    scheduledPublishDate: z.coerce.date().optional(),
     readingTime: z.number().int().positive(),
-    status: z.enum(["published", "draft", "coming-soon"]),
+    status: z.enum(["published", "draft", "coming-soon", "scheduled"]),
     series: z.object({
       prev: z.preprocess((v) => (v === "" ? null : v), z.string().nullable().default(null)),
       next: z.preprocess((v) => (v === "" ? null : v), z.string().nullable().default(null)),
@@ -30,7 +31,10 @@ const articles = defineCollection({
       canonicalUrl: z.string().url().optional(),
       keywords: z.array(z.string()).default([]),
     }),
-  }),
+  }).refine(
+    (data) => data.status !== "scheduled" || data.scheduledPublishDate !== undefined,
+    { message: "scheduledPublishDate is required when status is 'scheduled'", path: ["scheduledPublishDate"] },
+  ),
 });
 
 export const collections = { articles };

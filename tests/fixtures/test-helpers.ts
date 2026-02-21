@@ -6,8 +6,9 @@ interface ArticleData {
   sphere: "national" | "provincial" | "municipal" | "all" | ("national" | "provincial" | "municipal" | "all")[];
   description: string;
   publishDate: Date | string;
+  scheduledPublishDate?: Date | string;
   readingTime: number;
-  status: "published" | "draft" | "coming-soon";
+  status: "published" | "draft" | "coming-soon" | "scheduled";
   series: {
     prev: string | null;
     next: string | null;
@@ -91,6 +92,11 @@ export class ArticleBuilder {
 
   withSeries(prev: string | null, next: string | null): this {
     this.data.series = { prev, next };
+    return this;
+  }
+
+  withScheduledPublishDate(date: Date | string): this {
+    this.data.scheduledPublishDate = date;
     return this;
   }
 

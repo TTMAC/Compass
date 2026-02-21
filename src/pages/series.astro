@@ -115,7 +115,7 @@ const articlesBySphere = (["all", "national", "provincial", "municipal"] as cons
                             {s.charAt(0).toUpperCase() + s.slice(1)}
                           </span>
                         ))}
-                        {article.data.status === "coming-soon" && (
+                        {(article.data.status === "coming-soon" || article.data.status === "scheduled") && (
                           <span class="text-[10px] font-heading text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded">
                             Coming soon
                           </span>
@@ -179,7 +179,7 @@ const articlesBySphere = (["all", "national", "provincial", "municipal"] as cons
                         <span class="font-heading text-xs text-text-secondary">
                           Part {article.data.part}
                         </span>
-                        {article.data.status === "coming-soon" && (
+                        {(article.data.status === "coming-soon" || article.data.status === "scheduled") && (
                           <span class="text-[10px] font-heading text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded">
                             Coming soon
                           </span>

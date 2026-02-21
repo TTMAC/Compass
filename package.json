@@ -6,7 +6,7 @@
   "description": "Making South Africa's governance system legible to ordinary citizens",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && npx pagefind --site dist",
+    "build": "node scripts/scheduled-publish.mjs && astro build && npx pagefind --site dist",
     "preview": "astro preview",
     "lint": "eslint . --ext .ts,.astro",
     "format": "prettier --write .",

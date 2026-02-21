@@ -25,6 +25,9 @@ collections:
       - label: "Coming Soon"
         field: status
         pattern: "coming-soon"
+      - label: "Scheduled"
+        field: status
+        pattern: "scheduled"
     view_groups:
       - label: "Part"
         field: part
@@ -95,8 +98,18 @@ collections:
           - { label: "Published", value: "published" }
           - { label: "Draft", value: "draft" }
           - { label: "Coming Soon", value: "coming-soon" }
+          - { label: "Scheduled", value: "scheduled" }
         default: "draft"
         required: true
+
+      - label: "Scheduled Publish Date"
+        name: "scheduledPublishDate"
+        widget: "datetime"
+        date_format: "DD MM YYYY"
+        time_format: "HH:mm"
+        format: "YYYY-MM-DDTHH:mm:ss.000Z"
+        required: false
+        hint: "Set date and time for scheduled publishing. Only used when status is 'Scheduled'. Times are approximate (checked hourly)."
 
       - label: "Series"
         name: "series"

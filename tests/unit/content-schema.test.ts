@@ -20,8 +20,9 @@ const articleSchema = z.object({
     .min(150, "Description must be at least 150 characters for SEO")
     .max(160, "Description must be at most 160 characters for SEO"),
   publishDate: z.coerce.date(),
+  scheduledPublishDate: z.coerce.date().optional(),
   readingTime: z.number().int().positive(),
-  status: z.enum(["published", "draft", "coming-soon"]),
+  status: z.enum(["published", "draft", "coming-soon", "scheduled"]),
   series: z.object({
     prev: z.string().nullable().default(null),
     next: z.string().nullable().default(null),
@@ -31,7 +32,10 @@ const articleSchema = z.object({
     canonicalUrl: z.string().url().optional(),
     keywords: z.array(z.string()).default([]),
   }),
-});
+}).refine(
+  (data) => data.status !== "scheduled" || data.scheduledPublishDate !== undefined,
+  { message: "scheduledPublishDate is required when status is 'scheduled'", path: ["scheduledPublishDate"] },
+);
 
 describe("Article Schema", () => {
   describe("valid articles", () => {
@@ -77,6 +81,13 @@ describe("Article Schema", () => {
         const result = articleSchema.safeParse(article);
         expect(result.success).toBe(true);
       }
+      // scheduled requires scheduledPublishDate
+      const scheduled = new ArticleBuilder()
+        .withStatus("scheduled")
+        .withScheduledPublishDate("2025-06-01T10:00:00.000Z")
+        .build();
+      const result = articleSchema.safeParse(scheduled);
+      expect(result.success).toBe(true);
     });
 
     it("should accept article numbers in X.Y format", () => {
@@ -152,6 +163,21 @@ describe("Article Schema", () => {
     it("should accept description at exactly 160 characters", () => {
       const desc = "A".repeat(160);
       const article = new ArticleBuilder().withDescription(desc).build();
+      const result = articleSchema.safeParse(article);
+      expect(result.success).toBe(true);
+    });
+
+    it("should accept scheduled status with scheduledPublishDate", () => {
+      const article = new ArticleBuilder()
+        .withStatus("scheduled")
+        .withScheduledPublishDate("2025-06-01T10:00:00.000Z")
+        .build();
+      const result = articleSchema.safeParse(article);
+      expect(result.success).toBe(true);
+    });
+
+    it("should accept non-scheduled status without scheduledPublishDate", () => {
+      const article = new ArticleBuilder().withStatus("draft").build();
       const result = articleSchema.safeParse(article);
       expect(result.success).toBe(true);
     });
@@ -259,6 +285,12 @@ describe("Article Schema", () => {
       const { sphere, ...noSphere } = article;
       void sphere;
       const result = articleSchema.safeParse(noSphere);
+      expect(result.success).toBe(false);
+    });
+
+    it("should reject scheduled status without scheduledPublishDate", () => {
+      const article = new ArticleBuilder().withStatus("scheduled").build();
+      const result = articleSchema.safeParse(article);
       expect(result.success).toBe(false);
     });
   });
