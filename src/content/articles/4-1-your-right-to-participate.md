@@ -7,7 +7,7 @@ sphere: "national"
 description: "Discover the constitutional rights that guarantee your participation in governance and the practical channels available to every South African citizen."
 publishDate: 2027-03-15
 readingTime: 35
-status: "draft"
+status: "published"
 series:
   prev: "3-3-municipal-councils"
   next: "4-2-ward-committees-and-community-engagement"

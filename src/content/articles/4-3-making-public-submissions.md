@@ -7,7 +7,7 @@ sphere: ["national", "provincial"]
 description: "A step-by-step guide to writing and submitting public comments on draft legislation, budgets, and government policies at national and provincial level."
 publishDate: 2027-05-15
 readingTime: 32
-status: "draft"
+status: "published"
 series:
   prev: "4-2-ward-committees-and-community-engagement"
   next: "5-1-reading-the-auditor-generals-reports"

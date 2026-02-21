@@ -7,7 +7,7 @@ sphere: "municipal"
 description: "Follow public money from National Treasury through grants and the equitable share to your municipality, and see where it turns into services or disappears."
 publishDate: 2026-11-01
 readingTime: 33
-status: "draft"
+status: "published"
 series:
   prev: "2-2-the-budget-process"
   next: "3-1-the-awkward-middle-child"

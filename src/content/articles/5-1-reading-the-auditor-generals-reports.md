@@ -7,7 +7,7 @@ sphere: "national"
 description: "Learn how to read the Auditor-General's reports and understand what clean audits, qualified opinions, and disclaimers mean for public money and services."
 publishDate: 2027-06-15
 readingTime: 36
-status: "draft"
+status: "published"
 series:
   prev: "4-3-making-public-submissions"
   next: "5-2-using-government-data"

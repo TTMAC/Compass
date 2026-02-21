@@ -7,7 +7,7 @@ sphere: "provincial"
 description: "Discover why South Africa's nine provinces are constitutionally powerful but fiscally dependent, and learn how to evaluate your provincial government fairly."
 publishDate: 2026-12-15
 readingTime: 38
-status: "draft"
+status: "published"
 series:
   prev: "2-3-from-treasury-to-your-town"
   next: "3-2-health-and-education-at-the-provincial-coal-face"

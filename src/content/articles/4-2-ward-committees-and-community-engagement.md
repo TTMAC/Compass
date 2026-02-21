@@ -7,7 +7,7 @@ sphere: "municipal"
 description: "Understand how ward committees, public meetings, and IDP participation processes allow South African residents to directly shape local government policy."
 publishDate: 2027-04-15
 readingTime: 34
-status: "draft"
+status: "published"
 series:
   prev: "4-1-your-right-to-participate"
   next: "4-3-making-public-submissions"

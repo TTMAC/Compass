@@ -7,7 +7,7 @@ sphere: "national"
 description: "The final article in the Compass series brings everything together into a practical toolkit for holding government accountable as an informed citizen."
 publishDate: 2027-08-15
 readingTime: 34
-status: "draft"
+status: "published"
 series:
   prev: "5-2-using-government-data"
   next: null

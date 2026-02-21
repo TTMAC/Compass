@@ -7,7 +7,7 @@ sphere: "national"
 description: "A practical guide to finding, accessing, and interpreting the public datasets from National Treasury, StatsSA, and DPME to assess government outcomes."
 publishDate: 2027-07-15
 readingTime: 35
-status: "draft"
+status: "published"
 series:
   prev: "5-1-reading-the-auditor-generals-reports"
   next: "5-3-becoming-an-active-citizen"

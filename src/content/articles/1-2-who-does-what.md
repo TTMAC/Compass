@@ -7,7 +7,7 @@ sphere: "all"
 description: "Learn which sphere of government is responsible for which services in South Africa — from schools and hospitals to water, roads, and refuse collection."
 publishDate: 2026-08-15
 readingTime: 32
-status: "draft"
+status: "published"
 series:
   prev: "1-1-architecture-of-the-state"
   next: "1-3-how-the-spheres-interact"

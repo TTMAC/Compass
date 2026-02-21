@@ -7,7 +7,7 @@ sphere: "all"
 description: "Explore how South Africa's three spheres of government cooperate, coordinate through intergovernmental forums, and intervene when service delivery fails."
 publishDate: 2026-09-01
 readingTime: 34
-status: "draft"
+status: "published"
 series:
   prev: "1-2-who-does-what"
   next: "2-1-following-the-money"
