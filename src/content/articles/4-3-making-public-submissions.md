@@ -3,7 +3,7 @@ title: "Making Public Submissions"
 subtitle: "A Step-by-Step Guide to Writing Comments That Legislators and Officials Actually Read"
 part: 4
 articleNumber: "4.3"
-sphere: "provincial"
+sphere: ["national", "provincial"]
 description: "A step-by-step guide to writing and submitting public comments on draft legislation, budgets, and government policies at national and provincial level."
 publishDate: 2027-05-15
 readingTime: 32

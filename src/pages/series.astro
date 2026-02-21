@@ -40,7 +40,7 @@ const articlesBySphere = (["all", "national", "provincial", "municipal"] as cons
   label: sphereLabels[sphere],
   color: sphereColors[sphere],
   articles: articles
-    .filter((a) => a.data.sphere === sphere)
+    .filter((a) => a.data.sphere.includes(sphere))
     .sort((a, b) => a.data.articleNumber.localeCompare(b.data.articleNumber)),
 }));
 ---
@@ -89,7 +89,7 @@ const articlesBySphere = (["all", "national", "provincial", "municipal"] as cons
           {articles.length > 0 ? (
             <div class="space-y-3">
               {articles.map((article) => (
-                <div data-testid="series-card" data-sphere={article.data.sphere}>
+                <div data-testid="series-card" data-sphere={article.data.sphere.join(",")}>
                 <a
                   href={
                     article.data.status === "published"
@@ -108,12 +108,13 @@ const articlesBySphere = (["all", "national", "provincial", "municipal"] as cons
                         <span class="font-heading text-xs text-text-secondary">
                           {article.data.articleNumber}
                         </span>
-                        <span
-                          class={`inline-block px-1.5 py-0.5 text-[10px] font-heading font-semibold text-white rounded ${sphereColors[article.data.sphere]}`}
-                        >
-                          {article.data.sphere.charAt(0).toUpperCase() +
-                            article.data.sphere.slice(1)}
-                        </span>
+                        {article.data.sphere.map((s) => (
+                          <span
+                            class={`inline-block px-1.5 py-0.5 text-[10px] font-heading font-semibold text-white rounded ${sphereColors[s]}`}
+                          >
+                            {s.charAt(0).toUpperCase() + s.slice(1)}
+                          </span>
+                        ))}
                         {article.data.status === "coming-soon" && (
                           <span class="text-[10px] font-heading text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded">
                             Coming soon

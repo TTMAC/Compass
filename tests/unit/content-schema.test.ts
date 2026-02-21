@@ -3,7 +3,7 @@ import { z } from "astro/zod";
 import { ArticleBuilder } from "../fixtures/test-helpers";
 
 // Mirror the schema from src/content/config.ts for unit testing
-const sphereEnum = z.enum(["national", "provincial", "municipal"]);
+const sphereEnum = z.enum(["national", "provincial", "municipal", "all"]);
 
 const articleSchema = z.object({
   title: z.string().min(1),
@@ -12,7 +12,9 @@ const articleSchema = z.object({
   articleNumber: z
     .string()
     .regex(/^\d+\.\d+$/, "Must be in X.Y format (e.g. 1.1)"),
-  sphere: sphereEnum,
+  sphere: z
+    .union([sphereEnum, z.array(sphereEnum)])
+    .transform((v) => (Array.isArray(v) ? v : [v])),
   description: z
     .string()
     .min(150, "Description must be at least 150 characters for SEO")
@@ -40,11 +42,31 @@ describe("Article Schema", () => {
     });
 
     it("should accept all valid sphere values", () => {
-      const spheres = ["national", "provincial", "municipal"] as const;
+      const spheres = ["national", "provincial", "municipal", "all"] as const;
       for (const sphere of spheres) {
         const article = new ArticleBuilder().withSphere(sphere).build();
         const result = articleSchema.safeParse(article);
         expect(result.success).toBe(true);
+      }
+    });
+
+    it("should accept an array of sphere values", () => {
+      const article = new ArticleBuilder()
+        .withSphere(["national", "provincial"])
+        .build();
+      const result = articleSchema.safeParse(article);
+      expect(result.success).toBe(true);
+      if (result.success) {
+        expect(result.data.sphere).toEqual(["national", "provincial"]);
+      }
+    });
+
+    it("should normalize a single sphere to an array", () => {
+      const article = new ArticleBuilder().withSphere("national").build();
+      const result = articleSchema.safeParse(article);
+      expect(result.success).toBe(true);
+      if (result.success) {
+        expect(result.data.sphere).toEqual(["national"]);
       }
     });
 

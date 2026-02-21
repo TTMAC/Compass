@@ -11,7 +11,9 @@ const articles = defineCollection({
     articleNumber: z
       .string()
       .regex(/^\d+\.\d+$/, "Must be in X.Y format (e.g. 1.1)"),
-    sphere: sphereEnum,
+    sphere: z
+      .union([sphereEnum, z.array(sphereEnum)])
+      .transform((v) => (Array.isArray(v) ? v : [v])),
     description: z
       .string()
       .min(150, "Description must be at least 150 characters for SEO")
