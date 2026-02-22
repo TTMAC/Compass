@@ -1,6 +1,6 @@
-# Domain Model — Compass: A Political Literacy Blog for South Africa's Missing Middle
+# Domain Model — GovCompass: A Political Literacy Blog for South Africa's Missing Middle
 
-> **Purpose:** Define the domain structure for the Compass project, including content entities, value objects, and their relationships. This document serves as the authoritative reference for domain language and content architecture. Because Compass uses a file-based content architecture (Markdown + YAML frontmatter) rather than a relational database, these domain objects are implemented as Astro Content Collection schemas and TypeScript interfaces, not ORM models.
+> **Purpose:** Define the domain structure for the GovCompass project, including content entities, value objects, and their relationships. This document serves as the authoritative reference for domain language and content architecture. Because GovCompass uses a file-based content architecture (Markdown + YAML frontmatter) rather than a relational database, these domain objects are implemented as Astro Content Collection schemas and TypeScript interfaces, not ORM models.
 
 ---
 
@@ -12,7 +12,7 @@
 South Africa's 1996 Constitution divides power across three spheres of government (national, provincial, municipal), but no existing publication provides a systematic, plain-language guide to how these spheres work, how money flows between them, and how citizens can evaluate performance using public data. The result is an "accountability confusion" problem — citizens cannot identify which sphere is responsible for which service, leading to misdirected frustration and disengagement.
 
 **Solution Space:**
-Compass delivers a structured, 15-article educational series that makes SA's governance system legible to ordinary citizens. The system is a content-delivery platform — articles are authored in Markdown, compiled to static HTML at build time via Astro, and served from Netlify's edge CDN. The domain model captures the content taxonomy (articles, parts, spheres), reading experience (series navigation, reading time), and distribution mechanics (SEO metadata, email subscription).
+GovCompass delivers a structured, 15-article educational series that makes SA's governance system legible to ordinary citizens. The system is a content-delivery platform — articles are authored in Markdown, compiled to static HTML at build time via Astro, and served from Netlify's edge CDN. The domain model captures the content taxonomy (articles, parts, spheres), reading experience (series navigation, reading time), and distribution mechanics (SEO metadata, email subscription).
 
 **Domain Complexity Level:** Simple (file-based content, no transactions, no real-time state)
 
@@ -70,7 +70,7 @@ Compass delivers a structured, 15-article educational series that makes SA's gov
 
 ### 3.1 Content Management
 
-**Context Purpose:** Define, validate, and manage the structured content that forms the Compass article series. This is the core domain — all other contexts depend on it.
+**Context Purpose:** Define, validate, and manage the structured content that forms the GovCompass article series. This is the core domain — all other contexts depend on it.
 
 **Module/Package Location:** `src/content/config.ts` (schema), `src/content/articles/` (content files)
 
@@ -180,7 +180,7 @@ Reader enters email → HTML5 validation → Netlify Forms submission (with hone
 
 #### External Entity
 
-| Entity | Managed By | Data Stored in Compass? |
+| Entity | Managed By | Data Stored in GovCompass? |
 |--------|-----------|------------------------|
 | EmailSubscriber (email, confirmedAt, source) | ESP (Buttondown or Mailchimp) | No — email is captured by Netlify Forms and relayed; no PII stored in repository |
 
@@ -216,8 +216,8 @@ Reader enters email → HTML5 validation → Netlify Forms submission (with hone
 |-----|--------|------------|
 | `og:title` | Article title | < 60 chars if possible |
 | `og:description` | Article description (from frontmatter) | 150–160 chars |
-| `og:image` | Per-article generated image | 1200×630px, article title + Compass branding |
-| `og:url` | Canonical URL | `https://compass.co.za/articles/[slug]` |
+| `og:image` | Per-article generated image | 1200×630px, article title + GovCompass branding |
+| `og:url` | Canonical URL | `https://govcompass.co.za/articles/[slug]` |
 
 ---
 
@@ -227,11 +227,11 @@ Reader enters email → HTML5 validation → Netlify Forms submission (with hone
 
 | Term | Definition | Context | Anti-Terms (Don't Use) |
 |------|------------|---------|------------------------|
-| Article | A single long-form piece (5,000+ words) in the structured 15-article Compass series | Content Management | Post, Blog post, Entry, Page |
+| Article | A single long-form piece (5,000+ words) in the structured 15-article GovCompass series | Content Management | Post, Blog post, Entry, Page |
 | Part | One of five thematic groupings in the series (Foundation, National, Provincial, Municipal, Toolkit) | Content Management | Section, Chapter, Module, Category |
 | Sphere | One of SA's three constitutional governance spheres — national, provincial, municipal — or "all" for cross-cutting content | Content Management | Tier, Level, Layer, Branch |
 | Series | The complete 15-article collection forming one cohesive governance guide | Content Management | Blog, Course, Feed, Archive |
-| Reader | The person consuming Compass content on the website | Reader Experience | User, Visitor, Customer, Subscriber |
+| Reader | The person consuming GovCompass content on the website | Reader Experience | User, Visitor, Customer, Subscriber |
 | Job Executor | The primary target reader per MRD §3.1 — Black South African, 25–45, Gauteng metro, R8K–R29K/month household income | Market/Product | Target audience, Persona, Demographic |
 | Callout | A styled content block within an article for expert anecdotes, key takeaways, or practical frameworks | Reader Experience | Sidebar, Info box, Alert, Card |
 | Data Sources | The /data-sources page with curated links to AGSA, Treasury, DPME, StatsSA, IEC | Content Management | Resources, Links page, References |
@@ -243,7 +243,7 @@ Reader enters email → HTML5 validation → Netlify Forms submission (with hone
 
 ## 5. Aggregate Design Rules
 
-**Aggregate Sizing Philosophy:** Small aggregates — Compass has a simple domain with one primary aggregate (Article).
+**Aggregate Sizing Philosophy:** Small aggregates — GovCompass has a simple domain with one primary aggregate (Article).
 
 **Rules for this project:**
 
@@ -335,7 +335,7 @@ seo:
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | 2026-02-16 | Tshepo Machele | Initial domain model for Compass MVP |
+| 1.0 | 2026-02-16 | Tshepo Machele | Initial domain model for GovCompass MVP |
 
 ---
 

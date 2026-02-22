@@ -1,6 +1,6 @@
 # PRODUCT REQUIREMENTS DOCUMENT
 
-## Compass — A Political Literacy Blog for South Africa's Missing Middle
+## GovCompass — A Political Literacy Blog for South Africa's Missing Middle
 
 ---
 
@@ -9,7 +9,7 @@
 | **Document Owner** | Tshepo Machele — Product, Engineering, Design, Business/GTM Lead |
 | **Version** | 0.1 |
 | **Created Date** | 2026-02-15 |
-| **Derived From** | MRD v0.1 — Compass Market Requirements Document |
+| **Derived From** | MRD v0.1 — GovCompass Market Requirements Document |
 | **Status** | Draft |
 | **Target Launch** | Q3 2026 |
 | **Platform** | Web (Astro static site deployed on Netlify) |
@@ -43,11 +43,11 @@
 
 ### 1.1 Purpose of This Document
 
-This PRD translates the market requirements defined in the Compass MRD (v0.1) into a buildable product specification. It defines what gets built, how it works, and the acceptance criteria for each component. It is the single source of truth for development — all implementation decisions should trace back to a requirement in this document, which in turn traces back to a validated market need in the MRD.
+This PRD translates the market requirements defined in the GovCompass MRD (v0.1) into a buildable product specification. It defines what gets built, how it works, and the acceptance criteria for each component. It is the single source of truth for development — all implementation decisions should trace back to a requirement in this document, which in turn traces back to a validated market need in the MRD.
 
 ### 1.2 Product Vision
 
-Compass is a free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. The product delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — through a fast, mobile-first, reading-optimised website.
+GovCompass is a free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. The product delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — through a fast, mobile-first, reading-optimised website.
 
 ### 1.3 Design Philosophy
 
@@ -113,9 +113,9 @@ Derived from MRD §9.2:
 
 ### 3.1 Primary User Stories
 
-**US-1: First-time reader via WhatsApp.** As a Gauteng professional who received a Compass link in a WhatsApp group, I want to read the shared article on my phone quickly and comfortably, so that I can understand which sphere of government is responsible for the service failure being discussed in my group. Acceptance criteria: Page loads in under 3s on 4G; article renders in readable layout on 360px-wide screen; reading progress is visible; share button lets me forward the article to another WhatsApp group with one tap.
+**US-1: First-time reader via WhatsApp.** As a Gauteng professional who received a GovCompass link in a WhatsApp group, I want to read the shared article on my phone quickly and comfortably, so that I can understand which sphere of government is responsible for the service failure being discussed in my group. Acceptance criteria: Page loads in under 3s on 4G; article renders in readable layout on 360px-wide screen; reading progress is visible; share button lets me forward the article to another WhatsApp group with one tap.
 
-**US-2: Search-driven reader.** As a citizen searching "who is responsible for water in South Africa," I want to find a Compass article that answers my question clearly, so that I can direct my complaint to the correct government entity. Acceptance criteria: Article 1.1 ranks for target search queries within 6 months; the article's introduction and structure make the answer findable within 60 seconds of landing; the "practical framework" section provides a clear decision model.
+**US-2: Search-driven reader.** As a citizen searching "who is responsible for water in South Africa," I want to find a GovCompass article that answers my question clearly, so that I can direct my complaint to the correct government entity. Acceptance criteria: Article 1.1 ranks for target search queries within 6 months; the article's introduction and structure make the answer findable within 60 seconds of landing; the "practical framework" section provides a clear decision model.
 
 **US-3: Returning reader.** As a reader who finished Article 1.1 and wants to continue learning, I want to easily find the next article in the series and understand how it builds on what I've read, so that I can deepen my understanding systematically. Acceptance criteria: Next/previous article navigation is prominent on every article page; series overview page shows reading progress; article introductions reference prerequisite concepts with links back.
 
@@ -125,9 +125,9 @@ Derived from MRD §9.2:
 
 ### 3.2 Key User Scenarios
 
-**Scenario A: The WhatsApp Forward Chain.** Thabo, a 32-year-old IT technician in Johannesburg, receives a Compass link in his building's WhatsApp group during a 3-day water outage. He opens the link on his Samsung A15 over 4G. The article loads quickly — he sees the title "The Architecture of the State" and a clear subtitle telling him this will explain which sphere of government handles what. He scrolls to the section on municipal functions, finds that water is a municipal responsibility, and reads about the distinction between bulk water supply (water boards, national oversight) and reticulation (municipal). He screenshots the key paragraph and shares it back to the group. He then taps the WhatsApp share button to forward the full article link to his family group in Pretoria. Before leaving, he subscribes via email because he sees that Article 1.2 on "Following the Money" is coming next.
+**Scenario A: The WhatsApp Forward Chain.** Thabo, a 32-year-old IT technician in Johannesburg, receives a GovCompass link in his building's WhatsApp group during a 3-day water outage. He opens the link on his Samsung A15 over 4G. The article loads quickly — he sees the title "The Architecture of the State" and a clear subtitle telling him this will explain which sphere of government handles what. He scrolls to the section on municipal functions, finds that water is a municipal responsibility, and reads about the distinction between bulk water supply (water boards, national oversight) and reticulation (municipal). He screenshots the key paragraph and shares it back to the group. He then taps the WhatsApp share button to forward the full article link to his family group in Pretoria. Before leaving, he subscribes via email because he sees that Article 1.2 on "Following the Money" is coming next.
 
-**Scenario B: Pre-Election Research.** Naledi, a 38-year-old nurse in Ekurhuleni, is deciding whether to vote in the 2026 local government elections. She searches Google for "how to check if my municipality is performing." She lands on Article 1.3 (Who Watches the Watchers), which explains the Auditor-General's municipal audit system. The article shows her how to find her municipality's audit outcome and what a "disclaimer" means. She clicks through to the AGSA website using the link provided in the article, looks up Ekurhuleni, and discovers the metro's audit trajectory. She returns to Compass and reads Article 1.2 to understand how Ekurhuleni's finances work. Over the next week, she reads all four foundational articles.
+**Scenario B: Pre-Election Research.** Naledi, a 38-year-old nurse in Ekurhuleni, is deciding whether to vote in the 2026 local government elections. She searches Google for "how to check if my municipality is performing." She lands on Article 1.3 (Who Watches the Watchers), which explains the Auditor-General's municipal audit system. The article shows her how to find her municipality's audit outcome and what a "disclaimer" means. She clicks through to the AGSA website using the link provided in the article, looks up Ekurhuleni, and discovers the metro's audit trajectory. She returns to GovCompass and reads Article 1.2 to understand how Ekurhuleni's finances work. Over the next week, she reads all four foundational articles.
 
 ---
 
@@ -136,13 +136,13 @@ Derived from MRD §9.2:
 ### 4.1 Site Map
 
 ```
-compass.co.za (or compasssa.org — domain TBD)
+govcompass.co.za (or compasssa.org — domain TBD)
 │
 ├── / (Home)
 │   └── Series overview, latest article, email capture CTA
 │
 ├── /about
-│   └── Who is behind Compass, editorial principles, non-partisan commitment
+│   └── Who is behind GovCompass, editorial principles, non-partisan commitment
 │
 ├── /series
 │   └── Full series table of contents with status (published / coming soon)
@@ -206,7 +206,7 @@ Both dimensions are displayed on the series overview page and in article metadat
 ### 5.2 Repository Structure
 
 ```
-compass-blog/
+govcompass-blog/
 ├── astro.config.mjs
 ├── tailwind.config.mjs
 ├── package.json
@@ -300,7 +300,7 @@ export const collections = { articles };
 ```
 Author writes/edits .md → Git push to main → Netlify build hook triggers →
 Astro builds static site → Pagefind indexes content → Netlify deploys to CDN →
-Site live at compass.co.za (or configured domain)
+Site live at govcompass.co.za (or configured domain)
 ```
 
 Build time for 15 articles with Astro: estimated under 30 seconds. Netlify deploys typically propagate in under 60 seconds after build.
@@ -345,19 +345,19 @@ Build time for 15 articles with Astro: estimated under 30 seconds. Netlify deplo
 
 ### 6.1 Home Page (`/`)
 
-**Purpose:** Orient the reader, communicate what Compass is, surface the latest or most important content, and capture email subscriptions.
+**Purpose:** Orient the reader, communicate what GovCompass is, surface the latest or most important content, and capture email subscriptions.
 
 **Layout (top to bottom):**
 
-1. **Hero section.** Compass wordmark/logo. Tagline: "Making South Africa's governance system legible to ordinary citizens." One sentence: "A free, 15-article series that explains how your government works, where your money goes, and how to hold the right people accountable." Primary CTA: "Start Reading →" (links to Article 1.1). Secondary CTA: "View the Series" (links to /series).
+1. **Hero section.** GovCompass wordmark/logo. Tagline: "Making South Africa's governance system legible to ordinary citizens." One sentence: "A free, 15-article series that explains how your government works, where your money goes, and how to hold the right people accountable." Primary CTA: "Start Reading →" (links to Article 1.1). Secondary CTA: "View the Series" (links to /series).
 
-2. **The Problem (2–3 sentences).** A concise framing of the accountability confusion problem. E.g., "When your water stops running, do you call your municipality, your province, or a national minister? South Africa's Constitution divides power across three spheres — and almost nobody teaches you how to navigate the system. Compass does."
+2. **The Problem (2–3 sentences).** A concise framing of the accountability confusion problem. E.g., "When your water stops running, do you call your municipality, your province, or a national minister? South Africa's Constitution divides power across three spheres — and almost nobody teaches you how to navigate the system. GovCompass does."
 
 3. **Series overview cards.** The five parts displayed as cards (Part 1: Foundation, Part 2: National, etc.) with article count and publication status. Published articles are linked. Coming-soon articles show titles only.
 
 4. **Email capture.** "Get notified when new articles drop." Email input + submit button. Single field. Netlify Forms submission.
 
-5. **About teaser.** 2 sentences on who's behind Compass and the editorial commitment. Link to /about.
+5. **About teaser.** 2 sentences on who's behind GovCompass and the editorial commitment. Link to /about.
 
 **Mobile behaviour:** Single-column stack. Hero text is concise. Series cards stack vertically. CTA buttons are full-width and thumb-friendly (min 48px tap target).
 
@@ -416,11 +416,11 @@ This is the core product surface. It must be exceptional.
 
 **Content requirements:**
 
-1. **Who is behind Compass.** Tshepo Machele's name, brief bio, and motivation. Framed personally: why this project exists, what problem it solves, and why the author cares. Photo optional but recommended for trust.
+1. **Who is behind GovCompass.** Tshepo Machele's name, brief bio, and motivation. Framed personally: why this project exists, what problem it solves, and why the author cares. Photo optional but recommended for trust.
 
 2. **Editorial principles.** Explicit commitments stated plainly: non-partisan (no party endorsement or alignment, ever); data-anchored (every factual claim sourced to primary government data); transparent (all sources linked so readers can verify); practical (every article ends with tools you can use); independent (no funding from political parties, government, or corporate interests with governance stakes).
 
-3. **How Compass is built.** Brief note on the content methodology: research-based, expert-sourced, fact-checked against primary documents (Constitution, AGSA reports, National Treasury data, DPME publications).
+3. **How GovCompass is built.** Brief note on the content methodology: research-based, expert-sourced, fact-checked against primary documents (Constitution, AGSA reports, National Treasury data, DPME publications).
 
 4. **Contact.** Email address for feedback, corrections, and expert contributions.
 
@@ -445,7 +445,7 @@ Each entry includes: institution name, what they publish, direct URL, and a one-
 
 **Purpose:** Standalone landing page for email capture, useful for direct linking from WhatsApp messages or social posts.
 
-**Content:** Headline ("Stay informed — we'll email you when new articles drop"), brief value proposition (1–2 sentences), email input, submit button, privacy assurance ("We'll only email you about new Compass articles. No spam, no sharing your data. Unsubscribe anytime."). Link to /privacy.
+**Content:** Headline ("Stay informed — we'll email you when new articles drop"), brief value proposition (1–2 sentences), email input, submit button, privacy assurance ("We'll only email you about new GovCompass articles. No spam, no sharing your data. Unsubscribe anytime."). Link to /privacy.
 
 ### 6.7 Privacy Page (`/privacy`)
 
@@ -457,7 +457,7 @@ Each entry includes: institution name, what they publish, direct URL, and a one-
 
 ### 7.1 Brand Identity
 
-**Name:** Compass
+**Name:** GovCompass
 
 **Positioning:** Authoritative but approachable. Serious but not academic. Think: the reliability of a well-edited textbook with the warmth of a knowledgeable friend explaining something over coffee.
 
@@ -637,7 +637,7 @@ Based on the MRD's identified search-driven user scenario and the target audienc
 
 Each article page must include:
 
-- `<title>` tag: Article title + " | Compass" (under 60 characters)
+- `<title>` tag: Article title + " | GovCompass" (under 60 characters)
 - `<meta name="description">`: Unique, compelling summary (150–160 characters) from frontmatter
 - `<meta name="keywords">`: From frontmatter SEO keywords array
 - Open Graph tags: `og:title`, `og:description`, `og:image` (per-article OG image), `og:url`, `og:type=article`
@@ -645,7 +645,7 @@ Each article page must include:
 - Canonical URL: self-referencing `<link rel="canonical">`
 - Structured data: `Article` schema (JSON-LD) with author, date published, date modified, headline, description
 - Semantic HTML: proper heading hierarchy (H1 → H2 → H3), `<article>` wrapper, `<time>` for dates
-- Internal linking: each article links to other Compass articles where contextually relevant
+- Internal linking: each article links to other GovCompass articles where contextually relevant
 
 ### 10.3 Technical SEO
 
@@ -660,7 +660,7 @@ Each article page must include:
 
 Each article requires a custom Open Graph image (1200x630px) for WhatsApp and social media link previews. This is critical for WhatsApp distribution — the link preview image is the first thing a reader sees when an article is shared in a group.
 
-**Implementation:** A Python script (`scripts/generate-og-images.py`) using Pillow generates OG images at build time. Each image contains: the Compass logo, the article title, the Part number and sphere tag, and a clean background using brand colours. The script reads article frontmatter, renders text onto a template, and outputs to `public/og/[slug].png`.
+**Implementation:** A Python script (`scripts/generate-og-images.py`) using Pillow generates OG images at build time. Each image contains: the GovCompass logo, the article title, the Part number and sphere tag, and a clean background using brand colours. The script reads article frontmatter, renders text onto a template, and outputs to `public/og/[slug].png`.
 
 ---
 
@@ -738,9 +738,9 @@ Reader is on the list → Manual or automated send for new articles
 
 ### 13.3 Email Content
 
-**Confirmation email:** Subject: "Confirm your Compass subscription". Body: brief welcome message + confirmation link + one sentence on what to expect ("We'll only email you when a new Compass article is published — roughly once every 2–3 weeks.").
+**Confirmation email:** Subject: "Confirm your GovCompass subscription". Body: brief welcome message + confirmation link + one sentence on what to expect ("We'll only email you when a new GovCompass article is published — roughly once every 2–3 weeks.").
 
-**New article notification:** Subject: "[Article title] — New on Compass". Body: article title, subtitle, one-sentence hook, and a direct link to the article. No images, no complex HTML — plain text or minimal HTML to ensure deliverability and fast loading on mobile email clients.
+**New article notification:** Subject: "[Article title] — New on GovCompass". Body: article title, subtitle, one-sentence hook, and a direct link to the article. No images, no complex HTML — plain text or minimal HTML to ensure deliverability and fast loading on mobile email clients.
 
 ### 13.4 Email Provider Selection
 
@@ -772,7 +772,7 @@ WhatsApp share button uses the `https://api.whatsapp.com/send?text=` URL scheme:
 
 Read it here: [Article URL with UTM parameters]
 
-— From Compass: Making SA's governance system legible
+— From GovCompass: Making SA's governance system legible
 ```
 
 Example:
@@ -782,10 +782,10 @@ Example:
 If you've ever wondered whether to blame your municipality, your province,
 or national government — this explains it.
 
-Read it here: https://compass.co.za/articles/architecture-of-the-state
+Read it here: https://govcompass.co.za/articles/architecture-of-the-state
 ?utm_source=whatsapp&utm_medium=share&utm_campaign=article-1-1
 
-— From Compass: Making SA's governance system legible
+— From GovCompass: Making SA's governance system legible
 ```
 
 ### 14.2 Copy Link (Secondary)
@@ -794,11 +794,11 @@ A "Copy Link" button copies the article URL (with UTM: `utm_source=clipboard&utm
 
 ### 14.3 Open Graph Preview Optimisation
 
-The WhatsApp link preview is the single most important distribution asset. When a Compass link is shared in a WhatsApp group, the preview must be compelling enough to generate taps:
+The WhatsApp link preview is the single most important distribution asset. When a GovCompass link is shared in a WhatsApp group, the preview must be compelling enough to generate taps:
 
 - **OG title:** Article title (concise, under 60 chars if possible)
 - **OG description:** Article subtitle or first-sentence hook (under 160 chars)
-- **OG image:** Per-article generated image (1200x630px) with article title, Compass branding, and clean design
+- **OG image:** Per-article generated image (1200x630px) with article title, GovCompass branding, and clean design
 
 WhatsApp caches OG data aggressively. To force cache refresh after updates, append a version query parameter to the OG image URL (handled in build).
 
@@ -825,7 +825,7 @@ WhatsApp caches OG data aggressively. To force cache refresh after updates, appe
 | 13–14 | Article 1.3 drafted, reviewed, and published |
 | 15–16 | Article 1.4 drafted, reviewed, and published; announce the series via personal networks, LinkedIn, targeted WhatsApp groups |
 
-**Launch distribution plan:** Tshepo shares Article 1.1 to 5–10 Gauteng-based WhatsApp groups (professional, community, alumni). LinkedIn post announcing Compass. Targeted outreach to 10–15 politically engaged contacts for initial sharing. Goal: 100 readers in week one, validating the WhatsApp distribution hypothesis.
+**Launch distribution plan:** Tshepo shares Article 1.1 to 5–10 Gauteng-based WhatsApp groups (professional, community, alumni). LinkedIn post announcing GovCompass. Targeted outreach to 10–15 politically engaged contacts for initial sharing. Goal: 100 readers in week one, validating the WhatsApp distribution hypothesis.
 
 ### 15.3 Phase 2: National Government — Part 2 (Weeks 17–24)
 
@@ -945,7 +945,7 @@ Output: Generates 1200x630px PNG per article in public/og/[slug].png
 
 Image layout:
   - Background: --compass-green (#1B6B4A)
-  - Compass logo/wordmark: top-left, white
+  - GovCompass logo/wordmark: top-left, white
   - Article title: centre, white, bold, max 3 lines, word-wrapped
   - Part label: bottom-left (e.g., "Part 1 · Article 1.1")
   - Sphere tag: bottom-right, coloured pill

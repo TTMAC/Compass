@@ -2,7 +2,7 @@
 
 **A Political Literacy Blog for South Africa's Missing Middle**
 
-**compass.co.za**
+**govcompass.co.za**
 
 ---
 
@@ -17,7 +17,7 @@
 
 ## 1. Purpose of This Guide
 
-This Content Style Guide is the single reference for anyone writing, editing, or reviewing content for the Compass blog. It ensures every article delivers a consistent reading experience that is conversational, data-anchored, non-partisan, and practically useful to the target audience. All content decisions should trace back to a principle in this document, which in turn traces back to validated user needs documented in the Compass MRD, PRD, and UXD.
+This Content Style Guide is the single reference for anyone writing, editing, or reviewing content for the GovCompass blog. It ensures every article delivers a consistent reading experience that is conversational, data-anchored, non-partisan, and practically useful to the target audience. All content decisions should trace back to a principle in this document, which in turn traces back to validated user needs documented in the GovCompass MRD, PRD, and UXD.
 
 Use this guide when writing new articles, editing drafts, briefing contributors, reviewing content for publication, or resolving disagreements about tone, structure, or word choice.
 
@@ -67,9 +67,9 @@ Every sentence must reflect these five brand attributes. They are not aspiration
 
 ## 4. Voice and Tone
 
-### 4.1 The Compass Voice
+### 4.1 The GovCompass Voice
 
-Think of the Compass voice as a knowledgeable friend who happens to be a governance expert — someone explaining the system over coffee, not lecturing from a podium. The register is modelled on O'Reilly technical books: authoritative but never academic, specific but never dry, practical but never patronising.
+Think of the GovCompass voice as a knowledgeable friend who happens to be a governance expert — someone explaining the system over coffee, not lecturing from a podium. The register is modelled on O'Reilly technical books: authoritative but never academic, specific but never dry, practical but never patronising.
 
 ### 4.2 Core Voice Principles
 
@@ -89,9 +89,9 @@ Think of the Compass voice as a knowledgeable friend who happens to be a governa
 |---|---|---|
 | **Article body** | Conversational, authoritative, direct | Here's how this affects you: when your water stops running, the first question is whether it's a bulk supply issue (national/water board) or a reticulation issue (your municipality). Here's how to tell the difference. |
 | **Success / completion** | Warm, genuine, understated | You now have the tools to look up your municipality's audit outcome and understand what it means. That puts you ahead of most people — including many elected officials. |
-| **Error / recovery** | Supportive, solution-focused | Something went wrong on our end. Please try again — and if it keeps happening, let us know at hello@compass.co.za. |
+| **Error / recovery** | Supportive, solution-focused | Something went wrong on our end. Please try again — and if it keeps happening, let us know at hello@govcompass.co.za. |
 | **Empty states** | Inviting, action-oriented | This article is coming soon. In the meantime, start with The Architecture of the State — it explains how South Africa's Constitution divides power. |
-| **Email notifications** | Respectful, brief, useful | Subject: "Following the Money — New on Compass." One-sentence hook plus direct article link. No marketing fluff. |
+| **Email notifications** | Respectful, brief, useful | Subject: "Following the Money — New on GovCompass." One-sentence hook plus direct article link. No marketing fluff. |
 
 ---
 
@@ -99,7 +99,7 @@ Think of the Compass voice as a knowledgeable friend who happens to be a governa
 
 ### 5.1 Structure
 
-**Article length:** Minimum 5,000 words. This is long-form civic education, not a blog post. The length is deliberate — it signals depth and seriousness. If a topic cannot sustain 5,000 words of substantive, non-repetitive content, it is not a Compass article.
+**Article length:** Minimum 5,000 words. This is long-form civic education, not a blog post. The length is deliberate — it signals depth and seriousness. If a topic cannot sustain 5,000 words of substantive, non-repetitive content, it is not a GovCompass article.
 
 **Bottom-line-up-front opening:** Every article opens with its core conclusion in the first one to two paragraphs. State the takeaway clearly and directly. Then spend the rest of the article proving and explaining it.
 
@@ -210,8 +210,8 @@ Spell out in full on first use in each article, followed by the abbreviation in 
 | **Hype words** ("revolutionary," "game-changing," "groundbreaking") | Undermines trust and seriousness. Every word must earn its place. |
 | **Academic register** ("it is submitted that," "the aforementioned") | Alienates the target reader. Write for humans, not for a journal submission. |
 | **Corporate speak** ("stakeholder engagement," "synergies," "going forward") | Empty language that obscures meaning. Use plain words. |
-| **Emoji in article body text** | Undermines the "Serious" brand attribute. Compass is civic education, not social media content. |
-| **Passive voice as default** | Obscures who is doing what — which is exactly the problem Compass exists to solve. Name the actor. |
+| **Emoji in article body text** | Undermines the "Serious" brand attribute. GovCompass is civic education, not social media content. |
+| **Passive voice as default** | Obscures who is doing what — which is exactly the problem GovCompass exists to solve. Name the actor. |
 | **Unsourced claims** | Destroys trust. Every substantive claim needs a source. |
 | **Partisan editorial opinion** | Destroys non-partisan positioning. Present data and let the reader draw conclusions. |
 | **Clickbait headlines or framing** | Undermines trust. Titles should be descriptive and accurate, not manipulative. |
@@ -231,7 +231,7 @@ Spell out in full on first use in each article, followed by the abbreviation in 
 
 ## 8. Standard Article Structure
 
-Every Compass article follows this consistent structure. Deviations require explicit justification.
+Every GovCompass article follows this consistent structure. Deviations require explicit justification.
 
 | Section | Requirements |
 |---|---|
@@ -251,7 +251,7 @@ Three distinct callout types break up article body text and serve specific funct
 | Callout Type | Purpose | Visual Treatment |
 |---|---|---|
 | **Expert Anecdote** | Attributed quote or narrative from a named practitioner or scholar. Grounds analysis in lived experience. | 4px compass-green left border, light background. Attribution includes name, role, and institutional affiliation. |
-| **Key Takeaway** | Bottom-line-up-front summary for a section, or a critical insight the reader should remember. | Compass-gold left border, secondary background colour. One to three sentences maximum. |
+| **Key Takeaway** | Bottom-line-up-front summary for a section, or a critical insight the reader should remember. | GovCompass-gold left border, secondary background colour. One to three sentences maximum. |
 | **Practical Toolkit** | Actionable guidance: data sources, complaint steps, evaluation frameworks. | Dashed compass-green border. Appears at the end of an article. Contains direct links to sources with "what to look for" guidance. |
 
 ---
@@ -268,17 +268,17 @@ Write meta descriptions of 150–160 characters that summarise the article's pra
 
 ### 10.3 WhatsApp Share Text
 
-Pre-filled WhatsApp share messages include: the article title, a one-sentence hook that makes the reader's contact want to tap the link, the UTM-tagged article URL, and the sign-off "— From Compass: Making SA's governance system legible." The hook should highlight practical value: "Did you know you can look up your municipality's audit outcome online? This explains how."
+Pre-filled WhatsApp share messages include: the article title, a one-sentence hook that makes the reader's contact want to tap the link, the UTM-tagged article URL, and the sign-off "— From GovCompass: Making SA's governance system legible." The hook should highlight practical value: "Did you know you can look up your municipality's audit outcome online? This explains how."
 
 ### 10.4 OG Image
 
-Each article has a 1200×630px Open Graph image showing the Compass brand mark, the article title, and the sphere tag. The image must render clearly in WhatsApp link previews, which is the primary discovery channel for the target audience.
+Each article has a 1200×630px Open Graph image showing the GovCompass brand mark, the article title, and the sphere tag. The image must render clearly in WhatsApp link previews, which is the primary discovery channel for the target audience.
 
 ---
 
 ## 11. Accessibility Requirements
 
-Compass articles must be accessible to readers with disabilities and to readers on constrained devices and connections. These are not aspirational targets — they are requirements.
+GovCompass articles must be accessible to readers with disabilities and to readers on constrained devices and connections. These are not aspirational targets — they are requirements.
 
 | Requirement | Specification |
 |---|---|
@@ -293,7 +293,7 @@ Compass articles must be accessible to readers with disabilities and to readers 
 
 ## 12. Editorial Principles
 
-These principles govern how Compass treats politically sensitive content. They are non-negotiable and apply to every article, every callout, and every metadata description.
+These principles govern how GovCompass treats politically sensitive content. They are non-negotiable and apply to every article, every callout, and every metadata description.
 
 **Present data, not opinion.** When reporting audit outcomes, spending patterns, or performance metrics, present the data and its source. Do not editorialize about which political party caused the result. "Gauteng's health department received a qualified audit in 2022/23" is a fact. "Gauteng's ANC-led health department failed its audit" is a partisan framing of the same fact.
 

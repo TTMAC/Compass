@@ -1,4 +1,4 @@
-# Project CLAUDE.md — Compass: A Political Literacy Blog for South Africa's Missing Middle
+# Project CLAUDE.md — GovCompass: A Political Literacy Blog for South Africa's Missing Middle
 
 > **Scope:** Project-specific instructions that supplement the global CLAUDE.md. These instructions take precedence when working in this codebase.
 
@@ -10,10 +10,10 @@
 |----------|----------|---------|
 | Domain Model | `docs/DOMAIN_MODEL.md` | Content domain entities, article schema, bounded contexts |
 | Testing Strategy | `docs/TESTING_STRATEGY.md` | TDD workflow, test standards, coverage targets |
-| Market Requirements | `docs/MRD_Compass_Blog.md` | Market validation, job executor profile, success metrics |
-| Product Requirements | `docs/PRD_Compass_Blog.md` | Buildable product spec, page-by-page requirements, launch plan |
-| UX Design | `docs/UXD_Compass_Blog.md` | Five-plane UX model, information architecture, visual design |
-| System Requirements | `docs/SRD_Compass_Blog.docx` | Technical specifications, NFRs, traceability matrix |
+| Market Requirements | `docs/MRD_GovCompass_Blog.md` | Market validation, job executor profile, success metrics |
+| Product Requirements | `docs/PRD_GovCompass_Blog.md` | Buildable product spec, page-by-page requirements, launch plan |
+| UX Design | `docs/UXD_GovCompass_Blog.md` | Five-plane UX model, information architecture, visual design |
+| System Requirements | `docs/SRD_GovCompass_Blog.docx` | Technical specifications, NFRs, traceability matrix |
 | Article Prompts | `docs/sa_political_system_article_series.md` | MECE article series structure and generation prompts |
 
 **Claude must read the relevant doc before making changes in that area.**
@@ -22,7 +22,7 @@
 
 ## Project Context
 
-**Project:** Compass
+**Project:** GovCompass
 
 **Description:** A free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. Delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — through a fast, mobile-first, reading-optimised static website.
 
@@ -30,7 +30,7 @@
 
 **Target Launch:** Q3 2026
 
-**Domain:** compass.co.za
+**Domain:** govcompass.co.za
 
 **Tech Stack:**
 
@@ -51,7 +51,7 @@
 **Repository Structure:**
 
 ```
-compass-blog/
+govcompass-blog/
 ├── astro.config.mjs
 ├── tailwind.config.mjs
 ├── package.json
@@ -110,10 +110,10 @@ compass-blog/
 ├── docs/
 │   ├── DOMAIN_MODEL.md
 │   ├── TESTING_STRATEGY.md
-│   ├── MRD_Compass_Blog.md
-│   ├── PRD_Compass_Blog.md
-│   ├── UXD_Compass_Blog.md
-│   ├── SRD_Compass_Blog.docx
+│   ├── MRD_GovCompass_Blog.md
+│   ├── PRD_GovCompass_Blog.md
+│   ├── UXD_GovCompass_Blog.md
+│   ├── SRD_GovCompass_Blog.docx
 │   └── sa_political_system_article_series.md
 │
 ├── tests/
@@ -186,7 +186,7 @@ This is a content-delivery domain, not a transactional domain. The core domain e
 | Sphere | Enum / Value Object | national, provincial, municipal, all — with colour mapping in Tailwind config |
 | SEOMetadata | Value Object | ogImage, canonicalUrl, keywords[] — nested within Article schema |
 | SeriesNavigation | Value Object | prev (slug \| null), next (slug \| null) — doubly-linked reading order |
-| EmailSubscriber | External Entity | email, confirmedAt, source — managed by ESP, not stored in Compass repo |
+| EmailSubscriber | External Entity | email, confirmedAt, source — managed by ESP, not stored in GovCompass repo |
 
 **Key Ubiquitous Language:**
 
@@ -196,7 +196,7 @@ This is a content-delivery domain, not a transactional domain. The core domain e
 | Part | One of five thematic groupings (Foundation, National, Provincial, Municipal, Toolkit) | Section, Chapter, Module |
 | Sphere | One of SA's three constitutional governance spheres (national, provincial, municipal) or "all" for cross-cutting | Tier, Level, Layer |
 | Series | The complete 15-article collection forming one cohesive guide | Blog, Course, Curriculum |
-| Reader | The person consuming Compass content | User, Visitor, Customer |
+| Reader | The person consuming GovCompass content | User, Visitor, Customer |
 | Job Executor | The primary target reader (MRD §3.1) — Black South African, 25–45, Gauteng metro, R8K–R29K/month | Target audience, Persona |
 | Callout | Styled content block for expert anecdotes, key takeaways, or practical frameworks | Sidebar, Box, Card (in article context) |
 | Data Sources | Curated links to AGSA, Treasury, DPME, StatsSA, IEC and oversight bodies | Resources, Links, References |
@@ -205,7 +205,7 @@ This is a content-delivery domain, not a transactional domain. The core domain e
 
 - Use domain terms exactly as defined above
 - Reference `docs/DOMAIN_MODEL.md` for schema rules before modifying content collection config
-- Never refer to articles as "blog posts" — Compass is a structured educational series, not a blog feed
+- Never refer to articles as "blog posts" — GovCompass is a structured educational series, not a blog feed
 - Respect the sphere taxonomy — every article is tagged with exactly one sphere enum value
 
 ---
@@ -284,7 +284,7 @@ npm run test:coverage
 npm run build && npm run test:e2e
 
 # Lighthouse performance audit
-npx lighthouse https://compass.co.za --throttling.cpuSlowdownMultiplier=4
+npx lighthouse https://govcompass.co.za --throttling.cpuSlowdownMultiplier=4
 ```
 
 **Critical E2E Paths:**
@@ -414,8 +414,8 @@ docs(claude): update testing reminders with new coverage targets
 
 ```bash
 # Clone and install
-git clone https://github.com/[owner]/compass-blog.git
-cd compass-blog
+git clone https://github.com/[owner]/govcompass-blog.git
+cd govcompass-blog
 npm install
 
 # Start development server
@@ -449,8 +449,8 @@ python scripts/generate-og-images.py
 
 | Environment | Branch | URL | Deploy Method |
 |-------------|--------|-----|---------------|
-| Production | `main` | compass.co.za | Auto on push to main (Netlify) |
-| Preview | Any branch | `[branch]--compass.netlify.app` | Auto on push (Netlify branch deploys) |
+| Production | `main` | govcompass.co.za | Auto on push to main (Netlify) |
+| Preview | Any branch | `[branch]--govcompass.netlify.app` | Auto on push (Netlify branch deploys) |
 
 **Deploy Flow:**
 
@@ -481,7 +481,7 @@ git push origin main
 
 **Always:**
 
-- Maintain non-partisan editorial tone — Compass is a political education resource, not a political vehicle
+- Maintain non-partisan editorial tone — GovCompass is a political education resource, not a political vehicle
 - Keep page weight under 450KB hard limit (target: 250KB)
 - Add `alt` text to any images
 - Test on mobile viewport (360px width minimum)

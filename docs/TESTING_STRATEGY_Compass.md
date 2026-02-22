@@ -1,6 +1,6 @@
-# Testing Strategy — Compass: A Political Literacy Blog for South Africa's Missing Middle
+# Testing Strategy — GovCompass: A Political Literacy Blog for South Africa's Missing Middle
 
-> **Purpose:** Define the testing practices, standards, and quality gates for the Compass project. This document serves as the authoritative reference for how tests should be written, organized, and maintained. Compass is a static site (Astro + Netlify), so testing focuses on content schema validation, component behaviour, performance compliance, and accessibility — not on database transactions or server-side state.
+> **Purpose:** Define the testing practices, standards, and quality gates for the GovCompass project. This document serves as the authoritative reference for how tests should be written, organized, and maintained. GovCompass is a static site (Astro + Netlify), so testing focuses on content schema validation, component behaviour, performance compliance, and accessibility — not on database transactions or server-side state.
 
 ---
 
@@ -262,7 +262,7 @@ module.exports = {
 ### 4.1 Directory Structure (Separate test directory)
 
 ```
-compass-blog/
+govcompass-blog/
 ├── src/
 │   ├── content/
 │   │   └── config.ts              # Content collection schema (test target)
@@ -440,7 +440,7 @@ tests/fixtures/test-helpers.ts
 |----|-------|
 | Mock browser APIs (Clipboard, scroll events) in unit tests | Mock Zod — test the real schema |
 | Mock Netlify Forms submission for E2E if needed | Mock the Astro build system in integration tests — test real build output |
-| Stub GA4 `gtag()` calls in component tests | Over-mock — most Compass logic is pure functions |
+| Stub GA4 `gtag()` calls in component tests | Over-mock — most GovCompass logic is pure functions |
 
 ### 7.3 Mock vs Real in Context
 
@@ -531,7 +531,7 @@ Before writing implementation code, Claude should confirm:
 2. Quarantined tests tracked in GitHub Issues with `flaky-test` label
 3. Static site tests should rarely be flaky — if they are, it's likely a build environment issue
 
-**Common Causes & Fixes for Compass:**
+**Common Causes & Fixes for GovCompass:**
 
 | Cause | Symptom | Fix |
 |-------|---------|-----|
@@ -598,7 +598,7 @@ Before writing implementation code, Claude should confirm:
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | 2026-02-16 | Tshepo Machele | Initial testing strategy for Compass MVP |
+| 1.0 | 2026-02-16 | Tshepo Machele | Initial testing strategy for GovCompass MVP |
 
 ---
 

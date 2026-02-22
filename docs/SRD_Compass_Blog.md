@@ -1,5 +1,5 @@
 ---
-title: "System Requirements Document — Compass"
+title: "System Requirements Document — GovCompass"
 subtitle: "A Political Literacy Blog for South Africa's Missing Middle"
 version: "0.1"
 status: "Draft"
@@ -11,7 +11,7 @@ author: "Tshepo Machele"
 
 ## 0 → 1 New Product Development
 
-## Compass — A Political Literacy Blog for South Africa's Missing Middle
+## GovCompass — A Political Literacy Blog for South Africa's Missing Middle
 
 | Field | Detail |
 |---|---|
@@ -52,13 +52,13 @@ author: "Tshepo Machele"
 
 ## 1.1 System Vision Statement
 
-Compass is a free, long-form political education blog that makes South Africa’s governance system legible to ordinary citizens. The system delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen’s toolkit — through a fast, mobile-first, reading-optimised static website.
+GovCompass is a free, long-form political education blog that makes South Africa’s governance system legible to ordinary citizens. The system delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen’s toolkit — through a fast, mobile-first, reading-optimised static website.
 
-This System Requirements Document translates the product specifications defined in the Compass PRD (v0.1) and the user experience design defined in the Compass UXD (v0.1) into precise technical specifications that can be implemented by the development team. Every system requirement traces back to a validated product requirement, which in turn traces back to a validated market need in the MRD.
+This System Requirements Document translates the product specifications defined in the GovCompass PRD (v0.1) and the user experience design defined in the GovCompass UXD (v0.1) into precise technical specifications that can be implemented by the development team. Every system requirement traces back to a validated product requirement, which in turn traces back to a validated market need in the MRD.
 
 ## 1.2 Technical Approach Summary
 
-Compass adopts a static-site-generation (SSG) architecture using Astro, deployed on Netlify’s edge CDN. This approach is driven by three non-negotiable constraints derived from the MRD and PRD:
+GovCompass adopts a static-site-generation (SSG) architecture using Astro, deployed on Netlify’s edge CDN. This approach is driven by three non-negotiable constraints derived from the MRD and PRD:
 
 - Performance: The target reader is on a mid-range Android smartphone (Samsung Galaxy A15) over 4G prepaid data. Every unnecessary byte costs them money. Total page weight shall not exceed 400KB, with a target of 200KB.
 - Trust: The target audience trusts almost no institution. No third-party ad scripts, no dark patterns. Google Analytics 4 (GA4) is the sole analytics integration, configured with anonymised IP, restricted data retention (2 months), and a concise cookie consent banner to maintain reader trust.
@@ -149,9 +149,9 @@ The following MRD hypotheses require specific technical instrumentation to valid
 
 ## 3.1 High-Level Architecture Diagram
 
-The Compass system follows a static site generation (SSG) architecture with the following data flow:
+The GovCompass system follows a static site generation (SSG) architecture with the following data flow:
 
-*Author writes Markdown (.md) with YAML frontmatter → Git push to GitHub (main branch) → Netlify build hook triggers → Astro builds static HTML/CSS/JS → Pagefind indexes content → Netlify deploys to edge CDN → Site live at compass.co.za*
+*Author writes Markdown (.md) with YAML frontmatter → Git push to GitHub (main branch) → Netlify build hook triggers → Astro builds static HTML/CSS/JS → Pagefind indexes content → Netlify deploys to edge CDN → Site live at govcompass.co.za*
 
 Parallel pipelines:
 
@@ -209,12 +209,12 @@ Persona: Thabo — The Frustrated Ratepayer (PRD §3.1, UXD §2.1.1)
 
 A 32-year-old Johannesburg professional experiencing persistent water outages. He does not know whether his ward councillor, provincial MEC, or a national minister is responsible. He has a Samsung Galaxy A15 on 4G prepaid data and consumes content primarily via WhatsApp.
 
-### 4.1.1 Epic: Discover and Read a Compass Article
+### 4.1.1 Epic: Discover and Read a GovCompass Article
 
 |          |                                                 |                                                                                        |                                                                                         |
 |----------|-------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | **Step** | **User Action**                                 | **System Behaviour**                                                                   | **Acceptance Criteria**                                                                 |
-| 1        | Receives WhatsApp link with Compass article URL | OG meta tags render branded preview in WhatsApp (title, description, 1200×630px image) | WhatsApp displays article title, description, and branded image within 2s of link paste |
+| 1        | Receives WhatsApp link with GovCompass article URL | OG meta tags render branded preview in WhatsApp (title, description, 1200×630px image) | WhatsApp displays article title, description, and branded image within 2s of link paste |
 | 2        | Taps link on mobile                             | CDN serves static HTML; page renders within performance budget                         | FCP < 1.5s; LCP < 2.5s; total page weight < 400KB                                    |
 | 3        | Begins reading the article                      | Reading progress bar appears at viewport top; reading time displayed in metadata       | Progress bar updates on scroll; reading time accurate to ±1 minute                      |
 | 4        | Navigates within article using TOC              | Collapsible TOC on mobile expands inline below metadata; anchors scroll to section     | Tapping TOC item scrolls to correct H2; active section highlighted                      |
@@ -266,7 +266,7 @@ Persona: Sipho — The WhatsApp Debater (UXD §2.1.2)
 
 ## 5.1 Domain Model Class Diagram
 
-The following class specifications represent the core domain entities in the Compass content management system. Because Compass uses a file-based content architecture (Markdown + YAML frontmatter) rather than a relational database, these classes are implemented as Astro Content Collection schemas and TypeScript interfaces, not ORM models.
+The following class specifications represent the core domain entities in the GovCompass content management system. Because GovCompass uses a file-based content architecture (Markdown + YAML frontmatter) rather than a relational database, these classes are implemented as Astro Content Collection schemas and TypeScript interfaces, not ORM models.
 
 ### 5.1.1 Class Specifications
 
@@ -284,7 +284,7 @@ The following class specifications represent the core domain entities in the Com
 
 ### 5.2.1 Article Page Load Sequence
 
-The following sequence describes the complete flow when a reader loads a Compass article page:
+The following sequence describes the complete flow when a reader loads a GovCompass article page:
 
 1.  Reader’s browser sends HTTP GET request for /articles/[slug]
 2.  Netlify CDN checks edge cache for the requested URL
@@ -337,7 +337,7 @@ The following sequence describes the end-to-end email subscription flow:
 
 ## 6.1 Build and Deploy Flow
 
-Since Compass has no authentication system (the site is entirely public), this section documents the build and deploy flow, which is the primary system process.
+Since GovCompass has no authentication system (the site is entirely public), this section documents the build and deploy flow, which is the primary system process.
 
 20. Author commits Markdown content changes to Git repository (main branch)
 21. Git push triggers Netlify build hook
@@ -355,11 +355,11 @@ Since Compass has no authentication system (the site is entirely public), this s
 25. Python OG image script runs: reads each article’s frontmatter; generates 1200×630px branded images
 26. Netlify deploys build output (dist/ directory) to edge CDN
 27. CDN cache invalidated for changed assets; propagation completes within ~60 seconds
-28. Site live at compass.co.za with updated content
+28. Site live at govcompass.co.za with updated content
 
 ## 6.2 Core Content Delivery Flow
 
-Flow: Reader requests and consumes a Compass article (PRD §6.3)
+Flow: Reader requests and consumes a GovCompass article (PRD §6.3)
 
 29. Reader’s browser sends GET /articles/[slug] to Netlify CDN
 30. CDN returns static HTML with security headers (X-Frame-Options: DENY, X-Content-Type-Options: nosniff, Referrer-Policy: strict-origin-when-cross-origin)
@@ -378,7 +378,7 @@ Flow: Reader requests and consumes a Compass article (PRD §6.3)
 | **Error Condition**            | **System Response**                                           | **User-Facing Message**                                                                                                          | **PRD/UXD Trace** |
 | 404: Page not found            | Netlify serves custom 404.html page                           | “This page doesn’t exist. Start with The Architecture of the State — it explains how South Africa’s Constitution divides power.” | UXD §4.2.4        |
 | Email form: invalid email      | HTML5 validation prevents submission                          | Browser-native validation message                                                                                                | PRD §13.2         |
-| Email form: submission failure | Client-side error handler catches failed POST                 | “Something went wrong on our end. Please try again — and if it keeps happening, let us know at hello@compass.co.za.”             | UXD §2.3.2        |
+| Email form: submission failure | Client-side error handler catches failed POST                 | “Something went wrong on our end. Please try again — and if it keeps happening, let us know at hello@govcompass.co.za.”             | UXD §2.3.2        |
 | Search: no results             | Pagefind returns empty result set                             | “No articles match your search. Try a different term, or browse the full series.”                                                | UXD §4.2.4        |
 | CDN: edge cache miss           | Netlify fetches from origin; serves response; populates cache | No user impact (transparent)                                                                                                     | PRD §5.4          |
 | Build failure                  | Netlify build fails; previous deploy remains live             | No user impact (previous version stays live); author receives Netlify build failure notification                                 | PRD §5.4          |
@@ -474,13 +474,13 @@ Each system requirement follows a consistent format: unique identifier, title, p
 - SRD-FUNC-004.1: The system shall render a WhatsApp share button on all article pages using the URL scheme: https://api.whatsapp.com/send?text=[encoded message].
 - SRD-FUNC-004.2: The pre-filled share message shall include: article title, one-sentence hook (from frontmatter subtitle), UTM-tagged article URL (utm_source=whatsapp&utm_medium=share&utm_campaign=article-[slug]), and brand attribution line.
 - SRD-FUNC-004.3: The system shall generate per-article OG meta tags: og:title (< 60 chars), og:description (< 160 chars), og:image (1200×630px), og:url, og:type=article.
-- SRD-FUNC-004.4: The system shall generate per-article OG images at build time via Python script (Pillow), containing: Compass logo, article title, Part number, sphere tag, and brand colours.
+- SRD-FUNC-004.4: The system shall generate per-article OG images at build time via Python script (Pillow), containing: GovCompass logo, article title, Part number, sphere tag, and brand colours.
 - SRD-FUNC-004.5: The system shall append a version query parameter to OG image URLs to force WhatsApp cache refresh after content updates.
 
 **Acceptance Criteria:**
 
 - Given a reader on mobile, when they tap the WhatsApp share button, then WhatsApp opens with a correctly formatted pre-filled message.
-- Given a user receiving a Compass link in a WhatsApp group, when WhatsApp renders the link preview, then they see a branded OG image with the article title and compelling description.
+- Given a user receiving a GovCompass link in a WhatsApp group, when WhatsApp renders the link preview, then they see a branded OG image with the article title and compelling description.
 
 ### SRD-FUNC-005: Email Subscription Pipeline
 
@@ -536,7 +536,7 @@ Each system requirement follows a consistent format: unique identifier, title, p
 
 **Functional Requirements:**
 
-- SRD-FUNC-006a.1: The system shall render an inline consent banner at the bottom of the viewport on first visit, containing: a brief explanation (“We use cookies to understand how readers use Compass. No personal data is sold or shared.”), an “Accept” button, and a “Decline” link.
+- SRD-FUNC-006a.1: The system shall render an inline consent banner at the bottom of the viewport on first visit, containing: a brief explanation (“We use cookies to understand how readers use GovCompass. No personal data is sold or shared.”), an “Accept” button, and a “Decline” link.
 - SRD-FUNC-006a.2: GA4 shall be initialised with consent mode v2, defaulting analytics_storage to “denied” until the reader explicitly accepts.
 - SRD-FUNC-006a.3: On “Accept”, the system shall update consent state to “granted”, store the preference in localStorage (key: compass_consent), and dismiss the banner.
 - SRD-FUNC-006a.4: On “Decline”, the system shall dismiss the banner and store the declined preference. GA4 shall continue sending cookieless pings for aggregate measurement only.
@@ -604,7 +604,7 @@ Each system requirement follows a consistent format: unique identifier, title, p
 
 **Functional Requirements:**
 
-- SRD-FUNC-009.1: Each article page shall include: <title> (Article Title \| Compass, < 60 chars), <meta name="description"> (from frontmatter, 150–160 chars), <meta name="keywords"> (from frontmatter array).
+- SRD-FUNC-009.1: Each article page shall include: <title> (Article Title \| GovCompass, < 60 chars), <meta name="description"> (from frontmatter, 150–160 chars), <meta name="keywords"> (from frontmatter array).
 - SRD-FUNC-009.2: Each article page shall include Open Graph tags: og:title, og:description, og:image, og:url, og:type=article.
 - SRD-FUNC-009.3: Each article page shall include Twitter Card tags: twitter:card=summary_large_image, twitter:title, twitter:description, twitter:image.
 - SRD-FUNC-009.4: Each article page shall include a self-referencing canonical URL: <link rel="canonical">.
@@ -632,13 +632,13 @@ Each system requirement follows a consistent format: unique identifier, title, p
 
 ## 8.1 Entity-Relationship Diagram
 
-Compass uses a file-based content architecture rather than a relational database. The “database” is the Git repository itself, and the “schema” is enforced by Astro Content Collections using Zod validation. The following describes the logical data model:
+GovCompass uses a file-based content architecture rather than a relational database. The “database” is the Git repository itself, and the “schema” is enforced by Astro Content Collections using Zod validation. The following describes the logical data model:
 
 - Article (1) ↔ Part (M:1): Each article belongs to exactly one Part (1–5). Parts are derived from the article’s part field at build time.
 - Article (1) ↔ Sphere (M:1): Each article is tagged with exactly one sphere enum value (national, provincial, municipal, all).
 - Article (1) ↔ Article (1:1, optional): Each article has an optional prev and next reference forming a doubly-linked reading order list.
 - Article (1) ↔ SEOMetadata (1:1): Each article has exactly one nested SEO metadata object.
-- EmailSubscriber is external to the system (managed by ESP). No data is stored in the Compass repository.
+- EmailSubscriber is external to the system (managed by ESP). No data is stored in the GovCompass repository.
 
 ## 8.2 Data Entity Specifications
 
@@ -662,7 +662,7 @@ Implementation: src/content/config.ts using Astro Content Collections and Zod.
 | series.prev      | string \| null | Yes          | Valid slug or null                         | null                                              |
 | series.next      | string \| null | Yes          | Valid slug or null                         | following-the-money                               |
 | seo.ogImage      | string         | No           | Valid path                                 | /og/architecture-of-the-state.png                 |
-| seo.canonicalUrl | string         | No           | Valid URL                                  | https://compass.co.za/articles/...                |
+| seo.canonicalUrl | string         | No           | Valid URL                                  | https://govcompass.co.za/articles/...                |
 | seo.keywords     | string[]     | Yes          | Non-empty array                            | ["three spheres", "government structure"]       |
 
 ## 8.3 Data Flow Diagram
@@ -682,16 +682,16 @@ The only runtime data flow is email subscription:
 
 44. Reader submits email via Netlify Forms (POST request to Netlify’s form handling endpoint)
 45. Netlify stores submission in its dashboard and triggers webhook to ESP
-46. ESP manages subscriber data externally (Compass system has no access to or responsibility for subscriber PII beyond the initial capture)
+46. ESP manages subscriber data externally (GovCompass system has no access to or responsibility for subscriber PII beyond the initial capture)
 
 ## 8.4 Data Privacy and Compliance
 
 |                          |                                                                                                                                                                                       |                    |
 |--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
 | **Concern**              | **Approach**                                                                                                                                                                          | **PRD/MRD Trace**  |
-| Personal data collection | Only email address collected; no name, no demographics, no browsing history stored by Compass                                                                                         | PRD §13.2          |
+| Personal data collection | Only email address collected; no name, no demographics, no browsing history stored by GovCompass                                                                                         | PRD §13.2          |
 | Analytics data           | Google Analytics 4 uses first-party cookies; cookie consent banner required; IP anonymisation enabled; data retention set to 2 months; no PII collected beyond anonymised identifiers | PRD §9.1           |
-| Data storage location    | Email addresses stored by ESP (Buttondown: EU-hosted / Mailchimp: US-hosted); Compass system stores zero PII                                                                          | PRD §13.1          |
+| Data storage location    | Email addresses stored by ESP (Buttondown: EU-hosted / Mailchimp: US-hosted); GovCompass system stores zero PII                                                                          | PRD §13.1          |
 | Data retention           | Subscriber data retained by ESP until unsubscribe; Netlify Forms submissions retained per Netlify’s policy                                                                            | —                  |
 | Privacy policy           | Plain-language privacy policy at /privacy explaining: what data is collected, why, where it’s stored, and how to unsubscribe                                                          | PRD §6.6 (implied) |
 | POPIA compliance         | Minimal data collection; legitimate interest basis; easy unsubscribe; privacy policy published                                                                                        | —                  |
@@ -700,7 +700,7 @@ The only runtime data flow is email subscription:
 
 ## 9.1 Integration Overview
 
-Compass integrates with four external services. All integrations are designed to be loosely coupled: the static site functions fully without any integration (degraded gracefully), and no integration requires a custom backend or server.
+GovCompass integrates with four external services. All integrations are designed to be loosely coupled: the static site functions fully without any integration (degraded gracefully), and no integration requires a custom backend or server.
 
 |                            |                             |                        |                                            |                                                              |
 |----------------------------|-----------------------------|------------------------|--------------------------------------------|--------------------------------------------------------------|
@@ -770,7 +770,7 @@ Compass integrates with four external services. All integrations are designed to
 
 ## 10.1 API Design Principles
 
-Compass is a static site with no custom APIs. All “API” interactions are with third-party services (Netlify Forms, ESP, Google Analytics). This section documents the external API contracts the system depends on and the internal data schemas that govern content structure.
+GovCompass is a static site with no custom APIs. All “API” interactions are with third-party services (Netlify Forms, ESP, Google Analytics). This section documents the external API contracts the system depends on and the internal data schemas that govern content structure.
 
 Design principles for all integrations:
 
@@ -809,7 +809,7 @@ The following netlify.toml configuration governs the build, deployment, redirect
 
 ## 11.1 Authentication and Authorisation
 
-Compass has no authentication or authorisation system. The entire site is publicly accessible. Content authoring is controlled via Git repository access (GitHub account permissions). There are no user accounts, no login, no session management, and no role-based access control on the public-facing site.
+GovCompass has no authentication or authorisation system. The entire site is publicly accessible. Content authoring is controlled via Git repository access (GitHub account permissions). There are no user accounts, no login, no session management, and no role-based access control on the public-facing site.
 
 |                                 |                                                         |                                                |
 |---------------------------------|---------------------------------------------------------|------------------------------------------------|
@@ -972,7 +972,7 @@ Phase 0 detailed breakdown (the primary technical implementation phase):
 | **Resource**                | **Specification**                                                         | **Cost**                         | **Phase** |
 | Developer                   | Tshepo Machele (full-stack, solo)                                         | Sweat equity                     | All       |
 | AI Development Partner      | Claude Code                                                               | Anthropic subscription           | All       |
-| Domain                      | compass.co.za                                                             | ~R100–200/year                   | Phase 0   |
+| Domain                      | govcompass.co.za                                                             | ~R100–200/year                   | Phase 0   |
 | Hosting                     | Netlify free tier (100GB bandwidth, 300 build minutes)                    | Free                             | All       |
 | Analytics                   | Google Analytics 4 free tier                                              | Free                             | Phase 0+  |
 | Email ESP                   | Buttondown free tier (< 100 subscribers) or Mailchimp free tier (< 500) | Free (upgrade if growth exceeds) | Phase 0+  |
@@ -1013,7 +1013,7 @@ Phase 0 detailed breakdown (the primary technical implementation phase):
 | TD-003 | Google Analytics 4 service | External | Google LLC         | No analytics data               | Switch to Plausible or Umami (privacy-focused alternatives); or self-host Matomo |
 | TD-004 | Buttondown / Mailchimp ESP | External | ESP provider       | Cannot send email notifications | Switch ESP (simple webhook reconfiguration); subscriber data exportable          |
 | TD-005 | Node.js 20 LTS             | Runtime  | OpenJS Foundation  | Build environment unavailable   | Netlify supports multiple Node versions; update netlify.toml                     |
-| TD-006 | compass.co.za domain       | External | Domain registrar   | Site unreachable by name        | Register backup domain (e.g., compasssa.org); update DNS                         |
+| TD-006 | govcompass.co.za domain       | External | Domain registrar   | Site unreachable by name        | Register backup domain (e.g., compasssa.org); update DNS                         |
 
 # Appendix A: Stakeholder Sign-Off
 
@@ -1030,7 +1030,7 @@ Phase 0 detailed breakdown (the primary technical implementation phase):
 |             |            |                |                                                            |
 |-------------|------------|----------------|------------------------------------------------------------|
 | **Version** | **Date**   | **Author**     | **Changes**                                                |
-| 0.1         | 2026-02-15 | Tshepo Machele | Initial SRD — complete system requirements for Compass MVP |
+| 0.1         | 2026-02-15 | Tshepo Machele | Initial SRD — complete system requirements for GovCompass MVP |
 
 # Appendix C: SRD Completion Checklist
 

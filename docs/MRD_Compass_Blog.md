@@ -2,7 +2,7 @@
 
 ## 0 → 1 New Product Creation
 
-### Compass — A Political Literacy Blog for South Africa's Missing Middle
+### GovCompass — A Political Literacy Blog for South Africa's Missing Middle
 
 ---
 
@@ -44,11 +44,11 @@ The primary job executor is a working-age South African (25–45) in the urban m
 
 ### 1.3 Proposed Value Proposition
 
-Compass is a free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. It translates the Constitution, the Division of Revenue Act, Auditor-General reports, and DPME performance data into plain-language, O'Reilly-style articles that answer the question every frustrated citizen asks: "Who is actually responsible for this, and how do I know if they're doing their job?" The blog is structured as a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — designed to be read sequentially or accessed as standalone references. Each article is at least 5,000 words, written in a conversational register, anchored in real data, and concludes with practical tools the reader can use immediately.
+GovCompass is a free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. It translates the Constitution, the Division of Revenue Act, Auditor-General reports, and DPME performance data into plain-language, O'Reilly-style articles that answer the question every frustrated citizen asks: "Who is actually responsible for this, and how do I know if they're doing their job?" The blog is structured as a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — designed to be read sequentially or accessed as standalone references. Each article is at least 5,000 words, written in a conversational register, anchored in real data, and concludes with practical tools the reader can use immediately.
 
 ### 1.4 Success Criteria
 
-The product will be considered successful if, within 12 months of launch, it achieves the following measurable outcomes. First, at least 10,000 unique monthly readers engaging with content beyond a single page view, indicating genuine interest rather than drive-by traffic. Second, an average time-on-page of 8+ minutes for long-form articles, demonstrating that readers are consuming the substantive content rather than bouncing. Third, measurable WhatsApp sharing activity (tracked via UTM-tagged share links), confirming organic distribution through the primary channel the target segment uses. Fourth, at least 2,000 email subscribers who have opted in for new article notifications, establishing a direct relationship with readers independent of social media algorithms. Fifth, qualitative evidence (comments, emails, social media mentions) that readers have used Compass content to identify responsible government entities, locate performance data, or engage with oversight mechanisms.
+The product will be considered successful if, within 12 months of launch, it achieves the following measurable outcomes. First, at least 10,000 unique monthly readers engaging with content beyond a single page view, indicating genuine interest rather than drive-by traffic. Second, an average time-on-page of 8+ minutes for long-form articles, demonstrating that readers are consuming the substantive content rather than bouncing. Third, measurable WhatsApp sharing activity (tracked via UTM-tagged share links), confirming organic distribution through the primary channel the target segment uses. Fourth, at least 2,000 email subscribers who have opted in for new article notifications, establishing a direct relationship with readers independent of social media algorithms. Fifth, qualitative evidence (comments, emails, social media mentions) that readers have used GovCompass content to identify responsible government entities, locate performance data, or engage with oversight mechanisms.
 
 ### 1.5 Investment Ask
 
@@ -62,7 +62,7 @@ The product requires one person (Tshepo Machele) working with Claude Code as the
 
 **Evaluate government performance and identify accountable officials** when experiencing service delivery failures or making electoral decisions, in order to direct complaints, votes, and civic energy toward the correct sphere, department, or individual.
 
-> ⚠️ Note: This job statement is solution-agnostic. It does not reference a blog, a website, or any specific medium. The job exists regardless of whether Compass exists — citizens are trying to accomplish this job today using inadequate tools.
+> ⚠️ Note: This job statement is solution-agnostic. It does not reference a blog, a website, or any specific medium. The job exists regardless of whether GovCompass exists — citizens are trying to accomplish this job today using inadequate tools.
 
 ### 2.2 Evidence of Struggle
 
@@ -187,7 +187,7 @@ Importance (IMP) and Satisfaction (SAT) scores below are estimated based on the 
 
 ### 5.2 Switching Trigger Events
 
-The following events or circumstances cause the target job executor to actively seek understanding of the governance system, creating receptivity windows for Compass content:
+The following events or circumstances cause the target job executor to actively seek understanding of the governance system, creating receptivity windows for GovCompass content:
 
 1. **Personal service delivery crisis** — a prolonged water outage, extended load shedding, a potholed road that damages their vehicle, a clinic visit where medication is unavailable — triggers the question "who is responsible for this?"
 
@@ -212,7 +212,7 @@ The following events or circumstances cause the target job executor to actively 
 | H5 | **Content: The 15-article series structure (foundational → national → provincial → municipal → toolkit) provides comprehensive coverage** without requiring the reader to have any prior knowledge of SA governance | High (>70%) | Editorial review; reader feedback on gaps; expert review of completeness | Testing |
 | H6 | **Trust: A non-partisan, data-driven, transparently-sourced blog can build credibility with a segment that trusts almost no institution** (21% trust Parliament, 23% trust national government, 25% trust ruling party) | Medium (30–70%) | Reader trust survey; qualitative feedback; return visit rates; email subscription as trust proxy | Testing |
 | H7 | **Timing: The 2026 local government elections create a natural demand spike** for municipal governance content, making the municipal articles (Part 4) especially timely and the overall series relevant | High (>70%) | Traffic patterns around election season; comparison of pre-election vs. baseline readership | Testing |
-| H8 | **Viability: Compass can sustain itself without monetization in v1** — and if successful, can explore sustainable revenue models (sponsorship, donations, premium content, consulting) in v2 | Medium (30–70%) | Operating cost tracking; reader willingness-to-pay survey at 12 months; partnership interest from CSOs and foundations | Not yet testing |
+| H8 | **Viability: GovCompass can sustain itself without monetization in v1** — and if successful, can explore sustainable revenue models (sponsorship, donations, premium content, consulting) in v2 | Medium (30–70%) | Operating cost tracking; reader willingness-to-pay survey at 12 months; partnership interest from CSOs and foundations | Not yet testing |
 
 ---
 
@@ -220,7 +220,7 @@ The following events or circumstances cause the target job executor to actively 
 
 ### 7.1 Outcome-Based Competitive Analysis
 
-| Top Desired Outcome | Do Nothing | Mainstream News Media | WhatsApp Groups | Academic Publications | **Compass (Our Goal)** |
+| Top Desired Outcome | Do Nothing | Mainstream News Media | WhatsApp Groups | Academic Publications | **GovCompass (Our Goal)** |
 |----------------------|------------|----------------------|-----------------|----------------------|------------------------|
 | Identify responsible sphere of government | ☐ Not addressed | ★ Partially (assumes knowledge) | ☐ Not addressed | ★★ Well addressed (but inaccessible) | ★★★ Excellently addressed |
 | Find and interpret AG audit outcomes | ☐ Not addressed | ★ Partially (reports on headlines only) | ☐ Not addressed | ★★ Well addressed (but inaccessible) | ★★★ Excellently addressed |
@@ -231,9 +231,9 @@ The following events or circumstances cause the target job executor to actively 
 
 ### 7.2 Differentiation Strategy
 
-Compass wins by occupying a position that no existing South African content platform holds: **structurally deep, practically actionable, plain-language political education for non-experts.** News media is event-driven and assumes structural knowledge. Academic publications are structurally deep but inaccessible. Government communications are self-serving. Civil society reports are issue-siloed. WhatsApp is peer-driven and unreliable.
+GovCompass wins by occupying a position that no existing South African content platform holds: **structurally deep, practically actionable, plain-language political education for non-experts.** News media is event-driven and assumes structural knowledge. Academic publications are structurally deep but inaccessible. Government communications are self-serving. Civil society reports are issue-siloed. WhatsApp is peer-driven and unreliable.
 
-Compass's differentiation rests on three pillars. First, **systematic coverage** — a MECE article series that covers all three spheres, the fiscal system, oversight institutions, M&E systems, and a practical toolkit, ensuring no structural gap in the reader's understanding. Second, **the O'Reilly register** — conversational, specific, practical writing that treats the reader as intelligent but uninformed, uses "you" throughout, leads with concrete examples, and ends every article with actionable tools. Third, **data anchoring** — every claim is tied to real data sources (AGSA, National Treasury, DPME, StatsSA, IEC) with guidance on where the reader can verify the information themselves.
+GovCompass's differentiation rests on three pillars. First, **systematic coverage** — a MECE article series that covers all three spheres, the fiscal system, oversight institutions, M&E systems, and a practical toolkit, ensuring no structural gap in the reader's understanding. Second, **the O'Reilly register** — conversational, specific, practical writing that treats the reader as intelligent but uninformed, uses "you" throughout, leads with concrete examples, and ends every article with actionable tools. Third, **data anchoring** — every claim is tied to real data sources (AGSA, National Treasury, DPME, StatsSA, IEC) with guidance on where the reader can verify the information themselves.
 
 Competitors cannot easily replicate this because news media's business model rewards event-driven content, academics are incentivized to write for peers, and civil society organizations are issue-specific by mandate. A comprehensive, accessible governance education resource has no natural institutional home — which is precisely why it doesn't exist yet.
 
@@ -243,9 +243,9 @@ Competitors cannot easily replicate this because news media's business model rew
 
 ### 8.1 MVP Scope
 
-The MVP is a responsive, fast-loading blog website with the first four foundational articles published (Part 1 of the series), plus email subscription functionality and WhatsApp share buttons. The end-to-end experience: a citizen encounters a service delivery failure, searches for "who is responsible for water in South Africa" or receives a Compass link in a WhatsApp group, reads an article that explains the three-sphere system with concrete examples relevant to their situation, and leaves with a mental model for identifying responsible government entities — plus links to the specific data sources (AGSA, National Treasury, DPME) where they can look up their own municipality or province. They can subscribe via email to be notified when the next article drops.
+The MVP is a responsive, fast-loading blog website with the first four foundational articles published (Part 1 of the series), plus email subscription functionality and WhatsApp share buttons. The end-to-end experience: a citizen encounters a service delivery failure, searches for "who is responsible for water in South Africa" or receives a GovCompass link in a WhatsApp group, reads an article that explains the three-sphere system with concrete examples relevant to their situation, and leaves with a mental model for identifying responsible government entities — plus links to the specific data sources (AGSA, National Treasury, DPME) where they can look up their own municipality or province. They can subscribe via email to be notified when the next article drops.
 
-The platform will be built using Claude Code with Tshepo Machele. It will be a static site or lightweight framework (Hugo, Astro, or Next.js static export) deployed on a low-cost host (Vercel, Netlify, or Cloudflare Pages). Design will be clean, reading-optimized (large type, generous whitespace, mobile-first), and branded as Compass.
+The platform will be built using Claude Code with Tshepo Machele. It will be a static site or lightweight framework (Hugo, Astro, or Next.js static export) deployed on a low-cost host (Vercel, Netlify, or Cloudflare Pages). Design will be clean, reading-optimized (large type, generous whitespace, mobile-first), and branded as GovCompass.
 
 ### 8.2 Target Outcomes for MVP
 
@@ -269,7 +269,7 @@ The first 100 readers are urban professionals in Gauteng (aged 28–40) who are 
 
 ### 9.1 North Star Metric
 
-**Monthly readers who read at least 2 articles and spend 8+ minutes total on site.** This captures both reach (readership) and depth (genuine engagement with substantive content). A reader who reads two articles and spends 8+ minutes has likely absorbed enough structural understanding to meaningfully change how they think about government accountability — which is the core purpose of Compass.
+**Monthly readers who read at least 2 articles and spend 8+ minutes total on site.** This captures both reach (readership) and depth (genuine engagement with substantive content). A reader who reads two articles and spends 8+ minutes has likely absorbed enough structural understanding to meaningfully change how they think about government accountability — which is the core purpose of GovCompass.
 
 ### 9.2 Key Metrics by Stage
 
@@ -277,13 +277,13 @@ The first 100 readers are urban professionals in Gauteng (aged 28–40) who are 
 |-------|-------------|--------|
 | **Discovery** (Months 1–2) | Platform built and live; 4 articles drafted and reviewed; 10 beta readers provide feedback | Platform functional; all 4 Part 1 articles pass expert review for accuracy |
 | **Validation** (Months 3–6) | Unique monthly readers; average time-on-page; scroll depth; WhatsApp referral share; email subscriptions | 1,000 unique monthly readers; 8-min avg time-on-page; 30%+ WhatsApp referral share; 500 email subscribers |
-| **Growth** (Months 7–12) | Monthly readers; article completion rate; returning visitors; email list growth; social sharing volume; qualitative impact evidence | 10,000 unique monthly readers; 40% return visit rate; 2,000 email subscribers; at least 5 documented cases of readers using Compass content for civic action |
+| **Growth** (Months 7–12) | Monthly readers; article completion rate; returning visitors; email list growth; social sharing volume; qualitative impact evidence | 10,000 unique monthly readers; 40% return visit rate; 2,000 email subscribers; at least 5 documented cases of readers using GovCompass content for civic action |
 
 ### 9.3 Key Milestones
 
 | Milestone | Success Criteria | Target Date |
 |-----------|------------------|-------------|
-| Platform MVP live | Responsive blog with Compass branding, email capture, WhatsApp share, analytics | End Q2 2026 |
+| Platform MVP live | Responsive blog with GovCompass branding, email capture, WhatsApp share, analytics | End Q2 2026 |
 | Part 1 published (4 foundational articles) | All 4 articles live, reviewed for accuracy, SEO-optimized | End Q3 2026 |
 | Part 2 published (3 national government articles) | Articles 2.1–2.3 live | End Q4 2026 |
 | Parts 3–4 published (municipal + provincial — 7 articles) | Timed to build toward 2026 local election relevance; municipal articles prioritized | Q4 2026 – Q1 2027 |
@@ -299,12 +299,12 @@ The first 100 readers are urban professionals in Gauteng (aged 28–40) who are 
 | What's Excluded | Rationale |
 |-----------------|-----------|
 | **Monetization** (ads, paywalls, subscriptions, sponsorship) | Premature. Trust-building with a low-trust audience requires a credible free offering. Monetization exploration deferred to post-PMF assessment (H8). |
-| **Party-political positioning or endorsements** | Compass is a political education resource, not a political vehicle. Any perception of partisan alignment would destroy credibility with the target segment, which is dealigned and suspicious of all parties. Content must be rigorously non-partisan. |
+| **Party-political positioning or endorsements** | GovCompass is a political education resource, not a political vehicle. Any perception of partisan alignment would destroy credibility with the target segment, which is dealigned and suspicious of all parties. Content must be rigorously non-partisan. |
 | **Languages beyond English** | English is the primary media consumption language for the target segment. Vernacular versions (isiZulu, Sesotho, isiXhosa) are desirable for reach but add significant translation cost and complexity. Deferred until content is validated in English. |
 | **Video or podcast content** | Long-form written articles are the core format. Video and audio adaptations may improve reach but require different production skills and infrastructure. Reconsider when readership validates demand. |
 | **Interactive data tools** (dashboards, municipal scorecards, audit lookup tools) | High value but high development cost. Written articles with links to source data are the MVP approach. Interactive tools can be built later if engagement data supports the investment. |
 | **User-generated content or community features** (comments, forums) | Moderation burden is high and quality risk is significant. Initial engagement feedback will come through email, social media, and direct outreach. Community features can be added if demand warrants. |
-| **Coverage beyond the 15-article series** (current affairs, breaking news, opinion) | Compass is a structured educational resource, not a news publication. Adding current affairs coverage would dilute the value proposition and create unsustainable content demands for a one-person operation. |
+| **Coverage beyond the 15-article series** (current affairs, breaking news, opinion) | GovCompass is a structured educational resource, not a news publication. Adding current affairs coverage would dilute the value proposition and create unsustainable content demands for a one-person operation. |
 | **Mobile app** | A responsive website accessed via mobile browser serves the target segment. A dedicated app adds development and maintenance cost without clear incremental value at this stage. |
 
 ### 10.2 Future Considerations

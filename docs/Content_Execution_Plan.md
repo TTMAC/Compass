@@ -1,6 +1,6 @@
 # Content Execution Plan
 
-**Compass — compass.co.za**
+**GovCompass — govcompass.co.za**
 
 ---
 
@@ -15,7 +15,7 @@
 
 ## 1. Purpose & Scope
 
-This document is the operational playbook for producing all 15 articles in the Compass series. It synthesises three source documents into a single execution reference: the [Article Series Plan](Compass_article_series.md) (15 article titles with detailed generation prompts), the [Content Style Guide](Compass_Content_Style_Guide.md) (editorial standards, voice, structure, and pre-publication checklist), and the [Autonomous Operations Instruction Set](Compass_Autonomous_Operations.md) (7-agent pipeline, skills, MCPs, approval gates, and 14-day production cycle). The audience for this document is the seven autonomous agents (A1–A7) executing the content pipeline and the human approver (Tshepo Machele) who reviews at every approval gate.
+This document is the operational playbook for producing all 15 articles in the GovCompass series. It synthesises three source documents into a single execution reference: the [Article Series Plan](GovCompass_article_series.md) (15 article titles with detailed generation prompts), the [Content Style Guide](GovCompass_Content_Style_Guide.md) (editorial standards, voice, structure, and pre-publication checklist), and the [Autonomous Operations Instruction Set](GovCompass_Autonomous_Operations.md) (7-agent pipeline, skills, MCPs, approval gates, and 14-day production cycle). The audience for this document is the seven autonomous agents (A1–A7) executing the content pipeline and the human approver (Tshepo Machele) who reviews at every approval gate.
 
 ---
 
@@ -30,7 +30,7 @@ This reusable 6-phase template governs production of any single article in the s
 | **3. Editorial QA** | 9–10 | A3 (Editorial Quality Agent) | Run Zod schema validation on frontmatter. Proofread for grammar, spelling, and style. Enforce O'Reilly conversational register — flag academic or corporate tone. Verify BLUF structure, expert anecdotes (2–3, named with institutional affiliation), Practical Toolkit section, and Sources section with hyperlinks. **Run expert verification checks: confirm each named expert is a real person at the stated institution with published research in the cited field (Google Scholar, ORCID, institutional pages — minimum two independent sources). Verify that paraphrased insights accurately represent the expert's documented research positions and that specific publications are cited. Flag any expert who cannot be verified for replacement with an institutional source.** Verify Resources section exists with links to verifiable publications and institutional sources. Test all internal and external links. Flag partisan language, hype words, unexplained jargon. Verify heading hierarchy (H2/H3, no H1 in body). Generate structured quality report (pass/fail per criterion, **including expert verification status for each cited expert**). | All pre-publication checklist items (§13) must pass. Zero tolerance for partisan language. **Zero tolerance for unverified or fabricated experts.** All links must be functional. All five brand attributes must hold (Trustworthy, Empowering, Accessible, Serious, Non-partisan). | **Yes** — Tshepo approves quality report (SLA: 24 hours) |
 | **4. Revision** | 11–12 | A2 + A3 | Incorporate Tshepo's feedback and A3's quality report findings. Re-validate frontmatter schema. Re-test all links. Re-verify tone, BLUF, anecdotes, and toolkit section. A3 produces updated quality report confirming all issues resolved. | Same constraints as Phases 2 and 3. Content must pass all Zod schema validations before proceeding. | **Yes** — Tshepo approves final version (SLA: 24 hours) |
 | **5. Publish** | 13 | A4 (Publishing & Deployment) + A7 (Site Reliability) | A4: Create feature branch (`content/{part}-{article}-{slug}`), commit Markdown to `/src/content/articles/`, open PR with article summary. Verify `npm run build` succeeds. Monitor Netlify deploy preview — verify article renders, sphere tag colour, OG image (1200x630px), prev/next navigation, callout styling. A7: Run post-deploy health checks, Lighthouse audit (Performance >90, Accessibility >95, SEO >95), page weight check (<400KB, target <200KB), verify Pagefind index includes new article. | Page weight target: 200KB, hard limit: 400KB (§11). Heading hierarchy must render correctly. Metadata line must show reading time, sphere tag, and publish date (§8). | **Yes** — Tshepo approves PR merge (SLA: 24 hours) |
-| **6. Distribute & Monitor** | 14+ | A5 (Distribution & Growth) + A6 (Analytics & Insights) | A5: Draft notification email (Subject: "[Article Title] — New on Compass"; body: title, subtitle, one-sentence hook, UTM-tagged link; plain text or minimal HTML). Verify WhatsApp share button constructs correct pre-filled message with UTM parameters. Verify OG preview renders correctly in WhatsApp. A6: Track engagement — page views, time on page, scroll depth (25/50/75/100%), WhatsApp shares, email click-throughs, outbound clicks to government data sources. | Email: no images, no complex HTML (§10.4 distribution standards). WhatsApp share text includes article title, one-sentence hook, UTM-tagged URL, Compass sign-off (§10.3). | **Yes** — Tshepo approves notification email send (SLA: 12 hours) |
+| **6. Distribute & Monitor** | 14+ | A5 (Distribution & Growth) + A6 (Analytics & Insights) | A5: Draft notification email (Subject: "[Article Title] — New on GovCompass"; body: title, subtitle, one-sentence hook, UTM-tagged link; plain text or minimal HTML). Verify WhatsApp share button constructs correct pre-filled message with UTM parameters. Verify OG preview renders correctly in WhatsApp. A6: Track engagement — page views, time on page, scroll depth (25/50/75/100%), WhatsApp shares, email click-throughs, outbound clicks to government data sources. | Email: no images, no complex HTML (§10.4 distribution standards). WhatsApp share text includes article title, one-sentence hook, UTM-tagged URL, GovCompass sign-off (§10.3). | **Yes** — Tshepo approves notification email send (SLA: 12 hours) |
 
 ---
 
@@ -133,7 +133,7 @@ Day  5  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
      │
 Day  6  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
      │  A2: Continue drafting
-     │      → Cross-references to other Compass articles
+     │      → Cross-references to other GovCompass articles
      │      → Sources and Further Reading section
      │
 Day  7  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
@@ -212,9 +212,9 @@ Days 14–28  (Overlaps with next article's research phase)
 
 This document is updated when the publication schedule changes, when a new approval gate is introduced, or when the production cycle timing is adjusted. The three source documents remain the authorities for their respective domains:
 
-- **[Article Series Plan](Compass_article_series.md)** — authoritative for article titles, generation prompts, and series structure
-- **[Content Style Guide](Compass_Content_Style_Guide.md)** — authoritative for editorial standards, voice, tone, and pre-publication checklist
-- **[Autonomous Operations Instruction Set](Compass_Autonomous_Operations.md)** — authoritative for agent responsibilities, skills, MCPs, and approval gate definitions
+- **[Article Series Plan](GovCompass_article_series.md)** — authoritative for article titles, generation prompts, and series structure
+- **[Content Style Guide](GovCompass_Content_Style_Guide.md)** — authoritative for editorial standards, voice, tone, and pre-publication checklist
+- **[Autonomous Operations Instruction Set](GovCompass_Autonomous_Operations.md)** — authoritative for agent responsibilities, skills, MCPs, and approval gate definitions
 
 In the event of a conflict between this execution plan and any source document, the source document takes precedence.
 

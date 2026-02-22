@@ -1,13 +1,13 @@
 # Autonomous Operations Instruction Set
 
-## Compass — compass.co.za
+## GovCompass — govcompass.co.za
 *MECE Framework for Agents, Skills & MCPs*
 
 ---
 
 | Document Owner | Version | Status | Platform |
 |----------------|---------|--------|----------|
-| Tshepo Machele | 1.0 | Draft | compass.co.za |
+| Tshepo Machele | 1.0 | Draft | govcompass.co.za |
 
 | Created | Last Updated | Source Documents |
 |---------|--------------|------------------|
@@ -32,11 +32,11 @@
 This document is structured using the **MECE principle** (Mutually Exclusive, Collectively Exhaustive):
 
 - **Mutually Exclusive:** Each agent has a single, non-overlapping domain of responsibility. No two agents own the same task. Each skill belongs to exactly one functional category. Each MCP serves a distinct integration boundary.
-- **Collectively Exhaustive:** Together, the agents, skills, and MCPs cover every operational function required to run Compass — from article research through drafting, editorial quality, publication, distribution, analytics, and site reliability.
+- **Collectively Exhaustive:** Together, the agents, skills, and MCPs cover every operational function required to run GovCompass — from article research through drafting, editorial quality, publication, distribution, analytics, and site reliability.
 
 **Human-in-the-Loop Model:** Agents operate on a "propose → approve → execute" cycle. The human approves at defined gates marked with 🚦 throughout this document. Between gates, agents act autonomously.
 
-**Product Context:** Compass is a free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. It delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — through a fast, mobile-first, reading-optimised static website. The target reader is a 25–45-year-old South African professional on a mid-range Android smartphone over 4G prepaid data.
+**Product Context:** GovCompass is a free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. It delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — through a fast, mobile-first, reading-optimised static website. The target reader is a 25–45-year-old South African professional on a mid-range Android smartphone over 4G prepaid data.
 
 ---
 
@@ -62,7 +62,7 @@ Agents are autonomous entities that own a bounded domain of work. Each agent map
 
 #### A1 — Content Strategist Agent
 
-**Domain:** Research planning and content strategy for the 15-article Compass series across five parts and four governance spheres.
+**Domain:** Research planning and content strategy for the 15-article GovCompass series across five parts and four governance spheres.
 
 **Inputs:**
 - Analytics performance reports from A6
@@ -103,7 +103,7 @@ Agents are autonomous entities that own a bounded domain of work. Each agent map
 
 #### A2 — Content Author Agent
 
-**Domain:** Drafting articles that meet Compass editorial standards — O'Reilly conversational register, data-anchored, action-oriented.
+**Domain:** Drafting articles that meet GovCompass editorial standards — O'Reilly conversational register, data-anchored, action-oriented.
 
 **Inputs:**
 - Approved research brief from A1
@@ -130,7 +130,7 @@ Agents are autonomous entities that own a bounded domain of work. Each agent map
 - Calculate and set estimated reading time (word count / 200 wpm)
 - Generate SEO-optimised meta descriptions (150–160 chars) and titles (<60 chars)
 - Research and verify all data claims against primary sources before inclusion
-- Create internal cross-references to other Compass articles using relative links: `[Article 1.2](/articles/following-the-money)`
+- Create internal cross-references to other GovCompass articles using relative links: `[Article 1.2](/articles/following-the-money)`
 
 **🚦 Human Approval Gates:**
 - Review and approve/edit each completed draft before handoff to A3
@@ -224,7 +224,7 @@ Agents are autonomous entities that own a bounded domain of work. Each agent map
 - Monitor Netlify build status and capture build logs
 - Verify Pagefind index includes new content post-build
 - Verify deploy preview renders correctly: article loads, frontmatter renders, sphere tag displays correct colour, reading progress bar functions, prev/next navigation links are correct, expert anecdote callouts render with green left border, Practical Toolkit section renders with dashed green border
-- Verify OG image was generated for the article (1200×630px, article title, Compass branding)
+- Verify OG image was generated for the article (1200×630px, article title, GovCompass branding)
 - Merge to main after approval and verify production deploy
 - Trigger rollback if production deploy fails health checks
 
@@ -259,10 +259,10 @@ Agents are autonomous entities that own a bounded domain of work. Each agent map
 - Confirmation email and welcome sequence drafts
 
 **Autonomous Actions:**
-- Draft new article notification emails following PRD §13.3 format: Subject: "[Article Title] — New on Compass"; Body: article title, subtitle, one-sentence hook, direct link with UTM parameters (`utm_source=email&utm_medium=notification&utm_campaign=article-[slug]`). Plain text or minimal HTML for mobile deliverability
-- Verify WhatsApp share button constructs correct pre-filled message per PRD §14.1 format: 📍 [Article Title] + one-sentence hook + UTM-tagged URL (`utm_source=whatsapp&utm_medium=share&utm_campaign=article-[slug]`) + "— From Compass: Making SA's governance system legible"
+- Draft new article notification emails following PRD §13.3 format: Subject: "[Article Title] — New on GovCompass"; Body: article title, subtitle, one-sentence hook, direct link with UTM parameters (`utm_source=email&utm_medium=notification&utm_campaign=article-[slug]`). Plain text or minimal HTML for mobile deliverability
+- Verify WhatsApp share button constructs correct pre-filled message per PRD §14.1 format: 📍 [Article Title] + one-sentence hook + UTM-tagged URL (`utm_source=whatsapp&utm_medium=share&utm_campaign=article-[slug]`) + "— From GovCompass: Making SA's governance system legible"
 - Verify OG preview renders correctly in WhatsApp (title, description, image) — cache-bust if stale
-- Draft confirmation email: Subject: "Confirm your Compass subscription"; Body: welcome message + confirmation link + "We'll only email you when a new Compass article is published — roughly once every 2–3 weeks"
+- Draft confirmation email: Subject: "Confirm your GovCompass subscription"; Body: welcome message + confirmation link + "We'll only email you when a new GovCompass article is published — roughly once every 2–3 weeks"
 - Track and report subscriber growth metrics (new subscribers, churn, source attribution)
 - Monitor email deliverability (open rates, click rates, bounce rates)
 - Verify Copy Link button copies URL with correct UTM parameters (`utm_source=clipboard&utm_medium=share`)
@@ -310,7 +310,7 @@ Agents are autonomous entities that own a bounded domain of work. Each agent map
 - Analyse distribution channel effectiveness: what percentage of traffic comes from WhatsApp, email notifications, organic search, and direct access
 - Track sequential reading patterns — are readers following the Part 1 → Part 5 reading order or accessing articles out of sequence?
 - Detect anomalies (unexpected traffic drops, broken referral sources, 404 spikes)
-- Monitor outbound clicks to government data sources (AGSA, National Treasury, DPME, StatsSA) — these validate MRD Outcome #2 (readers using Compass to find performance data)
+- Monitor outbound clicks to government data sources (AGSA, National Treasury, DPME, StatsSA) — these validate MRD Outcome #2 (readers using GovCompass to find performance data)
 - Produce monthly insight summaries with actionable recommendations for A1
 
 **🚦 Human Approval Gates:**
@@ -416,7 +416,7 @@ These skills ensure every article is anchored in verified, traceable, high-credi
 
 #### 2. Political Education Writing Skills
 
-These skills ensure content meets Compass's distinctive editorial standards — O'Reilly conversational register applied to South African governance education.
+These skills ensure content meets GovCompass's distinctive editorial standards — O'Reilly conversational register applied to South African governance education.
 
 | Skill | Description | Proficiency Required | Used By |
 |-------|-------------|---------------------|---------|
@@ -433,7 +433,7 @@ These skills ensure content meets Compass's distinctive editorial standards — 
 
 #### 3. Schema & Validation Skills
 
-These skills ensure all content conforms to the Compass type-safe content pipeline.
+These skills ensure all content conforms to the GovCompass type-safe content pipeline.
 
 | Skill | Description | Proficiency Required | Used By |
 |-------|-------------|---------------------|---------|
@@ -470,7 +470,7 @@ These skills manage the Astro SSG build pipeline and Netlify deployment.
 | Deploy Preview Verification | Inspect deploy preview URLs for: article renders, frontmatter displays correctly, sphere tag shows correct colour (national=blue, provincial=purple, municipal=red, all=green), reading progress bar functions, prev/next navigation correct, expert anecdote callouts render, Practical Toolkit section renders, OG image present | Intermediate | A4 |
 | Pagefind Index Verification | Confirm Pagefind post-build indexing completes successfully and new article appears in search results | Intermediate | A4, A7 |
 | Build Performance Monitoring | Track build duration against 120s budget, identify slow steps, and flag regressions | Basic | A7 |
-| OG Image Generation Verification | Verify the Python OG image generation script (`scripts/generate-og-images.py`) produces correct 1200×630px images with article title and Compass branding for each new article | Intermediate | A4 |
+| OG Image Generation Verification | Verify the Python OG image generation script (`scripts/generate-og-images.py`) produces correct 1200×630px images with article title and GovCompass branding for each new article | Intermediate | A4 |
 
 ---
 
@@ -481,8 +481,8 @@ These skills manage the email notification system for new article alerts.
 | Skill | Description | Proficiency Required | Used By |
 |-------|-------------|---------------------|---------|
 | ESP API Integration | Use the Buttondown (or Mailchimp) REST API to manage subscribers, send notification emails, and retrieve engagement metrics | Advanced | A5 |
-| Notification Email Drafting | Write new article notification emails per PRD §13.3: subject line format "[Article Title] — New on Compass"; body contains article title, subtitle, one-sentence hook, and direct UTM-tagged link; plain text or minimal HTML only | Advanced | A5 |
-| Confirmation Email Management | Maintain the subscription confirmation email: Subject: "Confirm your Compass subscription"; clear expectation-setting ("roughly once every 2–3 weeks") | Intermediate | A5 |
+| Notification Email Drafting | Write new article notification emails per PRD §13.3: subject line format "[Article Title] — New on GovCompass"; body contains article title, subtitle, one-sentence hook, and direct UTM-tagged link; plain text or minimal HTML only | Advanced | A5 |
+| Confirmation Email Management | Maintain the subscription confirmation email: Subject: "Confirm your GovCompass subscription"; clear expectation-setting ("roughly once every 2–3 weeks") | Intermediate | A5 |
 | Email Deliverability Management | Monitor open rates, click rates, bounce rates; maintain list hygiene; ensure emails render on mobile email clients | Basic | A5 |
 | Netlify Forms Integration | Verify the email capture form → Netlify Forms → webhook → ESP pipeline functions correctly for new subscriber onboarding | Intermediate | A5 |
 
@@ -494,11 +494,11 @@ These skills optimise content for WhatsApp sharing — the primary distribution 
 
 | Skill | Description | Proficiency Required | Used By |
 |-------|-------------|---------------------|---------|
-| WhatsApp Share Optimisation | Verify the WhatsApp share button constructs correct pre-filled messages per PRD §14.1 format, with UTM parameters and Compass branding | Advanced | A5 |
+| WhatsApp Share Optimisation | Verify the WhatsApp share button constructs correct pre-filled messages per PRD §14.1 format, with UTM parameters and GovCompass branding | Advanced | A5 |
 | OG Preview Verification | Verify Open Graph tags render compelling previews in WhatsApp, LinkedIn, and Twitter — title, description, and 1200×630px image. Force cache refresh when needed | Advanced | A5 |
 | UTM Parameter Management | Apply consistent UTM tracking parameters to all shared links: whatsapp/share, email/notification, clipboard/share — for attribution in GA4 | Intermediate | A5 |
 | Copy Link Verification | Verify the Copy Link button copies article URL with correct UTM parameters and shows "Copied!" confirmation for 2 seconds | Basic | A5 |
-| Social Monitoring | Track organic mentions of Compass content on social media, WhatsApp (via UTM data), and in relevant online communities | Intermediate | A1, A5 |
+| Social Monitoring | Track organic mentions of GovCompass content on social media, WhatsApp (via UTM data), and in relevant online communities | Intermediate | A1, A5 |
 
 ---
 
@@ -509,11 +509,11 @@ These skills power the analytics feedback loop that informs publication strategy
 | Skill | Description | Proficiency Required | Used By |
 |-------|-------------|---------------------|---------|
 | GA4 Analytics Querying | Pull data from GA4 (via Google Analytics Data API or BigQuery export): page views, unique users, engagement time, referral sources, UTM breakdowns, custom events (scroll_depth, email_subscribe, share_whatsapp, outbound_click) | Advanced | A6 |
-| MRD Success Criteria Tracking | Track progress against the five success criteria from MRD §1.4: 10K unique monthly readers, 8+ min average time on page, WhatsApp sharing activity, 2K email subscribers, qualitative evidence of Compass-driven civic engagement | Advanced | A6 |
+| MRD Success Criteria Tracking | Track progress against the five success criteria from MRD §1.4: 10K unique monthly readers, 8+ min average time on page, WhatsApp sharing activity, 2K email subscribers, qualitative evidence of GovCompass-driven civic engagement | Advanced | A6 |
 | Content Performance Ranking | Rank articles by engagement: page views, time on page, completion rate (scroll_depth=100%), WhatsApp shares (UTM attribution), email click-throughs | Intermediate | A6 |
 | Channel Attribution Analysis | Break down traffic by acquisition channel: WhatsApp (utm_source=whatsapp), email (utm_source=email), organic search, direct, other referrers. Validate MRD H3 (30% traffic from WhatsApp) | Advanced | A6 |
 | Sequential Reading Analysis | Analyse whether readers follow the intended Part 1 → Part 5 sequence or access articles out of order; track prev/next navigation click events | Intermediate | A6 |
-| Government Data Source Click Tracking | Monitor outbound clicks to AGSA, National Treasury, DPME, StatsSA — validates MRD Outcome #2 (readers using Compass to locate performance data) | Intermediate | A6 |
+| Government Data Source Click Tracking | Monitor outbound clicks to AGSA, National Treasury, DPME, StatsSA — validates MRD Outcome #2 (readers using GovCompass to locate performance data) | Intermediate | A6 |
 | Anomaly Detection | Detect sudden drops or spikes in traffic, engagement, or subscriber metrics and generate alerts | Basic | A6 |
 | Actionable Insight Synthesis | Translate raw data into strategic recommendations for A1 (e.g., "Part 3 articles have 40% lower completion rate — consider shorter sections and more expert anecdotes") | Advanced | A1, A6 |
 
@@ -525,9 +525,9 @@ These skills ensure content ranks for the keyword clusters defined in PRD §10.1
 
 | Skill | Description | Proficiency Required | Used By |
 |-------|-------------|---------------------|---------|
-| On-Page SEO Optimisation | Ensure proper heading hierarchy (H1 from frontmatter > H2 > H3), keyword placement in title, H2s, and opening paragraphs, internal cross-linking between Compass articles, and semantic HTML | Advanced | A2, A3 |
+| On-Page SEO Optimisation | Ensure proper heading hierarchy (H1 from frontmatter > H2 > H3), keyword placement in title, H2s, and opening paragraphs, internal cross-linking between GovCompass articles, and semantic HTML | Advanced | A2, A3 |
 | Keyword Cluster Alignment | Verify each article naturally incorporates keywords from its mapped cluster (PRD §10.1): accountability/responsibility, fiscal system, oversight, government performance | Advanced | A2, A3 |
-| Meta Tag Validation | Verify `<title>` (<60 chars + " | Compass"), meta description (150–160 chars), canonical URLs, and Open Graph / Twitter Card tags on every page | Advanced | A3, A7 |
+| Meta Tag Validation | Verify `<title>` (<60 chars + " | GovCompass"), meta description (150–160 chars), canonical URLs, and Open Graph / Twitter Card tags on every page | Advanced | A3, A7 |
 | Structured Data (JSON-LD) | Validate JSON-LD Article schema markup: author, datePublished, dateModified, headline, description | Intermediate | A7 |
 | Sitemap & Robots Management | Verify sitemap.xml includes all published article URLs; robots.txt allows all crawlers | Intermediate | A7 |
 | Social Preview Testing | Verify Open Graph tags render correct previews on WhatsApp (critical), LinkedIn, and Twitter | Intermediate | A3, A7 |
@@ -560,7 +560,7 @@ These skills ensure the platform is usable by all readers on diverse devices and
 | Motion Sensitivity | Verify the reading progress bar respects `prefers-reduced-motion` media query (per PRD §12.2) | Basic | A7 |
 | Language Attribute | Verify `<html lang="en-ZA">` attribute is set on all pages | Basic | A7 |
 | Link Accessibility | Verify link text is descriptive (no "click here"), external links are marked with visual indicator or aria-label | Intermediate | A3 |
-| POPIA Compliance | Verify minimal data collection (email only), privacy policy at /privacy, legitimate interest basis, easy unsubscribe mechanism, no PII stored in Compass system | Intermediate | A7 |
+| POPIA Compliance | Verify minimal data collection (email only), privacy policy at /privacy, legitimate interest basis, easy unsubscribe mechanism, no PII stored in GovCompass system | Intermediate | A7 |
 
 ---
 
@@ -620,7 +620,7 @@ MCPs are the integration interfaces that connect agents to external tools, APIs,
 | Read file contents | `GET /repos/{owner}/{repo}/contents/{path}` | A2, A3 | No |
 
 **Configuration:**
-- Repository: `tshepo-machele/compass-blog` (or equivalent)
+- Repository: `tshepo-machele/govcompass-blog` (or equivalent)
 - Default branch: `main`
 - Branch naming: `content/{part}-{article}-{slug}` (e.g., `content/1-1-architecture-of-the-state`), `fix/{description}`
 - Commit message format: `content: add article {articleNumber} "{title}"` (e.g., `content: add article 1.1 "The Architecture of the State"`)
@@ -653,7 +653,7 @@ MCPs are the integration interfaces that connect agents to external tools, APIs,
 | List form submissions | `GET /sites/{site_id}/submissions` | A5 | No |
 
 **Configuration:**
-- Site: compass.co.za
+- Site: govcompass.co.za
 - Build command: `npm run build` (Astro SSG + Pagefind indexing + OG image generation)
 - Publish directory: `dist/`
 - Auto-deploy: Enabled on `main` branch push
@@ -696,7 +696,7 @@ MCPs are the integration interfaces that connect agents to external tools, APIs,
 | Get subscriber by email | `GET /subscribers/{email}` | A5 | No |
 
 **Configuration:**
-- Newsletter name: Compass — New Article Notifications
+- Newsletter name: GovCompass — New Article Notifications
 - Send frequency: On publication only (roughly every 2–3 weeks per PRD §13.3)
 - Free tier limit: <100 subscribers on Buttondown (upgrade to Mailchimp at threshold per PRD §13.4)
 
@@ -705,7 +705,7 @@ MCPs are the integration interfaces that connect agents to external tools, APIs,
 - Article published → A5 drafts notification email → Human approves → Send via API
 
 **Email Format (per PRD §13.3):**
-- Subject: "[Article Title] — New on Compass"
+- Subject: "[Article Title] — New on GovCompass"
 - Body: Article title, subtitle, one-sentence hook, direct link with UTM parameters
 - Format: Plain text or minimal HTML — no images, no complex HTML
 - Footer: Unsubscribe link
@@ -845,7 +845,7 @@ MCPs are the integration interfaces that connect agents to external tools, APIs,
 | SEO | >95 | Block deploy; alert human |
 | Best Practices | >90 | Warning; investigate |
 
-**Additional Performance Checks (Compass-specific):**
+**Additional Performance Checks (GovCompass-specific):**
 
 | Check | Threshold | Rationale |
 |-------|-----------|-----------|
@@ -896,7 +896,7 @@ MCPs are the integration interfaces that connect agents to external tools, APIs,
                     └──────────────┘  └───────────────┘
                                           │
                               Published site
-                              (compass.co.za)
+                              (govcompass.co.za)
                                           │
                     ┌─────────────────────┼──────────────────┐
                     │                     │                  │
@@ -963,7 +963,7 @@ This is the complete flow from research to published, distributed article — sh
 
 ### 5.4 Publication Operating Rhythm
 
-Unlike a weekly editorial calendar, Compass publishes articles sequentially as each is completed — roughly one article every 2–3 weeks. The operating rhythm for each article cycle follows this pattern:
+Unlike a weekly editorial calendar, GovCompass publishes articles sequentially as each is completed — roughly one article every 2–3 weeks. The operating rhythm for each article cycle follows this pattern:
 
 | Phase | Duration | Activity | Agent(s) | Human Involvement |
 |-------|----------|----------|----------|-------------------|

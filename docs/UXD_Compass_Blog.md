@@ -1,8 +1,8 @@
 # USER EXPERIENCE DESIGN DOCUMENT
 
-## Compass — A Political Literacy Blog for South Africa's Missing Middle
+## GovCompass — A Political Literacy Blog for South Africa's Missing Middle
 
-### compass.co.za
+### govcompass.co.za
 
 ---
 
@@ -11,8 +11,8 @@
 | **Document Owner** | Tshepo Machele — Product, Engineering, Design, Business/GTM Lead |
 | **Document Version** | 0.1 |
 | **Framework Type** | New Product (0 → 1) |
-| **PRD Reference** | Compass PRD v0.1 |
-| **MRD Reference** | Compass MRD v0.1 |
+| **PRD Reference** | GovCompass PRD v0.1 |
+| **MRD Reference** | GovCompass MRD v0.1 |
 | **Last Updated** | 2026-02-15 |
 | **Target Launch** | Q3 2026 |
 | **Platform** | Web (Astro static site deployed on Netlify) |
@@ -36,7 +36,7 @@
 
 ### 1.1 Purpose of This Document
 
-This document defines the user experience for Compass, a free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. It serves as the single reference for all design decisions — from strategic positioning through to visual execution — ensuring every pixel traces back to a validated user need and business objective.
+This document defines the user experience for GovCompass, a free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. It serves as the single reference for all design decisions — from strategic positioning through to visual execution — ensuring every pixel traces back to a validated user need and business objective.
 
 The document follows Jesse James Garrett's Elements of User Experience model, progressing from abstract strategy through concrete surface design across five interdependent planes.
 
@@ -64,15 +64,15 @@ This is a 0→1 UX document. Use it when:
 
 | Document | Purpose | Required Sections |
 |----------|---------|-------------------|
-| Compass MRD v0.1 | Market opportunity, user research, competitive positioning | §1 Problem hypothesis, §3 Job executor profile, §4 Job map, §5 Forces of progress, §7 Competitive analysis |
-| Compass PRD v0.1 | Detailed product specifications | §3 User stories, §4 Information architecture, §5 Technical architecture, §6 Page specs, §7 Design system |
+| GovCompass MRD v0.1 | Market opportunity, user research, competitive positioning | §1 Problem hypothesis, §3 Job executor profile, §4 Job map, §5 Forces of progress, §7 Competitive analysis |
+| GovCompass PRD v0.1 | Detailed product specifications | §3 User stories, §4 Information architecture, §5 Technical architecture, §6 Page specs, §7 Design system |
 | SA Political System Article Series | Content architecture for all 15 articles | Full series structure and generation prompts |
 
 ---
 
 ## 2. Strategy Plane
 
-*The foundation upon which all design decisions are built. Strategy defines why Compass exists and who it serves.*
+*The foundation upon which all design decisions are built. Strategy defines why GovCompass exists and who it serves.*
 
 ### 2.1 User Needs Discovery
 
@@ -84,7 +84,7 @@ This is a 0→1 UX document. Use it when:
 | **Demographics** | Black South African, 25–45, living in a Gauteng metro (Johannesburg, Tshwane, or Ekurhuleni). Household income R8,000–R29,000/month (deciles 5–8). Formally employed — technician, nurse, teacher, mid-level public servant, retail manager, or small business owner | Content must respect intelligence while assuming zero prior knowledge of governance structures. No jargon without explanation. Onboarding is the product itself |
 | **Core Job-to-be-Done** | Evaluate government performance and identify accountable officials when experiencing service delivery failures or making electoral decisions, in order to direct complaints, votes, and civic energy toward the correct sphere, department, or individual | Drives the entire content architecture — every article must help the reader assign accountability accurately |
 | **Struggling Moment** | Experiences a service delivery failure (water outage, pothole, clinic without medication) and cannot determine whether to blame their ward councillor, provincial MEC, or a national minister. Feels angry but powerless because frustration is misdirected | The "struggling moment" is the entry point for the product. Article 1.1 must answer this question within the first few scrolls. Search landing pages must match this intent |
-| **Current Workaround** | Consumes event-driven news (Daily Maverick, News24) that covers scandals but never explains the system. Participates in WhatsApp political discussions that are emotionally charged but informationally empty. Defaults to cynicism: "They're all the same" | Compass must feel categorically different from news media — structural, not event-driven; educational, not sensational; empowering, not exhausting |
+| **Current Workaround** | Consumes event-driven news (Daily Maverick, News24) that covers scandals but never explains the system. Participates in WhatsApp political discussions that are emotionally charged but informationally empty. Defaults to cynicism: "They're all the same" | GovCompass must feel categorically different from news media — structural, not event-driven; educational, not sensational; empowering, not exhausting |
 | **Success Definition** | "I can now tell you exactly who is responsible for my water, my roads, and my clinic — and I know where to look up whether they're actually doing their job. I shared the article in my WhatsApp group and people actually said it was useful." | Success metrics: 8+ minutes time on page, WhatsApp share clicks, return visits, email subscriptions. The emotional payoff is agency and social credibility |
 
 *Source: MRD §1.2, §3.1. Persona grounded in Stats SA Income & Expenditure Survey, UCT Liberty Institute data, Afrobarometer Rounds 8–9.*
@@ -100,7 +100,7 @@ This is a 0→1 UX document. Use it when:
 
 **Sipho — "The WhatsApp Debater"**
 
-- Key differentiator: Enters Compass via a forwarded WhatsApp link, not through search. Has approximately 30 seconds of attention before deciding whether to read or close
+- Key differentiator: Enters GovCompass via a forwarded WhatsApp link, not through search. Has approximately 30 seconds of attention before deciding whether to read or close
 - Unique needs: Instant page load; immediately compelling title and subtitle; scannable structure so he can find the "answer" to the debate; easy re-sharing to his own groups
 - Feature implications: OG image optimisation for WhatsApp previews; sub-3-second load times on 4G; reading progress indicator to reduce perceived effort; one-tap WhatsApp share button
 - Priority: MVP (WhatsApp is the primary distribution channel per MRD §5.2, H3)
@@ -138,7 +138,7 @@ This is a 0→1 UX document. Use it when:
 
 #### 2.2.1 Product Vision Statement
 
-*"Compass is a free political education blog that enables South Africa's missing middle — 38 million citizens locked out of meaningful civic participation — to evaluate government performance and hold the right people accountable by making the governance system legible through plain-language, data-anchored, long-form articles. Unlike news media (event-driven, assumes structural knowledge), academic publications (deep but inaccessible), and WhatsApp groups (peer-driven, unreliable), Compass provides systematic, practically actionable political education for non-experts."*
+*"GovCompass is a free political education blog that enables South Africa's missing middle — 38 million citizens locked out of meaningful civic participation — to evaluate government performance and hold the right people accountable by making the governance system legible through plain-language, data-anchored, long-form articles. Unlike news media (event-driven, assumes structural knowledge), academic publications (deep but inaccessible), and WhatsApp groups (peer-driven, unreliable), GovCompass provides systematic, practically actionable political education for non-experts."*
 
 *Source: MRD §1.1–1.3, §7.2*
 
@@ -183,15 +183,15 @@ This is a 0→1 UX document. Use it when:
 |---------|------|--------------|-----------------|
 | **Article body** | Conversational, authoritative, direct. Uses "you" throughout. Leads with concrete examples. Treats reader as intelligent but uninformed | "Here's how this affects you: when your water stops running, the first question is whether it's a bulk supply issue (national/water board) or a reticulation issue (your municipality). Here's how to tell the difference." | "The intergovernmental relations framework as established by Chapter 3 of the Constitution delineates concurrent and exclusive competencies across the three spheres of government." |
 | **Success / Completion** | Warm, genuine, understated. Acknowledges effort without being performative | "You now have the tools to look up your municipality's audit outcome and understand what it means. That puts you ahead of most people — including many elected officials." | "Congratulations! You've completed the module! 🎉🎓 You're a governance expert now!" |
-| **Error / Recovery** | Supportive, solution-focused. Assumes the problem is ours, not theirs | "Something went wrong on our end. Please try again — and if it keeps happening, let us know at hello@compass.co.za." | "Error 500: Internal Server Error. Invalid request." |
+| **Error / Recovery** | Supportive, solution-focused. Assumes the problem is ours, not theirs | "Something went wrong on our end. Please try again — and if it keeps happening, let us know at hello@govcompass.co.za." | "Error 500: Internal Server Error. Invalid request." |
 | **Empty states** | Inviting, action-oriented. Guides toward value | "This article is coming soon. In the meantime, start with The Architecture of the State — it explains how South Africa's Constitution divides power." | "No content available." |
-| **Email notifications** | Respectful, brief, useful. No marketing fluff | Subject: "Following the Money — New on Compass". Body: one sentence hook + direct article link. "We'll only email you when a new article drops." | Long HTML emails with multiple CTAs, images, social links, and "Don't miss out!" urgency language |
+| **Email notifications** | Respectful, brief, useful. No marketing fluff | Subject: "Following the Money — New on GovCompass". Body: one sentence hook + direct article link. "We'll only email you when a new article drops." | Long HTML emails with multiple CTAs, images, social links, and "Don't miss out!" urgency language |
 
 ---
 
 ## 3. Scope Plane
 
-*Translating strategy into specific requirements. Scope defines what features and content Compass will include at launch and beyond.*
+*Translating strategy into specific requirements. Scope defines what features and content GovCompass will include at launch and beyond.*
 
 ### 3.1 Functional Specifications
 
@@ -236,17 +236,17 @@ Outcome Measurement: Average time on page ≥ 8 minutes; scroll depth events at 
 - Priority: Must Have
 - Brand Alignment: Empowering, Trustworthy
 
-User Story: *As Thabo, I want to share a Compass article to my building's WhatsApp group with one tap, so that my neighbours can also understand who is responsible for our water outage.*
+User Story: *As Thabo, I want to share a GovCompass article to my building's WhatsApp group with one tap, so that my neighbours can also understand who is responsible for our water outage.*
 
 Functional Requirements:
 - FR-002.1: WhatsApp share button present on all article pages using `https://api.whatsapp.com/send?text=` URL scheme
-- FR-002.2: Pre-filled share message includes: article title, one-sentence hook, UTM-tagged article URL, and "— From Compass: Making SA's governance system legible"
-- FR-002.3: OG meta tags optimised per article: OG title (under 60 chars), OG description (under 160 chars), OG image (1200×630px with Compass branding, article title, sphere tag)
+- FR-002.2: Pre-filled share message includes: article title, one-sentence hook, UTM-tagged article URL, and "— From GovCompass: Making SA's governance system legible"
+- FR-002.3: OG meta tags optimised per article: OG title (under 60 chars), OG description (under 160 chars), OG image (1200×630px with GovCompass branding, article title, sphere tag)
 - FR-002.4: All shared links include UTM parameters: `utm_source=whatsapp&utm_medium=share&utm_campaign=article-[slug]`
 
 Acceptance Criteria:
 - Given a reader on mobile, when they tap the WhatsApp share button, then WhatsApp opens with a pre-filled message containing the article link
-- Given a user receiving a Compass link in a WhatsApp group, when WhatsApp renders the link preview, then they see a branded OG image with the article title and a compelling description
+- Given a user receiving a GovCompass link in a WhatsApp group, when WhatsApp renders the link preview, then they see a branded OG image with the article title and a compelling description
 
 Outcome Measurement: WhatsApp share button click events (GA4 custom event); WhatsApp referral traffic share (target: 30%)
 
@@ -258,7 +258,7 @@ Outcome Measurement: WhatsApp share button click events (GA4 custom event); What
 - Priority: Must Have
 - Brand Alignment: Trustworthy, Empowering
 
-User Story: *As Thabo, I want to subscribe to be notified when new Compass articles are published, so that I don't have to remember to check the site.*
+User Story: *As Thabo, I want to subscribe to be notified when new GovCompass articles are published, so that I don't have to remember to check the site.*
 
 Functional Requirements:
 - FR-003.1: Email capture form requires only an email address — no name, no other fields. Single input + submit button
@@ -295,7 +295,7 @@ Functional Requirements:
 - Priority: Should Have
 - Brand Alignment: Accessible
 
-User Story: *As a returning reader, I want to search across all Compass articles to find the section that explains municipal finances.*
+User Story: *As a returning reader, I want to search across all GovCompass articles to find the section that explains municipal finances.*
 
 Functional Requirements:
 - FR-005.1: Pagefind-powered static search index generated at build time
@@ -348,20 +348,20 @@ Functional Requirements:
 
 ## 4. Structure Plane
 
-*Defining how users move through Compass and interact with its content. Structure establishes the conceptual model and interaction patterns.*
+*Defining how users move through GovCompass and interact with its content. Structure establishes the conceptual model and interaction patterns.*
 
 ### 4.1 Information Architecture
 
 #### 4.1.1 Site Map
 
 ```
-compass.co.za
+govcompass.co.za
 │
 ├── / (Home)
 │   └── Series overview, latest article, email capture CTA
 │
 ├── /about
-│   └── Who is behind Compass, editorial principles, non-partisan commitment
+│   └── Who is behind GovCompass, editorial principles, non-partisan commitment
 │
 ├── /series
 │   └── Full 15-article table of contents with sphere filtering
@@ -445,12 +445,12 @@ Articles are organised along two dimensions that allow flexible navigation:
 - PRD Trace: US-1
 - Target Completion Time: Article load in under 3 seconds; "answer" findable within 60 seconds; total reading session 8+ minutes
 - Brand Alignment: Trustworthy (fast load, no dark patterns), Accessible (readable on 360px screen), Empowering (actionable content)
-- Entry Point: WhatsApp group message containing a Compass link with OG preview
+- Entry Point: WhatsApp group message containing a GovCompass link with OG preview
 
 Steps:
 
 1. **Receive link in WhatsApp** → WhatsApp chat
-   - User action: Sees OG preview image with article title, Compass branding, and sphere tag. Taps link
+   - User action: Sees OG preview image with article title, GovCompass branding, and sphere tag. Taps link
    - System response: Browser opens; page begins loading
    - Brand moment: The OG image is the first brand touchpoint — clean, professional, informative. No clickbait
 
@@ -472,7 +472,7 @@ Steps:
 5. **Shares or subscribes** → Share/subscribe CTAs
    - User action: Taps WhatsApp share button to forward to another group. May enter email to subscribe
    - System response: WhatsApp opens with pre-filled message. Email form submits and shows confirmation
-   - Brand moment: The share message includes "— From Compass: Making SA's governance system legible" — the reader becomes a distributor of the brand
+   - Brand moment: The share message includes "— From GovCompass: Making SA's governance system legible" — the reader becomes a distributor of the brand
 
 Error Handling:
 - Slow connection (>3s load): Static HTML renders progressively — text appears before fonts finish loading (`font-display: swap`)
@@ -511,11 +511,11 @@ Steps:
 
 #### 4.2.3 Error Handling Philosophy
 
-| Error Type | Traditional Approach | Compass Approach (Brand-Aligned) |
+| Error Type | Traditional Approach | GovCompass Approach (Brand-Aligned) |
 |------------|---------------------|----------------------------------|
-| **Network error** | "Connection failed" | "We couldn't load the page — you might be on a slow connection. The good news: Compass articles are small (under 200KB), so it should work even on limited data. Try refreshing." |
+| **Network error** | "Connection failed" | "We couldn't load the page — you might be on a slow connection. The good news: GovCompass articles are small (under 200KB), so it should work even on limited data. Try refreshing." |
 | **404 — Page not found** | "404 Error: Page not found" | "This page doesn't exist — but if you're looking for an article, start with the Series overview, or try The Architecture of the State as your entry point." |
-| **Email form error** | "Submission failed" | "Something went wrong on our end. Please try again — and if it keeps happening, email us at hello@compass.co.za and we'll add you manually." |
+| **Email form error** | "Submission failed" | "Something went wrong on our end. Please try again — and if it keeps happening, email us at hello@govcompass.co.za and we'll add you manually." |
 | **Article not yet published** | "Coming soon" | "This article is coming soon. In the meantime, start with The Architecture of the State — it lays the foundation for everything that follows." |
 
 #### 4.2.4 Empty States Design
@@ -687,7 +687,7 @@ This is the most important page in the product — everything else exists to get
 
 ## 6. Surface Plane
 
-*The sensory experience of Compass. Surface defines the visual language that brings the brand to life.*
+*The sensory experience of GovCompass. Surface defines the visual language that brings the brand to life.*
 
 ### 6.1 Visual Design System
 
@@ -697,9 +697,9 @@ This is the most important page in the product — everything else exists to get
 
 | Name | Hex Value | Usage | Accessibility Note |
 |------|-----------|-------|-------------------|
-| Compass Green | `#1B6B4A` | Primary brand colour; header accents; callout borders; sphere tag (All Spheres) | 7.2:1 contrast on white — passes AAA |
-| Compass Green Light | `#E8F5EE` | Background for Expert Anecdote callouts; light tint for section breaks | Background only — not for text |
-| Compass Gold | `#C8A951` | Progress bar fill; active states; Key Takeaway callout border. Used sparingly | 3.1:1 on white — AA for large text only. Never used for body text |
+| GovCompass Green | `#1B6B4A` | Primary brand colour; header accents; callout borders; sphere tag (All Spheres) | 7.2:1 contrast on white — passes AAA |
+| GovCompass Green Light | `#E8F5EE` | Background for Expert Anecdote callouts; light tint for section breaks | Background only — not for text |
+| GovCompass Gold | `#C8A951` | Progress bar fill; active states; Key Takeaway callout border. Used sparingly | 3.1:1 on white — AA for large text only. Never used for body text |
 
 **Neutral Colours:**
 
@@ -859,9 +859,9 @@ Since Tshepo Machele is both designer and developer, this section serves as a se
 | AGSA | Auditor-General of South Africa — the constitutional body that audits government spending |
 | DPME | Department of Planning, Monitoring and Evaluation — responsible for government performance tracking |
 | MECE | Mutually Exclusive, Collectively Exhaustive — a structuring principle ensuring no gaps or overlaps |
-| North Star Metric | The single metric that best captures the core value Compass delivers to readers |
-| GA4 | Google Analytics 4 — analytics platform used by Compass with consent mode v2, anonymised IP, and 2-month data retention |
-| Astro | Static site generator used to build Compass — renders HTML at build time with minimal client-side JavaScript |
+| North Star Metric | The single metric that best captures the core value GovCompass delivers to readers |
+| GA4 | Google Analytics 4 — analytics platform used by GovCompass with consent mode v2, anonymised IP, and 2-month data retention |
+| Astro | Static site generator used to build GovCompass — renders HTML at build time with minimal client-side JavaScript |
 
 ### Appendix C: Document Maintenance
 
