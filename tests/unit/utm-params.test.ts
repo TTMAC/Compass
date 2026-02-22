@@ -7,7 +7,7 @@ import {
 
 describe("buildUtmUrl", () => {
   it("should add UTM parameters to a URL", () => {
-    const result = buildUtmUrl("https://compass.co.za/articles/test", {
+    const result = buildUtmUrl("https://govcompass.co.za/articles/test", {
       source: "whatsapp",
       medium: "share",
       campaign: "article-test",
@@ -18,16 +18,16 @@ describe("buildUtmUrl", () => {
   });
 
   it("should preserve the base URL path", () => {
-    const result = buildUtmUrl("https://compass.co.za/articles/test", {
+    const result = buildUtmUrl("https://govcompass.co.za/articles/test", {
       source: "twitter",
       medium: "social",
       campaign: "launch",
     });
-    expect(result).toContain("https://compass.co.za/articles/test");
+    expect(result).toContain("https://govcompass.co.za/articles/test");
   });
 
   it("should handle URLs with existing query params", () => {
-    const result = buildUtmUrl("https://compass.co.za/articles/test?foo=bar", {
+    const result = buildUtmUrl("https://govcompass.co.za/articles/test?foo=bar", {
       source: "whatsapp",
       medium: "share",
       campaign: "test",
@@ -42,7 +42,7 @@ describe("buildWhatsAppShareUrl", () => {
     const result = buildWhatsAppShareUrl(
       "Test Title",
       "Test Subtitle",
-      "https://compass.co.za/articles/test",
+      "https://govcompass.co.za/articles/test",
       "test",
     );
     expect(result).toContain("https://api.whatsapp.com/send?text=");
@@ -52,7 +52,7 @@ describe("buildWhatsAppShareUrl", () => {
     const result = buildWhatsAppShareUrl(
       "The Architecture of the State",
       "Understanding SA governance",
-      "https://compass.co.za/articles/1-1",
+      "https://govcompass.co.za/articles/1-1",
       "1-1",
     );
     const decodedText = decodeURIComponent(
@@ -62,14 +62,14 @@ describe("buildWhatsAppShareUrl", () => {
     expect(decodedText).toContain("Understanding SA governance");
     expect(decodedText).toContain("Read it here:");
     expect(decodedText).toContain("utm_source=whatsapp");
-    expect(decodedText).toContain("Compass: Making SA");
+    expect(decodedText).toContain("GovCompass: Making SA");
   });
 
   it("should include the correct UTM campaign", () => {
     const result = buildWhatsAppShareUrl(
       "Title",
       "Sub",
-      "https://compass.co.za/articles/1-1-test",
+      "https://govcompass.co.za/articles/1-1-test",
       "1-1-test",
     );
     const decodedText = decodeURIComponent(result);
@@ -80,7 +80,7 @@ describe("buildWhatsAppShareUrl", () => {
 describe("buildCopyLinkUrl", () => {
   it("should create a URL with clipboard UTM params", () => {
     const result = buildCopyLinkUrl(
-      "https://compass.co.za/articles/test",
+      "https://govcompass.co.za/articles/test",
       "test",
     );
     expect(result).toContain("utm_source=clipboard");

@@ -4,7 +4,7 @@ subtitle: "Everything You Have Learned in This Series, Distilled into a Practice
 part: 5
 articleNumber: "5.3"
 sphere: "national"
-description: "The final article in the Compass series brings everything together into a practical toolkit for holding government accountable as an informed citizen."
+description: "The final article in the GovCompass series brings everything together into a practical toolkit for holding government accountable as an informed citizen."
 publishDate: 2027-08-15
 readingTime: 34
 status: "published"

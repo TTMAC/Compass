@@ -136,7 +136,7 @@ describe("Article Schema", () => {
       const article = new ArticleBuilder()
         .withSeo({
           ogImage: "/og/test.png",
-          canonicalUrl: "https://compass.co.za/articles/test",
+          canonicalUrl: "https://govcompass.co.za/articles/test",
           keywords: ["test", "article"],
         })
         .build();

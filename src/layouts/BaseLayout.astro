@@ -22,7 +22,7 @@ const {
   jsonLd,
 } = Astro.props;
 
-const siteUrl = "https://compass.co.za";
+const siteUrl = "https://govcompass.co.za";
 const fullCanonical = canonicalUrl || new URL(Astro.url.pathname, siteUrl).href;
 const fullOgImage = ogImage.startsWith("http")
   ? ogImage
@@ -63,7 +63,7 @@ const fullOgImage = ogImage.startsWith("http")
     <meta property="og:type" content={ogType} />
     <meta property="og:url" content={fullCanonical} />
     <meta property="og:image" content={fullOgImage} />
-    <meta property="og:site_name" content="Compass" />
+    <meta property="og:site_name" content="GovCompass" />
     <meta property="og:locale" content="en_ZA" />
 
     <!-- Twitter Card -->

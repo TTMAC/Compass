@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://compass.co.za/sitemap-index.xml
+Sitemap: https://govcompass.co.za/sitemap-index.xml

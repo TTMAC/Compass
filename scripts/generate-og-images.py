@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Generate OG images for Compass articles using Pillow.
+"""Generate OG images for GovCompass articles using Pillow.
 
 Each image is 1200x630px with compass-green background,
-article title, subtitle, and Compass branding.
+article title, subtitle, and GovCompass branding.
 
 Usage:
     python scripts/generate-og-images.py
@@ -119,7 +119,7 @@ def main():
 
     # Generate default OG image
     generate_og_image(
-        "Compass",
+        "GovCompass",
         "Making South Africa's governance system legible to ordinary citizens",
         "",
         OUTPUT_DIR / "default.png",

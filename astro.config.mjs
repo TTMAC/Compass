@@ -5,7 +5,7 @@ import remarkDirective from "remark-directive";
 import remarkCallouts from "./src/plugins/remark-callouts.mjs";
 
 export default defineConfig({
-  site: "https://compass.co.za",
+  site: "https://govcompass.co.za",
   integrations: [tailwind(), sitemap()],
   output: "static",
   markdown: {

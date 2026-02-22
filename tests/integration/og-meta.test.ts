@@ -46,7 +46,7 @@ describe("OG meta tags", () => {
 
   it("should have site name in OG tags", () => {
     const html = readFileSync(resolve(distDir, "index.html"), "utf-8");
-    expect(html).toContain('property="og:site_name" content="Compass"');
+    expect(html).toContain('property="og:site_name" content="GovCompass"');
   });
 
   it("should have en_ZA locale", () => {

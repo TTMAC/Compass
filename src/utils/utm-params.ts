@@ -28,7 +28,7 @@ export function buildWhatsAppShareUrl(
     articleTitle,
     articleSubtitle,
     `Read it here: ${utmUrl}`,
-    "-- From Compass: Making SA's governance system legible",
+    "-- From GovCompass: Making SA's governance system legible",
   ].join("\n");
 
   return `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
