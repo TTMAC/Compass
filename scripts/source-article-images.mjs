@@ -8,8 +8,23 @@
  *   UNSPLASH_ACCESS_KEY=xxx node scripts/source-article-images.mjs
  *
  * Options:
- *   --dry-run   Show what would be inserted without modifying files
- *   --article   Process a single article slug (e.g. --article=1-1-architecture-of-the-state)
+ *   --dry-run          Show what would be inserted without modifying files
+ *   --article=SLUG     Process a single article slug
+ *   --batch=N          Process N articles per run (default: all). Batches
+ *                      respect the Unsplash 50 req/hr free-tier limit.
+ *                      Use --batch=5 to stay well within the limit (15 reqs).
+ *   --offset=N         Skip the first N articles (combine with --batch for
+ *                      successive runs, e.g. --batch=5 --offset=5)
+ *
+ * Examples:
+ *   # Dry-run first batch of 5 articles
+ *   UNSPLASH_ACCESS_KEY=xxx node scripts/source-article-images.mjs --dry-run --batch=5
+ *
+ *   # Process articles 6-10
+ *   UNSPLASH_ACCESS_KEY=xxx node scripts/source-article-images.mjs --batch=5 --offset=5
+ *
+ *   # Process a single article
+ *   UNSPLASH_ACCESS_KEY=xxx node scripts/source-article-images.mjs --article=1-1-architecture-of-the-state
  */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
@@ -26,6 +41,10 @@ if (!ACCESS_KEY) {
 const DRY_RUN = process.argv.includes("--dry-run");
 const ARTICLE_FLAG = process.argv.find((a) => a.startsWith("--article="));
 const SINGLE_ARTICLE = ARTICLE_FLAG ? ARTICLE_FLAG.split("=")[1] : null;
+const BATCH_FLAG = process.argv.find((a) => a.startsWith("--batch="));
+const BATCH_SIZE = BATCH_FLAG ? parseInt(BATCH_FLAG.split("=")[1], 10) : 0;
+const OFFSET_FLAG = process.argv.find((a) => a.startsWith("--offset="));
+const BATCH_OFFSET = OFFSET_FLAG ? parseInt(OFFSET_FLAG.split("=")[1], 10) : 0;
 
 const ARTICLES_DIR = "src/content/articles";
 const IMAGES_DIR = "public/images/articles";
@@ -33,18 +52,21 @@ const IMAGE_WIDTH = 680;
 const IMAGE_MAX_HEIGHT = 450;
 const WEBP_QUALITY = 78;
 
+// Track remaining API requests from Unsplash response headers
+let rateLimitRemaining = 50;
+
 // Curated search terms per article slug, with placement info.
 // Each entry: { queries: string[], placements: { afterH2: string, caption: string }[] }
 const ARTICLE_CONFIG = {
   "1-1-architecture-of-the-state": {
     queries: [
-      "South Africa constitution building",
-      "South Africa parliament Cape Town",
-      "South Africa government Union Buildings",
+      "constitutional court justice",
+      "government building architecture",
+      "city municipal services urban",
     ],
     placements: [
       {
-        afterH2: "Why "Spheres" and Not "Tiers": The Framers' Deliberate Choice",
+        afterH2: "Why \u201CSpheres\u201D and Not \u201CTiers\u201D: The Framers\u2019 Deliberate Choice",
         caption: "The Constitutional Court in Johannesburg, where disputes over government powers are resolved",
       },
       {
@@ -59,9 +81,9 @@ const ARTICLE_CONFIG = {
   },
   "1-2-who-does-what": {
     queries: [
-      "South Africa parliament session",
-      "South Africa government office building",
-      "South Africa municipal office",
+      "parliament debate legislative chamber",
+      "government office bureaucracy",
+      "local government civic center",
     ],
     placements: [
       {
@@ -80,9 +102,9 @@ const ARTICLE_CONFIG = {
   },
   "1-3-how-the-spheres-interact": {
     queries: [
-      "South Africa intergovernmental meeting",
-      "South Africa NCOP parliament",
-      "government coordination cooperation",
+      "government officials meeting conference",
+      "formal committee discussion boardroom",
+      "parliament senate chamber legislative",
     ],
     placements: [
       {
@@ -101,9 +123,9 @@ const ARTICLE_CONFIG = {
   },
   "2-1-following-the-money": {
     queries: [
-      "South Africa treasury budget",
-      "South Africa revenue tax office",
-      "government budget documents finance",
+      "tax revenue finance treasury",
+      "currency money government budget",
+      "financial documents spreadsheet budget",
     ],
     placements: [
       {
@@ -122,9 +144,9 @@ const ARTICLE_CONFIG = {
   },
   "2-2-the-budget-process": {
     queries: [
-      "South Africa budget speech parliament",
-      "government planning strategy meeting",
-      "budget documents financial planning",
+      "parliament podium speech debate",
+      "strategy planning whiteboard meeting",
+      "financial planning calculator documents",
     ],
     placements: [
       {
@@ -143,9 +165,9 @@ const ARTICLE_CONFIG = {
   },
   "2-3-from-treasury-to-your-town": {
     queries: [
-      "South Africa municipal infrastructure water",
-      "South Africa electricity power grid",
-      "local government service delivery roads",
+      "water infrastructure pipes construction",
+      "electricity power lines urban",
+      "road construction paving neighborhood",
     ],
     placements: [
       {
@@ -164,9 +186,9 @@ const ARTICLE_CONFIG = {
   },
   "3-1-the-awkward-middle-child": {
     queries: [
-      "South Africa provincial legislature building",
-      "South Africa province map governance",
-      "provincial government premier office",
+      "state legislature capitol building",
+      "regional map territory governance",
+      "government executive office formal",
     ],
     placements: [
       {
@@ -185,9 +207,9 @@ const ARTICLE_CONFIG = {
   },
   "3-2-health-and-education-at-the-provincial-coal-face": {
     queries: [
-      "South Africa public school classroom",
-      "South Africa public hospital clinic",
-      "education learners students Africa",
+      "classroom students learning school",
+      "hospital clinic healthcare nurse",
+      "students education Africa diverse",
     ],
     placements: [
       {
@@ -206,9 +228,9 @@ const ARTICLE_CONFIG = {
   },
   "3-3-municipal-councils": {
     queries: [
-      "South Africa municipal council meeting",
-      "South Africa city hall local government",
-      "community meeting town hall Africa",
+      "council meeting chamber debate",
+      "city hall civic building exterior",
+      "community town hall meeting people",
     ],
     placements: [
       {
@@ -227,9 +249,9 @@ const ARTICLE_CONFIG = {
   },
   "4-1-your-right-to-participate": {
     queries: [
-      "South Africa citizen participation protest",
-      "public participation hearing Africa",
-      "community engagement civic participation",
+      "citizens rally peaceful demonstration",
+      "public hearing testimony microphone",
+      "community engagement volunteers gathering",
     ],
     placements: [
       {
@@ -248,9 +270,9 @@ const ARTICLE_CONFIG = {
   },
   "4-2-ward-committees-and-community-engagement": {
     queries: [
-      "South Africa ward committee community",
-      "community meeting local governance Africa",
-      "integrated development plan municipal",
+      "neighborhood committee community meeting",
+      "community planning discussion group",
+      "public budget consultation citizens",
     ],
     placements: [
       {
@@ -269,9 +291,9 @@ const ARTICLE_CONFIG = {
   },
   "4-3-making-public-submissions": {
     queries: [
-      "writing submission document advocacy",
-      "public comment policy Africa",
-      "citizen advocacy writing letter",
+      "person writing document laptop",
+      "official gazette newspaper policy",
+      "handwriting letter pen paper desk",
     ],
     placements: [
       {
@@ -290,9 +312,9 @@ const ARTICLE_CONFIG = {
   },
   "5-1-reading-the-auditor-generals-reports": {
     queries: [
-      "audit report financial accountability",
-      "South Africa auditor general oversight",
-      "government accountability transparency Africa",
+      "financial audit report magnifying glass",
+      "accountant reviewing documents oversight",
+      "transparency accountability checklist review",
     ],
     placements: [
       {
@@ -311,9 +333,9 @@ const ARTICLE_CONFIG = {
   },
   "5-2-using-government-data": {
     queries: [
-      "government data statistics analysis",
-      "South Africa statistics research",
-      "data transparency open government",
+      "data analytics charts dashboard",
+      "census survey statistics research",
+      "open data laptop screen graphs",
     ],
     placements: [
       {
@@ -332,9 +354,9 @@ const ARTICLE_CONFIG = {
   },
   "5-3-becoming-an-active-citizen": {
     queries: [
-      "South Africa civic activism community",
-      "citizen engagement activism Africa",
-      "community organizing grassroots Africa",
+      "community activism volunteers teamwork",
+      "citizen engagement voting civic duty",
+      "grassroots organizing community empowerment",
     ],
     placements: [
       {
@@ -354,9 +376,23 @@ const ARTICLE_CONFIG = {
 };
 
 /**
+ * Wait for the rate limit to reset if we're out of requests.
+ */
+async function waitForRateLimit() {
+  if (rateLimitRemaining > 2) return;
+
+  console.log(
+    `\n  Rate limit: ${rateLimitRemaining} requests remaining. Pausing for 60s...`,
+  );
+  await new Promise((r) => setTimeout(r, 60_000));
+}
+
+/**
  * Search Unsplash for photos matching a query.
  */
 async function searchUnsplash(query) {
+  await waitForRateLimit();
+
   const url = new URL("https://api.unsplash.com/search/photos");
   url.searchParams.set("query", query);
   url.searchParams.set("per_page", "3");
@@ -365,6 +401,13 @@ async function searchUnsplash(query) {
   const res = await fetch(url, {
     headers: { Authorization: `Client-ID ${ACCESS_KEY}` },
   });
+
+  // Track rate limit from response headers
+  const remaining = res.headers.get("x-ratelimit-remaining");
+  if (remaining != null) {
+    rateLimitRemaining = parseInt(remaining, 10);
+    console.log(`  [Rate limit: ${rateLimitRemaining} requests remaining]`);
+  }
 
   if (!res.ok) {
     const text = await res.text();
@@ -554,8 +597,8 @@ async function processArticle(slug) {
         content = insertImageAfterH2(content, placement.afterH2, imageMarkdown);
       }
 
-      // Rate limit: Unsplash allows 50 req/hr on free tier
-      await new Promise((r) => setTimeout(r, 1200));
+      // Courtesy delay between requests
+      await new Promise((r) => setTimeout(r, 1000));
     } catch (err) {
       console.error(`  Error processing image ${i + 1}: ${err.message}`);
     }
@@ -570,25 +613,65 @@ async function processArticle(slug) {
 async function main() {
   console.log("GovCompass Article Image Sourcer");
   console.log("================================");
-  if (DRY_RUN) console.log("DRY RUN MODE — no files will be modified\n");
+  if (DRY_RUN) console.log("DRY RUN MODE — no files will be modified");
 
   if (SINGLE_ARTICLE) {
+    console.log(`Processing single article: ${SINGLE_ARTICLE}\n`);
     await processArticle(SINGLE_ARTICLE);
   } else {
     const files = await readdir(ARTICLES_DIR);
-    const slugs = files
+    let slugs = files
       .filter((f) => f.endsWith(".md"))
       .map((f) => f.replace(".md", ""))
       .sort();
 
+    // Apply offset
+    if (BATCH_OFFSET > 0) {
+      console.log(`Skipping first ${BATCH_OFFSET} articles`);
+      slugs = slugs.slice(BATCH_OFFSET);
+    }
+
+    // Apply batch size
+    if (BATCH_SIZE > 0) {
+      slugs = slugs.slice(0, BATCH_SIZE);
+      const totalQueries = slugs.length * 3;
+      console.log(
+        `Batch: ${slugs.length} articles (${totalQueries} API requests)`,
+      );
+
+      if (totalQueries > 45) {
+        console.warn(
+          `Warning: ${totalQueries} requests may exceed the 50 req/hr limit. Consider a smaller batch.`,
+        );
+      }
+    }
+
+    console.log(`Articles to process: ${slugs.join(", ")}\n`);
+
+    let processed = 0;
     for (const slug of slugs) {
       await processArticle(slug);
+      processed++;
+
+      // Between articles, show progress
+      if (processed < slugs.length) {
+        console.log(
+          `\n--- Progress: ${processed}/${slugs.length} articles ---`,
+        );
+      }
     }
   }
 
   console.log("\nDone!");
   if (!DRY_RUN) {
     console.log("Review the images and run `npm run dev` to preview.");
+  }
+
+  if (BATCH_SIZE > 0 && !SINGLE_ARTICLE) {
+    const nextOffset = BATCH_OFFSET + BATCH_SIZE;
+    console.log(
+      `\nNext batch: --batch=${BATCH_SIZE} --offset=${nextOffset}`,
+    );
   }
 }
 
