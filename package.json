@@ -16,7 +16,8 @@
     "test:coverage": "vitest run --coverage",
     "test:integration": "astro build && vitest run tests/integration",
     "test:all": "astro build && vitest run",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "images:source": "node scripts/source-article-images.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.3.0",
@@ -36,6 +37,7 @@
     "pagefind": "^1.4.0",
     "prettier": "^3.5.0",
     "prettier-plugin-astro": "^0.14.0",
+    "sharp": "^0.34.5",
     "vitest": "^3.1.0"
   }
 }

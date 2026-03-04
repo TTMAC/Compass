@@ -173,4 +173,59 @@ const jsonLd = {
     color: #4a4a4a;
     font-style: italic;
   }
+
+  /* Article images */
+  .prose-article :global(figure.article-figure) {
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  @media (max-width: 768px) {
+    .prose-article :global(figure.article-figure) {
+      margin-left: -0.5rem;
+      margin-right: -0.5rem;
+      border-radius: 0;
+    }
+  }
+
+  .prose-article :global(figure.article-figure img) {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  @media (max-width: 768px) {
+    .prose-article :global(figure.article-figure img) {
+      border-radius: 0;
+    }
+  }
+
+  .prose-article :global(figcaption.article-figcaption) {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 0.8125rem;
+    line-height: 1.4;
+    color: #6b6b6b;
+    padding: 0.5rem 0;
+  }
+
+  .prose-article :global(.article-caption-text) {
+    color: #4a4a4a;
+  }
+
+  .prose-article :global(.article-attribution) {
+    font-size: 0.75rem;
+    color: #9a9a9a;
+  }
+
+  .prose-article :global(.article-attribution a) {
+    color: #9a9a9a;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .prose-article :global(.article-attribution a:hover) {
+    color: #6b6b6b;
+  }
 </style>

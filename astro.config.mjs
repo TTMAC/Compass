@@ -3,6 +3,7 @@ import tailwind from "@astrojs/tailwind";
 import sitemap from "@astrojs/sitemap";
 import remarkDirective from "remark-directive";
 import remarkCallouts from "./src/plugins/remark-callouts.mjs";
+import rehypeArticleImages from "./src/plugins/rehype-article-images.mjs";
 
 export default defineConfig({
   site: "https://govcompass.co.za",
@@ -10,5 +11,6 @@ export default defineConfig({
   output: "static",
   markdown: {
     remarkPlugins: [remarkDirective, remarkCallouts],
+    rehypePlugins: [rehypeArticleImages],
   },
 });
