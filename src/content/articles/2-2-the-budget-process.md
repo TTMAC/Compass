@@ -34,6 +34,9 @@ Here is the bottom line: the national budget is not an event. It is not the budg
 
 Before walking through the annual cycle, you need to understand a structural feature of South Africa's budgeting system that most citizens are unaware of: the budget is not a one-year plan. It is a three-year rolling plan called the Medium-Term Expenditure Framework (MTEF).
 
+
+![The budget cycle spans three years, balancing long-term planning with annual adjustments | Photo by Irvin Liang on Unsplash](/images/articles/2-2-the-budget-process/img-1.webp)
+
 Every February, when the Minister of Finance tables the budget, the documents do not just show what government plans to spend in the coming financial year. They show what government plans to spend over the next three financial years — the "budget year" and two "outer years." The MTEF means that when the 2026/27 budget is tabled in February 2026, it includes detailed allocations for 2026/27 (the budget year), indicative allocations for 2027/28, and preliminary allocations for 2028/29. When the 2027/28 budget is tabled the following year, the process rolls forward: what was the first outer year becomes the new budget year, with revised allocations reflecting updated revenue projections, policy changes, and new priorities.
 
 The MTEF exists because government cannot plan effectively on a one-year horizon. Building a hospital takes three to five years. Training teachers takes four years. Designing and implementing a new social programme requires multi-year commitment. The three-year framework gives departments, provinces, and municipalities a degree of certainty about future funding — not absolute certainty, because the outer-year figures are indicative and can be revised, but enough to plan capital projects, staffing, and programme delivery over a medium term.

@@ -67,6 +67,9 @@ AGSA is a constitutionally independent institution that audits every organ of st
 
 When AGSA completes an audit, it issues an audit opinion — a formal assessment of the entity's financial statements. There are five possible outcomes, ranging from the best (a clean audit) to the worst (a disclaimer of opinion). These five outcomes are the vocabulary of public financial accountability in South Africa, and understanding what each one means — and what it does not mean — is the most important skill this article teaches you.
 
+
+![Audit outcomes range from clean audit to disclaimer — each telling a different story | Photo by Jakub Żerdzicki on Unsplash](/images/articles/5-1-reading-the-auditor-generals-reports/img-2.webp)
+
 ### Clean Audit: The Gold Standard
 
 A clean audit — formally called an "unqualified audit opinion with no findings" — means three things simultaneously. First, the entity's financial statements are free from material misstatements — the books are accurate and can be relied upon. Second, there are no material findings on the entity's reporting of its performance against predetermined objectives — the performance information is useful and reliable. Third, there are no material findings on non-compliance with applicable legislation — the entity followed the rules.

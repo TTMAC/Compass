@@ -52,6 +52,9 @@ Chapter 4 of the Municipal Systems Act creates a comprehensive legal obligation 
 
 Article 3.3 introduced ward committees as the most local participation structure in South African governance—advisory bodies that connect you to your ward councillor and, through them, to the municipal council. This section goes deeper: how ward committees are formed, what happens in a ward committee meeting, what a functional ward committee looks like versus a dysfunctional one, and how you can get involved.
 
+
+![Ward committees are the primary mechanism for community participation in local government | Photo by Sheila C on Unsplash](/images/articles/4-2-ward-committees-and-community-engagement/img-1.webp)
+
 ### How Ward Committees Are Formed
 
 Ward committees are established after each local government election. The process is governed by the Municipal Structures Act and by guidelines issued by the relevant provincial MEC for local government. The process typically works as follows.

@@ -151,7 +151,7 @@ const ARTICLE_CONFIG = {
   },
   "2-2-the-budget-process": {
     queries: [
-      "budget presentation speech podium",
+      "finance minister budget speech",
       "strategy planning whiteboard meeting",
       "financial planning calculator documents",
     ],
@@ -195,7 +195,7 @@ const ARTICLE_CONFIG = {
     queries: [
       "state legislature capitol building",
       "regional map territory governance",
-      "government office desk documents",
+      "provincial government building Africa",
     ],
     placements: [
       {
@@ -277,7 +277,7 @@ const ARTICLE_CONFIG = {
   },
   "4-2-ward-committees-and-community-engagement": {
     queries: [
-      "neighborhood committee community meeting",
+      "town hall community forum",
       "community planning discussion group",
       "public budget consultation citizens",
     ],
@@ -320,7 +320,7 @@ const ARTICLE_CONFIG = {
   "5-1-reading-the-auditor-generals-reports": {
     queries: [
       "financial audit report magnifying glass",
-      "accountant reviewing documents oversight",
+      "accountant documents paperwork desk",
       "transparency accountability checklist review",
     ],
     placements: [
