@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-"""Generate OG images for GovCompass articles using Pillow.
+"""Generate OG/hero images for GovCompass articles using Pillow.
 
 Each image is 1200x630px with compass-green background,
 article title, subtitle, and GovCompass branding.
+
+Also updates each article's frontmatter with the ogImage path
+so images display as hero banners and in social sharing previews.
 
 Usage:
     python scripts/generate-og-images.py
@@ -46,6 +49,40 @@ def extract_frontmatter(filepath: Path) -> dict:
     if not match:
         return {}
     return yaml.safe_load(match.group(1))
+
+
+def update_frontmatter_og_image(filepath: Path, og_image_path: str):
+    """Insert or update the ogImage field in article frontmatter."""
+    content = filepath.read_text(encoding="utf-8")
+    match = re.match(r"^(---\s*\n)(.*?)(\n---)", content, re.DOTALL)
+    if not match:
+        return
+
+    pre, fm_text, post = match.group(1), match.group(2), match.group(3)
+    body = content[match.end():]
+
+    # Replace existing ogImage or insert it under seo:
+    if re.search(r"^\s+ogImage:", fm_text, re.MULTILINE):
+        fm_text = re.sub(
+            r"(^\s+ogImage:).*$",
+            f'  ogImage: "{og_image_path}"',
+            fm_text,
+            count=1,
+            flags=re.MULTILINE,
+        )
+    elif re.search(r"^seo:", fm_text, re.MULTILINE):
+        fm_text = re.sub(
+            r"(^seo:\s*\n)",
+            f'seo:\n  ogImage: "{og_image_path}"\n',
+            fm_text,
+            count=1,
+            flags=re.MULTILINE,
+        )
+    else:
+        fm_text += f'\nseo:\n  ogImage: "{og_image_path}"'
+
+    filepath.write_text(pre + fm_text + post + body, encoding="utf-8")
+    print(f"  Updated frontmatter: {filepath.name}")
 
 
 def generate_og_image(title: str, subtitle: str, article_number: str, output_path: Path):
@@ -115,7 +152,9 @@ def main():
         article_number = frontmatter.get("articleNumber", "")
 
         output_path = OUTPUT_DIR / f"{slug}.png"
+        og_image_url = f"/og/{slug}.png"
         generate_og_image(title, subtitle, article_number, output_path)
+        update_frontmatter_og_image(md_file, og_image_url)
 
     # Generate default OG image
     generate_og_image(

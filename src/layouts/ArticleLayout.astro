@@ -100,6 +100,19 @@ const jsonLd = {
           {readingTime} min read
         </span>
       </div>
+
+      {ogImage && (
+        <figure class="hero-image mt-6">
+          <img
+            src={ogImage}
+            alt={title}
+            width="1200"
+            height="630"
+            loading="eager"
+            decoding="async"
+          />
+        </figure>
+      )}
     </header>
 
     <div class="prose prose-article" data-testid="article-content">
@@ -172,6 +185,32 @@ const jsonLd = {
     margin: 1.5rem 0;
     color: #4a4a4a;
     font-style: italic;
+  }
+
+  /* Hero image */
+  .hero-image {
+    margin: 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+
+  .hero-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .hero-image {
+      margin-left: -1rem;
+      margin-right: -1rem;
+      border-radius: 0;
+    }
+
+    .hero-image img {
+      border-radius: 0;
+    }
   }
 
   /* Article images */
