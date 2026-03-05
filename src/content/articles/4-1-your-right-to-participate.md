@@ -36,6 +36,9 @@ The gap is not in the rights. The gap is in the exercise of those rights. Most S
 
 The right to participate in governance is not a single right in the South African Constitution. It is a web of interconnected rights and obligations, woven through the Bill of Rights, the legislative provisions for each sphere, and the founding values of the Republic itself. Understanding this web is the foundation for everything that follows.
 
+
+![The Constitution guarantees every citizen the right to participate in government | Photo by Iqro Rinaldi on Unsplash](/images/articles/4-1-your-right-to-participate/img-1.webp)
+
 ### The Founding Values
 
 Section 1 of the Constitution establishes the Republic's founding values. Among them: "a multi-party system of democratic government, to ensure accountability, responsiveness and openness." These are not decorative words. The Constitutional Court has treated these founding values as interpretive principles that inform the meaning of every other constitutional provision. When the Constitution says the National Assembly must facilitate public involvement, the founding values tell you what kind of involvement is required: involvement that serves accountability (you can hold government to account), responsiveness (government must respond to your inputs), and openness (the process must be transparent and accessible).

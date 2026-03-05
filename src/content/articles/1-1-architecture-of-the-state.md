@@ -62,6 +62,9 @@ Research by the Public Affairs Research Institute (PARI) and the Wits School of 
 
 Let us get specific. The Constitution, in Schedules 4 and 5, sets out exactly which functions belong to which sphere—and where they overlap. These schedules are the operating manual for South Africa's governance architecture, and understanding them is the key to tracing accountability.
 
+
+![Government services like water and electricity are delivered through different spheres | Photo by Tory Bishop on Unsplash](/images/articles/1-1-architecture-of-the-state/img-2.webp)
+
 ### Schedule 4: Concurrent Powers (Shared Between National and Provincial)
 
 Schedule 4 lists functions that both national and provincial government can legislate on. When there is a conflict between national and provincial legislation on a Schedule 4 matter, Section 146 of the Constitution provides criteria for resolving it—generally, but not always, in favour of national legislation. The key concurrent functions include agriculture, cultural matters, disaster management, education at all levels excluding tertiary (universities are exclusively national), environment, health services, housing, indigenous law and customary law, industrial promotion, language policy, media services directly controlled or provided by the government, nature conservation, police (to the extent that Section 206(3)–(5) apply to provinces), population development, property transfer fees, public transport, public works, regional planning and development, road traffic regulation, soil conservation, tourism, trade, traditional leadership, urban and rural development, vehicle licensing, and welfare services.
@@ -221,6 +224,9 @@ This example illustrates why the governance architecture is not just an abstract
 ## The Role of Local Government: Where the Rubber Meets the Road
 
 South Africa's 257 municipalities are where the governance architecture meets your daily life. There are three types: 8 metropolitan municipalities (the large cities—Johannesburg, Cape Town, eThekwini/Durban, Tshwane/Pretoria, Ekurhuleni, Nelson Mandela Bay, Buffalo City, and Mangaung), 44 district municipalities, and 205 local municipalities. Metropolitan municipalities have full executive and legislative authority in their areas. District and local municipalities share functions between them, adding another layer of complexity.
+
+
+![Municipal service delivery is where most citizens interact with government | Photo by You Le on Unsplash](/images/articles/1-1-architecture-of-the-state/img-3.webp)
 
 Municipal government is constitutionally responsible for the services that most directly affect your quality of life: water reticulation, electricity distribution, refuse removal, local roads, stormwater drainage, local land-use planning, building regulations, municipal health services, firefighting, local public transport, and municipal parks and recreation. These are the services you interact with every day. They are also, unfortunately, the services most likely to fail.
 

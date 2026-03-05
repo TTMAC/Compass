@@ -42,6 +42,9 @@ This concentration of spending in two sectors has a direct implication for accou
 
 ### Who Does What: National Versus Provincial Responsibilities
 
+
+![Education consumes roughly 40% of every provincial budget in South Africa | Photo by SMKN 1 Gantar on Unsplash](/images/articles/3-2-health-and-education-at-the-provincial-coal-face/img-1.webp)
+
 South Africa's basic education system operates on a split-responsibility model that you need to understand before you can assign blame or credit for how your child's school performs. The national Department of Basic Education (DBE) sets the curriculum (the Curriculum and Assessment Policy Statements, or CAPS), administers the national matric examinations, establishes norms and standards for school infrastructure and teacher qualifications, manages the national school nutrition programme framework, and provides overall policy direction. The DBE is, in governance terms, the architect.
 
 Your provincial education department is the builder. It employs the teachers—roughly 400,000 teachers across approximately 23,000 public ordinary schools nationally, according to DBE data—manages school infrastructure, provides learner transport in rural areas, procures and distributes textbooks and learning materials, and oversees the daily administration of the education system in your province. When a teacher stands in front of your child's class, that teacher is a provincial employee, paid from the provincial education budget, managed through the provincial education department's human resources system.
@@ -82,6 +85,9 @@ Dr Nic Spaull, an education economist at Stellenbosch University's Research on S
 
 ### Who Does What: National Versus Provincial Responsibilities
 
+
+![Provincial hospitals and clinics are the primary healthcare access point for most South Africans | Photo by Ninthgrid on Unsplash](/images/articles/3-2-health-and-education-at-the-provincial-coal-face/img-2.webp)
+
 The health sector follows a similar split-responsibility model to education, with national government setting the framework and provinces delivering the services. The national Department of Health sets health policy, regulates the health professions (through the Health Professions Council of South Africa), manages the National Health Laboratory Service (NHLS), coordinates the response to disease outbreaks, oversees the proposed National Health Insurance (NHI) framework, and manages certain specialised and tertiary services in partnership with university medical schools.
 
 Your provincial health department is responsible for the public health facilities you actually use. It runs the district health system—the network of primary healthcare (PHC) clinics and community health centres that provide the first point of contact for most South Africans accessing public healthcare. It operates the provincial hospitals: district hospitals (the smallest, providing basic inpatient care), regional hospitals (providing more specialised services), and tertiary and central hospitals (providing highly specialised services, typically linked to university medical schools). It manages emergency medical services (ambulances). It employs the doctors, nurses, pharmacists, and allied health professionals who staff these facilities.
@@ -115,6 +121,9 @@ The Health Systems Trust (HST), a South African non-governmental organisation fo
 ## How Provinces Compare: The Performance Map
 
 The variation between provinces on education and health indicators is not random. It follows a consistent pattern that reflects structural factors—economic base, institutional inheritance, political dynamics, and demographic composition.
+
+
+![Service delivery outcomes vary dramatically across South Africa's nine provinces | Photo by Emmanuel Ikwuegbu on Unsplash](/images/articles/3-2-health-and-education-at-the-provincial-coal-face/img-3.webp)
 
 ### Education Performance Across Provinces
 

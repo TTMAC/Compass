@@ -28,13 +28,19 @@
  */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
-import { join, basename } from "node:path";
+import { join, basename, dirname } from "node:path";
+import { fileURLToPath } from "node:url";
 import { readdir } from "node:fs/promises";
+import { config } from "dotenv";
 import sharp from "sharp";
+
+// Load .env from project root
+const __dirname = dirname(fileURLToPath(import.meta.url));
+config({ path: join(__dirname, "..", ".env") });
 
 const ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY;
 if (!ACCESS_KEY) {
-  console.error("Error: UNSPLASH_ACCESS_KEY env var is required");
+  console.error("Error: UNSPLASH_ACCESS_KEY not found. Add it to .env or set as env var.");
   process.exit(1);
 }
 

@@ -36,6 +36,9 @@ This article is the map. It takes the constitutional architecture from Article 1
 
 National government is the most visible sphere—the president, the cabinet, Parliament, the Union Buildings—but it is also the sphere that most South Africans misunderstand. National government does not, for the most part, deliver services directly to you. Its primary functions are setting policy, passing legislation, regulating sectors, and transferring money to the other two spheres so they can deliver services. There are important exceptions—the South African Police Service, the South African Social Security Agency, the Department of Home Affairs—but the general principle holds: national government designs the system, it does not run the taps.
 
+
+![Parliament in Cape Town, where national legislation is debated and passed | Photo by Neon Wang on Unsplash](/images/articles/1-2-who-does-what/img-1.webp)
+
 As of the seventh administration, the national executive consists of the president, the deputy president, and ministers heading approximately 30 national departments. Each department is led politically by a minister (sometimes assisted by a deputy minister) and administratively by a director-general (DG). The minister sets policy direction and is accountable to Parliament. The DG manages the department's operations, controls its budget, and is the accounting officer responsible for financial compliance. When something goes wrong in a national department, the question of whether the failure is political (the minister's policy choices) or administrative (the DG's management) matters enormously—but from the outside, both are accountable.
 
 Here are the national departments whose functions most directly affect your life, and what they actually do.
@@ -67,6 +70,9 @@ National government's direct-service departments—SAPS, Home Affairs, SASSA—a
 ## The Provincial Government Machine: MECs, HODs, and the Services Closest to You
 
 Provincial government is where the Constitution's design meets your daily reality in the most consequential way. Nine provinces, each with a premier, an executive council of Members of the Executive Council (MECs), and provincial departments headed by Heads of Department (HODs). Provincial government runs your schools, your hospitals, your clinics, your ambulances, your provincial roads, and your libraries. It is the implementation sphere—taking national policy frameworks and turning them into functioning services on the ground.
+
+
+![Provincial legislatures oversee education, health, and other critical services | Photo by the blowup on Unsplash](/images/articles/1-2-who-does-what/img-2.webp)
 
 Each province has its own configuration of departments, but the core ones are consistent: Education, Health, Human Settlements, Public Works and Infrastructure, Social Development, Community Safety, Agriculture, Finance, and the Office of the Premier. The MEC is the political head, accountable to the provincial legislature. The HOD is the administrative head and accounting officer. This distinction—political accountability through the MEC, administrative accountability through the HOD—is essential for directing your pressure to the right person.
 
@@ -105,6 +111,9 @@ Provincial government is the implementation sphere for South Africa's two larges
 ## The Municipal Government Machine: Where Services Meet Your Street
 
 Municipal government is where governance becomes tangible. The water from your tap, the electricity powering your lights, the refuse truck that collects your bins, the road surface you drive on, the streetlight outside your house, the local park your children play in—all municipal. South Africa's 257 municipalities—8 metropolitan, 44 district, and 205 local—are constitutionally responsible for the services that most directly determine your quality of life.
+
+
+![Municipal offices are where citizens access local government services directly | Photo by Gabriele Romano on Unsplash](/images/articles/1-2-who-does-what/img-3.webp)
 
 A municipality is governed by a council of elected councillors, led by a mayor (or executive mayor in executive systems). The administrative head is the municipal manager, who is the accounting officer and controls the municipality's operations. Below the municipal manager sit directors heading the municipality's various departments—infrastructure, finance, community services, planning, and so on.
 

@@ -54,6 +54,9 @@ The strategic planning phase is largely invisible to citizens. It happens inside
 
 The first public moment in the budget cycle comes in October, when the Minister of Finance tables the Medium-Term Budget Policy Statement (MTBPS) in Parliament. The MTBPS is the fiscal preview — a document that sets out the government's fiscal policy framework, revises the economic and revenue outlook, and provides updated medium-term expenditure projections.
 
+
+![The MTBPS in October previews the fiscal framework before the full budget in February | Photo by Hoi An and Da Nang Photographer on Unsplash](/images/articles/2-2-the-budget-process/img-2.webp)
+
 The MTBPS does not contain detailed departmental allocations. That comes in February. What it does provide is the fiscal framework — the macroeconomic assumptions (GDP growth, inflation, exchange rate), the revised revenue projection, the intended expenditure ceiling, the projected budget deficit, and the borrowing requirement. It also signals major policy shifts that will be reflected in the February budget: if the government plans to introduce a new social grant, adjust the tax structure, or impose austerity measures on departmental spending, the MTBPS is where these signals first appear.
 
 For citizens who follow the money, the MTBPS is arguably more important than the budget speech itself. By October, the fiscal framework is largely set. The total amount available for spending has been determined. The division between spheres has been preliminarily agreed. The big policy choices — how much to spend, how much to borrow, how much to allocate to debt service versus service delivery — are visible in the MTBPS. The February budget fills in the detail, but the MTBPS establishes the boundaries within which that detail must fit.
@@ -67,6 +70,9 @@ The MTBPS in October is where the fiscal boundaries are set. If you want to infl
 ## Phase 3: Budget Preparation — The Negotiation Nobody Sees (August to January)
 
 Between August and January, National Treasury conducts the most consequential phase of the budget cycle: the bilateral budget discussions with individual national departments. This is where the actual numbers are decided — how much each department will receive, which programmes will be funded, which will be cut, and which conditional grants will flow to provinces and municipalities.
+
+
+![Departments negotiate their allocations with National Treasury behind closed doors | Photo by Kelly Sikkema on Unsplash](/images/articles/2-2-the-budget-process/img-3.webp)
 
 The process works like this. National Treasury issues a budget circular to all national departments, setting out the MTEF guidelines, the fiscal constraints, and the timelines for submissions. Each department submits its budget proposal — its request for funding, justified by its strategic plan and APP targets. Treasury officials then engage in bilateral discussions with each department, examining the proposals line by line, challenging assumptions, testing whether the requested funding is justified by performance data, and negotiating the final allocation within the available fiscal envelope.
 

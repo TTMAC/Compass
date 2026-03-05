@@ -34,6 +34,9 @@ Here is the bottom line: the last mile of the fiscal pipeline — from Treasury 
 
 Every municipality in South Africa funds its operations from three sources: national government transfers (the equitable share and conditional grants), own revenue (the money the municipality raises directly from ratepayers and service users), and, in some cases, borrowing for capital projects. The balance between these three sources determines a municipality's fiscal character — and understanding that balance tells you more about your municipality's strengths and vulnerabilities than almost any other single data point.
 
+
+![Municipalities fund their operations through a mix of national transfers, grants, and own revenue | Photo by Sergei Nikulin on Unsplash](/images/articles/2-3-from-treasury-to-your-town/img-1.webp)
+
 In a metropolitan municipality like the City of Cape Town or the City of Johannesburg, own revenue typically accounts for 70–80% of total income. National transfers supplement this with equitable share funding for free basic services to poor households and conditional grants for specific infrastructure projects. The municipality is, in fiscal terms, a semi-autonomous entity — it raises most of its own money and makes most of its own spending decisions.
 
 In a small rural municipality in the Eastern Cape or Limpopo, the picture is inverted. Own revenue may account for only 10–20% of total income, with national transfers — primarily the equitable share — constituting the overwhelming majority. The municipality is, in fiscal terms, a transfer-dependent entity — it spends money raised and allocated by another sphere of government.
@@ -57,6 +60,9 @@ The municipal equitable share is designed to fund free basic water, electricity,
 ## Conditional Grants: Ring-Fenced Money for Specific Municipal Projects
 
 In addition to the equitable share, municipalities receive conditional grants — transfers from national government that are earmarked for specific purposes and come with spending conditions, reporting requirements, and timelines. These grants are the primary mechanism through which national government funds municipal infrastructure development, and their effectiveness determines whether your municipality builds new water pipes, upgrades sewer systems, improves roads, and expands electricity networks.
+
+
+![Infrastructure grants fund critical projects like water treatment and road maintenance | Photo by Red Shuheart on Unsplash](/images/articles/2-3-from-treasury-to-your-town/img-2.webp)
 
 ### The Municipal Infrastructure Grant
 

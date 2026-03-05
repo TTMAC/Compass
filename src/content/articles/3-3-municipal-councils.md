@@ -34,6 +34,9 @@ Here is the bottom line: your municipal council is the only level of government 
 
 Before you can understand your council, you need to understand which kind of municipality you live in. South Africa has 257 municipalities, but they are not all the same. The Constitution and the Municipal Structures Act 117 of 1998 establish three categories, each with a different governance structure, different powers, and a different relationship to your daily life.
 
+
+![South Africa's 257 municipalities are divided into three categories with different powers | Photo by British Library on Unsplash](/images/articles/3-3-municipal-councils/img-1.webp)
+
 ### Category A: Metropolitan Municipalities
 
 Category A municipalities are the eight metropolitan municipalities—the large urban centres that have exclusive municipal authority in their areas with no district municipality above them. They are the City of Johannesburg, the City of Cape Town, the City of Tshwane (Pretoria), eThekwini (Durban), Ekurhuleni (the East Rand), Nelson Mandela Bay (Port Elizabeth), Mangaung (Bloemfontein), and Buffalo City (East London). Together, these eight metros are home to approximately 40% of South Africa's population and generate the overwhelming majority of municipal own revenue nationally. If you live in a metro, your metro council is the only municipal council that governs you—there is no district layer above it.
@@ -59,6 +62,9 @@ South Africa has 257 municipalities in three categories: 8 metropolitan municipa
 ## How Your Council Is Elected: The Mixed Electoral System
 
 Municipal councils are elected through a mixed system that combines ward representation and proportional representation (PR). Understanding this system is important because the type of councillor—ward or PR—determines what that councillor owes you and how they should be held accountable.
+
+
+![Municipal elections use a mixed system combining ward representatives and proportional representation | Photo by Sergey Kuznetsov on Unsplash](/images/articles/3-3-municipal-councils/img-2.webp)
 
 ### Ward Councillors
 

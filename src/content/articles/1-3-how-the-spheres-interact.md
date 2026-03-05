@@ -36,6 +36,9 @@ This matters directly to you because when the spheres fail to coordinate, servic
 
 Chapter 3 of the Constitution — titled "Co-operative Government" — is the legal foundation for how the spheres relate to each other. Section 40(1) establishes the three spheres as "distinctive, interdependent and interrelated." Those three adjectives are not decorative. Each carries specific constitutional meaning.
 
+
+![Cooperative governance requires all three spheres to work together in good faith | Photo by F aint on Unsplash](/images/articles/1-3-how-the-spheres-interact/img-1.webp)
+
 "Distinctive" means each sphere has its own identity, its own democratic mandate, and its own constitutionally protected powers. National government cannot simply absorb a provincial function because it thinks it could do it better. A province cannot take over a municipal function on a whim. The distinctiveness of each sphere is protected by the Constitution's allocation of powers in Schedules 4 and 5.
 
 "Interdependent" means the spheres rely on each other. National government cannot deliver health policy without provinces running the hospitals. Provinces cannot run hospitals without municipalities providing water, electricity, and sanitation to those hospitals. Municipalities cannot provide bulk infrastructure without national funding through the Division of Revenue Act. No sphere is self-sufficient. The governance architecture is designed so that each sphere needs the others to function.
@@ -107,6 +110,9 @@ South Africa's intergovernmental relations framework creates a hierarchy of foru
 ## The National Council of Provinces: The Legislative Bridge
 
 The National Council of Provinces (NCOP) occupies a unique position in the intergovernmental system. It is not an executive coordination mechanism like a MinMEC or the Budget Council. It is a legislative body — the second house of Parliament — specifically designed to ensure that provincial interests are represented in national lawmaking.
+
+
+![The NCOP gives provinces a voice in national legislation | Photo by Andy Wang on Unsplash](/images/articles/1-3-how-the-spheres-interact/img-3.webp)
 
 Section 42(4) of the Constitution states that the NCOP "represents the provinces to ensure that provincial interests are taken into account in the national sphere of government." Every piece of legislation that affects provinces — and most legislation does — must pass through the NCOP. For legislation falling under Schedule 4 (concurrent functions), the NCOP's process is particularly significant: each province's ten-member delegation votes as a bloc, with the provincial legislature's mandate determining the vote. This "one province, one vote" system on Section 76 bills means that a province's interests, at least in theory, carry real weight in the legislative process.
 
