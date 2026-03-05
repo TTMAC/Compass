@@ -36,6 +36,9 @@ This article changes that. It teaches you how to find out when comment opportuni
 
 The most common reason people do not make public submissions is not that they do not care. It is that they do not know a comment opportunity exists. Government publishes calls for comment through channels that most citizens never see. Knowing where to look is the first skill you need.
 
+
+![Government Gazettes and parliamentary websites publish calls for public comment | Photo by Vitaly Gariev on Unsplash](/images/articles/4-3-making-public-submissions/img-1.webp)
+
 ### The Parliamentary Monitoring Group (PMG)
 
 The Parliamentary Monitoring Group (www.pmg.org.za) is the single most useful resource for tracking parliamentary and provincial legislative activities. PMG is an independent organisation that monitors committee meetings across Parliament and some provincial legislatures. Its website publishes committee meeting schedules, calls for public comment on bills and policy documents, meeting reports summarising what happened in committee sessions, and submission deadlines. PMG also sends email alerts to subscribers—you can sign up for free alerts on specific committees or topics that interest you.
@@ -106,6 +109,9 @@ Budget submissions require some technical understanding of the budget structure,
 
 Not all submissions are equal. A well-structured submission that addresses the specific provisions of a bill, presents evidence, and makes clear recommendations has far more impact than a vague expression of support or opposition. Committee members and their research staff read hundreds of submissions on major bills. Your submission needs to stand out—not through length or rhetoric, but through clarity, specificity, and substance.
 
+
+![An effective submission is structured, evidence-based, and proposes specific alternatives | Photo by Brett Jordan on Unsplash](/images/articles/4-3-making-public-submissions/img-2.webp)
+
 ### Structure
 
 An effective submission follows a clear structure that makes it easy for the reader to understand your position, your reasoning, and your recommendations.
@@ -139,6 +145,9 @@ The Parliamentary Monitoring Group, in its capacity-building work with civil soc
 ## Step by Step: Writing Your First Submission
 
 If you have never made a public submission before, the process can feel intimidating. It is not. Here is a step-by-step guide that takes you from finding the opportunity to pressing send.
+
+
+![Even a single well-reasoned submission can influence policy outcomes | Photo by Bermix Studio on Unsplash](/images/articles/4-3-making-public-submissions/img-3.webp)
 
 ### Step 1: Find the Call for Comment
 

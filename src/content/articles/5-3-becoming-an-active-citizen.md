@@ -42,6 +42,9 @@ This article gives you the framework for that practice.
 
 Before building your personal accountability practice, it is worth studying the most successful example of sustained civic engagement in South Africa's democratic history — not to replicate it, but to understand the principles that made it effective.
 
+
+![The Treatment Action Campaign showed how informed, organised citizens can change policy | Photo by Vitaly Gariev on Unsplash](/images/articles/5-3-becoming-an-active-citizen/img-1.webp)
+
 The Treatment Action Campaign (TAC) was formed on 10 December 1998 — International Human Rights Day — to campaign for access to HIV treatment for all South Africans. At the time, the government was restricting access to the antiretroviral drug Nevirapine, which could prevent mother-to-child transmission of HIV, to a handful of pilot sites — while approximately 80,000 newborns were being infected annually. TAC challenged this policy through the courts, in the streets, in the media, and in communities across the country.
 
 In 2002, the Constitutional Court handed down its judgment in *Minister of Health and Others v Treatment Action Campaign and Others (No 2)*. The Court found the government's restriction of Nevirapine to pilot sites unreasonable and ordered the extension of the drug's availability to all public health facilities, along with the provision of counsellors and reasonable measures to extend testing and counselling throughout the public health sector. By 2004, treatment of HIV using antiretroviral drugs in the public sector became official government policy. South Africa now runs the world's largest antiretroviral programme.
@@ -65,6 +68,9 @@ The Treatment Action Campaign's success rested on four pillars: understanding an
 ## Know Your Entry Points: Where You Can Engage
 
 One of the most common obstacles to civic engagement is not apathy — it is confusion. Citizens who want to act do not know where to start. The system has dozens of entry points, and nobody has drawn a map showing which entry point matches which problem.
+
+
+![Effective civic engagement starts with knowing where and when to direct your energy | Photo by Mick Haupt on Unsplash](/images/articles/5-3-becoming-an-active-citizen/img-2.webp)
 
 This section is that map. It connects the specific governance knowledge you have acquired across this series to the specific channels through which you can act.
 
@@ -128,6 +134,9 @@ Research on participatory governance consistently finds that the most impactful 
 ## The Honest Obstacles
 
 It would be dishonest to write about active citizenship without acknowledging why so many South Africans have disengaged. The obstacles are real, they are structural, and pretending they do not exist would undermine the credibility of everything this series has tried to build.
+
+
+![Civic participation faces real barriers — but understanding them is the first step to overcoming them | Photo by Claudio Schwarz on Unsplash](/images/articles/5-3-becoming-an-active-citizen/img-3.webp)
 
 ### Declining Trust
 

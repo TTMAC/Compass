@@ -45,6 +45,7 @@ if (!ACCESS_KEY) {
 }
 
 const DRY_RUN = process.argv.includes("--dry-run");
+const FORCE = process.argv.includes("--force");
 const ARTICLE_FLAG = process.argv.find((a) => a.startsWith("--article="));
 const SINGLE_ARTICLE = ARTICLE_FLAG ? ARTICLE_FLAG.split("=")[1] : null;
 const BATCH_FLAG = process.argv.find((a) => a.startsWith("--batch="));
@@ -109,7 +110,7 @@ const ARTICLE_CONFIG = {
   "1-3-how-the-spheres-interact": {
     queries: [
       "government officials meeting conference",
-      "formal committee discussion boardroom",
+      "business meeting conference table",
       "parliament senate chamber legislative",
     ],
     placements: [
@@ -150,7 +151,7 @@ const ARTICLE_CONFIG = {
   },
   "2-2-the-budget-process": {
     queries: [
-      "parliament podium speech debate",
+      "budget presentation speech podium",
       "strategy planning whiteboard meeting",
       "financial planning calculator documents",
     ],
@@ -173,7 +174,7 @@ const ARTICLE_CONFIG = {
     queries: [
       "water infrastructure pipes construction",
       "electricity power lines urban",
-      "road construction paving neighborhood",
+      "road construction workers asphalt",
     ],
     placements: [
       {
@@ -194,7 +195,7 @@ const ARTICLE_CONFIG = {
     queries: [
       "state legislature capitol building",
       "regional map territory governance",
-      "government executive office formal",
+      "government office desk documents",
     ],
     placements: [
       {
@@ -236,7 +237,7 @@ const ARTICLE_CONFIG = {
     queries: [
       "council meeting chamber debate",
       "city hall civic building exterior",
-      "community town hall meeting people",
+      "community gathering town hall",
     ],
     placements: [
       {
@@ -473,16 +474,26 @@ function buildAlt(caption, photographerName, photographerUsername) {
 }
 
 /**
+ * Normalize quotes and apostrophes so smart/curly variants match straight ones.
+ */
+function normalizeQuotes(str) {
+  return str
+    .replace(/[\u2018\u2019\u201A\u2032]/g, "'")
+    .replace(/[\u201C\u201D\u201E\u2033]/g, '"');
+}
+
+/**
  * Insert image markdown into an article after a specified H2 heading.
  * Inserts after the first paragraph following the H2.
  */
 function insertImageAfterH2(content, h2Text, imageMarkdown) {
   const lines = content.split("\n");
   let h2Index = -1;
+  const needle = normalizeQuotes(h2Text.slice(0, 40));
 
   // Find the H2 line
   for (let i = 0; i < lines.length; i++) {
-    if (lines[i].startsWith("## ") && lines[i].includes(h2Text.slice(0, 40))) {
+    if (lines[i].startsWith("## ") && normalizeQuotes(lines[i]).includes(needle)) {
       h2Index = i;
       break;
     }
@@ -549,8 +560,8 @@ async function processArticle(slug) {
 
   let content = readFileSync(filePath, "utf-8");
 
-  if (hasExistingImages(content)) {
-    console.log(`${slug}: Already has images, skipping (remove them first to re-source)`);
+  if (hasExistingImages(content) && !FORCE) {
+    console.log(`${slug}: Already has images, skipping (use --force to re-process)`);
     return;
   }
 
@@ -574,6 +585,13 @@ async function processArticle(slug) {
 
       const photo = data.results[0];
       const filename = `img-${i + 1}`;
+      const imgPath = `/images/articles/${slug}/${filename}.webp`;
+
+      // Skip if this specific image is already in the content
+      if (FORCE && content.includes(imgPath)) {
+        console.log(`  img-${i + 1} already inserted, skipping`);
+        continue;
+      }
 
       // Trigger download per Unsplash API terms
       if (photo.links?.download_location) {
@@ -593,7 +611,6 @@ async function processArticle(slug) {
         photo.user.name,
         photo.user.username,
       );
-      const imgPath = `/images/articles/${slug}/${filename}.webp`;
       const imageMarkdown = `![${alt}](${imgPath})`;
 
       if (DRY_RUN) {

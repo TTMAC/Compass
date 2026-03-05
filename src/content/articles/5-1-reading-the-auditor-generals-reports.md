@@ -40,6 +40,9 @@ This article closes that gap. By the end of it, you will understand what AGSA is
 
 The Auditor-General is not a department. It is not a ministry. It is a constitutional institution — one of the Chapter 9 institutions established by the Constitution to strengthen democracy. Section 188 of the Constitution mandates the Auditor-General to audit and report on the accounts, financial statements, and financial management of all national and provincial state departments and administrations, all municipalities, and any other institution or accounting entity required by national or provincial legislation to be audited.
 
+
+![The Auditor-General audits every government department and public entity annually | Photo by Joachim Schnürle on Unsplash](/images/articles/5-1-reading-the-auditor-generals-reports/img-1.webp)
+
 Two features of AGSA's constitutional design are critical to its function.
 
 First, AGSA is independent. Section 181 of the Constitution provides that Chapter 9 institutions are independent, subject only to the Constitution and the law, and that no person or organ of state may interfere with their functioning. The Auditor-General is appointed by the President on the recommendation of the National Assembly for a fixed, non-renewable term of seven years. The current Auditor-General, Tsakani Maluleke — the first woman to hold the position — took office on 1 December 2020. The non-renewable term is a deliberate design choice: an Auditor-General who cannot be reappointed has no incentive to soften findings to please the executive.
@@ -135,6 +138,9 @@ The Auditor-General's consolidated reports provide not only audit outcomes but a
 ## The Language of Financial Failure: Key Terms You Need to Know
 
 AGSA's reports use a specific vocabulary to describe financial management failures. These terms appear in every audit report, every parliamentary debate about government performance, and every media headline about fiscal mismanagement. Understanding them precisely — rather than treating them as interchangeable synonyms for "corruption" — is essential to reading the reports accurately.
+
+
+![Understanding audit terminology is essential for reading government accountability reports | Photo by Sasun Bughdaryan on Unsplash](/images/articles/5-1-reading-the-auditor-generals-reports/img-3.webp)
 
 ### Irregular Expenditure
 

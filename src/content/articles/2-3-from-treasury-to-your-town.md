@@ -88,6 +88,9 @@ The National Treasury's annual *Local Government Budget and Expenditure Review*,
 
 For municipalities with significant own-revenue capacity — principally the eight metros and a tier of secondary cities — the conditional grants and equitable share are supplements to a self-sustaining business model. Understanding that business model is essential to understanding how your rates, electricity bill, and water charges translate into municipal services.
 
+
+![Property rates and service charges form the backbone of municipal own revenue | Photo by Mika Baumeister on Unsplash](/images/articles/2-3-from-treasury-to-your-town/img-3.webp)
+
 ### Property Rates
 
 Property rates are a tax on the value of land and buildings within the municipality, levied under the Municipal Property Rates Act. The municipality conducts a valuation roll — a register of all properties in its jurisdiction with their assessed values — and applies a rate (expressed as cents per rand of property value) to calculate each property owner's annual rates bill. Rates are the most stable and predictable source of municipal own revenue. They do not fluctuate with consumption (unlike electricity and water charges) and they apply to all property owners regardless of whether they use municipal services.

@@ -79,6 +79,9 @@ These provisions mean that when Parliament considers a bill, it is constitutiona
 
 The most consequential legal development in South Africa's participation framework is the Constitutional Court's jurisprudence establishing that public participation obligations are judicially enforceable—and that failure to comply can invalidate legislation. Three cases form the backbone of this jurisprudence, and understanding them tells you how seriously the highest court takes your right to participate.
 
+
+![Landmark court rulings have established that public participation is a constitutional requirement | Photo by Akshay Chauhan on Unsplash](/images/articles/4-1-your-right-to-participate/img-2.webp)
+
 ### Doctors for Life International v Speaker of the National Assembly (2006)
 
 This is the landmark case. Doctors for Life International, a civil society organisation, challenged four health-related bills passed by Parliament on the grounds that the NCOP had failed to facilitate adequate public involvement in the legislative process. The organisation argued that the NCOP had not held public hearings or taken sufficient steps to solicit public input before passing the bills.
@@ -108,6 +111,9 @@ Professor Christina Murray, formerly of the University of Cape Town's Department
 ## The Participation Map: Every Channel Available to You
 
 Now that you understand the constitutional rights, let us map the practical channels through which you can exercise them. This section surveys every major participation mechanism across all three spheres of government. The next two articles in this series will go deeper into the channels that require the most detailed explanation—ward committees and community engagement in Article 4.2, and making public submissions in Article 4.3.
+
+
+![Citizens have multiple formal channels to engage with government at every level | Photo by DJ Paine on Unsplash](/images/articles/4-1-your-right-to-participate/img-3.webp)
 
 ### Parliamentary Public Hearings
 

@@ -36,6 +36,9 @@ This article is that map. It will walk you through the major government data sou
 
 You were introduced to National Treasury's budget documents in *Following the Money*. Here, we go deeper — not into the policy they contain, but into the data platforms that make them usable.
 
+
+![Treasury publishes detailed budget data that anyone can access and analyse | Photo by Luke Chesser on Unsplash](/images/articles/5-2-using-government-data/img-1.webp)
+
 ### The Budget Documents
 
 Every February, National Treasury publishes the full suite of annual budget documentation at [treasury.gov.za](https://www.treasury.gov.za). The key documents are:
@@ -70,6 +73,9 @@ National Treasury publishes three layers of fiscal data: the raw budget document
 ## Statistics South Africa: Measuring the Country
 
 If National Treasury tells you how money is allocated and spent, Statistics South Africa (Stats SA) tells you what the country actually looks like — how many people live where, what they earn, whether they have water and electricity, how many are employed, how much prices have risen, and how poverty is changing over time. Stats SA is the national statistics agency, established under the Statistics Act 6 of 1999, and its data underpins virtually every policy debate in South Africa.
+
+
+![Stats SA surveys and censuses provide the baseline data for policy decisions | Photo by Luis Quintero on Unsplash](/images/articles/5-2-using-government-data/img-2.webp)
 
 ### The Census and Community Survey
 
@@ -134,6 +140,9 @@ APPs are available on departmental websites and through the Parliamentary Monito
 ## The Parliamentary Monitoring Group: Parliament's Public Memory
 
 The Parliamentary Monitoring Group (PMG) at [pmg.org.za](https://pmg.org.za) is not a government institution — it is an independent civil society organisation that monitors and documents the proceedings of every parliamentary committee. But it is so essential to government accountability that no article about using government data would be complete without it.
+
+
+![PMG records and publishes detailed minutes of every parliamentary committee meeting | Photo by Luke Chesser on Unsplash](/images/articles/5-2-using-government-data/img-3.webp)
 
 PMG maintains monitors who attend every committee meeting (except the Intelligence Committee, which is closed), record the proceedings, and publish detailed unofficial minutes within three working days. Since 1998, PMG has built the most comprehensive public archive of parliamentary committee activity in South Africa. The archive includes meeting minutes, tabled documents, public submissions, working drafts of bills, departmental briefings, questions to ministers and their written responses, and MP attendance records.
 

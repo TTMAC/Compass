@@ -108,6 +108,9 @@ If you want to participate in your ward committee, here is what you need to know
 
 The Integrated Development Plan is the most important planning document in local government. It is your municipality's strategic plan for a five-year period—aligned to the council's term of office—and it determines the municipality's development priorities, service delivery targets, infrastructure investment plans, spatial development framework, disaster management plan, and budget framework. The IDP is not an abstract document that sits on a shelf. It is the plan that determines whether your area gets a new water pipe, whether a road in your neighbourhood is resurfaced, whether a clinic is built in an underserved area, and whether the municipality prioritises refuse collection improvement or recreational facility development. If your concern is not in the IDP, it is unlikely to appear in the budget.
 
+
+![The Integrated Development Plan process gives communities a say in municipal priorities | Photo by Dorota Trzaska on Unsplash](/images/articles/4-2-ward-committees-and-community-engagement/img-2.webp)
+
 ### How the IDP Process Works
 
 The Municipal Systems Act requires every municipality to adopt an IDP within a prescribed period after each local government election. The IDP is then reviewed and updated annually—the five-year plan sets the strategic direction, and the annual review adjusts it based on changing circumstances, new information, and community feedback.
@@ -155,6 +158,9 @@ The IDP is where your municipality's priorities are set for five years. Particip
 ## The Municipal Budget Process: Following the Money You Helped Prioritise
 
 The annual budget process is where the IDP's priorities are translated into rands and cents. If the IDP says your municipality will prioritise water infrastructure, the budget determines how many millions of rands are allocated to water projects, which specific projects are funded, and when the money will be spent. The budget is the most consequential annual decision your municipality makes—and the Municipal Finance Management Act gives you a specific right to participate in it.
+
+
+![Public budget consultations allow residents to influence how municipal funds are allocated | Photo by Donald Wu on Unsplash](/images/articles/4-2-ward-committees-and-community-engagement/img-3.webp)
 
 ### The Budget Timeline
 

@@ -57,6 +57,9 @@ The Constitution does not merely permit cooperation between spheres — it manda
 
 The Constitution establishes the principle of cooperative governance. The Intergovernmental Relations Framework Act (IGRFA) of 2005 creates the practical machinery for implementing it. The IGRFA is the operating manual for how the three spheres coordinate — who meets whom, how often, with what mandate, and through what structures.
 
+
+![Intergovernmental forums bring together officials from national, provincial, and municipal government | Photo by dmrjy on Unsplash](/images/articles/1-3-how-the-spheres-interact/img-2.webp)
+
 The IGRFA establishes a hierarchy of intergovernmental forums, from the apex structures where the president meets premiers, down to district-level forums where district and local municipalities coordinate. Each forum has a defined membership, a defined purpose, and — in theory — a defined relationship to the forums above and below it.
 
 ### The President's Coordinating Council
