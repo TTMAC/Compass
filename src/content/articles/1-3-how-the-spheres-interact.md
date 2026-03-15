@@ -115,7 +115,7 @@ South Africa's intergovernmental relations framework creates a hierarchy of foru
 The National Council of Provinces (NCOP) occupies a unique position in the intergovernmental system. It is not an executive coordination mechanism like a MinMEC or the Budget Council. It is a legislative body — the second house of Parliament — specifically designed to ensure that provincial interests are represented in national lawmaking.
 
 
-![The NCOP gives provinces a voice in national legislation | Photo by Andy Wang on Unsplash](/images/articles/1-3-how-the-spheres-interact/img-3.webp)
+![Interior of the National Council of Provinces chamber | Photo courtesy of Parliament of South Africa](/images/articles/1-3-how-the-spheres-interact/img-3.webp)
 
 Section 42(4) of the Constitution states that the NCOP "represents the provinces to ensure that provincial interests are taken into account in the national sphere of government." Every piece of legislation that affects provinces — and most legislation does — must pass through the NCOP. For legislation falling under Schedule 4 (concurrent functions), the NCOP's process is particularly significant: each province's ten-member delegation votes as a bloc, with the provincial legislature's mandate determining the vote. This "one province, one vote" system on Section 76 bills means that a province's interests, at least in theory, carry real weight in the legislative process.
 
