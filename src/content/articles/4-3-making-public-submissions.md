@@ -1,6 +1,7 @@
 ---
 title: "Making Public Submissions"
 subtitle: "A Step-by-Step Guide to Writing Comments That Legislators and Officials Actually Read"
+pillar: "government-structure"
 part: 4
 articleNumber: "4.3"
 sphere: ["national", "provincial"]

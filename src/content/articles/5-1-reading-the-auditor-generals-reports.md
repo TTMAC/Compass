@@ -1,6 +1,7 @@
 ---
 title: "Reading the Auditor-General's Reports"
 subtitle: "What Clean Audits, Qualified Opinions, and Disclaimers Actually Mean for the Services You Depend On"
+pillar: "government-structure"
 part: 5
 articleNumber: "5.1"
 sphere: "national"

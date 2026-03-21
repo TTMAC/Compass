@@ -13,6 +13,18 @@ export default {
           municipal: "#DC2626",
           all: "#1B6B4A",
         },
+        pillar: {
+          "government-structure": "#1B6B4A",
+          "safety-security": "#0369A1",
+          "economic-growth": "#D97706",
+          "human-development": "#7C3AED",
+        },
+        "pillar-light": {
+          "government-structure": "#E8F5EE",
+          "safety-security": "#E0F2FE",
+          "economic-growth": "#FEF3C7",
+          "human-development": "#EDE9FE",
+        },
         "text-primary": "#1A1A1A",
         "text-secondary": "#4A4A4A",
         "bg-primary": "#FFFFFF",

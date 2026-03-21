@@ -1,6 +1,7 @@
 ---
 title: "The Budget Process"
 subtitle: "How the National Budget Is Prepared, Debated, and Approved Each Year"
+pillar: "government-structure"
 part: 2
 articleNumber: "2.2"
 sphere: "national"

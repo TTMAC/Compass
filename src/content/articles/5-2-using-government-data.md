@@ -1,6 +1,7 @@
 ---
 title: "Using Government Data"
 subtitle: "Where to Find Public Data on Spending, Services, and Performance — and What to Do With It"
+pillar: "government-structure"
 part: 5
 articleNumber: "5.2"
 sphere: "national"

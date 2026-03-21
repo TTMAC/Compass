@@ -1,6 +1,7 @@
 ---
 title: "Health and Education at the Provincial Coal Face"
 subtitle: "Where Most of Your Tax Money Actually Goes"
+pillar: "government-structure"
 part: 3
 articleNumber: "3.2"
 sphere: "provincial"

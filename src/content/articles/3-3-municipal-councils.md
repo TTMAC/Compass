@@ -1,6 +1,7 @@
 ---
 title: "Municipal Councils"
 subtitle: "How Local Councils Govern Your Municipality and Why Oversight Keeps Breaking Down"
+pillar: "government-structure"
 part: 3
 articleNumber: "3.3"
 sphere: "municipal"

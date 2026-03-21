@@ -1,6 +1,7 @@
 ---
 title: "Becoming an Active Citizen"
 subtitle: "Everything You Have Learned in This Series, Distilled into a Practice You Can Sustain"
+pillar: "government-structure"
 part: 5
 articleNumber: "5.3"
 sphere: "national"

@@ -1,6 +1,7 @@
 ---
 title: "The Architecture of the State"
 subtitle: "How South Africa's Constitution Divides Power Across Three Spheres"
+pillar: "government-structure"
 part: 1
 articleNumber: "1.1"
 sphere: "all"

@@ -1,6 +1,7 @@
 ---
 title: "Ward Committees and Community Engagement"
 subtitle: "The Practical Guide to Participating in Municipal Governance Between Elections"
+pillar: "government-structure"
 part: 4
 articleNumber: "4.2"
 sphere: "municipal"

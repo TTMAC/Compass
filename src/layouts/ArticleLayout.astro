@@ -1,12 +1,15 @@
 ---
 import BaseLayout from "./BaseLayout.astro";
+import { getPillarBySlug } from "@content/pillars";
 
 interface Props {
   title: string;
   subtitle: string;
   description: string;
   articleNumber: string;
-  sphere: ("national" | "provincial" | "municipal" | "all")[];
+  pillar?: string;
+  part?: number;
+  sphere?: ("national" | "provincial" | "municipal" | "all")[];
   publishDate: Date;
   readingTime: number;
   canonicalUrl?: string;
@@ -22,12 +25,17 @@ const {
   subtitle,
   description,
   articleNumber,
+  pillar = "government-structure",
+  part,
   sphere,
   publishDate,
   readingTime,
   canonicalUrl,
   ogImage,
 } = Astro.props;
+
+const pillarConfig = getPillarBySlug(pillar);
+const partConfig = pillarConfig?.parts.find((p) => p.number === part);
 
 const sphereColors: Record<string, string> = {
   national: "bg-sphere-national",
@@ -70,12 +78,28 @@ const jsonLd = {
   jsonLd={jsonLd}
 >
   <article class="max-w-content mx-auto px-4 md:px-0 py-8 md:py-12">
+    {pillarConfig && (
+      <nav class="flex items-center gap-1.5 text-xs font-heading text-text-secondary mb-4" aria-label="Breadcrumb">
+        <a href={`/pillars/${pillar}`} class="hover:text-compass-green transition-colors" style={`color: ${pillarConfig.color}`}>
+          {pillarConfig.shortTitle}
+        </a>
+        {partConfig && (
+          <>
+            <span aria-hidden="true">&rsaquo;</span>
+            <span>Part {part}: {partConfig.title}</span>
+          </>
+        )}
+        <span aria-hidden="true">&rsaquo;</span>
+        <span>Article {articleNumber}</span>
+      </nav>
+    )}
+
     <header class="mb-8">
       <div class="flex items-center gap-3 mb-4">
         <span class="font-heading text-sm text-text-secondary">
           Article {articleNumber}
         </span>
-        {sphere.map((s) => (
+        {sphere?.map((s) => (
           <span
             class={`inline-block px-2 py-0.5 text-xs font-heading font-semibold text-white rounded ${sphereColors[s]}`}
           >

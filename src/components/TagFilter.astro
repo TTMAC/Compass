@@ -1,0 +1,58 @@
+---
+interface Props {
+  tags: string[];
+}
+
+const { tags } = Astro.props;
+---
+
+<div class="flex flex-wrap gap-2 mb-6" data-testid="tag-filter" role="group" aria-label="Filter by tag">
+  <button
+    type="button"
+    class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-compass-green text-white"
+    data-tag="all"
+    aria-pressed="true"
+  >
+    All
+  </button>
+  {tags.map((tag) => (
+    <button
+      type="button"
+      class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-gray-100 text-text-secondary hover:bg-gray-200"
+      data-tag={tag}
+      aria-pressed="false"
+    >
+      {tag.charAt(0).toUpperCase() + tag.slice(1)}
+    </button>
+  ))}
+</div>
+
+<script>
+  const filterContainer = document.querySelector('[data-testid="tag-filter"]');
+  const buttons = filterContainer?.querySelectorAll("button");
+  const cards = document.querySelectorAll("[data-testid='series-card']");
+
+  buttons?.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const tag = btn.getAttribute("data-tag") || "all";
+
+      buttons.forEach((b) => {
+        b.setAttribute("aria-pressed", "false");
+        b.className = "px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-gray-100 text-text-secondary hover:bg-gray-200";
+      });
+
+      btn.setAttribute("aria-pressed", "true");
+      btn.className = "px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-compass-green text-white";
+
+      cards.forEach((card) => {
+        const cardEl = card as HTMLElement;
+        if (tag === "all") {
+          cardEl.style.display = "";
+        } else {
+          const cardTags = cardEl.getAttribute("data-tags")?.split(",") || [];
+          cardEl.style.display = cardTags.includes(tag) ? "" : "none";
+        }
+      });
+    });
+  });
+</script>

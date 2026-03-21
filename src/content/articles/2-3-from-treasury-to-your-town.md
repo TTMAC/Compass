@@ -1,6 +1,7 @@
 ---
 title: "From Treasury to Your Town"
 subtitle: "How Money Reaches Your Municipality and Becomes the Services You Use Every Day"
+pillar: "government-structure"
 part: 2
 articleNumber: "2.3"
 sphere: "municipal"

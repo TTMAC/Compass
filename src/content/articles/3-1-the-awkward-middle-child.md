@@ -1,6 +1,7 @@
 ---
 title: "The Awkward Middle Child"
 subtitle: "Understanding South Africa's Provincial Government System"
+pillar: "government-structure"
 part: 3
 articleNumber: "3.1"
 sphere: "provincial"

@@ -1,0 +1,74 @@
+---
+interface Props {
+  mini?: boolean;
+}
+
+const { mini = false } = Astro.props;
+const size = mini ? { width: 320, height: 220 } : { width: 480, height: 320 };
+---
+
+<div class={`mx-auto ${mini ? "max-w-xs" : "max-w-lg"}`}>
+  <svg
+    viewBox="0 0 480 320"
+    width={size.width}
+    height={size.height}
+    class="w-full h-auto"
+    role="img"
+    aria-label="Feedback loop showing how government structure, safety, economy, and human development reinforce each other"
+  >
+    <!-- Government Structure — foundation -->
+    <a href="/pillars/government-structure">
+      <rect x="140" y="20" width="200" height="50" rx="8" fill="#1B6B4A" />
+      <text x="240" y="50" text-anchor="middle" fill="white" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">
+        Government Structure
+      </text>
+    </a>
+
+    <!-- Arrow down from Government to Safety -->
+    <line x1="190" y1="70" x2="140" y2="130" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#arrowhead)" />
+
+    <!-- Arrow down from Government to Economy -->
+    <line x1="290" y1="70" x2="340" y2="130" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#arrowhead)" />
+
+    <!-- Safety & Security -->
+    <a href="/pillars/safety-security">
+      <rect x="30" y="130" width="200" height="50" rx="8" fill="#0369A1" />
+      <text x="130" y="160" text-anchor="middle" fill="white" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">
+        Safety &amp; Security
+      </text>
+    </a>
+
+    <!-- Economic Growth -->
+    <a href="/pillars/economic-growth">
+      <rect x="250" y="130" width="200" height="50" rx="8" fill="#D97706" />
+      <text x="350" y="160" text-anchor="middle" fill="white" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">
+        Economic Growth
+      </text>
+    </a>
+
+    <!-- Arrows down to Human Development -->
+    <line x1="140" y1="180" x2="190" y2="230" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#arrowhead)" />
+    <line x1="340" y1="180" x2="290" y2="230" stroke="#94A3B8" stroke-width="1.5" marker-end="url(#arrowhead)" />
+
+    <!-- Human Development -->
+    <a href="/pillars/human-development">
+      <rect x="140" y="230" width="200" height="50" rx="8" fill="#7C3AED" />
+      <text x="240" y="260" text-anchor="middle" fill="white" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">
+        Human Development
+      </text>
+    </a>
+
+    <!-- Reinforcing arrow back up -->
+    <path d="M 340 255 Q 430 160 340 50" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="6 3" marker-end="url(#arrowhead)" />
+    <text x="425" y="160" text-anchor="middle" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="10" transform="rotate(-90 425 160)">
+      reinforces
+    </text>
+
+    <!-- Arrowhead marker -->
+    <defs>
+      <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+        <polygon points="0 0, 8 3, 0 6" fill="#94A3B8" />
+      </marker>
+    </defs>
+  </svg>
+</div>

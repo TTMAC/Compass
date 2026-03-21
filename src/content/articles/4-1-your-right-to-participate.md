@@ -1,6 +1,7 @@
 ---
 title: "Your Right to Participate"
 subtitle: "The Constitutional Rights and Practical Channels That Make You Part of the Governing Process"
+pillar: "government-structure"
 part: 4
 articleNumber: "4.1"
 sphere: "national"

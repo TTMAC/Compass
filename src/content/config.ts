@@ -2,18 +2,28 @@ import { z, defineCollection } from "astro:content";
 
 const sphereEnum = z.enum(["national", "provincial", "municipal", "all"]);
 
+const pillarEnum = z.enum([
+  "government-structure",
+  "safety-security",
+  "economic-growth",
+  "human-development",
+]);
+
 const articles = defineCollection({
   type: "content",
   schema: z.object({
     title: z.string().min(1),
     subtitle: z.string().min(1),
-    part: z.number().int().min(1).max(5),
+    pillar: pillarEnum.default("government-structure"),
+    part: z.number().int().min(1).max(10),
     articleNumber: z
       .string()
       .regex(/^\d+\.\d+$/, "Must be in X.Y format (e.g. 1.1)"),
     sphere: z
       .union([sphereEnum, z.array(sphereEnum)])
-      .transform((v) => (Array.isArray(v) ? v : [v])),
+      .transform((v) => (Array.isArray(v) ? v : [v]))
+      .optional(),
+    tags: z.array(z.string()).default([]),
     description: z
       .string()
       .min(150, "Description must be at least 150 characters for SEO")
@@ -26,6 +36,11 @@ const articles = defineCollection({
       prev: z.preprocess((v) => (v === "" ? null : v), z.string().nullable().default(null)),
       next: z.preprocess((v) => (v === "" ? null : v), z.string().nullable().default(null)),
     }),
+    crossLinks: z.array(z.object({
+      slug: z.string(),
+      label: z.string(),
+      relationship: z.string(),
+    })).optional(),
     seo: z.object({
       ogImage: z.string().optional(),
       canonicalUrl: z.string().url().optional(),

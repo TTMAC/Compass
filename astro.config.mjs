@@ -9,6 +9,12 @@ export default defineConfig({
   site: "https://govcompass.co.za",
   integrations: [tailwind(), sitemap()],
   output: "static",
+  redirects: {
+    "/series": {
+      status: 301,
+      destination: "/pillars/government-structure",
+    },
+  },
   markdown: {
     remarkPlugins: [remarkDirective, remarkCallouts],
     rehypePlugins: [rehypeArticleImages],

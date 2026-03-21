@@ -1,6 +1,7 @@
 ---
 title: "Following the Money"
 subtitle: "How South Africa Collects, Divides, and Spends Over R2 Trillion in Public Revenue"
+pillar: "government-structure"
 part: 2
 articleNumber: "2.1"
 sphere: "national"

@@ -4,6 +4,7 @@ import ArticleLayout from "@layouts/ArticleLayout.astro";
 import TableOfContents from "@components/TableOfContents.astro";
 import ShareButtons from "@components/ShareButtons.astro";
 import ArticleNav from "@components/ArticleNav.astro";
+import CrossLinks from "@components/CrossLinks.astro";
 import ReadingProgress from "@components/ReadingProgress.astro";
 import EmailCapture from "@components/EmailCapture.astro";
 import { getSeriesNavigation } from "@utils/series-navigation";
@@ -30,6 +31,8 @@ const seriesNav = getSeriesNavigation(article, allArticles);
   subtitle={article.data.subtitle}
   description={article.data.description}
   articleNumber={article.data.articleNumber}
+  pillar={article.data.pillar}
+  part={article.data.part}
   sphere={article.data.sphere}
   publishDate={article.data.publishDate}
   readingTime={article.data.readingTime}
@@ -49,6 +52,10 @@ const seriesNav = getSeriesNavigation(article, allArticles);
       slug={slug}
     />
   </div>
+
+  {article.data.crossLinks && article.data.crossLinks.length > 0 && (
+    <CrossLinks links={article.data.crossLinks} />
+  )}
 
   <EmailCapture location="inline" />
 

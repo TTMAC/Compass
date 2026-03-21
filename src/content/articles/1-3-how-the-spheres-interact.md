@@ -1,6 +1,7 @@
 ---
 title: "How the Spheres Interact"
 subtitle: "Cooperative Governance and Intergovernmental Relations in Practice"
+pillar: "government-structure"
 part: 1
 articleNumber: "1.3"
 sphere: "all"

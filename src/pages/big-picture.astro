@@ -1,0 +1,65 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import FeedbackLoop from "@components/FeedbackLoop.astro";
+import { pillars } from "@content/pillars";
+import { getCollection } from "astro:content";
+
+const allArticles = await getCollection("articles");
+
+const pillarData = pillars.map((p) => {
+  const count = allArticles.filter(
+    (a) => (a.data.pillar ?? "government-structure") === p.slug,
+  ).length;
+  return { ...p, articleCount: count };
+});
+---
+
+<PageLayout
+  title="The Big Picture"
+  description="How South Africa's governance, safety, economy, and human development form a reinforcing feedback loop."
+>
+  <h1 class="font-heading text-3xl font-bold text-text-primary mb-2">
+    The Big Picture
+  </h1>
+  <p class="text-lg text-text-secondary mb-8">
+    South Africa's challenges are interconnected. Understanding any one area
+    requires seeing how it connects to the others. These four topics form a
+    reinforcing feedback loop — when one improves, it lifts the others.
+  </p>
+
+  <FeedbackLoop />
+
+  <section class="mt-10">
+    <h2 class="font-heading text-2xl font-bold text-text-primary mb-6">
+      The Four Topics
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {pillarData.map((p) => (
+        <a
+          href={`/pillars/${p.slug}`}
+          class="border border-gray-200 rounded-lg p-5 hover:border-gray-300 transition-colors group"
+        >
+          <div class="flex items-center gap-2 mb-2">
+            <span
+              class="inline-block w-3 h-3 rounded-full shrink-0"
+              style={`background-color: ${p.color}`}
+            ></span>
+            <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
+              {p.title}
+            </span>
+          </div>
+          <p class="text-sm text-text-secondary mb-3">
+            {p.description}
+          </p>
+          <span class="text-xs font-heading text-text-secondary">
+            {p.articleCount > 0
+              ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}`
+              : "Coming soon"}
+            {p.slug === "government-structure" && " — Start here"}
+          </span>
+        </a>
+      ))}
+    </div>
+  </section>
+</PageLayout>

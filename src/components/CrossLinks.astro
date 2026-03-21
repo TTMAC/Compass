@@ -1,0 +1,55 @@
+---
+import { getPillarBySlug } from "@content/pillars";
+import { getCollection } from "astro:content";
+
+interface Props {
+  links: { slug: string; label: string; relationship: string }[];
+}
+
+const { links } = Astro.props;
+
+if (!links || links.length === 0) return;
+
+const allArticles = await getCollection("articles");
+
+const resolved = links.map((link) => {
+  const article = allArticles.find(
+    (a) => a.id.replace(/\.md$/, "") === link.slug,
+  );
+  const pillarSlug = article?.data.pillar ?? "government-structure";
+  const pillarConfig = getPillarBySlug(pillarSlug);
+  return {
+    ...link,
+    title: article?.data.title ?? link.label,
+    pillarColor: pillarConfig?.color ?? "#1B6B4A",
+    pillarName: pillarConfig?.shortTitle ?? "Government",
+  };
+});
+---
+
+<aside class="mt-8 pt-6 border-t border-gray-200">
+  <h3 class="font-heading text-sm font-semibold text-text-secondary mb-3">
+    Related reading from other topics
+  </h3>
+  <div class="space-y-2">
+    {resolved.map((link) => (
+      <a
+        href={`/articles/${link.slug}`}
+        class="flex items-start gap-3 p-3 border border-gray-200 rounded-lg hover:border-gray-300 transition-colors"
+      >
+        <span
+          class="inline-block w-2.5 h-2.5 rounded-full mt-1 shrink-0"
+          style={`background-color: ${link.pillarColor}`}
+        ></span>
+        <div>
+          <span class="font-heading text-sm font-semibold text-text-primary">
+            {link.title}
+          </span>
+          <span class="block text-xs text-text-secondary mt-0.5">
+            {link.pillarName} &middot; {link.relationship}
+          </span>
+        </div>
+      </a>
+    ))}
+  </div>
+</aside>

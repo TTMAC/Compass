@@ -1,5 +1,6 @@
 ---
 import EmailCapture from "@components/EmailCapture.astro";
+import { pillars } from "@content/pillars";
 const currentYear = new Date().getFullYear();
 ---
 
@@ -16,7 +17,7 @@ const currentYear = new Date().getFullYear();
         </p>
       </div>
 
-      <!-- Links -->
+      <!-- Navigate -->
       <div>
         <p class="font-heading font-semibold text-sm text-text-primary mb-3">
           Navigate
@@ -32,12 +33,22 @@ const currentYear = new Date().getFullYear();
           </li>
           <li>
             <a
-              href="/series"
+              href="/big-picture"
               class="text-sm text-text-secondary hover:text-compass-green transition-colors"
             >
-              Series
+              The Big Picture
             </a>
           </li>
+          {pillars.map((p) => (
+            <li>
+              <a
+                href={`/pillars/${p.slug}`}
+                class="text-sm text-text-secondary hover:text-compass-green transition-colors"
+              >
+                {p.title}
+              </a>
+            </li>
+          ))}
           <li>
             <a
               href="/subscribe"

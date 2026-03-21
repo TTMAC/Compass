@@ -1,6 +1,7 @@
 ---
 title: "Who Does What"
 subtitle: "A Practical Guide to Which Sphere of Government Handles Which Services"
+pillar: "government-structure"
 part: 1
 articleNumber: "1.2"
 sphere: "all"
