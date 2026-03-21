@@ -36,6 +36,9 @@ const allTags = pillar.filterDimension === "tags"
   ? [...new Set(pillarArticles.flatMap((a) => a.data.tags ?? []))]
   : [];
 
+const isDev = import.meta.env.DEV;
+const isLinkable = (status: string) => status === "published" || (isDev && status === "draft");
+
 const sphereColors: Record<string, string> = {
   national: "bg-sphere-national",
   provincial: "bg-sphere-provincial",
@@ -99,12 +102,12 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
                 >
                   <a
                     href={
-                      article.data.status === "published"
+                      isLinkable(article.data.status)
                         ? `/articles/${article.id.replace(/\.md$/, "")}`
                         : undefined
                     }
                     class={`block border border-gray-200 rounded-lg p-4 transition-colors ${
-                      article.data.status === "published"
+                      isLinkable(article.data.status)
                         ? "hover:border-compass-green cursor-pointer"
                         : "opacity-60 cursor-default"
                     }`}
@@ -127,12 +130,17 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
                               Coming soon
                             </span>
                           )}
+                          {isDev && article.data.status === "draft" && (
+                            <span class="text-[10px] font-heading text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
+                              Draft
+                            </span>
+                          )}
                         </div>
                         <h3 class="font-heading text-base font-semibold text-text-primary">
                           {article.data.title}
                         </h3>
                       </div>
-                      {article.data.status === "published" && (
+                      {isLinkable(article.data.status) && (
                         <span class="font-heading text-xs text-text-secondary whitespace-nowrap">
                           {article.data.readingTime} min
                         </span>
@@ -179,12 +187,12 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
                 {filtered.map((article) => (
                   <a
                     href={
-                      article.data.status === "published"
+                      isLinkable(article.data.status)
                         ? `/articles/${article.id.replace(/\.md$/, "")}`
                         : undefined
                     }
                     class={`block border border-gray-200 rounded-lg p-4 transition-colors ${
-                      article.data.status === "published"
+                      isLinkable(article.data.status)
                         ? "hover:border-compass-green cursor-pointer"
                         : "opacity-60 cursor-default"
                     }`}
@@ -203,12 +211,17 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
                               Coming soon
                             </span>
                           )}
+                          {isDev && article.data.status === "draft" && (
+                            <span class="text-[10px] font-heading text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
+                              Draft
+                            </span>
+                          )}
                         </div>
                         <h3 class="font-heading text-base font-semibold text-text-primary">
                           {article.data.title}
                         </h3>
                       </div>
-                      {article.data.status === "published" && (
+                      {isLinkable(article.data.status) && (
                         <span class="font-heading text-xs text-text-secondary whitespace-nowrap">
                           {article.data.readingTime} min
                         </span>

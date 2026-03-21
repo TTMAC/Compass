@@ -12,6 +12,8 @@ interface Props {
 }
 
 const { prev, next } = Astro.props;
+const isDev = import.meta.env.DEV;
+const isLinkable = (status: string) => status === "published" || (isDev && status === "draft");
 ---
 
 {
@@ -23,7 +25,7 @@ const { prev, next } = Astro.props;
     >
       <div class="flex flex-col sm:flex-row justify-between gap-4">
         {prev ? (
-          prev.status === "published" ? (
+          isLinkable(prev.status) ? (
             <a
               href={`/articles/${prev.id}`}
               class="group flex-1 p-4 border border-gray-200 rounded-lg hover:border-compass-green transition-colors"
@@ -55,7 +57,7 @@ const { prev, next } = Astro.props;
         )}
 
         {next ? (
-          next.status === "published" ? (
+          isLinkable(next.status) ? (
             <a
               href={`/articles/${next.id}`}
               class="group flex-1 p-4 border border-gray-200 rounded-lg hover:border-compass-green transition-colors text-right"
