@@ -17,7 +17,9 @@
     "test:integration": "astro build && vitest run tests/integration",
     "test:all": "astro build && vitest run",
     "test:e2e": "playwright test",
-    "images:source": "node scripts/source-article-images.mjs"
+    "images:source": "node scripts/source-article-images.mjs",
+    "ss:list": "node scripts/generate-ss-articles.mjs list",
+    "ss:prompt": "node scripts/generate-ss-articles.mjs prompt"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.3.0",
