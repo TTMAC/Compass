@@ -192,7 +192,7 @@ The fiscal arithmetic is, in a grim way, straightforward. South Africa spends ap
 Fixing education requires fixing the environment in which education occurs. Safe routes, psychosocial support, enhanced nutrition, and violence prevention are not supplementary to education reform — they are prerequisites for it. The cost of these interventions is a fraction of the cost of the learning that is currently being lost. Every rand spent on making the learning environment safe and supportive is a rand that makes the entire education budget more productive.
 :::
 
-## The Children Who Carry Everything
+## What This Means for You
 
 Behind the data and the policy frameworks and the neuroscience are individual children carrying burdens that no child should carry. The 12-year-old girl in Khayelitsha who saw a man shot dead outside her school last year and has not been able to concentrate since. The 9-year-old boy in Lusikisiki who walks seven kilometres to school on an empty stomach and falls asleep in class by mid-morning. The 14-year-old in Alexandra who was raped at school and told no one because she feared the consequences of reporting. The 8-year-old in Limpopo who cannot do homework because his family's shack has no electricity and no space.
 
