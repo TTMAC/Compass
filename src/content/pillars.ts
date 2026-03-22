@@ -149,7 +149,38 @@ export const pillars: PillarConfig[] = [
     lightColor: "#EDE9FE",
     filterDimension: "tags",
     order: 4,
-    parts: [],
+    parts: [
+      {
+        number: 1,
+        title: "The Measurement of Progress",
+        description:
+          "Why human development — not just GDP — is the measure that matters, and where South Africa stands.",
+      },
+      {
+        number: 2,
+        title: "Health",
+        description:
+          "Where safety meets development — life expectancy, violence, and the fiscal arithmetic of health.",
+      },
+      {
+        number: 3,
+        title: "Education",
+        description:
+          "Where growth meets development — the schooling paradox, learning conditions, and the skills pipeline.",
+      },
+      {
+        number: 4,
+        title: "The Reinforcing System",
+        description:
+          "How the virtuous cycle works abroad, why it broke in South Africa, and the sustainability dimension.",
+      },
+      {
+        number: 5,
+        title: "Your Development Citizenship",
+        description:
+          "Constitutional rights, accountability tools, and how to build the cycle from the ground up.",
+      },
+    ],
   },
 ];
 
