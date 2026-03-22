@@ -12,8 +12,7 @@ interface Props {
 }
 
 const { prev, next } = Astro.props;
-const isDev = import.meta.env.DEV;
-const isLinkable = (status: string) => status === "published" || (isDev && status === "draft");
+const isLinkable = (status: string) => status === "published" || status === "draft";
 ---
 
 {

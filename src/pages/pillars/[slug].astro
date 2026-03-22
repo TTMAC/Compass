@@ -36,8 +36,7 @@ const allTags = pillar.filterDimension === "tags"
   ? [...new Set(pillarArticles.flatMap((a) => a.data.tags ?? []))]
   : [];
 
-const isDev = import.meta.env.DEV;
-const isLinkable = (status: string) => status === "published" || (isDev && status === "draft");
+const isLinkable = (status: string) => status === "published" || status === "draft";
 
 const sphereColors: Record<string, string> = {
   national: "bg-sphere-national",
@@ -130,7 +129,7 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
                               Coming soon
                             </span>
                           )}
-                          {isDev && article.data.status === "draft" && (
+                          {article.data.status === "draft" && (
                             <span class="text-[10px] font-heading text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
                               Draft
                             </span>
@@ -211,7 +210,7 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
                               Coming soon
                             </span>
                           )}
-                          {isDev && article.data.status === "draft" && (
+                          {article.data.status === "draft" && (
                             <span class="text-[10px] font-heading text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
                               Draft
                             </span>

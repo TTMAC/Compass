@@ -20,7 +20,7 @@ const sphereColors: Record<string, string> = {
   all: "bg-compass-green",
 };
 
-const isClickable = status === "published" || (import.meta.env.DEV && status === "draft");
+const isClickable = status === "published" || status === "draft";
 const pillarConfig = pillar ? getPillarBySlug(pillar) : undefined;
 ---
 
@@ -61,7 +61,7 @@ const pillarConfig = pillar ? getPillarBySlug(pillar) : undefined;
           )
         }
         {
-          import.meta.env.DEV && status === "draft" && (
+          status === "draft" && (
             <span class="text-[10px] font-heading text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
               Draft
             </span>
