@@ -106,7 +106,38 @@ export const pillars: PillarConfig[] = [
     lightColor: "#FEF3C7",
     filterDimension: "tags",
     order: 3,
-    parts: [],
+    parts: [
+      {
+        number: 1,
+        title: "The Inheritance",
+        description:
+          "Where South Africa's economy stands and how it got here.",
+      },
+      {
+        number: 2,
+        title: "The Growth Strategy",
+        description:
+          "A staged path from $7,000 to $50,000 GDP per capita.",
+      },
+      {
+        number: 3,
+        title: "The Enablers",
+        description:
+          "Cross-cutting growth engines, execution machinery, and monitoring.",
+      },
+      {
+        number: 4,
+        title: "The Scorecard",
+        description:
+          "Measuring municipal performance and infrastructure delivery.",
+      },
+      {
+        number: 5,
+        title: "The Bridge",
+        description:
+          "Political economy, implementation roadmap, and economic citizenship.",
+      },
+    ],
   },
   {
     slug: "human-development",
