@@ -25,7 +25,14 @@ crossLinks:
     relationship: "Institutional capacity for innovation policy"
 seo:
   ogImage: "/og/eg-2-4-innovation-driven-growth.png"
-  keywords: []
+  keywords:
+    - "South Africa innovation driven growth"
+    - "R&D intensity South Africa"
+    - "venture capital South Africa"
+    - "university industry collaboration"
+    - "patent output South Africa"
+    - "innovation ecosystem"
+    - "Stage 3 economic growth"
 ---
 
 ## The Bottom Line, Up Front

@@ -24,8 +24,18 @@ crossLinks:
     relationship: "Regulatory framework"
 seo:
   ogImage: "/og/eg-2-3-the-efficiency-transition.png"
-  keywords: []
+  keywords:
+    - "South Africa efficiency transition"
+    - "manufacturing scale-up South Africa"
+    - "services exports South Africa"
+    - "education employment pipeline"
+    - "regulatory quality economic growth"
+    - "SADC trade integration"
+    - "Porter diamond South Africa"
 ---
+
+## The Bottom Line, Up Front
+
 When South Korea's per-capita income crossed $15,000 in the late 1990s, the country had already spent two decades building the institutional scaffolding that would carry it to $30,000. Malaysia hit the same threshold in the 2010s after methodical investment in education, manufacturing clusters, and regulatory modernisation. Poland crossed it after EU accession forced a decade of institutional reform that made its factories competitive with German supply chains. In every case, the pattern is the same: the transition from resource-dependent growth to efficiency-driven growth took longer, cost more political capital, and required more institutional quality than any government initially expected.
 
 South Africa has not yet reached that $15,000 threshold in real terms — but the work of building the institutional infrastructure for Stage 2 cannot wait until Stage 1 is complete. The interventions described in [Resource Optimisation](/articles/eg-2-1-resource-optimisation) and [Infrastructure Foundations](/articles/eg-2-2-infrastructure-foundations) are necessary but not sufficient. They stabilise the economy and build the physical platform. Stage 2 is where South Africa must learn to compete not on what it digs out of the ground, but on how efficiently it produces, educates, regulates, and trades. That is a fundamentally different kind of economic challenge, and it requires a fundamentally different kind of state capacity.

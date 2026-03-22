@@ -29,7 +29,7 @@ crossLinks:
   - slug: "eg-2-1-resource-optimisation"
     label: "Resource Optimisation"
     relationship: "Infrastructure underpins Stage 1 resource strategy"
-  - slug: "eg-3-1-infrastructure-planning-vs-reality"
+  - slug: "eg-4-3-infrastructure-planning-vs-reality"
     label: "Infrastructure Planning vs Reality"
     relationship: "Detailed analysis of planning-execution gap"
   - slug: "eg-3-2-the-execution-machine"
