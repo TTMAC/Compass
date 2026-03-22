@@ -109,7 +109,7 @@ Think of the GovCompass voice as a knowledgeable friend who happens to be a gove
 
 **Expert and citation verification (mandatory):** Every named expert cited in an article must be verified as a real person with published research in the relevant field before publication. Verification requires: (1) confirming the person exists at the stated institution via institutional website, Google Scholar profile, or academic database (ORCID, Semantic Scholar, OpenAlex); (2) confirming they have published in the domain being cited, not merely in a tangentially related field; and (3) ensuring that any paraphrased analysis accurately represents their documented research positions, with references to specific, verifiable publications. AI-generated or fabricated expert names, credentials, or quotes are strictly prohibited — this is a zero-tolerance rule. When direct quotes cannot be sourced from published material, reframe as paraphrased analysis of the expert's published research with links to verifiable publications. If a cited expert cannot be verified through at least two independent sources, replace with analysis citing a verified institutional source (PARI, SACN, AGSA, PMG, NEEDU, National Treasury, or equivalent). Every expert block must include a Resources section at the end of the article linking to the real publications or institutional sources referenced.
 
-**Practical toolkit ending:** Every article concludes with a practical section: a mental model, a checklist, a set of data sources with guidance on what to look for, or a complaint mechanism walkthrough. The reader must leave with something they can use immediately.
+**Practical framework ending:** Every article concludes with a practical section using the `:::framework` callout syntax: a mental model, a checklist, a set of data sources with guidance on what to look for, or a complaint mechanism walkthrough. The reader must leave with something they can use immediately.
 
 **Cross-references:** Articles reference each other where relevant. Use the article title as the link text: "As we explored in Following the Money, the equitable share formula creates winners and losers among provinces."
 
@@ -239,7 +239,7 @@ Every GovCompass article follows this consistent structure. Deviations require e
 | **Metadata line** | Reading time (calculated at word count ÷ 200 wpm), publish date, sphere tag (National / Provincial / Municipal / All Spheres), part number. |
 | **Bottom-line-up-front opening** | One to two paragraphs stating the article's core conclusion. The reader should know the main takeaway before scrolling further. |
 | **Body sections (H2/H3)** | Logically structured sections progressing from foundation to detail. Each section begins with a concrete example or data point. Expert anecdotes woven throughout (two to three per article minimum). |
-| **Practical Framework / Toolkit section** | A distinct section at the end with actionable tools: a mental model, a data-source walkthrough with "what to look for" guidance, a checklist, or a complaint mechanism. Visually distinguished from body text (dashed border callout). |
+| **Practical Framework section** | A distinct section at the end using the `:::framework` callout syntax with actionable tools: a mental model, a data-source walkthrough with "what to look for" guidance, a checklist, or a complaint mechanism. Visually distinguished from body text (dashed border callout). |
 | **Cross-references** | Links to related articles in the series where relevant. |
 
 ---
@@ -252,7 +252,7 @@ Three distinct callout types break up article body text and serve specific funct
 |---|---|---|
 | **Expert Anecdote** | Attributed quote or narrative from a named practitioner or scholar. Grounds analysis in lived experience. | 4px compass-green left border, light background. Attribution includes name, role, and institutional affiliation. |
 | **Key Takeaway** | Bottom-line-up-front summary for a section, or a critical insight the reader should remember. | GovCompass-gold left border, secondary background colour. One to three sentences maximum. |
-| **Practical Toolkit** | Actionable guidance: data sources, complaint steps, evaluation frameworks. | Dashed compass-green border. Appears at the end of an article. Contains direct links to sources with "what to look for" guidance. |
+| **Practical Framework** | Actionable guidance: data sources, complaint steps, evaluation frameworks. Uses `:::framework` callout syntax. | Dashed compass-green border. Appears at the end of an article. Contains direct links to sources with "what to look for" guidance. |
 
 ---
 
@@ -318,7 +318,7 @@ Before any article is published, verify every item:
 | Has every named expert been verified as a real person with published research in the cited field? (Google Scholar, institutional pages, ORCID, or academic databases — minimum two independent sources) | |
 | Are all expert insights paraphrased from verifiable published research with specific publications cited? (No fabricated quotes — zero tolerance) | |
 | Does the article include a Resources section linking to verifiable publications and institutional sources cited in expert blocks? | |
-| Does the article end with a practical toolkit / framework section? | |
+| Does the article end with a practical framework section (`:::framework` callout)? | |
 | Is every substantive claim supported by a specific data point or source? | |
 | Are all technical terms defined on first use? | |
 | Is the article free of hype words, emoji, and gamified language? | |

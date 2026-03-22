@@ -117,7 +117,7 @@ Agents are autonomous entities that own a bounded domain of work. Each agent map
 - Complete Markdown files with valid YAML frontmatter
 - Article body in O'Reilly conversational register with bottom-line-up-front structure
 - Expert anecdotes integrated as callout blocks (2–3 per article, attributed to named practitioners)
-- Practical Framework / Toolkit section concluding each article
+- Practical Framework section (`:::framework` callout) concluding each article
 - Sources and Further Reading section with hyperlinked primary sources
 
 **Autonomous Actions:**
@@ -125,7 +125,7 @@ Agents are autonomous entities that own a bounded domain of work. Each agent map
 - Produce valid YAML frontmatter conforming to the Article content schema: title, subtitle, part (1–5), articleNumber (X.Y format), sphere (enum), description (150–160 chars), publishDate, readingTime, status, series.prev, series.next, seo.keywords
 - Write in O'Reilly conversational register — use "you" throughout, lead with specifics, no bullet points in prose, bottom-line-up-front structure
 - Integrate 2–3 expert anecdotes per article, attributed to named South African M&E experts, governance scholars, or public administration practitioners
-- Conclude every article with a Practical Framework / Toolkit section using the `:::toolkit` callout syntax
+- Conclude every article with a Practical Framework section using the `:::framework` callout syntax
 - Write Sources and Further Reading sections with full hyperlinked references to primary sources (AGSA, National Treasury, DPME, StatsSA, court judgments, academic papers)
 - Calculate and set estimated reading time (word count / 200 wpm)
 - Generate SEO-optimised meta descriptions (150–160 chars) and titles (<60 chars)
@@ -139,11 +139,11 @@ Agents are autonomous entities that own a bounded domain of work. Each agent map
 **Constraints:**
 - Minimum 5,000 words per article
 - Use domain language per UXD §2.3.2: conversational, authoritative, direct — never academic or corporate
-- No bullet points in article prose — write in flowing paragraphs (lists are permitted only in the Practical Toolkit section where they serve actionable clarity)
+- No bullet points in article prose — write in flowing paragraphs (lists are permitted only in the Practical Framework section where they serve actionable clarity)
 - No hype words: "revolutionary," "game-changing," "unprecedented" are banned
 - Every article opens with a bottom-line-up-front (BLUF) conclusion
 - Every article includes 2–3 named expert anecdotes from M&E practitioners (from DPME, SAMEA, PARI, HSRC, Twende Mbele, or universities like Wits, UCT, Stellenbosch)
-- Every article concludes with a Practical Framework / Toolkit section
+- Every article concludes with a Practical Framework section (`:::framework` callout)
 - All data claims must be sourced with hyperlinks to primary sources
 - Non-partisan tone is mandatory — no party is praised or criticised; only institutional performance data is presented (UXD §2.3.1)
 - No unexplained jargon — define terms inline on first use (e.g., "the equitable share — the unconditional grant each province receives from nationally collected revenue")
@@ -179,8 +179,8 @@ Agents are autonomous entities that own a bounded domain of work. Each agent map
 - Verify bottom-line-up-front structure — the article must open with a conclusion, not a preamble
 - Verify 2–3 expert anecdotes are present, each attributed to a named practitioner with institutional affiliation
 - **Run expert verification checks for every named expert:** (a) confirm the person is real and exists at the stated institution via Google Scholar, ORCID, institutional website, or academic database — minimum two independent sources; (b) confirm they have published research in the specific domain being cited, not merely in a tangentially related field; (c) verify that paraphrased insights accurately represent the expert's documented research positions and that specific, verifiable publications are cited; (d) verify the Resources section at the end of the article includes links to real publications and institutional sources referenced in expert blocks. **Flag any expert who cannot be verified for immediate replacement with a verified institutional source. Zero tolerance for fabricated experts, credentials, or quotes.**
-- Verify no bullet points appear in article prose (permitted only in Practical Toolkit section)
-- Verify Practical Framework / Toolkit section exists at article conclusion
+- Verify no bullet points appear in article prose (permitted only in Practical Framework section)
+- Verify Practical Framework section (`:::framework` callout) exists at article conclusion
 - Verify Sources and Further Reading section exists with hyperlinked primary sources
 - Test all hyperlinks — internal cross-references and external source links
 - Flag any language that could be perceived as partisan (per UXD §2.3.1 Non-partisan attribute)
@@ -223,7 +223,7 @@ Agents are autonomous entities that own a bounded domain of work. Each agent map
 - Verify `npm run build` succeeds locally before pushing
 - Monitor Netlify build status and capture build logs
 - Verify Pagefind index includes new content post-build
-- Verify deploy preview renders correctly: article loads, frontmatter renders, sphere tag displays correct colour, reading progress bar functions, prev/next navigation links are correct, expert anecdote callouts render with green left border, Practical Toolkit section renders with dashed green border
+- Verify deploy preview renders correctly: article loads, frontmatter renders, sphere tag displays correct colour, reading progress bar functions, prev/next navigation links are correct, expert anecdote callouts render with green left border, Practical Framework section renders with dashed green border
 - Verify OG image was generated for the article (1200×630px, article title, GovCompass branding)
 - Merge to main after approval and verify production deploy
 - Trigger rollback if production deploy fails health checks
@@ -422,9 +422,9 @@ These skills ensure content meets GovCompass's distinctive editorial standards �
 |-------|-------------|---------------------|---------|
 | O'Reilly Conversational Register | Write in conversational, authoritative, direct style — use "you" throughout, lead with concrete examples, treat the reader as intelligent but uninformed about governance structures. Per UXD §2.3.2 | Advanced | A2, A3 |
 | Bottom-Line-Up-Front (BLUF) Structure | Open every article with the core conclusion — not background, not preamble. The reader knows the key insight within the first two paragraphs | Advanced | A2, A3 |
-| Prose-Only Formatting | Write article body in flowing paragraphs with no bullet points, no numbered lists. Complex information is expressed through structured prose, not lists. Lists permitted only in Practical Toolkit concluding section | Advanced | A2, A3 |
+| Prose-Only Formatting | Write article body in flowing paragraphs with no bullet points, no numbered lists. Complex information is expressed through structured prose, not lists. Lists permitted only in Practical Framework concluding section | Advanced | A2, A3 |
 | Expert Anecdote Integration | Source and integrate 2–3 short anecdotes per article from named South African M&E practitioners, governance scholars, or public administration experts. Style as narrative containers, not blockquotes | Advanced | A2 |
-| Practical Toolkit Authoring | Conclude every article with an actionable section giving citizens concrete steps, data sources, and tools they can use immediately. Use `:::toolkit` callout syntax | Advanced | A2 |
+| Practical Framework Authoring | Conclude every article with an actionable section giving citizens concrete steps, data sources, and tools they can use immediately. Use `:::framework` callout syntax | Advanced | A2 |
 | Jargon Translation | Identify governance-specific jargon (equitable share, concurrent powers, Section 139, MFMA, DORA, etc.) and define it inline on first use in plain language | Intermediate | A2, A3 |
 | Non-Partisan Tone Enforcement | Maintain rigorous political neutrality — no party is praised or criticised, no editorial position on partisan questions, data speaks and the reader decides. Per UXD §2.3.1 | Advanced | A2, A3 |
 | Sphere-Specific Framing | Accurately frame governance concepts within the correct sphere (national, provincial, municipal) and explain inter-sphere dynamics without oversimplifying | Advanced | A2, A3 |
@@ -467,7 +467,7 @@ These skills manage the Astro SSG build pipeline and Netlify deployment.
 |-------|-------------|---------------------|---------|
 | Astro Build Execution | Run `npm run build` locally, interpret build output, and diagnose build failures (Zod validation errors, missing assets, template issues) | Advanced | A4, A7 |
 | Netlify Deploy Management | Monitor Netlify auto-deploy on Git push, verify atomic deployments, and trigger rollbacks when needed | Advanced | A4, A7 |
-| Deploy Preview Verification | Inspect deploy preview URLs for: article renders, frontmatter displays correctly, sphere tag shows correct colour (national=blue, provincial=purple, municipal=red, all=green), reading progress bar functions, prev/next navigation correct, expert anecdote callouts render, Practical Toolkit section renders, OG image present | Intermediate | A4 |
+| Deploy Preview Verification | Inspect deploy preview URLs for: article renders, frontmatter displays correctly, sphere tag shows correct colour (national=blue, provincial=purple, municipal=red, all=green), reading progress bar functions, prev/next navigation correct, expert anecdote callouts render, Practical Framework section renders, OG image present | Intermediate | A4 |
 | Pagefind Index Verification | Confirm Pagefind post-build indexing completes successfully and new article appears in search results | Intermediate | A4, A7 |
 | Build Performance Monitoring | Track build duration against 120s budget, identify slow steps, and flag regressions | Basic | A7 |
 | OG Image Generation Verification | Verify the Python OG image generation script (`scripts/generate-og-images.py`) produces correct 1200×630px images with article title and GovCompass branding for each new article | Intermediate | A4 |
@@ -925,7 +925,7 @@ This is the complete flow from research to published, distributed article — sh
 | 1 | A6 | Generate performance report (if prior articles exist) | Performance dashboard | No |
 | 2 | A1 | Research next article in series → compile sources → draft research brief | Research brief | 🚦 Yes |
 | 3 | A2 | Write article from approved brief + generation prompt | Draft Markdown file (≥5,000 words) | 🚦 Yes |
-| 4 | A3 | Validate schema, proofread, check tone/BLUF/anecdotes/toolkit/sources | Quality report + corrected file | 🚦 Yes |
+| 4 | A3 | Validate schema, proofread, check tone/BLUF/anecdotes/framework/sources | Quality report + corrected file | 🚦 Yes |
 | 5 | A4 | Create branch, commit, open PR | Pull request | No |
 | 6 | A4 | Verify build succeeds on deploy preview | Deploy preview URL | No |
 | 7 | Human | Review PR + deploy preview (article renders, sphere tag, OG image, nav links) | Merge approval | 🚦 Yes |
