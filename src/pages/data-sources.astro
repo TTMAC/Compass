@@ -1,61 +1,182 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
 
-const sources = [
+const categories = [
   {
-    name: "Auditor-General South Africa (AGSA)",
-    url: "https://www.agsa.co.za",
-    description:
-      "Annual audit reports on all government departments and municipalities. The primary source for financial accountability data.",
+    heading: "Governance & Accountability",
+    sources: [
+      {
+        name: "Auditor-General South Africa (AGSA)",
+        url: "https://www.agsa.co.za",
+        description:
+          "Annual audit reports on all government departments and municipalities. The primary source for financial accountability data.",
+      },
+      {
+        name: "National Treasury",
+        url: "https://www.treasury.gov.za",
+        description:
+          "Budget documents, expenditure reports, division of revenue, MTBPS, and fiscal policy frameworks.",
+      },
+      {
+        name: "Department of Planning, Monitoring and Evaluation (DPME)",
+        url: "https://www.dpme.gov.za",
+        description:
+          "Government performance monitoring, evaluation reports, and the Management Performance Assessment Tool (MPAT).",
+      },
+      {
+        name: "Parliament of South Africa",
+        url: "https://www.parliament.gov.za",
+        description:
+          "Hansard records, committee reports, bills tracker, and parliamentary oversight documentation.",
+      },
+      {
+        name: "South African Government",
+        url: "https://www.gov.za",
+        description:
+          "Official government portal with legislation, policy documents, and departmental information.",
+      },
+      {
+        name: "South African Local Government Association (SALGA)",
+        url: "https://www.salga.org.za",
+        description:
+          "Municipal governance research, best practices, and local government capacity data.",
+      },
+    ],
   },
   {
-    name: "National Treasury",
-    url: "https://www.treasury.gov.za",
-    description:
-      "Budget documents, expenditure reports, division of revenue, and fiscal policy frameworks.",
+    heading: "Safety & Justice",
+    sources: [
+      {
+        name: "South African Police Service (SAPS)",
+        url: "https://www.saps.gov.za",
+        description:
+          "Crime statistics, annual reports, station-level data, and resource allocation information across all policing precincts.",
+      },
+      {
+        name: "Department of Justice and Constitutional Development",
+        url: "https://www.justice.gov.za",
+        description:
+          "Court performance data, case backlogs, legal aid statistics, and legislation governing the criminal justice pipeline.",
+      },
+      {
+        name: "Department of Correctional Services (DCS)",
+        url: "https://www.dcs.gov.za",
+        description:
+          "Prison population data, remand detention figures, recidivism rates, and rehabilitation programme outcomes.",
+      },
+      {
+        name: "Civilian Secretariat for Police Service (CSPS)",
+        url: "https://www.policesecretariat.gov.za",
+        description:
+          "Police oversight reports, community policing policy, and the National Policing Board's strategic assessments.",
+      },
+      {
+        name: "Institute for Security Studies (ISS)",
+        url: "https://issafrica.org",
+        description:
+          "Independent crime analysis, justice sector research, and evidence-based policy recommendations for southern Africa.",
+      },
+    ],
   },
   {
-    name: "Department of Planning, Monitoring and Evaluation (DPME)",
-    url: "https://www.dpme.gov.za",
-    description:
-      "Government performance monitoring, evaluation reports, and the Management Performance Assessment Tool (MPAT).",
+    heading: "Economy & Development",
+    sources: [
+      {
+        name: "South African Reserve Bank (SARB)",
+        url: "https://www.resbank.co.za",
+        description:
+          "Monetary policy data, quarterly bulletins, GDP estimates, balance of payments, and financial stability reviews.",
+      },
+      {
+        name: "Department of Trade, Industry and Competition (DTIC)",
+        url: "https://www.thedtic.gov.za",
+        description:
+          "Industrial policy, trade data, special economic zone performance, and competition commission findings.",
+      },
+      {
+        name: "World Bank Open Data",
+        url: "https://data.worldbank.org",
+        description:
+          "International comparator data on GDP per capita, Gini coefficients, economic complexity, and development indicators.",
+      },
+      {
+        name: "Harvard Growth Lab — Atlas of Economic Complexity",
+        url: "https://atlas.cid.harvard.edu",
+        description:
+          "Product space maps, economic complexity rankings, and export diversification data used in our comparator country analysis.",
+      },
+      {
+        name: "Municipal Money (National Treasury)",
+        url: "https://municipalmoney.gov.za",
+        description:
+          "Financial performance data for all 257 municipalities — revenue, expenditure, audit outcomes, and service delivery indicators.",
+      },
+    ],
   },
   {
-    name: "Statistics South Africa (StatsSA)",
-    url: "https://www.statssa.gov.za",
-    description:
-      "Census data, community surveys, General Household Survey, and socioeconomic indicators.",
+    heading: "Human Development & Social Indicators",
+    sources: [
+      {
+        name: "Statistics South Africa (StatsSA)",
+        url: "https://www.statssa.gov.za",
+        description:
+          "Census data, community surveys, General Household Survey, quarterly labour force surveys, and poverty and inequality reports.",
+      },
+      {
+        name: "United Nations Development Programme (UNDP)",
+        url: "https://hdr.undp.org",
+        description:
+          "Human Development Index (HDI), Inequality-adjusted HDI (IHDI), Gender Development Index, and Planetary pressures-adjusted HDI (PHDI).",
+      },
+      {
+        name: "Department of Basic Education (DBE)",
+        url: "https://www.education.gov.za",
+        description:
+          "School performance data, matric results, learner-teacher ratios, infrastructure reports, and PIRLS/TIMSS assessment outcomes.",
+      },
+      {
+        name: "Department of Health",
+        url: "https://www.health.gov.za",
+        description:
+          "District Health Barometer, NHI policy documents, disease burden data, and primary healthcare facility performance.",
+      },
+      {
+        name: "Health Systems Trust",
+        url: "https://www.hst.org.za",
+        description:
+          "The annual District Health Barometer — the most comprehensive publicly available dataset on South Africa's public health system performance.",
+      },
+      {
+        name: "South African Medical Research Council (SAMRC)",
+        url: "https://www.samrc.ac.za",
+        description:
+          "Cause-of-death data, rapid mortality surveillance, burden of disease studies, and life expectancy modelling.",
+      },
+    ],
   },
   {
-    name: "Independent Electoral Commission (IEC)",
-    url: "https://www.elections.org.za",
-    description:
-      "Election results, voter registration data, party funding disclosures, and electoral boundary information.",
-  },
-  {
-    name: "South African Government",
-    url: "https://www.gov.za",
-    description:
-      "Official government portal with legislation, policy documents, and departmental information.",
-  },
-  {
-    name: "Parliament of South Africa",
-    url: "https://www.parliament.gov.za",
-    description:
-      "Hansard records, committee reports, bills tracker, and parliamentary oversight documentation.",
-  },
-  {
-    name: "South African Local Government Association (SALGA)",
-    url: "https://www.salga.org.za",
-    description:
-      "Municipal governance research, best practices, and local government capacity data.",
+    heading: "Elections & Civic Participation",
+    sources: [
+      {
+        name: "Independent Electoral Commission (IEC)",
+        url: "https://www.elections.org.za",
+        description:
+          "Election results, voter registration data, party funding disclosures, and electoral boundary information.",
+      },
+      {
+        name: "Parliamentary Monitoring Group (PMG)",
+        url: "https://pmg.org.za",
+        description:
+          "Independent records of parliamentary committee meetings, public submissions, and legislative tracking.",
+      },
+    ],
   },
 ];
 ---
 
 <PageLayout
   title="Data Sources"
-  description="The official data sources used across the GovCompass series, including AGSA, Treasury, DPME, StatsSA, and IEC."
+  description="The official data sources used across the GovCompass series — governance, safety, economy, and human development."
 >
   <h1 class="font-heading text-3xl font-bold text-text-primary mb-4">
     Data Sources
@@ -63,26 +184,34 @@ const sources = [
 
   <p class="text-text-secondary mb-8 leading-relaxed">
     Every claim in GovCompass is backed by publicly available data. Here are the
-    primary sources we use, all freely accessible to any South African citizen.
+    primary sources we draw on across our four topics — all freely accessible to
+    any South African citizen.
   </p>
 
-  <div class="space-y-6">
-    {
-      sources.map((source) => (
-        <div class="border border-gray-200 rounded-lg p-5">
-          <h2 class="font-heading text-lg font-semibold text-text-primary mb-1">
-            <a
-              href={source.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-compass-green hover:underline"
-            >
-              {source.name}
-            </a>
-          </h2>
-          <p class="text-sm text-text-secondary">{source.description}</p>
+  {
+    categories.map((category) => (
+      <section class="mb-10">
+        <h2 class="font-heading text-xl font-bold text-text-primary mb-4">
+          {category.heading}
+        </h2>
+        <div class="space-y-4">
+          {category.sources.map((source) => (
+            <div class="border border-gray-200 rounded-lg p-5">
+              <h3 class="font-heading text-lg font-semibold text-text-primary mb-1">
+                <a
+                  href={source.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-compass-green hover:underline"
+                >
+                  {source.name}
+                </a>
+              </h3>
+              <p class="text-sm text-text-secondary">{source.description}</p>
+            </div>
+          ))}
         </div>
-      ))
-    }
-  </div>
+      </section>
+    ))
+  }
 </PageLayout>
