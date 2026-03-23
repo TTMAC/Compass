@@ -192,6 +192,32 @@ The fiscal arithmetic is, in a grim way, straightforward. South Africa spends ap
 Fixing education requires fixing the environment in which education occurs. Safe routes, psychosocial support, enhanced nutrition, and violence prevention are not supplementary to education reform — they are prerequisites for it. The cost of these interventions is a fraction of the cost of the learning that is currently being lost. Every rand spent on making the learning environment safe and supportive is a rand that makes the entire education budget more productive.
 :::
 
+:::framework
+**The Learning Environment Assessment**
+
+Use this framework to assess whether the environment surrounding a school supports or undermines learning. The evidence in this article shows that what happens outside the classroom determines what is possible inside it.
+
+**Domain 1: Physical safety en route to school.**
+Key questions: Do learners walk through areas with gang activity, high crime rates, or busy roads without pedestrian infrastructure? Is there a school transport programme or safe-route initiative? What is the average distance learners travel to reach school?
+Data source: SAPS precinct crime statistics; municipal transport plans; school admission records (showing learner addresses).
+
+**Domain 2: Safety on school premises.**
+Key questions: Have there been incidents of violence, sexual assault, or bullying at the school in the past year? Does the school have a safety plan, a reporting mechanism, and designated safe spaces? Is there a perimeter fence, and is access controlled?
+Data source: School Governing Body incident reports; Equal Education school safety surveys; provincial education department monitoring reports.
+
+**Domain 3: Nutrition.**
+Key questions: Does the school participate in the National School Nutrition Programme? Is the meal served before 10am? Is a breakfast component included? Are there visible signs of hunger among learners — falling asleep in class, difficulty concentrating, low energy?
+Data source: NSNP provincial reports; school feeding records; Direct observation.
+
+**Domain 4: Psychosocial support.**
+Key questions: Does the school have access to a counsellor or psychosocial support professional — even a shared one serving multiple schools? Are teachers trained in basic trauma-informed practice? Are there referral pathways to external mental health and social services?
+Data source: Provincial education department staffing data; school-level support services inventory.
+
+**Domain 5: Home learning environment.**
+Key questions: Do learners have access to electricity for homework? Is there physical space to study? Is substance abuse, domestic violence, or overcrowding prevalent in the surrounding community? These conditions are not the school's responsibility, but they determine the school's outcomes.
+Data source: Stats SA General Household Survey (ward-level data); community profiles in municipal IDPs.
+:::
+
 ## What This Means for You
 
 Behind the data and the policy frameworks and the neuroscience are individual children carrying burdens that no child should carry. The 12-year-old girl in Khayelitsha who saw a man shot dead outside her school last year and has not been able to concentrate since. The 9-year-old boy in Lusikisiki who walks seven kilometres to school on an empty stomach and falls asleep in class by mid-morning. The 14-year-old in Alexandra who was raped at school and told no one because she feared the consequences of reporting. The 8-year-old in Limpopo who cannot do homework because his family's shack has no electricity and no space.

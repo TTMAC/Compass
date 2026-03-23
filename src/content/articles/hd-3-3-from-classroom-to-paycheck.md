@@ -197,6 +197,32 @@ The stalled transformation is visible in the employment data. Of South Africa's 
 
 The consequence is an economy that is simultaneously too small (insufficient aggregate demand) and too constrained on the supply side (insufficient skilled labour). Job creation programmes address the demand side but not the supply side. Skills development programmes address the supply side but only at the margins. The structural transformation that would solve both problems simultaneously — by moving workers from low-productivity to high-productivity activities — cannot happen without an education system that produces workers capable of performing high-productivity work.
 
+:::framework
+**The Skills-Growth Pipeline Assessment**
+
+Use this framework to evaluate whether the education system is producing the skills the economy needs — and whether the economy is creating the jobs that make education worthwhile.
+
+**Assessment 1: Is the education system producing cognitive skills?**
+Source: PIRLS (reading, Grade 4), TIMSS (maths and science, Grade 8/9), NSC results (matric).
+Key metric: Not pass rates, but the proportion of learners achieving at "competent" or "advanced" levels in international assessments. South Africa's proportion at competent-or-above in PIRLS is approximately 19 per cent. Comparator countries that have achieved sustained growth typically have 60 per cent or higher.
+
+**Assessment 2: Is the TVET system aligned with employer needs?**
+Source: DHET TVET college throughput data; SETA workplace placement reports; employer surveys (published by BUSA, industry associations).
+Key questions: What is the certification rate at local TVET colleges? What proportion of TVET graduates find employment within one year? Are employers involved in curriculum design and workplace learning placement? A TVET system operating in isolation from employers is producing credentials, not skills.
+
+**Assessment 3: Is the economy diversifying toward higher complexity?**
+Source: Harvard Growth Lab Atlas of Economic Complexity; DTI trade data; SARB economic indicators.
+Key metric: South Africa's Economic Complexity Index (ECI) ranking. If the ECI is declining or stagnant, the economy is not creating the kind of jobs that reward education. Compare to countries like Vietnam (rising ECI, rising employment, rising education demand) to see the virtuous cycle in action.
+
+**Assessment 4: Is the skills mismatch narrowing or widening?**
+Source: Stats SA Quarterly Labour Force Survey (by education level); Department of Home Affairs critical skills list; recruitment industry reports.
+Key questions: Is unemployment declining for TVET graduates and university graduates? Are critical skills vacancies being filled domestically or through immigration? A widening mismatch — simultaneous high unemployment and unfilled vacancies — is the clearest signal that the education-economy pipeline is broken.
+
+**Assessment 5: Is the structural transformation progressing?**
+Source: Stats SA GDP by industry; Quarterly Employment Statistics.
+Key questions: Is manufacturing's share of GDP and employment growing or declining? Is the proportion of the workforce in high-productivity sectors increasing? Is informal employment declining as a share of total employment? These are the macro indicators that tell you whether the classroom-to-paycheck pipeline is functioning at a national scale.
+:::
+
 ## What This Means for You
 
 The education-growth link is not an abstraction. It manifests in the lived experience of every South African.

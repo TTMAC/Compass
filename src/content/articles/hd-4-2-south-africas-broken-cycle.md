@@ -209,4 +209,38 @@ The intervention must be systemic. It must address multiple links of the spiral 
 
 None of these conditions is easy to achieve. Together, they represent a transformation of governance that South Africa has not yet demonstrated it can sustain. But the alternative — allowing the vicious spiral to continue — is not stability. It is accelerating decline. A country where 60 per cent of young people are unemployed, where the murder rate is eight times the global average, where the state cannot keep the lights on, and where the most capable citizens are leaving does not reach a stable equilibrium. It reaches a breaking point.
 
+:::framework
+**The Spiral Diagnostic**
+
+Use this framework to trace the vicious spiral in concrete terms — in your community, your province, or at the national level. Each step maps to a link in the cycle and identifies the data source that reveals whether that link is broken.
+
+**Link 1: Inequality → Crime.**
+Diagnostic question: Is the Gini coefficient in this area higher than the national average? Is youth unemployment above 50 per cent? Are there visible concentrations of poverty adjacent to visible concentrations of wealth?
+Data source: Stats SA income data (General Household Survey); SAPS precinct crime statistics.
+Broken if: High inequality coexists with high contact crime rates — the statistical correlation is well established.
+
+**Link 2: Crime → Capital flight.**
+Diagnostic question: Are businesses closing or relocating? Is property investment declining? Are skilled professionals emigrating? Is the area losing net taxpayers?
+Data source: Municipal revenue trends; property market data; SARS taxpayer migration data (aggregated).
+Broken if: Rising crime rates correlate with declining economic activity and net outward migration of skilled workers.
+
+**Link 3: Capital flight → Fiscal squeeze.**
+Diagnostic question: Is municipal or provincial revenue declining in real terms? Is the tax base shrinking? Is the area becoming more dependent on national transfers?
+Data source: National Treasury municipal finance data; provincial budget statements; AGSA audit reports.
+Broken if: Own revenue is declining while service demands are increasing — the fiscal scissors.
+
+**Link 4: Fiscal squeeze → Service deterioration.**
+Diagnostic question: Are health facilities understaffed? Are schools losing teachers? Is infrastructure maintenance being deferred? Are water and electricity services deteriorating?
+Data source: District Health Barometer; school staffing data; municipal infrastructure reports; Blue Drop / Green Drop assessments.
+Broken if: Service delivery indicators are declining despite stable or increasing nominal budgets — a sign that inflation and debt service are consuming fiscal space.
+
+**Link 5: Service deterioration → Deeper inequality.**
+Diagnostic question: Are the people who can afford alternatives — private schools, private healthcare, private security, emigration — leaving the public system? Is the public system serving an increasingly poor and vulnerable population with decreasing resources?
+Data source: Medical scheme coverage rates; private school enrolment trends; private security industry growth.
+Broken if: The public-private gap is widening — a two-speed system in which public services serve the poor and private services serve the rest.
+
+**Link 6: Deeper inequality → More crime. The spiral completes and begins again.**
+If you can trace all six links in your community or province, you are observing the vicious spiral in operation. The intervention must target the specific link where it is most feasible to break the chain — and that link varies by context.
+:::
+
 The next article, [Development Within Limits](/articles/hd-4-3-development-within-limits), adds a dimension that the case studies in the previous article largely ignored: the ecological constraint. South Africa cannot replicate the carbon-intensive industrialisation that drove development in the twentieth century. The reinforcing cycle must be built within planetary boundaries — a constraint that is also, potentially, an opportunity.

@@ -208,6 +208,32 @@ The fiscal challenge is equally formidable. Expanding public-sector-quality cove
 
 A middle path — often discussed but rarely articulated precisely — would involve gradually improving the public system's quality while creating regulatory incentives for the private sector to reduce costs and serve a broader population. This incremental approach is less dramatic than the NHI legislation's vision of a single fund, but it may be more fiscally realistic. It requires sustained economic growth to fund the incremental improvements, competent regulation to reduce private-sector costs, and patient political management of the expectations of both the currently insured and the currently uninsured.
 
+:::framework
+**The Health Budget Evaluator**
+
+Use this framework to assess whether health spending — at national, provincial, or district level — is being allocated and spent in ways that will close the life expectancy deficit.
+
+**Question 1: What is the per capita public health expenditure in this province or district?**
+Source: National Treasury Budget Review; provincial budget statements; District Health Barometer.
+Benchmark: The national average is approximately R5,000 per uninsured person per year. Provinces and districts spending significantly below this average are structurally under-resourced. Compare to the approximately R30,000 per beneficiary spent in the private sector to understand the scale of the two-speed system.
+
+**Question 2: What proportion of the health budget goes to personnel versus programmes?**
+Source: Provincial budget statements (available on provincial treasury websites).
+Red flag: If personnel costs exceed 65 per cent of the budget, the system has minimal fiscal space for medicines, equipment, maintenance, or new programmes. This is not the fault of health workers — it reflects insufficient total funding and, often, inefficient staffing patterns.
+
+**Question 3: Is spending aligned with the highest-return interventions?**
+Priority ranking (based on HDI points per rand): HIV treatment cascade closure (highest return), TB active case-finding and treatment, maternal and neonatal care, NCD screening and management.
+Key question: Is the budget allocation consistent with this evidence-based priority ranking? If more is being spent on hospital infrastructure than on closing the treatment cascade gap, the allocation is misaligned with the evidence.
+
+**Question 4: What are the health worker vacancy rates?**
+Source: District Health Barometer; Department of Health HR reports.
+Key question: What is the vacancy rate for professional nurses, doctors, and pharmacists in the facilities serving your community? Vacancy rates above 20 per cent indicate a facility that cannot deliver adequate care regardless of its budget allocation.
+
+**Question 5: What is the GDP growth rate, and what does it mean for future health spending?**
+Source: Stats SA GDP data; National Treasury fiscal framework.
+Key question: Is GDP growth sufficient (at least 3 per cent) to generate the additional tax revenue needed for health system expansion? If growth is below 2 per cent, the health budget is likely to stagnate or decline in real terms — meaning that efficiency improvements are the only pathway to better outcomes in the medium term.
+:::
+
 ## The Path Forward: Growth as Health Policy
 
 This article has presented the fiscal arithmetic of South Africa's health system in unvarnished terms. The numbers are constraining but not hopeless. The path forward requires clarity about three things.

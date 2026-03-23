@@ -187,6 +187,30 @@ Road traffic violence — the third major component of the violence tax — is a
 
 The common thread across all of these interventions is that they are preventive rather than reactive. They aim to reduce the incidence of violence rather than merely treating its consequences. This is the fundamental shift that the "violence as public health crisis" framing demands: from a model in which the criminal justice system responds after violence has occurred and the health system treats the resulting injuries, to a model in which both systems invest upstream in preventing violence from occurring in the first place.
 
+:::framework
+**The Violence-Health Impact Assessment**
+
+Use this framework to assess the health burden of violence in your community and to evaluate whether government is treating violence as the public health crisis the evidence shows it to be.
+
+**Step 1: Map the violence burden.**
+Source: SAPS crime statistics (station-level data, published annually); Stats SA Victims of Crime Survey.
+Key questions: What is the homicide rate in your police precinct? How does it compare to the national average (45 per 100,000) and the global average (6 per 100,000)? What proportion of crimes are contact crimes (assault, sexual offences, robbery) versus property crimes? Is the trend improving or deteriorating?
+
+**Step 2: Assess the health system impact.**
+Source: District Health Barometer; hospital trauma unit reports (request through PAIA if not published).
+Key questions: What proportion of surgical capacity at your nearest hospital is consumed by trauma cases? Are there dedicated GBV service points (Thuthuzela Care Centres) accessible from your area? What is the average response time for emergency medical services?
+
+**Step 3: Check for prevention programmes.**
+Source: Municipal Integrated Development Plans; SAPS Community Policing Forum minutes; Department of Social Development programme reports.
+Key questions: Are any evidence-based violence prevention programmes operating in your area — community-based violence interruption, school safety programmes, Stepping Stones-type gender norms interventions, or alcohol regulation enforcement? If not, why not?
+
+**Step 4: Evaluate the policy response.**
+Key questions: Does your municipality's IDP identify violence as a public health issue, or only as a policing issue? Is the health budget allocated in proportion to the violence burden — are trauma-heavy facilities receiving additional resources? Are prevention budgets growing, or is all spending reactive?
+
+**Step 5: Connect to the reinforcing cycle.**
+Key questions: Can you trace the pathway from violence in your area to health system strain, to reduced economic activity, to lower municipal revenue, to poorer services, to more violence? Mapping this cycle in concrete, local terms makes the abstract framework real — and identifies the specific intervention points where breaking the cycle is most feasible.
+:::
+
 ## The Connection to the Life Expectancy Deficit
 
 This article has demonstrated that violence is not a side issue for the human development agenda. It is a central driver of the life expectancy deficit, a massive fiscal drain on the health system, and a structural impediment to the health improvements — treatment cascade closure, TB control, NCD management — that the previous article identified as the highest-return investments in South Africa's HDI.

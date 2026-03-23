@@ -210,6 +210,27 @@ This sequencing is not a luxury. It is a necessity imposed by fiscal constraints
 
 **Implication 5: Every policy proposal should be evaluated against the cycle.** When a politician promises to "reduce crime," ask: what is their plan for employment? When a politician promises to "grow the economy," ask: what is their plan for education and safety? When a politician promises to "improve education," ask: where will the funding come from, and how will they ensure that graduates can find jobs in a safe environment? Any proposal that addresses one dimension of the cycle without acknowledging the others is either naive or dishonest. The reinforcing cycle does not care about good intentions. It responds to causal mechanisms. Interventions that engage those mechanisms will succeed. Interventions that ignore them will fail, regardless of how well-intentioned or well-funded they are.
 
+:::framework
+**The Policy Cycle Test**
+
+Use this five-question test to evaluate any policy proposal — from any party, at any level of government — against the reinforcing cycle framework.
+
+**Question 1: Which link does this policy address?**
+Identify whether the proposal targets the safety → growth link (e.g., policing reform, crime reduction), the growth → development link (e.g., health funding, education spending), or the development → safety link (e.g., education quality, youth employment). A proposal that cannot be mapped to at least one link is operating outside the system that determines outcomes.
+
+**Question 2: Does it acknowledge the other links?**
+A policing proposal that ignores unemployment is treating a symptom. An education proposal that ignores school safety is building on sand. A growth strategy that ignores the skills deficit is planning without inputs. Effective policy must at minimum acknowledge the links it does not directly address, and ideally coordinate with interventions targeting those links.
+
+**Question 3: What is the proposed sequencing?**
+The reinforcing cycle cannot be fixed all at once — fiscal constraints prevent it. Evaluate whether the proposal identifies what must happen first (preconditions), what can happen in parallel (complementary interventions), and what depends on earlier success (sequenced investments). A proposal that promises everything simultaneously is not a strategy; it is a wish list.
+
+**Question 4: What would success look like in measurable terms?**
+The reinforcing cycle operates through quantifiable mechanisms. Safety can be measured (crime rates, conviction rates, business confidence). Growth can be measured (GDP growth, employment, investment). Development can be measured (life expectancy, learning outcomes, IHDI). A proposal that cannot specify measurable outcomes is not accountable to the cycle framework.
+
+**Question 5: Does the timeline match the cycle's dynamics?**
+The reinforcing cycle operates over decades, not election cycles. A proposal that promises to "fix education" in five years is either dishonest or naive. Evaluate whether the timeline acknowledges the generational nature of the challenge and proposes institutional mechanisms — fiscal rules, independent monitoring, legislative commitments — to sustain the intervention beyond any single government's term.
+:::
+
 ## The Road Ahead
 
 This article has presented the thesis. The rest of this series — and, indeed, the rest of this publication — tests it against the evidence.

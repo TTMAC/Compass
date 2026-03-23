@@ -193,6 +193,20 @@ Throughout, the series will maintain this publication's commitment to non-partis
 
 The goal is not to tell you what to think about any particular policy proposal. The goal is to give you the analytical framework to evaluate policy proposals for yourself — to ask, when a politician promises to "improve education" or "grow the economy" or "reduce crime," whether the proposed intervention addresses the systemic interdependencies that determine whether any individual policy can succeed. As Amartya Sen wrote, the purpose of development analysis is not to replace people's judgment but to inform it. That is the purpose of this series.
 
+:::framework
+**The HDI Literacy Guide**
+
+When you encounter human development claims — in the news, in political speeches, or in policy documents — use these four steps to evaluate them.
+
+**Step 1: Identify which index is being cited.** The HDI, IHDI, GDI, GII, MPI, and PHDI each measure different things. An HDI score tells you about national averages. An IHDI score tells you about distribution. An MPI score tells you about the poorest. A politician citing the HDI without mentioning the IHDI is showing you the shop window, not the stockroom. Always ask: which index, and what does it measure?
+
+**Step 2: Check the dimensions.** The HDI combines health (life expectancy at birth), education (mean years of schooling and expected years of schooling), and income (GNI per capita in PPP dollars). If a claim focuses on one dimension — "we've improved education" — check whether the other dimensions have moved. Improvement in one dimension that comes at the expense of another is not development; it is reallocation.
+
+**Step 3: Compare like with like.** HDI scores are most meaningful when compared across time (is this country improving?), across peers (how does this country perform relative to others at similar income levels?), and across the HDI-IHDI gap (how much development is lost to inequality?). A score of 0.741 means little in isolation. It means a great deal when you know that the inequality-adjusted score is 0.462, that peer countries at similar income levels score higher, and that the gap has not closed over two decades.
+
+**Step 4: Look beneath national averages.** South Africa's national HDI masks enormous variation by province, by municipality, by race, and by gender. Ask: whose HDI? A national average that combines Sandton and Lusikisiki is an arithmetic exercise, not a development assessment. Wherever possible, seek disaggregated data — provincial HDI estimates, district-level health indicators, school-level education outcomes — to understand what the national average conceals.
+:::
+
 ## From Numbers to Lives
 
 Let us close by returning from the abstractions of indices and frameworks to the concrete reality that they attempt to capture.

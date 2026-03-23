@@ -214,4 +214,37 @@ The reinforcing cycle applies here as well. Improved education produces the huma
 
 South Africa stands at a junction. The twentieth-century development path — burn coal, industrialise, get rich, clean up later — is closed. The climate will not permit it, and the economics no longer favour it. The twenty-first-century development path — renewable energy, digital technology, efficient institutions, human capability — is open. It is not easy. It requires the same institutional discipline, sustained commitment, and political courage that the case studies in [When the Cycle Works](/articles/hd-4-1-when-the-cycle-works) described. But it offers something the fossil-fuel path cannot: a reinforcing cycle that strengthens rather than undermines its own foundations, a development pathway that builds capability without borrowing against the future.
 
+:::framework
+**The Sustainable Development Scorecard**
+
+Use this framework to evaluate whether South Africa's development trajectory is operating within planetary boundaries — meeting the social foundation without breaching the ecological ceiling.
+
+**Dimension 1: Energy transition progress.**
+Key metric: Share of electricity generated from renewable sources.
+Current: approximately 10 per cent (growing). Target: 50 per cent by 2035 (IRP trajectory).
+Source: Eskom annual reports; IPP Office quarterly reports; Department of Mineral Resources and Energy statistics.
+What to ask: Is the REIPPPP pipeline expanding? Are coal plant decommissioning timelines being met? Is distributed generation (rooftop solar) being enabled or obstructed by regulation?
+
+**Dimension 2: Carbon intensity of GDP.**
+Key metric: Tonnes of CO2 per unit of GDP (carbon intensity ratio).
+Current: South Africa is among the most carbon-intensive economies in the world.
+Source: Department of Forestry, Fisheries and the Environment greenhouse gas inventory; IEA country data.
+What to ask: Is the economy decarbonising — producing more output per tonne of emissions? Or is growth (where it occurs) still carbon-coupled?
+
+**Dimension 3: Water security.**
+Key metric: Blue Drop and Green Drop scores (drinking water and wastewater treatment quality).
+Source: Department of Water and Sanitation regulatory reports.
+What to ask: Are Blue Drop scores improving or declining? Are municipalities investing in water infrastructure maintenance? Is water loss (non-revenue water) being reduced? Water security is the binding ecological constraint in many parts of South Africa.
+
+**Dimension 4: Social foundation gaps.**
+Key metrics: Life expectancy, learning-adjusted years of schooling, expanded unemployment rate, MPI headcount.
+Source: UNDP Human Development Report; Stats SA; World Bank Human Capital Index.
+What to ask: Is South Africa closing its social foundation gaps? The Doughnut Economics framework requires meeting basic human needs — if the social foundation is not being met, development is failing regardless of ecological performance.
+
+**Dimension 5: Just transition management.**
+Key metric: Employment trends in Mpumalanga and other coal-dependent regions; new employment in renewable energy and related industries.
+Source: Stats SA Quarterly Labour Force Survey (by province and sector); Presidential Climate Commission reports.
+What to ask: Are coal workers and communities being supported through the transition? Are alternative livelihoods being created at sufficient scale? A transition that decarbonises the economy but devastates coal-dependent communities is not just — and will face political opposition that could stall the entire transition.
+:::
+
 The next article, [Your Development Rights](/articles/hd-5-1-your-development-rights), turns from the systemic analysis of Parts 1 through 4 to the practical question of what you — as a South African citizen — can do with this knowledge. What are your constitutional rights to development? How do you hold government accountable for development outcomes? And how do you participate in the decisions that shape the reinforcing cycle — for better or for worse — in your community, your province, and your country?

@@ -190,6 +190,32 @@ The reinforcing cycle that this series traces — from human development to econ
 The National Development Plan 2030, produced by the National Planning Commission and adopted by Cabinet in 2012, identified education as the "apex priority" for South Africa's development trajectory. The NDP's education chapter set specific targets — improving literacy and mathematics outcomes, increasing the number of learners achieving at competent levels in national assessments, improving teacher quality through enhanced initial education and ongoing professional development. More than a decade after its adoption, the NDP's education targets remain largely unmet. The gap between the NDP's vision and the system's performance is a case study in the challenge of converting policy ambition into institutional reality. The NDP identified the right problems and, in many cases, the right solutions. What it could not do — because no document can — is overcome the institutional, political, and structural barriers to implementation. The schooling paradox persists not because we do not know what to do, but because the system's equilibrium resists change.
 :::
 
+:::framework
+**The School Quality Diagnostic**
+
+Use this framework to assess whether a school — your child's school, a school in your ward, or a school you are evaluating — is producing learning rather than merely providing schooling.
+
+**Indicator 1: Foundation Phase reading outcomes.**
+Source: Annual National Assessments (when available); school-level PIRLS results (if the school participated); provincial systemic test results.
+Key question: Can the majority of Grade 3 learners at this school read at grade level? If this data is not available, that itself is a red flag — a school that does not measure foundational literacy cannot know whether it is succeeding.
+
+**Indicator 2: Matric results — beyond the pass rate.**
+Source: Department of Basic Education's annual NSC results, published per school.
+Key question: Do not look only at the pass rate. Look at the bachelor's pass rate (the proportion qualifying for university admission). Look at the mathematics and physical science pass rates. A school with a 90 per cent pass rate but a 15 per cent bachelor's pass rate is passing learners who have not acquired the skills for post-secondary education.
+
+**Indicator 3: Teacher qualifications and subject knowledge.**
+Source: School Governing Body reports; provincial education department data.
+Key question: Are the teachers teaching subjects they are qualified in? In System B schools, it is common for teachers to be assigned subjects they did not study — a mathematics teacher who never passed university mathematics cannot teach it effectively.
+
+**Indicator 4: School leadership and governance.**
+Source: SGB meeting attendance records; school financial reports (which SGBs are legally required to present).
+Key question: Does the school have an active, functional SGB? Does the principal attend community meetings? Are financial reports available and comprehensible? School leadership is the strongest single predictor of school performance in similar-context schools.
+
+**Indicator 5: Learning environment.**
+Source: Personal observation; Equal Education's school infrastructure reports; Department of Basic Education's NEIMS data.
+Key question: Does the school have functional toilets, a library, a laboratory, and safe perimeter fencing? Are classrooms overcrowded (more than 40 learners)? Is the school free from visible gang activity and violence during school hours? These are minimum conditions, not aspirational targets.
+:::
+
 ## What You Can Do With This Knowledge
 
 Understanding the schooling paradox changes what you look for and what you demand. When politicians cite education spending as evidence of commitment, you now know to ask: what learning is that spending producing? When the HDI reports South Africa's education score, you know what it captures and what it misses. When school governing body elections happen in your community, you understand why who runs the school matters more than almost any other local governance decision.

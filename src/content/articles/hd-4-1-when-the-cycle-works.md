@@ -302,4 +302,32 @@ Fourth, use growth to fund increasingly sophisticated development investments �
 
 Fifth, protect the cycle institutionally. Embed development commitments in legislation. Build fiscal buffers that insulate development spending from economic shocks. Create independent institutions that monitor development outcomes and hold government accountable. Make the reinforcing cycle hard to reverse.
 
+:::framework
+**The Cycle Readiness Checklist**
+
+Use this checklist — derived from the common patterns across South Korea, Botswana, Rwanda, and Malaysia — to assess whether South Africa meets the preconditions for a virtuous reinforcing cycle.
+
+**Precondition 1: Minimum viable safety and institutional order.**
+Benchmark: A functioning criminal justice system with conviction rates above 10 per cent for serious crimes; property rights that are predictable and enforceable; a state capable of collecting revenue and executing a budget.
+South Africa's status: Partially met. Revenue collection (SARS) has been substantially rebuilt. The criminal justice system remains severely impaired — conviction rates for contact crimes are in low single digits. Property rights are secure in law but contested in practice.
+
+**Precondition 2: Basic health and education investment at scale.**
+Benchmark: Near-universal primary education enrolment; primary healthcare coverage accessible to the majority; life expectancy on an upward trajectory.
+South Africa's status: Partially met. Enrolment is near-universal but learning outcomes are catastrophic. Healthcare coverage is extensive but uneven. Life expectancy is recovering but remains ten years below income-predicted levels.
+
+**Precondition 3: Education-economy alignment.**
+Benchmark: Education system producing skills that match the economy's current and near-future needs; TVET system designed in partnership with employers; university output aligned with economic complexity requirements.
+South Africa's status: Not met. The skills mismatch is severe. TVET throughput is low. The education system produces credentials but not the cognitive skills the economy demands.
+
+**Precondition 4: Growth strategy linked to employment.**
+Benchmark: An explicit economic strategy that targets employment-creating sectors; regulatory environment that enables new firm creation; infrastructure adequate for the growth strategy's requirements.
+South Africa's status: Partially met. Strategy documents exist but implementation is inconsistent. Infrastructure constraints (energy, logistics) are binding. Regulatory burden remains high for new and small enterprises.
+
+**Precondition 5: Institutional mechanisms for sustained commitment.**
+Benchmark: Development targets embedded in legislation, not just policy documents; independent monitoring and evaluation institutions; fiscal rules that protect development spending during downturns.
+South Africa's status: Partially met. The Constitution provides a strong framework. Chapter 9 institutions exist but are unevenly effective. The NDP set targets but has no enforcement mechanism. Fiscal rules are weak and frequently overridden.
+
+**Overall assessment:** South Africa has the components but not the alignment. The case studies show that components without alignment produce stagnation, not progress. The cycle cannot work until the preconditions are sequenced and coordinated.
+:::
+
 South Africa is not starting from zero. It has elements of each stage already in place — an advanced constitution, substantial education and health infrastructure, a diversified economy, sophisticated financial institutions. What it lacks is not the components of the cycle but the alignment, sequencing, and institutional discipline to make them reinforce each other rather than working at cross purposes. The next article examines what happens when the cycle runs in reverse — [South Africa's Broken Cycle](/articles/hd-4-2-south-africas-broken-cycle) — and why understanding the vicious spiral is essential to designing the intervention that can reverse it.

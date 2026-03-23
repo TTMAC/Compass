@@ -204,6 +204,35 @@ None of this is revolutionary. None of it requires technological breakthroughs o
 Closing South Africa's life expectancy deficit requires no technological breakthroughs. The treatment cascade gap can be narrowed through differentiated service delivery, multi-month dispensing, welcome-back programmes, and targeted interventions for young men. TB requires active case-finding and infection prevention. NCDs require population-level prevention and integrated chronic disease management. The total additional cost is a fraction of the existing health budget. The barrier is implementation capacity, not knowledge or resources — and the HDI return on investment is the highest available across any dimension of human development.
 :::
 
+:::framework
+**The Health Outcome Tracker**
+
+Use this framework to monitor whether South Africa is closing its life expectancy deficit. Each metric has a publicly available data source and a target that would indicate meaningful progress.
+
+**Metric 1: HIV treatment cascade — second 95 (viral suppression among those on treatment).**
+Current: approximately 79%. Target: 95%.
+Source: Thembisa model estimates; UNAIDS country reports; Department of Health annual reports.
+What to ask: Is the viral suppression rate increasing? Are differentiated service delivery models being implemented? Are welcome-back programmes reducing the treatment-interrupted population?
+
+**Metric 2: TB case detection rate.**
+Current: approximately 62% of estimated cases detected. Target: 90%.
+Source: WHO Global Tuberculosis Report; Department of Health TB programme reports.
+What to ask: Is active case-finding being implemented in high-burden communities? Is the TB-HIV co-infection detection rate improving? Are mining companies and correctional facilities conducting systematic screening?
+
+**Metric 3: Under-five mortality rate.**
+Current: approximately 35 per 1,000 live births. Target: below 25 (SDG target).
+Source: Stats SA mid-year population estimates; District Health Barometer.
+What to ask: Is neonatal mortality declining? Are district-level variations narrowing? Is the proportion of deliveries in facilities with neonatal care increasing?
+
+**Metric 4: District-level variation in health outcomes.**
+Source: District Health Barometer (published annually by the Health Systems Trust).
+What to ask: Is the gap between the best-performing and worst-performing districts narrowing? Are historically underserved districts receiving proportionally greater investment? Is the health worker vacancy rate declining in the worst-served areas?
+
+**Metric 5: NCD screening and management coverage.**
+Source: District Health Barometer; primary healthcare facility reports.
+What to ask: What proportion of adults over 40 have been screened for hypertension and diabetes? What proportion of diagnosed patients are on treatment and achieving clinical targets? Is the primary healthcare system being re-engineered to manage chronic diseases alongside infectious diseases?
+:::
+
 ## The Road From Sixty-Three to Seventy-Three
 
 South Africa's life expectancy of sixty-three years is not a number etched in stone. It is the output of specific, identifiable, addressable failures — a treatment cascade that leaks at the second target, a TB programme that operates in the shadow of HIV, a primary healthcare system of extreme internal variation, and an emerging NCD burden that the system is not yet configured to manage.

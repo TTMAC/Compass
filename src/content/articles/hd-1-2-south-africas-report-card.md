@@ -197,6 +197,32 @@ The progress is real. Between 1994 and the present, the proportion of households
 
 **The MPI and the HDI.** The MPI and the HDI measure different things. The HDI is a national average of development outcomes. The MPI identifies individuals who fall below a multidimensional threshold. A country can have a relatively high HDI and a relatively low MPI (as South Africa does) if average development levels are reasonable but concentrated among a subset of the population, while the remaining multidimensionally poor population is relatively small. The danger is in treating the low MPI headcount as evidence that deprivation is a residual problem. In South Africa, the MPI threshold is set relatively high — people must be deprived on a third of indicators to be counted. A large proportion of the population experiences one or two deprivations without meeting the MPI threshold but is nevertheless far from the "high human development" standard that the HDI implies.
 
+:::framework
+**The Development Dashboard**
+
+Use this five-indicator dashboard to assess South Africa's human development trajectory. Each indicator corresponds to a dimension of the HDI family and can be tracked using publicly available data.
+
+**Indicator 1: Life expectancy at birth.**
+Source: Stats SA mid-year population estimates; UNDP Human Development Report.
+What to watch: Is life expectancy increasing? Is it approaching the Preston Curve prediction for South Africa's income level (approximately 73 years)? Is the gap between provinces narrowing or widening?
+
+**Indicator 2: Learning-adjusted years of schooling.**
+Source: World Bank Human Capital Index; PIRLS and TIMSS assessment results (published every four to five years).
+What to watch: Are international assessment scores improving? Is the gap between Quintile 1 and Quintile 5 schools narrowing? Mean years of schooling is a misleading indicator — demand learning-adjusted figures.
+
+**Indicator 3: The IHDI penalty.**
+Source: UNDP Human Development Report (published annually).
+What to watch: Is the percentage gap between HDI and IHDI shrinking? A shrinking penalty means development gains are being distributed more broadly. South Africa's current penalty of approximately 37 per cent is among the highest in the world. Any government serious about development must demonstrate progress on this metric.
+
+**Indicator 4: Expanded unemployment rate.**
+Source: Stats SA Quarterly Labour Force Survey.
+What to watch: Is the expanded unemployment rate (which includes discouraged work-seekers) declining? This is a better measure than the narrow rate because it captures the full scale of joblessness. The income dimension of the HDI cannot improve meaningfully while 40 per cent of the labour force is unemployed.
+
+**Indicator 5: MPI headcount and intensity.**
+Source: Stats SA (using General Household Survey data) and UNDP MPI reports.
+What to watch: Is the share of people experiencing multidimensional poverty declining? Is the intensity of deprivation (average number of deprivations among the poor) falling? Are the geographic concentrations of poverty — former homelands, informal settlements, deep rural areas — receiving targeted attention?
+:::
+
 ## What the Gap Reveals
 
 The distance between South Africa's HDI of 0.741 and its IHDI of 0.462 is not merely a statistical artefact. It is the quantitative signature of a society that has failed to convert its considerable resources — economic, institutional, and human — into broadly shared human development. The gap reveals several things simultaneously.
