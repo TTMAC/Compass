@@ -20,7 +20,7 @@ series:
   next: "hd-3-3-from-classroom-to-paycheck"
 crossLinks:
   - slug: "ss-3-1-three-tier-policing-architecture"
-    label: "Three-Tier Policing Architecture"
+    label: "A Three-Tier Policing Architecture"
     relationship: "Community safety infrastructure that protects learning environments"
 seo:
   ogImage: "/og/hd-3-2-learning-in-a-war-zone.png"
