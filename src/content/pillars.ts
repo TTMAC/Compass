@@ -182,6 +182,49 @@ export const pillars: PillarConfig[] = [
       },
     ],
   },
+  {
+    slug: "reform-agenda",
+    title: "Reform Agenda",
+    shortTitle: "Reform",
+    description:
+      "How to fix what's broken — applying the RAARICLE governance framework to diagnose failures and design structural reforms across all three spheres.",
+    color: "#DC2626",
+    lightColor: "#FEE2E2",
+    filterDimension: "tags",
+    order: 5,
+    parts: [
+      {
+        number: 1,
+        title: "The Diagnostic Framework",
+        description:
+          "The eight tests every government institution must pass — and the five ways they fail.",
+      },
+      {
+        number: 2,
+        title: "National Government Reform",
+        description:
+          "Fixing education, healthcare, and housing — the biggest concurrent function failures.",
+      },
+      {
+        number: 3,
+        title: "Provincial Government Reform",
+        description:
+          "Why provinces underperform and what structural fixes look like.",
+      },
+      {
+        number: 4,
+        title: "Municipal Government Reform",
+        description:
+          "Fixing water, electricity, waste, and roads — where citizens feel failure most directly.",
+      },
+      {
+        number: 5,
+        title: "The Reform Pathway",
+        description:
+          "What needs constitutional change, how to prevent capture, and how citizens drive reform.",
+      },
+    ],
+  },
 ];
 
 export function getPillarBySlug(slug: string): PillarConfig | undefined {
