@@ -19,7 +19,9 @@
     "test:e2e": "playwright test",
     "images:source": "node scripts/source-article-images.mjs",
     "ss:list": "node scripts/generate-ss-articles.mjs list",
-    "ss:prompt": "node scripts/generate-ss-articles.mjs prompt"
+    "ss:prompt": "node scripts/generate-ss-articles.mjs prompt",
+    "ra:list": "node scripts/generate-ra-articles.mjs list",
+    "ra:prompt": "node scripts/generate-ra-articles.mjs prompt"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.3.0",
