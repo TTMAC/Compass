@@ -33,27 +33,145 @@ seo:
 
 ## The Concurrent Function Problem
 
-<!-- Section: Schedule 4 functions are shared between national and provincial — but sharing creates ambiguity -->
+Schedule 4 of the Constitution lists the functions that are shared between national and provincial government. Education, health services, housing, public transport, agriculture, environment, disaster management, and more than a dozen other functions are classified as concurrent competences — meaning that both national and provincial government have legislative authority over them. The intention behind concurrency, as articulated during the constitutional negotiations of the early 1990s, was elegant: national government would set minimum standards, provide the policy framework, and ensure equity across provinces; provincial government would adapt that framework to local conditions, deliver the services, and be held accountable by provincial voters for the results.
+
+In practice, concurrency has produced something very different from this intention. As the RAARICLE diagnoses of [education](/articles/ra-2-1-fixing-basic-education), [healthcare](/articles/ra-2-2-fixing-primary-healthcare), and [human settlements](/articles/ra-2-3-fixing-human-settlements) have demonstrated, "sharing" a function between two spheres of government does not mean each sphere handles its part effectively. It means that authority is split, accountability is diffused, resources flow through competing channels, and enforcement falls into the gap between the spheres. The concurrent function model, as implemented in South Africa, is the structural mechanism that produces the misalignment pattern identified in [Why South Africa's Institutions Keep Failing](/articles/ra-1-2-why-institutions-fail).
+
+The problem is not unique to South Africa. Every federal and quasi-federal system that shares functions between levels of government faces a version of the concurrency challenge. But South Africa's version is particularly severe because of three compounding factors. First, the fiscal architecture concentrates revenue collection at the national level and distributes it downward through transfers, leaving provinces almost entirely dependent on national funding. Second, the national government has used its legislative power to establish detailed frameworks — for employment, procurement, financial management, and service delivery standards — that constrain provincial operational autonomy far beyond what the Constitution requires. Third, the enforcement architecture is discretionary rather than automatic, meaning there are no binding consequences when the concurrent arrangement produces failure.
+
+This article examines three alternative models for structuring concurrent functions, tests each against the full RAARICLE framework, and proposes a design that resolves the authority-accountability split without requiring constitutional amendment.
+
+:::takeaway
+Concurrency was designed to combine national standard-setting with provincial flexibility. In practice, it produces the worst of both worlds: national government controls the critical inputs but is not accountable for delivery; provincial government delivers the services but does not control the inputs that determine success or failure. The result is a system where accountability is assigned but authority is withheld — the structural definition of governance failure.
+:::
 
 ## Three Models for Concurrent Functions
 
-<!-- Section: Compare approaches — (1) national policy + provincial delivery (status quo), (2) full devolution, (3) national agency with provincial offices -->
+There are fundamentally three ways to structure a function that involves both national and provincial government. Each has been tried in various countries, and each produces a different distribution of the eight RAARICLE elements.
+
+### Model A: National Policy, Provincial Delivery (Status Quo)
+
+This is South Africa's current approach for most concurrent functions. National government sets the policy framework, determines employment conditions, controls significant funding streams through conditional grants, and establishes the regulatory environment. Provincial government delivers the service — employing the teachers, running the hospitals, managing the housing pipeline — within the constraints set nationally.
+
+The advantage of Model A is that it preserves national standards and equity. Every province teaches the same curriculum. Every public hospital follows the same essential medicines list. Every subsidised house must meet the same minimum specifications. National standards prevent a race to the bottom where poorly governed provinces reduce service quality to save costs.
+
+The disadvantage — demonstrated exhaustively in the RAARICLE diagnoses — is that it separates authority from accountability. The entity delivering the service cannot control the inputs that determine whether delivery succeeds. The provincial MEC for Education is accountable for matric results but cannot set teacher salary levels, determine employment conditions, or adjust the curriculum. The provincial health HOD is accountable for clinical outcomes but cannot give facility managers procurement authority over essential medicines. Model A is a recipe for accountability theatre.
+
+### Model B: Full Devolution
+
+Under full devolution, provinces would receive complete authority over concurrent functions — including the power to set their own employment conditions, negotiate their own collective bargaining agreements, adapt national standards to local conditions, and manage their own funding without conditional grant restrictions. The national department would shrink to a coordination and monitoring body with no operational role.
+
+The advantage of Model B is maximum co-location. The province would hold all eight RAARICLE elements in a single institutional chain. The MEC who is accountable for education would also control teacher employment, salary scales, curriculum adaptation, infrastructure, and procurement. The 30-day authority test would be passed comprehensively.
+
+The disadvantage is twofold. First, it would deepen inequality between provinces. Gauteng and the Western Cape — with stronger fiscal capacity, more concentrated populations, and deeper capability bases — would likely improve their performance. The Eastern Cape, Limpopo, and the North West — with weaker capacity, dispersed populations, and capability gaps — would likely deteriorate further. Full devolution assumes that all provinces have the capability to exercise expanded authority effectively. The RAARICLE diagnosis in [The Provincial Performance Crisis](/articles/ra-3-1-provincial-performance-crisis) demonstrates that this assumption is false for at least four provinces.
+
+Second, full devolution creates fragmentation at the national level. Nine different salary scales for teachers would undermine labour mobility between provinces. Nine different curriculum variants would create qualification portability problems. Nine different health service models would produce inconsistent quality standards. The national coherence that the concurrent model is designed to protect would be lost.
+
+### Model C: National Agency with Provincial Operations
+
+Under this model, a national agency — comparable to SARS for tax collection — would be responsible for delivering the concurrent function nationwide. The agency would operate through provincial offices (not provincial departments) that report to the national agency rather than to the provincial executive. Provincial offices would have delegated operational authority — the power to hire, procure, and manage within nationally set parameters — but would be part of a single institutional chain with national accountability.
+
+The advantage of Model C is that it achieves full co-location within a single institutional chain. One entity owns the function from policy to delivery. Accountability is clear — the agency's CEO answers for outcomes nationwide. Authority is co-located with responsibility. Resources are controlled by the entity that delivers. Enforcement can be built into the organisational management system. SARS demonstrates that this model works in South Africa — it achieves results that fragmented models do not.
+
+The disadvantage is democratic accountability. If education, health, and housing are all delivered by national agencies rather than provincial departments, what is the role of the provincial government? Provincial voters would no longer hold their provincial executive accountable for the services that matter most to them. Provincial legislatures would lose their oversight function over the largest spending items in the provincial budget. The provincial sphere would be hollowed out, reduced to functions that are either exclusive provincial competences (libraries, ambulance services, provincial roads) or residual administrative roles.
+
+:::expert
+Comparative research on intergovernmental service delivery models, including studies by the Forum of Federations and the Organisation for Economic Co-operation and Development, has found that no single model dominates. Germany's Bundesländer have near-complete authority over education policy, including curriculum design, teacher employment, and school management — the closest international example of Model B. This produces high quality in most Länder but also significant inter-state variation and periodic calls for greater national coordination. Australia's states manage health and education with significant operational autonomy but within national funding frameworks that include performance-based elements — a position between Models A and B. India's concurrent list (comparable to South Africa's Schedule 4) produces many of the same misalignment problems that South Africa experiences, with central government setting policy and states implementing it with insufficient authority and resources. The research consistently concludes that the critical design variable is not the degree of centralisation but the alignment of authority with accountability — the RAARICLE principle.
+:::
 
 ## The RAARICLE Test for Each Model
 
-<!-- Section: Apply the eight tests to each model — which one co-locates elements best? -->
+Testing each model against all eight RAARICLE elements reveals their relative strengths and weaknesses with precision.
+
+On responsibility, Model A scores 2 — responsibility is fragmented between national (standards) and provincial (delivery). Model B scores 4 — the province owns the function end-to-end, though some national coordination role remains. Model C scores 5 — one agency owns the function from policy to delivery.
+
+On accountability, Model A scores 2 — accountability is split between the national minister and the provincial MEC. Model B scores 4 — the provincial MEC is clearly accountable. Model C scores 4 — the agency CEO is clearly accountable, though democratic accountability at the provincial level is weakened.
+
+On authority, Model A scores 2 — the province delivers but cannot control critical inputs. Model B scores 4 — the province has full operational authority. Model C scores 5 — the agency controls all operational levers through its provincial offices.
+
+On resources, Model A scores 3 — funding exists but is fragmented between equitable share and conditional grants. Model B scores 3 — provinces would need the same total funding but with more discretion; fiscal inequality between provinces would persist. Model C scores 4 — resources are consolidated in the agency's national budget and distributed to provincial offices based on operational need.
+
+On information, Model A scores 2-3 — data quality varies by province, systems are inconsistent. Model B scores 2-3 — each province would develop its own systems, further fragmenting the national picture. Model C scores 4-5 — a single agency would build a unified information system across all provincial operations.
+
+On capability, Model A scores 2 — capability varies enormously between provinces and cannot be redistributed. Model B scores 2 — full devolution does not create capability where it does not exist. Model C scores 3-4 — a national agency can recruit nationally, deploy staff across provinces, and build institutional depth that individual provinces cannot.
+
+On legitimacy, Model A scores 3 — the mandate is constitutionally clear but the accountability link to provincial voters is weakened by the authority split. Model B scores 4 — strong provincial democratic accountability. Model C scores 2-3 — democratic accountability at the provincial level is weakened because the service is no longer managed by the provincial government that voters elected.
+
+On enforcement, Model A scores 1 — discretionary, politically mediated, rarely applied. Model B scores 2 — provinces would need to build their own enforcement systems, with inter-provincial variation. Model C scores 4 — a national agency can build enforcement into its management system, with automatic triggers for underperforming provincial offices.
+
+The comparison reveals that no model achieves perfect scores across all eight elements. Model C scores highest on the operational elements (responsibility, authority, resources, information, enforcement) but weakest on democratic legitimacy. Model B scores highest on legitimacy and accountability but fails on capability and risks deepening inequality. Model A — the status quo — scores lowest overall, failing on authority, enforcement, and responsibility while achieving only moderate scores on everything else.
 
 ## The 30-Day Authority Test
 
-<!-- Section: Can a provincial MEC execute a decision to improve education/health outcomes within 30 days? -->
+The 30-day authority test provides the most concrete illustration of the difference between models.
+
+Under Model A (status quo), a provincial MEC for Education who identifies declining mathematics results in a rural district cannot, within 30 days, offer salary supplements to attract mathematics teachers (salary scales are national), restructure the district office (organisational design changes require lengthy consultation), procure supplementary learning materials (procurement processes take months), or replace a non-performing district director (disciplinary processes are protracted and governed by national legislation). The MEC can convene a meeting, issue a directive, or announce a plan — but cannot execute an operational change.
+
+Under Model B (full devolution), the same MEC would have the authority to adjust salary supplements for scarce-skills teachers (provincial bargaining), restructure the district (provincial organisational authority), and procure materials (provincial procurement processes). The 30-day test would be passed for most operational decisions, though complex structural changes (building new schools, redesigning the district system) would still take longer.
+
+Under Model C (national agency), the provincial education director (reporting to the national agency) could redeploy teachers from overstaffed schools to understaffed ones using the agency's national staffing framework. The director could activate a rapid procurement pathway using the agency's pre-approved supplier panel. The director could place the district under a mandatory improvement programme using the agency's performance management system. The 30-day test would be passed because the director operates within a single institutional chain where all the necessary authorities are pre-delegated.
+
+:::takeaway
+The 30-day authority test is the sharpest diagnostic tool in the RAARICLE framework. It converts abstract questions about institutional design into concrete operational scenarios. Under the current concurrent function model, provincial leaders routinely fail this test because the critical levers of operational control sit in a different sphere. Any reform that does not enable the delivery entity to act decisively within operationally meaningful timeframes will reproduce the same failure pattern.
+:::
 
 ## International Comparisons
 
-<!-- Section: How other federal/quasi-federal systems handle concurrent functions — Germany, Australia, India -->
+South Africa's concurrent function challenge has parallels in other multi-level governance systems, and their experiences offer instructive lessons.
+
+Germany's Basic Law allocates education policy almost exclusively to the sixteen Bundesländer — the closest international example of Model B (full devolution) for a critical concurrent function. Each Land sets its own curriculum, manages its own teachers, and controls its own education budget. The result is high quality in most Länder, but persistent inter-state variation that has prompted periodic calls for greater federal coordination. Germany's experience suggests that full devolution works when all subnational units have adequate institutional capacity — a condition that is met in Germany (where even the poorest Land has substantial administrative and fiscal resources) but is not met in South Africa, where inter-provincial capacity gaps are vast.
+
+Australia manages health and education through a model that sits between Model A and Model B. States have significant operational autonomy — they employ teachers, manage hospitals, and determine many operational parameters. But the federal government plays a major funding role through conditional grants (called "tied grants" or "National Partnership Agreements") that come with performance conditions. Critically, Australia has introduced performance-based funding elements: states that meet defined outcome targets receive additional funding. This performance-based approach creates a fiscal incentive for states to perform — a mechanism that South Africa's equitable share formula conspicuously lacks.
+
+India's concurrent list in its Constitution closely parallels South Africa's Schedule 4, and produces many of the same problems. Education was moved to the concurrent list through a 2002 constitutional amendment, and the resulting central-state split in authority has generated a familiar pattern: central government sets standards through the Right to Education Act, while states implement with insufficient autonomy and inconsistent capacity. India's experience demonstrates that concurrency, in and of itself, does not determine outcomes — the critical variable is how authority and resources are distributed within the concurrent arrangement.
+
+Canada's provinces have near-exclusive control over healthcare delivery, with the federal government's role limited to setting national standards through the Canada Health Act and providing fiscal transfers. The provinces design and manage their own health systems, negotiate with health professionals, and determine service delivery models. This high degree of provincial autonomy produces inter-provincial variation — healthcare quality and access differ significantly between Ontario and Nunavut — but it also ensures that the entity delivering the service controls the inputs that determine delivery quality. Canada's model is the closest international example of what full devolution of health services would look like in South Africa.
+
+:::expert
+The World Bank's governance research programme has published comparative studies of multi-level service delivery that analyse performance variation across countries with different intergovernmental designs. Their analysis of education and healthcare delivery in decentralised systems finds that the strongest predictor of service delivery quality is not the degree of centralisation or decentralisation, but the clarity of the authority-accountability chain — whether the entity that delivers the service also controls the inputs that determine delivery quality. The World Bank's research identifies South Africa as an example of what they term "unfunded mandate decentralisation" — where functions are devolved to subnational governments without commensurate devolution of authority over the critical inputs (employment conditions, procurement, fiscal resources) needed to deliver those functions effectively. The researchers conclude that this design pattern produces "systematic underperformance that cannot be resolved through capacity building alone" because the structural constraint — the authority deficit — remains regardless of how capable the subnational entity becomes.
+:::
+
+The international evidence converges on a clear principle: the most effective concurrent function designs are those that give the delivery entity genuine operational autonomy within a framework of nationally defined standards, with fiscal incentives linked to outcome performance. The delivery entity must pass the 30-day authority test. The national entity must set standards, monitor outcomes, and enforce consequences — but not manage operational delivery.
 
 ## The Reform Blueprint
 
-<!-- Section: Proposed institutional architecture for concurrent functions that passes all eight RAARICLE tests -->
+The RAARICLE analysis and international comparisons point to a model that is neither the pure status quo (Model A) nor full devolution (Model B) nor full centralisation (Model C), but a structured hybrid that takes the strongest elements of each.
+
+The proposed model — which this series has termed **structured autonomy** — was introduced in the education reform blueprint and applied in the healthcare reform blueprint. This article presents it as a generalised design principle for all concurrent functions.
+
+### The Structured Autonomy Design
+
+National government retains three functions for every concurrent competence: setting minimum standards (what must be achieved), determining qualification requirements (who may deliver), and operating the enforcement architecture (what happens when standards are not met). These national functions preserve the equity and coherence that the concurrent model was designed to provide.
+
+The delivery entity — whether a provincial department, a district authority, or a regional agency, depending on the function — receives full operational authority within the national framework. This means control over staff deployment and supplementary employment conditions, procurement of inputs within national framework contracts, operational budget management with ring-fenced funding, and service model adaptation to local conditions. The delivery entity must pass the 30-day authority test for all routine operational decisions.
+
+The critical innovation is the enforcement architecture. Structured autonomy replaces the discretionary Section 100 intervention model with automatic outcome-triggered enforcement. For each concurrent function, a set of outcome indicators is defined — not input or process indicators, but measures of whether citizens are actually receiving the service. When a delivery entity's outcomes fall below a prescribed threshold for a defined period, a mandatory response is triggered: technical support, joint management, ring-fenced funding, or (in extreme cases) temporary operational takeover. The triggers are automatic. The thresholds are pre-defined. The responses are prescribed. Discretion is removed from the enforcement process.
+
+### How Structured Autonomy Differs from the Status Quo
+
+The difference between structured autonomy and the current system is not cosmetic. It represents a fundamental redistribution of authority from national to delivery level, combined with a transformation of enforcement from discretionary to automatic.
+
+Under the status quo, the national department controls employment frameworks, conditional grant conditions, and procurement regulations — leaving the province with nominal authority but operational constraints that prevent decisive action. Under structured autonomy, the national department sets minimum standards and outcome targets but does not control operational decisions. The province (or delivery entity) determines how to deploy its staff, how to spend its ring-fenced budget, and how to organise its operations to meet the national outcome targets. The province is free to innovate, adapt, and respond to local conditions — provided it meets the outcome floor.
+
+Under the status quo, enforcement is discretionary — the national executive decides whether and when to invoke Section 100. Under structured autonomy, enforcement is automatic — if outcomes fall below the prescribed threshold, the response is triggered regardless of political considerations. This removes the political calculation that currently delays or prevents intervention, and creates a credible threat that incentivises performance.
+
+:::expert
+The National Treasury's Intergovernmental Relations division, in its analysis of two decades of conditional grant implementation, has identified "the tension between national control and provincial autonomy" as the central design challenge of the intergovernmental fiscal system. Treasury's assessment found that conditional grants that impose detailed input conditions (prescribing exactly how money must be spent) produce lower spending rates and worse outcomes than grants that specify outcome targets and give the recipient discretion over how to achieve them. Treasury's own evidence base supports the structured autonomy principle — that the national government achieves better results by setting the destination and measuring arrival than by prescribing every step of the journey.
+:::
+
+### Anti-Capture Protections for the Structured Autonomy Model
+
+Every concurrent function restructured under the structured autonomy model must incorporate protections against the five capture vectors.
+
+Political capture is addressed through merit-based appointment requirements for all senior positions in the delivery entity, with independent selection panel participation mandated by legislation. The structured autonomy model explicitly prohibits the override of professional qualification requirements by political principals.
+
+Commercial capture is addressed through procurement transparency — all procurement above defined thresholds must be conducted through publicly visible processes, with contract details, pricing, and supplier performance published on accessible platforms. National framework contracts for high-value inputs (medicines, textbooks, construction) reduce the scope for local procurement manipulation.
+
+Labour capture is addressed by separating national-level bargaining (salary scales, core employment protections) from delivery-level operational negotiations (deployment, performance management, working conditions). The delivery entity has the authority to manage staff performance within the nationally agreed framework — including the authority to initiate and conclude disciplinary processes within prescribed timelines.
+
+Regulatory capture is addressed through structural separation of the standard-setting and enforcement function from the delivery function. The national body that sets standards and monitors outcomes must be institutionally separate from both the delivery entity and the political executive.
+
+Information capture is addressed through mandatory real-time data reporting to a publicly accessible national platform. Delivery entities cannot control the narrative about their performance because the outcome data is automatically collected and publicly visible.
 
 :::framework
 **The Concurrent Function Design Test**
@@ -85,4 +203,38 @@ This test ensures that reform proposals are evaluated on structural merit rather
 
 ## What Needs to Change in Law
 
-<!-- Section: Legislative vs constitutional requirements for restructuring concurrent function delivery -->
+The most critical question for any governance reform is whether it requires constitutional amendment or can be achieved through ordinary legislation. Constitutional amendment requires a two-thirds majority in the National Assembly and support from six of nine provinces in the National Council of Provinces — a threshold that is politically difficult to achieve and has been met only rarely since 1996. Legislative reform, by contrast, requires only the ordinary legislative process — challenging enough in a multi-party Parliament, but substantially more feasible than constitutional change.
+
+The structured autonomy model does not require constitutional amendment. Schedule 4 lists functions as concurrent — it does not prescribe the specific institutional architecture for delivering those functions. The Constitution does not require that provinces manage schools, run hospitals, or deliver housing in any particular way. It allocates legislative competence to both spheres but leaves the institutional design to legislation.
+
+The key legislative targets are function-specific statutes and the Division of Revenue framework.
+
+For education: the Employment of Educators Act must be amended to transfer operational employment authority from the national framework to provincial delivery entities. The Education Labour Relations Council's mandate must be restructured to separate national salary bargaining from operational bargaining. These are legislative changes — amendments to Acts of Parliament passed under Section 76 (which requires NCOP concurrence for matters affecting provinces).
+
+For healthcare: the National Health Act must be amended to establish district PHC authorities with delegated procurement and staffing authority. If the NHI is being implemented, the NHI Act's contracting framework must be designed to align with the district authority model rather than creating a parallel accountability system.
+
+For human settlements: the Housing Act must be amended to consolidate the delivery chain in municipal or regional agencies. The Division of Revenue must be restructured to channel the consolidated housing grant directly to delivery agencies rather than through provincial departments.
+
+For all functions: the Division of Revenue Act, which is passed annually, must be amended to restructure conditional grants from input-based conditions to outcome-based targets with operational discretion for the delivery entity. This is the single most important legislative change because it transforms the fiscal relationship between national and provincial government from one of detailed control to one of outcome accountability.
+
+The automatic enforcement triggers — the most critical design feature of structured autonomy — can be legislated in the function-specific statutes or in a dedicated framework law. A Framework for Concurrent Function Enforcement Act could establish the general principles: outcome-based thresholds, automatic trigger mechanisms, prescribed mandatory responses, and defined exit criteria. Each function-specific statute would then specify the particular indicators, thresholds, and responses applicable to that function.
+
+:::takeaway
+The structured autonomy reform is constitutionally feasible. It requires legislative amendment to function-specific statutes and the Division of Revenue framework — not a constitutional amendment. The key changes are transferring operational authority to delivery entities, restructuring conditional grants from input conditions to outcome targets, and legislating automatic enforcement triggers. These reforms are politically difficult but legally achievable through the ordinary legislative process.
+:::
+
+The concurrent function problem is not insoluble. It is a design problem that has been solved — imperfectly but instructively — in other multi-level governance systems around the world. South Africa's specific challenge is that its concurrent function model was designed with national standards and equity in mind but without adequate attention to operational authority, capability building, and enforcement architecture at the delivery level. Structured autonomy addresses all three deficits while preserving the national coherence that the concurrent model was designed to protect. In the next article, [When Provinces Fail](/articles/ra-3-3-when-provinces-fail), we examine the enforcement architecture in detail — how to design automatic triggers that convert identified failure into mandatory corrective action without the political discretion that has rendered Section 100 ineffective.
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- National Treasury (2024). *2024 Budget Review* and *Division of Revenue Bill 2024/25* — conditional grant framework, intergovernmental fiscal analysis — [treasury.gov.za](https://www.treasury.gov.za)
+- National Treasury. *Intergovernmental Relations Division* — analysis of conditional grant implementation and spending outcomes — [treasury.gov.za](https://www.treasury.gov.za)
+- Financial and Fiscal Commission (2023). *Submission for the 2024/25 Division of Revenue* — recommendations on provincial fiscal autonomy and performance-based allocations — [ffc.co.za](https://www.ffc.co.za)
+- Forum of Federations. Comparative research on concurrent functions and intergovernmental service delivery models — [forumfed.org](https://www.forumfed.org)
+- Organisation for Economic Co-operation and Development. *Fiscal Federalism Studies* — multi-level governance design and performance — [oecd.org](https://www.oecd.org)
+- Department of Basic Education. *Employment of Educators Act* and ELRC governance — [education.gov.za](https://www.education.gov.za)
+- National Department of Health. *National Health Act* and NHI implementation framework — [health.gov.za](https://www.health.gov.za)
+- Department of Human Settlements. *Housing Act* and Level 2 accreditation framework — [dhs.gov.za](https://www.dhs.gov.za)
+- Constitution of the Republic of South Africa, 1996, Sections 76, 100, 104, 125, 146, Schedule 4 — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)
