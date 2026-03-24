@@ -70,6 +70,34 @@ seo:
 
 <!-- Section: Separate WSA from WSP; ring-fence water revenue; regional water utilities; automatic enforcement -->
 
+:::framework
+**The Water Governance Diagnostic Framework**
+
+Use these five steps to assess how water services are governed in your municipality and identify where the system is breaking down:
+
+**Step 1: Identify who plays each role in the water value chain.**
+
+Find out whether your municipality is both the Water Services Authority (WSA) and the Water Services Provider (WSP). If the same entity regulates and delivers, you have a conflation problem — the regulator cannot objectively hold itself accountable. Check your municipality's Integrated Development Plan (IDP) or the DWS website for WSA designations.
+
+**Step 2: Check the Blue Drop and Green Drop scores.**
+
+The Department of Water and Sanitation publishes Blue Drop (drinking water quality) and Green Drop (wastewater treatment) reports. Find your municipality's scores at www.dws.gov.za. A score below 50% signals serious risk. If your municipality was not assessed at all, that is a red flag — it may mean the information element of RAARICLE has collapsed entirely.
+
+**Step 3: Follow the money.**
+
+Request your municipality's annual financial statements (available on the municipal website or from National Treasury's Municipal Finance data). Check whether water revenue is ring-fenced for water operations or whether surpluses are being used to cross-subsidise other municipal functions. If water revenue leaks to other departments, infrastructure maintenance will be deferred.
+
+**Step 4: Check the capability pipeline.**
+
+Look at the municipality's organogram and annual report for process controller vacancies, engineering posts filled by acting officials, and whether the municipal manager has relevant technical qualifications. A municipality without qualified water engineers cannot maintain treatment plants — no amount of funding fixes a capability gap.
+
+**Step 5: Ask about enforcement.**
+
+Submit a PAIA request to DWS asking what enforcement actions have been taken against your municipality in the last five years. If the answer is none despite poor Blue or Green Drop scores, the enforcement element has failed — and you should advocate for automatic enforcement triggers tied to published water quality data.
+
+With these five steps, you can diagnose exactly where your municipality's water governance is failing and direct your advocacy at the specific structural problem — rather than simply demanding "better service."
+:::
+
 ## Implementation Pathway
 
 <!-- Section: Three phases — legislative amendment (Water Services Act), pilot region, national rollout -->

@@ -62,6 +62,34 @@ seo:
 
 <!-- Section: How multiple failure patterns interact and reinforce each other -->
 
+:::framework
+**The Failure Pattern Identification Checklist**
+
+When a government service is failing, use these five questions to identify which structural failure pattern is at work. Most governance breakdowns fall into one or more of these categories.
+
+**Question 1: How many entities are involved in delivering this service?**
+
+List every entity that plays a role — national department, provincial department, municipality, state-owned entity, regulator, contractor. If you count four or more entities with no single end-to-end owner, the problem is likely **fragmentation**. The more handoff points, the more likely that outcomes fall through the gaps between institutions.
+
+**Question 2: Does the entity that is accountable for the outcome also control the key inputs?**
+
+Identify who signs the performance agreement and then check whether that same entity controls the budget, the staff, the procurement process, and the operational decisions. If accountability sits in one sphere (e.g., provincial) but authority over critical inputs sits in another (e.g., national), the problem is **misalignment**. This is the most common pattern in South Africa's concurrent functions.
+
+**Question 3: Is any of the eight RAARICLE elements simply missing?**
+
+Run through the eight tests from Article 1.1. Is there no identifiable person accountable for the outcome? Is there no real-time performance data? Is there no enforcement mechanism at all? If an element is not weak but entirely absent — no one monitors, no one enforces, no information system exists — the problem is **absence**.
+
+**Question 4: Is the same entity both delivering the service and regulating its own performance?**
+
+Check whether the provider and the oversight body are the same institution or fall under the same political principal. If the municipality is both the water services authority (regulator) and the water services provider, the problem is **conflation**. An entity cannot objectively hold itself to account.
+
+**Question 5: Has the institution been redirected to serve private, political, or sectional interests instead of the public interest?**
+
+Look for the five capture vectors: political deployment that overrides professional criteria, commercial relationships that benefit connected insiders, labour agreements that prioritise employee interests over service delivery, regulatory decisions that protect incumbents rather than users, or information suppression that hides poor performance. If any of these vectors are present, the problem is **capture**.
+
+After identifying the pattern, you can propose a targeted solution: consolidation for fragmentation, co-location for misalignment, institution-building for absence, structural separation for conflation, and independence safeguards for capture. Naming the pattern precisely is the first step toward advocating for the right reform.
+:::
+
 ## A Severity Rating System
 
 <!-- Section: Introduce the 1-5 rating scale citizens can use to assess each RAARICLE element -->

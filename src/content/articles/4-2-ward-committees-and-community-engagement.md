@@ -306,6 +306,34 @@ Sustained participation builds relationships with municipal officials, ward coun
 
 The most effective participation uses multiple channels simultaneously. Raise the issue at the ward committee meeting and submit it in writing to the municipality and copy your ward councillor. If the issue is not resolved, raise it in your IDP or budget submission. If it is still not resolved, submit a formal complaint and escalate to the speaker. If formal channels fail, organise a community petition and engage the media. Each additional channel increases the pressure and reduces the likelihood that the issue will be quietly buried.
 
+:::framework
+**The Municipal Participation Diagnostic**
+
+When you want to engage with your municipality but are unsure where to start, use this five-question framework to identify the right channel, the right timing, and the right approach for your concern.
+
+**Question 1: What sphere of government is responsible?**
+
+Before engaging your municipality, confirm that the issue falls within municipal jurisdiction. Water, electricity, refuse, local roads, stormwater, and zoning are municipal. Schools and clinics are provincial. Social grants are national. If the issue is not municipal, redirect your engagement to the correct sphere. If it involves a municipal service, proceed to Question 2.
+
+**Question 2: Is this a planning issue or a delivery issue?**
+
+If the problem is that your area's needs are not reflected in the municipality's plans — a missing water project, an ignored infrastructure priority — engage through the IDP process (September to March) and the draft budget comment period (March to May). If the problem is that something was planned and budgeted but not delivered — a project that was in the IDP and budget but never materialised — use the SDBIP and quarterly Section 52 reports to identify where delivery stalled, and raise it through your ward committee or the MPAC.
+
+**Question 3: Does a documented commitment exist?**
+
+Check whether the municipality made a specific, documented commitment. Look in the IDP for strategic priorities and project lists. Look in the approved budget for capital allocations. Look in the SDBIP for quarterly delivery targets. A documented commitment transforms your concern from a request into an accountability claim: "The IDP committed to this project, the budget allocated R5 million, and the SDBIP scheduled completion by Quarter 3 — what happened?"
+
+**Question 4: Which channel matches your issue?**
+
+Use the ward committee for neighbourhood-level service delivery issues (burst pipes, streetlights, refuse). Use the IDP review process for strategic priorities and long-term planning concerns. Use the budget comment period for resource allocation questions. Use the MPAC for financial mismanagement concerns. Use the speaker's office if your ward councillor is unresponsive. Use a formal complaint with a reference number for any issue requiring a paper trail.
+
+**Question 5: What is your escalation path if the first channel fails?**
+
+Before you engage, know your backup. If the ward committee does not act, escalate to the speaker's office. If the municipal complaints system is unresponsive, escalate to the ward councillor in writing. If internal municipal channels are exhausted, escalate to provincial COGTA. If the failure constitutes maladministration, complain to the Public Protector. If a constitutional right is being violated, complain to the South African Human Rights Commission. Plan the escalation path before you need it.
+
+By working through these five questions, you move from a general sense of frustration to a targeted engagement strategy — the right issue, through the right channel, at the right time, with the right evidence.
+:::
+
 ## Resources
 
 The following sources were referenced in this article and are recommended for further reading on ward committees and community engagement in municipal governance.

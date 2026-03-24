@@ -256,6 +256,34 @@ The cross-cutting growth engines that power every stage of this transition — n
 
 Resource optimisation is where the growth strategy begins because it starts with what South Africa already has. You do not need to build a semiconductor industry from scratch or attract billions in greenfield manufacturing FDI before results become visible. You need to apply the comparative advantage test honestly, invest in the preconditions that binding constraint analysis reveals, sequence the interventions according to their prerequisites, and hold institutions accountable for measurable progress. None of this is easy. All of it is achievable. And the evidence from comparable countries demonstrates that it works.
 
+:::framework
+**The "Resource Value Chain" Evaluation Framework**
+
+When you hear a claim about beneficiation, resource processing, or value chain upgrading in South Africa, use this five-question process to assess whether the proposal is economically sound or politically motivated sloganeering.
+
+**Question 1: Does this pass Lin's comparative advantage test?**
+
+For the specific resource and processing step being proposed, ask: does South Africa have or can it realistically build the factor endowments required to compete? The key endowments are energy supply (is reliable baseload power available?), skilled labour (are the metallurgical engineers, technicians, or food scientists available?), logistics infrastructure (can the processed product reach export markets at competitive cost?), and scale economies (is the investment large enough to compete with existing global producers?). If the answer is no on two or more of these factors, the beneficiation case is weak regardless of how appealing it sounds politically.
+
+**Question 2: What share of the value chain does South Africa currently capture?**
+
+For the resource in question, map the full value chain from extraction to final manufactured product. Then identify where South Africa's participation ends. For platinum: extraction through refining (yes), but catalytic converter and fuel cell fabrication (mostly no). For citrus: growing and packing (yes), but juice concentrates, essential oils, and pectin (mostly no). For manganese: raw ore and basic alloy (yes), but battery-grade chemicals (no). The gap between where participation ends and where the highest value is captured tells you where the opportunity lies.
+
+**Question 3: What is the binding constraint preventing South Africa from capturing more?**
+
+For each value chain, identify the single most important obstacle. Is it energy reliability (ferrochrome, PGM fabrication)? Logistics costs (agricultural exports)? Skills availability (advanced materials processing)? Trade agreements (processed food market access)? Water infrastructure (Northern Cape manganese processing)? Regulatory uncertainty (mining charter obligations)? Identifying the binding constraint focuses policy attention on the one intervention that would have the greatest impact, rather than spreading effort across every conceivable bottleneck.
+
+**Question 4: What do comparator countries achieve in this value chain?**
+
+Check what Chile captures in copper (mining plus mining services exports plus downstream copper products), what Botswana captures in diamonds (including cutting and polishing through Okavango Diamond Company), or what Malaysia captures in palm oil (from plantation through refining to oleochemicals). If a comparator country with similar endowments captures significantly more of the value chain, the gap represents an achievable target and proves the transition is possible.
+
+**Question 5: Who is accountable, and what is the measurable target?**
+
+Identify which government department, state-owned enterprise, or public institution is responsible for addressing the binding constraint. Has that institution committed to a specific, time-bound, measurable target? If the Department of Mineral Resources and Energy is responsible for energy stability that ferrochrome requires, have they committed to a specific megawatt target by a specific date? If no institution has taken clear responsibility and no measurable target exists, that accountability vacuum is itself the binding constraint — and no strategy document will fill it.
+
+This framework transforms the beneficiation debate from a political slogan into an analytical exercise. South Africa's resource endowments are extraordinary. The question is not whether to add value — it is where to add value, in what sequence, and with what institutional accountability for results.
+:::
+
 ## Resources
 
 The following institutional sources informed the analysis in this article.

@@ -306,6 +306,34 @@ Data without action is information without purpose. Use your findings to write a
 - PAIA guidance: [sahrc.org.za](https://www.sahrc.org.za/index.php/understanding-paia)
 :::
 
+:::framework
+**The Evidence Chain Builder**
+
+When you suspect a governance failure — a service not delivered, a budget not spent, a promise not kept — use this five-step framework to build a documented evidence chain from publicly available government data. An evidence chain connects multiple data sources into a single, verifiable accountability narrative that is far more powerful than any anecdote or complaint.
+
+**Step 1: Establish the commitment**
+
+Find the official document where the government entity committed to the outcome you are investigating. For national or provincial departments, check the Annual Performance Plan (APP) on the departmental website or at pmg.org.za. For municipalities, check the Integrated Development Plan (IDP) and the Service Delivery and Budget Implementation Plan (SDBIP) on the municipal website. Write down the specific target, the indicator, and the timeframe. This is the promise against which you will measure performance.
+
+**Step 2: Trace the allocation**
+
+Determine how much money was allocated for the commitment. Use Vulekamali at vulekamali.gov.za for national and provincial allocations. Use Municipal Money at municipalmoney.gov.za for municipal allocations. Check the Division of Revenue Act for conditional grants. Note the specific programme or grant and the rand amount. If money was allocated, the entity cannot claim lack of resources as a defence. If money was not allocated despite an IDP or APP commitment, you have identified a plan-budget disconnect.
+
+**Step 3: Check the spending**
+
+Determine whether the allocated money was actually spent. Use AGSA's audit reports at agsa.co.za or agsareports.co.za for audited expenditure figures. Use Municipal Money for municipal spending ratios. Check for underspending (money available but not used), irregular expenditure (money spent in violation of rules), and fruitless and wasteful expenditure (money definitively wasted). The gap between allocation and proper spending is often where governance failures are concentrated.
+
+**Step 4: Measure the outcome**
+
+Determine whether the promised service or infrastructure was actually delivered. Use Stats SA data at statssa.gov.za or Wazimap at wazimap.com for service delivery indicators (access to water, electricity, sanitation). Use DPME assessments at dpme.gov.za for departmental performance evaluations. Use the entity's own annual report to compare reported outcomes against APP or IDP targets. If the money was spent but the outcomes were not achieved, you have identified a delivery failure distinct from a spending failure.
+
+**Step 5: Assemble the narrative**
+
+Combine your findings into a single, documented statement: "[Entity] committed to [target] in its [APP/IDP]. [Amount] was allocated in the [year] budget. The Auditor-General's report shows that [spending finding]. Stats SA / the annual report shows that [outcome finding]." This statement, supported by specific sources and figures, is the evidence chain. It can anchor a public submission, a ward committee presentation, a media inquiry, or a complaint to a Chapter 9 institution.
+
+By building evidence chains from publicly available data, you transform governance concerns from opinions into documented facts — the kind of facts that demand institutional responses.
+:::
+
 ## Where to Go From Here
 
 You now have a map of South Africa's government data landscape — the fiscal data from National Treasury, the demographic and social data from Stats SA, the performance assessments from DPME, the parliamentary record from PMG, the right to request unpublished records through PAIA, the municipal planning documents that set local targets, and the intermediary platforms that translate all of this into formats citizens can use. You have seen how civil society organisations have used this data to achieve concrete accountability outcomes — from binding school infrastructure standards to court orders on textbook delivery to measurable improvements in provincial financial management.

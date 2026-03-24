@@ -70,6 +70,34 @@ seo:
 
 <!-- Section: Ring-fence electricity revenue; streamline IPP procurement; regional distribution entities; enforcement triggers -->
 
+:::framework
+**The Municipal Electricity Diagnostic Framework**
+
+Use these five steps to assess how electricity reticulation works in your area and identify the structural problems behind supply failures:
+
+**Step 1: Determine who distributes your electricity.**
+
+Not all South Africans receive electricity from their municipality. In many areas, Eskom distributes directly. Check your electricity bill — if it comes from Eskom, your municipality has no control over local distribution. If it comes from the municipality, your council is responsible for the local network. This distinction determines who to hold accountable for outages and maintenance.
+
+**Step 2: Measure the cross-subsidy leakage.**
+
+Municipalities that distribute electricity typically charge a surcharge above the NERSA-approved tariff. This surplus is meant to fund other municipal services. Request your municipality's annual financial statements and check what percentage of electricity revenue funds electricity infrastructure maintenance versus what percentage is transferred to the general municipal budget. If infrastructure maintenance spending is declining while surcharges increase, the system is eating itself.
+
+**Step 3: Check distribution losses.**
+
+Your municipality's annual report should disclose electricity distribution losses — both technical losses (from ageing infrastructure) and non-technical losses (from illegal connections and meter tampering). Distribution losses above 10% indicate serious infrastructure or governance problems. Losses above 20% signal a system approaching collapse.
+
+**Step 4: Assess the independent power procurement pathway.**
+
+Since the 2022 amendments to the Electricity Regulation Act, municipalities can procure power from independent producers. Check whether your municipality has initiated any independent power procurement processes. If not, ask why — the barriers may be regulatory (NERSA approval), capability (no qualified staff to manage procurement), or political (resistance to competition with Eskom).
+
+**Step 5: Evaluate the capability base.**
+
+Check your municipality's organogram for qualified electrical engineers, the age profile of the distribution network, and the capital expenditure budget for electricity infrastructure. A municipality without qualified engineers managing an ageing network with a shrinking capital budget is on a predictable path to distribution failure.
+
+With these five steps, you can diagnose whether your municipality's electricity problems are caused by Eskom bulk supply failures, local network neglect, revenue leakage, or capability collapse — and target your advocacy at the right structural problem.
+:::
+
 ## Implementation Pathway
 
 <!-- Section: Three phases — Eskom unbundling alignment, pilot metros, national framework -->

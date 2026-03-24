@@ -180,6 +180,38 @@ This is what building the cycle from the ground up looks like. It is not glamoro
 The concept of community-level reinforcing cycles has parallels in development practice globally. Brazil's Bolsa Familia programme — now the world's largest conditional cash transfer programme — was explicitly designed to address multiple dimensions of the cycle simultaneously: the cash transfer addresses immediate poverty (growth link), the conditions (school attendance, health check-ups) address education and health (development link), and the programme's municipal-level governance structures create accountability mechanisms (governance link). Kerala, India, offers perhaps the most striking example of community-level cycle building. Despite relatively low per capita income, Kerala achieved human development outcomes comparable to much wealthier countries through a combination of universal education, decentralised governance (the People's Plan Campaign of 1996 devolved significant planning authority to village-level panchayats), active civil society, and strong community participation in health and education governance. Rwanda's Umuganda programme — a monthly community service day that also functions as a community meeting — has been credited with strengthening social cohesion, improving local infrastructure, and creating a mechanism for community-level problem solving that feeds the broader development cycle. None of these examples is perfectly transferable to South Africa — each reflects its own political, cultural, and economic context — but all demonstrate the core principle: the reinforcing cycle is built or broken at the community level, and informed, organised citizen participation is the essential ingredient.
 :::
 
+:::framework
+**The Community Cycle Activation Checklist**
+
+Use this checklist to assess whether the five institutional links of the reinforcing cycle are active in your community — and to identify which link needs your participation most urgently. For each link, answer the diagnostic question. Where the answer is "no," that is where your engagement will have the greatest impact on your community's development trajectory.
+
+**Link 1: Education — Is your school governing body functional?**
+
+Find out when the last SGB election was held and what the parent turnout was. Attend the next SGB meeting. Obtain your school's NSC results disaggregated by subject (for secondary schools) and compare mathematics and physical science pass rates to provincial averages for schools in the same quintile. Request the school's audited financial statements. If the SGB has not met in six months, if parent turnout at elections was below 25%, or if the school's mathematics pass rate is below 40%, the education link is weak and your participation — or that of an informed parent in your community — can strengthen it.
+
+**Link 2: Safety — Is your community policing forum active?**
+
+Contact your local police station and ask when the next CPF meeting is scheduled. If no meeting has been held in six months, the CPF is dysfunctional. Before attending, download the most recent quarterly crime statistics for your station from saps.gov.za. Identify which crime categories are increasing and how your station compares to others in the district. Bring these numbers to the CPF meeting and ask the station commander what operational priorities have been set in response. If the CPF is inactive, reviving it should be your priority — areas without functioning CPFs have worse police-community relations and higher incidence of vigilante justice.
+
+**Link 3: Governance — Is your ward committee meeting and advocating?**
+
+Find out who your ward councillor is (check the municipal website) and when the ward committee last met. Attend the next meeting — they are open to all residents, not just committee members. Bring specific data: your municipality's AGSA audit outcome, capital expenditure ratio, and Blue Drop score. If the ward committee is not meeting regularly, raise this with the municipal Speaker's office. During the annual IDP process (January to May), submit written inputs grounded in data rather than general complaints. Written submissions create accountability trails that verbal comments do not.
+
+**Link 4: Growth — Does your municipality have a functioning LED strategy?**
+
+Obtain your municipality's IDP and read the LED section. Check whether it includes specific, measurable targets with budget allocations — not just aspirational statements. Ask whether previous LED commitments were actually implemented. If the LED strategy has no budget, no measurable targets, and no evidence of past implementation, the growth link is broken. Engage through the IDP process to advocate for streamlined business licensing, local procurement policies, and infrastructure investment in areas that enable economic activity.
+
+**Link 5: Health — Does your clinic have a functioning committee?**
+
+Contact your local clinic's facility manager and ask whether a clinic committee exists and when it last met. If no committee exists, advocate for its establishment — the National Health Act provides for it. Use District Health Barometer data from hst.org.za to check your district's immunisation coverage, antenatal care booking rates, and TB treatment success rate. Request facility-level performance data from the district health office. If your clinic's immunisation coverage is below 80%, the health link needs urgent attention.
+
+**The coalition question: Are these five institutions talking to each other?**
+
+The deepest leverage comes from connecting the links. If mothers avoid the clinic because of crime on the walking route, the clinic committee and the CPF need to coordinate. If school dropout is driven by poverty, the SGB and the LED process need to connect. If infrastructure failures undermine both health and economic activity, the ward committee needs to raise both in the IDP. Identify one issue in your community that spans multiple links, and convene representatives from the relevant institutions to address it together. A coalition that addresses safety, health, education, and governance simultaneously is far more powerful than any single institution working alone.
+
+By working through this checklist, you identify the weakest link in your community's reinforcing cycle and direct your participation where it will have the greatest structural impact on your community's development trajectory.
+:::
+
 ## The Series Conclusion: What You Now Know, and What You Do With It
 
 You have reached the end of the Human Development series. Let us take stock of what you now know, because the accumulation of knowledge across these articles constitutes a comprehensive framework for understanding — and acting on — South Africa's human development challenge.

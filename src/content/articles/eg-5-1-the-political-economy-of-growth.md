@@ -247,6 +247,34 @@ The absence of compensation creates a vicious cycle. Reforms impose concentrated
 
 Breaking this cycle requires treating compensation as a core component of reform design, not an afterthought. The fiscal cost of compensating losers is almost always smaller than the economic cost of failed reform. A retraining programme for displaced SOE workers costs millions. A failed SOE that continues to haemorrhage public funds costs billions. The arithmetic is straightforward — but it requires political leaders who are willing to allocate resources to compensation up front, before the political crisis that failed reform inevitably produces.
 
+:::framework
+**The Reform Viability Assessment**
+
+When any economic reform is proposed — in a budget speech, a party manifesto, a NEDLAC agreement, or a departmental strategy — use these five questions to assess whether it has the political conditions to succeed or whether it will join the long list of technically sound but politically stillborn South African strategies.
+
+**Question 1: Who are the concentrated losers, and how powerful are they?**
+
+Identify the specific organisations, industries, or political actors that stand to lose from the reform. Assess their lobbying capacity, political connections, financial resources, and ability to block implementation. If the losers include SOE executives with patronage networks, mining houses with international leverage, or unions with alliance-level political influence, the resistance will be formidable. A reform that cannot name its opponents has not been honestly designed.
+
+**Question 2: Who are the diffuse winners, and are they organised?**
+
+Identify the beneficiaries — consumers, aspiring entrepreneurs, workers in industries that do not yet exist. Then ask: do these winners have business associations, advocacy groups, or political representatives who will fight for the reform when resistance intensifies? If the winners are millions of unorganised individuals, the reform will lose the political contest to a handful of organised losers regardless of its economic merits. The winner coalition must be built before the reform is announced.
+
+**Question 3: Is there a credible compensation mechanism for losers?**
+
+Check whether the reform proposal includes specific, funded, time-bound transition support for those who bear the costs — retraining programmes with defined budgets and employment targets, phased implementation timelines that give affected industries adjustment periods, or severance and redeployment packages for displaced workers. If the answer is "nothing" or "vague promises," the reform will provoke maximum resistance and is likely to stall. The fiscal cost of compensating losers is almost always smaller than the economic cost of failed reform.
+
+**Question 4: Has the reform survived a previous cycle of announcement and abandonment?**
+
+Check whether the same reform — or a substantially similar one — has been proposed before. If it has, ask what caused the previous attempt to fail and whether the current proposal addresses those causes. South Africa's policy landscape is littered with reforms that were announced, resisted, quietly abandoned, and then re-announced under a new acronym. If the political economy dynamics that killed the previous attempt are still in place, the new attempt will meet the same fate.
+
+**Question 5: Is there a political champion willing to spend political capital?**
+
+Identify whether a specific political leader — a minister, a premier, a president — is publicly and personally committed to the reform and willing to absorb the political costs of pushing it through against resistance. Reforms that are "owned" by a department but championed by nobody in particular will be abandoned at the first sign of opposition. The comparator countries that achieved successful economic transitions all had identifiable political champions who treated reform as a career-defining commitment rather than a policy option.
+
+By applying this assessment to any proposed reform, you can distinguish between proposals that have a realistic chance of implementation and proposals that will generate headlines, produce strategy documents, and change nothing.
+:::
+
 ## From Analysis to Action: What You Can Do
 
 If you have read this far, you might be thinking: this is all very interesting, but what can an ordinary citizen actually do about the political economy of reform? The answer is more than you might expect.

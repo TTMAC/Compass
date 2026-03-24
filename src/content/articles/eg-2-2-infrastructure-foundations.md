@@ -296,6 +296,34 @@ Comparator benchmark: Rwanda's national fibre backbone and government broadband 
 
 Binding constraint: Last-mile connectivity to township and rural areas is the binding constraint. The commercial investment case for fibre in low-income areas is weak without public subsidy or innovative delivery models. Mobile data affordability, while improving, remains a barrier to full digital participation.
 
+:::framework
+**The "Infrastructure Accountability" Framework**
+
+When government announces an infrastructure project, promises billions in investment, or claims progress on infrastructure delivery, use this five-step process to assess whether the announcement reflects reality or political theatre.
+
+**Step 1: Distinguish between planned, committed, and delivered.**
+
+Government infrastructure announcements typically conflate three very different things. "Planned" means the project appears in a strategy document or NIP list — this costs nothing and commits no one. "Committed" means a budget allocation has been made and procurement has begun — this is more serious but still no guarantee. "Delivered" means the infrastructure is built, operational, and serving users. When you see a headline about "R100 billion in infrastructure investment," ask: is this planned, committed, or delivered? The gap between these categories is where South Africa's infrastructure failure lives.
+
+**Step 2: Check the project preparation status.**
+
+A project that has not completed detailed engineering design, environmental impact assessment, land acquisition, and financial structuring is not ready for construction — no matter how many times it appears in a minister's speech. Ask whether the project has reached "bankability" — the point at which a financier would lend against it and a contractor would bid on it. The Development Bank of Southern Africa's Infrastructure Fund and National Treasury's GTAC track project preparation status. If a project has been announced but not prepared, add three to five years to any promised delivery date.
+
+**Step 3: Apply the McKinsey delivery test.**
+
+For any major infrastructure project, assess five dimensions. Does it have a dedicated project management office with qualified staff? Has risk been properly allocated between the public and private sectors in the contract? Does the procuring entity have in-house technical capacity to oversee the contractor (an "owner's engineer")? Is there a transparent procurement process with limited discretion? And is there regulatory certainty that the project's revenue model will be honoured over its lifespan? If the answer to any of these is no, expect cost overruns and delays. Medupi, Kusile, and PRASA's rolling stock programme all failed on multiple dimensions.
+
+**Step 4: Compare against an international benchmark.**
+
+For each infrastructure sector, identify a comparator country's performance. Energy: Vietnam added 20,000 MW of solar in a single year. Ports: Tanjung Pelepas handles four times Durban's volume with lower turnaround times. Rail: India's Dedicated Freight Corridor programme shows what middle-income rail investment looks like. Water: Israel achieves non-revenue water losses below 10% compared to South Africa's 41%. Digital: Rwanda built a national fibre backbone with far fewer resources. The comparator tells you what is achievable and exposes the gap between South Africa's performance and what competent delivery looks like.
+
+**Step 5: Identify the binding constraint and the accountable institution.**
+
+For each infrastructure sector, there is one constraint that, if removed, would unlock the most progress. For energy: transmission grid capacity and connection timelines. For ports: structural separation enabling private terminal concessions. For rail: third-party access to Transnet's network. For water: municipal institutional capacity. For digital: last-mile connectivity to townships and rural areas. Identify the constraint, identify the institution responsible for removing it, and track whether that institution is making measurable progress. If the binding constraint has not changed in three years, the institution responsible is failing regardless of what its annual report claims.
+
+This framework turns infrastructure announcements from political events into accountability exercises. The plans exist. The legal frameworks exist. The money has often been allocated. What matters is whether projects move from announcement to delivery — and these five steps help you track that journey.
+:::
+
 ## Resources
 
 For further reading on the topics covered in this article, the following institutional sources provide detailed data, analysis, and policy frameworks.

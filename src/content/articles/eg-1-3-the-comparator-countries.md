@@ -225,6 +225,30 @@ The sequencing question is where South African economic debate most often goes w
 
 Using these four questions will not make you an economist. But it will make you a much more informed citizen when evaluating the claims of politicians, commentators, and analysts about what South Africa needs to do to accelerate growth. The six countries examined in this article prove that rapid, sustained economic development is possible for countries at South Africa's stage. They also prove that it requires specific institutional choices, implemented with discipline over long time horizons. The question is not whether the path exists. The question is whether South Africa will choose to walk it.
 
+:::framework
+**The "Comparator Lens" Evaluation Framework**
+
+When a politician, think tank, or commentator proposes an economic policy — a new special economic zone, an export subsidy, a labour market reform, a nationalisation programme — use these four questions to evaluate whether the proposal is grounded in evidence or built on wishful thinking.
+
+**Question 1: Has a country at South Africa's development stage tried this?**
+
+Search for evidence that a country with a GDP per capita between $5,000 and $15,000 has implemented a similar policy. Chile, Vietnam, Malaysia, Poland, Botswana, and South Korea at earlier stages of their development are your primary reference points. If the proposal cites only the experience of wealthy countries like Germany, Singapore, or the Nordic states, be cautious — the institutional conditions that make policies work in those countries may not exist in South Africa. If no comparable country has tried the proposed approach, the policy is experimental, and the expected outcomes should be treated with greater scepticism.
+
+**Question 2: What institutional preconditions made it work elsewhere?**
+
+Every successful policy required specific institutional infrastructure. Chile's fiscal rules required an independent fiscal council. Vietnam's industrial zones required reliable electricity, functioning customs, and predictable regulation. South Korea's R&D ecosystem required decades of university-industry collaboration. Malaysia's industrial strategy required the EPU — a coordinating institution with political authority, budgetary leverage, and technical capability. Identify the institutional preconditions that made the comparator policy succeed, and write them down as a checklist.
+
+**Question 3: Does South Africa currently have those preconditions?**
+
+Compare your checklist against South Africa's actual institutional capacity — not the mandates on paper, but the operational reality. Does the relevant government department have the staffing and skills to implement the policy? Does the infrastructure exist to support it? Is the regulatory environment stable enough for long-term investment? Be honest: South Africa has many impressive institutional structures that function well below their design capacity. If the preconditions are not in place, the policy will not produce the promised results regardless of how sound the design is.
+
+**Question 4: If the preconditions are missing, what must be built first — and in what sequence?**
+
+This is the most important question. If South Africa lacks the institutional preconditions for a policy to work, the first task is not to implement the policy — it is to build the preconditions. Malaysia built the EPU before targeting semiconductor investment. Vietnam built ports and roads before signing free trade agreements. Poland reformed its regulatory architecture before attracting manufacturing FDI. Ask what must come first, what can happen in parallel, and what must wait until earlier steps are complete. Any proposal that skips the sequencing question is a plan for failure.
+
+Applying these four questions consistently will not make you a development economist, but it will give you a more rigorous basis for evaluating economic policy proposals than most newspaper editorials or political manifestos provide. The evidence from six comparator countries proves that the path from $7,000 to $50,000 exists. The questions above help you assess whether any given proposal is actually on that path.
+:::
+
 ## Resources
 
 The following institutional sources informed the analysis in this article:

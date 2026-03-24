@@ -333,6 +333,38 @@ Having covered what makes submissions effective, here are the most common mistak
 
 **Not following up.** After submitting, track the committee's proceedings. If your concern was not addressed and you have an opportunity to present orally, use it. If the committee adopts the bill without addressing your concern, and the bill returns to the full House for debate, consider engaging with individual MPs or your constituency MP to raise the issue at the plenary stage.
 
+:::framework
+**The Submission Impact Checklist**
+
+Before you submit your public comment on a bill, regulation, or policy document, run it through this six-point checklist to maximise its impact. Each point addresses a specific factor that determines whether committee members will read, remember, and act on your submission.
+
+**Check 1: Is it on time?**
+
+Confirm the submission deadline and submit at least two days early. A late submission will not be considered, regardless of its quality. Mark the deadline on your calendar with a one-week advance reminder. If you discovered the opportunity late and cannot prepare a full submission, submit a short, focused comment on one or two clauses rather than submitting nothing.
+
+**Check 2: Does it reference specific provisions?**
+
+Your submission must identify the specific clause, section, or regulation number you are commenting on. "Clause 14(2)(b) should be amended to include..." is actionable. "This bill is problematic" is not. Committee staff summarise submissions by clause — if your comment cannot be linked to a specific provision, it will be categorised as a general comment and carry less weight.
+
+**Check 3: Does it explain the real-world impact?**
+
+For each provision you address, explain concretely who will be affected and how. "This clause will require every informal trader in the municipality to obtain a licence costing R2,000, which exceeds the monthly income of most informal traders and will effectively criminalise their livelihoods" is persuasive because it connects the legal text to a human consequence. Draw on your personal experience, your professional knowledge, or documented evidence.
+
+**Check 4: Does it propose a specific alternative?**
+
+A submission that identifies a problem and proposes a solution is more useful than one that only identifies a problem. Where possible, suggest specific alternative wording: "We recommend that Clause 14(2)(b) be amended to read: '[your proposed text].'" Even if your exact wording is not adopted, it gives the committee a starting point for crafting an amendment.
+
+**Check 5: Is the tone constructive and evidence-based?**
+
+Review your submission for emotional language, political rhetoric, and personal attacks. Replace them with factual statements and evidence-based reasoning. "This clause will cause measurable harm because..." is persuasive. "This clause is an outrage..." is not. Committee members across party lines respond to evidence and practical analysis, not to anger.
+
+**Check 6: Does it include a numbered list of recommendations?**
+
+End your submission with a clear, numbered summary of your recommendations. This is what committee members and research staff will read first. Each recommendation should be specific enough to be acted on directly: "1. Amend Clause 14(2)(b) to exempt informal traders with annual turnover below R500,000. 2. Insert a new Clause 14(3) requiring the department to publish a regulatory impact assessment before implementing the licensing requirement."
+
+By running your submission through these six checks, you ensure that your voice enters the legislative process in the form most likely to influence the outcome — specific, evidence-based, constructive, and actionable.
+:::
+
 ## Participation Compounds
 
 A single submission may or may not change a law. But participation compounds. The first time you submit, you learn the process. The second time, you know where to find the documents, how to structure your response, and who to contact. By the third or fourth time, you are a known participant in the process—committee staff recognise your name, your submissions have a track record, and your inputs carry the credibility of sustained engagement. Over time, you may connect with other citizens and organisations who share your concerns, and your individual voice becomes part of a collective one.

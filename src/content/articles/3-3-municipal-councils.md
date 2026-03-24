@@ -294,6 +294,34 @@ When you evaluate your municipal council, ask these five questions. First, does 
 
 These five questions will not capture every dimension of municipal governance, but they will tell you whether the basic machinery of democratic local government is functioning in your municipality. The municipal council is the closest level of government to your daily life. It deserves your attention, your scrutiny, and your participation—because when it works, it works for you, and when it fails, you are the first to feel it.
 
+:::framework
+**The Council Accountability Framework**
+
+When you want to determine whether your municipal council is governing effectively — or when you suspect it is not — work through these five questions to build a specific, evidence-based assessment:
+
+**Question 1: Does my municipality have a permanent, qualified municipal manager?**
+
+Check your municipality's website or annual report for the name and appointment status of the municipal manager. If the position is held by an acting appointee, find out how long the acting arrangement has been in place. An acting municipal manager for more than six months signals governance instability. The municipal manager is the accounting officer — the person responsible for turning the council's decisions into services. If this position is unstable, everything downstream is at risk.
+
+**Question 2: What is my municipality's audit outcome, and what does it reveal?**
+
+Look up your municipality in the Auditor-General's annual MFMA report at agsa.co.za. Check the audit outcome (clean, unqualified with findings, qualified, adverse, or disclaimer) and track it over three years. Then look beyond the headline outcome: check the amount of irregular expenditure, whether the municipality has addressed previous audit findings, and whether the AGSA identified any material findings on service delivery. A municipality that receives the same audit findings year after year is a municipality where consequence management has failed.
+
+**Question 3: Is the MPAC functioning?**
+
+Find out whether your municipality's Municipal Public Accounts Committee meets regularly, examines the Auditor-General's findings, and tables reports to council. Ask your ward councillor or check council minutes (which should be available on the municipal website). An MPAC that meets quarterly, produces substantive reports, and follows up on previous recommendations is the strongest indicator of a council that takes oversight seriously. An MPAC that exists on paper but barely meets is a council where oversight has collapsed.
+
+**Question 4: Is my ward councillor accessible and active?**
+
+Determine whether your ward councillor holds ward committee meetings (the Municipal Structures Act requires ward committees). Attend a meeting, or ask neighbours whether meetings have been held. Check whether the ward councillor has brought specific community concerns to the council — you can verify this through council minutes or by contacting the speaker's office. A ward councillor who holds regular ward committee meetings, reports back on council decisions, and follows up on community complaints is fulfilling the constitutional design. One who is invisible between elections is not.
+
+**Question 5: Is the council stable enough to govern?**
+
+Check whether the council has adopted its budget on time (before 1 July each year, as required by the MFMA). Check whether council meetings are taking place as scheduled. In coalition-governed municipalities, check whether the executive is in place or whether there have been motions of no confidence, changes in the mayoral position, or extended periods without a functional executive. A council that cannot adopt a budget on time or that is consumed by internal political conflict cannot deliver services — regardless of how much money it receives.
+
+With these five questions — municipal manager stability, audit outcome, MPAC functionality, ward councillor activity, and council stability — you can assess whether the basic machinery of democratic local government is working in your municipality, and identify exactly where it is breaking down.
+:::
+
 ## Municipal Government and Community Safety: The Governance Gap That Affects You Most
 
 The municipal council governs the services closest to your daily life — water, electricity, refuse, roads. But the service that most directly affects your sense of safety — policing — is almost entirely outside municipal control. This gap matters because community safety is fundamentally local: the crime patterns in your neighbourhood, the hotspots where muggings occur, the dark streets where women feel unsafe, the illegal dumping sites that attract criminal activity — these are local problems that require local responses. Yet the institutional architecture places policing in a national hierarchy that is structurally disconnected from the municipal governance framework this article has described.

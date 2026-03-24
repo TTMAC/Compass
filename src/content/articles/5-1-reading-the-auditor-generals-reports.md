@@ -304,6 +304,30 @@ SCOPA hearings and parliamentary committee meetings are documented by the Parlia
 AGSA consolidated general reports and individual entity reports: [agsa.co.za](https://www.agsa.co.za) and [agsareports.co.za](https://www.agsareports.co.za). National Treasury budget documents and Division of Revenue data: [treasury.gov.za](https://www.treasury.gov.za). Municipal financial data: [municipaldata.treasury.gov.za](https://municipaldata.treasury.gov.za). SCOPA and parliamentary committee proceedings: [pmg.org.za](https://pmg.org.za). AGSA also publishes a Citizen's Report — an accessible summary designed for the general public — available on its website alongside each consolidated general report.
 :::
 
+:::framework
+**The Audit Outcome Interrogation Framework**
+
+When you look up your municipality's or department's audit results, use this four-question framework to move from a headline audit outcome to a specific, evidence-based accountability claim.
+
+**Question 1: What is the audit opinion, and how has it changed?**
+
+Start with the audit outcome — clean, unqualified with findings, qualified, adverse, or disclaimer. Then check the trend: compare it to the previous two to three years using AGSA's trend data. An entity that has maintained a clean audit for five years is in a fundamentally different position from one that regressed from unqualified to qualified. A regression demands explanation. A persistent disclaimer over multiple years signals a governance emergency. The direction of the trend tells you more than any single year's result.
+
+**Question 2: Where exactly did the financial management break down?**
+
+Do not stop at the audit opinion. Read the detailed findings. For a qualified opinion, identify the specific areas of qualification — was it property and equipment, revenue, grants, or something else? For compliance findings, check whether the entity had irregular expenditure (rules broken on procurement), fruitless and wasteful expenditure (money definitively wasted), or unauthorized expenditure (money spent beyond what was approved or on unapproved purposes). Note the rand amounts. Each category points to a different type of failure requiring a different remedy.
+
+**Question 3: Are there material irregularities, and what is being done about them?**
+
+Check whether AGSA identified material irregularities under its expanded mandate. If so, note the estimated financial impact, the nature of the irregularity, and the current status. Has the accounting officer responded? Has AGSA escalated to binding remedial actions? Has the matter been referred to law enforcement? Has a certificate of debt been issued? An MI that has been outstanding for multiple audit cycles without resolution tells you that the self-correction mechanism is failing — and that external pressure from citizens, SCOPA, or the courts may be needed.
+
+**Question 4: Does the spending match the promises?**
+
+Cross-reference the audit findings with the entity's budget allocation (from National Treasury or Municipal Money) and its performance plan (the APP or IDP). Ask three linked questions: Was the money allocated? Was it spent? Was it spent properly? If R150 million was allocated for water infrastructure and the audit shows R60 million was spent with R30 million in irregular expenditure and the performance report shows only 40% of targets were met — you have a complete, documented accountability narrative: money was available, most of it was not spent, and what was spent was not spent lawfully or effectively.
+
+By systematically answering these four questions, you transform an audit report from an intimidating technical document into a precise diagnosis of where public money went wrong — and where accountability pressure should be directed.
+:::
+
 ## Where to Go From Here
 
 You now understand what the Auditor-General of South Africa is, what it audits, how its five audit opinions work, what the key financial management terms mean, how the expanded material irregularity mandate operates, and how to access and read the reports yourself. You understand the difference between PFMA and MFMA audits, you know what SCOPA does with audit findings, and you have a practical toolkit for turning published audit data into accountability claims.

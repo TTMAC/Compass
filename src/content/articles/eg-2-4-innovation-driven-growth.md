@@ -197,6 +197,30 @@ By tracking these four dimensions over time, you can form a grounded assessment 
 
 This framework is not academic exercise. It is a tool for accountability. When a political party claims to support innovation-driven growth, you can ask: what has happened to R&D intensity under your governance? Are patent filings rising or falling? Is venture capital investment growing? Are university-industry linkages strengthening? The answers are in the data, and the data is publicly available. Use it.
 
+:::framework
+**The Innovation Ecosystem Scanner**
+
+When evaluating whether South Africa is making real progress toward innovation-driven growth, work through these four dimensions using publicly available data:
+
+**Dimension 1: Is R&D investment rising?**
+
+Check the National Survey of Research and Experimental Development (published by CeSTII at the HSRC on behalf of the DSI) for gross expenditure on research and development (GERD) as a percentage of GDP. Break it down by funding source — government, business enterprise, higher education, non-profit. The critical question is whether GERD is rising as a share of GDP, particularly whether business enterprise R&D expenditure (BERD) is growing. South Africa needs to move from 0.8% toward 2.5% of GDP. Supplementary data is available from the UNESCO Institute for Statistics and the OECD Main Science and Technology Indicators database.
+
+**Dimension 2: Is patent output increasing?**
+
+Check domestic filings through CIPC annual reports and international (PCT) filings through WIPO's PATENTSCOPE database and World Intellectual Property Indicators report. Track total resident patent filings per year, PCT filings per year, filings by sector, and filings by institution. Rising patent output — especially from universities and public research institutions — signals a growing innovation pipeline.
+
+**Dimension 3: Is venture capital activity expanding?**
+
+Check the annual SAVCA Venture Capital Survey for funds raised, investments made, sectoral distribution, investment by stage (seed, early, growth), and exits. Compare total VC investment as a percentage of GDP against international benchmarks. The key question is whether VC is reaching deep-tech sectors or remains concentrated in fintech and e-commerce.
+
+**Dimension 4: Are university-industry linkages strengthening?**
+
+Check NIPMO annual reports for IP disclosures, patent applications, and licensing agreements from publicly funded research. Review university annual reports for contract research revenue, spin-off companies, and industry partnerships. Rising numbers of disclosures, licences, and spin-offs signal that the bridge between research and commercial application is being built.
+
+Apply a traffic-light assessment to each dimension: green if improving at a rate consistent with reaching benchmark levels within 20 to 25 years, amber if improving but too slowly, red if stagnant or declining. When a political party claims to support innovation-driven growth, use these four dimensions to test the claim against the evidence.
+:::
+
 ## Resources
 
 The following sources provide the data and context needed to track South Africa's progress toward innovation-driven growth.

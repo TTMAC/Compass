@@ -298,6 +298,30 @@ With all these channels mapped, the practical question becomes: which one should
 The right channel depends on what you want to achieve. Service delivery complaints start with your ward councillor. Influence over municipal priorities goes through the IDP and budget processes. Input on legislation goes through parliamentary or provincial legislature public comment processes. Information requests go through PAIA. Complaints about government misconduct go to the Public Protector or SAHRC. And when formal channels fail, peaceful protest is your constitutionally protected right. You do not need to use every channel—but knowing they exist means you can choose the right one when the moment comes.
 :::
 
+:::framework
+**The Participation Action Framework**
+
+When you want to engage with government on an issue that affects you, work through these four questions to choose the right channel and maximise your impact:
+
+**Question 1: What exactly do I want to achieve?**
+
+Be specific. "Better services" is a goal, not an actionable demand. "The replacement of the burst water main on Molefe Street, which has been leaking for four months and is causing flooding that affects 200 households" is an actionable demand. "The Department of Health should increase its budget for primary healthcare clinics" is a policy position that belongs in a parliamentary submission. "My PAIA request for the municipality's infrastructure maintenance schedule was refused without proper grounds" is a legal complaint that belongs with the courts or SAHRC. The specificity of your demand determines which channel will be most effective.
+
+**Question 2: Which level of government is responsible, and which channel reaches them?**
+
+If the issue is a neighbourhood service delivery problem (water, roads, refuse, streetlights), start with your ward councillor and escalate to the municipal complaints channel, then to a formal petition to the council speaker. If the issue is a municipal planning or budget priority, engage through the IDP and budget public comment processes between April and June. If the issue is national or provincial legislation, submit written comments during the public comment period and track committee hearings through PMG at pmg.org.za. If the issue is government misconduct or maladministration, lodge a complaint with the Public Protector at pprotect.org. If the issue is a violation of your rights, contact the SAHRC at sahrc.org.za.
+
+**Question 3: What information do I need, and how do I get it?**
+
+Effective participation requires evidence. If you need government records — a contract, a spending report, an infrastructure plan, a decision memo — file a PAIA request with the relevant government body. Be specific about the records you want. The body must respond within 30 days. If you need budget data, check treasury.gov.za for national and provincial budgets, and municipaldata.treasury.gov.za for municipal finances. If you need audit findings, check agsa.co.za. If you need committee schedules and submission deadlines, check pmg.org.za. Gather your evidence before you engage — a submission backed by data carries more weight than one based on frustration alone.
+
+**Question 4: How do I make my participation count?**
+
+For written submissions: be concise, be specific, link your concern to a constitutional right or a legal obligation, and propose a concrete remedy. For municipal IDP and budget processes: attend the consultation meeting with a written proposal that identifies a specific need, estimates its cost if possible, and explains its community impact. For complaints to Chapter 9 institutions: provide a clear chronological account, attach supporting documents, and specify the relief you seek. For all channels: document everything — keep copies of submissions, note the dates and names of officials you engage with, and follow up in writing. A documented trail creates accountability that verbal conversations do not.
+
+With these four questions — what do I want, who is responsible, what evidence do I need, and how do I make it count — you can navigate the participation system strategically and choose the channel that gives your concern the best chance of producing a result.
+:::
+
 ## What Participation Looks Like When It Works
 
 It is easy to be cynical about participation. The barriers are real. The channels are imperfect. The feedback loop between citizen input and government action is often broken. But participation has produced tangible results in South African governance, and those results are worth understanding because they show what is possible.

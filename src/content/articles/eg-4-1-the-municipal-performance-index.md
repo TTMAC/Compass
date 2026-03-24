@@ -282,6 +282,34 @@ As a complete worked example, Cape Town's Economic Development pillar scores are
 You do not need to be a statistician to use the MPI. The methodology is deliberately transparent and the calculations require nothing more than basic arithmetic and a spreadsheet. If you can subtract, divide, and use the power function in a spreadsheet, you can calculate a municipality's MPI score from publicly available data. The value of this is not merely academic. When you can calculate the score yourself, you can verify the published rankings, challenge scores you believe are wrong, and hold both the index producers and the municipalities accountable. A performance index that citizens can reproduce is a performance index that cannot be quietly manipulated.
 :::
 
+:::framework
+**The MPI Calculation Guide**
+
+You can calculate a Municipal Performance Index score for any South African municipality using publicly available data. Follow these steps:
+
+**Step 1: Identify your municipality's category and peer group.**
+
+Determine whether your municipality is Category A (metro), B1 (secondary city), B2/B3 (medium town), or B4 (rural) using the Municipal Demarcation Board website (demarcation.org.za). Your municipality should only be compared to others in the same category.
+
+**Step 2: Gather raw data from primary sources.**
+
+Collect the most recent values for each indicator. Use National Treasury's Municipal Money portal (municipalmoney.gov.za) for financial data — revenue collection, expenditure, capital budgets, irregular expenditure, audit outcomes. Use Statistics South Africa (statssa.gov.za) for economic and demographic data. Use the Auditor-General's reports (agsa.co.za) for governance indicators. Use the Department of Water and Sanitation for Blue Drop and Green Drop water quality scores. If more than 30% of indicators are missing, the municipality cannot be reliably scored.
+
+**Step 3: Normalise each indicator to a 0-100 scale.**
+
+For "higher is better" indicators (debt collection rate, water access, employment growth): Score = ((Actual - Min) / (Max - Min)) x 100. For "lower is better" indicators (unemployment, non-revenue water): Score = ((Max - Actual) / (Max - Min)) x 100. Use the fixed goalposts: unemployment 15-40%, youth unemployment 25-60%, employment growth -5% to +5%, debt collection 50-95%, capital execution 40-95%, non-revenue water 15-50%. Cap scores at 0 and 100.
+
+**Step 4: Calculate pillar scores and the overall MPI.**
+
+Average the normalised scores within each pillar (Economic Development, Service Delivery, Governance and Finance, Infrastructure and Sustainability). Then apply the weighted geometric mean using your category's weights. For metros: 0.35, 0.25, 0.25, 0.15. For B4 rural: 0.30, 0.25, 0.30, 0.15. The formula is: MPI = (P1^w1) x (P2^w2) x (P3^w3) x (P4^w4).
+
+**Step 5: Assign the performance tier.**
+
+High Performance: 70 and above. Moderate: 55 to 69. Needs Improvement: 40 to 54. Critical: below 40. Compare your result to peer municipalities in the same category to understand where your municipality stands relative to structurally similar institutions.
+
+With these five steps, you can verify any published MPI ranking, challenge scores you believe are wrong, and hold your municipal council accountable against objective, data-driven benchmarks.
+:::
+
 ## Resources
 
 The primary data sources for the MPI are all freely accessible online. Statistics South Africa publishes the Quarterly Labour Force Survey, Census results, and General Household Survey at statssa.gov.za, where you can download detailed tables broken down by metropolitan and municipal area. National Treasury's municipal finance data is available through two platforms: municipaldata.treasury.gov.za provides the raw Section 71 quarterly data in downloadable format, while municipalmoney.gov.za presents the same data in a more accessible interface designed for non-specialist users, including the ability to look up individual municipalities and compare them on key financial indicators. The Auditor-General publishes all MFMA audit reports, including the annual general report on local government and individual municipal audit reports, at agsa.co.za. The Department of Water and Sanitation publishes Blue Drop and Green Drop assessment results through its regulatory reporting systems, though the publication schedule has varied. The CIPC publishes company registration statistics that can be filtered by region. For those interested in the academic literature on composite index construction, the OECD-JRC Handbook on Constructing Composite Indicators provides a rigorous treatment of normalisation methods, weighting schemes, and aggregation approaches, including a detailed discussion of geometric versus arithmetic means. The Financial and Fiscal Commission's annual submissions to Parliament, available through the FFC website, provide essential context on the intergovernmental fiscal framework within which municipalities operate, and SALGA's municipal barometer offers supplementary institutional data. For citizens seeking to engage directly with their municipality's performance, [Your Economic Citizenship](/articles/eg-5-3-your-economic-citizenship) provides practical guidance on using public data for civic advocacy and accountability.

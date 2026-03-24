@@ -232,6 +232,34 @@ These indicators are published annually by National Treasury in its *Local Gover
 **Step 8: Engage the municipal budget process.** Attend IDP and budget public participation meetings (April to June). Submit written comments on the draft budget. Ask specific questions: what is the municipality's plan for reducing non-revenue water losses? Why was the MIG underspent last year? What is the municipality doing about its Eskom arrears? Municipal officials are required to respond to public submissions. Use this to create a documented record of commitments that you can follow up on.
 :::
 
+:::framework
+**The Municipal Money Diagnostic Framework**
+
+When you suspect that money is reaching your municipality but services are not reaching you, work through these five questions in order:
+
+**Question 1: How much money did my municipality actually receive?**
+
+Look up your municipality in the Division of Revenue Bill annexures at treasury.gov.za to find the equitable share allocation and conditional grant amounts. Then check your municipality's adopted budget (available on the municipal website or at municipaldata.treasury.gov.za) to see total revenue from all sources — national transfers, property rates, electricity surcharges, water charges, and other own revenue. This tells you the total fiscal resources available.
+
+**Question 2: Is my municipality spending the money it receives?**
+
+Check the capital expenditure rate — is the municipality spending its MIG or USDG allocation, or is infrastructure money going unspent? National Treasury's quarterly expenditure data and the Auditor-General's MFMA report show spending rates by grant. A municipality that consistently spends below 70% of its conditional grants is failing to build infrastructure that has already been funded. Also check whether the operating budget is being consumed disproportionately by salaries and administration rather than service delivery.
+
+**Question 3: Is my municipality collecting what it is owed?**
+
+Check the revenue collection rate at municipaldata.treasury.gov.za. A rate above 95% is healthy. Below 80% signals fiscal trouble. Below 60% signals potential collapse. Also check whether the municipality's consumer debtors (money owed by ratepayers) are growing — a sign that the revenue base is eroding.
+
+**Question 4: Is my municipality paying what it owes?**
+
+Check whether the municipality has significant arrears to Eskom, water boards, or other creditors. A municipality that collects revenue from residents but does not pay its bulk suppliers is diverting your payments and risking service interruptions. The current ratio (short-term assets divided by short-term liabilities) tells you whether the municipality can meet its immediate obligations — below 1.0 means technical insolvency.
+
+**Question 5: What does the audit say about the gap between spending and delivery?**
+
+Read the Auditor-General's MFMA report for your municipality at agsa.co.za. The audit outcome tells you whether financial management is sound. The findings on infrastructure delivery tell you whether money that was reported as spent actually produced the roads, pipes, and buildings it was supposed to fund. A municipality can spend its entire grant allocation and still fail to deliver — because spending and delivery are not the same thing.
+
+With these five questions — how much was received, how much was spent, how much was collected, how much was paid to creditors, and what the audit reveals — you can trace the money from Treasury to your town and identify exactly where the fiscal pipeline breaks down.
+:::
+
 ## Where to Go From Here
 
 You have now followed the money from its source to its destination — from SARS through the National Revenue Fund, through DORA, through the equitable share and conditional grants, through the municipal budget, and into the services you use every day. You understand the three revenue streams that fund your municipality, the business model that turns property rates and electricity surcharges into roads and refuse collection, the revenue collection crisis that is undermining that model, the Eskom debt that threatens to collapse it, and the infrastructure maintenance deficit that is slowly degrading the physical systems you depend on.

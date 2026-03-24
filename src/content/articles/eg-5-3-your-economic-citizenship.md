@@ -225,6 +225,30 @@ When election season arrives, obtain the manifestos of all major parties. Read t
 
 Between elections and budget cycles, track three to five key economic indicators relevant to your context on a quarterly or annual basis. At the national level, track GDP growth (Stats SA quarterly release), the unemployment rate (QLFS quarterly), and debt-to-GDP (Treasury monthly data). At the municipal level, track your metro's AGSA audit outcome (annual), capital expenditure performance (Municipal Money portal, quarterly updates), and one service delivery indicator that matters to your community (water quality, electricity reliability, or waste management). When indicators deteriorate, use formal channels: ward councillor engagement, IDP submissions, portfolio committee submissions, Public Protector complaints, AGSA tip-offs, or community petitions. Document your engagements — keep copies of submissions, record responses (or non-responses), and build a paper trail. Accountability is cumulative; a single engagement may not produce results, but a documented pattern of evidence-based engagement, sustained over time, shifts the balance of power between citizens and the state.
 
+:::framework
+**The Economic Accountability Cycle**
+
+Use this four-step cycle to exercise your economic citizenship systematically throughout the year, rather than engaging only during elections or crises. Each step builds on the previous one to create sustained, evidence-based pressure for accountable governance.
+
+**Step 1: October — Read the MTBPS (2 hours)**
+
+When the Medium Term Budget Policy Statement is tabled, download it and the statistical annexures from treasury.gov.za. Extract four numbers: the GDP growth projection, the debt-to-GDP trajectory, the real change in infrastructure spending (nominal change minus inflation), and contingent liabilities from SOEs. Compare each to last year's MTBPS. Ask: is the fiscal framework consistent with the growth stage transition that South Africa needs? If the Treasury projects growth below 2% and infrastructure spending is declining in real terms, the government's own numbers are telling you that its current policy framework is not generating the transformation the country requires. Submit written comments to the Standing Committee on Finance during its MTBPS hearings.
+
+**Step 2: January to May — Engage the IDP process (3 to 5 hours)**
+
+Obtain your municipality's current IDP from the municipal website. Read the LED section. Evaluate it against three criteria: does it include specific, measurable targets (not vague aspirations)? Does it have a realistic budget allocation? Is there evidence that previous LED commitments were actually implemented? Prepare written submissions with data: your municipality's AGSA audit outcome, capital expenditure ratio from Municipal Money, Blue Drop and Green Drop scores, and QLFS employment trends. Submit these during the IDP public participation process and attend at least one ward-level consultation. Written submissions become part of the public record and create accountability trails that verbal complaints do not.
+
+**Step 3: Quarterly — Track three to five indicators (30 minutes per quarter)**
+
+Choose the indicators most relevant to your context. At the national level: GDP growth (Stats SA quarterly release) and unemployment (QLFS). At the municipal level: your metro's capital expenditure performance (Municipal Money portal) and one service delivery indicator that matters to your community — water quality, electricity reliability, or waste management. Record the numbers each quarter so you can identify trends. A single data point can be dismissed; a documented pattern of deterioration across multiple quarters demands a specific institutional response.
+
+**Step 4: When indicators deteriorate — Escalate through formal channels**
+
+When your monitoring reveals problems, use the channel appropriate to the issue. Service delivery failures: ward councillor, then municipal manager, then IDP submission. Financial mismanagement: Auditor-General tip-off line at agsa.co.za. Constitutional rights violations: South African Human Rights Commission at sahrc.org.za. Maladministration: Public Protector at pprotect.org. Legislative oversight: written submission to the relevant portfolio committee. For maximum impact, document every engagement — keep copies of submissions, record dates, note responses or non-responses. A documented pattern of evidence-based engagement, sustained over time, shifts the balance of power between citizens and the state.
+
+By following this cycle consistently — not once, but every year — you transform yourself from a voter who chooses a party every five years into an economic citizen who participates in governance continuously, using the government's own data to hold it accountable for results rather than promises.
+:::
+
 ## Closing: From Knowledge to Power
 
 This article — and this entire series — has been built on a simple premise. Economic policy in South Africa is too important to be left to economists and politicians alone. The decisions made in the MTBPS, in IDP chambers, in parliamentary portfolio committees, and at NEDLAC determine whether jobs are created or destroyed, whether infrastructure is built or left to decay, whether schools produce skilled graduates or warehouse children for twelve years without teaching them to read, and whether municipalities create the conditions for economic growth or become obstacles to it.

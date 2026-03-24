@@ -206,6 +206,34 @@ Apply this framework to any of the strategies in the graveyard section above, an
 
 This is the framework you can carry forward into [From Strategy to Reality](/articles/eg-5-2-from-strategy-to-reality), where we examine what a properly sequenced implementation plan looks like in practice — and why the sequencing of reforms matters as much as their content.
 
+:::framework
+**The Execution Quality Audit**
+
+When a government minister announces a new economic strategy, sector plan, or set of economic targets, assess its likelihood of implementation by asking these five questions:
+
+**Question 1: Is the strategy backed by a legislated mandate or a ministerial directive?**
+
+A legislated mandate means the strategy has been debated in Parliament, encoded in law, and given permanence that survives cabinet reshuffles. A ministerial directive can be withdrawn without formal process. Check whether the strategy exists as an Act of Parliament, a government gazette notice, a cabinet decision, or merely a ministerial speech. Strategies backed by legislation have a significantly higher probability of sustained implementation.
+
+**Question 2: Is there a dedicated agency responsible for execution?**
+
+A dedicated agency with a clear mandate, adequate staffing, and organisational focus is far more likely to drive implementation than a line department juggling dozens of competing priorities. When a strategy relies on "coordination" of multiple departments without a lead agency that has authority and accountability, implementation depends on voluntary cooperation between bureaucratic actors with different incentives. Check whether a specific institution has been designated with execution authority, budget, and staffing.
+
+**Question 3: Are the key performance indicators publicly reported and independently verified?**
+
+Targets tracked internally but not publicly reported create no external accountability. Targets publicly reported but not independently verified create incentives for creative accounting. Check whether the strategy's KPIs are published at regular intervals and audited by an independent body such as the Auditor-General. If you cannot find specific, measurable KPIs in a public document, the accountability framework is inadequate.
+
+**Question 4: Is the budget ring-fenced or subject to annual reallocation?**
+
+Economic strategies require sustained multi-year investment. If funding is subject to annual reallocation through the normal budget process, the strategy's resourcing is inherently uncertain. Check whether the strategy has ring-fenced budgets, multi-year appropriations, or dedicated funding mechanisms such as levies or earmarked revenues.
+
+**Question 5: What happens when the minister changes?**
+
+If the strategy depends on a specific minister's personal commitment, it is vulnerable to the next reshuffle. Check whether the strategy is embedded in institutional structures — a legislated mandate, a permanent agency, published KPIs, a ring-fenced budget. Ask: if the current minister were replaced tomorrow, would the strategy continue? If the honest answer is no, the strategy is built on sand.
+
+If the answers to most of these questions are unfavourable, the strategy is likely to join its predecessors in the graveyard — regardless of how impressive the document looks.
+:::
+
 ## Resources
 
 The institutional challenges of economic strategy execution in South Africa are documented extensively in the academic and policy literature. The Public Affairs Research Institute (PARI) at the University of the Witwatersrand has produced foundational research on state capacity, institutional design, and the organisational sociology of the South African public service, available at pari.org.za. The Government Technical Advisory Centre (GTAC) within National Treasury publishes technical papers and evaluation reports on public policy implementation, many of which address the coordination failures discussed in this article, accessible through gtac.gov.za. The National Planning Commission's diagnostic reports and its assessment of NDP implementation progress are available through the Department of Planning, Monitoring and Evaluation at dpme.gov.za and provide the most authoritative account of the gap between strategy and implementation from within government itself.

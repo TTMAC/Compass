@@ -222,6 +222,42 @@ Remember that this tool produces an approximation, not a definitive verdict. The
 You do not need to wait for an academic institution or government agency to rank your municipality. The data sources described above — Municipal Money, Statistics South Africa, the Auditor-General's reports, and the Municipal Demarcation Board — are freely accessible online and contain the raw information you need to calculate a reasonable approximation of your municipality's performance. The exercise of gathering and analysing this data will itself make you a more informed and more demanding citizen, which is ultimately the point of [Your Economic Citizenship](/articles/eg-5-3-your-economic-citizenship).
 :::
 
+:::framework
+**The Municipal Comparison Tool**
+
+You can conduct your own municipal performance comparison using freely available data. Follow these seven steps:
+
+**Step 1: Identify your target municipality and its peer group.**
+
+Determine your municipality's category using the Municipal Demarcation Board website (demarcation.org.za) — Category A (metro), B1 (secondary city), B2/B3 (medium town), or B4 (rural). Only compare municipalities within the same category. Comparing a metro to a rural municipality is a category error, not rigorous analysis.
+
+**Step 2: Gather raw data from primary sources.**
+
+Use National Treasury's Municipal Money portal (municipalmoney.gov.za) for financial data — revenue collection, expenditure, capital budgets, irregular expenditure, and audit outcomes. Use Statistics South Africa (statssa.gov.za) for labour market and service delivery data. Use the Auditor-General's reports (agsa.co.za) for audit outcomes and irregular expenditure figures. Use the Department of Water and Sanitation (dws.gov.za) for Blue Drop and Green Drop water quality scores.
+
+**Step 3: Normalise each indicator using the goalpost method.**
+
+For "higher is better" indicators: Score = ((Actual - Min) / (Max - Min)) x 100. For "lower is better" indicators: Score = ((Max - Actual) / (Max - Min)) x 100. Key metro goalposts: unemployment 15-40%, youth unemployment 25-60%, employment growth -5% to +5%, debt collection 50-95%, capital execution 40-95%, non-revenue water 15-50%. Cap all scores between 0 and 100.
+
+**Step 4: Calculate pillar scores.**
+
+Average the normalised indicator scores within each pillar: Economic Development, Service Delivery, Governance and Finance, and Infrastructure and Sustainability.
+
+**Step 5: Calculate the overall score using the weighted geometric mean.**
+
+For metros, apply weights of 0.35 (Economic Development), 0.25 (Service Delivery), 0.25 (Governance and Finance), and 0.15 (Infrastructure). The formula: Overall = (P1^0.35) x (P2^0.25) x (P3^0.25) x (P4^0.15).
+
+**Step 6: Assign the performance tier.**
+
+High Performance: 70+. Moderate: 55-69. Needs Improvement: 40-54. Critical: below 40.
+
+**Step 7: Compare against peer benchmarks.**
+
+For metros, compare your result to Cape Town's 84.0 and Johannesburg's 52.2 to understand where your metro falls in the range. For non-metro municipalities, compare within your peer group. Remember that a 3-point gap may be within measurement uncertainty, while a 30-point gap reflects a genuine and significant performance difference.
+
+With these seven steps and publicly available data, you can move from anecdote to evidence — transforming frustration about municipal performance into informed, data-driven accountability.
+:::
+
 ## Resources and Institutional Sources
 
 The analysis in this article draws on data and research from the following institutional sources, each of which maintains publicly accessible data portals or publication archives.

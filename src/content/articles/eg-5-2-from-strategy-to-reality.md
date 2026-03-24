@@ -260,6 +260,38 @@ This is what [Watching the Watchers](/articles/eg-3-3-watching-the-watchers) cal
 
 The answer to those questions will not always be comfortable for the government of the day. That is the point. An implementation monitoring system that only delivers good news is not a monitoring system. It is a public relations operation. The value of the system lies precisely in its willingness to show red indicators — to tell the truth about where the plan is failing, who is responsible, and what needs to change. A government that is genuinely committed to economic transformation should welcome such a system, because it provides the information needed to correct failures before they become catastrophes. A government that resists such a system is telling you something important about its relationship with accountability.
 
+:::framework
+**The Strategy-to-Execution Audit**
+
+When government announces an economic strategy — national, provincial, or municipal — use this six-step audit to determine in under thirty minutes whether the strategy has the operational machinery to deliver results or whether it is a wish list dressed up as a plan.
+
+**Step 1: Check for sequencing.**
+
+Does the strategy specify what must happen first, second, and third — and why? Look for explicit dependency statements: "We cannot begin X until Y is in place." A strategy that presents twenty priorities simultaneously without sequencing them has not done the implementation thinking. South Africa's binding constraints must be addressed in order: infrastructure first, then resource optimisation, then efficiency-driven growth, then innovation. If the strategy skips stages, it will fail at the prerequisites it ignored.
+
+**Step 2: Check for measurable KPIs with baselines and deadlines.**
+
+For every objective, look for a specific indicator with a current baseline value, a target value, and a date. "Improve port efficiency" is not a KPI. "Reduce average ship turnaround time at Durban from 95 hours to 45 hours by March 2030, measured quarterly using TNPA operational data" is a KPI. Also check whether the strategy distinguishes between leading indicators (early warning signals) and lagging indicators (outcome measures). A strategy that only tracks outcomes will discover failure too late to correct course.
+
+**Step 3: Check for a public dashboard.**
+
+Are the KPIs published where citizens can see them? Look for a specific commitment to a public reporting platform, a reporting frequency (quarterly for leading indicators, annually for lagging indicators), and full methodological transparency. A strategy that measures its own performance internally but does not publish results publicly is accountable only to itself.
+
+**Step 4: Check for a course-correction mechanism.**
+
+What happens when targets are missed? Look for a graduated response framework: operational adjustments for minor deviations, strategic adjustments for significant misses, and strategic pivots for fundamental changes in circumstances. If the strategy says "we will review and adjust" without specifying who decides, what triggers the decision, and what approval process applies, there is no real mechanism — just a platitude.
+
+**Step 5: Check for personal accountability.**
+
+Is each target assigned to a specific institution and, ideally, a specific person? If the strategy says "the Department will improve export diversification" without specifying which official owns the target, what reporting obligations they have, and what happens if the target is missed for three consecutive years, then nobody is actually accountable. Look for performance agreements, reporting obligations, and consequence management provisions.
+
+**Step 6: Check for institutional anchoring.**
+
+Is the strategy embedded in instruments that survive changes of minister — the Medium Term Strategic Framework, Cabinet resolutions, parliamentary tracking mechanisms, departmental annual performance plans? A strategy that lives only in a minister's presentation slides will disappear when the minister is reshuffled. A strategy embedded in the MTSF and tracked by portfolio committees has institutional durability.
+
+By applying this audit, you can quickly separate the plans that have a realistic chance of delivering from the wish lists that will generate press conferences and achieve nothing.
+:::
+
 ## Practical Framework: The Implementation Readiness Checklist
 
 Every strategy document that crosses your desk — whether it is a national economic strategy, a provincial growth plan, a municipal integrated development plan, or a sectoral master plan — can be evaluated against six questions. If the strategy can answer all six convincingly, it has the operational machinery to deliver. If it cannot, it is a wish list, regardless of how sophisticated its analysis or how eloquent its prose.

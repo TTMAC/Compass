@@ -281,6 +281,34 @@ For the energy and transport sectors, Eskom's and Transnet's quarterly operation
 
 The tracker is designed to connect to the broader measurement architecture described across Part 4 of this series. The MPI provides municipal-level measurement. This tracker provides national-level infrastructure measurement. Together, they give you a two-level assessment system: how well is national infrastructure being planned and delivered (this tracker), and how well are municipalities translating that infrastructure into services for citizens (the MPI). [From Strategy to Reality](/articles/eg-5-2-from-strategy-to-reality) will draw these measurement threads together into an integrated assessment of whether South Africa's economic growth strategy is translating from plan to execution across all levels of government.
 
+:::framework
+**The Infrastructure Gap Diagnostic**
+
+When infrastructure in your area is failing — load-shedding, water outages, potholed roads, slow broadband — use this five-question diagnostic to pinpoint where in the delivery chain the breakdown is occurring and what data to cite when demanding answers.
+
+**Question 1: Was the project planned?**
+
+Check whether the infrastructure need is recognised in the relevant national plan — the Integrated Resource Plan (energy), the National Water and Sanitation Master Plan (water), the National Rail Policy (transport), or SA Connect (digital). If the project is not in any plan, the failure is at the strategic prioritisation stage. Source: PICC reports, ISA pipeline reports, sector master plans.
+
+**Question 2: Was the project prepared to bankability?**
+
+A planned project that has not completed feasibility studies, environmental impact assessment, and financial structuring cannot attract funding or begin construction. Check whether the project has moved beyond concept stage. If it has been "planned" for five or more years without reaching financial close, the failure is at the project preparation stage — the "missing middle" that traps most South African infrastructure. Source: Infrastructure Fund reports, DBSA project preparation data, GTAC pipeline tracking.
+
+**Question 3: Was the budget allocated and spent?**
+
+Compare the capital budget allocation in the Estimates of National Expenditure or the Municipal Infrastructure Grant to actual expenditure reported in annual financial statements. If money was allocated but not spent (underspending above 20%), the failure is at the delivery management stage — procurement bottlenecks, construction management weakness, or institutional dysfunction. Source: National Treasury budget documentation, Vulekamali portal, municipal Section 71 reports.
+
+**Question 4: Was the project delivered on time and on cost?**
+
+For projects that did proceed to construction, calculate the timeline variance (months or years of delay) and the cost variance (percentage overrun). Compare against the original commitment. If costs doubled and timelines tripled — as with Medupi and Kusile — the failure is at the construction management stage. Source: SOE integrated reports, Auditor-General reports, ISA progress reports, Parliamentary Monitoring Group records.
+
+**Question 5: Is the last mile working?**
+
+Even when national infrastructure is built, it only reaches citizens through municipal distribution networks. Check your municipality's non-revenue water percentage, electricity distribution losses, and capital expenditure ratio. If bulk supply exists but the municipal network is failing, the binding constraint is municipal institutional capacity — and the MPI is your measurement tool. Source: Blue Drop and Green Drop reports, Municipal Money portal, AGSA municipal audit outcomes.
+
+By identifying the specific stage at which delivery breaks down, you move from a general complaint about "no service delivery" to a precise diagnosis that tells you which institution is responsible, what data proves the failure, and where to direct your accountability demand.
+:::
+
 ## Resources
 
 For tracking infrastructure delivery against plans, the following institutional sources provide the data required to maintain the infrastructure delivery tracker described above.

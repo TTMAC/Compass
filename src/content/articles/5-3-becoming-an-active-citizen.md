@@ -257,6 +257,42 @@ The practice compounds. The first year, you are learning the system. The second 
 - Service delivery reporting: [govchat.org](https://www.govchat.org)
 :::
 
+:::framework
+**The Accountability Cycle Checklist**
+
+Use this annual checklist to sustain your civic engagement practice. Each item is tied to a specific point in the government calendar, a specific data source, and a specific action. You do not need to complete every item — choose the cycle most relevant to your focus issue and build from there.
+
+**February — Budget tabling: What is your entity receiving?**
+
+When the national budget is tabled, check your province's and municipality's allocations on Vulekamali (vulekamali.gov.za) and Municipal Money (municipalmoney.gov.za). Compare to the previous year in real terms (adjust for inflation using Stats SA's CPI). Note the conditional grants your municipality receives and their purposes. Write down the baseline allocation — this is the number you will check against spending and delivery later.
+
+**March to May — Draft municipal budget: Are the plans funded?**
+
+When your municipality publishes its draft budget, compare the capital projects listed against the IDP priorities. Check whether employee costs exceed 40% of operating expenditure (a National Treasury red flag). Check whether infrastructure spending exceeds 10% of the total budget. Submit a written comment on any disconnect between the IDP commitments and the draft budget allocations, referencing specific project names and amounts.
+
+**July to September — IDP review: Are your priorities reflected?**
+
+Attend your municipality's IDP review consultation. Bring three specific, prioritised infrastructure or service needs, agreed with your neighbours or ward committee. Reference existing IDP commitments that were not delivered. Submit written input and keep a dated copy. Ask the municipal officials facilitating the meeting how your previous inputs were incorporated.
+
+**September to October — Annual reports: What was delivered?**
+
+When your municipality's annual report is published, compare what was delivered against what the IDP and budget promised. Check the SDBIP quarterly targets against actual delivery. Check whether the provincial department responsible for your focus issue (health, education) met its APP targets. Use Wazimap (wazimap.com) or Stats SA data to verify whether service delivery indicators in your area improved or worsened.
+
+**November — PFMA audit reports: Was the money managed properly?**
+
+When the Auditor-General tables the PFMA consolidated report, look up your province's health and education departments at agsa.co.za or agsareports.co.za. Check the audit opinion and its trend. Note irregular expenditure amounts, material irregularity status, and compliance findings. Follow SCOPA hearings on the findings through PMG (pmg.org.za).
+
+**Mid-year — MFMA audit reports: How is your municipality performing?**
+
+When the MFMA consolidated report is tabled, look up your municipality. Apply the same checks: audit opinion, trend, irregular expenditure, material irregularities, financial health indicators. Compare the audit findings to the budget allocation you noted in February. If the money was allocated but not spent properly, you have a documented accountability claim.
+
+**Ongoing — Act on what you find**
+
+Write a submission when a legislative or budget process is open. Attend your ward committee meeting with specific, documented questions. File a PAIA request (Form 2 from inforegulator.org.za) when you need records that are not published. Share your findings with a civil society organisation, a journalist, or your community. Contact the Public Protector if you find evidence of maladministration.
+
+By following this annual checklist, you build a compounding practice — each cycle deepens your knowledge, strengthens your evidence base, and increases the specificity and impact of your engagement.
+:::
+
 ## A Final Word
 
 This series began with a claim: that the gap between what South Africa's Constitution promises and what citizens experience is not primarily a gap of design. The Constitution is well-designed. The fiscal system is well-documented. The accountability institutions exist. The gap is in the practice — in the space between the mechanisms that exist and the citizens who use them.

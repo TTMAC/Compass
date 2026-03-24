@@ -194,6 +194,34 @@ South Africa is not yet at Stage 2. The interventions described in this article 
 
 The honest answer, as of today, is that the track record is mixed. South Africa has pockets of institutional excellence — the South African Revenue Service at its best, the Reserve Bank, elements of the National Treasury — and large expanses of institutional mediocrity. The efficiency transition requires institutional quality to become the norm rather than the exception. That is the work of a decade, not a single election cycle. And it is work that will determine whether South Africa's children grow up in a middle-income country that finally breaks through to prosperity, or in a middle-income country that remains permanently stuck between what it was and what it could have been.
 
+:::framework
+**The "Efficiency Readiness" Assessment Framework**
+
+When evaluating whether South Africa is making progress on the efficiency transition — or when assessing a policy proposal that claims to advance it — use this five-dimension checklist. Each dimension has specific, publicly available indicators you can track yourself.
+
+**Dimension 1: Can firms produce reliably?**
+
+Check three infrastructure indicators. Is grid electricity available at least 99% of the time in industrial areas? (Track via Eskom generation data and CSIR energy statistics.) Is port turnaround time below two days at Durban and Cape Town? (Track via Transnet quarterly port performance statistics.) Is broadband at speeds above 25 Mbps available and affordable for businesses outside major metros? (Track via ICASA annual reports.) If the answer to any of these is no, the infrastructure foundation for efficiency-driven manufacturing is not yet in place — and any policy that assumes it is will underperform.
+
+**Dimension 2: Can the education system supply the workers the economy needs?**
+
+Check three education pipeline indicators. Are TVET throughput rates above 65%? (Current rates in many programmes fall below 30% — track via Department of Higher Education and Training annual statistics.) Is South Africa producing at least 100 STEM graduates per 100,000 population? (Currently approximately 50 — track via Council on Higher Education data.) Do employer surveys show improving satisfaction with graduate quality? (Track via the Human Resource Development Council and the Quarterly Labour Force Survey's data on unemployment by qualification level.) If throughput is low, STEM output is weak, and employers report a skills mismatch, the human capital precondition for the efficiency transition is not being met.
+
+**Dimension 3: Does the regulatory environment reward or punish productive investment?**
+
+Check three regulatory quality indicators. Can a business achieve full regulatory compliance — company registration, tax registration, labour compliance, sector licences — in under 10 days? (Track via Companies and Intellectual Property Commission statistics.) Can a standard commercial building permit be approved in under 60 days? (Track via municipal planning departments — current timelines often exceed 120 days.) Can a commercial contract dispute be resolved in under 400 days? (South Africa's current average exceeds 600 days — track via Department of Justice court performance statistics.) Every day beyond these benchmarks is a cost that competitors in Poland, Vietnam, and Malaysia do not pay.
+
+**Dimension 4: Is South Africa integrated into regional markets at sufficient scale?**
+
+Check two trade integration indicators. Is intra-SADC trade above 30% of total SADC trade? (Currently below 25% — track via SADC Secretariat trade statistics and SARS trade data.) Are border crossing times at Beitbridge, Lebombo, and Maseru Bridge falling? (Track via Cross-Border Road Transport Agency data.) Manufacturing investment requires market scale. If regional integration is not deepening, the investment case for many manufacturing sectors remains weaker than it needs to be.
+
+**Dimension 5: Is institutional coordination improving across government?**
+
+Check two coordination indicators. What percentage of National Development Plan and Medium Term Strategic Framework targets are achieved within their stated timelines? (Track via Department of Planning, Monitoring and Evaluation quarterly reports.) How many specific regulatory reforms has Operation Vulindlela completed in the past year, and what is their measured impact? (Track via Presidency updates on Vulindlela progress.) If implementation rates are low and reform delivery is slow, individual sector improvements will not translate into the systemic institutional quality that the efficiency transition demands.
+
+You do not need to track all fifteen indicators to get a useful picture. Tracking even one indicator from each dimension — and checking it every six months — will give you a better basis for assessing South Africa's economic trajectory than any politician's growth promise. The data is public. The benchmarks are clear. The only question is whether the numbers are moving in the right direction.
+:::
+
 ## Resources
 
 For readers who want to explore the topics covered in this article in greater depth, the following sources provide rigorous, evidence-based analysis accessible to non-specialists.

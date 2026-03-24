@@ -272,6 +272,30 @@ The municipal budget process is the level where individual citizen engagement ca
 **Compare allocation to outcomes.** The most powerful analysis any citizen can perform is comparing what was budgeted, what was spent, and what was achieved. The ENE shows what was budgeted. The Annual Report shows what was achieved. The Auditor-General's report tells you whether the financial and performance claims are credible. The gap between these three documents is the accountability gap — and identifying it is the first step toward closing it.
 :::
 
+:::framework
+**The Budget Timing Framework**
+
+When you want to influence how public money is spent, work through these four questions to identify the right moment and the right channel:
+
+**Question 1: Where are we in the budget cycle right now?**
+
+Check the calendar. If it is October, the MTBPS is about to be tabled or has just been tabled — this is when the fiscal boundaries are set. If it is February to May, the budget has been tabled and portfolio committees are holding hearings — this is when departmental allocations are scrutinised. If it is April to June, your municipality's draft budget is open for public comment — this is when local spending decisions can be influenced. If it is September to November, annual reports and Auditor-General findings are being examined — this is when past spending is held to account.
+
+**Question 2: Which document should I read for my concern?**
+
+If your concern is about the overall fiscal direction (how much the government borrows, how much goes to debt versus services), read the MTBPS fiscal framework section and the FFC's response at ffc.co.za. If your concern is about a specific department (education, health, police), read that department's chapter in the Estimates of National Expenditure (ENE) at treasury.gov.za. If your concern is about your province or municipality's allocation, read the Division of Revenue Bill annexures. You do not need to read thousands of pages — one targeted document will answer most questions.
+
+**Question 3: Who is examining this spending, and can I submit input?**
+
+Identify the relevant portfolio committee in the National Assembly (for national departments) or the relevant committee in your provincial legislature (for provincial departments). Check the Parliamentary Monitoring Group at pmg.org.za for the committee's schedule and submission deadlines. For municipal budgets, check your municipality's website or office for the draft budget publication date and public comment deadline.
+
+**Question 4: What evidence makes my submission count?**
+
+Link budget data to service delivery outcomes. Use the ENE to identify what was allocated, the Annual Report to identify what was achieved, and the Auditor-General's report to assess whether the spending was regular and the performance claims credible. A submission that says "Department X was allocated R5 billion for Programme Y but underspent by 20% while the infrastructure backlog grew" carries more weight than "spend more on services."
+
+With these four questions — where in the cycle, which document, which committee, what evidence — you can engage the budget process at the moment when your input is most likely to matter.
+:::
+
 ## Where to Go From Here
 
 You now understand the complete budget cycle — from strategic planning in April through the MTBPS in October, budget day in February, parliamentary scrutiny in March to June, implementation monitoring, the adjustments budget, and the annual audit. You know which documents matter, when they are published, and where to find them. You know where citizens can engage and which entry points are most meaningful. And you know that the budget is not a single day in February but a continuous twelve-month process with specific decision points where the fiscal choices affecting your life are made.

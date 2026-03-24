@@ -188,6 +188,34 @@ Here is how to put these indicators together into a plain-language assessment. S
 
 This is not a partisan exercise. It is an analytical one. The numbers do not belong to any political party. They belong to you, the citizen, and they are published by your government's own institutions. Learning to read them is an act of democratic participation.
 
+:::framework
+**The "Economic Health Check" Framework**
+
+When you hear a politician, commentator, or analyst make claims about the state of the economy or promise economic growth, use this five-step process to cut through the rhetoric and assess the claim against the structural reality of South Africa's R7,000 economy.
+
+**Step 1: Check the GDP per capita trajectory.**
+
+Go to National Treasury's latest Budget Review or Medium Term Budget Policy Statement and find the GDP growth projection. Subtract population growth (approximately 1% to 1.5%) to get the real per-capita growth rate. If the result is below 2%, the economy is not generating enough new wealth to meaningfully reduce unemployment or improve living standards. Ask: does the politician's claim account for this arithmetic?
+
+**Step 2: Locate South Africa on Porter's stages.**
+
+Ask whether the proposed policy addresses the factor-driven trap. Does it move the economy toward efficiency-driven competition — better production processes, higher skills, more sophisticated products — or does it simply promise to extract more from existing resources? If the policy relies entirely on mining revenues, commodity exports, or cheap labour, it is reinforcing the factor-driven stage rather than escaping it.
+
+**Step 3: Check the Economic Complexity Index.**
+
+Visit the Harvard Growth Lab's Atlas of Economic Complexity (atlas.cid.harvard.edu) and look at South Africa's country profile. Is the export basket becoming more diverse and sophisticated over time, or is it concentrating further in minerals and basic commodities? If complexity is declining, no amount of GDP growth will produce sustainable development.
+
+**Step 4: Apply the comparator test.**
+
+When a growth target is announced — say, "5% GDP growth" — ask which comparable country achieved that rate and through what structural mechanism. If no country at South Africa's development stage has achieved the promised outcome through the proposed policy instrument, the promise is likely unrealistic. Use the comparators from this series — Turkey, Malaysia, Chile, Poland, South Korea — as your reference points.
+
+**Step 5: Track the five key indicators over time.**
+
+Monitor GDP growth relative to population growth, the debt-to-GDP ratio, gross fixed capital formation as a percentage of GDP, the current account balance, and SARS revenue collection against projections. If growth barely exceeds population growth, debt is rising, investment is declining, the current account deficit finances consumption rather than investment, and revenue is falling short — the economy is stagnating structurally, regardless of political promises. All five indicators are published in National Treasury's Budget Review and MTBPS documents, which are freely available online.
+
+This framework will not make you an economist, but it will make you a far more informed voter. The numbers are published by your own government's institutions, and learning to read them is one of the most powerful acts of democratic participation available to any citizen.
+:::
+
 ## Resources and Institutional Sources
 
 The analysis in this article draws on publicly available data and research from the following institutional sources. Each maintains data portals or publication archives that you can access directly.

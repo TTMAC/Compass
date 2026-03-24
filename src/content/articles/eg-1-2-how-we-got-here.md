@@ -214,6 +214,30 @@ You will notice that most economic conditions in South Africa are not purely str
 
 The framework does not tell you what the right policy response is. That is the subject of the rest of this series — beginning with [The Comparator Countries](/articles/eg-1-3-the-comparator-countries) for international evidence, and then Part 2 (The Growth Strategy), which presents a staged pathway from $7,000 to $50,000 GDP per capita starting with [Resource Optimisation](/articles/eg-2-1-resource-optimisation). What it does is help you evaluate policy proposals by asking whether they address the structural dimension of a problem (which requires deep, sustained reform), the policy-choice dimension (which requires course correction), or both. A proposal that addresses only one dimension is likely to be insufficient. A proposal that pretends a structural problem can be fixed with a quick policy change is misleading. And a proposal that treats every problem as a structural inheritance, using history as an excuse for inaction, is equally misleading — because there are real policy choices within the constraints of the inherited structure that can make a meaningful difference.
 
+:::framework
+**The "Policy Origins" Decision Framework**
+
+When you encounter an economic problem — unemployment, the energy crisis, manufacturing decline, concentrated ownership — use this four-step process to trace its origins, classify it correctly, and evaluate whether proposed solutions are adequate to the scale of the problem.
+
+**Step 1: Trace the condition to its policy origins.**
+
+Ask: when did this condition first emerge? Use the timeline in this article as your reference. If the condition has roots in the colonial period (pre-1910), the apartheid era (1948-1994), or the early democratic transition (1994-2008), it is likely an inherited structural feature embedded in the physical infrastructure, spatial geography, industrial structure, or skills profile of the country. If it emerged primarily after 2008, it is more likely the result of recent policy choices or institutional failures — though it may still interact with inherited structures.
+
+**Step 2: Identify the specific decisions that created or deepened the condition.**
+
+For each economic condition, identify the two or three most consequential policy decisions. For unemployment: the 1913 Land Act (migrant labour system), Bantu Education (skills destruction), and GEAR's trade liberalisation (manufacturing job losses). For the energy crisis: the 1990s decision to halt new capacity investment, and state capture-era corruption at Eskom. For deindustrialisation: apartheid-era import substitution (uncompetitive factories) and rapid post-1994 tariff reduction. Writing these decisions down forces clarity about causes and prevents vague attribution to "the economy" or "the government."
+
+**Step 3: Classify the condition as structural, policy-driven, or both.**
+
+Structural conditions — the spatial mismatch between where the unemployed live and where jobs exist, the skills deficit created by Bantu Education, the capital-intensive orientation of the minerals-energy complex — cannot be fixed by changing a single policy or firing a minister. They require sustained investment over decades. Policy-driven conditions — the pace of renewable energy procurement, the design of industrial incentives, the management of Eskom — can be corrected within a shorter timeframe through different decisions by existing institutions. Most conditions in South Africa are a combination of both. Getting the classification right determines whether you should expect a quick fix or a generational project.
+
+**Step 4: Evaluate proposed solutions against the classification.**
+
+When a politician or party proposes a solution, ask whether it matches the scale of the problem. If the problem is primarily structural (like the skills deficit), a solution that promises results within one electoral term is almost certainly overselling. If the problem is primarily policy-driven (like the pace of energy reform), a solution that defers action to a long-term plan may be an excuse for inaction. The most honest proposals acknowledge both dimensions: the structural inheritance that constrains what is possible in the short term, and the policy choices that can make a meaningful difference within the constraints.
+
+This framework will not tell you which party to vote for. It will help you distinguish between politicians who understand the depth of South Africa's economic challenges and those who are offering slogans in place of structural analysis.
+:::
+
 ## Resources
 
 The following institutional sources provide data, analysis, and research relevant to the economic history covered in this article.

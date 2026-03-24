@@ -213,6 +213,26 @@ For each category, the dashboard should track not just the current level but the
 
 You do not need to be an economist to use this dashboard. You need three numbers for each engine — current level, trend, and comparator benchmark — and the willingness to ask why the gaps exist and who is accountable for closing them. That accountability question leads directly to the institutional architecture examined in [The Execution Machine](/articles/eg-3-2-the-execution-machine).
 
+:::framework
+**The Growth Engine Dashboard**
+
+When assessing whether South Africa's economy is building the structural foundations for broad-based growth, track these three engines using publicly available data:
+
+**Engine 1: Are enough new businesses being created and surviving?**
+
+Check CIPC monthly and annual statistics (cipc.co.za) for new company registrations — this tells you the flow of new ventures entering the economy. Then check the Global Entrepreneurship Monitor South Africa report (published annually with SEDA support) for the TEA rate, established business ownership rate, and the split between opportunity-driven and necessity-driven entrepreneurship. The critical question is not just how many businesses are starting, but how many are surviving past two years and whether they are opportunity-driven ventures with growth potential. Compare South Africa's TEA rate (typically 7-11%) against peers like Chile (25%) and Brazil (20%).
+
+**Engine 2: Is the export basket diversifying?**
+
+Check SARS customs and excise trade statistics for export values by product category. Track the number of product categories where South Africa has revealed comparative advantage and calculate the Herfindahl-Hirschman Index of export concentration to see whether the basket is broadening or narrowing over time. Use the Harvard Growth Lab's Atlas of Economic Complexity (atlas.cid.harvard.edu) for pre-calculated complexity and diversification metrics. The key question is whether South Africa is moving into nearby products — processed minerals, agricultural value-added goods, professional services — or remaining stuck in raw commodity exports.
+
+**Engine 3: Is capital reaching small and medium businesses?**
+
+Check the South African Reserve Bank's BA900 returns for lending by loan size as a proxy for MSME lending volumes. Check the National Credit Regulator's quarterly statistics for credit extension by provider type. Review IDC, DBSA, SEFA, and NEF annual reports for DFI disbursement to MSMEs. For the most granular picture, consult the FinMark Trust FinScope MSME Survey for data on MSME financial inclusion, including the critical "discouraged borrower" effect where viable businesses never apply because they expect to be declined.
+
+For each engine, track three numbers: the current level, the trend (improving or declining over recent years), and the gap relative to comparator country benchmarks. If all three engines are improving and the gaps are narrowing, the growth strategy is working. If any engine is stagnant or declining, the system is incomplete — because the three engines only generate growth when they turn together.
+:::
+
 ## Resources
 
 The following institutional sources informed the analysis in this article.

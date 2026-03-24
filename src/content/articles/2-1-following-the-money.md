@@ -238,6 +238,32 @@ National Treasury budget documents, Division of Revenue Bill, and expenditure da
 Following the money is not an advanced skill. It is a basic civic practice that anyone with internet access and the patience to read a government document can perform. The data is public. The institutions that publish it are constitutionally mandated to do so. The question is whether you, as a citizen, choose to use it — and once you do, you will never again accept "there is no money" as an explanation for failed services without checking whether that claim is actually true.
 :::
 
+## The Fiscal Accountability Framework
+
+:::framework
+**The Fiscal Pipeline Diagnostic**
+
+When public services in your area are failing — or when a politician claims "there is no money" — use this four-question framework to diagnose exactly where in the fiscal pipeline the problem lies.
+
+**Question 1: Was the money allocated?**
+
+Check the Division of Revenue Act and the relevant budget documents (national Estimates of National Expenditure, provincial budget statements, or municipal adopted budgets) to determine whether money was allocated for the service in question. If money was not allocated, the problem is a political priority problem — the service was not funded because decision-makers chose to fund something else. Your accountability target is the political leadership that set budget priorities: the Minister of Finance nationally, the MEC for Finance provincially, or the mayor and council municipally.
+
+**Question 2: Was the money spent?**
+
+Check quarterly expenditure reports (published by National Treasury for national and provincial departments) or the municipal in-year monitoring reports to determine whether allocated money was actually spent. If money was allocated but not spent, the problem is an institutional capacity problem — underspending caused by procurement delays, project management failures, or administrative dysfunction. Your accountability target is the accounting officer: the Director-General nationally, the Head of Department provincially, or the Municipal Manager locally.
+
+**Question 3: Was the money spent properly?**
+
+Check the Auditor-General's report for the relevant department or municipality. If the money was spent but the audit reveals irregular expenditure, fruitless and wasteful expenditure, or material non-compliance with procurement rules, the problem is a governance and compliance problem. Your accountability target is the accounting officer and the political head (minister, MEC, or mayor) who is responsible for oversight. The AGSA's findings will tell you whether the irregularity was technical non-compliance or something more serious.
+
+**Question 4: Did the spending produce results?**
+
+Check the Auditor-General's performance audit findings and the department or municipality's annual report to determine whether the money spent translated into actual service delivery outcomes. If the money was allocated, spent, and spent in compliance with the rules — but the services still did not materialise or were of poor quality — the problem is an effectiveness and value-for-money problem. Your accountability targets are the programme managers responsible for delivery, and the oversight bodies (portfolio committees in Parliament or the legislature, and the municipal public accounts committee) that are supposed to hold them to account.
+
+**How to use this framework:** Work through the questions in order. The first question that produces a "no" identifies the failure point. Most service delivery failures can be traced to one of these four points in the pipeline. By identifying the specific failure point, you move from a general complaint ("government is failing") to a precise diagnosis ("R150 million was allocated for water infrastructure in my municipality, R70 million was not spent by year-end, and the Auditor-General found that the municipality lacked the project management capacity to implement registered projects"). That precision is what turns frustration into accountability.
+:::
+
 ## Where to Go From Here
 
 You now understand the full fiscal pipeline: how SARS collects revenue, how the National Revenue Fund pools it, how DORA divides it among spheres, how the equitable share and conditional grants channel it to provinces and municipalities, how own revenue supplements (or fails to supplement) these transfers, and where money gets lost through underspending, irregular expenditure, and fiscal dumping. You understand the accountability paradox created by the separation between the entity that collects and the entities that spend. And you have a practical toolkit for following the money yourself.

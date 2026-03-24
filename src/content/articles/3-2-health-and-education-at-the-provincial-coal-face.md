@@ -220,6 +220,34 @@ When you look at this data, ask five questions. First, is your province spending
 
 These five questions will not tell you everything, but they will tell you the most important things. Provincial education and health delivery is where the largest share of your tax money goes, and it is where provincial government performance matters most to your daily life. You now have the tools to judge whether that money is being well spent.
 
+:::framework
+**The School and Clinic Report Card Framework**
+
+When you want to assess whether your provincial education or health system is delivering for your community, use this framework to build a specific, evidence-based picture — starting with your own school or clinic and working outward:
+
+**Step 1: Assess your local facility directly.**
+
+For your child's school: check the learner-to-teacher ratio using the DBE School Masterlist at education.gov.za. A ratio above 40:1 in primary school or 35:1 in secondary school signals overcrowding. Note whether the school has reliable water, electricity, and functional sanitation — the 2013 Norms and Standards require these as minimums. For your local clinic: check the OHSC inspection report at ohsc.org.za. A compliance score below 50% indicates fundamental failures in patient safety, cleanliness, or clinical care.
+
+**Step 2: Check the provincial indicators that explain your facility's performance.**
+
+For education: look beyond the headline matric pass rate. Check the bachelor's pass rate for your province at education.gov.za — this tells you how many learners are qualifying for university, not just passing. Check whether your province's education department is spending its capital budget or deferring infrastructure investment. For health: check medicine availability data from the Stop Stockouts Project at stockouts.org for your province. Check healthcare worker vacancy rates — your provincial health department's annual report lists funded posts versus filled posts.
+
+**Step 3: Identify whether the problem is money, management, or both.**
+
+Check your province's education and health AGSA audit outcomes at agsa.co.za. A clean or unqualified audit with a service delivery failure suggests the problem is insufficient funding — the province is managing well but does not have enough resources. A qualified opinion or disclaimer with a service delivery failure suggests the problem is management — money is being mismanaged, misspent, or not spent at all. Check the capital expenditure ratio: if your province spends less than 5% of its education or health budget on capital, it is not investing in the physical infrastructure that delivers services.
+
+**Step 4: Compare your province to others facing similar conditions.**
+
+Use the Health Systems Trust's South African Health Review at hst.org.za and the DBE's annual matric results to compare your province's outcomes against provinces with similar demographics and fiscal profiles. The Western Cape and Gauteng set the benchmark — but a fairer comparison for a rural province like the Eastern Cape or Limpopo is against other provinces with similar challenges. If your province is performing worse than peers with comparable resources and demographics, the gap is attributable to implementation quality — which is within your provincial government's control.
+
+**Step 5: Direct your accountability to the right level.**
+
+If the problem is a curriculum issue, textbook content, or national examination policy — that is a national DBE responsibility. If the problem is that textbooks were not delivered, teachers are not in classrooms, the clinic has no medicine, or the school building is falling apart — that is a provincial implementation failure. If the problem is that teacher salaries consumed the entire budget and left nothing for maintenance and materials — the root cause is the national wage agreement, but the province's response (how it manages the squeeze) is within its control. Knowing which level to hold accountable prevents misdirected frustration and produces sharper demands.
+
+With these five steps — assess your facility, check provincial indicators, diagnose money versus management, compare to peers, and direct accountability correctly — you can build a report card for your province's education and health delivery that is specific, fair, and actionable.
+:::
+
 ## The Safety Burden on Provincial Health: Violence as a Health Crisis
 
 Provincial health systems do not operate in isolation from the safety crisis documented in this site's Safety & Security series. Violence — particularly interpersonal violence and gender-based violence — is one of the largest drivers of demand on provincial health services, yet it is rarely discussed as a health system issue. The connection is direct: every assault, every stabbing, every gunshot wound, every sexual assault that enters a provincial hospital's trauma unit consumes clinical time, surgical resources, blood products, medication, and bed days that could otherwise serve patients with treatable illnesses.

@@ -250,6 +250,34 @@ When you read about your provincial government's performance, ask these question
 
 No province governs in a vacuum. Your province operates within a fiscal framework it did not design, implements policies it did not write, and employs staff whose salaries it did not negotiate. Holding your provincial government accountable means holding it accountable for what it can control—the quality of implementation, the integrity of appointments, the effectiveness of oversight—while understanding the structural constraints that shape what is possible. The awkward middle child of South African governance deserves neither the free pass it sometimes receives nor the unfair blame it often absorbs. It deserves scrutiny that is informed, specific, and fair.
 
+:::framework
+**The Provincial Performance Assessment Framework**
+
+When you want to evaluate whether your provincial government is performing well — or when you hear claims about provincial success or failure — work through these five questions to form a fair, evidence-based judgement:
+
+**Question 1: What is my province's AGSA audit track record?**
+
+Look up your province's departments at agsa.co.za in the annual PFMA Consolidated General Report. Check the audit outcomes for the two departments that matter most — Education and Health. Are they achieving clean audits, unqualified opinions with findings, qualified opinions, or worse? Track the trend over three to five years. Improvement signals strengthening governance. Deterioration signals growing dysfunction. A province where both Education and Health have qualified or disclaimed audits has fundamental financial management problems.
+
+**Question 2: Is my province spending its budget, or is money going unspent?**
+
+Check National Treasury's Provincial Budget and Expenditure Review at treasury.gov.za. Look for two patterns: underspending on capital budgets (which means infrastructure that should have been built — classrooms, clinics, hospitals — was not) and overspending on personnel budgets (which means the salary bill is crowding out spending on textbooks, medicine, maintenance, and equipment). Both patterns signal implementation failure.
+
+**Question 3: Are the leadership positions stable?**
+
+Check whether the HODs (Heads of Department) for Education and Health are permanent appointments or acting officials. AGSA's root cause analysis consistently identifies leadership instability — acting HODs, frequent turnover, vacant CFO positions — as a primary driver of poor governance outcomes. A province where the Education or Health HOD has changed three times in five years, or where the position has been filled by acting officials for more than twelve months, is a province under administrative stress.
+
+**Question 4: What do the outcome indicators say — not just the spending numbers?**
+
+For education: check the bachelor's pass rate (not just the headline pass rate) at education.gov.za, and look at TIMSS/PIRLS scores for learning quality in earlier grades. For health: check the OHSC facility inspection scores at ohsc.org.za, medicine availability data from the Stop Stockouts Project at stockouts.org, and maternal mortality trends in the South African Health Review at hst.org.za. These outcome indicators tell you whether spending is translating into results.
+
+**Question 5: Am I holding the province accountable for what it controls?**
+
+Your province controls implementation quality — how efficiently it spends, whether it fills posts, whether it maintains infrastructure, whether it manages supply chains effectively. Your province does not control the equitable share formula, national wage agreements, or national policy frameworks. A fair evaluation holds the province accountable for the gap between what its budget should have delivered and what it actually delivered — not for constraints imposed from outside.
+
+With these five questions — audit track record, spending patterns, leadership stability, outcome indicators, and fair attribution — you can assess your provincial government with the specificity and fairness the system demands.
+:::
+
 ## Provincial Government and Community Safety: The Missing Mandate
 
 One of the most consequential gaps in provincial governance is the limited role provinces play in community safety — despite safety being the issue that most directly affects residents' daily lives. As the Safety & Security series on this site explores in detail, South Africa chose to centralise policing under a single national service (SAPS) rather than giving provinces meaningful policing authority. Section 206 of the Constitution gives provincial executives a monitoring role over policing — the provincial MEC for community safety can monitor police conduct, oversee the effectiveness of the police service in the province, and promote good relations between police and communities. But this monitoring power falls far short of the operational control that would make provinces genuinely accountable for safety outcomes.
