@@ -209,7 +209,7 @@ The problems South Africa faces are overwhelmingly implementation failures, not 
 
 When these assumptions fail—and they fail regularly—the system underperforms. But the response should be to fix the implementation, not to abandon the design. Replacing the three-sphere model with a centralised unitary system would not solve the problems of corruption, maladministration, and institutional weakness that plague service delivery. It would simply relocate those problems to a single point of failure.
 
-This is why understanding the architecture matters. When you know how the system is designed to work, you can identify where it is failing and why. You can distinguish between a structural problem (the system cannot do what is being asked of it) and a performance problem (the system can do it but the people running it are not doing their jobs). That distinction is the foundation of effective civic engagement.
+This is why understanding the architecture matters. When you know how the system is designed to work, you can identify where it is failing and why. You can distinguish between a **structural problem** (the system cannot do what is being asked of it) and a **performance problem** (the system can do it but the people running it are not doing their jobs). That distinction is the foundation of effective civic engagement.
 
 ## The Intergovernmental Fiscal System in Practice: A Case Study
 

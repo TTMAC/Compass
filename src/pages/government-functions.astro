@@ -1,0 +1,760 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="SA Government Functions — GovCompass"
+  description="A MECE framework mapping all functional areas across South Africa's three spheres of government — National, Provincial and Municipal — as defined by the Constitution."
+>
+  <style>
+    .gf-root {
+      --bg: #f5f0e8;
+      --bg-card: #ffffff;
+      --text: #1a1a1a;
+      --text-muted: #5a5a5a;
+      --accent-national: #1b4332;
+      --accent-national-light: #d8f3dc;
+      --accent-provincial: #14213d;
+      --accent-provincial-light: #d6e4f0;
+      --accent-municipal: #6b2737;
+      --accent-municipal-light: #f2d7dd;
+      --accent-concurrent: #7b5e00;
+      --accent-concurrent-light: #fff3c4;
+      --border: #d4cfc4;
+      --shadow: 0 2px 12px rgba(0,0,0,0.06);
+      --radius: 10px;
+    }
+
+    .gf-root {
+      font-family: 'DM Sans', sans-serif;
+      color: var(--text);
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    .gf-hero {
+      background: var(--accent-national);
+      color: white;
+      padding: 48px 32px 40px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .gf-hero::before {
+      content: '';
+      position: absolute;
+      top: -60%;
+      left: -20%;
+      width: 140%;
+      height: 200%;
+      background: radial-gradient(ellipse at 30% 40%, rgba(255,255,255,0.06) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .gf-hero h1 {
+      font-family: 'Fraunces', serif;
+      font-weight: 800;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+      position: relative;
+    }
+    .gf-hero .gf-flag {
+      display: inline-flex;
+      gap: 3px;
+      margin-bottom: 16px;
+    }
+    .gf-hero .gf-flag span {
+      width: 20px;
+      height: 6px;
+      border-radius: 3px;
+      display: inline-block;
+    }
+    .gf-hero .gf-subtitle {
+      font-size: 0.95rem;
+      opacity: 0.8;
+      max-width: 640px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+
+    .gf-nav-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      padding: 20px 16px 0;
+      flex-wrap: wrap;
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      z-index: 100;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 16px;
+    }
+    .gf-nav-tabs button {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.82rem;
+      font-weight: 500;
+      padding: 8px 18px;
+      border: 1.5px solid var(--border);
+      border-radius: 24px;
+      background: var(--bg-card);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.25s;
+    }
+    .gf-nav-tabs button:hover { border-color: #999; }
+    .gf-nav-tabs button.active {
+      background: var(--accent-national);
+      color: white;
+      border-color: var(--accent-national);
+    }
+    .gf-nav-tabs button[data-tab="concurrent"].active { background: var(--accent-concurrent); border-color: var(--accent-concurrent); }
+    .gf-nav-tabs button[data-tab="national"].active { background: var(--accent-national); border-color: var(--accent-national); }
+    .gf-nav-tabs button[data-tab="provincial"].active { background: var(--accent-provincial); border-color: var(--accent-provincial); }
+    .gf-nav-tabs button[data-tab="municipal"].active { background: var(--accent-municipal); border-color: var(--accent-municipal); }
+
+    .gf-container { max-width: 1100px; margin: 0 auto; padding: 24px 16px 60px; }
+
+    .gf-tab-content { display: none; animation: gfFadeIn 0.3s ease; }
+    .gf-tab-content.active { display: block; }
+    @keyframes gfFadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+
+    .gf-section-intro {
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      padding: 24px 28px;
+      margin-bottom: 24px;
+      border-left: 4px solid var(--accent-national);
+      box-shadow: var(--shadow);
+    }
+    .gf-section-intro[data-type="concurrent"] { border-left-color: var(--accent-concurrent); }
+    .gf-section-intro[data-type="provincial"] { border-left-color: var(--accent-provincial); }
+    .gf-section-intro[data-type="municipal"] { border-left-color: var(--accent-municipal); }
+    .gf-section-intro h2 {
+      font-family: 'Fraunces', serif;
+      font-weight: 600;
+      font-size: 1.35rem;
+      margin-bottom: 8px;
+    }
+    .gf-section-intro p { color: var(--text-muted); font-size: 0.9rem; }
+
+    .gf-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+
+    .gf-card {
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      box-shadow: var(--shadow);
+      border-top: 3px solid var(--accent-national);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .gf-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.08); }
+    .gf-card[data-type="concurrent"] { border-top-color: var(--accent-concurrent); }
+    .gf-card[data-type="provincial"] { border-top-color: var(--accent-provincial); }
+    .gf-card[data-type="municipal"] { border-top-color: var(--accent-municipal); }
+
+    .gf-card h3 {
+      font-family: 'Fraunces', serif;
+      font-weight: 600;
+      font-size: 1.05rem;
+      margin-bottom: 6px;
+    }
+    .gf-card .gf-dept {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 3px 10px;
+      border-radius: 12px;
+      margin-bottom: 10px;
+    }
+    .gf-card[data-type="national"] .gf-dept { background: var(--accent-national-light); color: var(--accent-national); }
+    .gf-card[data-type="concurrent"] .gf-dept { background: var(--accent-concurrent-light); color: var(--accent-concurrent); }
+    .gf-card[data-type="provincial"] .gf-dept { background: var(--accent-provincial-light); color: var(--accent-provincial); }
+    .gf-card[data-type="municipal"] .gf-dept { background: var(--accent-municipal-light); color: var(--accent-municipal); }
+
+    .gf-card .gf-desc { font-size: 0.85rem; color: var(--text-muted); line-height: 1.55; }
+
+    .gf-legend {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 20px 0 8px;
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+    .gf-legend-item { display: flex; align-items: center; gap: 6px; }
+    .gf-legend-dot { width: 10px; height: 10px; border-radius: 50%; }
+
+    .gf-overview-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      margin-top: 16px;
+      font-size: 0.85rem;
+    }
+    .gf-overview-table th {
+      background: var(--accent-national);
+      color: white;
+      padding: 12px 16px;
+      text-align: left;
+      font-weight: 500;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .gf-overview-table td {
+      padding: 10px 16px;
+      border-bottom: 1px solid #eee;
+      vertical-align: top;
+    }
+    .gf-overview-table tr:last-child td { border-bottom: none; }
+    .gf-overview-table tr:hover td { background: #faf8f4; }
+    .gf-badge {
+      display: inline-block;
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-weight: 500;
+    }
+    .gf-badge-exc-nat { background: var(--accent-national-light); color: var(--accent-national); }
+    .gf-badge-conc { background: var(--accent-concurrent-light); color: var(--accent-concurrent); }
+    .gf-badge-exc-prov { background: var(--accent-provincial-light); color: var(--accent-provincial); }
+    .gf-badge-muni { background: var(--accent-municipal-light); color: var(--accent-municipal); }
+
+    .gf-note-box {
+      background: #fff9e6;
+      border: 1px solid #f0e0a0;
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin-top: 20px;
+      font-size: 0.83rem;
+      color: #6b5800;
+    }
+    .gf-note-box strong { color: #4a3d00; }
+
+    @media(max-width: 600px) {
+      .gf-grid { grid-template-columns: 1fr; }
+      .gf-hero { padding: 32px 20px; }
+      .gf-container { padding: 16px 12px 40px; }
+      .gf-overview-table { font-size: 0.78rem; }
+      .gf-overview-table th, .gf-overview-table td { padding: 8px 10px; }
+    }
+  </style>
+
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,400&display=swap" rel="stylesheet" slot="head" />
+
+  <div class="gf-root">
+    <div class="gf-hero">
+      <div class="gf-flag">
+        <span style="background:#DE3831"></span>
+        <span style="background:#FFFFFF"></span>
+        <span style="background:#007A4D"></span>
+        <span style="background:#002395"></span>
+        <span style="background:#FFB612"></span>
+        <span style="background:#000000"></span>
+      </div>
+      <h1>South African Government Functions</h1>
+      <p class="gf-subtitle">A MECE framework mapping all functional areas across the three spheres of government — National, Provincial and Municipal — as defined by Schedules 4 &amp; 5 of the Constitution (Act 108 of 1996), including Concurrent, Exclusive, and the responsible departments.</p>
+    </div>
+
+    <div class="gf-legend">
+      <div class="gf-legend-item"><div class="gf-legend-dot" style="background:var(--accent-national)"></div> Exclusive National</div>
+      <div class="gf-legend-item"><div class="gf-legend-dot" style="background:var(--accent-concurrent)"></div> Concurrent (Schedule 4)</div>
+      <div class="gf-legend-item"><div class="gf-legend-dot" style="background:var(--accent-provincial)"></div> Exclusive Provincial (Schedule 5)</div>
+      <div class="gf-legend-item"><div class="gf-legend-dot" style="background:var(--accent-municipal)"></div> Local Government</div>
+    </div>
+
+    <nav class="gf-nav-tabs" aria-label="Government functions categories">
+      <button class="active" data-tab="overview">Overview Matrix</button>
+      <button data-tab="national">Exclusive National</button>
+      <button data-tab="concurrent">Concurrent (Sch 4)</button>
+      <button data-tab="provincial">Exclusive Provincial (Sch 5)</button>
+      <button data-tab="municipal">Municipal Functions</button>
+    </nav>
+
+    <div class="gf-container">
+
+      <!-- OVERVIEW TAB -->
+      <div class="gf-tab-content active" id="gf-tab-overview">
+        <div class="gf-section-intro">
+          <h2>Constitutional Allocation of Functions</h2>
+          <p>The 1996 Constitution creates three distinctive, interdependent and interrelated spheres. Functions are allocated via <strong>Schedule 4</strong> (concurrent national &amp; provincial competence) and <strong>Schedule 5</strong> (exclusive provincial competence). Each schedule is subdivided into <strong>Part A</strong> (national/provincial domain) and <strong>Part B</strong> (local government matters). Functions <em>not listed</em> in either schedule fall within <strong>exclusive national competence</strong> by residual power.</p>
+        </div>
+
+        <table class="gf-overview-table">
+          <thead>
+            <tr>
+              <th style="width:30%">Functional Area</th>
+              <th style="width:15%">Competence Zone</th>
+              <th style="width:20%">Schedule / Part</th>
+              <th style="width:35%">Key Responsible Department(s)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- EXCLUSIVE NATIONAL -->
+            <tr><td>Defence &amp; Military Veterans</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual (not in Sch 4/5)</td><td>Dept of Defence &amp; Military Veterans</td></tr>
+            <tr><td>Foreign Affairs &amp; International Relations</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual</td><td>Dept of International Relations &amp; Cooperation (DIRCO)</td></tr>
+            <tr><td>Home Affairs &amp; Immigration</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual</td><td>Dept of Home Affairs</td></tr>
+            <tr><td>National Treasury &amp; Fiscal Policy</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual / Ch 13</td><td>National Treasury; SA Reserve Bank</td></tr>
+            <tr><td>Higher Education &amp; Tertiary Education</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual (Sch 4 excludes tertiary)</td><td>Dept of Higher Education &amp; Training</td></tr>
+            <tr><td>Justice &amp; Constitutional Development</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual / Ch 8</td><td>Dept of Justice &amp; Constitutional Development</td></tr>
+            <tr><td>Correctional Services</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual / Ch 11</td><td>Dept of Correctional Services</td></tr>
+            <tr><td>Intelligence Services</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual / Ch 11</td><td>State Security Agency</td></tr>
+            <tr><td>Telecommunications &amp; ICT</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual</td><td>Dept of Communications &amp; Digital Technologies</td></tr>
+            <tr><td>Energy &amp; Minerals</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual</td><td>Dept of Mineral Resources &amp; Energy</td></tr>
+            <tr><td>Water &amp; Sanitation (bulk/strategic)</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual</td><td>Dept of Water &amp; Sanitation</td></tr>
+            <tr><td>National Parks, Botanical Gardens &amp; Marine Resources</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Excluded from Sch 4</td><td>Dept of Forestry, Fisheries &amp; the Environment</td></tr>
+            <tr><td>International &amp; National Shipping</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Excluded from Sch 4</td><td>Dept of Transport</td></tr>
+            <tr><td>National Roads &amp; Transport Regulation</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual</td><td>Dept of Transport; SANRAL</td></tr>
+            <tr><td>Land Reform &amp; Rural Development</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual</td><td>Dept of Agriculture, Land Reform &amp; Rural Development</td></tr>
+            <tr><td>Labour Relations &amp; Employment</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual</td><td>Dept of Employment &amp; Labour</td></tr>
+            <tr><td>Science, Technology &amp; Innovation</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual</td><td>Dept of Science &amp; Innovation</td></tr>
+            <tr><td>National Lotteries &amp; Sports Pools</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Excluded from Sch 4</td><td>Dept of Sport, Arts &amp; Culture</td></tr>
+            <tr><td>Public Enterprises (SOCs/SOEs)</td><td><span class="gf-badge gf-badge-exc-nat">Exclusive National</span></td><td>Residual</td><td>Dept of Public Enterprises</td></tr>
+
+            <!-- CONCURRENT -->
+            <tr><td>Agriculture</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Agriculture / Provincial Depts of Agriculture</td></tr>
+            <tr><td>Education (all levels excl. tertiary)</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Basic Education / Provincial Education Depts</td></tr>
+            <tr><td>Health Services</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Health / Provincial Health Depts</td></tr>
+            <tr><td>Housing</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Human Settlements / Provincial HS Depts</td></tr>
+            <tr><td>Police (to extent of Ch 11)</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Police / Provincial Community Safety</td></tr>
+            <tr><td>Environment</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Forestry, Fisheries &amp; Environment / Provincial DFFE</td></tr>
+            <tr><td>Disaster Management</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Cooperative Governance / Provincial CoGTA</td></tr>
+            <tr><td>Consumer Protection</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Trade, Industry &amp; Competition</td></tr>
+            <tr><td>Tourism</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Tourism / Provincial Tourism</td></tr>
+            <tr><td>Trade</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Trade, Industry &amp; Competition</td></tr>
+            <tr><td>Nature Conservation (excl. national parks)</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of DFFE / Provincial Conservation</td></tr>
+            <tr><td>Welfare Services</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Social Development / Provincial DSD</td></tr>
+            <tr><td>Cultural Matters</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Sport, Arts &amp; Culture / Provincial Arts</td></tr>
+            <tr><td>Industrial Promotion</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Trade, Industry &amp; Competition</td></tr>
+            <tr><td>Language Policy &amp; Official Languages</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Sport, Arts &amp; Culture / PanSALB</td></tr>
+            <tr><td>Indigenous Law &amp; Customary Law</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Justice / Dept of CoGTA (Traditional Affairs)</td></tr>
+            <tr><td>Traditional Leadership</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of CoGTA / Provincial Houses of Traditional Leaders</td></tr>
+            <tr><td>Urban &amp; Rural Development</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of CoGTA / Provincial Planning</td></tr>
+            <tr><td>Regional Planning &amp; Development</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of CoGTA / Provincial Planning</td></tr>
+            <tr><td>Public Works (provincial needs)</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Public Works &amp; Infrastructure</td></tr>
+            <tr><td>Road Traffic Regulation</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Transport / Provincial Transport</td></tr>
+            <tr><td>Airports (non-international/national)</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Transport / Provincial Transport</td></tr>
+            <tr><td>Animal Control &amp; Diseases</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Agriculture / Provincial Agriculture</td></tr>
+            <tr><td>Casinos, Racing, Gambling &amp; Wagering</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Trade, Industry &amp; Competition / Provincial Gambling Boards</td></tr>
+            <tr><td>Indigenous Forests Administration</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Forestry, Fisheries &amp; Environment</td></tr>
+            <tr><td>Media Services (provincial)</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Provincial Media Services</td></tr>
+            <tr><td>Pollution Control</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of DFFE / Provincial DFFE</td></tr>
+            <tr><td>Population Development</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Social Development</td></tr>
+            <tr><td>Property Transfer Fees</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>National Treasury / Provincial Treasury</td></tr>
+            <tr><td>Soil Conservation</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Agriculture</td></tr>
+            <tr><td>Vehicle Licensing</td><td><span class="gf-badge gf-badge-conc">Concurrent</span></td><td>Sch 4 Part A</td><td>Dept of Transport / Provincial Transport</td></tr>
+
+            <!-- EXCLUSIVE PROVINCIAL -->
+            <tr><td>Abattoirs</td><td><span class="gf-badge gf-badge-exc-prov">Exclusive Provincial</span></td><td>Sch 5 Part A</td><td>Provincial Agriculture Depts</td></tr>
+            <tr><td>Ambulance Services</td><td><span class="gf-badge gf-badge-exc-prov">Exclusive Provincial</span></td><td>Sch 5 Part A</td><td>Provincial Health Depts</td></tr>
+            <tr><td>Archives (non-national)</td><td><span class="gf-badge gf-badge-exc-prov">Exclusive Provincial</span></td><td>Sch 5 Part A</td><td>Provincial Arts &amp; Culture Depts</td></tr>
+            <tr><td>Libraries (non-national)</td><td><span class="gf-badge gf-badge-exc-prov">Exclusive Provincial</span></td><td>Sch 5 Part A</td><td>Provincial Arts &amp; Culture Depts</td></tr>
+            <tr><td>Liquor Licences</td><td><span class="gf-badge gf-badge-exc-prov">Exclusive Provincial</span></td><td>Sch 5 Part A</td><td>Provincial Liquor Authorities</td></tr>
+            <tr><td>Museums (non-national)</td><td><span class="gf-badge gf-badge-exc-prov">Exclusive Provincial</span></td><td>Sch 5 Part A</td><td>Provincial Arts &amp; Culture Depts</td></tr>
+            <tr><td>Provincial Planning</td><td><span class="gf-badge gf-badge-exc-prov">Exclusive Provincial</span></td><td>Sch 5 Part A</td><td>Provincial Planning Commissions / Premier's Office</td></tr>
+            <tr><td>Provincial Cultural Matters</td><td><span class="gf-badge gf-badge-exc-prov">Exclusive Provincial</span></td><td>Sch 5 Part A</td><td>Provincial Arts &amp; Culture Depts</td></tr>
+            <tr><td>Provincial Recreation &amp; Amenities</td><td><span class="gf-badge gf-badge-exc-prov">Exclusive Provincial</span></td><td>Sch 5 Part A</td><td>Provincial Sport &amp; Recreation Depts</td></tr>
+            <tr><td>Provincial Sport</td><td><span class="gf-badge gf-badge-exc-prov">Exclusive Provincial</span></td><td>Sch 5 Part A</td><td>Provincial Sport &amp; Recreation Depts</td></tr>
+            <tr><td>Provincial Roads &amp; Traffic</td><td><span class="gf-badge gf-badge-exc-prov">Exclusive Provincial</span></td><td>Sch 5 Part A</td><td>Provincial Transport &amp; Public Works Depts</td></tr>
+            <tr><td>Veterinary Services (excl. profession regulation)</td><td><span class="gf-badge gf-badge-exc-prov">Exclusive Provincial</span></td><td>Sch 5 Part A</td><td>Provincial Agriculture Depts</td></tr>
+
+            <!-- MUNICIPAL -->
+            <tr><td>Water &amp; Sanitation (potable/domestic)</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal Water &amp; Sanitation Units</td></tr>
+            <tr><td>Electricity &amp; Gas Reticulation</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal Electricity Departments</td></tr>
+            <tr><td>Municipal Planning</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal Planning &amp; Development</td></tr>
+            <tr><td>Firefighting Services</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal Fire &amp; Rescue</td></tr>
+            <tr><td>Municipal Health Services</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal Health Units</td></tr>
+            <tr><td>Municipal Public Transport</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal Transport Departments</td></tr>
+            <tr><td>Stormwater Management</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal Infrastructure / Engineering</td></tr>
+            <tr><td>Building Regulations</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal Building Control</td></tr>
+            <tr><td>Air Pollution (local)</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal Environmental Health</td></tr>
+            <tr><td>Child Care Facilities</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal Social Development / Community Services</td></tr>
+            <tr><td>Local Tourism</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal Tourism Offices</td></tr>
+            <tr><td>Municipal Airports</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal Transport</td></tr>
+            <tr><td>Trading Regulations</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal By-law Enforcement</td></tr>
+            <tr><td>Pontoons, Ferries, Jetties, Piers &amp; Harbours</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal Infrastructure</td></tr>
+            <tr><td>Municipal Public Works</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 4 Part B</td><td>Municipal Public Works Departments</td></tr>
+            <tr><td>Refuse Removal &amp; Solid Waste Disposal</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Waste Management</td></tr>
+            <tr><td>Street Lighting</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Electrical / Roads</td></tr>
+            <tr><td>Municipal Roads</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Roads &amp; Transport</td></tr>
+            <tr><td>Traffic &amp; Parking</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Traffic Departments</td></tr>
+            <tr><td>Cemeteries, Funeral Parlours &amp; Crematoria</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Community Services</td></tr>
+            <tr><td>Cleansing</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Environmental Services</td></tr>
+            <tr><td>Markets</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Fresh Produce Markets</td></tr>
+            <tr><td>Noise Pollution</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Environmental Health</td></tr>
+            <tr><td>Beaches &amp; Amusement Facilities</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Parks &amp; Recreation</td></tr>
+            <tr><td>Billboards &amp; Public Advertisements</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Planning / By-law Enforcement</td></tr>
+            <tr><td>Control of Public Nuisances</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal By-law Enforcement</td></tr>
+            <tr><td>Licensing &amp; Control of Liquor Outlets</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Licensing</td></tr>
+            <tr><td>Fencing &amp; Fences</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Planning / Engineering</td></tr>
+            <tr><td>Licensing of Dogs</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal By-law Enforcement</td></tr>
+            <tr><td>Food Outlet Licensing &amp; Control</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Environmental Health</td></tr>
+            <tr><td>Local Amenities</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Community Services</td></tr>
+            <tr><td>Local Sport Facilities</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Sport &amp; Recreation</td></tr>
+            <tr><td>Municipal Abattoirs</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Health Services</td></tr>
+            <tr><td>Municipal Parks &amp; Recreation</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Parks &amp; Recreation</td></tr>
+            <tr><td>Pounds</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal By-law Enforcement</td></tr>
+            <tr><td>Public Places</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Community Services</td></tr>
+            <tr><td>Street Trading</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Economic Development</td></tr>
+            <tr><td>Animal Accommodation, Care &amp; Burial</td><td><span class="gf-badge gf-badge-muni">Municipal</span></td><td>Sch 5 Part B</td><td>Municipal Community Services</td></tr>
+          </tbody>
+        </table>
+
+        <div class="gf-note-box">
+          <strong>Note on Residual Powers:</strong> The Constitution does not provide a separate "Schedule" for exclusive national functions. Instead, any functional area <em>not listed</em> in Schedules 4 or 5 automatically falls within the exclusive legislative competence of the national sphere (Section 44). The national government also retains overriding powers under Sections 44(2), 100 and 139 to intervene in provincial and municipal affairs under prescribed conditions.
+        </div>
+      </div>
+
+      <!-- NATIONAL TAB -->
+      <div class="gf-tab-content" id="gf-tab-national">
+        <div class="gf-section-intro" data-type="national">
+          <h2>Exclusive National Functions</h2>
+          <p>Functions not listed in Schedule 4 or 5 of the Constitution fall within the <strong>residual competence</strong> of national government (Section 44). These are areas where only Parliament can legislate, and the national executive holds sole authority. They represent sovereign, strategic, and cross-cutting functions.</p>
+        </div>
+        <div class="gf-grid">
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Defence &amp; Military Veterans</span>
+            <h3>Defence &amp; National Security</h3>
+            <p class="gf-desc">Protection of national sovereignty, territorial integrity, and military operations. Includes the SANDF (Army, Navy, Air Force, Military Health). Also covers the care and support of military veterans.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">DIRCO</span>
+            <h3>Foreign Affairs &amp; International Relations</h3>
+            <p class="gf-desc">Diplomatic relations, treaty negotiations, consular services, and South Africa's participation in international organisations (AU, UN, BRICS, SADC).</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">State Security Agency</span>
+            <h3>Intelligence &amp; State Security</h3>
+            <p class="gf-desc">Domestic intelligence, counter-intelligence, signals intelligence, and overall coordination of national security. Governed by Chapter 11 of the Constitution.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">National Treasury / SARB</span>
+            <h3>National Finance &amp; Fiscal Policy</h3>
+            <p class="gf-desc">Budgeting, taxation policy, fiscal framework, public debt management, monetary policy (SARB), banking regulation, and custodianship of gold and forex reserves. SARS handles revenue collection.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Home Affairs</span>
+            <h3>Home Affairs, Citizenship &amp; Immigration</h3>
+            <p class="gf-desc">Civil registration (births, marriages, deaths), national identity documents, passports, immigration and refugee management, and border control.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Justice &amp; Constitutional Development</span>
+            <h3>Justice &amp; Courts</h3>
+            <p class="gf-desc">Administration of courts, legal policy, constitutional development, Master of the High Court, Legal Aid South Africa. The judiciary itself is constitutionally independent.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Correctional Services</span>
+            <h3>Correctional Services</h3>
+            <p class="gf-desc">Management of prisons and correctional centres, rehabilitation of offenders, community corrections, and parole administration.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Higher Education &amp; Training</span>
+            <h3>Higher &amp; Tertiary Education</h3>
+            <p class="gf-desc">Universities, TVET colleges, SETAs, the National Student Financial Aid Scheme (NSFAS), and skills development — explicitly excluded from Schedule 4's concurrent education competence.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Mineral Resources &amp; Energy</span>
+            <h3>Mining, Minerals &amp; Energy</h3>
+            <p class="gf-desc">Regulation of mining, mineral rights, petroleum, nuclear energy, electricity generation policy (including Eskom oversight), and the Integrated Resource Plan (IRP).</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Communications &amp; Digital Technologies</span>
+            <h3>Telecommunications &amp; ICT</h3>
+            <p class="gf-desc">Spectrum regulation (ICASA), broadband policy, postal services (SA Post Office), the SABC, and digital transformation of government services.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Transport / SANRAL</span>
+            <h3>National Transport Infrastructure</h3>
+            <p class="gf-desc">National roads (SANRAL), international airports, international and national shipping, rail (PRASA/Transnet), aviation regulation, and cross-border transport.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Employment &amp; Labour</span>
+            <h3>Labour Relations &amp; Employment</h3>
+            <p class="gf-desc">Labour law (LRA, BCEA), CCMA, Unemployment Insurance Fund (UIF), Compensation Fund, occupational health and safety, and employment equity.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Water &amp; Sanitation</span>
+            <h3>Water Resources (Bulk/Strategic)</h3>
+            <p class="gf-desc">Strategic water resource management, dam infrastructure, inter-basin transfers, water allocation reform, and national sanitation standards. Note: retail water supply is a municipal function.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Forestry, Fisheries &amp; Environment</span>
+            <h3>National Parks, Botanical Gardens &amp; Marine Resources</h3>
+            <p class="gf-desc">Explicitly excluded from Schedule 4's concurrent nature conservation. Managed through SANParks, SANBI, and marine resource management.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Science &amp; Innovation</span>
+            <h3>Science, Technology &amp; Innovation</h3>
+            <p class="gf-desc">National R&amp;D policy, the National Research Foundation, CSIR, Human Sciences Research Council, and the Technology Innovation Agency.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Agriculture, Land Reform &amp; Rural Development</span>
+            <h3>Land Reform &amp; Restitution</h3>
+            <p class="gf-desc">Land redistribution, restitution, and tenure reform programmes. Distinct from concurrent agricultural functions.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Public Enterprises</span>
+            <h3>State-Owned Companies</h3>
+            <p class="gf-desc">Shareholder oversight of major SOCs including Eskom, Transnet, Denel, SA Express, and Alexkor.</p>
+          </div>
+          <div class="gf-card" data-type="national">
+            <span class="gf-dept">Dept of Public Service &amp; Administration</span>
+            <h3>Public Service Administration</h3>
+            <p class="gf-desc">Public service norms and standards (Chapter 10 of Constitution), e-government, government employee conditions of service, and the National School of Government.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONCURRENT TAB -->
+      <div class="gf-tab-content" id="gf-tab-concurrent">
+        <div class="gf-section-intro" data-type="concurrent">
+          <h2>Concurrent Functions — Schedule 4 Part A</h2>
+          <p>Both Parliament and the nine provincial legislatures may legislate on these areas. In practice, national government sets policy frameworks, norms and standards, while provinces implement and administer. Conflicts are resolved per Sections 146–150 of the Constitution.</p>
+        </div>
+        <div class="gf-grid">
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Dept of Agriculture / Provincial Agriculture</span>
+            <h3>Agriculture</h3>
+            <p class="gf-desc">National sets policy on food security, land use, trade standards. Provinces administer farmer support, extension services, and local agricultural programmes.</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Dept of Basic Education / Provincial Education</span>
+            <h3>Education (all levels excl. tertiary)</h3>
+            <p class="gf-desc">National sets curriculum (CAPS), examinations, and norms. Provinces manage schools, teacher deployment, school infrastructure, and learner transport.</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Dept of Health / Provincial Health</span>
+            <h3>Health Services</h3>
+            <p class="gf-desc">National sets policies (NHI, disease control, drug regulation). Provinces run public hospitals and clinics, manage district health systems, and deliver primary health care.</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Dept of Human Settlements / Provincial HS</span>
+            <h3>Housing</h3>
+            <p class="gf-desc">National sets housing policy and subsidies (e.g. RDP/BNG). Provinces allocate housing grants, approve projects, and oversee delivery. Municipalities provide bulk services to housing projects.</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">SAPS / Provincial Community Safety</span>
+            <h3>Police (per Chapter 11)</h3>
+            <p class="gf-desc">SAPS is a national service, but provinces have oversight powers through MECs for Community Safety. Provincial legislatures can legislate on policing matters to the extent Chapter 11 allows.</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Dept of Social Development / Provincial DSD</span>
+            <h3>Welfare Services</h3>
+            <p class="gf-desc">National sets social assistance policy (SASSA grants). Provinces deliver social welfare services, child protection, substance abuse programmes, and NPO registration.</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Dept of DFFE / Provincial Environmental Affairs</span>
+            <h3>Environment &amp; Nature Conservation</h3>
+            <p class="gf-desc">National sets environmental policy (NEMA), impact assessment, climate change. Provinces manage provincial nature reserves and enforce environmental compliance. National parks and marine resources remain exclusively national.</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Dept of CoGTA / Provincial CoGTA</span>
+            <h3>Disaster Management</h3>
+            <p class="gf-desc">National Disaster Management Centre sets frameworks. Provinces establish provincial disaster management centres and coordinate local response. All three spheres play a role.</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Dept of Tourism / Provincial Tourism</span>
+            <h3>Tourism</h3>
+            <p class="gf-desc">National markets SA internationally (SA Tourism) and sets tourism grading standards. Provinces develop local tourism strategies and support tourism enterprises.</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Dept of Trade, Industry &amp; Competition</span>
+            <h3>Trade, Consumer Protection &amp; Industrial Promotion</h3>
+            <p class="gf-desc">National sets trade policy, consumer protection legislation (CPA), competition policy and industrial development zones. Provinces support local industrial development and enterprise support.</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Dept of Sport, Arts &amp; Culture / Provincial Arts</span>
+            <h3>Cultural Matters &amp; Language Policy</h3>
+            <p class="gf-desc">National preserves heritage (SAHRA), manages national archives/museums, and sets language policy (PanSALB). Provinces manage provincial cultural programmes.</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Dept of Transport / Provincial Transport</span>
+            <h3>Road Traffic, Vehicle Licensing &amp; Airports</h3>
+            <p class="gf-desc">National sets road traffic law (AARTO, NaTIS). Provinces manage provincial roads, driver and vehicle licensing, and non-national airports.</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Dept of CoGTA / Provincial CoGTA</span>
+            <h3>Urban &amp; Rural Development, Regional Planning, Traditional Leadership</h3>
+            <p class="gf-desc">National sets spatial planning frameworks (SPLUMA). Provinces manage regional planning, rural development strategies, and traditional affairs including houses of traditional leaders.</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Dept of Agriculture / Provincial Agriculture</span>
+            <h3>Animal Control, Soil Conservation &amp; Indigenous Forests</h3>
+            <p class="gf-desc">National sets veterinary standards, soil conservation policy, and indigenous forest management norms. Provinces administer compliance and local programmes.</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Provincial Gambling Boards / dtic</span>
+            <h3>Casinos, Racing, Gambling &amp; Wagering</h3>
+            <p class="gf-desc">National sets the overarching regulatory framework. Provincial gambling boards license and regulate casinos, horse racing, and other gambling operations. National lotteries and sports pools are excluded (exclusive national).</p>
+          </div>
+          <div class="gf-card" data-type="concurrent">
+            <span class="gf-dept">Dept of Public Works &amp; Infrastructure</span>
+            <h3>Public Works (Provincial Government Needs)</h3>
+            <p class="gf-desc">National manages national government property. Provinces manage provincial government buildings and infrastructure to support their own departmental functions.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROVINCIAL TAB -->
+      <div class="gf-tab-content" id="gf-tab-provincial">
+        <div class="gf-section-intro" data-type="provincial">
+          <h2>Exclusive Provincial Functions — Schedule 5 Part A</h2>
+          <p>Only provincial legislatures may legislate in these areas. National Parliament may only intervene under the limited conditions of Section 44(2) — such as maintaining national security, economic unity, or preventing prejudicial provincial action.</p>
+        </div>
+        <div class="gf-grid">
+          <div class="gf-card" data-type="provincial">
+            <span class="gf-dept">Provincial Agriculture Depts</span>
+            <h3>Abattoirs</h3>
+            <p class="gf-desc">Regulation and licensing of abattoirs within the province, including hygiene standards and compliance inspections for slaughter facilities.</p>
+          </div>
+          <div class="gf-card" data-type="provincial">
+            <span class="gf-dept">Provincial Health Depts</span>
+            <h3>Ambulance Services</h3>
+            <p class="gf-desc">Pre-hospital emergency medical services, ambulance dispatch and operations, and emergency medical personnel management at provincial level.</p>
+          </div>
+          <div class="gf-card" data-type="provincial">
+            <span class="gf-dept">Provincial Arts &amp; Culture Depts</span>
+            <h3>Archives, Libraries &amp; Museums (non-national)</h3>
+            <p class="gf-desc">Provincial and community archives, public library services, and provincial museums. National archives, the National Library, and national museums remain with national government.</p>
+          </div>
+          <div class="gf-card" data-type="provincial">
+            <span class="gf-dept">Provincial Liquor Authorities</span>
+            <h3>Liquor Licences</h3>
+            <p class="gf-desc">Issuing and regulating liquor licences for manufacturers, distributors, and retailers within each province. Each province has its own Liquor Act and licensing authority.</p>
+          </div>
+          <div class="gf-card" data-type="provincial">
+            <span class="gf-dept">Provincial Planning Commissions</span>
+            <h3>Provincial Planning</h3>
+            <p class="gf-desc">Extra-municipal and inter-municipal planning with province-wide spatial impact. Distinguished from "municipal planning" (Schedule 4 Part B) which covers intra-municipal matters like IDPs and land use management.</p>
+          </div>
+          <div class="gf-card" data-type="provincial">
+            <span class="gf-dept">Provincial Arts &amp; Culture / Sport Depts</span>
+            <h3>Provincial Cultural Matters, Recreation &amp; Sport</h3>
+            <p class="gf-desc">Provincial cultural events, heritage programmes, recreational amenities, and provincial sport development including funding for provincial sport federations and events.</p>
+          </div>
+          <div class="gf-card" data-type="provincial">
+            <span class="gf-dept">Provincial Transport &amp; Public Works</span>
+            <h3>Provincial Roads &amp; Traffic</h3>
+            <p class="gf-desc">Construction, maintenance, and management of provincial roads. Provincial traffic law enforcement and management of provincial vehicle testing stations.</p>
+          </div>
+          <div class="gf-card" data-type="provincial">
+            <span class="gf-dept">Provincial Agriculture Depts</span>
+            <h3>Veterinary Services</h3>
+            <p class="gf-desc">Provincial veterinary public health services and animal health management. The regulation of the veterinary profession itself remains a national competence (SA Veterinary Council).</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- MUNICIPAL TAB -->
+      <div class="gf-tab-content" id="gf-tab-municipal">
+        <div class="gf-section-intro" data-type="municipal">
+          <h2>Municipal Functions — Schedule 4 Part B &amp; Schedule 5 Part B</h2>
+          <p>Local government matters administered by the country's 257 municipalities (8 metropolitan, 44 district, 205 local). National and provincial governments may regulate how municipalities exercise these functions (Sections 155(6)(a) and 155(7)), but municipalities have the executive authority to administer them.</p>
+        </div>
+
+        <h3 style="font-family:'Fraunces',serif; font-size:1.1rem; margin: 16px 0 12px; color: var(--accent-concurrent);">From Schedule 4 Part B (Concurrent oversight by National &amp; Provincial)</h3>
+        <div class="gf-grid">
+          <div class="gf-card" data-type="municipal">
+            <span class="gf-dept">Municipal Water &amp; Sanitation</span>
+            <h3>Water &amp; Sanitation Services</h3>
+            <p class="gf-desc">Potable water supply systems and domestic waste-water and sewage disposal systems. Bulk water resources and inter-basin transfers remain with national DWS.</p>
+          </div>
+          <div class="gf-card" data-type="municipal">
+            <span class="gf-dept">Municipal Electricity Dept</span>
+            <h3>Electricity &amp; Gas Reticulation</h3>
+            <p class="gf-desc">Local distribution of electricity (purchased from Eskom) and gas to end users. Includes maintenance of local electricity infrastructure and metering.</p>
+          </div>
+          <div class="gf-card" data-type="municipal">
+            <span class="gf-dept">Municipal Planning &amp; Development</span>
+            <h3>Municipal Planning</h3>
+            <p class="gf-desc">Integrated Development Plans (IDPs), Spatial Development Frameworks (SDFs), land use management/zoning, and building plan approvals.</p>
+          </div>
+          <div class="gf-card" data-type="municipal">
+            <span class="gf-dept">Municipal Fire &amp; Rescue</span>
+            <h3>Firefighting Services</h3>
+            <p class="gf-desc">Fire prevention, firefighting, and rescue operations including fire safety inspections and fire hydrant maintenance.</p>
+          </div>
+          <div class="gf-card" data-type="municipal">
+            <span class="gf-dept">Municipal Health / Transport / Building</span>
+            <h3>Municipal Health, Public Transport, Building Regulations &amp; Air Pollution</h3>
+            <p class="gf-desc">Environmental health inspections, local bus and minibus taxi services, building control and plans approval, and local air quality management.</p>
+          </div>
+          <div class="gf-card" data-type="municipal">
+            <span class="gf-dept">Municipal Infrastructure</span>
+            <h3>Stormwater, Pontoons, Jetties &amp; Municipal Public Works</h3>
+            <p class="gf-desc">Stormwater drainage in built-up areas, management of pontoons, ferries, piers (excluding international/national shipping), and public works for municipal needs.</p>
+          </div>
+          <div class="gf-card" data-type="municipal">
+            <span class="gf-dept">Municipal Tourism / Childcare</span>
+            <h3>Local Tourism, Child Care Facilities &amp; Trading Regulations</h3>
+            <p class="gf-desc">Local tourism promotion, registration and oversight of childcare facilities, and regulation of local trading and informal commerce.</p>
+          </div>
+        </div>
+
+        <h3 style="font-family:'Fraunces',serif; font-size:1.1rem; margin: 28px 0 12px; color: var(--accent-provincial);">From Schedule 5 Part B (Provincial oversight only)</h3>
+        <div class="gf-grid">
+          <div class="gf-card" data-type="municipal">
+            <span class="gf-dept">Municipal Waste Management</span>
+            <h3>Refuse Removal, Dumps &amp; Solid Waste</h3>
+            <p class="gf-desc">Household and commercial waste collection, operation of refuse dumps and landfill sites, and solid waste disposal and recycling programmes.</p>
+          </div>
+          <div class="gf-card" data-type="municipal">
+            <span class="gf-dept">Municipal Roads &amp; Traffic</span>
+            <h3>Municipal Roads, Street Lighting, Traffic &amp; Parking</h3>
+            <p class="gf-desc">Construction and maintenance of local roads, street lighting, traffic management, parking regulation, and local traffic enforcement.</p>
+          </div>
+          <div class="gf-card" data-type="municipal">
+            <span class="gf-dept">Municipal Community Services</span>
+            <h3>Cemeteries, Cleansing, Public Places &amp; Local Amenities</h3>
+            <p class="gf-desc">Management of cemeteries, funeral parlours and crematoria; street cleansing; maintenance of public spaces; and provision of local community amenities.</p>
+          </div>
+          <div class="gf-card" data-type="municipal">
+            <span class="gf-dept">Municipal Parks, Sport &amp; Recreation</span>
+            <h3>Parks, Recreation, Beaches &amp; Sport Facilities</h3>
+            <p class="gf-desc">Municipal parks and gardens, local sport facilities, beaches and amusement facilities, and community recreation centres.</p>
+          </div>
+          <div class="gf-card" data-type="municipal">
+            <span class="gf-dept">Municipal Markets / Economic Dev</span>
+            <h3>Markets, Street Trading &amp; Municipal Abattoirs</h3>
+            <p class="gf-desc">Fresh produce markets, regulation of street traders and informal trade, and operation of municipal abattoirs.</p>
+          </div>
+          <div class="gf-card" data-type="municipal">
+            <span class="gf-dept">Municipal Environmental Health</span>
+            <h3>Noise Pollution, Food Outlet Licensing &amp; Nuisance Control</h3>
+            <p class="gf-desc">Noise pollution regulation, licensing and control of food outlets, control of public nuisances, and animal care facility oversight.</p>
+          </div>
+          <div class="gf-card" data-type="municipal">
+            <span class="gf-dept">Municipal By-law Enforcement</span>
+            <h3>Billboards, Dog Licensing, Fencing, Liquor Outlet Control &amp; Pounds</h3>
+            <p class="gf-desc">Regulation of outdoor advertising, licensing of dogs, fencing requirements, control of liquor-selling undertakings, and municipal pounds.</p>
+          </div>
+        </div>
+
+        <div class="gf-note-box">
+          <strong>Key distinction — Schedule 4 Part B vs Schedule 5 Part B:</strong> Both sets of functions are administered by municipalities, but they differ in oversight. Schedule 4 Part B functions allow <em>both</em> national and provincial governments to regulate how municipalities execute them. Schedule 5 Part B functions may only be regulated by <em>provincial</em> government. In practice this means national government has less direct regulatory reach over Sch 5 Part B municipal functions.
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script is:inline>
+    document.querySelectorAll('.gf-nav-tabs button').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.gf-nav-tabs button').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.gf-tab-content').forEach(t => t.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('gf-tab-' + btn.dataset.tab).classList.add('active');
+        window.scrollTo({ top: document.querySelector('.gf-nav-tabs').offsetTop - 10, behavior: 'smooth' });
+      });
+    });
+  </script>
+</BaseLayout>
