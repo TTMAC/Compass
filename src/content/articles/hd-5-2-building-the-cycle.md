@@ -222,7 +222,7 @@ In Part 2, you explored the specific dimensions of human development in the Sout
 
 In Part 3, you encountered the policy architecture — the government programmes, institutional structures, and legislative frameworks that are supposed to translate constitutional rights into development outcomes. You saw where the architecture works and where it breaks down, and you understood the recurring patterns of implementation failure.
 
-In Part 4, you confronted the environmental constraints on development — the recognition that human development must be achieved within ecological limits, and that climate change, water scarcity, and environmental degradation are not separate challenges but integral dimensions of the development equation.
+In Part 4, you explored the relationship between industrial development and environmental responsibility — the recognition that South Africa must industrialise while maintaining a clean environment, protecting biodiversity, and managing natural resources like water sustainably. Environmental quality is not a constraint on development but an integral part of it.
 
 And in Part 5 — this part — you have received the tools. In the previous article, you learned your constitutional rights, how to read the District Health Barometer, how to interpret school performance data, how to use municipal service delivery data, how to deploy HDI data for advocacy, and where to go when rights are violated. In this article, you have learned how to participate in the specific local-level institutions — SGBs, CPFs, ward committees, LED processes, clinic committees — that collectively constitute the building blocks of the reinforcing cycle.
 
