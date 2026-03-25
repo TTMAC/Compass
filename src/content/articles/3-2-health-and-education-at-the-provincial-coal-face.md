@@ -227,7 +227,7 @@ When you want to assess whether your provincial education or health system is de
 
 **Step 1: Assess your local facility directly.**
 
-For your child's school: check the learner-to-teacher ratio using the DBE School Masterlist at education.gov.za. A ratio above 40:1 in primary school or 35:1 in secondary school signals overcrowding. Note whether the school has reliable water, electricity, and functional sanitation — the 2013 Norms and Standards require these as minimums. For your local clinic: check the OHSC inspection report at ohsc.org.za. A compliance score below 50% indicates fundamental failures in patient safety, cleanliness, or clinical care.
+For your child's school: check the learner-to-teacher ratio using the DBE School Masterlist at education.gov.za. A ratio above 40-to-1 in primary school or 35-to-1 in secondary school signals overcrowding. Note whether the school has reliable water, electricity, and functional sanitation — the 2013 Norms and Standards require these as minimums. For your local clinic: check the OHSC inspection report at ohsc.org.za. A compliance score below 50% indicates fundamental failures in patient safety, cleanliness, or clinical care.
 
 **Step 2: Check the provincial indicators that explain your facility's performance.**
 
