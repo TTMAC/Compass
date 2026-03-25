@@ -67,7 +67,7 @@ South Africa's nine provinces were a political compromise between those who want
 The Constitution divides government functions between spheres in two schedules that determine what your provincial government is constitutionally empowered to do. Understanding these schedules is essential because they define the boundaries of provincial responsibility—and therefore the boundaries of provincial accountability.
 
 
-![Provincial powers are defined in the Constitution's Schedules 4 and 5 | Photo by kok oko on Unsplash](/images/articles/3-1-the-awkward-middle-child/img-2.webp)
+![A map of South Africa showing the location of its nine provinces | Source: SA-Venues.com](/images/articles/3-1-the-awkward-middle-child/img-2.webp)
 
 Schedule 4 lists concurrent powers shared between national and provincial government. These are functions where both spheres can legislate, though Section 146 of the Constitution provides that national legislation prevails when there is a conflict, subject to specific conditions. The concurrent functions include agriculture, consumer protection, cultural matters, disaster management, education at all levels excluding universities, environment, health services, housing, indigenous law and customary law, industrial promotion, language policy, nature conservation, pollution control, population development, property transfer fees, public transport, public works, regional planning and development, road traffic regulation, soil conservation, tourism, trade, traditional leadership, urban and rural development, vehicle licensing, and welfare services.
 
