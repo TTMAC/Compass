@@ -58,7 +58,7 @@ This concentration of spending in two sectors has a direct implication for accou
 ### Who Does What: National Versus Provincial Responsibilities
 
 
-![Education consumes roughly 40% of every provincial budget in South Africa | Photo by SMKN 1 Gantar on Unsplash](/images/articles/3-2-health-and-education-at-the-provincial-coal-face/img-1.webp)
+![Education consumes roughly 40% of every provincial budget in South Africa | Photo by Soweto Graphics on Unsplash](/images/articles/3-2-health-and-education-at-the-provincial-coal-face/img-1.webp)
 
 South Africa's basic education system operates on a split-responsibility model that you need to understand before you can assign blame or credit for how your child's school performs. The national Department of Basic Education (DBE) sets the curriculum (the Curriculum and Assessment Policy Statements, or CAPS), administers the national matric examinations, establishes norms and standards for school infrastructure and teacher qualifications, manages the national school nutrition programme framework, and provides overall policy direction. The DBE is, in governance terms, the architect.
 
