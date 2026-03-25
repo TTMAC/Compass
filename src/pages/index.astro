@@ -1,7 +1,6 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
 import EmailCapture from "@components/EmailCapture.astro";
-import FeedbackLoop from "@components/FeedbackLoop.astro";
 import { getCollection } from "astro:content";
 import { pillars } from "@content/pillars";
 
@@ -102,10 +101,7 @@ const pillarData = pillars.map((p) => {
   <!-- Mini feedback loop + Email CTA -->
   <section class="py-12 md:py-16 bg-bg-secondary">
     <div class="max-w-content mx-auto px-4 md:px-0">
-      <FeedbackLoop mini={true} />
-      <div class="mt-8">
-        <EmailCapture location="inline" />
-      </div>
+      <EmailCapture location="inline" />
     </div>
   </section>
 
