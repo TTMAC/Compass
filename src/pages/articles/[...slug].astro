@@ -20,7 +20,7 @@ export async function getStaticPaths() {
 const { article, allArticles } = Astro.props;
 const { Content, headings } = await render(article);
 const slug = article.id.replace(/\.md$/, "");
-const articleUrl = `https://govcompass.co.za/articles/${slug}`;
+const articleUrl = new URL(`/articles/${slug}`, Astro.site).href;
 const seriesNav = getSeriesNavigation(article, allArticles);
 ---
 

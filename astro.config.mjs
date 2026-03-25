@@ -6,7 +6,7 @@ import remarkCallouts from "./src/plugins/remark-callouts.mjs";
 import rehypeArticleImages from "./src/plugins/rehype-article-images.mjs";
 
 export default defineConfig({
-  site: "https://govcompass.co.za",
+  site: process.env.SITE_URL || "https://govcompass.co.za",
   integrations: [tailwind(), sitemap()],
   output: "static",
   redirects: {

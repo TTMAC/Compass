@@ -22,7 +22,7 @@ const {
   jsonLd,
 } = Astro.props;
 
-const siteUrl = "https://govcompass.co.za";
+const siteUrl = Astro.site?.origin || "https://govcompass.co.za";
 const fullCanonical = canonicalUrl || new URL(Astro.url.pathname, siteUrl).href;
 const fullOgImage = ogImage.startsWith("http")
   ? ogImage

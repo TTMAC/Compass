@@ -59,12 +59,12 @@ const jsonLd = {
   author: {
     "@type": "Organization",
     name: "GovCompass",
-    url: "https://govcompass.co.za",
+    url: Astro.site?.origin || "https://govcompass.co.za",
   },
   publisher: {
     "@type": "Organization",
     name: "GovCompass",
-    url: "https://govcompass.co.za",
+    url: Astro.site?.origin || "https://govcompass.co.za",
   },
 };
 ---

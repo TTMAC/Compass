@@ -2,6 +2,20 @@
   command = "npm run build"
   publish = "dist"
 
+# Production (main branch)
+[context.production.environment]
+  SITE_URL = "https://govcompass.co.za"
+
+# Staging (staging branch)
+[context.staging.environment]
+  SITE_URL = "https://staging--govcompass.netlify.app"
+  PUBLIC_GA4_ID = ""
+
+# Development (develop branch)
+[context.develop.environment]
+  SITE_URL = "https://develop--govcompass.netlify.app"
+  PUBLIC_GA4_ID = ""
+
 [[headers]]
   for = "/admin/*"
   [headers.values]
