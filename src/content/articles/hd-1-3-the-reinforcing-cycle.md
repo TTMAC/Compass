@@ -210,6 +210,26 @@ This sequencing is not a luxury. It is a necessity imposed by fiscal constraints
 
 **Implication 5: Every policy proposal should be evaluated against the cycle.** When a politician promises to "reduce crime," ask: what is their plan for employment? When a politician promises to "grow the economy," ask: what is their plan for education and safety? When a politician promises to "improve education," ask: where will the funding come from, and how will they ensure that graduates can find jobs in a safe environment? Any proposal that addresses one dimension of the cycle without acknowledging the others is either naive or dishonest. The reinforcing cycle does not care about good intentions. It responds to causal mechanisms. Interventions that engage those mechanisms will succeed. Interventions that ignore them will fail, regardless of how well-intentioned or well-funded they are.
 
+## The Road Ahead
+
+This article has presented the thesis. The rest of this series — and, indeed, the rest of this publication — tests it against the evidence.
+
+**Part 2** of this series will examine the health dimension of human development in detail, tracing the mechanisms through which South Africa's life expectancy deficit — ten years below income-predicted levels — reflects and reinforces the broken cycle. It will examine the HIV/AIDS legacy, the tuberculosis crisis, the non-communicable disease burden, and the long-debated National Health Insurance proposal.
+
+**Part 3** will examine the education dimension — the quality catastrophe documented by PIRLS and TIMSS, the mechanisms that produce it, and the evidence on what works in South African classrooms. It will argue that education reform is not just a social investment but an economic growth strategy and a crime prevention programme.
+
+**Part 4** will examine the income dimension and the inequality adjustment in depth — the structure of income inequality, the role of the labour market, the social grant system, and the fiscal constraints on redistribution.
+
+**Part 5** will return to the reinforcing cycle and ask the hardest question: what would it actually take to reverse the spiral? Drawing on the evidence from the preceding articles, it will outline the interventions — their sequencing, their cost, their institutional requirements, and their political feasibility — that would be necessary to shift the cycle from vicious to virtuous.
+
+Throughout, the analysis will be non-partisan. The reinforcing cycle is a structural feature of the South African system. It operated under Mandela, under Mbeki, under Zuma, and under Ramaphosa. It will operate under whoever leads the government next. It does not respond to ideology. It responds to institutional quality, policy coherence, and implementation capacity. The purpose of this series is to equip every South African citizen — regardless of their political affiliation — with the analytical tools to evaluate whether their government is addressing the cycle or ignoring it, whether policy proposals engage the causal mechanisms or float above them, and whether the trajectory is bending toward the virtuous cycle or accelerating deeper into the vicious spiral.
+
+The 0.741-to-0.462 gap is the measure of the challenge. It is also the measure of the opportunity. Every percentage point of that gap that is closed represents real human capabilities gained — children who can read, adults who live longer, households that can afford dignified lives. The cycle can be reversed. Other countries have done it. The question is whether South Africa will.
+
+:::takeaway
+The reinforcing cycle — safety → growth → development → safety — is the central analytical framework for understanding South Africa's development trajectory. All three links are currently broken, producing a vicious spiral in which crime deters growth, stagnation starves development budgets, and inadequate development fuels unemployment and crime. Reversing the spiral requires integrated, sequenced intervention across all three domains simultaneously. Every policy proposal should be evaluated against this framework: does it address one link in isolation, or does it engage the system as a whole?
+:::
+
 :::framework
 **The Policy Cycle Test**
 
@@ -229,24 +249,4 @@ The reinforcing cycle operates through quantifiable mechanisms. Safety can be me
 
 **Question 5: Does the timeline match the cycle's dynamics?**
 The reinforcing cycle operates over decades, not election cycles. A proposal that promises to "fix education" in five years is either dishonest or naive. Evaluate whether the timeline acknowledges the generational nature of the challenge and proposes institutional mechanisms — fiscal rules, independent monitoring, legislative commitments — to sustain the intervention beyond any single government's term.
-:::
-
-## The Road Ahead
-
-This article has presented the thesis. The rest of this series — and, indeed, the rest of this publication — tests it against the evidence.
-
-**Part 2** of this series will examine the health dimension of human development in detail, tracing the mechanisms through which South Africa's life expectancy deficit — ten years below income-predicted levels — reflects and reinforces the broken cycle. It will examine the HIV/AIDS legacy, the tuberculosis crisis, the non-communicable disease burden, and the long-debated National Health Insurance proposal.
-
-**Part 3** will examine the education dimension — the quality catastrophe documented by PIRLS and TIMSS, the mechanisms that produce it, and the evidence on what works in South African classrooms. It will argue that education reform is not just a social investment but an economic growth strategy and a crime prevention programme.
-
-**Part 4** will examine the income dimension and the inequality adjustment in depth — the structure of income inequality, the role of the labour market, the social grant system, and the fiscal constraints on redistribution.
-
-**Part 5** will return to the reinforcing cycle and ask the hardest question: what would it actually take to reverse the spiral? Drawing on the evidence from the preceding articles, it will outline the interventions — their sequencing, their cost, their institutional requirements, and their political feasibility — that would be necessary to shift the cycle from vicious to virtuous.
-
-Throughout, the analysis will be non-partisan. The reinforcing cycle is a structural feature of the South African system. It operated under Mandela, under Mbeki, under Zuma, and under Ramaphosa. It will operate under whoever leads the government next. It does not respond to ideology. It responds to institutional quality, policy coherence, and implementation capacity. The purpose of this series is to equip every South African citizen — regardless of their political affiliation — with the analytical tools to evaluate whether their government is addressing the cycle or ignoring it, whether policy proposals engage the causal mechanisms or float above them, and whether the trajectory is bending toward the virtuous cycle or accelerating deeper into the vicious spiral.
-
-The 0.741-to-0.462 gap is the measure of the challenge. It is also the measure of the opportunity. Every percentage point of that gap that is closed represents real human capabilities gained — children who can read, adults who live longer, households that can afford dignified lives. The cycle can be reversed. Other countries have done it. The question is whether South Africa will.
-
-:::takeaway
-The reinforcing cycle — safety → growth → development → safety — is the central analytical framework for understanding South Africa's development trajectory. All three links are currently broken, producing a vicious spiral in which crime deters growth, stagnation starves development budgets, and inadequate development fuels unemployment and crime. Reversing the spiral requires integrated, sequenced intervention across all three domains simultaneously. Every policy proposal should be evaluated against this framework: does it address one link in isolation, or does it engage the system as a whole?
 :::

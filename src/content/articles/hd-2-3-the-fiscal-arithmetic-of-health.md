@@ -44,7 +44,7 @@ The argument is straightforward: economic growth is not a separate agenda from t
 
 ## Health Spending in International Context
 
-Before diving into South Africa's fiscal specifics, it is worth understanding how the country's health spending compares to its peers. International comparison provides the benchmark against which to assess whether South Africa spends too little, too much, or the wrong amount in the wrong places.
+Before diving into South Africa's fiscal specifics, it is worth understanding how the country's health spending compares to its peers. International comparison provides the benchmark against which to assess whether South Africa spends too little, too much, or the wrong amount in the wrong places. When you hear politicians claim that the government is spending generously on health, these comparisons are what you need to hold them to account.
 
 Total health expenditure as a percentage of GDP is the most commonly used comparison metric. South Africa's approximately 8.5 percent places it above the average for upper-middle-income countries (approximately 6.2 percent), above the average for sub-Saharan Africa (approximately 5.2 percent), and close to the OECD average (approximately 8.8 percent). By this measure alone, South Africa is not a low-spending country. It devotes a substantial share of national income to health.
 
@@ -60,7 +60,7 @@ The World Health Organization's health systems financing framework identifies th
 
 ## The Fiscal Arithmetic
 
-To understand how much South Africa can spend on public healthcare, you need to follow the money through three stages: from the economy to the fiscus, from the fiscus to the health budget, and from the health budget to the facilities and programmes that deliver care. At each stage, constraints narrow the stream.
+To understand how much South Africa can spend on public healthcare, you need to follow the money through three stages: from the economy to the fiscus, from the fiscus to the health budget, and from the health budget to the facilities and programmes that deliver care. At each stage, constraints narrow the stream. Following this pipeline is how you move from abstract budget headlines to understanding why the clinic near your home is understaffed.
 
 Stage one: from the economy to the fiscus. South Africa's GDP is approximately R7 trillion. The government collects revenue — primarily through personal income tax, value-added tax, corporate income tax, and excise duties — equal to approximately twenty-five to twenty-six percent of GDP, or approximately R1.8 trillion. This "tax-to-GDP ratio" is relatively high by upper-middle-income standards (the average for upper-middle-income countries is approximately twenty to twenty-two percent), reflecting the legacy of South Africa's relatively sophisticated tax administration and broad-based VAT system. The South African Revenue Service is generally regarded as one of the more effective tax authorities in the developing world, though its capacity was damaged during the "state capture" period and is still recovering.
 
@@ -82,7 +82,7 @@ South Africa collects approximately R1.8 trillion in revenue, of which approxima
 
 The National Health Insurance Bill, signed into law by President Ramaphosa in May 2024, represents the most ambitious health financing reform in South Africa's democratic history. Its stated objective is to achieve universal health coverage by creating a single publicly financed health system that covers the entire population — eliminating the two-tier system in which quality of care depends on the ability to pay medical scheme premiums.
 
-The ambition is laudable. The question is whether it is affordable.
+The ambition is laudable. The question is whether it is affordable. If you are currently on a medical scheme, NHI determines what happens to your contributions and your access. If you depend on the public system, NHI determines whether the promise of equal care will ever be funded. Either way, this is a question that will directly affect you.
 
 The NHI, as envisaged in the legislation and supporting policy documents, would be funded through a combination of sources: reallocation of existing public health spending, reallocation of existing medical scheme tax credits (currently worth approximately R30 billion per year), and additional revenue raised through a combination of a surcharge on personal income tax, a payroll tax on employers, and potentially an increase in the VAT rate. The total estimated cost of NHI at full implementation has been variously estimated at between R256 billion and R450 billion per year, depending on the scope of services covered, the efficiency assumptions used, and the timeline for implementation. The wide range of estimates reflects genuine uncertainty about what NHI would actually cost — uncertainty that has not been resolved by the actuarial modelling conducted to date.
 
@@ -102,7 +102,7 @@ The international evidence on the relationship between economic growth and unive
 
 ## The Growth-to-Health Pipeline
 
-The previous section established that NHI's feasibility depends on economic growth. This section broadens the argument: the entire trajectory of South Africa's public health system — with or without NHI — depends on economic growth. The pipeline from GDP growth to health outcomes has several intermediate steps, each of which is worth understanding in its own right.
+The previous section established that NHI's feasibility depends on economic growth. This section broadens the argument: the entire trajectory of South Africa's public health system — with or without NHI — depends on economic growth. This pipeline matters to you because it explains why voting for economic growth policies is, in a very direct sense, a vote for better healthcare. The pipeline from GDP growth to health outcomes has several intermediate steps, each of which is worth understanding in its own right.
 
 Step one: GDP growth generates government revenue. This is the most direct mechanism. When the economy grows, businesses earn more, workers earn more, and consumers spend more. Corporate income tax, personal income tax, and VAT collections all increase. The relationship between GDP growth and revenue growth is typically slightly greater than one-to-one — a phenomenon known as "tax buoyancy," which occurs because as incomes rise, a larger share falls into higher tax brackets (in a progressive tax system like South Africa's), and as consumption rises, a larger share of spending falls on VAT-liable goods and services. South Africa's tax buoyancy has historically been approximately 1.1 to 1.3 — meaning that for every one percent of GDP growth, revenue grows by approximately 1.1 to 1.3 percent.
 
@@ -122,7 +122,7 @@ The pipeline from economic growth to health outcomes operates through four steps
 
 ## The Stagnation Trap
 
-South Africa's recent economic performance has placed the health system in what can only be described as a fiscal stagnation trap. The arithmetic is relentless.
+South Africa's recent economic performance has placed the health system in what can only be described as a fiscal stagnation trap. The arithmetic is relentless. If you have noticed that your local clinic seems no better — perhaps worse — than it was five years ago despite all the budget announcements, this is why: in real per-capita terms, the system has been going backwards.
 
 Real GDP growth has averaged approximately one percent per year over the past decade. Population growth has averaged approximately 1.2 percent per year. This means that GDP per capita — the amount of economic output per person — has been declining in real terms. The pie has been growing more slowly than the number of people who need a slice.
 
@@ -142,7 +142,7 @@ The concept of "fiscal space for health" — defined by the World Health Organiz
 
 ## District-Level Resource Allocation
 
-The fiscal arithmetic does not only determine how much money enters the health system. It also determines how that money is distributed — and the distribution mechanism is itself a significant driver of the health outcome inequalities documented throughout this series.
+The fiscal arithmetic does not only determine how much money enters the health system. It also determines how that money is distributed — and the distribution mechanism is itself a significant driver of the health outcome inequalities documented throughout this series. How much your district receives per person is something you can look up in the District Health Barometer, and comparing it against the national average is one of the most direct ways to assess whether your community is being treated equitably.
 
 Health funding in South Africa flows from the National Treasury to provincial governments through the "equitable share" formula — a constitutionally mandated mechanism that distributes nationally collected revenue among the three spheres of government. The provincial equitable share — the share allocated to provinces — is determined by a formula that takes into account each province's share of the national population, its economic activity, its poverty levels, and other factors. Health is not earmarked within the equitable share; provinces receive a lump sum and allocate it across their various functions (health, education, roads, agriculture, and others) through their own budget processes.
 
@@ -156,7 +156,7 @@ The conditional grants — earmarked funding from the national government to pro
 
 ## Health Worker Crisis
 
-No discussion of the fiscal arithmetic of health is complete without confronting the health workforce challenge — arguably the most critical constraint on the health system's ability to translate funding into outcomes.
+No discussion of the fiscal arithmetic of health is complete without confronting the health workforce challenge — arguably the most critical constraint on the health system's ability to translate funding into outcomes. If you have ever waited hours at a public clinic to see an overworked nurse managing a queue that would defeat anyone, you have experienced the vacancy rate in human terms.
 
 South Africa has approximately 350,000 health workers in the public sector, including approximately 22,000 medical practitioners (doctors), approximately 140,000 nurses of various categories, and the remainder comprising allied health professionals, pharmacists, community health workers, and support staff. These numbers are inadequate for the population served. The doctor-to-population ratio in the public sector is approximately 0.3 per thousand (compared to approximately 2.7 per thousand in the private sector). The nurse-to-population ratio, while better, is still below WHO recommendations for the level of primary healthcare delivery South Africa's disease burden demands.
 
@@ -176,7 +176,7 @@ South Africa's public health workforce is inadequate for its disease burden, wit
 
 ## The Virtuous Alternative: Countries That Grew Into Universal Coverage
 
-If the picture painted so far is bleak, it is intentionally so — because confronting the fiscal reality is the prerequisite for identifying a viable pathway forward. And viable pathways do exist. Other countries, facing constraints not entirely dissimilar to South Africa's, have achieved universal or near-universal health coverage by growing their way into it. Their experiences do not provide blueprints — every country's context is unique — but they provide proof of concept and instructive lessons.
+If the picture painted so far is bleak, it is intentionally so — because confronting the fiscal reality is the prerequisite for identifying a viable pathway forward. The countries below show you what is possible — not as inspiration, but as evidence that the pathway from stagnation to universal coverage has been walked before, and you can assess whether South Africa is on it. And viable pathways do exist. Other countries, facing constraints not entirely dissimilar to South Africa's, have achieved universal or near-universal health coverage by growing their way into it. Their experiences do not provide blueprints — every country's context is unique — but they provide proof of concept and instructive lessons.
 
 Thailand's Universal Coverage Scheme (UCS), introduced in 2001 under Prime Minister Thaksin Shinawatra, is perhaps the most relevant comparator. At the time of introduction, Thailand's GDP per capita was approximately $2,000 — significantly lower than South Africa's today. But Thailand had achieved sustained economic growth of approximately seven to eight percent per year through the 1980s and 1990s (interrupted by the 1997 Asian financial crisis but recovering quickly), which had generated the fiscal space to expand public health coverage progressively. The UCS covers the approximately seventy-five percent of the Thai population not covered by the Civil Servant Medical Benefit Scheme or the Social Security Scheme. It is funded through general taxation and provides a comprehensive package of care — including primary care, hospitalisation, surgery, medicines, and prevention — at a per capita cost of approximately $140 per year. Thailand achieves a life expectancy of approximately seventy-seven years — fourteen years longer than South Africa — at a lower per capita health expenditure.
 
@@ -194,7 +194,7 @@ The sequencing question — whether universal health coverage drives economic gr
 
 ## The Two-Speed System: Public and Private
 
-Any discussion of South Africa's health fiscal arithmetic must confront the defining structural feature of the system: the extreme bifurcation between public and private sectors.
+Any discussion of South Africa's health fiscal arithmetic must confront the defining structural feature of the system: the extreme bifurcation between public and private sectors. Wherever you sit in this system — whether you have medical scheme cover, use the public system, or move between both depending on what you can afford at any given time — the split shapes what care you receive and what it costs you.
 
 South Africa's private health sector — comprising approximately eighty private hospital groups (dominated by Netcare, Mediclinic, and Life Healthcare), approximately 27,000 private medical practitioners, and a medical schemes industry covering approximately nine million principal members and their dependents — delivers healthcare of a quality comparable to high-income countries. Private hospitals are well-equipped, well-staffed, and well-maintained. Specialist access is rapid. Diagnostic technology is current. Outcomes for most conditions are comparable to those achieved in OECD countries.
 
@@ -207,6 +207,24 @@ NHI's ambition to integrate these two systems — or, more precisely, to create 
 The fiscal challenge is equally formidable. Expanding public-sector-quality coverage to the whole population — the only version of NHI that would be politically defensible — requires either dramatically increasing total health spending (to bring the public system up to private-system quality) or dramatically reducing private-sector costs (to bring private-system services within reach of public funding levels). The first option requires massive additional revenue. The second option requires overcoming the market failures and rent-seeking that the Competition Commission identified but did not resolve.
 
 A middle path — often discussed but rarely articulated precisely — would involve gradually improving the public system's quality while creating regulatory incentives for the private sector to reduce costs and serve a broader population. This incremental approach is less dramatic than the NHI legislation's vision of a single fund, but it may be more fiscally realistic. It requires sustained economic growth to fund the incremental improvements, competent regulation to reduce private-sector costs, and patient political management of the expectations of both the currently insured and the currently uninsured.
+
+## The Path Forward: Growth as Health Policy
+
+This article has presented the fiscal arithmetic of South Africa's health system in unvarnished terms. The numbers are constraining but not hopeless. The path forward requires clarity about three things.
+
+First, economic growth is health policy. This is not a metaphor or a political slogan. It is a fiscal fact. Without sustained GDP growth of at least three percent per year — and preferably higher — there is no pathway to expanding public health coverage, hiring the health workers the system needs, funding the treatment cascades documented earlier in this series, or implementing NHI in any meaningful form. The economic reforms discussed in [Three Engines of Growth](/articles/eg-3-1-three-engines-of-growth) and [Resource Optimisation](/articles/eg-2-1-resource-optimisation) are not separate from the health agenda. They are its fiscal foundation.
+
+Second, efficiency matters as much as funding. Even within the current budget, there are opportunities to improve health outcomes by spending existing resources more effectively. Procurement reform — buying medicines at the best available prices through competitive tendering and international reference pricing — can stretch the medicine budget. Task-shifting — allowing nurses and community health workers to perform functions currently reserved for doctors — can extend the reach of the existing workforce. Differentiated service delivery — matching the intensity of clinic visits to patients' clinical needs — can reduce wasteful overcrowding and free capacity for patients who need it most. Technology — including electronic health records, mHealth adherence support, and telemedicine for specialist consultation — can improve coordination and reduce unnecessary referrals. None of these efficiency gains substitutes for additional funding, but they can improve the health outcomes achievable at current funding levels while the growth agenda works to expand those levels.
+
+Third, the allocation of health spending matters as much as the total. The "points per rand" analysis from the previous article in this series — showing that closing the HIV treatment cascade gap is the highest-return investment in South Africa's HDI — should inform budget allocation decisions. If the health system cannot do everything, it should do first the things that produce the greatest health gain per rand spent. That means prioritising the treatment cascade, TB case-finding and treatment, maternal and child health (particularly neonatal care), and population-level NCD prevention — in roughly that order, based on the available cost-effectiveness evidence.
+
+The fiscal arithmetic is not destiny. Countries have broken out of stagnation traps, grown their economies, and funded health systems that deliver universal coverage and high life expectancy. South Africa has the institutional infrastructure, the human capital base, and the policy knowledge to do the same. What it needs is the economic growth to fund it — and the implementation discipline to spend the money well when it comes.
+
+The next article in this series shifts from health to education, examining [The Schooling Paradox](/articles/hd-3-1-the-schooling-paradox) — a system that spends more per student than most middle-income countries yet produces learning outcomes that rank among the worst in the world. If the health system's challenge is funding, the education system's challenge is efficiency — and both, ultimately, depend on the same fiscal arithmetic documented here.
+
+:::takeaway
+South Africa's health system cannot be fixed by money alone — but it cannot be fixed without more money. Economic growth of at least three percent per year is the minimum required to generate the fiscal space for meaningful health system expansion, health worker recruitment, and NHI implementation. In the interim, efficiency gains — procurement reform, task-shifting, differentiated service delivery, and evidence-based resource allocation — can improve outcomes within existing budgets. The fiscal arithmetic is clear: growth is not separate from the health agenda. It is the health agenda's prerequisite, and every health policy promise must be evaluated against whether the economic growth strategy exists to fund it.
+:::
 
 :::framework
 **The Health Budget Evaluator**
@@ -232,22 +250,4 @@ Key question: What is the vacancy rate for professional nurses, doctors, and pha
 **Question 5: What is the GDP growth rate, and what does it mean for future health spending?**
 Source: Stats SA GDP data; National Treasury fiscal framework.
 Key question: Is GDP growth sufficient (at least 3 per cent) to generate the additional tax revenue needed for health system expansion? If growth is below 2 per cent, the health budget is likely to stagnate or decline in real terms — meaning that efficiency improvements are the only pathway to better outcomes in the medium term.
-:::
-
-## The Path Forward: Growth as Health Policy
-
-This article has presented the fiscal arithmetic of South Africa's health system in unvarnished terms. The numbers are constraining but not hopeless. The path forward requires clarity about three things.
-
-First, economic growth is health policy. This is not a metaphor or a political slogan. It is a fiscal fact. Without sustained GDP growth of at least three percent per year — and preferably higher — there is no pathway to expanding public health coverage, hiring the health workers the system needs, funding the treatment cascades documented earlier in this series, or implementing NHI in any meaningful form. The economic reforms discussed in [Three Engines of Growth](/articles/eg-3-1-three-engines-of-growth) and [Resource Optimisation](/articles/eg-2-1-resource-optimisation) are not separate from the health agenda. They are its fiscal foundation.
-
-Second, efficiency matters as much as funding. Even within the current budget, there are opportunities to improve health outcomes by spending existing resources more effectively. Procurement reform — buying medicines at the best available prices through competitive tendering and international reference pricing — can stretch the medicine budget. Task-shifting — allowing nurses and community health workers to perform functions currently reserved for doctors — can extend the reach of the existing workforce. Differentiated service delivery — matching the intensity of clinic visits to patients' clinical needs — can reduce wasteful overcrowding and free capacity for patients who need it most. Technology — including electronic health records, mHealth adherence support, and telemedicine for specialist consultation — can improve coordination and reduce unnecessary referrals. None of these efficiency gains substitutes for additional funding, but they can improve the health outcomes achievable at current funding levels while the growth agenda works to expand those levels.
-
-Third, the allocation of health spending matters as much as the total. The "points per rand" analysis from the previous article in this series — showing that closing the HIV treatment cascade gap is the highest-return investment in South Africa's HDI — should inform budget allocation decisions. If the health system cannot do everything, it should do first the things that produce the greatest health gain per rand spent. That means prioritising the treatment cascade, TB case-finding and treatment, maternal and child health (particularly neonatal care), and population-level NCD prevention — in roughly that order, based on the available cost-effectiveness evidence.
-
-The fiscal arithmetic is not destiny. Countries have broken out of stagnation traps, grown their economies, and funded health systems that deliver universal coverage and high life expectancy. South Africa has the institutional infrastructure, the human capital base, and the policy knowledge to do the same. What it needs is the economic growth to fund it — and the implementation discipline to spend the money well when it comes.
-
-The next article in this series shifts from health to education, examining [The Schooling Paradox](/articles/hd-3-1-the-schooling-paradox) — a system that spends more per student than most middle-income countries yet produces learning outcomes that rank among the worst in the world. If the health system's challenge is funding, the education system's challenge is efficiency — and both, ultimately, depend on the same fiscal arithmetic documented here.
-
-:::takeaway
-South Africa's health system cannot be fixed by money alone — but it cannot be fixed without more money. Economic growth of at least three percent per year is the minimum required to generate the fiscal space for meaningful health system expansion, health worker recruitment, and NHI implementation. In the interim, efficiency gains — procurement reform, task-shifting, differentiated service delivery, and evidence-based resource allocation — can improve outcomes within existing budgets. The fiscal arithmetic is clear: growth is not separate from the health agenda. It is the health agenda's prerequisite, and every health policy promise must be evaluated against whether the economic growth strategy exists to fund it.
 :::
