@@ -20,8 +20,8 @@ const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
       aria-label="Table of contents"
       data-testid="table-of-contents"
     >
-      {/* Mobile: collapsible */}
-      <details class="lg:hidden border border-gray-200 rounded-lg p-4 mb-6">
+      {/* Mobile: collapsible (shown via ArticleLayout slot or inline) */}
+      <details class="lg:hidden border border-gray-200 rounded-lg p-4 mb-6 toc-mobile">
         <summary class="font-heading text-sm font-semibold text-text-primary cursor-pointer">
           On this page
         </summary>
@@ -42,7 +42,7 @@ const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
       </details>
 
       {/* Desktop: sticky sidebar */}
-      <aside class="hidden lg:block fixed-toc">
+      <div class="hidden lg:block sticky-toc">
         <p class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide mb-3">
           On this page
         </p>
@@ -62,24 +62,32 @@ const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
             </li>
           ))}
         </ul>
-      </aside>
+      </div>
     </nav>
   )
 }
 
 <style>
-  .fixed-toc {
-    position: fixed;
+  .sticky-toc {
+    position: sticky;
     top: 6rem;
-    left: calc(50% + 380px);
-    width: 220px;
     max-height: calc(100vh - 8rem);
     overflow-y: auto;
   }
 
-  @media (max-width: 1280px) {
-    .fixed-toc {
-      display: none;
+  /* Hide mobile TOC when sidebar is visible */
+  @media (min-width: 1100px) {
+    .toc-mobile {
+      display: none !important;
+    }
+    .sticky-toc {
+      display: block !important;
+    }
+  }
+
+  @media (max-width: 1099px) {
+    .sticky-toc {
+      display: none !important;
     }
   }
 

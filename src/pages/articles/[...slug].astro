@@ -1,7 +1,6 @@
 ---
 import { getCollection, render } from "astro:content";
 import ArticleLayout from "@layouts/ArticleLayout.astro";
-import TableOfContents from "@components/TableOfContents.astro";
 import ShareButtons from "@components/ShareButtons.astro";
 import ArticleNav from "@components/ArticleNav.astro";
 import CrossLinks from "@components/CrossLinks.astro";
@@ -39,9 +38,8 @@ const seriesNav = getSeriesNavigation(article, allArticles);
   canonicalUrl={article.data.seo.canonicalUrl}
   ogImage={article.data.seo.ogImage}
   series={article.data.series}
+  headings={headings}
 >
-  <TableOfContents headings={headings} />
-
   <Content />
 
   <div class="mt-8 pt-6 border-t border-gray-200">
