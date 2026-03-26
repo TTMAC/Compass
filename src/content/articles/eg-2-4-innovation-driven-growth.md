@@ -217,10 +217,6 @@ These two cases — PBMR and the Joule — illustrate the political challenge wi
 International experience, as documented by the World Bank's Innovation Policy Platform, demonstrates that successful national innovation systems require policy stability and institutional continuity spanning multiple political cycles. Countries that have transitioned to innovation-driven growth — including South Korea, Finland, and Israel — maintained broadly consistent innovation strategies for periods of 15 to 25 years, even as governments changed. This does not mean policies were never adjusted; it means the strategic direction, the institutional architecture, and the commitment to rising R&D investment were sustained. Countries where innovation policy was subject to frequent reversals, institutional restructuring, or stop-start funding patterns consistently underperformed relative to their research capabilities.
 :::
 
-:::takeaway
-The gap between South Africa's current innovation performance and the Stage 3 threshold is large but not unprecedented. South Korea was in a comparable position in 1980. The critical variable is not starting position but sustained commitment. Every country that reached innovation-driven growth did so through 20 to 30 years of consistent, compounding investment in R&D, human capital, and institutional capacity. The question for South African citizens is whether the policy environment — across all parties and all levels of government — supports that kind of sustained commitment.
-:::
-
 ## Practical Framework: The Innovation Ecosystem Scanner
 
 :::takeaway
