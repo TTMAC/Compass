@@ -11,7 +11,7 @@ tags:
   - "energy-modernisation"
   - "water-security"
   - "environmental-quality"
-description: "South Africa must industrialise and grow its economy — but development that pollutes water, destroys biodiversity, and degrades living conditions undermines its own goals. Exploring how to pursue industrial progress with environmental responsibility."
+description: "South Africa must industrialise — but not at the cost of clean water, biodiversity, or public health. How the country can pursue industrial progress responsibly"
 publishDate: 2029-11-15
 readingTime: 30
 status: "draft"
