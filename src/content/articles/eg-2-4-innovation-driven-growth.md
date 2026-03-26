@@ -223,6 +223,10 @@ The gap between South Africa's current innovation performance and the Stage 3 th
 
 ## Practical Framework: The Innovation Ecosystem Scanner
 
+:::takeaway
+The gap between South Africa's current innovation performance and the Stage 3 threshold is large but not unprecedented. South Korea was in a comparable position in 1980. The critical variable is not starting position but sustained commitment. Every country that reached innovation-driven growth did so through 20 to 30 years of consistent, compounding investment in R&D, human capital, and institutional capacity. The question for South African citizens is whether the policy environment — across all parties and all levels of government — supports that kind of sustained commitment.
+:::
+
 Assessing whether South Africa is on track for innovation-driven growth requires tracking four interconnected dimensions. Each can be monitored using publicly available data, giving you — as a citizen, voter, or analyst — the tools to evaluate innovation policy claims against observable evidence.
 
 **Dimension 1: R&D investment.** The core metric is gross expenditure on research and development (GERD) as a percentage of GDP, broken down by funding source (government, business enterprise, higher education, non-profit). The primary data source is the National Survey of Research and Experimental Development, conducted by the Centre for Science, Technology and Innovation Indicators (CeSTII) at the HSRC on behalf of the DSI. This survey is published every one to two years, with a significant time lag (the most recent data typically refers to expenditure two to three years prior). Supplementary data is available from the UNESCO Institute for Statistics, which maintains a global R&D expenditure database using standardised definitions, and from the OECD's Main Science and Technology Indicators database (South Africa is included as a partner country). The trend to watch is whether GERD is rising as a share of GDP — particularly whether business enterprise R&D expenditure (BERD) is growing, since this is where the largest increases must come.
