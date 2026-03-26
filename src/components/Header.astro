@@ -117,12 +117,14 @@ const isTopicsActive = currentPath.startsWith("/pillars") || currentPath === "/b
         viewBox="0 0 24 24"
         stroke="currentColor"
         aria-hidden="true"
+        data-menu-icon
       >
         <path
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="2"
-          d="M4 6h16M4 12h16M4 18h16"></path>
+          d="M4 6h16M4 12h16M4 18h16"
+          data-menu-icon-path></path>
       </svg>
     </button>
   </nav>
@@ -210,6 +212,10 @@ const isTopicsActive = currentPath.startsWith("/pillars") || currentPath === "/b
 <script>
   const toggle = document.querySelector("[data-menu-toggle]");
   const menu = document.querySelector("[data-mobile-menu]");
+  const iconPath = document.querySelector("[data-menu-icon-path]");
+
+  const HAMBURGER_D = "M4 6h16M4 12h16M4 18h16";
+  const CLOSE_D = "M6 18L18 6M6 6l12 12";
 
   if (toggle && menu) {
     toggle.addEventListener("click", () => {
@@ -221,11 +227,33 @@ const isTopicsActive = currentPath.startsWith("/pillars") || currentPath === "/b
       );
       menu.setAttribute("aria-hidden", String(isOpen));
 
+      if (iconPath) {
+        iconPath.setAttribute("d", isOpen ? HAMBURGER_D : CLOSE_D);
+      }
+
       if (isOpen) {
         (menu as HTMLElement).style.maxHeight = "0";
       } else {
         (menu as HTMLElement).style.maxHeight =
           menu.scrollHeight + "px";
+      }
+    });
+  }
+
+  // Topics dropdown: toggle aria-expanded on hover/focus
+  const topicsBtn = document.querySelector("li.group button[aria-haspopup]");
+  const topicsParent = topicsBtn?.closest("li.group");
+
+  if (topicsBtn && topicsParent) {
+    const setExpanded = (expanded: boolean) => {
+      topicsBtn.setAttribute("aria-expanded", String(expanded));
+    };
+    topicsParent.addEventListener("mouseenter", () => setExpanded(true));
+    topicsParent.addEventListener("mouseleave", () => setExpanded(false));
+    topicsParent.addEventListener("focusin", () => setExpanded(true));
+    topicsParent.addEventListener("focusout", (e) => {
+      if (!topicsParent.contains((e as FocusEvent).relatedTarget as Node)) {
+        setExpanded(false);
       }
     });
   }
