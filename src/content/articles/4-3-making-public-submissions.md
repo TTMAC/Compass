@@ -272,38 +272,38 @@ The Centre for Environmental Rights (CER), a public interest law organisation th
 
 To make the guidance in this article concrete, here is a model structure for a written submission on a bill. You can adapt this structure for regulations, policy documents, and other comment opportunities.
 
-**[Your name / Organisation name]**
-**[Your address / email / phone]**
-**[Date]**
-
-**To:** The Chairperson, [Committee Name]
-**Re:** Written Submission on the [Bill Name and Number]
-
-**1. Introduction**
-
-[One to two paragraphs. State who you are. Explain why you are submitting—how the bill affects you, your community, or your area of knowledge. State your overall position: do you support the bill, oppose it, or support it with specific amendments?]
-
-**2. Specific Comments**
-
-**2.1 Clause [X]: [Short description of the clause's subject]**
-
-[Explain the clause's current text or effect. Identify your concern—what problem does this clause create, who does it affect, and what evidence supports your concern? Propose a recommendation: amend, delete, or add alternative wording. If proposing alternative wording, provide the specific text.]
-
-**2.2 Clause [Y]: [Short description]**
-
-[Same structure as above.]
-
-[Continue for each clause you wish to address.]
-
-**3. Summary of Recommendations**
-
-1. [Recommendation 1 — specific, actionable]
-2. [Recommendation 2]
-3. [Recommendation 3]
-
-**4. Request for Oral Presentation** *(optional)*
-
-[If you wish to present orally, state your request here and briefly explain what additional perspective you would bring beyond the written submission.]
+> **[Your name / Organisation name]**
+> **[Your address / email / phone]**
+> **[Date]**
+>
+> **To:** The Chairperson, [Committee Name]
+> **Re:** Written Submission on the [Bill Name and Number]
+>
+> **1. Introduction**
+>
+> [One to two paragraphs. State who you are. Explain why you are submitting—how the bill affects you, your community, or your area of knowledge. State your overall position: do you support the bill, oppose it, or support it with specific amendments?]
+>
+> **2. Specific Comments**
+>
+> **2.1 Clause [X]: [Short description of the clause's subject]**
+>
+> [Explain the clause's current text or effect. Identify your concern—what problem does this clause create, who does it affect, and what evidence supports your concern? Propose a recommendation: amend, delete, or add alternative wording. If proposing alternative wording, provide the specific text.]
+>
+> **2.2 Clause [Y]: [Short description]**
+>
+> [Same structure as above.]
+>
+> [Continue for each clause you wish to address.]
+>
+> **3. Summary of Recommendations**
+>
+> 1. [Recommendation 1 — specific, actionable]
+> 2. [Recommendation 2]
+> 3. [Recommendation 3]
+>
+> **4. Request for Oral Presentation** *(optional)*
+>
+> [If you wish to present orally, state your request here and briefly explain what additional perspective you would bring beyond the written submission.]
 
 This structure is not mandatory—committees do not prescribe a format for submissions—but it is effective because it is clear, organised, and makes your recommendations easy to identify and act on.
 
