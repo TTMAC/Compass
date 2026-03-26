@@ -6,7 +6,7 @@ const currentYear = new Date().getFullYear();
 
 <footer class="bg-bg-secondary border-t border-gray-100 mt-auto" role="contentinfo">
   <div class="max-w-4xl mx-auto px-4 py-12">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
       <!-- Brand -->
       <div>
         <p class="font-heading font-bold text-lg text-compass-green mb-2">
@@ -17,20 +17,12 @@ const currentYear = new Date().getFullYear();
         </p>
       </div>
 
-      <!-- Navigate -->
+      <!-- Topics -->
       <div>
         <p class="font-heading font-semibold text-sm text-text-primary mb-3">
-          Navigate
+          Topics
         </p>
         <ul class="space-y-2" role="list">
-          <li>
-            <a
-              href="/about"
-              class="text-sm text-text-secondary hover:text-compass-green transition-colors"
-            >
-              About
-            </a>
-          </li>
           <li>
             <a
               href="/big-picture"
@@ -49,6 +41,23 @@ const currentYear = new Date().getFullYear();
               </a>
             </li>
           ))}
+        </ul>
+      </div>
+
+      <!-- About & Legal -->
+      <div>
+        <p class="font-heading font-semibold text-sm text-text-primary mb-3">
+          About & Legal
+        </p>
+        <ul class="space-y-2" role="list">
+          <li>
+            <a
+              href="/about"
+              class="text-sm text-text-secondary hover:text-compass-green transition-colors"
+            >
+              About
+            </a>
+          </li>
           <li>
             <a
               href="/subscribe"
