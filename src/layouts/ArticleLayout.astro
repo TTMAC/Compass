@@ -194,8 +194,12 @@ const jsonLd = {
 
     .toc-sidebar {
       display: block;
-      position: relative;
-      padding-top: 8rem;
+      align-self: start;
+      position: sticky;
+      top: 5rem;
+      max-height: calc(100vh - 6rem);
+      overflow-y: auto;
+      padding-top: 3rem;
     }
   }
 

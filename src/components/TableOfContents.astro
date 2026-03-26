@@ -68,13 +68,6 @@ const tocHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
 }
 
 <style>
-  .sticky-toc {
-    position: sticky;
-    top: 6rem;
-    max-height: calc(100vh - 8rem);
-    overflow-y: auto;
-  }
-
   /* Hide mobile TOC when sidebar is visible */
   @media (min-width: 1100px) {
     .toc-mobile {
