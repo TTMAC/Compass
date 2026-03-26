@@ -74,13 +74,13 @@
 4. **Topics dropdown a11y** — Toggle `aria-expanded` in `Header.astro` script
 5. **Hamburger icon toggle** — Swap SVG paths on menu open/close in `Header.astro`
 
-### Phase 2: Polish (next iteration)
+### Phase 2: Polish — COMPLETED
 
-6. Differentiate "Start here" pillar card
-7. Improve mobile feedback loop context
-8. Darken CTA hover state
-9. Group footer navigation
-10. Test progress bar visibility
+6. ~~Differentiate "Start here" pillar card~~ — green-light bg, green left border, larger label
+7. ~~Improve mobile feedback loop context~~ — added intro sentence above diagram
+8. ~~Darken CTA hover state~~ — replaced `hover:bg-opacity-90` with `hover:bg-[#145236]` across all CTAs
+9. ~~Group footer navigation~~ — split into "Topics" and "About & Legal" columns (4-col grid)
+10. ~~Progress bar visibility~~ — switched from gold to compass-green, increased height to 5px
 
 ### Phase 3: Future
 
