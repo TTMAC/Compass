@@ -153,6 +153,8 @@ The Gini coefficient of 0.63 — the highest in the world by most measurements �
 
 This is why the Inequality-adjusted HDI exists, and why it matters so much for South Africa. When you adjust the HDI for inequality — when you ask not what the average is but how the distribution affects actual human lives — South Africa's score drops from 0.741 to 0.462. That 37.6% penalty is the largest among all upper-middle-income countries. It is the mathematical expression of a social structure that produces enough wealth for a comfortable middle-income country but distributes it with the brutality of an oligarchy.
 
+> "The HDI was designed to be a summary measure — a way of focusing attention on human outcomes rather than economic aggregates. It was never intended to be the final word on human development. In countries with extreme inequality, the headline HDI can be actively misleading, because it assigns the same score to a country where development is broadly shared and a country where it is concentrated among elites." South Africa is the paradigm case of the second category.
+
 ## Beyond the HDI: The Family of Indices
 
 The HDI was always intended as a starting point, not a destination. Mahbub ul Haq described it as a "vulgar measure" — deliberately simple, designed to compete with the even more vulgar simplicity of GDP. But the UNDP has progressively developed a family of indices, each addressing a dimension that the headline HDI omits. Each of these will receive detailed treatment in subsequent articles in this series, but a brief overview here establishes the analytical landscape.
