@@ -5,7 +5,6 @@ interface Props {
 }
 
 const { tags, tagCounts = {} } = Astro.props;
-const totalCount = Object.values(tagCounts).reduce((sum, count) => sum + count, 0);
 ---
 
 <div class="flex flex-wrap gap-2 mb-6" data-testid="tag-filter" role="group" aria-label="Filter by tag">
