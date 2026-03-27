@@ -47,10 +47,15 @@ export interface LegislativeItem {
   phase: PhaseId;
 }
 
+export interface MilestoneItem {
+  text: string;
+  workstream: WorkstreamId;
+}
+
 export interface Milestone {
   period: string;
   label: string;
-  items: string[];
+  items: MilestoneItem[];
 }
 
 export interface CrossCuttingDigital {
@@ -1067,42 +1072,42 @@ export const milestones: Milestone[] = [
     period: "Year 1",
     label: "Quick Wins",
     items: [
-      "Case-flow triage system design and pilot",
-      "MSME ecosystem integration audit",
-      "RAARICLE diagnostic assessments across concurrent functions",
-      "Revenue ring-fencing legislation drafted",
-      "Teacher development programme launch",
-      "District-level human development baseline",
-      "Business registration simplification (48-hour target)",
-      "Title deed backlog task team established",
+      { text: "Case-flow triage system design and pilot", workstream: "safety-security" },
+      { text: "MSME ecosystem integration audit", workstream: "economic-growth" },
+      { text: "RAARICLE diagnostic assessments across concurrent functions", workstream: "reform-agenda" },
+      { text: "Revenue ring-fencing legislation drafted", workstream: "reform-agenda" },
+      { text: "Teacher development programme launch", workstream: "human-development" },
+      { text: "District-level human development baseline", workstream: "human-development" },
+      { text: "Business registration simplification (48-hour target)", workstream: "economic-growth" },
+      { text: "Title deed backlog task team established", workstream: "reform-agenda" },
     ],
   },
   {
     period: "Year 5",
     label: "Medium-Term Milestones",
     items: [
-      "Investigating Magistracy operational in pilot areas",
-      "Community courts operational",
-      "Three-tier policing piloted in 2–3 provinces",
-      "WSA/WSP separation implemented",
-      "Small Business Guarantee Fund lending at scale",
-      "First export cluster products entering international markets",
-      "Reinforcing cycle measurable in bundled intervention districts",
-      "Revenue ring-fencing in effect for water and electricity",
+      { text: "Investigating Magistracy operational in pilot areas", workstream: "safety-security" },
+      { text: "Community courts operational", workstream: "safety-security" },
+      { text: "Three-tier policing piloted in 2–3 provinces", workstream: "safety-security" },
+      { text: "WSA/WSP separation implemented", workstream: "reform-agenda" },
+      { text: "Small Business Guarantee Fund lending at scale", workstream: "economic-growth" },
+      { text: "First export cluster products entering international markets", workstream: "economic-growth" },
+      { text: "Reinforcing cycle measurable in bundled intervention districts", workstream: "human-development" },
+      { text: "Revenue ring-fencing in effect for water and electricity", workstream: "reform-agenda" },
     ],
   },
   {
     period: "Year 10",
     label: "Long-Term Outcomes",
     items: [
-      "Nationwide three-tier policing operational",
-      "Rehabilitation-centred corrections system functional",
-      "Integrated Criminal Justice Information System fully deployed",
-      "Municipal service delivery structurally reformed",
-      "Diversified export base reducing commodity dependence",
-      "Self-sustaining venture ecosystems",
-      "Measurable intergenerational human development gains",
-      "All 13 Law and Order Scorecard outcomes tracked quarterly",
+      { text: "Nationwide three-tier policing operational", workstream: "safety-security" },
+      { text: "Rehabilitation-centred corrections system functional", workstream: "safety-security" },
+      { text: "Integrated Criminal Justice Information System fully deployed", workstream: "safety-security" },
+      { text: "Municipal service delivery structurally reformed", workstream: "reform-agenda" },
+      { text: "Diversified export base reducing commodity dependence", workstream: "economic-growth" },
+      { text: "Self-sustaining venture ecosystems", workstream: "economic-growth" },
+      { text: "Measurable intergenerational human development gains", workstream: "human-development" },
+      { text: "All 13 Law and Order Scorecard outcomes tracked quarterly", workstream: "safety-security" },
     ],
   },
 ];

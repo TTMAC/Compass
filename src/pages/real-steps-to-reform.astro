@@ -162,20 +162,14 @@ const grouped = workstreams.map((ws) => {
 
   <!-- Milestones -->
   <details class="mb-10 group/milestones" aria-label="Reform milestones">
-    <summary class="flex items-center justify-between cursor-pointer list-none [&::-webkit-details-marker]:hidden select-none py-2">
+    <summary class="flex items-center gap-3 cursor-pointer list-none [&::-webkit-details-marker]:hidden select-none py-2">
       <h2 class="font-heading text-xl font-bold text-text-primary">
         Milestones
       </h2>
-      <svg
-        class="w-5 h-5 text-text-secondary shrink-0 transition-transform group-open/milestones:rotate-180"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-        stroke-width="2"
-        aria-hidden="true"
-      >
-        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-      </svg>
+      <span class="font-heading text-sm text-compass-green hover:underline transition-colors">
+        <span class="group-open/milestones:hidden">See more</span>
+        <span class="hidden group-open/milestones:inline">See less</span>
+      </span>
     </summary>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
       {milestones.map((m) => {
@@ -194,9 +188,12 @@ const grouped = workstreams.map((ws) => {
             </p>
             <ul class="space-y-2">
               {m.items.map((item) => (
-                <li class="flex items-start gap-2 text-sm text-text-secondary leading-relaxed">
+                <li
+                  class="milestone-item flex items-start gap-2 text-sm text-text-secondary leading-relaxed"
+                  data-workstream={item.workstream}
+                >
                   <span class="shrink-0 mt-1.5 w-1.5 h-1.5 rounded-full" style={`background-color: ${colors.text}`}></span>
-                  {item}
+                  {item.text}
                 </li>
               ))}
             </ul>
@@ -546,6 +543,12 @@ const grouped = workstreams.map((ws) => {
       const wsMatch = activeWorkstream === "all" || activeWorkstream === ws;
       const phMatch = !activePhase || activePhase === ph;
       s.style.display = wsMatch && phMatch ? "" : "none";
+    });
+
+    // Milestone items
+    document.querySelectorAll<HTMLElement>(".milestone-item").forEach((item) => {
+      const ws = item.dataset.workstream!;
+      item.style.display = activeWorkstream === "all" || activeWorkstream === ws ? "" : "none";
     });
 
     // Phase filter indicator
