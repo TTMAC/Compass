@@ -159,10 +159,11 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
   <div class="max-w-content mx-auto px-4 md:px-0 py-10">
 
     {pillar.filterDimension === "sphere" && hasArticles && (
-      <div class="flex gap-2 mb-6" role="group" aria-label="View mode">
+      <div class="flex gap-2 mb-6" role="group" aria-label="View mode" data-pillar-color={pillar.color}>
         <button
           type="button"
-          class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-compass-green text-white"
+          class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors text-white"
+          style={`background-color: ${pillar.color};`}
           data-view-toggle="reading-order"
           aria-pressed="true"
         >
@@ -179,8 +180,8 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
       </div>
     )}
 
-    {pillar.filterDimension === "sphere" && hasArticles && <SphereFilter />}
-    {pillar.filterDimension === "tags" && allTags.length > 0 && <TagFilter tags={allTags} tagCounts={tagCounts} />}
+    {pillar.filterDimension === "sphere" && hasArticles && <SphereFilter pillarColor={pillar.color} />}
+    {pillar.filterDimension === "tags" && allTags.length > 0 && <TagFilter tags={allTags} tagCounts={tagCounts} pillarColor={pillar.color} />}
 
     {hasArticles ? (
       <div class="space-y-10" id="reading-order-view">
@@ -398,10 +399,12 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
 
   {pillar.filterDimension === "sphere" && hasArticles && (
     <script>
+      const toggleContainer = document.querySelector('[role="group"][aria-label="View mode"]');
       const toggleButtons = document.querySelectorAll("[data-view-toggle]");
       const readingOrderView = document.getElementById("reading-order-view");
       const bySphereView = document.getElementById("by-sphere-view");
       const sphereFilter = document.querySelector('[data-testid="sphere-filter"]');
+      const viewPillarColor = toggleContainer?.getAttribute("data-pillar-color") || "#1B6B4A";
 
       toggleButtons.forEach((btn) => {
         btn.addEventListener("click", () => {
@@ -410,10 +413,12 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
           toggleButtons.forEach((b) => {
             b.setAttribute("aria-pressed", "false");
             b.className = "px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-gray-100 text-text-secondary hover:bg-gray-200";
+            (b as HTMLElement).style.backgroundColor = "";
           });
 
           btn.setAttribute("aria-pressed", "true");
-          btn.className = "px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-compass-green text-white";
+          btn.className = "px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors text-white";
+          (btn as HTMLElement).style.backgroundColor = viewPillarColor;
 
           if (view === "reading-order") {
             readingOrderView?.classList.remove("hidden");

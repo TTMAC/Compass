@@ -3,17 +3,19 @@ interface Props {
   tags: string[];
   tagCounts?: Record<string, number>;
   initialVisible?: number;
+  pillarColor?: string;
 }
 
-const { tags, tagCounts = {}, initialVisible = 6 } = Astro.props;
+const { tags, tagCounts = {}, initialVisible = 6, pillarColor = "#1B6B4A" } = Astro.props;
 const hasOverflow = tags.length > initialVisible;
 ---
 
-<div data-testid="tag-filter" class="mb-6">
+<div data-testid="tag-filter" class="mb-6" data-pillar-color={pillarColor}>
   <div class="flex flex-wrap gap-2" role="group" aria-label="Filter by tag">
     <button
       type="button"
-      class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-compass-green text-white"
+      class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors text-white"
+      style={`background-color: ${pillarColor};`}
       data-tag="all"
       aria-pressed="true"
     >
@@ -76,6 +78,8 @@ const hasOverflow = tags.length > initialVisible;
   }
 
   // Tag filtering
+  const pillarColor = filterContainer?.getAttribute("data-pillar-color") || "#1B6B4A";
+
   filterButtons?.forEach((btn) => {
     btn.addEventListener("click", () => {
       const tag = btn.getAttribute("data-tag") || "all";
@@ -83,17 +87,19 @@ const hasOverflow = tags.length > initialVisible;
       filterButtons.forEach((b) => {
         b.setAttribute("aria-pressed", "false");
         b.className = b.className
-          .replace("bg-compass-green text-white", "")
+          .replace("text-white", "")
           .replace("bg-gray-100 text-text-secondary hover:bg-gray-200", "")
           .trim()
           + " bg-gray-100 text-text-secondary hover:bg-gray-200";
+        b.style.backgroundColor = "";
       });
 
       btn.setAttribute("aria-pressed", "true");
       btn.className = btn.className
         .replace("bg-gray-100 text-text-secondary hover:bg-gray-200", "")
         .trim()
-        + " bg-compass-green text-white";
+        + " text-white";
+      btn.style.backgroundColor = pillarColor;
 
       cards.forEach((card) => {
         const cardEl = card;

@@ -1,4 +1,10 @@
 ---
+interface Props {
+  pillarColor?: string;
+}
+
+const { pillarColor = "#1B6B4A" } = Astro.props;
+
 const spheres = [
   { value: "all", label: "All", color: "bg-compass-green" },
   { value: "national", label: "National", color: "bg-sphere-national" },
@@ -7,17 +13,19 @@ const spheres = [
 ];
 ---
 
-<div class="flex flex-wrap gap-2 mb-6" data-testid="sphere-filter" role="group" aria-label="Filter by sphere">
+<div class="flex flex-wrap gap-2 mb-6" data-testid="sphere-filter" data-pillar-color={pillarColor} role="group" aria-label="Filter by sphere">
   {
     spheres.map((sphere) => (
       <button
         type="button"
         class={`px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors ${
           sphere.value === "all"
-            ? `${sphere.color} text-white`
+            ? "text-white"
             : "bg-gray-100 text-text-secondary hover:bg-gray-200"
         }`}
+        style={sphere.value === "all" ? `background-color: ${pillarColor};` : undefined}
         data-sphere={sphere.value}
+        data-sphere-color={sphere.color}
         aria-pressed={sphere.value === "all" ? "true" : "false"}
       >
         {sphere.label}
@@ -30,9 +38,9 @@ const spheres = [
   const filterContainer = document.querySelector('[data-testid="sphere-filter"]');
   const buttons = filterContainer?.querySelectorAll("button");
   const cards = document.querySelectorAll("[data-testid='series-card']");
+  const pillarColor = filterContainer?.getAttribute("data-pillar-color") || "#1B6B4A";
 
   const sphereColorMap: Record<string, string> = {
-    all: "bg-compass-green",
     national: "bg-sphere-national",
     provincial: "bg-sphere-provincial",
     municipal: "bg-sphere-municipal",
@@ -46,14 +54,20 @@ const spheres = [
       buttons.forEach((b) => {
         b.setAttribute("aria-pressed", "false");
         b.className = `px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-gray-100 text-text-secondary hover:bg-gray-200`;
+        b.style.backgroundColor = "";
       });
 
       btn.setAttribute("aria-pressed", "true");
-      btn.className = `px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors ${sphereColorMap[sphere]} text-white`;
+      if (sphere === "all") {
+        btn.className = `px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors text-white`;
+        btn.style.backgroundColor = pillarColor;
+      } else {
+        btn.className = `px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors ${sphereColorMap[sphere]} text-white`;
+      }
 
       // Filter cards
       cards.forEach((card) => {
-        const cardEl = card as HTMLElement;
+        const cardEl = card;
         if (sphere === "all") {
           cardEl.style.display = "";
         } else {
