@@ -63,7 +63,7 @@
 
   /* Focus indicator for keyboard navigation */
   :focus-visible {
-    outline: 2px solid #1b6b4a;
+    outline: 2px solid #355E3B;
     outline-offset: 2px;
   }
 

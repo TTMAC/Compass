@@ -3,7 +3,7 @@ interface Props {
   pillarColor?: string;
 }
 
-const { pillarColor = "#1B6B4A" } = Astro.props;
+const { pillarColor = "#355E3B" } = Astro.props;
 
 const spheres = [
   { value: "all", label: "All", color: "bg-compass-green" },
@@ -38,7 +38,7 @@ const spheres = [
   const filterContainer = document.querySelector('[data-testid="sphere-filter"]');
   const buttons = filterContainer?.querySelectorAll("button");
   const cards = document.querySelectorAll("[data-testid='series-card']");
-  const pillarColor = filterContainer?.getAttribute("data-pillar-color") || "#1B6B4A";
+  const pillarColor = filterContainer?.getAttribute("data-pillar-color") || "#355E3B";
 
   const sphereColorMap: Record<string, string> = {
     national: "bg-sphere-national",

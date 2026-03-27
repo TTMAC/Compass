@@ -84,8 +84,8 @@ export const workstreams: Workstream[] = [
     shortTitle: "Safety",
     vision:
       "Transform South Africa's criminal justice system from a broken pipeline that haemorrhages cases at every stage into an integrated, accountable system that delivers safety, justice, and rehabilitation.",
-    color: "#0369A1",
-    lightColor: "#E0F2FE",
+    color: "#1B4965",
+    lightColor: "#E0EBF2",
     phases: [
       {
         id: "phase-1",
@@ -118,8 +118,8 @@ export const workstreams: Workstream[] = [
     shortTitle: "Reform",
     vision:
       "Fix the structural governance failures that cause service delivery collapse — using the RAARICLE diagnostic framework to identify and resolve five failure patterns: Fragmentation, Misalignment, Absence, Conflation, and Inversion.",
-    color: "#DC2626",
-    lightColor: "#FEE2E2",
+    color: "#8B2232",
+    lightColor: "#F0DEE2",
     phases: [
       {
         id: "phase-1",
@@ -150,8 +150,8 @@ export const workstreams: Workstream[] = [
     shortTitle: "Economy",
     vision:
       "Shift South Africa from a resource-dependent, consumption-driven economy to a diversified, innovation-led economy capable of generating inclusive growth through three engines: new venture creation, export diversification, and MSME financing.",
-    color: "#D97706",
-    lightColor: "#FEF3C7",
+    color: "#7A5C1F",
+    lightColor: "#F3EBDA",
     phases: [
       {
         id: "phase-1",
@@ -181,8 +181,8 @@ export const workstreams: Workstream[] = [
     shortTitle: "People",
     vision:
       "Build a reinforcing cycle where health, education, and economic opportunity compound into sustained human capability — recognising that South Africa's development outcomes are worse than its income level would predict, indicating systemic institutional failure rather than resource scarcity.",
-    color: "#7C3AED",
-    lightColor: "#EDE9FE",
+    color: "#553691",
+    lightColor: "#E8E0F4",
     phases: [
       {
         id: "phase-1",

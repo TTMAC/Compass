@@ -316,10 +316,10 @@ const grouped = workstreams.map((ws) => {
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
       {milestones.map((m) => {
         const colors = m.period === "Year 1"
-          ? { bg: "#E8F5EE", border: "#1B6B4A", text: "#1B6B4A" }
+          ? { bg: "#E6EFE8", border: "#355E3B", text: "#355E3B" }
           : m.period === "Year 5"
-            ? { bg: "#FEF3C7", border: "#D97706", text: "#D97706" }
-            : { bg: "#EDE9FE", border: "#7C3AED", text: "#7C3AED" };
+            ? { bg: "#F3EBDA", border: "#7A5C1F", text: "#7A5C1F" }
+            : { bg: "#E8E0F4", border: "#553691", text: "#553691" };
         return (
           <div class="rounded-lg border p-5" style={`border-color: ${colors.border}30; background-color: ${colors.bg}40`}>
             <p class="font-heading text-lg font-bold mb-1" style={`color: ${colors.text}`}>
@@ -565,13 +565,13 @@ const grouped = workstreams.map((ws) => {
 
         if (isActive) {
           if (filter === "all") {
-            b.style.cssText = "border-color: #1B6B4A; background-color: #1B6B4A; color: white";
+            b.style.cssText = "border-color: #355E3B; background-color: #355E3B; color: white";
           } else {
             b.style.cssText = `border-color: ${b.dataset.color}; background-color: ${b.dataset.color}; color: white`;
           }
         } else {
           if (b.dataset.filter === "all") {
-            b.style.cssText = "border-color: #1B6B4A; background-color: transparent; color: #1B6B4A";
+            b.style.cssText = "border-color: #355E3B; background-color: transparent; color: #355E3B";
           } else {
             b.style.cssText = `border-color: ${b.dataset.color}; background-color: transparent; color: ${b.dataset.color}`;
           }
@@ -602,7 +602,7 @@ const grouped = workstreams.map((ws) => {
               b.style.cssText = `border-color: ${b.dataset.color}; background-color: ${b.dataset.color}; color: white`;
             } else {
               if (b.dataset.filter === "all") {
-                b.style.cssText = "border-color: #1B6B4A; background-color: transparent; color: #1B6B4A";
+                b.style.cssText = "border-color: #355E3B; background-color: transparent; color: #355E3B";
               } else {
                 b.style.cssText = `border-color: ${b.dataset.color}; background-color: transparent; color: ${b.dataset.color}`;
               }

@@ -6,7 +6,7 @@ interface Props {
   pillarColor?: string;
 }
 
-const { tags, tagCounts = {}, initialVisible = 6, pillarColor = "#1B6B4A" } = Astro.props;
+const { tags, tagCounts = {}, initialVisible = 6, pillarColor = "#355E3B" } = Astro.props;
 const hasOverflow = tags.length > initialVisible;
 ---
 
@@ -78,7 +78,7 @@ const hasOverflow = tags.length > initialVisible;
   }
 
   // Tag filtering
-  const pillarColor = filterContainer?.getAttribute("data-pillar-color") || "#1B6B4A";
+  const pillarColor = filterContainer?.getAttribute("data-pillar-color") || "#355E3B";
 
   filterButtons?.forEach((btn) => {
     btn.addEventListener("click", () => {

@@ -23,8 +23,8 @@ export const pillars: PillarConfig[] = [
     shortTitle: "Government",
     description:
       "How South Africa's government is structured across three spheres — who does what, where the money goes, and how to hold them accountable.",
-    color: "#1B6B4A",
-    lightColor: "#E8F5EE",
+    color: "#355E3B",
+    lightColor: "#E6EFE8",
     filterDimension: "sphere",
     order: 1,
     parts: [
@@ -65,8 +65,8 @@ export const pillars: PillarConfig[] = [
     shortTitle: "Safety",
     description:
       "How South Africa's criminal justice system works — policing, courts, corrections, and what reform looks like.",
-    color: "#0369A1",
-    lightColor: "#E0F2FE",
+    color: "#1B4965",
+    lightColor: "#E0EBF2",
     filterDimension: "tags",
     order: 2,
     parts: [
@@ -102,8 +102,8 @@ export const pillars: PillarConfig[] = [
     shortTitle: "Economy",
     description:
       "How economic policy is made, who benefits, and what structural change requires.",
-    color: "#D97706",
-    lightColor: "#FEF3C7",
+    color: "#7A5C1F",
+    lightColor: "#F3EBDA",
     filterDimension: "tags",
     order: 3,
     parts: [
@@ -145,8 +145,8 @@ export const pillars: PillarConfig[] = [
     shortTitle: "Human Dev",
     description:
       "How government structure, safety, and economic growth form a reinforcing feedback loop that shapes human outcomes.",
-    color: "#7C3AED",
-    lightColor: "#EDE9FE",
+    color: "#553691",
+    lightColor: "#E8E0F4",
     filterDimension: "tags",
     order: 4,
     parts: [
@@ -188,8 +188,8 @@ export const pillars: PillarConfig[] = [
     shortTitle: "Reform",
     description:
       "How to fix what's broken — applying the RAARICLE governance framework to diagnose failures and design structural reforms across all three spheres.",
-    color: "#DC2626",
-    lightColor: "#FEE2E2",
+    color: "#8B2232",
+    lightColor: "#F0DEE2",
     filterDimension: "tags",
     order: 5,
     parts: [
@@ -232,5 +232,5 @@ export function getPillarBySlug(slug: string): PillarConfig | undefined {
 }
 
 export function getPillarColor(slug: string): string {
-  return getPillarBySlug(slug)?.color ?? "#1B6B4A";
+  return getPillarBySlug(slug)?.color ?? "#355E3B";
 }
