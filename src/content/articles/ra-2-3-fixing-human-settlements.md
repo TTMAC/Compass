@@ -17,7 +17,7 @@ readingTime: 35
 status: "draft"
 series:
   prev: "ra-2-2-fixing-primary-healthcare"
-  next: "ra-3-1-provincial-performance-crisis"
+  next: "ra-2-4-fixing-safety-and-security"
 crossLinks:
   - slug: "2-3-from-treasury-to-your-town"
     label: "From Treasury to Your Town"

@@ -203,7 +203,7 @@ export const pillars: PillarConfig[] = [
         number: 2,
         title: "National Government Reform",
         description:
-          "Fixing education, healthcare, and housing — the biggest concurrent function failures.",
+          "Fixing education, healthcare, housing, and safety — the biggest concurrent function failures.",
       },
       {
         number: 3,
