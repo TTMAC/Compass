@@ -115,7 +115,7 @@ export const workstreams: Workstream[] = [
   {
     id: "reform-agenda",
     title: "Reform Agenda (Institutional Governance)",
-    shortTitle: "Reform",
+    shortTitle: "Institutional Reforms",
     vision:
       "Fix the structural governance failures that cause service delivery collapse — using the RAARICLE diagnostic framework to identify and resolve five failure patterns: Fragmentation, Misalignment, Absence, Conflation, and Inversion.",
     color: "#8B2232",
