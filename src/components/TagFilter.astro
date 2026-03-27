@@ -2,54 +2,101 @@
 interface Props {
   tags: string[];
   tagCounts?: Record<string, number>;
+  initialVisible?: number;
 }
 
-const { tags, tagCounts = {} } = Astro.props;
+const { tags, tagCounts = {}, initialVisible = 6 } = Astro.props;
+const hasOverflow = tags.length > initialVisible;
 ---
 
-<div class="flex flex-wrap gap-2 mb-6" data-testid="tag-filter" role="group" aria-label="Filter by tag">
-  <button
-    type="button"
-    class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-compass-green text-white"
-    data-tag="all"
-    aria-pressed="true"
-  >
-    All
-  </button>
-  {tags.map((tag) => (
+<div data-testid="tag-filter" class="mb-6">
+  <div class="flex flex-wrap gap-2" role="group" aria-label="Filter by tag">
     <button
       type="button"
-      class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-gray-100 text-text-secondary hover:bg-gray-200"
-      data-tag={tag}
-      aria-pressed="false"
+      class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-compass-green text-white"
+      data-tag="all"
+      aria-pressed="true"
     >
-      {tag.charAt(0).toUpperCase() + tag.slice(1)}
-      {tagCounts[tag] !== undefined && (
-        <span class="ml-1 text-[10px] opacity-70">({tagCounts[tag]})</span>
-      )}
+      All
     </button>
-  ))}
+    {tags.map((tag, i) => (
+      <button
+        type="button"
+        class:list={[
+          "px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-gray-100 text-text-secondary hover:bg-gray-200",
+          { "hidden": hasOverflow && i >= initialVisible },
+        ]}
+        data-tag={tag}
+        data-tag-index={i}
+        aria-pressed="false"
+      >
+        {tag.charAt(0).toUpperCase() + tag.slice(1)}
+        {tagCounts[tag] !== undefined && (
+          <span class="ml-1 text-[10px] opacity-70">({tagCounts[tag]})</span>
+        )}
+      </button>
+    ))}
+    {hasOverflow && (
+      <button
+        type="button"
+        class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors border border-dashed border-gray-300 text-text-secondary hover:bg-gray-50"
+        data-tag-toggle
+        aria-expanded="false"
+      >
+        +{tags.length - initialVisible} more
+      </button>
+    )}
+  </div>
 </div>
 
-<script>
+<script define:vars={{ initialVisible }}>
   const filterContainer = document.querySelector('[data-testid="tag-filter"]');
-  const buttons = filterContainer?.querySelectorAll("button");
+  const filterButtons = filterContainer?.querySelectorAll("button[data-tag]");
+  const toggleBtn = filterContainer?.querySelector("[data-tag-toggle]");
   const cards = document.querySelectorAll("[data-testid='series-card']");
 
-  buttons?.forEach((btn) => {
+  // Expand / collapse
+  if (toggleBtn) {
+    let expanded = false;
+    toggleBtn.addEventListener("click", () => {
+      expanded = !expanded;
+      toggleBtn.setAttribute("aria-expanded", String(expanded));
+
+      filterContainer?.querySelectorAll("button[data-tag-index]").forEach((btn) => {
+        const idx = Number(btn.getAttribute("data-tag-index"));
+        if (idx >= initialVisible) {
+          btn.classList.toggle("hidden", !expanded);
+        }
+      });
+
+      const hiddenCount = filterContainer?.querySelectorAll("button[data-tag-index].hidden").length ?? 0;
+      const totalOverflow = filterContainer?.querySelectorAll("button[data-tag-index]").length - initialVisible;
+      toggleBtn.textContent = expanded ? "Show less" : `+${totalOverflow} more`;
+    });
+  }
+
+  // Tag filtering
+  filterButtons?.forEach((btn) => {
     btn.addEventListener("click", () => {
       const tag = btn.getAttribute("data-tag") || "all";
 
-      buttons.forEach((b) => {
+      filterButtons.forEach((b) => {
         b.setAttribute("aria-pressed", "false");
-        b.className = "px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-gray-100 text-text-secondary hover:bg-gray-200";
+        b.className = b.className
+          .replace("bg-compass-green text-white", "")
+          .replace("bg-gray-100 text-text-secondary hover:bg-gray-200", "")
+          .trim()
+          + " bg-gray-100 text-text-secondary hover:bg-gray-200";
       });
 
       btn.setAttribute("aria-pressed", "true");
-      btn.className = "px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-compass-green text-white";
+      btn.className = btn.className
+        .replace("bg-gray-100 text-text-secondary hover:bg-gray-200", "")
+        .trim()
+        + " bg-compass-green text-white";
 
       cards.forEach((card) => {
-        const cardEl = card as HTMLElement;
+        const cardEl = card;
         if (tag === "all") {
           cardEl.style.display = "";
         } else {

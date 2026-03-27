@@ -34,18 +34,22 @@ const hasArticles = pillarArticles.length > 0;
 const publishedCount = pillarArticles.filter((a) => a.data.status === "published").length;
 const totalCount = pillarArticles.length;
 
-const allTags = pillar.filterDimension === "tags"
+const allTagsUnsorted = pillar.filterDimension === "tags"
   ? [...new Set(pillarArticles.flatMap((a) => a.data.tags ?? []))]
   : [];
 
 const tagCounts = pillar.filterDimension === "tags"
   ? Object.fromEntries(
-      allTags.map((tag) => [
+      allTagsUnsorted.map((tag) => [
         tag,
         pillarArticles.filter((a) => a.data.tags?.includes(tag)).length,
       ]),
     )
   : {};
+
+const allTags = allTagsUnsorted.sort(
+  (a, b) => (tagCounts[b] ?? 0) - (tagCounts[a] ?? 0),
+);
 
 const isLinkable = (status: string) => status === "published" || status === "draft";
 
