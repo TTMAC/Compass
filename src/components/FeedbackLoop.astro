@@ -8,27 +8,27 @@
       <marker id="arrow-dash" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
     </defs>
 
-    <!-- Symmetric quarter-arc arrows (counter-clockwise) -->
+    <!-- Clockwise arrows: Gov → Safety → HD → Economy → Gov -->
 
-    <!-- Gov Structure → Safety & Security -->
-    <path d="M 240,72 Q 120,72 120,246" fill="none" stroke="#888780" stroke-width="1.2" marker-end="url(#arrow)"/>
-    <text x="108" y="148" text-anchor="end" font-size="12" fill="#5F5E5A">Institutional</text>
-    <text x="108" y="164" text-anchor="end" font-size="12" fill="#5F5E5A">capacity</text>
+    <!-- 1. Gov Structure → Safety & Security -->
+    <path d="M 440,72 Q 560,72 560,246" fill="none" stroke="#888780" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <text x="572" y="148" text-anchor="start" font-size="12" fill="#5F5E5A">Institutional</text>
+    <text x="572" y="164" text-anchor="start" font-size="12" fill="#5F5E5A">capacity</text>
 
-    <!-- Safety & Security → Human Development -->
-    <path d="M 120,294 Q 120,468 240,468" fill="none" stroke="#888780" stroke-width="1.2" marker-end="url(#arrow)"/>
-    <text x="108" y="388" text-anchor="end" font-size="12" fill="#5F5E5A">Security enables</text>
-    <text x="108" y="404" text-anchor="end" font-size="12" fill="#5F5E5A">development</text>
+    <!-- 2. Safety & Security → Human Development -->
+    <path d="M 560,294 Q 560,468 440,468" fill="none" stroke="#888780" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <text x="572" y="388" text-anchor="start" font-size="12" fill="#5F5E5A">Security enables</text>
+    <text x="572" y="404" text-anchor="start" font-size="12" fill="#5F5E5A">development</text>
 
-    <!-- Human Development → Economic Growth -->
-    <path d="M 440,468 Q 560,468 560,294" fill="none" stroke="#888780" stroke-width="1.2" marker-end="url(#arrow)"/>
-    <text x="568" y="388" text-anchor="start" font-size="12" fill="#5F5E5A">Skills &amp;</text>
-    <text x="568" y="404" text-anchor="start" font-size="12" fill="#5F5E5A">productivity</text>
+    <!-- 3. Human Development → Economic Growth -->
+    <path d="M 240,468 Q 120,468 120,294" fill="none" stroke="#888780" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <text x="108" y="388" text-anchor="end" font-size="12" fill="#5F5E5A">Skills &amp;</text>
+    <text x="108" y="404" text-anchor="end" font-size="12" fill="#5F5E5A">productivity</text>
 
-    <!-- Economic Growth → Government Structure -->
-    <path d="M 560,246 Q 560,72 440,72" fill="none" stroke="#888780" stroke-width="1.2" marker-end="url(#arrow)"/>
-    <text x="568" y="148" text-anchor="start" font-size="12" fill="#5F5E5A">Tax base &amp;</text>
-    <text x="568" y="164" text-anchor="start" font-size="12" fill="#5F5E5A">fiscal space</text>
+    <!-- 4. Economic Growth → Government Structure -->
+    <path d="M 120,246 Q 120,72 240,72" fill="none" stroke="#888780" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <text x="108" y="148" text-anchor="end" font-size="12" fill="#5F5E5A">Tax base &amp;</text>
+    <text x="108" y="164" text-anchor="end" font-size="12" fill="#5F5E5A">fiscal space</text>
 
     <!-- CENTER HUB -->
     <circle cx="340" cy="270" r="62" fill="none" stroke="#D3D1C7" stroke-width="0.5" stroke-dasharray="3 3"/>
@@ -49,8 +49,8 @@
     <!-- Investment climate label -->
     <text x="340" y="348" text-anchor="middle" font-size="12" fill="#5F5E5A" font-style="italic">Investment climate</text>
 
-    <!-- Dashed connectors -->
-    <line x1="450" y1="270" x2="402" y2="270" stroke="#888780" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow-dash)"/>
+    <!-- Dashed connectors: Safety (right) ↔ Economy (left) through center -->
+    <line x1="460" y1="270" x2="402" y2="270" stroke="#888780" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow-dash)"/>
     <line x1="278" y1="270" x2="220" y2="270" stroke="#888780" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow-dash)"/>
 
     <!-- Government Structure (top) -->
@@ -59,10 +59,10 @@
       <text x="340" y="72" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#27500A">Government structure</text>
     </a>
 
-    <!-- Economic Growth (right) -->
-    <a href="/pillars/economic-growth">
-      <rect x="460" y="246" width="200" height="48" rx="8" fill="#FAC775" stroke="#854F0B" stroke-width="0.5" class="hover:opacity-90 transition-opacity"/>
-      <text x="560" y="270" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#633806">Economic growth</text>
+    <!-- Safety & Security (right) -->
+    <a href="/pillars/safety-security">
+      <rect x="460" y="246" width="200" height="48" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5" class="hover:opacity-90 transition-opacity"/>
+      <text x="560" y="270" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#085041">Safety &amp; security</text>
     </a>
 
     <!-- Human Development (bottom) -->
@@ -71,10 +71,10 @@
       <text x="340" y="468" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#3C3489">Human development</text>
     </a>
 
-    <!-- Safety & Security (left) -->
-    <a href="/pillars/safety-security">
-      <rect x="20" y="246" width="200" height="48" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5" class="hover:opacity-90 transition-opacity"/>
-      <text x="120" y="270" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#085041">Safety &amp; security</text>
+    <!-- Economic Growth (left) -->
+    <a href="/pillars/economic-growth">
+      <rect x="20" y="246" width="200" height="48" rx="8" fill="#FAC775" stroke="#854F0B" stroke-width="0.5" class="hover:opacity-90 transition-opacity"/>
+      <text x="120" y="270" text-anchor="middle" dominant-baseline="central" font-size="14" font-weight="500" fill="#633806">Economic growth</text>
     </a>
 
     <!-- Caption -->
