@@ -248,12 +248,15 @@ const grouped = workstreams.map((ws) => {
     </h3>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
       {failurePatterns.map((fp, i) => (
-        <div class="border border-red-200 rounded-lg p-4 bg-red-50/40">
-          <p class="font-heading text-sm font-bold text-red-800 mb-1">
+        <a
+          href={`/articles/${fp.articleSlug}`}
+          class="border border-red-200 rounded-lg p-4 bg-red-50/40 hover:border-red-300 hover:bg-red-50/60 transition-colors group block"
+        >
+          <p class="font-heading text-sm font-bold text-red-800 mb-1 group-hover:text-red-900">
             {i + 1}. {fp.name}
           </p>
           <p class="text-xs text-text-secondary leading-relaxed">{fp.description}</p>
-        </div>
+        </a>
       ))}
     </div>
   </section>

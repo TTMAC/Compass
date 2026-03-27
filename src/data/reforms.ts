@@ -80,6 +80,7 @@ export interface RaaricleElement {
 export interface FailurePattern {
   name: string;
   description: string;
+  articleSlug: string;
 }
 
 // ── Workstreams ──────────────────────────────────────────────
@@ -1230,11 +1231,11 @@ export const raaricleElements: RaaricleElement[] = [
 ];
 
 export const failurePatterns: FailurePattern[] = [
-  { name: "Fragmentation", description: "Responsibility scattered across multiple entities (housing, education, healthcare)" },
-  { name: "Misalignment", description: "Wrong entity holds the wrong governance element (education authority at wrong level)" },
-  { name: "Absence", description: "Critical RAARICLE element does not exist (no enforcement triggers)" },
-  { name: "Conflation", description: "Incompatible functions combined in same entity (WSA = WSP, regulator = provider)" },
-  { name: "Inversion", description: "Wrong entity makes the decision (national deciding provincial operational matters)" },
+  { name: "Fragmentation", description: "Responsibility scattered across multiple entities (housing, education, healthcare)", articleSlug: "ra-1-2-why-institutions-fail" },
+  { name: "Misalignment", description: "Wrong entity holds the wrong governance element (education authority at wrong level)", articleSlug: "ra-2-1-fixing-basic-education" },
+  { name: "Absence", description: "Critical RAARICLE element does not exist (no enforcement triggers)", articleSlug: "ra-3-3-when-provinces-fail" },
+  { name: "Conflation", description: "Incompatible functions combined in same entity (WSA = WSP, regulator = provider)", articleSlug: "ra-4-1-fixing-water-and-sanitation" },
+  { name: "Inversion", description: "Wrong entity makes the decision (national deciding provincial operational matters)", articleSlug: "ra-3-2-making-concurrent-functions-work" },
 ];
 
 // ── Scorecard ────────────────────────────────────────────────
