@@ -4,7 +4,6 @@ import { pillars } from "@content/pillars";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/real-steps-to-reform", label: "Reform" },
-  { href: "/government-functions", label: "Functions" },
   { href: "/data-sources", label: "Data Sources" },
   { href: "/about", label: "About" },
 ];
@@ -12,18 +11,18 @@ const navLinks = [
 const mobileNavLinks = [
   { href: "/", label: "Home" },
   { href: "/real-steps-to-reform", label: "Reform Programme" },
-  { href: "/government-functions", label: "Government Functions" },
   { href: "/data-sources", label: "Data Sources" },
   { href: "/about", label: "About" },
 ];
 
 const topicsLinks = [
   { href: "/big-picture", label: "The Big Picture" },
+  { href: "/government-functions", label: "State Functions" },
   ...pillars.map((p) => ({ href: `/pillars/${p.slug}`, label: p.title })),
 ];
 
 const currentPath = Astro.url.pathname;
-const isTopicsActive = currentPath.startsWith("/pillars") || currentPath === "/big-picture";
+const isTopicsActive = currentPath.startsWith("/pillars") || currentPath === "/big-picture" || currentPath.startsWith("/government-functions");
 ---
 
 <header class="bg-bg-primary border-b border-gray-100 sticky top-0 z-40" role="banner">
