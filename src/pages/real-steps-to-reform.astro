@@ -449,9 +449,12 @@ const grouped = workstreams.map((ws) => {
         const typeLabel = item.type === "new" ? "New" : item.type === "amendment" ? "Amendment" : "Constitutional";
         const typeBg = item.type === "new" ? "bg-compass-green text-white" : item.type === "amendment" ? "bg-gray-200 text-text-primary" : "bg-red-100 text-red-800";
         return (
-          <div class="flex flex-wrap items-center gap-2 px-4 py-3 border border-gray-200 rounded-lg">
+          <a
+            href={`/articles/${item.articleSlug}`}
+            class="flex flex-wrap items-center gap-2 px-4 py-3 border border-gray-200 rounded-lg hover:border-gray-300 hover:bg-bg-secondary transition-colors group"
+          >
             <span class="font-heading text-xs font-bold text-text-secondary w-8">{item.id}</span>
-            <span class="font-heading text-sm font-semibold text-text-primary flex-1 min-w-[200px]">
+            <span class="font-heading text-sm font-semibold text-text-primary flex-1 min-w-[200px] group-hover:text-compass-green transition-colors">
               {item.name}
             </span>
             <span class={`font-heading text-[10px] font-bold uppercase px-2 py-0.5 rounded-full ${typeBg}`}>
@@ -466,7 +469,7 @@ const grouped = workstreams.map((ws) => {
             <span class="font-heading text-xs text-text-secondary">
               {ws.phases.find(p => p.id === item.phase)?.years}
             </span>
-          </div>
+          </a>
         );
       })}
     </div>

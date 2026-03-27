@@ -46,6 +46,7 @@ export interface LegislativeItem {
   type: "new" | "amendment" | "constitutional";
   workstream: WorkstreamId;
   phase: PhaseId;
+  articleSlug: string;
 }
 
 export interface MilestoneItem {
@@ -1132,22 +1133,22 @@ export const reforms: Reform[] = [
 
 export const legislativeItems: LegislativeItem[] = [
   // New statutes
-  { id: "L.1", name: "Investigating Magistracy Act", type: "new", workstream: "safety-security", phase: "phase-1" },
-  { id: "L.2", name: "Sentencing Reform Act", type: "new", workstream: "safety-security", phase: "phase-2" },
-  { id: "L.3", name: "Small Business Guarantee Fund Act", type: "new", workstream: "economic-growth", phase: "phase-1" },
+  { id: "L.1", name: "Investigating Magistracy Act", type: "new", workstream: "safety-security", phase: "phase-1", articleSlug: "ss-3-2-independent-investigating-magistracy" },
+  { id: "L.2", name: "Sentencing Reform Act", type: "new", workstream: "safety-security", phase: "phase-2", articleSlug: "ss-3-4-sentencing-commission-and-structured-guidelines" },
+  { id: "L.3", name: "Small Business Guarantee Fund Act", type: "new", workstream: "economic-growth", phase: "phase-1", articleSlug: "eg-3-1-three-engines-of-growth" },
   // Amendments
-  { id: "L.4", name: "Criminal Procedure Act, 1977", type: "amendment", workstream: "safety-security", phase: "phase-1" },
-  { id: "L.5", name: "National Prosecuting Authority Act, 1998", type: "amendment", workstream: "safety-security", phase: "phase-1" },
-  { id: "L.6", name: "South African Police Service Act, 1995", type: "amendment", workstream: "safety-security", phase: "phase-1" },
-  { id: "L.7", name: "Magistrates' Courts Act, 1944", type: "amendment", workstream: "safety-security", phase: "phase-2" },
-  { id: "L.8", name: "Correctional Services Act, 1998", type: "amendment", workstream: "safety-security", phase: "phase-3" },
-  { id: "L.9", name: "Private Security Industry Regulation Act, 2001", type: "amendment", workstream: "safety-security", phase: "phase-2" },
-  { id: "L.10", name: "Housing Act", type: "amendment", workstream: "reform-agenda", phase: "phase-1" },
-  { id: "L.11", name: "Water Services Act", type: "amendment", workstream: "reform-agenda", phase: "phase-2" },
-  { id: "L.12", name: "Municipal Finance Management Act", type: "amendment", workstream: "reform-agenda", phase: "phase-2" },
-  { id: "L.13", name: "Electricity Regulation Amendment Act, 2024", type: "amendment", workstream: "reform-agenda", phase: "phase-2" },
+  { id: "L.4", name: "Criminal Procedure Act, 1977", type: "amendment", workstream: "safety-security", phase: "phase-1", articleSlug: "ss-2-1-the-broken-pipeline" },
+  { id: "L.5", name: "National Prosecuting Authority Act, 1998", type: "amendment", workstream: "safety-security", phase: "phase-1", articleSlug: "ss-2-3-justice-delayed-rights-denied" },
+  { id: "L.6", name: "South African Police Service Act, 1995", type: "amendment", workstream: "safety-security", phase: "phase-1", articleSlug: "ss-3-1-three-tier-policing-architecture" },
+  { id: "L.7", name: "Magistrates' Courts Act, 1944", type: "amendment", workstream: "safety-security", phase: "phase-2", articleSlug: "ss-3-3-community-courts-and-restorative-justice" },
+  { id: "L.8", name: "Correctional Services Act, 1998", type: "amendment", workstream: "safety-security", phase: "phase-3", articleSlug: "ss-3-5-rehabilitation-as-constitutional-mandate" },
+  { id: "L.9", name: "Private Security Industry Regulation Act, 2001", type: "amendment", workstream: "safety-security", phase: "phase-2", articleSlug: "ss-2-5-the-private-security-paradox" },
+  { id: "L.10", name: "Housing Act", type: "amendment", workstream: "reform-agenda", phase: "phase-1", articleSlug: "ra-2-3-fixing-human-settlements" },
+  { id: "L.11", name: "Water Services Act", type: "amendment", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-4-1-fixing-water-and-sanitation" },
+  { id: "L.12", name: "Municipal Finance Management Act", type: "amendment", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-4-4-building-municipal-capability" },
+  { id: "L.13", name: "Electricity Regulation Amendment Act, 2024", type: "amendment", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-4-2-fixing-electricity" },
   // Constitutional
-  { id: "L.14", name: "Schedule 4 concurrent function clarity", type: "constitutional", workstream: "reform-agenda", phase: "phase-3" },
+  { id: "L.14", name: "Schedule 4 concurrent function clarity", type: "constitutional", workstream: "reform-agenda", phase: "phase-3", articleSlug: "ra-5-1-constitutional-vs-legislative" },
 ];
 
 // ── Milestones ───────────────────────────────────────────────
