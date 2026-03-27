@@ -1,9 +1,11 @@
 ---
 interface Props {
   tags: string[];
+  tagCounts?: Record<string, number>;
 }
 
-const { tags } = Astro.props;
+const { tags, tagCounts = {} } = Astro.props;
+const totalCount = Object.values(tagCounts).reduce((sum, count) => sum + count, 0);
 ---
 
 <div class="flex flex-wrap gap-2 mb-6" data-testid="tag-filter" role="group" aria-label="Filter by tag">
@@ -23,6 +25,9 @@ const { tags } = Astro.props;
       aria-pressed="false"
     >
       {tag.charAt(0).toUpperCase() + tag.slice(1)}
+      {tagCounts[tag] !== undefined && (
+        <span class="ml-1 text-[10px] opacity-70">({tagCounts[tag]})</span>
+      )}
     </button>
   ))}
 </div>
