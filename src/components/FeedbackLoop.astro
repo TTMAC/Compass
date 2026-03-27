@@ -1,32 +1,35 @@
 ---
+const uid = Math.random().toString(36).slice(2, 8);
+const arrowId = `arrow-${uid}`;
+const arrowDashId = `arrow-dash-${uid}`;
 ---
 
 <div class="mx-auto max-w-xl">
   <svg width="680" height="560" viewBox="0 0 680 560" xmlns="http://www.w3.org/2000/svg" class="w-full h-auto" role="img" aria-label="Causal loop diagram showing the reinforcing cycle between governance, safety, economic growth, and human development in South Africa" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
     <defs>
-      <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
-      <marker id="arrow-dash" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+      <marker id={arrowId} viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+      <marker id={arrowDashId} viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
     </defs>
 
     <!-- Clockwise arrows: Gov → Safety → HD → Economy → Gov -->
 
     <!-- 1. Gov Structure → Safety & Security -->
-    <path d="M 440,72 Q 560,72 560,246" fill="none" stroke="#888780" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <path d="M 440,72 Q 560,72 560,246" fill="none" stroke="#888780" stroke-width="1.2" marker-end={`url(#${arrowId})`}/>
     <text x="572" y="148" text-anchor="start" font-size="12" fill="#5F5E5A">Institutional</text>
     <text x="572" y="164" text-anchor="start" font-size="12" fill="#5F5E5A">capacity</text>
 
     <!-- 2. Safety & Security → Human Development -->
-    <path d="M 560,294 Q 560,468 440,468" fill="none" stroke="#888780" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <path d="M 560,294 Q 560,468 440,468" fill="none" stroke="#888780" stroke-width="1.2" marker-end={`url(#${arrowId})`}/>
     <text x="572" y="388" text-anchor="start" font-size="12" fill="#5F5E5A">Security enables</text>
     <text x="572" y="404" text-anchor="start" font-size="12" fill="#5F5E5A">development</text>
 
     <!-- 3. Human Development → Economic Growth -->
-    <path d="M 240,468 Q 120,468 120,294" fill="none" stroke="#888780" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <path d="M 240,468 Q 120,468 120,294" fill="none" stroke="#888780" stroke-width="1.2" marker-end={`url(#${arrowId})`}/>
     <text x="108" y="388" text-anchor="end" font-size="12" fill="#5F5E5A">Skills &amp;</text>
     <text x="108" y="404" text-anchor="end" font-size="12" fill="#5F5E5A">productivity</text>
 
     <!-- 4. Economic Growth → Government Structure -->
-    <path d="M 120,246 Q 120,72 240,72" fill="none" stroke="#888780" stroke-width="1.2" marker-end="url(#arrow)"/>
+    <path d="M 120,246 Q 120,72 240,72" fill="none" stroke="#888780" stroke-width="1.2" marker-end={`url(#${arrowId})`}/>
     <text x="108" y="148" text-anchor="end" font-size="12" fill="#5F5E5A">Tax base &amp;</text>
     <text x="108" y="164" text-anchor="end" font-size="12" fill="#5F5E5A">fiscal space</text>
 
@@ -50,8 +53,8 @@
     <text x="340" y="348" text-anchor="middle" font-size="12" fill="#5F5E5A" font-style="italic">Investment climate</text>
 
     <!-- Dashed connectors: Safety (right) ↔ Economy (left) through center -->
-    <line x1="460" y1="270" x2="402" y2="270" stroke="#888780" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow-dash)"/>
-    <line x1="278" y1="270" x2="220" y2="270" stroke="#888780" stroke-width="1" stroke-dasharray="4 3" marker-end="url(#arrow-dash)"/>
+    <line x1="460" y1="270" x2="402" y2="270" stroke="#888780" stroke-width="1" stroke-dasharray="4 3" marker-end={`url(#${arrowDashId})`}/>
+    <line x1="278" y1="270" x2="220" y2="270" stroke="#888780" stroke-width="1" stroke-dasharray="4 3" marker-end={`url(#${arrowDashId})`}/>
 
     <!-- Government Structure (top) -->
     <a href="/pillars/government-structure">
