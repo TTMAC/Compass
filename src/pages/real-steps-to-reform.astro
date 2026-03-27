@@ -160,6 +160,40 @@ const grouped = workstreams.map((ws) => {
     </div>
   </section>
 
+  <!-- Milestones -->
+  <section class="mb-10" aria-label="Reform milestones">
+    <h2 class="font-heading text-xl font-bold text-text-primary mb-4">
+      Milestones
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      {milestones.map((m) => {
+        const colors = m.period === "Year 1"
+          ? { bg: "#E6EFE8", border: "#355E3B", text: "#355E3B" }
+          : m.period === "Year 5"
+            ? { bg: "#F3EBDA", border: "#7A5C1F", text: "#7A5C1F" }
+            : { bg: "#E8E0F4", border: "#553691", text: "#553691" };
+        return (
+          <div class="rounded-lg border p-5" style={`border-color: ${colors.border}30; background-color: ${colors.bg}40`}>
+            <p class="font-heading text-lg font-bold mb-1" style={`color: ${colors.text}`}>
+              {m.period}
+            </p>
+            <p class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide mb-3">
+              {m.label}
+            </p>
+            <ul class="space-y-2">
+              {m.items.map((item) => (
+                <li class="flex items-start gap-2 text-sm text-text-secondary leading-relaxed">
+                  <span class="shrink-0 mt-1.5 w-1.5 h-1.5 rounded-full" style={`background-color: ${colors.text}`}></span>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        );
+      })}
+    </div>
+  </section>
+
   <!-- Active phase filter indicator -->
   <div
     id="active-filter-indicator"
@@ -307,40 +341,6 @@ const grouped = workstreams.map((ws) => {
       ))}
     </section>
   ))}
-
-  <!-- Milestones -->
-  <section class="mb-12" aria-label="Reform milestones">
-    <h2 class="font-heading text-2xl font-bold text-text-primary mb-6">
-      Milestones
-    </h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      {milestones.map((m) => {
-        const colors = m.period === "Year 1"
-          ? { bg: "#E6EFE8", border: "#355E3B", text: "#355E3B" }
-          : m.period === "Year 5"
-            ? { bg: "#F3EBDA", border: "#7A5C1F", text: "#7A5C1F" }
-            : { bg: "#E8E0F4", border: "#553691", text: "#553691" };
-        return (
-          <div class="rounded-lg border p-5" style={`border-color: ${colors.border}30; background-color: ${colors.bg}40`}>
-            <p class="font-heading text-lg font-bold mb-1" style={`color: ${colors.text}`}>
-              {m.period}
-            </p>
-            <p class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide mb-3">
-              {m.label}
-            </p>
-            <ul class="space-y-2">
-              {m.items.map((item) => (
-                <li class="flex items-start gap-2 text-sm text-text-secondary leading-relaxed">
-                  <span class="shrink-0 mt-1.5 w-1.5 h-1.5 rounded-full" style={`background-color: ${colors.text}`}></span>
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        );
-      })}
-    </div>
-  </section>
 
   <!-- Legislative Programme -->
   <section class="mb-12" aria-label="Legislative programme">
