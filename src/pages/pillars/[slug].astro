@@ -453,15 +453,15 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
     </script>
   )}
 
-  <script>
-    document.querySelectorAll("[data-part-toggle]").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const section = btn.closest("[data-part-section]");
-        const content = section?.querySelector("[data-part-content]");
-        const chevron = btn.querySelector("[data-part-chevron]");
+  <script is:inline>
+    document.querySelectorAll("[data-part-toggle]").forEach(function(btn) {
+      btn.addEventListener("click", function() {
+        var section = btn.closest("[data-part-section]");
+        var content = section && section.querySelector("[data-part-content]");
+        var chevron = btn.querySelector("[data-part-chevron]");
         if (!content || !chevron) return;
 
-        const isExpanded = btn.getAttribute("aria-expanded") === "true";
+        var isExpanded = btn.getAttribute("aria-expanded") === "true";
         btn.setAttribute("aria-expanded", String(!isExpanded));
         content.classList.toggle("hidden");
         chevron.classList.toggle("rotate-180");
