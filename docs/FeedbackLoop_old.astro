@@ -1,0 +1,123 @@
+---
+interface Props {
+  mini?: boolean;
+}
+
+const { mini = false } = Astro.props;
+const size = mini ? { width: 320, height: 260 } : { width: 560, height: 460 };
+---
+
+<div class={`mx-auto ${mini ? "max-w-xs" : "max-w-xl"}`}>
+  <svg
+    viewBox="0 0 560 460"
+    width={size.width}
+    height={size.height}
+    class="w-full h-auto"
+    role="img"
+    aria-label="Causal loop diagram showing the reinforcing cycle between governance, safety, economic growth, and human development in South Africa"
+  >
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#64748B" />
+      </marker>
+      <marker id="arrow-cross" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+        <polygon points="0 0, 8 3, 0 6" fill="#94A3B8" />
+      </marker>
+      <marker id="arrow-cross-start" markerWidth="8" markerHeight="6" refX="0" refY="3" orient="auto">
+        <polygon points="8 0, 0 3, 8 6" fill="#94A3B8" />
+      </marker>
+    </defs>
+
+    <!-- ===== MAIN CYCLE ARROWS (counter-clockwise around diamond) ===== -->
+
+    <!-- Gov → Safety: institutional capacity enables rule of law -->
+    <path d="M 205 70 Q 130 115 125 195" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)" />
+
+    <!-- Safety → Human Development: security enables learning and health -->
+    <path d="M 100 255 Q 105 345 190 385" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)" />
+
+    <!-- Human Development → Economy: skilled workforce drives productivity -->
+    <path d="M 370 385 Q 455 345 460 255" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)" />
+
+    <!-- Economy → Gov: tax base funds institutional capacity -->
+    <path d="M 440 200 Q 430 115 360 70" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)" />
+
+    <!-- ===== CROSS-CONNECTION: Safety ↔ Economy ===== -->
+    <!-- Broken into two segments around the center symbol -->
+    <line x1="175" y1="228" x2="248" y2="228" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="6 3" marker-start="url(#arrow-cross-start)" />
+    <line x1="312" y1="228" x2="385" y2="228" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="6 3" marker-end="url(#arrow-cross)" />
+
+    <!-- ===== EDGE LABELS (hidden in mini mode) ===== -->
+    {!mini && (
+      <g font-family="Inter, system-ui, sans-serif" font-size="11" font-weight="500" fill="#64748B">
+        {/* Gov → Safety */}
+        <text x="120" y="118" text-anchor="middle">Institutional</text>
+        <text x="120" y="132" text-anchor="middle">capacity</text>
+
+        {/* Safety → HD */}
+        <text x="90" y="318" text-anchor="middle">Security enables</text>
+        <text x="90" y="332" text-anchor="middle">development</text>
+
+        {/* HD → Economy */}
+        <text x="470" y="318" text-anchor="middle">Skills &amp;</text>
+        <text x="470" y="332" text-anchor="middle">productivity</text>
+
+        {/* Economy → Gov */}
+        <text x="440" y="118" text-anchor="middle">Tax base &amp;</text>
+        <text x="440" y="132" text-anchor="middle">fiscal space</text>
+
+        {/* Cross-connection label */}
+        <text x="280" y="260" text-anchor="middle" fill="#94A3B8" font-size="10" font-style="italic">Investment climate</text>
+      </g>
+    )}
+
+    <!-- ===== CENTER: Reinforcing loop indicator (CLD notation) ===== -->
+    <circle cx="280" cy="228" r="26" fill="white" stroke="#64748B" stroke-width="1.5" />
+    <!-- Circular arrow inside the R circle -->
+    <path d="M 272 210 A 14 14 0 1 1 268 218" fill="none" stroke="#64748B" stroke-width="1.2" marker-end="url(#arrow)" />
+    <text x="280" y="234" text-anchor="middle" fill="#64748B" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="700">
+      R
+    </text>
+
+    <!-- ===== NODES ===== -->
+
+    <!-- Government Structure (top) -->
+    <a href="/pillars/government-structure">
+      <rect x="180" y="20" width="200" height="50" rx="10" fill="#355E3B" class="hover:opacity-90 transition-opacity" />
+      <text x="280" y="50" text-anchor="middle" fill="white" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">
+        Government Structure
+      </text>
+    </a>
+
+    <!-- Safety & Security (left) -->
+    <a href="/pillars/safety-security">
+      <rect x="5" y="203" width="170" height="50" rx="10" fill="#1B4965" class="hover:opacity-90 transition-opacity" />
+      <text x="90" y="233" text-anchor="middle" fill="white" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">
+        Safety &amp; Security
+      </text>
+    </a>
+
+    <!-- Economic Growth (right) -->
+    <a href="/pillars/economic-growth">
+      <rect x="385" y="203" width="170" height="50" rx="10" fill="#7A5C1F" class="hover:opacity-90 transition-opacity" />
+      <text x="470" y="233" text-anchor="middle" fill="white" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">
+        Economic Growth
+      </text>
+    </a>
+
+    <!-- Human Development (bottom) -->
+    <a href="/pillars/human-development">
+      <rect x="175" y="388" width="210" height="50" rx="10" fill="#553691" class="hover:opacity-90 transition-opacity" />
+      <text x="280" y="418" text-anchor="middle" fill="white" font-family="Inter, system-ui, sans-serif" font-size="13" font-weight="600">
+        Human Development
+      </text>
+    </a>
+  </svg>
+
+  {!mini && (
+    <p class="text-center text-xs text-text-secondary mt-3 max-w-md mx-auto leading-relaxed">
+      A reinforcing loop: when any node strengthens, it lifts its neighbours.
+      When any node weakens, decline cascades through the system.
+    </p>
+  )}
+</div>
