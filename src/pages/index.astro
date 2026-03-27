@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
 import EmailCapture from "@components/EmailCapture.astro";
+import FeedbackLoop from "@components/FeedbackLoop.astro";
 import { getCollection } from "astro:content";
 import { pillars } from "@content/pillars";
 
@@ -105,14 +106,7 @@ const pillarData = pillars.map((p) => {
         </div>
         <p class="text-sm text-text-secondary mb-3">These four topics form a reinforcing loop — progress in one drives progress in the others.</p>
         <a href="/big-picture" class="block bg-white border border-gray-200 rounded-xl p-4 shadow-sm hover:shadow-md hover:border-gray-300 transition-all">
-          <img
-            src="/images/feedback-loop.png"
-            alt="A reinforcing loop showing how Government Structure, Economic Growth, Human Development, and Safety & Security are interconnected"
-            class="mx-auto max-w-full"
-            width="852"
-            height="808"
-            loading="lazy"
-          />
+          <FeedbackLoop />
           <p class="text-center text-xs text-text-secondary mt-3 font-heading">See how they connect &rarr;</p>
         </a>
       </div>
@@ -159,14 +153,7 @@ const pillarData = pillars.map((p) => {
 
         {/* Center: Feedback loop diagram */}
         <a href="/big-picture" class="block bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md hover:border-gray-300 transition-all mb-4">
-          <img
-            src="/images/feedback-loop.png"
-            alt="A reinforcing loop showing how Government Structure, Economic Growth, Human Development, and Safety & Security are interconnected"
-            class="mx-auto max-w-md"
-            width="852"
-            height="808"
-            loading="lazy"
-          />
+          <FeedbackLoop />
           <p class="text-center text-xs text-text-secondary mt-3 font-heading">See how they connect &rarr;</p>
         </a>
 
