@@ -1,5 +1,6 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
+import { pillars } from "@content/pillars";
 ---
 
 <PageLayout
@@ -12,24 +13,57 @@ import PageLayout from "@layouts/PageLayout.astro";
 
   <div class="space-y-6 text-text-secondary leading-relaxed">
     <p>
-      GovCompass is a free, long-form political education project for South
-      Africa. It started with a simple question: why is it so hard for an
-      engaged citizen to understand how the country actually works? Not the
-      party politics — the systems underneath. How money flows from Treasury
-      to your town. Why the police solve so few cases. What drives economic
-      growth and what blocks it. Why health and education outcomes lag behind
-      what our spending should deliver.
+      GovCompass is a free political education project for South Africa. It
+      started with a simple question: why is it so hard for an engaged citizen
+      to understand how the country actually works? Not the party politics —
+      the systems underneath. How money flows from Treasury to your town. Why
+      the police solve so few cases. What drives economic growth and what
+      blocks it. Why health and education outcomes lag behind what our spending
+      should deliver.
     </p>
 
     <p>
-      The result is a structured series of over fifty articles spanning four
-      interconnected topics: <strong class="text-text-primary">Government
-      Structure</strong>, <strong class="text-text-primary">Safety &
-      Security</strong>, <strong class="text-text-primary">Economic
-      Growth</strong>, and <strong class="text-text-primary">Human
-      Development</strong>. Together they map the reinforcing cycle that
-      connects governance quality to lived outcomes — and show where that
-      cycle is broken.
+      The result is a comprehensive series of over 70 articles spanning five
+      interconnected topics — each mapping a critical dimension of how South
+      Africa functions and where it fails.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 my-2">
+      {pillars.map((p) => (
+        <a
+          href={`/pillars/${p.slug}`}
+          class="flex items-start gap-3 p-4 border border-gray-200 rounded-lg hover:border-gray-300 transition-colors group"
+        >
+          <span
+            class="inline-block w-3 h-3 rounded-full mt-1 shrink-0"
+            style={`background-color: ${p.color}`}
+          ></span>
+          <div>
+            <span class="font-heading text-sm font-bold text-text-primary group-hover:text-compass-green transition-colors">
+              {p.title}
+            </span>
+            <span class="block text-xs text-text-secondary mt-0.5">
+              {p.description}
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <p>
+      Together these topics map the reinforcing cycle that connects governance
+      quality to lived outcomes — and show where that cycle is broken. The
+      site also includes a
+      <a
+        href="/government-functions"
+        class="text-compass-green underline hover:text-compass-green-dark transition-colors"
+      >State Functions</a> reference mapping every functional area across the
+      three spheres of government, and a
+      <a
+        href="/real-steps-to-reform"
+        class="text-compass-green underline hover:text-compass-green-dark transition-colors"
+      >Reform Programme</a> consolidating over 80 concrete reforms into a
+      sequenced, phased 10-year plan.
     </p>
 
     <h2 class="font-heading text-xl font-bold text-text-primary pt-4">
@@ -66,6 +100,13 @@ import PageLayout from "@layouts/PageLayout.astro";
         institutional design, and identifies where reforms have leverage.
       </li>
       <li>
+        <strong class="text-text-primary">Reform-oriented:</strong> We don't
+        stop at diagnosis. The Reform Agenda series applies the RAARICLE
+        governance framework to propose concrete, sequenced institutional
+        reforms — grounded in international evidence and costed where data
+        permits.
+      </li>
+      <li>
         <strong class="text-text-primary">Accessible:</strong> Written for
         smart people who aren't specialists. No jargon without explanation, no
         assumptions about prior knowledge.
@@ -90,24 +131,27 @@ import PageLayout from "@layouts/PageLayout.astro";
     </p>
 
     <p>
-      Where we propose reforms — particularly in the Safety & Security and
-      Economic Growth series — we ground them in evidence from countries that
-      have faced similar challenges. We sequence proposals by institutional
-      prerequisites, estimate fiscal costs where data permits, and identify
-      the political economy constraints that make implementation hard.
+      Where we propose reforms — particularly across the Safety & Security,
+      Economic Growth, and Reform Agenda series — we ground them in evidence
+      from countries that have faced similar challenges. We sequence proposals
+      by institutional prerequisites, estimate fiscal costs where data
+      permits, and identify the political economy constraints that make
+      implementation hard. The full reform programme is consolidated in our
+      <a
+        href="/real-steps-to-reform"
+        class="text-compass-green underline hover:text-compass-green-dark transition-colors"
+      >Real Steps to Reform</a> page.
     </p>
 
     <p>
       Sources are cited throughout and collected in our
       <a
         href="/data-sources"
-        class="text-compass-green underline hover:text-opacity-80"
-      >
-        Data Sources
-      </a> page. We draw on official government publications, audited
-      financial data, international development indices, academic research,
-      and independent civil society analysis — never unnamed sources or
-      speculation.
+        class="text-compass-green underline hover:text-compass-green-dark transition-colors"
+      >Data Sources</a> page. We draw on official government publications,
+      audited financial data, international development indices, academic
+      research, and independent civil society analysis — never unnamed
+      sources or speculation.
     </p>
 
     <h2 class="font-heading text-xl font-bold text-text-primary pt-4">
