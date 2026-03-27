@@ -1,6 +1,6 @@
 import { visit } from "unist-util-visit";
 
-const CALLOUT_TYPES = ["expert", "takeaway", "framework"];
+const CALLOUT_TYPES = ["expert", "takeaway", "framework", "timeline"];
 
 const STYLES = {
   expert:
@@ -9,12 +9,15 @@ const STYLES = {
     "border-l-4 border-[#C8A951] bg-[#F8F8F8] p-4 rounded-r-lg my-6",
   framework:
     "border-2 border-dashed border-[#1B6B4A] p-4 rounded-lg my-6",
+  timeline:
+    "border border-[#e5e7eb] bg-[#F8F8F8] p-5 rounded-lg my-8",
 };
 
 const LABELS = {
   expert: "Expert note",
   takeaway: "Key takeaway",
   framework: "Framework",
+  timeline: "Implementation timeline",
 };
 
 export default function remarkCallouts() {

@@ -348,4 +348,128 @@ const jsonLd = {
   .prose-article :global(.article-attribution a:hover) {
     color: #6b6b6b;
   }
+
+  /* Tables */
+  .prose-article :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  .prose-article :global(thead) {
+    background-color: #F8F8F8;
+    border-bottom: 2px solid #1B6B4A;
+  }
+
+  .prose-article :global(th) {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    font-weight: 600;
+    color: #1a1a1a;
+    white-space: nowrap;
+  }
+
+  .prose-article :global(td) {
+    padding: 0.75rem 1rem;
+    color: #4a4a4a;
+    border-bottom: 1px solid #e5e7eb;
+    vertical-align: top;
+  }
+
+  .prose-article :global(tbody tr:last-child td) {
+    border-bottom: none;
+  }
+
+  .prose-article :global(tbody tr:hover) {
+    background-color: #f9fafb;
+  }
+
+  /* Responsive table wrapper */
+  .prose-article :global(.table-wrapper) {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 1.5rem 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+  }
+
+  .prose-article :global(.table-wrapper table) {
+    margin: 0;
+  }
+
+  @media (max-width: 768px) {
+    .prose-article :global(table) {
+      font-size: 0.8125rem;
+    }
+
+    .prose-article :global(th),
+    .prose-article :global(td) {
+      padding: 0.5rem 0.75rem;
+    }
+  }
+
+  /* H4 within articles */
+  .prose-article :global(h4) {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 1.0625rem;
+    font-weight: 600;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+    color: #1a1a1a;
+  }
+
+  /* Timeline callout */
+  .prose-article :global([data-callout="timeline"]) {
+    position: relative;
+  }
+
+  .prose-article :global([data-callout="timeline"] table) {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    background: #ffffff;
+  }
+
+  .prose-article :global([data-callout="timeline"] thead) {
+    background-color: #1B6B4A;
+    border-bottom: none;
+  }
+
+  .prose-article :global([data-callout="timeline"] th) {
+    color: #ffffff;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .prose-article :global([data-callout="timeline"] td) {
+    font-size: 0.8125rem;
+  }
+
+  .prose-article :global([data-callout="timeline"] td:first-child) {
+    font-weight: 600;
+    color: #1a1a1a;
+    white-space: nowrap;
+  }
+
+  .prose-article :global([data-callout="timeline"] h3) {
+    font-size: 1.0625rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.375rem;
+    border-bottom: 1px solid #e5e7eb;
+    color: #1B6B4A;
+  }
+
+  .prose-article :global([data-callout="timeline"] h3:first-of-type) {
+    margin-top: 0.5rem;
+  }
+
+  .prose-article :global([data-callout="timeline"] p) {
+    font-size: 0.9375rem;
+    color: #4a4a4a;
+  }
 </style>

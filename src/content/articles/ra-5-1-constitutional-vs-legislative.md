@@ -367,9 +367,13 @@ Schedule reform — moving functions between Schedule 4 and Schedule 5, or creat
 
 ### Consolidated Cross-Functional Timeline
 
-The three-phase programme above describes the sequencing logic. The table below maps every reform proposed in Parts 2, 3, and 4 to a specific phase, legal pathway, and responsible institution — providing a single consolidated view of the entire reform programme.
+The three-phase programme above describes the sequencing logic. The timeline below maps every reform proposed in Parts 2, 3, and 4 to a specific phase, legal pathway, and responsible institution — providing a single consolidated view of the entire reform programme.
 
-**Phase 1 — Regulatory Quick Wins (Year 1)**
+:::timeline
+
+### Phase 1 — Regulatory Quick Wins (Year 1)
+
+No new legislation required. A committed national executive can begin all of these immediately.
 
 | Reform | Function | Legal Pathway | Responsible Institution |
 |--------|----------|---------------|------------------------|
@@ -377,32 +381,38 @@ The three-phase programme above describes the sequencing logic. The table below 
 | Ring-fenced municipal trading services revenue | Water, electricity, waste | MFMA regulation | National Treasury |
 | Provincial Performance Dashboard | All concurrent functions | Presidential directive | DPME |
 | Education Information System | Education | Ministerial directive | DBE |
-| Health Information Platform & Ideal Clinic regulations | Healthcare | Ministerial directive + NHA regulations | NDoH |
-| Blue/Green Drop enforcement of existing standards | Water | Existing regulatory authority | DWS |
+| Health Information Platform and Ideal Clinic regulations | Healthcare | Ministerial directive and NHA regulations | NDoH |
+| Blue and Green Drop enforcement of existing standards | Water | Existing regulatory authority | DWS |
 | Process controller qualification enforcement | Water | Existing regulations | DWS |
-| Extended competency requirements for municipal technical posts | All municipal functions | Municipal Systems Act regulations | DPSA / DCOG |
-| Shared services facilitation for small municipalities | All municipal functions | IGRFA / Municipal Systems Act | DCOG / Provincial COGTA |
-| Standardised IPP procurement templates | Electricity | NERSA regulatory framework | National Treasury / NERSA |
+| Extended competency requirements for municipal technical posts | All municipal functions | Municipal Systems Act regulations | DPSA and DCOG |
+| Shared services facilitation for small municipalities | All municipal functions | IGRFA and Municipal Systems Act | DCOG and Provincial COGTA |
+| Standardised IPP procurement templates | Electricity | NERSA regulatory framework | National Treasury and NERSA |
 
-**Phase 2 — Legislation (Years 2–3)**
+### Phase 2 — Legislation (Years 2–3)
+
+All bills should be drafted during Phase 1 and introduced as a coordinated legislative package.
 
 | Reform | Function | Legal Pathway | Key Political Hurdle |
 |--------|----------|---------------|---------------------|
-| Employment of Educators Act amendments + ELRC restructuring | Education | Section 76 bill | Teacher union opposition to decentralised bargaining |
-| Water Services Act amendments (WSA/WSP separation) | Water | Section 76 bill | Municipal organisational restructuring |
-| National Health Act amendments (district PHC authorities + OHSC enforcement) | Healthcare | Section 76 bill | NHI alignment; provincial reorganisation |
-| Housing Act amendments (municipal delivery agencies + title deed timelines) | Human settlements | Section 76 bill | Provincial role reduction |
-| Framework for Concurrent Function Enforcement Act (or IGRFA amendments) | All concurrent functions | Section 76 bill | Provincial resistance to automatic triggers |
-| Municipal Capability Act (protected technical appointments) | All municipal functions | Section 76 bill | Patronage network disruption |
-| NHBRC Act amendments (construction quality enforcement) | Human settlements | Section 75/76 (contested) | NHBRC capacity constraints |
-| Waste Act amendments (environmental enforcement strengthening) | Waste management | Section 76 bill | Municipal compliance costs |
+| Employment of Educators Act amendments and ELRC restructuring | Education | Section 76 bill | Teacher union opposition to decentralised bargaining |
+| Water Services Act amendments for WSA and WSP separation | Water | Section 76 bill | Municipal organisational restructuring |
+| National Health Act amendments for district PHC authorities and OHSC enforcement | Healthcare | Section 76 bill | NHI alignment and provincial reorganisation |
+| Housing Act amendments for municipal delivery agencies and title deed timelines | Human settlements | Section 76 bill | Provincial role reduction |
+| Framework for Concurrent Function Enforcement Act or IGRFA amendments | All concurrent functions | Section 76 bill | Provincial resistance to automatic triggers |
+| Municipal Capability Act for protected technical appointments | All municipal functions | Section 76 bill | Patronage network disruption |
+| NHBRC Act amendments for construction quality enforcement | Human settlements | Section 75 or 76 (contested) | NHBRC capacity constraints |
+| Waste Act amendments for environmental enforcement strengthening | Waste management | Section 76 bill | Municipal compliance costs |
 
-**Phase 3 — Constitutional Entrenchment (Years 3–5, Opportunistic)**
+### Phase 3 — Constitutional Entrenchment (Years 3–5, Opportunistic)
+
+Neither reform is a prerequisite. Pursue only if a political window opens.
 
 | Reform | Function | Legal Pathway | Condition |
 |--------|----------|---------------|-----------|
-| Constitutional status for enforcement architecture | All functions | Section 74 amendment (two-thirds + six provinces) | Pursue only if Phase 2 legislation is working and a constitutional window opens |
-| Schedule 4/5 reform (function reallocation) | All functions | Section 74 amendment | Desirable but not prerequisite; legislative reforms achieve practical effect |
+| Constitutional status for enforcement architecture | All functions | Section 74 amendment requiring two-thirds and six provinces | Pursue only if Phase 2 legislation is working and a constitutional window opens |
+| Schedule 4 and 5 reform for function reallocation | All functions | Section 74 amendment | Desirable but not prerequisite as legislative reforms achieve practical effect |
+
+:::
 
 The consolidated timeline reveals two critical features of the reform programme. First, the regulatory pathway (Phase 1) is remarkably broad — a committed national executive could begin implementing most of the proposed reforms within a single year using existing legal authority. Second, the legislative pathway (Phase 2) concentrates on six to eight Section 76 bills that collectively restructure how concurrent and municipal functions are delivered. These bills should be drafted during Phase 1 and introduced in a coordinated legislative package, allowing Parliament to consider the reforms as a coherent programme rather than isolated amendments.
 
