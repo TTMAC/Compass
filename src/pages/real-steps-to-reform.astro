@@ -161,17 +161,11 @@ const grouped = workstreams.map((ws) => {
   </section>
 
   <!-- Milestones -->
-  <details class="mb-10 group/milestones" aria-label="Reform milestones">
-    <summary class="flex items-center gap-3 cursor-pointer list-none [&::-webkit-details-marker]:hidden select-none py-2">
-      <h2 class="font-heading text-xl font-bold text-text-primary">
-        Milestones
-      </h2>
-      <span class="font-heading text-sm text-compass-green hover:underline transition-colors">
-        <span class="group-open/milestones:hidden">See more</span>
-        <span class="hidden group-open/milestones:inline">See less</span>
-      </span>
-    </summary>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
+  <section class="mb-10" aria-label="Reform milestones">
+    <h2 class="font-heading text-xl font-bold text-text-primary mb-4">
+      Milestones
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
       {milestones.map((m) => {
         const colors = m.period === "Year 1"
           ? { bg: "#E6EFE8", border: "#355E3B", text: "#355E3B" }
@@ -201,7 +195,7 @@ const grouped = workstreams.map((ws) => {
         );
       })}
     </div>
-  </details>
+  </section>
 
   <!-- Active phase filter indicator -->
   <div
