@@ -244,7 +244,7 @@ const grouped = workstreams.map((ws) => {
     </div>
 
     <h3 class="font-heading text-lg font-bold text-text-primary mb-3">
-      Five Failure Patterns
+      Five Failure Patterns When RAARICLE Framework is Violated
     </h3>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
       {failurePatterns.map((fp, i) => (
@@ -398,6 +398,26 @@ const grouped = workstreams.map((ws) => {
           ))}
         </div>
       ))}
+
+      {/* Scorecard for Safety & Security */}
+      {ws.id === "safety-security" && (
+        <div class="mt-8">
+          <h3 class="font-heading text-lg font-bold text-text-primary mb-2">
+            Example Scorecard for Outcome Areas
+          </h3>
+          <p class="text-sm text-text-secondary mb-4">13 outcomes to track quarterly:</p>
+          <ol class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            {scorecardOutcomes.map((outcome, i) => (
+              <li class="flex items-start gap-2 text-sm text-text-secondary px-3 py-2 border border-gray-100 rounded">
+                <span class="font-heading text-xs font-bold shrink-0 mt-0.5 w-5 text-right" style={`color: ${ws.color}`}>
+                  {i + 1}.
+                </span>
+                {outcome}
+              </li>
+            ))}
+          </ol>
+        </div>
+      )}
     </section>
   ))}
 
@@ -486,21 +506,6 @@ const grouped = workstreams.map((ws) => {
       ))}
     </div>
 
-    <!-- Law and Order Scorecard -->
-    <h3 class="font-heading text-lg font-bold text-text-primary mb-3">
-      National Law and Order Scorecard
-    </h3>
-    <p class="text-sm text-text-secondary mb-3">13 outcomes to track quarterly:</p>
-    <ol class="grid grid-cols-1 sm:grid-cols-2 gap-2">
-      {scorecardOutcomes.map((outcome, i) => (
-        <li class="flex items-start gap-2 text-sm text-text-secondary px-3 py-2 border border-gray-100 rounded">
-          <span class="font-heading text-xs font-bold text-compass-green shrink-0 mt-0.5 w-5 text-right">
-            {i + 1}.
-          </span>
-          {outcome}
-        </li>
-      ))}
-    </ol>
   </section>
 
   <!-- Source note -->
