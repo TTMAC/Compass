@@ -225,6 +225,99 @@ The automatic enforcement triggers — the most critical design feature of struc
 The structured autonomy reform is constitutionally feasible. It requires legislative amendment to function-specific statutes and the Division of Revenue framework — not a constitutional amendment. The key changes are transferring operational authority to delivery entities, restructuring conditional grants from input conditions to outcome targets, and legislating automatic enforcement triggers. These reforms are politically difficult but legally achievable through the ordinary legislative process.
 :::
 
+## The Recommended Approach: A Legislative Reform Package for Concurrent Functions
+
+The analysis above — the RAARICLE scoring, the 30-day authority test, the international comparisons, and the anti-capture framework — converges on a single conclusion: the concurrent function problem can be resolved without touching the Constitution. What follows is a concrete, sequenced reform package that uses only legislative amendments, regulatory changes, and intergovernmental agreements to implement structured autonomy across all Schedule 4 functions.
+
+### Reform 1: The Concurrent Functions Framework Act
+
+South Africa needs a single overarching statute — a Concurrent Functions Framework Act — that establishes the general design principles for all Schedule 4 functions. This Act would be passed under Section 76 of the Constitution (requiring NCOP concurrence, since it affects provincial competences) and would do the following:
+
+**Define structured autonomy as the default institutional design.** For every concurrent function, the Act would establish the principle that the delivery entity — whether a provincial department, a district authority, or a municipal agency — holds full operational authority within nationally defined outcome standards. The Act would explicitly prohibit national departments from prescribing operational processes, input specifications, or staffing deployment decisions except where a specific national standard is at stake.
+
+**Establish outcome-based accountability as the governing principle.** The Act would require that every concurrent function be governed by a published set of outcome indicators — not input or process indicators — with defined thresholds that distinguish adequate from inadequate performance. These indicators would be developed through a consultative process involving the national department, provincial delivery entities, the Financial and Fiscal Commission, and the Auditor-General, and would be published in the Government Gazette with a mandatory three-year review cycle.
+
+**Create the automatic enforcement architecture.** The Act would legislate a four-stage escalation framework that replaces the discretionary Section 100 model:
+
+- **Stage 1 — Early Warning:** When outcome indicators fall below the defined threshold for two consecutive reporting periods, the national department must deploy a mandatory technical support team. This is not optional. The support team works alongside the delivery entity to diagnose the problem and develop a mandatory improvement plan within 60 days.
+- **Stage 2 — Joint Management:** If the delivery entity's outcomes remain below threshold after 12 months of Stage 1 support, the national department and delivery entity enter a mandatory joint management arrangement. Ring-fenced funding is activated — a defined portion of the delivery entity's budget is placed under joint oversight, with expenditure decisions requiring dual approval. The joint management team includes representatives from the national department, the delivery entity, and the Auditor-General.
+- **Stage 3 — Directed Improvement:** If outcomes remain below threshold after 24 months of joint management, the national department assumes directive authority over the specific failing components of the function — not the entire function, but the identified failure points. This is comparable to Section 100(1)(a) but with pre-defined triggers and prescribed scope. The directive must specify measurable improvement targets, a defined timeline (maximum 24 months), and exit criteria.
+- **Stage 4 — Temporary Operational Assumption:** If directed improvement fails to achieve the prescribed targets within its timeline, the national department may assume temporary operational responsibility for the function in that province — comparable to Section 100(1)(b) but with mandatory NCOP approval within 30 days, a maximum duration of 36 months, mandatory reporting to Parliament every six months, and defined exit criteria tied to outcome recovery. This stage is the last resort, not the first response.
+
+The critical difference from the current system is that every stage is triggered automatically by outcome data, not by political decision. The national minister does not choose whether to intervene — the data triggers the response. This removes the political calculation that currently delays intervention in provinces governed by the same party as the national government and prevents politically motivated intervention in provinces governed by opposition parties.
+
+**Mandate transparent outcome reporting.** The Act would require every delivery entity to publish outcome data on a nationally standardised platform — updated quarterly, publicly accessible, and verified by the Auditor-General. This creates information symmetry between citizens, oversight bodies, and the delivery entity, making it impossible to suppress poor performance data or manipulate narratives about service delivery.
+
+### Reform 2: Restructure the Division of Revenue
+
+The Division of Revenue Act, which is passed annually by Parliament, is the most powerful legislative lever for restructuring concurrent functions — because whoever controls the money controls the behaviour.
+
+**Convert conditional grants from input conditions to outcome targets.** Currently, conditional grants prescribe in detail how provinces must spend the money — specifying procurement categories, staffing ratios, and expenditure timelines. Under structured autonomy, conditional grants would specify only three things: the outcome target (what must be achieved), the reporting requirement (how performance is measured), and the consequence for non-achievement (what happens if the target is missed). How the delivery entity achieves the target is entirely within its operational discretion.
+
+This is not a theoretical proposal. National Treasury's own research on conditional grant implementation has found that outcome-conditioned grants produce better spending rates and better outcomes than input-conditioned grants. Treasury has been moving incrementally in this direction — the Integrated City Development Grant, for example, gives metropolitan municipalities more discretion than traditional infrastructure grants. The reform proposed here accelerates and generalises this approach.
+
+**Introduce performance-based funding incentives.** Following Australia's National Partnership Agreement model, the Division of Revenue should include a performance incentive pool — additional funding available to delivery entities that exceed their outcome targets. This creates a positive incentive for performance rather than relying solely on enforcement for non-performance. The incentive pool should be funded by top-slicing a defined percentage (initially 3–5%) from conditional grant allocations and redistributing it based on verified outcome performance.
+
+**Ring-fence delivery entity budgets.** Under structured autonomy, a defined portion of the delivery entity's budget — covering operational expenditure on the concurrent function — must be ring-fenced and protected from provincial reallocation. This prevents provincial treasuries from diverting funds allocated for education or healthcare to other priorities. The ring-fencing would be legislated in the Division of Revenue Act and enforced by National Treasury through the existing Section 26 reporting framework.
+
+### Reform 3: Amend Function-Specific Statutes
+
+Each major concurrent function requires targeted amendments to its governing legislation. The common thread across all amendments is the same: transfer operational authority to the delivery entity while preserving national standard-setting and enforcement.
+
+**Education — Employment of Educators Act and South African Schools Act amendments:**
+
+- Transfer operational employment authority (deployment, performance management, disciplinary processes) from the national framework to provincial education departments. The national framework retains authority over minimum qualifications, salary scales, and core employment protections.
+- Restructure the Education Labour Relations Council to separate national-level bargaining (salary scales, leave provisions, pension) from provincial-level operational bargaining (deployment, working conditions, performance management). This can be achieved through amendments to the ELRC constitution — a regulatory change, not a constitutional one.
+- Amend the South African Schools Act to give school governing bodies and district offices greater authority over operational decisions (timetabling, teacher allocation, supplementary learning materials) within national curriculum standards.
+
+**Healthcare — National Health Act amendments:**
+
+- Establish District Primary Healthcare Authorities as statutory entities with delegated procurement, staffing, and operational authority. These authorities would report to the provincial health department but exercise operational autonomy under nationally defined clinical standards.
+- Amend procurement provisions to allow district authorities to procure essential medicines and medical supplies directly, using national framework contracts but with local ordering and delivery authority. This eliminates the procurement bottleneck where provincial pharmaceutical depots fail to supply district facilities.
+- If the NHI Act is being implemented, align its contracting framework with the district authority model so that NHI contracts with facilities through the district authority rather than creating a parallel accountability structure.
+
+**Human Settlements — Housing Act amendments:**
+
+- Consolidate the delivery chain by channelling the Human Settlements Development Grant directly to accredited municipal or regional delivery agencies rather than through provincial departments. Municipalities with Level 2 accreditation already have the administrative capacity — the legislative amendment removes the provincial department as an unnecessary intermediary.
+- Amend the Housing Act to give delivery agencies authority over beneficiary management, contractor appointment, and project management within nationally defined housing standards (minimum specifications, environmental compliance, title deed registration).
+
+**Water and Sanitation — Water Services Act amendments:**
+
+- Clarify the authority split between the Department of Water and Sanitation (resource management, bulk supply) and municipalities (reticulation, service delivery) by amending the Water Services Act to give water services authorities full operational control over reticulation, maintenance, and billing within nationally defined water quality standards.
+- Establish regional water utilities as statutory entities where individual municipalities lack the capacity to deliver — using the existing Section 78 assessment process under the Municipal Systems Act, but with legislative backing for regional consolidation where assessments indicate municipal incapacity.
+
+### Reform 4: Regulatory Changes Through Executive Action
+
+Several critical reforms can be achieved through regulatory changes — amendments to regulations published under existing legislation — without requiring new Acts of Parliament.
+
+**Amend the Public Service Regulations to enable delivery entity staffing autonomy.** The current regulations require lengthy consultation processes for organisational restructuring, making it effectively impossible for a provincial HOD to restructure a non-performing district office within operationally meaningful timeframes. Amended regulations should pre-authorise defined categories of organisational adjustment (redeployment within the same province, reassignment of management responsibilities, creation of temporary improvement teams) that can be executed by the delivery entity head within 30 days.
+
+**Amend Treasury Regulations to streamline delivery entity procurement.** Current procurement regulations impose the same thresholds and processes on a district hospital procuring essential medicines as on a national department procuring consulting services. Amended regulations should establish a differentiated procurement framework for concurrent function delivery — with simplified processes for routine operational procurement (below defined value thresholds), pre-approved supplier panels for high-volume inputs, and expedited emergency procurement pathways for service delivery emergencies.
+
+**Issue new Intergovernmental Relations Framework Act regulations.** The IGRFA gives the President the power to prescribe regulations governing the conduct of intergovernmental relations. New regulations should formalise the outcome-based accountability framework by requiring every MinMEC and intergovernmental forum to adopt and monitor a set of agreed outcome indicators for each concurrent function within its mandate. Forum effectiveness should be measured by outcome improvement in the functions under their coordination — not by the number of meetings held.
+
+### Reform 5: Intergovernmental Agreements Under the IGRFA
+
+The Intergovernmental Relations Framework Act provides for implementation protocols — binding agreements between spheres of government on specific matters. These agreements can be used to implement structured autonomy reforms in advance of legislative changes, as pilot programmes or transitional arrangements.
+
+**Provincial structured autonomy pilots.** Before legislating nationally, the national government and one or two willing provinces could enter into implementation protocols that pilot the structured autonomy model for a specific function — say, education in the Western Cape or healthcare in KwaZulu-Natal. The protocol would specify the operational authorities delegated to the provincial delivery entity, the outcome indicators and thresholds, the enforcement escalation stages, and the monitoring framework. A two-year pilot would generate evidence on whether structured autonomy produces the predicted performance improvements before the model is legislated nationally.
+
+**Inter-provincial capability sharing agreements.** Provinces with stronger institutional capability (Gauteng, Western Cape) could enter into agreements with weaker provinces (Eastern Cape, North West) to provide technical assistance, share operational expertise, and second staff for defined periods. These agreements exist informally but are rarely used systematically. Formalising them through IGRFA implementation protocols — with defined deliverables, timelines, and reporting requirements — would create a structured capability-building mechanism that does not depend on national government as an intermediary.
+
+**National-municipal direct agreements for accredited functions.** For functions where municipalities have demonstrated capacity (housing delivery in accredited metros, for example), national departments could enter into implementation protocols that bypass the provincial department entirely — channelling funding and authority directly to the municipal delivery entity. This is already happening incrementally through the Level 2 accreditation framework, but legislative and regulatory barriers slow the process. IGRFA implementation protocols can accelerate it while the legislative amendments work through Parliament.
+
+:::takeaway
+**The full recommended approach can be summarised in five reforms, none of which require constitutional amendment:**
+
+1. **A Concurrent Functions Framework Act** that establishes structured autonomy as the default design, mandates outcome-based accountability, creates automatic enforcement triggers, and requires transparent outcome reporting.
+2. **Restructured Division of Revenue** that converts conditional grants from input conditions to outcome targets, introduces performance-based funding incentives, and ring-fences delivery entity budgets.
+3. **Amended function-specific statutes** that transfer operational authority to delivery entities for education, healthcare, human settlements, and water services while preserving national standards.
+4. **Regulatory changes** that enable delivery entity staffing autonomy, streamline procurement, and formalise outcome-based accountability in intergovernmental forums.
+5. **IGRFA implementation protocols** that pilot structured autonomy, enable inter-provincial capability sharing, and create national-municipal direct agreements for accredited functions.
+
+These five reforms — achievable through ordinary legislation, regulatory amendment, and intergovernmental agreement — would fundamentally restructure the concurrent function architecture without altering a single clause of the Constitution. The political difficulty is real. The legal difficulty is not. What is required is not constitutional change but political will to redistribute operational authority from those who currently hold it (national departments) to those who must exercise it (delivery entities) — and to replace discretionary enforcement with automatic, outcome-driven accountability.
+:::
+
 The concurrent function problem is not insoluble. It is a design problem that has been solved — imperfectly but instructively — in other multi-level governance systems around the world. South Africa's specific challenge is that its concurrent function model was designed with national standards and equity in mind but without adequate attention to operational authority, capability building, and enforcement architecture at the delivery level. Structured autonomy addresses all three deficits while preserving the national coherence that the concurrent model was designed to protect. In the next article, [When Provinces Fail](/articles/ra-3-3-when-provinces-fail), we examine the enforcement architecture in detail — how to design automatic triggers that convert identified failure into mandatory corrective action without the political discretion that has rendered Section 100 ineffective.
 
 ## Resources
