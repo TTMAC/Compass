@@ -1,5 +1,5 @@
 ---
-import PageLayout from "@layouts/PageLayout.astro";
+import BaseLayout from "@layouts/BaseLayout.astro";
 import SphereFilter from "@components/SphereFilter.astro";
 import TagFilter from "@components/TagFilter.astro";
 import { getCollection } from "astro:content";
@@ -31,10 +31,21 @@ const articlesByPart = pillar.parts.map((part) => ({
 }));
 
 const hasArticles = pillarArticles.length > 0;
+const publishedCount = pillarArticles.filter((a) => a.data.status === "published").length;
+const totalCount = pillarArticles.length;
 
 const allTags = pillar.filterDimension === "tags"
   ? [...new Set(pillarArticles.flatMap((a) => a.data.tags ?? []))]
   : [];
+
+const tagCounts = pillar.filterDimension === "tags"
+  ? Object.fromEntries(
+      allTags.map((tag) => [
+        tag,
+        pillarArticles.filter((a) => a.data.tags?.includes(tag)).length,
+      ]),
+    )
+  : {};
 
 const isLinkable = (status: string) => status === "published" || status === "draft";
 
@@ -45,228 +56,341 @@ const sphereColors: Record<string, string> = {
   all: "bg-compass-green",
 };
 
+const pillarRelationships: Record<string, Record<string, string>> = {
+  "government-structure": {
+    "safety-security": "The state structures that govern policing and justice",
+    "economic-growth": "Fiscal policy and regulatory frameworks that shape the economy",
+    "human-development": "Service delivery systems that determine human outcomes",
+    "reform-agenda": "Institutional failures that the reform agenda aims to fix",
+  },
+  "safety-security": {
+    "government-structure": "Constitutional and institutional foundations of justice",
+    "economic-growth": "Safety as a precondition for investment and growth",
+    "human-development": "Violence and crime as barriers to human development",
+    "reform-agenda": "Criminal justice system failures requiring structural reform",
+  },
+  "economic-growth": {
+    "government-structure": "Governance quality shapes the investment environment",
+    "safety-security": "Safety enables the conditions for economic activity",
+    "human-development": "Growth creates resources for health and education",
+    "reform-agenda": "Structural barriers to growth that reform must address",
+  },
+  "human-development": {
+    "government-structure": "State capacity determines service delivery quality",
+    "safety-security": "Safety is foundational to health and learning outcomes",
+    "economic-growth": "Human capital drives long-term economic growth",
+    "reform-agenda": "Development failures reveal where reform is most urgent",
+  },
+  "reform-agenda": {
+    "government-structure": "Reforming the institutions that govern the country",
+    "safety-security": "Fixing the criminal justice pipeline",
+    "economic-growth": "Removing structural barriers to inclusive growth",
+    "human-development": "Ensuring the state delivers on development mandates",
+  },
+};
+
 const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
 ---
 
-<PageLayout
-  title={pillar.title}
+<BaseLayout
+  title={`${pillar.title} — GovCompass`}
   description={pillar.description}
 >
-  <h1 class="font-heading text-3xl font-bold text-text-primary mb-2">
-    {pillar.title}
-  </h1>
-  <p class="text-text-secondary mb-6">
-    {pillar.description}
-  </p>
+  <!-- Hero Banner -->
+  <div
+    class="relative overflow-hidden"
+    style={`background: linear-gradient(135deg, ${pillar.color}14 0%, ${pillar.lightColor} 50%, ${pillar.color}0A 100%);`}
+  >
+    <div class="max-w-content mx-auto px-4 md:px-0 pt-8 pb-10">
+      <!-- Breadcrumbs -->
+      <nav aria-label="Breadcrumb" class="mb-6">
+        <ol class="flex items-center gap-1.5 text-sm font-heading text-text-secondary">
+          <li>
+            <a href="/" class="hover:text-text-primary transition-colors">Home</a>
+          </li>
+          <li aria-hidden="true" class="select-none">/</li>
+          <li>
+            <a href="/#pillars" class="hover:text-text-primary transition-colors">Pillars</a>
+          </li>
+          <li aria-hidden="true" class="select-none">/</li>
+          <li aria-current="page" class="text-text-primary font-semibold truncate">
+            {pillar.shortTitle}
+          </li>
+        </ol>
+      </nav>
 
-  {pillar.filterDimension === "sphere" && hasArticles && (
-    <div class="flex gap-2 mb-6" role="group" aria-label="View mode">
-      <button
-        type="button"
-        class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-compass-green text-white"
-        data-view-toggle="reading-order"
-        aria-pressed="true"
-      >
-        Reading Order
-      </button>
-      <button
-        type="button"
-        class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-gray-100 text-text-secondary hover:bg-gray-200"
-        data-view-toggle="by-sphere"
-        aria-pressed="false"
-      >
-        By Sphere
-      </button>
-    </div>
-  )}
-
-  {pillar.filterDimension === "sphere" && hasArticles && <SphereFilter />}
-  {pillar.filterDimension === "tags" && allTags.length > 0 && <TagFilter tags={allTags} />}
-
-  {hasArticles ? (
-    <div class="space-y-10" id="reading-order-view">
-      {articlesByPart.map(({ number, title, articles }) => (
-        <section>
-          <h2 class="font-heading text-xl font-bold text-text-primary mb-4">
-            Part {number}: {title}
-          </h2>
-
-          {articles.length > 0 ? (
-            <div class="space-y-3">
-              {articles.map((article) => (
-                <div
-                  data-testid="series-card"
-                  data-sphere={article.data.sphere?.join(",") ?? ""}
-                  data-tags={article.data.tags?.join(",") ?? ""}
-                >
-                  <a
-                    href={
-                      isLinkable(article.data.status)
-                        ? `/articles/${article.id.replace(/\.md$/, "")}`
-                        : undefined
-                    }
-                    class={`block border border-gray-200 rounded-lg p-4 transition-colors ${
-                      isLinkable(article.data.status)
-                        ? "hover:border-compass-green cursor-pointer"
-                        : "opacity-60 cursor-default"
-                    }`}
-                  >
-                    <div class="flex items-start justify-between gap-4">
-                      <div>
-                        <div class="flex items-center gap-2 mb-1">
-                          <span class="font-heading text-xs text-text-secondary">
-                            {article.data.articleNumber}
-                          </span>
-                          {article.data.sphere?.map((s) => (
-                            <span
-                              class={`inline-block px-1.5 py-0.5 text-[10px] font-heading font-semibold text-white rounded ${sphereColors[s]}`}
-                            >
-                              {s.charAt(0).toUpperCase() + s.slice(1)}
-                            </span>
-                          ))}
-                          {(article.data.status === "coming-soon" || article.data.status === "scheduled") && (
-                            <span class="text-[10px] font-heading text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded">
-                              Coming soon
-                            </span>
-                          )}
-                          {article.data.status === "draft" && (
-                            <span class="text-[10px] font-heading text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
-                              Draft
-                            </span>
-                          )}
-                        </div>
-                        <h3 class="font-heading text-base font-semibold text-text-primary">
-                          {article.data.title}
-                        </h3>
-                      </div>
-                      {isLinkable(article.data.status) && (
-                        <span class="font-heading text-xs text-text-secondary whitespace-nowrap">
-                          {article.data.readingTime} min
-                        </span>
-                      )}
-                    </div>
-                  </a>
-                </div>
-              ))}
-            </div>
-          ) : (
-            <p class="text-sm text-text-secondary italic">
-              Articles coming soon.
-            </p>
-          )}
-        </section>
-      ))}
-    </div>
-  ) : (
-    <div class="border border-gray-200 rounded-lg p-8 text-center">
-      <p class="font-heading text-lg text-text-secondary mb-2">Coming soon</p>
-      <p class="text-sm text-text-secondary">
-        Articles for this topic are currently being developed.
-      </p>
-    </div>
-  )}
-
-  {pillar.filterDimension === "sphere" && hasArticles && (
-    <div class="space-y-10 hidden" id="by-sphere-view">
-      {(["all", "national", "provincial", "municipal"] as const).map((sphere) => {
-        const label = { all: "All Spheres", national: "National", provincial: "Provincial", municipal: "Municipal" }[sphere];
-        const color = sphereColors[sphere];
-        const filtered = pillarArticles
-          .filter((a) => a.data.sphere?.includes(sphere))
-          .sort((a, b) => a.data.articleNumber.localeCompare(b.data.articleNumber));
-
-        return (
-          <section>
-            <h2 class="font-heading text-xl font-bold text-text-primary mb-4 flex items-center gap-2">
-              <span class={`inline-block w-3 h-3 rounded-full ${color}`}></span>
-              {label}
-            </h2>
-            {filtered.length > 0 ? (
-              <div class="space-y-3">
-                {filtered.map((article) => (
-                  <a
-                    href={
-                      isLinkable(article.data.status)
-                        ? `/articles/${article.id.replace(/\.md$/, "")}`
-                        : undefined
-                    }
-                    class={`block border border-gray-200 rounded-lg p-4 transition-colors ${
-                      isLinkable(article.data.status)
-                        ? "hover:border-compass-green cursor-pointer"
-                        : "opacity-60 cursor-default"
-                    }`}
-                  >
-                    <div class="flex items-start justify-between gap-4">
-                      <div>
-                        <div class="flex items-center gap-2 mb-1">
-                          <span class="font-heading text-xs text-text-secondary">
-                            {article.data.articleNumber}
-                          </span>
-                          <span class="font-heading text-xs text-text-secondary">
-                            Part {article.data.part}
-                          </span>
-                          {(article.data.status === "coming-soon" || article.data.status === "scheduled") && (
-                            <span class="text-[10px] font-heading text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded">
-                              Coming soon
-                            </span>
-                          )}
-                          {article.data.status === "draft" && (
-                            <span class="text-[10px] font-heading text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
-                              Draft
-                            </span>
-                          )}
-                        </div>
-                        <h3 class="font-heading text-base font-semibold text-text-primary">
-                          {article.data.title}
-                        </h3>
-                      </div>
-                      {isLinkable(article.data.status) && (
-                        <span class="font-heading text-xs text-text-secondary whitespace-nowrap">
-                          {article.data.readingTime} min
-                        </span>
-                      )}
-                    </div>
-                  </a>
-                ))}
-              </div>
-            ) : (
-              <p class="text-sm text-text-secondary italic">
-                Articles coming soon.
-              </p>
-            )}
-          </section>
-        );
-      })}
-    </div>
-  )}
-
-  <!-- Related Topics -->
-  <section class="mt-12 pt-8 border-t border-gray-200">
-    <h2 class="font-heading text-xl font-bold text-text-primary mb-4">
-      Related Topics
-    </h2>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-      {relatedPillars.map((p) => (
-        <a
-          href={`/pillars/${p.slug}`}
-          class="border border-gray-200 rounded-lg p-4 hover:border-gray-300 transition-colors"
-        >
-          <div class="flex items-center gap-2 mb-2">
-            <span
-              class="inline-block w-3 h-3 rounded-full"
-              style={`background-color: ${p.color}`}
-            ></span>
-            <span class="font-heading text-sm font-semibold text-text-primary">
-              {p.shortTitle}
-            </span>
-          </div>
-          <p class="text-xs text-text-secondary line-clamp-2">
-            {p.description}
+      <div class="flex items-start gap-4">
+        <div
+          class="hidden sm:block w-1.5 rounded-full self-stretch flex-shrink-0"
+          style={`background-color: ${pillar.color};`}
+        ></div>
+        <div>
+          <h1 class="font-heading text-3xl md:text-4xl font-bold text-text-primary mb-3">
+            {pillar.title}
+          </h1>
+          <p class="text-text-secondary text-lg max-w-2xl">
+            {pillar.description}
           </p>
-        </a>
-      ))}
+          {hasArticles && (
+            <div class="mt-4 flex items-center gap-3">
+              <div class="flex items-center gap-2">
+                <div class="w-32 h-1.5 bg-gray-200 rounded-full overflow-hidden">
+                  <div
+                    class="h-full rounded-full transition-all"
+                    style={`width: ${totalCount > 0 ? (publishedCount / totalCount) * 100 : 0}%; background-color: ${pillar.color};`}
+                  ></div>
+                </div>
+                <span class="font-heading text-xs text-text-secondary">
+                  {publishedCount} of {totalCount} articles published
+                </span>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
     </div>
-  </section>
+  </div>
+
+  <!-- Content -->
+  <div class="max-w-content mx-auto px-4 md:px-0 py-10">
+
+    {pillar.filterDimension === "sphere" && hasArticles && (
+      <div class="flex gap-2 mb-6" role="group" aria-label="View mode">
+        <button
+          type="button"
+          class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-compass-green text-white"
+          data-view-toggle="reading-order"
+          aria-pressed="true"
+        >
+          Reading Order
+        </button>
+        <button
+          type="button"
+          class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-gray-100 text-text-secondary hover:bg-gray-200"
+          data-view-toggle="by-sphere"
+          aria-pressed="false"
+        >
+          By Sphere
+        </button>
+      </div>
+    )}
+
+    {pillar.filterDimension === "sphere" && hasArticles && <SphereFilter />}
+    {pillar.filterDimension === "tags" && allTags.length > 0 && <TagFilter tags={allTags} tagCounts={tagCounts} />}
+
+    {hasArticles ? (
+      <div class="space-y-10" id="reading-order-view">
+        {articlesByPart.map(({ number, title, description, articles }) => {
+          const partPublished = articles.filter((a) => a.data.status === "published").length;
+          const partTotal = articles.length;
+          return (
+            <section>
+              <div class="mb-4">
+                <div class="flex items-center gap-3 mb-1">
+                  <h2 class="font-heading text-xl font-bold text-text-primary">
+                    Part {number}: {title}
+                  </h2>
+                  {partTotal > 0 && (
+                    <span class="font-heading text-xs text-text-secondary bg-bg-secondary px-2 py-0.5 rounded-full">
+                      {partPublished}/{partTotal}
+                    </span>
+                  )}
+                </div>
+                <p class="text-sm text-text-secondary max-w-xl">
+                  {description}
+                </p>
+              </div>
+
+              {articles.length > 0 ? (
+                <div class="space-y-3">
+                  {articles.map((article) => (
+                    <div
+                      data-testid="series-card"
+                      data-sphere={article.data.sphere?.join(",") ?? ""}
+                      data-tags={article.data.tags?.join(",") ?? ""}
+                    >
+                      <a
+                        href={
+                          isLinkable(article.data.status)
+                            ? `/articles/${article.id.replace(/\.md$/, "")}`
+                            : undefined
+                        }
+                        class={`block border border-gray-200 rounded-lg p-4 transition-colors ${
+                          isLinkable(article.data.status)
+                            ? "hover:border-gray-300 hover:shadow-sm cursor-pointer"
+                            : "opacity-60 cursor-default"
+                        }`}
+                        style={isLinkable(article.data.status) ? `border-left: 3px solid ${pillar.color};` : undefined}
+                      >
+                        <div class="flex items-start justify-between gap-4">
+                          <div class="min-w-0">
+                            <div class="flex items-center gap-2 mb-1">
+                              <span class="font-heading text-xs text-text-secondary">
+                                {article.data.articleNumber}
+                              </span>
+                              {article.data.sphere?.map((s) => (
+                                <span
+                                  class={`inline-block px-1.5 py-0.5 text-[10px] font-heading font-semibold text-white rounded ${sphereColors[s]}`}
+                                >
+                                  {s.charAt(0).toUpperCase() + s.slice(1)}
+                                </span>
+                              ))}
+                              {(article.data.status === "coming-soon" || article.data.status === "scheduled") && (
+                                <span class="text-[10px] font-heading text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded">
+                                  Coming soon
+                                </span>
+                              )}
+                              {article.data.status === "draft" && (
+                                <span class="text-[10px] font-heading text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
+                                  Draft
+                                </span>
+                              )}
+                            </div>
+                            <h3 class="font-heading text-base font-semibold text-text-primary">
+                              {article.data.title}
+                            </h3>
+                            {article.data.subtitle && (
+                              <p class="text-sm text-text-secondary mt-1 line-clamp-1">
+                                {article.data.subtitle}
+                              </p>
+                            )}
+                          </div>
+                          {isLinkable(article.data.status) && (
+                            <span class="font-heading text-xs text-text-secondary whitespace-nowrap">
+                              {article.data.readingTime} min
+                            </span>
+                          )}
+                        </div>
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p class="text-sm text-text-secondary italic">
+                  Articles coming soon.
+                </p>
+              )}
+            </section>
+          );
+        })}
+      </div>
+    ) : (
+      <div class="border border-gray-200 rounded-lg p-8 text-center">
+        <p class="font-heading text-lg text-text-secondary mb-2">Coming soon</p>
+        <p class="text-sm text-text-secondary">
+          Articles for this topic are currently being developed.
+        </p>
+      </div>
+    )}
+
+    {pillar.filterDimension === "sphere" && hasArticles && (
+      <div class="space-y-10 hidden" id="by-sphere-view">
+        {(["all", "national", "provincial", "municipal"] as const).map((sphere) => {
+          const label = { all: "All Spheres", national: "National", provincial: "Provincial", municipal: "Municipal" }[sphere];
+          const color = sphereColors[sphere];
+          const filtered = pillarArticles
+            .filter((a) => a.data.sphere?.includes(sphere))
+            .sort((a, b) => a.data.articleNumber.localeCompare(b.data.articleNumber));
+
+          return (
+            <section>
+              <h2 class="font-heading text-xl font-bold text-text-primary mb-4 flex items-center gap-2">
+                <span class={`inline-block w-3 h-3 rounded-full ${color}`}></span>
+                {label}
+              </h2>
+              {filtered.length > 0 ? (
+                <div class="space-y-3">
+                  {filtered.map((article) => (
+                    <a
+                      href={
+                        isLinkable(article.data.status)
+                          ? `/articles/${article.id.replace(/\.md$/, "")}`
+                          : undefined
+                      }
+                      class={`block border border-gray-200 rounded-lg p-4 transition-colors ${
+                        isLinkable(article.data.status)
+                          ? "hover:border-gray-300 hover:shadow-sm cursor-pointer"
+                          : "opacity-60 cursor-default"
+                      }`}
+                      style={isLinkable(article.data.status) ? `border-left: 3px solid ${pillar.color};` : undefined}
+                    >
+                      <div class="flex items-start justify-between gap-4">
+                        <div class="min-w-0">
+                          <div class="flex items-center gap-2 mb-1">
+                            <span class="font-heading text-xs text-text-secondary">
+                              {article.data.articleNumber}
+                            </span>
+                            <span class="font-heading text-xs text-text-secondary">
+                              Part {article.data.part}
+                            </span>
+                            {(article.data.status === "coming-soon" || article.data.status === "scheduled") && (
+                              <span class="text-[10px] font-heading text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded">
+                                Coming soon
+                              </span>
+                            )}
+                            {article.data.status === "draft" && (
+                              <span class="text-[10px] font-heading text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
+                                Draft
+                              </span>
+                            )}
+                          </div>
+                          <h3 class="font-heading text-base font-semibold text-text-primary">
+                            {article.data.title}
+                          </h3>
+                          {article.data.subtitle && (
+                            <p class="text-sm text-text-secondary mt-1 line-clamp-1">
+                              {article.data.subtitle}
+                            </p>
+                          )}
+                        </div>
+                        {isLinkable(article.data.status) && (
+                          <span class="font-heading text-xs text-text-secondary whitespace-nowrap">
+                            {article.data.readingTime} min
+                          </span>
+                        )}
+                      </div>
+                    </a>
+                  ))}
+                </div>
+              ) : (
+                <p class="text-sm text-text-secondary italic">
+                  Articles coming soon.
+                </p>
+              )}
+            </section>
+          );
+        })}
+      </div>
+    )}
+
+    <!-- Related Topics -->
+    <section class="mt-12 pt-8 border-t border-gray-200">
+      <h2 class="font-heading text-xl font-bold text-text-primary mb-4">
+        Related Topics
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        {relatedPillars.map((p) => (
+          <a
+            href={`/pillars/${p.slug}`}
+            class="group border border-gray-200 rounded-lg p-4 hover:border-gray-300 hover:shadow-sm transition-all"
+          >
+            <div class="flex items-center gap-2 mb-2">
+              <span
+                class="inline-block w-3 h-3 rounded-full"
+                style={`background-color: ${p.color}`}
+              ></span>
+              <span class="font-heading text-sm font-semibold text-text-primary group-hover:underline">
+                {p.shortTitle}
+              </span>
+            </div>
+            <p class="text-xs text-text-secondary line-clamp-2">
+              {pillarRelationships[pillar.slug]?.[p.slug] ?? p.description}
+            </p>
+          </a>
+        ))}
+      </div>
+    </section>
+  </div>
 
   {pillar.filterDimension === "sphere" && hasArticles && (
     <script>
@@ -300,4 +424,4 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
       });
     </script>
   )}
-</PageLayout>
+</BaseLayout>
