@@ -18,6 +18,7 @@ export interface Reform {
   legislative?: string;
   cost?: string;
   scope?: Scope[];
+  articleSlug?: string;
 }
 
 export interface Workstream {
@@ -226,6 +227,7 @@ export const reforms: Reform[] = [
       "Pilot Judicial Investigation Officers (JIOs) in 2–3 metropolitan areas. JIOs are magistrate-level officers with both investigative and preliminary judicial powers, directing SAPS detectives on serious and complex cases (Track C and Track D matters).",
     legislative: "New Investigating Magistracy Act; amendments to Criminal Procedure Act, 1977",
     cost: "R500m – R800m",
+    articleSlug: "ss-3-2-independent-investigating-magistracy",
   },
   {
     id: "1.2",
@@ -236,6 +238,7 @@ export const reforms: Reform[] = [
       "Ring-fenced detective recruitment, specialised training programmes, forensic capacity restoration.",
     legislative: "Amendments to South African Police Service Act, 1995",
     cost: "R3bn – R5bn",
+    articleSlug: "ss-2-2-policing-a-divided-country",
   },
   {
     id: "1.3",
@@ -246,6 +249,7 @@ export const reforms: Reform[] = [
       "Restore prosecutorial capacity through depoliticised appointment processes, adequate resourcing, and specialised prosecution units.",
     legislative: "Amendments to National Prosecuting Authority Act, 1998",
     cost: "R2bn – R3bn",
+    articleSlug: "ss-2-3-justice-delayed-rights-denied",
   },
   {
     id: "1.4",
@@ -256,6 +260,7 @@ export const reforms: Reform[] = [
       "Replace SAPS's broken Crime Administration System (CAS) with a modern digital case management platform — the foundation for the full Integrated Criminal Justice Information System (ICJS).",
     legislative: "Regulatory/procurement",
     cost: "R2bn – R4bn",
+    articleSlug: "ss-4-1-sequencing-reform",
   },
   {
     id: "1.5",
@@ -266,6 +271,7 @@ export const reforms: Reform[] = [
       "Classify every criminal matter within 72 hours of arrest into four tracks: Track A (summary/diversion, 90-day limit), Track B (standard criminal, 18-month limit), Track C (complex/serious, 24-month limit), Track D (national priority, 30-month limit).",
     legislative: "Amendments to Criminal Procedure Act, 1977",
     cost: "Included in 1.4",
+    articleSlug: "ss-2-1-the-broken-pipeline",
   },
   // ── Safety & Security: Phase 2 ──
   {
@@ -277,6 +283,7 @@ export const reforms: Reform[] = [
       "Establish community courts under amended Magistrates' Courts Act. Presided over by Community Justice Officers (CJOs) — a new para-legal profession. Handle summary offences with sentences up to two years. Integrate restorative justice and traditional justice processes within Track A.",
     legislative: "Amendments to Magistrates' Courts Act, 1944",
     cost: "R3bn – R5bn",
+    articleSlug: "ss-3-3-community-courts-and-restorative-justice",
   },
   {
     id: "2.2",
@@ -287,6 +294,7 @@ export const reforms: Reform[] = [
       "Establish a permanent, independent South African Sentencing Commission to develop presumptive sentencing bands, maintain a national sentencing database, and publish real-time analytics dashboards for judicial officers.",
     legislative: "New Sentencing Reform Act",
     cost: "R200m – R400m",
+    articleSlug: "ss-3-4-sentencing-commission-and-structured-guidelines",
   },
   {
     id: "2.3",
@@ -297,6 +305,7 @@ export const reforms: Reform[] = [
       "Pilot the restructured policing architecture in 2–3 provinces. Tier 1 (National): Focused SAPS of 30,000–40,000 members covering serious/organised crime, counter-corruption, cybercrime, border security, and rapid response. Tier 2 (Provincial): Nine Provincial Police Services with operational independence and dedicated rural crime units. Tier 3 (Municipal): Metro police with full criminal investigation powers; community policing grids for smaller municipalities.",
     legislative: "Amendments to South African Police Service Act, 1995",
     cost: "R3bn – R5bn",
+    articleSlug: "ss-3-1-three-tier-policing-architecture",
   },
   {
     id: "2.4",
@@ -307,6 +316,7 @@ export const reforms: Reform[] = [
       "Establish an independent Civilian Police Intelligence Oversight Council reporting to Parliament. Expand IPID with provincial offices.",
     legislative: "Amendments to IPID Act",
     cost: "Included in 2.3",
+    articleSlug: "ss-2-2-policing-a-divided-country",
   },
   {
     id: "2.5",
@@ -318,6 +328,7 @@ export const reforms: Reform[] = [
     legislative:
       "Amendments to Private Security Industry Regulation Act, 2001",
     cost: "Regulatory cost",
+    articleSlug: "ss-2-5-the-private-security-paradox",
   },
   // ── Safety & Security: Phase 3 ──
   {
@@ -329,6 +340,7 @@ export const reforms: Reform[] = [
       "Roll out the three-tier policing model to all nine provinces based on Phase 2 pilot evidence.",
     legislative: "Phase 2 legislation applies",
     cost: "R8bn – R15bn",
+    articleSlug: "ss-3-1-three-tier-policing-architecture",
   },
   {
     id: "3.2",
@@ -339,6 +351,7 @@ export const reforms: Reform[] = [
       "Transform the correctional system: mandate individual sentence plans for every inmate, establish minimum staffing ratios (1:6 staff-to-inmate), universal education and vocational training, evidence-based substance abuse treatment, mental health screening and services, and restructured parole boards. Transform Community Corrections from compliance monitoring to reintegration support.",
     legislative: "Amendments to Correctional Services Act, 1998",
     cost: "R5bn – R8bn",
+    articleSlug: "ss-3-5-rehabilitation-as-constitutional-mandate",
   },
   {
     id: "3.3",
@@ -349,6 +362,7 @@ export const reforms: Reform[] = [
       "Implement the Sentencing Commission's first set of structured guidelines across all courts.",
     legislative: "Phase 2 Sentencing Reform Act applies",
     cost: "Included in 3.2",
+    articleSlug: "ss-3-4-sentencing-commission-and-structured-guidelines",
   },
   {
     id: "3.4",
@@ -359,6 +373,7 @@ export const reforms: Reform[] = [
       "Expand the digital case management system into the full Integrated Criminal Justice Information System — unified tracking from report through investigation, prosecution, adjudication, sentencing, incarceration, rehabilitation, parole, and post-release monitoring. Includes virtual remand hearing technology, AI-assisted court scheduling, and unified digital docket management.",
     legislative: "Regulatory/procurement",
     cost: "R2bn – R4bn",
+    articleSlug: "ss-4-1-sequencing-reform",
   },
   {
     id: "3.5",
@@ -369,6 +384,7 @@ export const reforms: Reform[] = [
       "Establish an independent Criminal Justice Statistics Authority (division within Stats SA or standalone entity) to publish quarterly scorecard data and raw datasets.",
     legislative: "New enabling legislation",
     cost: "R100m – R200m",
+    articleSlug: "ss-4-3-measuring-progress",
   },
 
   // ── Reform Agenda: Phase 1 ──
@@ -381,6 +397,7 @@ export const reforms: Reform[] = [
     description:
       "Co-locate authority with accountability at provincial level. Provincial MECs for Education gain operational control over teacher employment, curriculum implementation flexibility, and infrastructure decisions.",
     scope: ["national", "provincial"],
+    articleSlug: "ra-2-1-fixing-basic-education",
   },
   {
     id: "2A.2",
@@ -391,6 +408,7 @@ export const reforms: Reform[] = [
     description:
       "Create a single entity responsible for the full delivery chain from district to classroom. Establish clear handoffs between DBE (policy), provinces (delivery), and schools (implementation).",
     scope: ["national", "provincial"],
+    articleSlug: "ra-2-1-fixing-basic-education",
   },
   {
     id: "2A.3",
@@ -401,6 +419,7 @@ export const reforms: Reform[] = [
     description:
       "Strengthen district support capacity with adequate subject advisors, reduce circuit manager student-to-teacher ratios, invest in real-time data systems at district level.",
     scope: ["provincial"],
+    articleSlug: "ra-2-1-fixing-basic-education",
   },
   {
     id: "2A.4",
@@ -411,6 +430,7 @@ export const reforms: Reform[] = [
     description:
       "Establish automatic intervention when provinces underperform by defined thresholds, with mandatory consequences for persistent failure (Section 100 interventions).",
     scope: ["national"],
+    articleSlug: "ra-2-1-fixing-basic-education",
   },
   {
     id: "2B.1",
@@ -421,6 +441,7 @@ export const reforms: Reform[] = [
     description:
       "Separate the regulatory function from the operational function in healthcare delivery, following the WSA/WSP structural model.",
     scope: ["national", "provincial"],
+    articleSlug: "ra-2-2-fixing-primary-healthcare",
   },
   {
     id: "2B.2",
@@ -431,6 +452,7 @@ export const reforms: Reform[] = [
     description:
       "Grant facility managers independent authority over procurement and staffing within defined parameters. Enable direct procurement rights for critical medicines above defined stock-out thresholds.",
     scope: ["provincial"],
+    articleSlug: "ra-2-2-fixing-primary-healthcare",
   },
   {
     id: "2B.3",
@@ -441,6 +463,7 @@ export const reforms: Reform[] = [
     description:
       "Ring-fence PHC budget allocations within provincial budgets. Create dedicated funding streams for primary healthcare infrastructure separate from hospital funding.",
     scope: ["provincial"],
+    articleSlug: "ra-2-2-fixing-primary-healthcare",
   },
   {
     id: "2B.4",
@@ -451,6 +474,7 @@ export const reforms: Reform[] = [
     description:
       "Ensure NHI consolidates rather than fragments responsibility. Create single accountability point: NHI as payer, provincial facilities as integrated provider.",
     scope: ["national"],
+    articleSlug: "ra-2-2-fixing-primary-healthcare",
   },
   {
     id: "2C.1",
@@ -461,6 +485,7 @@ export const reforms: Reform[] = [
     description:
       "Establish housing project management units at municipality level with full authority over land acquisition through title deed registration.",
     scope: ["municipal"],
+    articleSlug: "ra-2-3-fixing-human-settlements",
   },
   {
     id: "2C.2",
@@ -471,6 +496,7 @@ export const reforms: Reform[] = [
     description:
       "Amend the Housing Act to enable Level 2 accreditation in all capable municipalities (following Cape Town and Johannesburg model).",
     scope: ["national", "municipal"],
+    articleSlug: "ra-2-3-fixing-human-settlements",
   },
   {
     id: "2C.3",
@@ -481,6 +507,7 @@ export const reforms: Reform[] = [
     description:
       "Create dedicated task team to clear 900,000+ title deed backlog within defined timeline. Establish automatic consequences for provinces failing to register title deeds.",
     scope: ["national", "provincial"],
+    articleSlug: "ra-2-3-fixing-human-settlements",
   },
   {
     id: "2C.4",
@@ -491,6 +518,7 @@ export const reforms: Reform[] = [
     description:
       "Establish a single, accurate, national database of housing demand with integrated project tracking from approval through title deed registration.",
     scope: ["national"],
+    articleSlug: "ra-2-3-fixing-human-settlements",
   },
   {
     id: "2C.5",
@@ -501,6 +529,7 @@ export const reforms: Reform[] = [
     description:
       "Increase subsidy quantum to reflect actual construction costs in high-cost areas. Implement performance-based developer selection. Create separate funding stream for bulk infrastructure independent of top-structure funding.",
     scope: ["national"],
+    articleSlug: "ra-2-3-fixing-human-settlements",
   },
 
   // ── Reform Agenda: Phase 2 ──
@@ -513,6 +542,7 @@ export const reforms: Reform[] = [
     description:
       "Separate the Water Services Authority (regulator) from the Water Services Provider (operator). Appoint independent WSPs (Water Boards, municipal entities, or private operators) while municipality remains WSA. This is the single most important structural reform — resolving the conflation pattern where the same entity regulates and delivers.",
     scope: ["municipal"],
+    articleSlug: "ra-4-1-fixing-water-and-sanitation",
   },
   {
     id: "2D.2",
@@ -523,6 +553,7 @@ export const reforms: Reform[] = [
     description:
       "Ring-fence all water revenue strictly for water operations and infrastructure maintenance. Mandate minimum 8% of water asset value allocation to maintenance (up from current 3%). Establish dedicated infrastructure maintenance reserve fund.",
     scope: ["municipal"],
+    articleSlug: "ra-4-1-fixing-water-and-sanitation",
   },
   {
     id: "2D.3",
@@ -533,6 +564,7 @@ export const reforms: Reform[] = [
     description:
       "Implement leak detection and repair programmes at district level. Establish billing accuracy improvements and meter installation targets. Create performance incentives for water loss reduction (current write-off rate: 47.4%).",
     scope: ["municipal"],
+    articleSlug: "ra-4-1-fixing-water-and-sanitation",
   },
   {
     id: "2D.4",
@@ -543,6 +575,7 @@ export const reforms: Reform[] = [
     description:
       "Address R400 billion maintenance backlog through phased capital programme with infrastructure rehabilitation grants separate from operational budgets.",
     scope: ["national", "municipal"],
+    articleSlug: "ra-4-1-fixing-water-and-sanitation",
   },
   {
     id: "2D.5",
@@ -553,6 +586,7 @@ export const reforms: Reform[] = [
     description:
       "Strengthen DWS's regulatory capacity to enforce Blue Drop/Green Drop recommendations. Create automatic consequences for municipalities failing quality standards. Establish mandatory intervention protocols for critical failures.",
     scope: ["national"],
+    articleSlug: "ra-4-1-fixing-water-and-sanitation",
   },
   {
     id: "2E.1",
@@ -563,6 +597,7 @@ export const reforms: Reform[] = [
     description:
       "Ring-fence electricity revenue strictly for electricity operations and infrastructure. End cross-subsidization of other municipal services through electricity revenue. Establish separate accounting and fund allocation.",
     scope: ["municipal"],
+    articleSlug: "ra-4-2-fixing-electricity",
   },
   {
     id: "2E.2",
@@ -573,6 +608,7 @@ export const reforms: Reform[] = [
     description:
       "Empower municipalities to procure from independent power producers directly, leveraging the Electricity Regulation Amendment Act (2024). Establish tariff-setting authority within NERSA framework with clearer municipal autonomy.",
     scope: ["national", "municipal"],
+    articleSlug: "ra-4-2-fixing-electricity",
   },
   {
     id: "2E.3",
@@ -583,6 +619,7 @@ export const reforms: Reform[] = [
     description:
       "Address R32 billion maintenance backlog through dedicated capital programme. Require minimum 8% of electricity asset value on maintenance. Establish asset replacement cycles for aging distribution infrastructure (average 40 years old).",
     scope: ["municipal"],
+    articleSlug: "ra-4-2-fixing-electricity",
   },
   {
     id: "2E.4",
@@ -593,6 +630,7 @@ export const reforms: Reform[] = [
     description:
       "Implement advanced metering infrastructure (AMI) to reduce non-technical losses. Establish legal meter theft penalties and enforcement. Create technical loss reduction through network optimisation (current average: 18% distribution losses).",
     scope: ["municipal"],
+    articleSlug: "ra-4-2-fixing-electricity",
   },
   {
     id: "2E.5",
@@ -603,6 +641,7 @@ export const reforms: Reform[] = [
     description:
       "Address R110 billion municipality arrears to Eskom through structured payment plans. Link payment compliance to municipal grants/disbursements as enforcement mechanism.",
     scope: ["national", "municipal"],
+    articleSlug: "ra-4-2-fixing-electricity",
   },
   {
     id: "2F.1",
@@ -613,6 +652,7 @@ export const reforms: Reform[] = [
     description:
       "Consolidate fragmented waste management authority into single municipal function.",
     scope: ["municipal"],
+    articleSlug: "ra-4-3-fixing-waste-and-roads",
   },
   {
     id: "2F.2",
@@ -622,6 +662,7 @@ export const reforms: Reform[] = [
     title: "Revenue Ring-Fencing",
     description: "Ring-fence waste revenue for waste operations.",
     scope: ["municipal"],
+    articleSlug: "ra-4-3-fixing-waste-and-roads",
   },
   {
     id: "2F.3",
@@ -632,6 +673,7 @@ export const reforms: Reform[] = [
     description:
       "Establish enforcement mechanisms for failing waste service standards.",
     scope: ["municipal"],
+    articleSlug: "ra-4-3-fixing-waste-and-roads",
   },
   {
     id: "2F.4",
@@ -642,6 +684,7 @@ export const reforms: Reform[] = [
     description:
       "Create integrated roads maintenance budgeting with clear performance metrics.",
     scope: ["municipal"],
+    articleSlug: "ra-4-3-fixing-waste-and-roads",
   },
 
   // ── Reform Agenda: Phase 3 ──
@@ -654,6 +697,7 @@ export const reforms: Reform[] = [
     description:
       "Establish municipal capability development programmes in engineering, financial management, and project management with professional development pathways.",
     scope: ["municipal"],
+    articleSlug: "ra-4-4-building-municipal-capability",
   },
   {
     id: "2G.2",
@@ -664,6 +708,7 @@ export const reforms: Reform[] = [
     description:
       "Implement minimum qualification standards for critical municipal positions.",
     scope: ["municipal"],
+    articleSlug: "ra-4-4-building-municipal-capability",
   },
   {
     id: "2G.3",
@@ -674,6 +719,7 @@ export const reforms: Reform[] = [
     description:
       "Create structured mentoring programmes between better-resourced and under-resourced municipalities.",
     scope: ["municipal"],
+    articleSlug: "ra-4-4-building-municipal-capability",
   },
   {
     id: "2G.4",
@@ -684,6 +730,7 @@ export const reforms: Reform[] = [
     description:
       "Strengthen provincial-national coordination mechanisms. Implement performance-based resource allocation for provinces.",
     scope: ["provincial"],
+    articleSlug: "ra-3-1-provincial-performance-crisis",
   },
   {
     id: "2H.1",
@@ -694,6 +741,7 @@ export const reforms: Reform[] = [
     description:
       "Clarify constitutional authority distribution — most reforms can be achieved through legislative amendment without constitutional change. Constitutional amendments only where Schedule 4 authority distribution requires modification.",
     scope: ["national"],
+    articleSlug: "ra-5-1-constitutional-vs-legislative",
   },
   {
     id: "2H.2",
@@ -704,6 +752,7 @@ export const reforms: Reform[] = [
     description:
       "Create binding joint accountability frameworks across national, provincial, and municipal entities for concurrent functions.",
     scope: ["national"],
+    articleSlug: "ra-5-1-constitutional-vs-legislative",
   },
 
   // ── Economic Growth: Phase 1 ──
@@ -715,6 +764,7 @@ export const reforms: Reform[] = [
     title: "Demand-Driven Support Integration",
     description:
       "Integrate fragmented MSME support agencies (SEDA, SEFA, dtic, NEF, IDC) into a single demand-responsive system. Shift from supply-driven to demand-driven support model — structured around what businesses actually need, not what agencies supply.",
+    articleSlug: "eg-3-1-three-engines-of-growth",
   },
   {
     id: "3A.2",
@@ -724,6 +774,7 @@ export const reforms: Reform[] = [
     title: "Regulatory Simplification",
     description:
       "Reduce compliance burden on small firms. Streamline business registration and licensing (target: 48 hours). Create simplified compliance pathways for businesses under defined revenue thresholds.",
+    articleSlug: "eg-3-2-the-execution-machine",
   },
   {
     id: "3A.3",
@@ -733,6 +784,7 @@ export const reforms: Reform[] = [
     title: "Digital Financial Inclusion",
     description:
       "Extend bank account access and payment systems to informal businesses. Support mobile money for unbanked MSME populations. Create digital financial inclusion infrastructure.",
+    articleSlug: "eg-3-1-three-engines-of-growth",
   },
   {
     id: "3B.1",
@@ -742,6 +794,7 @@ export const reforms: Reform[] = [
     title: "Small Business Guarantee Fund",
     description:
       "Establish a South African Small Business Guarantee Fund modelled on the US SBA's 7(a) programme. Commercial banks provide credit; government guarantees 75–85% of default risk. Enables lending to early-stage ventures without government doing direct lending.",
+    articleSlug: "eg-3-1-three-engines-of-growth",
   },
   {
     id: "3B.2",
@@ -751,6 +804,7 @@ export const reforms: Reform[] = [
     title: "Alternative Financing Mechanisms",
     description:
       "Expand supply chain financing, invoice discounting and factoring, microfinance, and peer-to-peer lending platforms.",
+    articleSlug: "eg-3-1-three-engines-of-growth",
   },
   {
     id: "3B.3",
@@ -760,6 +814,7 @@ export const reforms: Reform[] = [
     title: "Venture Capital Mobilisation",
     description:
       "Establish tax incentives for angel investment and venture capital funds. Create venture capital matching funds (private + government). Support secondary market development for early-stage equity.",
+    articleSlug: "eg-3-1-three-engines-of-growth",
   },
 
   // ── Economic Growth: Phase 2 ──
@@ -771,6 +826,7 @@ export const reforms: Reform[] = [
     title: "Startup Ecosystems",
     description:
       "Following Chile's Start-Up Chile model: attract international entrepreneurs, provide seed funding, embed in local accelerators. Establish dedicated startup funding programmes with venture capital matching. Create incubator and accelerator networks in major metros.",
+    articleSlug: "eg-3-1-three-engines-of-growth",
   },
   {
     id: "3C.2",
@@ -780,6 +836,7 @@ export const reforms: Reform[] = [
     title: "Township and Rural Enterprise",
     description:
       "Targeted programmes for township and rural enterprise development with adapted financing, mentoring, and market access support.",
+    articleSlug: "eg-3-1-three-engines-of-growth",
   },
   {
     id: "3D.1",
@@ -789,6 +846,7 @@ export const reforms: Reform[] = [
     title: "Platinum Cluster",
     description:
       "Catalytic converters, fuel cell components, emission control systems — leveraging existing PGM processing capabilities into higher-value manufactured products.",
+    articleSlug: "eg-2-1-resource-optimisation",
   },
   {
     id: "3D.2",
@@ -798,6 +856,7 @@ export const reforms: Reform[] = [
     title: "Automotive Cluster",
     description:
       "High-value components, aerospace components, rail rolling stock — building on APDP incentives and existing automotive manufacturing base.",
+    articleSlug: "eg-2-1-resource-optimisation",
   },
   {
     id: "3D.3",
@@ -807,6 +866,7 @@ export const reforms: Reform[] = [
     title: "Agricultural Cluster",
     description:
       "Essential oils, fruit-based beverages, processed foods, botanical extracts — moving up the value chain from raw agricultural commodity exports.",
+    articleSlug: "eg-2-1-resource-optimisation",
   },
   {
     id: "3D.4",
@@ -816,6 +876,7 @@ export const reforms: Reform[] = [
     title: "Services Cluster",
     description:
       "Fintech, insurtech, mining services consulting, edtech — leveraging South Africa's advanced financial sector and mining expertise into exportable services.",
+    articleSlug: "eg-2-1-resource-optimisation",
   },
   {
     id: "3E.1",
@@ -825,6 +886,7 @@ export const reforms: Reform[] = [
     title: "Trade Agreement Optimisation",
     description:
       "Leverage existing agreements (APDP for automotive, agricultural trade agreements). Negotiate new agreements prioritising high-complexity product categories.",
+    articleSlug: "eg-3-2-the-execution-machine",
   },
   {
     id: "3E.2",
@@ -834,6 +896,7 @@ export const reforms: Reform[] = [
     title: "AfCFTA Positioning",
     description:
       "Position South Africa as a services and manufacturing hub within the African Continental Free Trade Area.",
+    articleSlug: "eg-3-2-the-execution-machine",
   },
 
   // ── Economic Growth: Phase 3 ──
@@ -845,6 +908,7 @@ export const reforms: Reform[] = [
     title: "Metro Economic Rankings",
     description:
       "Establish a metro economic performance ranking system across four pillars: Economic Development, Service Delivery, Governance and Finance, and Infrastructure and Sustainability — creating competitive benchmarking between South Africa's eight metropolitan municipalities.",
+    articleSlug: "eg-4-1-the-municipal-performance-index",
   },
   {
     id: "3F.2",
@@ -854,6 +918,7 @@ export const reforms: Reform[] = [
     title: "Metro Growth Compacts",
     description:
       "Create binding growth compacts between national government and metropolitan municipalities with defined targets, incentives, and consequences.",
+    articleSlug: "eg-4-2-the-metro-rankings",
   },
   {
     id: "3G.1",
@@ -863,6 +928,7 @@ export const reforms: Reform[] = [
     title: "Regulatory Quality",
     description:
       "Reduce regulatory complexity and improve policy predictability. Create regulatory impact assessments for all new business-affecting legislation.",
+    articleSlug: "eg-3-2-the-execution-machine",
   },
   {
     id: "3G.2",
@@ -872,6 +938,7 @@ export const reforms: Reform[] = [
     title: "Competition and Market Access",
     description:
       "Strengthen competition enforcement to reduce concentration and enable MSME market entry. Address barriers to entry in concentrated sectors.",
+    articleSlug: "eg-3-2-the-execution-machine",
   },
   {
     id: "3G.3",
@@ -881,6 +948,7 @@ export const reforms: Reform[] = [
     title: "Political Economy Management",
     description:
       "Address rent-seeking and patronage networks that distort resource allocation. Build coalitions for reform by demonstrating growth dividends.",
+    articleSlug: "eg-5-1-the-political-economy-of-growth",
   },
 
   // ── Human Development: Phase 1 ──
@@ -892,6 +960,7 @@ export const reforms: Reform[] = [
     title: "Primary Healthcare Infrastructure",
     description:
       "Strengthen primary healthcare facility infrastructure, staffing, and supply chains (complementing Workstream 2B governance reforms).",
+    articleSlug: "hd-2-3-the-fiscal-arithmetic-of-health",
   },
   {
     id: "4A.2",
@@ -901,6 +970,7 @@ export const reforms: Reform[] = [
     title: "Substance Abuse Treatment",
     description:
       "Expand evidence-based substance abuse treatment capacity at community level.",
+    articleSlug: "hd-2-1-the-life-expectancy-deficit",
   },
   {
     id: "4A.3",
@@ -910,6 +980,7 @@ export const reforms: Reform[] = [
     title: "Mental Health Services",
     description:
       "Expand psychiatric and psychological services, implement universal screening.",
+    articleSlug: "hd-2-1-the-life-expectancy-deficit",
   },
   {
     id: "4A.4",
@@ -919,6 +990,7 @@ export const reforms: Reform[] = [
     title: "GBV Prevention and Response",
     description:
       "Implement comprehensive gender-based violence prevention programmes and strengthen response systems.",
+    articleSlug: "hd-2-2-violence-as-public-health-crisis",
   },
   {
     id: "4A.5",
@@ -928,6 +1000,7 @@ export const reforms: Reform[] = [
     title: "Maternal and Child Health",
     description:
       "Strengthen antenatal care, nutrition programmes, and early childhood health interventions to break intergenerational disadvantage.",
+    articleSlug: "hd-2-1-the-life-expectancy-deficit",
   },
   {
     id: "4B.1",
@@ -937,6 +1010,7 @@ export const reforms: Reform[] = [
     title: "Teacher Development",
     description:
       "Professional development and support programmes focused on content knowledge and pedagogical skills — addressing the finding that many teachers cannot pass the assessments they set for their students.",
+    articleSlug: "hd-3-1-the-schooling-paradox",
   },
   {
     id: "4B.2",
@@ -946,6 +1020,7 @@ export const reforms: Reform[] = [
     title: "Early Childhood Development",
     description:
       "Expand access to quality ECD programmes, recognising that the reinforcing cycle begins before formal schooling.",
+    articleSlug: "hd-3-1-the-schooling-paradox",
   },
   {
     id: "4B.3",
@@ -955,6 +1030,7 @@ export const reforms: Reform[] = [
     title: "School Safety",
     description:
       "Address the 'learning in a war zone' crisis — schools in communities with high violence require specific safety interventions to enable learning.",
+    articleSlug: "hd-3-2-learning-in-a-war-zone",
   },
   {
     id: "4B.4",
@@ -964,6 +1040,7 @@ export const reforms: Reform[] = [
     title: "Learning Infrastructure",
     description:
       "Provide essential learning infrastructure: libraries, laboratories, connectivity, and learning materials.",
+    articleSlug: "hd-3-1-the-schooling-paradox",
   },
 
   // ── Human Development: Phase 2 ──
@@ -975,6 +1052,7 @@ export const reforms: Reform[] = [
     title: "Skills-Labour Market Alignment",
     description:
       "Align skills training programmes with actual labour market demand, informed by economic growth engine priorities from Workstream 3.",
+    articleSlug: "hd-3-3-from-classroom-to-paycheck",
   },
   {
     id: "4C.2",
@@ -984,6 +1062,7 @@ export const reforms: Reform[] = [
     title: "Work-Seeking Support",
     description:
       "Structured support for work-seeking including job placement, career guidance, and labour market information.",
+    articleSlug: "hd-3-3-from-classroom-to-paycheck",
   },
   {
     id: "4C.3",
@@ -993,6 +1072,7 @@ export const reforms: Reform[] = [
     title: "Youth Employment Programmes",
     description:
       "Targeted programmes addressing the youth unemployment crisis through work experience, apprenticeships, and entrepreneur support.",
+    articleSlug: "hd-3-3-from-classroom-to-paycheck",
   },
   {
     id: "4D.1",
@@ -1002,6 +1082,7 @@ export const reforms: Reform[] = [
     title: "Grant System Optimisation",
     description:
       "Ensure social grants effectively support human development outcomes rather than merely providing income transfers.",
+    articleSlug: "hd-4-2-south-africas-broken-cycle",
   },
   {
     id: "4D.2",
@@ -1011,6 +1092,7 @@ export const reforms: Reform[] = [
     title: "Nutrition Security",
     description:
       "Address food insecurity as a binding constraint on health and educational outcomes, particularly for children.",
+    articleSlug: "hd-4-2-south-africas-broken-cycle",
   },
 
   // ── Human Development: Phase 3 ──
@@ -1022,6 +1104,7 @@ export const reforms: Reform[] = [
     title: "Development Rights Awareness",
     description:
       "Expand citizen understanding of constitutional development rights and how to claim them through existing mechanisms.",
+    articleSlug: "hd-5-1-your-development-rights",
   },
   {
     id: "4E.2",
@@ -1031,6 +1114,7 @@ export const reforms: Reform[] = [
     title: "Community-Led Development",
     description:
       "Enable community-led development initiatives that complement institutional reforms.",
+    articleSlug: "hd-5-2-building-the-cycle",
   },
   {
     id: "4E.3",
@@ -1040,6 +1124,7 @@ export const reforms: Reform[] = [
     title: "Outcome Measurement",
     description:
       "Establish a Human Development Scorecard moving beyond GDP to measure health, education, and opportunity outcomes at district level.",
+    articleSlug: "hd-1-2-south-africas-report-card",
   },
 ];
 

@@ -390,6 +390,17 @@ const grouped = workstreams.map((ws) => {
                           </div>
                         )}
                       </div>
+                      {reform.articleSlug && (
+                        <a
+                          href={`/articles/${reform.articleSlug}`}
+                          class="inline-flex items-center gap-1 mt-3 text-xs font-heading font-semibold text-compass-green hover:text-compass-green-dark hover:underline transition-colors"
+                        >
+                          Read the full analysis
+                          <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                          </svg>
+                        </a>
+                      )}
                     </div>
                   </details>
                 ))}
