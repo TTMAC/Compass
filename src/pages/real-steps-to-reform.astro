@@ -392,15 +392,15 @@ const grouped = workstreams.map((ws) => {
         </div>
       ))}
 
-      {/* Scorecard for Safety & Security */}
-      {ws.id === "safety-security" && (
+      {/* Scorecard */}
+      {scorecardOutcomes[ws.id] && (
         <div class="mt-8">
           <h3 class="font-heading text-lg font-bold text-text-primary mb-2">
             Example Scorecard for Outcome Areas
           </h3>
-          <p class="text-sm text-text-secondary mb-4">13 outcomes to track quarterly:</p>
+          <p class="text-sm text-text-secondary mb-4">{scorecardOutcomes[ws.id].length} outcomes to track quarterly:</p>
           <ol class="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            {scorecardOutcomes.map((outcome, i) => (
+            {scorecardOutcomes[ws.id].map((outcome, i) => (
               <li class="flex items-start gap-2 text-sm text-text-secondary px-3 py-2 border border-gray-100 rounded">
                 <span class="font-heading text-xs font-bold shrink-0 mt-0.5 w-5 text-right" style={`color: ${ws.color}`}>
                   {i + 1}.
