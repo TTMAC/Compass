@@ -291,12 +291,7 @@ const grouped = workstreams.map((ws) => {
       <p class="text-text-secondary leading-relaxed mb-1 ml-7">
         {ws.vision}
       </p>
-      {ws.totalInvestment && (
-        <p class="font-heading text-sm font-semibold ml-7 mb-6" style={`color: ${ws.color}`}>
-          Total investment: {ws.totalInvestment}
-        </p>
-      )}
-      {!ws.totalInvestment && <div class="mb-6"></div>}
+      <div class="mb-6"></div>
 
       {/* Phases */}
       {ws.phases.map((phase) => (
@@ -312,11 +307,6 @@ const grouped = workstreams.map((ws) => {
             <span class="font-heading text-xs font-semibold px-2 py-0.5 rounded-full text-white" style={`background-color: ${ws.color}`}>
               {phase.years}
             </span>
-            {phase.investment && (
-              <span class="font-heading text-xs text-text-secondary">
-                {phase.investment}
-              </span>
-            )}
           </div>
           <p class="text-sm text-text-secondary mb-4 italic">
             Priority: {phase.priority}
@@ -349,11 +339,6 @@ const grouped = workstreams.map((ws) => {
                       <span class="font-heading text-sm font-semibold text-text-primary flex-1">
                         {reform.title}
                       </span>
-                      {reform.cost && (
-                        <span class="hidden sm:inline font-heading text-xs text-text-secondary shrink-0">
-                          {reform.cost}
-                        </span>
-                      )}
                       <svg
                         class="w-4 h-4 text-text-secondary shrink-0 transition-transform group-open:rotate-180"
                         fill="none"
@@ -374,12 +359,6 @@ const grouped = workstreams.map((ws) => {
                           <div>
                             <span class="font-heading font-semibold text-text-primary">Legislative: </span>
                             <span class="text-text-secondary">{reform.legislative}</span>
-                          </div>
-                        )}
-                        {reform.cost && (
-                          <div class="sm:hidden">
-                            <span class="font-heading font-semibold text-text-primary">Cost: </span>
-                            <span class="text-text-secondary">{reform.cost}</span>
                           </div>
                         )}
                         {reform.scope && (

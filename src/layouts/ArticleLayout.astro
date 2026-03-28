@@ -66,9 +66,8 @@ const jsonLd = {
   description: description,
   datePublished: publishDate.toISOString(),
   author: {
-    "@type": "Organization",
-    name: "GovCompass",
-    url: Astro.site?.origin || "https://govcompass.co.za",
+    "@type": "Person",
+    name: "Citizen X",
   },
   publisher: {
     "@type": "Organization",
@@ -127,6 +126,7 @@ const jsonLd = {
         </p>
 
         <div class="flex items-center gap-4 text-sm text-text-secondary font-heading">
+          <span>Citizen X</span>
           <time datetime={publishDate.toISOString()}>
             {formattedDate}
           </time>

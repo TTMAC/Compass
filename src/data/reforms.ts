@@ -16,7 +16,7 @@ export interface Reform {
   title: string;
   description: string;
   legislative?: string;
-  cost?: string;
+
   scope?: Scope[];
   articleSlug?: string;
 }
@@ -29,7 +29,7 @@ export interface Workstream {
   color: string;
   lightColor: string;
   phases: Phase[];
-  totalInvestment?: string;
+
 }
 
 export interface Phase {
@@ -37,7 +37,7 @@ export interface Phase {
   label: string;
   years: string;
   priority: string;
-  investment?: string;
+
 }
 
 export interface LegislativeItem {
@@ -100,7 +100,6 @@ export const workstreams: Workstream[] = [
         label: "Investigation & Prosecution Reform",
         years: "Years 1–3",
         priority: "Restore the investigative and prosecutorial foundations.",
-        investment: "R8bn – R12bn",
       },
       {
         id: "phase-2",
@@ -108,17 +107,14 @@ export const workstreams: Workstream[] = [
         years: "Years 3–5",
         priority:
           "Build the institutional architecture for community justice and restructured policing.",
-        investment: "R6bn – R10bn",
       },
       {
         id: "phase-3",
         label: "Full Structural Transformation",
         years: "Years 5–10",
         priority: "Nationwide rollout and system integration.",
-        investment: "R15bn – R25bn",
       },
     ],
-    totalInvestment: "R29bn – R47bn over 10 years",
   },
   {
     id: "reform-agenda",
@@ -228,7 +224,6 @@ export const reforms: Reform[] = [
     description:
       "Pilot Judicial Investigation Officers (JIOs) in 2–3 metropolitan areas. JIOs are magistrate-level officers with both investigative and preliminary judicial powers, directing SAPS detectives on serious and complex cases (Track C and Track D matters).",
     legislative: "New Investigating Magistracy Act; amendments to Criminal Procedure Act, 1977",
-    cost: "R500m – R800m",
     articleSlug: "ss-3-2-independent-investigating-magistracy",
   },
   {
@@ -239,7 +234,6 @@ export const reforms: Reform[] = [
     description:
       "Ring-fenced detective recruitment, specialised training programmes, forensic capacity restoration.",
     legislative: "Amendments to South African Police Service Act, 1995",
-    cost: "R3bn – R5bn",
     articleSlug: "ss-2-2-policing-a-divided-country",
   },
   {
@@ -250,7 +244,6 @@ export const reforms: Reform[] = [
     description:
       "Restore prosecutorial capacity through depoliticised appointment processes, adequate resourcing, and specialised prosecution units.",
     legislative: "Amendments to National Prosecuting Authority Act, 1998",
-    cost: "R2bn – R3bn",
     articleSlug: "ss-2-3-justice-delayed-rights-denied",
   },
   {
@@ -261,7 +254,6 @@ export const reforms: Reform[] = [
     description:
       "Replace SAPS's broken Crime Administration System (CAS) with a modern digital case management platform — the foundation for the full Integrated Criminal Justice Information System (ICJS).",
     legislative: "Regulatory/procurement",
-    cost: "R2bn – R4bn",
     articleSlug: "ss-4-1-sequencing-reform",
   },
   {
@@ -272,7 +264,6 @@ export const reforms: Reform[] = [
     description:
       "Classify every criminal matter within 72 hours of arrest into four tracks: Track A (summary/diversion, 90-day limit), Track B (standard criminal, 18-month limit), Track C (complex/serious, 24-month limit), Track D (national priority, 30-month limit).",
     legislative: "Amendments to Criminal Procedure Act, 1977",
-    cost: "Included in 1.4",
     articleSlug: "ss-2-1-the-broken-pipeline",
   },
   // ── Safety & Security: Phase 2 ──
@@ -284,7 +275,6 @@ export const reforms: Reform[] = [
     description:
       "Establish community courts under amended Magistrates' Courts Act. Presided over by Community Justice Officers (CJOs) — a new para-legal profession. Handle summary offences with sentences up to two years. Integrate restorative justice and traditional justice processes within Track A.",
     legislative: "Amendments to Magistrates' Courts Act, 1944",
-    cost: "R3bn – R5bn",
     articleSlug: "ss-3-3-community-courts-and-restorative-justice",
   },
   {
@@ -295,7 +285,6 @@ export const reforms: Reform[] = [
     description:
       "Establish a permanent, independent South African Sentencing Commission to develop presumptive sentencing bands, maintain a national sentencing database, and publish real-time analytics dashboards for judicial officers.",
     legislative: "New Sentencing Reform Act",
-    cost: "R200m – R400m",
     articleSlug: "ss-3-4-sentencing-commission-and-structured-guidelines",
   },
   {
@@ -306,7 +295,6 @@ export const reforms: Reform[] = [
     description:
       "Pilot the restructured policing architecture in 2–3 provinces. Tier 1 (National): Focused SAPS of 30,000–40,000 members covering serious/organised crime, counter-corruption, cybercrime, border security, and rapid response. Tier 2 (Provincial): Nine Provincial Police Services with operational independence and dedicated rural crime units. Tier 3 (Municipal): Metro police with full criminal investigation powers; community policing grids for smaller municipalities.",
     legislative: "Amendments to South African Police Service Act, 1995",
-    cost: "R3bn – R5bn",
     articleSlug: "ss-3-1-three-tier-policing-architecture",
   },
   {
@@ -317,7 +305,6 @@ export const reforms: Reform[] = [
     description:
       "Establish an independent Civilian Police Intelligence Oversight Council reporting to Parliament. Expand IPID with provincial offices.",
     legislative: "Amendments to IPID Act",
-    cost: "Included in 2.3",
     articleSlug: "ss-2-2-policing-a-divided-country",
   },
   {
@@ -329,7 +316,6 @@ export const reforms: Reform[] = [
       "Strengthen regulation of the private security industry to ensure alignment with constitutional policing standards.",
     legislative:
       "Amendments to Private Security Industry Regulation Act, 2001",
-    cost: "Regulatory cost",
     articleSlug: "ss-2-5-the-private-security-paradox",
   },
   // ── Safety & Security: Phase 3 ──
@@ -341,7 +327,6 @@ export const reforms: Reform[] = [
     description:
       "Roll out the three-tier policing model to all nine provinces based on Phase 2 pilot evidence.",
     legislative: "Phase 2 legislation applies",
-    cost: "R8bn – R15bn",
     articleSlug: "ss-3-1-three-tier-policing-architecture",
   },
   {
@@ -352,7 +337,6 @@ export const reforms: Reform[] = [
     description:
       "Transform the correctional system: mandate individual sentence plans for every inmate, establish minimum staffing ratios (1:6 staff-to-inmate), universal education and vocational training, evidence-based substance abuse treatment, mental health screening and services, and restructured parole boards. Transform Community Corrections from compliance monitoring to reintegration support.",
     legislative: "Amendments to Correctional Services Act, 1998",
-    cost: "R5bn – R8bn",
     articleSlug: "ss-3-5-rehabilitation-as-constitutional-mandate",
   },
   {
@@ -363,7 +347,6 @@ export const reforms: Reform[] = [
     description:
       "Implement the Sentencing Commission's first set of structured guidelines across all courts.",
     legislative: "Phase 2 Sentencing Reform Act applies",
-    cost: "Included in 3.2",
     articleSlug: "ss-3-4-sentencing-commission-and-structured-guidelines",
   },
   {
@@ -374,7 +357,6 @@ export const reforms: Reform[] = [
     description:
       "Expand the digital case management system into the full Integrated Criminal Justice Information System — unified tracking from report through investigation, prosecution, adjudication, sentencing, incarceration, rehabilitation, parole, and post-release monitoring. Includes virtual remand hearing technology, AI-assisted court scheduling, and unified digital docket management.",
     legislative: "Regulatory/procurement",
-    cost: "R2bn – R4bn",
     articleSlug: "ss-4-1-sequencing-reform",
   },
   {
@@ -385,7 +367,6 @@ export const reforms: Reform[] = [
     description:
       "Establish an independent Criminal Justice Statistics Authority (division within Stats SA or standalone entity) to publish quarterly scorecard data and raw datasets.",
     legislative: "New enabling legislation",
-    cost: "R100m – R200m",
     articleSlug: "ss-4-3-measuring-progress",
   },
 
