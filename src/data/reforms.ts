@@ -68,6 +68,7 @@ export interface CrossCuttingDigital {
 
 export interface StructuralPrinciple {
   title: string;
+  description: string;
   examples: string;
 }
 
@@ -1191,11 +1192,11 @@ export const digitalInfrastructure: CrossCuttingDigital[] = [
 ];
 
 export const structuralPrinciples: StructuralPrinciple[] = [
-  { title: "Separation of Regulator from Provider", examples: "Water (WSA/WSP), Electricity (municipality/IPP), Healthcare (regulator/facility), Policing (oversight/operational)" },
-  { title: "Revenue Ring-Fencing", examples: "Water revenue for water, electricity revenue for electricity, healthcare funding for healthcare" },
-  { title: "Consolidation of End-to-End Responsibility", examples: "Housing, education, healthcare, criminal justice pipeline" },
-  { title: "Automatic Enforcement Triggers", examples: "Provincial intervention thresholds, municipal service failure protocols, court case-flow time limits" },
-  { title: "Performance-Based Accountability", examples: "Scorecards, rankings, and consequences at every level" },
+  { title: "Separation of Regulator from Provider", description: "The entity that sets standards and monitors compliance must be independent from the entity that delivers the service. Combining both roles creates a conflict of interest where providers effectively regulate themselves.", examples: "Water (WSA/WSP), Electricity (municipality/IPP), Healthcare (regulator/facility), Policing (oversight/operational)" },
+  { title: "Revenue Ring-Fencing", description: "Revenue collected for a specific service must be spent on that service. When funds are pooled into general municipal budgets, essential infrastructure maintenance is raided to cover unrelated expenditure.", examples: "Water revenue for water, electricity revenue for electricity, healthcare funding for healthcare" },
+  { title: "Consolidation of End-to-End Responsibility", description: "A single entity must own the full delivery chain for a given outcome. When responsibility is fragmented across multiple departments or spheres of government, no one is accountable when the system fails.", examples: "Housing, education, healthcare, criminal justice pipeline" },
+  { title: "Automatic Enforcement Triggers", description: "Intervention mechanisms must activate automatically when defined thresholds are breached. Relying on political discretion to trigger intervention means failing institutions are left to deteriorate until crises force action.", examples: "Provincial intervention thresholds, municipal service failure protocols, court case-flow time limits" },
+  { title: "Performance-Based Accountability", description: "Every institution must be measured against clear, published performance standards with real consequences for sustained failure. Without transparent metrics and enforced accountability, underperformance becomes entrenched.", examples: "Scorecards, rankings, and consequences at every level" },
 ];
 
 // ── RAARICLE Framework ───────────────────────────────────────
