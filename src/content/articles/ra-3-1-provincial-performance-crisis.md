@@ -40,7 +40,12 @@ This consistency tells you something important: the problem is not function-spec
 
 To make this pattern visible, consider a diagnostic scorecard that rates all eight RAARICLE™ elements across the four largest provincial functions: education, health, human settlements, and provincial roads. The ratings draw on the detailed diagnoses in the preceding articles and on the evidence presented in this one.
 
-For education, the provincial scorecard reads: Responsibility 2, Accountability 2, Authority 2, Resources 3, Information 3, Capability 2, Legitimacy 4, Enforcement 1. For health: Responsibility 2, Accountability 2, Authority 2, Resources 3, Information 3, Capability 2, Legitimacy 3, Enforcement 1. For human settlements: Responsibility 1, Accountability 2, Authority 1, Resources 2, Information 1, Capability 2, Legitimacy 3, Enforcement 1. For provincial roads: Responsibility 3, Accountability 3, Authority 3, Resources 2, Information 2, Capability 2, Legitimacy 4, Enforcement 2.
+| Function | Responsibility | Accountability | Authority | Resources | Information | Capability | Legitimacy | Enforcement |
+|---|---|---|---|---|---|---|---|---|
+| Education | 2 | 2 | 2 | 3 | 3 | 2 | 4 | 1 |
+| Health | 2 | 2 | 2 | 3 | 3 | 2 | 3 | 1 |
+| Human Settlements | 1 | 2 | 1 | 2 | 1 | 2 | 3 | 1 |
+| Provincial Roads | 3 | 3 | 3 | 2 | 2 | 2 | 4 | 2 |
 
 The pattern is unmistakable. Authority, enforcement, and capability are weak across every function. Resources are constrained across every function. Information is inconsistent. Only legitimacy — the constitutional mandate — consistently scores at or above moderate. The provincial sphere has a clear right to govern. It lacks the structural conditions to govern effectively.
 
