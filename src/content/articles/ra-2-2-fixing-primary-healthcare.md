@@ -1,6 +1,6 @@
 ---
 title: "Fixing Primary Healthcare"
-subtitle: "A RAARICLE Diagnosis of South Africa's Health Governance — From NDoH Policy to Clinic Delivery"
+subtitle: "A RAARICLE™ Diagnosis of South Africa's Health Governance — From NDoH Policy to Clinic Delivery"
 pillar: "reform-agenda"
 part: 2
 articleNumber: "2.2"
@@ -11,7 +11,7 @@ tags:
   - "concurrent"
   - "NHI"
   - "reform"
-description: "A RAARICLE diagnosis of the NDoH-to-clinic delivery chain — why facility managers cannot procure essential medicines and how to rebuild health governance."
+description: "A RAARICLE™ diagnosis of the NDoH-to-clinic delivery chain — why facility managers cannot procure essential medicines and how to rebuild health governance."
 publishDate: 2028-10-15
 readingTime: 35
 status: "draft"
@@ -45,7 +45,7 @@ Move to the provincial level. Each of the nine provincial departments of health 
 
 Within each province, the district health system organises PHC delivery. South Africa has 52 health districts, each with a district health management team responsible for coordinating PHC services across clinics, community health centres, and ward-based outreach teams. The district is supposed to be the critical management unit — the level at which population health needs are assessed, resources are allocated across facilities, referral pathways are managed, and performance is monitored. In practice, district management capacity varies enormously. Some districts function as genuine management units with qualified managers, functional information systems, and meaningful operational authority. Others are administrative shells — understaffed, under-resourced, and unable to exercise meaningful oversight over the facilities in their jurisdiction.
 
-At the facility level, each clinic or community health centre has a facility manager — typically a professional nurse with additional management responsibilities. The facility manager is responsible for the day-to-day operations of the clinic: managing staff rosters, ensuring medicine availability, maintaining the physical facility, and delivering clinical services. The facility manager is the person closest to the patient. And yet, as the RAARICLE diagnosis will reveal, the facility manager controls almost none of the inputs that determine whether the patient receives adequate care.
+At the facility level, each clinic or community health centre has a facility manager — typically a professional nurse with additional management responsibilities. The facility manager is responsible for the day-to-day operations of the clinic: managing staff rosters, ensuring medicine availability, maintaining the physical facility, and delivering clinical services. The facility manager is the person closest to the patient. And yet, as the RAARICLE™ diagnosis will reveal, the facility manager controls almost none of the inputs that determine whether the patient receives adequate care.
 
 Finally, add the community health worker layer. Ward-based primary healthcare outreach teams — comprising community health workers supervised by a professional nurse — provide household-level health promotion, screening, referral, and adherence support. Community health workers are the frontline of the health system, particularly for chronic disease management, tuberculosis treatment adherence, and maternal and child health. But their employment arrangements are fragmented. In some provinces, community health workers are employed directly by the provincial department. In others, they are contracted through non-profit organisations, with different terms of employment, different training standards, and different levels of integration with the formal health system. The formalisation of community health worker employment has been a policy priority for over a decade, with uneven progress across provinces.
 
@@ -53,7 +53,7 @@ Finally, add the community health worker layer. Ward-based primary healthcare ou
 The PHC delivery chain involves at least six institutional layers: the national department (policy, essential medicines list, conditional grants), SAHPRA (medicine regulation), the provincial department (facility management, staffing, pharmaceutical depot), the district management team (coordination, oversight), the facility manager (clinical delivery), and community health workers (community outreach). Each layer introduces a handoff point where the chain can break. No single entity owns the journey from policy to patient.
 :::
 
-## RAARICLE Diagnosis
+## RAARICLE™ Diagnosis
 
 ### Responsibility — Rating: 2 (Severe Gap)
 
@@ -125,7 +125,7 @@ Section 27 of the Constitution establishes the right of access to healthcare ser
 
 But the NHI Bill, signed into law in May 2024, has introduced legitimacy tensions. The NHI proposes a fundamental restructuring of healthcare financing — creating a single-payer National Health Insurance Fund that would pool all public healthcare funding and purchase services from accredited providers. The NHI has been challenged in court by multiple parties, including medical aid schemes, healthcare practitioners' organisations, and opposition political parties. The legal challenges raise questions about the NHI's constitutional validity, its practical feasibility, and its implications for the existing provincial healthcare system.
 
-The legitimacy tension is not about whether South Africans deserve universal healthcare — that principle is broadly supported. It is about whether the institutional mechanism proposed by the NHI — a centralised national fund purchasing services from providers — is the right design. For the RAARICLE framework, the question is whether the NHI design co-locates the eight governance elements or further fragments them. If the NHI Fund becomes another entity in an already crowded value chain — setting purchasing conditions that provincial facilities must meet while those facilities continue to depend on provincial budgets, staffing, and supply chains — it may worsen the fragmentation rather than resolve it.
+The legitimacy tension is not about whether South Africans deserve universal healthcare — that principle is broadly supported. It is about whether the institutional mechanism proposed by the NHI — a centralised national fund purchasing services from providers — is the right design. For the RAARICLE™ framework, the question is whether the NHI design co-locates the eight governance elements or further fragments them. If the NHI Fund becomes another entity in an already crowded value chain — setting purchasing conditions that provincial facilities must meet while those facilities continue to depend on provincial budgets, staffing, and supply chains — it may worsen the fragmentation rather than resolve it.
 
 ### Enforcement — Rating: 1 (Critical Failure)
 
@@ -143,7 +143,7 @@ Healthcare enforcement scores a 1 — critical failure. The system can identify 
 
 ## The Root Cause
 
-The RAARICLE diagnosis reveals that primary healthcare governance suffers from two compounding failure patterns: **fragmentation** and **misalignment**.
+The RAARICLE™ diagnosis reveals that primary healthcare governance suffers from two compounding failure patterns: **fragmentation** and **misalignment**.
 
 Fragmentation is the primary pattern. The PHC delivery chain involves too many entities — NDoH, SAHPRA, provincial health departments, provincial pharmaceutical depots, district management teams, facility managers, community health workers employed through multiple contractual arrangements, NPOs, and now potentially the NHI Fund. No single entity owns the journey from policy to patient outcome. The medicine supply chain alone involves at least four entities (NDoH for the Essential Medicines List, SAHPRA for regulation, national or provincial procurement for contracting, and the provincial depot for distribution) before a medicine reaches the facility manager's shelf.
 
@@ -151,7 +151,7 @@ Misalignment compounds the fragmentation. The facility manager — the person cl
 
 The NHI, as currently designed, risks adding a new layer of fragmentation rather than resolving the existing layers. If the NHI Fund operates as a separate national entity that contracts with provincial facilities — setting its own accreditation standards, its own payment mechanisms, and its own reporting requirements — it adds another principal to an already complex multi-principal system. The facility manager would then answer to the district, the province, and the NHI Fund simultaneously, each with different performance expectations and different accountability channels. This is not co-location. It is further dispersion.
 
-The opportunity that NHI represents — consolidating healthcare funding into a single pool and using purchasing power to drive quality — is real. But the opportunity can only be realised if the NHI design addresses the fragmentation and misalignment that the RAARICLE diagnosis has identified. A new funding mechanism layered on top of a broken delivery chain will not fix the delivery chain. It will add complexity to dysfunction.
+The opportunity that NHI represents — consolidating healthcare funding into a single pool and using purchasing power to drive quality — is real. But the opportunity can only be realised if the NHI design addresses the fragmentation and misalignment that the RAARICLE™ diagnosis has identified. A new funding mechanism layered on top of a broken delivery chain will not fix the delivery chain. It will add complexity to dysfunction.
 
 ## The Reform Blueprint
 
@@ -187,13 +187,13 @@ Critically, the District PHC Authority would have delegated procurement authorit
 The World Health Organization's framework for primary healthcare system strengthening, published in its 2018 Astana Declaration implementation guidance, emphasises that effective PHC governance requires "decision-making authority at the level closest to the population served." The WHO's comparative analysis of PHC governance models across middle-income countries has found that systems that delegate meaningful operational authority to district-level management units — while maintaining national standard-setting and quality assurance — consistently outperform both fully centralised systems (where responsiveness to local health needs is slow) and fully fragmented systems (where quality standards are inconsistent). The district-based PHC authority model proposed here aligns with this evidence base, adapting the WHO's recommendations to South Africa's specific governance architecture.
 :::
 
-### NHI Through the RAARICLE Lens
+### NHI Through the RAARICLE™ Lens
 
 The NHI represents both a risk and an opportunity for PHC governance reform. The risk is that the NHI Fund becomes another entity in an already fragmented value chain — adding a layer of national purchasing bureaucracy on top of provincial delivery bureaucracy without co-locating authority with the point of care. The opportunity is that the NHI's funding consolidation could be the mechanism through which PHC funding is ring-fenced and allocated on a weighted capitation basis to District PHC Authorities.
 
-The RAARICLE-aligned approach to NHI integration is straightforward. The NHI Fund should contract with District PHC Authorities, not with individual facilities. The contract should specify outcome indicators (health outcomes, not process compliance), and payment should be linked to performance on those indicators. The District PHC Authority uses the NHI contract funding — combined with the ring-fenced PHC allocation from the provincial equitable share — to manage all PHC services within its jurisdiction. This design gives the NHI Fund what it needs (a contracting counterpart with defined accountability for population health outcomes) while giving the district what it needs (consolidated funding with operational authority to deploy it).
+The RAARICLE™-aligned approach to NHI integration is straightforward. The NHI Fund should contract with District PHC Authorities, not with individual facilities. The contract should specify outcome indicators (health outcomes, not process compliance), and payment should be linked to performance on those indicators. The District PHC Authority uses the NHI contract funding — combined with the ring-fenced PHC allocation from the provincial equitable share — to manage all PHC services within its jurisdiction. This design gives the NHI Fund what it needs (a contracting counterpart with defined accountability for population health outcomes) while giving the district what it needs (consolidated funding with operational authority to deploy it).
 
-What the NHI should not do, from a RAARICLE perspective, is create a parallel accountability system that adds reporting requirements without adding operational authority. If the NHI Fund imposes accreditation conditions, performance reporting requirements, and payment conditions on individual facilities — while those facilities continue to depend on provincial systems for staffing, medicines, and infrastructure — it will deepen the misalignment rather than resolve it. The facility manager would then face accountability to the district, the province, and the NHI Fund simultaneously, with each principal imposing different requirements and none providing the authority needed to meet them.
+What the NHI should not do, from a RAARICLE™ perspective, is create a parallel accountability system that adds reporting requirements without adding operational authority. If the NHI Fund imposes accreditation conditions, performance reporting requirements, and payment conditions on individual facilities — while those facilities continue to depend on provincial systems for staffing, medicines, and infrastructure — it will deepen the misalignment rather than resolve it. The facility manager would then face accountability to the district, the province, and the NHI Fund simultaneously, with each principal imposing different requirements and none providing the authority needed to meet them.
 
 ### Anti-Capture Protections
 

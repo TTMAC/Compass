@@ -35,11 +35,11 @@ seo:
 
 Schedule 4 of the Constitution lists the functions that are shared between national and provincial government. Education, health services, housing, public transport, agriculture, environment, disaster management, and more than a dozen other functions are classified as concurrent competences — meaning that both national and provincial government have legislative authority over them. The intention behind concurrency, as articulated during the constitutional negotiations of the early 1990s, was elegant: national government would set minimum standards, provide the policy framework, and ensure equity across provinces; provincial government would adapt that framework to local conditions, deliver the services, and be held accountable by provincial voters for the results.
 
-In practice, concurrency has produced something very different from this intention. As the RAARICLE diagnoses of [education](/articles/ra-2-1-fixing-basic-education), [healthcare](/articles/ra-2-2-fixing-primary-healthcare), and [human settlements](/articles/ra-2-3-fixing-human-settlements) have demonstrated, "sharing" a function between two spheres of government does not mean each sphere handles its part effectively. It means that authority is split, accountability is diffused, resources flow through competing channels, and enforcement falls into the gap between the spheres. The concurrent function model, as implemented in South Africa, is the structural mechanism that produces the misalignment pattern identified in [Why South Africa's Institutions Keep Failing](/articles/ra-1-2-why-institutions-fail).
+In practice, concurrency has produced something very different from this intention. As the RAARICLE™ diagnoses of [education](/articles/ra-2-1-fixing-basic-education), [healthcare](/articles/ra-2-2-fixing-primary-healthcare), and [human settlements](/articles/ra-2-3-fixing-human-settlements) have demonstrated, "sharing" a function between two spheres of government does not mean each sphere handles its part effectively. It means that authority is split, accountability is diffused, resources flow through competing channels, and enforcement falls into the gap between the spheres. The concurrent function model, as implemented in South Africa, is the structural mechanism that produces the misalignment pattern identified in [Why South Africa's Institutions Keep Failing](/articles/ra-1-2-why-institutions-fail).
 
 The problem is not unique to South Africa. Every federal and quasi-federal system that shares functions between levels of government faces a version of the concurrency challenge. But South Africa's version is particularly severe because of three compounding factors. First, the fiscal architecture concentrates revenue collection at the national level and distributes it downward through transfers, leaving provinces almost entirely dependent on national funding. Second, the national government has used its legislative power to establish detailed frameworks — for employment, procurement, financial management, and service delivery standards — that constrain provincial operational autonomy far beyond what the Constitution requires. Third, the enforcement architecture is discretionary rather than automatic, meaning there are no binding consequences when the concurrent arrangement produces failure.
 
-This article examines three alternative models for structuring concurrent functions, tests each against the full RAARICLE framework, and proposes a design that resolves the authority-accountability split without requiring constitutional amendment.
+This article examines three alternative models for structuring concurrent functions, tests each against the full RAARICLE™ framework, and proposes a design that resolves the authority-accountability split without requiring constitutional amendment.
 
 :::takeaway
 Concurrency was designed to combine national standard-setting with provincial flexibility. In practice, it produces the worst of both worlds: national government controls the critical inputs but is not accountable for delivery; provincial government delivers the services but does not control the inputs that determine success or failure. The result is a system where accountability is assigned but authority is withheld — the structural definition of governance failure.
@@ -47,7 +47,7 @@ Concurrency was designed to combine national standard-setting with provincial fl
 
 ## Three Models for Concurrent Functions
 
-There are fundamentally three ways to structure a function that involves both national and provincial government. Each has been tried in various countries, and each produces a different distribution of the eight RAARICLE elements.
+There are fundamentally three ways to structure a function that involves both national and provincial government. Each has been tried in various countries, and each produces a different distribution of the eight RAARICLE™ elements.
 
 ### Model A: National Policy, Provincial Delivery (Status Quo)
 
@@ -55,15 +55,15 @@ This is South Africa's current approach for most concurrent functions. National 
 
 The advantage of Model A is that it preserves national standards and equity. Every province teaches the same curriculum. Every public hospital follows the same essential medicines list. Every subsidised house must meet the same minimum specifications. National standards prevent a race to the bottom where poorly governed provinces reduce service quality to save costs.
 
-The disadvantage — demonstrated exhaustively in the RAARICLE diagnoses — is that it separates authority from accountability. The entity delivering the service cannot control the inputs that determine whether delivery succeeds. The provincial MEC for Education is accountable for matric results but cannot set teacher salary levels, determine employment conditions, or adjust the curriculum. The provincial health HOD is accountable for clinical outcomes but cannot give facility managers procurement authority over essential medicines. Model A is a recipe for accountability theatre.
+The disadvantage — demonstrated exhaustively in the RAARICLE™ diagnoses — is that it separates authority from accountability. The entity delivering the service cannot control the inputs that determine whether delivery succeeds. The provincial MEC for Education is accountable for matric results but cannot set teacher salary levels, determine employment conditions, or adjust the curriculum. The provincial health HOD is accountable for clinical outcomes but cannot give facility managers procurement authority over essential medicines. Model A is a recipe for accountability theatre.
 
 ### Model B: Full Devolution
 
 Under full devolution, provinces would receive complete authority over concurrent functions — including the power to set their own employment conditions, negotiate their own collective bargaining agreements, adapt national standards to local conditions, and manage their own funding without conditional grant restrictions. The national department would shrink to a coordination and monitoring body with no operational role.
 
-The advantage of Model B is maximum co-location. The province would hold all eight RAARICLE elements in a single institutional chain. The MEC who is accountable for education would also control teacher employment, salary scales, curriculum adaptation, infrastructure, and procurement. The 30-day authority test would be passed comprehensively.
+The advantage of Model B is maximum co-location. The province would hold all eight RAARICLE™ elements in a single institutional chain. The MEC who is accountable for education would also control teacher employment, salary scales, curriculum adaptation, infrastructure, and procurement. The 30-day authority test would be passed comprehensively.
 
-The disadvantage is twofold. First, it would deepen inequality between provinces. Gauteng and the Western Cape — with stronger fiscal capacity, more concentrated populations, and deeper capability bases — would likely improve their performance. The Eastern Cape, Limpopo, and the North West — with weaker capacity, dispersed populations, and capability gaps — would likely deteriorate further. Full devolution assumes that all provinces have the capability to exercise expanded authority effectively. The RAARICLE diagnosis in [The Provincial Performance Crisis](/articles/ra-3-1-provincial-performance-crisis) demonstrates that this assumption is false for at least four provinces.
+The disadvantage is twofold. First, it would deepen inequality between provinces. Gauteng and the Western Cape — with stronger fiscal capacity, more concentrated populations, and deeper capability bases — would likely improve their performance. The Eastern Cape, Limpopo, and the North West — with weaker capacity, dispersed populations, and capability gaps — would likely deteriorate further. Full devolution assumes that all provinces have the capability to exercise expanded authority effectively. The RAARICLE™ diagnosis in [The Provincial Performance Crisis](/articles/ra-3-1-provincial-performance-crisis) demonstrates that this assumption is false for at least four provinces.
 
 Second, full devolution creates fragmentation at the national level. Nine different salary scales for teachers would undermine labour mobility between provinces. Nine different curriculum variants would create qualification portability problems. Nine different health service models would produce inconsistent quality standards. The national coherence that the concurrent model is designed to protect would be lost.
 
@@ -76,12 +76,12 @@ The advantage of Model C is that it achieves full co-location within a single in
 The disadvantage is democratic accountability. If education, health, and housing are all delivered by national agencies rather than provincial departments, what is the role of the provincial government? Provincial voters would no longer hold their provincial executive accountable for the services that matter most to them. Provincial legislatures would lose their oversight function over the largest spending items in the provincial budget. The provincial sphere would be hollowed out, reduced to functions that are either exclusive provincial competences (libraries, ambulance services, provincial roads) or residual administrative roles.
 
 :::expert
-Comparative research on intergovernmental service delivery models, including studies by the Forum of Federations and the Organisation for Economic Co-operation and Development, has found that no single model dominates. Germany's Bundesländer have near-complete authority over education policy, including curriculum design, teacher employment, and school management — the closest international example of Model B. This produces high quality in most Länder but also significant inter-state variation and periodic calls for greater national coordination. Australia's states manage health and education with significant operational autonomy but within national funding frameworks that include performance-based elements — a position between Models A and B. India's concurrent list (comparable to South Africa's Schedule 4) produces many of the same misalignment problems that South Africa experiences, with central government setting policy and states implementing it with insufficient authority and resources. The research consistently concludes that the critical design variable is not the degree of centralisation but the alignment of authority with accountability — the RAARICLE principle.
+Comparative research on intergovernmental service delivery models, including studies by the Forum of Federations and the Organisation for Economic Co-operation and Development, has found that no single model dominates. Germany's Bundesländer have near-complete authority over education policy, including curriculum design, teacher employment, and school management — the closest international example of Model B. This produces high quality in most Länder but also significant inter-state variation and periodic calls for greater national coordination. Australia's states manage health and education with significant operational autonomy but within national funding frameworks that include performance-based elements — a position between Models A and B. India's concurrent list (comparable to South Africa's Schedule 4) produces many of the same misalignment problems that South Africa experiences, with central government setting policy and states implementing it with insufficient authority and resources. The research consistently concludes that the critical design variable is not the degree of centralisation but the alignment of authority with accountability — the RAARICLE™ principle.
 :::
 
-## The RAARICLE Test for Each Model
+## The RAARICLE™ Test for Each Model
 
-Testing each model against all eight RAARICLE elements reveals their relative strengths and weaknesses with precision.
+Testing each model against all eight RAARICLE™ elements reveals their relative strengths and weaknesses with precision.
 
 On responsibility, Model A scores 2 — responsibility is fragmented between national (standards) and provincial (delivery). Model B scores 4 — the province owns the function end-to-end, though some national coordination role remains. Model C scores 5 — one agency owns the function from policy to delivery.
 
@@ -112,7 +112,7 @@ Under Model B (full devolution), the same MEC would have the authority to adjust
 Under Model C (national agency), the provincial education director (reporting to the national agency) could redeploy teachers from overstaffed schools to understaffed ones using the agency's national staffing framework. The director could activate a rapid procurement pathway using the agency's pre-approved supplier panel. The director could place the district under a mandatory improvement programme using the agency's performance management system. The 30-day test would be passed because the director operates within a single institutional chain where all the necessary authorities are pre-delegated.
 
 :::takeaway
-The 30-day authority test is the sharpest diagnostic tool in the RAARICLE framework. It converts abstract questions about institutional design into concrete operational scenarios. Under the current concurrent function model, provincial leaders routinely fail this test because the critical levers of operational control sit in a different sphere. Any reform that does not enable the delivery entity to act decisively within operationally meaningful timeframes will reproduce the same failure pattern.
+The 30-day authority test is the sharpest diagnostic tool in the RAARICLE™ framework. It converts abstract questions about institutional design into concrete operational scenarios. Under the current concurrent function model, provincial leaders routinely fail this test because the critical levers of operational control sit in a different sphere. Any reform that does not enable the delivery entity to act decisively within operationally meaningful timeframes will reproduce the same failure pattern.
 :::
 
 ## International Comparisons
@@ -135,7 +135,7 @@ The international evidence converges on a clear principle: the most effective co
 
 ## The Reform Blueprint
 
-The RAARICLE analysis and international comparisons point to a model that is neither the pure status quo (Model A) nor full devolution (Model B) nor full centralisation (Model C), but a structured hybrid that takes the strongest elements of each.
+The RAARICLE™ analysis and international comparisons point to a model that is neither the pure status quo (Model A) nor full devolution (Model B) nor full centralisation (Model C), but a structured hybrid that takes the strongest elements of each.
 
 The proposed model — which this series has termed **structured autonomy** — was introduced in the education reform blueprint and applied in the healthcare reform blueprint. This article presents it as a generalised design principle for all concurrent functions.
 
@@ -180,11 +180,11 @@ Information capture is addressed through mandatory real-time data reporting to a
 :::framework
 **The Concurrent Function Design Test**
 
-Use this framework to evaluate any proposal to restructure a concurrent function — whether it comes from government, a political party, or civil society — by testing whether the proposed design co-locates the eight RAARICLE elements or merely rearranges the same fragmentation.
+Use this framework to evaluate any proposal to restructure a concurrent function — whether it comes from government, a political party, or civil society — by testing whether the proposed design co-locates the eight RAARICLE™ elements or merely rearranges the same fragmentation.
 
 **Step 1: Identify the concurrent function and its current design.**
 
-Name the Schedule 4 function (education, health, housing, environment, public transport, etc.) and describe its current institutional architecture. Which entity sets the policy? Which entity delivers the service? Which entity controls the budget? Which entity employs the staff? Which entity enforces compliance? Map the current distribution of all eight RAARICLE elements across spheres.
+Name the Schedule 4 function (education, health, housing, environment, public transport, etc.) and describe its current institutional architecture. Which entity sets the policy? Which entity delivers the service? Which entity controls the budget? Which entity employs the staff? Which entity enforces compliance? Map the current distribution of all eight RAARICLE™ elements across spheres.
 
 **Step 2: Apply the 30-day authority test to the current design.**
 
@@ -229,7 +229,7 @@ The structured autonomy reform is constitutionally feasible. It requires legisla
 
 ## The Recommended Approach: A Legislative Reform Package for Concurrent Functions
 
-The analysis above — the RAARICLE scoring, the 30-day authority test, the international comparisons, and the anti-capture framework — converges on a single conclusion: the concurrent function problem can be resolved without touching the Constitution. What follows is a concrete, sequenced reform package that uses only legislative amendments, regulatory changes, and intergovernmental agreements to implement structured autonomy across all Schedule 4 functions.
+The analysis above — the RAARICLE™ scoring, the 30-day authority test, the international comparisons, and the anti-capture framework — converges on a single conclusion: the concurrent function problem can be resolved without touching the Constitution. What follows is a concrete, sequenced reform package that uses only legislative amendments, regulatory changes, and intergovernmental agreements to implement structured autonomy across all Schedule 4 functions.
 
 ### Reform 1: The Concurrent Functions Framework Act
 

@@ -1,6 +1,6 @@
 ---
 title: "Building Municipal Capability"
-subtitle: "A Cross-Cutting RAARICLE Diagnosis of the Capability and Information Gaps That Undermine Every Municipal Function"
+subtitle: "A Cross-Cutting RAARICLE™ Diagnosis of the Capability and Information Gaps That Undermine Every Municipal Function"
 pillar: "reform-agenda"
 part: 4
 articleNumber: "4.4"
@@ -10,7 +10,7 @@ tags:
   - "capacity"
   - "information"
   - "reform"
-description: "A cross-cutting RAARICLE diagnosis of the capability and information gaps that undermine all municipal functions — and a structural fix for both elements."
+description: "A cross-cutting RAARICLE™ diagnosis of the capability and information gaps that undermine all municipal functions — and a structural fix for both elements."
 publishDate: 2029-02-15
 readingTime: 30
 status: "draft"
@@ -33,7 +33,7 @@ seo:
 
 ## The Capability Crisis in Numbers
 
-The previous three articles in Part 4 diagnosed [water](/articles/ra-4-1-fixing-water-and-sanitation), [electricity](/articles/ra-4-2-fixing-electricity), and [waste and roads](/articles/ra-4-3-fixing-waste-and-roads) as individual functions. Each produced a function-specific diagnosis with function-specific reform blueprints. But look at the RAARICLE scorecards side by side and two elements appear in the critical failure zone across every function: capability and information. Water's capability scores 1. Electricity's scores 2. Waste and roads both score 2. Information scores 2 to 3 across all four. These are not function-specific failures. They are the cross-cutting structural conditions that make every function fail.
+The previous three articles in Part 4 diagnosed [water](/articles/ra-4-1-fixing-water-and-sanitation), [electricity](/articles/ra-4-2-fixing-electricity), and [waste and roads](/articles/ra-4-3-fixing-waste-and-roads) as individual functions. Each produced a function-specific diagnosis with function-specific reform blueprints. But look at the RAARICLE™ scorecards side by side and two elements appear in the critical failure zone across every function: capability and information. Water's capability scores 1. Electricity's scores 2. Waste and roads both score 2. Information scores 2 to 3 across all four. These are not function-specific failures. They are the cross-cutting structural conditions that make every function fail.
 
 This article steps back from individual functions to diagnose these two elements directly. The question is not "why does the water department lack a qualified process controller?" or "why does the roads department lack an engineer?" The question is: why does the municipal institutional architecture systematically fail to attract, deploy, and retain qualified professionals — and why do municipal information systems consistently fail to provide the data that oversight bodies need?
 
@@ -87,7 +87,7 @@ The information black hole has two dimensions. First, municipalities lack the op
 
 ## The Five Capture Vectors at Municipal Level
 
-The RAARICLE framework's anti-capture architecture identifies five vectors through which institutional capture occurs. At the municipal level, all five vectors are active — and the capability and information deficits make municipalities structurally vulnerable to each.
+The RAARICLE™ framework's anti-capture architecture identifies five vectors through which institutional capture occurs. At the municipal level, all five vectors are active — and the capability and information deficits make municipalities structurally vulnerable to each.
 
 ### Political Capture
 

@@ -271,7 +271,7 @@ function cmdPrompt(slug) {
 - Cross-reference other articles using markdown links: [Title](/articles/slug)
 - Include 2-3 expert blocks using the :::expert callout directive
 - Include 2-3 takeaway blocks using the :::takeaway callout directive
-- RAARICLE severity ratings must use the 1-5 scale (1=critical failure, 5=well-aligned)
+- RAARICLE™ severity ratings must use the 1-5 scale (1=critical failure, 5=well-aligned)
 - Every reform proposal must pass the 30-day authority test
 - Every reform blueprint must address all five anti-capture vectors
 - Do NOT fabricate expert names, publications, or institutional affiliations
@@ -295,7 +295,7 @@ ${prompt}
 ## Knowledge Base
 
 Reference file: docs/RAARICLE_ANALYSIS_INSTRUCTIONS.md
-(Read this file for the RAARICLE framework definition, severity ratings, analysis methodology, function-specific guidance, and evidence sources.)
+(Read this file for the RAARICLE™ framework definition, severity ratings, analysis methodology, function-specific guidance, and evidence sources.)
 `;
 
   console.log(output);

@@ -122,7 +122,7 @@ export const workstreams: Workstream[] = [
     title: "Reform Agenda (Institutional Governance)",
     shortTitle: "Institutional Reforms",
     vision:
-      "Fix the structural governance failures that cause service delivery collapse — using the RAARICLE diagnostic framework to identify and resolve five failure patterns: Fragmentation, Misalignment, Absence, Conflation, and Inversion.",
+      "Fix the structural governance failures that cause service delivery collapse — using the RAARICLE™ diagnostic framework to identify and resolve five failure patterns: Fragmentation, Misalignment, Absence, Conflation, and Inversion.",
     color: "#8B2232",
     lightColor: "#F0DEE2",
     phases: [
@@ -1143,7 +1143,7 @@ export const milestones: Milestone[] = [
     items: [
       { text: "Case-flow triage system design and pilot", workstream: "safety-security" },
       { text: "MSME ecosystem integration audit", workstream: "economic-growth" },
-      { text: "RAARICLE diagnostic assessments across concurrent functions", workstream: "reform-agenda" },
+      { text: "RAARICLE™ diagnostic assessments across concurrent functions", workstream: "reform-agenda" },
       { text: "Revenue ring-fencing legislation drafted", workstream: "reform-agenda" },
       { text: "Teacher development programme launch", workstream: "human-development" },
       { text: "District-level human development baseline", workstream: "human-development" },
@@ -1199,7 +1199,7 @@ export const structuralPrinciples: StructuralPrinciple[] = [
   { title: "Performance-Based Accountability", description: "Every institution must be measured against clear, published performance standards with real consequences for sustained failure. Without transparent metrics and enforced accountability, underperformance becomes entrenched.", examples: "Scorecards, rankings, and consequences at every level" },
 ];
 
-// ── RAARICLE Framework ───────────────────────────────────────
+// ── RAARICLE™ Framework ───────────────────────────────────────
 
 export const raaricleElements: RaaricleElement[] = [
   { letter: "R", name: "Responsibility", question: "Is there a single, identifiable entity responsible for the outcome?" },
@@ -1215,7 +1215,7 @@ export const raaricleElements: RaaricleElement[] = [
 export const failurePatterns: FailurePattern[] = [
   { name: "Fragmentation", description: "Responsibility scattered across multiple entities (housing, education, healthcare)", articleSlug: "ra-1-2-why-institutions-fail" },
   { name: "Misalignment", description: "Wrong entity holds the wrong governance element (education authority at wrong level)", articleSlug: "ra-2-1-fixing-basic-education" },
-  { name: "Absence", description: "Critical RAARICLE element does not exist (no enforcement triggers)", articleSlug: "ra-3-3-when-provinces-fail" },
+  { name: "Absence", description: "Critical RAARICLE™ element does not exist (no enforcement triggers)", articleSlug: "ra-3-3-when-provinces-fail" },
   { name: "Conflation", description: "Incompatible functions combined in same entity (WSA = WSP, regulator = provider)", articleSlug: "ra-4-1-fixing-water-and-sanitation" },
   { name: "Inversion", description: "Wrong entity makes the decision (national deciding provincial operational matters)", articleSlug: "ra-3-2-making-concurrent-functions-work" },
 ];

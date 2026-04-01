@@ -1,6 +1,6 @@
 ---
 title: "Fixing Basic Education"
-subtitle: "A RAARICLE Diagnosis of South Africa's Education Governance — and a Blueprint for Co-Locating Authority with Accountability"
+subtitle: "A RAARICLE™ Diagnosis of South Africa's Education Governance — and a Blueprint for Co-Locating Authority with Accountability"
 pillar: "reform-agenda"
 part: 2
 articleNumber: "2.1"
@@ -10,7 +10,7 @@ tags:
   - "provincial"
   - "concurrent"
   - "reform"
-description: "A RAARICLE diagnosis of the DBE-to-school delivery chain — why provincial MECs are accountable for education results they cannot control and how to fix it."
+description: "A RAARICLE™ diagnosis of the DBE-to-school delivery chain — why provincial MECs are accountable for education results they cannot control and how to fix it."
 publishDate: 2028-10-01
 readingTime: 35
 status: "draft"
@@ -60,7 +60,7 @@ Count the entities: DBE, nine provincial education departments, 75 district offi
 The education value chain involves at least seven distinct institutional actors across two spheres of government. No single entity owns the chain from curriculum design to learning outcomes. This fragmentation is not accidental — it is the predictable consequence of listing education as a concurrent function in Schedule 4 of the Constitution without designing binding coordination mechanisms to make the concurrency work.
 :::
 
-## RAARICLE Diagnosis
+## RAARICLE™ Diagnosis
 
 ### Responsibility — Rating: 2 (Severe Gap)
 
@@ -88,7 +88,7 @@ The 30-day authority test reveals the depth of the problem. Take a concrete scen
 
 The MEC cannot offer higher salaries to attract qualified teachers — salary scales are determined nationally through the ELRC. The MEC cannot recruit teachers outside of the post provisioning model — teacher allocation follows national norms. The MEC cannot change the incentive structures for rural or difficult schools — those structures are determined by national policy. The MEC cannot procure additional textbooks or learning materials outside the provincial procurement process — which typically takes months. The MEC cannot restructure the district office to improve support — organisational design changes require consultation processes that extend over months or years. The MEC cannot dismiss a district director who has failed to support schools effectively — the disciplinary process, governed by the Public Service Act and collective agreements, is lengthy and procedurally complex.
 
-What can the MEC do within 30 days? The MEC can issue a directive. The MEC can convene a meeting. The MEC can announce a plan. But the MEC cannot execute a material operational change within 30 days using only provincial authority. This is the authority deficit that the RAARICLE framework identifies as the most critical structural flaw in South African governance — and in education, it is severe.
+What can the MEC do within 30 days? The MEC can issue a directive. The MEC can convene a meeting. The MEC can announce a plan. But the MEC cannot execute a material operational change within 30 days using only provincial authority. This is the authority deficit that the RAARICLE™ framework identifies as the most critical structural flaw in South African governance — and in education, it is severe.
 
 ### Resources — Rating: 3 (Moderate Tension)
 
@@ -144,7 +144,7 @@ Education governance scores a 1 on enforcement — critical failure. The system 
 
 ## The Root Cause
 
-The RAARICLE diagnosis reveals education's primary failure pattern: **cross-sphere misalignment**. The pattern identified in [Why South Africa's Institutions Keep Failing](/articles/ra-1-2-why-institutions-fail) as Pattern 2 — the wrong entity holds the wrong element — is the dominant structural flaw in basic education governance.
+The RAARICLE™ diagnosis reveals education's primary failure pattern: **cross-sphere misalignment**. The pattern identified in [Why South Africa's Institutions Keep Failing](/articles/ra-1-2-why-institutions-fail) as Pattern 2 — the wrong entity holds the wrong element — is the dominant structural flaw in basic education governance.
 
 Authority sits primarily at the national level. DBE controls the curriculum. The ELRC controls salary bargaining. The Employment of Educators Act sets employment conditions. National Treasury controls the conditional grant framework. These are not peripheral inputs — they are the critical levers that determine whether education succeeds or fails.
 
@@ -158,7 +158,7 @@ The misalignment is compounded by fragmentation (too many entities in the value 
 
 ## The Reform Blueprint
 
-The diagnosis points to a clear structural prescription: authority must be co-located with accountability. The entity that is accountable for educational outcomes must control the inputs that determine those outcomes. There are three possible approaches, and each must be evaluated against all eight RAARICLE tests.
+The diagnosis points to a clear structural prescription: authority must be co-located with accountability. The entity that is accountable for educational outcomes must control the inputs that determine those outcomes. There are three possible approaches, and each must be evaluated against all eight RAARICLE™ tests.
 
 ### Option A: Full Devolution
 
@@ -201,7 +201,7 @@ The critical innovation is in enforcement. The structured autonomy model introdu
 **Enforcement:** Automatic triggers replace discretionary interventions. A province whose literacy assessment results fall below a defined threshold for two consecutive cycles receives mandatory support. A province whose education infrastructure spend falls below 80 per cent of allocation for two consecutive years has its infrastructure programme placed under joint management with the national Education Support Unit. A provincial MEC whose province fails to meet minimum outcome targets for a full term has the failure formally reported to the provincial legislature with a mandatory accountability hearing.
 
 :::expert
-Research conducted by the Organisation for Economic Co-operation and Development on education governance in decentralised systems has consistently found that the most effective models combine national standard-setting with subnational operational autonomy — precisely the structured autonomy approach. The OECD's 2023 review of education decentralisation found that countries where subnational authorities control teacher deployment, infrastructure management, and operational budgets — within a framework of nationally defined standards and nationally monitored outcomes — outperform both fully centralised systems (where responsiveness to local conditions is weak) and fully devolved systems (where national coherence is lost). The key design feature, the OECD found, is not the degree of centralisation but the alignment of authority with accountability — the principle that the RAARICLE framework identifies as the fundamental requirement for institutional effectiveness.
+Research conducted by the Organisation for Economic Co-operation and Development on education governance in decentralised systems has consistently found that the most effective models combine national standard-setting with subnational operational autonomy — precisely the structured autonomy approach. The OECD's 2023 review of education decentralisation found that countries where subnational authorities control teacher deployment, infrastructure management, and operational budgets — within a framework of nationally defined standards and nationally monitored outcomes — outperform both fully centralised systems (where responsiveness to local conditions is weak) and fully devolved systems (where national coherence is lost). The key design feature, the OECD found, is not the degree of centralisation but the alignment of authority with accountability — the principle that the RAARICLE™ framework identifies as the fundamental requirement for institutional effectiveness.
 :::
 
 ### Anti-Capture Protections
@@ -278,7 +278,7 @@ Based on pilot evaluation results, the framework is rolled out to all nine provi
 The structured autonomy reform is constitutionally feasible — it requires legislative amendment, not constitutional change. The key legislative targets are the Employment of Educators Act, the ELRC mandate, the Division of Revenue framework, and new legislation establishing the Education Support Unit and automatic enforcement triggers. A three-phase approach — legal foundation, pilot, national rollout — allows for rigorous testing before system-wide implementation.
 :::
 
-The reform outlined in this article is ambitious but structurally necessary. South Africa cannot continue to operate an education system where the entity accountable for results does not control the inputs that determine results. The RAARICLE diagnosis makes the structural flaw precise, and the reform blueprint makes the structural fix specific. What remains is the political will to implement it — and that is a question not of institutional design but of democratic pressure from citizens who understand, as you now do, exactly what is broken and exactly what would fix it.
+The reform outlined in this article is ambitious but structurally necessary. South Africa cannot continue to operate an education system where the entity accountable for results does not control the inputs that determine results. The RAARICLE™ diagnosis makes the structural flaw precise, and the reform blueprint makes the structural fix specific. What remains is the political will to implement it — and that is a question not of institutional design but of democratic pressure from citizens who understand, as you now do, exactly what is broken and exactly what would fix it.
 
 ## Resources
 

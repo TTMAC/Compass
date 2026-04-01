@@ -187,7 +187,7 @@ export const pillars: PillarConfig[] = [
     title: "Reform Agenda",
     shortTitle: "Reform",
     description:
-      "How to fix what's broken — applying the RAARICLE governance framework to diagnose failures and design structural reforms across all three spheres.",
+      "How to fix what's broken — applying the RAARICLE™ governance framework to diagnose failures and design structural reforms across all three spheres.",
     color: "#8B2232",
     lightColor: "#F0DEE2",
     filterDimension: "tags",

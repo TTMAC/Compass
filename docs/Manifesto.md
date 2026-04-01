@@ -102,7 +102,7 @@ Transform South Africa's criminal justice system from a broken pipeline that hae
 ## Workstream 2: Reform Agenda
 
 ### Vision
-Fix the structural governance failures that cause service delivery collapse — using the RAARICLE diagnostic framework (Responsibility, Accountability, Authority, Resources, Information, Capability, Legitimacy, Enforcement) to identify and resolve five failure patterns: Fragmentation, Misalignment, Absence, Conflation, and Inversion.
+Fix the structural governance failures that cause service delivery collapse — using the RAARICLE™ diagnostic framework (Responsibility, Accountability, Authority, Resources, Information, Capability, Legitimacy, Enforcement) to identify and resolve five failure patterns: Fragmentation, Misalignment, Absence, Conflation, and Inversion.
 
 ### Phase 1: Concurrent Function Clarity and Provincial Reform (Years 1-3)
 
@@ -191,7 +191,7 @@ Fix the structural governance failures that cause service delivery collapse — 
 
 ### Suggested Sequencing for Reform Agenda
 
-**Year 1:** Diagnostic assessments using RAARICLE framework across all concurrent functions. Begin education and healthcare authority consolidation. Establish automatic intervention triggers.
+**Year 1:** Diagnostic assessments using RAARICLE™ framework across all concurrent functions. Begin education and healthcare authority consolidation. Establish automatic intervention triggers.
 
 **Year 2:** Commence WSA/WSP separation pilots in 3-5 municipalities. Begin Level 2 housing accreditation expansion. Launch title deed backlog task team. Revenue ring-fencing legislation for water and electricity.
 
@@ -390,9 +390,9 @@ These reforms span multiple workstreams and must be sequenced to support all fou
 4. **Automatic Enforcement Triggers** — Provincial intervention thresholds, municipal service failure protocols, court case-flow time limits
 5. **Performance-Based Accountability** — Scorecards, rankings, and consequences at every level
 
-### Governance Diagnostic: The RAARICLE Framework
+### Governance Diagnostic: The RAARICLE™ Framework
 
-Every institutional reform in this manifesto is diagnosed against the RAARICLE framework:
+Every institutional reform in this manifesto is diagnosed against the RAARICLE™ framework:
 
 - **R**esponsibility — Is there a single, identifiable entity responsible for the outcome?
 - **A**ccountability — Can that entity be held to account for success or failure?
@@ -407,7 +407,7 @@ Every institutional reform in this manifesto is diagnosed against the RAARICLE f
 
 1. **Fragmentation** — Responsibility scattered across multiple entities (housing, education, healthcare)
 2. **Misalignment** — Wrong entity holds the wrong governance element (education authority at wrong level)
-3. **Absence** — Critical RAARICLE element does not exist (no enforcement triggers)
+3. **Absence** — Critical RAARICLE™ element does not exist (no enforcement triggers)
 4. **Conflation** — Incompatible functions combined in same entity (WSA = WSP, regulator = provider)
 5. **Inversion** — Wrong entity makes the decision (national deciding provincial operational matters)
 
@@ -484,7 +484,7 @@ CROSS   [== Digital Infrastructure ==][=== Performance Systems ===][=== Full Int
 
 - Case-flow triage system design and pilot
 - MSME ecosystem integration audit
-- RAARICLE diagnostic assessments across concurrent functions
+- RAARICLE™ diagnostic assessments across concurrent functions
 - Revenue ring-fencing legislation drafted
 - Teacher development programme launch
 - District-level human development baseline

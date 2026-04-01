@@ -1,6 +1,6 @@
 ---
 title: "Fixing Human Settlements"
-subtitle: "A RAARICLE Diagnosis of South Africa's Most Fragmented Value Chain — and How to Create End-to-End Ownership"
+subtitle: "A RAARICLE™ Diagnosis of South Africa's Most Fragmented Value Chain — and How to Create End-to-End Ownership"
 pillar: "reform-agenda"
 part: 2
 articleNumber: "2.3"
@@ -11,7 +11,7 @@ tags:
   - "municipal"
   - "reform"
   - "title-deeds"
-description: "A RAARICLE diagnosis of the most fragmented value chain in South African government — four entities per housing project with no single point of ownership."
+description: "A RAARICLE™ diagnosis of the most fragmented value chain in South African government — four entities per housing project with no single point of ownership."
 publishDate: 2028-11-01
 readingTime: 35
 status: "draft"
@@ -57,7 +57,7 @@ Count the entities: DHS (national), provincial human settlements department, mun
 The human settlements value chain is the most fragmented in South African governance. A single subsidised housing unit requires sequential action by at least six entities across three spheres of government. No single entity owns the outcome from project approval to title deed registration. This is not a coordination problem that better communication can solve — it is a structural design failure that guarantees accountability gaps, delivery delays, and the persistent housing backlog that defines South Africa's urban and peri-urban landscape.
 :::
 
-## RAARICLE Diagnosis
+## RAARICLE™ Diagnosis
 
 ### Responsibility — Rating: 1 (Critical Failure)
 
@@ -140,14 +140,14 @@ Developers who deliver substandard houses face inadequate consequences. The NHBR
 The title deed backlog is perhaps the most damning evidence of enforcement failure. An estimated 900,000 or more subsidised housing beneficiaries have not received their title deeds — many of them occupying houses completed years ago. There is no automatic trigger that compels resolution of the title deed backlog. No entity faces mandatory consequences for failing to register title deeds within a prescribed timeframe. The backlog grows because there is no enforcement mechanism that makes it shrink.
 
 :::takeaway
-Human settlements scores 1 — critical failure — on both responsibility and enforcement, and 1 on information. This is the lowest-scoring function in the RAARICLE diagnostic across the entire Reform Agenda series. The fragmentation is so extreme that it reaches a point of structural irrecoverability within the current institutional architecture. Incremental improvements — better coordination, more frequent meetings, shared databases — will not fix a value chain that is fundamentally designed to distribute responsibility to the point where nobody owns the outcome.
+Human settlements scores 1 — critical failure — on both responsibility and enforcement, and 1 on information. This is the lowest-scoring function in the RAARICLE™ diagnostic across the entire Reform Agenda series. The fragmentation is so extreme that it reaches a point of structural irrecoverability within the current institutional architecture. Incremental improvements — better coordination, more frequent meetings, shared databases — will not fix a value chain that is fundamentally designed to distribute responsibility to the point where nobody owns the outcome.
 :::
 
 ## The Root Cause
 
-The RAARICLE diagnosis confirms what the value chain mapping suggested: human settlements is a case of **maximum fragmentation**. Every RAARICLE element sits in a different institution. Responsibility is scattered across six or more entities. Accountability is diffused across three spheres. Authority is split between the municipality (land), the province (project management), and national government (policy and funding). Resources flow through different channels for different components of the same project. Information is fragmented across incompatible systems. Capability is insufficient at every level. And enforcement — the element that should hold the chain together — is virtually absent.
+The RAARICLE™ diagnosis confirms what the value chain mapping suggested: human settlements is a case of **maximum fragmentation**. Every RAARICLE™ element sits in a different institution. Responsibility is scattered across six or more entities. Accountability is diffused across three spheres. Authority is split between the municipality (land), the province (project management), and national government (policy and funding). Resources flow through different channels for different components of the same project. Information is fragmented across incompatible systems. Capability is insufficient at every level. And enforcement — the element that should hold the chain together — is virtually absent.
 
-This is not a coordination problem. Coordination assumes that the institutional architecture is sound and the entities simply need to communicate better. The RAARICLE diagnosis reveals that the architecture itself is the problem. The housing value chain was designed — through the Housing Act, the Division of Revenue, and the functional assignments in the Constitution — in a way that distributes every element of governance across different institutions. No amount of coordination meetings, intergovernmental forums, or shared monitoring frameworks can overcome a design that structurally prevents end-to-end ownership.
+This is not a coordination problem. Coordination assumes that the institutional architecture is sound and the entities simply need to communicate better. The RAARICLE™ diagnosis reveals that the architecture itself is the problem. The housing value chain was designed — through the Housing Act, the Division of Revenue, and the functional assignments in the Constitution — in a way that distributes every element of governance across different institutions. No amount of coordination meetings, intergovernmental forums, or shared monitoring frameworks can overcome a design that structurally prevents end-to-end ownership.
 
 The Level 2 metropolitan accreditation model provides the evidence. Metros with Level 2 accreditation manage the full housing delivery process internally — from project identification and developer appointment through construction management and subsidy disbursement. They still depend on the Deeds Registry for title registration, but the core delivery chain is consolidated in a single entity. While metro housing delivery is far from perfect, the metros' ability to manage the process end-to-end eliminates the inter-sphere handoff problems that plague non-metropolitan delivery. The accreditation model is proof of concept that consolidation works.
 
@@ -210,7 +210,7 @@ Use this framework to trace a housing project from approval to occupation and id
 
 **Step 1: Identify every entity involved in your housing project.**
 
-For a typical subsidised housing project, list the entities: the national Department of Human Settlements (subsidy framework and conditional grant), the provincial department (project approval, developer appointment, grant management), the municipality (land identification, zoning, bulk infrastructure — water, sewerage, roads — and building plan approval), the developer or contractor (construction), the National Home Builders Registration Council (construction quality assurance), and the Deeds Registry (title deed registration). That is at least six entities across three spheres. Write them down and note which RAARICLE element each one holds.
+For a typical subsidised housing project, list the entities: the national Department of Human Settlements (subsidy framework and conditional grant), the provincial department (project approval, developer appointment, grant management), the municipality (land identification, zoning, bulk infrastructure — water, sewerage, roads — and building plan approval), the developer or contractor (construction), the National Home Builders Registration Council (construction quality assurance), and the Deeds Registry (title deed registration). That is at least six entities across three spheres. Write them down and note which RAARICLE™ element each one holds.
 
 **Step 2: Ask who owns the outcome end-to-end.**
 

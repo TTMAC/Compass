@@ -1,8 +1,8 @@
-# RAARICLE Governance Analysis Generator
+# RAARICLE™ Governance Analysis Generator
 
 ## Instructions for Claude Code
 
-This document provides a reusable methodology for generating governance analyses of South African national, provincial and municipal functions using the RAARICLE framework. It can be used as a prompt template with Claude Code to produce diagnostic reports, reform blueprints and white papers for any public function.
+This document provides a reusable methodology for generating governance analyses of South African national, provincial and municipal functions using the RAARICLE™ framework. It can be used as a prompt template with Claude Code to produce diagnostic reports, reform blueprints and white papers for any public function.
 
 ---
 
@@ -10,7 +10,7 @@ This document provides a reusable methodology for generating governance analyses
 
 ```bash
 # From your project directory, run:
-claude "Using the RAARICLE methodology in RAARICLE_ANALYSIS_INSTRUCTIONS.md, 
+claude "Using the RAARICLE™ methodology in RAARICLE_ANALYSIS_INSTRUCTIONS.md, 
         generate a full governance analysis for [FUNCTION NAME] 
         at the [national/provincial/municipal] level. 
         Output a Word document white paper."
@@ -18,9 +18,9 @@ claude "Using the RAARICLE methodology in RAARICLE_ANALYSIS_INSTRUCTIONS.md,
 
 ---
 
-## 1. The RAARICLE framework
+## 1. The RAARICLE™ framework
 
-RAARICLE is a governance design and diagnostic framework comprising eight mutually exclusive, collectively exhaustive elements. For any public function to succeed, all eight elements must be co-located in a single institutional chain or coherently aligned across institutions with binding coordination mechanisms.
+RAARICLE™ is a governance design and diagnostic framework comprising eight mutually exclusive, collectively exhaustive elements. For any public function to succeed, all eight elements must be co-located in a single institutional chain or coherently aligned across institutions with binding coordination mechanisms.
 
 | # | Element         | Core question                                    | Design test                                                                                     |
 |---|-----------------|--------------------------------------------------|-------------------------------------------------------------------------------------------------|
@@ -132,14 +132,14 @@ legislation amendments and reform proposals (2024-2026).
 - Is the same entity both regulator and provider (WSA/WSP conflation pattern)?
 - Are concurrent competences creating overlap between national and provincial?
 
-### Step 3.2 — Diagnose each RAARICLE element
+### Step 3.2 — Diagnose each RAARICLE™ element
 
 **Objective:** For each of the eight elements, assess the current state against the function's institutional landscape.
 
 **Prompt pattern:**
 
 ```
-Using the RAARICLE framework, diagnose the governance of [FUNCTION] in South Africa.
+Using the RAARICLE™ framework, diagnose the governance of [FUNCTION] in South Africa.
 
 For each of the eight elements (Responsibility, Accountability, Authority, 
 Resources, Information, Capability, Legitimacy, Enforcement):
@@ -178,7 +178,7 @@ comparison for each element.
 **Prompt pattern:**
 
 ```
-Based on the RAARICLE diagnosis of [FUNCTION], identify the structural root cause 
+Based on the RAARICLE™ diagnosis of [FUNCTION], identify the structural root cause 
 of governance failure.
 
 Answer these questions:
@@ -201,12 +201,12 @@ misalignment. Avoid generic recommendations.
 
 ### Step 3.4 — Design the reform blueprint
 
-**Objective:** Propose a new institutional architecture that co-locates all eight RAARICLE elements.
+**Objective:** Propose a new institutional architecture that co-locates all eight RAARICLE™ elements.
 
 **Prompt pattern:**
 
 ```
-Design a RAARICLE-aligned reform blueprint for [FUNCTION] in South Africa.
+Design a RAARICLE™-aligned reform blueprint for [FUNCTION] in South Africa.
 
 For each of the eight elements, specify:
 1. Current state (from the diagnosis)
@@ -241,12 +241,12 @@ Include an implementation pathway in three phases:
 **Prompt pattern for a white paper:**
 
 ```
-Package the RAARICLE analysis of [FUNCTION] as a reform white paper in .docx format.
+Package the RAARICLE™ analysis of [FUNCTION] as a reform white paper in .docx format.
 
 Structure:
 1. Executive summary (1-2 pages)
 2. The problem: current institutional landscape and scale of failure
-3. The RAARICLE framework (brief explanation)
+3. The RAARICLE™ framework (brief explanation)
 4. Current state diagnostic (all eight elements with severity ratings)
 5. Structural root cause analysis
 6. Reform blueprint (element-by-element design)
@@ -264,18 +264,18 @@ Use the docx skill for generation.
 
 ```
 # For a briefing memo (shorter, for executives):
-"Package the RAARICLE analysis of [FUNCTION] as a 4-page executive briefing memo. 
+"Package the RAARICLE™ analysis of [FUNCTION] as a 4-page executive briefing memo. 
  Lead with the problem, the root cause, and the top 3 reform recommendations. 
  Include one summary table showing all eight elements rated 1-5."
 
 # For a presentation deck:
-"Package the RAARICLE analysis of [FUNCTION] as a 15-slide PowerPoint presentation. 
+"Package the RAARICLE™ analysis of [FUNCTION] as a 15-slide PowerPoint presentation. 
  Use the pptx skill. Include: title slide, problem statement, institutional map, 
- RAARICLE diagnostic (one slide per element), reform blueprint overview, 
+ RAARICLE™ diagnostic (one slide per element), reform blueprint overview, 
  anti-capture summary, implementation timeline, and conclusion."
 
 # For a comparative analysis across functions:
-"Compare the RAARICLE diagnoses of [FUNCTION A], [FUNCTION B] and [FUNCTION C]. 
+"Compare the RAARICLE™ diagnoses of [FUNCTION A], [FUNCTION B] and [FUNCTION C]. 
  Present as a matrix showing all eight elements rated 1-5 for each function. 
  Identify common structural patterns and cross-cutting reforms."
 ```
@@ -288,7 +288,7 @@ Use the docx skill for generation.
 
 **Value chain:** National (DBE: curriculum, policy, funding norms) → Provincial (PED: school management, teacher employment, infrastructure) → District (circuit offices: school support, monitoring) → School (principal, SGB: delivery)
 
-**Known RAARICLE misalignments:**
+**Known RAARICLE™ misalignments:**
 - **Authority:** Provincial MECs accountable for matric results but cannot determine teacher employment conditions (Employment of Educators Act is national; SACE is national; salary bargaining is at Education Labour Relations Council, national)
 - **Resources:** School funding norms set nationally; provincial equitable share not ring-fenced for education; infrastructure grants conditional
 - **Capability:** Persistent vacancy of subject advisors and circuit managers in rural districts
@@ -300,7 +300,7 @@ Use the docx skill for generation.
 
 **Value chain:** National (NDoH: policy, norms, conditional grants) → Provincial (PHD: hospital and clinic management, staffing, budgets) → District (DHS: PHC delivery, community health workers) → Facility (clinic manager: daily operations)
 
-**Known RAARICLE misalignments:**
+**Known RAARICLE™ misalignments:**
 - **Responsibility:** PHC delivery assigned to provinces but community health workers managed through different contractual arrangements (some through NPOs, some direct employment)
 - **Authority:** Facility managers cannot procure essential medicines independently (provincial pharmaceutical depot controls supply chain)
 - **Information:** District Health Information System (DHIS) provides data but often with significant lags; Ideal Clinic monitoring dashboard helps but coverage is incomplete
@@ -312,7 +312,7 @@ Use the docx skill for generation.
 
 **Value chain:** National (DMRE: policy; NERSA: regulation) → Eskom (generation, transmission, some distribution) → Municipality (reticulation to consumers, billing, maintenance)
 
-**Known RAARICLE misalignments:**
+**Known RAARICLE™ misalignments:**
 - **Resources:** Municipal electricity surpluses historically cross-subsidise other functions; ring-fencing is voluntary
 - **Authority:** Municipalities cannot set tariffs freely (NERSA approves Eskom tariffs; municipal tariffs bounded by guidelines); cannot procure independent power without complex regulatory approvals
 - **Capability:** Many municipalities lack qualified electrical engineers; infrastructure maintenance is neglected
@@ -324,7 +324,7 @@ Use the docx skill for generation.
 
 **Value chain:** National (DHS: policy, subsidy framework, conditional grants) → Provincial (PHD: project approval, developer appointment, beneficiary lists) → Municipality (land identification, bulk infrastructure, building plan approval) → Developer/Contractor (construction) → Beneficiary (occupation, title deed)
 
-**Known RAARICLE misalignments:**
+**Known RAARICLE™ misalignments:**
 - **Responsibility:** Fragmented across at least four entities per project with no single point of end-to-end ownership
 - **Authority:** Municipalities identify land but provinces approve projects and appoint developers; municipalities provide bulk infrastructure but provinces fund top structures
 - **Information:** Beneficiary lists are notoriously inaccurate; no single national housing demand database
@@ -336,7 +336,7 @@ Use the docx skill for generation.
 
 **Value chain:** National (DFFE: policy, norms, licensing) → Provincial (environmental departments: waste management licensing) → Municipality (collection, transport, disposal, landfill management)
 
-**Known RAARICLE misalignments:**
+**Known RAARICLE™ misalignments:**
 - **Resources:** Waste collection funded from general rates/tariffs, not ring-fenced; landfill management chronically underfunded
 - **Capability:** Many municipalities lack waste management officers with required qualifications
 - **Information:** Waste information system (SAWIS) has incomplete reporting; many municipalities do not report
@@ -348,16 +348,16 @@ Use the docx skill for generation.
 
 ## 5. Cross-cutting analysis patterns
 
-### 5.1 Comparative RAARICLE matrix
+### 5.1 Comparative RAARICLE™ matrix
 
 To compare governance alignment across multiple functions:
 
 ```
-Generate a comparative RAARICLE matrix for the following South African 
+Generate a comparative RAARICLE™ matrix for the following South African 
 government functions: [LIST FUNCTIONS].
 
 For each function, rate all eight elements on the 1-5 severity scale.
-Present as a heatmap-style table with functions as rows and RAARICLE 
+Present as a heatmap-style table with functions as rows and RAARICLE™ 
 elements as columns.
 
 Identify:
@@ -373,10 +373,10 @@ To analyse all functions within a single sphere:
 
 ```
 Analyse all major functions assigned to [national/provincial/municipal] 
-government in South Africa using the RAARICLE framework.
+government in South Africa using the RAARICLE™ framework.
 
 For each function within this sphere:
-1. Rate all eight RAARICLE elements (1-5)
+1. Rate all eight RAARICLE™ elements (1-5)
 2. Identify the primary misalignment pattern 
    (fragmentation, absence, conflation, or cross-sphere misalignment)
 
@@ -385,7 +385,7 @@ Then synthesise:
 - What institutional reforms at the sphere level (not function-specific) 
   would address the systemic patterns?
 - Are there functions currently in this sphere that should be reassigned 
-  to a different sphere based on RAARICLE analysis?
+  to a different sphere based on RAARICLE™ analysis?
 ```
 
 ### 5.3 Anti-capture audit
@@ -393,7 +393,7 @@ Then synthesise:
 To assess capture risk for any existing or proposed institution:
 
 ```
-Conduct a RAARICLE anti-capture audit of [INSTITUTION NAME].
+Conduct a RAARICLE™ anti-capture audit of [INSTITUTION NAME].
 
 For each of the five capture vectors (political, commercial, labour, 
 regulatory, information):
@@ -405,14 +405,14 @@ regulatory, information):
 4. Propose structural reforms to reduce capture risk
 
 Rate the institution's overall capture resilience on a 1-5 scale 
-and compare to the RAARICLE anti-capture design standards.
+and compare to the RAARICLE™ anti-capture design standards.
 ```
 
 ---
 
 ## 6. Output quality checklist
 
-Before finalising any RAARICLE analysis, verify:
+Before finalising any RAARICLE™ analysis, verify:
 
 - [ ] **All eight elements diagnosed:** No element is skipped or treated superficially
 - [ ] **Severity ratings justified:** Each rating is supported by specific evidence, not assertion
@@ -425,7 +425,7 @@ Before finalising any RAARICLE analysis, verify:
 - [ ] **Anti-capture addressed:** All five vectors are structurally safeguarded
 - [ ] **Implementation phased:** Reforms are sequenced with dependencies identified
 - [ ] **Constitutional feasibility assessed:** Whether amendments are required is stated clearly
-- [ ] **No RAARICLE element left behind:** The proposed design is checked against all eight elements to confirm co-location
+- [ ] **No RAARICLE™ element left behind:** The proposed design is checked against all eight elements to confirm co-location
 
 ---
 
@@ -452,10 +452,10 @@ When running analyses, search for the latest versions of these:
 
 ## 8. Worked example: single prompt for a complete analysis
 
-Here is a single comprehensive prompt that generates a full RAARICLE analysis end-to-end:
+Here is a single comprehensive prompt that generates a full RAARICLE™ analysis end-to-end:
 
 ```
-I need a complete RAARICLE governance analysis for basic education in South Africa.
+I need a complete RAARICLE™ governance analysis for basic education in South Africa.
 
 ## Step 1: Research
 Search the web for:
@@ -472,7 +472,7 @@ to classroom delivery. Include DBE, provincial education departments,
 district offices, SACE, ELRC, National Treasury (education grants), 
 DPWI (school infrastructure), and SGBs.
 
-## Step 3: RAARICLE diagnosis
+## Step 3: RAARICLE™ diagnosis
 For each of the eight elements (Responsibility, Accountability, Authority, 
 Resources, Information, Capability, Legitimacy, Enforcement):
 - Rate severity 1-5
@@ -484,7 +484,7 @@ Identify whether the primary failure pattern is fragmentation,
 cross-sphere misalignment, absence, conflation, or a combination.
 
 ## Step 5: Reform blueprint
-Design a RAARICLE-aligned institutional architecture that co-locates 
+Design a RAARICLE™-aligned institutional architecture that co-locates 
 all eight elements. Include the 30-day authority test, resource 
 ring-fencing, enforcement triggers, and anti-capture protections 
 (political, commercial, labour, regulatory, information).
@@ -509,4 +509,4 @@ and consistent styling.
 
 ## Licence and attribution
 
-The RAARICLE framework (Responsibility, Accountability, Authority, Resources, Information, Capability, Legitimacy, Enforcement) was developed through governance analysis of South African water services as a diagnostic and design tool for public sector institutional architecture. It is offered for free use in governance reform, policy analysis, academic research and public interest work. Attribution is appreciated but not required.
+The RAARICLE™ framework (Responsibility, Accountability, Authority, Resources, Information, Capability, Legitimacy, Enforcement) was developed through governance analysis of South African water services as a diagnostic and design tool for public sector institutional architecture. It is offered for free use in governance reform, policy analysis, academic research and public interest work. Attribution is appreciated but not required.
