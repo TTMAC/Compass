@@ -95,7 +95,7 @@ Infrastructure spending confirms the pattern. Provincial roads budgets have been
 
 If the structural constraints are the same across all nine provinces — the same Constitution, the same concurrent functions, the same equitable share formula, the same enforcement architecture — why do some provinces perform significantly better than others?
 
-The answer is that structural design sets a ceiling, and provincial-specific factors determine how close to that ceiling each province performs. No province can exceed the ceiling set by the structural design — even the best-performing provinces are constrained by the authority deficit, the enforcement vacuum, and the fiscal dependence. But within those constraints, provinces vary in their ability to compensate.
+The answer is that structural design sets a ceiling, and provincial-specific factors determine how close to that ceiling each province performs. **No province can exceed the ceiling set by the structural design — even the best-performing provinces are constrained by the authority deficit, the enforcement vacuum, and the fiscal dependence.** But within those constraints, provinces vary in their ability to compensate.
 
 Four factors explain most of the inter-provincial variation.
 
