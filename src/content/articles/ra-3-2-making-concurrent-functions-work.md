@@ -83,21 +83,16 @@ Comparative research on intergovernmental service delivery models, including stu
 
 Testing each model against all eight RAARICLE™ elements reveals their relative strengths and weaknesses with precision.
 
-On responsibility, Model A scores 2 — responsibility is fragmented between national (standards) and provincial (delivery). Model B scores 4 — the province owns the function end-to-end, though some national coordination role remains. Model C scores 5 — one agency owns the function from policy to delivery.
-
-On accountability, Model A scores 2 — accountability is split between the national minister and the provincial MEC. Model B scores 4 — the provincial MEC is clearly accountable. Model C scores 4 — the agency CEO is clearly accountable, though democratic accountability at the provincial level is weakened.
-
-On authority, Model A scores 2 — the province delivers but cannot control critical inputs. Model B scores 4 — the province has full operational authority. Model C scores 5 — the agency controls all operational levers through its provincial offices.
-
-On resources, Model A scores 3 — funding exists but is fragmented between equitable share and conditional grants. Model B scores 3 — provinces would need the same total funding but with more discretion; fiscal inequality between provinces would persist. Model C scores 4 — resources are consolidated in the agency's national budget and distributed to provincial offices based on operational need.
-
-On information, Model A scores 2-3 — data quality varies by province, systems are inconsistent. Model B scores 2-3 — each province would develop its own systems, further fragmenting the national picture. Model C scores 4-5 — a single agency would build a unified information system across all provincial operations.
-
-On capability, Model A scores 2 — capability varies enormously between provinces and cannot be redistributed. Model B scores 2 — full devolution does not create capability where it does not exist. Model C scores 3-4 — a national agency can recruit nationally, deploy staff across provinces, and build institutional depth that individual provinces cannot.
-
-On legitimacy, Model A scores 3 — the mandate is constitutionally clear but the accountability link to provincial voters is weakened by the authority split. Model B scores 4 — strong provincial democratic accountability. Model C scores 2-3 — democratic accountability at the provincial level is weakened because the service is no longer managed by the provincial government that voters elected.
-
-On enforcement, Model A scores 1 — discretionary, politically mediated, rarely applied. Model B scores 2 — provinces would need to build their own enforcement systems, with inter-provincial variation. Model C scores 4 — a national agency can build enforcement into its management system, with automatic triggers for underperforming provincial offices.
+| RAARICLE™ Dimension | Model A: National Policy, Provincial Delivery (Status Quo) | Model B: Full Devolution | Model C: National Agency with Provincial Operations |
+|---|---|---|---|
+| **Responsibility** | 2 — Fragmented between national (standards) and provincial (delivery) | 4 — Province owns the function end-to-end, though some national coordination role remains | 5 — One agency owns the function from policy to delivery |
+| **Accountability** | 2 — Split between the national minister and the provincial MEC | 4 — Provincial MEC is clearly accountable | 4 — Agency CEO is clearly accountable, though democratic accountability at the provincial level is weakened |
+| **Authority** | 2 — Province delivers but cannot control critical inputs | 4 — Province has full operational authority | 5 — Agency controls all operational levers through its provincial offices |
+| **Resources** | 3 — Funding exists but is fragmented between equitable share and conditional grants | 3 — Provinces would need the same total funding but with more discretion; fiscal inequality between provinces would persist | 4 — Resources are consolidated in the agency's national budget and distributed to provincial offices based on operational need |
+| **Information** | 2–3 — Data quality varies by province, systems are inconsistent | 2–3 — Each province would develop its own systems, further fragmenting the national picture | 4–5 — A single agency would build a unified information system across all provincial operations |
+| **Capability** | 2 — Capability varies enormously between provinces and cannot be redistributed | 2 — Full devolution does not create capability where it does not exist | 3–4 — A national agency can recruit nationally, deploy staff across provinces, and build institutional depth that individual provinces cannot |
+| **Legitimacy** | 3 — Mandate is constitutionally clear but the accountability link to provincial voters is weakened by the authority split | 4 — Strong provincial democratic accountability | 2–3 — Democratic accountability at the provincial level is weakened because the service is no longer managed by the provincial government that voters elected |
+| **Enforcement** | 1 — Discretionary, politically mediated, rarely applied | 2 — Provinces would need to build their own enforcement systems, with inter-provincial variation | 4 — A national agency can build enforcement into its management system, with automatic triggers for underperforming provincial offices |
 
 The comparison reveals that no model achieves perfect scores across all eight elements. Model C scores highest on the operational elements (responsibility, authority, resources, information, enforcement) but weakest on democratic legitimacy. Model B scores highest on legitimacy and accountability but fails on capability and risks deepening inequality. Model A — the status quo — scores lowest overall, failing on authority, enforcement, and responsibility while achieving only moderate scores on everything else.
 
