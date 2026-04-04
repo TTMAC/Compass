@@ -19,7 +19,7 @@ export interface PillarConfig {
 export const pillars: PillarConfig[] = [
   {
     slug: "government-structure",
-    title: "Government Structure",
+    title: "South African Government Structure",
     shortTitle: "Government",
     description:
       "How South Africa's government is structured across three spheres — who does what, where the money goes, and how to hold them accountable.",
