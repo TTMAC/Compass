@@ -1,8 +1,8 @@
-# Safety & Security Pillar: Article Generation Prompts
+# Citizen Safety & Security Pillar: Article Generation Prompts
 
 ## Series Overview
 
-This document contains a structured set of 15 article generation prompts for the Safety & Security pillar of GovCompass. The series is organised into four parts: The Inheritance (historical context), The Broken System (current state analysis), The Blueprint (reform proposals), and The Bridge (implementation pathway). Each prompt is engineered to produce articles of at least 5,000 words in an accessible, O'Reilly-style conversational tone for a general public audience.
+This document contains a structured set of 15 article generation prompts for the Citizen Safety & Security pillar of GovCompass. The series is organised into four parts: The Inheritance (historical context), The Broken System (current state analysis), The Blueprint (reform proposals), and The Bridge (implementation pathway). Each prompt is engineered to produce articles of at least 5,000 words in an accessible, O'Reilly-style conversational tone for a general public audience.
 
 The analytical framework draws on the comprehensive knowledge base at `docs/sa-law-and-order-project.md`, which covers policing reform (three-tier architecture), criminal justice restructuring (six structural reforms), and a systems theory framework with 13 outcomes.
 
@@ -32,7 +32,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 > You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Order Through Oppression — How Colonial and Apartheid Policing Built a System Designed to Control, Not Protect — and What Democracy Inherited."**
 >
-> **Context:** This is the first article in the Safety & Security pillar of GovCompass. The reader has already completed the Government Structure pillar and understands how South Africa's Constitution divides power across three spheres (covered in Article 1.1 of that pillar) and how the spheres interact through concurrent functions like policing (covered in Article 1.3 of that pillar). They are now entering a new domain: the criminal justice system. This article sets the historical foundation.
+> **Context:** This is the first article in the Citizen Safety & Security pillar of GovCompass. The reader has already completed the Government Structure pillar and understands how South Africa's Constitution divides power across three spheres (covered in Article 1.1 of that pillar) and how the spheres interact through concurrent functions like policing (covered in Article 1.3 of that pillar). They are now entering a new domain: the criminal justice system. This article sets the historical foundation.
 >
 > **Knowledge base reference:** Draw on `docs/sa-law-and-order-project.md` Section 1 (Restructuring South Africa's Police Service — The Core Problem) for the structural mismatch analysis, and Section 4 Theme 1.1 (colonial policing architecture) and Theme 1.2 (the 1994 inheritance) for historical content.
 >
@@ -64,7 +64,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 > You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"From Rainbow Nation to State Capture — How South Africa's Criminal Justice System Was First Overwhelmed and Then Deliberately Hollowed Out."**
 >
-> **Context:** This is the second article in the Safety & Security pillar. The reader has just read Article 1.1 (Order Through Oppression), which covered the colonial and apartheid origins of policing and the 1994 inheritance. This article picks up the story from 1994 and carries it through to the present.
+> **Context:** This is the second article in the Citizen Safety & Security pillar. The reader has just read Article 1.1 (Order Through Oppression), which covered the colonial and apartheid origins of policing and the 1994 inheritance. This article picks up the story from 1994 and carries it through to the present.
 >
 > **Knowledge base reference:** Draw on `docs/sa-law-and-order-project.md` Section 4 Theme 1.3 (crime explosion 1994–2004) and Theme 1.4 (state capture and deliberate degradation) for the two-phase narrative. Also reference Section 1 (The Hardest Political Reality) for the analysis of policing as a patronage tool.
 >
@@ -526,7 +526,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 > You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Measuring Progress — A National Law and Order Scorecard — Technology, Metrics, and the Political Will to Be Honest."**
 >
-> **Context:** This is the final article in the Safety & Security pillar. The reader has the full picture: the inheritance (Part 1), the broken system (Part 2), the blueprint (Part 3), and the reform roadmap and fiscal case (Articles 4.1 and 4.2). This closing article asks: how would we know if reform is working? What should we measure, and who should be watching?
+> **Context:** This is the final article in the Citizen Safety & Security pillar. The reader has the full picture: the inheritance (Part 1), the broken system (Part 2), the blueprint (Part 3), and the reform roadmap and fiscal case (Articles 4.1 and 4.2). This closing article asks: how would we know if reform is working? What should we measure, and who should be watching?
 >
 > **Knowledge base reference:** Draw on `docs/sa-law-and-order-project.md` Section 4 Themes 4.4 (technology as enabler) and 4.6 (measuring progress — national scorecard), Section 3 (the full MECE Outcome Summary table with 13 outcomes), and Section 2 Reform 6 (digital infrastructure).
 >
@@ -557,7 +557,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 >
 > Include 2–3 short anecdotes or insights from named South African criminal justice researchers, data scientists, or M&E specialists (e.g., from ISS, DPME, Stats SA, the CSIR, or university departments).
 >
-> **Cross-references:** Reference [Using Government Data](/articles/5-2-using-government-data) from the Government Structure pillar for the data literacy framework. Back-reference the entire Safety & Security series — this article synthesises the measurement dimension of every preceding article. Reference [Becoming an Active Citizen](/articles/5-3-becoming-an-active-citizen) for the civic engagement framework.
+> **Cross-references:** Reference [Using Government Data](/articles/5-2-using-government-data) from the Government Structure pillar for the data literacy framework. Back-reference the entire Citizen Safety & Security series — this article synthesises the measurement dimension of every preceding article. Reference [Becoming an Active Citizen](/articles/5-3-becoming-an-active-citizen) for the civic engagement framework.
 >
 > **Tone and style:** Use "you" to address the reader directly. Lead with specifics. No bullet points in prose. O'Reilly conversational register. British English. Non-partisan — the call for honest data applies to all administrations.
 >

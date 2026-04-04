@@ -261,7 +261,7 @@ ENVIRONMENT (Socio-economic conditions, inequality, governance, culture)
                 crime trends)             Legitimate State)
 ```
 
-### Cluster 1: Safety and Security — Outcomes 1–6
+### Cluster 1: Citizen Safety and Security — Outcomes 1–6
 
 #### Outcome 1 — Crime Suppression & Deterrence
 The system must reduce the probability of crime occurring in the first instance.

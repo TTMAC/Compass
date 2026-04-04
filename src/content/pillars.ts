@@ -61,7 +61,7 @@ export const pillars: PillarConfig[] = [
   },
   {
     slug: "safety-security",
-    title: "Safety & Security",
+    title: "Citizen Safety & Security",
     shortTitle: "Safety",
     description:
       "How South Africa's criminal justice system works — policing, courts, corrections, and what reform looks like.",

@@ -8,7 +8,7 @@ This document consolidates all proposed recommendations from the GovCompass arti
 
 ## Table of Contents
 
-1. [Workstream 1: Safety and Security](#workstream-1-safety-and-security)
+1. [Workstream 1: Citizen Safety and Security](#workstream-1-citizen-safety-and-security)
 2. [Workstream 2: Reform Agenda (Institutional Governance)](#workstream-2-reform-agenda)
 3. [Workstream 3: Economic Growth and Development](#workstream-3-economic-growth-and-development)
 4. [Workstream 4: Human Development](#workstream-4-human-development)
@@ -18,7 +18,7 @@ This document consolidates all proposed recommendations from the GovCompass arti
 
 ---
 
-## Workstream 1: Safety and Security
+## Workstream 1: Citizen Safety and Security
 
 ### Vision
 Transform South Africa's criminal justice system from a broken pipeline that haemorrhages cases at every stage into an integrated, accountable system that delivers safety, justice, and rehabilitation.
@@ -81,7 +81,7 @@ Transform South Africa's criminal justice system from a broken pipeline that hae
 12. Reintegration and Recidivism Reduction
 13. Victim Justice, Reparation, and Restoration
 
-### Safety and Security Legislative Programme (8 Acts)
+### Citizen Safety and Security Legislative Programme (8 Acts)
 
 **Amendments to existing legislation:**
 1. Criminal Procedure Act, 1977
@@ -376,7 +376,7 @@ These reforms span multiple workstreams and must be sequenced to support all fou
 
 | # | Initiative | Workstreams Served |
 |---|-----------|-------------------|
-| CC.1 | Integrated Criminal Justice Information System (ICJS) | Safety and Security |
+| CC.1 | Integrated Criminal Justice Information System (ICJS) | Citizen Safety and Security |
 | CC.2 | Unified Housing Demand Database | Reform Agenda |
 | CC.3 | Real-Time Education Data Systems | Reform Agenda, Human Development |
 | CC.4 | Digital Financial Inclusion Infrastructure | Economic Growth |
@@ -419,20 +419,20 @@ Every institutional reform in this manifesto is diagnosed against the RAARICLE�
 
 | # | Statute | Workstream | Phase |
 |---|---------|------------|-------|
-| L.1 | Investigating Magistracy Act | Safety and Security | Phase 1 |
-| L.2 | Sentencing Reform Act | Safety and Security | Phase 2 |
+| L.1 | Investigating Magistracy Act | Citizen Safety and Security | Phase 1 |
+| L.2 | Sentencing Reform Act | Citizen Safety and Security | Phase 2 |
 | L.3 | Small Business Guarantee Fund Act | Economic Growth | Phase 1 |
 
 ### Existing Legislation Requiring Amendment
 
 | # | Statute | Workstream | Phase |
 |---|---------|------------|-------|
-| L.4 | Criminal Procedure Act, 1977 | Safety and Security | Phase 1 |
-| L.5 | National Prosecuting Authority Act, 1998 | Safety and Security | Phase 1 |
-| L.6 | South African Police Service Act, 1995 | Safety and Security | Phase 1-2 |
-| L.7 | Magistrates' Courts Act, 1944 | Safety and Security | Phase 2 |
-| L.8 | Correctional Services Act, 1998 | Safety and Security | Phase 3 |
-| L.9 | Private Security Industry Regulation Act, 2001 | Safety and Security | Phase 2 |
+| L.4 | Criminal Procedure Act, 1977 | Citizen Safety and Security | Phase 1 |
+| L.5 | National Prosecuting Authority Act, 1998 | Citizen Safety and Security | Phase 1 |
+| L.6 | South African Police Service Act, 1995 | Citizen Safety and Security | Phase 1-2 |
+| L.7 | Magistrates' Courts Act, 1944 | Citizen Safety and Security | Phase 2 |
+| L.8 | Correctional Services Act, 1998 | Citizen Safety and Security | Phase 3 |
+| L.9 | Private Security Industry Regulation Act, 2001 | Citizen Safety and Security | Phase 2 |
 | L.10 | Housing Act | Reform Agenda | Phase 1 |
 | L.11 | Water Services Act | Reform Agenda | Phase 2 |
 | L.12 | Municipal Finance Management Act | Reform Agenda | Phase 2 |
@@ -474,7 +474,7 @@ CROSS   [== Digital Infrastructure ==][=== Performance Systems ===][=== Full Int
 
 ### Critical Dependencies
 
-1. **Safety and Security Phase 1** must precede Phase 2 — digital case management enables community courts and sentencing commission
+1. **Citizen Safety and Security Phase 1** must precede Phase 2 — digital case management enables community courts and sentencing commission
 2. **Reform Agenda Phase 1** (education/healthcare governance) must precede **Human Development Phase 2** (reinforcing cycle) — governance fixes enable service delivery improvement
 3. **Economic Growth Phase 1** (MSME ecosystem/financing) must precede **Phase 2** (venture creation/export diversification) — institutional infrastructure enables enterprise growth
 4. **Reform Agenda Phase 2** (municipal service delivery) enables **Economic Growth Phase 2** — functioning infrastructure is a prerequisite for business growth

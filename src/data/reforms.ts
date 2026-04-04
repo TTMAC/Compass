@@ -89,7 +89,7 @@ export interface FailurePattern {
 export const workstreams: Workstream[] = [
   {
     id: "safety-security",
-    title: "Safety and Security",
+    title: "Citizen Safety and Security",
     shortTitle: "Safety",
     vision:
       "Transform South Africa's criminal justice system from a broken pipeline that haemorrhages cases at every stage into an integrated, accountable system that delivers safety, justice, and rehabilitation.",
@@ -216,7 +216,7 @@ export const workstreams: Workstream[] = [
 // ── Reforms ──────────────────────────────────────────────────
 
 export const reforms: Reform[] = [
-  // ── Safety & Security: Phase 1 ──
+  // ── Citizen Safety & Security: Phase 1 ──
   {
     id: "1.1",
     workstream: "safety-security",
@@ -267,7 +267,7 @@ export const reforms: Reform[] = [
     legislative: "Amendments to Criminal Procedure Act, 1977",
     articleSlug: "ss-2-1-the-broken-pipeline",
   },
-  // ── Safety & Security: Phase 2 ──
+  // ── Citizen Safety & Security: Phase 2 ──
   {
     id: "2.1",
     workstream: "safety-security",
@@ -319,7 +319,7 @@ export const reforms: Reform[] = [
       "Amendments to Private Security Industry Regulation Act, 2001",
     articleSlug: "ss-2-5-the-private-security-paradox",
   },
-  // ── Safety & Security: Phase 3 ──
+  // ── Citizen Safety & Security: Phase 3 ──
   {
     id: "3.1",
     workstream: "safety-security",
@@ -1184,7 +1184,7 @@ export const milestones: Milestone[] = [
 // ── Cross-Cutting ────────────────────────────────────────────
 
 export const digitalInfrastructure: CrossCuttingDigital[] = [
-  { id: "CC.1", initiative: "Integrated Criminal Justice Information System (ICJS)", workstreams: "Safety and Security" },
+  { id: "CC.1", initiative: "Integrated Criminal Justice Information System (ICJS)", workstreams: "Citizen Safety and Security" },
   { id: "CC.2", initiative: "Unified Housing Demand Database", workstreams: "Reform Agenda" },
   { id: "CC.3", initiative: "Real-Time Education Data Systems", workstreams: "Reform Agenda, Human Development" },
   { id: "CC.4", initiative: "Digital Financial Inclusion Infrastructure", workstreams: "Economic Growth" },
