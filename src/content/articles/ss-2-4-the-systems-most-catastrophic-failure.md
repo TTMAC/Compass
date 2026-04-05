@@ -152,3 +152,17 @@ The following organisations provide support to GBV survivors: the GBV Command Ce
 **Engaging Parliament:**
 If you want to advocate for systemic change, [Making Public Submissions](/articles/4-3-making-public-submissions) explains how to engage with Parliament on GBV legislation. Parliamentary portfolio committees regularly consider GBV-related legislation and policy, and public submissions can influence legislative outcomes.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Statistics South Africa (Stats SA), *Victims of Crime Survey* — household-level data on sexual offence prevalence and reporting patterns — [statssa.gov.za](https://www.statssa.gov.za)
+- SAPS Annual Crime Statistics, documenting reported sexual offences, contact crimes, and GBV-related crime categories — [saps.gov.za](https://www.saps.gov.za)
+- National Prosecuting Authority (NPA), Thuthuzela Care Centre programme data and sexual offences prosecution statistics — [npa.gov.za](https://www.npa.gov.za)
+- Jewkes, R. et al., South African Medical Research Council (SAMRC), research on the prevalence, drivers, and health consequences of gender-based violence in South Africa — [samrc.ac.za](https://www.samrc.ac.za)
+- Rape Crisis Cape Town Trust, research and direct service data on sexual violence response and survivor support — [rapecrisis.org.za](https://rapecrisis.org.za)
+- People Opposing Women Abuse (POWA), research and advocacy on intimate partner violence and systemic failures in police response — [powa.co.za](https://www.powa.co.za)
+- Sonke Gender Justice, research on the intersection of GBV and criminal justice system failure — [genderjustice.org.za](https://www.genderjustice.org.za)
+- Women's Legal Centre, litigation and research on the state's constitutional obligation to protect against GBV — [wlce.co.za](https://www.wlce.co.za)
+- Domestic Violence Act 116 of 1998 and Criminal Law (Sexual Offences and Related Matters) Amendment Act 32 of 2007 — the legislative framework for GBV response

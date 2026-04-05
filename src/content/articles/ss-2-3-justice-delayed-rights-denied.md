@@ -161,3 +161,16 @@ If conditions in the facility violate your rights — overcrowding, inadequate f
 **The Key Principle:**
 You are presumed innocent until proven guilty. Remand detention is not punishment — it is a temporary measure to ensure that you appear for trial. If your detention has become unreasonable in duration, if the conditions violate your dignity, or if you are being detained because you cannot afford bail rather than because you pose a genuine risk, you have constitutional grounds to challenge your continued detention. Exercise your rights — the system will not exercise them for you.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Judicial Inspectorate for Correctional Services (JICS) Annual Reports, documenting conditions of detention, overcrowding, and deaths in custody — [jics.gov.za](https://www.jics.gov.za)
+- Department of Correctional Services (DCS) Annual Reports, documenting remand detention population, facility capacity, and awaiting-trial statistics — [dcs.gov.za](https://www.dcs.gov.za)
+- Wits Justice Project, research and investigative journalism on remand detention, bail system failures, and prisoner rights — [journalism.co.za/wits-justice-project](https://www.journalism.co.za/wits-justice-project/)
+- Legal Aid South Africa, providing free legal representation to qualifying accused persons and information on bail applications — [legal-aid.co.za](https://www.legal-aid.co.za)
+- Socio-Economic Rights Institute of South Africa (SERI), litigation and research on conditions of detention and the right to a speedy trial — [seri-sa.org](https://www.seri-sa.org)
+- Sonke Gender Justice, monitoring and advocacy on detention conditions and prisoner rights — [genderjustice.org.za](https://www.genderjustice.org.za)
+- South African Human Rights Commission (SAHRC), reports on conditions of detention and systemic violations of remand detainees' rights — [sahrc.org.za](https://www.sahrc.org.za)
+- Constitution of the Republic of South Africa, 1996, Section 35 (Arrested, Detained, and Accused Persons) — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)

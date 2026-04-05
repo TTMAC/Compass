@@ -183,3 +183,16 @@ The work of transforming South Africa's criminal justice system will take a deca
 As [Using Government Data](/articles/5-2-using-government-data) documents in the Government Structure pillar, the ability to find, read, and interpret government data is a civic competency — one that transforms you from a passive recipient of political rhetoric into an active, informed participant in democratic accountability. The Citizen's Scorecard in this article is a specific application of that general competency to the criminal justice domain. Use it. Share it. Demand answers. The system will not reform itself. But citizens who measure, who ask, and who hold power accountable — they are the force that makes reform possible.
 
 The bridge from the system you have to the system the Constitution demands begins with knowing the difference. Now you do.
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- South African Police Service (SAPS) Annual Reports, documenting crime statistics, detection rates, and case referral data by province and crime category — [saps.gov.za](https://www.saps.gov.za)
+- National Prosecuting Authority (NPA) Annual Reports, documenting prosecution statistics, conviction rates, and case disposition data — [npa.gov.za](https://www.npa.gov.za)
+- Department of Correctional Services (DCS) Annual Reports, documenting incarceration statistics, rehabilitation programme participation, and recidivism data — [dcs.gov.za](https://www.dcs.gov.za)
+- Statistics South Africa (Stats SA), *Victims of Crime Survey* — the most reliable measure of actual crime levels versus reported crime — [statssa.gov.za](https://www.statssa.gov.za)
+- Auditor-General of South Africa (AGSA), annual audit reports on criminal justice cluster departments — financial health, compliance, and performance indicators — [agsa.co.za](https://www.agsa.co.za)
+- Institute for Security Studies (ISS), research on criminal justice performance measurement, crime statistics methodology, and outcome-based evaluation — [issafrica.org](https://issafrica.org)
+- Africa Check, fact-checking and analysis of South African crime statistics and criminal justice claims — [africacheck.org](https://africacheck.org)
+- Department of Justice and Constitutional Development Annual Reports, court performance data including case finalisation rates and time-to-trial metrics — [justice.gov.za](https://www.justice.gov.za)

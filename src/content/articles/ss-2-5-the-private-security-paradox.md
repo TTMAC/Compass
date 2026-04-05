@@ -134,3 +134,15 @@ If you are a private security consumer, evaluate your provider on response times
 **Advocate for Better Public Policing:**
 Using private security does not extinguish your right to effective public policing or your responsibility to advocate for it. Engage with your Community Police Forum, attend station community meetings, and use the accountability tools described in [Policing a Divided Country](/articles/ss-2-2-policing-a-divided-country) to hold your local SAPS station accountable. The long-term solution to South Africa's safety crisis is not better private security — it is public policing that works for everyone.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Private Security Industry Regulatory Authority (PSIRA) Annual Reports, documenting industry size, registration statistics, compliance, and regulatory actions — [psira.co.za](https://www.psira.co.za)
+- Institute for Security Studies (ISS), policy briefs and research on private security regulation, the public-private policing dynamic, and safety inequality — [issafrica.org](https://issafrica.org)
+- Berg, J. and Nouveau, J.P., research on private security governance and the implications for democratic policing in South Africa
+- Social Justice Coalition (SJC), research on the relationship between public policing failure and private security growth in unequal urban environments — [sjc.org.za](https://www.sjc.org.za)
+- Private Security Industry Regulation Act 56 of 2001 — the legislative framework governing private security in South Africa
+- South African Police Service Act 68 of 1995, provisions on community policing and the relationship between SAPS and private security
+- Constitution of the Republic of South Africa, 1996, Section 199 (Security Services) — establishing the principle that national security is subject to the authority of Parliament and the national executive

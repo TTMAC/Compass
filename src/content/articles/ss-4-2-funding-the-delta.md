@@ -184,3 +184,15 @@ The Auditor-General of South Africa (AGSA) audits every government department an
 :::
 
 The fiscal case for criminal justice reform is clear. The investment required is a fraction of the cost the status quo imposes on the economy. The political obstacles are real but not insurmountable. The fiscal pathway — reallocation, technology efficiency, recidivism savings, growth dividends — provides a credible funding model. The remaining question is measurement: how would you know if reform investment is producing results? That is the subject of [Measuring Progress](/articles/ss-4-3-measuring-progress), the final article in this series.
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- National Treasury, *Budget Review* and *Estimates of National Expenditure (ENE)* — the primary source for SAPS, NPA, DCS, and DoJ&CD budget allocations and programme-level spending — [treasury.gov.za](https://www.treasury.gov.za)
+- Auditor-General of South Africa (AGSA), annual audit reports on criminal justice cluster departments documenting irregular, fruitless, and wasteful expenditure — [agsa.co.za](https://www.agsa.co.za)
+- Statistics South Africa (Stats SA), Consumer Price Index (CPI) data for calculating real-terms budget changes — [statssa.gov.za](https://www.statssa.gov.za)
+- SAPS Annual Reports, Programme 1–5 budget breakdowns and expenditure reports — [saps.gov.za](https://www.saps.gov.za)
+- Department of Correctional Services (DCS) Annual Reports, programme-level spending on incarceration versus rehabilitation and social reintegration — [dcs.gov.za](https://www.dcs.gov.za)
+- Institute for Security Studies (ISS), research on the economic cost of crime, the fiscal case for criminal justice reform, and cost-benefit analysis of policing investment — [issafrica.org](https://issafrica.org)
+- Parliamentary Monitoring Group (PMG), budget vote debates and appropriations committee proceedings for the Justice, Crime Prevention and Security cluster — [pmg.org.za](https://pmg.org.za)

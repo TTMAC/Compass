@@ -163,3 +163,15 @@ Proposed model: Municipal community courts (detailed in the next article) handle
 
 **The key insight:** Every failure documented in Part 2 is a downstream consequence of the centralised, single-tier policing model. The three-tier architecture does not merely improve management of the existing model — it replaces the structural design that produces the failures. This is the distinction between institutional reform (better training, better appointments, better technology within the existing structure) and structural redesign (changing the architecture itself). Part 2 demonstrated that institutional reform alone cannot fix a structurally broken system. The three-tier architecture is the structural redesign.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Institute for Security Studies (ISS), research on policing models, decentralisation, and structural reform proposals for SAPS — [issafrica.org](https://issafrica.org)
+- French National Gendarmerie organisational model — the comparative reference for provincial-tier policing with rural jurisdiction and military-style discipline
+- Federal Bureau of Investigation (FBI) organisational structure — the comparative reference for a national-tier agency focused on organised crime, corruption, and cross-jurisdictional offences
+- Independent Police Investigative Directorate (IPID) Annual Reports, documenting oversight mechanisms and complaints against police — [ipid.gov.za](https://www.ipid.gov.za)
+- South African Police Service Act 68 of 1995 — the legislative framework that would require amendment to enable a three-tier policing structure
+- Constitution of the Republic of South Africa, 1996, Chapter 11 (Security Services), Sections 205–208 (Police Service) and Section 206 (Political Responsibility for Police Service) — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)
+- Civilian Secretariat for the Police Service, research on provincial policing oversight and the framework for provincial police governance — [policesecretariat.gov.za](https://www.policesecretariat.gov.za)

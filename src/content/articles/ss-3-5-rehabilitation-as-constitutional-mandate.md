@@ -131,3 +131,16 @@ Supporting a family member's reintegration is demanding. Contact NICRO or Khulis
 **The Key Principle:**
 Reintegration is not the released person's responsibility alone. It is a process that requires support from family, community, civil society, and the state. The system that incarcerated the person has an obligation — constitutional, legal, and fiscal — to provide the support that makes successful reintegration possible. When the system fails at this obligation, the 40 per cent recidivism rate is the predictable result.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Department of Correctional Services (DCS) Annual Reports, documenting rehabilitation programme participation, overcrowding ratios, and recidivism data — [dcs.gov.za](https://www.dcs.gov.za)
+- DCS White Paper on Corrections in South Africa (2005) — the policy framework establishing rehabilitation as the core mandate of the corrections system
+- Judicial Inspectorate for Correctional Services (JICS) Annual Reports, documenting conditions of detention, complaints, and deaths in custody — [jics.gov.za](https://www.jics.gov.za)
+- NICRO (National Institute for Crime Prevention and the Reintegration of Offenders), programme data on diversion, rehabilitation, and reintegration — [nicro.org.za](https://www.nicro.org.za)
+- Khulisa Social Solutions, reintegration support, skills training, and mentoring programmes for ex-offenders — [khulisa.org.za](https://www.khulisa.org.za)
+- Restorative Justice Centre, victim-offender mediation and reintegration support research and programmes
+- Correctional Services Act 111 of 1998 — the legislative framework governing incarceration, rehabilitation programmes, and community corrections
+- Constitution of the Republic of South Africa, 1996, Section 35(2)(e) (conditions of detention consistent with human dignity) — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)

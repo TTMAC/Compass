@@ -91,3 +91,15 @@ NPA Annual Report: includes conviction and sentencing data by crime type and cou
 **How to Evaluate Consistency:**
 If a sentence seems disproportionately high or low, compare it to sentences for similar offences in the same court tier. Look for appeal court guidance on the appropriate sentencing range. Check whether the minimum sentencing framework applies. If the sentence is an outlier, consider whether the circumstances genuinely justify deviation or whether the sentence reflects the kind of inconsistency that structured guidelines would address.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Criminal Law Amendment Act 105 of 1997 (Criminal Law Sentencing Act) — the legislation establishing minimum sentencing for Schedule 2 offences, which this article proposes replacing with structured guidelines
+- Southern African Legal Information Institute (SAFLII), database of appeal court judgments providing sentencing precedent and interpretation of "substantial and compelling circumstances" — [saflii.org](https://www.saflii.org)
+- United States Sentencing Commission, the comparative model for a permanent sentencing guidelines body with data-driven sentencing bands — [ussc.gov](https://www.ussc.gov)
+- Institute for Security Studies (ISS), periodic sentencing analysis contextualising individual sentences within broader patterns — [issafrica.org](https://issafrica.org)
+- National Prosecuting Authority (NPA) Annual Reports, documenting conviction and sentencing data by crime type and court — [npa.gov.za](https://www.npa.gov.za)
+- Department of Justice and Constitutional Development, court performance data and sentencing statistics — [justice.gov.za](https://www.justice.gov.za)
+- Terblanche, S., research on sentencing reform, minimum sentences, and judicial discretion in South African criminal law

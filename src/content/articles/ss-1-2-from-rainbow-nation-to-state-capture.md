@@ -183,3 +183,16 @@ Apply these five tests to any criminal justice institution. Each "yes" answer is
 **How to Use This Checklist:**
 Monitor news reporting, parliamentary committee proceedings (available through the Parliamentary Monitoring Group), and annual reports for each institution. The Auditor-General's reports, covered in [Reading the Auditor-General's Reports](/articles/5-1-reading-the-auditor-generals-reports) from the Government Structure pillar, provide financial health indicators. IPID annual reports document complaints against SAPS. The NPA's annual report includes prosecution statistics that can reveal case selection patterns. No single indicator is conclusive — but a pattern across multiple tests is a reliable signal that an institution's independence is under threat.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Judicial Commission of Inquiry into State Capture (Zondo Commission), reports on the capture of law enforcement institutions including the Hawks, Crime Intelligence, and the NPA — [statecapture.org.za](https://www.statecapture.org.za)
+- Institute for Security Studies (ISS), research on the post-1994 crime explosion, SAPS performance, and the impact of state capture on criminal justice institutions — [issafrica.org](https://issafrica.org)
+- Parliamentary Monitoring Group (PMG), records of Portfolio Committee on Police and Portfolio Committee on Justice oversight proceedings during the state capture period — [pmg.org.za](https://pmg.org.za)
+- National Prosecuting Authority (NPA) Annual Reports, documenting prosecution statistics, leadership changes, and institutional capacity — [npa.gov.za](https://www.npa.gov.za)
+- SAPS Annual Reports, documenting crime statistics and organisational performance during the crime explosion and state capture eras — [saps.gov.za](https://www.saps.gov.za)
+- Independent Police Investigative Directorate (IPID) Annual Reports, documenting complaints against SAPS members and systemic policing failures — [ipid.gov.za](https://www.ipid.gov.za)
+- Newham, G. and Faull, A., Institute for Security Studies, research on the Scorpions' dissolution and Hawks' effectiveness
+- Constitution of the Republic of South Africa, 1996, Sections 179 (Prosecuting Authority) and 205–208 (Police Service) — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)

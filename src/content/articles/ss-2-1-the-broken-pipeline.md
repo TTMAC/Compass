@@ -231,3 +231,15 @@ Use these data sources to assess pipeline performance in your area. If your loca
 :::
 
 The next article in this series, [Policing a Divided Country](/articles/ss-2-2-policing-a-divided-country), takes the pipeline you now understand and maps it across South Africa's vastly unequal geography — showing how the system's failures are distributed unevenly, with your safety depending not on your constitutional rights but on your postcode and your income.
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Statistics South Africa (Stats SA), *Victims of Crime Survey* — the primary source for understanding the gap between actual crime and reported crime — [statssa.gov.za](https://www.statssa.gov.za)
+- South African Police Service (SAPS) Annual Reports, documenting crime statistics, detection rates, and case referral data by province and crime category — [saps.gov.za](https://www.saps.gov.za)
+- National Prosecuting Authority (NPA) Annual Reports, documenting prosecution statistics, conviction rates, and case disposition data — [npa.gov.za](https://www.npa.gov.za)
+- Department of Justice and Constitutional Development Annual Reports, containing court performance data including case finalisation rates and time-to-trial metrics — [justice.gov.za](https://www.justice.gov.za)
+- Institute for Security Studies (ISS), research and analysis on criminal justice pipeline performance, detective capacity, and forensic backlogs — [issafrica.org](https://issafrica.org)
+- Africa Check, fact-checking and analysis of South African crime statistics and criminal justice data — [africacheck.org](https://africacheck.org)
+- Criminal Procedure Act 51 of 1977 — the legislative framework governing the criminal justice process from investigation through sentencing

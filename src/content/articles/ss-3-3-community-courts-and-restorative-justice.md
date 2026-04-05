@@ -113,3 +113,16 @@ If your area does not have community justice infrastructure, advocate for it thr
 **The Legislative Changes Required:**
 Community courts require amendment to the Magistrates' Courts Act (to create the jurisdiction), new enabling legislation (to establish the CJO profession and define community court procedures), and amendments to the Criminal Procedure Act (to establish the case-flow triage system). [Sequencing Reform](/articles/ss-4-1-sequencing-reform) maps these legislative requirements in detail.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Hatfield Community Court (Pretoria), the pilot model for community-level adjudication in South Africa — operational data and lessons from implementation
+- Child Justice Act 75 of 2008 — the legislative framework for juvenile diversion programmes, demonstrating existing alternative justice pathways in South African law
+- Magistrates' Courts Act 32 of 1944 — the legislation that would require amendment to create community court jurisdiction
+- Association of Community Advice Offices (ACAOA), directory and research on para-legal community-based dispute resolution — [acaosa.org.za](https://www.acaosa.org.za)
+- Department of Social Development, probation services and diversion programme data — [dsd.gov.za](https://www.dsd.gov.za)
+- Institute for Security Studies (ISS), research on restorative justice, diversion programmes, and community-level dispute resolution in South Africa — [issafrica.org](https://issafrica.org)
+- Skelton, A. and Batley, M., research on restorative justice in South African criminal law and the integration of traditional justice mechanisms
+- Foundation for Human Rights, research and funding of community advice offices and access to justice programmes — [fhr.org.za](https://www.fhr.org.za)

@@ -164,3 +164,15 @@ This decoder is your essential tool for the rest of the Citizen Safety & Securit
 :::
 
 The next article in this series, [From Rainbow Nation to State Capture](/articles/ss-1-2-from-rainbow-nation-to-state-capture), picks up the story from 1994 and carries it through to the present — showing how the post-apartheid crime explosion overwhelmed a police service already struggling with its inheritance, and how the state capture era then deliberately degraded the institutions that were supposed to deliver justice. The inherited structural weaknesses you now understand made SAPS vulnerable to both crises. The democratic-era decisions made during those crises either compounded or, in rare cases, partially addressed the vulnerabilities. Understanding which is which — using the History Decoder — is how you move from frustration to informed engagement with the system that is supposed to keep you safe.
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Brewer, J.D. (1994). *Black and Blue: Policing in South Africa*. Clarendon Press — foundational study of apartheid-era policing structures and their social functions
+- Cawthra, G. (1993). *Policing South Africa: The SAP and the Transition from Apartheid*. Zed Books — detailed account of the SAP's transformation during the transition period
+- Truth and Reconciliation Commission (1998). *Final Report*, Volume 2 — documentation of SAP and Security Branch abuses, including pass law enforcement and political repression — [justice.gov.za/trc](https://www.justice.gov.za/trc/)
+- South African History Archive (SAHA), research and archival material on apartheid-era policing, pass laws, and homeland security forces — [saha.org.za](https://www.saha.org.za)
+- South African Police Service Act 68 of 1995 — the legislative framework that reconstituted the SAP as SAPS and merged homeland police forces into a single national service
+- Constitution of the Republic of South Africa, 1996, Chapter 11 (Security Services) and Section 205–208 (Police Service) — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)
+- Institute for Security Studies (ISS), historical research on policing reform and the 1994 integration of police forces — [issafrica.org](https://issafrica.org)

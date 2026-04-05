@@ -133,3 +133,15 @@ When evaluating whether a criminal case has been properly investigated — wheth
 
 **A well-investigated case** would meet all of these criteria: complete evidence, properly preserved, collected in a timely manner, directed by someone who understood the legal requirements, and compiled into a docket that is ready for trial. Under the current system, very few cases — outside of the specialised units — meet this standard. The JIO model is designed to make this standard achievable for every serious case.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- French *Juge d'Instruction* (Investigating Magistrate) model — the comparative reference for judicially directed criminal investigation, adapted for the South African context
+- Criminal Procedure Act 51 of 1977 — the legislative framework governing criminal investigation and prosecution, which would require amendment to create the JIO jurisdiction
+- National Prosecuting Authority Act 32 of 1998 — establishing the NPA's mandate and the current SAPS-NPA relationship that the JIO model restructures
+- Institute for Security Studies (ISS), research on investigation quality, the detective capacity crisis, and the SAPS-NPA docket handoff failure — [issafrica.org](https://issafrica.org)
+- National Prosecuting Authority (NPA) Annual Reports, documenting case return rates, prosecution readiness, and the investigation-prosecution disconnect — [npa.gov.za](https://www.npa.gov.za)
+- Redpath, J., Institute for Security Studies, research on case attrition in the South African criminal justice pipeline and the role of investigation quality
+- Constitution of the Republic of South Africa, 1996, Section 165 (Judicial Authority) and Section 179 (Prosecuting Authority) — the constitutional framework within which the JIO model operates

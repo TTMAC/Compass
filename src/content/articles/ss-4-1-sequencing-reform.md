@@ -193,3 +193,14 @@ Dilution — reform Bills that are amended during committee stage to remove thei
 :::
 
 The reform roadmap in this article is a plan. Plans do not implement themselves. The fiscal dimension — what reform will cost and why it is cheaper than the status quo — is the subject of [Funding the Delta](/articles/ss-4-2-funding-the-delta). The measurement dimension — how you will know whether reform is working — is the subject of [Measuring Progress](/articles/ss-4-3-measuring-progress). Together, these three articles provide the bridge between the system you have and the system the Constitution demands.
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Parliamentary Monitoring Group (PMG), tracking of Bills, committee meeting reports, and public submission deadlines for criminal justice legislation — [pmg.org.za](https://pmg.org.za)
+- Parliament of the Republic of South Africa, official Bill tracker and committee proceedings — [parliament.gov.za](https://www.parliament.gov.za)
+- Criminal Procedure Act 51 of 1977, National Prosecuting Authority Act 32 of 1998, South African Police Service Act 68 of 1995, Magistrates' Courts Act 32 of 1944, Correctional Services Act 111 of 1998, Private Security Industry Regulation Act 56 of 2001 — the six existing Acts requiring amendment under the reform sequence
+- Institute for Security Studies (ISS), research on criminal justice reform sequencing, legislative priorities, and implementation challenges — [issafrica.org](https://issafrica.org)
+- National Treasury, Estimates of National Expenditure (ENE) for the Justice, Crime Prevention and Security cluster — budget allocation data for assessing reform funding — [treasury.gov.za](https://www.treasury.gov.za)
+- Department of Justice and Constitutional Development, legislative programme and implementation planning for justice sector reforms — [justice.gov.za](https://www.justice.gov.za)

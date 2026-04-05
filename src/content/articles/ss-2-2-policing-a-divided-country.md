@@ -158,3 +158,16 @@ If you believe your Section 12 right to freedom and security of the person is be
 
 **The key principle:** You have the right to effective policing regardless of your postcode. The fact that the system currently delivers unequal outcomes does not extinguish your constitutional right — it creates an obligation on the state to address the inequality. Holding the system accountable starts at the station level and escalates through provincial and national mechanisms. The data sources listed above give you the tools to ask the right questions. The mechanisms listed above give you the channels to demand answers.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Statistics South Africa (Stats SA), *Victims of Crime Survey* — household-level data on crime experience and reporting patterns across geographic areas — [statssa.gov.za](https://www.statssa.gov.za)
+- SAPS Annual Reports, documenting police-to-population ratios, detective allocation, and resource distribution by station and province — [saps.gov.za](https://www.saps.gov.za)
+- Private Security Industry Regulatory Authority (PSIRA) Annual Reports, documenting the scale, revenue, and growth of the private security industry — [psira.co.za](https://www.psira.co.za)
+- Social Justice Coalition (SJC), research on unequal policing resource allocation in Cape Town and advocacy for equitable distribution — [sjc.org.za](https://www.sjc.org.za)
+- Socio-Economic Rights Institute of South Africa (SERI), research on safety as a socio-economic right and the geographic inequality of policing — [seri-sa.org](https://www.seri-sa.org)
+- Institute for Security Studies (ISS), research on rural policing, township policing, and the spatial distribution of crime — [issafrica.org](https://issafrica.org)
+- Civilian Secretariat for the Police Service, oversight reports on SAPS performance by province — [policesecretariat.gov.za](https://www.policesecretariat.gov.za)
+- Constitution of the Republic of South Africa, 1996, Section 12 (Freedom and Security of the Person) — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)
