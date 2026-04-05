@@ -25,9 +25,11 @@ seo:
     - "Chapter 9 institutions"
 ---
 
-## You Are Not a Spectator
+## The Bottom Line, Up Front
 
 Everything you have read in this series so far—the architecture of the state, the division of powers, the flow of money from SARS to Treasury to your municipality, the provincial education and health systems, the structure of your municipal council—describes a governance machine. This article asks a different question: where do you fit in that machine? Not as a voter who shows up every five years to mark a ballot and then returns to watching from the outside. Not as a passive recipient of services that arrive or do not arrive. But as a participant—a person with constitutionally protected rights to be involved in the decisions that affect your life, and with practical channels through which to exercise those rights between elections.
+
+## You Are Not a Spectator
 
 Here is the bottom line: the South African Constitution does not treat you as a spectator of governance. It treats you as a participant. It guarantees your right to access information held by the state. It guarantees your right to just administrative action. It guarantees your right to assemble, demonstrate, picket, and petition. It requires the National Assembly, the NCOP, and every provincial legislature to facilitate public involvement in their legislative processes. It requires municipalities to develop a culture of community participation. And the Constitutional Court has ruled—repeatedly and forcefully—that these are not aspirational sentiments. They are binding legal obligations. When a legislature passes a law without adequate public participation, the Court has declared that law invalid. When an administrative body makes a decision without following fair procedure, the courts can set that decision aside. Your right to participate is enforceable. It has teeth.
 

@@ -25,9 +25,11 @@ seo:
     - "government performance monitoring"
 ---
 
-## The Library That Nobody Visits
+## The Bottom Line, Up Front
 
 In *Reading the Auditor-General's Reports*, you learned how to interpret the annual audit that tells you whether government managed its money properly. But the Auditor-General's reports are one source among many. South Africa's government publishes more data about its own performance, spending, and service delivery than almost any other country on the African continent — budgets, surveys, census results, quarterly expenditure figures, performance assessments, school registers, poverty statistics, and municipal financial reports. The data exists. It is public. Much of it is free to download.
+
+## The Library That Nobody Visits
 
 Here is the bottom line: the gap between what government publishes and what citizens actually use is not a problem of secrecy. It is a problem of navigation. The data is scattered across dozens of websites, published in formats that range from accessible dashboards to impenetrable spreadsheets, and produced by institutions whose names most citizens have never heard. Nobody has drawn you a map.
 

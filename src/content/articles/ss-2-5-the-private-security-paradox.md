@@ -30,9 +30,11 @@ seo:
     - "security as commodity"
 ---
 
-## The Industry That Should Not Need to Exist
+## The Bottom Line, Up Front
 
-South Africa's private security industry is the largest in the world relative to population. More than 2.7 million people are registered with the Private Security Industry Regulatory Authority (PSIRA) — roughly three times the size of the South African Police Service. The industry generates over R70 billion in annual revenue. It employs more people than mining, more than agriculture, more than several other major economic sectors combined. By any measure, private security is one of South Africa's most significant industries — and its very existence is an indictment of the state's failure to perform its most basic function.
+South Africa's private security industry is the largest in the world relative to population.
+
+## The Industry That Should Not Need to Exist More than 2.7 million people are registered with the Private Security Industry Regulatory Authority (PSIRA) — roughly three times the size of the South African Police Service. The industry generates over R70 billion in annual revenue. It employs more people than mining, more than agriculture, more than several other major economic sectors combined. By any measure, private security is one of South Africa's most significant industries — and its very existence is an indictment of the state's failure to perform its most basic function.
 
 The private security paradox is this: the industry's success is built on the state's failure. Every armed response subscription, every boom gate across a suburban street, every private patrol vehicle circling a neighbourhood at night represents a citizen who has concluded — rationally, based on the evidence — that the South African Police Service cannot keep them safe. The growth of private security is not a market responding to consumer preference. It is a market responding to state failure. And that market response, while individually rational for those who can afford it, creates a collective outcome that deepens inequality, distorts the political economy of policing reform, and turns a constitutional right — the right to freedom and security of the person — into a commodity available only to those who can pay.
 

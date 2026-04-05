@@ -31,9 +31,11 @@ seo:
     - "reintegration programmes"
 ---
 
-## The 40 Per Cent Guarantee
+## The Bottom Line, Up Front
 
 South Africa's correctional system has a recidivism rate estimated at over 40 per cent. Nearly half of all people released from prison end up back inside. This is not a mysterious failure. It is the predictable, measurable, mathematically inevitable outcome of a corrections system that warehouses rather than transforms — one where educational and vocational programmes reach a fraction of inmates, substance abuse treatment is grossly inadequate, mental health services are near-absent, and the parole and reintegration system sets released prisoners up to fail.
+
+## The 40 Per Cent Guarantee
 
 The Constitution envisions something fundamentally different. Section 35(2)(e) guarantees every detained person the right to conditions consistent with human dignity. The Correctional Services Act of 1998 explicitly states that rehabilitation is the primary purpose of the correctional system. The White Paper on Corrections (2005) articulated a vision of "rehabilitation-centred corrections" in which every inmate would have an individualised sentence plan, access to education and vocational training, substance abuse treatment, and structured preparation for reintegration into the community. Two decades later, this vision remains largely unrealised. The correctional system's primary function is containment — holding people in facilities that are overcrowded, violent, and disease-ridden, and releasing them years later in worse condition than they entered.
 

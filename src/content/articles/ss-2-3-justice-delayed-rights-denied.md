@@ -30,9 +30,11 @@ seo:
     - "right to speedy trial"
 ---
 
-## Fifty Thousand People Who Have Not Been Convicted of Anything
+## The Bottom Line, Up Front
 
-South Africa holds approximately 50,000 people in remand detention on any given day. These are not convicted criminals. They are accused persons — people who have been arrested and charged but who have not yet had their day in court. Under the Constitution, they are presumed innocent. Under the law, they are entitled to a trial that begins and concludes without unreasonable delay. Under the reality of South Africa's criminal justice system, they sit in overcrowded correctional facilities for months, years, and in some cases the better part of a decade, waiting for a system that cannot process them.
+South Africa holds approximately 50,000 people in remand detention on any given day.
+
+## Fifty Thousand People Who Have Not Been Convicted of Anything These are not convicted criminals. They are accused persons — people who have been arrested and charged but who have not yet had their day in court. Under the Constitution, they are presumed innocent. Under the law, they are entitled to a trial that begins and concludes without unreasonable delay. Under the reality of South Africa's criminal justice system, they sit in overcrowded correctional facilities for months, years, and in some cases the better part of a decade, waiting for a system that cannot process them.
 
 This is not a footnote in the criminal justice system. The remand population constitutes roughly a third of all people held in correctional facilities in South Africa. Many of these individuals are detained not because a court has determined that they are dangerous or likely to flee, but because they cannot afford bail amounts that would be trivial for a middle-class accused person. They are, in the starkest terms, imprisoned for being poor. And while they wait — in facilities operating at 150 per cent or more of designed capacity, where tuberculosis transmission is rampant, where gang violence is a daily reality, and where the conditions of detention are themselves a violation of constitutional rights — their cases crawl through the system at a pace that makes a mockery of the constitutional guarantee of a speedy trial.
 

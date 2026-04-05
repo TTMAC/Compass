@@ -32,9 +32,11 @@ seo:
     - "WSA WSP model"
 ---
 
-## The Water Value Chain
+## The Bottom Line, Up Front
 
 Water is the function where municipal governance failure kills people. Not figuratively. In May 2023, a cholera outbreak centred on Hammanskraal, north of Pretoria, killed at least 47 South Africans and hospitalised more than a hundred. The root cause was not a natural disaster or an unforeseeable pathogen. It was the Rooiwal Wastewater Treatment Works — a City of Tshwane facility that had been dysfunctional for years, discharging polluted water into the Apies River, which flows into Leeukraal Dam, from which the Temba Water Treatment Works abstracts drinking water. The area had not had reliably clean water for almost two decades. The South African Human Rights Commission stated plainly: "It can happen anywhere in the country."
+
+## The Water Value Chain
 
 It can. And to understand why, you need to trace the water value chain from source to tap and see exactly where the governance architecture breaks.
 

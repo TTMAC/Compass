@@ -34,9 +34,11 @@ seo:
     - "summary offences"
 ---
 
-## The Missing Tier of Justice
+## The Bottom Line, Up Front
 
 South Africa's 257 municipalities are almost entirely absent from the justice architecture. As [Municipal Councils](/articles/3-3-municipal-councils) documents, municipalities are the sphere of government closest to communities — responsible for water, electricity, refuse removal, roads, and the daily infrastructure of life. Yet when it comes to justice — the resolution of disputes, the adjudication of minor offences, the restoration of community order — municipalities have no role. There is no municipal court. There is no community justice officer. There is no local mechanism for resolving the petty theft, the domestic dispute, the liquor-related altercation, the trespassing complaint, or the minor assault that constitutes the vast majority of criminal matters entering the system.
+
+## The Missing Tier of Justice
 
 Instead, every criminal matter — from a R50 shoplifting case to a complex murder — enters the same magistrates' court pipeline. Magistrates' courts handle approximately 95 per cent of all criminal cases in South Africa, yet they have the least resources, the most overloaded rolls, and the longest backlogs. As [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) documented, case postponements are the norm rather than the exception, with cases routinely adjourned five, ten, or fifteen times before reaching trial. As [Justice Delayed, Rights Denied](/articles/ss-2-3-justice-delayed-rights-denied) documented, this backlog drives the remand detention crisis — tens of thousands of accused persons waiting years for trials that the system cannot schedule.
 

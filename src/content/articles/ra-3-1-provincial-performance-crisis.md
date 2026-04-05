@@ -30,9 +30,11 @@ seo:
     - "provincial governance crisis"
 ---
 
-## The Provincial RAARICLE™ Scorecard
+## The Bottom Line, Up Front
 
 The previous four articles in this series applied the RAARICLE™ framework to individual functions — [education](/articles/ra-2-1-fixing-basic-education), [healthcare](/articles/ra-2-2-fixing-primary-healthcare), [human settlements](/articles/ra-2-3-fixing-human-settlements), and [safety and security](/articles/ra-2-4-fixing-safety-and-security). Each produced a diagnosis of structural failure. Education, healthcare, and housing suffer from fragmentation and cross-sphere misalignment; safety and security suffers from the opposite pathology — excessive centralisation. All four identified the absence of enforcement as a root cause. Each proposed a reform blueprint that would co-locate authority with accountability at the delivery level.
+
+## The Provincial RAARICLE™ Scorecard
 
 But step back and look at the four diagnoses together, and a pattern emerges that is larger than any single function. The same RAARICLE™ elements fail consistently across all four — and across other provincial functions that this series has not yet examined in detail. Authority scores 1-2 across education, healthcare, housing, and safety. Enforcement scores 1 across all four. Capability scores 2 across all four. Information scores 1-3 depending on the function, but nowhere above moderate tension.
 

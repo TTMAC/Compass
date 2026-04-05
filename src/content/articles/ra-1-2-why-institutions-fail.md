@@ -34,9 +34,11 @@ seo:
     - "public sector reform"
 ---
 
-## The Five Ways Government Breaks
+## The Bottom Line, Up Front
 
 In [The Eight Tests Every Government Institution Must Pass](/articles/ra-1-1-eight-tests), you learned a framework for diagnosing governance failure. You can now look at any government function — water, education, healthcare, housing, electricity — and run eight tests to determine where the institutional design is broken. But here is the next question: why does the design keep breaking in the same ways?
+
+## The Five Ways Government Breaks
 
 If you look across South Africa's governance failures — across different functions, different spheres, different provinces, different decades — you begin to see patterns. Not random patterns, but recurring structural configurations that produce failure with remarkable consistency. A housing project that stalls in Limpopo fails for structurally similar reasons to a water system that collapses in the Eastern Cape. A provincial education department that cannot improve matric results suffers from the same institutional architecture as a provincial health department that cannot staff its clinics. The functions are different. The people are different. The failure pattern is the same.
 

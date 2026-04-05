@@ -25,9 +25,11 @@ seo:
     - "MTBPS budget submissions"
 ---
 
-## Your Voice on Paper
+## The Bottom Line, Up Front
 
 In *Your Right to Participate*, you learned that the Constitution requires the National Assembly, the NCOP, and every provincial legislature to facilitate public involvement in their legislative processes—and that the Constitutional Court has struck down legislation when this obligation was not met. In *Ward Committees and Community Engagement*, you learned how to participate in municipal planning and budgeting at the local level. This article completes Part 4 by giving you something the first two articles deliberately held back: the practical, step-by-step mechanics of making a written submission on draft legislation, regulations, budgets, and policy documents at the national and provincial level.
+
+## Your Voice on Paper
 
 Here is why this matters. Every year, Parliament and the nine provincial legislatures consider dozens of bills, hundreds of regulations, and numerous policy documents that shape the rules governing your life—from tax law to health regulation, from education policy to environmental standards, from labour law to data protection. Every one of these processes includes, by constitutional requirement, an opportunity for you to comment. And every one of these processes is dominated by a small number of organised participants—industry bodies, professional associations, law firms, and civil society organisations—because most citizens do not know how the process works or believe their voice will not count.
 

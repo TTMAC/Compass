@@ -25,9 +25,11 @@ seo:
     - "SDBIP service delivery plan"
 ---
 
-## The Participation That Matters Most Happens Closest to Home
+## The Bottom Line, Up Front
 
 In *Your Right to Participate*, you mapped the full landscape of constitutional rights and participation channels available to South African citizens—from parliamentary public hearings to PAIA requests to the Chapter 9 institutions. That article gave you the constitutional framework. This one gives you the practical detail for the participation channel that affects your daily life most directly: engagement with your municipal government.
+
+## The Participation That Matters Most Happens Closest to Home
 
 Here is why municipal participation matters more than any other form of civic engagement for most South Africans. Parliament sets the laws. The provincial government runs the schools and clinics. But your municipality delivers the services you interact with every single day—the water from your tap, the electricity to your home, the refuse collection from your street, the roads you drive on, the streetlights that keep your neighbourhood safe at night. When these services fail, the failure is immediate and personal. And the mechanisms for influencing how your municipality plans, budgets, and delivers these services are the most accessible participation channels in the entire governance system—if you know how to use them.
 

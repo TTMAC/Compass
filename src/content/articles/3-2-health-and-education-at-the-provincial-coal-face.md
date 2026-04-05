@@ -39,9 +39,11 @@ seo:
     - "medico-legal claims provinces"
 ---
 
-## Two Sectors, One Province, 80% of Every Rand
+## The Bottom Line, Up Front
 
 In *The Awkward Middle Child*, you learned that South Africa's nine provinces occupy a structurally awkward position—constitutionally powerful on paper but fiscally dependent on national transfers for more than 95% of their budgets. This article takes you inside the two sectors where that money actually goes, and where the consequences of provincial performance—good or bad—directly touch your life.
+
+## Two Sectors, One Province, 80% of Every Rand
 
 Here is the bottom line: if you want to understand what your provincial government actually does, you need to understand two sectors and only two sectors—basic education and health. Together, these two functions consume roughly 80% of every provincial budget in South Africa, according to National Treasury's annual Provincial Budget and Expenditure Review. Everything else your province does—agriculture, public works, roads, social development, sport and recreation, the office of the premier itself—fits into the remaining 20%. Provincial government is, in practice, a school-and-clinic delivery machine. The quality of your child's education and the reliability of your local public health facility are the single most consequential outputs of provincial governance. Evaluating your province means evaluating these two sectors. Everything else is secondary.
 

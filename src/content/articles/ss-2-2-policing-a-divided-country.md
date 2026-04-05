@@ -34,9 +34,11 @@ seo:
     - "crime and inequality"
 ---
 
-## A Tale of Two Police Stations
+## The Bottom Line, Up Front
 
-Your safety in South Africa depends, to a degree that should be constitutionally intolerable, on where you live. The same national police service that maintains a visible presence in suburban Sandton — patrol vehicles on the streets, a well-staffed charge office, detectives with manageable caseloads, rapid response times — is functionally absent in rural Limpopo, where a single police station may cover hundreds of square kilometres, the detective has 200 open cases, the patrol vehicle is broken down, and the nearest forensic services are a province away. The same Constitution that guarantees your right to freedom and security of the person under Section 12 delivers radically different safety outcomes depending on your postcode.
+Your safety in South Africa depends, to a degree that should be constitutionally intolerable, on where you live.
+
+## A Tale of Two Police Stations The same national police service that maintains a visible presence in suburban Sandton — patrol vehicles on the streets, a well-staffed charge office, detectives with manageable caseloads, rapid response times — is functionally absent in rural Limpopo, where a single police station may cover hundreds of square kilometres, the detective has 200 open cases, the patrol vehicle is broken down, and the nearest forensic services are a province away. The same Constitution that guarantees your right to freedom and security of the person under Section 12 delivers radically different safety outcomes depending on your postcode.
 
 This geographic inequality in policing is not a bug in the system. It is a structural feature of a centralised national police service trying to cover a country with nine provinces, 257 municipalities, and crime profiles that range from the gang wars of the Cape Flats to stock theft in the Free State to financial crime in Sandton to illegal mining operations in Mpumalanga to gender-based violence in every community in every corner of the country. A single, centrally managed force — with a single resource allocation model, a single command hierarchy, and a single set of operational priorities — cannot effectively police this diversity. The result is that the broken pipeline documented in [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) operates at vastly different levels of dysfunction depending on where you are.
 

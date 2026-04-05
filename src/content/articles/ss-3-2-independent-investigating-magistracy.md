@@ -30,9 +30,11 @@ seo:
     - "prosecution reform"
 ---
 
-## The Single Most Destructive Structural Flaw
+## The Bottom Line, Up Front
 
 The single most destructive structural flaw in South Africa's criminal justice system is the disconnect between investigation and prosecution. As [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) documented, cases collapse not because crimes cannot be solved, but because the handoff between SAPS investigators and NPA prosecutors is broken. Dockets arrive at the NPA incomplete. Evidence chains are compromised. Witnesses are lost. Neither institution has sufficient incentive or authority to fix the other's failures. The result is a cycle of referral and return — dockets bouncing between SAPS and the NPA — that adds months or years to case timelines and causes the majority of prosecutable cases to become unprosecutable through sheer institutional friction.
+
+## The Single Most Destructive Structural Flaw
 
 The French Juge d'Instruction model offers a structural solution to this specific problem. An investigating magistrate is an independent judicial officer who takes over complex criminal cases, directs the investigation, and prepares prosecution-ready dockets. The investigating magistrate has the authority to command police investigators, issue search and arrest warrants, question witnesses and suspects under oath, and compile the case dossier that goes to trial. By placing a judicial officer at the centre of the investigation — bridging the gap between police and prosecution — the model eliminates the handoff that causes cases to collapse.
 

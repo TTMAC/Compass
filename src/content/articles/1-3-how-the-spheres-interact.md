@@ -25,9 +25,11 @@ seo:
     - "government coordination South Africa"
 ---
 
-## The System That Holds the System Together
+## The Bottom Line, Up Front
 
-In the first two articles of this series, you learned the architecture of the South African state — three constitutionally equal spheres, each with protected powers — and you mapped out which sphere is responsible for which services. That knowledge is essential. But it is incomplete without understanding the connective tissue: the formal and informal mechanisms through which the three spheres are supposed to coordinate, cooperate, resolve disputes, and — when cooperation fails entirely — intervene in each other's affairs.
+In the first two articles of this series, you learned the architecture of the South African state — three constitutionally equal spheres, each with protected powers — and you mapped out which sphere is responsible for which services.
+
+## The System That Holds the System Together That knowledge is essential. But it is incomplete without understanding the connective tissue: the formal and informal mechanisms through which the three spheres are supposed to coordinate, cooperate, resolve disputes, and — when cooperation fails entirely — intervene in each other's affairs.
 
 Here is the bottom line, stated upfront: **South Africa has one of the most elaborate intergovernmental relations frameworks in the developing world, but the gap between the framework on paper and its functioning in practice is vast.** The Constitution mandates cooperation. The Intergovernmental Relations Framework Act of 2005 creates the forums. The Budget Council and MinMECs meet regularly. Provincial premiers sit on the President's Coordinating Council. And yet, the coordination that these mechanisms are supposed to produce — alignment between national policy, provincial implementation, and municipal delivery — frequently does not happen. The machinery exists. What is often missing is the political will, the institutional capacity, and the trust between spheres that the cooperative governance model assumes.
 

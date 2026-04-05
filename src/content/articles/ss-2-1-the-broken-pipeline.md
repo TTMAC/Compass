@@ -38,9 +38,11 @@ seo:
     - "court case backlog"
 ---
 
-## The Number You Need to Know
+## The Bottom Line, Up Front
 
-If you report a crime in South Africa today, the probability of that crime resulting in a conviction is catastrophically low. The exact figure depends on the crime category, but the pattern is consistent across all of them: the criminal justice pipeline — from the moment a crime is reported through investigation, arrest, prosecution, trial, and sentencing — haemorrhages cases at every single stage. For every hundred serious crimes reported to SAPS, a fraction result in arrests. Of those arrests, a fraction result in prosecutions. Of those prosecutions, a fraction result in convictions. By the time you reach the end of the pipeline, the system has lost the overwhelming majority of cases that entered it.
+If you report a crime in South Africa today, the probability of that crime resulting in a conviction is catastrophically low.
+
+## The Number You Need to Know The exact figure depends on the crime category, but the pattern is consistent across all of them: the criminal justice pipeline — from the moment a crime is reported through investigation, arrest, prosecution, trial, and sentencing — haemorrhages cases at every single stage. For every hundred serious crimes reported to SAPS, a fraction result in arrests. Of those arrests, a fraction result in prosecutions. Of those prosecutions, a fraction result in convictions. By the time you reach the end of the pipeline, the system has lost the overwhelming majority of cases that entered it.
 
 This is not an abstract statistic. It means that if someone breaks into your home, assaults you on the street, robs you at gunpoint, or — in the most devastating cases — rapes you or murders someone you love, the system that is supposed to convert that crime into justice will, in all probability, fail. The perpetrator will, in all probability, face no consequences. And the message that sends — to perpetrators, to victims, to communities, to the country — is that crime in South Africa is a low-risk activity. The environment of impunity that [From Rainbow Nation to State Capture](/articles/ss-1-2-from-rainbow-nation-to-state-capture) documented as a product of state capture is not just a political phenomenon. It is a structural reality embedded in the performance data of every institution in the criminal justice pipeline.
 

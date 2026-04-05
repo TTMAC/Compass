@@ -39,9 +39,11 @@ seo:
     - "coalition municipal government"
 ---
 
-## The Government You Can Walk To
+## The Bottom Line, Up Front
 
 In *The Awkward Middle Child*, you learned that provinces are constitutionally powerful but fiscally dependent—a middle layer of government that most citizens struggle to distinguish from national government. In *Health and Education at the Provincial Coal Face*, you followed 80% of provincial spending into schools and clinics and saw how implementation quality determines whether your child learns and your clinic has medicine. This article takes you to the sphere of government that should be the easiest to understand, the most directly accountable, and the most responsive to your daily life: your municipal council.
+
+## The Government You Can Walk To
 
 Here is the bottom line: your municipal council is the only level of government you can physically walk to. It meets in a building in your town or city. Its ward councillor lives in your neighbourhood. Its decisions determine whether your water runs, your streetlights work, your refuse is collected, and your roads are maintained. The municipal council is the elected body that is supposed to govern your municipality—approving budgets, passing by-laws, overseeing the mayor and the municipal administration, and representing your interests in the decisions that shape your daily environment. It is also, in a significant number of South Africa's 257 municipalities, the level of government where democratic governance most visibly breaks down: where councils collapse into factional warfare, where oversight is weakest, where coalitions implode, and where the distance between what the law requires and what actually happens is widest. Understanding how your municipal council is supposed to work—and why it so often does not—is the most practically useful piece of governance knowledge you can have.
 

@@ -32,9 +32,11 @@ seo:
     - "procurement reform"
 ---
 
-## What Capture Actually Means
+## The Bottom Line, Up Front
 
 When most South Africans hear the word "capture," they think of a specific story — the Gupta family, their relationship with former President Jacob Zuma, and the systematic redirection of state resources documented by the Zondo Commission. That story is real and important. But if you think of capture only as that story, you will misunderstand both the problem and the solution. Capture is not a single scandal. It is a structural condition. And it exists in far more places than Saxonwold.
+
+## What Capture Actually Means
 
 Start with the distinction between corruption and capture, because the two are different problems requiring different solutions. Corruption is transactional. A municipal official takes a bribe to approve a building plan. A traffic officer accepts cash to overlook a violation. A procurement official steers a tender to a family member's company. These are individual acts of dishonesty, and they can be addressed through investigation, prosecution, and punishment. South Africa has a well-developed legal framework for fighting corruption — the Prevention and Combating of Corrupt Activities Act, the Public Finance Management Act, the Municipal Finance Management Act, and a network of institutions from the National Prosecuting Authority to the Special Investigating Unit. Corruption is a crime committed by individuals within an institution that is otherwise functioning according to its mandate.
 

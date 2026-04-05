@@ -32,9 +32,11 @@ seo:
     - "school infrastructure"
 ---
 
-## The Education Value Chain
+## The Bottom Line, Up Front
 
 Basic education touches more South Africans more directly than any other government function. Approximately 13 million learners attend roughly 23,000 public ordinary schools across nine provinces. The Department of Basic Education's budget — combining national spending and provincial allocations — exceeds R300 billion annually, making education the largest single expenditure item in the consolidated government budget. Section 29 of the Constitution guarantees the right to basic education — a right that the Constitutional Court has held is immediately realisable, not subject to progressive realisation. And yet, despite this constitutional priority, this massive budget, and the existential importance of education to South Africa's future, the system produces results that are — by any international benchmark — deeply inadequate.
+
+## The Education Value Chain
 
 In the 2023 National Senior Certificate examinations, the national pass rate was 82.9 per cent. That figure sounds respectable until you examine what it conceals. The pass threshold for a subject is 30 per cent — a level that would constitute failure in most education systems globally. Only 37.5 per cent of candidates achieved a bachelor's pass — the minimum requirement for university entrance. The Progress in International Reading Literacy Study (PIRLS) has consistently shown that roughly 81 per cent of South African Grade 4 learners cannot read for meaning. The Trends in International Mathematics and Science Study (TIMSS) ranks South African learners near the bottom of participating countries. These outcomes are not the result of insufficient money. They are the result of a broken delivery chain.
 

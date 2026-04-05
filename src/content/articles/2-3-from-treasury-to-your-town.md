@@ -25,9 +25,11 @@ seo:
     - "municipal service delivery"
 ---
 
-## Where Money Becomes Water, Electricity, and Roads — Or Doesn't
+## The Bottom Line, Up Front
 
-In *Following the Money*, you traced how South Africa collects over R2 trillion in tax revenue through SARS and divides it among three spheres through the Division of Revenue Act. In *The Budget Process*, you walked through the annual cycle that determines those allocations — from the MTBPS in October to budget day in February to parliamentary scrutiny and the audit cycle. You now understand the fiscal pipeline from collection to allocation. This article follows the money to its final destination: your municipality, where national allocations and locally raised revenue are supposed to become the water that flows from your tap, the electricity that powers your home, the refuse collection on your street, and the roads you drive on every day.
+In *Following the Money*, you traced how South Africa collects over R2 trillion in tax revenue through SARS and divides it among three spheres through the Division of Revenue Act.
+
+## Where Money Becomes Water, Electricity, and Roads — Or Doesn't In *The Budget Process*, you walked through the annual cycle that determines those allocations — from the MTBPS in October to budget day in February to parliamentary scrutiny and the audit cycle. You now understand the fiscal pipeline from collection to allocation. This article follows the money to its final destination: your municipality, where national allocations and locally raised revenue are supposed to become the water that flows from your tap, the electricity that powers your home, the refuse collection on your street, and the roads you drive on every day.
 
 Here is the bottom line: the last mile of the fiscal pipeline — from Treasury allocation to municipal service delivery — is where the South African fiscal system most frequently breaks down. The money arrives. The budgets are approved. The plans are filed. And yet, in a growing number of municipalities, the services do not materialise, or they materialise at a quality that no allocation can justify. Understanding why requires looking at the specific mechanics of municipal finance: how money reaches municipalities, how municipalities are supposed to turn it into services, and where the translation from rands to results fails. This is not an abstract fiscal analysis. It is the story of your water, your electricity, your roads, and your rates — and it explains more about your daily quality of life than any other article in this series.
 

@@ -31,9 +31,11 @@ seo:
     - "professional municipal staff"
 ---
 
-## The Capability Crisis in Numbers
+## The Bottom Line, Up Front
 
 The previous three articles in Part 4 diagnosed [water](/articles/ra-4-1-fixing-water-and-sanitation), [electricity](/articles/ra-4-2-fixing-electricity), and [waste and roads](/articles/ra-4-3-fixing-waste-and-roads) as individual functions. Each produced a function-specific diagnosis with function-specific reform blueprints. But look at the RAARICLE™ scorecards side by side and two elements appear in the critical failure zone across every function: capability and information. Water's capability scores 1. Electricity's scores 2. Waste and roads both score 2. Information scores 2 to 3 across all four. These are not function-specific failures. They are the cross-cutting structural conditions that make every function fail.
+
+## The Capability Crisis in Numbers
 
 This article steps back from individual functions to diagnose these two elements directly. The question is not "why does the water department lack a qualified process controller?" or "why does the roads department lack an engineer?" The question is: why does the municipal institutional architecture systematically fail to attract, deploy, and retain qualified professionals — and why do municipal information systems consistently fail to provide the data that oversight bodies need?
 

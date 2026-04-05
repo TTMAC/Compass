@@ -25,9 +25,11 @@ seo:
     - "parliamentary budget oversight"
 ---
 
-## The Most Important Calendar You Have Never Seen
+## The Bottom Line, Up Front
 
-Every year, between April and March, South Africa's national government makes the fiscal decisions that determine whether your child's school gets a new classroom, whether your clinic gets chronic medication, whether your municipality gets infrastructure funding, and whether your social grant keeps pace with inflation. These decisions follow a precise calendar — a sequence of planning phases, policy statements, parliamentary debates, and approval votes that repeats every twelve months with clockwork regularity. The calendar is public. The documents are published online. The committee hearings are open. And yet almost no citizen follows it, because nobody has ever explained when the decisions happen, who makes them, and where you can show up to influence the outcome.
+Every year, between April and March, South Africa's national government makes the fiscal decisions that determine whether your child's school gets a new classroom, whether your clinic gets chronic medication, whether your municipality gets infrastructure funding, and whether your social grant keeps pace with inflation.
+
+## The Most Important Calendar You Have Never Seen These decisions follow a precise calendar — a sequence of planning phases, policy statements, parliamentary debates, and approval votes that repeats every twelve months with clockwork regularity. The calendar is public. The documents are published online. The committee hearings are open. And yet almost no citizen follows it, because nobody has ever explained when the decisions happen, who makes them, and where you can show up to influence the outcome.
 
 Here is the bottom line: the national budget is not an event. It is not the budget speech on a Wednesday afternoon in February when the Minister of Finance holds up a briefcase and the media publishes headline tax numbers. The budget is a twelve-month process with at least seven distinct phases, each involving specific institutions, specific documents, and specific opportunities for public input. If you only pay attention to budget day, you are watching the final scene of a play that started ten months earlier — and the decisions that actually shaped the outcome were made long before the minister stood up in Parliament. This article walks you through the full cycle, phase by phase, so you can identify the moments when the fiscal choices that affect your life are still open to influence.
 

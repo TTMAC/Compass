@@ -41,9 +41,11 @@ seo:
     - "safety and security reform"
 ---
 
-## The Criminal Justice Value Chain
+## The Bottom Line, Up Front
 
 If the previous three articles in this series diagnosed functions where the state tries to deliver something and fails — education, healthcare, housing — this article diagnoses a function where the state's failure has the most immediate and visceral consequence: your safety. When the education system fails, the damage is cumulative and generational. When the healthcare system fails, you may wait hours at a clinic or go without medication. When the housing system fails, you remain on a waiting list for years. But when the safety and security system fails, the consequence is that someone can rob you, assault you, rape you, or murder someone you love — and face no consequences. The criminal justice system's failure is measured not in backlogs or waiting lists but in bodies, trauma, and an environment of impunity that corrodes the social contract itself.
+
+## The Criminal Justice Value Chain
 
 As the Citizen Safety and Security pillar of GovCompass documented in detail — from the [historical inheritance](/articles/ss-1-1-order-through-oppression) of a police force designed for racial control rather than public safety, through the [broken pipeline](/articles/ss-2-1-the-broken-pipeline) that haemorrhages cases at every stage, to the [geographic inequality](/articles/ss-2-2-policing-a-divided-country) that makes your safety dependent on your postcode — South Africa's criminal justice system is in structural crisis. The probability of a reported crime resulting in a conviction is catastrophically low. The private security industry employs more than twice as many guards as SAPS has officers, because millions of South Africans have effectively exited the public safety system. And the communities that are most exposed to violent crime — informal settlements, rural areas, townships — are precisely the communities where the state's safety apparatus is weakest.
 

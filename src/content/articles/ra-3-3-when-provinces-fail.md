@@ -31,9 +31,11 @@ seo:
     - "governance intervention"
 ---
 
-## The Section 100 Track Record
+## The Bottom Line, Up Front
 
 Section 100 of the Constitution provides the mechanism through which national government intervenes when a province fails to fulfil its constitutional or legislative obligations. The provision comes in two forms. Section 100(1)(a) allows the national executive to issue a directive to the provincial executive describing the extent of its failure and the steps required to remedy it. Section 100(1)(b) goes further — it allows the national executive to assume responsibility for the relevant obligation itself. Both forms require the National Council of Provinces to be notified, and the NCOP has the power to review and potentially disapprove the intervention.
+
+## The Section 100 Track Record
 
 In theory, Section 100 is the ultimate accountability mechanism for provincial government — the constitutional backstop that ensures provinces cannot fail indefinitely without consequence. In practice, the track record tells a different story.
 

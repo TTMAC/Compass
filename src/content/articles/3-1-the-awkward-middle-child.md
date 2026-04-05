@@ -39,9 +39,11 @@ seo:
     - "Schedule 4 Schedule 5 powers"
 ---
 
-## Why Your Province Is the Most Misunderstood Part of South African Government
+## The Bottom Line, Up Front
 
 South Africa's nine provinces sit in the most structurally awkward position in the entire governance system. They are constitutionally powerful on paper—Schedule 4 of the Constitution assigns them concurrent authority over education, health, housing, agriculture, and a dozen other critical functions. Schedule 5 gives them exclusive control over ambulance services, provincial roads, liquor licences, and libraries. They employ the teachers who educate your children and the nurses who staff your local clinic. They absorb the largest single share of nationally raised revenue—approximately R756 billion in the 2024/25 financial year, according to the Division of Revenue Act (DORA). By any measure, provincial government is where the bulk of South Africa's public services live.
+
+## Why Your Province Is the Most Misunderstood Part of South African Government
 
 And yet, provinces are fiscally dependent, politically overshadowed, and persistently misunderstood. They raise less than 5% of their own revenue. They have almost no independent tax base. They depend almost entirely on transfers from National Treasury—transfers whose size, timing, and conditions are determined in Pretoria, not in the provincial capital. They implement national policy frameworks they did not design, under spending conditions they did not set, and are held accountable by a national Auditor-General whose audit cycle shapes their administrative behaviour more than their own legislatures do. When things go wrong—when schools run out of textbooks, when clinics run out of medicine, when provincial roads deteriorate—the blame falls inconsistently on premiers, MECs, national ministers, or "the government" in general, because most citizens have no clear mental model for what provincial government actually does, what it controls, and what it cannot control. This article gives you that mental model.
 

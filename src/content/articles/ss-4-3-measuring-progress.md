@@ -35,9 +35,11 @@ seo:
     - "criminal justice technology"
 ---
 
-## The Crime Statistics Ritual
+## The Bottom Line, Up Front
 
 Every year, the Minister of Police stands before the cameras and presents the annual crime statistics. The media reports the numbers. Commentators debate whether crime is "up" or "down." Opposition politicians demand the Minister's resignation. The Minister defends the statistics as evidence of progress, or explains them away as a legacy of historical challenges. The cycle repeats. Nothing changes.
+
+## The Crime Statistics Ritual
 
 This ritual is worse than useless. It actively obscures the truth about South Africa's criminal justice system, because it focuses attention on the wrong metric. Crime statistics — the number of reported murders, robberies, assaults, burglaries — tell you how much crime enters the system. They tell you almost nothing about what the system does with it. They do not tell you whether detectives investigated the crimes effectively. They do not tell you whether prosecutors converted investigations into convictions. They do not tell you whether courts processed cases within reasonable time frames. They do not tell you whether sentenced offenders were rehabilitated or simply warehoused. They do not tell you whether released offenders reoffended. They do not tell you whether victims experienced justice.
 

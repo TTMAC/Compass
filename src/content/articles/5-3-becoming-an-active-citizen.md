@@ -25,9 +25,11 @@ seo:
     - "hold government accountable"
 ---
 
-## From Understanding to Action
+## The Bottom Line, Up Front
 
 You have come a long way.
+
+## From Understanding to Action
 
 In Part 1, you learned the architecture of the state — how the Constitution divides power across three spheres, which sphere is responsible for which services, and how the intergovernmental system connects them. In Part 2, you followed the money — from SARS through the National Revenue Fund, through the Division of Revenue Act, through the budget process, and into the municipal budgets that fund your water, electricity, and roads. In Part 3, you examined what provinces and municipalities actually deliver — the schools, clinics, and council chambers where governance becomes tangible. In Part 4, you claimed your place in the system — learning the constitutional rights that make you a participant, the ward committees and IDP processes that give you a voice, and the public submission process that turns your voice into a document that legislators must consider. In Part 5, you acquired the tools of assessment — reading the Auditor-General's reports that tell you whether money was managed properly, and navigating the data landscape that tells you whether services were actually delivered.
 

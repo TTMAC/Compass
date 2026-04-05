@@ -30,9 +30,11 @@ seo:
     - "criminal sentencing data"
 ---
 
-## Caught Between Two Failures
+## The Bottom Line, Up Front
 
 South Africa's sentencing framework is caught between two failures. On one side: the Criminal Law Amendment Act of 1997 (Act 105) imposed blunt minimum sentences for serious offences — removing judicial discretion without addressing the root causes of sentencing inconsistency. A magistrate who concludes that a particular case warrants a sentence below the minimum must find "substantial and compelling circumstances" to deviate — a legal standard that different courts interpret differently, creating inconsistency in the application of a law designed to reduce inconsistency. On the other side: in the absence of structured guidelines for the vast majority of offences not covered by minimum sentencing, magistrates and judges produce wildly inconsistent sentences for similar crimes across different courts and provinces. The same offence, with similar circumstances, can produce sentences that vary by years depending on which magistrate hears the case and in which jurisdiction.
+
+## Caught Between Two Failures
 
 The result is a system that is simultaneously too rigid and too arbitrary. Minimum sentences remove the judicial discretion needed for individualised justice in the cases they cover. The absence of guidelines leaves judicial discretion entirely unstructured in the cases they do not. Neither approach produces sentences that are consistently proportionate, constitutionally sound, and aligned with the rehabilitation mandate that the Correctional Services Act establishes as the primary purpose of incarceration.
 

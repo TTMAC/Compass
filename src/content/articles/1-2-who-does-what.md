@@ -25,9 +25,11 @@ seo:
     - "government accountability South Africa"
 ---
 
-## The Most Practical Question in South African Governance
+## The Bottom Line, Up Front
 
-In the previous article in this series, *The Architecture of the State*, you learned that South Africa's Constitution divides power across three constitutionally equal spheres—national, provincial, and municipal—each with protected powers. You learned about Schedules 4 and 5, about cooperative governance, about the fiscal transfer system. All of that was necessary groundwork. But here is the question that actually matters when something goes wrong in your life: **who, specifically, is responsible?**
+In the previous article in this series, *The Architecture of the State*, you learned that South Africa's Constitution divides power across three constitutionally equal spheres—national, provincial, and municipal—each with protected powers.
+
+## The Most Practical Question in South African Governance You learned about Schedules 4 and 5, about cooperative governance, about the fiscal transfer system. All of that was necessary groundwork. But here is the question that actually matters when something goes wrong in your life: **who, specifically, is responsible?**
 
 Not which sphere in the abstract. Which department. Which minister or MEC or municipal official. Which budget line. Which office you should be directing your complaint to, your access-to-information request to, your public pressure towards. Because the single biggest reason that citizen pressure fails to produce results in South Africa is not apathy—it is misdirection. You are shouting at the wrong office. You are marching on the wrong building. You are tweeting at the wrong politician. And the official who is actually responsible for your problem is sitting comfortably, unscrutinised, because nobody knows their name.
 

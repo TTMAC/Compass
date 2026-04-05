@@ -30,9 +30,11 @@ seo:
     - "government restructuring"
 ---
 
-## The Three Legal Pathways
+## The Bottom Line, Up Front
 
 Over the course of Parts 2, 3, and 4 of this series, you have seen a comprehensive programme of governance reform. Education needs a structured autonomy model that gives provincial departments operational authority over teacher employment. Healthcare needs semi-autonomous district PHC authorities with delegated procurement and staffing powers. Human settlements needs consolidated municipal delivery agencies with end-to-end ownership of the housing chain. Water and sanitation needs a clean separation between the Water Services Authority and the Water Services Provider. Electricity needs ring-fenced revenue and independent procurement pathways. Municipal capability needs mandatory professional qualifications and protected technical appointments. And binding all of these together, the enforcement architecture needs automatic triggers that replace the discretionary Section 100 intervention model.
+
+## The Three Legal Pathways
 
 That is a substantial reform agenda. The question that naturally follows — the question that will determine whether any of this actually happens — is: what does it take, legally, to implement each of these reforms? Does South Africa need to rewrite its Constitution? Does it need new Acts of Parliament? Or can some of these changes happen through the stroke of a ministerial pen?
 

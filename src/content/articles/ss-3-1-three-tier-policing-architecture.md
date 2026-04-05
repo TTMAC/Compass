@@ -34,9 +34,11 @@ seo:
     - "community policing"
 ---
 
-## The Constitution Already Has the Blueprint
+## The Bottom Line, Up Front
 
 South Africa's Constitution already envisions three spheres of government — national, provincial, and municipal — each distinctive, interdependent, and interrelated. As [The Architecture of the State](/articles/1-1-architecture-of-the-state) documented, this three-spheres framework was a deliberate design choice by the constitutional framers, who rejected the hierarchical "tiers" model in favour of constitutionally equal spheres with protected functions. Schedule 4 Part A of the Constitution lists "police services" as a concurrent function between national and provincial government. The Municipal Systems Act already provides for municipal police services. The constitutional architecture for three tiers of policing is already there, embedded in the founding document of the democratic state. What is missing is the political will to implement what the Constitution's design logic already implies.
+
+## The Constitution Already Has the Blueprint
 
 Instead, South Africa has a single, centralised national police service — SAPS — with over 190,000 members under a single National Commissioner appointed by the President, reporting to a single Minister of Police. As Part 2 of this series documented in detail, this one-sphere, one-size-fits-all model has produced a system that is simultaneously too big and too incapable. It cannot effectively police the gang wars of the Cape Flats (which require intelligence-led urban policing), the stock theft crisis in the Free State (which requires rural patrol and local knowledge), the financial crime corridors of Sandton (which require specialist forensic accounting), and the informal settlements of Ekurhuleni (which require community-embedded beat policing) — because all of these vastly different environments are served by the same centralised hierarchy with the same operational model, the same resource allocation framework, and the same command structure.
 

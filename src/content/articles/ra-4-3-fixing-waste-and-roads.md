@@ -32,9 +32,11 @@ seo:
     - "stormwater management"
 ---
 
-## Two Functions, One Pattern
+## The Bottom Line, Up Front
 
 You do not need the RAARICLE™ framework to know that waste collection and road maintenance are failing across South Africa. You can see it. The uncollected refuse piling up on street corners in townships. The illegal dump sites growing on vacant land. The potholes that swallow tyres on roads that were last resurfaced a decade ago. The stormwater drains blocked with rubbish that flood every time it rains. These are the municipal failures that South Africans encounter every day — the ones that shape their experience of government more directly than any policy document or budget speech.
+
+## Two Functions, One Pattern
 
 The Automobile Association estimated in April 2025 that South Africa has more than 25 million potholes — a 67 per cent increase over five years. The SAICE Infrastructure Report Card 2022 graded municipal paved roads at D and unpaved roads at E — unfit for purpose. Only 60 per cent of households nationally have access to regular refuse removal, a figure that drops to 12.5 per cent in rural areas. More than 80 per cent of municipal landfill sites do not meet minimum regulatory requirements. Nearly half of the country's approximately 1,327 documented waste disposal sites are unlicensed.
 

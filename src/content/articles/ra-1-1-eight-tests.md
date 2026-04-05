@@ -30,9 +30,11 @@ seo:
     - "public sector reform"
 ---
 
-## Why Government Fails Isn't a Mystery — It's a Design Problem
+## The Bottom Line, Up Front
 
 When water stops flowing from your tap, when the clinic has no medication, when your child's school has no textbooks — what is the first thing you think? Most South Africans reach for the same explanation: corruption. Or incompetence. Or both. And they are not entirely wrong. South Africa has no shortage of officials who have stolen public money, appointees who lack the qualifications for their posts, or politicians who treat government as a vehicle for personal enrichment rather than public service. The Zondo Commission's State Capture findings made that painfully, exhaustively clear.
+
+## Why Government Fails Isn't a Mystery — It's a Design Problem
 
 But here is a question that rarely gets asked: why does government fail even where officials are competent and honest? In the 2023-24 municipal audit cycle, only 41 out of 257 municipalities — sixteen per cent — achieved a clean audit. The Auditor-General identified R27.3 billion in fruitless and wasteful expenditure across 110 municipalities, and ninety municipalities had spent more than they had available. Yet even among the small number of municipalities that manage their finances well, many still struggle to deliver reliable water. Why? Why do provincial education departments with capable HODs still produce matric results that vary wildly from one district to the next? Why does the national Department of Human Settlements publish ambitious housing targets year after year, only to miss them by tens of thousands of units?
 

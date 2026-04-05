@@ -33,9 +33,11 @@ seo:
     - "reform sequencing"
 ---
 
-## The Trap of Comprehensive Reform
+## The Bottom Line, Up Front
 
 South Africa has no shortage of reform plans. The National Development Plan devoted an entire chapter to safety and justice. The White Paper on Policing (2016) articulated a vision for professional, demilitarised police services. The White Paper on Corrections (2005) described rehabilitation-centred incarceration. The Farlam Commission after Marikana produced detailed recommendations on crowd management and police accountability. Parliamentary committees have tabled reports. Civil society organisations have published blueprints. University researchers have produced dissertations.
+
+## The Trap of Comprehensive Reform
 
 Almost none of it has been implemented.
 

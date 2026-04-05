@@ -25,9 +25,11 @@ seo:
     - "equitable share formula"
 ---
 
-## The Single Most Important Thing You Need to Know About How South Africa Is Governed
+## The Bottom Line, Up Front
 
-In 1996, South Africa's Constitutional Assembly did something remarkably ambitious. They designed a system of government that divided power not into the familiar hierarchy of national, regional, and local—with each level subordinate to the one above—but into three constitutionally equal "spheres" of government, each with its own protected powers, its own revenue sources, and its own democratic mandate. This design, enshrined in Chapter 3 of the Constitution, created one of the most complex multi-sphere governance architectures in the developing world. It was a deliberate choice, born from the specific pathologies of apartheid's centralised authoritarian state, and it has shaped every aspect of how services reach you—or fail to reach you—for the past three decades.
+In 1996, South Africa's Constitutional Assembly did something remarkably ambitious.
+
+## The Single Most Important Thing You Need to Know About How South Africa Is Governed They designed a system of government that divided power not into the familiar hierarchy of national, regional, and local—with each level subordinate to the one above—but into three constitutionally equal "spheres" of government, each with its own protected powers, its own revenue sources, and its own democratic mandate. This design, enshrined in Chapter 3 of the Constitution, created one of the most complex multi-sphere governance architectures in the developing world. It was a deliberate choice, born from the specific pathologies of apartheid's centralised authoritarian state, and it has shaped every aspect of how services reach you—or fail to reach you—for the past three decades.
 
 Here is the core takeaway, and everything else in this article exists to prove it: **if you do not understand how power is divided across South Africa's three spheres of government, you cannot hold the right people accountable when things go wrong.** You will shout at the president about potholes (a municipal function). You will blame your mayor for the state of public hospitals (a provincial function). You will march on the Union Buildings about your property rates (a municipal function) or demand that your ward councillor fix the police service (a national function). This misdirected anger is not your fault. Nobody taught you the architecture of the state. But it means your energy—and South Africa has no shortage of civic energy—gets wasted on the wrong targets, and the officials who are actually responsible escape scrutiny. This article exists to fix that.
 

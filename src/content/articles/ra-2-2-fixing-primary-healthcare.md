@@ -33,9 +33,11 @@ seo:
     - "pharmaceutical supply chain"
 ---
 
-## The Healthcare Value Chain
+## The Bottom Line, Up Front
 
 When you walk into a public clinic with a cough that will not clear, a child with diarrhoea, or a chronic condition that needs its monthly medication, you are entering the final link of a delivery chain that stretches from the national Department of Health in Pretoria through provincial bureaucracies, district management structures, pharmaceutical supply networks, and multiple conditional grant funding streams before it reaches the nurse who examines you. Understanding that chain — who controls each link, where the handoff points are, and where the chain routinely breaks — is the first step toward understanding why your clinic experience is what it is.
+
+## The Healthcare Value Chain
 
 Start at the national level. The National Department of Health sets health policy for the country, determines the Essential Medicines List (which prescribes exactly which medicines should be available at each level of care), publishes clinical guidelines and treatment protocols, and administers several of the largest conditional grants in the Division of Revenue. The Comprehensive HIV/AIDS Grant — approximately R29 billion in 2024/25 — funds antiretroviral treatment, prevention of mother-to-child transmission, and HIV testing across all provinces. The Health Facility Revitalisation Grant funds clinic and hospital infrastructure construction and rehabilitation. The National Health Insurance Indirect Grant funds NHI pilot activities. Each grant comes with its own conditions, reporting requirements, and spending timelines.
 

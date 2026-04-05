@@ -35,9 +35,11 @@ seo:
     - "active citizenship"
 ---
 
-## You Now Have a Diagnostic Framework
+## The Bottom Line, Up Front
 
 You have made it through fourteen articles. That is not a small thing. Most commentary on South African governance gives you outrage — a catalogue of failures, a parade of incompetent or corrupt officials, and the implicit message that nothing can be done because the problems are too deep, too widespread, too entrenched. You now have something different. You have a diagnostic framework.
+
+## You Now Have a Diagnostic Framework
 
 In [The Eight Tests Every Government Institution Must Pass](/articles/ra-1-1-eight-tests), you learned the RAARICLE™ framework — eight elements that every government institution needs in order to function. Responsibility: one entity must own the task end-to-end. Accountability: one name must be on the performance agreement. Authority: the accountable entity must control the levers — hiring, firing, procurement, regulation. Resources: the money must follow the function. Information: performance data must be timely, accurate, and public. Capability: the institution must have qualified people in the right posts. Legitimacy: there must be a clear constitutional or legislative mandate. Enforcement: there must be automatic consequences for failure. Eight tests. When a government function passes all eight, services tend to work. When it fails several simultaneously — which is the norm — the result is the systemic collapse that millions of South Africans experience as daily life.
 

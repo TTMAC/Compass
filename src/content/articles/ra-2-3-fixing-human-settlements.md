@@ -33,9 +33,11 @@ seo:
     - "housing subsidy reform"
 ---
 
-## The Human Settlements Value Chain
+## The Bottom Line, Up Front
 
 If you want to understand what maximum institutional fragmentation looks like — what happens when a government function is scattered across so many entities that nobody owns the outcome — human settlements is the case study. No other function in South African governance involves as many institutions, as many handoff points, and as complete an absence of end-to-end ownership as the delivery of a subsidised house from project conception to a beneficiary holding a title deed.
+
+## The Human Settlements Value Chain
 
 In [Why South Africa's Institutions Keep Failing](/articles/ra-1-2-why-institutions-fail), fragmentation was identified as the first of five structural failure patterns. Human settlements is where that pattern reaches its most extreme expression. The education value chain is fragmented across two spheres. The healthcare value chain involves multiple entities but at least has a single facility as the point of delivery. The housing value chain involves at least six distinct entities across all three spheres of government, plus private sector developers, a regulatory body, and a deeds registration system — and the output is not a recurring service but a once-off physical product that must be planned, financed, built, inspected, and legally transferred. Every step requires a different entity. Every handoff creates a gap. And the beneficiary at the end of the chain — the person who has been on a waiting list for years or decades — bears the full cost of every gap.
 
