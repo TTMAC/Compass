@@ -248,6 +248,19 @@ const isTopicsActive = currentPath.startsWith("/pillars") || currentPath === "/b
     });
   }
 
+  // Recalculate mobile menu height when Topics accordion toggles
+  const topicsDetails = menu?.querySelector("details.group\\/topics");
+  if (topicsDetails && menu) {
+    topicsDetails.addEventListener("toggle", () => {
+      const isMenuOpen =
+        toggle?.getAttribute("aria-expanded") === "true";
+      if (isMenuOpen) {
+        (menu as HTMLElement).style.maxHeight =
+          menu.scrollHeight + "px";
+      }
+    });
+  }
+
   // Topics dropdown: toggle aria-expanded on hover/focus
   const topicsBtn = document.querySelector("li.group button[aria-haspopup]");
   const topicsParent = topicsBtn?.closest("li.group");
