@@ -252,3 +252,16 @@ The reinforcing cycle operates through quantifiable mechanisms. Safety can be me
 **Question 5: Does the timeline match the cycle's dynamics?**
 The reinforcing cycle operates over decades, not election cycles. A proposal that promises to "fix education" in five years is either dishonest or naive. Evaluate whether the timeline acknowledges the generational nature of the challenge and proposes institutional mechanisms — fiscal rules, independent monitoring, legislative commitments — to sustain the intervention beyond any single government's term.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- National Planning Commission (2012), *National Development Plan 2030: Our Future — Make It Work* — South Africa's comprehensive development strategy identifying the interdependencies between safety, growth, and human development — [nationalplanningcommission.org.za](https://www.nationalplanningcommission.org.za)
+- Donella Meadows (2008), *Thinking in Systems: A Primer* — foundational text on systems dynamics, feedback loops, and leverage points referenced throughout the article — Chelsea Green Publishing
+- Daron Acemoglu and James Robinson (2012), *Why Nations Fail: The Origins of Power, Prosperity, and Poverty* — the argument that inclusive vs extractive institutions determine long-run prosperity — Crown Business
+- Douglass North (1990), *Institutions, Institutional Change and Economic Performance* — Nobel Prize-winning work on how property rights, contract enforcement, and institutional quality drive economic growth — Cambridge University Press
+- World Bank, *Worldwide Governance Indicators* — rule of law, control of corruption, government effectiveness, and regulatory quality scores for cross-country comparison — [info.worldbank.org/governance/wgi](https://info.worldbank.org/governance/wgi)
+- South African Reserve Bank, *Quarterly Bulletin* — foreign direct investment flows, GDP growth, and macroeconomic data — [resbank.co.za](https://www.resbank.co.za)
+- Institute for Security Studies (ISS), research on the crime-economy nexus and the cost of crime to economic growth in South Africa — [issafrica.org](https://issafrica.org)
+- Statistics South Africa (Stats SA), *Quarterly Labour Force Survey* — expanded unemployment rate and labour market data — [statssa.gov.za](https://www.statssa.gov.za)

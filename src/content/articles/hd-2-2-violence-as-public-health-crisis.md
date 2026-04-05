@@ -224,3 +224,16 @@ Key questions: Does your municipality's IDP identify violence as a public health
 **Step 5: Connect to the reinforcing cycle.**
 Key questions: Can you trace the pathway from violence in your area to health system strain, to reduced economic activity, to lower municipal revenue, to poorer services, to more violence? Mapping this cycle in concrete, local terms makes the abstract framework real — and identifies the specific intervention points where breaking the cycle is most feasible.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- South African Police Service (SAPS), *Annual Crime Statistics* — reported murders, assault GBH, aggravated robbery, and sexual offences data — [saps.gov.za](https://www.saps.gov.za)
+- South African Medical Research Council (SAMRC), *National Burden of Disease Study* and injury mortality surveillance — mortuary-based homicide data, femicide research, and years of life lost estimates — [samrc.ac.za](https://www.samrc.ac.za)
+- Statistics South Africa (Stats SA), *Victims of Crime Survey* — household-level victimisation data including unreported crime estimates — [statssa.gov.za](https://www.statssa.gov.za)
+- United Nations Office on Drugs and Crime (UNODC), *Global Study on Homicide* — international homicide rate comparisons and regional analysis — [unodc.org](https://www.unodc.org)
+- KPMG (2014), *Too Costly to Ignore — the Economic Impact of Gender-Based Violence in South Africa* — estimated direct health and economic costs of GBV at R28–42 billion per year
+- World Health Organization (WHO), *Mental Health Atlas* — psychiatrist and psychologist density data, WHO-recommended minimum workforce thresholds — [who.int](https://www.who.int)
+- Gender and Health Research Unit, SAMRC — longitudinal research on intimate partner violence, PTSD prevalence, and reproductive health consequences of GBV — [samrc.ac.za](https://www.samrc.ac.za)
+- Road Traffic Management Corporation (RTMC), *Annual Report* — road traffic fatality data and provincial crash statistics — [rtmc.co.za](https://www.rtmc.co.za)

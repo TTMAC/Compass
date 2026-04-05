@@ -239,3 +239,16 @@ Data source: Provincial education department staffing data; school-level support
 Key questions: Do learners have access to electricity for homework? Is there physical space to study? Is substance abuse, domestic violence, or overcrowding prevalent in the surrounding community? These conditions are not the school's responsibility, but they determine the school's outcomes.
 Data source: Stats SA General Household Survey (ward-level data); community profiles in municipal IDPs.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Centre for Justice and Crime Prevention (CJCP), *National School Violence Study* — longitudinal data on children's exposure to violence and its dose-response relationship with educational outcomes — [cjcp.org.za](https://www.cjcp.org.za)
+- Adverse Childhood Experiences (ACEs) research — original Kaiser Permanente/CDC study and South African replication studies documenting ACE prevalence above 80% among SA children
+- Department of Basic Education (DBE), *National School Nutrition Programme* annual reports — coverage, targeting, and nutritional impact data — [education.gov.za](https://www.education.gov.za)
+- Department of Basic Education (DBE), scholar transport programme data — coverage gaps and provincial implementation of learner transport — [education.gov.za](https://www.education.gov.za)
+- Statistics South Africa (Stats SA), *General Household Survey* — household-level data on food security, access to electricity, housing conditions, and ward-level community profiles — [statssa.gov.za](https://www.statssa.gov.za)
+- South African Medical Research Council (SAMRC), research on toxic stress, childhood trauma, and neurobiological impacts of chronic violence exposure — [samrc.ac.za](https://www.samrc.ac.za)
+- Western Cape Education Department, school closure reports and gang violence impact assessments — [wcedonline.westerncape.gov.za](https://wcedonline.westerncape.gov.za)
+- National Income Dynamics Study (NIDS) — longitudinal panel data tracking how household poverty, food insecurity, and neighbourhood conditions affect educational attainment over time — [nids.uct.ac.za](https://www.nids.uct.ac.za)

@@ -246,3 +246,17 @@ What to ask: Is the gap between the best-performing and worst-performing distric
 Source: District Health Barometer; primary healthcare facility reports.
 What to ask: What proportion of adults over 40 have been screened for hypertension and diabetes? What proportion of diagnosed patients are on treatment and achieving clinical targets? Is the primary healthcare system being re-engineered to manage chronic diseases alongside infectious diseases?
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Statistics South Africa (Stats SA), *Mid-Year Population Estimates* — official life expectancy at birth estimates and demographic projections — [statssa.gov.za](https://www.statssa.gov.za)
+- UNAIDS, *Country Factsheet: South Africa* — HIV prevalence, treatment cascade progress toward 95-95-95 targets, ART coverage, and new infection estimates — [unaids.org](https://www.unaids.org)
+- World Health Organization (WHO), *Global Tuberculosis Report* — TB incidence, mortality, and HIV-TB co-infection data for South Africa — [who.int/teams/global-tuberculosis-programme](https://www.who.int/teams/global-tuberculosis-programme)
+- Health Systems Trust, *District Health Barometer* — district-level health indicators including ART coverage, TB treatment outcomes, maternal mortality, and NCD screening rates — [hst.org.za](https://www.hst.org.za)
+- Samuel Preston (1975), "The Changing Relation between Mortality and Level of Economic Development," *Population Studies* — the foundational paper establishing the income-life expectancy relationship (Preston Curve)
+- Chigwedere et al. (2008), "Estimating the Lost Benefits of Antiretroviral Drug Use in South Africa," *Journal of Acquired Immune Deficiency Syndromes* — Harvard study estimating 330,000 preventable deaths from delayed ART rollout 2000–2005
+- South African National AIDS Council (SANAC), *National Strategic Plan for HIV, TB and STIs* — the policy framework governing South Africa's response to HIV and TB — [sanac.org.za](https://www.sanac.org.za)
+- US President's Emergency Plan for AIDS Relief (PEPFAR), *South Africa Country Operational Plan* — PEPFAR funding, programme priorities, and treatment targets — [pepfar.gov](https://www.pepfar.gov)
+- National Department of Health, *Annual Report* — public health expenditure, ART programme statistics, and health infrastructure data — [health.gov.za](https://www.health.gov.za)

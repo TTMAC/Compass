@@ -252,3 +252,16 @@ Key questions: Is unemployment declining for TVET graduates and university gradu
 Source: Stats SA GDP by industry; Quarterly Employment Statistics.
 Key questions: Is manufacturing's share of GDP and employment growing or declining? Is the proportion of the workforce in high-productivity sectors increasing? Is informal employment declining as a share of total employment? These are the macro indicators that tell you whether the classroom-to-paycheck pipeline is functioning at a national scale.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Eric Hanushek and Ludger Woessmann, *The Knowledge Capital of Nations* (2015) — the definitive empirical work linking cognitive skills (not years of schooling) to long-run economic growth — MIT Press
+- Statistics South Africa (Stats SA), *Quarterly Labour Force Survey* — unemployment rates (official and expanded), youth unemployment, and employment by sector — [statssa.gov.za](https://www.statssa.gov.za)
+- Harvard Growth Lab, *Atlas of Economic Complexity* — Economic Complexity Index rankings, product space analysis, and South Africa's complexity trajectory — [atlas.cid.harvard.edu](https://atlas.cid.harvard.edu)
+- Statistics South Africa (Stats SA), *GDP by industry* quarterly releases — manufacturing share of GDP, sectoral employment trends, and structural transformation indicators — [statssa.gov.za](https://www.statssa.gov.za)
+- Department of Higher Education and Training (DHET), *Annual Report* and SETA performance data — skills development programme outcomes, NEET statistics, and post-school education data — [dhet.gov.za](https://www.dhet.gov.za)
+- World Bank, *Human Capital Index* — learning-adjusted years of schooling, expected productivity, and cross-country human capital comparisons — [worldbank.org/en/publication/human-capital](https://www.worldbank.org/en/publication/human-capital)
+- National Treasury, *Budget Review* — education and skills development budget allocations and expenditure trends — [treasury.gov.za](https://www.treasury.gov.za)
+- OECD, *Education at a Glance* — international education spending and outcome comparisons for benchmarking South Africa's performance — [oecd.org/education](https://www.oecd.org/education)

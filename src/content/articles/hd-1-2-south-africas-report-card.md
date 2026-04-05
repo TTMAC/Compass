@@ -242,3 +242,16 @@ What to watch: Is the expanded unemployment rate (which includes discouraged wor
 Source: Stats SA (using General Household Survey data) and UNDP MPI reports.
 What to watch: Is the share of people experiencing multidimensional poverty declining? Is the intensity of deprivation (average number of deprivations among the poor) falling? Are the geographic concentrations of poverty — former homelands, informal settlements, deep rural areas — receiving targeted attention?
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- United Nations Development Programme (UNDP), *Human Development Report 2023/24* — HDI, IHDI, GDI, GII, and MPI scores for South Africa, methodology notes, and country profile — [hdr.undp.org](https://hdr.undp.org)
+- Statistics South Africa (Stats SA), *Mid-Year Population Estimates* — life expectancy at birth estimates, population structure, and demographic trends — [statssa.gov.za](https://www.statssa.gov.za)
+- Statistics South Africa (Stats SA), *General Household Survey* — education attainment, access to healthcare, and housing data used for national MPI calculations — [statssa.gov.za](https://www.statssa.gov.za)
+- UNAIDS, *Country Factsheet: South Africa* — HIV prevalence, treatment cascade data (90-90-90 and 95-95-95 targets), and ART coverage estimates — [unaids.org](https://www.unaids.org)
+- Pridmore, Carr-Hill et al. (2008), "Estimating the Number of AIDS Deaths Averted by ARV Treatment in South Africa," *Journal of Acquired Immune Deficiency Syndromes* — Harvard School of Public Health study estimating 330,000 preventable deaths from delayed ART rollout
+- World Bank Open Data — GNI per capita (PPP), income distribution data, and international poverty line calculations — [data.worldbank.org](https://data.worldbank.org)
+- Oxford Poverty and Human Development Initiative (OPHI), *Multidimensional Poverty Index* — methodology, country briefings, and sub-national MPI data for South Africa — [ophi.org.uk](https://ophi.org.uk)
+- Progress in International Reading Literacy Study (PIRLS) and Trends in International Mathematics and Science Study (TIMSS) — international assessment data referenced in the education dimension analysis — [iea.nl](https://www.iea.nl)

@@ -323,3 +323,16 @@ Key question: What is the vacancy rate for professional nurses, doctors, and pha
 Source: Stats SA GDP data; National Treasury fiscal framework.
 Key question: Is GDP growth sufficient (at least 3 per cent) to generate the additional tax revenue needed for health system expansion? If growth is below 2 per cent, the health budget is likely to stagnate or decline in real terms — meaning that efficiency improvements are the only pathway to better outcomes in the medium term.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- National Treasury, *Budget Review* and *Estimates of National Expenditure (ENE)* — consolidated health budget allocations, debt service costs, revenue projections, and fiscal framework — [treasury.gov.za](https://www.treasury.gov.za)
+- World Health Organization (WHO), *Global Health Expenditure Database* — total, public, and private health expenditure as percentage of GDP, per capita spending comparisons — [apps.who.int/nha/database](https://apps.who.int/nha/database)
+- Health Systems Trust, *South African Health Review* — annual analysis of health financing, resource allocation, and health system performance — [hst.org.za](https://www.hst.org.za)
+- National Department of Health (2024), *National Health Insurance Act (Act 20 of 2024)* — the NHI legislation promising universal health coverage and its funding model — [health.gov.za](https://www.health.gov.za)
+- Statistics South Africa (Stats SA), *Gross Domestic Product* quarterly releases — GDP data for calculating health spending as share of economic output — [statssa.gov.za](https://www.statssa.gov.za)
+- South African Revenue Service (SARS), *Annual Report* — tax revenue collection data and tax-to-GDP ratio — [sars.gov.za](https://www.sars.gov.za)
+- Council for Medical Schemes (CMS), *Annual Report* — medical scheme membership, expenditure per beneficiary, and private health sector data — [medicalschemes.co.za](https://www.medicalschemes.co.za)
+- World Bank, *Health Nutrition and Population Statistics* — international per capita health expenditure comparisons and UHC service coverage index — [data.worldbank.org](https://data.worldbank.org)

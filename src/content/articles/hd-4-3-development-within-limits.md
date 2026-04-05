@@ -259,3 +259,16 @@ Key metric: Manufacturing value added as share of GDP; employment trends in indu
 Source: Stats SA Quarterly Labour Force Survey (by province and sector); Department of Trade, Industry and Competition; Presidential Climate Commission reports.
 What to ask: Is South Africa industrialising and creating jobs? Are coal workers and communities being supported through economic diversification? Are new industries emerging in Mpumalanga and other transitioning regions? Is industrial development proceeding with adequate environmental management — or are environmental costs being externalised onto poor communities?
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- United Nations Development Programme (UNDP), *Planetary Pressures-Adjusted HDI (PHDI)* — methodology and country data adjusting HDI for carbon dioxide emissions and material footprint — [hdr.undp.org](https://hdr.undp.org)
+- Department of Forestry, Fisheries and the Environment (DFFE), *National Environmental Management Act* implementation reports and biodiversity assessments — [dffe.gov.za](https://www.dffe.gov.za)
+- Presidential Climate Commission (PCC), *South Africa's Just Energy Transition Framework* — policy framework for managing the coal-to-renewables transition and supporting affected workers and communities — [climatecommission.org.za](https://www.climatecommission.org.za)
+- Department of Water and Sanitation, *Blue Drop and Green Drop Reports* — municipal water quality and wastewater treatment compliance data — [dws.gov.za](https://www.dws.gov.za)
+- South African National Biodiversity Institute (SANBI), *National Biodiversity Assessment* — status of terrestrial, freshwater, estuarine, and marine ecosystems in one of the world's megadiverse countries — [sanbi.org](https://www.sanbi.org)
+- Global Footprint Network, *Ecological Footprint* data — South Africa's resource consumption relative to biocapacity and international comparisons — [footprintnetwork.org](https://www.footprintnetwork.org)
+- Eskom, *Integrated Report* — generation capacity, emissions data, and decommissioning schedules for coal-fired power stations — [eskom.co.za](https://www.eskom.co.za)
+- Centre for Environmental Rights (CER), research and litigation on air quality, mining impacts, and acid mine drainage — [cer.org.za](https://www.cer.org.za)

@@ -224,3 +224,16 @@ When you encounter human development claims — in the news, in political speech
 
 **Step 4: Look beneath national averages.** South Africa's national HDI masks enormous variation by province, by municipality, by race, and by gender. Ask: whose HDI? A national average that combines Sandton and Lusikisiki is an arithmetic exercise, not a development assessment. Wherever possible, seek disaggregated data — provincial HDI estimates, district-level health indicators, school-level education outcomes — to understand what the national average conceals.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- United Nations Development Programme (UNDP), *Human Development Reports* — annual HDI rankings, methodology documentation, country profiles, and the Inequality-adjusted HDI — [hdr.undp.org](https://hdr.undp.org)
+- World Bank Open Data — GDP per capita (current US$ and PPP), GNI per capita, Gini coefficient estimates, and cross-country income classification — [data.worldbank.org](https://data.worldbank.org)
+- Statistics South Africa (Stats SA), *Time Use Survey* — data on unpaid care and domestic work by gender, used to illustrate GDP's blind spots — [statssa.gov.za](https://www.statssa.gov.za)
+- Amartya Sen (1999), *Development as Freedom* — foundational text on the capabilities approach, arguing that development should be measured by the expansion of substantive freedoms rather than income growth — Oxford University Press
+- Amartya Sen (1981), *Poverty and Famines: An Essay on Entitlement and Deprivation* — seminal work demonstrating that famines result from entitlement failures, not food shortages — Oxford University Press
+- Mahbub ul Haq (1995), *Reflections on Human Development* — the intellectual memoir of the HDI's creator, explaining why the index was designed and what it was intended to measure — Oxford University Press
+- Richard Easterlin (1974), "Does Economic Growth Improve the Human Lot?" — the original paper documenting the paradox that GDP growth beyond a threshold does not reliably increase life satisfaction
+- South African Social Attitudes Survey (SASAS) and Afrobarometer — longitudinal survey data on South African life satisfaction and perceptions of well-being — [hsrc.ac.za](https://www.hsrc.ac.za) and [afrobarometer.org](https://www.afrobarometer.org)

@@ -246,3 +246,16 @@ Broken if: The public-private gap is widening — a two-speed system in which pu
 **Link 6: Deeper inequality → More crime. The spiral completes and begins again.**
 If you can trace all six links in your community or province, you are observing the vicious spiral in operation. The intervention must target the specific link where it is most feasible to break the chain — and that link varies by context.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- United Nations Development Programme (UNDP), *Human Development Report* — HDI and IHDI scores, inequality penalty calculations, and country comparisons — [hdr.undp.org](https://hdr.undp.org)
+- Statistics South Africa (Stats SA), *Inequality Trends in South Africa* — Gini coefficient data, income distribution analysis, and consumption inequality measures — [statssa.gov.za](https://www.statssa.gov.za)
+- South African Reserve Bank (SARB), *Quarterly Bulletin* — capital flows, foreign direct investment trends, and macroeconomic indicators reflecting investor confidence — [resbank.co.za](https://www.resbank.co.za)
+- Institute for Security Studies (ISS), research on the relationship between inequality, crime, and investment — [issafrica.org](https://issafrica.org)
+- Gillian Hamilton and Eliya Sobel, research on skills emigration from South Africa — brain drain data, professional emigration patterns, and fiscal impact estimates
+- Judicial Commission of Inquiry into Allegations of State Capture (Zondo Commission), *Reports Parts I–VI* — documented institutional decay and its cascading effects on service delivery — [statecapture.org.za](https://www.statecapture.org.za)
+- National Treasury, *Budget Review* — fiscal deficit trends, debt-to-GDP trajectory, and expenditure pressures on health and education — [treasury.gov.za](https://www.treasury.gov.za)
+- World Bank, *South Africa Economic Update* — periodic analysis of growth constraints, inequality dynamics, and structural reform priorities — [worldbank.org](https://www.worldbank.org)

@@ -245,3 +245,16 @@ Health questions: district health office, provincial Department of Health portfo
 
 By following this framework, you convert your constitutional rights from abstract legal text into concrete accountability tools — grounded in specific data, directed at specific institutions, and demanding specific answers that cannot be evaded with political rhetoric.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Constitution of the Republic of South Africa, 1996 — Sections 26 (housing), 27 (healthcare, food, water, social security), 28 (children's rights), and 29 (education) — [justice.gov.za/legislation/constitution](https://www.justice.gov.za/legislation/constitution)
+- Constitutional Court of South Africa, landmark judgments: *Government of the Republic of South Africa v Grootboom* (2000), *Minister of Health v Treatment Action Campaign* (2002), *Mazibuko v City of Johannesburg* (2009) — [constitutionalcourt.org.za](https://www.constitutionalcourt.org.za)
+- Health Systems Trust, *District Health Barometer* — district-level health performance indicators for citizen monitoring and accountability — [hst.org.za](https://www.hst.org.za)
+- Department of Basic Education (DBE), *National Senior Certificate Results* (per school) — school-level matric pass rates, bachelor pass rates, and subject performance for education accountability — [education.gov.za](https://www.education.gov.za)
+- Auditor-General of South Africa (AGSA), *PFMA and MFMA Consolidated General Reports* — audit outcomes for national, provincial, and municipal government, including health and education departments — [agsa.co.za](https://www.agsa.co.za)
+- South African Human Rights Commission (SAHRC), complaints mechanism and annual *State of Human Rights* reports — the Chapter 9 institution mandated to monitor socioeconomic rights realisation — [sahrc.org.za](https://www.sahrc.org.za)
+- Department of Water and Sanitation, *Blue Drop Report* (drinking water quality) and *Green Drop Report* (wastewater management) — municipal water compliance data — [dws.gov.za](https://www.dws.gov.za)
+- Legal Resources Centre (LRC), Socio-Economic Rights Institute (SERI), and Section27 — public interest litigation organisations that enforce socioeconomic rights through the courts — [lrc.org.za](https://www.lrc.org.za), [seri-sa.org](https://www.seri-sa.org), [section27.org.za](https://section27.org.za)

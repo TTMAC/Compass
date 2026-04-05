@@ -335,3 +335,16 @@ South Africa's status: Partially met. The Constitution provides a strong framewo
 
 **Overall assessment:** South Africa has the components but not the alignment. The case studies show that components without alignment produce stagnation, not progress. The cycle cannot work until the preconditions are sequenced and coordinated.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- World Bank Open Data — GDP per capita time series, education spending, and development indicators for South Korea, Botswana, Rwanda, Malaysia, and South Africa — [data.worldbank.org](https://data.worldbank.org)
+- United Nations Development Programme (UNDP), *Human Development Reports* — HDI trajectories for comparator countries, showing decades of progress from low baselines — [hdr.undp.org](https://hdr.undp.org)
+- Daron Acemoglu and James Robinson (2012), *Why Nations Fail* — institutional analysis of why some countries build inclusive growth while others stagnate — Crown Business
+- Alice Amsden (1989), *Asia's Next Giant: South Korea and Late Industrialization* — the definitive account of South Korea's state-led industrial and human capital strategy — Oxford University Press
+- Acemoglu, Johnson, and Robinson (2003), "An African Success Story: Botswana" — academic case study of how Botswana converted diamond revenue into sustained development
+- Rwanda Governance Board and National Institute of Statistics of Rwanda — governance indicators, poverty reduction data, and human development progress tracking — [gov.rw](https://www.gov.rw)
+- World Bank (2021), *Malaysia's Development Experience: Lessons for a Divided Society* — analysis of Malaysia's New Economic Policy and ethnic inclusion strategy
+- National Planning Commission (2012), *National Development Plan 2030* — South Africa's own framework, assessed against the sequencing patterns of successful comparator countries — [nationalplanningcommission.org.za](https://www.nationalplanningcommission.org.za)

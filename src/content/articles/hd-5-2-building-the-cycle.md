@@ -233,3 +233,16 @@ The deepest leverage comes from connecting the links. If mothers avoid the clini
 
 By working through this checklist, you identify the weakest link in your community's reinforcing cycle and direct your participation where it will have the greatest structural impact on your community's development trajectory. The cycle starts with you.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- South African Schools Act (Act 84 of 1996) — legal framework for School Governing Bodies, their powers, composition, and functions — [education.gov.za](https://www.education.gov.za)
+- South African Police Service Act (Act 68 of 1995) and Civilian Secretariat for Police Service — legal framework for Community Policing Forums (CPFs) and community safety oversight — [policesecretariat.gov.za](https://www.policesecretariat.gov.za)
+- Municipal Structures Act (Act 117 of 1998) and Municipal Systems Act (Act 32 of 2000) — legal framework for ward committees, Integrated Development Plans, and public participation processes — [cogta.gov.za](https://www.cogta.gov.za)
+- National Health Act (Act 61 of 2003) — provisions for clinic committees and community participation in health governance — [health.gov.za](https://www.health.gov.za)
+- Department of Cooperative Governance and Traditional Affairs (CoGTA), *IDP Guidelines* — how municipal Integrated Development Plans are developed and where citizens participate — [cogta.gov.za](https://www.cogta.gov.za)
+- Ahmed Veriava and Nhlanhla Ndlovu, research on community participation in local governance — case studies of effective SGB, CPF, and ward committee engagement across South Africa
+- Parliamentary Monitoring Group (PMG), committee tracking and public submission guidance — tools for monitoring national and provincial legislation affecting local governance — [pmg.org.za](https://pmg.org.za)
+- Afrobarometer, *South Africa Country Reports* — survey data on citizen participation in governance, trust in institutions, and perceptions of service delivery — [afrobarometer.org](https://www.afrobarometer.org)

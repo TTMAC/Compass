@@ -229,3 +229,17 @@ Key question: Does the school have an active, functional SGB? Does the principal
 Source: Personal observation; Equal Education's school infrastructure reports; Department of Basic Education's NEIMS data.
 Key question: Does the school have functional toilets, a library, a laboratory, and safe perimeter fencing? Are classrooms overcrowded (more than 40 learners)? Is the school free from visible gang activity and violence during school hours? These are minimum conditions, not aspirational targets.
 :::
+
+## Resources
+
+The analysis in this article draws on the following institutional research and publications:
+
+- Department of Basic Education (DBE), *Annual Report* and *National Senior Certificate Examination Report* — education expenditure data, matric results, and school infrastructure statistics — [education.gov.za](https://www.education.gov.za)
+- Progress in International Reading Literacy Study (PIRLS), conducted by the International Association for the Evaluation of Educational Achievement (IEA) — Grade 4 reading assessment data showing 81% of SA learners cannot read for meaning — [iea.nl](https://www.iea.nl)
+- Trends in International Mathematics and Science Study (TIMSS), conducted by the IEA — Grade 5 and Grade 9 mathematics and science assessment data — [iea.nl](https://www.iea.nl)
+- Nic Spaull, Stellenbosch University — research on the two school systems, teacher content knowledge, and binding constraints in South African education — [nicspaull.com](https://nicspaull.com)
+- Research on Socioeconomic Policy (RESEP), Stellenbosch University — Early Grade Reading Assessment data, Foundation Phase crisis research, and learning trajectory analysis — [resep.sun.ac.za](https://resep.sun.ac.za)
+- World Bank (2018), *An Incomplete Transition: Overcoming the Legacy of Exclusion in South Africa* — analysis of education spending effectiveness and the personnel cost crowding-out problem
+- Equal Education — school infrastructure litigation, norms and standards advocacy, and research on the infrastructure backlog — [equaleducation.org.za](https://equaleducation.org.za)
+- National Education Evaluation and Development Unit (NEEDU), *National Report* — diagnostic findings on teacher content knowledge and Foundation Phase reading instruction
+- Department of Basic Education, *Early Grade Reading Study (EGRS)* — randomised controlled trial evidence on structured learning programmes in South African schools — [education.gov.za](https://www.education.gov.za)
