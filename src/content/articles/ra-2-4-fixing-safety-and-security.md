@@ -255,7 +255,7 @@ The reform pathway for safety and security is more complex than for education, h
 
 ## Resources
 
-The reform blueprint in this article draws on the following institutional research and publications:
+The analysis in this article draws on the following institutional research and publications:
 
 - Constitution of the Republic of South Africa, 1996 — Section 199 (security services), Section 205 (police service), Section 206 (provincial policing), Schedule 4 (concurrent functions including policing) — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)
 - South African Police Service (2023). *Annual Report 2022/23* — crime statistics, detection rates, personnel data, resource allocation — [saps.gov.za](https://www.saps.gov.za)

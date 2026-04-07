@@ -278,7 +278,7 @@ Because government failure is not a mystery. It is a design problem. And design 
 
 ## Resources
 
-The institutional design framework in this article draws on the following sources:
+The analysis in this article draws on the following institutional research and publications:
 
 - Constitution of the Republic of South Africa, 1996 — the foundational document for understanding how authority, accountability, and resources are allocated across the three spheres of government — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)
 - Auditor-General of South Africa (2023). *PFMA and MFMA Consolidated General Reports* — the most comprehensive independent assessment of institutional performance across national, provincial, and municipal government — [agsa.co.za](https://www.agsa.co.za)
