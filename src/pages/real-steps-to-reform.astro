@@ -543,40 +543,68 @@ const grouped = workstreams.map((ws) => {
   const wsSections = document.querySelectorAll<HTMLElement>(".reform-ws-section");
   const wsTimelineRows = document.querySelectorAll<HTMLElement>(".reform-ws-row");
   const phaseSections = document.querySelectorAll<HTMLElement>(".reform-phase-section");
+  const reformCards = document.querySelectorAll<HTMLElement>(".reform-card");
   const indicator = document.getElementById("active-filter-indicator")!;
   const indicatorText = document.getElementById("active-filter-text")!;
   const clearBtn = document.getElementById("clear-phase-filter")!;
+  const searchInput = document.getElementById("reform-search") as HTMLInputElement;
+  const reformCountEl = document.getElementById("reform-count")!;
+  const totalReforms = reformCards.length;
 
   let activeWorkstream = "all";
   let activePhase = "";
+  let searchQuery = "";
 
   function applyFilters() {
-    // Workstream sections
-    wsSections.forEach((s) => {
-      const ws = s.dataset.workstream!;
-      s.style.display = activeWorkstream === "all" || activeWorkstream === ws ? "" : "none";
+    const query = searchQuery.toLowerCase();
+    let visibleCount = 0;
+
+    // Filter individual reform cards
+    reformCards.forEach((card) => {
+      const ws = card.dataset.workstream!;
+      const ph = card.dataset.phase!;
+      const wsMatch = activeWorkstream === "all" || activeWorkstream === ws;
+      const phMatch = !activePhase || activePhase === ph;
+      const textMatch = !query || card.textContent!.toLowerCase().includes(query);
+      const visible = wsMatch && phMatch && textMatch;
+      card.style.display = visible ? "" : "none";
+      if (visible) visibleCount++;
     });
 
-    // Timeline rows
+    // Hide empty phase sections (all cards hidden)
+    phaseSections.forEach((s) => {
+      const hasVisible = s.querySelector('.reform-card:not([style*="display: none"])');
+      const ws = s.dataset.workstream!;
+      const wsMatch = activeWorkstream === "all" || activeWorkstream === ws;
+      s.style.display = wsMatch && hasVisible ? "" : "none";
+    });
+
+    // Hide empty workstream sections
+    wsSections.forEach((s) => {
+      const ws = s.dataset.workstream!;
+      const wsMatch = activeWorkstream === "all" || activeWorkstream === ws;
+      const hasVisible = s.querySelector('.reform-card:not([style*="display: none"])');
+      s.style.display = wsMatch && hasVisible ? "" : "none";
+    });
+
+    // Timeline rows follow workstream filter only (not search)
     wsTimelineRows.forEach((r) => {
       const ws = r.dataset.workstream!;
       r.style.display = activeWorkstream === "all" || activeWorkstream === ws ? "" : "none";
     });
 
-    // Phase sections
-    phaseSections.forEach((s) => {
-      const ws = s.dataset.workstream!;
-      const ph = s.dataset.phase!;
-      const wsMatch = activeWorkstream === "all" || activeWorkstream === ws;
-      const phMatch = !activePhase || activePhase === ph;
-      s.style.display = wsMatch && phMatch ? "" : "none";
-    });
-
-    // Milestone items
+    // Milestone items follow workstream filter only
     document.querySelectorAll<HTMLElement>(".milestone-item").forEach((item) => {
       const ws = item.dataset.workstream!;
       item.style.display = activeWorkstream === "all" || activeWorkstream === ws ? "" : "none";
     });
+
+    // Reform count
+    if (query || activeWorkstream !== "all" || activePhase) {
+      reformCountEl.textContent = `${visibleCount} of ${totalReforms} reforms`;
+    } else {
+      reformCountEl.textContent = `${totalReforms} reforms`;
+    }
 
     // Phase filter indicator
     if (activePhase) {
@@ -593,6 +621,16 @@ const grouped = workstreams.map((ws) => {
       indicator.classList.remove("flex");
     }
   }
+
+  // Search input
+  let searchTimeout: ReturnType<typeof setTimeout>;
+  searchInput.addEventListener("input", () => {
+    clearTimeout(searchTimeout);
+    searchTimeout = setTimeout(() => {
+      searchQuery = searchInput.value.trim();
+      applyFilters();
+    }, 150);
+  });
 
   // Workstream filter buttons
   filterBtns.forEach((btn) => {
