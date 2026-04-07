@@ -322,3 +322,19 @@ If the answer to Question 5 is "no" and the answer to Question 4 is "nothing," t
 This is the fundamental insight of political economy: good policy is necessary but not sufficient. Good policy plus good political management is what produces change. South Africa has had no shortage of the former. Its future depends on developing the latter.
 
 The next article in this series, [From Strategy to Reality](/articles/eg-5-2-from-strategy-to-reality), takes this framework and applies it to the specific implementation challenges that stand between South Africa's current economic trajectory and the growth path outlined in this series. And the final article, [Your Economic Citizenship](/articles/eg-5-3-your-economic-citizenship), gives you a personal action framework for contributing to the political conditions that make reform possible.
+
+## Resources
+
+The political economy framework in this article draws on the following institutional research and publications.
+
+**National Treasury's Medium-Term Budget Policy Statement (MTBPS)** and **Budget Review**, published annually, provide the fiscal context for understanding how political economy constraints shape budget allocations and reform funding. The gap between policy commitments and budget allocations is often the clearest indicator of political economy dynamics at work. Available at [www.treasury.gov.za](https://www.treasury.gov.za).
+
+**The National Economic Development and Labour Council (NEDLAC)** publishes records of social dialogue processes, including stakeholder submissions on economic reform proposals. These records reveal the positions of organised business, labour, community constituencies, and government — the core actors in South Africa's political economy. Available at [www.nedlac.org.za](https://www.nedlac.org.za).
+
+**The Parliamentary Monitoring Group (PMG)** tracks committee proceedings, public submissions, and legislative progress — essential for monitoring how economic reform proposals move through the parliamentary process and where resistance emerges. Available at [www.pmg.org.za](https://www.pmg.org.za).
+
+**The World Bank's South Africa Economic Updates** provide an independent assessment of structural reform progress and constraints, including political economy analysis of why specific reforms stall. Available at [www.worldbank.org](https://www.worldbank.org).
+
+**The International Monetary Fund's Article IV Consultation reports** for South Africa include detailed assessments of reform implementation gaps and structural bottlenecks. Available at [www.imf.org](https://www.imf.org).
+
+**The Organisation for Economic Co-operation and Development (OECD) Economic Surveys: South Africa** provide comparative analysis of structural reform implementation against peer countries. Available at [www.oecd.org](https://www.oecd.org).

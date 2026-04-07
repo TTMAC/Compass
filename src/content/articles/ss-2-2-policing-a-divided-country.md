@@ -42,9 +42,9 @@ The same national police service that maintains a visible presence in suburban S
 
 This geographic inequality in policing is not a bug in the system. It is a structural feature of a centralised national police service trying to cover a country with nine provinces, 257 municipalities, and crime profiles that range from the gang wars of the Cape Flats to stock theft in the Free State to financial crime in Sandton to illegal mining operations in Mpumalanga to gender-based violence in every community in every corner of the country. A single, centrally managed force — with a single resource allocation model, a single command hierarchy, and a single set of operational priorities — cannot effectively police this diversity. The result is that the broken pipeline documented in [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) operates at vastly different levels of dysfunction depending on where you are.
 
-This article maps that inequality. It shows you how policing resources are distributed, who gets protection and who does not, and what happens in the spaces where the state has effectively withdrawn from its most basic obligation. By the end, you will understand why the structural reform proposed later in this series — a three-tier policing architecture matched to the three spheres of government — is not an academic exercise but a practical necessity, and you will have the tools to hold your local police station accountable for its performance.
-
 ## A Tale of Two Police Stations
+
+This article maps that inequality. It shows you how policing resources are distributed, who gets protection and who does not, and what happens in the spaces where the state has effectively withdrawn from its most basic obligation. By the end, you will understand why the structural reform proposed later in this series — a three-tier policing architecture matched to the three spheres of government — is not an academic exercise but a practical necessity, and you will have the tools to hold your local police station accountable for its performance.
 
 ## The Numbers Behind the Inequality
 

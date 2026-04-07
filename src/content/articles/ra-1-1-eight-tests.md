@@ -275,3 +275,14 @@ Once you have run all eight tests, identify the pattern: is the problem fragment
 The articles that follow in this series will apply these eight tests to specific government functions — education, healthcare, human settlements, electricity, water, waste management, and more. Each article will diagnose the structural failures, rate their severity, and propose reform blueprints that pass all eight tests. The goal is not just to understand why government fails, but to articulate, with precision, what a working design looks like.
 
 Because government failure is not a mystery. It is a design problem. And design problems have design solutions.
+
+## Resources
+
+The institutional design framework in this article draws on the following sources:
+
+- Constitution of the Republic of South Africa, 1996 — the foundational document for understanding how authority, accountability, and resources are allocated across the three spheres of government — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)
+- Auditor-General of South Africa (2023). *PFMA and MFMA Consolidated General Reports* — the most comprehensive independent assessment of institutional performance across national, provincial, and municipal government — [agsa.co.za](https://www.agsa.co.za)
+- Department of Planning, Monitoring and Evaluation (DPME). *Medium-Term Strategic Framework (MTSF) Implementation Reports* — government's own assessment of whether institutions are delivering against their mandates — [dpme.gov.za](https://www.dpme.gov.za)
+- National Treasury. *Budget Review* and *Division of Revenue Bill* — essential for understanding how resources are allocated to institutions and whether allocations match mandates — [treasury.gov.za](https://www.treasury.gov.za)
+- Public Service Commission. *State of the Public Service Reports* — assessments of public service capability, vacancy rates, and professionalisation — [psc.gov.za](https://www.psc.gov.za)
+- Financial and Fiscal Commission. *Annual Submissions on the Division of Revenue* — independent analysis of whether the intergovernmental fiscal framework matches institutional mandates with adequate resources — [ffc.co.za](https://www.ffc.co.za)

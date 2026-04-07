@@ -43,9 +43,9 @@ This is not a coincidence. Gender-based violence is the crime category that expo
 
 The statistics tell the story with brutal clarity. South Africa records one of the highest rates of sexual offences in the world — over 40,000 reported sexual offences per year in recent SAPS crime statistics, with victim surveys suggesting the true figure is several times higher. The femicide rate — women killed by intimate partners or family members — is estimated at approximately five times the global average. Domestic violence, while notoriously underreported, is pervasive across all socio-economic groups, geographic areas, and demographic categories. And the conviction funnel for these offences is catastrophically narrow: of all sexual offences reported, only a fraction result in arrests, a fraction of those result in prosecutions, and a fraction of prosecutions result in convictions. The system that is supposed to protect the most vulnerable people from the most devastating crimes is the system that fails them most completely.
 
-This article walks you through each stage of that failure — not to catalogue despair, but to identify the specific structural points where intervention could make a difference. It also examines the Thuthuzela Care Centres, a model that demonstrates what is possible when the system is designed around the survivor's needs rather than the institution's convenience. Understanding both the failure and the exception is essential for demanding the reforms that Part 3 of this series will propose.
-
 ## Every Structural Weakness, Concentrated in One Crime Category
+
+This article walks you through each stage of that failure — not to catalogue despair, but to identify the specific structural points where intervention could make a difference. It also examines the Thuthuzela Care Centres, a model that demonstrates what is possible when the system is designed around the survivor's needs rather than the institution's convenience. Understanding both the failure and the exception is essential for demanding the reforms that Part 3 of this series will propose.
 
 ## The Scale: What the Numbers Actually Show
 

@@ -96,7 +96,7 @@ The fourth component is the national Education Support Unit with automatic trigg
 
 The fifth component is the Education Information System — a consolidated data platform that integrates data from multiple sources and publishes it in real time. This does not require legislation. DBE already collects education data through the Education Management Information System (EMIS), the Annual National Assessments (while they operated), and the School Monitoring Survey. Consolidating these into a real-time, publicly accessible dashboard is an administrative and technical task that falls within DBE's existing mandate. A ministerial directive could mandate the dashboard's development and require provinces to submit data in specified formats and timelines.
 
-#### Suggested Sequencing
+### Suggested Sequencing
 
 - **Month 1–3:** Minister of Basic Education issues a ministerial directive to develop the Education Information System, mandating standardised provincial data submissions and a publicly accessible dashboard. This requires no legislation and creates the information infrastructure that all subsequent reforms depend on.
 - **Month 1–6:** National Treasury redesigns the Education Infrastructure Grant from input-based conditions to outcome-based targets in the next DORA cycle. Simultaneously, Treasury begins designing a consolidated outcome-based education grant to replace multiple conditional grants.
@@ -122,7 +122,7 @@ Ring-fenced PHC funding on a weighted capitation basis — allocating PHC resour
 
 The national Health Information Platform — consolidating data from the District Health Information System, the OHSC inspection database, and other sources into a publicly accessible dashboard — follows the same pathway as the Education Information System. It is an administrative and technical task within the existing mandate of the National Department of Health. No legislation is required. A ministerial directive or departmental policy can mandate the platform's development.
 
-#### Suggested Sequencing
+### Suggested Sequencing
 
 - **Month 1–3:** Minister of Health issues regulations under the National Health Act converting the Ideal Clinic programme from a voluntary departmental initiative into binding regulatory standards, with defined minimum facility requirements and compliance consequences (priority grant access for compliant facilities, mandatory remedial plans for non-compliant ones).
 - **Month 1–6:** OHSC increases the frequency and public visibility of facility inspections under existing powers. Inspection results are published on a publicly accessible platform, creating reputational pressure for compliance.
@@ -146,7 +146,7 @@ Mandatory title deed registration timelines — requiring that a title deed be r
 
 Strengthening NHBRC enforcement — including automatic triggers for construction quality failures — requires amending the Housing Consumers Protection Measures Act (which establishes the NHBRC). The NHBRC already has inspection and enforcement powers, but its capacity is limited and its sanctions are weak. Legislative amendment could strengthen its powers, mandate more frequent inspections, and create automatic consequences for builders who fail quality assessments. This is likely a Section 75 bill, because the NHBRC is a national regulatory body and the amendment does not directly affect provincial competences — though this classification could be contested.
 
-#### Suggested Sequencing
+### Suggested Sequencing
 
 - **Month 1–6:** National Treasury consolidates the Human Settlements Development Grant and Urban Settlements Development Grant into a single human settlements grant through the DORA process, with outcome-based conditions (houses completed, title deeds registered, bulk infrastructure connected).
 - **Month 1–6:** DHS develops the national Housing Delivery Platform — a consolidated project tracking system covering land identification, construction progress, and title deed registration — as an administrative tool within its existing mandate.
@@ -173,7 +173,7 @@ However, much of the enforcement architecture can be established without a dedic
 
 The Provincial Performance Dashboard — the publicly accessible, automatically updated platform that consolidates performance data across all concurrent functions — does not require legislation. As discussed in [When Provinces Fail](/articles/ra-3-3-when-provinces-fail), the relevant data is already collected by the Auditor-General, National Treasury, DPME, and sector-specific departments. The dashboard is an integration and publication mechanism. A presidential directive or Cabinet resolution could mandate its development. The data-sharing protocols between departments could be established through intergovernmental agreements under the existing IGRFA.
 
-#### Suggested Sequencing
+### Suggested Sequencing
 
 - **Month 1–3:** President or Cabinet issues a directive mandating development of the Provincial Performance Dashboard, with DPME leading integration of data from the Auditor-General, National Treasury, DBE, NDoH, DWS, and sector departments. Define outcome thresholds for each concurrent function.
 - **Month 3–6:** Provincial Performance Dashboard goes live, publishing each province's status against defined outcome thresholds. Even without legislative enforcement triggers, transparency generates reputational pressure and provides the data infrastructure that subsequent enforcement legislation requires.
@@ -203,7 +203,7 @@ For municipal capability, the reforms include mandatory professional qualificati
 
 Shared services arrangements for small municipalities can be established through intergovernmental agreements under the existing Municipal Systems Act and the IGRFA. No new legislation is required — the legal framework already permits municipalities to share services. The constraint is administrative and political, not legal. Real-time operational dashboards for municipal services are administrative tools that fall within the existing mandate of municipal managers and can be mandated through National Treasury's municipal reporting requirements.
 
-#### Suggested Sequencing
+### Suggested Sequencing
 
 - **Month 1–3:** National Treasury issues MFMA regulations mandating ring-fenced revenue for municipal trading services (water, electricity, waste). Publish a three-year transition schedule for municipalities to reduce cross-subsidy extraction. This is the single most impactful regulatory change for municipal infrastructure — it protects the revenue base that funds maintenance and renewal.
 - **Month 1–3:** DWS begins enforcing existing process controller qualification requirements through its regulatory powers — inspections, compliance notices, and enforcement action against water services authorities operating treatment works without qualified personnel.

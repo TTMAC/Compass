@@ -38,9 +38,9 @@ These are not convicted criminals. They are accused persons — people who have 
 
 This is not a footnote in the criminal justice system. The remand population constitutes roughly a third of all people held in correctional facilities in South Africa. Many of these individuals are detained not because a court has determined that they are dangerous or likely to flee, but because they cannot afford bail amounts that would be trivial for a middle-class accused person. They are, in the starkest terms, imprisoned for being poor. And while they wait — in facilities operating at 150 per cent or more of designed capacity, where tuberculosis transmission is rampant, where gang violence is a daily reality, and where the conditions of detention are themselves a violation of constitutional rights — their cases crawl through the system at a pace that makes a mockery of the constitutional guarantee of a speedy trial.
 
-Section 35(3)(d) of the Constitution guarantees every accused person the right "to have their trial begin and conclude without unreasonable delay." For the 50,000 people in remand detention, this right exists on paper only. The remand detention crisis is a constitutional emergency hiding in plain sight — visible to anyone who visits a correctional facility, documented in every report by the Judicial Inspectorate for Correctional Services, acknowledged in multiple court judgments, and yet persisting year after year because the structural causes are embedded in the same pipeline failures that [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) documented.
-
 ## Fifty Thousand People Who Have Not Been Convicted of Anything
+
+Section 35(3)(d) of the Constitution guarantees every accused person the right "to have their trial begin and conclude without unreasonable delay." For the 50,000 people in remand detention, this right exists on paper only. The remand detention crisis is a constitutional emergency hiding in plain sight — visible to anyone who visits a correctional facility, documented in every report by the Judicial Inspectorate for Correctional Services, acknowledged in multiple court judgments, and yet persisting year after year because the structural causes are embedded in the same pipeline failures that [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) documented.
 
 ## The Scale of the Crisis
 

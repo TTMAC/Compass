@@ -252,3 +252,16 @@ The sequencing is critical. Legislative foundation must precede institutional cr
 :::takeaway
 The reform pathway for safety and security is more complex than for education, healthcare, or housing because it requires creating new institutions (Provincial Police Services) rather than restructuring existing ones. But the constitutional foundation already exists — Schedule 4 lists policing as a concurrent function and Section 206 provides for provincial policing governance. The critical legislative steps are amending the SAPS Act, enacting Provincial Police Services legislation, and granting metropolitan police full criminal jurisdiction. Piloting in two provinces and three metros before national rollout allows evidence-based refinement. The prize is a policing architecture that is structurally resilient, locally accountable, and resistant to the political capture that nearly destroyed the centralised system during the state capture era.
 :::
+
+## Resources
+
+The reform blueprint in this article draws on the following institutional research and publications:
+
+- Constitution of the Republic of South Africa, 1996 — Section 199 (security services), Section 205 (police service), Section 206 (provincial policing), Schedule 4 (concurrent functions including policing) — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)
+- South African Police Service (2023). *Annual Report 2022/23* — crime statistics, detection rates, personnel data, resource allocation — [saps.gov.za](https://www.saps.gov.za)
+- Civilian Secretariat for Police Service. *Annual Reports* and policy analysis on policing governance, including assessments of provincial policing boards and metropolitan police capacity — [policesecretariat.gov.za](https://www.policesecretariat.gov.za)
+- Independent Police Investigative Directorate (IPID). *Annual Reports* — police misconduct data, investigation outcomes, and oversight capacity constraints — [ipid.gov.za](https://www.ipid.gov.za)
+- Private Security Industry Regulatory Authority (PSIRA). *Annual Reports* — private security industry size, personnel numbers, and regulatory compliance data — [psira.co.za](https://www.psira.co.za)
+- National Prosecuting Authority (2023). *Annual Report 2022/23* — prosecution rates, conviction rates, and case backlog data — [npa.gov.za](https://www.npa.gov.za)
+- Institute for Security Studies (ISS). Research on policing reform, criminal justice performance, and comparative policing models — [issafrica.org](https://issafrica.org)
+- Africa Check. Fact-checked analysis of crime statistics and policing claims — [africacheck.org](https://africacheck.org)

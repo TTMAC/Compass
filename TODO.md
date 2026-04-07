@@ -137,7 +137,7 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Resolution:** All merged H2 headings across the article corpus were identified and split correctly.
 
 ### Item 20: QA — Full article structure, editorial guidelines, and resources audit
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** Articles have not been systematically reviewed for consistent structure, adherence to editorial guidelines (non-partisan tone, domain language, heading hierarchy), and the presence of a Resources section. Inconsistencies could undermine reader trust and the site's educational mission.
 - **Action plan:**
   1. **Structure check:** Verify every article has the expected sections: BLUF summary, body with proper heading hierarchy (H2 → H3, no skipped levels), and a `## Resources` section at the end with relevant links.
@@ -146,6 +146,7 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
   4. **Batch by Part:** Work through articles one Part at a time for tonal consistency.
   5. **Fix in place:** Correct any issues found directly in the article `.md` files.
   6. **Build and verify:** Run `npm run build` after fixes to confirm no breakage.
+- **Resolution:** Audited all 76 articles across 5 series (main, ss-, eg-, ra-, hd-). Found and fixed: (1) 10 orphaned H2 headings — BLUF paragraphs were above their headings, leaving consecutive H2s with no content between them; moved paragraphs below their headings in 1-1, 2-2, 2-3, ss-1-1, ss-1-2, ss-2-1, ss-2-2, ss-2-3, ss-2-4, ss-2-5. (2) 5 missing `## Resources` sections — added authoritative source links to eg-5-1, eg-5-2, eg-5-3, ra-1-1, ra-2-4. (3) 5 skipped heading levels — changed `####` to `###` for "Suggested Sequencing" headings in ra-5-1. No domain language violations or frontmatter issues found. Build verified clean.
 - **Why:** Multiple articles have a bug where the H2 heading after the BLUF intro paragraph is concatenated onto the same line as the preceding paragraph text (e.g. `## The System That Holds the System Together That knowledge is essential...`). This causes the heading to render as body text and the paragraph to lose its separation, breaking both the visual layout and the table of contents. Already found and fixed in `1-3-how-the-spheres-interact.md` and `2-1-following-the-money.md`.
 - **Pattern to detect:** Any line matching `^## .{30,}` (an H2 followed by unusually long text) in the BLUF section is likely a merged heading+paragraph. Alternatively, grep for lines starting with `## ` that contain a sentence-ending full stop (`.`) — real headings rarely do.
 - **Action plan:**
