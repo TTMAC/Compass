@@ -48,7 +48,8 @@ const ga4Id = import.meta.env.PUBLIC_GA4_ID || "";
 
   (function () {
     var banner = document.getElementById("cookie-consent");
-    var stored = localStorage.getItem("cookie-consent");
+    var stored = null;
+    try { stored = localStorage.getItem("cookie-consent"); } catch (e) { /* private browsing */ }
 
     if (stored === "accepted") {
       gtag("consent", "update", { analytics_storage: "granted" });
@@ -67,7 +68,7 @@ const ga4Id = import.meta.env.PUBLIC_GA4_ID || "";
 
     if (acceptBtn) {
       acceptBtn.addEventListener("click", function () {
-        localStorage.setItem("cookie-consent", "accepted");
+        try { localStorage.setItem("cookie-consent", "accepted"); } catch (e) { /* private browsing */ }
         gtag("consent", "update", { analytics_storage: "granted" });
         loadGA4();
         hideBanner();
@@ -76,7 +77,7 @@ const ga4Id = import.meta.env.PUBLIC_GA4_ID || "";
 
     if (declineBtn) {
       declineBtn.addEventListener("click", function () {
-        localStorage.setItem("cookie-consent", "declined");
+        try { localStorage.setItem("cookie-consent", "declined"); } catch (e) { /* private browsing */ }
         hideBanner();
       });
     }
@@ -95,28 +96,30 @@ const ga4Id = import.meta.env.PUBLIC_GA4_ID || "";
 
     // Allow re-opening from footer Cookie Settings link
     window.openCookieConsent = function () {
-      localStorage.removeItem("cookie-consent");
+      try { localStorage.removeItem("cookie-consent"); } catch (e) { /* private browsing */ }
       showBanner();
     };
 
     function loadGA4() {
-      var id = banner ? banner.getAttribute("data-ga4-id") : "";
-      if (!id) return;
-      if (document.querySelector('script[src*="googletagmanager"]')) return;
+      try {
+        var id = banner ? banner.getAttribute("data-ga4-id") : "";
+        if (!id) return;
+        if (document.querySelector('script[src*="googletagmanager"]')) return;
 
-      var script = document.createElement("script");
-      script.src = "https://www.googletagmanager.com/gtag/js?id=" + id;
-      script.async = true;
-      document.head.appendChild(script);
+        var script = document.createElement("script");
+        script.src = "https://www.googletagmanager.com/gtag/js?id=" + id;
+        script.async = true;
+        document.head.appendChild(script);
 
-      gtag("js", new Date());
-      gtag("config", id, {
-        anonymize_ip: true,
-        cookie_expires: 5184000, // 2 months in seconds
-      });
+        gtag("js", new Date());
+        gtag("config", id, {
+          anonymize_ip: true,
+          cookie_expires: 5184000, // 2 months in seconds
+        });
 
-      // Custom events
-      setupCustomEvents();
+        // Custom events
+        setupCustomEvents();
+      } catch (e) { /* GA4 load failed — site works without analytics */ }
     }
 
     function setupCustomEvents() {
@@ -125,10 +128,10 @@ const ga4Id = import.meta.env.PUBLIC_GA4_ID || "";
       var firedThresholds = {};
 
       window.addEventListener("scroll", function () {
+        var scrollTotal = document.documentElement.scrollHeight - window.innerHeight;
+        if (scrollTotal <= 0) return;
         var scrollPercent = Math.round(
-          (window.scrollY /
-            (document.documentElement.scrollHeight - window.innerHeight)) *
-            100,
+          (window.scrollY / scrollTotal) * 100,
         );
 
         scrollThresholds.forEach(function (threshold) {

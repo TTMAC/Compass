@@ -281,23 +281,28 @@ const isTopicsActive = currentPath.startsWith("/pillars") || currentPath === "/b
 
   // Load Pagefind UI on-demand
   async function initPagefind() {
-    const script = document.createElement("script");
-    script.src = "/pagefind/pagefind-ui.js";
-    script.onload = () => {
-      const PagefindUI = (window as any).PagefindUI;
-      if (!PagefindUI) return;
+    try {
+      const script = document.createElement("script");
+      script.src = "/pagefind/pagefind-ui.js";
+      script.onerror = () => { /* Pagefind failed to load — search unavailable */ };
+      script.onload = () => {
+        try {
+          const PagefindUI = (window as any).PagefindUI;
+          if (!PagefindUI) return;
 
-      const desktopEl = document.getElementById("search-desktop");
-      const mobileEl = document.getElementById("search-mobile");
+          const desktopEl = document.getElementById("search-desktop");
+          const mobileEl = document.getElementById("search-mobile");
 
-      if (desktopEl) {
-        new PagefindUI({ element: desktopEl, showSubResults: false, showImages: false });
-      }
-      if (mobileEl) {
-        new PagefindUI({ element: mobileEl, showSubResults: false, showImages: false });
-      }
-    };
-    document.head.appendChild(script);
+          if (desktopEl) {
+            new PagefindUI({ element: desktopEl, showSubResults: false, showImages: false });
+          }
+          if (mobileEl) {
+            new PagefindUI({ element: mobileEl, showSubResults: false, showImages: false });
+          }
+        } catch { /* Pagefind init failed — search unavailable */ }
+      };
+      document.head.appendChild(script);
+    } catch { /* Script injection failed */ }
   }
 
   initPagefind();

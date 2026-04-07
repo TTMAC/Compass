@@ -79,14 +79,16 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 ## Medium Priority — Reliability
 
 ### Item 11: Add 500 error page
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** Server errors show Netlify's generic page instead of a branded experience.
 - **Action:** Create a custom 500.html in public/ or a corresponding Netlify function fallback.
+- **Resolution:** Created `public/500.html` as standalone HTML with inlined styles matching the 404 page design (compass-green branding, Inter/Source Serif fonts, "Go home" + "Browse the series" buttons). Added 500 redirect rule to `netlify.toml`. No external dependencies — works even when the build pipeline or CDN fails.
 
 ### Item 12: Add try-catch to client-side JS
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** Pagefind search initialisation and scroll-depth tracking could silently break with no user feedback.
 - **Action:** Wrap critical client-side code blocks in try-catch with graceful degradation.
+- **Resolution:** Added error handling across four components: (1) CookieConsent — wrapped all `localStorage` calls in try-catch for private browsing, wrapped GA4 `loadGA4()` in try-catch, fixed scroll-depth div-by-zero with early return when `scrollHeight === innerHeight`. (2) Header — wrapped Pagefind script loading and init in try-catch, added `script.onerror` handler. (3) ReadingProgress — fixed div-by-zero when article is shorter than viewport. (4) Government-functions — added null guards on `getElementById` and `querySelector` to prevent crash on missing tab elements.
 
 ### Item 13: Add `aria-live` regions for dynamic content
 - **Status:** 🔲 Todo
