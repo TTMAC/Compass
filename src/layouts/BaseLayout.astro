@@ -10,7 +10,7 @@ interface Props {
   canonicalUrl?: string;
   ogImage?: string;
   ogType?: string;
-  jsonLd?: Record<string, unknown>;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
 
 const {
@@ -27,6 +27,29 @@ const fullCanonical = canonicalUrl || new URL(Astro.url.pathname, siteUrl).href;
 const fullOgImage = ogImage.startsWith("http")
   ? ogImage
   : new URL(ogImage, siteUrl).href;
+
+const siteSchemas: Record<string, unknown>[] = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "GovCompass",
+    url: siteUrl,
+    description: "Making South Africa's governance system legible to ordinary citizens",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "GovCompass",
+    url: siteUrl,
+    description: "Free political education making SA's governance system legible to ordinary citizens",
+    inLanguage: "en-ZA",
+  },
+];
+
+const allSchemas = [
+  ...siteSchemas,
+  ...(jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : []),
+];
 ---
 
 <html lang="en-ZA">
@@ -74,13 +97,13 @@ const fullOgImage = ogImage.startsWith("http")
 
     <!-- JSON-LD -->
     {
-      jsonLd && (
+      allSchemas.map((schema) => (
         <script
           is:inline
           type="application/ld+json"
-          set:html={JSON.stringify(jsonLd)}
+          set:html={JSON.stringify(schema)}
         />
-      )
+      ))
     }
 
     <slot name="head" />

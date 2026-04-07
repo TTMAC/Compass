@@ -59,7 +59,9 @@ const formattedDate = publishDate.toLocaleDateString("en-ZA", {
   day: "numeric",
 });
 
-const jsonLd = {
+const siteUrl = Astro.site?.origin || "https://govcompass.co.za";
+
+const articleJsonLd = {
   "@context": "https://schema.org",
   "@type": "Article",
   headline: title,
@@ -72,9 +74,42 @@ const jsonLd = {
   publisher: {
     "@type": "Organization",
     name: "GovCompass",
-    url: Astro.site?.origin || "https://govcompass.co.za",
+    url: siteUrl,
   },
 };
+
+const breadcrumbItems: { name: string; url: string }[] = [
+  { name: "Home", url: siteUrl },
+];
+if (pillarConfig) {
+  breadcrumbItems.push({
+    name: pillarConfig.shortTitle,
+    url: `${siteUrl}/pillars/${pillar}`,
+  });
+}
+if (partConfig) {
+  breadcrumbItems.push({
+    name: `Part ${part}: ${partConfig.title}`,
+    url: `${siteUrl}/pillars/${pillar}`,
+  });
+}
+breadcrumbItems.push({
+  name: title,
+  url: `${siteUrl}${Astro.url.pathname}`,
+});
+
+const breadcrumbJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: breadcrumbItems.map((item, i) => ({
+    "@type": "ListItem",
+    position: i + 1,
+    name: item.name,
+    item: item.url,
+  })),
+};
+
+const jsonLd = [articleJsonLd, breadcrumbJsonLd];
 ---
 
 <BaseLayout
