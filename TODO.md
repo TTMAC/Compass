@@ -63,9 +63,10 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Resolution:** Added `Organization` and `WebSite` schemas to BaseLayout (rendered on all pages). Added `BreadcrumbList` schema to ArticleLayout with crumbs: Home → Pillar → Part → Article. Updated `jsonLd` prop type to accept single object or array to support multiple page-specific schemas. All four schema types render correctly on article pages; home/non-article pages get Organization + WebSite.
 
 ### Item 9: Add meta theme-color
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** Browser chrome (address bar on mobile) doesn't match site branding.
 - **Action:** Add `<meta name="theme-color" content="#355E3B">` to BaseLayout head.
+- **Resolution:** Added `<meta name="theme-color" content="#355E3B">` (compass-green) to BaseLayout head, applied to all pages.
 
 ### Item 10: Add apple-touch-icon
 - **Status:** 🔲 Todo
