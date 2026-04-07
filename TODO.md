@@ -159,3 +159,67 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Why:** Resource sections across articles may have inconsistent formatting (e.g. varying list styles, missing link text, inconsistent heading levels, or broken markup) that undermines readability and the professional quality of the site.
 - **Action:** Audit and standardise the `## Resources` section formatting across all articles in `src/content/articles/`, ensuring consistent list style, proper link markup, and uniform presentation.
 - **Resolution:** Audited all 76 articles and standardised 28 that had inconsistent formatting. Fixed: (1) 6 articles (3-1 through 4-3) converted from paragraph format with bold sub-headings and plain URLs to bullet list with markdown links. (2) 15 eg-series articles converted from various paragraph/prose formats with bold source names to bullet list format. (3) 4 ra-4-x articles had plain URLs converted to markdown links. (4) 2 ra-5-x articles converted from prose paragraphs to bullet list. (5) 2 articles (eg-1-1, eg-4-2) had heading corrected from "Resources and Institutional Sources" to "Resources". (6) All intro lines standardised to "The analysis in this article draws on the following institutional research and publications:". All internal cross-reference links preserved. Build verified clean.
+
+---
+
+## Reform Roadmap Page Improvements
+
+### Item 22: Fix "Institutional Reforms reforms" redundancy in stats bar
+- **Status:** 🔲 Todo
+- **Why:** The stats bar renders `{ws.shortTitle} reforms`, but the reform-agenda workstream's `shortTitle` is "Institutional Reforms", producing the redundant text "Institutional Reforms reforms".
+- **Action:** Fix in `src/pages/real-steps-to-reform.astro` or `src/data/reforms.ts` so the label reads correctly.
+
+### Item 23: Add text search filter for reform cards
+- **Status:** 🔲 Todo
+- **Why:** With 84 reforms on a single page, readers have no way to quickly find reforms relevant to a specific topic (e.g. "water", "education", "policing") without scrolling through the entire page.
+- **Action:** Add a search input above the reform cards that filters cards in real-time by matching title and description text. Must be lightweight client-side JS to stay within page-weight budget.
+
+### Item 24: Add on-page table of contents / jump links
+- **Status:** 🔲 Todo
+- **Why:** The page is very long. Readers need a way to jump directly to sections (Timeline, Milestones, RAARICLE Framework, each Workstream, Legislative Programme, Cross-Cutting Enablers) without scrolling.
+- **Action:** Add a compact TOC near the top of the page with anchor links to each major section.
+
+### Item 25: Show visible reform count after filtering
+- **Status:** 🔲 Todo
+- **Why:** When a workstream or phase filter is active, readers have no feedback on how many reforms match. Showing "Showing 15 of 84 reforms" near the filter bar gives immediate orientation.
+- **Action:** Add a live count indicator near the workstream filter bar that updates when filters change.
+
+### Item 26: Sync filter state to URL
+- **Status:** 🔲 Todo
+- **Why:** Workstream and phase filters are purely in-memory JS — the state is lost on page reload. Readers cannot share or bookmark a filtered view.
+- **Action:** Sync active workstream and phase to URL hash or query params (e.g. `?ws=safety-security&phase=phase-1`). Read from URL on page load.
+
+### Item 27: Add phase shade differentiation in timeline
+- **Status:** 🔲 Todo
+- **Why:** Each workstream's timeline phases use the same solid colour, making it hard to visually distinguish Phase 1 from Phase 3 at a glance.
+- **Action:** Use progressive opacity or shade (e.g. 70%, 85%, 100%) for Phase 1 → 2 → 3 within each workstream's timeline bar.
+
+### Item 28: Add dependency indicators to reform cards
+- **Status:** 🔲 Todo
+- **Why:** Cross-workstream dependencies are only mentioned in a callout box. Individual reform cards don't show which other reforms they depend on or enable.
+- **Action:** Add an optional `dependsOn` field to the Reform interface and render small dependency tags (e.g. "Depends on: 1.1, 1.5") on relevant cards.
+
+### Item 29: Make scorecard section actionable with targets
+- **Status:** 🔲 Todo
+- **Why:** The "Example Scorecard" section is a plain numbered list with no baseline or target data, making it hard for citizens to use for accountability.
+- **Action:** Convert the scorecard to a table with columns: Outcome, Baseline, Year 5 Target, Year 10 Target.
+
+### Item 30: Group legislative items by type
+- **Status:** 🔲 Todo
+- **Why:** The 14 legislative items are listed flat. Grouping by type (New statutes, Amendments, Constitutional) would make the legislative programme easier to scan.
+- **Action:** Add sub-headings or visual grouping by `type` in the Legislative Programme section.
+
+### Item 31: Add expand all / collapse all for reform cards
+- **Status:** 🔲 Todo
+- **Why:** With 84 collapsible `<details>` elements, readers exploring a workstream may want to expand or collapse all cards at once.
+- **Action:** Add "Expand all / Collapse all" toggle buttons per workstream section.
+
+### Item 32: Show scope badges on collapsed reform card summaries
+- **Status:** 🔲 Todo
+- **Why:** The scope (national/provincial/municipal) is only visible when a card is expanded. Showing scope pills on the collapsed summary lets readers scan for reforms at their sphere of interest.
+- **Action:** Render scope badges in the `<summary>` element of each reform card.
+
+### Item 33: Verify source footer link target
+- **Status:** 🔲 Todo
+- **Why:** The source footer links to `/big-picture` — need to verify this route exists and is the correct destination for the series landing page.
+- **Action:** Check route exists; fix if broken.
