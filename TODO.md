@@ -19,9 +19,10 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Resolution:** Already present in the global `/*` headers block in `netlify.toml` with the exact recommended value.
 
 ### Item 3: Subresource Integrity (SRI) for external scripts
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** External scripts (Netlify Identity widget, Decap CMS, GA4) load without `integrity` attributes — a supply-chain compromise could inject malicious code.
 - **Action:** Add `integrity` and `crossorigin` attributes to `<script>` tags in BaseLayout.astro and admin/index.html. Note: GA4 is dynamically injected after consent so SRI is not feasible there; focus on static script tags.
+- **Resolution:** Netlify Identity widget already had SRI in both BaseLayout.astro and admin/index.html. Added SRI to Decap CMS script in admin/index.html and pinned version from `@^3.0.0` to `@3.11.0` (SRI requires a fixed version). GA4 remains without SRI as it's dynamically injected after consent.
 
 ### Item 4: Permissions-Policy header
 - **Status:** 🔲 Todo
