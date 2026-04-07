@@ -31,7 +31,7 @@ seo:
     - "reintegration programmes"
 ---
 
-## The Bottom Line, Up Front
+## A Corrections System That Warehouses Instead of Transforms
 
 South Africa's correctional system has a recidivism rate estimated at over 40 per cent. Nearly half of all people released from prison end up back inside. This is not a mysterious failure. It is the predictable, measurable, mathematically inevitable outcome of a corrections system that warehouses rather than transforms — one where educational and vocational programmes reach a fraction of inmates, substance abuse treatment is grossly inadequate, mental health services are near-absent, and the parole and reintegration system sets released prisoners up to fail.
 

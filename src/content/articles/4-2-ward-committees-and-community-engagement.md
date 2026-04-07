@@ -25,7 +25,7 @@ seo:
     - "SDBIP service delivery plan"
 ---
 
-## The Bottom Line, Up Front
+## Your Municipality Has the Most Accessible Participation Channels
 
 In *Your Right to Participate*, you mapped the full landscape of constitutional rights and participation channels available to South African citizens—from parliamentary public hearings to PAIA requests to the Chapter 9 institutions. That article gave you the constitutional framework. This one gives you the practical detail for the participation channel that affects your daily life most directly: engagement with your municipal government.
 

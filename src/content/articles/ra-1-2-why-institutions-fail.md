@@ -34,7 +34,7 @@ seo:
     - "public sector reform"
 ---
 
-## The Bottom Line, Up Front
+## The Same Design Keeps Breaking in the Same Ways
 
 In [The Eight Tests Every Government Institution Must Pass](/articles/ra-1-1-eight-tests), you learned a framework for diagnosing governance failure. You can now look at any government function — water, education, healthcare, housing, electricity — and run eight tests to determine where the institutional design is broken. But here is the next question: why does the design keep breaking in the same ways?
 

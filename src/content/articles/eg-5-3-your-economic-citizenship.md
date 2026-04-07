@@ -35,7 +35,7 @@ seo:
     - "evaluating economic promises"
 ---
 
-## The Bottom Line, Up Front
+## Economic Policy Is Not Something That Happens to You
 
 Economic policy is not something that happens to you. It is something you can understand, evaluate, and influence. Over the course of this series, you have built a comprehensive analytical framework: you know where South Africa's economy stands (Part 1), what a credible growth strategy looks like (Part 2), what institutional enablers are required (Part 3), how to measure municipal performance (Part 4), and why implementation is always a political question (Part 5). This final article converts all of that knowledge into practical tools. You will learn to read the Medium Term Budget Policy Statement and understand whether the government is investing in the infrastructure that Stage 1 of the growth strategy requires. You will learn to use the Municipal Performance Index to evaluate whether your municipality is creating the conditions for economic growth. You will learn to engage with your municipality's Local Economic Development process — not as a passive recipient of consultation, but as an informed participant who can evaluate whether the LED strategy aligns with the frameworks you now understand. And you will learn to evaluate the economic promises that politicians make during election campaigns, using a structured framework that separates credible commitments from rhetorical gestures. This article is the capstone of the Economic Growth pillar — the point where knowledge becomes power.
 

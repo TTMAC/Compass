@@ -25,7 +25,7 @@ seo:
     - "equitable share formula"
 ---
 
-## The Bottom Line, Up Front
+## Three Equal Spheres, Not Three Tiers
 
 In 1996, South Africa's Constitutional Assembly did something remarkably ambitious.
 

@@ -31,7 +31,7 @@ seo:
     - "intergovernmental reform"
 ---
 
-## The Bottom Line, Up Front
+## Sharing a Function Between Two Spheres Means Nobody Owns It
 
 [Schedule 4 of the Constitution](/government-functions) lists the functions that are shared between national and provincial government. Education, health services, housing, public transport, agriculture, environment, disaster management, and more than a dozen other functions are classified as concurrent competences — meaning that both national and provincial government have legislative authority over them. The intention behind concurrency, as articulated during the constitutional negotiations of the early 1990s, was elegant: national government would set minimum standards, provide the policy framework, and ensure equity across provinces; provincial government would adapt that framework to local conditions, deliver the services, and be held accountable by provincial voters for the results.
 

@@ -32,7 +32,7 @@ seo:
     - "municipal data sources"
 ---
 
-## The Bottom Line, Up Front
+## One Score for Every Municipality — Built From Public Data
 
 South Africa has 257 municipalities, and there is no single, publicly available index that tells you how well each one is performing across the dimensions that matter most for economic growth and service delivery. This article builds one. The Municipal Performance Index (MPI) is a quantitative framework that scores every municipality on four pillars — Economic Development, Service Delivery, Governance and Finance, and Infrastructure and Sustainability — using publicly available data from Statistics South Africa, National Treasury, the Auditor-General, and the Department of Water and Sanitation. Each pillar contains between three and six measurable indicators. Each indicator is normalised to a 0-to-100 scale so that different units (percentages, rand values, institutional ratings) can be compared on equal terms. The pillar scores are combined using a weighted geometric mean — a method that rewards balanced performance and penalises municipalities that score well on one dimension while collapsing on another. The result is a single overall score, from 0 to 100, for every municipality in the country, classified into four performance tiers: High Performance (70 and above), Moderate (55 to 69), Needs Improvement (40 to 54), and Critical (below 40).
 

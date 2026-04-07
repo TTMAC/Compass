@@ -35,7 +35,7 @@ seo:
     - "human capital productivity"
 ---
 
-## The Bottom Line, Up Front
+## The Economy Cannot Absorb Workers the Education System Produces
 
 South Africa's expanded unemployment rate exceeds 33 per cent. Among young people aged 15 to 34, it exceeds 45 per cent. These are among the highest unemployment rates in the world for a country not experiencing war or state collapse. The conventional explanation — that there are not enough jobs — is true but incomplete. The deeper explanation is that the economy cannot produce the kinds of jobs that would absorb the available labour force, because the education system does not produce the kinds of workers that a modern economy requires.
 

@@ -35,7 +35,7 @@ seo:
     - "broken development cycle"
 ---
 
-## The Bottom Line, Up Front
+## South Africa Is Not Stuck — It Is Actively Spiralling Downward
 
 South Africa is not stuck. The word "stuck" implies stasis — a country frozen in place, waiting for something to change. The reality is worse than stasis. South Africa is actively spiralling downward. Each broken link in the reinforcing cycle that was described in the previous article — [When the Cycle Works](/articles/hd-4-1-when-the-cycle-works) — does not merely fail to strengthen the next link. It actively weakens it. High inequality produces high crime. High crime drives investment and skills out of the country. The loss of investment and skills shrinks the tax base and fiscal space. Shrinking fiscal space forces cuts to education and health spending, or at minimum prevents the quality improvements those services desperately need. Deteriorating education and health outcomes reduce the capabilities of the workforce. A less capable workforce produces lower growth. Lower growth deepens inequality. The spiral tightens with each turn.
 

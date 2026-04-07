@@ -34,7 +34,7 @@ seo:
     - "socioeconomic rights South Africa"
 ---
 
-## The Bottom Line, Up Front
+## Your Socioeconomic Rights Are Enforceable, Not Aspirational
 
 The South African Constitution guarantees your right to healthcare, education, housing, food, water, and social security. These are not aspirational statements buried in a preamble that politicians invoke on Heritage Day and forget by Monday. They are legally enforceable rights, justiciable before the courts, and the state has a constitutional obligation to progressively realise them within its available resources. The Constitutional Court has confirmed this in a line of landmark cases — Grootboom, Treatment Action Campaign, Mazibuko — that together constitute one of the most advanced bodies of socioeconomic rights jurisprudence anywhere in the world. South Africa's Bill of Rights does not merely promise you freedom from state oppression; it promises you freedom from destitution. The state must provide access to adequate housing. It must provide access to healthcare services, sufficient food and water, and social security. It must ensure that children receive basic nutrition, shelter, basic healthcare, and social services. It must make education available and accessible. These obligations are binding. They are enforceable. And they are being violated, in measurable ways, every single day.
 

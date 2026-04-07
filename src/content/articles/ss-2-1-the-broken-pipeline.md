@@ -38,7 +38,7 @@ seo:
     - "court case backlog"
 ---
 
-## The Bottom Line, Up Front
+## Report a Crime, Almost Certainly Get No Justice
 
 If you report a crime in South Africa today, the probability of that crime resulting in a conviction is catastrophically low.
 

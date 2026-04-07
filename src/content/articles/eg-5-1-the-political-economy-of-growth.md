@@ -31,7 +31,7 @@ seo:
     - "parliamentary accountability economy"
 ---
 
-## The Bottom Line, Up Front
+## Every Reform Creates Winners and Losers — Manage Both
 
 Every economic reform creates winners and losers. This is not a bug in the system — it is the system. And in South Africa, the political management of that redistribution is not a side effect of growth strategy but its central challenge. Resource optimisation threatens mining incumbents who profit from the current export model. Efficiency-driven growth requires regulatory reforms that eliminate rent-seeking opportunities. Infrastructure reform exposes SOE patronage networks. MSME support challenges established firms that prefer less competition. No economic strategy succeeds by pretending these political dynamics do not exist.
 

@@ -37,7 +37,7 @@ seo:
     - "pass laws enforcement"
 ---
 
-## The Bottom Line, Up Front
+## A Police Force Built for Control, Not Safety
 
 South Africa's policing crisis is not a failure of democratic governance.
 

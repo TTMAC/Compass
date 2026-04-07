@@ -32,7 +32,7 @@ seo:
     - "procurement reform"
 ---
 
-## The Bottom Line, Up Front
+## Capture Is a Structural Condition, Not a Single Scandal
 
 When most South Africans hear the word "capture," they think of a specific story — the Gupta family, their relationship with former President Jacob Zuma, and the systematic redirection of state resources documented by the Zondo Commission. That story is real and important. But if you think of capture only as that story, you will misunderstand both the problem and the solution. Capture is not a single scandal. It is a structural condition. And it exists in far more places than Saxonwold.
 

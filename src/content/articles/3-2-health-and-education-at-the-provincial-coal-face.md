@@ -39,7 +39,7 @@ seo:
     - "medico-legal claims provinces"
 ---
 
-## The Bottom Line, Up Front
+## Two Sectors That Consume 80% of Every Provincial Rand
 
 In *The Awkward Middle Child*, you learned that South Africa's nine provinces occupy a structurally awkward position—constitutionally powerful on paper but fiscally dependent on national transfers for more than 95% of their budgets. This article takes you inside the two sectors where that money actually goes, and where the consequences of provincial performance—good or bad—directly touch your life.
 

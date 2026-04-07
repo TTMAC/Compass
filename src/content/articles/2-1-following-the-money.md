@@ -25,7 +25,7 @@ seo:
     - "municipal own revenue"
 ---
 
-## The Bottom Line, Up Front
+## Every Service Failure Traces Back to Specific Money
 
 If you want to understand why a pothole stays unfixed for three years, why your clinic runs out of chronic medication in the second week of every month, or why your child's school has 55 learners in a classroom designed for 35, the answer almost always traces back to money.
 

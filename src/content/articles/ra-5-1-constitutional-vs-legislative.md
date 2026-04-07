@@ -30,7 +30,7 @@ seo:
     - "government restructuring"
 ---
 
-## The Bottom Line, Up Front
+## Most Reforms Need New Legislation, Not a New Constitution
 
 Over the course of Parts 2, 3, and 4 of this series, you have seen a comprehensive programme of governance reform. Education needs a structured autonomy model that gives provincial departments operational authority over teacher employment. Healthcare needs semi-autonomous district PHC authorities with delegated procurement and staffing powers. Human settlements needs consolidated municipal delivery agencies with end-to-end ownership of the housing chain. Water and sanitation needs a clean separation between the Water Services Authority and the Water Services Provider. Electricity needs ring-fenced revenue and independent procurement pathways. Municipal capability needs mandatory professional qualifications and protected technical appointments. And binding all of these together, the enforcement architecture needs automatic triggers that replace the discretionary Section 100 intervention model.
 

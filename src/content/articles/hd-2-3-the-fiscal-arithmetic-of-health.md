@@ -34,7 +34,7 @@ seo:
     - "health budget South Africa"
 ---
 
-## The Bottom Line, Up Front
+## Two Health Systems in One Country — One for the Rich, One for Everyone Else
 
 South Africa spends approximately 8.5 percent of its gross domestic product on health — a figure that, in isolation, sounds reasonable and is indeed comparable to the OECD average. But that headline number conceals a structural divide that defines the country's health system more than any other single fact. Of that 8.5 percent, only approximately 4.1 percent flows through the public sector, which serves approximately eighty-four percent of the population. The remaining 4.4 percent flows through the private sector, which serves approximately sixteen percent of the population — those with medical scheme coverage. The arithmetic is stark: the public health system spends approximately R250 per capita per month to deliver healthcare to fifty million people. The private system spends approximately R1,100 per capita per month to deliver healthcare to ten million people. The result is two health systems in one country — one chronically underfunded and overstretched, the other well-resourced but accessible only to those who can afford medical scheme premiums.
 

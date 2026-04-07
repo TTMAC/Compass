@@ -32,7 +32,7 @@ seo:
     - "water security development"
 ---
 
-## The Bottom Line, Up Front
+## Industrialise Without Poisoning the Water People Drink
 
 South Africa needs industrial development. This is not a contested claim. A country with an expanded unemployment rate above 40 per cent, a manufacturing sector that has shrunk as a share of GDP for two decades, and infrastructure that is visibly deteriorating does not have the luxury of treating industrialisation as optional. The question is not whether South Africa should industrialise but how — and specifically, how to pursue industrial development in a way that does not poison the water its people drink, destroy the ecosystems that sustain agriculture and tourism, or create unhealthy living conditions in the communities that are supposed to benefit from growth.
 

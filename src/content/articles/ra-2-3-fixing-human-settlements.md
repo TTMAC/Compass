@@ -33,7 +33,7 @@ seo:
     - "housing subsidy reform"
 ---
 
-## The Bottom Line, Up Front
+## The Most Fragmented Function in South African Governance
 
 If you want to understand what maximum institutional fragmentation looks like — what happens when a government function is scattered across so many entities that nobody owns the outcome — human settlements is the case study. No other function in South African governance involves as many institutions, as many handoff points, and as complete an absence of end-to-end ownership as the delivery of a subsidised house from project conception to a beneficiary holding a title deed.
 

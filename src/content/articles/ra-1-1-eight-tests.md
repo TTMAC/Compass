@@ -30,7 +30,7 @@ seo:
     - "public sector reform"
 ---
 
-## The Bottom Line, Up Front
+## Government Fails Even Where Officials Are Competent and Honest
 
 When water stops flowing from your tap, when the clinic has no medication, when your child's school has no textbooks — what is the first thing you think? Most South Africans reach for the same explanation: corruption. Or incompetence. Or both. And they are not entirely wrong. South Africa has no shortage of officials who have stolen public money, appointees who lack the qualifications for their posts, or politicians who treat government as a vehicle for personal enrichment rather than public service. The Zondo Commission's State Capture findings made that painfully, exhaustively clear.
 

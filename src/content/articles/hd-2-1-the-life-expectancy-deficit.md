@@ -32,7 +32,7 @@ seo:
     - "95-95-95 targets South Africa"
 ---
 
-## The Bottom Line, Up Front
+## Ten Years of Life Expectancy That South Africa Should Have but Does Not
 
 South Africa should have a life expectancy at birth of approximately seventy-three years. That is the number the Preston Curve — the well-established relationship between national income and population health — predicts for a country at South Africa's income level. Instead, the country's life expectancy sits at approximately sixty-three years. That ten-year deficit is not a statistical curiosity. It represents roughly five hundred thousand premature deaths per decade, millions of years of productive life lost, and a direct, measurable drag on the Human Development Index. The overwhelming explanation for this gap is the convergence of two infectious diseases: HIV/AIDS and tuberculosis. South Africa has the world's largest HIV epidemic — approximately 7.7 million people living with HIV — and one of the world's highest tuberculosis burdens, with the two diseases feeding on each other in a syndemic that has reshaped the country's demographic profile more dramatically than any other force since colonialism.
 

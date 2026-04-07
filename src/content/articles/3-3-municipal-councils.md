@@ -39,7 +39,7 @@ seo:
     - "coalition municipal government"
 ---
 
-## The Bottom Line, Up Front
+## The Sphere of Government Closest to Your Daily Life
 
 In *The Awkward Middle Child*, you learned that provinces are constitutionally powerful but fiscally dependent—a middle layer of government that most citizens struggle to distinguish from national government. In *Health and Education at the Provincial Coal Face*, you followed 80% of provincial spending into schools and clinics and saw how implementation quality determines whether your child learns and your clinic has medicine. This article takes you to the sphere of government that should be the easiest to understand, the most directly accountable, and the most responsive to your daily life: your municipal council.
 

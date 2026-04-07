@@ -36,7 +36,7 @@ seo:
     - "GDP per capita comparison"
 ---
 
-## The Bottom Line, Up Front
+## A $7,000 Economy Stuck in First Gear
 
 South Africa's gross domestic product per capita — the total value of everything the economy produces in a year, divided by the population — sits at approximately $7,000 in current US dollar terms. That figure places the country among the World Bank's upper-middle-income group on paper, but it masks a structural reality that is far less flattering. On the Economic Complexity Index, which measures the diversity and sophistication of what a country actually produces and exports, South Africa ranks below countries with fewer natural resources, smaller populations, and less favourable geographic positions. Michael Porter's competitive economy framework classifies the country as stuck in the factor-driven stage of development — the stage where economic output depends primarily on natural resource extraction and cheap labour rather than on efficiency, innovation, or technological capability. And perhaps most critically, South Africa's income per person has not meaningfully grown in purchasing-power terms for almost three decades, while countries that were at similar income levels in the mid-1990s have surged ahead. Understanding this starting position — where the economy actually stands, not where politicians claim it stands — is the prerequisite for evaluating every economic policy promise you will hear between now and the next election.
 

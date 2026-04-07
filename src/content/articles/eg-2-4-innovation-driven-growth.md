@@ -35,7 +35,7 @@ seo:
     - "Stage 3 economic growth"
 ---
 
-## The Bottom Line, Up Front
+## The R&D Gap That Determines South Africa's Future
 
 South Africa spends approximately 0.8% of its GDP on research and development. South Korea spends 4.8%. Israel spends 5.4%. The OECD average sits at 2.7%. That gap — between 0.8% and the 2.5–3% threshold where innovation begins to compound into sustained economic transformation — is the distance South Africa must travel over the next two decades. Every policy decision made in Stage 1 (resource revenue investment) and Stage 2 (education pipelines, regulatory quality, institutional efficiency) either narrows or widens that gap. There is no neutral gear.
 

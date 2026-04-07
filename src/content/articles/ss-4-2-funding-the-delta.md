@@ -34,7 +34,7 @@ seo:
     - "justice system expenditure"
 ---
 
-## The Bottom Line, Up Front
+## The Cost of Failure Exceeds the Cost of Reform
 
 Every conversation about criminal justice reform in South Africa eventually arrives at the same objection: "We can't afford it." Treasury officials invoke fiscal constraints. Politicians point to competing priorities — health, education, social grants, infrastructure. The national debt-to-GDP ratio is cited. The constrained fiscal envelope is lamented. And the conversation ends, as it has ended for two decades, with the implicit conclusion that reform is a luxury South Africa cannot afford.
 

@@ -34,7 +34,7 @@ seo:
     - "crime and inequality"
 ---
 
-## The Bottom Line, Up Front
+## Your Safety Depends on Your Postcode
 
 Your safety in South Africa depends, to a degree that should be constitutionally intolerable, on where you live.
 

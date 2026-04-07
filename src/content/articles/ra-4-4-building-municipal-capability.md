@@ -31,7 +31,7 @@ seo:
     - "professional municipal staff"
 ---
 
-## The Bottom Line, Up Front
+## Capability and Information Fail Across Every Municipal Function
 
 The previous three articles in Part 4 diagnosed [water](/articles/ra-4-1-fixing-water-and-sanitation), [electricity](/articles/ra-4-2-fixing-electricity), and [waste and roads](/articles/ra-4-3-fixing-waste-and-roads) as individual functions. Each produced a function-specific diagnosis with function-specific reform blueprints. But look at the RAARICLE™ scorecards side by side and two elements appear in the critical failure zone across every function: capability and information. Water's capability scores 1. Electricity's scores 2. Waste and roads both score 2. Information scores 2 to 3 across all four. These are not function-specific failures. They are the cross-cutting structural conditions that make every function fail.
 

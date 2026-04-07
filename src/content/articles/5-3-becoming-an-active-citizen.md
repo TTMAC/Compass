@@ -25,7 +25,7 @@ seo:
     - "hold government accountable"
 ---
 
-## The Bottom Line, Up Front
+## Knowledge Without Action Changes Nothing
 
 You have come a long way.
 

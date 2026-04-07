@@ -41,7 +41,7 @@ seo:
     - "safety and security reform"
 ---
 
-## The Bottom Line, Up Front
+## When the State Fails, the Consequence Is Measured in Bodies
 
 If the previous three articles in this series diagnosed functions where the state tries to deliver something and fails — education, healthcare, housing — this article diagnoses a function where the state's failure has the most immediate and visceral consequence: your safety. When the education system fails, the damage is cumulative and generational. When the healthcare system fails, you may wait hours at a clinic or go without medication. When the housing system fails, you remain on a waiting list for years. But when the safety and security system fails, the consequence is that someone can rob you, assault you, rape you, or murder someone you love — and face no consequences. The criminal justice system's failure is measured not in backlogs or waiting lists but in bodies, trauma, and an environment of impunity that corrodes the social contract itself.
 

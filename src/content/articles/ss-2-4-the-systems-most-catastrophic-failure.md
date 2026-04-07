@@ -35,7 +35,7 @@ seo:
     - "victim support services"
 ---
 
-## The Bottom Line, Up Front
+## The System Fails Its Most Vulnerable Survivors Most Completely
 
 South Africa has among the highest rates of gender-based violence in the world — and one of the lowest rates of conviction for GBV offences.
 

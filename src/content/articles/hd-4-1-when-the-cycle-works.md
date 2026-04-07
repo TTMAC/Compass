@@ -36,7 +36,7 @@ seo:
     - "virtuous cycle development"
 ---
 
-## The Bottom Line, Up Front
+## Countries With Harder Starting Points Have Built This Cycle
 
 The reinforcing cycle is not theoretical. It is not a model that exists only in academic papers and UNDP reports. Multiple countries have built it — from conditions as challenging as, and in several cases more challenging than, South Africa's current position. South Korea began with a per-capita income lower than most of sub-Saharan Africa. Botswana was one of the poorest countries on earth at independence. Rwanda rebuilt from literal genocide. Malaysia managed ethnic tensions and inequality that rival South Africa's own.
 

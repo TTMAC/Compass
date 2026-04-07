@@ -30,7 +30,7 @@ seo:
     - "provincial governance crisis"
 ---
 
-## The Bottom Line, Up Front
+## A Sphere-Level Design Problem, Not Function-Specific Failures
 
 The previous four articles in this series applied the RAARICLE™ framework to individual functions — [education](/articles/ra-2-1-fixing-basic-education), [healthcare](/articles/ra-2-2-fixing-primary-healthcare), [human settlements](/articles/ra-2-3-fixing-human-settlements), and [safety and security](/articles/ra-2-4-fixing-safety-and-security). Each produced a diagnosis of structural failure. Education, healthcare, and housing suffer from fragmentation and cross-sphere misalignment; safety and security suffers from the opposite pathology — excessive centralisation. All four identified the absence of enforcement as a root cause. Each proposed a reform blueprint that would co-locate authority with accountability at the delivery level.
 

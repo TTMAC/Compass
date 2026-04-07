@@ -25,7 +25,7 @@ seo:
     - "government financial accountability"
 ---
 
-## The Bottom Line, Up Front
+## The Annual Report Card That Almost Nobody Reads
 
 In *Following the Money*, you traced how SARS collects over R2 trillion in revenue and how that money flows through the National Revenue Fund, through the Division of Revenue Act, and into the budgets of departments and municipalities that are supposed to turn it into services. In *The Budget Process*, you learned when and how those fiscal decisions are made. In *Making Public Submissions*, you learned how to participate in the legislative processes that shape those decisions. But there is a question that every article in this series has been building toward: once the money has been allocated and spent, how do you know whether it was spent properly?
 

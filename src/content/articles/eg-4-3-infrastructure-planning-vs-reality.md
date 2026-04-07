@@ -33,7 +33,7 @@ seo:
     - "ISA infrastructure South Africa"
 ---
 
-## The Bottom Line, Up Front
+## More Plans Than Almost Any Emerging Market, Less Delivery
 
 South Africa has produced more infrastructure plans than almost any other emerging market economy, and delivered less of them. The National Infrastructure Plan promised R827 billion across 18 Strategic Integrated Projects. The Infrastructure Fund promised R100 billion in blended finance over a decade. Infrastructure South Africa promised a new coordination model that would accelerate project preparation and unlock private capital. The plans are sophisticated. The documents are thorough. The frameworks are internationally benchmarked. And the gap between what was planned and what was built is one of the widest in the developing world.
 

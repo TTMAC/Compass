@@ -32,7 +32,7 @@ seo:
     - "school infrastructure"
 ---
 
-## The Bottom Line, Up Front
+## The Largest Budget Item, the Weakest Results
 
 Basic education touches more South Africans more directly than any other government function. Approximately 13 million learners attend roughly 23,000 public ordinary schools across nine provinces. The Department of Basic Education's budget — combining national spending and provincial allocations — exceeds R300 billion annually, making education the largest single expenditure item in the consolidated government budget. Section 29 of the Constitution guarantees the right to basic education — a right that the Constitutional Court has held is immediately realisable, not subject to progressive realisation. And yet, despite this constitutional priority, this massive budget, and the existential importance of education to South Africa's future, the system produces results that are — by any international benchmark — deeply inadequate.
 

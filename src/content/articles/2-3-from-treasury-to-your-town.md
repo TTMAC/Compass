@@ -25,7 +25,7 @@ seo:
     - "municipal service delivery"
 ---
 
-## The Bottom Line, Up Front
+## The Last Mile Is Where the Money Gets Lost
 
 In *Following the Money*, you traced how South Africa collects over R2 trillion in tax revenue through SARS and divides it among three spheres through the Division of Revenue Act.
 

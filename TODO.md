@@ -112,7 +112,7 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 ## High Priority — Content
 
 ### Item 18: Replace generic "The Bottom Line, Up Front" headings with article-specific summaries
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** Every article uses the identical `## The Bottom Line, Up Front` heading, which tells the reader nothing specific. Replacing it with a one-line summary of the article's key argument improves scannability, aids navigation (table-of-contents, search results), and reinforces the article's core message before the reader commits to the full text.
 - **Scope:** 70 articles across `src/content/articles/` use this heading.
 - **Action plan:**

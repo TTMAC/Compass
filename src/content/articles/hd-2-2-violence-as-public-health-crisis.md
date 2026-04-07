@@ -35,7 +35,7 @@ seo:
     - "trauma system South Africa"
 ---
 
-## The Bottom Line, Up Front
+## Violence Subtracts Three to Four Years From National Life Expectancy
 
 Violence is not just a criminal justice problem. It is a public health emergency that directly shortens lives, overwhelms the health system, and deepens the development deficit measured by every indicator that matters. South Africa's homicide rate — approximately forty-five per hundred thousand population, roughly seven times the global average — makes interpersonal violence the leading cause of death for men aged fifteen to forty-four and one of the most significant contributors to the country's life expectancy deficit. Add gender-based violence, which imposes an enormous physical, psychological, and reproductive health burden on women and children, and road traffic fatalities that kill more than twelve thousand people per year, and you arrive at a composite "violence tax" on life expectancy of approximately three to four years. That is three to four years that South Africa should be living but is not — years subtracted from the national average not by disease or poverty alone but by the direct application of force to human bodies.
 

@@ -37,7 +37,7 @@ seo:
     - "gender development index South Africa"
 ---
 
-## The Bottom Line, Up Front
+## High Development on Paper, Low Development in Reality
 
 South Africa looks like a "high human development" country on paper. Its HDI of 0.741 places it in the same category as Brazil, Colombia, and Peru — countries with significant challenges but recognisable middle-income living standards for substantial portions of their populations. Apply the inequality adjustment — ask not what the average South African theoretically has access to, but how development outcomes are actually distributed across the population — and South Africa drops to 0.462. That score does not place it among its upper-middle-income peers. It places it among countries like Myanmar, Papua New Guinea, and the Solomon Islands. The 37.6% penalty that the inequality adjustment imposes is the largest among all upper-middle-income countries and one of the largest in the world. No other country at South Africa's income level wastes as much human potential through unequal distribution.
 

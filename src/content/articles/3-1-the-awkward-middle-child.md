@@ -39,7 +39,7 @@ seo:
     - "Schedule 4 Schedule 5 powers"
 ---
 
-## The Bottom Line, Up Front
+## Constitutionally Powerful, Fiscally Dependent
 
 South Africa's nine provinces sit in the most structurally awkward position in the entire governance system. They are constitutionally powerful on paper—Schedule 4 of the Constitution assigns them concurrent authority over education, health, housing, agriculture, and a dozen other critical functions. Schedule 5 gives them exclusive control over ambulance services, provincial roads, liquor licences, and libraries. They employ the teachers who educate your children and the nurses who staff your local clinic. They absorb the largest single share of nationally raised revenue—approximately R756 billion in the 2024/25 financial year, according to the Division of Revenue Act (DORA). By any measure, provincial government is where the bulk of South Africa's public services live.
 

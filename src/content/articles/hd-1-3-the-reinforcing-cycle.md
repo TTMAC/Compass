@@ -36,7 +36,7 @@ seo:
     - "integrated development policy"
 ---
 
-## The Bottom Line, Up Front
+## Safety, Growth, and Development Are One System, Not Three
 
 Safety, economic growth, and human development are not separate policy domains. They are not problems to be solved by separate government departments with separate budgets, separate strategic plans, and separate accountability frameworks. They are a single reinforcing system — a cycle in which each element creates the conditions for the next. When the cycle operates in the positive direction, safety enables investment, investment drives growth, growth funds health and education, health and education produce a capable and law-abiding population, and that population reinforces safety. Progress compounds. When the cycle operates in the negative direction, crime deters investment, a shrinking economy reduces tax revenue, fiscal austerity squeezes health and education budgets, deteriorating capabilities produce unemployment and desperation, and unemployment and desperation fuel crime. Decline accelerates.
 

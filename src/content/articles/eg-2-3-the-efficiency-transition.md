@@ -34,7 +34,7 @@ seo:
     - "Porter diamond South Africa"
 ---
 
-## The Bottom Line, Up Front
+## Build the Institutional Scaffolding Before You Need It
 
 When South Korea's per-capita income crossed $15,000 in the late 1990s, the country had already spent two decades building the institutional scaffolding that would carry it to $30,000. Malaysia hit the same threshold in the 2010s after methodical investment in education, manufacturing clusters, and regulatory modernisation. Poland crossed it after EU accession forced a decade of institutional reform that made its factories competitive with German supply chains. In every case, the pattern is the same: the transition from resource-dependent growth to efficiency-driven growth took longer, cost more political capital, and required more institutional quality than any government initially expected.
 

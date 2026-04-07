@@ -33,7 +33,7 @@ seo:
     - "pharmaceutical supply chain"
 ---
 
-## The Bottom Line, Up Front
+## The Delivery Chain Breaks Before It Reaches the Nurse
 
 When you walk into a public clinic with a cough that will not clear, a child with diarrhoea, or a chronic condition that needs its monthly medication, you are entering the final link of a delivery chain that stretches from the national Department of Health in Pretoria through provincial bureaucracies, district management structures, pharmaceutical supply networks, and multiple conditional grant funding streams before it reaches the nurse who examines you. Understanding that chain — who controls each link, where the handoff points are, and where the chain routinely breaks — is the first step toward understanding why your clinic experience is what it is.
 

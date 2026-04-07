@@ -32,7 +32,7 @@ seo:
     - "stormwater management"
 ---
 
-## The Bottom Line, Up Front
+## The Failures You Can See From Your Front Door
 
 You do not need the RAARICLE™ framework to know that waste collection and road maintenance are failing across South Africa. You can see it. The uncollected refuse piling up on street corners in townships. The illegal dump sites growing on vacant land. The potholes that swallow tyres on roads that were last resurfaced a decade ago. The stormwater drains blocked with rubbish that flood every time it rains. These are the municipal failures that South Africans encounter every day — the ones that shape their experience of government more directly than any policy document or budget speech.
 

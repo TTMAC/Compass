@@ -32,7 +32,7 @@ seo:
     - "metropolitan governance South Africa"
 ---
 
-## The Bottom Line, Up Front
+## A 32-Point Chasm Between the Best and Worst Governed Metros
 
 South Africa has eight metropolitan municipalities, and the gap between the best-governed and the worst-governed is not a matter of marginal differences in service delivery or minor variations in budget management. It is a chasm. When you apply the Municipal Performance Index framework described in [The Municipal Performance Index](/articles/eg-4-1-the-municipal-performance-index) to audited data, Cape Town scores 84.0 out of 100 — placing it firmly in the High Performance tier. Johannesburg scores 52.2 — placing it in the Needs Improvement tier. That is a 32-point gap between two cities that draw from the same national fiscal framework, operate under the same Municipal Structures Act, report to the same oversight bodies, and face many of the same structural economic challenges. The gap is not explained by geography or demographics or resource endowments. It is explained by governance: how well each city collects its revenue, maintains its infrastructure, executes its capital budget, manages its workforce, and accounts for public money.
 

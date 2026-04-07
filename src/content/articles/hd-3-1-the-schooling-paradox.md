@@ -32,7 +32,7 @@ seo:
     - "education quality vs quantity"
 ---
 
-## The Bottom Line, Up Front
+## Among the Highest Education Spending in the World, Among the Worst Results
 
 South Africa spends approximately 6.5 per cent of its gross domestic product on education. That figure places it among the most generous education spenders in the world — above South Korea (4.7 per cent), above Germany (4.9 per cent), above the United Kingdom (5.5 per cent), and above most of its middle-income peers. Education consumes roughly 20 per cent of total consolidated government expenditure, making it the single largest line item in the national budget. By any reasonable fiscal measure, South Africa takes education seriously. The money is there.
 

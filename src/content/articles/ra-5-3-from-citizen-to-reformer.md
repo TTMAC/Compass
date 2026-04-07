@@ -35,7 +35,7 @@ seo:
     - "active citizenship"
 ---
 
-## The Bottom Line, Up Front
+## You Now Have a Diagnostic Framework — Use It
 
 You have made it through fourteen articles. That is not a small thing. Most commentary on South African governance gives you outrage — a catalogue of failures, a parade of incompetent or corrupt officials, and the implicit message that nothing can be done because the problems are too deep, too widespread, too entrenched. You now have something different. You have a diagnostic framework.
 

@@ -35,7 +35,7 @@ seo:
     - "criminal justice technology"
 ---
 
-## The Bottom Line, Up Front
+## Crime Statistics Tell You Almost Nothing About Justice
 
 Every year, the Minister of Police stands before the cameras and presents the annual crime statistics. The media reports the numbers. Commentators debate whether crime is "up" or "down." Opposition politicians demand the Minister's resignation. The Minister defends the statistics as evidence of progress, or explains them away as a legacy of historical challenges. The cycle repeats. Nothing changes.
 

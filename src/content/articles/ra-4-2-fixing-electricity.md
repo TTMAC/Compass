@@ -32,7 +32,7 @@ seo:
     - "independent power producer"
 ---
 
-## The Bottom Line, Up Front
+## The Only Municipal Function That Funds Everything Else
 
 Electricity is different from every other municipal function analysed in this series. It is the only function where the municipality's financial survival depends on the service itself — not just delivering it, but profiting from it. Electricity surpluses represent 25 to 30 per cent of total municipal income on average, and in some rural municipalities the figure reaches 40 per cent. When you pay your electricity bill, a significant portion of what you pay is not funding the electricity network. It is funding libraries, road maintenance, general administration, and councillor salaries. This cross-subsidy model is the structural feature that defines everything about municipal electricity governance — its political economy, its incentive structure, and its trajectory of decline.
 

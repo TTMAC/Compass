@@ -25,7 +25,7 @@ seo:
     - "government coordination South Africa"
 ---
 
-## The Bottom Line, Up Front
+## The Cooperation Gap Between Paper and Practice
 
 In the first two articles of this series, you learned the architecture of the South African state — three constitutionally equal spheres, each with protected powers — and you mapped out which sphere is responsible for which services.
 

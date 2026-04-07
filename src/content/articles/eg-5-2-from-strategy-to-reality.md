@@ -34,7 +34,7 @@ seo:
     - "strategy to results South Africa"
 ---
 
-## The Bottom Line, Up Front
+## A Strategy Without Sequenced Milestones Is Just a Wish List
 
 A strategy without a sequenced implementation plan, measurable milestones, and a course-correction mechanism is just a wish list. South Africa's history is defined by strategy documents that read beautifully and deliver nothing because they lack three things: a sequencing logic that specifies what must happen first because other things depend on it, measurable key performance indicators at each stage so you know whether you are on track, and a formal course-correction mechanism so you can adjust when reality diverges from the plan. The National Development Plan, the Industrial Policy Action Plans, the New Growth Path, the Economic Reconstruction and Recovery Plan — each was announced with conviction, endorsed by Cabinet, tabled in Parliament, and then allowed to drift into irrelevance because nobody built the operational infrastructure to convert strategic intention into tracked execution. This article builds that infrastructure.
 

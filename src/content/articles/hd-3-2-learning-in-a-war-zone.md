@@ -32,7 +32,7 @@ seo:
     - "cognitive bandwidth poverty"
 ---
 
-## The Bottom Line, Up Front
+## The Education Crisis Is Not Only an Education Problem
 
 The previous article documented the schooling paradox — high spending, low outcomes. This article explains a large part of why. The education crisis is not only an education problem. It is a safety problem. It is a nutrition problem. It is a transport problem. It is a housing problem. It is, fundamentally, a problem of the conditions under which learning is expected to occur.
 

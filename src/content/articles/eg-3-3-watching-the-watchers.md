@@ -34,7 +34,7 @@ seo:
     - "public sector oversight gaps"
 ---
 
-## The Bottom Line, Up Front
+## South Africa Measures Prolifically but Acts Sporadically
 
 South Africa has built a sophisticated monitoring and evaluation framework on paper — but the gap between what gets measured and what gets acted on remains the system's critical weakness. The Department of Planning, Monitoring and Evaluation (DPME) was established in 2010 with an ambitious mandate to monitor government performance across all three spheres. The Auditor-General of South Africa (AGSA) produces the most comprehensive public audit of government spending on the African continent. State-owned enterprises submit annual reports, corporate plans, and shareholder compacts to their oversight departments and to Parliament. The data exists. The reports are published. What does not reliably happen is the conversion of monitoring findings into policy correction, institutional reform, or individual accountability. The system measures prolifically and acts sporadically.
 

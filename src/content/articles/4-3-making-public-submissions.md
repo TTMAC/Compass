@@ -25,7 +25,7 @@ seo:
     - "MTBPS budget submissions"
 ---
 
-## The Bottom Line, Up Front
+## How to Make Your Written Voice Count in the Legislature
 
 In *Your Right to Participate*, you learned that the Constitution requires the National Assembly, the NCOP, and every provincial legislature to facilitate public involvement in their legislative processes—and that the Constitutional Court has struck down legislation when this obligation was not met. In *Ward Committees and Community Engagement*, you learned how to participate in municipal planning and budgeting at the local level. This article completes Part 4 by giving you something the first two articles deliberately held back: the practical, step-by-step mechanics of making a written submission on draft legislation, regulations, budgets, and policy documents at the national and provincial level.
 

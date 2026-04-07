@@ -25,7 +25,7 @@ seo:
     - "parliamentary budget oversight"
 ---
 
-## The Bottom Line, Up Front
+## The Budget Is a Twelve-Month Process, Not a Single Speech
 
 Every year, between April and March, South Africa's national government makes the fiscal decisions that determine whether your child's school gets a new classroom, whether your clinic gets chronic medication, whether your municipality gets infrastructure funding, and whether your social grant keeps pace with inflation.
 

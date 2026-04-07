@@ -25,7 +25,7 @@ seo:
     - "government performance monitoring"
 ---
 
-## The Bottom Line, Up Front
+## The Data Exists — Nobody Drew You a Map
 
 In *Reading the Auditor-General's Reports*, you learned how to interpret the annual audit that tells you whether government managed its money properly. But the Auditor-General's reports are one source among many. South Africa's government publishes more data about its own performance, spending, and service delivery than almost any other country on the African continent — budgets, surveys, census results, quarterly expenditure figures, performance assessments, school registers, poverty statistics, and municipal financial reports. The data exists. It is public. Much of it is free to download.
 

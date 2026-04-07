@@ -31,7 +31,7 @@ seo:
     - "democratic transition policing"
 ---
 
-## The Bottom Line, Up Front
+## First Overwhelmed, Then Deliberately Hollowed Out
 
 South Africa's criminal justice system was hit by two catastrophes in sequence, and the cumulative damage of both is what you live with today.
 

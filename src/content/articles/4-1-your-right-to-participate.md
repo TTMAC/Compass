@@ -25,7 +25,7 @@ seo:
     - "Chapter 9 institutions"
 ---
 
-## The Bottom Line, Up Front
+## The Constitution Makes You a Participant, Not a Spectator
 
 Everything you have read in this series so far—the architecture of the state, the division of powers, the flow of money from SARS to Treasury to your municipality, the provincial education and health systems, the structure of your municipal council—describes a governance machine. This article asks a different question: where do you fit in that machine? Not as a voter who shows up every five years to mark a ballot and then returns to watching from the outside. Not as a passive recipient of services that arrive or do not arrive. But as a participant—a person with constitutionally protected rights to be involved in the decisions that affect your life, and with practical channels through which to exercise those rights between elections.
 

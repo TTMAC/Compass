@@ -34,7 +34,7 @@ seo:
     - "community policing"
 ---
 
-## The Bottom Line, Up Front
+## The Constitutional Blueprint for Three-Tier Policing
 
 South Africa's Constitution already envisions three spheres of government — national, provincial, and municipal — each distinctive, interdependent, and interrelated. As [The Architecture of the State](/articles/1-1-architecture-of-the-state) documented, this three-spheres framework was a deliberate design choice by the constitutional framers, who rejected the hierarchical "tiers" model in favour of constitutionally equal spheres with protected functions. Schedule 4 Part A of the Constitution lists "police services" as a concurrent function between national and provincial government. The Municipal Systems Act already provides for municipal police services. The constitutional architecture for three tiers of policing is already there, embedded in the founding document of the democratic state. What is missing is the political will to implement what the Constitution's design logic already implies.
 

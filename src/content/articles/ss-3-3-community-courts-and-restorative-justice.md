@@ -34,7 +34,7 @@ seo:
     - "summary offences"
 ---
 
-## The Bottom Line, Up Front
+## Two Hundred and Fifty-Seven Municipalities With No Justice Role
 
 South Africa's 257 municipalities are almost entirely absent from the justice architecture. As [Municipal Councils](/articles/3-3-municipal-councils) documents, municipalities are the sphere of government closest to communities — responsible for water, electricity, refuse removal, roads, and the daily infrastructure of life. Yet when it comes to justice — the resolution of disputes, the adjudication of minor offences, the restoration of community order — municipalities have no role. There is no municipal court. There is no community justice officer. There is no local mechanism for resolving the petty theft, the domestic dispute, the liquor-related altercation, the trespassing complaint, or the minor assault that constitutes the vast majority of criminal matters entering the system.
 

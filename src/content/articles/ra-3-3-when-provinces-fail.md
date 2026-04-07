@@ -31,7 +31,7 @@ seo:
     - "governance intervention"
 ---
 
-## The Bottom Line, Up Front
+## The Intervention Mechanism That Rarely Works
 
 Section 100 of the Constitution provides the mechanism through which national government intervenes when a province fails to fulfil its constitutional or legislative obligations. The provision comes in two forms. Section 100(1)(a) allows the national executive to issue a directive to the provincial executive describing the extent of its failure and the steps required to remedy it. Section 100(1)(b) goes further — it allows the national executive to assume responsibility for the relevant obligation itself. Both forms require the National Council of Provinces to be notified, and the NCOP has the power to review and potentially disapprove the intervention.
 

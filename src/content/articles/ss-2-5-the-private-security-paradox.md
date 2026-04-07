@@ -30,7 +30,7 @@ seo:
     - "security as commodity"
 ---
 
-## The Bottom Line, Up Front
+## An Industry Built on the State's Failure
 
 South Africa's private security industry is the largest in the world relative to population.
 

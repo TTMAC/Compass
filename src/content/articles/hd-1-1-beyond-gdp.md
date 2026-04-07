@@ -33,7 +33,7 @@ seo:
     - "capabilities approach development"
 ---
 
-## The Bottom Line, Up Front
+## South Africa's HDI Collapses When You Adjust for Inequality
 
 Gross domestic product tells you what an economy produces. The Human Development Index tells you what that production means for actual human lives — whether people live long enough to see their grandchildren grow up, whether they acquire the knowledge to navigate a complex world, and whether they command the resources to make meaningful choices about how they live. South Africa's gross national income per capita of approximately $13,000 in purchasing power parity terms sounds impressive — it places the country in the World Bank's upper-middle-income bracket and earns an HDI score of 0.741, technically classifying the nation as one of "high human development." But that number is a statistical mirage. When you adjust for inequality — when you ask not what the average South African theoretically commands but what the typical South African actually experiences — the HDI collapses to 0.462, a figure that places the country in the "low human development" category. The gap between those two numbers, 0.741 and 0.462, is not an academic curiosity. It is the quantitative expression of sixty million people's lived reality in a country where the economy produces enough for everyone but distributes it as though designed to ensure that most people receive almost nothing.
 

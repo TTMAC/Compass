@@ -36,7 +36,7 @@ seo:
     - "ward committee participation"
 ---
 
-## The Bottom Line, Up Front
+## The Cycle Is Built or Broken at the Local Level
 
 The reinforcing cycle does not only operate at the national level. It operates in every ward, every school, every clinic, and every community. The central argument of this entire series has been that safety, economic growth, and human development are not separate policy domains — they are interconnected components of a single system, and when they reinforce each other, they create a virtuous cycle that lifts outcomes across all three dimensions. But here is the insight that national statistics obscure: the cycle is built or broken at the local level. National policy creates the framework. Provincial departments allocate the resources. But it is in the ward, at the school governing body meeting, at the community policing forum, at the clinic committee, at the IDP public participation session, that the cycle either functions or fails. This is where you have the most leverage. Not as a voter who chooses a party every five years, but as a citizen who participates in governance continuously.
 

@@ -25,7 +25,7 @@ seo:
     - "government accountability South Africa"
 ---
 
-## The Bottom Line, Up Front
+## When Things Go Wrong, Who Is Actually Responsible?
 
 In the previous article in this series, *The Architecture of the State*, you learned that South Africa's Constitution divides power across three constitutionally equal spheres—national, provincial, and municipal—each with protected powers.
 
