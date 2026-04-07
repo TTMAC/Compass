@@ -165,9 +165,10 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 ## Reform Roadmap Page Improvements
 
 ### Item 22: Fix "Institutional Reforms reforms" redundancy in stats bar
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** The stats bar renders `{ws.shortTitle} reforms`, but the reform-agenda workstream's `shortTitle` is "Institutional Reforms", producing the redundant text "Institutional Reforms reforms".
 - **Action:** Fix in `src/pages/real-steps-to-reform.astro` or `src/data/reforms.ts` so the label reads correctly.
+- **Resolution:** Changed `shortTitle` from "Institutional Reforms" to "Institutional" in `src/data/reforms.ts`. This aligns with the other single-word shortTitles (Safety, Economy, People) and fixes the redundancy across all four usage sites (stats bar, filter buttons, timeline labels, legislative badges).
 
 ### Item 23: Add text search filter for reform cards
 - **Status:** 🔲 Todo
