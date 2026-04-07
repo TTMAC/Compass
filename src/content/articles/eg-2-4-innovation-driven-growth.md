@@ -263,32 +263,19 @@ Apply a traffic-light assessment to each dimension: green if improving at a rate
 
 ## Resources
 
-The following sources provide the data and context needed to track South Africa's progress toward innovation-driven growth.
+The analysis in this article draws on the following institutional research and publications:
 
-**Department of Science and Innovation** (www.dst.gov.za) — publishes national R&D survey data, the White Paper on Science, Technology and Innovation, and annual performance reports.
-
-**National Advisory Council on Innovation (NACI)** — publishes periodic assessments of South Africa's national system of innovation.
-
-**Technology Innovation Agency (TIA)** — publishes annual reports on its investment activities and technology transfer outcomes.
-
-**National Intellectual Property Management Office (NIPMO)** — publishes annual reports on IP from publicly financed R&D, including disclosures, patents, and licensing activity.
-
-**CSIR, SAMRC, ARC, and HSRC** — each publishes annual reports and research output summaries detailing their R&D activities and outputs.
-
-**Companies and Intellectual Property Commission (CIPC)** (www.cipc.co.za) — provides access to patent filings and annual IP statistics.
-
-**World Intellectual Property Organisation (WIPO)** (www.wipo.int) — publishes the annual World Intellectual Property Indicators report and the Global Innovation Index, and maintains the PATENTSCOPE patent search database.
-
-**SAVCA** (www.savca.co.za) — publishes annual venture capital and private equity surveys for Southern Africa.
-
-**Global Entrepreneurship Monitor South Africa** — published annually by Stellenbosch University Business School in partnership with the Small Enterprise Development Agency (Seda), includes data on entrepreneurship and early-stage financing.
-
-**OECD Science, Technology and Industry Outlook** and **Main Science and Technology Indicators** — provide international R&D and innovation comparisons (South Africa is included as a partner country).
-
-**UNESCO Institute for Statistics** (uis.unesco.org) — maintains a global database of science, technology, and innovation indicators with standardised definitions.
-
-**Korea Institute of Science and Technology Evaluation and Planning (KISTEP)** — publishes English-language reports on South Korea's innovation trajectory.
-
-**Israel Innovation Authority** — publishes annual reports on Israel's innovation ecosystem, including venture capital data and programme evaluations.
-
-**National Research Foundation of Singapore** — publishes Research, Innovation and Enterprise plans detailing Singapore's innovation strategy.
+- Department of Science and Innovation — publishes national R&D survey data, the White Paper on Science, Technology and Innovation, and annual performance reports — [www.dst.gov.za](https://www.dst.gov.za)
+- National Advisory Council on Innovation (NACI) — publishes periodic assessments of South Africa's national system of innovation
+- Technology Innovation Agency (TIA) — publishes annual reports on its investment activities and technology transfer outcomes
+- National Intellectual Property Management Office (NIPMO) — publishes annual reports on IP from publicly financed R&D, including disclosures, patents, and licensing activity
+- CSIR, SAMRC, ARC, and HSRC — each publishes annual reports and research output summaries detailing their R&D activities and outputs
+- Companies and Intellectual Property Commission (CIPC) — provides access to patent filings and annual IP statistics — [www.cipc.co.za](https://www.cipc.co.za)
+- World Intellectual Property Organisation (WIPO) — publishes the annual World Intellectual Property Indicators report and the Global Innovation Index, and maintains the PATENTSCOPE patent search database — [www.wipo.int](https://www.wipo.int)
+- SAVCA — publishes annual venture capital and private equity surveys for Southern Africa — [www.savca.co.za](https://www.savca.co.za)
+- Global Entrepreneurship Monitor South Africa — published annually by Stellenbosch University Business School in partnership with the Small Enterprise Development Agency (Seda), includes data on entrepreneurship and early-stage financing
+- OECD Science, Technology and Industry Outlook and Main Science and Technology Indicators — provide international R&D and innovation comparisons (South Africa is included as a partner country)
+- UNESCO Institute for Statistics — maintains a global database of science, technology, and innovation indicators with standardised definitions — [uis.unesco.org](https://uis.unesco.org)
+- Korea Institute of Science and Technology Evaluation and Planning (KISTEP) — publishes English-language reports on South Korea's innovation trajectory
+- Israel Innovation Authority — publishes annual reports on Israel's innovation ecosystem, including venture capital data and programme evaluations
+- National Research Foundation of Singapore — publishes Research, Innovation and Enterprise plans detailing Singapore's innovation strategy

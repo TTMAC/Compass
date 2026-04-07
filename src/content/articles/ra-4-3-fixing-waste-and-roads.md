@@ -294,14 +294,16 @@ Based on the pilot evaluation, mandate the shared services model for all municip
 
 ## Resources
 
-- SAICE. *Infrastructure Report Card 2022.* Available at saice.org.za.
-- Statistics South Africa. *General Household Survey 2023.* Available at statssa.gov.za.
-- Automobile Association of South Africa. *Pothole Estimate.* April 2025.
-- Department of Forestry, Fisheries and the Environment. *National Environmental Management: Waste Act* (59 of 2008).
-- DFFE. *State of Waste Report.* Available at sawic.environment.gov.za.
-- Institute of Municipal Engineering of Southern Africa. *Technical Staffing Analysis.* February 2026.
-- UCT. *Road Maintenance Backlog Research.* Available at news.uct.ac.za.
-- Auditor-General of South Africa. *MFMA 2023/24 Audit Outcomes.* Available at agsa.co.za.
-- National Treasury. *Municipal Infrastructure Grant Performance Reports.* Available at treasury.gov.za.
-- LGSETA. *Feasibility Study on Shared Services in Local Government.* 2022-2023. Available at lgseta.org.za.
-- Operation Vulindlela Phase II. *Municipal Reform Programme.* Launched May 2025.
+The analysis in this article draws on the following institutional research and publications:
+
+- SAICE, *Infrastructure Report Card 2022* — [saice.org.za](https://www.saice.org.za)
+- Statistics South Africa, *General Household Survey 2023* — [statssa.gov.za](https://www.statssa.gov.za)
+- Automobile Association of South Africa, *Pothole Estimate* — April 2025
+- Department of Forestry, Fisheries and the Environment, *National Environmental Management: Waste Act* (59 of 2008)
+- DFFE, *State of Waste Report* — [sawic.environment.gov.za](https://sawic.environment.gov.za)
+- Institute of Municipal Engineering of Southern Africa, *Technical Staffing Analysis* — February 2026
+- UCT, *Road Maintenance Backlog Research* — [news.uct.ac.za](https://news.uct.ac.za)
+- Auditor-General of South Africa, *MFMA 2023/24 Audit Outcomes* — [agsa.co.za](https://www.agsa.co.za)
+- National Treasury, *Municipal Infrastructure Grant Performance Reports* — [treasury.gov.za](https://www.treasury.gov.za)
+- LGSETA, *Feasibility Study on Shared Services in Local Government* — 2022-2023 — [lgseta.org.za](https://www.lgseta.org.za)
+- Operation Vulindlela Phase II, *Municipal Reform Programme* — launched May 2025

@@ -338,36 +338,19 @@ By working through these five questions, you move from a general sense of frustr
 
 ## Resources
 
-The following sources were referenced in this article and are recommended for further reading on ward committees and community engagement in municipal governance.
+The analysis in this article draws on the following institutional research and publications:
 
-**Legislative sources:**
-Municipal Systems Act 32 of 2000 — Chapter 4 (Community Participation). Available via the Government Gazette and at www.gov.za.
-
-Municipal Structures Act 117 of 1998 — Section 73 (Ward Committees). Available via the Government Gazette and at www.gov.za.
-
-Municipal Finance Management Act 56 of 2003 — Sections 16–33 (municipal budgets), Sections 52–53 (reporting). Available via the Government Gazette and at www.gov.za.
-
-**Government guidelines and reports:**
-COGTA, *National Guidelines for the Establishment and Operation of Ward Committees*. Available at www.cogta.gov.za.
-
-National Treasury, *MFMA Budget Process Guidelines* and *Municipal Budget and Reporting Regulations*. Available at www.treasury.gov.za.
-
-National Treasury, *Municipal Budget Circular* (annual guidance on budget preparation). Available at www.treasury.gov.za.
-
-SALGA, *Ward Committee Resource Book* and councillor support guidelines. Available at www.salga.org.za.
-
-**Academic and institutional research:**
-Dullah Omar Institute for Constitutional Law, Governance and Human Rights, research on ward committee governance and local participation. Available at www.dullahomarinstitute.org.za.
-
-Good Governance Learning Network, *The State of Local Governance* (annual/periodic publication). Available via www.ggln.org.za and member organisation websites, including Isandla Institute (www.isandla.org.za), Planact (www.planact.org.za), and the Built Environment Support Group.
-
-**Participation tools for citizens:**
-Municipal Demarcation Board (ward lookup): www.demarcation.org.za
-
-Your municipality's website (for IDP documents, draft budgets, council meeting schedules, and ward councillor contact details).
-
-SALGA councillor contact directory: www.salga.org.za
-
-Public Protector South Africa (for complaints about municipal maladministration): www.pprotect.org
-
-South African Human Rights Commission (for complaints about rights violations): www.sahrc.org.za
+- Municipal Systems Act 32 of 2000 — Chapter 4 (Community Participation) — [gov.za](https://www.gov.za)
+- Municipal Structures Act 117 of 1998 — Section 73 (Ward Committees) — [gov.za](https://www.gov.za)
+- Municipal Finance Management Act 56 of 2003 — Sections 16–33 (municipal budgets), Sections 52–53 (reporting) — [gov.za](https://www.gov.za)
+- COGTA, *National Guidelines for the Establishment and Operation of Ward Committees* — [cogta.gov.za](https://www.cogta.gov.za)
+- National Treasury, *MFMA Budget Process Guidelines* and *Municipal Budget and Reporting Regulations* — [treasury.gov.za](https://www.treasury.gov.za)
+- National Treasury, *Municipal Budget Circular* — annual guidance on budget preparation — [treasury.gov.za](https://www.treasury.gov.za)
+- SALGA, *Ward Committee Resource Book* and councillor support guidelines — [salga.org.za](https://www.salga.org.za)
+- Dullah Omar Institute for Constitutional Law, Governance and Human Rights — research on ward committee governance and local participation — [dullahomarinstitute.org.za](https://www.dullahomarinstitute.org.za)
+- Good Governance Learning Network, *The State of Local Governance* — annual/periodic publication — [ggln.org.za](https://www.ggln.org.za) and member organisation websites, including [Isandla Institute](https://www.isandla.org.za), [Planact](https://www.planact.org.za), and the Built Environment Support Group
+- Municipal Demarcation Board — ward lookup — [demarcation.org.za](https://www.demarcation.org.za)
+- Your municipality's website — for IDP documents, draft budgets, council meeting schedules, and ward councillor contact details
+- SALGA councillor contact directory — [salga.org.za](https://www.salga.org.za)
+- Public Protector South Africa — for complaints about municipal maladministration — [pprotect.org](https://www.pprotect.org)
+- South African Human Rights Commission — for complaints about rights violations — [sahrc.org.za](https://www.sahrc.org.za)

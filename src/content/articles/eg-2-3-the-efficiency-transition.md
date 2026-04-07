@@ -224,20 +224,14 @@ You do not need to track all fifteen indicators to get a useful picture. Trackin
 
 ## Resources
 
-For readers who want to explore the topics covered in this article in greater depth, the following sources provide rigorous, evidence-based analysis accessible to non-specialists.
+The analysis in this article draws on the following institutional research and publications:
 
-The **National Planning Commission's National Development Plan 2030** (available at nationalplanningcommission.org.za) remains the most comprehensive articulation of South Africa's economic development strategy, including detailed chapters on manufacturing, education, and institutional reform. Read it alongside the NPC's subsequent diagnostic reports for an assessment of implementation progress.
-
-The **Trade and Industrial Policy Strategies (TIPS)** centre (tips.org.za) publishes regular research on South Africa's industrial policy, manufacturing competitiveness, and trade integration. Their annual forum proceedings provide accessible summaries of current research.
-
-The **Development Policy Research Unit (DPRU)** at the University of Cape Town (dpru.uct.ac.za) publishes the most rigorous research on South Africa's labour market, skills mismatches, and the relationship between education and employment outcomes.
-
-The **REDI3x3** research project (redi3x3.org) — Research on Employment, Income Distribution and Inclusive Growth — provides accessible policy briefs on economic growth, employment, and inequality.
-
-The **Southern Africa Labour and Development Research Unit (SALDRU)** at the University of Cape Town (saldru.uct.ac.za) publishes research on poverty, inequality, and labour markets, including the National Income Dynamics Study that tracks household economic outcomes over time.
-
-The **World Bank's South Africa Economic Updates** (worldbank.org/en/country/southafrica) provide regular macroeconomic assessments and thematic analyses of specific policy challenges, including manufacturing, education, and regulatory quality.
-
-The **Department of Higher Education and Training's annual Statistics on Post-School Education and Training** provides detailed data on TVET and university enrolment, throughput, and graduation by field of study.
-
-For regional trade integration, the **SADC Secretariat** (sadc.int) publishes trade statistics and integration progress reports, and the **African Union's AfCFTA Secretariat** (afcfta.au.int) publishes implementation dashboards and negotiation updates.
+- National Planning Commission's National Development Plan 2030 — the most comprehensive articulation of South Africa's economic development strategy, including detailed chapters on manufacturing, education, and institutional reform. Read it alongside the NPC's subsequent diagnostic reports for an assessment of implementation progress — [nationalplanningcommission.org.za](https://nationalplanningcommission.org.za)
+- Trade and Industrial Policy Strategies (TIPS) — publishes regular research on South Africa's industrial policy, manufacturing competitiveness, and trade integration. Their annual forum proceedings provide accessible summaries of current research — [tips.org.za](https://tips.org.za)
+- Development Policy Research Unit (DPRU), University of Cape Town — publishes the most rigorous research on South Africa's labour market, skills mismatches, and the relationship between education and employment outcomes — [dpru.uct.ac.za](https://dpru.uct.ac.za)
+- REDI3x3 (Research on Employment, Income Distribution and Inclusive Growth) — provides accessible policy briefs on economic growth, employment, and inequality — [redi3x3.org](https://redi3x3.org)
+- Southern Africa Labour and Development Research Unit (SALDRU), University of Cape Town — publishes research on poverty, inequality, and labour markets, including the National Income Dynamics Study that tracks household economic outcomes over time — [saldru.uct.ac.za](https://saldru.uct.ac.za)
+- World Bank's South Africa Economic Updates — provide regular macroeconomic assessments and thematic analyses of specific policy challenges, including manufacturing, education, and regulatory quality — [worldbank.org/en/country/southafrica](https://worldbank.org/en/country/southafrica)
+- Department of Higher Education and Training's annual Statistics on Post-School Education and Training — provides detailed data on TVET and university enrolment, throughput, and graduation by field of study
+- SADC Secretariat — publishes trade statistics and integration progress reports — [sadc.int](https://sadc.int)
+- African Union's AfCFTA Secretariat — publishes implementation dashboards and negotiation updates — [afcfta.au.int](https://afcfta.au.int)

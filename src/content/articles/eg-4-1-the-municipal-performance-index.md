@@ -312,4 +312,24 @@ With these five steps, you can verify any published MPI ranking, challenge score
 
 ## Resources
 
-The primary data sources for the MPI are all freely accessible online. Statistics South Africa publishes the Quarterly Labour Force Survey, Census results, and General Household Survey at statssa.gov.za, where you can download detailed tables broken down by metropolitan and municipal area. National Treasury's municipal finance data is available through two platforms: municipaldata.treasury.gov.za provides the raw Section 71 quarterly data in downloadable format, while municipalmoney.gov.za presents the same data in a more accessible interface designed for non-specialist users, including the ability to look up individual municipalities and compare them on key financial indicators. The Auditor-General publishes all MFMA audit reports, including the annual general report on local government and individual municipal audit reports, at agsa.co.za. The Department of Water and Sanitation publishes Blue Drop and Green Drop assessment results through its regulatory reporting systems, though the publication schedule has varied. The CIPC publishes company registration statistics that can be filtered by region. For those interested in the academic literature on composite index construction, the OECD-JRC Handbook on Constructing Composite Indicators provides a rigorous treatment of normalisation methods, weighting schemes, and aggregation approaches, including a detailed discussion of geometric versus arithmetic means. The Financial and Fiscal Commission's annual submissions to Parliament, available through the FFC website, provide essential context on the intergovernmental fiscal framework within which municipalities operate, and SALGA's municipal barometer offers supplementary institutional data. For citizens seeking to engage directly with their municipality's performance, [Your Economic Citizenship](/articles/eg-5-3-your-economic-citizenship) provides practical guidance on using public data for civic advocacy and accountability.
+The analysis in this article draws on the following institutional research and publications:
+
+- Statistics South Africa — Quarterly Labour Force Survey, Census results, and General Household Survey with detailed tables broken down by metropolitan and municipal area — [statssa.gov.za](https://statssa.gov.za)
+
+- National Treasury, Municipal Data — raw Section 71 quarterly data in downloadable format — [municipaldata.treasury.gov.za](https://municipaldata.treasury.gov.za)
+
+- National Treasury, Municipal Money — accessible interface for municipal financial data designed for non-specialist users, including the ability to look up individual municipalities and compare them on key financial indicators — [municipalmoney.gov.za](https://municipalmoney.gov.za)
+
+- Auditor-General of South Africa — all MFMA audit reports, including the annual general report on local government and individual municipal audit reports — [agsa.co.za](https://agsa.co.za)
+
+- Department of Water and Sanitation — Blue Drop and Green Drop assessment results through its regulatory reporting systems, though the publication schedule has varied — [dws.gov.za](https://dws.gov.za)
+
+- Companies and Intellectual Property Commission (CIPC) — company registration statistics that can be filtered by region — [cipc.co.za](https://cipc.co.za)
+
+- OECD-JRC, *Handbook on Constructing Composite Indicators* — rigorous treatment of normalisation methods, weighting schemes, and aggregation approaches, including a detailed discussion of geometric versus arithmetic means — [oecd.org](https://oecd.org)
+
+- Financial and Fiscal Commission — annual submissions to Parliament providing essential context on the intergovernmental fiscal framework within which municipalities operate — [ffc.co.za](https://ffc.co.za)
+
+- South African Local Government Association (SALGA) — municipal barometer offering supplementary institutional data — [salga.org.za](https://salga.org.za)
+
+- For citizens seeking to engage directly with their municipality's performance, [Your Economic Citizenship](/articles/eg-5-3-your-economic-citizenship) provides practical guidance on using public data for civic advocacy and accountability

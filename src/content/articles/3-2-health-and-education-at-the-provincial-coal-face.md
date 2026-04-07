@@ -262,35 +262,21 @@ The connection between safety failures and health system pressure reinforces the
 
 ## Resources
 
-The following sources were referenced in this article and are recommended for further reading on provincial education and health performance.
+The analysis in this article draws on the following institutional research and publications:
 
-**Government reports and data:**
-Department of Basic Education (DBE), annual matric results and School Masterlist. Available at www.education.gov.za.
-
-Department of Basic Education, *Regulations Relating to Minimum Uniform Norms and Standards for Public School Infrastructure* (2013). Government Gazette No. 37081.
-
-National Department of Health, *Saving Mothers* reports (Confidential Enquiry into Maternal Deaths). Available via the National Department of Health.
-
-Office of Health Standards Compliance (OHSC), facility inspection reports. Available at www.ohsc.org.za.
-
-National Treasury, *Provincial Budget and Expenditure Review* (annual) and *Budget Review* (annual). Available at www.treasury.gov.za.
-
-Auditor-General of South Africa (AGSA), *PFMA Consolidated General Report* (annual). Available at www.agsa.co.za.
-
-**Academic and institutional research:**
-Spaull, N. (2013), "South Africa's Education Crisis: The quality of education in South Africa 1994–2011", Report commissioned by the Centre for Development and Enterprise. Further research publications available via www.nicspaull.com and RESEP at www.resep.sun.ac.za.
-
-Health Systems Trust, *South African Health Review* (annual). Available at www.hst.org.za/publications/south-african-health-review.
-
-IEA, TIMSS and PIRLS international assessment results. Available at www.iea.nl.
-
-Stop Stockouts Project, medicine availability monitoring data. Available at www.stockouts.org.
-
-Equal Education, school infrastructure campaign reports and analysis. Available at www.equaleducation.org.za.
-
-**Monitoring tools for citizens:**
-DBE matric results and school data: www.education.gov.za
-OHSC facility inspections: www.ohsc.org.za
-Health Systems Trust (SAHR): www.hst.org.za
-AGSA audit reports: www.agsa.co.za
-National Treasury provincial data: www.treasury.gov.za
+- Department of Basic Education (DBE) — annual matric results and School Masterlist — [education.gov.za](https://www.education.gov.za)
+- Department of Basic Education, *Regulations Relating to Minimum Uniform Norms and Standards for Public School Infrastructure* (2013) — Government Gazette No. 37081
+- National Department of Health, *Saving Mothers* reports — Confidential Enquiry into Maternal Deaths
+- Office of Health Standards Compliance (OHSC) — facility inspection reports — [ohsc.org.za](https://www.ohsc.org.za)
+- National Treasury, *Provincial Budget and Expenditure Review* (annual) and *Budget Review* (annual) — [treasury.gov.za](https://www.treasury.gov.za)
+- Auditor-General of South Africa (AGSA), *PFMA Consolidated General Report* — annual — [agsa.co.za](https://www.agsa.co.za)
+- Spaull, N. (2013), "South Africa's Education Crisis: The quality of education in South Africa 1994–2011" — report commissioned by the Centre for Development and Enterprise — [nicspaull.com](https://www.nicspaull.com) and RESEP at [resep.sun.ac.za](https://www.resep.sun.ac.za)
+- Health Systems Trust, *South African Health Review* — annual — [hst.org.za](https://www.hst.org.za/publications/south-african-health-review)
+- IEA, TIMSS and PIRLS international assessment results — [iea.nl](https://www.iea.nl)
+- Stop Stockouts Project — medicine availability monitoring data — [stockouts.org](https://www.stockouts.org)
+- Equal Education — school infrastructure campaign reports and analysis — [equaleducation.org.za](https://www.equaleducation.org.za)
+- DBE matric results and school data — [education.gov.za](https://www.education.gov.za)
+- OHSC facility inspections — [ohsc.org.za](https://www.ohsc.org.za)
+- Health Systems Trust (SAHR) — [hst.org.za](https://www.hst.org.za)
+- AGSA audit reports — [agsa.co.za](https://www.agsa.co.za)
+- National Treasury provincial data — [treasury.gov.za](https://www.treasury.gov.za)

@@ -216,26 +216,17 @@ Monitor GDP growth relative to population growth, the debt-to-GDP ratio, gross f
 This framework will not make you an economist, but it will make you a far more informed voter. The numbers are published by your own government's institutions, and learning to read them is one of the most powerful acts of democratic participation available to any citizen.
 :::
 
-## Resources and Institutional Sources
+## Resources
 
-The analysis in this article draws on publicly available data and research from the following institutional sources. Each maintains data portals or publication archives that you can access directly.
+The analysis in this article draws on the following institutional research and publications:
 
-**World Bank Open Data** (data.worldbank.org) — GDP per capita data, Gini coefficient estimates, development indicators, and cross-country comparison tools. The World Development Indicators database is the standard source for international economic comparisons.
-
-**International Monetary Fund World Economic Outlook** (imf.org/en/Publications/WEO) — GDP projections, macroeconomic forecasts, and country-level economic assessments. The IMF's Article IV consultation reports on South Africa provide detailed independent assessments of the economy.
-
-**Harvard Growth Lab Atlas of Economic Complexity** (atlas.cid.harvard.edu) — Economic Complexity Index rankings, product space visualisations, and country profiles showing export basket composition and complexity trends. The South Africa country page provides interactive tools for exploring the export data discussed in this article.
-
-**National Treasury of South Africa** (treasury.gov.za) — Budget Reviews, Medium Term Budget Policy Statements, fiscal data, and economic projections. The most authoritative source for South Africa's fiscal position and the government's own economic assessment.
-
-**Statistics South Africa** (statssa.gov.za) — Quarterly Labour Force Survey (unemployment data), GDP releases, Consumer Price Index (inflation), and demographic data. The primary source for labour market and economic activity data.
-
-**South African Reserve Bank** (resbank.co.za) — Monetary Policy Reviews, Quarterly Bulletins, financial stability reports, and economic data. The Reserve Bank's assessment of potential GDP growth and structural economic conditions.
-
-**World Economic Forum Global Competitiveness Reports** (weforum.org) — Country competitiveness rankings across twelve pillars, including institutional quality, infrastructure, macroeconomic stability, education, market efficiency, and innovation. South Africa's competitiveness profile reveals the structural unevenness discussed in this article.
-
-**Southern Africa Labour and Development Research Unit (SALDRU)** (saldru.uct.ac.za) — Research on labour markets, poverty, inequality, and economic inclusion in South Africa. Based at the University of Cape Town.
-
-**Research Project on Employment, Income Distribution and Inclusive Growth (REDI3x3)** — Multi-university research project producing policy-relevant research on employment creation, income distribution, and inclusive growth in South Africa.
-
-**Human Sciences Research Council (HSRC)** (hsrc.ac.za) — Social science research including economic development, labour markets, and governance in South Africa.
+- World Bank Open Data — GDP per capita data, Gini coefficient estimates, development indicators, and cross-country comparison tools. The World Development Indicators database is the standard source for international economic comparisons — [data.worldbank.org](https://data.worldbank.org)
+- International Monetary Fund World Economic Outlook — GDP projections, macroeconomic forecasts, and country-level economic assessments. The IMF's Article IV consultation reports on South Africa provide detailed independent assessments of the economy — [imf.org/en/Publications/WEO](https://imf.org/en/Publications/WEO)
+- Harvard Growth Lab Atlas of Economic Complexity — Economic Complexity Index rankings, product space visualisations, and country profiles showing export basket composition and complexity trends. The South Africa country page provides interactive tools for exploring the export data discussed in this article — [atlas.cid.harvard.edu](https://atlas.cid.harvard.edu)
+- National Treasury of South Africa — Budget Reviews, Medium Term Budget Policy Statements, fiscal data, and economic projections. The most authoritative source for South Africa's fiscal position and the government's own economic assessment — [treasury.gov.za](https://treasury.gov.za)
+- Statistics South Africa — Quarterly Labour Force Survey (unemployment data), GDP releases, Consumer Price Index (inflation), and demographic data. The primary source for labour market and economic activity data — [statssa.gov.za](https://statssa.gov.za)
+- South African Reserve Bank — Monetary Policy Reviews, Quarterly Bulletins, financial stability reports, and economic data. The Reserve Bank's assessment of potential GDP growth and structural economic conditions — [resbank.co.za](https://resbank.co.za)
+- World Economic Forum Global Competitiveness Reports — Country competitiveness rankings across twelve pillars, including institutional quality, infrastructure, macroeconomic stability, education, market efficiency, and innovation. South Africa's competitiveness profile reveals the structural unevenness discussed in this article — [weforum.org](https://weforum.org)
+- Southern Africa Labour and Development Research Unit (SALDRU) — Research on labour markets, poverty, inequality, and economic inclusion in South Africa. Based at the University of Cape Town — [saldru.uct.ac.za](https://saldru.uct.ac.za)
+- Research Project on Employment, Income Distribution and Inclusive Growth (REDI3x3) — Multi-university research project producing policy-relevant research on employment creation, income distribution, and inclusive growth in South Africa
+- Human Sciences Research Council (HSRC) — Social science research including economic development, labour markets, and governance in South Africa — [hsrc.ac.za](https://hsrc.ac.za)

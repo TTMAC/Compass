@@ -251,14 +251,14 @@ Applying these four questions consistently will not make you a development econo
 
 ## Resources
 
-The following institutional sources informed the analysis in this article:
+The analysis in this article draws on the following institutional research and publications:
 
-- **World Bank Commission on Growth and Development** — *The Growth Report: Strategies for Sustained Growth and Inclusive Development* (2008). The foundational study of thirteen high-growth economies.
-- **Justin Yifu Lin** — *New Structural Economics: A Framework for Rethinking Development and Policy* (World Bank, 2012). The comparative methodology used to identify relevant comparator countries.
-- **UNIDO** — *Industrial Development Report* (various years). Cross-country analysis of manufacturing FDI determinants and industrial policy effectiveness.
-- **TIPS (Trade and Industrial Policy Strategies)** — Research papers on South Africa's R&D spending, industrial policy, and manufacturing competitiveness. Available at tips.org.za.
-- **DPRU (Development Policy Research Unit, UCT)** — Working papers on labour market dynamics, skills development, and trade policy.
-- **World Bank Logistics Performance Index** — Comparative data on trade logistics infrastructure across countries.
-- **CORFO (Chilean Economic Development Agency)** — Annual reports on technology transfer, export promotion, and sector development programmes.
-- **Bank of Botswana** — Pula Fund annual reports and analysis of resource revenue management.
-- **OECD Reviews of Innovation Policy: South Africa** — Comparative analysis of national innovation systems and R&D intensity.
+- World Bank Commission on Growth and Development — *The Growth Report: Strategies for Sustained Growth and Inclusive Development* (2008). The foundational study of thirteen high-growth economies
+- Justin Yifu Lin — *New Structural Economics: A Framework for Rethinking Development and Policy* (World Bank, 2012). The comparative methodology used to identify relevant comparator countries
+- UNIDO — *Industrial Development Report* (various years). Cross-country analysis of manufacturing FDI determinants and industrial policy effectiveness
+- TIPS (Trade and Industrial Policy Strategies) — Research papers on South Africa's R&D spending, industrial policy, and manufacturing competitiveness — [tips.org.za](https://tips.org.za)
+- DPRU (Development Policy Research Unit, UCT) — Working papers on labour market dynamics, skills development, and trade policy
+- World Bank Logistics Performance Index — Comparative data on trade logistics infrastructure across countries
+- CORFO (Chilean Economic Development Agency) — Annual reports on technology transfer, export promotion, and sector development programmes
+- Bank of Botswana — Pula Fund annual reports and analysis of resource revenue management
+- OECD Reviews of Innovation Policy: South Africa — Comparative analysis of national innovation systems and R&D intensity

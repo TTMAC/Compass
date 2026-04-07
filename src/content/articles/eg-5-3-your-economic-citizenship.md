@@ -263,18 +263,18 @@ The economy belongs to all of us. It is time we governed it that way.
 
 ## Resources
 
-The citizen engagement tools described in this article draw on the following institutional sources.
+The analysis in this article draws on the following institutional research and publications:
 
-**National Treasury's Vulekamali portal** provides accessible, searchable budget data across all three spheres of government — the essential starting point for any citizen seeking to understand how public money is allocated and spent. Available at [www.vulekamali.gov.za](https://www.vulekamali.gov.za).
+- National Treasury, Vulekamali portal — accessible, searchable budget data across all three spheres of government; the essential starting point for any citizen seeking to understand how public money is allocated and spent — [www.vulekamali.gov.za](https://www.vulekamali.gov.za)
 
-**The Independent Electoral Commission (IEC)** publishes party manifestos, candidate lists, and election results. During election periods, the IEC's website is the authoritative source for evaluating the economic promises of competing parties. Available at [www.elections.org.za](https://www.elections.org.za).
+- Independent Electoral Commission (IEC) — party manifestos, candidate lists, and election results; during election periods, the authoritative source for evaluating the economic promises of competing parties — [www.elections.org.za](https://www.elections.org.za)
 
-**Statistics South Africa (Stats SA)** publishes the Quarterly Labour Force Survey, Consumer Price Index, GDP estimates, and the Victims of Crime Survey — the core economic and social indicators for monitoring government performance between elections. Available at [www.statssa.gov.za](https://www.statssa.gov.za).
+- Statistics South Africa (Stats SA) — Quarterly Labour Force Survey, Consumer Price Index, GDP estimates, and the Victims of Crime Survey; the core economic and social indicators for monitoring government performance between elections — [www.statssa.gov.za](https://www.statssa.gov.za)
 
-**The Auditor-General of South Africa (AGSA)** publishes municipal and national/provincial audit reports that assess financial management and service delivery performance. The AGSA's tip-off line allows citizens to report suspected financial mismanagement. Available at [www.agsa.co.za](https://www.agsa.co.za).
+- Auditor-General of South Africa (AGSA) — municipal and national/provincial audit reports assessing financial management and service delivery performance; the AGSA's tip-off line allows citizens to report suspected financial mismanagement — [www.agsa.co.za](https://www.agsa.co.za)
 
-**The South African Human Rights Commission (SAHRC)** receives complaints about violations of constitutional rights, including socio-economic rights. Available at [www.sahrc.org.za](https://www.sahrc.org.za).
+- South African Human Rights Commission (SAHRC) — receives complaints about violations of constitutional rights, including socio-economic rights — [www.sahrc.org.za](https://www.sahrc.org.za)
 
-**The Public Protector** investigates maladministration in government, including failures to deliver services and improper conduct by public officials. Available at [www.pprotect.org](https://www.pprotect.org).
+- The Public Protector — investigates maladministration in government, including failures to deliver services and improper conduct by public officials — [www.pprotect.org](https://www.pprotect.org)
 
-**Municipal Money**, a tool by the National Treasury, provides accessible data on municipal financial performance, service delivery, and audit outcomes. Available at [municipalmoney.gov.za](https://municipalmoney.gov.za).
+- National Treasury, Municipal Money — accessible data on municipal financial performance, service delivery, and audit outcomes — [municipalmoney.gov.za](https://municipalmoney.gov.za)

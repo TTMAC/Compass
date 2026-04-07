@@ -332,22 +332,14 @@ These three case studies — Eskom, VBS, and municipal procurement cartels — r
 
 ## Resources
 
-The following institutional sources provide primary evidence and analysis on the topics covered in this article. All are publicly available.
+The analysis in this article draws on the following institutional research and publications:
 
-The Judicial Commission of Inquiry into State Capture (Zondo Commission) published its final reports between 2022 and 2023, covering state-owned enterprises, government departments, law enforcement, and the broader network of state capture. The reports are available through the Department of Justice and Constitutional Development.
-
-The Auditor-General of South Africa (AGSA) publishes annual audit reports for national, provincial, and local government. The consolidated general reports provide aggregate data on audit outcomes, irregular expenditure, and supply chain management findings. Available at agsa.co.za.
-
-National Treasury publishes the annual State of Local Government Finances reports, Budget Reviews, and the Municipal Finance Management Act circulars that prescribe financial management standards for municipalities. Available at treasury.gov.za.
-
-The Special Investigating Unit (SIU) publishes annual reports documenting its investigation outcomes, including the value of contracts set aside, financial recoveries, and referrals for prosecution. The SIU's proclamations, issued by the President, define the scope of each investigation. Available at siu.org.za.
-
-The Competition Commission of South Africa published its findings on the construction sector collusion case and continues to investigate anti-competitive behaviour in public procurement. The Commission's annual reports and case decisions are available at compcom.co.za.
-
-The Public Service Commission publishes annual reports on the state of the public service, including analysis of appointment practices, performance management, and staffing structures. Available at psc.gov.za.
-
-The Department of Water and Sanitation's Blue Drop and Green Drop reports assess municipal water and wastewater quality. The 2022 reports, published after a multi-year gap, are available through the DWS website.
-
-The Open Contracting Partnership publishes guidance and case studies on open contracting standards, including implementation examples from countries that have adopted the Open Contracting Data Standard. Available at open-contracting.org.
-
-For the framework used throughout this series, see [The Eight Tests](/articles/ra-1-1-eight-tests) and [Why Institutions Fail](/articles/ra-1-2-why-institutions-fail). For the governance structure within which these capture vectors operate, see [How the Spheres Interact](/articles/1-3-how-the-spheres-interact).
+- Judicial Commission of Inquiry into State Capture (Zondo Commission) — final reports published between 2022 and 2023, covering state-owned enterprises, government departments, law enforcement, and the broader network of state capture — available through the Department of Justice and Constitutional Development
+- Auditor-General of South Africa (AGSA) — annual audit reports for national, provincial, and local government, including consolidated general reports on audit outcomes, irregular expenditure, and supply chain management findings — [agsa.co.za](https://www.agsa.co.za)
+- National Treasury — annual State of Local Government Finances reports, Budget Reviews, and Municipal Finance Management Act circulars prescribing financial management standards for municipalities — [treasury.gov.za](https://www.treasury.gov.za)
+- Special Investigating Unit (SIU) — annual reports documenting investigation outcomes, including contracts set aside, financial recoveries, and referrals for prosecution — [siu.org.za](https://www.siu.org.za)
+- Competition Commission of South Africa — findings on the construction sector collusion case and anti-competitive behaviour in public procurement — [compcom.co.za](https://www.compcom.co.za)
+- Public Service Commission — annual reports on the state of the public service, including appointment practices, performance management, and staffing structures — [psc.gov.za](https://www.psc.gov.za)
+- Department of Water and Sanitation — Blue Drop and Green Drop reports assessing municipal water and wastewater quality, with the 2022 reports published after a multi-year gap
+- Open Contracting Partnership — guidance and case studies on open contracting standards, including implementation examples from countries that have adopted the Open Contracting Data Standard — [open-contracting.org](https://www.open-contracting.org)
+- For the framework used throughout this series, see [The Eight Tests](/articles/ra-1-1-eight-tests) and [Why Institutions Fail](/articles/ra-1-2-why-institutions-fail) — for the governance structure within which these capture vectors operate, see [How the Spheres Interact](/articles/1-3-how-the-spheres-interact)

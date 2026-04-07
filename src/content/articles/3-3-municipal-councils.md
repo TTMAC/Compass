@@ -338,40 +338,23 @@ For now, the practical implication is this: when you evaluate your municipal cou
 
 ## Resources
 
-The following sources were referenced in this article and are recommended for further reading on municipal councils and local government governance in South Africa.
+The analysis in this article draws on the following institutional research and publications:
 
-**Constitutional and legislative sources:**
-Constitution of the Republic of South Africa, 1996 — Chapter 7 (Local Government) and Sections 139, 151–164. Available at www.gov.za/documents/constitution-republic-south-africa-1996.
-
-Municipal Structures Act 117 of 1998. Available via the Government Gazette and at www.gov.za.
-
-Municipal Systems Act 32 of 2000 (as amended by the Municipal Systems Amendment Act 3 of 2022). Available via the Government Gazette and at www.gov.za.
-
-Municipal Finance Management Act 56 of 2003 (MFMA). Available via the Government Gazette and at www.gov.za.
-
-Municipal Property Rates Act 6 of 2004. Available via the Government Gazette and at www.gov.za.
-
-**Government reports and data:**
-Auditor-General of South Africa (AGSA), *MFMA Consolidated General Report on Local Government Audit Outcomes* (annual). Available at www.agsa.co.za.
-
-National Treasury, *State of Local Government Finances and Financial Management* (annual), and MFMA circulars including Circular No. 32 on MPACs. Available at www.treasury.gov.za.
-
-Department of Cooperative Governance and Traditional Affairs (COGTA), *Guidelines for Municipal Public Accounts Committees* and annual reporting on municipal governance. Available at www.cogta.gov.za.
-
-South African Local Government Association (SALGA), councillor training resources and governance publications. Available at www.salga.org.za.
-
-Municipal Demarcation Board, boundary and demographic data for all municipalities. Available at www.demarcation.org.za.
-
-**Academic and institutional research:**
-De Visser, J. (2005), *Developmental Local Government: A Case Study of South Africa*, Intersentia. Further publications through the Dullah Omar Institute, University of the Western Cape. Available via www.dullahomarinstitute.org.za.
-
-Electoral Institute for Sustainable Democracy in Africa (EISA), Working Paper Series on coalition governance and municipal elections. Available at www.eisa.org.
-
-*Journal of African Elections*, published by EISA.
-
-**Monitoring tools for citizens:**
-AGSA local government audit reports: www.agsa.co.za
-National Treasury municipal finance data: www.treasury.gov.za
-Municipal Demarcation Board: www.demarcation.org.za
-SALGA: www.salga.org.za
-Your municipality's website (for annual reports, council meeting schedules, and IDP documents)
+- Constitution of the Republic of South Africa, 1996 — Chapter 7 (Local Government) and Sections 139, 151–164 — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)
+- Municipal Structures Act 117 of 1998 — [gov.za](https://www.gov.za)
+- Municipal Systems Act 32 of 2000 (as amended by the Municipal Systems Amendment Act 3 of 2022) — [gov.za](https://www.gov.za)
+- Municipal Finance Management Act 56 of 2003 (MFMA) — [gov.za](https://www.gov.za)
+- Municipal Property Rates Act 6 of 2004 — [gov.za](https://www.gov.za)
+- Auditor-General of South Africa (AGSA), *MFMA Consolidated General Report on Local Government Audit Outcomes* — annual — [agsa.co.za](https://www.agsa.co.za)
+- National Treasury, *State of Local Government Finances and Financial Management* — annual, and MFMA circulars including Circular No. 32 on MPACs — [treasury.gov.za](https://www.treasury.gov.za)
+- Department of Cooperative Governance and Traditional Affairs (COGTA), *Guidelines for Municipal Public Accounts Committees* — annual reporting on municipal governance — [cogta.gov.za](https://www.cogta.gov.za)
+- South African Local Government Association (SALGA) — councillor training resources and governance publications — [salga.org.za](https://www.salga.org.za)
+- Municipal Demarcation Board — boundary and demographic data for all municipalities — [demarcation.org.za](https://www.demarcation.org.za)
+- De Visser, J. (2005), *Developmental Local Government: A Case Study of South Africa*, Intersentia — further publications through the Dullah Omar Institute, University of the Western Cape — [dullahomarinstitute.org.za](https://www.dullahomarinstitute.org.za)
+- Electoral Institute for Sustainable Democracy in Africa (EISA) — Working Paper Series on coalition governance and municipal elections — [eisa.org](https://www.eisa.org)
+- *Journal of African Elections* — published by EISA
+- AGSA local government audit reports — [agsa.co.za](https://www.agsa.co.za)
+- National Treasury municipal finance data — [treasury.gov.za](https://www.treasury.gov.za)
+- Municipal Demarcation Board — [demarcation.org.za](https://www.demarcation.org.za)
+- SALGA — [salga.org.za](https://www.salga.org.za)
+- Your municipality's website — for annual reports, council meeting schedules, and IDP documents

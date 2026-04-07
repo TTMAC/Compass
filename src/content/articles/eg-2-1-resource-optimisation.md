@@ -286,28 +286,17 @@ This framework transforms the beneficiation debate from a political slogan into 
 
 ## Resources
 
-The following institutional sources informed the analysis in this article.
+The analysis in this article draws on the following institutional research and publications:
 
-**Minerals Council South Africa** (mineralscouncil.org.za) publishes annual reports on the state of the mining industry, beneficiation analysis, and policy position papers on energy, logistics, and regulatory frameworks.
-
-**Department of Trade, Industry and Competition (the dtic)** (thedtic.gov.za) publishes Industrial Policy Action Plans, Sector Masterplans, and trade policy documents including the beneficiation strategy and export development programmes.
-
-**Trade and Industrial Policy Strategies (TIPS)** (tips.org.za) produces independent research on industrial policy effectiveness, beneficiation economics, agro-processing value chains, and the political economy of trade policy in South Africa.
-
-**National Treasury of South Africa** (treasury.gov.za) publishes Budget Reviews, discussion documents on sovereign wealth fund design, mineral royalty revenue data, and fiscal framework analysis.
-
-**CORFO (Chilean Economic Development Agency)** (corfo.cl) provides reports on Chile's agricultural value chain development, technology transfer programmes, and export diversification strategy.
-
-**World Bank Logistics Performance Index** (lpi.worldbank.org) provides comparative data on trade logistics performance, port efficiency, and customs facilitation across countries.
-
-**International Energy Agency** (iea.org) publishes global hydrogen economy projections, energy transition analysis, and renewable energy deployment data relevant to South Africa's energy reform pathway.
-
-**Department of Science and Innovation** (dst.gov.za) publishes South Africa's Hydrogen Society Roadmap and PGM beneficiation strategy documents.
-
-**Southern Africa Labour and Development Research Unit (SALDRU)** (saldru.uct.ac.za) produces research on resource revenue governance, sovereign wealth fund design, and the fiscal dimensions of mineral wealth management.
-
-**Bank of Botswana** (bankofbotswana.bw) publishes Pula Fund annual reports and publications on resource revenue management and sovereign wealth fund governance.
-
-**Transnet** (transnet.net) publishes annual reports, port performance data, and rail freight volume statistics.
-
-**Container Port Performance Index** (World Bank and S&P Global Market Intelligence) provides comparative port efficiency rankings including South African port performance data.
+- Minerals Council South Africa — publishes annual reports on the state of the mining industry, beneficiation analysis, and policy position papers on energy, logistics, and regulatory frameworks — [mineralscouncil.org.za](https://mineralscouncil.org.za)
+- Department of Trade, Industry and Competition (the dtic) — publishes Industrial Policy Action Plans, Sector Masterplans, and trade policy documents including the beneficiation strategy and export development programmes — [thedtic.gov.za](https://thedtic.gov.za)
+- Trade and Industrial Policy Strategies (TIPS) — produces independent research on industrial policy effectiveness, beneficiation economics, agro-processing value chains, and the political economy of trade policy in South Africa — [tips.org.za](https://tips.org.za)
+- National Treasury of South Africa — publishes Budget Reviews, discussion documents on sovereign wealth fund design, mineral royalty revenue data, and fiscal framework analysis — [treasury.gov.za](https://treasury.gov.za)
+- CORFO (Chilean Economic Development Agency) — provides reports on Chile's agricultural value chain development, technology transfer programmes, and export diversification strategy — [corfo.cl](https://corfo.cl)
+- World Bank Logistics Performance Index — provides comparative data on trade logistics performance, port efficiency, and customs facilitation across countries — [lpi.worldbank.org](https://lpi.worldbank.org)
+- International Energy Agency — publishes global hydrogen economy projections, energy transition analysis, and renewable energy deployment data relevant to South Africa's energy reform pathway — [iea.org](https://iea.org)
+- Department of Science and Innovation — publishes South Africa's Hydrogen Society Roadmap and PGM beneficiation strategy documents — [dst.gov.za](https://dst.gov.za)
+- Southern Africa Labour and Development Research Unit (SALDRU) — produces research on resource revenue governance, sovereign wealth fund design, and the fiscal dimensions of mineral wealth management — [saldru.uct.ac.za](https://saldru.uct.ac.za)
+- Bank of Botswana — publishes Pula Fund annual reports and publications on resource revenue management and sovereign wealth fund governance — [bankofbotswana.bw](https://bankofbotswana.bw)
+- Transnet — publishes annual reports, port performance data, and rail freight volume statistics — [transnet.net](https://transnet.net)
+- Container Port Performance Index (World Bank and S&P Global Market Intelligence) — provides comparative port efficiency rankings including South African port performance data

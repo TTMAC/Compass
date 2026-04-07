@@ -236,8 +236,30 @@ If the answers to most of these questions are unfavourable, the strategy is like
 
 ## Resources
 
-The institutional challenges of economic strategy execution in South Africa are documented extensively in the academic and policy literature. The Public Affairs Research Institute (PARI) at the University of the Witwatersrand has produced foundational research on state capacity, institutional design, and the organisational sociology of the South African public service, available at pari.org.za. The Government Technical Advisory Centre (GTAC) within National Treasury publishes technical papers and evaluation reports on public policy implementation, many of which address the coordination failures discussed in this article, accessible through gtac.gov.za. The National Planning Commission's diagnostic reports and its assessment of NDP implementation progress are available through the Department of Planning, Monitoring and Evaluation at dpme.gov.za and provide the most authoritative account of the gap between strategy and implementation from within government itself.
+The analysis in this article draws on the following institutional research and publications:
 
-For the comparative institutional models, the World Bank's *Commission on Growth and Development* report (2008), commonly known as the Spence Commission report, remains the most comprehensive comparative analysis of sustained high-growth economies and the institutional features they share. Malaysia's Economic Planning Unit published its five-year Malaysia Plans through the Economic Planning Unit website, and Jomo K.S.'s *Malaysia's New Economic Policy and the National Unity Policy* provides critical academic analysis of the EPU's role and limitations. Singapore's Economic Development Board publishes annual reports and historical accounts of its investment promotion strategy at edb.gov.sg, while Lee Kuan Yew's *From Third World to First* provides a practitioner's account of the institutional choices that shaped Singapore's development. South Korea's economic planning experience is analysed in detail in Alice Amsden's *Asia's Next Giant: South Korea and Late Industrialisation* and in Ha-Joon Chang's *The East Asian Development Experience*, both of which examine the Economic Planning Board's role in Korea's industrial transformation.
+- Public Affairs Research Institute (PARI), University of the Witwatersrand — foundational research on state capacity, institutional design, and the organisational sociology of the South African public service — [pari.org.za](https://pari.org.za)
 
-On Operation Vulindlela specifically, the Presidency and National Treasury publish progress reports on the structural reform programme, available through the Presidency's website. The South African Institute of International Affairs (SAIIA) and the Centre for Development and Enterprise (CDE) have both published assessments of Operation Vulindlela's methodology and achievements that offer independent perspectives on its strengths and limitations.
+- Government Technical Advisory Centre (GTAC), National Treasury — technical papers and evaluation reports on public policy implementation, many of which address the coordination failures discussed in this article — [gtac.gov.za](https://gtac.gov.za)
+
+- Department of Planning, Monitoring and Evaluation — National Planning Commission's diagnostic reports and assessment of NDP implementation progress; the most authoritative account of the gap between strategy and implementation from within government itself — [dpme.gov.za](https://dpme.gov.za)
+
+- World Bank, *Commission on Growth and Development* (2008) — commonly known as the Spence Commission report; the most comprehensive comparative analysis of sustained high-growth economies and the institutional features they share — [worldbank.org](https://worldbank.org)
+
+- Malaysia's Economic Planning Unit — five-year Malaysia Plans and economic planning documentation — [epu.gov.my](https://epu.gov.my)
+
+- Jomo K.S., *Malaysia's New Economic Policy and the National Unity Policy* — critical academic analysis of the EPU's role and limitations
+
+- Singapore's Economic Development Board — annual reports and historical accounts of its investment promotion strategy — [edb.gov.sg](https://edb.gov.sg)
+
+- Lee Kuan Yew, *From Third World to First* — practitioner's account of the institutional choices that shaped Singapore's development
+
+- Alice Amsden, *Asia's Next Giant: South Korea and Late Industrialisation* — detailed analysis of the Economic Planning Board's role in Korea's industrial transformation
+
+- Ha-Joon Chang, *The East Asian Development Experience* — examination of the Economic Planning Board's role in Korea's industrial transformation
+
+- The Presidency and National Treasury — Operation Vulindlela progress reports on the structural reform programme
+
+- South African Institute of International Affairs (SAIIA) — independent assessments of Operation Vulindlela's methodology and achievements — [saiia.org.za](https://saiia.org.za)
+
+- Centre for Development and Enterprise (CDE) — independent assessments of Operation Vulindlela's methodology and achievements — [cde.org.za](https://cde.org.za)

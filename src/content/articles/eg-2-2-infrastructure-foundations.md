@@ -326,22 +326,14 @@ This framework turns infrastructure announcements from political events into acc
 
 ## Resources
 
-For further reading on the topics covered in this article, the following institutional sources provide detailed data, analysis, and policy frameworks.
+The analysis in this article draws on the following institutional research and publications:
 
-The **CSIR Energy Centre** publishes annual statistics on South Africa's power system performance, including load shedding data, energy availability factors, and least-cost generation expansion modelling. Reports are available at [www.csir.co.za/energy](https://www.csir.co.za/energy).
-
-**National Treasury's Budget Review** (published annually in February) contains detailed capital expenditure data for Eskom, Transnet, SANRAL, and other major infrastructure entities. The Estimates of National Expenditure provide programme-level detail. Available at [www.treasury.gov.za](https://www.treasury.gov.za).
-
-The **Development Bank of Southern Africa (DBSA)** publishes the Infrastructure Barometer, which tracks infrastructure investment trends, delivery performance, and financing patterns across South Africa. Available at [www.dbsa.org](https://www.dbsa.org).
-
-The **World Bank's Logistics Performance Index** provides cross-country comparisons of logistics efficiency, including infrastructure quality. Available at [lpi.worldbank.org](https://lpi.worldbank.org).
-
-**Stellenbosch University's Department of Logistics** produces the annual State of Logistics survey, which calculates South Africa's logistics costs as a percentage of GDP and benchmarks performance against international peers. Reports are available through the CSIR's logistics research division.
-
-The **Presidential Infrastructure Coordinating Commission (PICC)** secretariat, housed within the Department of Public Works and Infrastructure, maintains status reports on the 18 SIPs. Progress reports are tabled in Parliament and available through the Parliamentary Monitoring Group at [www.pmg.org.za](https://www.pmg.org.za).
-
-**National Treasury's PPP Unit** (now within GTAC) maintains a project database and publishes guidelines for public-private partnerships. Available at [www.gtac.gov.za](https://www.gtac.gov.za).
-
-The **Independent Communications Authority of South Africa (ICASA)** publishes quarterly reports on the state of the ICT sector, including broadband penetration, spectrum allocation, and market competition data. Available at [www.icasa.org.za](https://www.icasa.org.za).
-
-The **Water Research Commission** funds and publishes research on water infrastructure, non-revenue water, and water resource management. Available at [www.wrc.org.za](https://www.wrc.org.za).
+- CSIR Energy Centre — publishes annual statistics on South Africa's power system performance, including load shedding data, energy availability factors, and least-cost generation expansion modelling — [www.csir.co.za/energy](https://www.csir.co.za/energy)
+- National Treasury's Budget Review — published annually in February, contains detailed capital expenditure data for Eskom, Transnet, SANRAL, and other major infrastructure entities. The Estimates of National Expenditure provide programme-level detail — [www.treasury.gov.za](https://www.treasury.gov.za)
+- Development Bank of Southern Africa (DBSA) — publishes the Infrastructure Barometer, which tracks infrastructure investment trends, delivery performance, and financing patterns across South Africa — [www.dbsa.org](https://www.dbsa.org)
+- World Bank's Logistics Performance Index — provides cross-country comparisons of logistics efficiency, including infrastructure quality — [lpi.worldbank.org](https://lpi.worldbank.org)
+- Stellenbosch University's Department of Logistics — produces the annual State of Logistics survey, which calculates South Africa's logistics costs as a percentage of GDP and benchmarks performance against international peers. Reports are available through the CSIR's logistics research division
+- Presidential Infrastructure Coordinating Commission (PICC) — secretariat housed within the Department of Public Works and Infrastructure, maintains status reports on the 18 SIPs. Progress reports are tabled in Parliament and available through the Parliamentary Monitoring Group — [www.pmg.org.za](https://www.pmg.org.za)
+- National Treasury's PPP Unit (now within GTAC) — maintains a project database and publishes guidelines for public-private partnerships — [www.gtac.gov.za](https://www.gtac.gov.za)
+- Independent Communications Authority of South Africa (ICASA) — publishes quarterly reports on the state of the ICT sector, including broadband penetration, spectrum allocation, and market competition data — [www.icasa.org.za](https://www.icasa.org.za)
+- Water Research Commission — funds and publishes research on water infrastructure, non-revenue water, and water resource management — [www.wrc.org.za](https://www.wrc.org.za)

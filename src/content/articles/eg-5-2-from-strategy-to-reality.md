@@ -314,16 +314,16 @@ These six questions are your diagnostic tool. Apply them to any economic strateg
 
 ## Resources
 
-The implementation framework in this article draws on the following institutional research and publications.
+The analysis in this article draws on the following institutional research and publications:
 
-**The Department of Planning, Monitoring and Evaluation (DPME)** publishes the Medium-Term Strategic Framework (MTSF) implementation reports, which track government performance against its own stated priorities and targets. These reports are the most direct measure of strategy-to-reality conversion at the national level. Available at [www.dpme.gov.za](https://www.dpme.gov.za).
+- Department of Planning, Monitoring and Evaluation (DPME) — Medium-Term Strategic Framework (MTSF) implementation reports tracking government performance against its own stated priorities and targets; the most direct measure of strategy-to-reality conversion at the national level — [www.dpme.gov.za](https://www.dpme.gov.za)
 
-**National Treasury's Estimates of National Expenditure (ENE)** provide programme-level budget allocations and performance indicators for every national department — the essential resource for tracking whether strategy commitments are backed by budget allocations. Available at [www.treasury.gov.za](https://www.treasury.gov.za).
+- National Treasury, *Estimates of National Expenditure (ENE)* — programme-level budget allocations and performance indicators for every national department; the essential resource for tracking whether strategy commitments are backed by budget allocations — [www.treasury.gov.za](https://www.treasury.gov.za)
 
-**The Presidency's Operation Vulindlela progress reports** track the implementation status of priority structural reforms, including energy, logistics, water, digital, and visa reforms. These reports are the closest thing to a government-produced reform implementation dashboard. Available through the Presidency's website and [www.stateofthenation.gov.za](https://www.stateofthenation.gov.za).
+- The Presidency, Operation Vulindlela progress reports — implementation status of priority structural reforms, including energy, logistics, water, digital, and visa reforms; the closest thing to a government-produced reform implementation dashboard — [www.stateofthenation.gov.za](https://www.stateofthenation.gov.za)
 
-**The Auditor-General of South Africa (AGSA)** publishes consolidated audit reports that assess whether departments and entities achieved their performance targets — providing independent verification of self-reported implementation data. Available at [www.agsa.co.za](https://www.agsa.co.za).
+- Auditor-General of South Africa (AGSA) — consolidated audit reports assessing whether departments and entities achieved their performance targets; independent verification of self-reported implementation data — [www.agsa.co.za](https://www.agsa.co.za)
 
-**Statistics South Africa (Stats SA)** publishes the Quarterly Labour Force Survey, GDP data, and other economic indicators that serve as the lagging outcome measures against which strategy effectiveness is ultimately judged. Available at [www.statssa.gov.za](https://www.statssa.gov.za).
+- Statistics South Africa (Stats SA) — Quarterly Labour Force Survey, GDP data, and other economic indicators serving as the lagging outcome measures against which strategy effectiveness is ultimately judged — [www.statssa.gov.za](https://www.statssa.gov.za)
 
-**The Parliamentary Monitoring Group (PMG)** tracks portfolio committee oversight of departmental performance, including committee reports on implementation progress and failures. Available at [www.pmg.org.za](https://www.pmg.org.za).
+- Parliamentary Monitoring Group (PMG) — portfolio committee oversight of departmental performance, including committee reports on implementation progress and failures — [www.pmg.org.za](https://www.pmg.org.za)

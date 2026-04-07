@@ -304,16 +304,18 @@ The goal is not to take water away from municipalities. The goal is to separate 
 
 ## Resources
 
-- Department of Water and Sanitation. *Blue Drop Report 2023.* Released 5 December 2023. Available at dws.gov.za.
-- Department of Water and Sanitation. *Green Drop Watch Report 2023.* Available at ws.dws.gov.za/iris/releases/GDWR.pdf.
-- Department of Water and Sanitation. *No Drop Report 2023.* Available at ws.dws.gov.za/iris/releases/ND_2023_Report.pdf.
-- Auditor-General of South Africa. *MFMA 2023/24 Audit Outcomes.* Available at agsa.co.za.
-- National Treasury. *Municipal Finance Management Act* (56 of 2003).
-- Republic of South Africa. *Water Services Act* (108 of 1997).
-- Republic of South Africa. *National Water Act* (36 of 1998).
-- Republic of South Africa. *National Water Resources Infrastructure Agency Act* (2024). Gazetted 2 September 2024.
-- Republic of South Africa. *Water Services Amendment Bill* (B24-2025). Available at parliament.gov.za.
-- Operation Vulindlela. *Water Sector Reform Programme.* Available at stateofthenation.gov.za/operation-vulindlela/water-sector.
-- Helen Suzman Foundation. *The Institutional Structure for Delivering Water Services.* Available at hsf.org.za.
-- Water Institute of Southern Africa. *Regulation 3630 Process Controller Requirements.* Available at wisa.org.za.
-- South African Human Rights Commission. *Hammanskraal Cholera Investigation* (2023). Available at sahrc.org.za.
+The analysis in this article draws on the following institutional research and publications:
+
+- Department of Water and Sanitation, *Blue Drop Report 2023* — released 5 December 2023 — [dws.gov.za](https://dws.gov.za)
+- Department of Water and Sanitation, *Green Drop Watch Report 2023* — [ws.dws.gov.za](https://ws.dws.gov.za/iris/releases/GDWR.pdf)
+- Department of Water and Sanitation, *No Drop Report 2023* — [ws.dws.gov.za](https://ws.dws.gov.za/iris/releases/ND_2023_Report.pdf)
+- Auditor-General of South Africa, *MFMA 2023/24 Audit Outcomes* — [agsa.co.za](https://www.agsa.co.za)
+- National Treasury, *Municipal Finance Management Act* (56 of 2003)
+- Republic of South Africa, *Water Services Act* (108 of 1997)
+- Republic of South Africa, *National Water Act* (36 of 1998)
+- Republic of South Africa, *National Water Resources Infrastructure Agency Act* (2024) — gazetted 2 September 2024
+- Republic of South Africa, *Water Services Amendment Bill* (B24-2025) — [parliament.gov.za](https://www.parliament.gov.za)
+- Operation Vulindlela, *Water Sector Reform Programme* — [stateofthenation.gov.za](https://stateofthenation.gov.za/operation-vulindlela/water-sector)
+- Helen Suzman Foundation, *The Institutional Structure for Delivering Water Services* — [hsf.org.za](https://www.hsf.org.za)
+- Water Institute of Southern Africa, *Regulation 3630 Process Controller Requirements* — [wisa.org.za](https://www.wisa.org.za)
+- South African Human Rights Commission, *Hammanskraal Cholera Investigation* (2023) — [sahrc.org.za](https://www.sahrc.org.za)

@@ -216,8 +216,20 @@ If your honest answers to most of these questions are "no," the monitoring syste
 
 ## Resources
 
-South Africa's monitoring and evaluation landscape is extensively documented, and the primary sources are freely available online. The Department of Planning, Monitoring and Evaluation publishes its evaluation reports, MPAT results, and annual performance plans on its website, and many of these documents are also available through the Government Technical Advisory Centre (GTAC). The AGSA's annual general reports on national and provincial audit outcomes and on local government audit outcomes are published on the Auditor-General's website and are essential reading for anyone who wants to understand the state of financial management across government — the reports include detailed analyses by department and municipality, as well as trend data showing improvement or regression over time.
+The analysis in this article draws on the following institutional research and publications:
 
-The Zondo Commission's reports, officially the reports of the Judicial Commission of Inquiry into Allegations of State Capture, are available online and provide the most comprehensive account of how SOE governance was compromised during the state capture period. The Public Affairs Research Institute (PARI) at the University of the Witwatersrand has published extensively on public administration reform, including analyses of DPME's role and effectiveness. The South African Monitoring and Evaluation Association (SAMEA) publishes research and policy briefs on M&E practice in South Africa, and its conference proceedings provide a window into the professional community's assessment of what is working and what is not.
+- Department of Planning, Monitoring and Evaluation — evaluation reports, MPAT results, and annual performance plans; many documents also available through the Government Technical Advisory Centre (GTAC) — [dpme.gov.za](https://dpme.gov.za)
 
-For international comparative perspective, the OECD's Government at a Glance series and its specific country reviews of South Africa provide benchmarking against international best practice. The World Bank's Independent Evaluation Group publishes methodology and case studies on M&E systems in developing countries, and its work on results-based management offers frameworks that are directly applicable to South Africa's challenges. The Human Sciences Research Council (HSRC) has conducted research on government performance monitoring and on the use of evidence in policy-making in South Africa, and its publications are freely available through its online repository.
+- Auditor-General of South Africa (AGSA) — annual general reports on national and provincial audit outcomes and on local government audit outcomes; detailed analyses by department and municipality, as well as trend data showing improvement or regression over time — [agsa.co.za](https://agsa.co.za)
+
+- Judicial Commission of Inquiry into Allegations of State Capture (Zondo Commission) — the most comprehensive account of how SOE governance was compromised during the state capture period
+
+- Public Affairs Research Institute (PARI), University of the Witwatersrand — extensive publications on public administration reform, including analyses of DPME's role and effectiveness — [pari.org.za](https://pari.org.za)
+
+- South African Monitoring and Evaluation Association (SAMEA) — research and policy briefs on M&E practice in South Africa; conference proceedings provide a window into the professional community's assessment of what is working and what is not — [samea.org.za](https://samea.org.za)
+
+- OECD, *Government at a Glance* series — benchmarking against international best practice, including specific country reviews of South Africa — [oecd.org](https://oecd.org)
+
+- World Bank, Independent Evaluation Group — methodology and case studies on M&E systems in developing countries; work on results-based management offers frameworks directly applicable to South Africa's challenges — [worldbank.org](https://worldbank.org)
+
+- Human Sciences Research Council (HSRC) — research on government performance monitoring and on the use of evidence in policy-making in South Africa; publications freely available through its online repository — [hsrc.ac.za](https://hsrc.ac.za)

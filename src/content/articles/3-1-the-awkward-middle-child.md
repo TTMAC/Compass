@@ -292,36 +292,21 @@ Whether you agree with that reform proposal or not, the current arrangement mean
 
 ## Resources
 
-The following sources were referenced in this article and are recommended for further reading on provincial governance in South Africa.
+The analysis in this article draws on the following institutional research and publications:
 
-**Constitutional and legislative sources:**
-Constitution of the Republic of South Africa, 1996 — Chapters 3, 6, and 13; Schedules 4 and 5. Available at www.gov.za/documents/constitution-republic-south-africa-1996.
-
-Division of Revenue Act (DORA), published annually. Available via National Treasury at www.treasury.gov.za.
-
-**Government reports and data:**
-National Treasury, *Provincial Budget and Expenditure Review*, published annually alongside the national Budget Review. Available at www.treasury.gov.za.
-
-National Treasury, *Budget Review* (annual), including the Division of Revenue chapter. Available at www.treasury.gov.za.
-
-Auditor-General of South Africa (AGSA), *PFMA Consolidated General Report* (annual), covering national and provincial government departments. Available at www.agsa.co.za.
-
-Financial and Fiscal Commission (FFC), *Submission for the Division of Revenue* (annual). Available at www.ffc.co.za.
-
-Department of Planning, Monitoring and Evaluation (DPME), *Management Performance Assessment Tool (MPAT)* results. Available at www.dpme.gov.za.
-
-Statistics South Africa, population estimates and poverty data by province. Available at www.statssa.gov.za.
-
-**Academic and institutional research:**
-Steytler, N. (ed.), *The Place and Role of Local Government in Federal Systems*, Forum of Federations / Konrad Adenauer Stiftung. Research publications of the South African Research Chair in Multilevel Government, Law and Policy, Dullah Omar Institute, University of the Western Cape. Available via www.dullahomarinstitute.org.za.
-
-Public Affairs Research Institute (PARI), research programme on state capacity and governance in South Africa. Available at www.pari.org.za.
-
-Parliamentary Monitoring Group (PMG), tracking of provincial legislature committee proceedings. Available at www.pmg.org.za.
-
-**Monitoring tools for citizens:**
-AGSA annual audit reports: www.agsa.co.za
-National Treasury budget data: www.treasury.gov.za
-FFC annual submissions: www.ffc.co.za
-DPME performance assessments: www.dpme.gov.za
-PMG provincial tracking: www.pmg.org.za
+- Constitution of the Republic of South Africa, 1996 — Chapters 3, 6, and 13; Schedules 4 and 5 — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)
+- Division of Revenue Act (DORA) — published annually via National Treasury — [treasury.gov.za](https://www.treasury.gov.za)
+- National Treasury, *Provincial Budget and Expenditure Review* — published annually alongside the national Budget Review — [treasury.gov.za](https://www.treasury.gov.za)
+- National Treasury, *Budget Review* — annual, including the Division of Revenue chapter — [treasury.gov.za](https://www.treasury.gov.za)
+- Auditor-General of South Africa (AGSA), *PFMA Consolidated General Report* — annual, covering national and provincial government departments — [agsa.co.za](https://www.agsa.co.za)
+- Financial and Fiscal Commission (FFC), *Submission for the Division of Revenue* — annual — [ffc.co.za](https://www.ffc.co.za)
+- Department of Planning, Monitoring and Evaluation (DPME), *Management Performance Assessment Tool (MPAT)* results — [dpme.gov.za](https://www.dpme.gov.za)
+- Statistics South Africa — population estimates and poverty data by province — [statssa.gov.za](https://www.statssa.gov.za)
+- Steytler, N. (ed.), *The Place and Role of Local Government in Federal Systems* — Forum of Federations / Konrad Adenauer Stiftung; research publications of the South African Research Chair in Multilevel Government, Law and Policy, Dullah Omar Institute, University of the Western Cape — [dullahomarinstitute.org.za](https://www.dullahomarinstitute.org.za)
+- Public Affairs Research Institute (PARI) — research programme on state capacity and governance in South Africa — [pari.org.za](https://www.pari.org.za)
+- Parliamentary Monitoring Group (PMG) — tracking of provincial legislature committee proceedings — [pmg.org.za](https://www.pmg.org.za)
+- AGSA annual audit reports — [agsa.co.za](https://www.agsa.co.za)
+- National Treasury budget data — [treasury.gov.za](https://www.treasury.gov.za)
+- FFC annual submissions — [ffc.co.za](https://www.ffc.co.za)
+- DPME performance assessments — [dpme.gov.za](https://www.dpme.gov.za)
+- PMG provincial tracking — [pmg.org.za](https://www.pmg.org.za)

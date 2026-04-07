@@ -231,19 +231,21 @@ As discussed in [Municipal Councils](/articles/3-3-municipal-councils) and [The 
 
 ## Resources
 
-- Auditor-General of South Africa. *MFMA 2023/24 Audit Outcomes.* Available at agsa.co.za.
-- Zondo Commission of Inquiry into State Capture. *Final Report: Cadre Deployment.* Available at statecapture.org.za.
-- Republic of South Africa. *Municipal Systems Amendment Act* (3 of 2022).
-- Republic of South Africa. *Municipal Finance Management Act* (56 of 2003).
-- National Treasury. *Regulations on Minimum Competency Levels.* Gazette 41996 of 2018.
-- Cabinet. *Framework for the Professionalisation of the Public Sector.* 2024.
-- Public Service Commission. *Public Service Reforms Towards Professionalisation.* 2024. Available at psc.gov.za.
-- Dullah Omar Institute. *Skills Mismatch in South African Local Government.* Local Government Bulletin, Volume 15 Issue 4, December 2020.
-- LGSETA. *Feasibility Study on Shared Services in Local Government.* 2022-2023. Available at lgseta.org.za.
-- LGSETA. *Research Report on Municipal Oversight.* 2022-2023. Available at lgseta.org.za.
-- Institute for Security Studies. *Organised Corruption: A New Threat to South Africa's Municipalities.* Available at issafrica.org.
-- PARI. *COMPACT Consolidated Technical Findings Report.* November 2024. Available at pari.org.za.
-- Institute of Municipal Engineering of Southern Africa. *Technical Staffing Analysis.* February 2026.
-- DCoG. *Annual Performance Plan 2024/25.* Available at cogta.gov.za.
-- SAMWU v Minister of COGTA. Constitutional Court of South Africa, April 2025. [2025] ZACC 4.
-- Operation Vulindlela Phase II. *Municipal Reform Programme.* Launched May 2025.
+The analysis in this article draws on the following institutional research and publications:
+
+- Auditor-General of South Africa, *MFMA 2023/24 Audit Outcomes* — [agsa.co.za](https://www.agsa.co.za)
+- Zondo Commission of Inquiry into State Capture, *Final Report: Cadre Deployment* — [statecapture.org.za](https://www.statecapture.org.za)
+- Republic of South Africa, *Municipal Systems Amendment Act* (3 of 2022)
+- Republic of South Africa, *Municipal Finance Management Act* (56 of 2003)
+- National Treasury, *Regulations on Minimum Competency Levels* — Gazette 41996 of 2018
+- Cabinet, *Framework for the Professionalisation of the Public Sector* — 2024
+- Public Service Commission, *Public Service Reforms Towards Professionalisation* — 2024 — [psc.gov.za](https://www.psc.gov.za)
+- Dullah Omar Institute, *Skills Mismatch in South African Local Government* — Local Government Bulletin, Volume 15 Issue 4, December 2020
+- LGSETA, *Feasibility Study on Shared Services in Local Government* — 2022-2023 — [lgseta.org.za](https://www.lgseta.org.za)
+- LGSETA, *Research Report on Municipal Oversight* — 2022-2023 — [lgseta.org.za](https://www.lgseta.org.za)
+- Institute for Security Studies, *Organised Corruption: A New Threat to South Africa's Municipalities* — [issafrica.org](https://issafrica.org)
+- PARI, *COMPACT Consolidated Technical Findings Report* — November 2024 — [pari.org.za](https://www.pari.org.za)
+- Institute of Municipal Engineering of Southern Africa, *Technical Staffing Analysis* — February 2026
+- DCoG, *Annual Performance Plan 2024/25* — [cogta.gov.za](https://www.cogta.gov.za)
+- SAMWU v Minister of COGTA — Constitutional Court of South Africa, April 2025 — [2025] ZACC 4
+- Operation Vulindlela Phase II, *Municipal Reform Programme* — launched May 2025

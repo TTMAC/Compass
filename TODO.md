@@ -155,6 +155,7 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
   3. Build locally and check that the table of contents and heading hierarchy render correctly for each fixed article.
 
 ### Item 21: Fix Resource formatting for all articles
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** Resource sections across articles may have inconsistent formatting (e.g. varying list styles, missing link text, inconsistent heading levels, or broken markup) that undermines readability and the professional quality of the site.
 - **Action:** Audit and standardise the `## Resources` section formatting across all articles in `src/content/articles/`, ensuring consistent list style, proper link markup, and uniform presentation.
+- **Resolution:** Audited all 76 articles and standardised 28 that had inconsistent formatting. Fixed: (1) 6 articles (3-1 through 4-3) converted from paragraph format with bold sub-headings and plain URLs to bullet list with markdown links. (2) 15 eg-series articles converted from various paragraph/prose formats with bold source names to bullet list format. (3) 4 ra-4-x articles had plain URLs converted to markdown links. (4) 2 ra-5-x articles converted from prose paragraphs to bullet list. (5) 2 articles (eg-1-1, eg-4-2) had heading corrected from "Resources and Institutional Sources" to "Resources". (6) All intro lines standardised to "The analysis in this article draws on the following institutional research and publications:". All internal cross-reference links preserved. Build verified clean.

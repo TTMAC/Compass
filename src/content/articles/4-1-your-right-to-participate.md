@@ -340,54 +340,28 @@ Participation is not a guarantee that you will get what you want. Government dec
 
 ## Resources
 
-The following sources were referenced in this article and are recommended for further reading on citizen participation in South African governance.
+The analysis in this article draws on the following institutional research and publications:
 
-**Constitutional and legislative sources:**
-Constitution of the Republic of South Africa, 1996 — Sections 1, 16, 17, 32, 33, 34, 59, 72, 118, and 152. Available at www.gov.za/documents/constitution-republic-south-africa-1996.
-
-Promotion of Access to Information Act 2 of 2000 (PAIA). Available via the Government Gazette and at www.gov.za.
-
-Promotion of Administrative Justice Act 3 of 2000 (PAJA). Available via the Government Gazette and at www.gov.za.
-
-Regulation of Gatherings Act 205 of 1993. Available via the Government Gazette and at www.gov.za.
-
-Municipal Systems Act 32 of 2000 — Chapter 4 (Community Participation). Available via the Government Gazette and at www.gov.za.
-
-**Constitutional Court jurisprudence:**
-*Doctors for Life International v Speaker of the National Assembly* [2006] ZACC 11. Available at www.saflii.org.
-
-*Matatiele Municipality and Others v President of the Republic of South Africa and Others* [2006] ZACC 2. Available at www.saflii.org.
-
-*Land Access Movement of South Africa and Others v Chairperson of the National Council of Provinces and Others* [2016] ZACC 22. Available at www.saflii.org.
-
-*Minister of Health and Others v Treatment Action Campaign and Others* [2002] ZACC 15. Available at www.saflii.org.
-
-*Economic Freedom Fighters v Speaker of the National Assembly and Others* [2016] ZACC 11. Available at www.saflii.org.
-
-*South African Transport and Allied Workers Union and Others v Garvas and Others* [2012] ZACC 13. Available at www.saflii.org.
-
-**Academic and institutional research:**
-Murray, C. and Nijzink, L. (2002), *Building Representative Democracy: South Africa's Legislatures and the Constitution*, Parliamentary Support Programme.
-
-Woolman, S., Roux, T. and Bishop, M. (eds.), *Constitutional Law of South Africa* (Juta) — chapters on public participation and legislative process.
-
-Friedman, S. (2019), *Power in Action: Democracy, Citizenship and Social Justice*, Wits University Press.
-
-Afrobarometer, South Africa survey data on democratic participation and governance attitudes. Available at www.afrobarometer.org.
-
-**Participation tools for citizens:**
-Parliamentary Monitoring Group (PMG): www.pmg.org.za — parliamentary committee schedules, calls for public comment, and meeting reports.
-
-Parliament of South Africa: www.parliament.gov.za — official committee schedules and draft legislation.
-
-South African History Archive (SAHA), Freedom of Information Programme — PAIA guidance and compliance monitoring. Available at www.saha.org.za.
-
-Public Protector South Africa: www.pprotect.org — complaint lodging and investigation reports.
-
-South African Human Rights Commission: www.sahrc.org.za — complaint lodging and research publications.
-
-Good Governance Learning Network: publications on community participation in local governance.
-
-Section27: www.section27.org.za — healthcare and education rights advocacy.
-
-Equal Education: www.equaleducation.org.za — school infrastructure and education advocacy.
+- Constitution of the Republic of South Africa, 1996 — Sections 1, 16, 17, 32, 33, 34, 59, 72, 118, and 152 — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)
+- Promotion of Access to Information Act 2 of 2000 (PAIA) — [gov.za](https://www.gov.za)
+- Promotion of Administrative Justice Act 3 of 2000 (PAJA) — [gov.za](https://www.gov.za)
+- Regulation of Gatherings Act 205 of 1993 — [gov.za](https://www.gov.za)
+- Municipal Systems Act 32 of 2000 — Chapter 4 (Community Participation) — [gov.za](https://www.gov.za)
+- *Doctors for Life International v Speaker of the National Assembly* [2006] ZACC 11 — [saflii.org](https://www.saflii.org)
+- *Matatiele Municipality and Others v President of the Republic of South Africa and Others* [2006] ZACC 2 — [saflii.org](https://www.saflii.org)
+- *Land Access Movement of South Africa and Others v Chairperson of the National Council of Provinces and Others* [2016] ZACC 22 — [saflii.org](https://www.saflii.org)
+- *Minister of Health and Others v Treatment Action Campaign and Others* [2002] ZACC 15 — [saflii.org](https://www.saflii.org)
+- *Economic Freedom Fighters v Speaker of the National Assembly and Others* [2016] ZACC 11 — [saflii.org](https://www.saflii.org)
+- *South African Transport and Allied Workers Union and Others v Garvas and Others* [2012] ZACC 13 — [saflii.org](https://www.saflii.org)
+- Murray, C. and Nijzink, L. (2002), *Building Representative Democracy: South Africa's Legislatures and the Constitution* — Parliamentary Support Programme
+- Woolman, S., Roux, T. and Bishop, M. (eds.), *Constitutional Law of South Africa* (Juta) — chapters on public participation and legislative process
+- Friedman, S. (2019), *Power in Action: Democracy, Citizenship and Social Justice* — Wits University Press
+- Afrobarometer — South Africa survey data on democratic participation and governance attitudes — [afrobarometer.org](https://www.afrobarometer.org)
+- Parliamentary Monitoring Group (PMG) — parliamentary committee schedules, calls for public comment, and meeting reports — [pmg.org.za](https://www.pmg.org.za)
+- Parliament of South Africa — official committee schedules and draft legislation — [parliament.gov.za](https://www.parliament.gov.za)
+- South African History Archive (SAHA), Freedom of Information Programme — PAIA guidance and compliance monitoring — [saha.org.za](https://www.saha.org.za)
+- Public Protector South Africa — complaint lodging and investigation reports — [pprotect.org](https://www.pprotect.org)
+- South African Human Rights Commission — complaint lodging and research publications — [sahrc.org.za](https://www.sahrc.org.za)
+- Good Governance Learning Network — publications on community participation in local governance
+- Section27 — healthcare and education rights advocacy — [section27.org.za](https://www.section27.org.za)
+- Equal Education — school infrastructure and education advocacy — [equaleducation.org.za](https://www.equaleducation.org.za)

@@ -375,39 +375,21 @@ The public submission process is the most concrete expression of the constitutio
 
 ## Resources
 
-The following sources were referenced in this article and are recommended for further reading on making public submissions.
+The analysis in this article draws on the following institutional research and publications:
 
-**Key monitoring tools:**
-Parliamentary Monitoring Group (PMG): www.pmg.org.za — committee schedules, calls for public comment, submission deadlines, and committee meeting reports. The single most useful resource for tracking public participation opportunities.
-
-Parliament of South Africa: www.parliament.gov.za — official committee programmes, draft legislation, and calls for submissions.
-
-Government Gazette (Government Printing Works): www.gpwonline.co.za — official publication of draft legislation, regulations, and calls for comment.
-
-**Constitutional Court jurisprudence on public participation:**
-*Doctors for Life International v Speaker of the National Assembly* [2006] ZACC 11 — landmark judgment on the obligation to facilitate public involvement. Available at www.saflii.org.
-
-*Land Access Movement of South Africa v Chairperson of the NCOP* [2016] ZACC 22 — invalidation of legislation for inadequate public participation. Available at www.saflii.org.
-
-**Legislative sources:**
-Constitution of the Republic of South Africa, 1996 — Sections 59, 72, and 118 (public involvement in legislative processes). Available at www.gov.za.
-
-Rules of the National Assembly and Rules of the NCOP — governing committee procedures and public participation. Available at www.parliament.gov.za.
-
-**Civil society resources:**
-Centre for Environmental Rights (CER): www.cer.org.za — submission guides, environmental governance publications, and *Full Disclosure* reports.
-
-Section27: www.section27.org.za — healthcare and education advocacy, including published submissions on health and education legislation.
-
-Helen Suzman Foundation: www.hsf.org.za — constitutional democracy research and published submissions on governance legislation.
-
-Equal Education: www.equaleducation.org.za — education policy submissions and advocacy publications.
-
-Centre for Child Law, University of Pretoria: children's rights submissions and advocacy.
-
-**Provincial legislatures:**
-Western Cape Provincial Parliament: www.wcpp.gov.za
-Gauteng Provincial Legislature: www.gpl.gov.za
-KwaZulu-Natal Legislature: www.kznlegislature.gov.za
-
-[Other provincial legislature websites are accessible through searches for "[province name] provincial legislature."]
+- Parliamentary Monitoring Group (PMG) — committee schedules, calls for public comment, submission deadlines, and committee meeting reports; the single most useful resource for tracking public participation opportunities — [pmg.org.za](https://www.pmg.org.za)
+- Parliament of South Africa — official committee programmes, draft legislation, and calls for submissions — [parliament.gov.za](https://www.parliament.gov.za)
+- Government Gazette (Government Printing Works) — official publication of draft legislation, regulations, and calls for comment — [gpwonline.co.za](https://www.gpwonline.co.za)
+- *Doctors for Life International v Speaker of the National Assembly* [2006] ZACC 11 — landmark judgment on the obligation to facilitate public involvement — [saflii.org](https://www.saflii.org)
+- *Land Access Movement of South Africa v Chairperson of the NCOP* [2016] ZACC 22 — invalidation of legislation for inadequate public participation — [saflii.org](https://www.saflii.org)
+- Constitution of the Republic of South Africa, 1996 — Sections 59, 72, and 118 (public involvement in legislative processes) — [gov.za](https://www.gov.za)
+- Rules of the National Assembly and Rules of the NCOP — governing committee procedures and public participation — [parliament.gov.za](https://www.parliament.gov.za)
+- Centre for Environmental Rights (CER) — submission guides, environmental governance publications, and *Full Disclosure* reports — [cer.org.za](https://www.cer.org.za)
+- Section27 — healthcare and education advocacy, including published submissions on health and education legislation — [section27.org.za](https://www.section27.org.za)
+- Helen Suzman Foundation — constitutional democracy research and published submissions on governance legislation — [hsf.org.za](https://www.hsf.org.za)
+- Equal Education — education policy submissions and advocacy publications — [equaleducation.org.za](https://www.equaleducation.org.za)
+- Centre for Child Law, University of Pretoria — children's rights submissions and advocacy
+- Western Cape Provincial Parliament — [wcpp.gov.za](https://www.wcpp.gov.za)
+- Gauteng Provincial Legislature — [gpl.gov.za](https://www.gpl.gov.za)
+- KwaZulu-Natal Legislature — [kznlegislature.gov.za](https://www.kznlegislature.gov.za)
+- Other provincial legislature websites are accessible through searches for "[province name] provincial legislature"

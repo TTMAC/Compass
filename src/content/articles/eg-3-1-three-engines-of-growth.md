@@ -257,30 +257,30 @@ For each engine, track three numbers: the current level, the trend (improving or
 
 ## Resources
 
-The following institutional sources informed the analysis in this article.
+The analysis in this article draws on the following institutional research and publications:
 
-**Trade and Industrial Policy Strategies (TIPS)** (tips.org.za) produces independent research on South Africa's MSME ecosystem, industrial policy effectiveness, and small business development programme evaluations. TIPS's work on the fragmentation of MSME support institutions is particularly relevant to the institutional coordination arguments in this article.
+- Trade and Industrial Policy Strategies (TIPS) — independent research on South Africa's MSME ecosystem, industrial policy effectiveness, and small business development programme evaluations; work on the fragmentation of MSME support institutions is particularly relevant to the institutional coordination arguments in this article — [tips.org.za](https://tips.org.za)
 
-**FinMark Trust** (finmark.org.za) conducts the FinScope MSME Survey and publishes extensive research on financial inclusion, MSME access to finance, and the missing middle in South African small business lending. FinMark's quantification of the unmet demand for MSME credit is the most rigorous available estimate.
+- FinMark Trust — FinScope MSME Survey and extensive research on financial inclusion, MSME access to finance, and the missing middle in South African small business lending; the most rigorous available estimate of unmet demand for MSME credit — [finmark.org.za](https://finmark.org.za)
 
-**Global Entrepreneurship Monitor South Africa** (gemconsortium.org) publishes annual reports on South Africa's entrepreneurial activity, including the TEA rate, business survival rates, entrepreneurial motivations, and comparisons with other countries in the GEM network. The South Africa reports are produced in partnership with the Small Enterprise Development Agency.
+- Global Entrepreneurship Monitor South Africa — annual reports on South Africa's entrepreneurial activity, including the TEA rate, business survival rates, entrepreneurial motivations, and comparisons with other countries in the GEM network; South Africa reports produced in partnership with the Small Enterprise Development Agency — [gemconsortium.org](https://gemconsortium.org)
 
-**Harvard Growth Lab Atlas of Economic Complexity** (atlas.cid.harvard.edu) provides the Economic Complexity Index, revealed comparative advantage data, product proximity analysis, and export diversification metrics for South Africa and all countries in the dataset. The atlas is the primary tool for identifying nearby products and assessing export diversification potential.
+- Harvard Growth Lab, *Atlas of Economic Complexity* — Economic Complexity Index, revealed comparative advantage data, product proximity analysis, and export diversification metrics for South Africa and all countries in the dataset; the primary tool for identifying nearby products and assessing export diversification potential — [atlas.cid.harvard.edu](https://atlas.cid.harvard.edu)
 
-**Research on Socio-Economic Policy (REDI3x3)** (redi3x3.org) published research on South Africa's economic structure, including analyses of firm size distribution, employment concentration in large firms, and the structural barriers to MSME growth. The project, based at the University of Cape Town's School of Economics, produced some of the most detailed firm-level analysis available for South Africa.
+- Research on Socio-Economic Policy (REDI3x3), University of Cape Town's School of Economics — research on South Africa's economic structure, including analyses of firm size distribution, employment concentration in large firms, and the structural barriers to MSME growth; some of the most detailed firm-level analysis available for South Africa — [redi3x3.org](https://redi3x3.org)
 
-**Southern Africa Labour and Development Research Unit (SALDRU)** (saldru.uct.ac.za) produces research on labour markets, poverty, and inequality that contextualises the MSME financing gap within the broader structure of South Africa's economy.
+- Southern Africa Labour and Development Research Unit (SALDRU) — research on labour markets, poverty, and inequality that contextualises the MSME financing gap within the broader structure of South Africa's economy — [saldru.uct.ac.za](https://saldru.uct.ac.za)
 
-**Department of Trade, Industry and Competition (the dtic)** (thedtic.gov.za) publishes information on MSME support programmes, the Black Industrialists Scheme, the Manufacturing Competitiveness Enhancement Programme, and trade policy including AfCFTA implementation status and export development initiatives.
+- Department of Trade, Industry and Competition (the dtic) — information on MSME support programmes, the Black Industrialists Scheme, the Manufacturing Competitiveness Enhancement Programme, and trade policy including AfCFTA implementation status and export development initiatives — [thedtic.gov.za](https://thedtic.gov.za)
 
-**Small Enterprise Development Agency (SEDA)** (seda.org.za) publishes the annual SMME Quarterly Update, which draws on multiple data sources to track MSME demographics, sectoral distribution, and provincial patterns in South Africa.
+- Small Enterprise Development Agency (SEDA) — annual SMME Quarterly Update, drawing on multiple data sources to track MSME demographics, sectoral distribution, and provincial patterns in South Africa — [seda.org.za](https://seda.org.za)
 
-**South African Reserve Bank** (resbank.co.za) publishes banking sector data including the BA900 returns that track credit extension by loan category, providing proxy data for MSME lending volumes. The SARB's Financial Stability Review also addresses MSME credit conditions.
+- South African Reserve Bank — banking sector data including the BA900 returns that track credit extension by loan category, providing proxy data for MSME lending volumes; the Financial Stability Review also addresses MSME credit conditions — [resbank.co.za](https://resbank.co.za)
 
-**National Credit Regulator** (ncr.org.za) publishes quarterly Consumer Credit Market Reports that include data on credit extension by type of provider and loan category, relevant to tracking formal MSME credit access.
+- National Credit Regulator — quarterly Consumer Credit Market Reports with data on credit extension by type of provider and loan category, relevant to tracking formal MSME credit access — [ncr.org.za](https://ncr.org.za)
 
-**Companies and Intellectual Property Commission (CIPC)** (cipc.co.za) maintains the register of all companies in South Africa and publishes registration statistics that serve as the primary data source for venture creation rates.
+- Companies and Intellectual Property Commission (CIPC) — register of all companies in South Africa and registration statistics that serve as the primary data source for venture creation rates — [cipc.co.za](https://cipc.co.za)
 
-**US Small Business Administration** (sba.gov) provides documentation on the 7(a) loan guarantee programme, lending statistics, and programme evaluations that inform the international comparison in this article.
+- US Small Business Administration — documentation on the 7(a) loan guarantee programme, lending statistics, and programme evaluations that inform the international comparison in this article — [sba.gov](https://sba.gov)
 
-**African Continental Free Trade Area Secretariat** (au-afcfta.org) publishes information on AfCFTA implementation, tariff schedules, rules of origin negotiations, and intra-African trade statistics.
+- African Continental Free Trade Area Secretariat — information on AfCFTA implementation, tariff schedules, rules of origin negotiations, and intra-African trade statistics — [au-afcfta.org](https://au-afcfta.org)

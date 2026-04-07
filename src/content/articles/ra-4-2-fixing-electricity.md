@@ -278,13 +278,15 @@ The end state is a distribution sector with clear responsibility (licensed distr
 
 ## Resources
 
-- National Energy Regulator of South Africa. *Municipal Tariff Approval Process.* Reformed per Gauteng High Court ruling, November 2025.
-- Republic of South Africa. *Electricity Regulation Amendment Act* (38 of 2024). In force from 1 January 2025.
-- Eskom Holdings. *Ministerial Approval for Unbundling.* December 2025. Available at eskom.co.za.
-- National Transmission Company of South Africa. Commenced trading 1 July 2024.
-- SAICE. *Infrastructure Report Card 2022.* Available at saice.org.za.
-- Auditor-General of South Africa. *MFMA 2023/24 Audit Outcomes.* Available at agsa.co.za.
-- National Treasury. *State of Local Government Finance and Financial Management as at 30 June 2024.* Available at treasury.gov.za.
-- Statistics South Africa. *Municipal Finances and Electricity.* Available at statssa.gov.za.
-- OECD. *South Africa Energy Sector Review 2025.* Recommendation on municipal distribution concessions.
-- NERSA. *Eskom Retail Tariff Application — Reasons for Decision.* March 2025. Available at nersa.org.za.
+The analysis in this article draws on the following institutional research and publications:
+
+- National Energy Regulator of South Africa, *Municipal Tariff Approval Process* — reformed per Gauteng High Court ruling, November 2025
+- Republic of South Africa, *Electricity Regulation Amendment Act* (38 of 2024) — in force from 1 January 2025
+- Eskom Holdings, *Ministerial Approval for Unbundling* — December 2025 — [eskom.co.za](https://www.eskom.co.za)
+- National Transmission Company of South Africa — commenced trading 1 July 2024
+- SAICE, *Infrastructure Report Card 2022* — [saice.org.za](https://www.saice.org.za)
+- Auditor-General of South Africa, *MFMA 2023/24 Audit Outcomes* — [agsa.co.za](https://www.agsa.co.za)
+- National Treasury, *State of Local Government Finance and Financial Management as at 30 June 2024* — [treasury.gov.za](https://www.treasury.gov.za)
+- Statistics South Africa, *Municipal Finances and Electricity* — [statssa.gov.za](https://www.statssa.gov.za)
+- OECD, *South Africa Energy Sector Review 2025* — recommendation on municipal distribution concessions
+- NERSA, *Eskom Retail Tariff Application — Reasons for Decision* — March 2025 — [nersa.org.za](https://www.nersa.org.za)
