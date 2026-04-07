@@ -7,9 +7,10 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 ## High Priority — Security
 
 ### Item 1: Content Security Policy (CSP) header
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** No CSP header in netlify.toml leaves the site open to XSS injection via uncontrolled script/style sources.
 - **Action:** Add a `Content-Security-Policy` header to the global `[[headers]]` block, whitelisting only known origins (self, GA4, Netlify Identity, Google Fonts, unpkg for Decap CMS).
+- **Resolution:** CSP header present in global `/*` headers block and `/admin/*` block. Whitelists: `script-src` (self, unsafe-inline, identity.netlify.com, googletagmanager.com), `style-src` (self, unsafe-inline, fonts.googleapis.com), `font-src` (self, fonts.gstatic.com), `img-src` (self, data:), `connect-src` (self, googletagmanager.com, google-analytics.com, analytics.google.com, *.google-analytics.com, identity.netlify.com), `frame-src` (none). Added missing GA4 regional analytics endpoints to prevent silent beacon failures.
 
 ### Item 2: Strict-Transport-Security (HSTS)
 - **Status:** 🔲 Todo
