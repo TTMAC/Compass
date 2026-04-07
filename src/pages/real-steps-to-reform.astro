@@ -80,31 +80,52 @@ const grouped = workstreams.map((ws) => {
 
   <!-- Workstream Filter -->
   <div
-    class="flex flex-wrap gap-2 mb-8 sticky top-16 bg-bg-primary py-3 z-30 border-b border-gray-100"
-    role="group"
-    aria-label="Filter reforms by workstream"
+    class="sticky top-16 bg-bg-primary py-3 z-30 border-b border-gray-100 mb-8"
   >
-    <button
-      type="button"
-      class="reform-filter-btn px-4 py-2 rounded-full font-heading text-sm font-semibold transition-colors border-2 border-compass-green bg-compass-green text-white"
-      data-filter="all"
-      aria-pressed="true"
+    <div
+      class="flex flex-wrap items-center gap-2 mb-2"
+      role="group"
+      aria-label="Filter reforms by workstream"
     >
-      All Workstreams
-    </button>
-    {workstreams.map((ws) => (
       <button
         type="button"
-        class="reform-filter-btn px-4 py-2 rounded-full font-heading text-sm font-semibold transition-colors border-2"
-        style={`border-color: ${ws.color}; color: ${ws.color}; background-color: transparent`}
-        data-filter={ws.id}
-        data-color={ws.color}
-        data-light={ws.lightColor}
-        aria-pressed="false"
+        class="reform-filter-btn px-4 py-2 rounded-full font-heading text-sm font-semibold transition-colors border-2 border-compass-green bg-compass-green text-white"
+        data-filter="all"
+        aria-pressed="true"
       >
-        {ws.shortTitle}
+        All Workstreams
       </button>
-    ))}
+      {workstreams.map((ws) => (
+        <button
+          type="button"
+          class="reform-filter-btn px-4 py-2 rounded-full font-heading text-sm font-semibold transition-colors border-2"
+          style={`border-color: ${ws.color}; color: ${ws.color}; background-color: transparent`}
+          data-filter={ws.id}
+          data-color={ws.color}
+          data-light={ws.lightColor}
+          aria-pressed="false"
+        >
+          {ws.shortTitle}
+        </button>
+      ))}
+    </div>
+    <div class="flex items-center gap-3">
+      <div class="relative flex-1 max-w-sm">
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-secondary pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+        </svg>
+        <input
+          type="search"
+          id="reform-search"
+          class="w-full pl-9 pr-3 py-2 rounded-lg border border-gray-200 bg-white font-heading text-sm text-text-primary placeholder:text-text-secondary/60 focus:outline-none focus:border-compass-green focus:ring-1 focus:ring-compass-green"
+          placeholder="Search reforms (e.g. water, policing, education)"
+          aria-label="Search reforms by keyword"
+        />
+      </div>
+      <span id="reform-count" class="font-heading text-xs text-text-secondary whitespace-nowrap">
+        {reformCount} reforms
+      </span>
+    </div>
   </div>
 
   <!-- Phase Timeline -->
