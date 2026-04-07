@@ -42,11 +42,13 @@ seo:
 
 If you report a crime in South Africa today, the probability of that crime resulting in a conviction is catastrophically low.
 
-## The Number You Need to Know The exact figure depends on the crime category, but the pattern is consistent across all of them: the criminal justice pipeline — from the moment a crime is reported through investigation, arrest, prosecution, trial, and sentencing — haemorrhages cases at every single stage. For every hundred serious crimes reported to SAPS, a fraction result in arrests. Of those arrests, a fraction result in prosecutions. Of those prosecutions, a fraction result in convictions. By the time you reach the end of the pipeline, the system has lost the overwhelming majority of cases that entered it.
+The exact figure depends on the crime category, but the pattern is consistent across all of them: the criminal justice pipeline — from the moment a crime is reported through investigation, arrest, prosecution, trial, and sentencing — haemorrhages cases at every single stage. For every hundred serious crimes reported to SAPS, a fraction result in arrests. Of those arrests, a fraction result in prosecutions. Of those prosecutions, a fraction result in convictions. By the time you reach the end of the pipeline, the system has lost the overwhelming majority of cases that entered it.
 
 This is not an abstract statistic. It means that if someone breaks into your home, assaults you on the street, robs you at gunpoint, or — in the most devastating cases — rapes you or murders someone you love, the system that is supposed to convert that crime into justice will, in all probability, fail. The perpetrator will, in all probability, face no consequences. And the message that sends — to perpetrators, to victims, to communities, to the country — is that crime in South Africa is a low-risk activity. The environment of impunity that [From Rainbow Nation to State Capture](/articles/ss-1-2-from-rainbow-nation-to-state-capture) documented as a product of state capture is not just a political phenomenon. It is a structural reality embedded in the performance data of every institution in the criminal justice pipeline.
 
 This article takes you through that pipeline stage by stage. At each stage, you will see where cases are lost, why they are lost, and what the data tells us about the scale of the attrition. By the end, you will have a mental model — a Pipeline Diagram — that you can use to trace any crime through the system and identify the specific points where the system failed. Understanding exactly where and why cases are lost is the first step toward demanding a system that actually converts reported crime into justice.
+
+## The Number You Need to Know
 
 ## The Pipeline: A Mental Model
 
