@@ -35,9 +35,10 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 ## High Priority — Performance
 
 ### Item 5: Use Astro `<Image />` component
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done (N/A)
 - **Why:** Plain `<img>` tags miss automatic responsive `srcset`/`sizes` generation and modern format conversion (WebP/AVIF). Critical for readers on 4G prepaid data.
 - **Action:** Replace `<img>` tags with Astro's `<Image />` or `<Picture />` component where applicable.
+- **Resolution:** No `<img>` tags exist in the codebase — the site currently has no images. When images are added in the future, Astro's `<Image />` component should be used from the start.
 
 ### Item 6: Enable Astro prefetch
 - **Status:** 🔲 Todo
