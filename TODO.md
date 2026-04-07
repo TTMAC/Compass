@@ -13,9 +13,10 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Resolution:** CSP header present in global `/*` headers block and `/admin/*` block. Whitelists: `script-src` (self, unsafe-inline, identity.netlify.com, googletagmanager.com), `style-src` (self, unsafe-inline, fonts.googleapis.com), `font-src` (self, fonts.gstatic.com), `img-src` (self, data:), `connect-src` (self, googletagmanager.com, google-analytics.com, analytics.google.com, *.google-analytics.com, identity.netlify.com), `frame-src` (none). Added missing GA4 regional analytics endpoints to prevent silent beacon failures.
 
 ### Item 2: Strict-Transport-Security (HSTS)
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** HTTPS is enforced by Netlify at the platform level, but without an HSTS header browsers may still attempt an initial HTTP request.
 - **Action:** Add `Strict-Transport-Security: max-age=63072000; includeSubDomains; preload` to the global headers.
+- **Resolution:** Already present in the global `/*` headers block in `netlify.toml` with the exact recommended value.
 
 ### Item 3: Subresource Integrity (SRI) for external scripts
 - **Status:** 🔲 Todo
