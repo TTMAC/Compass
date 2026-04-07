@@ -125,3 +125,12 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
   4. **Preserve anchor links:** If any internal cross-references link to `#the-bottom-line-up-front`, update those links to the new slug. Run a grep for the old anchor across all `.md` and `.astro` files before and after.
   5. **Update ArticleLayout if needed:** Check whether `ArticleLayout.astro` or any component renders or references the BLUF heading programmatically. If so, update accordingly.
   6. **QA:** Build locally and spot-check table-of-contents rendering, anchor links, and heading hierarchy for a sample of articles from each series.
+
+### Item 19: QA — Fix merged H2 headings in BLUF sections across all articles
+- **Status:** 🔲 Todo
+- **Why:** Multiple articles have a bug where the H2 heading after the BLUF intro paragraph is concatenated onto the same line as the preceding paragraph text (e.g. `## The System That Holds the System Together That knowledge is essential...`). This causes the heading to render as body text and the paragraph to lose its separation, breaking both the visual layout and the table of contents. Already found and fixed in `1-3-how-the-spheres-interact.md` and `2-1-following-the-money.md`.
+- **Pattern to detect:** Any line matching `^## .{30,}` (an H2 followed by unusually long text) in the BLUF section is likely a merged heading+paragraph. Alternatively, grep for lines starting with `## ` that contain a sentence-ending full stop (`.`) — real headings rarely do.
+- **Action plan:**
+  1. Run: `grep -n '^## .*\. ' src/content/articles/*.md` to find candidate lines where an H2 contains sentence-ending punctuation, indicating merged heading+paragraph.
+  2. For each match, manually verify and split: move the paragraph text before the `## ` marker, insert a blank line, then place the `## ` heading on its own line.
+  3. Build locally and check that the table of contents and heading hierarchy render correctly for each fixed article.
