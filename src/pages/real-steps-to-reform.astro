@@ -78,6 +78,19 @@ const grouped = workstreams.map((ws) => {
     ))}
   </div>
 
+  <!-- On-page navigation -->
+  <nav class="mb-8 flex flex-wrap gap-x-4 gap-y-1 text-xs font-heading" aria-label="Jump to section">
+    <span class="text-text-secondary font-semibold">Jump to:</span>
+    <a href="#timeline" class="text-compass-green hover:underline">Timeline</a>
+    <a href="#milestones" class="text-compass-green hover:underline">Milestones</a>
+    <a href="#raaricle" class="text-compass-green hover:underline">RAARICLE Framework</a>
+    {grouped.map((ws) => (
+      <a href={`#${ws.id}`} class="hover:underline" style={`color: ${ws.color}`}>{ws.shortTitle}</a>
+    ))}
+    <a href="#legislative" class="text-compass-green hover:underline">Legislative Programme</a>
+    <a href="#enablers" class="text-compass-green hover:underline">Enablers</a>
+  </nav>
+
   <!-- Workstream Filter -->
   <div
     class="sticky top-16 bg-bg-primary py-3 z-30 border-b border-gray-100 mb-8"
@@ -129,7 +142,7 @@ const grouped = workstreams.map((ws) => {
   </div>
 
   <!-- Phase Timeline -->
-  <section class="mb-10" aria-label="10-year reform timeline">
+  <section id="timeline" class="mb-10 scroll-mt-32" aria-label="10-year reform timeline">
     <h2 class="font-heading text-xl font-bold text-text-primary mb-4">
       10-Year Timeline
     </h2>
@@ -182,7 +195,7 @@ const grouped = workstreams.map((ws) => {
   </section>
 
   <!-- Milestones -->
-  <section class="mb-10" aria-label="Reform milestones">
+  <section id="milestones" class="mb-10 scroll-mt-32" aria-label="Reform milestones">
     <h2 class="font-heading text-xl font-bold text-text-primary mb-4">
       Milestones
     </h2>
@@ -234,7 +247,7 @@ const grouped = workstreams.map((ws) => {
   </div>
 
   <!-- RAARICLE™ Framework -->
-  <section class="mb-10" aria-label="RAARICLE™ diagnostic framework">
+  <section id="raaricle" class="mb-10 scroll-mt-32" aria-label="RAARICLE™ diagnostic framework">
     <h2 class="font-heading text-2xl font-bold text-text-primary mb-2">
       The RAARICLE™ Diagnostic Framework
     </h2>
@@ -295,7 +308,8 @@ const grouped = workstreams.map((ws) => {
   <!-- Reform Cards by Workstream -->
   {grouped.map((ws) => (
     <section
-      class="reform-ws-section mb-12"
+      id={ws.id}
+      class="reform-ws-section mb-12 scroll-mt-32"
       data-workstream={ws.id}
       aria-label={`${ws.title} reforms`}
     >
@@ -436,7 +450,7 @@ const grouped = workstreams.map((ws) => {
   ))}
 
   <!-- Legislative Programme -->
-  <section class="mb-12" aria-label="Legislative programme">
+  <section id="legislative" class="mb-12 scroll-mt-32" aria-label="Legislative programme">
     <h2 class="font-heading text-2xl font-bold text-text-primary mb-4">
       Legislative Programme
     </h2>
@@ -479,7 +493,7 @@ const grouped = workstreams.map((ws) => {
   </section>
 
   <!-- Cross-Cutting Enablers -->
-  <section class="mb-12" aria-label="Cross-cutting enablers">
+  <section id="enablers" class="mb-12 scroll-mt-32" aria-label="Cross-cutting enablers">
     <h2 class="font-heading text-2xl font-bold text-text-primary mb-4">
       Cross-Cutting Enablers
     </h2>

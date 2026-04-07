@@ -177,9 +177,10 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Resolution:** Added a search input with magnifying glass icon to the sticky filter bar in `src/pages/real-steps-to-reform.astro`. Searches against full card text content (title + description) with 150ms debounce. Also added a live reform count indicator ("15 of 84 reforms") that updates on any filter change (workstream, phase, or search). Empty phase sections and workstream sections auto-hide when all their cards are filtered out. Build verified clean.
 
 ### Item 24: Add on-page table of contents / jump links
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** The page is very long. Readers need a way to jump directly to sections (Timeline, Milestones, RAARICLE Framework, each Workstream, Legislative Programme, Cross-Cutting Enablers) without scrolling.
 - **Action:** Add a compact TOC near the top of the page with anchor links to each major section.
+- **Resolution:** Added `id` and `scroll-mt-32` attributes to all 9 major sections (timeline, milestones, raaricle, 4 workstreams, legislative, enablers). Added a compact inline `<nav>` between the stats bar and workstream filter with "Jump to:" label and colour-coded links. Workstream links use their workstream colour; other links use compass-green. Build verified clean.
 
 ### Item 25: Show visible reform count after filtering
 - **Status:** 🔲 Todo
