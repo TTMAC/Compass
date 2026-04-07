@@ -134,6 +134,18 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 
 ### Item 19: QA — Fix merged H2 headings in BLUF sections across all articles
 - **Status:** ✅ Done
+- **Resolution:** All merged H2 headings across the article corpus were identified and split correctly.
+
+### Item 20: QA — Full article structure, editorial guidelines, and resources audit
+- **Status:** 🔲 Todo
+- **Why:** Articles have not been systematically reviewed for consistent structure, adherence to editorial guidelines (non-partisan tone, domain language, heading hierarchy), and the presence of a Resources section. Inconsistencies could undermine reader trust and the site's educational mission.
+- **Action plan:**
+  1. **Structure check:** Verify every article has the expected sections: BLUF summary, body with proper heading hierarchy (H2 → H3, no skipped levels), and a `## Resources` section at the end with relevant links.
+  2. **Editorial guidelines check:** Confirm non-partisan tone, correct domain language (Article not post, Part not section, Sphere not tier, Series not blog), and consistent formatting conventions.
+  3. **Resources section audit:** Flag articles missing a Resources section entirely or containing broken/placeholder links. Ensure each Resources section provides at least one authoritative source (e.g. legislation, government website, academic reference).
+  4. **Batch by Part:** Work through articles one Part at a time for tonal consistency.
+  5. **Fix in place:** Correct any issues found directly in the article `.md` files.
+  6. **Build and verify:** Run `npm run build` after fixes to confirm no breakage.
 - **Why:** Multiple articles have a bug where the H2 heading after the BLUF intro paragraph is concatenated onto the same line as the preceding paragraph text (e.g. `## The System That Holds the System Together That knowledge is essential...`). This causes the heading to render as body text and the paragraph to lose its separation, breaking both the visual layout and the table of contents. Already found and fixed in `1-3-how-the-spheres-interact.md` and `2-1-following-the-money.md`.
 - **Pattern to detect:** Any line matching `^## .{30,}` (an H2 followed by unusually long text) in the BLUF section is likely a merged heading+paragraph. Alternatively, grep for lines starting with `## ` that contain a sentence-ending full stop (`.`) — real headings rarely do.
 - **Action plan:**
