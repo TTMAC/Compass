@@ -9,6 +9,7 @@ export default defineConfig({
   site: process.env.SITE_URL || "https://govcompass.co.za",
   integrations: [tailwind(), sitemap()],
   output: "static",
+  prefetch: true,
   redirects: {
     "/series": {
       status: 301,

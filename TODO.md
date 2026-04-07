@@ -41,9 +41,10 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Resolution:** No `<img>` tags exist in the codebase — the site currently has no images. When images are added in the future, Astro's `<Image />` component should be used from the start.
 
 ### Item 6: Enable Astro prefetch
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** Astro supports link prefetching for faster perceived navigation; currently not enabled.
 - **Action:** Enable `prefetch` in astro.config.mjs and apply to key navigation links.
+- **Resolution:** Added `prefetch: true` to `astro.config.mjs`. Astro's default prefetch strategy (`hover`) prefetches links when users hover over them, improving perceived navigation speed without aggressive preloading that would waste data.
 
 ### Item 7: Add bundle analysis tooling
 - **Status:** 🔲 Todo
