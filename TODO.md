@@ -106,3 +106,22 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Status:** 🔲 Todo
 - **Why:** The privacy policy covers POPIA but the cookie banner itself doesn't reference the Act.
 - **Action:** Update CookieConsent banner copy to mention POPIA compliance.
+
+---
+
+## High Priority — Content
+
+### Item 18: Replace generic "The Bottom Line, Up Front" headings with article-specific summaries
+- **Status:** 🔲 Todo
+- **Why:** Every article uses the identical `## The Bottom Line, Up Front` heading, which tells the reader nothing specific. Replacing it with a one-line summary of the article's key argument improves scannability, aids navigation (table-of-contents, search results), and reinforces the article's core message before the reader commits to the full text.
+- **Scope:** 70 articles across `src/content/articles/` use this heading.
+- **Action plan:**
+  1. **Audit:** For each article, read the BLUF paragraph(s) that follow the heading and identify the single key insight or argument.
+  2. **Draft replacement headings:** Write a concise, specific H2 that captures that insight. Examples:
+     - `1-1-architecture-of-the-state.md`: `## Three Equal Spheres, Not Three Tiers` (key point: SA has co-equal spheres, not a hierarchy)
+     - `1-2-who-does-what.md`: `## Know Which Sphere to Hold Accountable` (key point: misdirected accountability wastes civic energy)
+     - `2-1-following-the-money.md`: `## The Budget Is the Government's True Policy Document` (key point: money reveals real priorities)
+  3. **Batch by series:** Work through articles one Part/series at a time to maintain tonal consistency within each series.
+  4. **Preserve anchor links:** If any internal cross-references link to `#the-bottom-line-up-front`, update those links to the new slug. Run a grep for the old anchor across all `.md` and `.astro` files before and after.
+  5. **Update ArticleLayout if needed:** Check whether `ArticleLayout.astro` or any component renders or references the BLUF heading programmatically. If so, update accordingly.
+  6. **QA:** Build locally and spot-check table-of-contents rendering, anchor links, and heading hierarchy for a sample of articles from each series.
