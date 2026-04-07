@@ -69,9 +69,10 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Resolution:** Added `<meta name="theme-color" content="#355E3B">` (compass-green) to BaseLayout head, applied to all pages.
 
 ### Item 10: Add apple-touch-icon
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** iOS bookmark icon falls back to a screenshot instead of a branded icon.
 - **Action:** Generate a 180×180 PNG icon and add the `<link rel="apple-touch-icon">` tag.
+- **Resolution:** Created 180×180 PNG at `public/apple-touch-icon.png` — compass-green background with white "G" arc integrated with a compass needle (white north, gold south, matching the existing favicon motif). Added `<link rel="apple-touch-icon">` to BaseLayout head. Generator script at `scripts/generate-apple-icon.mjs` for future regeneration.
 
 ---
 
