@@ -20,7 +20,7 @@ series:
   prev: "eg-1-3-the-comparator-countries"
   next: "eg-2-2-infrastructure-foundations"
 crossLinks:
-  - slug: "1-2-following-the-money"
+  - slug: "2-1-following-the-money"
     label: "Following the Money"
     relationship: "Resource revenue allocation"
 seo:

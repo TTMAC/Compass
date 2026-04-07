@@ -23,7 +23,7 @@ series:
   prev: "eg-2-1-resource-optimisation"
   next: "eg-2-3-the-efficiency-transition"
 crossLinks:
-  - slug: "1-2-following-the-money"
+  - slug: "2-1-following-the-money"
     label: "Following the Money"
     relationship: "Infrastructure budget allocations"
   - slug: "eg-2-1-resource-optimisation"
@@ -230,7 +230,7 @@ Everything you have read in this article points in one direction: South Africa d
 
 The path forward is not mysterious. The REIPPPP has shown that South Africa can deliver infrastructure at scale when it creates fit-for-purpose institutions with clear mandates, competitive procurement, and ring-fenced capacity. The Gautrain has shown that complex PPPs can work with adequate preparation and political commitment. The question is whether these successes can be generalised — whether the exceptional can become the normal.
 
-For a deeper analysis of how South Africa's infrastructure plans compare with actual delivery outcomes, [Infrastructure Planning vs Reality](/articles/eg-4-3-infrastructure-planning-vs-reality) will examine the gap in granular detail. And as you saw in [Following the Money](/articles/1-2-following-the-money), the budget allocation process itself shapes which projects get funded and at what pace — understanding how infrastructure money flows through the intergovernmental fiscal system is essential to understanding why projects stall.
+For a deeper analysis of how South Africa's infrastructure plans compare with actual delivery outcomes, [Infrastructure Planning vs Reality](/articles/eg-4-3-infrastructure-planning-vs-reality) will examine the gap in granular detail. And as you saw in [Following the Money](/articles/2-1-following-the-money), the budget allocation process itself shapes which projects get funded and at what pace — understanding how infrastructure money flows through the intergovernmental fiscal system is essential to understanding why projects stall.
 
 ## Practical Framework: Infrastructure Report Card
 

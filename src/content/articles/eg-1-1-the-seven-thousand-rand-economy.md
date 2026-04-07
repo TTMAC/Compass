@@ -21,7 +21,7 @@ crossLinks:
   - slug: "1-1-architecture-of-the-state"
     label: "The Architecture of the State"
     relationship: "Constitutional economic powers"
-  - slug: "1-2-following-the-money"
+  - slug: "2-1-following-the-money"
     label: "Following the Money"
     relationship: "Fiscal framework"
 seo:
@@ -42,7 +42,7 @@ South Africa's gross domestic product per capita — the total value of everythi
 
 A note on the title of this article. South Africa's GDP per capita is approximately $7,000 in US dollar terms — which, at an exchange rate of roughly R18 to the dollar, translates to approximately R126,000 per year, or about R10,500 per month per person. The "R7,000 economy" is a shorthand that captures a different reality: the effective purchasing power available to the median South African, once you account for the fact that GDP per capita is an average dragged upward by extreme inequality. For a country where the median individual income is closer to R4,000–R7,000 per month, the headline $7,000 GDP per capita figure flatters more than it reveals.
 
-This article is the first in a series on economic growth and development. Its purpose is to give you the analytical baseline: the numbers, the frameworks, and the conceptual tools you need to cut through political rhetoric about "growing the economy" and assess whether any given policy proposal has a realistic chance of doing so. If you have read [The Architecture of the State](/articles/1-1-architecture-of-the-state), you already understand how power is divided across South Africa's three spheres of government. If you have read [Following the Money](/articles/1-2-following-the-money), you understand how the national budget works. This article adds the economic dimension: what kind of economy those government structures are managing, and why that economy has been stuck in place while the rest of the developing world has moved on.
+This article is the first in a series on economic growth and development. Its purpose is to give you the analytical baseline: the numbers, the frameworks, and the conceptual tools you need to cut through political rhetoric about "growing the economy" and assess whether any given policy proposal has a realistic chance of doing so. If you have read [The Architecture of the State](/articles/1-1-architecture-of-the-state), you already understand how power is divided across South Africa's three spheres of government. If you have read [Following the Money](/articles/2-1-following-the-money), you understand how the national budget works. This article adds the economic dimension: what kind of economy those government structures are managing, and why that economy has been stuck in place while the rest of the developing world has moved on.
 
 ## Making Seven Thousand Dollars Concrete
 

@@ -20,7 +20,7 @@ series:
   prev: "eg-4-2-the-metro-rankings"
   next: "eg-5-1-the-political-economy-of-growth"
 crossLinks:
-  - slug: "1-2-following-the-money"
+  - slug: "2-1-following-the-money"
     label: "Following the Money"
     relationship: "Infrastructure budget flows"
 seo:
@@ -313,7 +313,7 @@ By identifying the specific stage at which delivery breaks down, you move from a
 
 The analysis in this article draws on the following institutional research and publications:
 
-- National Treasury, *Budget Review* — the most authoritative data on public infrastructure spending by department and state-owned entity; the Estimates of National Expenditure provide programme-level detail on capital budgets, actual expenditure, and forward projections; the Appropriation Bills track how infrastructure allocations flow through the intergovernmental fiscal system, a process that [Following the Money](/articles/1-2-following-the-money) examines in detail — [www.treasury.gov.za](https://www.treasury.gov.za)
+- National Treasury, *Budget Review* — the most authoritative data on public infrastructure spending by department and state-owned entity; the Estimates of National Expenditure provide programme-level detail on capital budgets, actual expenditure, and forward projections; the Appropriation Bills track how infrastructure allocations flow through the intergovernmental fiscal system, a process that [Following the Money](/articles/2-1-following-the-money) examines in detail — [www.treasury.gov.za](https://www.treasury.gov.za)
 
 - Infrastructure South Africa — pipeline reports published through the Presidency and tabled in Parliament providing project-level data on the status, timelines, and identified constraints for catalytic infrastructure projects; the closest thing to a comprehensive government-produced assessment of SIP delivery — [www.pmg.org.za](https://www.pmg.org.za)
 
