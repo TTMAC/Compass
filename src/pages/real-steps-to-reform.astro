@@ -135,7 +135,7 @@ const grouped = workstreams.map((ws) => {
           aria-label="Search reforms by keyword"
         />
       </div>
-      <span id="reform-count" class="font-heading text-xs text-text-secondary whitespace-nowrap">
+      <span id="reform-count" class="font-heading text-xs text-text-secondary whitespace-nowrap" aria-live="polite">
         {reformCount} reforms
       </span>
     </div>
@@ -235,6 +235,7 @@ const grouped = workstreams.map((ws) => {
   <div
     id="active-filter-indicator"
     class="hidden mb-6 p-3 rounded-lg border border-gray-200 bg-bg-secondary flex items-center justify-between"
+    aria-live="polite"
   >
     <span id="active-filter-text" class="font-heading text-sm text-text-secondary"></span>
     <button

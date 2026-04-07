@@ -91,9 +91,10 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Resolution:** Added error handling across four components: (1) CookieConsent — wrapped all `localStorage` calls in try-catch for private browsing, wrapped GA4 `loadGA4()` in try-catch, fixed scroll-depth div-by-zero with early return when `scrollHeight === innerHeight`. (2) Header — wrapped Pagefind script loading and init in try-catch, added `script.onerror` handler. (3) ReadingProgress — fixed div-by-zero when article is shorter than viewport. (4) Government-functions — added null guards on `getElementById` and `querySelector` to prevent crash on missing tab elements.
 
 ### Item 13: Add `aria-live` regions for dynamic content
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** Dynamic updates (search results, form submission feedback) are not announced to screen readers.
 - **Action:** Add `aria-live="polite"` to search results container and form status messages.
+- **Resolution:** Added `aria-live` attributes to 6 dynamic regions: (1) EmailCapture — `aria-live="polite"` on success message, `aria-live="assertive" role="alert"` on error message. (2) ShareButtons — `aria-live="assertive"` on copy button label ("Copied!"/"Failed" feedback). (3) Header — `aria-live="polite"` on both desktop and mobile Pagefind search result containers. (4) Reform page — `aria-live="polite"` on reform count indicator and active filter indicator. ReadingProgress already had proper `role="progressbar"` with `aria-valuenow`.
 
 ---
 
