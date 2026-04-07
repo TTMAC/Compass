@@ -171,9 +171,10 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Resolution:** Changed `shortTitle` from "Institutional Reforms" to "Institutional" in `src/data/reforms.ts`. This aligns with the other single-word shortTitles (Safety, Economy, People) and fixes the redundancy across all four usage sites (stats bar, filter buttons, timeline labels, legislative badges).
 
 ### Item 23: Add text search filter for reform cards
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** With 84 reforms on a single page, readers have no way to quickly find reforms relevant to a specific topic (e.g. "water", "education", "policing") without scrolling through the entire page.
 - **Action:** Add a search input above the reform cards that filters cards in real-time by matching title and description text. Must be lightweight client-side JS to stay within page-weight budget.
+- **Resolution:** Added a search input with magnifying glass icon to the sticky filter bar in `src/pages/real-steps-to-reform.astro`. Searches against full card text content (title + description) with 150ms debounce. Also added a live reform count indicator ("15 of 84 reforms") that updates on any filter change (workstream, phase, or search). Empty phase sections and workstream sections auto-hide when all their cards are filtered out. Build verified clean.
 
 ### Item 24: Add on-page table of contents / jump links
 - **Status:** 🔲 Todo
