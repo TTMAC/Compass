@@ -183,9 +183,10 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Resolution:** Added `id` and `scroll-mt-32` attributes to all 9 major sections (timeline, milestones, raaricle, 4 workstreams, legislative, enablers). Added a compact inline `<nav>` between the stats bar and workstream filter with "Jump to:" label and colour-coded links. Workstream links use their workstream colour; other links use compass-green. Build verified clean.
 
 ### Item 25: Show visible reform count after filtering
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** When a workstream or phase filter is active, readers have no feedback on how many reforms match. Showing "Showing 15 of 84 reforms" near the filter bar gives immediate orientation.
 - **Action:** Add a live count indicator near the workstream filter bar that updates when filters change.
+- **Resolution:** Implemented as part of Item 23. A `<span id="reform-count">` in the filter bar shows "84 reforms" when unfiltered and "X of 84 reforms" when any filter (workstream, phase, or search) is active. Updated by the `applyFilters()` function on every filter change.
 
 ### Item 26: Sync filter state to URL
 - **Status:** 🔲 Todo
