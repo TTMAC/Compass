@@ -47,9 +47,10 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Resolution:** Added `prefetch: true` to `astro.config.mjs`. Astro's default prefetch strategy (`hover`) prefetches links when users hover over them, improving perceived navigation speed without aggressive preloading that would waste data.
 
 ### Item 7: Add bundle analysis tooling
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** No way to monitor whether the 450 KB page-weight budget is being respected.
 - **Action:** Add `rollup-plugin-visualizer` or similar to the build, and consider a Lighthouse CI check in the deploy pipeline.
+- **Resolution:** Added `rollup-plugin-visualizer` (activated with `ANALYZE=true` env var, outputs `dist/bundle-stats.html`) and a custom page-weight budget checker script (`scripts/check-page-weight.mjs`). New npm scripts: `build:analyze` (full build + visualizer + budget report), `budget` (report only), `budget:strict` (exits 1 if any page exceeds 450 KB gzipped). All 93 pages are well within budget — heaviest page is 52.7 KB gzipped, far under the 250 KB target.
 
 ---
 

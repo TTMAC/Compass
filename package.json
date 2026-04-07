@@ -21,7 +21,10 @@
     "ss:list": "node scripts/generate-ss-articles.mjs list",
     "ss:prompt": "node scripts/generate-ss-articles.mjs prompt",
     "ra:list": "node scripts/generate-ra-articles.mjs list",
-    "ra:prompt": "node scripts/generate-ra-articles.mjs prompt"
+    "ra:prompt": "node scripts/generate-ra-articles.mjs prompt",
+    "build:analyze": "ANALYZE=true npm run build && node scripts/check-page-weight.mjs",
+    "budget": "node scripts/check-page-weight.mjs",
+    "budget:strict": "node scripts/check-page-weight.mjs --strict"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.3.0",
@@ -42,6 +45,7 @@
     "pagefind": "^1.4.0",
     "prettier": "^3.5.0",
     "prettier-plugin-astro": "^0.14.0",
+    "rollup-plugin-visualizer": "^7.0.1",
     "sharp": "^0.34.5",
     "vitest": "^3.1.0"
   }
