@@ -153,3 +153,8 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
   1. Run: `grep -n '^## .*\. ' src/content/articles/*.md` to find candidate lines where an H2 contains sentence-ending punctuation, indicating merged heading+paragraph.
   2. For each match, manually verify and split: move the paragraph text before the `## ` marker, insert a blank line, then place the `## ` heading on its own line.
   3. Build locally and check that the table of contents and heading hierarchy render correctly for each fixed article.
+
+### Item 21: Fix Resource formatting for all articles
+- **Status:** 🔲 Todo
+- **Why:** Resource sections across articles may have inconsistent formatting (e.g. varying list styles, missing link text, inconsistent heading levels, or broken markup) that undermines readability and the professional quality of the site.
+- **Action:** Audit and standardise the `## Resources` section formatting across all articles in `src/content/articles/`, ensuring consistent list style, proper link markup, and uniform presentation.
