@@ -16,7 +16,7 @@ publishDate: 2029-07-15
 readingTime: 30
 status: "draft"
 series:
-  prev: "hd-1-3-the-reinforcing-cycle"
+  prev: "hd-1-4-the-problem-that-has-no-name"
   next: "hd-2-2-violence-as-public-health-crisis"
 crossLinks:
   - slug: "hd-1-2-south-africas-report-card"

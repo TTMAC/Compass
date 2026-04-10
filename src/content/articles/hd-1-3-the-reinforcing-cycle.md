@@ -16,7 +16,7 @@ readingTime: 30
 status: "draft"
 series:
   prev: "hd-1-2-south-africas-report-card"
-  next: "hd-2-1-the-life-expectancy-deficit"
+  next: "hd-1-4-the-problem-that-has-no-name"
 crossLinks:
   - slug: "ss-2-1-the-broken-pipeline"
     label: "The Broken Pipeline"

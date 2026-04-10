@@ -20,7 +20,7 @@ readingTime: 35
 status: "draft"
 series:
   prev: "hd-1-3-the-reinforcing-cycle"
-  next: null
+  next: "hd-2-1-the-life-expectancy-deficit"
 crossLinks:
   - slug: "hd-1-1-beyond-gdp"
     label: "Beyond GDP"
