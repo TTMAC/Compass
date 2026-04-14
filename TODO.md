@@ -196,6 +196,28 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Action:** Audit and standardise the `## Resources` section formatting across all articles in `src/content/articles/`, ensuring consistent list style, proper link markup, and uniform presentation.
 - **Resolution:** Audited all 76 articles and standardised 28 that had inconsistent formatting. Fixed: (1) 6 articles (3-1 through 4-3) converted from paragraph format with bold sub-headings and plain URLs to bullet list with markdown links. (2) 15 eg-series articles converted from various paragraph/prose formats with bold source names to bullet list format. (3) 4 ra-4-x articles had plain URLs converted to markdown links. (4) 2 ra-5-x articles converted from prose paragraphs to bullet list. (5) 2 articles (eg-1-1, eg-4-2) had heading corrected from "Resources and Institutional Sources" to "Resources". (6) All intro lines standardised to "The analysis in this article draws on the following institutional research and publications:". All internal cross-reference links preserved. Build verified clean.
 
+### Item 34: Batched editorial standards review across all articles
+- **Status:** ⬜ Not started
+- **Why:** Item 20 covered structural and domain-language consistency, but articles have not been systematically audited against the full Content Style Guide — voice (direct address, BLUF, lead-with-specifics, O'Reilly register), evidentiary standards (data-anchored claims, visible sources, no speculation as fact), non-partisan tone, the 4,500-word minimum (lowered 2026-04-14), and the requirement that every article close with a practical tool (framework, checklist, data source, or complaint mechanism). With ~77 articles across 5 series, a batched approach is needed to keep review tractable and maintain thematic context.
+- **Standards checklist (applied per article):**
+  - **Structural:** word count ≥ 4,500; frontmatter valid (`part`, `articleNumber`, `sphere`, `description`, `series.prev/next` correctly doubly-linked); BLUF in first two paragraphs; closes with a practical tool.
+  - **Voice & tone:** direct "you" address; sections lead with a number/institution/year not a generalisation; conversational O'Reilly register with jargon explained on first use; no emoji in body; no clickbait or hype words; rigorously non-partisan (reports findings, does not editorialise on party causation).
+  - **Evidentiary:** claims anchored to authoritative sources (AGSA, Treasury, StatsSA, DPME, IEC, gazetted law); no speculation presented as fact; figures dated where time-sensitive.
+  - **Accessibility:** addresses at least one of the reader's struggling moments ("who do I blame?" / "is this normal?" / "election decision"); no assumed prerequisite knowledge.
+- **Batches:**
+  1. **Core Series (Parts 1–5)** — 15 articles (`1-1` … `5-3`). MVP priority; Part 1 must be publication-ready first.
+  2. **Economic Growth & Development** — 15 articles (`eg-1-1` … `eg-5-3`). Data-heavy; verify comparator-country figures and fiscal numbers.
+  3. **Human Development** — 14 articles (`hd-1-1` … `hd-5-2`). Verify health, education, and life-expectancy stats; sensitive-tone check.
+  4. **Reform Agenda** — 15 articles (`ra-1-1` … `ra-5-3`). Highest partisan-drift risk — reform proposals must remain non-partisan.
+  5. **Safety & Security** — 14 articles (`ss-1-1` … `ss-4-3`). Sensitive subject matter; verify SAPS/NPA/DCS statistics and constitutional claims.
+- **Execution per batch:**
+  1. Automated pass: word counts, frontmatter schema validation, `series.prev/next` integrity, emoji scan, forbidden-term scan ("blog post", "users", sphere synonyms like "tier"/"level").
+  2. Manual read per article against voice/evidentiary checklist — log findings as one row per article: Pass / Fix / Rewrite.
+  3. Produce batch report at `reviews/batch-N-<series>.md` with pass/fail matrix, top issues, and recommended fixes grouped by severity (blocker / should-fix / nit).
+  4. Apply fixes only after owner sign-off on severity triage.
+  5. Re-run automated pass to confirm no regressions before moving to next batch.
+- **Open question:** Start with Batch 1 (Core Series) to unblock MVP launch, or run the automated pass across all five batches first to triage where the worst issues live?
+
 ---
 
 ## Reform Roadmap Page Improvements
