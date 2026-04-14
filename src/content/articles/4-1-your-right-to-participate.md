@@ -130,7 +130,7 @@ Parliament publishes information about committee activities, including calls for
 
 ### Public Comment on Draft Legislation and Policy
 
-Beyond formal hearings, government regularly publishes draft legislation, policy documents, and regulations for public comment. This process occurs at all three levels of government.
+Beyond formal hearings, government regularly publishes draft legislation, policy documents, and regulations for public comment. This process occurs at all three spheres of government.
 
 At national level, draft bills are published in the Government Gazette with an invitation for public comment, typically within a 30-day window (though the period varies). Draft regulations and policy documents—such as White Papers, Green Papers, and regulatory frameworks—follow a similar process. National departments are required to publish their strategic plans and annual performance plans, which are also open to public input through parliamentary committee processes.
 
@@ -181,7 +181,7 @@ Chapter 9 of the Constitution establishes a set of independent institutions that
 These Chapter 9 institutions are your constitutional watchdogs. They exist specifically to enable citizens to hold government accountable. They are free to use, they are accessible without a lawyer, and they are independent of the government bodies they oversee. The fact that most citizens have never interacted with any of them is a measure of how much participation potential remains untapped.
 
 :::takeaway
-The practical channels for participation include: parliamentary public hearings, public comment periods on legislation and policy, petitions to Parliament or your council, the municipal IDP and budget processes, ward committees, and complaints to Chapter 9 institutions (the Public Protector, SAHRC, Commission for Gender Equality, and others). Each channel serves a different purpose and operates at a different level of government. You do not need to use all of them—but you should know they exist, so you can choose the right channel for the concern you want to raise.
+The practical channels for participation include: parliamentary public hearings, public comment periods on legislation and policy, petitions to Parliament or your council, the municipal IDP and budget processes, ward committees, and complaints to Chapter 9 institutions (the Public Protector, SAHRC, Commission for Gender Equality, and others). Each channel serves a different purpose and operates at a different sphere of government. You do not need to use all of them—but you should know they exist, so you can choose the right channel for the concern you want to raise.
 :::
 
 ## Access to Information: The Precondition for Participation
@@ -282,7 +282,7 @@ The limitation of digital participation is the digital divide. South Africa's in
 
 ## A Framework for Choosing How to Participate
 
-With all these channels mapped, the practical question becomes: which one should you use? The answer depends on what you want to achieve and at which level of government the decision is being made.
+With all these channels mapped, the practical question becomes: which one should you use? The answer depends on what you want to achieve and at which sphere of government the decision is being made.
 
 **If you have a service delivery complaint about your neighbourhood**—a burst pipe, a pothole, a non-functional streetlight—start with your ward councillor. Contact them directly. If you cannot reach your ward councillor or they are unresponsive, escalate to the municipality's official complaints channel (usually a call centre, email address, or walk-in office). If the municipality is unresponsive, consider a formal petition to the municipal council through the speaker's office. Document everything.
 
@@ -309,7 +309,7 @@ When you want to engage with government on an issue that affects you, work throu
 
 Be specific. "Better services" is a goal, not an actionable demand. "The replacement of the burst water main on Molefe Street, which has been leaking for four months and is causing flooding that affects 200 households" is an actionable demand. "The Department of Health should increase its budget for primary healthcare clinics" is a policy position that belongs in a parliamentary submission. "My PAIA request for the municipality's infrastructure maintenance schedule was refused without proper grounds" is a legal complaint that belongs with the courts or SAHRC. The specificity of your demand determines which channel will be most effective.
 
-**Question 2: Which level of government is responsible, and which channel reaches them?**
+**Question 2: Which sphere of government is responsible, and which channel reaches them?**
 
 If the issue is a neighbourhood service delivery problem (water, roads, refuse, streetlights), start with your ward councillor and escalate to the municipal complaints channel, then to a formal petition to the council speaker. If the issue is a municipal planning or budget priority, engage through the IDP and budget public comment processes between April and June. If the issue is national or provincial legislation, submit written comments during the public comment period and track committee hearings through PMG at pmg.org.za. If the issue is government misconduct or maladministration, lodge a complaint with the Public Protector at pprotect.org. If the issue is a violation of your rights, contact the SAHRC at sahrc.org.za.
 

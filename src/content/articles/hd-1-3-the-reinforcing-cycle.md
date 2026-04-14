@@ -235,7 +235,7 @@ The reinforcing cycle — safety → growth → development → safety — is th
 :::framework
 **The Policy Cycle Test**
 
-Use this five-question test to evaluate any policy proposal — from any party, at any level of government — against the reinforcing cycle framework.
+Use this five-question test to evaluate any policy proposal — from any party, at any sphere of government — against the reinforcing cycle framework.
 
 **Question 1: Which link does this policy address?**
 Identify whether the proposal targets the safety → growth link (e.g., policing reform, crime reduction), the growth → development link (e.g., health funding, education spending), or the development → safety link (e.g., education quality, youth employment). A proposal that cannot be mapped to at least one link is operating outside the system that determines outcomes.

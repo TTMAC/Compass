@@ -226,7 +226,7 @@ The Electricity Regulation Amendment Act and subsequent regulatory changes event
 
 ## The Informal Channels: How Coordination Actually Happens
 
-Alongside the formal intergovernmental forums mandated by the IGRFA, a significant amount of coordination happens through informal channels that are not captured in any legislation. These include direct relationships between officials who have worked together across spheres, political party structures that span all three levels of government, professional networks (engineers, accountants, planners) that connect practitioners across spheres, and ad hoc task teams created to address specific problems.
+Alongside the formal intergovernmental forums mandated by the IGRFA, a significant amount of coordination happens through informal channels that are not captured in any legislation. These include direct relationships between officials who have worked together across spheres, political party structures that span all three spheres of government, professional networks (engineers, accountants, planners) that connect practitioners across spheres, and ad hoc task teams created to address specific problems.
 
 In many cases, these informal channels are more effective than the formal forums. A provincial HOD who has a personal relationship with a municipal manager can resolve a coordination problem with a phone call that a formal intergovernmental forum might take six months to address. A national DG who previously served in provincial government understands provincial implementation constraints in a way that their predecessor, who came from the private sector, did not.
 

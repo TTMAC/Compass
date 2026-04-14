@@ -242,7 +242,7 @@ The reasons for municipal service delivery failures are multiple and well-docume
 
 The municipal governance crisis is not uniform. Some municipalities—typically the metropolitan municipalities and a handful of well-managed local municipalities—function reasonably well. But the overall picture is one of systemic distress. A 2023 COGTA assessment found that 66 municipalities (roughly one-quarter of all municipalities) were in financial distress, and 43 were "dysfunctional"—unable to fulfil their basic constitutional obligations.
 
-This is the level of government closest to you, and it is, on average, the weakest. That is the central tension of South Africa's governance architecture: the sphere with the most direct impact on your daily life is the sphere with the least capacity to deliver.
+This is the sphere of government closest to you, and it is, on average, the weakest. That is the central tension of South Africa's governance architecture: the sphere with the most direct impact on your daily life is the sphere with the least capacity to deliver.
 
 ## A Practical Framework: How to Trace Accountability
 

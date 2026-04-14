@@ -220,7 +220,7 @@ International experience, as documented by the World Bank's Innovation Policy Pl
 ## Practical Framework: The Innovation Ecosystem Scanner
 
 :::takeaway
-The gap between South Africa's current innovation performance and the Stage 3 threshold is large but not unprecedented. South Korea was in a comparable position in 1980. The critical variable is not starting position but sustained commitment. Every country that reached innovation-driven growth did so through 20 to 30 years of consistent, compounding investment in R&D, human capital, and institutional capacity. The question for South African citizens is whether the policy environment — across all parties and all levels of government — supports that kind of sustained commitment.
+The gap between South Africa's current innovation performance and the Stage 3 threshold is large but not unprecedented. South Korea was in a comparable position in 1980. The critical variable is not starting position but sustained commitment. Every country that reached innovation-driven growth did so through 20 to 30 years of consistent, compounding investment in R&D, human capital, and institutional capacity. The question for South African citizens is whether the policy environment — across all parties and all spheres of government — supports that kind of sustained commitment.
 :::
 
 Assessing whether South Africa is on track for innovation-driven growth requires tracking four interconnected dimensions. Each can be monitored using publicly available data, giving you — as a citizen, voter, or analyst — the tools to evaluate innovation policy claims against observable evidence.
