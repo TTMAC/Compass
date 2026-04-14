@@ -1,6 +1,6 @@
 # Automated Editorial Audit — Item 34 Pass 1
 
-Generated: 2026-04-14T21:31:05.587Z
+Generated: 2026-04-14T21:58:35.459Z
 Articles scanned: 77
 Word minimum: 4500
 
@@ -10,7 +10,7 @@ Word minimum: 4500
 - **Frontmatter issues:** 0
 - **Series linkage issues:** 0
 - **Emoji in body:** 0
-- **Forbidden-term hits (any severity):** 4
+- **Forbidden-term hits (any severity):** 2
 
 ## Per-Batch Breakdown
 
@@ -83,25 +83,25 @@ Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Em
 
 ### Reform Agenda (16 articles)
 
-Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Emoji: **0** | Forbidden-term hits: **2**
+Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Emoji: **0** | Forbidden-term hits: **0**
 
 | Slug | Words | < min | FM | Links | Emoji | Forbidden |
 |---|---:|:-:|:-:|:-:|:-:|:-:|
-| ra-1-1-eight-tests | 7207 | ✓ | ✓ | ✓ | ✓ | 1 |
-| ra-1-2-why-institutions-fail | 6693 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ra-2-1-fixing-basic-education | 6518 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ra-2-2-fixing-primary-healthcare | 6901 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ra-2-3-fixing-human-settlements | 6731 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ra-1-1-eight-tests | 7206 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ra-1-2-why-institutions-fail | 6723 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ra-2-1-fixing-basic-education | 6546 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ra-2-2-fixing-primary-healthcare | 6915 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ra-2-3-fixing-human-settlements | 6791 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-2-4-fixing-safety-and-security | 7315 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-3-1-provincial-performance-crisis | 5131 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ra-3-2-making-concurrent-functions-work | 7421 | ✓ | ✓ | ✓ | ✓ | 1 |
+| ra-3-2-making-concurrent-functions-work | 7426 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-3-3-when-provinces-fail | 5070 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-4-1-fixing-water-and-sanitation | 7594 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-4-2-fixing-electricity | 6374 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-4-3-fixing-waste-and-roads | 6148 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ra-4-4-building-municipal-capability | 5360 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ra-4-4-building-municipal-capability | 5410 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-5-1-constitutional-vs-legislative | 12872 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ra-5-2-anti-capture-architecture | 11521 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ra-5-2-anti-capture-architecture | 11600 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-5-3-from-citizen-to-reformer | 9390 | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 ### Safety & Security (15 articles)
@@ -143,7 +143,5 @@ _Note: many of these are false positives (e.g. 'three-tier policing' is legitima
 
 | Slug | Term | Count | Severity | Note |
 |---|---|---:|---|---|
-| ra-1-1-eight-tests | level of government | 1 | should-fix | domain: 'sphere of government' |
-| ra-3-2-making-concurrent-functions-work | level of government | 1 | should-fix | domain: 'sphere of government' |
 | ss-1-1-order-through-oppression | level of government | 1 | should-fix | domain: 'sphere of government' |
 | ss-3-1-three-tier-policing-architecture | level of government | 1 | should-fix | domain: 'sphere of government' |
