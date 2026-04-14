@@ -85,6 +85,13 @@ export interface FailurePattern {
   articleSlug: string;
 }
 
+export interface ScorecardOutcome {
+  outcome: string;
+  baseline?: string;
+  year5?: string;
+  year10?: string;
+}
+
 // ── Workstreams ──────────────────────────────────────────────
 
 export const workstreams: Workstream[] = [
@@ -1227,63 +1234,63 @@ export const failurePatterns: FailurePattern[] = [
 
 // ── Scorecard ────────────────────────────────────────────────
 
-export const scorecardOutcomes: Record<WorkstreamId, string[]> = {
+export const scorecardOutcomes: Record<WorkstreamId, ScorecardOutcome[]> = {
   "safety-security": [
-    "Crime Suppression and Deterrence",
-    "Detection and Rapid Response",
-    "Investigation Quality",
-    "Lawful Arrest and Secure Pre-Trial Custody",
-    "Intelligence Production and Threat Assessment",
-    "Public Order and Stability Management",
-    "Prosecutorial Effectiveness and Case Conversion",
-    "Judicial Efficiency and Access to Justice",
-    "Sentencing Integrity and Proportionality",
-    "Secure and Humane Incarceration",
-    "Rehabilitation and Skills Development",
-    "Reintegration and Recidivism Reduction",
-    "Victim Justice, Reparation, and Restoration",
+    { outcome: "Crime Suppression and Deterrence" },
+    { outcome: "Detection and Rapid Response" },
+    { outcome: "Investigation Quality" },
+    { outcome: "Lawful Arrest and Secure Pre-Trial Custody" },
+    { outcome: "Intelligence Production and Threat Assessment" },
+    { outcome: "Public Order and Stability Management" },
+    { outcome: "Prosecutorial Effectiveness and Case Conversion" },
+    { outcome: "Judicial Efficiency and Access to Justice" },
+    { outcome: "Sentencing Integrity and Proportionality" },
+    { outcome: "Secure and Humane Incarceration" },
+    { outcome: "Rehabilitation and Skills Development" },
+    { outcome: "Reintegration and Recidivism Reduction" },
+    { outcome: "Victim Justice, Reparation, and Restoration" },
   ],
   "reform-agenda": [
-    "Audit Outcome Improvement Across Municipalities",
-    "Irregular Expenditure Reduction",
-    "Revenue Collection Rates at Municipal Level",
-    "Public Service Vacancy Rate Reduction",
-    "Citizen Satisfaction With Government Services",
-    "Transparency and Open Data Publication Compliance",
-    "Anti-Corruption Case Finalisation Rate",
-    "Intergovernmental Dispute Resolution Timeliness",
-    "SOE Financial Sustainability and Governance Scores",
-    "Electoral and Political Party Funding Transparency",
-    "Legislative Turnaround Time for Priority Bills",
-    "Public Participation Rate in Governance Processes",
+    { outcome: "Audit Outcome Improvement Across Municipalities" },
+    { outcome: "Irregular Expenditure Reduction" },
+    { outcome: "Revenue Collection Rates at Municipal Level" },
+    { outcome: "Public Service Vacancy Rate Reduction" },
+    { outcome: "Citizen Satisfaction With Government Services" },
+    { outcome: "Transparency and Open Data Publication Compliance" },
+    { outcome: "Anti-Corruption Case Finalisation Rate" },
+    { outcome: "Intergovernmental Dispute Resolution Timeliness" },
+    { outcome: "SOE Financial Sustainability and Governance Scores" },
+    { outcome: "Electoral and Political Party Funding Transparency" },
+    { outcome: "Legislative Turnaround Time for Priority Bills" },
+    { outcome: "Public Participation Rate in Governance Processes" },
   ],
   "economic-growth": [
-    "GDP Growth Rate (Real, Annual)",
-    "Fixed Investment as Percentage of GDP",
-    "Ease of Doing Business Ranking Improvement",
-    "Formal Employment Creation (Net New Jobs Per Quarter)",
-    "SMME Registration and Survival Rates",
-    "Energy Availability Factor (Eskom and IPPs)",
-    "Logistics Performance and Port Efficiency",
-    "Broadband Penetration and Digital Access",
-    "Export Diversification Index",
-    "Youth Unemployment Rate Reduction",
-    "Special Economic Zone Investment and Job Outputs",
-    "Private Sector Confidence Index",
+    { outcome: "GDP Growth Rate (Real, Annual)" },
+    { outcome: "Fixed Investment as Percentage of GDP" },
+    { outcome: "Ease of Doing Business Ranking Improvement" },
+    { outcome: "Formal Employment Creation (Net New Jobs Per Quarter)" },
+    { outcome: "SMME Registration and Survival Rates" },
+    { outcome: "Energy Availability Factor (Eskom and IPPs)" },
+    { outcome: "Logistics Performance and Port Efficiency" },
+    { outcome: "Broadband Penetration and Digital Access" },
+    { outcome: "Export Diversification Index" },
+    { outcome: "Youth Unemployment Rate Reduction" },
+    { outcome: "Special Economic Zone Investment and Job Outputs" },
+    { outcome: "Private Sector Confidence Index" },
   ],
   "human-development": [
-    "Life Expectancy at Birth",
-    "Under-Five Mortality Rate",
-    "Maternal Mortality Ratio",
-    "HIV Treatment Cascade Completion Rate",
-    "TB Case Detection and Treatment Success Rate",
-    "Grade 4 Reading Proficiency Rate",
-    "Matric Pass Rate and Bachelor Eligibility Rate",
-    "NEET Rate (Youth Not in Education, Employment, or Training)",
-    "Stunting Prevalence in Children Under Five",
-    "Early Childhood Development Programme Enrolment",
-    "TVET and Artisan Qualification Completion Rates",
-    "Access to Clean Water and Sanitation",
-    "Social Grant Reach and Adequacy",
+    { outcome: "Life Expectancy at Birth" },
+    { outcome: "Under-Five Mortality Rate" },
+    { outcome: "Maternal Mortality Ratio" },
+    { outcome: "HIV Treatment Cascade Completion Rate" },
+    { outcome: "TB Case Detection and Treatment Success Rate" },
+    { outcome: "Grade 4 Reading Proficiency Rate" },
+    { outcome: "Matric Pass Rate and Bachelor Eligibility Rate" },
+    { outcome: "NEET Rate (Youth Not in Education, Employment, or Training)" },
+    { outcome: "Stunting Prevalence in Children Under Five" },
+    { outcome: "Early Childhood Development Programme Enrolment" },
+    { outcome: "TVET and Artisan Qualification Completion Rates" },
+    { outcome: "Access to Clean Water and Sanitation" },
+    { outcome: "Social Grant Reach and Adequacy" },
   ],
 };

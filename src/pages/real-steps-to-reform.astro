@@ -455,17 +455,37 @@ const grouped = workstreams.map((ws) => {
           <h3 class="font-heading text-lg font-bold text-text-primary mb-2">
             Example Scorecard for Outcome Areas
           </h3>
-          <p class="text-sm text-text-secondary mb-4">{scorecardOutcomes[ws.id].length} outcomes to track quarterly:</p>
-          <ol class="grid grid-cols-1 sm:grid-cols-2 gap-2">
-            {scorecardOutcomes[ws.id].map((outcome, i) => (
-              <li class="flex items-start gap-2 text-sm text-text-secondary px-3 py-2 border border-gray-100 rounded">
-                <span class="font-heading text-xs font-bold shrink-0 mt-0.5 w-5 text-right" style={`color: ${ws.color}`}>
-                  {i + 1}.
-                </span>
-                {outcome}
-              </li>
-            ))}
-          </ol>
+          <p class="text-sm text-text-secondary mb-4">
+            {scorecardOutcomes[ws.id].length} outcomes to track quarterly. Baselines
+            and targets will be populated as the scorecard is operationalised — empty
+            cells are shown as &ldquo;&mdash;&rdquo;.
+          </p>
+          <div class="overflow-x-auto -mx-4 px-4">
+            <table class="min-w-full text-sm border-collapse">
+              <thead>
+                <tr class="border-b-2" style={`border-color: ${ws.color}`}>
+                  <th class="text-left font-heading font-bold text-text-primary py-2 pr-3 w-8" scope="col">#</th>
+                  <th class="text-left font-heading font-bold text-text-primary py-2 pr-3" scope="col">Outcome</th>
+                  <th class="text-left font-heading font-bold text-text-primary py-2 px-3 whitespace-nowrap" scope="col">Baseline</th>
+                  <th class="text-left font-heading font-bold text-text-primary py-2 px-3 whitespace-nowrap" scope="col">Year 5 Target</th>
+                  <th class="text-left font-heading font-bold text-text-primary py-2 pl-3 whitespace-nowrap" scope="col">Year 10 Target</th>
+                </tr>
+              </thead>
+              <tbody>
+                {scorecardOutcomes[ws.id].map((row, i) => (
+                  <tr class="border-b border-gray-100 align-top">
+                    <td class="font-heading text-xs font-bold py-2 pr-3" style={`color: ${ws.color}`}>
+                      {i + 1}
+                    </td>
+                    <td class="py-2 pr-3 text-text-secondary">{row.outcome}</td>
+                    <td class="py-2 px-3 text-text-secondary whitespace-nowrap">{row.baseline ?? "—"}</td>
+                    <td class="py-2 px-3 text-text-secondary whitespace-nowrap">{row.year5 ?? "—"}</td>
+                    <td class="py-2 pl-3 text-text-secondary whitespace-nowrap">{row.year10 ?? "—"}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
       )}
     </section>
