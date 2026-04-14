@@ -1,6 +1,6 @@
 # Automated Editorial Audit — Item 34 Pass 1
 
-Generated: 2026-04-14T17:36:36.110Z
+Generated: 2026-04-14T21:02:39.905Z
 Articles scanned: 77
 Word minimum: 4500
 
@@ -42,20 +42,20 @@ Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Em
 
 | Slug | Words | < min | FM | Links | Emoji | Forbidden |
 |---|---:|:-:|:-:|:-:|:-:|:-:|
-| eg-1-1-the-seven-thousand-rand-economy | 7372 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| eg-1-2-how-we-got-here | 8223 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| eg-1-1-the-seven-thousand-rand-economy | 7473 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| eg-1-2-how-we-got-here | 8264 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | eg-1-3-the-comparator-countries | 7189 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| eg-2-1-resource-optimisation | 8417 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| eg-2-2-infrastructure-foundations | 8550 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| eg-2-3-the-efficiency-transition | 7636 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| eg-2-1-resource-optimisation | 8432 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| eg-2-2-infrastructure-foundations | 8558 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| eg-2-3-the-efficiency-transition | 7641 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | eg-2-4-innovation-driven-growth | 8544 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| eg-3-1-three-engines-of-growth | 9365 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| eg-3-2-the-execution-machine | 7896 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| eg-3-3-watching-the-watchers | 7901 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| eg-3-1-three-engines-of-growth | 9378 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| eg-3-2-the-execution-machine | 7949 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| eg-3-3-watching-the-watchers | 7936 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | eg-4-1-the-municipal-performance-index | 9395 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| eg-4-2-the-metro-rankings | 8691 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| eg-4-2-the-metro-rankings | 8698 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | eg-4-3-infrastructure-planning-vs-reality | 8937 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| eg-5-1-the-political-economy-of-growth | 9191 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| eg-5-1-the-political-economy-of-growth | 9195 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | eg-5-2-from-strategy-to-reality | 11207 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | eg-5-3-your-economic-citizenship | 9266 | ✓ | ✓ | ✓ | ✓ | ✓ |
 

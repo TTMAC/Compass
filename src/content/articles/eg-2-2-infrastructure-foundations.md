@@ -46,7 +46,7 @@ seo:
     - "NIP strategic integrated projects"
 ---
 
-
+## Plans on Paper, Projects That Never Get Built
 
 Every growth strategy in history — from the Asian Tigers to Bismarck's Germany to post-war Japan — has been built on an infrastructure foundation. Roads, ports, rail, energy, water, and telecommunications are not nice-to-have additions to an economy. They are the preconditions without which nothing else works. Factories cannot operate without reliable electricity. Mines cannot export without functioning rail and ports. Services firms cannot compete without broadband connectivity. Farmers cannot reach markets without road networks and cold chains. Infrastructure is the operating system on which the economy runs.
 
@@ -56,7 +56,7 @@ This matters because, as you saw in [Resource Optimisation](/articles/eg-2-1-res
 
 The uncomfortable truth is that South Africa's infrastructure crisis is not primarily a funding problem. The money has been allocated, the bonds have been issued, the budgets have been approved. It is an institutional delivery problem — a failure of project preparation, construction management, procurement integrity, and coordinated execution across the state. Understanding exactly where the system fails, sector by sector, is the first step toward fixing it.
 
-## The energy crisis: how South Africa lost the lights
+## The Energy Crisis: How South Africa Lost the Lights
 
 The story of South Africa's electricity crisis begins not in 2008, when load shedding first hit, but in 1998, when the government published a White Paper on Energy Policy that correctly identified the need for new generation capacity. The Department of Minerals and Energy's own modelling showed that Eskom's reserve margin — the buffer between total generation capacity and peak demand — would fall below safe levels by 2007 unless new power stations were commissioned. The modelling was sound. The decision to build was not taken.
 
@@ -90,7 +90,7 @@ The Council for Scientific and Industrial Research's annual analysis of power sy
 
 Yet the energy picture remains incomplete without addressing transmission. Even as new generation capacity comes online from IPPs, Eskom's transmission grid — the high-voltage network that carries electricity from where it is generated to where it is consumed — has become a bottleneck. Grid connection delays of two to three years for approved IPP projects are common. Transmission line capacity in the Northern Cape, where solar and wind resources are strongest, is insufficient to evacuate the power that new projects can generate. The Grid Development Plan estimates that R150 billion to R200 billion in transmission investment is needed over the next decade. Without it, new generation capacity remains stranded.
 
-## The logistics crisis: when the supply chain breaks
+## The Logistics Crisis: When the Supply Chain Breaks
 
 If energy is South Africa's most visible infrastructure crisis, logistics is its most economically damaging one. South Africa's economy is structurally dependent on the efficient movement of bulk commodities — iron ore, coal, manganese, chrome, agricultural products — from inland production sites to coastal ports for export. Transnet, the state-owned freight logistics company, operates the rail network (Transnet Freight Rail, or TFR), the major commercial ports (Transnet National Ports Authority, or TNPA), and the port terminals (Transnet Port Terminals, or TPT). When Transnet performs, the economy flows. When it does not, the economy chokes.
 
@@ -118,7 +118,7 @@ South Africa's logistics crisis is not abstract — it shows up in the price of 
 
 The partial reform has begun. The Transnet National Ports Authority Act, passed in 2024, separated the port authority function (regulating and managing the port estate) from the port terminal operating function (running the cranes and handling cargo). This structural separation is intended to enable private terminal operators to bid for concessions, introducing competition into port operations. The Durban Pier 2 container terminal concession process — the first major port terminal concession in South African history — was initiated in 2023 and 2024, though the process has been slow. Private sector participation in rail, through third-party access to the Transnet network, has also advanced, with the National Rail Policy providing a framework for slot allocation on key corridors. Whether these reforms translate into actual efficiency gains depends entirely on the quality and speed of implementation — a recurring theme, as you will see.
 
-## The digital divide: connectivity as infrastructure
+## The Digital Divide: Connectivity as Infrastructure
 
 When you think about infrastructure, roads, ports, and power stations come to mind first. But in the 21st-century economy, digital connectivity — broadband internet access, mobile data coverage, undersea cable capacity, and data centre infrastructure — is equally fundamental. South Africa has made significant progress on some dimensions of digital infrastructure while falling behind on others.
 
@@ -134,7 +134,7 @@ South Africa's National Broadband Plan (SA Connect), published in 2013, set ambi
 The World Bank's Digital Economy for Africa (DE4A) diagnostic framework assesses countries across five pillars: digital infrastructure, digital skills, digital platforms, digital financial services, and digital entrepreneurship. South Africa's 2022 assessment scored the country relatively well on digital financial services (driven by a sophisticated banking sector and growing fintech ecosystem) and digital infrastructure backbone (undersea cables, data centres) but identified significant gaps in digital skills, last-mile connectivity, and the enabling regulatory environment for digital platforms. The assessment emphasised that digital infrastructure investment must be paired with digital literacy programmes and affordability interventions to translate connectivity into broad-based economic participation.
 :::
 
-## The McKinsey gap: planning versus delivery
+## The McKinsey Gap: Planning Versus Delivery
 
 To understand why South Africa's infrastructure consistently disappoints, it helps to have a diagnostic framework. McKinsey Global Institute's research on infrastructure productivity — drawn from analysis of infrastructure delivery across dozens of countries — identifies five dimensions that distinguish countries that deliver infrastructure effectively from those that do not. Assessing South Africa against each dimension reveals where the system breaks down.
 
@@ -188,7 +188,7 @@ The scope was breathtaking. The delivery was not. By the early 2020s, assessment
 
 The Infrastructure Fund, announced in the 2019 Budget and operationalised through the DBSA, was conceived as a mechanism to bridge the gap between public capital budgets and infrastructure financing needs. The concept was sound: use public capital (catalytic funding from the fiscus) to leverage private investment through blended finance structures — combining concessional (below-market) public funding with commercial private capital to make projects viable that neither sector could finance alone. The target was R100 billion in blended finance over a decade. By 2023, the Infrastructure Fund had made progress on several projects, including student housing and social infrastructure, but the pace of project development and financial closure remained below the trajectory needed to meet the target.
 
-## The PPP paradox: sophisticated framework, sparse results
+## The PPP Paradox: Sophisticated Framework, Sparse Results
 
 South Africa's PPP framework deserves particular attention because it illustrates a broader pattern: the gap between institutional design and institutional performance. On paper, South Africa's PPP framework is among the best in the developing world. National Treasury's PPP Manual, published in 2004 and updated subsequently, provides step-by-step guidance through three phases: inception (feasibility study, Treasury Approval I), procurement (competitive bidding, Treasury Approval IIA and IIB), and delivery (contract management, monitoring).
 
@@ -202,7 +202,7 @@ The successful PPPs in South Africa's portfolio — the Inkosi Albert Luthuli Ce
 
 The lesson is not that PPPs are inherently flawed or that the framework needs radical overhaul. The lesson is that PPPs are resource-intensive to prepare and manage, and South Africa has not invested sufficiently in the institutional capacity required to develop a robust PPP pipeline. The framework is a necessary but insufficient condition for infrastructure delivery through private participation.
 
-## Water: the crisis nobody talks about
+## Water: The Crisis Nobody Talks About
 
 While energy and logistics dominate the infrastructure headlines, South Africa faces a water infrastructure crisis that may ultimately prove more consequential. The country is classified as water-stressed by the United Nations — annual freshwater resources per capita are approximately 1,000 cubic metres, well below the global average and close to the threshold for water scarcity. The National Water and Sanitation Master Plan, published by the Department of Water and Sanitation in 2018, projected a 17% gap between water supply and demand by 2030 under a business-as-usual scenario.
 
@@ -212,7 +212,7 @@ Bulk water infrastructure — the large dams, inter-basin transfer schemes, and 
 
 For the growth strategy, water infrastructure is a prerequisite that intersects with every other sector. Mining requires process water. Agriculture requires irrigation. Manufacturing requires reliable supply. Municipalities require bulk supply for residential and commercial users. Energy generation — including cooling for thermal power stations — requires water. The interdependence means that a water supply failure cascades across the economy.
 
-## Where South Africa actually stands: a comparative view
+## Where South Africa Actually Stands: A Comparative View
 
 Comparing South Africa's infrastructure performance with peer countries sharpens the diagnosis. The World Economic Forum's Global Competitiveness Index — before it was restructured — ranked South Africa's overall infrastructure quality in a declining trajectory: from the 40s (out of approximately 140 countries) in the early 2010s to the 60s by the late 2010s. The World Bank's Logistics Performance Index (LPI) tells a similar story: South Africa's overall LPI score declined from 3.46 in 2016 to 3.38 in 2023 (on a 1-to-5 scale), with the infrastructure sub-component showing particular weakness.
 
@@ -224,7 +224,7 @@ The comparison is not uniformly negative. South Africa's road network is extensi
 South Africa's infrastructure challenge is not uniform across all sectors. The country has genuine strengths in financial infrastructure, telecommunications backbone, and parts of the national road network. The acute crises are concentrated in energy generation and transmission, rail freight, port operations, water supply and distribution, and last-mile digital connectivity. Prioritisation must focus on these binding constraints rather than trying to fix everything simultaneously.
 :::
 
-## Toward the execution machine
+## Toward the Execution Machine
 
 Everything you have read in this article points in one direction: South Africa does not lack infrastructure plans, legal frameworks, or even — in aggregate — financial resources. What it lacks is the institutional machinery to turn plans into projects, projects into construction sites, and construction sites into working infrastructure. This machinery — what [The Execution Machine](/articles/eg-3-2-the-execution-machine) will examine in detail — involves project preparation units, construction management capacity, procurement integrity, inter-governmental coordination, and the political will to sustain investment decisions across electoral cycles.
 
