@@ -1,6 +1,6 @@
 # Automated Editorial Audit — Item 34 Pass 1
 
-Generated: 2026-04-14T16:13:39.136Z
+Generated: 2026-04-14T17:27:29.807Z
 Articles scanned: 77
 Word minimum: 4500
 
@@ -28,7 +28,7 @@ Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Em
 | 2-3-from-treasury-to-your-town | 7123 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 3-1-the-awkward-middle-child | 7939 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 3-2-health-and-education-at-the-provincial-coal-face | 7424 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 3-3-municipal-councils | 9234 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 3-3-municipal-councils | 9771 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 4-1-your-right-to-participate | 9035 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 4-2-ward-committees-and-community-engagement | 7933 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 4-3-making-public-submissions | 6835 | ✓ | ✓ | ✓ | ✓ | ✓ |
