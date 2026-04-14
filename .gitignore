@@ -34,3 +34,6 @@ public/og/
 
 # Pagefind
 public/pagefind/
+
+# Lighthouse CI
+.lighthouseci/

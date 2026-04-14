@@ -117,19 +117,37 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
   - **Build verified** — 93 pages built cleanly, all PWA assets (`sw.js`, `manifest.webmanifest`, `offline.html`, `icon-192.png`, `icon-512.png`) present in `dist/`. Pagefind indexed 93 pages.
 
 ### Item 15: Lighthouse CI in deploy pipeline
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** Performance regressions are not caught before deploy.
 - **Action:** Add Lighthouse CI GitHub Action or Netlify plugin with performance budgets.
+- **Approach decision:** Chose a GitHub Action over a Netlify plugin because the project already has a structured `ci.yml` (lint → test → build → e2e) and adding another job there keeps all checks in one place with consistent artifact handling and PR visibility. A Netlify plugin would run inside the build context, have less flexibility around report storage, and split status reporting across two surfaces.
+- **Resolution:**
+  - **Tool** — Added `treosh/lighthouse-ci-action@v12` (the de-facto wrapper around `@lhci/cli`). No new npm dep; the action bundles `lhci` and runs in an isolated job.
+  - **Config** — New `lighthouserc.json` at the repo root:
+    - `collect.staticDistDir: ./dist` so lhci serves the build artifact from a local HTTP server on ephemeral port.
+    - `collect.url` audits four representative pages: `/` (home), `/big-picture/` (series landing), `/real-steps-to-reform/` (heaviest page per Item 7's budget report, 52.7 KB gzipped), and `/articles/1-1-architecture-of-the-state/` (canonical article template).
+    - `collect.settings.preset: desktop` for deterministic runs on CI runners — the mobile preset's emulated throttling is noisier and would produce flaky thresholds.
+    - `skipAudits: ["uses-http2", "is-crawlable"]` — both are meaningless against lhci's ephemeral local server (HTTP/2 is a Netlify-level concern in prod; robots.txt is served normally but the auditor can't see real DNS).
+  - **Budgets / assertions** — Deliberately split between `error` and `warn` to avoid blocking PRs on first install:
+    - **`error`**: `categories:accessibility >= 0.95` only. WCAG 2.1 AA is a non-negotiable site requirement per CLAUDE.md, so accessibility regressions must block the pipeline.
+    - **`warn`** (visible but non-blocking): performance >= 0.9, best-practices >= 0.9, SEO >= 0.95; resource budgets of 150 KB script, 50 KB stylesheet, 450 KB total — the last matching the existing Item 7 page-weight budget exactly (460800 bytes = 450 KB). The owner can flip these to `error` once a clean baseline is established.
+    - **Disabled**: `uses-long-cache-ttl` (lhci's local server serves no cache headers; real Netlify headers are correct, see the `/_astro/*` and `/fonts/*` headers blocks in netlify.toml), and `csp-xss` (our CSP needs `unsafe-inline` in script-src for JSON-LD and the cookie-consent logic — auditing would produce a permanent false positive).
+  - **Report upload** — `upload.target: filesystem` writes HTML reports into `.lighthouseci/` inside the runner. The `treosh` action then uploads that directory as a GitHub Actions artifact (`uploadArtifacts: true`), so PR reviewers can download the full Lighthouse report from the workflow run. `temporaryPublicStorage: false` disables upload to Google's public LHCI server — reports stay inside the repo's CI.
+  - **CI wiring** — Added a new `lighthouse` job in `.github/workflows/ci.yml` that depends on `build` (reuses the uploaded `dist` artifact via `actions/download-artifact`), runs only on push/PR to `main`/`staging`/`develop` (inherits the top-level trigger), and slots in parallel with `e2e` since both consume the same artifact.
+  - **Housekeeping** — Added `.lighthouseci/` to `.gitignore` so local `npx @lhci/cli autorun` runs don't pollute the working tree.
+  - **Not verified locally** — Lighthouse requires a headful Chrome binary and takes several minutes per run, so end-to-end validation happens on the first CI push. The JSON config parses cleanly, the action is pinned to a released version (`@v12`), and the job structure mirrors the existing `e2e` job exactly — risk of red CI on first push is low, but the owner should watch the initial run.
 
 ### Item 16: Add security.txt
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** No published vulnerability disclosure channel.
 - **Action:** Create `public/.well-known/security.txt` with contact and policy info.
+- **Resolution:** Created `public/.well-known/security.txt` per RFC 9116. Uses the already-public `hello@govcompass.co.za` contact (same address documented on `privacy.astro` and `about.astro`) rather than inventing a new `security@` alias that may not be wired up. Set `Expires: 2027-04-14T00:00:00.000Z` (one year from today) — the RFC requires a future expiry; the owner should refresh this before it lapses. Added `Preferred-Languages: en` and `Canonical: https://govcompass.co.za/.well-known/security.txt`. Build verified clean; file ships to `dist/.well-known/security.txt` as a static asset.
 
 ### Item 17: POPIA-specific cookie consent wording
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** The privacy policy covers POPIA but the cookie banner itself doesn't reference the Act.
 - **Action:** Update CookieConsent banner copy to mention POPIA compliance.
+- **Resolution:** Updated `src/components/CookieConsent.astro` banner copy from "We use cookies for analytics to improve your experience." to "We use cookies for anonymised analytics, processed in line with the Protection of Personal Information Act (POPIA)." — spelling the Act out in full on first mention (the privacy policy at `/privacy` already does the same, ensuring the "Learn more" link lands in context). "Anonymised" is accurate because GA4 is loaded with `anonymize_ip: true` in `loadGA4()`. While editing, also removed the inline `style="max-height: 80px"` cap on the banner container — the longer POPIA copy would have been clipped on narrow viewports, and the max-height had no layout purpose beyond capping the original one-line text. Verified no tests reference the old literal text (only `docs/SRD_GovCompass_Blog.md` does, which is a spec doc). Build + 64 unit tests pass clean.
 
 ---
 
