@@ -231,7 +231,7 @@ export const reforms: Reform[] = [
     phase: "phase-1",
     title: "Investigating Magistracy Pilot",
     description:
-      "Pilot Judicial Investigation Officers (JIOs) in 2–3 metropolitan areas. JIOs are magistrate-level officers with both investigative and preliminary judicial powers, directing SAPS detectives on serious and complex cases (Track C and Track D matters).",
+      "Pilot Judicial Investigation Officers (JIOs) in 2–3 metropolitan areas (i.e., Johannesburg, Cape Town, and eThekwini). JIOs are magistrate-level officers with both investigative and preliminary judicial powers, directing South African Police Service (SAPS) detectives on serious and complex cases (Track C and Track D matters).",
     legislative: "New Investigating Magistracy Act; amendments to Criminal Procedure Act, 1977",
     articleSlug: "ss-3-2-independent-investigating-magistracy",
   },
@@ -251,7 +251,7 @@ export const reforms: Reform[] = [
     phase: "phase-1",
     title: "NPA Restoration",
     description:
-      "Restore prosecutorial capacity through depoliticised appointment processes, adequate resourcing, and specialised prosecution units.",
+      "Restore National Prosecuting Authority (NPA) capacity through depoliticised appointment processes, adequate resourcing, and specialised prosecution units (i.e., rebuilding units gutted during the state-capture era, such as the Directorate of Special Operations).",
     legislative: "Amendments to National Prosecuting Authority Act, 1998",
     articleSlug: "ss-2-3-justice-delayed-rights-denied",
   },
@@ -313,7 +313,7 @@ export const reforms: Reform[] = [
     phase: "phase-2",
     title: "Civilian Police Oversight",
     description:
-      "Establish an independent Civilian Police Intelligence Oversight Council reporting to Parliament. Expand IPID with provincial offices.",
+      "Establish an independent Civilian Police Intelligence Oversight Council reporting to Parliament. Expand the Independent Police Investigative Directorate (IPID) with provincial offices.",
     legislative: "Amendments to IPID Act",
     articleSlug: "ss-2-2-policing-a-divided-country",
   },
@@ -402,7 +402,7 @@ export const reforms: Reform[] = [
     subgroup: "Education Reform",
     title: "Responsibility Clarification",
     description:
-      "Create a single entity responsible for the full delivery chain from district to classroom. Establish clear handoffs between DBE (policy), provinces (delivery), and schools (implementation).",
+      "Create a single entity responsible for the full delivery chain from district to classroom. Establish clear handoffs between the Department of Basic Education / DBE (policy), provinces (delivery), and schools (implementation).",
     scope: ["national", "provincial"],
     articleSlug: "ra-2-1-fixing-basic-education",
   },
@@ -435,7 +435,7 @@ export const reforms: Reform[] = [
     subgroup: "Primary Healthcare Reform",
     title: "Regulator-Provider Separation",
     description:
-      "Separate the regulatory function from the operational function in healthcare delivery, following the WSA/WSP structural model.",
+      "Separate the regulatory function from the operational function in healthcare delivery, following the Water Services Authority / Water Services Provider (WSA/WSP) structural model.",
     scope: ["national", "provincial"],
     articleSlug: "ra-2-2-fixing-primary-healthcare",
   },
@@ -457,7 +457,7 @@ export const reforms: Reform[] = [
     subgroup: "Primary Healthcare Reform",
     title: "Financial Ring-Fencing",
     description:
-      "Ring-fence PHC budget allocations within provincial budgets. Create dedicated funding streams for primary healthcare infrastructure separate from hospital funding.",
+      "Ring-fence primary healthcare (PHC) budget allocations within provincial budgets. Create dedicated funding streams for primary healthcare infrastructure separate from hospital funding.",
     scope: ["provincial"],
     articleSlug: "ra-2-2-fixing-primary-healthcare",
   },
@@ -468,7 +468,7 @@ export const reforms: Reform[] = [
     subgroup: "Primary Healthcare Reform",
     title: "NHI Implementation Alignment",
     description:
-      "Ensure NHI consolidates rather than fragments responsibility. Create single accountability point: NHI as payer, provincial facilities as integrated provider.",
+      "Ensure the National Health Insurance (NHI) consolidates rather than fragments responsibility. Create single accountability point: NHI as payer, provincial facilities as integrated provider.",
     scope: ["national"],
     articleSlug: "ra-2-2-fixing-primary-healthcare",
   },
@@ -536,7 +536,7 @@ export const reforms: Reform[] = [
     subgroup: "Water and Sanitation Reform",
     title: "WSA/WSP Separation",
     description:
-      "Separate the Water Services Authority (regulator) from the Water Services Provider (operator). Appoint independent WSPs (Water Boards, municipal entities, or private operators) while municipality remains WSA. This is the single most important structural reform — resolving the conflation pattern where the same entity regulates and delivers.",
+      "Separate the Water Services Authority (regulator) from the Water Services Provider (operator). Appoint independent WSPs (Water Boards, municipal entities, or private operators) while municipality remains WSA (i.e., Johannesburg Water operating as a ring-fenced municipal entity under the City of Johannesburg as WSA). This is the single most important structural reform — resolving the conflation pattern where the same entity regulates and delivers.",
     scope: ["municipal"],
     articleSlug: "ra-4-1-fixing-water-and-sanitation",
   },
@@ -580,7 +580,7 @@ export const reforms: Reform[] = [
     subgroup: "Water and Sanitation Reform",
     title: "Regulatory Enforcement",
     description:
-      "Strengthen DWS's regulatory capacity to enforce Blue Drop/Green Drop recommendations. Create automatic consequences for municipalities failing quality standards. Establish mandatory intervention protocols for critical failures.",
+      "Strengthen the Department of Water and Sanitation's (DWS) regulatory capacity to enforce Blue Drop/Green Drop recommendations. Create automatic consequences for municipalities failing quality standards. Establish mandatory intervention protocols for critical failures.",
     scope: ["national"],
     articleSlug: "ra-4-1-fixing-water-and-sanitation",
   },
@@ -602,7 +602,7 @@ export const reforms: Reform[] = [
     subgroup: "Electricity Reform",
     title: "IPP Procurement Authority",
     description:
-      "Empower municipalities to procure from independent power producers directly, leveraging the Electricity Regulation Amendment Act (2024). Establish tariff-setting authority within NERSA framework with clearer municipal autonomy.",
+      "Empower municipalities to procure from independent power producers (IPPs) directly, leveraging the Electricity Regulation Amendment Act (2024). Establish tariff-setting authority within the National Energy Regulator of South Africa (NERSA) framework with clearer municipal autonomy (i.e., the pathway Cape Town has been pursuing for utility-scale renewable procurement).",
     scope: ["national", "municipal"],
     articleSlug: "ra-4-2-fixing-electricity",
   },
@@ -759,7 +759,7 @@ export const reforms: Reform[] = [
     subgroup: "MSME Ecosystem Restructuring",
     title: "Demand-Driven Support Integration",
     description:
-      "Integrate fragmented MSME support agencies (SEDA, SEFA, dtic, NEF, IDC) into a single demand-responsive system. Shift from supply-driven to demand-driven support model — structured around what businesses actually need, not what agencies supply.",
+      "Integrate fragmented Micro, Small and Medium Enterprise (MSME) support agencies — i.e., the Small Enterprise Development Agency (SEDA), Small Enterprise Finance Agency (SEFA), the Department of Trade, Industry and Competition (the dtic), National Empowerment Fund (NEF), and Industrial Development Corporation (IDC) — into a single demand-responsive system. Shift from supply-driven to demand-driven support model — structured around what businesses actually need, not what agencies supply.",
     articleSlug: "eg-3-1-three-engines-of-growth",
   },
   {
@@ -789,7 +789,7 @@ export const reforms: Reform[] = [
     subgroup: "Credit and Financing Architecture",
     title: "Small Business Guarantee Fund",
     description:
-      "Establish a South African Small Business Guarantee Fund modelled on the US SBA's 7(a) programme. Commercial banks provide credit; government guarantees 75–85% of default risk. Enables lending to early-stage ventures without government doing direct lending.",
+      "Establish a South African Small Business Guarantee Fund modelled on the US Small Business Administration's (SBA) 7(a) programme. Commercial banks provide credit; government guarantees 75–85% of default risk. Enables lending to early-stage ventures without government doing direct lending.",
     articleSlug: "eg-3-1-three-engines-of-growth",
   },
   {
@@ -841,7 +841,7 @@ export const reforms: Reform[] = [
     subgroup: "Export Diversification",
     title: "Platinum Cluster",
     description:
-      "Catalytic converters, fuel cell components, emission control systems — leveraging existing PGM processing capabilities into higher-value manufactured products.",
+      "Catalytic converters, fuel cell components, emission control systems — leveraging existing platinum group metals (PGM) processing capabilities into higher-value manufactured products (i.e., moving beyond exporting raw platinum concentrate toward finished autocatalysts).",
     articleSlug: "eg-2-1-resource-optimisation",
   },
   {
@@ -851,7 +851,7 @@ export const reforms: Reform[] = [
     subgroup: "Export Diversification",
     title: "Automotive Cluster",
     description:
-      "High-value components, aerospace components, rail rolling stock — building on APDP incentives and existing automotive manufacturing base.",
+      "High-value components, aerospace components, rail rolling stock — building on Automotive Production and Development Programme (APDP) incentives and existing automotive manufacturing base (i.e., extending the East London and Gqeberha assembly-plant ecosystem into higher-complexity component export).",
     articleSlug: "eg-2-1-resource-optimisation",
   },
   {
@@ -985,7 +985,7 @@ export const reforms: Reform[] = [
     subgroup: "Health System Strengthening",
     title: "GBV Prevention and Response",
     description:
-      "Implement comprehensive gender-based violence prevention programmes and strengthen response systems.",
+      "Implement comprehensive gender-based violence (GBV) prevention programmes and strengthen response systems (i.e., scaling Thuthuzela Care Centres as the integrated one-stop response model).",
     articleSlug: "hd-2-2-violence-as-public-health-crisis",
   },
   {
@@ -1015,7 +1015,7 @@ export const reforms: Reform[] = [
     subgroup: "Education Quality",
     title: "Early Childhood Development",
     description:
-      "Expand access to quality ECD programmes, recognising that the reinforcing cycle begins before formal schooling.",
+      "Expand access to quality early childhood development (ECD) programmes, recognising that the reinforcing cycle begins before formal schooling.",
     articleSlug: "hd-3-1-the-schooling-paradox",
   },
   {
@@ -1204,7 +1204,7 @@ export const digitalInfrastructure: CrossCuttingDigital[] = [
 ];
 
 export const structuralPrinciples: StructuralPrinciple[] = [
-  { title: "Separation of Regulator from Provider", description: "The entity that sets standards and monitors compliance must be independent from the entity that delivers the service. Combining both roles creates a conflict of interest where providers effectively regulate themselves.", examples: "Water (WSA/WSP), Electricity (municipality/IPP), Healthcare (regulator/facility), Policing (oversight/operational)" },
+  { title: "Separation of Regulator from Provider", description: "The entity that sets standards and monitors compliance must be independent from the entity that delivers the service. Combining both roles creates a conflict of interest where providers effectively regulate themselves.", examples: "Water (Water Services Authority vs. Provider, WSA/WSP), Electricity (municipality vs. independent power producer, IPP), Healthcare (regulator vs. facility), Policing (oversight vs. operational)" },
   { title: "Revenue Ring-Fencing", description: "Revenue collected for a specific service must be spent on that service. When funds are pooled into general municipal budgets, essential infrastructure maintenance is raided to cover unrelated expenditure.", examples: "Water revenue for water, electricity revenue for electricity, healthcare funding for healthcare" },
   { title: "Consolidation of End-to-End Responsibility", description: "A single entity must own the full delivery chain for a given outcome. When responsibility is fragmented across multiple departments or spheres of government, no one is accountable when the system fails.", examples: "Housing, education, healthcare, criminal justice pipeline" },
   { title: "Automatic Enforcement Triggers", description: "Intervention mechanisms must activate automatically when defined thresholds are breached. Relying on political discretion to trigger intervention means failing institutions are left to deteriorate until crises force action.", examples: "Provincial intervention thresholds, municipal service failure protocols, court case-flow time limits" },
