@@ -19,6 +19,7 @@ export interface Reform {
 
   scope?: Scope[];
   articleSlug?: string;
+  dependsOn?: string[];
 }
 
 export interface Workstream {
@@ -277,6 +278,7 @@ export const reforms: Reform[] = [
       "Establish community courts under amended Magistrates' Courts Act. Presided over by Community Justice Officers (CJOs) — a new para-legal profession. Handle summary offences with sentences up to two years. Integrate restorative justice and traditional justice processes within Track A.",
     legislative: "Amendments to Magistrates' Courts Act, 1944",
     articleSlug: "ss-3-3-community-courts-and-restorative-justice",
+    dependsOn: ["1.5"],
   },
   {
     id: "2.2",
@@ -329,6 +331,7 @@ export const reforms: Reform[] = [
       "Roll out the three-tier policing model to all nine provinces based on Phase 2 pilot evidence.",
     legislative: "Phase 2 legislation applies",
     articleSlug: "ss-3-1-three-tier-policing-architecture",
+    dependsOn: ["2.3"],
   },
   {
     id: "3.2",
@@ -349,6 +352,7 @@ export const reforms: Reform[] = [
       "Implement the Sentencing Commission's first set of structured guidelines across all courts.",
     legislative: "Phase 2 Sentencing Reform Act applies",
     articleSlug: "ss-3-4-sentencing-commission-and-structured-guidelines",
+    dependsOn: ["2.2"],
   },
   {
     id: "3.4",
@@ -359,6 +363,7 @@ export const reforms: Reform[] = [
       "Expand the digital case management system into the full Integrated Criminal Justice Information System — unified tracking from report through investigation, prosecution, adjudication, sentencing, incarceration, rehabilitation, parole, and post-release monitoring. Includes virtual remand hearing technology, AI-assisted court scheduling, and unified digital docket management.",
     legislative: "Regulatory/procurement",
     articleSlug: "ss-4-1-sequencing-reform",
+    dependsOn: ["1.4"],
   },
   {
     id: "3.5",

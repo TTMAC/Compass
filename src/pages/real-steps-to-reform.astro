@@ -14,6 +14,7 @@ import {
 
 const reformCount = reforms.length;
 const legislativeCount = legislativeItems.length;
+const reformTitleById = new Map(reforms.map((r) => [r.id, r.title]));
 
 // Group reforms by workstream then phase
 const grouped = workstreams.map((ws) => {
@@ -165,11 +166,12 @@ const grouped = workstreams.map((ws) => {
                 const endYear = parseInt(phase.years.match(/\d+$/)?.[0] ?? "10");
                 const widthPct = ((endYear - startYear + 1) / 10) * 100;
                 const leftPct = ((startYear - 1) / 10) * 100;
+                const phaseOpacity = phase.id === "phase-1" ? 0.7 : phase.id === "phase-2" ? 0.85 : 1;
                 return (
                   <button
                     type="button"
-                    class="reform-phase-btn relative flex items-center justify-center text-white font-heading text-[11px] font-semibold px-2 transition-opacity hover:opacity-90 whitespace-nowrap overflow-hidden"
-                    style={`width: ${widthPct}%; background-color: ${ws.color}; margin-left: ${phase.id === "phase-1" ? leftPct + "%" : "0"}`}
+                    class="reform-phase-btn relative flex items-center justify-center text-white font-heading text-[11px] font-semibold px-2 transition hover:brightness-110 whitespace-nowrap overflow-hidden"
+                    style={`width: ${widthPct}%; background-color: ${ws.color}; opacity: ${phaseOpacity}; margin-left: ${phase.id === "phase-1" ? leftPct + "%" : "0"}`}
                     data-workstream={ws.id}
                     data-phase={phase.id}
                     title={`${phase.label} (${phase.years})`}
@@ -359,7 +361,8 @@ const grouped = workstreams.map((ws) => {
               <div class="space-y-2">
                 {sg.reforms.map((reform) => (
                   <details
-                    class="reform-card group border border-gray-200 rounded-lg overflow-hidden transition-colors hover:border-gray-300"
+                    id={`reform-${reform.id}`}
+                    class="reform-card group border border-gray-200 rounded-lg overflow-hidden transition-colors hover:border-gray-300 scroll-mt-32 target:border-compass-green target:shadow-sm"
                     data-workstream={reform.workstream}
                     data-phase={reform.phase}
                   >
@@ -405,6 +408,24 @@ const grouped = workstreams.map((ws) => {
                                 {s}
                               </span>
                             ))}
+                          </div>
+                        )}
+                        {reform.dependsOn && reform.dependsOn.length > 0 && (
+                          <div class="flex items-center gap-1 flex-wrap">
+                            <span class="font-heading font-semibold text-text-primary">Depends on: </span>
+                            {reform.dependsOn.map((depId) => {
+                              const depTitle = reformTitleById.get(depId);
+                              return (
+                                <a
+                                  href={`#reform-${depId}`}
+                                  class="reform-dep-link px-1.5 py-0.5 rounded text-[10px] font-heading font-semibold bg-gray-100 text-text-secondary hover:bg-compass-green-light hover:text-compass-green transition-colors"
+                                  data-dep-id={depId}
+                                  title={depTitle ? `${depId} — ${depTitle}` : depId}
+                                >
+                                  {depId}
+                                </a>
+                              );
+                            })}
                           </div>
                         )}
                       </div>
@@ -570,6 +591,44 @@ const grouped = workstreams.map((ws) => {
   let activePhase = "";
   let searchQuery = "";
 
+  const validWorkstreams = new Set<string>(
+    Array.from(filterBtns).map((b) => b.dataset.filter!),
+  );
+  const validPhases = new Set<string>(
+    Array.from(document.querySelectorAll<HTMLButtonElement>(".reform-phase-btn"))
+      .map((b) => b.dataset.phase!),
+  );
+
+  function setWorkstreamButtonStyles(filter: string) {
+    filterBtns.forEach((b) => {
+      const isActive = b.dataset.filter === filter;
+      b.setAttribute("aria-pressed", String(isActive));
+      if (isActive) {
+        if (filter === "all") {
+          b.style.cssText = "border-color: #355E3B; background-color: #355E3B; color: white";
+        } else {
+          b.style.cssText = `border-color: ${b.dataset.color}; background-color: ${b.dataset.color}; color: white`;
+        }
+      } else {
+        if (b.dataset.filter === "all") {
+          b.style.cssText = "border-color: #355E3B; background-color: transparent; color: #355E3B";
+        } else {
+          b.style.cssText = `border-color: ${b.dataset.color}; background-color: transparent; color: ${b.dataset.color}`;
+        }
+      }
+    });
+  }
+
+  function syncUrl() {
+    const params = new URLSearchParams();
+    if (activeWorkstream !== "all") params.set("ws", activeWorkstream);
+    if (activePhase) params.set("phase", activePhase);
+    if (searchQuery) params.set("q", searchQuery);
+    const qs = params.toString();
+    const newUrl = `${window.location.pathname}${qs ? "?" + qs : ""}${window.location.hash}`;
+    window.history.replaceState(null, "", newUrl);
+  }
+
   function applyFilters() {
     const query = searchQuery.toLowerCase();
     let visibleCount = 0;
@@ -635,6 +694,8 @@ const grouped = workstreams.map((ws) => {
       indicator.classList.add("hidden");
       indicator.classList.remove("flex");
     }
+
+    syncUrl();
   }
 
   // Search input
@@ -654,24 +715,7 @@ const grouped = workstreams.map((ws) => {
       activeWorkstream = filter;
       activePhase = ""; // Reset phase filter when switching workstream
 
-      filterBtns.forEach((b) => {
-        const isActive = b.dataset.filter === filter;
-        b.setAttribute("aria-pressed", String(isActive));
-
-        if (isActive) {
-          if (filter === "all") {
-            b.style.cssText = "border-color: #355E3B; background-color: #355E3B; color: white";
-          } else {
-            b.style.cssText = `border-color: ${b.dataset.color}; background-color: ${b.dataset.color}; color: white`;
-          }
-        } else {
-          if (b.dataset.filter === "all") {
-            b.style.cssText = "border-color: #355E3B; background-color: transparent; color: #355E3B";
-          } else {
-            b.style.cssText = `border-color: ${b.dataset.color}; background-color: transparent; color: ${b.dataset.color}`;
-          }
-        }
-      });
+      setWorkstreamButtonStyles(filter);
 
       applyFilters();
     });
@@ -690,19 +734,7 @@ const grouped = workstreams.map((ws) => {
         // Set workstream filter to match
         if (activeWorkstream !== ws) {
           activeWorkstream = ws;
-          filterBtns.forEach((b) => {
-            const isActive = b.dataset.filter === ws;
-            b.setAttribute("aria-pressed", String(isActive));
-            if (isActive) {
-              b.style.cssText = `border-color: ${b.dataset.color}; background-color: ${b.dataset.color}; color: white`;
-            } else {
-              if (b.dataset.filter === "all") {
-                b.style.cssText = "border-color: #355E3B; background-color: transparent; color: #355E3B";
-              } else {
-                b.style.cssText = `border-color: ${b.dataset.color}; background-color: transparent; color: ${b.dataset.color}`;
-              }
-            }
-          });
+          setWorkstreamButtonStyles(ws);
         }
         activePhase = phase;
       }
@@ -716,4 +748,56 @@ const grouped = workstreams.map((ws) => {
     activePhase = "";
     applyFilters();
   });
+
+  // Dependency links: open the target reform card so it's visible after anchor scroll
+  document.querySelectorAll<HTMLAnchorElement>(".reform-dep-link").forEach((link) => {
+    link.addEventListener("click", (e) => {
+      const depId = link.dataset.depId!;
+      const target = document.getElementById(`reform-${depId}`) as HTMLDetailsElement | null;
+      if (!target) return;
+
+      // If active filters would hide the target, reset workstream/phase/search
+      // so the user actually sees the card they're jumping to.
+      const targetWs = target.dataset.workstream!;
+      const targetPhase = target.dataset.phase!;
+      const needsReset =
+        (activeWorkstream !== "all" && activeWorkstream !== targetWs) ||
+        (activePhase && activePhase !== targetPhase) ||
+        searchQuery !== "";
+      if (needsReset) {
+        activeWorkstream = "all";
+        activePhase = "";
+        searchQuery = "";
+        searchInput.value = "";
+        setWorkstreamButtonStyles("all");
+        applyFilters();
+      }
+
+      target.open = true;
+    });
+  });
+
+  // Initialise filter state from URL query params
+  (function initFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    const wsParam = params.get("ws");
+    const phaseParam = params.get("phase");
+    const qParam = params.get("q");
+
+    if (wsParam && validWorkstreams.has(wsParam)) {
+      activeWorkstream = wsParam;
+      setWorkstreamButtonStyles(wsParam);
+    }
+    if (phaseParam && validPhases.has(phaseParam) && activeWorkstream !== "all") {
+      activePhase = phaseParam;
+    }
+    if (qParam) {
+      searchQuery = qParam;
+      searchInput.value = qParam;
+    }
+
+    if (wsParam || phaseParam || qParam) {
+      applyFilters();
+    }
+  })();
 </script>

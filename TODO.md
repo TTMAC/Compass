@@ -196,19 +196,22 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Resolution:** Implemented as part of Item 23. A `<span id="reform-count">` in the filter bar shows "84 reforms" when unfiltered and "X of 84 reforms" when any filter (workstream, phase, or search) is active. Updated by the `applyFilters()` function on every filter change.
 
 ### Item 26: Sync filter state to URL
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** Workstream and phase filters are purely in-memory JS — the state is lost on page reload. Readers cannot share or bookmark a filtered view.
 - **Action:** Sync active workstream and phase to URL hash or query params (e.g. `?ws=safety-security&phase=phase-1`). Read from URL on page load.
+- **Resolution:** Added URL query-param sync for all three filters in `src/pages/real-steps-to-reform.astro`: `ws`, `phase`, and `q` (search). `syncUrl()` runs at the end of `applyFilters()` via `history.replaceState` so no new history entries are created. On page load, an IIFE reads the params, validates `ws`/`phase` against the known sets of IDs (ignoring unknown values), restores the search input value, applies the correct active-button styles via a new shared `setWorkstreamButtonStyles()` helper, and calls `applyFilters()`. The phase param is only honoured when a specific workstream is active, matching the in-page behaviour. Refactored both click handlers to use the shared helper, removing ~30 lines of duplicated button-styling code. Filtered views are now shareable and bookmarkable.
 
 ### Item 27: Add phase shade differentiation in timeline
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** Each workstream's timeline phases use the same solid colour, making it hard to visually distinguish Phase 1 from Phase 3 at a glance.
 - **Action:** Use progressive opacity or shade (e.g. 70%, 85%, 100%) for Phase 1 → 2 → 3 within each workstream's timeline bar.
+- **Resolution:** Applied progressive inline opacity (Phase 1 = 0.7, Phase 2 = 0.85, Phase 3 = 1.0) to `.reform-phase-btn` in `src/pages/real-steps-to-reform.astro`, so each workstream's bar now visibly darkens left-to-right across the 10 years. Replaced the previous `hover:opacity-90` class with `hover:brightness-110` because inline opacity would have overridden the Tailwind hover utility, and brightness gives a consistent hover affordance across all three shade levels. White text remains legible against the lightest (0.7) shade for all four workstream colours.
 
 ### Item 28: Add dependency indicators to reform cards
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done
 - **Why:** Cross-workstream dependencies are only mentioned in a callout box. Individual reform cards don't show which other reforms they depend on or enable.
 - **Action:** Add an optional `dependsOn` field to the Reform interface and render small dependency tags (e.g. "Depends on: 1.1, 1.5") on relevant cards.
+- **Resolution:** Added `dependsOn?: string[]` to the `Reform` interface in `src/data/reforms.ts`. Populated four textually-obvious dependency chains where the description or legislative field literally references an earlier reform: 2.1 → 1.5 (community courts use Track A defined by the case-flow triage), 3.1 → 2.3 (nationwide three-tier policing rolls out phase-2 pilots), 3.3 → 2.2 (structured guidelines implement the Sentencing Commission), 3.4 → 1.4 (full ICJS expands the digital case management system). Cross-workstream dependencies were left to the owner to populate since they require content judgment beyond what's explicit in the existing text. In `real-steps-to-reform.astro`: built a `reformTitleById` map at the page level; added a "Depends on: X, Y" row in the expanded card details beside the existing Scope/Legislative metadata; each dep renders as a small pill `<a href="#reform-X">` with a `title` tooltip of `id — title` for screen readers and mouse users. Each `<details>` card now carries `id="reform-{id}"` with `scroll-mt-32` and a `target:border-compass-green` highlight so anchor navigation works and the jumped-to card is visually distinct. Added a dep-link click handler that (a) resets any active workstream/phase/search filters when they would otherwise hide the target and (b) sets `target.open = true` so the jumped-to card expands automatically. Build verified clean.
 
 ### Item 29: Make scorecard section actionable with targets
 - **Status:** 🔲 Todo
