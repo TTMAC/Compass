@@ -13,7 +13,6 @@ tags:
   - "development-history"
   - "HDI"
   - "framing"
-sphere: "national"
 description: "The Carnegie Commission named and solved the 'Poor White Problem.' Post-1994 SA never named its 'Poor Black Problem.' What the asymmetry reveals about power."
 publishDate: 2029-07-15
 readingTime: 35
@@ -53,7 +52,7 @@ In 1929, the Carnegie Corporation of New York funded what would become one of th
 
 The "Poor White Problem" was not merely studied. It was *named*. Naming it created a political object — something that could be debated in Parliament, funded in budgets, tracked with metrics, and evaluated against targets. The name gave the problem boundaries, assigned it urgency, and implied a corresponding obligation: if there is a "Poor White Problem," then there must be a solution to the Poor White Problem, and the state must find and implement that solution. The Carnegie Commission did not invent white poverty in South Africa. But by naming it, framing it as a systemic crisis rather than a collection of individual misfortunes, and producing an evidence base that demanded institutional response, the Commission created the conditions for one of the most effective — and most racially exclusive — anti-poverty programmes in twentieth-century history.
 
-Now consider the inverse. Since 1994, South Africa has confronted a phenomenon that dwarfs the Poor White Problem in every measurable dimension: the persistent, structural, intergenerational poverty of the black majority. Approximately 18.2 million South Africans live below the national food poverty line of R760 per person per month. Approximately 30.4 million — more than half the population — live below the upper-bound poverty line of R1,417. The overwhelming majority of these people are black. The unemployment rate among black South Africans exceeds 40 per cent on the expanded definition. Black households earn, on average, one-fifth of what white households earn. Black children attend schools that produce the worst learning outcomes in the developing world. Black communities experience homicide rates that would constitute a public health emergency in any other country. The Inequality-adjusted Human Development Index reveals that the average black South African experiences conditions closer to "low human development" than the national HDI figure of 0.713 suggests.
+Now consider the inverse. Since 1994, South Africa has confronted a phenomenon that dwarfs the Poor White Problem in every measurable dimension: the persistent, structural, intergenerational poverty of the black majority. According to Stats SA's *National Poverty Lines* series for 2023, approximately 18.2 million South Africans live below the food poverty line of R760 per person per month, and approximately 30.4 million — more than half the population — live below the upper-bound poverty line of R1,558. The overwhelming majority of these people are black. The unemployment rate among black South Africans exceeds 40 per cent on the expanded definition. Black households earn, on average, one-fifth of what white households earn. Black children attend schools that produce the worst learning outcomes in the developing world. Black communities experience homicide rates that would constitute a public health emergency in any other country. The Inequality-adjusted Human Development Index reveals that the average black South African experiences conditions closer to "low human development" than the national HDI figure of 0.713 suggests.
 
 This is not a collection of individual misfortunes. It is a systemic crisis. It has identifiable structural causes. It is measurable. It is reproducible across generations. By every analytical criterion that the Carnegie Commission applied to the Poor White Problem in 1929, it qualifies as a "problem" in exactly the same sense — a bounded, diagnosable, solvable phenomenon that demands an integrated institutional response.
 
@@ -235,11 +234,11 @@ The problem that has no name is the central problem of South African development
 The Carnegie Commission named the "Poor White Problem," diagnosed it across five dimensions, and built an integrated state response that eliminated white poverty within a generation. Post-1994 South Africa confronts a structurally identical phenomenon 100 times larger — the persistent poverty of the black majority — but has never named it, never produced a comparable integrated diagnosis, and never built a comparable institutional response. The asymmetry is not about moral intent. It is about institutional design: naming creates accountability, integration beats fragmentation, and political spending without institutional coherence produces outputs, not outcomes.
 :::
 
-:::expert-perspective
+:::expert
 **Betty Friedan** titled her 1963 book *The Feminine Mystique* by identifying "the problem that has no name" — the systematic oppression of women that was so pervasive it had become invisible. Her argument was that naming the problem was the precondition for solving it. South Africa's structural black poverty is a problem that has no name — not because it is invisible, but because naming it with the specificity required for institutional action has proven politically and intellectually more difficult than leaving it as a diffuse, general, and ultimately unaccountable aspiration called "a better life for all."
 :::
 
-## References
+## Resources
 
 ### Primary Sources: The Carnegie Commission
 
@@ -259,7 +258,7 @@ The Carnegie Commission named the "Poor White Problem," diagnosed it across five
 
 ### Human Development Index
 
-11. United Nations Development Programme. *Human Development Report 2023-24.* New York: UNDP, 2024. (South Africa HDI of 0.713; IHDI of 0.468; 37.6 per cent inequality penalty.)
+11. United Nations Development Programme. *Human Development Report 2023-24.* New York: UNDP, 2024. (South Africa HDI of 0.713; IHDI of 0.468; inequality penalty of approximately 34 per cent.)
 
 ### Education
 

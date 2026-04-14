@@ -1,6 +1,6 @@
 # Automated Editorial Audit — Item 34 Pass 1
 
-Generated: 2026-04-14T21:02:39.905Z
+Generated: 2026-04-14T21:31:05.587Z
 Articles scanned: 77
 Word minimum: 4500
 
@@ -10,7 +10,7 @@ Word minimum: 4500
 - **Frontmatter issues:** 0
 - **Series linkage issues:** 0
 - **Emoji in body:** 0
-- **Forbidden-term hits (any severity):** 5
+- **Forbidden-term hits (any severity):** 4
 
 ## Per-Batch Breakdown
 
@@ -61,22 +61,22 @@ Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Em
 
 ### Human Development (15 articles)
 
-Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Emoji: **0** | Forbidden-term hits: **1**
+Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Emoji: **0** | Forbidden-term hits: **0**
 
 | Slug | Words | < min | FM | Links | Emoji | Forbidden |
 |---|---:|:-:|:-:|:-:|:-:|:-:|
 | hd-1-1-beyond-gdp | 7563 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-1-2-south-africas-report-card | 7240 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-1-3-the-reinforcing-cycle | 8086 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-1-4-the-problem-that-has-no-name | 7731 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-2-1-the-life-expectancy-deficit | 8703 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-2-2-violence-as-public-health-crisis | 7729 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-2-3-the-fiscal-arithmetic-of-health | 11522 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-3-1-the-schooling-paradox | 7203 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-1-2-south-africas-report-card | 7263 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-1-3-the-reinforcing-cycle | 8084 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-1-4-the-problem-that-has-no-name | 7742 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-2-1-the-life-expectancy-deficit | 8709 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-2-2-violence-as-public-health-crisis | 7737 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-2-3-the-fiscal-arithmetic-of-health | 11531 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-3-1-the-schooling-paradox | 7215 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-3-2-learning-in-a-war-zone | 6609 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-3-3-from-classroom-to-paycheck | 7481 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-4-1-when-the-cycle-works | 8309 | ✓ | ✓ | ✓ | ✓ | 1 |
-| hd-4-2-south-africas-broken-cycle | 7189 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-3-3-from-classroom-to-paycheck | 7494 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-4-1-when-the-cycle-works | 8311 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-4-2-south-africas-broken-cycle | 7193 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-4-3-development-within-limits | 7625 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-5-1-your-development-rights | 10091 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-5-2-building-the-cycle | 8608 | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -143,7 +143,6 @@ _Note: many of these are false positives (e.g. 'three-tier policing' is legitima
 
 | Slug | Term | Count | Severity | Note |
 |---|---|---:|---|---|
-| hd-4-1-when-the-cycle-works | level of government | 1 | should-fix | domain: 'sphere of government' |
 | ra-1-1-eight-tests | level of government | 1 | should-fix | domain: 'sphere of government' |
 | ra-3-2-making-concurrent-functions-work | level of government | 1 | should-fix | domain: 'sphere of government' |
 | ss-1-1-order-through-oppression | level of government | 1 | should-fix | domain: 'sphere of government' |
