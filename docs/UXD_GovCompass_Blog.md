@@ -121,7 +121,7 @@ This is a 0→1 UX document. Use it when:
 | **Push (Pain)** | Cannot identify which sphere of government is responsible for a service failure — frustration is real but misdirected | Afrobarometer: 85% say country going in wrong direction; PARI research on accountability confusion across three spheres | Article 1.1 directly addresses sphere responsibility. Search-optimised for queries like "who is responsible for water in South Africa." Article structure leads with concrete examples before explaining the system |
 | **Pull (Attraction)** | A clear, structured "mental model" for navigating the governance system — not just "what happened" but "how it works" | Competitive gap analysis: no existing SA publication provides systematic, plain-language governance education | O'Reilly-style conversational register; 15-article MECE series structure; every article ends with actionable tools. Design signals depth and seriousness without academic intimidation |
 | **Anxiety (Barrier)** | "Is this pushing a political agenda?" — deep suspicion of any political content platform in a low-trust environment (21% trust Parliament, 23% trust national government) | Afrobarometer trust data; 35% of registered voters say no party represents their views | Non-partisan visual language: no party colours, no political imagery. Transparent About page with editorial principles. Data-anchored content with visible source links. Absence of ads and paywalls is itself a trust signal |
-| **Habit (Barrier)** | The effort cost of reading 5,000+ word articles vs. scrolling WhatsApp or watching a 2-minute news clip. Current coping mechanism (cynicism, disengagement) requires zero effort | Reuters Institute: 77% access news via social media; WhatsApp 88% penetration. Event-driven news consumption is habitual | Reading progress bar reduces perceived effort. Estimated reading time sets expectations. Generous typography and whitespace make long-form feel manageable. Practical "toolkit" sections reward completion. WhatsApp-shareable insights create social incentive to read |
+| **Habit (Barrier)** | The effort cost of reading 4,500+ word articles vs. scrolling WhatsApp or watching a 2-minute news clip. Current coping mechanism (cynicism, disengagement) requires zero effort | Reuters Institute: 77% access news via social media; WhatsApp 88% penetration. Event-driven news consumption is habitual | Reading progress bar reduces perceived effort. Estimated reading time sets expectations. Generous typography and whitespace make long-form feel manageable. Practical "toolkit" sections reward completion. WhatsApp-shareable insights create social incentive to read |
 
 #### 2.1.4 User Research Synthesis
 
@@ -131,7 +131,7 @@ This is a 0→1 UX document. Use it when:
 | USR-002 | 23.5 million eligible South Africans did not vote in 2024 (59.1% of voting-age population). Non-voting correlates with frustration and information deficit, not apathy | IEC 2024 Official Results; Afrobarometer 2024 Pre-Election Survey | High | Product positioning must avoid framing users as "apathetic" — they are underserved. Tone must be empowering, not lecturing |
 | USR-003 | Government produces extensive performance data (AGSA, DPME, Treasury) but citizens have no practical guide to finding or interpreting it. Fewer than 30 of 257 municipalities achieve clean audits | AGSA MFMA Reports 2022/23; DPME MTSF Progress Reports | High | Every article must include direct links to primary data sources. Data Sources page aggregates all references. "Here's what to look for" guidance accompanies every data link |
 | USR-004 | WhatsApp is the dominant platform for political information, but content circulating in groups is overwhelmingly unstructured, unreliable, and partisan | Reuters Institute Digital News Report SA; Social Research Foundation | High | WhatsApp sharing is a first-class design concern — not an afterthought. OG preview optimisation, pre-filled share messages, UTM tracking for attribution |
-| USR-005 | The target segment will read 5,000+ word articles if content is conversational, practical, and directly relevant to lived experience | Hypothesis (MRD H2) — medium confidence, requires validation | Medium | Design must eliminate friction for long-form reading: large body type (19px desktop, 17px mobile), 680px max content width, 1.65 line height, no distractions |
+| USR-005 | The target segment will read 4,500+ word articles if content is conversational, practical, and directly relevant to lived experience | Hypothesis (MRD H2) — medium confidence, requires validation | Medium | Design must eliminate friction for long-form reading: large body type (19px desktop, 17px mobile), 680px max content width, 1.65 line height, no distractions |
 | USR-006 | 44% of Black ANC voters have fluctuated between voting, abstaining, or switching in recent cycles — the target segment is politically dealigned | Afrobarometer; Social Research Foundation surveys | High | Non-partisan positioning is not optional — it is a prerequisite for trust. Design must be rigorously neutral: no party colours in palette, no political imagery, editorial principles prominently displayed |
 
 ### 2.2 Business Objectives
@@ -212,7 +212,7 @@ This is a 0→1 UX document. Use it when:
 - Priority: Must Have
 - Brand Alignment: Trustworthy, Accessible, Serious
 
-User Story: *As Thabo (primary persona), I want to read a 5,000+ word article comfortably on my Samsung A15 over 4G, so that I can understand which sphere of government is responsible for my water outage.*
+User Story: *As Thabo (primary persona), I want to read a 4,500+ word article comfortably on my Samsung A15 over 4G, so that I can understand which sphere of government is responsible for my water outage.*
 
 Functional Requirements:
 - FR-001.1: Article pages render in a reading-optimised single-column layout at 680px max content width with 19px serif body font (17px on mobile) — aligns with "Accessible" brand attribute
@@ -323,7 +323,7 @@ Functional Requirements:
 
 | Content Type | Purpose | Owner | Update Frequency | Brand Alignment |
 |-------------|---------|-------|-----------------|-----------------|
-| Long-form articles (5,000+ words) | Core product — structural political education | Tshepo Machele | Published sequentially over 10 months; permanent once live | Trustworthy, Accessible, Serious, Empowering |
+| Long-form articles (4,500+ words) | Core product — structural political education | Tshepo Machele | Published sequentially over 10 months; permanent once live | Trustworthy, Accessible, Serious, Empowering |
 | Expert anecdotes (within articles) | Credibility and human specificity | Tshepo Machele (sourced from interviews) | Published with articles | Trustworthy, Accessible |
 | Practical Framework / Toolkit sections | Actionable takeaways at end of each article | Tshepo Machele | Published with articles | Empowering |
 | Article metadata | Reading time, publish date, sphere tag, part number | Auto-generated at build time | Per article | Accessible |
@@ -841,7 +841,7 @@ Since Tshepo Machele is both designer and developer, this section serves as a se
 | MRD §4.1 — Job map (DEFINE → CONCLUDE) | PRD §3 — User stories | §4.2.2 — User flow documentation | Article reading flow; data source outbound links | Empowering |
 | MRD §4.2 — Outcome #1 (identify responsible sphere) | PRD §6.3 — Article "practical framework" sections | §3.1.2 — FR-001 (Article Reading Experience) | Practical Toolkit callout component | Empowering |
 | MRD §5.1 — Anxiety: "Is this pushing an agenda?" | PRD §7 — Non-partisan visual language | §2.3.1 — Brand attribute: Non-partisan | Colour palette (no party colours); About page | Non-partisan, Trustworthy |
-| MRD §5.1 — Habit: effort cost of 5,000-word articles | PRD §6.3 — Reading progress indicator | §5.2.1 — Reading Progress Bar component | Progress bar; reading time metadata; TOC | Accessible, Empowering |
+| MRD §5.1 — Habit: effort cost of 4,500-word articles | PRD §6.3 — Reading progress indicator | §5.2.1 — Reading Progress Bar component | Progress bar; reading time metadata; TOC | Accessible, Empowering |
 | MRD §5.2 — Switching trigger: WhatsApp debate | PRD §14 — Social sharing | §3.1.2 — FR-002 (WhatsApp Sharing) | WhatsApp share button; OG preview | Empowering |
 | MRD §8.1 — MVP scope (4 articles + email + WhatsApp) | PRD §15 — Launch plan | §7.1 — Phase planning | Phase 0–1 deliverables | All attributes |
 | MRD §8.3 — Target customer for MVP (Gauteng professionals) | PRD §10 — SEO strategy | §4.2.2 — Flow 2 (search-driven reader) | SEO meta; search landing experience | Accessible |

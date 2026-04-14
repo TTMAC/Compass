@@ -77,7 +77,7 @@ Think of the GovCompass voice as a knowledgeable friend who happens to be a gove
 
 **Lead with specifics.** Every section, every paragraph, every argument begins with a concrete example, a real number, or a specific institution — never with a generalisation. "In 2022/23, only 28 of 257 municipalities received clean audits from the Auditor-General" not "Many municipalities struggle with financial management."
 
-**Bottom-line-up-front.** Every article opens with its core conclusion in the first two paragraphs. The reader should know the main takeaway before they commit to reading 5,000 words. This is not a mystery novel — give away the ending first, then explain why it's true.
+**Bottom-line-up-front.** Every article opens with its core conclusion in the first two paragraphs. The reader should know the main takeaway before they commit to reading 4,500 words. This is not a mystery novel — give away the ending first, then explain why it's true.
 
 **Conversational authority.** Write like you know the material deeply and are explaining it to someone who deserves to understand it. Authoritative but warm. Confident but never arrogant. The voice of a teacher who respects their students, not a professor who talks over them.
 
@@ -99,7 +99,7 @@ Think of the GovCompass voice as a knowledgeable friend who happens to be a gove
 
 ### 5.1 Structure
 
-**Article length:** Minimum 5,000 words. This is long-form civic education, not a blog post. The length is deliberate — it signals depth and seriousness. If a topic cannot sustain 5,000 words of substantive, non-repetitive content, it is not a GovCompass article.
+**Article length:** Minimum 4,500 words. This is long-form civic education, not a blog post. The length is deliberate — it signals depth and seriousness. If a topic cannot sustain 4,500 words of substantive, non-repetitive content, it is not a GovCompass article.
 
 **Bottom-line-up-front opening:** Every article opens with its core conclusion in the first one to two paragraphs. State the takeaway clearly and directly. Then spend the rest of the article proving and explaining it.
 

@@ -227,7 +227,7 @@ Reader enters email → HTML5 validation → Netlify Forms submission (with hone
 
 | Term | Definition | Context | Anti-Terms (Don't Use) |
 |------|------------|---------|------------------------|
-| Article | A single long-form piece (5,000+ words) in the structured 15-article GovCompass series | Content Management | Post, Blog post, Entry, Page |
+| Article | A single long-form piece (4,500+ words) in the structured 15-article GovCompass series | Content Management | Post, Blog post, Entry, Page |
 | Part | One of five thematic groupings in the series (Foundation, National, Provincial, Municipal, Toolkit) | Content Management | Section, Chapter, Module, Category |
 | Sphere | One of SA's three constitutional governance spheres — national, provincial, municipal — or "all" for cross-cutting content | Content Management | Tier, Level, Layer, Branch |
 | Series | The complete 15-article collection forming one cohesive governance guide | Content Management | Blog, Course, Feed, Archive |

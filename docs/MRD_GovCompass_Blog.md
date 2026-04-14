@@ -44,7 +44,7 @@ The primary job executor is a working-age South African (25–45) in the urban m
 
 ### 1.3 Proposed Value Proposition
 
-GovCompass is a free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. It translates the Constitution, the Division of Revenue Act, Auditor-General reports, and DPME performance data into plain-language, O'Reilly-style articles that answer the question every frustrated citizen asks: "Who is actually responsible for this, and how do I know if they're doing their job?" The blog is structured as a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — designed to be read sequentially or accessed as standalone references. Each article is at least 5,000 words, written in a conversational register, anchored in real data, and concludes with practical tools the reader can use immediately.
+GovCompass is a free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. It translates the Constitution, the Division of Revenue Act, Auditor-General reports, and DPME performance data into plain-language, O'Reilly-style articles that answer the question every frustrated citizen asks: "Who is actually responsible for this, and how do I know if they're doing their job?" The blog is structured as a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — designed to be read sequentially or accessed as standalone references. Each article is at least 4,500 words, written in a conversational register, anchored in real data, and concludes with practical tools the reader can use immediately.
 
 ### 1.4 Success Criteria
 
@@ -52,7 +52,7 @@ The product will be considered successful if, within 12 months of launch, it ach
 
 ### 1.5 Investment Ask
 
-The product requires one person (Tshepo Machele) working with Claude Code as the primary development partner. The technical stack will be a static site or lightweight CMS deployable at minimal hosting cost (estimated R500–R2,000/month). The primary investment is Tshepo's time over approximately 6–8 months: 2 months for platform development and design, 4–6 months for content production (15 articles at 5,000+ words each, requiring research, writing, fact-checking, and expert sourcing). Key milestones are platform MVP live by end of Q2 2026, first four foundational articles published by end of Q3 2026, and full series complete by end of Q1 2027.
+The product requires one person (Tshepo Machele) working with Claude Code as the primary development partner. The technical stack will be a static site or lightweight CMS deployable at minimal hosting cost (estimated R500–R2,000/month). The primary investment is Tshepo's time over approximately 6–8 months: 2 months for platform development and design, 4–6 months for content production (15 articles at 4,500+ words each, requiring research, writing, fact-checking, and expert sourcing). Key milestones are platform MVP live by end of Q2 2026, first four foundational articles published by end of Q3 2026, and full series complete by end of Q1 2027.
 
 ---
 
@@ -183,7 +183,7 @@ Importance (IMP) and Satisfaction (SAT) scores below are estimated based on the 
 | "This will be too complicated — I'm not a policy expert" — fear that the content will be academic or over their head | Current coping mechanism (cynicism, disengagement, "they're all the same") requires zero effort and provides emotional closure |
 | "Is this site pushing a political agenda?" — suspicion that any political content platform has hidden partisan motives | Familiar habit of consuming event-driven news (scandals, elections, protests) rather than structural analysis — easier and more emotionally stimulating |
 | "What can I actually do with this information?" — anxiety that understanding the system better will just increase frustration without providing actionable outlets | Existing social identity around political disengagement — "I don't do politics" as a self-protective stance that would need to be abandoned |
-| "Who is behind this?" — in a low-trust environment, unfamiliar sources face credibility hurdles | The effort cost of reading 5,000+ word articles is high relative to scrolling WhatsApp or watching a 2-minute news clip |
+| "Who is behind this?" — in a low-trust environment, unfamiliar sources face credibility hurdles | The effort cost of reading 4,500+ word articles is high relative to scrolling WhatsApp or watching a 2-minute news clip |
 
 ### 5.2 Switching Trigger Events
 
@@ -206,7 +206,7 @@ The following events or circumstances cause the target job executor to actively 
 | ID | Hypothesis (What must be true) | Confidence | Validation Method | Status |
 |----|-------------------------------|------------|-------------------|--------|
 | H1 | **Problem: The target segment cannot identify which sphere of government is responsible for specific services** — and this confusion leads to misdirected complaints, uninformed voting, and civic disengagement | High (>70%) | Post-launch reader survey; comment analysis; Afrobarometer data on institutional knowledge | Testing |
-| H2 | **Value: The target segment will read 5,000+ word articles** if the content is conversational, practical, and directly relevant to their lived experience — despite the prevailing assumption that "people don't read long-form" | Medium (30–70%) | Time-on-page analytics; scroll depth tracking; completion rates for articles | Testing |
+| H2 | **Value: The target segment will read 4,500+ word articles** if the content is conversational, practical, and directly relevant to their lived experience — despite the prevailing assumption that "people don't read long-form" | Medium (30–70%) | Time-on-page analytics; scroll depth tracking; completion rates for articles | Testing |
 | H3 | **Distribution: WhatsApp sharing will be the primary distribution channel**, and articles structured with shareable insights and practical tools will achieve organic spread through existing WhatsApp groups | Medium (30–70%) | UTM-tagged WhatsApp share links; referral source analytics; reader survey on discovery channel | Testing |
 | H4 | **Feasibility: A single person with Claude Code can build and maintain a quality blog platform** including responsive design, SEO, analytics, email capture, and WhatsApp share integration | High (>70%) | Build the MVP and assess quality, speed, and maintenance burden | Testing |
 | H5 | **Content: The 15-article series structure (foundational → national → provincial → municipal → toolkit) provides comprehensive coverage** without requiring the reader to have any prior knowledge of SA governance | High (>70%) | Editorial review; reader feedback on gaps; expert review of completeness | Testing |
@@ -375,4 +375,4 @@ The full 15-article series structure, with detailed generation prompts for each 
 | 4 | 4.4 | Municipal | Metro vs rural divergence | |
 | 5 | 5.1 | All | Citizen engagement toolkit | |
 
-Each article is designed to be at least 5,000 words, written in an O'Reilly conversational register, and anchored in verified South African governance data. The series is MECE — mutually exclusive (no content overlap between articles) and collectively exhaustive (complete coverage of the three-sphere system).
+Each article is designed to be at least 4,500 words, written in an O'Reilly conversational register, and anchored in verified South African governance data. The series is MECE — mutually exclusive (no content overlap between articles) and collectively exhaustive (complete coverage of the three-sphere system).

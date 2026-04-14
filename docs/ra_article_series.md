@@ -9,7 +9,7 @@
 
 ## Editorial Rules (apply to all articles)
 
-- Write at least 5,000 words of flowing, accessible prose
+- Write at least 4,500 words of flowing, accessible prose
 - British English spelling throughout
 - Use "you" to address the reader directly
 - NO bullet points in article prose — write in flowing paragraphs

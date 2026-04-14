@@ -53,7 +53,7 @@ GovCompass is a free, long-form political education blog that makes South Africa
 
 The product embodies three principles derived from the MRD's differentiation strategy:
 
-**Reading-first.** Every design decision optimises for sustained, comfortable reading of 5,000+ word articles on mobile devices over prepaid data connections. This means large typography, generous whitespace, minimal JavaScript, and aggressive performance budgets. The target reader is on a mid-range Android smartphone on a 4G connection with limited data. Every kilobyte must justify its existence.
+**Reading-first.** Every design decision optimises for sustained, comfortable reading of 4,500+ word articles on mobile devices over prepaid data connections. This means large typography, generous whitespace, minimal JavaScript, and aggressive performance budgets. The target reader is on a mid-range Android smartphone on a 4G connection with limited data. Every kilobyte must justify its existence.
 
 **Trust through transparency.** The target audience trusts almost no institution (21% trust Parliament, 23% trust national government). The design must communicate credibility through restraint — no flashy animations, no clickbait patterns, no dark UX. Clean, serious, professional. Sources are always visible. The author is identifiable. The absence of ads and paywalls is itself a trust signal and should be visually obvious.
 
@@ -68,7 +68,7 @@ The product embodies three principles derived from the MRD's differentiation str
 | MRD §3.1 — Job Executor (smartphone, prepaid data, English) | §11 — Performance requirements; §7 — Mobile-first design |
 | MRD §4.2 — Outcome #1 (identify responsible sphere) | §6.3 — Article "practical framework" sections |
 | MRD §5.1 — Anxiety: "Is this pushing an agenda?" | §7 — Non-partisan visual language |
-| MRD §5.1 — Habit: effort cost of 5,000-word articles | §6.3 — Reading progress indicator; estimated read time |
+| MRD §5.1 — Habit: effort cost of 4,500-word articles | §6.3 — Reading progress indicator; estimated read time |
 | MRD §8.1 — MVP Scope (4 articles, email, WhatsApp share) | §15 — Launch plan; §13 — Email system; §14 — Sharing |
 | MRD §8.3 — Target Customer for MVP (Gauteng professionals) | §10 — SEO strategy targeting Gauteng search queries |
 
@@ -88,7 +88,7 @@ The product embodies three principles derived from the MRD's differentiation str
 
 The MVP is launch-ready when all of the following are true:
 
-**Content completeness.** All four Part 1 articles are published, each meeting the following criteria: minimum 5,000 words; written in O'Reilly conversational register; includes 2–3 named expert anecdotes; concludes with a practical framework or toolkit section; all data claims are sourced with links to primary sources (AGSA, National Treasury, DPME, StatsSA); reviewed for factual accuracy by at least one subject-matter reader.
+**Content completeness.** All four Part 1 articles are published, each meeting the following criteria: minimum 4,500 words; written in O'Reilly conversational register; includes 2–3 named expert anecdotes; concludes with a practical framework or toolkit section; all data claims are sourced with links to primary sources (AGSA, National Treasury, DPME, StatsSA); reviewed for factual accuracy by at least one subject-matter reader.
 
 **Platform functionality.** The website loads in under 3 seconds on a 4G connection (target: under 1.5s); all pages render correctly on Chrome for Android (85%+ of target segment), Safari iOS, and desktop Chrome/Firefox; email subscription capture is functional and delivers a confirmation email; WhatsApp share buttons are present on all article pages and generate UTM-tagged links; analytics tracking is live (page views, time on page, scroll depth, referral source).
 
@@ -548,7 +548,7 @@ Content is authored in Markdown files within the `src/content/articles/` directo
 
 ### 8.3 Content Quality Checklist (Per Article)
 
-- [ ] Minimum 5,000 words
+- [ ] Minimum 4,500 words
 - [ ] O'Reilly conversational register maintained throughout (uses "you," leads with specifics, no jargon without explanation)
 - [ ] Opens with bottom-line-up-front (BLUF) conclusion
 - [ ] Contains 2–3 named expert anecdotes
@@ -849,7 +849,7 @@ Formal assessment against MRD §9 success metrics. Go/no-go decision on expansio
 
 | Risk | Likelihood | Impact | Mitigation |
 |------|------------|--------|------------|
-| **H2 invalidated: target segment won't read 5,000+ word articles** | Medium | High (undermines core format) | Monitor time-on-page and scroll depth from Article 1.1 launch. If avg time-on-page is under 4 minutes and 75% scroll depth is under 30%, consider supplementary short-form formats (WhatsApp-native summaries, article "TL;DR" sections). Do not reduce article depth — add a shorter access layer on top. |
+| **H2 invalidated: target segment won't read 4,500+ word articles** | Medium | High (undermines core format) | Monitor time-on-page and scroll depth from Article 1.1 launch. If avg time-on-page is under 4 minutes and 75% scroll depth is under 30%, consider supplementary short-form formats (WhatsApp-native summaries, article "TL;DR" sections). Do not reduce article depth — add a shorter access layer on top. |
 | **H3 invalidated: WhatsApp is not a viable distribution channel** | Medium | High (undermines GTM) | Monitor referral sources from launch. If WhatsApp share is under 10% of traffic after 3 months, invest in SEO (long-term organic) and explore targeted LinkedIn distribution for the professional sub-segment. |
 | **Content accuracy challenge: governance information changes** | Medium | Medium | Publish dates visible on all articles. "Updated on [date]" shown when articles are revised. Establish a quarterly content review cadence for published articles. Corrections policy on /about page. |
 | **Solo-operator bottleneck: Tshepo is a single point of failure** | High | High | Manage scope ruthlessly — the 15-article series is the product, nothing more. Resist feature creep. Use Claude Code for development acceleration. Build in buffer time for each article (~3 weeks per article rather than 2). |

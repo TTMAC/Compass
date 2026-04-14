@@ -192,7 +192,7 @@ This is a content-delivery domain, not a transactional domain. The core domain e
 
 | Term | Meaning | Don't Say |
 |------|---------|-----------|
-| Article | A single long-form piece (5,000+ words) in the 15-article series | Post, Blog post, Entry |
+| Article | A single long-form piece (4,500+ words) in the 15-article series | Post, Blog post, Entry |
 | Part | One of five thematic groupings (Foundation, National, Provincial, Municipal, Toolkit) | Section, Chapter, Module |
 | Sphere | One of SA's three constitutional governance spheres (national, provincial, municipal) or "all" for cross-cutting | Tier, Level, Layer |
 | Series | The complete 15-article collection forming one cohesive guide | Blog, Course, Curriculum |
@@ -232,7 +232,7 @@ This is a content-delivery domain, not a transactional domain. The core domain e
 | | 4.4 | Your Ward, Your Power | municipal | Post-MVP |
 | **5: Citizen's Toolkit** | 5.1 | The Citizen's Toolkit | all | Post-MVP |
 
-**Article Generation:** Articles are generated using the prompts in `docs/sa_political_system_article_series.md`. Each prompt specifies a Nobel-level political economist writing in O'Reilly conversational style, 5,000+ words, with specific structural requirements, anecdotes, and sourcing standards.
+**Article Generation:** Articles are generated using the prompts in `docs/sa_political_system_article_series.md`. Each prompt specifies a Nobel-level political economist writing in O'Reilly conversational style, 4,500+ words, with specific structural requirements, anecdotes, and sourcing standards.
 
 **Content Schema:** Defined in `src/content/config.ts` using Astro Content Collections and Zod. See `docs/DOMAIN_MODEL.md` §8.2.1 for full field specifications.
 

@@ -2,7 +2,7 @@
 
 ## Series Overview
 
-This document contains a structured set of 15 article generation prompts for the Citizen Safety & Security pillar of GovCompass. The series is organised into four parts: The Inheritance (historical context), The Broken System (current state analysis), The Blueprint (reform proposals), and The Bridge (implementation pathway). Each prompt is engineered to produce articles of at least 5,000 words in an accessible, O'Reilly-style conversational tone for a general public audience.
+This document contains a structured set of 15 article generation prompts for the Citizen Safety & Security pillar of GovCompass. The series is organised into four parts: The Inheritance (historical context), The Broken System (current state analysis), The Blueprint (reform proposals), and The Bridge (implementation pathway). Each prompt is engineered to produce articles of at least 4,500 words in an accessible, O'Reilly-style conversational tone for a general public audience.
 
 The analytical framework draws on the comprehensive knowledge base at `docs/sa-law-and-order-project.md`, which covers policing reform (three-tier architecture), criminal justice restructuring (six structural reforms), and a systems theory framework with 13 outcomes.
 
@@ -30,7 +30,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Order Through Oppression — How Colonial and Apartheid Policing Built a System Designed to Control, Not Protect — and What Democracy Inherited."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Order Through Oppression — How Colonial and Apartheid Policing Built a System Designed to Control, Not Protect — and What Democracy Inherited."**
 >
 > **Context:** This is the first article in the Citizen Safety & Security pillar of GovCompass. The reader has already completed the Government Structure pillar and understands how South Africa's Constitution divides power across three spheres (covered in Article 1.1 of that pillar) and how the spheres interact through concurrent functions like policing (covered in Article 1.3 of that pillar). They are now entering a new domain: the criminal justice system. This article sets the historical foundation.
 >
@@ -62,7 +62,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"From Rainbow Nation to State Capture — How South Africa's Criminal Justice System Was First Overwhelmed and Then Deliberately Hollowed Out."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"From Rainbow Nation to State Capture — How South Africa's Criminal Justice System Was First Overwhelmed and Then Deliberately Hollowed Out."**
 >
 > **Context:** This is the second article in the Citizen Safety & Security pillar. The reader has just read Article 1.1 (Order Through Oppression), which covered the colonial and apartheid origins of policing and the 1994 inheritance. This article picks up the story from 1994 and carries it through to the present.
 >
@@ -98,7 +98,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"The Broken Pipeline — Following a Crime From Report to Courtroom — and Watching the System Lose It at Every Stage."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"The Broken Pipeline — Following a Crime From Report to Courtroom — and Watching the System Lose It at Every Stage."**
 >
 > **Context:** This is the first article in Part 2 (The Broken System). The reader understands the historical context from Part 1 — how apartheid policing, the post-1994 crime explosion, and state capture created today's crisis. Now they need to see how the system actually functions (or fails to function) today.
 >
@@ -132,7 +132,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Policing a Divided Country — Why Your Safety Depends on Your Postcode — and What That Means for a Constitutional Democracy."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Policing a Divided Country — Why Your Safety Depends on Your Postcode — and What That Means for a Constitutional Democracy."**
 >
 > **Context:** This is the second article in Part 2. The reader has just seen the criminal justice pipeline and understands case attrition. Now they need to see how that broken system is distributed across South Africa's vastly unequal geography.
 >
@@ -166,7 +166,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Justice Delayed, Rights Denied — South Africa's Remand Detention Crisis and the Constitutional Emergency Hiding in Plain Sight."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Justice Delayed, Rights Denied — South Africa's Remand Detention Crisis and the Constitutional Emergency Hiding in Plain Sight."**
 >
 > **Context:** This is the third article in Part 2. The reader understands the broken pipeline (Article 2.1) and geographic inequality (Article 2.2). Now they need to see what happens to the people trapped inside the system — the remand detainees who are constitutionally presumed innocent but effectively imprisoned for years before trial.
 >
@@ -200,7 +200,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"The System's Most Catastrophic Failure — Why South Africa's Criminal Justice System Fails Gender-Based Violence Survivors at Every Single Stage."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"The System's Most Catastrophic Failure — Why South Africa's Criminal Justice System Fails Gender-Based Violence Survivors at Every Single Stage."**
 >
 > **Context:** This is the fourth article in Part 2. The reader understands the pipeline, geographic inequality, and remand crisis. This article examines the system's failure through the lens of its most catastrophic dimension: gender-based violence. GBV is not a separate problem — it is the problem that exposes every structural weakness in the criminal justice system simultaneously.
 >
@@ -232,7 +232,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"The Private Security Paradox — When 2.7 Million Private Guards Outnumber the Police — What It Means When Citizens Must Buy Their Own Safety."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"The Private Security Paradox — When 2.7 Million Private Guards Outnumber the Police — What It Means When Citizens Must Buy Their Own Safety."**
 >
 > **Context:** This is the fifth and final article in Part 2. The reader has now seen the full picture of the broken system — the pipeline, geographic inequality, remand detention, and GBV. This article examines the market response to state failure: the private security industry.
 >
@@ -270,7 +270,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"A Three-Tier Policing Architecture — What South Africa's Police Service Could Look Like If We Rebuilt It Around the Constitution."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"A Three-Tier Policing Architecture — What South Africa's Police Service Could Look Like If We Rebuilt It Around the Constitution."**
 >
 > **Context:** This is the first article in Part 3 (The Blueprint). The reader has now completed Part 2 and understands the full scope of the current system's failures. Part 3 shifts from diagnosis to prescription — what a reformed system could look like. This article addresses policing reform, the most fundamental structural question.
 >
@@ -308,7 +308,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"An Independent Investigating Magistracy — How the French Juge d'Instruction Could Break the SAPS-NPA Deadlock That Collapses Cases."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"An Independent Investigating Magistracy — How the French Juge d'Instruction Could Break the SAPS-NPA Deadlock That Collapses Cases."**
 >
 > **Context:** This is the second article in Part 3. The reader has just read about the three-tier policing architecture. This article addresses the second critical structural reform: fixing the investigation-prosecution disconnect that was identified as a key failure point in Article 2.1 (The Broken Pipeline).
 >
@@ -342,7 +342,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Community Courts and Restorative Justice — Building a Municipal Justice Layer to Decongest the Courts and Restore Legitimacy."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Community Courts and Restorative Justice — Building a Municipal Justice Layer to Decongest the Courts and Restore Legitimacy."**
 >
 > **Context:** This is the third article in Part 3. The reader has seen the policing architecture (3.1) and investigating magistracy (3.2) proposals. This article addresses the court system's lowest tier — a new municipal justice layer that does not currently exist.
 >
@@ -376,7 +376,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"A Sentencing Commission and Structured Guidelines — Moving Beyond Blunt Minimum Sentences to a Data-Informed, Constitutionally Sound Framework."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"A Sentencing Commission and Structured Guidelines — Moving Beyond Blunt Minimum Sentences to a Data-Informed, Constitutionally Sound Framework."**
 >
 > **Context:** This is the fourth article in Part 3. The reader has seen proposals for policing reform (3.1), investigation reform (3.2), and court decongestion (3.3). This article addresses the sentencing system — the output quality of the justice pipeline.
 >
@@ -412,7 +412,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Rehabilitation as Constitutional Mandate — Why Prisons That Only Contain — and Never Transform — Guarantee a 40% Recidivism Cycle."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Rehabilitation as Constitutional Mandate — Why Prisons That Only Contain — and Never Transform — Guarantee a 40% Recidivism Cycle."**
 >
 > **Context:** This is the fifth and final article in Part 3 (The Blueprint). The reader has seen proposals for policing (3.1), investigation (3.2), courts (3.3), and sentencing (3.4). This article addresses the final link in the chain: what happens after sentencing — corrections and rehabilitation.
 >
@@ -452,7 +452,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Sequencing Reform — A Practical Roadmap for Fixing South Africa's Criminal Justice System — What Must Happen First, and What Laws Must Change."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Sequencing Reform — A Practical Roadmap for Fixing South Africa's Criminal Justice System — What Must Happen First, and What Laws Must Change."**
 >
 > **Context:** This is the first article in Part 4 (The Bridge). The reader has now seen both the broken system (Part 2) and the blueprint for reform (Part 3). Part 4 bridges the gap between diagnosis/vision and implementation. This article addresses the critical question: in what order should reforms be implemented, and what laws must change?
 >
@@ -490,7 +490,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Funding the Delta — The Fiscal Case for Investing in Justice — and Why the Status Quo Costs More Than Reform."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Funding the Delta — The Fiscal Case for Investing in Justice — and Why the Status Quo Costs More Than Reform."**
 >
 > **Context:** This is the second article in Part 4. The reader has the reform roadmap (Article 4.1) and now needs to understand the fiscal dimension: how much does reform cost, who pays, and — critically — why the status quo is more expensive than transformation.
 >
@@ -524,7 +524,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Measuring Progress — A National Law and Order Scorecard — Technology, Metrics, and the Political Will to Be Honest."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Measuring Progress — A National Law and Order Scorecard — Technology, Metrics, and the Political Will to Be Honest."**
 >
 > **Context:** This is the final article in the Citizen Safety & Security pillar. The reader has the full picture: the inheritance (Part 1), the broken system (Part 2), the blueprint (Part 3), and the reform roadmap and fiscal case (Articles 4.1 and 4.2). This closing article asks: how would we know if reform is working? What should we measure, and who should be watching?
 >

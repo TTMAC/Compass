@@ -2,7 +2,7 @@
 
 ## Series Overview
 
-This document contains a structured set of 15 article generation prompts for the Economic Growth & Development pillar of GovCompass. The series is organised into five parts: The Inheritance (economic context-setting), The Growth Strategy (staged development pathway), The Enablers (cross-cutting strategies and institutional machinery), The Scorecard (municipal performance measurement and infrastructure assessment), and The Bridge (political economy, implementation, and citizen engagement). Each prompt is engineered to produce articles of at least 5,000 words in an accessible, O'Reilly-style conversational tone for a general public audience.
+This document contains a structured set of 15 article generation prompts for the Economic Growth & Development pillar of GovCompass. The series is organised into five parts: The Inheritance (economic context-setting), The Growth Strategy (staged development pathway), The Enablers (cross-cutting strategies and institutional machinery), The Scorecard (municipal performance measurement and infrastructure assessment), and The Bridge (political economy, implementation, and citizen engagement). Each prompt is engineered to produce articles of at least 4,500 words in an accessible, O'Reilly-style conversational tone for a general public audience.
 
 The analytical framework draws on the comprehensive knowledge base at `docs/EconomicGrowthAndDevelopment.md`, which covers a MECE economic growth strategy (three Porter stages from $7,000 to $50,000 GDP per capita), South Africa's monitoring and evaluation framework (DPME, AGSA, SOEs), an infrastructure planning gap analysis (NIP, SIPs, PPPs, McKinsey best-practice comparison), and a Municipal Performance Index (four pillars, indicator sets, normalization, geometric mean scoring, and performance tiers). The theoretical foundations are Porter's Competitive Economy Framework, the Atlas of Economic Complexity (Hausmann and Hidalgo), and Justin Yifu Lin's New Structural Economics.
 
@@ -30,7 +30,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"The R7,000 Economy — Where South Africa Actually Stands in the Global Economic Pecking Order — and Why That Number Should Alarm You."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"The R7,000 Economy — Where South Africa Actually Stands in the Global Economic Pecking Order — and Why That Number Should Alarm You."**
 >
 > **Context:** This is the first article in the Economic Growth & Development pillar of GovCompass. The reader has already completed the Government Structure pillar and understands how South Africa's Constitution divides power across three spheres (covered in Article 1.1 of that pillar), how money flows through the system (covered in Article 1.2), and how oversight works (covered in Article 1.3). They are now entering a new domain: the economy. This article sets the baseline — where South Africa actually stands.
 >
@@ -66,7 +66,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"How We Got Here — The Deliberate Construction and Predictable Consequences of South Africa's Economic Structure."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"How We Got Here — The Deliberate Construction and Predictable Consequences of South Africa's Economic Structure."**
 >
 > **Context:** This is the second article in the Economic Growth & Development pillar. The reader has just read Article 1.1 (The R7,000 Economy), which established South Africa's current economic position — a $7,000 GDP per capita economy stuck in the factor-driven stage with low economic complexity. This article explains how we arrived at this position.
 >
@@ -98,7 +98,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"The Comparator Countries — Six Nations That Started Where South Africa Is — and What They Did Differently."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"The Comparator Countries — Six Nations That Started Where South Africa Is — and What They Did Differently."**
 >
 > **Context:** This is the third article in the Economic Growth & Development pillar. The reader has established South Africa's current position (Article 1.1) and understood how the economy arrived there (Article 1.2). This article introduces the comparative lens — what did other countries at similar development stages do to achieve what South Africa has not?
 >
@@ -144,7 +144,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Resource Optimisation — Converting South Africa's Natural Endowments Into Industrial Capabilities — Not Just Exporting Rocks."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Resource Optimisation — Converting South Africa's Natural Endowments Into Industrial Capabilities — Not Just Exporting Rocks."**
 >
 > **Context:** This is the first article in Part 2 (The Growth Strategy). The reader has completed Part 1 and understands South Africa's current economic position ($7,000 GDP per capita, factor-driven, low complexity), how the economy was historically structured for extraction, and what comparator countries at similar stages achieved. Part 2 now presents the staged growth strategy: what South Africa must actually do. This article covers Stage 1 — resource optimisation.
 >
@@ -178,7 +178,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Infrastructure Foundations — Energy, Logistics, and Digital Connectivity — The Platform That Every Growth Strategy in History Has Been Built On."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Infrastructure Foundations — Energy, Logistics, and Digital Connectivity — The Platform That Every Growth Strategy in History Has Been Built On."**
 >
 > **Context:** This is the second article in Part 2. The reader has just read about resource optimisation (Article 2.1) and understands that every intervention in Stage 1 depends on infrastructure. This article examines the infrastructure foundation — its current state, the gap between planning and delivery, and what must be built.
 >
@@ -214,7 +214,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"The Efficiency Transition — Why Moving From Resource Dependence to Efficiency-Driven Growth Is the Hardest Pivot Any Country Makes."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"The Efficiency Transition — Why Moving From Resource Dependence to Efficiency-Driven Growth Is the Hardest Pivot Any Country Makes."**
 >
 > **Context:** This is the third article in Part 2. The reader has read about resource optimisation (Stage 1, Article 2.1) and infrastructure foundations (Article 2.2). This article looks ahead to Stage 2 — the efficiency-driven transition that must follow resource optimisation. This is the hardest transition because it requires systemic institutional quality, not just sector-specific interventions.
 >
@@ -250,7 +250,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Innovation-Driven Growth — The Destination That Every Policy Decision Must Be Calibrated Toward — Even If It Feels Distant Today."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Innovation-Driven Growth — The Destination That Every Policy Decision Must Be Calibrated Toward — Even If It Feels Distant Today."**
 >
 > **Context:** This is the fourth and final article in Part 2. The reader has followed the growth strategy from resource optimisation (Stage 1, Article 2.1) through infrastructure (Article 2.2) and the efficiency transition (Stage 2, Article 2.3). This article covers Stage 3 — innovation-driven growth — the long-term destination.
 >
@@ -292,7 +292,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Three Engines of Growth — New Ventures, New Exports, New Financing — The Cross-Cutting Strategies That Accelerate Every Stage."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Three Engines of Growth — New Ventures, New Exports, New Financing — The Cross-Cutting Strategies That Accelerate Every Stage."**
 >
 > **Context:** This is the first article in Part 3 (The Enablers). The reader has completed the staged growth strategy (Part 2) and understands the three-stage progression from resource optimisation through efficiency to innovation. Part 3 now examines the cross-cutting strategies and institutional machinery that make the stages work. This article covers the three growth engines that operate across all stages.
 >
@@ -324,7 +324,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"The Execution Machine — Why South Africa Does Not Lack Economic Strategies — It Lacks the Institutional Machinery to Execute Them."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"The Execution Machine — Why South Africa Does Not Lack Economic Strategies — It Lacks the Institutional Machinery to Execute Them."**
 >
 > **Context:** This is the second article in Part 3. The reader has just read about the three growth engines (Article 3.1). This article addresses the most fundamental enabler: the institutional architecture required to execute an economic strategy across political cycles.
 >
@@ -362,7 +362,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Watching the Watchers — South Africa's Monitoring and Evaluation Framework — What Gets Measured, What Gets Acted On, and the Gap Between Them."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Watching the Watchers — South Africa's Monitoring and Evaluation Framework — What Gets Measured, What Gets Acted On, and the Gap Between Them."**
 >
 > **Context:** This is the third article in Part 3. The reader has seen the growth engines (Article 3.1) and the execution architecture (Article 3.2). This article examines the monitoring and evaluation system that is supposed to track whether economic strategies are working — and explains why measuring is not the same as acting.
 >
@@ -400,7 +400,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"The Municipal Performance Index — What Gets Measured Gets Managed — and South Africa's 257 Municipalities Have Never Had a Transparent Scorecard."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"The Municipal Performance Index — What Gets Measured Gets Managed — and South Africa's 257 Municipalities Have Never Had a Transparent Scorecard."**
 >
 > **Context:** This is the first article in Part 4 (The Scorecard). The reader has completed Parts 1–3 and understands the economic position, the growth strategy, and the enablers. Part 4 makes the strategy concrete and measurable. This article introduces the Municipal Performance Index — the centrepiece measurement tool of the Economic Growth & Development pillar.
 >
@@ -446,7 +446,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"The Metro Rankings — What the Municipal Performance Index Reveals About Cape Town, Johannesburg, and the Rest — and Why the Variation Is Not Random."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"The Metro Rankings — What the Municipal Performance Index Reveals About Cape Town, Johannesburg, and the Rest — and Why the Variation Is Not Random."**
 >
 > **Context:** This is the second article in Part 4. The reader has just read the MPI methodology (Article 4.1) and understands the four pillars, normalisation, weighting, and geometric mean. This article applies the methodology to real data — starting with the metros, which have the richest data and the most visible governance.
 >
@@ -482,7 +482,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Infrastructure Planning vs Reality — Why South Africa Has Produced More Infrastructure Plans Than Almost Any Emerging Market — and Delivered Less of Them."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Infrastructure Planning vs Reality — Why South Africa Has Produced More Infrastructure Plans Than Almost Any Emerging Market — and Delivered Less of Them."**
 >
 > **Context:** This is the third article in Part 4. The reader has seen the MPI methodology (Article 4.1) and the metro rankings (Article 4.2). This article shifts from municipal performance to national infrastructure delivery — the other critical measurement dimension. The reader encountered the infrastructure challenge briefly in Article 2.2 (Infrastructure Foundations). This article provides the full gap analysis.
 >
@@ -534,7 +534,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"The Political Economy of Growth — Why Every Economic Reform Creates Winners and Losers — and Why Managing That Is the Central Challenge."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"The Political Economy of Growth — Why Every Economic Reform Creates Winners and Losers — and Why Managing That Is the Central Challenge."**
 >
 > **Context:** This is the first article in Part 5 (The Bridge). The reader has the full picture: the inheritance (Part 1), the growth strategy (Part 2), the enablers (Part 3), and the scorecard (Part 4). Part 5 bridges the gap between strategy and reality. This article addresses the political economy question: who wins, who loses, and how do you build coalitions for reform in a democracy?
 >
@@ -576,7 +576,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"From Strategy to Reality — A Sequenced Roadmap With Measurable Milestones — Because a Strategy Without a Plan Is Just a Wish List."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"From Strategy to Reality — A Sequenced Roadmap With Measurable Milestones — Because a Strategy Without a Plan Is Just a Wish List."**
 >
 > **Context:** This is the second article in Part 5. The reader has the reform strategy (Parts 2–3), the scorecard (Part 4), and the political economy analysis (Article 5.1). This article converts everything into a sequenced implementation plan with measurable milestones and course-correction mechanisms.
 >
@@ -618,7 +618,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 **Prompt:**
 
-> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 5,000 words titled **"Your Economic Citizenship — Reading the Budget, Using the MPI, Engaging Local Economic Development, and Evaluating Economic Promises."**
+> You are a Nobel-level political economist and development strategist writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"Your Economic Citizenship — Reading the Budget, Using the MPI, Engaging Local Economic Development, and Evaluating Economic Promises."**
 >
 > **Context:** This is the final article in the Economic Growth & Development pillar. The reader has the full picture: the inheritance (Part 1), the growth strategy (Part 2), the enablers (Part 3), the scorecard (Part 4), and the implementation pathway (Articles 5.1 and 5.2). This closing article puts it all in the reader's hands — converting the entire series into a practical citizen engagement toolkit.
 >

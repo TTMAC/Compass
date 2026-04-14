@@ -96,7 +96,7 @@ Agents are autonomous entities that own a bounded domain of work. Each agent map
 - Every article must map to exactly one of five parts: Foundational Framework (Part 1), National Government (Part 2), Provincial Government (Part 3), Municipal Government (Part 4), or Citizen's Toolkit (Part 5)
 - Every article must be tagged with exactly one sphere: national, provincial, municipal, or all
 - Articles are published sequentially — Part 1 articles first, then Part 2, and so on (per PRD §15 launch plan)
-- Each article targets a minimum of 5,000 words and approximately 25 minutes reading time
+- Each article targets a minimum of 4,500 words and approximately 25 minutes reading time
 - Source material must be verified, traceable, and from high-credibility institutions (per reference generation prompt constraints)
 
 ---
@@ -137,7 +137,7 @@ Agents are autonomous entities that own a bounded domain of work. Each agent map
 - Final sign-off on voice/tone, factual accuracy, and expert anecdote framing
 
 **Constraints:**
-- Minimum 5,000 words per article
+- Minimum 4,500 words per article
 - Use domain language per UXD §2.3.2: conversational, authoritative, direct — never academic or corporate
 - No bullet points in article prose — write in flowing paragraphs (lists are permitted only in the Practical Framework section where they serve actionable clarity)
 - No hype words: "revolutionary," "game-changing," "unprecedented" are banned
@@ -790,7 +790,7 @@ MCPs are the integration interfaces that connect agents to external tools, APIs,
 - Frontmatter must pass Zod schema validation (per SRD §8.2.1)
 - File must be saved with UTF-8 encoding
 - Slug must be unique across all articles
-- Article must be ≥ 5,000 words
+- Article must be ≥ 4,500 words
 
 ---
 
@@ -924,7 +924,7 @@ This is the complete flow from research to published, distributed article — sh
 |------|-------|--------|--------|-------------|
 | 1 | A6 | Generate performance report (if prior articles exist) | Performance dashboard | No |
 | 2 | A1 | Research next article in series → compile sources → draft research brief | Research brief | 🚦 Yes |
-| 3 | A2 | Write article from approved brief + generation prompt | Draft Markdown file (≥5,000 words) | 🚦 Yes |
+| 3 | A2 | Write article from approved brief + generation prompt | Draft Markdown file (≥4,500 words) | 🚦 Yes |
 | 4 | A3 | Validate schema, proofread, check tone/BLUF/anecdotes/framework/sources | Quality report + corrected file | 🚦 Yes |
 | 5 | A4 | Create branch, commit, open PR | Pull request | No |
 | 6 | A4 | Verify build succeeds on deploy preview | Deploy preview URL | No |
