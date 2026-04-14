@@ -10,7 +10,7 @@ tags:
   - "decentralisation"
   - "provincial-police"
   - "municipal-police"
-description: "What South Africa's police service could look like if rebuilt around the Constitution — a narrowed national agency, provincial police, and empowered metros."
+description: "How South Africa could rebuild policing around the Constitution: a narrowed national agency, empowered provincial police, and accountable metro forces."
 publishDate: 2028-01-07
 readingTime: 35
 status: "draft"
