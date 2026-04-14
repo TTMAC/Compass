@@ -1,6 +1,6 @@
 # Automated Editorial Audit — Item 34 Pass 1
 
-Generated: 2026-04-14T17:27:29.807Z
+Generated: 2026-04-14T17:36:36.110Z
 Articles scanned: 77
 Word minimum: 4500
 
@@ -20,21 +20,21 @@ Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Em
 
 | Slug | Words | < min | FM | Links | Emoji | Forbidden |
 |---|---:|:-:|:-:|:-:|:-:|:-:|
-| 1-1-architecture-of-the-state | 7261 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 1-2-who-does-what | 6408 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 1-3-how-the-spheres-interact | 6839 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2-1-following-the-money | 7941 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2-2-the-budget-process | 7566 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 2-3-from-treasury-to-your-town | 7123 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 3-1-the-awkward-middle-child | 7939 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 3-2-health-and-education-at-the-provincial-coal-face | 7424 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 3-3-municipal-councils | 9771 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 1-1-architecture-of-the-state | 7299 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 1-2-who-does-what | 6490 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 1-3-how-the-spheres-interact | 6926 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2-1-following-the-money | 8007 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2-2-the-budget-process | 7602 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 2-3-from-treasury-to-your-town | 7178 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 3-1-the-awkward-middle-child | 7929 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 3-2-health-and-education-at-the-provincial-coal-face | 7507 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 3-3-municipal-councils | 9763 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | 4-1-your-right-to-participate | 9035 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 4-2-ward-committees-and-community-engagement | 7933 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 4-3-making-public-submissions | 6835 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 5-1-reading-the-auditor-generals-reports | 7284 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 5-2-using-government-data | 7089 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| 5-3-becoming-an-active-citizen | 5919 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 4-2-ward-committees-and-community-engagement | 7984 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 4-3-making-public-submissions | 6897 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 5-1-reading-the-auditor-generals-reports | 7308 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 5-2-using-government-data | 7144 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| 5-3-becoming-an-active-citizen | 5981 | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 ### Economic Growth & Development (16 articles)
 

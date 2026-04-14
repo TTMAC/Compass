@@ -53,7 +53,7 @@ Chapter 4 of the Municipal Systems Act creates a comprehensive legal obligation 
 
 ## Ward Committees: How They Actually Work
 
-Article 3.3 introduced ward committees as the most local participation structure in South African governance—advisory bodies that connect you to your ward councillor and, through them, to the municipal council. This section goes deeper: how ward committees are formed, what happens in a ward committee meeting, what a functional ward committee looks like versus a dysfunctional one, and how you can get involved.
+Section 72 of the Municipal Structures Act 117 of 1998 requires every municipality with a ward system — that is, all 213 Category B local municipalities and all 8 metros — to establish a ward committee of up to ten members for each ward, chaired by the ward councillor. That single statutory provision creates roughly 4,000 ward committees across the country, making it the most extensive formal community participation structure in South African governance. This section goes deeper than the introduction in *Municipal Councils*: how ward committees are formed, what happens in a ward committee meeting, what a functional ward committee looks like versus a dysfunctional one, and how you can get involved.
 
 
 ![Ward committees are the primary mechanism for community participation in local government | Photo by Sheila C on Unsplash](/images/articles/4-2-ward-committees-and-community-engagement/img-1.webp)

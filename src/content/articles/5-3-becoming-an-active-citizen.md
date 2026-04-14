@@ -143,7 +143,7 @@ It would be dishonest to write about active citizenship without acknowledging wh
 
 ### Declining Trust
 
-Trust in national government fell from 67% in 2003 to 26% in 2023. Trust in local government fell from 53% to 25% over the same period. These figures reflect a rational response to a lived experience: corruption scandals, service delivery failures, political promises that were not kept, and accountability mechanisms that appeared to produce reports but not consequences. When citizens disengage, they are often not apathetic — they are making a calculated judgment that engagement produces no return.
+Afrobarometer's South Africa survey rounds track a long decline: the share of respondents saying they trust the president "somewhat" or "a lot" fell from around two-thirds in the early 2000s to roughly a quarter by Round 9 (2021-2023), and trust in local government followed a similar downward path over the same period. These figures reflect a rational response to a lived experience: corruption scandals, service delivery failures, political promises that were not kept, and accountability mechanisms that appeared to produce reports but not consequences. When citizens disengage, they are often not apathetic — they are making a calculated judgment that engagement produces no return.
 
 This series has tried to give you a different calculation. The tools described in these fifteen articles — the budget data, the audit reports, the constitutional rights, the formal channels — exist precisely because the system's designers knew that trust alone is insufficient. They built accountability mechanisms that work through evidence, procedure, and institutional structure rather than through trust in individual politicians. You do not need to trust your municipal manager to hold them accountable. You need to know what they promised (the IDP and APP), what they received (the budget allocation), what they spent (the audit report), and what they delivered (the performance data). The evidence replaces the trust.
 
@@ -161,7 +161,7 @@ This divide is real, but it is not absolute. Ward committee meetings do not requ
 
 ### Protest and Institutional Engagement
 
-South Africa has one of the highest protest rates in the world. Since 2008, more than two million people have taken to the streets annually. In the first half of 2024 alone, 122 major service delivery protests were recorded — 38% of them triggered by electricity or water failures. For many communities, street protest has become the default response to governance failure, driven by the perception that formal channels do not produce results.
+South Africa has one of the highest protest rates in the world. Municipal IQ's *Municipal Hotspots Monitor*, which has tracked major service delivery protests at the municipal level since 2004, has consistently recorded over a hundred such protests per year in recent cycles, with water and electricity failures among the most common triggers. For many communities, street protest has become the default response to governance failure, driven by the perception that formal channels do not produce results.
 
 This series has focused on institutional engagement rather than protest — not because protest is illegitimate (Section 17 of the Constitution protects the right to assemble, demonstrate, and picket) but because institutional engagement and protest serve different functions. Protest signals urgency and creates political pressure. Institutional engagement — budget analysis, audit scrutiny, formal submissions, data-driven accountability — produces the evidence base that converts political pressure into specific remedies. The most effective civic movements in South Africa — TAC, Equal Education, the Social Justice Coalition — have combined both: street mobilisation to create urgency, and institutional engagement to specify the remedy and hold government to its commitments.
 
@@ -329,6 +329,8 @@ The analysis in this article draws on the following institutional research and p
 - Parliamentary Monitoring Group — committee proceedings and legislative tracking — [pmg.org.za](https://pmg.org.za)
 - Open Government Partnership — South Africa Action Plan 2024–2026 — [opengovpartnership.org/members/south-africa](https://www.opengovpartnership.org/members/south-africa/)
 - World Bank — social accountability frameworks and tools — [worldbank.org](https://www.worldbank.org)
+- Afrobarometer — South Africa country survey rounds on trust in institutions — [afrobarometer.org](https://www.afrobarometer.org)
+- Municipal IQ — *Municipal Hotspots Monitor* tracking major service delivery protests at municipal level — [municipaliq.co.za](https://www.municipaliq.co.za)
 - amaBhungane Centre for Investigative Journalism — [amabhungane.org](https://amabhungane.org)
 - GroundUp — public interest journalism on service delivery and human rights — [groundup.org.za](https://groundup.org.za)
 - Corruption Watch — citizen corruption reporting and open data tools — [corruptionwatch.org.za](https://www.corruptionwatch.org.za)

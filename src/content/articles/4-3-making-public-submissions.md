@@ -78,7 +78,7 @@ Not all public comment opportunities are the same. Understanding the different t
 
 ### Bills (Draft Legislation)
 
-A bill is a proposed law. Before a bill becomes an Act of Parliament, it must pass through a committee process that includes public participation. Bills may be introduced by a cabinet minister (in which case they are typically drafted by the relevant department and approved by cabinet before introduction) or by an individual member of Parliament (a private member's bill, which is less common).
+Section 59(1)(a) of the Constitution obliges the National Assembly to "facilitate public involvement in the legislative and other processes" of the Assembly and its committees — and the Constitutional Court has enforced this duty by striking down legislation where the obligation was not met (see the *Doctors for Life International* judgment of 2006 and *Matatiele Municipality* of 2006). That is the legal reason every bill introduced into Parliament triggers a call for public submissions before a parliamentary committee can finalise it. A bill is a proposed law, and may be introduced by a cabinet minister (in which case it is typically drafted by the relevant department and approved by cabinet before introduction) or by an individual member of Parliament (a private member's bill, which is less common).
 
 When a bill is referred to a parliamentary committee, the committee typically publishes a call for written submissions and may schedule public hearings. The call specifies the submission deadline, the format for submissions (usually email or postal address), and sometimes the specific issues on which the committee is seeking input. Bills are published in the Government Gazette and are available on Parliament's website.
 
