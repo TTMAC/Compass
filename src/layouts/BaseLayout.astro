@@ -58,6 +58,7 @@ const allSchemas = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={fullCanonical} />
@@ -127,6 +128,81 @@ const allSchemas = [
     <Footer />
 
     <CookieConsent />
+
+    <div
+      id="sw-update-banner"
+      class="hidden fixed bottom-4 left-1/2 -translate-x-1/2 z-50 px-4 py-3 rounded-lg shadow-lg bg-compass-green text-white font-heading text-sm flex items-center gap-3 max-w-[calc(100vw-2rem)]"
+      role="status"
+      aria-live="polite"
+    >
+      <span>A new version is available.</span>
+      <button
+        type="button"
+        id="sw-update-reload"
+        class="px-3 py-1 rounded bg-white text-compass-green font-semibold hover:bg-compass-green-light transition-colors"
+      >
+        Reload
+      </button>
+      <button
+        type="button"
+        id="sw-update-dismiss"
+        class="text-white/80 hover:text-white"
+        aria-label="Dismiss"
+      >
+        &times;
+      </button>
+    </div>
+
+    <script is:inline>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+          navigator.serviceWorker
+            .register("/sw.js")
+            .then(function (registration) {
+              function showUpdateBanner(waitingWorker) {
+                var banner = document.getElementById("sw-update-banner");
+                var reloadBtn = document.getElementById("sw-update-reload");
+                var dismissBtn = document.getElementById("sw-update-dismiss");
+                if (!banner || !reloadBtn || !dismissBtn) return;
+                banner.classList.remove("hidden");
+                reloadBtn.addEventListener("click", function () {
+                  waitingWorker.postMessage("SKIP_WAITING");
+                });
+                dismissBtn.addEventListener("click", function () {
+                  banner.classList.add("hidden");
+                });
+              }
+
+              if (registration.waiting) {
+                showUpdateBanner(registration.waiting);
+              }
+
+              registration.addEventListener("updatefound", function () {
+                var newWorker = registration.installing;
+                if (!newWorker) return;
+                newWorker.addEventListener("statechange", function () {
+                  if (
+                    newWorker.state === "installed" &&
+                    navigator.serviceWorker.controller
+                  ) {
+                    showUpdateBanner(newWorker);
+                  }
+                });
+              });
+            })
+            .catch(function () {
+              /* Registration failures should not break the page. */
+            });
+
+          var refreshing = false;
+          navigator.serviceWorker.addEventListener("controllerchange", function () {
+            if (refreshing) return;
+            refreshing = true;
+            window.location.reload();
+          });
+        });
+      }
+    </script>
 
     <script is:inline src="https://identity.netlify.com/v1/netlify-identity-widget.js" integrity="sha384-dy2tW8xkhLIj8lZR42MCwZhhDb2cCewZiw0uA65CMpdHiJzL+iubx7HzHcCXU2rW" crossorigin="anonymous"></script>
     <script is:inline>
