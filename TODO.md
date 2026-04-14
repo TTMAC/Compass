@@ -267,6 +267,7 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Resolution:** Added a conditional scope pill row inside each `<summary>` in `src/pages/real-steps-to-reform.astro`, rendered between the title and the disclosure chevron. Scope values are abbreviated to "Nat" / "Prov" / "Mun" so 1–3 pills fit comfortably beside the title on desktop without pushing the chevron off-screen. Each pill carries a `title` attribute with the full scope name ("National" / "Provincial" / "Municipal") for tooltip-on-hover and assistive-tech disambiguation. The container is `hidden sm:flex` so scope pills only appear from the `sm` breakpoint upward — on mobile the summary stays compact with just ID, title, and chevron, and full scope info is still visible after tapping to expand (the existing Scope row in the detail panel is unchanged). Build verified clean.
 
 ### Item 33: Verify source footer link target
-- **Status:** 🔲 Todo
+- **Status:** ✅ Done (no change needed)
 - **Why:** The source footer links to `/big-picture` — need to verify this route exists and is the correct destination for the series landing page.
 - **Action:** Check route exists; fix if broken.
+- **Resolution:** Verified. `src/pages/big-picture.astro` exists and builds to `dist/big-picture/index.html` (confirmed with a directory listing after `npm run build`). The footer link target is valid — no change required. Note: `astro.config.mjs` also has a redirect from `/series` → `/pillars/government-structure`, which is a separate path and doesn't affect this link.
