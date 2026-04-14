@@ -16,6 +16,33 @@ const reformCount = reforms.length;
 const legislativeCount = legislativeItems.length;
 const reformTitleById = new Map(reforms.map((r) => [r.id, r.title]));
 
+// Group legislative items by type for the Legislative Programme section
+const legislativeGroups: {
+  type: "new" | "amendment" | "constitutional";
+  heading: string;
+  description: string;
+  items: typeof legislativeItems;
+}[] = [
+  {
+    type: "new",
+    heading: "New Statutes",
+    description: "Wholly new legislation required to create institutions or frameworks that do not currently exist.",
+    items: legislativeItems.filter((l) => l.type === "new"),
+  },
+  {
+    type: "amendment",
+    heading: "Amendments to Existing Legislation",
+    description: "Changes to existing Acts to enable or implement the reform programme.",
+    items: legislativeItems.filter((l) => l.type === "amendment"),
+  },
+  {
+    type: "constitutional",
+    heading: "Possible Constitutional Amendment",
+    description: "Changes to the Constitution — to be pursued only if legislative reform proves insufficient.",
+    items: legislativeItems.filter((l) => l.type === "constitutional"),
+  },
+].filter((g) => g.items.length > 0);
+
 // Group reforms by workstream then phase
 const grouped = workstreams.map((ws) => {
   const wsReforms = reforms.filter((r) => r.workstream === ws.id);
@@ -326,10 +353,27 @@ const grouped = workstreams.map((ws) => {
           {ws.title}
         </h2>
       </div>
-      <p class="text-text-secondary leading-relaxed mb-1 ml-7">
+      <p class="text-text-secondary leading-relaxed mb-3 ml-7">
         {ws.vision}
       </p>
-      <div class="mb-6"></div>
+      <div class="ml-7 mb-6 flex gap-2" role="group" aria-label={`Expand or collapse ${ws.title} reform cards`}>
+        <button
+          type="button"
+          class="reform-expand-all font-heading text-xs font-semibold px-3 py-1 rounded border border-gray-200 text-text-secondary hover:border-gray-300 hover:bg-bg-secondary transition-colors"
+          data-workstream={ws.id}
+          data-action="expand"
+        >
+          Expand all
+        </button>
+        <button
+          type="button"
+          class="reform-expand-all font-heading text-xs font-semibold px-3 py-1 rounded border border-gray-200 text-text-secondary hover:border-gray-300 hover:bg-bg-secondary transition-colors"
+          data-workstream={ws.id}
+          data-action="collapse"
+        >
+          Collapse all
+        </button>
+      </div>
 
       {/* Phases */}
       {ws.phases.map((phase) => (
@@ -378,6 +422,21 @@ const grouped = workstreams.map((ws) => {
                       <span class="font-heading text-sm font-semibold text-text-primary flex-1">
                         {reform.title}
                       </span>
+                      {reform.scope && reform.scope.length > 0 && (
+                        <span class="hidden sm:flex items-center gap-1 shrink-0">
+                          {reform.scope.map((s) => {
+                            const label = s === "national" ? "Nat" : s === "provincial" ? "Prov" : "Mun";
+                            return (
+                              <span
+                                class="px-1.5 py-0.5 rounded text-[10px] font-heading font-semibold uppercase bg-gray-100 text-text-secondary"
+                                title={s.charAt(0).toUpperCase() + s.slice(1)}
+                              >
+                                {label}
+                              </span>
+                            );
+                          })}
+                        </span>
+                      )}
                       <svg
                         class="w-4 h-4 text-text-secondary shrink-0 transition-transform group-open:rotate-180"
                         fill="none"
@@ -502,36 +561,40 @@ const grouped = workstreams.map((ws) => {
       legislation, and {legislativeItems.filter(l => l.type === "constitutional").length} possible constitutional amendment.
     </p>
 
-    <div class="space-y-2">
-      {legislativeItems.map((item) => {
-        const ws = workstreams.find(w => w.id === item.workstream)!;
-        const typeLabel = item.type === "new" ? "New" : item.type === "amendment" ? "Amendment" : "Constitutional";
-        const typeBg = item.type === "new" ? "bg-compass-green text-white" : item.type === "amendment" ? "bg-gray-200 text-text-primary" : "bg-red-100 text-red-800";
-        return (
-          <a
-            href={`/articles/${item.articleSlug}`}
-            class="flex flex-wrap items-center gap-2 px-4 py-3 border border-gray-200 rounded-lg hover:border-gray-300 hover:bg-bg-secondary transition-colors group"
-          >
-            <span class="font-heading text-xs font-bold text-text-secondary w-8">{item.id}</span>
-            <span class="font-heading text-sm font-semibold text-text-primary flex-1 min-w-[200px] group-hover:text-compass-green transition-colors">
-              {item.name}
-            </span>
-            <span class={`font-heading text-[10px] font-bold uppercase px-2 py-0.5 rounded-full ${typeBg}`}>
-              {typeLabel}
-            </span>
-            <span
-              class="font-heading text-[10px] font-bold uppercase px-2 py-0.5 rounded-full text-white"
-              style={`background-color: ${ws.color}`}
-            >
-              {ws.shortTitle}
-            </span>
-            <span class="font-heading text-xs text-text-secondary">
-              {ws.phases.find(p => p.id === item.phase)?.years}
-            </span>
-          </a>
-        );
-      })}
-    </div>
+    {legislativeGroups.map((group) => (
+      <div class="mb-8 last:mb-0">
+        <h3 class="font-heading text-lg font-bold text-text-primary mb-1 flex items-baseline gap-2">
+          {group.heading}
+          <span class="font-heading text-xs font-semibold text-text-secondary">({group.items.length})</span>
+        </h3>
+        <p class="text-sm text-text-secondary mb-3">{group.description}</p>
+        <div class="space-y-2">
+          {group.items.map((item) => {
+            const ws = workstreams.find((w) => w.id === item.workstream)!;
+            return (
+              <a
+                href={`/articles/${item.articleSlug}`}
+                class="flex flex-wrap items-center gap-2 px-4 py-3 border border-gray-200 rounded-lg hover:border-gray-300 hover:bg-bg-secondary transition-colors group"
+              >
+                <span class="font-heading text-xs font-bold text-text-secondary w-8">{item.id}</span>
+                <span class="font-heading text-sm font-semibold text-text-primary flex-1 min-w-[200px] group-hover:text-compass-green transition-colors">
+                  {item.name}
+                </span>
+                <span
+                  class="font-heading text-[10px] font-bold uppercase px-2 py-0.5 rounded-full text-white"
+                  style={`background-color: ${ws.color}`}
+                >
+                  {ws.shortTitle}
+                </span>
+                <span class="font-heading text-xs text-text-secondary">
+                  {ws.phases.find((p) => p.id === item.phase)?.years}
+                </span>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    ))}
   </section>
 
   <!-- Cross-Cutting Enablers -->
@@ -767,6 +830,20 @@ const grouped = workstreams.map((ws) => {
   clearBtn.addEventListener("click", () => {
     activePhase = "";
     applyFilters();
+  });
+
+  // Expand all / Collapse all buttons per workstream section
+  document.querySelectorAll<HTMLButtonElement>(".reform-expand-all").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const ws = btn.dataset.workstream!;
+      const action = btn.dataset.action!;
+      const shouldOpen = action === "expand";
+      document
+        .querySelectorAll<HTMLDetailsElement>(`.reform-card[data-workstream="${ws}"]`)
+        .forEach((card) => {
+          card.open = shouldOpen;
+        });
+    });
   });
 
   // Dependency links: open the target reform card so it's visible after anchor scroll
