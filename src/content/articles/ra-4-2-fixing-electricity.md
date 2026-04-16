@@ -21,6 +21,12 @@ crossLinks:
   - slug: "eg-2-2-infrastructure-foundations"
     label: "Infrastructure Foundations"
     relationship: "Energy infrastructure as growth enabler"
+  - slug: "3-3-municipal-councils"
+    label: "Municipal Councils"
+    relationship: "The Council Accountability Framework for municipal electricity governance"
+  - slug: "2-3-from-treasury-to-your-town"
+    label: "From Treasury to Your Town"
+    relationship: "The Municipal Money Diagnostic Framework for electricity cross-subsidy analysis"
 seo:
   ogImage: "/og/ra-4-2-fixing-electricity.png"
   keywords:

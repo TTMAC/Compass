@@ -20,7 +20,10 @@ series:
 crossLinks:
   - slug: "3-3-municipal-councils"
     label: "Municipal Councils"
-    relationship: "Municipal governance and capacity challenges"
+    relationship: "The Council Accountability Framework and municipal capacity challenges"
+  - slug: "5-2-using-government-data"
+    label: "Using Government Data"
+    relationship: "The Evidence Chain Builder for diagnosing municipal information gaps"
 seo:
   ogImage: "/og/ra-4-4-building-municipal-capability.png"
   keywords:

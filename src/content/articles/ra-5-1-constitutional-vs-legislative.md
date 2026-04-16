@@ -19,7 +19,10 @@ series:
 crossLinks:
   - slug: "1-1-architecture-of-the-state"
     label: "The Architecture of the State"
-    relationship: "Constitutional structure that reform must work within"
+    relationship: "The Sphere Accountability Framework and constitutional structure that reform must work within"
+  - slug: "1-2-who-does-what"
+    label: "Who Does What"
+    relationship: "The 'Who Does What' Decision Framework for mapping reform to constitutional competences"
 seo:
   ogImage: "/og/ra-5-1-constitutional-vs-legislative.png"
   keywords:

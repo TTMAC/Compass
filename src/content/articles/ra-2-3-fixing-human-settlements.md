@@ -22,6 +22,9 @@ crossLinks:
   - slug: "2-3-from-treasury-to-your-town"
     label: "From Treasury to Your Town"
     relationship: "How conditional grants flow to housing projects"
+  - slug: "2-1-following-the-money"
+    label: "Following the Money"
+    relationship: "The Fiscal Pipeline Diagnostic for tracing housing grant failures"
 seo:
   ogImage: "/og/ra-2-3-fixing-human-settlements.png"
   keywords:

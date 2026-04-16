@@ -20,7 +20,10 @@ series:
 crossLinks:
   - slug: "3-1-the-awkward-middle-child"
     label: "The Awkward Middle Child"
-    relationship: "Provincial governance failures and intervention mechanisms"
+    relationship: "The Provincial Performance Assessment Framework and intervention mechanisms"
+  - slug: "1-3-how-the-spheres-interact"
+    label: "How the Spheres Interact"
+    relationship: "The Intergovernmental Navigation Framework for cross-sphere coordination failures"
 seo:
   ogImage: "/og/ra-3-3-when-provinces-fail.png"
   keywords:
@@ -209,6 +212,7 @@ The analysis in this article draws on the following institutional research and p
 - Department of Cooperative Governance and Traditional Affairs. Review of Section 139 municipal interventions and intervention design principles — [cogta.gov.za](https://www.cogta.gov.za)
 - Auditor-General of South Africa (2023). *PFMA Consolidated General Report 2022/23* — provincial audit outcomes, root cause analysis — [agsa.co.za](https://www.agsa.co.za)
 - National Treasury (2024). *2024 Budget Review* — provincial fiscal data, conditional grant expenditure — [treasury.gov.za](https://www.treasury.gov.za)
-- Public Affairs Research Institute. Research on Section 100 and Section 139 intervention outcomes — [pari.org.za](https://pari.org.za)
+- Public Affairs Research Institute. Fieldwork on intergovernmental forums and Section 100/Section 139 intervention outcomes (2014–2020) — [pari.org.za](https://pari.org.za)
+- Naidoo, V. (2009). "The Provincial Government Reform Process in South Africa" in *Politikon* 36(2); (2020). "South Africa: Reform, Reduce and Strengthen the Provinces" in Springer *Handbook of Federal Countries* — intervention paradox and provincial capacity analysis
 - Intergovernmental Relations Framework Act, 2005 — [gov.za](https://www.gov.za)
 - Department of Basic Education. Section27 litigation on Limpopo textbook delivery — [section27.org.za](https://www.section27.org.za)

@@ -21,6 +21,12 @@ crossLinks:
   - slug: "eg-4-3-infrastructure-planning-vs-reality"
     label: "Infrastructure Planning vs Reality"
     relationship: "Municipal infrastructure delivery gaps"
+  - slug: "3-3-municipal-councils"
+    label: "Municipal Councils"
+    relationship: "The Council Accountability Framework for waste and roads governance"
+  - slug: "2-3-from-treasury-to-your-town"
+    label: "From Treasury to Your Town"
+    relationship: "The Municipal Money Diagnostic Framework for infrastructure grant tracking"
 seo:
   ogImage: "/og/ra-4-3-fixing-waste-and-roads.png"
   keywords:

@@ -20,10 +20,16 @@ series:
 crossLinks:
   - slug: "4-1-your-right-to-participate"
     label: "Your Right to Participate"
-    relationship: "Constitutional participation rights that enable reform advocacy"
+    relationship: "The Participation Action Framework for exercising reform advocacy rights"
   - slug: "5-1-reading-the-auditor-generals-reports"
     label: "Reading the Auditor-General's Reports"
-    relationship: "Using AG data for RAARICLE™ diagnostics"
+    relationship: "The Audit Outcome Interrogation Framework for RAARICLE™ diagnostics"
+  - slug: "5-2-using-government-data"
+    label: "Using Government Data"
+    relationship: "The Evidence Chain Builder for constructing data-backed reform arguments"
+  - slug: "5-3-becoming-an-active-citizen"
+    label: "Becoming an Active Citizen"
+    relationship: "The Accountability Cycle Checklist for sustained reform engagement"
 seo:
   ogImage: "/og/ra-5-3-from-citizen-to-reformer.png"
   keywords:
@@ -137,7 +143,7 @@ For sector-specific diagnostics, you need sector-specific sources. The Departmen
 
 Operation Vulindlela — the joint initiative of the Presidency and National Treasury to accelerate structural reforms — publishes a reform tracker that monitors progress on priority reforms across energy, water, transport, telecommunications, and the visa regime. The tracker, available through the Presidency's website, tells you which reforms are on track, which are stalled, and what the bottlenecks are. If your proposed fix aligns with a Vulindlela priority, you have a powerful ally — and if it does not, you may need to advocate for its inclusion.
 
-For understanding what Parliament knows about your function, the Parliamentary Monitoring Group at pmg.org.za is an extraordinary resource. PMG records and publishes the proceedings of parliamentary portfolio committee meetings, where government departments report on their performance and are questioned by Members of Parliament. The committee minutes for Water and Sanitation, for Basic Education, for Cooperative Governance and Traditional Affairs, and for other portfolios contain detailed information about departmental performance, challenges, and planned reforms. If a department has told Parliament that it plans to address a problem you have identified, that creates an accountability trail you can use.
+For understanding what Parliament knows about your function, the Parliamentary Monitoring Group at pmg.org.za is an extraordinary resource. PMG — which has tracked and documented parliamentary committee proceedings since 1998, and whose published analyses of parliamentary oversight capacity include its 2022 *Monitoring Parliament* reviews — records and publishes the proceedings of parliamentary portfolio committee meetings, where government departments report on their performance and are questioned by Members of Parliament. The committee minutes for Water and Sanitation, for Basic Education, for Cooperative Governance and Traditional Affairs, and for other portfolios contain detailed information about departmental performance, challenges, and planned reforms. If a department has told Parliament that it plans to address a problem you have identified, that creates an accountability trail you can use.
 
 At the local level, your municipality is required by law to produce an Integrated Development Plan and an annual report. The IDP sets out the municipality's development priorities, service delivery targets, and budget allocations for a five-year cycle, with annual reviews. The annual report assesses performance against those targets. Both documents are supposed to be available on your municipality's website and at municipal offices. They are often poorly written, excessively long, and difficult to navigate — but they contain the municipality's own account of its performance, which you can compare against the AG's assessment and Stats SA's household-level data.
 

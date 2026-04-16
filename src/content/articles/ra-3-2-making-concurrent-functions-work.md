@@ -20,7 +20,10 @@ series:
 crossLinks:
   - slug: "1-2-who-does-what"
     label: "Who Does What"
-    relationship: "Constitutional allocation of functions across spheres"
+    relationship: "The 'Who Does What' Decision Framework for constitutional function allocation"
+  - slug: "1-3-how-the-spheres-interact"
+    label: "How the Spheres Interact"
+    relationship: "The Intergovernmental Navigation Framework for cross-sphere coordination"
 seo:
   ogImage: "/og/ra-3-2-making-concurrent-functions-work.png"
   keywords:

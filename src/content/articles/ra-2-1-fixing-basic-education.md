@@ -21,6 +21,9 @@ crossLinks:
   - slug: "3-2-health-and-education-at-the-provincial-coal-face"
     label: "Health and Education at the Provincial Coal Face"
     relationship: "Provincial delivery challenges for concurrent functions"
+  - slug: "2-1-following-the-money"
+    label: "Following the Money"
+    relationship: "The Fiscal Pipeline Diagnostic for tracing education budget failures"
 seo:
   ogImage: "/og/ra-2-1-fixing-basic-education.png"
   keywords:
@@ -38,7 +41,7 @@ Basic education touches more South Africans more directly than any other governm
 
 ## The Education Value Chain
 
-In the 2023 National Senior Certificate examinations, the national pass rate was 82.9 per cent. That figure sounds respectable until you examine what it conceals. **The pass threshold for a subject is 30 per cent** — a level that would constitute failure in most education systems globally. **Only 37.5 per cent of candidates achieved a bachelor's pass** — the minimum requirement for university entrance. The Progress in International Reading Literacy Study (PIRLS) has consistently shown that *roughly 81 per cent of South African Grade 4 learners cannot read for meaning*. The Trends in International Mathematics and Science Study (TIMSS) ranks South African learners near the bottom of participating countries. These outcomes are not the result of insufficient money. **They are the result of a broken delivery chain.**
+In the 2023 National Senior Certificate examinations, the national pass rate was 82.9 per cent. That figure sounds respectable until you examine what it conceals. **The pass threshold for a subject is 30 per cent** — a level that would constitute failure in most education systems globally. **Only 37.5 per cent of candidates achieved a bachelor's pass** — the minimum requirement for university entrance. The Progress in International Reading Literacy Study (PIRLS) has consistently shown that *roughly 81 per cent of South African Grade 4 learners cannot read for meaning*. In TIMSS 2019 — the most recent cycle for which South African results are available at the time of writing — South African Grade 5 learners scored an average of 374 in mathematics, against an international centre point of 500. These outcomes are not the result of insufficient money. **They are the result of a broken delivery chain.**
 
 To understand why education fails, you need to trace the value chain from national policy to the classroom — every institution, every handoff, every point where the chain can break. What you will find is not a single chain but a web of overlapping mandates, divided authorities, and fragmented responsibilities that no institutional designer would create from scratch.
 

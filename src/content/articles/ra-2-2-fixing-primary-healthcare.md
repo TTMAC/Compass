@@ -22,6 +22,12 @@ crossLinks:
   - slug: "hd-2-1-the-life-expectancy-deficit"
     label: "The Life Expectancy Deficit"
     relationship: "Health outcomes that governance reform must improve"
+  - slug: "2-1-following-the-money"
+    label: "Following the Money"
+    relationship: "The Fiscal Pipeline Diagnostic for tracing health budget failures"
+  - slug: "3-2-health-and-education-at-the-provincial-coal-face"
+    label: "Health and Education at the Provincial Coal Face"
+    relationship: "The School and Clinic Report Card Framework for provincial health delivery"
 seo:
   ogImage: "/og/ra-2-2-fixing-primary-healthcare.png"
   keywords:

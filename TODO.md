@@ -293,3 +293,31 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Why:** The source footer links to `/big-picture` — need to verify this route exists and is the correct destination for the series landing page.
 - **Action:** Check route exists; fix if broken.
 - **Resolution:** Verified. `src/pages/big-picture.astro` exists and builds to `dist/big-picture/index.html` (confirmed with a directory listing after `npm run build`). The footer link target is valid — no change required. Note: `astro.config.mjs` also has a redirect from `/series` → `/pillars/government-structure`, which is a separate path and doesn't affect this link.
+
+---
+
+## High Priority — Content: Pillar ↔ Reform Agenda Alignment
+
+### Item 35: Add framework cross-links from Reform Agenda to Pillar diagnostic frameworks
+- **Status:** ✅ Done
+- **Why:** Commit `5c4551d` added `:::framework` diagnostic sections (e.g. Fiscal Pipeline Diagnostic, Provincial Governance Diagnostic, Municipal Capability Diagnostic) to 12 Pillar articles. No Reform Agenda article currently references these frameworks, missing the opportunity to connect reform proposals to the foundational diagnostic tools readers have already encountered.
+- **Action:** Add `crossLinks` frontmatter entries and/or in-body references from relevant RA articles to the Pillar framework sections. Key mappings: ra-2-1/ra-2-2/ra-2-3 → Fiscal Pipeline Diagnostic (2-1); ra-3-1/ra-3-3 → Provincial frameworks (3-1, 3-2); ra-4-1 through ra-4-4 → Municipal framework (3-3); ra-5-3 → Citizen participation frameworks (4-1, 5-1, 5-2).
+- **Resolution:** Added 18 new `crossLinks` entries across 12 RA articles. Each cross-link references the specific framework name from the Pillar article (e.g. "The Fiscal Pipeline Diagnostic for tracing education budget failures", "The Council Accountability Framework for municipal water governance"). Also updated existing cross-link relationship descriptions to reference framework names where applicable (e.g. ra-3-1's link to 3-1 now mentions "Provincial Performance Assessment Framework", ra-5-3's links now reference "Participation Action Framework" and "Audit Outcome Interrogation Framework").
+
+### Item 36: Align research citation precision between Pillar and Reform Agenda articles
+- **Status:** ✅ Done
+- **Why:** Commit `75e5256` added specific publication dates, report titles, and edition years to research citations across all 15 Pillar articles (e.g. PARI fieldwork "2014–2020", SACN "2016 and 2021 cycles", Spaull "2013 CDE report", FFC "2023/24 Submission", PBO "2023 and 2024 MTBPS analyses"). Where Reform Agenda articles cite the same sources, the citation specificity should match for editorial consistency and credibility.
+- **Action:** Audit and update citations in RA articles that reference the same research sources updated in Pillar articles: PARI (ra-1-2, ra-3-2), SACN (ra-4-4), Spaull/RESEP (ra-2-1), FFC (ra-3-1), PBO (ra-5-1), PMG (ra-5-3), Naidoo Section 100 (ra-3-3), municipal debt R300B figure (ra-2-1), municipal grant underspending R5.8B (ra-4-1 through ra-4-3).
+- **Resolution:** Audited all 16 RA articles. Updated: (1) ra-3-1 FFC citation now specifies "*Submission for the Division of Revenue 2023/24*"; (2) ra-3-1 PARI citation now dates fieldwork "between approximately 2014 and 2020"; (3) ra-5-3 PMG citation now includes founding date (1998) and references "2022 *Monitoring Parliament* reviews"; (4) ra-2-1 TIMSS data now specifies "TIMSS 2019" with score detail matching Pillar precision; (5) ra-3-3 resources section now includes Naidoo's specific publications (*Politikon* 36(2) 2009 and Springer *Handbook of Federal Countries* 2020) and dates PARI fieldwork. Sources that were flagged but do not appear in RA articles (SACN, PBO, Spaull/RESEP, NEEDU, medico-legal, municipal debt R300B, grant underspending R5.8B) — no changes needed as these are Pillar-only citations.
+
+### Item 37: Verify heading/anchor consistency after Pillar heading rename
+- **Status:** ✅ Done
+- **Why:** The heading in `3-3-municipal-councils.md` was renamed from "The Governance Gap That Affects You Most" to "A Governance Gap the Council Does Not Close". Any RA article linking to the old anchor would produce a broken in-page link.
+- **Action:** Search all RA articles for references to the old heading text or its slug anchor. Fix any broken references.
+- **Resolution:** Searched all RA articles for "governance-gap-that-affects" and "Governance Gap That Affects" — zero matches. No broken anchors.
+
+### Item 38: Verify build after Pillar ↔ Reform Agenda alignment changes
+- **Status:** ✅ Done
+- **Why:** Content changes to crossLinks frontmatter and article body text must compile cleanly against the Zod content schema.
+- **Action:** Run `npm run build` and confirm zero errors.
+- **Resolution:** `npm run build` completed successfully. All 96 HTML pages built, Pagefind indexed 94 pages. Zero Zod validation errors on updated crossLinks frontmatter.

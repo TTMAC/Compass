@@ -20,7 +20,10 @@ series:
 crossLinks:
   - slug: "3-3-municipal-councils"
     label: "Municipal Councils"
-    relationship: "Municipal governance structures responsible for water services"
+    relationship: "The Council Accountability Framework for municipal water governance"
+  - slug: "2-3-from-treasury-to-your-town"
+    label: "From Treasury to Your Town"
+    relationship: "The Municipal Money Diagnostic Framework for tracing water infrastructure grants"
 seo:
   ogImage: "/og/ra-4-1-fixing-water-and-sanitation.png"
   keywords:
