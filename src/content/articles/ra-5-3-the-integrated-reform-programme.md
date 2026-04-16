@@ -67,20 +67,33 @@ The diagnostic work across Parts 2, 3, and 4 of this series examined government 
 
 ### The Cross-Pillar RAARICLE™ Matrix
 
-Consider the eight RAARICLE™ elements rated across the major functions analysed in this series. The severity ratings below synthesise the diagnostic findings from the function-specific articles:
+Consider the eight RAARICLE™ elements rated across the major functions analysed in this series. The severity ratings below synthesise the diagnostic findings from the function-specific articles. Ratings use the 1–5 scale: 1 = critical failure, 2 = severe gap, 3 = moderate tension, 4 = functional, 5 = well-aligned.
 
-| Function | R | A | Au | Re | I | C | L | E | Primary Pattern |
-|---|---|---|---|---|---|---|---|---|---|
-| Basic Education | 2 | 2 | 1 | 3 | 2 | 2 | 4 | 1 | Misalignment |
-| Primary Healthcare | 2 | 2 | 2 | 2 | 3 | 2 | 4 | 1 | Fragmentation |
-| Human Settlements | 1 | 2 | 1 | 2 | 1 | 2 | 3 | 1 | Fragmentation |
-| Water & Sanitation | 2 | 2 | 2 | 2 | 2 | 1 | 3 | 1 | Conflation |
-| Electricity | 3 | 2 | 2 | 2 | 3 | 2 | 3 | 2 | Misalignment |
-| Waste Management | 2 | 2 | 3 | 1 | 1 | 1 | 3 | 1 | Absence |
-| Municipal Roads | 2 | 2 | 3 | 1 | 1 | 1 | 4 | 1 | Absence |
-| Provincial Governance | 2 | 2 | 2 | 3 | 2 | 2 | 4 | 1 | Misalignment |
+**Institutional Design Elements**
 
-**R** = Responsibility, **A** = Accountability, **Au** = Authority, **Re** = Resources, **I** = Information, **C** = Capability, **L** = Legitimacy, **E** = Enforcement
+| Function | Resp. | Acct. | Auth. | Res. |
+|---|---|---|---|---|
+| Basic Education | 2 | 2 | 1 | 3 |
+| Primary Healthcare | 2 | 2 | 2 | 2 |
+| Human Settlements | 1 | 2 | 1 | 2 |
+| Water & Sanitation | 2 | 2 | 2 | 2 |
+| Electricity | 3 | 2 | 2 | 2 |
+| Waste Management | 2 | 2 | 3 | 1 |
+| Municipal Roads | 2 | 2 | 3 | 1 |
+| Provincial Governance | 2 | 2 | 2 | 3 |
+
+**Operational Capacity Elements**
+
+| Function | Info. | Capab. | Legit. | Enforc. | Primary Pattern |
+|---|---|---|---|---|---|
+| Basic Education | 2 | 2 | 4 | 1 | Misalignment |
+| Primary Healthcare | 3 | 2 | 4 | 1 | Fragmentation |
+| Human Settlements | 1 | 2 | 3 | 1 | Fragmentation |
+| Water & Sanitation | 2 | 1 | 3 | 1 | Conflation |
+| Electricity | 3 | 2 | 3 | 2 | Misalignment |
+| Waste Management | 1 | 1 | 3 | 1 | Absence |
+| Municipal Roads | 1 | 1 | 4 | 1 | Absence |
+| Provincial Governance | 2 | 2 | 4 | 1 | Misalignment |
 
 Three patterns dominate.
 
