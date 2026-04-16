@@ -92,6 +92,27 @@ export interface ScorecardOutcome {
   year10?: string;
 }
 
+export interface CaptureVector {
+  number: number;
+  name: string;
+  description: string;
+  defences: string;
+  articleSlug: string;
+}
+
+export interface CycleScorecardIndicator {
+  indicator: string;
+  source: string;
+  threshold: string;
+}
+
+export interface CycleScorecardLink {
+  id: "safety-growth" | "growth-development" | "development-safety";
+  label: string;
+  description: string;
+  indicators: CycleScorecardIndicator[];
+}
+
 // ── Workstreams ──────────────────────────────────────────────
 
 export const workstreams: Workstream[] = [
@@ -585,6 +606,18 @@ export const reforms: Reform[] = [
     articleSlug: "ra-4-1-fixing-water-and-sanitation",
   },
   {
+    id: "2D.6",
+    workstream: "reform-agenda",
+    phase: "phase-2",
+    subgroup: "Water and Sanitation Reform",
+    title: "Independent Water Services Economic Regulator",
+    description:
+      "Establish an independent economic regulator for water services through Section 76 amendment to the Water Services Act, separating economic regulation from the Department of Water and Sanitation's policy and operational mandate. Mirrors the NERSA model for electricity and removes the structural conflict in which the same department sets policy, operates infrastructure, and regulates compliance.",
+    legislative: "Amendments to Water Services Act, 1997",
+    scope: ["national"],
+    articleSlug: "ra-5-1-constitutional-vs-legislative",
+  },
+  {
     id: "2E.1",
     workstream: "reform-agenda",
     phase: "phase-2",
@@ -682,6 +715,78 @@ export const reforms: Reform[] = [
     scope: ["municipal"],
     articleSlug: "ra-4-3-fixing-waste-and-roads",
   },
+  {
+    id: "2J.1",
+    workstream: "reform-agenda",
+    phase: "phase-2",
+    subgroup: "Anti-Capture Architecture",
+    title: "Independent Appointment Verification",
+    description:
+      "No appointment to a prescribed senior technical post (municipal manager, CFO, head of infrastructure, head of supply chain) may be finalised until an independent professional body certifies that the candidate meets the prescribed minimum qualifications and experience requirements. Defends Vector 1 (political capture) by closing the gap between Municipal Systems Act competency rules and their non-enforcement.",
+    legislative: "Amendments to Municipal Systems Act and Public Service Act",
+    scope: ["national", "provincial", "municipal"],
+    articleSlug: "ra-5-2-anti-capture-architecture",
+  },
+  {
+    id: "2J.2",
+    workstream: "reform-agenda",
+    phase: "phase-2",
+    subgroup: "Anti-Capture Architecture",
+    title: "Beneficial Ownership Disclosure at Tender Submission",
+    description:
+      "Every company bidding for government work must disclose its full beneficial ownership chain at the point of tender submission, verified against the CIPC beneficial ownership register and cross-referenced against the database of restricted suppliers. Defends Vector 2 (commercial capture) by eliminating the opacity that allows captured procurement to operate within formal compliance.",
+    legislative: "Amendments to Public Procurement framework; integration with Companies Act, 2008",
+    scope: ["national", "provincial", "municipal"],
+    articleSlug: "ra-5-2-anti-capture-architecture",
+  },
+  {
+    id: "2J.3",
+    workstream: "reform-agenda",
+    phase: "phase-2",
+    subgroup: "Anti-Capture Architecture",
+    title: "National E-Procurement Platform with Open Contracting",
+    description:
+      "Mandatory transactional e-procurement platform — modelled on KONEPS (South Korea), ChileCompra (Chile), and ProZorro (Ukraine) — with automated price benchmarking, anomaly flagging, and publication of all procurement data in the Open Contracting Data Standard format. Replaces the current eTender portal's advertisement-only function with a full transactional platform that generates the data needed to detect collusion and commercial capture in real time.",
+    legislative: "Public Procurement Bill / regulations under PFMA and MFMA",
+    scope: ["national", "provincial", "municipal"],
+    articleSlug: "ra-5-2-anti-capture-architecture",
+  },
+  {
+    id: "2J.4",
+    workstream: "reform-agenda",
+    phase: "phase-2",
+    subgroup: "Anti-Capture Architecture",
+    title: "Cooling-Off Periods (Revolving Door)",
+    description:
+      "Senior officials of regulated entities prohibited from taking positions at the regulator (and vice versa) for a prescribed period of two to five years, with disclosure requirements and penalties for non-compliance. Defends Vector 4 (regulatory capture) by reducing the incentive effects of the revolving door between regulators and regulated industries.",
+    legislative: "New Regulator Independence Act or amendments to sector regulator statutes",
+    scope: ["national"],
+    articleSlug: "ra-5-2-anti-capture-architecture",
+  },
+  {
+    id: "2J.5",
+    workstream: "reform-agenda",
+    phase: "phase-2",
+    subgroup: "Anti-Capture Architecture",
+    title: "Whistleblower Protection Strengthening",
+    description:
+      "Strengthen the Protected Disclosures Act with anonymous reporting channels, independent investigation of disclosures, identity protection, and meaningful consequences for retaliation. Combines legal protection with institutional mechanisms that make it safe to report — addressing the practical reality that whistleblowers in South Africa frequently face dismissal, harassment, and physical threats.",
+    legislative: "Amendments to Protected Disclosures Act, 2000",
+    scope: ["national"],
+    articleSlug: "ra-5-2-anti-capture-architecture",
+  },
+  {
+    id: "2J.6",
+    workstream: "reform-agenda",
+    phase: "phase-2",
+    subgroup: "Anti-Capture Architecture",
+    title: "Automated Data Pipelines (Bypass Management Filtering)",
+    description:
+      "Institutional information systems configured to transmit operational data automatically and directly to oversight platforms — financial system data to Treasury and council dashboards, healthcare stock data to district and provincial dashboards, water quality data to DWS — without the data passing through a management review and filtering process. Defends Vector 5 (information capture) by eliminating the ability of captured management to control what reaches oversight bodies.",
+    legislative: "Regulatory; mSCOA, DHIS, and sector reporting standards",
+    scope: ["national", "provincial", "municipal"],
+    articleSlug: "ra-5-2-anti-capture-architecture",
+  },
 
   // ── Reform Agenda: Phase 3 ──
   {
@@ -749,6 +854,69 @@ export const reforms: Reform[] = [
       "Create binding joint accountability frameworks across national, provincial, and municipal entities for concurrent functions.",
     scope: ["national"],
     articleSlug: "ra-5-1-constitutional-vs-legislative",
+  },
+  {
+    id: "2I.1",
+    workstream: "reform-agenda",
+    phase: "phase-3",
+    subgroup: "Programme Architecture and Coordination",
+    title: "Statutory Reform Coordination Office",
+    description:
+      "Establish a statutory Reform Coordination Office — building on and formalising the Operation Vulindlela model — with a legislated mandate, guaranteed budget, and defined authority. Located in the Presidency with joint reporting to National Treasury. Functions: legislative coordination of function-specific amendment bills, implementation tracking against milestones, cross-cutting problem resolution, and stakeholder coordination. The critical difference from Vulindlela is statutory authority — a future president would need to amend or repeal the Act through Parliament, not simply redirect executive attention.",
+    legislative: "New Governance Reform Programme Act",
+    scope: ["national"],
+    articleSlug: "ra-5-3-the-integrated-reform-programme",
+  },
+  {
+    id: "2I.2",
+    workstream: "reform-agenda",
+    phase: "phase-3",
+    subgroup: "Programme Architecture and Coordination",
+    title: "Protected Technical Appointments Framework",
+    description:
+      "Legislate a framework for protected technical appointments — prescribed posts in provincial departments and municipalities filled through merit-based processes with defined professional qualifications, from which incumbents cannot be removed except through prescribed disciplinary procedures. Covers: chief engineers, process controllers, town planners, CFOs (extending existing MFMA protection), heads of water and electricity services, district health managers, and school subject advisors.",
+    legislative: "Component of Governance Reform Programme Act",
+    scope: ["national", "provincial", "municipal"],
+    articleSlug: "ra-5-3-the-integrated-reform-programme",
+    dependsOn: ["2J.1"],
+  },
+  {
+    id: "2I.3",
+    workstream: "reform-agenda",
+    phase: "phase-3",
+    subgroup: "Programme Architecture and Coordination",
+    title: "Automatic Enforcement Architecture",
+    description:
+      "Replace the discretionary Section 100 / Section 139 intervention models with a rules-based enforcement architecture. For each covered function: minister-defined performance thresholds gazetted and updated; a graduated response protocol that activates automatically (Tier 1 technical support, Tier 2 joint management, Tier 3 temporary administration); binding exit criteria preventing premature return to autonomy; and quarterly publication of every institution's enforcement status on the public dashboard.",
+    legislative: "Component of Governance Reform Programme Act",
+    scope: ["national", "provincial", "municipal"],
+    articleSlug: "ra-5-3-the-integrated-reform-programme",
+  },
+  {
+    id: "2I.4",
+    workstream: "reform-agenda",
+    phase: "phase-3",
+    subgroup: "Programme Architecture and Coordination",
+    title: "Coherence Assessment and Annual Parliamentary Report",
+    description:
+      "Annual report tabled in Parliament covering performance data, enforcement actions and outcomes, legislative progress, capability indicators for protected appointments, and a dedicated coherence assessment that applies the RAARICLE™ framework to the reform programme itself — testing whether components are interacting as designed or producing unintended consequences. Subject to debate in both the National Assembly and the NCOP.",
+    legislative: "Component of Governance Reform Programme Act",
+    scope: ["national"],
+    articleSlug: "ra-5-3-the-integrated-reform-programme",
+    dependsOn: ["2I.1"],
+  },
+  {
+    id: "2I.5",
+    workstream: "reform-agenda",
+    phase: "phase-3",
+    subgroup: "Programme Architecture and Coordination",
+    title: "Cycle Management Mandate (Phase 4 Evolution)",
+    description:
+      "After Year 5, Parliament reviews and amends the Reform Coordination Office's mandate — expanding its statutory functions from reform coordination to ongoing cycle management. The Office becomes the permanent institution responsible for monitoring and managing the reinforcing cycle across safety, growth, and development, with reporting obligations expanding to include the Reinforcing Cycle Scorecard alongside RAARICLE™ compliance and function-specific performance data.",
+    legislative: "Amendments to Governance Reform Programme Act",
+    scope: ["national"],
+    articleSlug: "ra-5-3-the-integrated-reform-programme",
+    dependsOn: ["2I.1", "2I.4"],
   },
 
   // ── Economic Growth: Phase 1 ──
@@ -1142,6 +1310,10 @@ export const legislativeItems: LegislativeItem[] = [
   { id: "L.11", name: "Water Services Act", type: "amendment", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-4-1-fixing-water-and-sanitation" },
   { id: "L.12", name: "Municipal Finance Management Act", type: "amendment", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-4-4-building-municipal-capability" },
   { id: "L.13", name: "Electricity Regulation Amendment Act, 2024", type: "amendment", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-4-2-fixing-electricity" },
+  { id: "L.15", name: "Governance Reform Programme Act", type: "new", workstream: "reform-agenda", phase: "phase-3", articleSlug: "ra-5-3-the-integrated-reform-programme" },
+  { id: "L.16", name: "Public Procurement Bill (Open Contracting & Beneficial Ownership)", type: "new", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-5-2-anti-capture-architecture" },
+  { id: "L.17", name: "Water Services Act, 1997 (Independent Economic Regulator)", type: "amendment", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-5-1-constitutional-vs-legislative" },
+  { id: "L.18", name: "Protected Disclosures Act, 2000 (Whistleblower Strengthening)", type: "amendment", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-5-2-anti-capture-architecture" },
   // Constitutional
   { id: "L.14", name: "Schedule 4 concurrent function clarity", type: "constitutional", workstream: "reform-agenda", phase: "phase-3", articleSlug: "ra-5-1-constitutional-vs-legislative" },
 ];
@@ -1157,6 +1329,9 @@ export const milestones: Milestone[] = [
       { text: "MSME ecosystem integration audit", workstream: "economic-growth" },
       { text: "RAARICLE™ diagnostic assessments across concurrent functions", workstream: "reform-agenda" },
       { text: "Revenue ring-fencing legislation drafted", workstream: "reform-agenda" },
+      { text: "Integrated Governance Performance Platform (IGPP) live, aggregating AGSA, Treasury, DPME data", workstream: "reform-agenda" },
+      { text: "MFMA regulations mandating ring-fenced revenue for municipal trading services", workstream: "reform-agenda" },
+      { text: "Conditional grants shifted from input-based to outcome-based via DORA", workstream: "reform-agenda" },
       { text: "Teacher development programme launch", workstream: "human-development" },
       { text: "District-level human development baseline", workstream: "human-development" },
       { text: "Business registration simplification (48-hour target)", workstream: "economic-growth" },
@@ -1171,6 +1346,9 @@ export const milestones: Milestone[] = [
       { text: "Community courts operational", workstream: "safety-security" },
       { text: "Three-tier policing piloted in 2–3 provinces", workstream: "safety-security" },
       { text: "WSA/WSP separation implemented", workstream: "reform-agenda" },
+      { text: "Statutory Reform Coordination Office operational with legislated mandate", workstream: "reform-agenda" },
+      { text: "Governance Reform Programme Act passed; coordinated function-specific bills introduced", workstream: "reform-agenda" },
+      { text: "National e-procurement platform live with Open Contracting Data Standard publication", workstream: "reform-agenda" },
       { text: "Small Business Guarantee Fund lending at scale", workstream: "economic-growth" },
       { text: "First export cluster products entering international markets", workstream: "economic-growth" },
       { text: "Reinforcing cycle measurable in bundled intervention districts", workstream: "human-development" },
@@ -1185,6 +1363,8 @@ export const milestones: Milestone[] = [
       { text: "Rehabilitation-centred corrections system functional", workstream: "safety-security" },
       { text: "Integrated Criminal Justice Information System fully deployed", workstream: "safety-security" },
       { text: "Municipal service delivery structurally reformed", workstream: "reform-agenda" },
+      { text: "Reform Coordination Office mandate expanded to permanent cycle management (Phase 4)", workstream: "reform-agenda" },
+      { text: "Reinforcing Cycle Scorecard published annually as part of parliamentary report", workstream: "reform-agenda" },
       { text: "Diversified export base reducing commodity dependence", workstream: "economic-growth" },
       { text: "Self-sustaining venture ecosystems", workstream: "economic-growth" },
       { text: "Measurable intergenerational human development gains", workstream: "human-development" },
@@ -1201,6 +1381,8 @@ export const digitalInfrastructure: CrossCuttingDigital[] = [
   { id: "CC.3", initiative: "Real-Time Education Data Systems", workstreams: "Reform Agenda, Human Development" },
   { id: "CC.4", initiative: "Digital Financial Inclusion Infrastructure", workstreams: "Economic Growth" },
   { id: "CC.5", initiative: "Municipal Service Performance Dashboards", workstreams: "Reform Agenda" },
+  { id: "CC.6", initiative: "Integrated Governance Performance Platform (IGPP)", workstreams: "Reform Agenda (cross-pillar — aggregates AGSA, Treasury, DPME, sector data)" },
+  { id: "CC.7", initiative: "National E-Procurement Platform (Open Contracting Data Standard)", workstreams: "Reform Agenda, Economic Growth" },
 ];
 
 export const structuralPrinciples: StructuralPrinciple[] = [
@@ -1209,6 +1391,7 @@ export const structuralPrinciples: StructuralPrinciple[] = [
   { title: "Consolidation of End-to-End Responsibility", description: "A single entity must own the full delivery chain for a given outcome. When responsibility is fragmented across multiple departments or spheres of government, no one is accountable when the system fails.", examples: "Housing, education, healthcare, criminal justice pipeline" },
   { title: "Automatic Enforcement Triggers", description: "Intervention mechanisms must activate automatically when defined thresholds are breached. Relying on political discretion to trigger intervention means failing institutions are left to deteriorate until crises force action.", examples: "Provincial intervention thresholds, municipal service failure protocols, court case-flow time limits" },
   { title: "Performance-Based Accountability", description: "Every institution must be measured against clear, published performance standards with real consequences for sustained failure. Without transparent metrics and enforced accountability, underperformance becomes entrenched.", examples: "Scorecards, rankings, and consequences at every level" },
+  { title: "Structured Autonomy", description: "The entity closest to delivery holds operational authority, within outcome standards set by the entity with the broader mandate, with automatic enforcement when outcomes fall short. Legislated as a binding design standard for all concurrent functions: every institutional arrangement must pass the structured autonomy test or fail it.", examples: "Provincial education delivery within national outcome standards; municipal water provision within DWS quality regulation; district PHC operations within provincial oversight" },
 ];
 
 // ── RAARICLE™ Framework ───────────────────────────────────────
@@ -1294,3 +1477,97 @@ export const scorecardOutcomes: Record<WorkstreamId, ScorecardOutcome[]> = {
     { outcome: "Social Grant Reach and Adequacy" },
   ],
 };
+
+// ── Capture Vectors (Anti-Capture Architecture) ──────────────
+
+export const captureVectors: CaptureVector[] = [
+  {
+    number: 1,
+    name: "Political Capture",
+    description:
+      "Political authority over technical appointments and pricing decisions is exercised to install loyalists, displace technical professionals, and suppress tariffs to below cost-recovery levels — destroying institutional capability and financial sustainability.",
+    defences:
+      "Independent appointment verification; protected tenure for technical staff; separation of tariff-setting from the political cycle; independent boards for service entities; transparency of all appointments and tariff decisions.",
+    articleSlug: "ra-5-2-anti-capture-architecture",
+  },
+  {
+    number: 2,
+    name: "Commercial Capture",
+    description:
+      "Public procurement is redirected to serve private interests through bid rigging, specification manipulation, emergency procurement bypasses, contract variations, and beneficial-ownership opacity. Most damaging forms operate within the formal rules.",
+    defences:
+      "E-procurement with automated price benchmarking; Open Contracting Data Standard publication; mandatory beneficial-ownership disclosure at tender; automatic flagging of procurement anomalies; contract management and payment verification.",
+    articleSlug: "ra-5-2-anti-capture-architecture",
+  },
+  {
+    number: 3,
+    name: "Labour Capture",
+    description:
+      "Organised labour's institutional power is redirected from protecting workers' legitimate interests to protecting arrangements that serve union leadership and connected members at the expense of service delivery — through resistance to performance management, bloated non-technical headcount, and procedural complexity that defeats discipline.",
+    defences:
+      "Outcome-based performance contracts for senior officials; right-sizing linked to service delivery benchmarks; separation of national salary bargaining from operational conditions; transparent staffing data; streamlined disciplinary processes with time limits.",
+    articleSlug: "ra-5-2-anti-capture-architecture",
+  },
+  {
+    number: 4,
+    name: "Regulatory Capture",
+    description:
+      "A regulator established to oversee an industry instead operates in the regulated entity's interest — through the revolving door, information asymmetry, and political pressure. NERSA's tariff record and DWS's Blue Drop / Green Drop suspension are South African examples.",
+    defences:
+      "Automatic enforcement triggers tied to published performance data; cooling-off periods for regulator/industry movement; separate regulator funding (industry levies); mandatory publication of all regulatory decisions and underlying data; independent technical capacity inside the regulator.",
+    articleSlug: "ra-5-2-anti-capture-architecture",
+  },
+  {
+    number: 5,
+    name: "Information Capture",
+    description:
+      "Senior management controls what information reaches oversight bodies — through filtered reports, delayed reporting, and narrative management. The gap between management reports and AGSA findings is the most systematic evidence in South Africa.",
+    defences:
+      "Automated data pipelines that bypass management; mandatory real-time publication of key performance indicators; direct data access for oversight bodies; independent verification of service delivery data; whistleblower protection with anonymous reporting and consequences for retaliation.",
+    articleSlug: "ra-5-2-anti-capture-architecture",
+  },
+];
+
+// ── Reinforcing Cycle Scorecard (Phase 4: Cycle Management) ──
+
+export const reinforcingCycleScorecard: CycleScorecardLink[] = [
+  {
+    id: "safety-growth",
+    label: "Link 1: Safety → Growth",
+    description:
+      "Whether the safety reforms are creating the security conditions that investors, businesses, and infrastructure operators need to commit capital and create employment.",
+    indicators: [
+      { indicator: "Homicide rate per 100,000", source: "SAPS crime statistics", threshold: "Below 30 (from ~45)" },
+      { indicator: "Business crime victimisation rate", source: "Stats SA Victims of Crime Survey", threshold: "Below 10%" },
+      { indicator: "Infrastructure theft losses (Eskom, Transnet, Telkom)", source: "SOE annual reports", threshold: "Below R3 billion" },
+      { indicator: "FDI inflows as % of GDP", source: "SARB quarterly bulletin", threshold: "Above 2%" },
+      { indicator: "Small business formation rate", source: "CIPC registrations / Stats SA QLFS", threshold: "Year-on-year increase" },
+    ],
+  },
+  {
+    id: "growth-development",
+    label: "Link 2: Growth → Development",
+    description:
+      "Whether economic growth is generating the fiscal space needed to fund education, health, and social investment in real terms — and whether that funding is reaching the front line rather than being captured by debt service.",
+    indicators: [
+      { indicator: "Real GDP per capita growth", source: "Stats SA / SARB", threshold: "Above 1.5%" },
+      { indicator: "Real per-learner education spending", source: "National Treasury ENE", threshold: "Year-on-year increase" },
+      { indicator: "Real per-capita health spending", source: "National Treasury ENE", threshold: "Year-on-year increase" },
+      { indicator: "Debt service as % of revenue", source: "National Treasury", threshold: "Below 15%" },
+      { indicator: "Expanded unemployment rate", source: "Stats SA QLFS", threshold: "Below 35% (from ~42%)" },
+    ],
+  },
+  {
+    id: "development-safety",
+    label: "Link 3: Development → Safety",
+    description:
+      "Whether human development outcomes — learning, employment, health, equality — are producing the capable, employed, healthy population that closes the cycle by reinforcing safety and reducing the conditions that drive crime.",
+    indicators: [
+      { indicator: "Grade 4 reading proficiency (PIRLS)", source: "DBE / IEA", threshold: "Above 40% (from ~19%)" },
+      { indicator: "Youth unemployment (15–34)", source: "Stats SA QLFS", threshold: "Below 45% (from ~60%)" },
+      { indicator: "Childhood stunting rate", source: "DHS / NDoH", threshold: "Below 20% (from ~27%)" },
+      { indicator: "Life expectancy at birth", source: "Stats SA mid-year estimates", threshold: "Above 68 years" },
+      { indicator: "IHDI (Inequality-adjusted HDI)", source: "UNDP HDR", threshold: "Above 0.55 (from ~0.468)" },
+    ],
+  },
+];

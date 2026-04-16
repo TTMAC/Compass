@@ -10,6 +10,8 @@ import {
   raaricleElements,
   failurePatterns,
   scorecardOutcomes,
+  captureVectors,
+  reinforcingCycleScorecard,
 } from "@data/reforms";
 
 const reformCount = reforms.length;
@@ -112,11 +114,13 @@ const grouped = workstreams.map((ws) => {
     <a href="#timeline" class="text-compass-green hover:underline">Timeline</a>
     <a href="#milestones" class="text-compass-green hover:underline">Milestones</a>
     <a href="#raaricle" class="text-compass-green hover:underline">RAARICLE Framework</a>
+    <a href="#capture-vectors" class="text-compass-green hover:underline">Capture Vectors</a>
     {grouped.map((ws) => (
       <a href={`#${ws.id}`} class="hover:underline" style={`color: ${ws.color}`}>{ws.shortTitle}</a>
     ))}
     <a href="#legislative" class="text-compass-green hover:underline">Legislative Programme</a>
     <a href="#enablers" class="text-compass-green hover:underline">Enablers</a>
+    <a href="#cycle-scorecard" class="text-compass-green hover:underline">Reinforcing Cycle Scorecard</a>
   </nav>
 
   <!-- Workstream Filter -->
@@ -321,6 +325,54 @@ const grouped = workstreams.map((ws) => {
           </p>
           <p class="text-xs text-text-secondary leading-relaxed">{fp.description}</p>
         </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Capture Vectors -->
+  <section id="capture-vectors" class="mb-10 scroll-mt-32" aria-label="Capture Vulnerability Assessment Framework">
+    <h2 class="font-heading text-2xl font-bold text-text-primary mb-2">
+      The Capture Vulnerability Assessment Framework
+    </h2>
+    <p class="text-text-secondary mb-6 leading-relaxed">
+      Five vectors through which institutions are captured. Capture-resistant institutional design must address all five
+      simultaneously — vulnerabilities in any one vector are exploited and propagate. Each vector has a corresponding
+      structural defence built into the reform programme.
+    </p>
+    <div class="space-y-3">
+      {captureVectors.map((cv) => (
+        <details class="border border-amber-200 rounded-lg overflow-hidden group bg-amber-50/30">
+          <summary class="flex items-center gap-3 px-4 py-3 cursor-pointer list-none [&::-webkit-details-marker]:hidden select-none hover:bg-amber-50/60 transition-colors">
+            <span class="w-8 h-8 rounded-full bg-amber-700 text-white font-heading font-bold text-sm flex items-center justify-center shrink-0">
+              {cv.number}
+            </span>
+            <span class="font-heading text-sm font-semibold text-text-primary flex-1">
+              Vector {cv.number}: {cv.name}
+            </span>
+            <svg class="w-4 h-4 text-text-secondary shrink-0 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <div class="px-4 pb-4 pt-1 border-t border-amber-200 space-y-3">
+            <div>
+              <p class="font-heading text-xs font-bold uppercase tracking-wide text-amber-800 mb-1">How it works</p>
+              <p class="text-sm text-text-secondary leading-relaxed">{cv.description}</p>
+            </div>
+            <div>
+              <p class="font-heading text-xs font-bold uppercase tracking-wide text-compass-green mb-1">Structural defences</p>
+              <p class="text-sm text-text-secondary leading-relaxed">{cv.defences}</p>
+            </div>
+            <a
+              href={`/articles/${cv.articleSlug}`}
+              class="inline-flex items-center gap-1 text-xs font-heading font-semibold text-compass-green hover:text-compass-green-dark hover:underline transition-colors"
+            >
+              Read the full vector analysis
+              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+        </details>
       ))}
     </div>
   </section>
@@ -643,6 +695,52 @@ const grouped = workstreams.map((ws) => {
       ))}
     </div>
 
+  </section>
+
+  <!-- Reinforcing Cycle Scorecard -->
+  <section id="cycle-scorecard" class="mb-12 scroll-mt-32" aria-label="Reinforcing Cycle Scorecard">
+    <h2 class="font-heading text-2xl font-bold text-text-primary mb-2">
+      The Reinforcing Cycle Scorecard
+    </h2>
+    <p class="text-text-secondary mb-3 leading-relaxed">
+      The RAARICLE™ diagnostic measures institutional design. The function-specific scorecards above measure individual
+      services. The Reinforcing Cycle Scorecard sits above both — it tracks whether the system is turning. Whether the
+      positive cycle is activating across <strong class="text-text-primary">three links</strong> — Safety→Growth,
+      Growth→Development, and Development→Safety — or whether the vicious spiral continues despite institutional improvements.
+    </p>
+    <p class="text-sm text-text-secondary mb-6 italic leading-relaxed">
+      Tabled annually in Parliament from Year 5 onwards as part of the Reform Coordination Office's expanded cycle-management mandate (Phase 4).
+    </p>
+    <div class="space-y-6">
+      {reinforcingCycleScorecard.map((link) => (
+        <div class="border border-gray-200 rounded-lg overflow-hidden">
+          <div class="px-4 py-3 bg-bg-secondary border-b border-gray-200">
+            <p class="font-heading text-base font-bold text-text-primary mb-1">{link.label}</p>
+            <p class="text-sm text-text-secondary leading-relaxed">{link.description}</p>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="min-w-full text-sm border-collapse">
+              <thead>
+                <tr class="border-b border-gray-200 bg-bg-primary">
+                  <th class="text-left font-heading font-bold text-text-primary py-2 px-4" scope="col">Indicator</th>
+                  <th class="text-left font-heading font-bold text-text-primary py-2 px-4 whitespace-nowrap" scope="col">Source</th>
+                  <th class="text-left font-heading font-bold text-text-primary py-2 px-4 whitespace-nowrap" scope="col">Threshold</th>
+                </tr>
+              </thead>
+              <tbody>
+                {link.indicators.map((row) => (
+                  <tr class="border-b border-gray-100 last:border-0 align-top">
+                    <td class="py-2 px-4 text-text-secondary">{row.indicator}</td>
+                    <td class="py-2 px-4 text-text-secondary whitespace-nowrap">{row.source}</td>
+                    <td class="py-2 px-4 text-text-secondary whitespace-nowrap font-heading font-semibold">{row.threshold}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      ))}
+    </div>
   </section>
 
   <!-- Source note -->
