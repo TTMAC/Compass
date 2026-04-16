@@ -1,0 +1,217 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+import { reinforcingCycleScorecard } from "@data/reforms";
+
+const linkColors: Record<string, { accent: string; light: string }> = {
+  "safety-growth": { accent: "#1B4965", light: "#E0EBF2" },
+  "growth-development": { accent: "#7A5C1F", light: "#F3EBDA" },
+  "development-safety": { accent: "#553691", light: "#E8E0F4" },
+};
+
+const linkIcons: Record<string, string> = {
+  "safety-growth": "Safety → Growth",
+  "growth-development": "Growth → Development",
+  "development-safety": "Development → Safety",
+};
+---
+
+<PageLayout
+  title="Reinforcing Cycle Scorecard"
+  description="Is the virtuous cycle turning? Track the 15 indicators across safety, growth, and development that tell you whether South Africa's reform programme is producing systemic change."
+>
+  <header class="mb-10">
+    <p class="font-heading text-sm font-semibold text-compass-green uppercase tracking-wide mb-2">
+      Reform Gateway
+    </p>
+    <h1 class="font-heading text-3xl md:text-4xl font-bold text-text-primary mb-3 leading-tight">
+      The Reinforcing Cycle Scorecard
+    </h1>
+    <p class="text-lg text-text-secondary leading-relaxed mb-4">
+      South Africa's crises are not separate. Safety enables investment. Investment drives growth.
+      Growth funds education and health. Education and health produce the capable, employed population
+      that reinforces safety. This is the <a href="/big-picture" class="text-compass-green font-semibold hover:underline">reinforcing cycle</a> —
+      and it either compounds upward or spirals downward.
+    </p>
+    <p class="text-text-secondary leading-relaxed">
+      The RAARICLE&#8482; diagnostic measures whether institutions are designed correctly. Function-specific
+      indicators measure whether individual services are improving. This Scorecard sits above both —
+      it tracks whether <strong class="text-text-primary">the system is turning</strong>. Whether the
+      positive cycle is activating, or whether the vicious spiral continues despite institutional improvements.
+    </p>
+  </header>
+
+  <!-- Cycle diagram — three linked cards -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
+    {reinforcingCycleScorecard.map((link) => {
+      const colors = linkColors[link.id];
+      return (
+        <a
+          href={`#${link.id}`}
+          class="rounded-lg border p-5 transition-colors hover:shadow-md"
+          style={`border-color: ${colors.accent}30; background-color: ${colors.light}40`}
+        >
+          <p class="font-heading text-lg font-bold mb-1" style={`color: ${colors.accent}`}>
+            {linkIcons[link.id]}
+          </p>
+          <p class="text-sm text-text-secondary leading-relaxed">
+            {link.description}
+          </p>
+          <p class="font-heading text-xs font-semibold mt-3" style={`color: ${colors.accent}`}>
+            {link.indicators.length} indicators &darr;
+          </p>
+        </a>
+      );
+    })}
+  </div>
+
+  <!-- Scorecard tables -->
+  <section class="space-y-8 mb-12" aria-label="Scorecard indicators">
+    {reinforcingCycleScorecard.map((link) => {
+      const colors = linkColors[link.id];
+      return (
+        <div id={link.id} class="scroll-mt-24">
+          <div class="border rounded-lg overflow-hidden" style={`border-color: ${colors.accent}30`}>
+            <div class="px-5 py-4 border-b" style={`background-color: ${colors.light}60; border-color: ${colors.accent}30`}>
+              <h2 class="font-heading text-xl font-bold mb-1" style={`color: ${colors.accent}`}>
+                {link.label}
+              </h2>
+              <p class="text-sm text-text-secondary leading-relaxed">
+                {link.description}
+              </p>
+            </div>
+            <div class="overflow-x-auto">
+              <table class="min-w-full text-sm border-collapse">
+                <thead>
+                  <tr class="border-b border-gray-200">
+                    <th class="text-left font-heading font-bold text-text-primary py-3 px-5" scope="col">
+                      Indicator
+                    </th>
+                    <th class="text-left font-heading font-bold text-text-primary py-3 px-5 whitespace-nowrap" scope="col">
+                      Source
+                    </th>
+                    <th class="text-left font-heading font-bold text-text-primary py-3 px-5 whitespace-nowrap" scope="col">
+                      Threshold
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {link.indicators.map((row) => (
+                    <tr class="border-b border-gray-100 last:border-0 align-top">
+                      <td class="py-3 px-5 text-text-secondary">{row.indicator}</td>
+                      <td class="py-3 px-5 text-text-secondary text-xs">{row.source}</td>
+                      <td class="py-3 px-5 font-heading font-semibold whitespace-nowrap" style={`color: ${colors.accent}`}>
+                        {row.threshold}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      );
+    })}
+  </section>
+
+  <!-- How to read the Scorecard -->
+  <section class="mb-12 border border-gray-200 rounded-lg p-6 bg-bg-secondary">
+    <h2 class="font-heading text-xl font-bold text-text-primary mb-3">
+      How to Read the Scorecard
+    </h2>
+    <p class="text-text-secondary leading-relaxed mb-4">
+      When all three links are strengthening — crime declining and investment increasing; fiscal space expanding
+      and development spending rising in real terms; learning outcomes improving and youth unemployment declining —
+      the virtuous cycle is activating. South Africa is compounding upward.
+    </p>
+    <p class="text-text-secondary leading-relaxed mb-4">
+      When one link is broken — growth is increasing but development spending is captured by debt service, or learning
+      outcomes are improving but youth unemployment is not responding because the economic structure is not generating
+      appropriate jobs — you know where the system needs recalibration. The broken link tells you which reforms
+      need attention.
+    </p>
+    <p class="text-text-secondary leading-relaxed">
+      The Scorecard is designed to be tabled annually in Parliament from Year 5 onwards as part of the Reform
+      Coordination Office's expanded cycle-management mandate (Phase 4 of the
+      <a href="/articles/ra-5-3-the-integrated-reform-programme" class="text-compass-green hover:underline font-semibold">Integrated Reform Programme</a>).
+    </p>
+  </section>
+
+  <!-- Gateway: Where to go from here -->
+  <section class="mb-8">
+    <h2 class="font-heading text-xl font-bold text-text-primary mb-4">
+      The Reform Roadmap
+    </h2>
+    <p class="text-text-secondary leading-relaxed mb-6">
+      The Scorecard tells you whether the system is turning. The roadmap tells you what needs to happen
+      to make it turn. Explore the reform programme from diagnosis to implementation.
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <a
+        href="/real-steps-to-reform"
+        class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
+      >
+        <p class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+          Real Steps to Reform
+        </p>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          80+ specific reforms across four workstreams, phased over 10 years, with the legislative changes required to make them real.
+        </p>
+      </a>
+      <a
+        href="/articles/ra-5-3-the-integrated-reform-programme"
+        class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
+      >
+        <p class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+          The Integrated Reform Programme
+        </p>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          Why South Africa needs a single legislated reform architecture — and how RAARICLE&#8482; builds one that is coherent, comprehensive, and measurable.
+        </p>
+      </a>
+      <a
+        href="/articles/ra-5-2-anti-capture-architecture"
+        class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
+      >
+        <p class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+          The Anti-Capture Architecture
+        </p>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          The structural safeguards that must accompany any reform to prevent recapture by organised interests.
+        </p>
+      </a>
+      <a
+        href="/articles/hd-1-3-the-reinforcing-cycle"
+        class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
+      >
+        <p class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+          The Reinforcing Cycle
+        </p>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          The causal model behind the Scorecard — how safety, growth, and development form a single system that compounds upward or spirals downward.
+        </p>
+      </a>
+      <a
+        href="/articles/hd-1-4-the-problem-that-has-no-name"
+        class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
+      >
+        <p class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+          The Problem That Has No Name
+        </p>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          Why naming structural poverty through integrated measurement is a political act — and how the Scorecard performs it.
+        </p>
+      </a>
+      <a
+        href="/advocacy-playbooks"
+        class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
+      >
+        <p class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+          Advocacy Playbooks
+        </p>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          Practical tools for citizens who want to drive reform — from attending council meetings to filing PAIA requests.
+        </p>
+      </a>
+    </div>
+  </section>
+</PageLayout>

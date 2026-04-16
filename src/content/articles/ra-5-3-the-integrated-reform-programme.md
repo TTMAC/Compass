@@ -316,41 +316,9 @@ The Carnegie Commission's methodological innovation was not any single analytica
 
 The programme's transition from reform coordination to cycle management requires a measurement instrument that goes beyond governance compliance. The RAARICLE™ diagnostic measures institutional design. The reinforcing cycle requires measuring *systemic outcomes* — whether the repaired institutions are actually producing the positive cycle.
 
-The Reinforcing Cycle Scorecard would be published as a component of the annual parliamentary report, tracking the three links of the cycle with specific, measurable indicators drawn from existing data sources:
+The [Reinforcing Cycle Scorecard](/reform-scorecard) tracks fifteen indicators across the three links of the cycle — Safety → Growth, Growth → Development, and Development → Safety — each drawn from existing data sources (SAPS, Stats SA, SARB, National Treasury, UNDP). It would be published as a component of the annual parliamentary report, providing the systemic measurement layer that sits above both the RAARICLE™ governance diagnostic and the function-specific performance indicators.
 
-**Link 1: Safety → Growth**
-
-| Indicator | Source | Threshold |
-|---|---|---|
-| Homicide rate per 100,000 | SAPS crime statistics | Below 30 (from ~45) |
-| Business crime victimisation rate | Stats SA Victims of Crime Survey | Below 10% |
-| Infrastructure theft losses (Eskom, Transnet, Telkom) | SOE annual reports | Below R3 billion |
-| FDI inflows as % of GDP | SARB quarterly bulletin | Above 2% |
-| Small business formation rate | CIPC registrations / Stats SA QLFS | Year-on-year increase |
-
-**Link 2: Growth → Development**
-
-| Indicator | Source | Threshold |
-|---|---|---|
-| Real GDP per capita growth | Stats SA / SARB | Above 1.5% |
-| Real per-learner education spending | National Treasury ENE | Year-on-year increase |
-| Real per-capita health spending | National Treasury ENE | Year-on-year increase |
-| Debt service as % of revenue | National Treasury | Below 15% |
-| Expanded unemployment rate | Stats SA QLFS | Below 35% (from ~42%) |
-
-**Link 3: Development → Safety**
-
-| Indicator | Source | Threshold |
-|---|---|---|
-| Grade 4 reading proficiency (PIRLS) | DBE / IEA | Above 40% (from ~19%) |
-| Youth unemployment (15–34) | Stats SA QLFS | Below 45% (from ~60%) |
-| Childhood stunting rate | DHS / NDoH | Below 20% (from ~27%) |
-| Life expectancy at birth | Stats SA mid-year estimates | Above 68 years |
-| IHDI (Inequality-adjusted HDI) | UNDP HDR | Above 0.55 (from ~0.468) |
-
-The Scorecard does not replace the RAARICLE™ diagnostic or the function-specific measurement architecture. It sits above them. The RAARICLE™ diagnostic tells you whether the institutional design is right. The function-specific indicators tell you whether individual services are improving. The Reinforcing Cycle Scorecard tells you whether the system is turning — whether the positive cycle is activating or whether the vicious spiral continues despite institutional improvements.
-
-When the Scorecard shows that the safety → growth link is strengthening (crime declining, investment increasing), the growth → development link is functioning (fiscal space expanding, development spending rising in real terms), and the development → safety link is closing (learning outcomes improving, youth unemployment declining, stunting rates falling) — then you know the programme is working at the systemic level. When the Scorecard shows that one link is broken — growth is increasing but development spending is being captured by debt service, or learning outcomes are improving but youth unemployment is not responding because the economic structure is not generating appropriate jobs — then you know where the system needs recalibration, and the Reform Coordination Office has the mandate and data to intervene.
+The Scorecard does not replace those measurement layers. It sits above them. The RAARICLE™ diagnostic tells you whether the institutional design is right. The function-specific indicators tell you whether individual services are improving. The [Reinforcing Cycle Scorecard](/reform-scorecard) tells you whether the system is turning — whether the positive cycle is activating or whether the vicious spiral continues despite institutional improvements. When one link is broken — growth is increasing but development spending is captured by debt service, or learning outcomes are improving but youth unemployment is not responding — the Scorecard tells you where the system needs recalibration, and the Reform Coordination Office has the mandate and data to intervene.
 
 ### The Institutional Evolution: Phase 4
 
