@@ -16,7 +16,7 @@ readingTime: 32
 status: "draft"
 series:
   prev: "ra-5-1-constitutional-vs-legislative"
-  next: "ra-5-3-from-citizen-to-reformer"
+  next: "ra-5-3-the-integrated-reform-programme"
 crossLinks:
   - slug: "1-3-how-the-spheres-interact"
     label: "How the Spheres Interact"

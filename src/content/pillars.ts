@@ -221,7 +221,7 @@ export const pillars: PillarConfig[] = [
         number: 5,
         title: "The Reform Pathway",
         description:
-          "What needs constitutional change, how to prevent capture, and how citizens drive reform.",
+          "What needs constitutional change, how to prevent capture, an integrated legislated reform programme, and how citizens drive reform.",
       },
     ],
   },

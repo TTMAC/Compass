@@ -90,7 +90,12 @@ const RA_ARTICLES = [
     articleNumber: "5.1",
   },
   { slug: "ra-5-2-anti-capture-architecture", part: 5, articleNumber: "5.2" },
-  { slug: "ra-5-3-from-citizen-to-reformer", part: 5, articleNumber: "5.3" },
+  {
+    slug: "ra-5-3-the-integrated-reform-programme",
+    part: 5,
+    articleNumber: "5.3",
+  },
+  { slug: "ra-5-4-from-citizen-to-reformer", part: 5, articleNumber: "5.4" },
 ];
 
 // ---------------------------------------------------------------------------
