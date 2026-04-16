@@ -16,18 +16,14 @@ tags:
   - "PPP"
   - "NIP"
   - "GFCF"
-  - "DFIs"
-  - "monetary-architecture"
   - "development-finance"
-  - "pension-funds"
-  - "blended-finance"
 description: "Why energy independence, port efficiency, and rail corridors are the infrastructure preconditions South Africa must build before manufacturing can scale."
 publishDate: 2028-09-01
 readingTime: 30
 status: "draft"
 series:
   prev: "eg-2-1-resource-optimisation"
-  next: "eg-2-3-the-efficiency-transition"
+  next: "eg-2-3-financing-the-build"
 crossLinks:
   - slug: "2-1-following-the-money"
     label: "Following the Money"
@@ -41,12 +37,9 @@ crossLinks:
   - slug: "eg-3-2-the-execution-machine"
     label: "The Execution Machine"
     relationship: "Institutional delivery capacity"
-  - slug: "eg-5-1-the-political-economy-of-growth"
-    label: "The Political Economy of Growth"
-    relationship: "Political economy of financing reform and entrenched interests"
-  - slug: "2-2-the-budget-process"
-    label: "The Budget Process"
-    relationship: "MTEF and fiscal allocation mechanisms for infrastructure"
+  - slug: "eg-2-3-financing-the-build"
+    label: "Financing the Build"
+    relationship: "The financing architecture behind infrastructure investment"
 seo:
   ogImage: "/og/eg-2-2-infrastructure-foundations.png"
   keywords:
@@ -236,95 +229,13 @@ The comparison is not uniformly negative. South Africa's road network is extensi
 South Africa's infrastructure challenge is not uniform across all sectors. The country has genuine strengths in financial infrastructure, telecommunications backbone, and parts of the national road network. The acute crises are concentrated in energy generation and transmission, rail freight, port operations, water supply and distribution, and last-mile digital connectivity. Prioritisation must focus on these binding constraints rather than trying to fix everything simultaneously.
 :::
 
-## The Financing Architecture: Why Capital Fails to Reach Infrastructure
-
-The NPC's 2025 report on South Africa's monetary architecture introduces a concept that reframes the infrastructure financing problem. Rather than treating infrastructure funding as a straightforward question of fiscal allocation — how much government spends on capital budgets — the report maps the entire web of interlocking balance sheets through which capital flows: commercial banks, development finance institutions (DFIs), pension funds, shadow banks, state-owned enterprises, the South African Reserve Bank (SARB), and National Treasury. What emerges is a picture of a financial system that is structurally configured to reward short-term profit-taking and consumption-driven lending over long-term productive investment in infrastructure and fixed assets.
-
-### The investment gap in numbers
-
-The NPC's Infrastructure Task Team, working with the DBSA, National Treasury, and the Presidential Climate Commission, calculated the investment requirements for three critical sectors through 2035:
-
-- **Water security**: R214 billion per annum, or R2.1 trillion through to 2035, representing the lowest-cost and most ecologically sustainable option
-- **Energy security and net zero by 2050**: at least R120 billion to R150 billion per annum
-- **Digital transformation**: R40 billion to R50 billion per annum, or R500 billion in total by 2035
-
-The combined requirement for these three sectors alone is **R3.5 trillion to R4 trillion by 2035 — approximately R400 billion per year.** If current investment levels remain constant, approximately R250 billion per annum will be spent on water, energy, and digital infrastructure over the next decade (R2.5 trillion total). The gap is therefore approximately R150 billion per annum, or R1.5 trillion over ten years. This is the gap that existing fiscal and monetary policy arrangements cannot close on their own.
-
-### Where the money actually sits
-
-The NPC report's most striking contribution is its mapping of the total assets held across South Africa's financial system. By 2024, these included:
-
-- **Commercial banks**: R6.7 trillion in assets
-- **Pension and insurance funds (ASISA members)**: R6.7 trillion
-- **Non-financial corporations (listed)**: R12.7 trillion
-- **Shadow banks**: R3.2 trillion (half the size of the banking sector)
-- **Government Employees Pension Fund (GEPF)**: R1.6 trillion (managed by the Public Investment Corporation)
-- **State-owned enterprises**: R1.3 trillion
-- **Development Finance Institutions**: R345 billion (across 45 DFIs, of which 14 hold 97 per cent of assets)
-- **Stokvels**: R50 billion (held by 11 million members)
-
-The mismatch is stark. DFIs — the institutions explicitly mandated to finance development — hold only R345 billion in assets, a fraction of the commercial banking sector. Pension fund assets comprise 53 to 63 per cent of GDP, yet according to a SARB report, less than 10 per cent of pension assets are re-invested in the real economy, and even less flows into infrastructure. The GEPF, with R2.3 trillion in accumulated funds, held virtually no net new investments in government bonds in 2023/24 and has seen its share of outstanding government debt drop from over 35 per cent in 1994 to just 15 per cent by 2024.
-
-### How banks turned away from the real economy
-
-The NPC report documents a critical shift in bank behaviour since the 2007/9 Global Financial Crisis. Credit extension — loans, overdrafts, and advances — grew from less than R500 billion in 1994 to over R5 trillion by 2023. But the composition changed fundamentally. By 2024, bank lending to government was rising steadily while lending to the private sector (the businesses that actually invest in fixed assets and create jobs) had levelled off and even declined as a share of GDP, from over 70 per cent in 2008 to approximately 60 per cent in 2024.
-
-The reason is structural, not conspiratorial. Government debt yields have risen sharply as South Africa's sovereign risk ratings dropped from BBB/BBB- to sub-investment grade (BB/BB-) by 2013. Government bonds do not require capital holdings and carry no default risk for the banks, making them extraordinarily profitable in a high-yield environment. South African banks, with an average return on equity of approximately 20 to 25 per cent, have consistently preferred consumption-related lending and government securities over extending credit to SMEs, light industry, or infrastructure projects — which carry higher perceived risk. The 2008 Competition Commission Banking Enquiry confirmed this pattern, finding that banks' oligopolistic characteristics and risk-averse regulatory regime resulted in artificially high profitability rather than developmental lending.
-
-The one striking exception — and a genuine success story of balance sheet reconfiguration — has been **the bank-led financing of rooftop solar installations.** In response to loadshedding, banks redirected approximately R80 billion in lending to fund nearly 6 gigawatts of rooftop solar capacity between 2021 and 2024. Installed rooftop photovoltaic capacity surged from 983 megawatts in March 2022 to 5,790 megawatts by June 2024. This demonstrated that when the right incentive structures exist (tax incentives for solar, customer demand driven by loadshedding), banks can rapidly scale lending for productive fixed assets.
-
-### The pension fund paradox
-
-South Africa has the 16th largest pool of pension assets in the world — a remarkable fact for an economy its size. Pension assets exceed those of India, Ireland, France, Spain, and Chile. But the regulatory framework governing these assets has evolved in ways that actively work against domestic infrastructure investment.
-
-The critical inflection point was the 2022 amendment to Regulation 28 of the Pensions Act, which raised the aggregate limit for foreign asset exposure from 30 per cent to 45 per cent. Within months of this reform coming into effect in January 2023, over R600 billion flowed offshore, with the potential for outflows to reach R2.5 trillion before hitting the new ceiling. The stated rationale — diversifying portfolios and maximising returns for members — was legitimate on its own terms. But the macroeconomic effect has been to deepen the vicious circle that the NPC report identifies: weak economic growth reduces domestic investment opportunities, which pushes pension funds to externalise assets, which further reduces the capital available for growth-catalysing investment, which reinforces weak growth.
-
-Regulation 28 does allow up to 45 per cent in infrastructure investments across all asset classes. The definition of eligible infrastructure is deliberately broad — utilities, transport, digital, health, education, data centres, and more. But in practice, pension fund managers are reluctant to invest in infrastructure assets because of concerns about governance, project bankability, returns, and liquidity. ASISA members have argued that prescribing infrastructure investment targets would yield below-market returns due to inefficient governance — particularly if SOEs are the primary beneficiaries. The savings and investment industry, with R6.2 trillion in assets as of 2019, has roughly R958 billion placed with banks, R775 billion in government bonds, and R3.3 trillion in listed and unlisted equities — but only R93 billion in property and negligible amounts in direct infrastructure.
-
-### Development Finance Institutions: Undercapitalised and fragmented
-
-South Africa's 45 DFIs and Development Finance Agencies — 12 national, 16 provincial, 17 local — hold only R345 billion in combined assets, compared to R6.7 trillion for commercial banks and R3.2 trillion for shadow banks. The four largest DFIs (IDC at R159 billion, DBSA at R109 billion, LBK at R35 billion, and Ithala at R8 billion) account for 97 per cent of total DFI assets. The remaining 41 entities are negligible in balance sheet terms.
-
-The NPC report identifies a fundamental structural failure in how DFIs have been positioned within the financial system. Unlike in most other developing countries, South Africa's DFIs are not supervised by the SARB's Prudential Authority. They are governed by policy departments rather than the central bank, which constrains their access to capital markets. They are regarded as self-financing — expected to fund operations from retained earnings rather than receiving the kind of sovereign guarantee support that enabled rapid DFI expansion in post-war Europe or contemporary Asia.
-
-The DBSA stands out as the exception: self-financing, strong balance sheet, consistent profitability, clean audits, and operational efficiency. When the DBSA investigated the implications of migrating from National Treasury to SARB supervision, feedback from capital markets suggested the DBSA's loan book could quadruple from R120 billion to approximately R400 billion — an extra R300 billion unlocked not by policy change but by a balance sheet reconfiguration that aligns the DBSA's backstop to the SARB rather than the fiscus. Extrapolating this across all DFIs, the NPC estimates that a fourfold expansion could increase their collective balance sheets from R350 billion to R1.4 trillion without requiring additional capital injections from the fiscus.
-
-Government guarantees to the three largest DFIs (LBK, DBSA, IDC) totalled only R18.5 billion in 2022/23, with actual exposure of just R6 billion — a negligible 2 per cent of total exposure to all national state-owned entities. This is an obvious elasticity space where expanded guarantees could massively expand DFI lending capacity.
-
-### The NPC's fourteen recommendations
-
-The report proposes fourteen specific balance sheet reconfigurations, each targeting a different "elasticity space" where capital flows can be unlocked without requiring changes to monetary or fiscal policy. Together, these aim to unlock at least R5 trillion in new investment for GFCF and the Just Transition:
-
-1. **DFI-SARB alignment** — Migrate DFI supervision to the SARB's Prudential Authority, potentially expanding collective balance sheets to R1.4 trillion
-2. **Pension fund reallocation** — Gradually reduce the 45 per cent offshore limit while expanding infrastructure investment options, potentially unlocking a R1 trillion project pipeline with sovereign guarantees
-3. **New Guarantee Company** — A Rand-denominated guarantee company co-funded by Treasury and DFIs to unlock R50 billion in infrastructure investment without increasing sovereign debt
-4. **Infrastructure Fund expansion** — Accelerate the DBSA-led Infrastructure Fund to meet its R1 trillion target (leveraging R100 billion in public finance to secure R900 billion in private investment)
-5. **SOE balance sheet reform** — Diversified shareholder models to leverage R1.3 trillion in SOE balance sheets to attract R650 billion in capital
-6. **Bank sector risk-reward shifts** — Regulatory reforms to redirect even 1 per cent of annual bank lending (~R55 billion) toward productive sectors and SMEs
-7. **Corporate reinvestment mandates** — ESG-aligned reforms with tax incentives for domestic fixed asset expansion
-8. **SME financing** — Targeted support through green finance, cooperative credit, and public-private schemes
-9. **Shadow bank mobilisation** — Channelling R3.2 trillion in shadow bank assets toward GFCF through blended structures (REITs, Credit Guarantee Vehicles, listed notes)
-10. **Project-level blended finance** — Build-own-operate-transfer and build-operate-transfer models, potentially raising R80 billion while ensuring fiscal neutrality
-11. **Building a stable middle class** — Matched savings, cooperative finance, and small formal business support
-12. **Gender equality measures** — Credit access and targeted support for women-led businesses and households
-13. **SARB climate role** — Integrating climate risks (estimated R1.8 trillion in stranded assets between 2013 and 2035) into monetary policy and banking supervision
-14. **GEPF alignment with GFCF targets** — Realigning the GEPF's mandate to increase investment to 30 per cent of GFCF by funding SOEs, BEE contractors, and domestic productive companies
-
-:::expert[NPC Finance Task Team — Monetary Architecture Framework]
-The NPC's monetary architecture framework draws on the Money View tradition in economics and critical macro-finance. It conceptualises the financial system not as a single market but as a web of interlocking balance sheets that are historically specific and path-dependent. Every asset on one balance sheet is a liability on another; no single actor can unilaterally reconfigure the system. This means traditional approaches — changing interest rates, adjusting fiscal ratios, tweaking regulations in isolation — are unlikely to redirect the deep structural flows of capital that determine where investment goes. What is needed, the report argues, is a macro-financial coordination platform within the state that can track, model, and negotiate system-wide balance sheet reconfigurations across public, private, and hybrid institutions. The concept of 'elasticity spaces' — points where balance sheet configurations can be expanded through contingent assets and liabilities provided by hierarchically higher institutions — provides a practical entry point for identifying where new flows of capital can be unlocked.
-:::
-
-### What this means for infrastructure
-
-The financing architecture analysis transforms the infrastructure debate. The conventional view — that South Africa's infrastructure problem is purely about institutional delivery capacity — is incomplete. While delivery failures are real and severe (as documented throughout this article), they exist within a financial ecosystem that systematically underinvests in productive fixed assets. Banks prefer government bonds. Pension funds move capital offshore. DFIs lack the backstop to scale. Shadow banks accelerate financial flows rather than channelling them to the real economy. SOE balance sheets have been hollowed out by state capture and fiscal bailouts totalling R308.7 billion — R220.4 billion to Eskom alone.
-
-The NPC report does not argue that fixing the financing architecture alone will solve the infrastructure crisis. It explicitly acknowledges that increasing capital supply without addressing governance constraints — skills shortages, procurement failures, institutional collapse at local government level — will produce inflation rather than infrastructure. But it argues, convincingly, that the financing architecture and the delivery problem must be addressed simultaneously. Effective execution capability does not *precede* implementation; it gets built *in order to* implement. Waiting for a fully capacitated developmental state before reconfiguring the financial system will ensure that neither happens.
-
 ## Toward the Execution Machine
 
-Everything you have read in this article points in two directions. First, South Africa lacks the institutional machinery to turn plans into projects, projects into construction sites, and construction sites into working infrastructure. This machinery — what [The Execution Machine](/articles/eg-3-2-the-execution-machine) will examine in detail — involves project preparation units, construction management capacity, procurement integrity, inter-governmental coordination, and the political will to sustain investment decisions across electoral cycles. Second, the financial system itself is structurally configured to move capital away from productive infrastructure investment — into government bonds, offshore assets, consumption lending, and short-term financial instruments — rather than toward the fixed assets the economy desperately needs. Both problems must be solved together.
+Everything you have read in this article points toward institutional delivery as the binding constraint on infrastructure. But delivery failures do not exist in a vacuum — they sit within a financial system that systematically underinvests in productive fixed assets. [Financing the Build](/articles/eg-2-3-financing-the-build) examines this structural financing architecture in detail: how banks shifted from private lending to government bonds, why pension funds send capital offshore rather than into infrastructure, why DFIs remain tiny relative to the economy's needs, and the fourteen balance sheet reconfigurations the NPC's Finance Task Team has proposed to unlock at least R5 trillion in new investment. The delivery problem and the financing problem must be solved together.
 
-The path forward is not mysterious, even if it is politically difficult. The REIPPPP has shown that South Africa can deliver infrastructure at scale when it creates fit-for-purpose institutions with clear mandates, competitive procurement, and ring-fenced capacity. The Gautrain has shown that complex PPPs can work with adequate preparation and political commitment. The bank-led rooftop solar revolution has shown that private balance sheets can be redirected toward productive fixed assets when the right incentives align. And the NPC's analysis of DFI balance sheet expansion — where simply moving DBSA supervision from the Treasury to the SARB could unlock R300 billion in additional lending capacity — shows that massive financing gains are possible through institutional reconfiguration rather than new spending. The question is whether these successes can be generalised — whether the exceptional can become the normal — and whether the political economy allows the entrenched interests that benefit from the current financing architecture to be challenged.
+South Africa lacks the institutional machinery to turn plans into projects, projects into construction sites, and construction sites into working infrastructure. This machinery — what [The Execution Machine](/articles/eg-3-2-the-execution-machine) will examine in detail — involves project preparation units, construction management capacity, procurement integrity, inter-governmental coordination, and the political will to sustain investment decisions across electoral cycles.
+
+The path forward is not mysterious. The REIPPPP has shown that South Africa can deliver infrastructure at scale when it creates fit-for-purpose institutions with clear mandates, competitive procurement, and ring-fenced capacity. The Gautrain has shown that complex PPPs can work with adequate preparation and political commitment. The question is whether these successes can be generalised — whether the exceptional can become the normal.
 
 For a deeper analysis of how South Africa's infrastructure plans compare with actual delivery outcomes, [Infrastructure Planning vs Reality](/articles/eg-4-3-infrastructure-planning-vs-reality) will examine the gap in granular detail. And as you saw in [Following the Money](/articles/2-1-following-the-money), the budget allocation process itself shapes which projects get funded and at what pace — understanding how infrastructure money flows through the intergovernmental fiscal system is essential to understanding why projects stall.
 

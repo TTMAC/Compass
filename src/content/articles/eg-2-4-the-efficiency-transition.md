@@ -3,7 +3,7 @@ title: "The Efficiency Transition"
 subtitle: "Stage 2 of the Growth Strategy — Manufacturing, Services Exports, Education Pipeline, and Regulatory Quality (Years 8–15, $15K→$30K)"
 pillar: "economic-growth"
 part: 2
-articleNumber: "2.3"
+articleNumber: "2.4"
 tags:
   - "manufacturing"
   - "services-exports"
@@ -16,14 +16,14 @@ publishDate: 2028-09-01
 readingTime: 30
 status: "draft"
 series:
-  prev: "eg-2-2-infrastructure-foundations"
-  next: "eg-2-4-innovation-driven-growth"
+  prev: "eg-2-3-financing-the-build"
+  next: "eg-2-5-innovation-driven-growth"
 crossLinks:
   - slug: "1-1-architecture-of-the-state"
     label: "The Architecture of the State"
     relationship: "Regulatory framework"
 seo:
-  ogImage: "/og/eg-2-3-the-efficiency-transition.png"
+  ogImage: "/og/eg-2-4-the-efficiency-transition.png"
   keywords:
     - "South Africa efficiency transition"
     - "manufacturing scale-up South Africa"
@@ -188,7 +188,7 @@ You do not need to track all fifteen indicators to get a useful picture of effic
 
 ## Where This Leads: From Efficiency to Innovation
 
-The efficiency transition described in this article is not the destination — it is the necessary precursor to the next stage. [Innovation-Driven Growth](/articles/eg-2-4-innovation-driven-growth) describes Stage 3, where an economy stops competing on doing things more efficiently than others and starts competing on doing things that others cannot do at all. South Korea's transition from efficient manufacturer to innovation leader — from Hyundai assembling cars designed by Mitsubishi to Hyundai designing cars that compete with BMW — took roughly fifteen years and was built entirely on the institutional foundation laid during Stage 2.
+The efficiency transition described in this article is not the destination — it is the necessary precursor to the next stage. [Innovation-Driven Growth](/articles/eg-2-5-innovation-driven-growth) describes Stage 3, where an economy stops competing on doing things more efficiently than others and starts competing on doing things that others cannot do at all. South Korea's transition from efficient manufacturer to innovation leader — from Hyundai assembling cars designed by Mitsubishi to Hyundai designing cars that compete with BMW — took roughly fifteen years and was built entirely on the institutional foundation laid during Stage 2.
 
 South Africa is not yet at Stage 2. The interventions described in this article are aspirational in the sense that they describe what must happen, not what is currently happening. But they are also grounded in the sense that every intervention has clear comparator evidence, measurable benchmarks, and identifiable institutional owners. The efficiency transition is not a mystery. It is a known challenge with known solutions. The question is whether South Africa's institutions — the state capacity described in [The Architecture of the State](/articles/1-1-architecture-of-the-state), the infrastructure described in [Infrastructure Foundations](/articles/eg-2-2-infrastructure-foundations), and the execution machinery that must be built — can deliver those solutions at the scale and speed the economy requires.
 

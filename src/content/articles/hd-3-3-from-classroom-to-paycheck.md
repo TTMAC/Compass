@@ -19,10 +19,10 @@ series:
   prev: "hd-3-2-learning-in-a-war-zone"
   next: "hd-4-1-when-the-cycle-works"
 crossLinks:
-  - slug: "eg-2-3-the-efficiency-transition"
+  - slug: "eg-2-4-the-efficiency-transition"
     label: "The Efficiency Transition"
     relationship: "Skills required for efficiency-driven growth stage"
-  - slug: "eg-2-4-innovation-driven-growth"
+  - slug: "eg-2-5-innovation-driven-growth"
     label: "Innovation-Driven Growth"
     relationship: "Education as prerequisite for innovation economy"
 seo:
@@ -93,7 +93,7 @@ At the same time, South African employers report persistent shortages in specifi
 
 The paradox of simultaneous unemployment and skills shortages is not actually a paradox. It is the predictable outcome of an education system that produces the wrong skills — or, more precisely, that fails to produce skills at all for the majority of learners and produces the wrong balance of skills among the minority who do learn. **The economy needs 30,000 new artisans per year; the TVET system produces fewer than 15,000.** The economy needs tens of thousands of STEM-literate graduates; the university system produces approximately 30,000 STEM graduates per year, many of whom emigrate. The economy needs a workforce that can read technical documentation, perform quantitative analysis, and solve novel problems; the education system produces a majority who cannot read for meaning.
 
-The skills mismatch is not evenly distributed across the economy. It is concentrated in precisely the sectors that the growth strategy documented in [The Efficiency Transition](/articles/eg-2-3-the-efficiency-transition) and [Innovation-Driven Growth](/articles/eg-2-4-innovation-driven-growth) identifies as critical for South Africa's economic future: manufacturing, ICT, green energy, financial services, and healthcare. These are the sectors that create well-paying jobs, generate exports, and drive productivity growth. And these are the sectors where the education system most catastrophically fails to produce the workers the economy needs.
+The skills mismatch is not evenly distributed across the economy. It is concentrated in precisely the sectors that the growth strategy documented in [The Efficiency Transition](/articles/eg-2-4-the-efficiency-transition) and [Innovation-Driven Growth](/articles/eg-2-5-innovation-driven-growth) identifies as critical for South Africa's economic future: manufacturing, ICT, green energy, financial services, and healthcare. These are the sectors that create well-paying jobs, generate exports, and drive productivity growth. And these are the sectors where the education system most catastrophically fails to produce the workers the economy needs.
 
 If you are hiring — or if you are looking for work — you are navigating this mismatch every day. The critical skills shortages are not in obscure technical niches; they are in the foundational occupations that any growing economy needs: artisans, engineers, ICT professionals, healthcare workers. These gaps are a direct consequence of what the education system did not produce for the past 30 years.
 
@@ -129,7 +129,7 @@ The education dimension of structural unemployment operates through several chan
 
 If the education-growth link depends on cognitive skills, and if the skills mismatch is the proximate cause of structural unemployment, then the obvious policy response is to fix the pipeline between education and employment. And the institution that is supposed to serve as that pipeline — the Technical and Vocational Education and Training (TVET) system — is, in South Africa, a case study in missed potential.
 
-South Africa has 50 public TVET colleges, enrolling approximately 700,000 students. These colleges are supposed to produce the middle-skill workers that the economy most desperately needs: artisans, technicians, IT professionals, hospitality workers, office administrators. In the growth framework documented in [The Efficiency Transition](/articles/eg-2-3-the-efficiency-transition), TVET graduates are the workforce backbone of the manufacturing scale-up, the services expansion, and the infrastructure maintenance that Stage 2 growth requires.
+South Africa has 50 public TVET colleges, enrolling approximately 700,000 students. These colleges are supposed to produce the middle-skill workers that the economy most desperately needs: artisans, technicians, IT professionals, hospitality workers, office administrators. In the growth framework documented in [The Efficiency Transition](/articles/eg-2-4-the-efficiency-transition), TVET graduates are the workforce backbone of the manufacturing scale-up, the services expansion, and the infrastructure maintenance that Stage 2 growth requires.
 
 If you are a parent considering whether TVET is a viable pathway for your child, the throughput and employment data below will help you ask the right questions when you visit a college. Completion rates and employer relationships are the two numbers that matter most.
 
