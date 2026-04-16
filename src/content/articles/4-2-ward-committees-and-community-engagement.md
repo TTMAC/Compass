@@ -39,7 +39,7 @@ This article takes you inside three municipal participation mechanisms in detail
 
 The Municipal Systems Act 32 of 2000 dedicates an entire chapter—Chapter 4—to community participation. This is the legislative architecture that gives your municipality its specific participation obligations. Understanding it tells you what your municipality is legally required to do, and gives you the basis for demanding compliance when it falls short.
 
-Section 16 of the Municipal Systems Act requires a municipality to develop a culture of municipal governance that complements formal representative government with a system of participatory governance. This is not vague aspiration—the Act specifies what this means. The municipality must encourage and create conditions for the local community to participate in municipal affairs, including in the preparation, implementation, and review of the IDP, the establishment and review of the municipality's performance management system, the monitoring and review of performance, the preparation of the budget, and strategic decisions relating to the provision of municipal services.
+Section 16 of the Municipal Systems Act requires a municipality to develop a culture of municipal governance that *complements formal representative government with a system of participatory governance.* This is not vague aspiration—the Act specifies what this means. The municipality must encourage and create conditions for the local community to participate in municipal affairs, including in the preparation, implementation, and review of the IDP, the establishment and review of the municipality's performance management system, the monitoring and review of performance, the preparation of the budget, and strategic decisions relating to the provision of municipal services.
 
 Section 17 requires municipalities to establish appropriate mechanisms, processes, and procedures to enable the local community to participate. These must include the receipt, processing, and consideration of petitions and complaints; notification and public comment procedures (allowing at least 21 days for comment on matters requiring public participation); public meetings and hearings; consultative sessions with locally recognised community organisations and traditional authorities; and reporting back to the local community.
 
@@ -53,7 +53,7 @@ Chapter 4 of the Municipal Systems Act creates a comprehensive legal obligation 
 
 ## Ward Committees: How They Actually Work
 
-Section 72 of the Municipal Structures Act 117 of 1998 requires every municipality with a ward system — that is, all 213 Category B local municipalities and all 8 metros — to establish a ward committee of up to ten members for each ward, chaired by the ward councillor. That single statutory provision creates roughly 4,000 ward committees across the country, making it the most extensive formal community participation structure in South African governance. This section goes deeper than the introduction in *Municipal Councils*: how ward committees are formed, what happens in a ward committee meeting, what a functional ward committee looks like versus a dysfunctional one, and how you can get involved.
+Section 72 of the Municipal Structures Act 117 of 1998 requires every municipality with a ward system — that is, all 213 Category B local municipalities and all 8 metros — to establish a ward committee of up to ten members for each ward, chaired by the ward councillor. **That single statutory provision creates roughly 4,000 ward committees across the country**, making it the most extensive formal community participation structure in South African governance. This section goes deeper than the introduction in *Municipal Councils*: how ward committees are formed, what happens in a ward committee meeting, what a functional ward committee looks like versus a dysfunctional one, and how you can get involved.
 
 
 ![Ward committees are the primary mechanism for community participation in local government | Photo by Sheila C on Unsplash](/images/articles/4-2-ward-committees-and-community-engagement/img-1.webp)
@@ -112,7 +112,7 @@ If you want to participate in your ward committee, here is what you need to know
 
 ## The IDP Process: Shaping Your Municipality's Five-Year Plan
 
-The Integrated Development Plan is the most important planning document in local government. It is your municipality's strategic plan for a five-year period—aligned to the council's term of office—and it determines the municipality's development priorities, service delivery targets, infrastructure investment plans, spatial development framework, disaster management plan, and budget framework. The IDP is not an abstract document that sits on a shelf. It is the plan that determines whether your area gets a new water pipe, whether a road in your neighbourhood is resurfaced, whether a clinic is built in an underserved area, and whether the municipality prioritises refuse collection improvement or recreational facility development. If your concern is not in the IDP, it is unlikely to appear in the budget.
+*The Integrated Development Plan is the most important planning document in local government.* It is your municipality's strategic plan for a five-year period—aligned to the council's term of office—and it determines the municipality's development priorities, service delivery targets, infrastructure investment plans, spatial development framework, disaster management plan, and budget framework. **The IDP is not an abstract document that sits on a shelf.** It is the plan that determines whether your area gets a new water pipe, whether a road in your neighbourhood is resurfaced, whether a clinic is built in an underserved area, and whether the municipality prioritises refuse collection improvement or recreational facility development. If your concern is not in the IDP, it is unlikely to appear in the budget.
 
 
 ![The Integrated Development Plan process gives communities a say in municipal priorities | Photo by Dorota Trzaska on Unsplash](/images/articles/4-2-ward-committees-and-community-engagement/img-2.webp)
@@ -172,7 +172,7 @@ The annual budget process is where the IDP's priorities are translated into rand
 
 The MFMA prescribes a detailed budget process with specific deadlines.
 
-The executive mayor (or the executive committee, depending on the municipality's executive type) must table the draft annual budget before the municipal council at least 90 days before the start of the financial year. Since the municipal financial year runs from 1 July to 30 June, the draft budget must be tabled by the end of March at the latest.
+The executive mayor (or the executive committee, depending on the municipality's executive type) must table the draft annual budget before the municipal council **at least 90 days before the start of the financial year.** Since the municipal financial year runs from 1 July to 30 June, the draft budget must be tabled by the end of March at the latest.
 
 After tabling, the municipality must make the draft budget publicly available—on its website, at its offices, and through any other means it uses to communicate with the community. The municipality must invite the local community to submit comments or representations on the draft budget. The MFMA does not specify a minimum comment period, but National Treasury guidelines recommend at least 30 days for public input.
 
@@ -188,7 +188,7 @@ You do not need to read every page of a municipal budget to participate meaningf
 
 **Capital expenditure.** This is the money for infrastructure—new water pipes, road construction, electricity network upgrades, new community facilities. Check the total capital budget and compare it to the total budget. A municipality that allocates less than 10% of its total budget to capital expenditure is not investing adequately in infrastructure. Check which specific capital projects are listed and whether they align with the IDP priorities. If the IDP says water infrastructure is a priority but the capital budget has no water projects, there is a disconnect that warrants a public comment.
 
-**Employee costs as a percentage of operating expenditure.** National Treasury considers employee costs above 40% of operating expenditure to be a warning sign—it means the municipality is spending too much on its own staff and too little on the services and infrastructure those staff are supposed to deliver. Check this ratio.
+**Employee costs as a percentage of operating expenditure.** National Treasury considers **employee costs above 40% of operating expenditure to be a warning sign**—it means the municipality is spending too much on its own staff and too little on the services and infrastructure those staff are supposed to deliver. Check this ratio.
 
 **Repairs and maintenance.** National Treasury recommends that municipalities allocate at least 8% of the value of their property, plant, and equipment to repairs and maintenance. Municipalities that underspend on maintenance are deferring costs to the future—roads that are not maintained now will need far more expensive rehabilitation later. Check whether your municipality meets this benchmark.
 
@@ -206,7 +206,7 @@ The budget comment period is your annual opportunity to influence exactly how yo
 
 ## The SDBIP: The Plan After the Plan
 
-Once the council approves the budget, the municipal manager must develop the Service Delivery and Budget Implementation Plan (SDBIP) within 28 days. The SDBIP is the operational document that translates the budget into quarterly deliverables—it specifies what services will be delivered, in which wards, during which quarter, and against which performance indicators. If the budget says "R10 million for water infrastructure," the SDBIP says "complete water pipe extension in Ward 12 by Quarter 3, benefiting 500 households, measured by the number of new connections."
+Once the council approves the budget, the municipal manager must develop the *Service Delivery and Budget Implementation Plan (SDBIP)* within 28 days. The SDBIP is the operational document that translates the budget into quarterly deliverables—it specifies what services will be delivered, in which wards, during which quarter, and against which performance indicators. If the budget says "R10 million for water infrastructure," the SDBIP says "complete water pipe extension in Ward 12 by Quarter 3, benefiting 500 households, measured by the number of new connections."
 
 The SDBIP matters for participation because it is the monitoring tool. When you want to check whether your municipality is actually delivering on its budget promises, the SDBIP is the document against which performance should be measured. The municipal manager must submit quarterly reports to the mayor and council on SDBIP implementation—these Section 52 reports (required by the MFMA) show whether the municipality is on track. If a project that was budgeted and included in the SDBIP has not been implemented by the quarter in which it was scheduled, that is a specific accountability question that you, your ward committee, or the MPAC can raise.
 
@@ -278,7 +278,7 @@ If the municipal failure constitutes maladministration—improper conduct, abuse
 
 ### Organised Community Action
 
-Individual complaints can be ignored. Organised community action is harder to dismiss. If a service delivery failure affects your entire ward or community, organise collectively. Coordinate with your ward committee, community organisations, and neighbours. Submit a joint petition to the council through the speaker. Engage the local media. Attend the council meeting and raise the issue during public participation. Sustained, collective, documented pressure is the most effective form of community engagement—because it signals to the council that the issue cannot be quietly filed away.
+Individual complaints can be ignored. **Organised community action is harder to dismiss.** If a service delivery failure affects your entire ward or community, organise collectively. Coordinate with your ward committee, community organisations, and neighbours. Submit a joint petition to the council through the speaker. Engage the local media. Attend the council meeting and raise the issue during public participation. *Sustained, collective, documented pressure is the most effective form of community engagement*—because it signals to the council that the issue cannot be quietly filed away.
 
 ## Making Participation Work: Practical Skills
 

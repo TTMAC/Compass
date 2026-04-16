@@ -31,7 +31,7 @@ In *Your Right to Participate*, you learned that the Constitution requires the N
 
 ## Your Voice on Paper
 
-Here is why this matters. Every year, Parliament and the nine provincial legislatures consider dozens of bills, hundreds of regulations, and numerous policy documents that shape the rules governing your life—from tax law to health regulation, from education policy to environmental standards, from labour law to data protection. Every one of these processes includes, by constitutional requirement, an opportunity for you to comment. And every one of these processes is dominated by a small number of organised participants—industry bodies, professional associations, law firms, and civil society organisations—because most citizens do not know how the process works or believe their voice will not count.
+Here is why this matters. Every year, Parliament and the nine provincial legislatures consider dozens of bills, hundreds of regulations, and numerous policy documents that shape the rules governing your life—from tax law to health regulation, from education policy to environmental standards, from labour law to data protection. Every one of these processes includes, by constitutional requirement, an opportunity for you to comment. **And every one of these processes is dominated by a small number of organised participants**—industry bodies, professional associations, law firms, and civil society organisations—because most citizens do not know how the process works or believe their voice will not count.
 
 This article changes that. It teaches you how to find out when comment opportunities arise, how to read the documents you are commenting on, how to structure a submission that committee members will actually read, how to present oral testimony if you choose to, and what happens after you submit. You do not need to be a lawyer, an expert, or a member of an organisation. You need a concern, a pen (or keyboard), and this guide.
 
@@ -46,7 +46,7 @@ The most common reason people do not make public submissions is not that they do
 
 The Parliamentary Monitoring Group (www.pmg.org.za) is the single most useful resource for tracking parliamentary and provincial legislative activities. PMG is an independent organisation that monitors committee meetings across Parliament and some provincial legislatures. Its website publishes committee meeting schedules, calls for public comment on bills and policy documents, meeting reports summarising what happened in committee sessions, and submission deadlines. PMG also sends email alerts to subscribers—you can sign up for free alerts on specific committees or topics that interest you.
 
-If you use only one tool from this article, make it PMG. Checking the PMG website weekly—or subscribing to its email alerts—will keep you informed of every significant public comment opportunity at the national level.
+**If you use only one tool from this article, make it PMG.** Checking the PMG website weekly—or subscribing to its email alerts—will keep you informed of every significant public comment opportunity at the national level.
 
 ### Parliament's Website
 
@@ -82,7 +82,7 @@ Section 59(1)(a) of the Constitution obliges the National Assembly to "facilitat
 
 When a bill is referred to a parliamentary committee, the committee typically publishes a call for written submissions and may schedule public hearings. The call specifies the submission deadline, the format for submissions (usually email or postal address), and sometimes the specific issues on which the committee is seeking input. Bills are published in the Government Gazette and are available on Parliament's website.
 
-Bills are the highest-impact comment opportunity. A bill, once enacted, becomes binding law. If a problematic provision makes it through the committee process without being challenged, it becomes entrenched in the statute book and can only be changed by amending legislation—a process that may take years. Catching problems at the bill stage is far more efficient than trying to fix them after enactment.
+*Bills are the highest-impact comment opportunity.* A bill, once enacted, becomes binding law. If a problematic provision makes it through the committee process without being challenged, it becomes entrenched in the statute book and can only be changed by amending legislation—a process that may take years. **Catching problems at the bill stage is far more efficient than trying to fix them after enactment.**
 
 ### Regulations and Subordinate Legislation
 
@@ -110,7 +110,7 @@ Budget submissions require some technical understanding of the budget structure,
 
 ## Anatomy of an Effective Submission
 
-Not all submissions are equal. A well-structured submission that addresses the specific provisions of a bill, presents evidence, and makes clear recommendations has far more impact than a vague expression of support or opposition. Committee members and their research staff read hundreds of submissions on major bills. Your submission needs to stand out—not through length or rhetoric, but through clarity, specificity, and substance.
+Not all submissions are equal. **A well-structured submission that addresses the specific provisions of a bill, presents evidence, and makes clear recommendations has far more impact than a vague expression of support or opposition.** Committee members and their research staff read hundreds of submissions on major bills. Your submission needs to stand out—not through length or rhetoric, but through clarity, specificity, and substance.
 
 
 ![An effective submission is structured, evidence-based, and proposes specific alternatives | Photo by Brett Jordan on Unsplash](/images/articles/4-3-making-public-submissions/img-2.webp)
@@ -206,7 +206,7 @@ You will be introduced, invited to present, and then asked questions by committe
 
 Provincial legislature committee hearings follow a similar format, though the scale is smaller. Provincial committees consider provincial bills and oversee provincial department performance. If a provincial bill or policy affects your life—a provincial health regulation, a provincial planning framework, a provincial education policy—you can submit written comments and request to present orally, following the same process described above. Contact the relevant committee through the provincial legislature's website or through PMG if it covers the province.
 
-Provincial hearings tend to receive even fewer public submissions than national ones—which means your submission has a proportionally greater impact. In a national process, your submission may be one of hundreds. In a provincial process, it may be one of a dozen. The marginal impact of your participation is higher at the provincial level precisely because fewer people participate.
+**Provincial hearings tend to receive even fewer public submissions than national ones—which means your submission has a proportionally greater impact.** In a national process, your submission may be one of hundreds. In a provincial process, it may be one of a dozen. *The marginal impact of your participation is higher at the provincial level precisely because fewer people participate.*
 
 ## Commenting on Regulations
 
@@ -220,7 +220,7 @@ The process for commenting on regulations is essentially the same as for bills: 
 
 ### Why Regulation Submissions Matter
 
-Regulations receive far fewer public submissions than bills—often only a handful, primarily from industry participants and specialist civil society organisations. This means that the regulatory process is particularly vulnerable to capture by organised interests: if only the mining industry comments on mining regulations, or only the banking sector comments on financial regulations, the resulting rules will reflect those interests disproportionately. Your submission—as a citizen, a community member, or a person affected by the regulation—provides a counterweight to organised industry input.
+Regulations receive far fewer public submissions than bills—often only a handful, primarily from industry participants and specialist civil society organisations. **This means that the regulatory process is particularly vulnerable to capture by organised interests**: if only the mining industry comments on mining regulations, or only the banking sector comments on financial regulations, the resulting rules will reflect those interests disproportionately. Your submission—as a citizen, a community member, or a person affected by the regulation—provides a counterweight to organised industry input.
 
 Regulations also change more frequently than Acts. A minister can amend regulations relatively quickly—far more quickly than the legislative process required to amend an Act. This means that problematic regulations can be changed if there is sufficient public pressure, and that opportunities to comment on regulatory amendments arise regularly.
 
