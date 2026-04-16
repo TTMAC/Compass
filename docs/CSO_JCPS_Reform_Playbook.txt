@@ -1,0 +1,572 @@
+VOICES FOR JUSTICE
+A Civil Society Playbook for JCPS Reform Advocacy
+Justice  |  Constitutional Development  |  Correctional Services  |  Safety & Security
+For NGOs, CBOs, Community Networks, Legal Clinics, Advocacy Coalitions,
+Faith Communities, and Citizen Activists working to reform South Africa's justice system.
+Version 1.0  |  2024  |  Free to share and adapt with attribution
+Foreword – Why This Playbook Exists
+South Africa's justice, safety, and security systems touch every community in the country. When they work, people feel protected, rights are respected, and those who have caused harm are held accountable and supported to change. When they fail – and they often do – the consequences fall hardest on the poorest, the most vulnerable, and the most marginalised.
+Civil society has always been a critical force for reform in South Africa. From the anti-apartheid movement to post-1994 constitutional advocacy, to today's campaigns against Gender-Based Violence, prison overcrowding, and police accountability, organised citizens have moved the needle when government alone could not or would not.
+But reform is hard. It is slow, contested, and exhausting. Too often, passionate organisations work in silos, duplicate each other's efforts, and exhaust themselves without achieving lasting change. This playbook is a practical tool to help change that.
+It is written for the official in an NGO who wants to build better coalitions. For the community activist who has identified a pattern of injustice and wants to escalate it effectively. For the legal clinic that gathers evidence every day but struggles to translate it into policy change. For the network coordinator who believes that if organisations could just work together better, they could shift the system.
+A Note on Posture
+This playbook assumes you are working WITH government where possible, and AGAINST it where necessary. Reform advocacy is not simply opposition or simply cooperation. It requires strategic judgement about when to collaborate, when to expose, when to litigate, and when to mobilise. The tools here are designed for all these modes.
+1. Organisation – Building Your Civil Society Coalition
+Individual organisations, no matter how capable, rarely achieve systemic reform alone. The JCPS system is large, politically complex, and deeply entrenched. Effective civil society reform work requires coalitions – networks of organisations that bring different strengths, constituencies, and entry points to a shared agenda.
+1.1 The Civil Society Reform Architecture
+A well-structured civil society coalition for JCPS reform operates across four layers:
+Layer
+Structure
+Who Belongs
+Function
+Layer 1
+Reform Coalition Steering Body
+Executive Directors / senior leaders of core member organisations
+Strategic direction, public positioning, decision-making, coalition-wide commitments
+Layer 2
+Thematic Working Groups (TWGs)
+Programme staff, researchers, lawyers, community organisers per theme
+Deep technical work, evidence gathering, policy submissions, litigation strategy
+Layer 3
+Community Networks & Frontline Partners
+CBOs, faith communities, survivor groups, community monitors
+Ground-level evidence, lived experience, community mobilisation, local accountability
+Layer 4
+Solidarity & Amplification Partners
+Media, academia, international allies, diaspora networks, professional bodies
+Amplify voice, provide credibility, extend reach, resource mobilisation
+1.2 Forming a Reform Coalition – Step by Step
+Define the shared reform agenda – what change do you all want to see? Keep it specific enough to mean something, broad enough to attract allies.
+Map the landscape – who else is working on this issue? Who has credibility, constituency, or capabilities you lack? Who are the unlikely allies?
+Convene a founding meeting – invite 5–10 organisations for a half-day session. Focus on shared values and theory of change, not structural negotiations.
+Agree on a Coalition Charter – a short document covering shared purpose, membership criteria, decision-making rules, and how you handle public disagreements.
+Identify a Convenor Organisation – one organisation takes administrative responsibility for the first year. This is NOT the same as leadership.
+Establish your Thematic Working Groups around the JCPS themes most relevant to your coalition (see Section 6).
+Set up your technology infrastructure and shared artifact library (see Sections 4 and 5).
+1.3 Membership Models
+Coalitions need clear rules about who can join and how decisions are made. Common models for civil society JCPS coalitions:
+Model
+How It Works
+Best For
+Open Network
+Any organisation can join; decisions by consensus at plenary; low bar to entry
+Early-stage coalitions building momentum and breadth
+Core + Associate
+Small core of committed members hold decision-making power; associates participate but do not vote
+Coalitions needing coordination with accountability
+Federated
+Member organisations retain full autonomy; coalition speaks on issues where all agree; no binding collective action
+Mature ecosystems with strong independent members
+Secretariat-Led
+A dedicated secretariat organisation drives coordination; governed by a steering committee
+Well-resourced coalitions with sustained funder support
+1.4 Roles Within the Coalition
+Effective coalitions distribute leadership rather than concentrate it. Key roles:
+Role
+Responsibility
+Key Qualities Needed
+Coalition Convenor
+Holds space, manages relationships, coordinates logistics, ensures no one is left behind
+Trusted by all; process-oriented; conflict-tolerant
+Public Spokesperson
+Represents the coalition in media, Parliament, and at government engagements
+Credible, articulate, media-trained, politically savvy
+Legal & Policy Lead
+Owns the policy and litigation strategy; reviews all submissions and public positions
+Senior legal/policy experience; JCPS system knowledge
+Research & Evidence Lead
+Manages evidence generation, data analysis, and report production
+Research rigour; ability to translate data into stories
+Community Accountability Lead
+Maintains relationships with frontline CBOs and community monitors; ensures lived experience is centred
+Deep community trust; grassroots credibility
+Communications Lead
+Manages media, social media, storytelling, and public narrative strategy
+Media contacts; digital fluency; narrative skills
+Resource Mobilisation Lead
+Coordinates coalition-level fundraising and donor engagement
+Funder relationships; financial management experience
+Monitoring & Learning Lead
+Tracks coalition impact, learns from what works, adapts strategy
+M&E experience; systems thinking; honest feedback culture
+2. Cross-Functional Skills for Advocacy Coalitions
+The most effective civil society coalitions combine multiple disciplines. Reform rarely succeeds through legal skill alone, or community organising alone, or research alone. This section maps the skill domains a strong JCPS advocacy coalition needs – and how to build them.
+2.1 The Civil Society Skills Wheel
+Skill Domain
+Core Competencies
+Application in JCPS Reform
+Legal Advocacy
+Constitutional litigation, amicus briefs, legal opinions, regulatory submissions
+Challenging unlawful detention, police brutality, discriminatory legislation
+Policy Analysis
+Bill analysis, regulatory impact assessment, budget analysis, comparative research
+Responding to Bills before Parliament; analysing MTEF budget allocations to justice departments
+Community Organising
+Base-building, popular education, issue identification, collective action planning
+Mobilising affected communities; sustaining pressure; ensuring reform is demand-driven
+Research & Evidence
+Qualitative interviews, survey design, data analysis, report writing, academic partnerships
+Documenting abuses; building the evidence base for reform; countering government narratives
+Communications & Narrative
+Media relations, social media, storytelling, campaign design, framing
+Shifting public discourse; naming and shaming; celebrating wins; mobilising solidarity
+Parliamentary Monitoring
+Committee tracking, Hansard analysis, legislative pipeline monitoring
+Holding MPs accountable; identifying legislative openings; building relationships with sympathetic parliamentarians
+Budget & Finance Advocacy
+Public finance analysis, budget tracking, PAIA requests, audit analysis
+Tracking how money reaches frontline services; exposing underspending and misallocation
+Digital & Data
+Data visualisation, FOIA/PAIA submissions, open data use, digital security
+Data-driven accountability reports; protecting sources; digital mobilisation
+Healing & Trauma-Informed Practice
+Psychosocial support, survivor-centred approaches, secondary trauma management
+Working with incarcerated people, crime survivors, GBV victims, and frontline community monitors
+2.2 Skills You Cannot Afford to Lack
+Three capability gaps most frequently limit civil society advocacy effectiveness:
+Budget literacy: Most policy change requires following the money. Every coalition working on JCPS reform needs at least one person who can read a departmental budget, track MTEF allocations, and identify what is not being funded.
+Parliamentary procedure: Knowing when and how to make written submissions, appear before committees, engage the Speaker's office, or initiate a private member's bill is a specialist skill that pays enormous dividends.
+Digital security: Civil society organisations working on sensitive JCPS issues (police accountability, prison conditions, organised crime) face real risks of surveillance and data breaches. Minimum digital hygiene must be non-negotiable for all members.
+2.3 Building Skills Across the Coalition
+Conduct a coalition-wide Skills Audit at formation and annually thereafter – rate each domain as Strong / Present / Gap across the coalition.
+For each Gap, identify which member organisation could lead skill-building, whether a secondment from an ally organisation is possible, or whether a short-term consultant is needed.
+Run quarterly Skills Exchange Sessions – one member organisation hosts a 2-hour workshop sharing a skill the rest of the coalition needs.
+Build in mentoring pairs: pair a community organiser with a policy analyst, a lawyer with a communicator. Cross-domain relationships are the foundation of cross-functional work.
+Centring Lived Experience as a Skill
+People who have been incarcerated, survived gender-based violence, experienced police brutality, or navigated the justice system as complainants hold irreplaceable knowledge. This is not supplementary to the coalition's work – it is foundational. Ensure coalition processes compensate community experts for their time, make meetings accessible, and do not tokenise participation. Structural inclusion, not consultation, is the standard.
+3. Operating Rhythm – How to Work Together
+Sustained reform campaigns require a disciplined operating cadence. This section provides a practical rhythm for coalitions working across annual legislative and political cycles, with quarterly strategic reviews, monthly coordination, and weekly execution.
+3.1 Annual Cycle – Aligned to the Political Calendar
+South Africa's political calendar creates predictable windows of opportunity. Plan your advocacy cycle around them:
+Month
+Political Moment
+Coalition Actions
+January
+SONA preparation
+Publish a pre-SONA reform scorecard; issue demands; brief sympathetic MPs; prepare media briefs
+February
+SONA & Budget Speech
+Rapid-response analysis of SONA commitments; budget speech shadow analysis; media blitz
+Mar–Apr
+Portfolio Committee hearings on APPs
+Submit written inputs to all four JCPS Portfolio Committees; request oral hearings; track APP targets
+May
+Freedom Month / Halfway Year
+Community consultation events; release annual State of Justice report; partner engagement
+June
+Mid-year budget reviews
+Shadow mid-year review for JCPS departments; coalition strategy review retreat
+Aug
+Women's Month / GBVF focus
+Amplify gender justice advocacy; targeted campaigns on GBVF NSP implementation
+Sep–Oct
+MTEF preparation period
+Budget advocacy submissions to National Treasury and departments; media and Parliamentary engagement
+November
+Annual Report tabling
+Review and analyse tabled Annual Reports; identify failures vs. commitments; publish accountability brief
+December
+Year-end review
+Internal retrospective; update strategy; publish year-end accountability digest; renew member commitments
+3.2 Quarterly Cycle – Strategy & Solidarity
+Quarterly Strategy Review (QSR): A full-day coalition retreat each quarter. Review progress on reform targets, assess the political landscape, reprioritise workstreams, and make strategic decisions about escalation, litigation, or negotiation.
+Opposition Research Update: Review what government departments have published (Annual Reports, SCOPA appearances, Auditor-General findings, Parliamentary Q&As). Update your evidence base with new data.
+Stakeholder Landscape Review: Map changes in allies, opponents, and fence-sitters. Identify new entry points and reassess relationships that are not productive.
+Coalition Health Check: Briefly assess how the coalition itself is functioning – are all members contributing? Are relationships strong? Are there tensions that need addressing? Is the coalition becoming more or less inclusive?
+3.3 Monthly Cycle – Coordination & Accountability
+Month-Start Coordination Call (90 min): All TWG leads report on the month's priorities. Confirm shared public positions and upcoming joint actions. Surface conflicts or resource needs.
+Parliamentary Tracker Update (Day 1–5): The Parliamentary Monitoring Lead updates the tracker with all committee activity, new Bills, and government responses to coalition submissions.
+Media & Comms Planning (Day 1–7): Agree on the month's narrative priorities. Coordinate op-eds, social media campaigns, and proactive media pitches across member organisations.
+Mid-Month Working Group Huddles (Day 10–15): Each TWG meets independently. Report progress, coordinate actions, flag blockers. Keep to 45 minutes.
+Month-End Members Brief (Day 25–31): 2-page written brief circulated to all coalition members and partners. What happened, what worked, what is coming next month, what you can do to help.
+3.4 Weekly Cycle – Execution Habits
+Monday Morning Digest: The Communications Lead sends a weekly digest to all members covering: Parliamentary schedule for the week, media stories relevant to your campaigns, government statements requiring a response, and this week's coalition priorities.
+Wednesday Rapid Response Window: A standing 30-minute window for coalition spokespersons to convene (by call or chat) if a breaking story or government statement requires a coordinated response.
+Friday Update: Each TWG posts a brief 3-line weekly update to the shared coalition channel: what we did, what is next, what we need.
+Always-On Alert Channel: A shared digital channel (WhatsApp group, Signal, or Teams) for time-sensitive actions – petition launches, urgent media calls, Parliament alerts, or emergency mobilisation.
+The Discipline of Strategic Patience
+Reform campaigns rarely produce quick wins. The operating rhythm above is designed for the long game – sustained, disciplined, evidence-based pressure applied consistently over years. Guard against activism fatigue by celebrating small wins, rotating burdensome tasks, building in rest periods after peaks, and regularly reconnecting the team to the stories of people whose lives you are trying to improve.
+4. Technology for Advocacy Coalitions
+Civil society coalitions often operate with lean resources. The technology stack below prioritises tools that are free or low-cost, secure enough for sensitive advocacy work, and accessible to organisations with varying levels of digital capacity.
+4.1 Communication & Collaboration
+Tool
+Use
+Notes
+Signal (free)
+Secure internal coalition communications; sensitive discussions
+End-to-end encrypted; use for anything involving sources, cases, or sensitive strategy
+WhatsApp Business (free)
+Broader coalition network alerts; community partner updates
+Do NOT use for sensitive information; assume it is monitored
+Google Workspace for Nonprofits (free)
+Email, Docs, Drive, Meet, Forms for coalition administration
+Free for registered NPOs; 100GB storage; solid real-time collaboration
+Zoom / Google Meet (free tier)
+Virtual meetings, webinars, community consultations
+Zoom Nonprofit plan available at reduced cost; record all coalition meetings
+Slack (free tier) / Discord
+Structured team channels by workstream
+Free tier sufficient for most coalitions; keeps discussions organised by theme
+4.2 Research, Evidence & Parliamentary Monitoring
+Tool
+Use
+Notes
+Parliamentary Monitoring Group (PMG)
+Track committee meetings, Bills, Hansard, government presentations
+Essential; pmg.org.za – free for civil society with registration
+OpenUp / Dokeza
+Collaborative annotation and comment on Bills before Parliament
+South African tool; excellent for coordinating coalition submissions
+PAIA Online (paia.org.za)
+Submit and track PAIA (access to information) requests
+Use systematically to obtain government data; share results across coalition
+Airtable / Google Sheets
+Evidence tracking databases, case logs, community monitor data
+Airtable free tier excellent for structured evidence databases; share across coalition
+DataWrapper / Flourish (free)
+Data visualisation for reports and media
+No-code chart and map tools; produce professional infographics quickly
+StatsSA / SAPoliceService open data
+Crime statistics, socioeconomic data, service delivery data
+Always cite official government data in submissions to strengthen credibility
+4.3 Campaign & Communications Tools
+Tool
+Use
+Notes
+Mailchimp (free tier)
+Member newsletters, campaign updates, donor communications
+Free up to 500 contacts; 1,000 sends/month – sufficient for most coalitions
+Change.org / Petitions.net
+Public petitions to Parliament or departments
+Use sparingly – for high-profile moments; cultivate signatories for future mobilisation
+Canva for Nonprofits (free)
+Infographics, social media cards, report covers, posters
+Excellent for multilingual materials; 140+ languages; free for registered NPOs
+Buffer / Hootsuite (free tier)
+Scheduled social media across platforms
+Coordinate coalition social posts; maintain consistent presence without burning out
+Otter.ai / oTranscribe
+Meeting transcription and note-taking
+Otter free tier transcribes 300 min/month; useful for community testimony recordings
+4.4 Digital Security – Non-Negotiable Minimum Standards
+Security Baseline for JCPS Advocacy Organisations
+Organisations working on police accountability, prison conditions, organised crime, or GBV face elevated security risks. Minimum standards for all coalition members:
+1. Two-factor authentication (2FA) on all email and cloud accounts – no exceptions.
+2. Signal for all sensitive communications involving sources, cases, or strategy.
+3. Encrypted file storage for any documents containing personal data of beneficiaries or witnesses.
+4. A documented data breach response plan – who to call, what to do, how to notify affected people.
+5. Annual digital security training for all staff, not just IT staff.
+Contact Access Now (accessnow.org) or Digital Rights Foundation for free civil society digital security support.
+5. Coalition Artifacts
+Artifacts are the documents that give a coalition memory, coherence, and credibility. They are equally important for internal coordination and for external accountability. Every coalition should maintain the following core documents.
+5.1 Core Artifact Library
+Artifact
+Owner
+Cadence
+Purpose
+Coalition Charter
+Convenor
+Annual review
+Shared purpose, values, membership, decision-making rules, and how conflicts are handled
+Theory of Change (ToC)
+M&E Lead
+Annual review
+Logic model: how your activities lead to outputs, outcomes, and long-term change
+Strategic Reform Agenda
+Steering Body
+Annual update
+The 3–5 priority reform changes the coalition is committed to advancing in the current period
+Stakeholder Map
+Convenor
+Quarterly update
+Who matters, where they stand, how to move them; includes government, Parliament, media, funders, communities
+Parliamentary Tracker
+Parliamentary Lead
+Weekly update
+Live log of all JCPS-related Bills, committee hearings, government commitments, and coalition submissions
+Evidence Register
+Research Lead
+Monthly update
+Inventory of all research, reports, case data, and community testimonies available to the coalition
+Decision & Positions Log
+Convenor
+Per meeting
+Record of all collective positions adopted by the coalition and the reasoning behind them
+Campaign Calendar
+Comms Lead
+Monthly update
+Forward schedule of all planned advocacy actions, publication dates, and political moments
+Impact & Learning Report
+M&E Lead
+Bi-annual
+What changed, what the coalition contributed, what did not work, what will be done differently
+PAIA Tracker
+Research Lead
+Monthly update
+All PAIA requests submitted, status, information received, and how it was used
+Funder & Resource Map
+Resource Mob. Lead
+Quarterly update
+Current funders, grant periods, reporting requirements, aligned funders to approach
+Media Contact Database
+Comms Lead
+Quarterly update
+Journalists, editors, and producers covering justice and security issues with contact details and beat notes
+5.2 Coalition Charter – Template
+Coalition Charter Template
+1. COALITION NAME & TAGLINE
+2. FOUNDING STATEMENT: Why this coalition exists and what it will change (max 200 words).
+3. SHARED VALUES: 4–6 values that govern how the coalition operates (e.g. dignity, accountability, inclusion, evidence-based advocacy).
+4. REFORM PRIORITIES: The specific changes in the JCPS system the coalition is committed to advancing.
+5. MEMBERSHIP: Who can join; criteria for membership; process for admitting new members.
+6. DECISION-MAKING: How decisions are made (consensus / majority vote / delegated authority); who has a veto and on what.
+7. CONFLICT RESOLUTION: What happens when member organisations publicly disagree; process for internal mediation.
+8. PUBLIC POSITIONING: When can individual members speak publicly on coalition issues independently; what requires collective sign-off.
+9. RESOURCE SHARING: How coalition resources (research, data, media contacts, funder relationships) are shared.
+10. GOVERNANCE STRUCTURE: Steering Body composition; meeting frequency; how the Convenor is selected and rotated.
+11. AMENDMENTS: How this Charter can be changed; minimum notice period and majority required.
+12. SIGNATORIES: All founding member organisations with authorised signatory.
+5.3 Theory of Change Framework
+A Theory of Change (ToC) is the essential thinking tool for a reform coalition. It maps the pathway from your activities to lasting systemic change. A strong ToC for JCPS reform must answer:
+What is the root cause of the injustice or system failure you are addressing?
+What conditions need to change – political, legal, institutional, cultural, resource-based?
+What are the leverage points where civil society action can shift those conditions?
+What are your short-term (1 year), medium-term (3 year), and long-term (10 year) outcomes?
+What assumptions are you making about how change happens – and what could invalidate those assumptions?
+ToC Example: Reducing Pre-Trial Detention
+PROBLEM: Unconstitutionally long remand detention violates Section 35 rights; disproportionately affects poor, Black South Africans; feeds prison overcrowding.
+LEVERAGE POINTS: NPA prosecution policy; bail conditions set by magistrates; DoJ court capacity; DCS remand management; legal aid availability.
+SHORT-TERM OUTCOMES (1yr): Systematic legal representation for remand detainees in target courts; PAIA-obtained data on remand periods published.
+MEDIUM-TERM OUTCOMES (3yr): Departmental policy changes on remand management; legislative amendment to Correctional Services Act.
+LONG-TERM OUTCOME (10yr): Average remand detention reduced by 40%; proportion of prison population in remand reduced from 30% to under 15%.
+5.4 Parliamentary Submission – Format Guide
+Written submissions to Portfolio Committees are among the most powerful tools available to civil society. An effective submission:
+Opens with a 1-paragraph executive summary – the Committee Chair must be able to read it in 60 seconds.
+States clearly who the submitting organisation(s) are and their mandate.
+Frames the issue in terms of constitutional rights, relevant legislation, and government's own commitments.
+Presents evidence – data, case studies, research findings – concisely and with full attribution.
+Makes specific, actionable recommendations – not general appeals. Each recommendation should be something the Committee can actually action.
+Requests an oral hearing where appropriate and provides contact details for follow-up.
+Submission Tip
+Always address your submission to both the Portfolio Committee AND the relevant Ministry. Track whether the submission receives a formal response. If not, follow up in writing after 30 days and escalate publicly if ignored. Unanswered submissions are themselves a story.
+6. Civil Society Reform Priorities in the JCPS Cluster
+This section maps the priority reform issues within each JCPS department where civil society action has the greatest potential for impact.
+6.1 Department of Justice & Constitutional Development
+Court backlogs & access to justice: Document the human cost of delays; advocate for virtual courts, additional magistrates, and court diversion programmes.
+Legal aid: Track Legal Aid SA coverage gaps; advocate for increased funding; expose cases where accused appear without representation.
+Gender justice: Monitor implementation of the Domestic Violence Act amendments; track restraining order enforcement; advocate for dedicated GBV courts.
+Land & constitutional rights: Support communities navigating evictions and constitutional litigation; monitor Section 26 implementation.
+Anti-corruption: Engage with NPA Prosecuting Authority on high-profile cases; monitor SIU referral pipeline; advocate for asset forfeiture reforms.
+6.2 Department of Correctional Services
+Prison conditions & overcrowding: Conduct oversight visits through JICS; document conditions; litigate where conditions are unconstitutional.
+Remand detention: Identify and represent long-term remand detainees; publish data on average remand periods; engage DCS and DoJ on joint solutions.
+Rehabilitation programmes: Monitor availability and quality of TVET, education, and psychosocial programmes in correctional centres.
+Parole & reintegration: Track parole board functioning; document cases of unlawful detention beyond sentence; advocate for reintegration support services.
+Women and children in custody: Monitor conditions for incarcerated women and children; advocate for community-based alternatives to incarceration.
+6.3 Department of Police – Safety & Security
+Police accountability: Document and report cases of police brutality to IPID; monitor IPID investigation outcomes; advocate for consequence management.
+GBVF response: Monitor SAPS implementation of GBVF NSP commitments; track response times at GBV cases; audit functioning of Thuthuzela Care Centres.
+Community policing: Strengthen Community Policing Forum civil society representation; advocate for transparent CPF funding; document community safety outcomes.
+Organised crime & corruption: Support investigative journalism through evidence sharing; engage the Hawks on accountability; monitor SAPS internal corruption.
+Protest and assembly rights: Monitor policing of public protests; document instances of excessive force; submit to relevant committees.
+6.4 Cross-Cutting Civil Society Priorities
+GBVF National Strategic Plan: All four departments have NSP commitments. Coordinate a unified civil society scorecard tracking implementation across the cluster.
+Youth justice: Advocate for diversion, child justice courts, and aftercare services for young people in conflict with the law.
+Data transparency: Use PAIA systematically to obtain government data that should be public. Publish what you receive. Name departments that refuse.
+Budget accountability: Shadow JCPS departmental budgets every year. Identify underfunding of critical services. Present evidence at SCOPA and Portfolio Committee hearings.
+Anti-corruption culture: Engage with the Public Service Commission and Public Protector on systemic corruption in JCPS departments. Support whistleblowers.
+6.5 Key Oversight Bodies – Your Strategic Allies
+Body
+Mandate
+How Civil Society Engages
+IPID – Ind. Police Investigative Directorate
+Investigate police misconduct and brutality
+Report cases; monitor investigation progress; submit research on systemic patterns
+JICS – Judicial Inspectorate for Correctional Services
+Inspect and report on correctional centre conditions
+Share evidence; conduct joint oversight visits; respond to JICS reports publicly
+SAHRC – SA Human Rights Commission
+Investigate rights violations; make recommendations
+Submit complaints; partner on investigations; amplify SAHRC findings
+Public Protector
+Investigate maladministration and corruption
+Submit complaints on systematic failures; engage on remedial action follow-up
+Auditor-General of SA
+Audit departmental financial and performance management
+Engage on audit findings; submit evidence of misreporting to relevant Portfolio Committee
+SCOPA – Standing Committee on Public Accounts
+Hold departments accountable for audit outcomes
+Submit written briefs ahead of SCOPA hearings; engage directly with committee members
+7. Advocacy Tactics – Your Toolkit
+Civil society coalitions have many tools available. This section maps the most effective tactics for JCPS reform advocacy, when to use each, and what makes them work.
+7.1 The Advocacy Ladder
+Reform coalitions should think about tactics as a ladder – starting with collaborative engagement and escalating as needed when government fails to respond:
+Level
+Tactic Type
+Specific Tools
+1 – Constructive
+Collaborative engagement
+Technical assistance, joint planning, policy dialogue, co-design of reforms, capacity building with government
+2 – Accountability
+Evidence-based monitoring
+Submissions, shadow reports, PAIA requests, Parliamentary monitoring, budget tracking, oversight visit reports
+3 – Pressure
+Public advocacy
+Media campaigns, public reports, op-eds, social media, petitions, community protests, coalition statements
+4 – Legal
+Strategic litigation
+Constitutional Court applications, High Court review of government decisions, amicus briefs, interdicts
+5 – Crisis
+Escalated mobilisation
+Mass mobilisation, international pressure, referral to UN mechanisms, full public exposure campaigns
+The ladder is not linear – you may operate at multiple levels simultaneously, and sometimes starting at level 3 is strategically necessary to get government to engage at level 1.
+7.2 Strategic Litigation
+Litigation is powerful but resource-intensive. Reserve it for cases where:
+A constitutional right is being systematically violated and all other avenues are exhausted.
+A court order will produce a structural change in government behaviour, not just relief for one individual.
+You have a strong legal case, evidence, and a client community willing to be part of a public process.
+You can sustain the legal team and the public campaign for the years a case may take.
+Organisations with JCPS litigation capacity include: Legal Resources Centre, Section 27, Centre for Child Law, SECTION27, Lawyers for Human Rights, Sonke Gender Justice.
+7.3 Parliamentary Engagement
+Build relationships with at least 3–5 sympathetic MPs per relevant Portfolio Committee before you need them.
+Submit written comments on every Bill and budget vote relevant to your mandate – even short submissions count.
+Attend Portfolio Committee hearings and sit in the public gallery. Your visible presence matters.
+Brief MPs with factual one-pagers before committee meetings – one page, three key facts, two questions they can ask, one recommendation.
+Follow up every interaction with a written record – it creates accountability and protects you if your evidence is misrepresented.
+7.4 Media & Narrative Strategy
+Lead with people, not policies: The most powerful advocacy stories feature a named individual whose life is affected by the system failure you are trying to fix. Always get informed consent and take security seriously.
+Build ongoing journalist relationships: Don't only call journalists when you need them. Offer yourself as a regular background source; share data; send tip-offs generously.
+Use the news peg: Connect your issues to news moments – an Annual Report tabling, a court ruling, a budget speech, a violent incident. Journalists need a reason to publish today.
+Own your own channels: A coalition newsletter, active social media, and a simple website with your reports make you findable and credible independently of mainstream media.
+Rapid response readiness: Designate a media-trained spokesperson available for same-day comment. Missed rapid response windows are missed influence opportunities.
+Power-Mapping Your Advocacy
+Before any major campaign, complete a power map: list all actors who influence the change you want to see. For each, assess: Are they currently for, against, or neutral? What motivates them? What would it take to move them? Who influences them? Coalition members should each contribute to the power map from their own networks and relationships. Update it quarterly.
+8. Getting Started – Your First 90 Days as a Coalition
+Days 1–30: Convening & Charter
+Identify 3–7 organisations to form the founding coalition. Prioritise diversity of type (legal, research, CBO, community), geography, and constituency.
+Hold a founding meeting. Share this playbook in advance. Use the session to agree on shared purpose, not yet on structure – that comes later.
+Draft a Reform Charter using the template in Section 5.2. Circulate for input; aim to finalise within 30 days of the founding meeting.
+Identify your first 3 reform priorities from Section 6 – the areas where you collectively have the most evidence, energy, and entry points.
+Designate a Convenor Organisation for the first year and establish the shared digital infrastructure (Google Workspace, Signal group, shared Drive).
+Days 31–60: Skills, Structure & Strategy
+Complete a coalition Skills Audit using the framework in Section 2. Identify your top 3 skill gaps and make a plan to address each.
+Form your Thematic Working Groups around your priority reform areas. Each TWG should have at least one community-based organisation.
+Draft your Theory of Change for each priority reform area. Test it with community partners – does it reflect their experience and priorities?
+Set up your core artifact library: Parliamentary Tracker, Evidence Register, Campaign Calendar, and Stakeholder Map (all in Section 5).
+Submit your first piece of joint work to a Portfolio Committee – even a short submission demonstrates your coalition exists and has a voice.
+Days 61–90: First Public Actions
+Publish a brief 'State of the System' statement on your priority reform areas – your public debut as a coalition. Circulate to media and government contacts.
+Hold your first community consultation event with affected communities. Report back to government on what you heard.
+Attend a Portfolio Committee hearing. Introduce yourself to the Committee Secretariat and at least two MPs.
+Launch your coalition's public presence: website (even a simple one), social media accounts, and first newsletter to your combined mailing lists.
+Hold your first quarterly strategy review. What did you learn in the first 90 days? What needs to change? Commit to the next quarter's priorities.
+Managing Coalition Tensions
+Every coalition experiences tension. Common sources include: organisations competing for credit or funding; disagreements on how aggressive to be in public; frustration at slow pace; unequal contribution of resources and time. Address tensions directly and early. Use the Coalition Charter's conflict resolution process. Normalize the conversation: 'How are we doing as a coalition?' is a legitimate agenda item for every quarterly review.
+Appendix – Quick Reference
+A. Essential Organisations in the JCPS Civil Society Ecosystem
+Organisation
+Focus
+Role in JCPS Advocacy
+Institute for Security Studies (ISS)
+Security sector research, crime analysis
+Research partner; data source; policy dialogue
+Legal Resources Centre (LRC)
+Constitutional litigation, access to justice
+Strategic litigation partner; legal support
+SECTION27
+Socioeconomic rights litigation and advocacy
+Health in prisons; right to education; litigation
+Centre for Child Law (CCL)
+Children's rights in conflict with the law
+Youth justice; children in detention
+Lawyers for Human Rights (LHR)
+Refugee rights, detention, access to justice
+Detention monitoring; legal representation
+Sonke Gender Justice
+GBV, masculinities, correctional reform
+GBVF advocacy; prisons; men and boys
+Centre for the Study of Violence & Reconciliation (CSVR)
+Violence reduction, transitional justice, trauma
+Research; community healing; police reform
+Africa Criminal Justice Reform (ACJR)
+Criminal justice policy research
+Policy analysis; database of cases and legislation
+Open Democracy Advice Centre (ODAC)
+Access to information, transparency, whistleblowing
+PAIA support; access to information training
+Parliamentary Monitoring Group (PMG)
+Parliamentary tracking and civil society access
+Essential monitoring infrastructure; free registration
+B. Key Legislation Every JCPS Advocate Should Know
+Constitution of the Republic of South Africa, 1996 – Sections 9 (equality), 12 (freedom and security), 26 (housing), 28 (children's rights), 33 (administrative justice), 35 (rights of arrested and accused persons).
+Promotion of Access to Information Act 2 of 2000 (PAIA) – your primary tool for obtaining government data.
+Promotion of Administrative Justice Act 3 of 2000 (PAJA) – grounds for challenging unlawful government decisions.
+Correctional Services Act 111 of 1998 – governs all aspects of incarceration and DCS mandate.
+South African Police Service Act 68 of 1995 – governs SAPS functions, oversight, and accountability.
+Criminal Procedure Act 51 of 1977 – governs arrest, bail, and trial procedures.
+Domestic Violence Act 116 of 1998 and 2021 Amendment – critical for GBVF advocacy.
+Child Justice Act 75 of 2008 – diversion, child justice courts, and rights of children in conflict with the law.
+Prevention and Combating of Corrupt Activities Act 12 of 2004 – tools for anti-corruption advocacy.
+C. Acronym Glossary
+Acronym
+Definition
+CBO
+Community-Based Organisation
+CSO
+Civil Society Organisation
+CPF
+Community Policing Forum
+DCS
+Department of Correctional Services
+DoJ
+Department of Justice & Constitutional Development
+GBVF
+Gender-Based Violence and Femicide
+IPID
+Independent Police Investigative Directorate
+JCPS
+Justice, Crime Prevention and Security Cluster
+JICS
+Judicial Inspectorate for Correctional Services
+LRC
+Legal Resources Centre
+M&E
+Monitoring and Evaluation
+MTEF
+Medium-Term Expenditure Framework
+NGO
+Non-Governmental Organisation
+NPA
+National Prosecuting Authority
+NPO
+Non-Profit Organisation
+ODAC
+Open Democracy Advice Centre
+PAIA
+Promotion of Access to Information Act
+PAJA
+Promotion of Administrative Justice Act
+PMG
+Parliamentary Monitoring Group
+SAHRC
+South African Human Rights Commission
+SAPS
+South African Police Service
+SCOPA
+Standing Committee on Public Accounts
+SIU
+Special Investigating Unit
+SONA
+State of the Nation Address
+ToC
+Theory of Change
+TWG
+Thematic Working Group
+D. Free Civil Society Support Resources
+Digital security: Access Now Helpline – accessnow.org/help
+PAIA assistance: Open Democracy Advice Centre – www.opendemocracy.org.za
+Parliamentary submissions: Parliamentary Monitoring Group – www.pmg.org.za
+Legal research: African Legal Information Institute – www.africanlii.org
+Funding: Inyathelo – SA Institute for Advancement – www.inyathelo.org.za
+Coalition building: Civicus – www.civicus.org
+Nonprofit governance: The Non-Profit Consortium – www.nonprofitconsortium.co.za

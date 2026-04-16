@@ -1,0 +1,705 @@
+CHANGING THE SYSTEM FROM OUTSIDE IT
+A CIVIL SOCIETY COALITION PLAYBOOK FOR EDUCATION REFORM
+How organisations, activists, researchers, and communities
+organise together to hold government accountable and drive
+lasting change in Basic Education across all nine provinces
+Coalition Power 
+Who we are, how we govern ourselves
+Campaign Craft 
+How we diagnose, plan, and act
+Accountability Muscle 
+Tools, artifacts, and rhythms
+0  PHILOSOPHY AND CONTEXT
+Civil society occupies a fundamentally different position from government in education reform. Where government has authority, civil society has legitimacy. Where government has budget, civil society has trust. Where government moves slowly, civil society can move fast. This playbook is about using those advantages deliberately and in coalition.
+Core Belief  Government cannot fix a broken education system alone — not because officials lack ability, but because fixing it requires pressure from the outside, voice from communities, evidence from independent researchers, and legal accountability through courts and commissions. Civil society provides all four.
+0.1  The Concurrent Function Problem
+South Africa's Constitution places Basic Education in Schedule 4 as a concurrent national and provincial function. The Department of Basic Education (DBE) writes policy; nine Provincial Education Departments (PEDs) deliver it. This split creates a gap — the space between policy intent and classroom reality — that government has structural difficulty seeing. Civil society lives in that gap.
+The Gap Civil Society Fills
+Government Blind Spot
+CSO Advantage
+Classroom reality vs curriculum policy
+EMIS data shows enrolment, not learning quality
+School-level ethnographic research, learner testimony, NGO field presence
+Teacher experience vs HR policy
+PERSAL tracks posts, not wellbeing or practice
+Union partnerships, teacher communities of practice, practitioner voice
+Community needs vs infrastructure plans
+ASIDI plans driven by assets, not lived experience
+Community-based organisations, ward committees, parent networks
+Legal rights vs departmental practice
+Departments litigate to defend decisions
+Public interest litigation, Section 27, constitutional rights monitoring
+Budget allocation vs actual spending
+Treasury reports on expenditure, not impact
+Budget monitoring NGOs, Right2Know, Auditor-General shadow reports
+0.2  Civil Society is Not a Monolith
+A high-functioning coalition holds multiple organisation types, each contributing a different kind of power. The playbook is designed for all of them:
+Organisation Type
+Primary Power
+Examples
+Rights-based NGOs
+Legal and constitutional
+SECTION27, Equal Education Law Centre, Centre for Child Law
+Research institutions
+Evidence and credibility
+SAIDE, JET Education Services, Stellenbosch ReSEP, HSRC
+Community-based organisations
+Legitimacy and reach
+Equal Education, school governing body federations, parent networks
+Teacher organisations
+Labour and professional power
+SADTU, NAPTOSA, subject association networks
+Media and communications
+Narrative and public pressure
+GroundUp, amaBhungane, Bhekisisa, Daily Maverick education desk
+Philanthropic foundations
+Funding and convening
+Zenex Foundation, Michael & Susan Dell Foundation, Luminate
+Faith communities
+Trust and local infrastructure
+SACC education networks, mosque and church-based learning centres
+Student and youth formations
+Moral authority and mobilisation
+South African Students Congress, Youth Capital, Activate! network
+1  COALITION ORGANISATION
+A coalition is not a committee. A committee reports to a hierarchy; a coalition operates on mutual interest and trust. The structures here are light enough to move fast and strong enough to take difficult decisions.
+1.1  Coalition Architecture
+Layer
+Body
+Role
+Strategic
+Coalition Steering Group (CSG)
+10–15 senior representatives from member organisations. Sets direction, approves campaign mandates, manages public positioning and relationships with funders. Meets quarterly.
+Operational
+Campaign Coordination Team (CCT)
+5–7 people (may be seconded from member organisations). Runs the day-to-day coalition; manages shared calendar, communications, and campaign workplans. Meets weekly.
+Execution
+Campaign Working Groups (CWGs)
+Issue-specific teams of 4–8 people assembled around a reform campaign (e.g., LTSM access, mother-tongue literacy, school safety). Each CWG owns its campaign from diagnosis to win.
+Anchor Organisation
+Coalition Secretariat
+One member organisation (rotates every 2 years) provides legal home, banking, HR, and administrative infrastructure for the coalition. Cannot dominate campaign decisions.
+1.2  Campaign Working Group Composition
+Each CWG assembles around the specific levers needed to win its campaign. Not every CWG needs every role — size to the problem, not to the org chart.
+Role
+Contributed By
+What They Bring
+Campaign Lead
+CCT or senior NGO staff
+Owns the campaign plan; convenes the CWG; escalates to CSG; keeps the coalition honest on progress
+Legal / Rights Monitor
+Rights-based NGO
+Tracks constitutional obligations; identifies litigation opportunities; drafts legal demand letters
+Researcher / Analyst
+Research organisation or university
+Generates evidence; responds to government data with independent analysis; writes policy briefs
+Community Organiser
+CBO or grassroots partner
+Keeps the campaign rooted in lived experience; organises community testimony and public participation
+Communications & Media
+Media partner or in-house comms
+Manages narrative; places stories; manages social media; protects the coalition's public credibility
+Parliamentary Monitor
+Policy advocacy NGO
+Tracks Committee meetings, budget votes, BELA hearings; writes submissions; briefs MPs
+Budget Tracker
+Budget monitoring NGO or analyst
+Follows education conditional grants, equitable share, infrastructure spending; identifies fiscal failures
+Youth / Learner Voice
+Student formation or youth NGO
+Centres those most affected; provides testimony; challenges adult-centric framing of problems
+1.3  Coalition Agreements and Accountability
+⚠ CAUTION  Coalitions collapse when trust breaks. Trust breaks when members free-ride, take credit, or act outside agreed mandates. The agreements below are non-negotiable.
+Membership Agreement (signed at joining)
+Organisations join in good faith; they may disagree on tactics but not on the coalition's core reform objectives.
+No member may enter into formal engagement with the target department on behalf of the coalition without CCT approval.
+Research and evidence produced within the coalition is jointly owned; attribution must credit the coalition, not just the producing organisation.
+Members declare conflicts of interest (e.g., receiving government funding that creates dependence on the target institution).
+Withdrawal from a campaign requires 30 days written notice; departing members do not take campaign materials or contacts.
+Decision Protocol
+Decision Type
+Authority
+Process
+Campaign tactics (letters, events, posts)
+Campaign Lead
+Inform CWG; Campaign Lead decides and acts
+Public statements and media releases
+CCT
+Draft circulated 24h before; CCT approves; silence = consent
+Litigation or legal action
+CSG + Legal partner
+Full CSG vote; requires 2/3 majority; legal partner must advise
+New campaign mandate or issue
+CSG
+CSG proposes; member organisations ratify; simple majority
+Accepting restricted donor funding
+CSG + Secretariat
+Full CSG vote; disclose conditions to all members before vote
+Coalition spokesperson
+CSG
+Named per campaign; reviewed annually
+1.4  Power Analysis — Know Who You Are Dealing With
+Before launching any campaign, the CWG maps the landscape of actors, their interests, and their power. This is not optional — miscalculating allies and opponents wastes campaign energy and can cause backlash.
+Actor / Institution
+Interest
+Power
+Engagement Strategy
+DBE Director-General
+Neutral
+High
+Request bilateral; share evidence first; avoid public embarrassment; build relationship for when they are an ally
+Provincial HoDs (PED)
+Mixed
+High
+Differentiate: identify reform-friendly HoDs for peer pressure on resistors; never treat all 9 as one bloc
+Teacher unions (SADTU)
+Mixed
+High
+Separate union leadership from teacher members; mobilise members' interests (better working conditions, resources)
+Parliamentary Portfolio Committee
+Ally
+Medium
+Brief at start of each quarter; provide evidence packs; request oversight hearings; use Section 56 powers
+National Treasury
+Neutral
+High
+Frame reforms as fiscal efficiency, not just rights; produce costed proposals; engage through budget process
+Media
+Ally
+Medium
+Embed journalists in field; provide exclusive data; respond fast; build long-term relationships with education reporters
+School Governing Bodies
+Ally
+Medium
+National NASGB + provincial SGB associations; mobilise their testimony and formal submissions
+Funders (philanthropy)
+Ally
+Medium
+Align reporting with campaign milestones; protect independence; avoid campaign capture by funder priorities
+Political opposition parties
+Ally (tactical)
+Low-Med
+Use for Parliamentary questions and oversight hearings; do not become identified with a party
+DBE communications team
+Opponent
+Low
+Anticipate defensive responses; pre-empt with proactive evidence release; do not personalise
+2  CROSS-FUNCTIONAL SKILLS
+Civil society campaigns succeed when they bring multiple disciplines to the same problem simultaneously. A campaign that only uses legal tools becomes litigation; one that only uses media becomes noise. The following skills matrix shows what a full-spectrum coalition needs.
+2.1  Skills the Coalition Must Hold
+Skill Domain
+Critical For
+What Good Looks Like
+Constitutional & Education Law
+Litigation, submissions, demand letters
+Understanding of Section 29 right to education; SASA; NEPA; Children's Act; ability to identify when DBE/PED is acting unlawfully
+Quantitative Data Analysis
+Evidence packs, budget tracking, EMIS
+Reading and reanalysing EMIS, NSC, ANA, SAQMEQ data; exposing statistical manipulation; presenting findings accessibly
+Qualitative Research & Ethnography
+Community voice, impact documentation
+Structured interviews with teachers, learners, parents; FGDs at school level; translating lived experience into campaign evidence
+Budget & Fiscal Analysis
+Following the money
+Tracing education conditional grants through DORA; comparing budget vs actual from annual reports; reading National Treasury ENE
+Parliamentary Procedure
+Legislative advocacy
+Submitting written and oral inputs to Portfolio Committee; tracking BELA and other Bills; using PAIA requests for documents
+Media & Communications
+Public narrative
+Pitching stories; writing press releases; managing social media under crisis; op-ed writing; radio and community media
+Community Organising
+Legitimacy and mobilisation
+Facilitation in multilingual settings; understanding township and rural community dynamics; building trusted relationships over time
+Digital Campaigns
+Online pressure and petition
+Social media campaigns; email advocacy; WhatsApp broadcast networks; data visualisation for public consumption
+Monitoring & Documentation
+Accountability and evidence trail
+Field monitoring protocols; photographic and video evidence; freedom of information requests; shadow reporting
+Strategic Communications
+Framing and narrative control
+Message discipline across coalition; anticipating government counter-narrative; crisis communications
+Negotiation & Mediation
+When to talk to government
+Interest-based negotiation; knowing when legal threats enable dialogue; managing internal coalition tensions
+Grant Writing & Donor Relations
+Coalition sustainability
+Writing multi-year advocacy proposals; reporting on outcome indicators, not activity outputs; managing restricted vs unrestricted funds
+2.2  Avoiding Skills Silos
+Assign each CWG a skills mentor — an experienced advocate who has run similar campaigns and can coach the team on blind spots.
+Run a skills audit at campaign inception: use a simple heat map (Green = strong, Amber = developing, Red = gap) and source the red cells before launch.
+Cross-train deliberately: researchers should attend community hearings; community organisers should read budget documents; lawyers should do media interviews.
+💡 TIP  The most dangerous gap in most civil society campaigns is financial analysis. Rights organisations can argue constitutional violations; few can prove the money was available and deliberately not spent. Embed a budget analyst in every CWG.
+2.3  Managing Expert Voice vs Community Voice
+Principle  The expert's job is to make the community's experience legible to power — not to replace community voice with expert voice. A lawyer's affidavit is more powerful when it is grounded in a parent's testimony. A researcher's data is more compelling when it can be narrated by a Grade 4 learner who can't read.
+Every major submission or campaign document must include direct testimony from affected learners, parents, or teachers — not just research findings.
+Community members must be briefed on and consent to how their stories will be used before they appear in any public communication.
+When government invites 'expert inputs', invite a community representative to give the opening testimony before the researcher presents data.
+3  CAMPAIGN PROCESS AND WORKING RHYTHMS
+Civil society does not operate on a fiscal year — it operates on a campaign cycle. But it must also be present at specific moments in government's calendar. The rhythms below integrate both.
+Government Calendar Reference  February: Budget Speech + MTEF. March: Education Portfolio Committee resumes. May: National Budget Vote (Education). June-July: Parliament recess. August: New school term + Matric mid-year results. October: MTEF review. November: NSC exams. December-January: Recess.
+3.1  Annual Rhythm — Campaign Cycle
+Cadence
+Focus
+Who Convenes
+Outputs
+ANNUAL
+Set campaign agenda; review wins and losses; renew coalition mandate; align with political calendar.
+Coalition Steering Group + all CWG Leads
+Annual Campaign Agenda; updated Power Map; coalition mandate renewal; funder reporting; media review
+Annual Calendar (Education Sector)
+Month
+Government Moment
+Coalition Action
+January
+School year opens; enrolment data available
+Field monitoring deployment: photograph and document school readiness failures (no books, no teachers, broken infrastructure)
+February
+National Budget Speech; MTEF published
+Budget analysis sprint: within 48 hours release a plain-language breakdown of education allocations vs needs
+March
+Portfolio Committee resumes
+Submit written inputs on priority issues; request oral presentation slot; brief sympathetic MPs
+April
+Provinces table education budgets
+Provincial budget tracking: compare conditional grant allocations vs prior year commitments
+May
+Education Budget Vote (Parliament)
+Mobilise community testimony outside Parliament; distribute evidence packs to media; shadow budget vote address
+June
+Mid-year examinations; PAIA window
+File PAIA requests for EMIS data, infrastructure reports, teacher vacancy data not yet in public domain
+July
+Parliament recess; mid-year reports
+Internal review: what has the coalition achieved? Update campaign strategy. Publish mid-year accountability report.
+August
+Audit outcomes published (AGSA)
+Analyse education-specific audit findings; link to campaign evidence; call for consequences for non-compliance
+September
+NSC registration; term 3 assessments
+Learner rights monitoring: textbook delivery, teacher presence, infrastructure safety audits
+October
+MTEF review; new spending plans
+Costed reform proposals submitted to Treasury and DBE before MTEF is finalised
+November
+NSC exams begin; annual reports tabled
+Annual report analysis: compare stated targets vs actual outcomes; prepare Annual Accountability Scorecard
+December
+NSC results; year-end reviews
+NSC result analysis and press briefing; Annual Accountability Scorecard published; coalition review retreat
+3.2  Quarterly Rhythm — Accountability Pulse
+Cadence
+Focus
+Who Convenes
+Outputs
+QUARTERLY
+Review campaign progress; publish accountability products; convene stakeholders; adjust tactics.
+Campaign Coordination Team + CWG Leads
+Quarterly Accountability Brief; stakeholder engagement log; media coverage review; updated campaign plans
+Quarterly Accountability Session (half day)
+Campaign scorecard: review indicators for each active CWG — what moved, what stalled, what regressed.
+Government response review: has DBE or PED responded to letters, submissions, or litigation? Document silence as evidence of non-response.
+Media audit: what narratives dominated? Did the coalition's frame win space? What did we fail to shape?
+Community feedback: what are communities telling CBOs and field workers? Any early warnings of emerging crises?
+Funder update: are campaign milestones translating into funder confidence? Any restrictions that are constraining tactics?
+Next quarter plan: confirm campaign priorities; allocate CWG resources; agree on flagship products and events.
+💡 TIP  Publish a one-page Quarterly Accountability Brief for public consumption. Make it shareable on WhatsApp. A government that knows you will publish quarterly becomes more responsive than one that experiences annual pressure.
+3.3  Monthly Rhythm — Campaign Momentum
+Cadence
+Focus
+Who Convenes
+Outputs
+MONTHLY
+Maintain momentum; integrate work streams; produce and publish accountability products; engage media.
+CWG Leads + relevant members. 2-3 hours.
+Monthly update to coalition members; press release or op-ed if warranted; updated evidence pack; next month workplan
+Monthly CWG Session
+Evidence review: what new data has emerged? EMIS updates, court judgments, parliamentary questions, field reports?
+Workplan review: tasks from last month — done, not done, blocked. No blame; diagnose the blockage.
+Government engagement log: any meetings, correspondence, or responses received — what did government say or not say?
+Legal update: any developments in active litigation or pre-litigation demand letter processes?
+Community check-in: what is the temperature at school and community level? Any issues requiring rapid response?
+Communications calendar: what will we publish or say this month? Who writes it, who approves it, when does it go?
+⚠ CAUTION  Monthly is when campaigns die quietly. If the CWG stops meeting monthly, the campaign loses momentum. If the Campaign Lead cannot convene the monthly, a deputy must. There is no acceptable reason to skip a month.
+3.4  Weekly Rhythm — Operational Tempo
+Cadence
+Focus
+Who Convenes
+Outputs
+WEEKLY
+Keep execution moving. Surface blockers before they become failures. Protect team morale.
+CCT core team. Campaign Lead + CWG sub-teams as needed. Max 45 min.
+Updated task board; blocker log; urgent decisions; any rapid-response items
+Weekly Check-in (45 minutes)
+Agenda Item
+Time
+Notes
+Rapid wins round — what landed this week?
+5m
+Celebrate small wins. Activist burnout is real. Acknowledgement matters.
+Task delivery check — done vs committed
+10m
+One sentence per person. Not done = what was the blocker? Note it.
+Rapid response check — anything breaking?
+10m
+Media stories, government statements, legal deadlines, community crises needing immediate response.
+Next week commitments
+10m
+Each person names 1–3 specific deliverables. Written on shared board. No vague 'I'll work on it'.
+Blockers and escalations
+5m
+Any issue that cannot be resolved at CWG level goes to CCT. CCT issues go to CSG. Nothing sits unresolved for two weeks.
+Energy check
+5m
+One word per person. If the energy is low, name it. Investigate. Activist burnout destroys more campaigns than government resistance.
+Rapid Response Protocol  When government acts outside legal mandate (e.g., school closures, textbook non-delivery crisis, budget cuts to vulnerable learners), the coalition must be able to release a public statement within 4 hours and a full evidence brief within 48 hours. Agree in advance who is authorised to trigger this protocol.
+3.5  Campaign Lifecycle
+Every campaign follows a lifecycle. Knowing which phase you are in determines which tools to use.
+Phase
+Objective
+Primary Tool
+Exit Criterion
+1. Diagnosis
+Define the problem with evidence
+Research, PAIA requests, field monitoring
+Problem statement agreed; baseline data collected; affected community engaged
+2. Framing
+Win the narrative before government does
+Media, community testimony, social media
+Coalition's framing reflected in at least 3 major media outlets
+3. Demand
+Put a specific, concrete ask on record
+Demand letter, parliamentary submission
+Written demand sent; government has acknowledged or ignored (both are evidence)
+4. Escalation
+Increase the cost of non-compliance
+Litigation threat, mobilisation, media blitz, parliamentary hearing
+Government responds substantively or court date is set
+5. Negotiation
+Convert pressure into commitment
+Bilateral with DBE/PED; mediated dialogue
+Signed commitment with measurable deliverables and timeline
+6. Monitoring
+Hold government to what they promised
+Progress tracking, field verification, published scorecards
+Commitment fulfilled OR re-escalation if promises broken
+7. Consolidation
+Embed the win in policy or law
+Policy brief, legislative submission, budget tracking
+Change reflected in law, regulation, budget, or binding plan
+4  TECHNOLOGY
+Civil society technology must solve three problems government tools do not: it must work without institutional IT support, it must be secure enough to protect sensitive source relationships, and it must be affordable or free. Every tool choice must pass the test: can a CBO partner in a township school use this on a mobile data plan?
+4.1  Technology Stack
+Layer
+Tool
+Cost
+Primary Use
+Coalition Communication
+Signal (secure) + WhatsApp (broadcast)
+Free
+Signal for sensitive coalition deliberations; WhatsApp for community broadcast networks and media tip lines
+Campaign Management
+Trello (free tier) or Asana
+Free / Low
+CWG task boards; campaign sprint workplans; shared deadlines and ownership
+Document Collaboration
+Google Workspace (Nonprofit tier = free)
+Free for NPOs
+Shared drives per campaign; collaborative drafting of briefs and submissions; version history
+Video Meetings
+Zoom (free tier) + Google Meet
+Free
+Weekly check-ins; CWG sessions; community testimony recording (with consent)
+Data Analysis
+Python (pandas, matplotlib) + Google Sheets
+Free
+Reanalysis of EMIS, NSC, budget data; visualisation for evidence packs
+Freedom of Information
+PAIA online (OpenSecrets SA)
+Free
+Structured PAIA request tracking; monitoring government response windows
+Field Monitoring
+KoboToolbox
+Free for NGOs
+School readiness surveys; learner rights monitoring; textbook and teacher presence checks
+Community Surveys
+WhatsApp chatbots (Turn.io / Typeform)
+Low
+Rapid pulse surveys from community members; multilingual; mobile-first
+Parliamentary Tracking
+PMG (Parliamentary Monitoring Group)
+Free
+Track Portfolio Committee meetings; access submissions and minutes; follow bills
+Budget Tracking
+OpenSpending SA / BOOST portal
+Free
+Provincial education expenditure; conditional grant utilisation; infrastructure spend
+Social Media Campaigns
+Canva (Nonprofit) + Buffer / Hootsuite
+Free-Low
+Campaign graphics; post scheduling; multi-platform publishing; analytics
+Secure Document Storage
+ProtonDrive or Tresorit
+Low
+Sensitive legal documents; source materials; court papers; internal strategy docs
+Email Advocacy
+Action Network (Nonprofit)
+Free-Low
+Petition campaigns; email-your-MP tools; supporter list management; event RSVPs
+Website / Public reporting
+WordPress + DataWrapper
+Free-Low
+Coalition website; published scorecard data; embeddable charts for media
+4.2  Digital Security Principles
+⚠ CAUTION  Civil society organisations working on politically sensitive campaigns face real digital security risks. This is not paranoia — it is professional practice.
+Never discuss litigation strategy, confidential sources, or pre-publication evidence on WhatsApp or standard email. Use Signal or encrypted email.
+All coalition members complete a basic digital security induction (EFF's Surveillance Self-Defence guide, freely available online).
+Campaign devices (especially those used in field monitoring) should have remote-wipe capability enabled.
+PAIA requests and court papers are public documents once filed — but legal strategy documents must be attorney-client privileged and stored accordingly.
+Field monitoring data containing learner or community member personal information is subject to POPIA. Obtain informed consent before collecting.
+4.3  Data Analysis for Civil Society
+South Africa's education system produces rich public data. Most of it is underanalysed. The tools below require Python or Excel skills — invest in building this capacity within the coalition.
+Data Source
+Where to Access
+Campaign Use
+EMIS (Education Management Information System)
+DBE website or PAIA request
+Enrolment, dropout, school infrastructure, learner-teacher ratios, vacancy rates by province/circuit
+Annual National Assessments (ANA) / PIRLS / SAQMEQ
+DBE website / PAIA
+Learning outcomes by province, school type, socioeconomic quintile; trend analysis over time
+NSC (Matric) results
+DBE website (public)
+Pass rates, subject-level performance, private vs public, province comparisons
+PERSAL extracts
+PAIA request (often resisted)
+Teacher headcount, salary levels, post establishment vs filled posts, acting positions
+AGSA audit outcomes
+Auditor-General website
+Irregular expenditure, material misstatements, internal control failures in PEDs
+ENE / Division of Revenue
+National Treasury website
+Education conditional grant allocations, equitable share per province, MTEF forward estimates
+Annual Performance Reports (APR)
+DBE / PED websites
+Targets vs actual achievements; use this to hold departments to their own stated commitments
+Infrastructure: ASIDI / SAFE
+DBE Infrastructure Unit or PAIA
+School building programme delivery: completed vs planned; cost per school; delays and reasons
+5  CAMPAIGN ARTIFACTS
+Civil society artifacts are weapons in the accountability arsenal. Every artifact should answer one question: does this make it harder for the state to ignore us, deny reality, or claim it did not know?
+5.1  Core Artifacts Directory
+Artifact
+Cadence
+Owner
+Purpose & Key Contents
+Campaign Charter
+Once (at CWG inception)
+Campaign Lead
+Problem statement; theory of change; win condition (what does success look like?); team; tactics; timeline; how we will know we've won
+Power Map
+Updated quarterly
+Campaign Lead + Research
+All relevant actors; interest, power, and relationship to coalition; updated as political environment shifts
+Evidence Pack
+Updated monthly
+Researcher + Data Lead
+Curated data, quotes, photographs, and analysis supporting the campaign's core claims. Must be citable and verifiable.
+Demand Letter / Legal Notice
+When government has failed to act
+Legal partner
+Formal notice specifying constitutional/legal obligation, evidence of breach, and specific remedy required within timeframe
+Parliamentary Submission
+Per parliamentary cycle
+Policy Lead + Legal
+Written inputs to Portfolio Committee; must cite specific evidence and make specific asks; signed by coalition
+Media Brief / Press Release
+Per campaign moment
+Communications Lead
+Key facts, quotes from affected community members and experts, specific ask, contact details. Under 500 words.
+Field Monitoring Report
+Per monitoring deployment
+Community Organiser + M&E
+School-level evidence: photographs, dates, observations. Forms the backbone of public accountability claims.
+Budget Monitoring Brief
+Post-Budget Speech and per quarter
+Budget Analyst
+Education allocation vs prior year; conditional grant breakdown; comparison with constitutional obligations and needs
+Accountability Scorecard
+Quarterly + Annual
+CCT + all CWG
+Government commitments vs actual delivery. Published publicly. Simple RAG rating per commitment. Non-negotiable product.
+Case Study Dossier
+Per litigation or landmark case
+Legal + Community Lead
+Full documentation of one affected learner, school, or community — from rights violation to demand to outcome
+Annual State of Education Report
+Annual (November)
+Research Lead + CCT
+Independent assessment of education system performance. Timed to coincide with NSC exam season. Maximum public visibility.
+Coalition Narrative Document
+Annual update
+Communications Lead
+The coalition's story: why it exists, what it has won, whose lives are different because of it. For funders, media, and new members.
+5.2  The Accountability Scorecard
+Why This Matters  A published scorecard transforms abstract advocacy into a specific, recurring accountability moment. Government knows it is coming. Media knows when to ask questions. Communities know how to judge progress. It is the coalition's most powerful recurring artifact.
+Scorecard Design Principles
+Use government's own commitments as the measure — Annual Performance Plan targets, Budget Vote speeches, court orders, signed agreements. Do not invent standards they can dispute.
+RAG rating: Green = commitment met with evidence; Amber = partial delivery or delayed; Red = no delivery or deterioration.
+Publish it before the government publishes its own APR. Do not let them set the narrative first.
+Make it visual. A one-page graphic that can be shared on social media is more powerful than a 40-page technical report.
+Include a trend line. Is the system improving, stagnant, or declining? Year-on-year comparison is the most powerful accountability tool.
+Sample Scorecard Indicators (Education)
+Indicator
+Government Target
+Actual (latest)
+Coalition Rating
+% Grade 1–3 learners receiving workbooks by Day 1 of school
+100% by 15 January
+68% by end of January (PED data)
+RED — systematic failure, 3rd consecutive year
+Teacher vacancy rate in quintile 1-2 schools
+< 3% nationally
+9.2% (PERSAL extract, Aug)
+RED — unfilled posts concentrated in poorest schools
+% schools with functional toilets
+100% by 2025 (ASIDI)
+84% (DBE Infrastructure Report)
+AMBER — progress but target missed
+Grade 4 reading at grade level (PIRLS)
+Improve from 2021 baseline
+Pending 2026 results
+PENDING
+% of ASIDI schools completed per financial year
+100% of annual plan
+61% completion rate (AGSA finding)
+RED — budget spent but infrastructure not delivered
+PED responses to NASGB queries within 30 days
+100% per ministerial commitment
+34% response rate (NASGB survey)
+RED — commitment made, not honoured
+5.3  The Field Monitoring Report
+Field monitoring is the foundation of civil society's evidentiary advantage. Government reports on what it plans to deliver; civil society reports on what actually exists at school level.
+Minimum Field Monitoring Protocol
+Advance notice: Monitor schools in a defined circuit or district. Notify the DBE/PED 48 hours in advance — this prevents 'we didn't know you were coming' as a defence, and tests whether advance notice alone causes improvement.
+Standardised checklist: Every monitor uses the same KoboToolbox form covering: textbook availability per subject and grade, teacher presence vs timetable, functional toilets, water access, library or reading corner, LTSM display and use.
+Photographic evidence: Photograph (with consent where learners are present) empty classrooms, missing books, broken infrastructure. Metadata timestamps the evidence.
+Learner and parent testimony: Short verbal testimony (recorded with consent) from a parent or learner on the day. Ask: 'What is the biggest problem at this school right now?'
+Verification: Within 5 working days, send findings to the school principal and the circuit manager for factual correction. Their response (or silence) is part of the record.
+Publication: Field monitoring reports go public only after the verification step. Include the government's response — it demonstrates the coalition acted in good faith.
+6  CIVIL SOCIETY CAMPAIGN CASE STUDIES
+These three campaigns illustrate the playbook in practice. Each maps onto a different moment in the campaign lifecycle and uses a different combination of tools.
+6.1  Campaign A — Mother-Tongue Literacy in Foundation Phase
+Problem Statement
+PIRLS 2021 found that 81% of South African Grade 4 learners cannot read for meaning. The crisis is concentrated in schools using African languages as medium of instruction in Grades 1–3 but switching to English by Grade 4 — before learners have achieved literacy in any language.
+Coalition Composition
+Campaign Lead: PRAESA (Project for the Study of Alternative Education in South Africa)
+Research: Stellenbosch ReSEP, University of the Western Cape Linguistics
+Community Voice: Pan South African Language Board community networks; rural Eastern Cape CBO
+Legal: SECTION27 (Section 29 language rights; DBE Home Language Policy compliance)
+Parliamentary: Children's Rights Committee monitoring; Portfolio Committee submissions
+Media: Ground Up education reporters; SABC educational broadcasting
+Campaign Lifecycle Position
+Phases 3–5 (Demand through Negotiation). Demand letters sent; DBE has acknowledged the problem in writing. Coalition is in negotiation over a revised Home Language Policy implementation plan with binding timelines.
+Key Artifacts in Play
+Evidence Pack: PIRLS data reanalysed by home language cohort, province, and quintile
+Demand letter to DBE citing Section 29(2) language rights obligations
+Parliamentary submission to the Basic Education Portfolio Committee
+Field Monitoring Reports from 40 Foundation Phase schools across 5 provinces
+Community testimony: 12 recorded parent testimonies from Limpopo and Eastern Cape
+6.2  Campaign B — School Safety and Gender-Based Violence
+Problem Statement
+School-related gender-based violence (SRGBV) affects an estimated 1 in 3 learners, with girls and LGBTQ+ learners disproportionately affected. The DBE National School Safety Framework exists but is largely unimplemented at school level. Most schools have no functioning GBV reporting mechanism.
+Coalition Composition
+Campaign Lead: People Opposing Women Abuse (POWA) + Shukumisa Coalition
+Research: Centre for the Study of Violence and Reconciliation (CSVR)
+Community: Grass-roots women's organisations in Gauteng, KZN, and Limpopo
+Legal: Women's Legal Centre (Labour Court precedents; educator misconduct regulations)
+Digital: VAWNet SA (online reporting tool for learners)
+Media: Bhekisisa health journalism centre; Spotlight (Health Justice Initiative)
+Specific Campaign Tactics
+Shadow implementation review: field-tested DBE's own School Safety Framework against 60 schools — found 7% had a functional safety committee.
+Freedom of Information campaign: PAIA requests to all 9 PEDs for sexual misconduct disciplinary records for the past 5 years. Refusals treated as suppression of evidence.
+Survivor testimony: with full ethical clearance and consent, documented 15 case studies of survivors who attempted to report and were ignored.
+Parliamentary hearing: successfully requested a joint sitting of the Basic Education and Justice Portfolio Committees to table findings.
+6.3  Campaign C — Rapid Response: Textbook Non-Delivery Crisis
+Scenario
+It is 14 January. Schools open in two days. Coalition field workers in Limpopo, Eastern Cape, and KZN report that workbooks have not arrived in hundreds of schools. A rapid-response campaign is triggered.
+72-Hour Response Protocol
+Hour
+Action
+Who
+0–4
+Field monitoring data compiled. Signal group briefed. Communications Lead drafts holding statement.
+CCT + Communications Lead
+4
+Public statement released: '340 schools in 3 provinces without workbooks on Day 1 of school.' Data cited. Specific ask: DBE to confirm delivery status by COB.
+CCT (approved via Signal)
+4–12
+Media outreach: GroundUp, Daily Maverick, SABC, community radio stations. Send evidence pack with photographs and school names.
+Communications Lead
+12
+Legal partner sends formal demand letter to DBE DG citing Section 29 obligations and SASA provisions on LTSM delivery.
+Legal partner
+12–24
+Parliamentary monitoring: contact sympathetic MPs; request written parliamentary question to Minister.
+Parliamentary Lead
+24–48
+DBE issues statement (or does not). Either way, coalition responds: if DBE acts, acknowledge; if DBE deflects, escalate with additional province data.
+Campaign Lead
+48–72
+Full evidence brief published: school-level data, photographs, comparison with prior year failures. Calls for consequences for officials responsible for procurement failure.
+Research Lead + Communications
+7  COALITION HEALTH AND SUSTAINABILITY
+Coalitions die in four ways: burnout, funding dependency, internal conflict, and winning without knowing it. This section addresses all four.
+7.1  Preventing Burnout
+Reality Check  Education reform advocacy is emotionally heavy work. You are confronted daily with evidence of children failing, rights violated, and promises broken. Without deliberate care, your most committed activists will leave within 18 months.
+Weekly check-ins include an energy check — not a performance metric, a human moment.
+No campaign deliverable takes priority over a team member's mental health crisis. Full stop.
+Celebrate wins deliberately: even small wins — a parliamentary question asked, a document released under PAIA, a school that now has books — are celebrated in the group.
+Rotation of difficult roles: field monitoring in damaged communities, direct survivor testimony sessions, and adversarial negotiations should be rotated, not left to the same person.
+Annual coalition retreat (1–2 days): separate from planning. Reflect, reconnect, rest.
+7.2  Managing Funding Dependency
+Never allow more than 40% of coalition operating budget to come from a single funder.
+Restricted funding (for specific campaigns) must not drive campaign priority. Campaigns are driven by reform needs; funders are invited to support them.
+Maintain an unrestricted operating reserve equivalent to 6 months of core team costs.
+Develop earned revenue where possible: training programmes, research contracts, consulting to sister organisations.
+💡 TIP  Funders follow credibility. The best fundraising strategy is doing excellent, visible campaign work. A coalition that publishes a rigorously evidenced Accountability Scorecard every quarter will attract funders — not the other way around.
+7.3  Managing Internal Conflict
+Coalition conflict is normal. The question is whether it is productive (disagreement on tactics that sharpens strategy) or destructive (personality clashes, organisational competition, values misalignment).
+Tactical disagreements go to the CCT for facilitated resolution within one week. Unresolved tactical disputes are escalated to the CSG.
+Values misalignment (e.g., a member taking positions inconsistent with the coalition's mandate) triggers a mediated conversation and, if unresolved, a CSG decision on membership.
+Organisational competition (e.g., two members competing for the same grant) is disclosed and quarantined from campaign decision-making.
+No coalition communication or artifact is used for individual organisational fundraising without explicit CCT approval.
+7.4  Knowing When You've Won
+The Trap  Coalitions that win but do not know it keep campaigning in a mode of urgency that alienates government partners and burns out members. Define your win condition in the Campaign Charter and honour it when it is achieved.
+A win is: a legal remedy granted, a policy changed, a budget line restored, a commitment made and verifiably delivered, or a measurable improvement in learner outcomes attributable to the campaign.
+When a CWG achieves its win condition, hold a public celebration AND an internal debrief. Document what worked. Archive the campaign.
+Distinguish between: winning the battle (government acts), winning the campaign (commitment is delivered), and winning the war (systemic change embedded in law, budget, and practice). Most civil society campaigns win battles and campaigns. Wars require decades.
+8  GETTING STARTED: COALITION LAUNCH IN 30 DAYS
+Week
+Focus
+Key Actions
+Outputs
+1
+Convening
+Identify anchor organisations; issue invitation to founding members; agree on 2-3 campaign priorities to discuss
+Founding members list; pre-read distributed; venue / Zoom booked
+2
+Founding Session
+Full-day workshop: agree mandate, governance structure, first campaign priority, secretariat host
+Signed Coalition Agreement; CSG membership; first CWG mandate
+3
+Campaign Diagnosis
+CWG meets: evidence review; power map draft; win condition defined; skills gap identified
+Draft Campaign Charter; power map v1; skills gaps listed and sourced
+4
+Operational Setup
+Set up Google Workspace; Trello boards; Signal group; PMG alerts; field monitoring protocol agreed
+All technology live; first weekly check-in held; campaign workplan week 1 assigned
+First Public Act  Within 60 days of coalition formation, publish something. A short evidence brief, a formal letter to the DBE, a field monitoring snapshot. Inaction in the first two months signals to government and funders that the coalition lacks the will to act.
+Civil Society Education Reform Coalition Playbook
+Version 1.0  |  Campaign Coordination Team  |  2025
+"Until the lion learns to write, every story will glorify the hunter."  —  African proverb
+This playbook belongs to the coalition. Copy it, adapt it, share it.

@@ -1,0 +1,820 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+
+const levels = [
+  {
+    id: "national",
+    label: "National Department",
+    color: "#1B6B4A",
+    lightColor: "#E8F5EE",
+    downloadUrl: "/downloads/JCPS_Reform_Advocacy_Playbook.pdf",
+    downloadLabel: "Download Full JCPS Playbook (PDF)",
+  },
+  {
+    id: "provincial",
+    label: "Provincial Government",
+    color: "#2563EB",
+    lightColor: "#EFF6FF",
+    downloadUrl: "/downloads/Education_Reform_Advocacy_Playbook.pdf",
+    downloadLabel: "Download Full Education Playbook (PDF)",
+  },
+  {
+    id: "municipal",
+    label: "Municipality",
+    color: "#D97706",
+    lightColor: "#FFFBEB",
+    downloadUrl: "/downloads/Johannesburg_Metro_Reform_Playbook.pdf",
+    downloadLabel: "Download Full JHB Metro Playbook (PDF)",
+  },
+];
+---
+
+<PageLayout
+  title="Advocacy Playbooks for Citizens"
+  description="Practical playbooks for civil society coalitions organising for reform at national, provincial, and municipal government level in South Africa."
+>
+  <!-- Hero -->
+  <header class="mb-10">
+    <h1 class="font-heading text-3xl md:text-4xl font-bold text-text-primary mb-3">
+      Advocacy Playbooks for Citizens
+    </h1>
+    <p class="text-lg text-text-secondary leading-relaxed mb-4">
+      Government reform does not happen by itself. It requires organised, sustained pressure from civil society — coalitions of NGOs, community organisations, researchers, legal advocates, and ordinary citizens working together with strategic discipline.
+    </p>
+    <p class="text-text-secondary leading-relaxed">
+      These playbooks are practical guides for organising reform campaigns at each sphere of government. Choose a level below to explore how civil society coalitions can diagnose problems, build alliances, and drive lasting change. Each playbook is also available as a full PDF download.
+    </p>
+  </header>
+
+  <!-- Pill Switcher -->
+  <div class="sticky top-16 bg-bg-primary py-3 z-30 border-b border-gray-100 mb-8">
+    <div
+      class="flex flex-wrap items-center gap-2"
+      role="tablist"
+      aria-label="Select government level"
+    >
+      {levels.map((level, i) => (
+        <button
+          type="button"
+          role="tab"
+          class="playbook-tab px-4 py-2 rounded-full font-heading text-sm font-semibold transition-colors border-2"
+          style={i === 0
+            ? `border-color: ${level.color}; background-color: ${level.color}; color: white`
+            : `border-color: ${level.color}; color: ${level.color}; background-color: transparent`}
+          data-tab={level.id}
+          data-color={level.color}
+          data-light={level.lightColor}
+          aria-selected={i === 0 ? "true" : "false"}
+          aria-controls={`panel-${level.id}`}
+          id={`tab-${level.id}`}
+        >
+          {level.label}
+        </button>
+      ))}
+    </div>
+  </div>
+
+  <!-- ===================== NATIONAL PANEL ===================== -->
+  <section
+    id="panel-national"
+    role="tabpanel"
+    aria-labelledby="tab-national"
+    class="playbook-panel"
+    data-panel="national"
+  >
+    <!-- Download banner -->
+    <div class="rounded-lg border border-emerald-200 bg-emerald-50 p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-8">
+      <div>
+        <p class="font-heading font-semibold text-text-primary text-sm">Voices for Justice — JCPS Reform Playbook</p>
+        <p class="text-text-secondary text-xs mt-0.5">Justice, Constitutional Development, Correctional Services, Safety &amp; Security</p>
+      </div>
+      <a
+        href="/downloads/JCPS_Reform_Advocacy_Playbook.pdf"
+        download
+        class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-compass-green text-white font-heading text-sm font-semibold hover:bg-compass-green-dark transition-colors shrink-0"
+      >
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" /></svg>
+        Download Full Playbook (PDF)
+      </a>
+    </div>
+
+    <!-- Why This Playbook -->
+    <div class="mb-10">
+      <h2 class="font-heading text-2xl font-bold text-text-primary mb-3">Why This Playbook Exists</h2>
+      <p class="text-text-secondary leading-relaxed mb-3">
+        South Africa's justice, safety, and security systems touch every community. When they work, people feel protected and rights are respected. When they fail, the consequences fall hardest on the poorest and most vulnerable.
+      </p>
+      <p class="text-text-secondary leading-relaxed">
+        This playbook assumes you are working <strong class="text-text-primary">with</strong> government where possible, and <strong class="text-text-primary">against</strong> it where necessary. Reform advocacy requires strategic judgement about when to collaborate, when to expose, when to litigate, and when to mobilise.
+      </p>
+    </div>
+
+    <!-- Coalition Architecture -->
+    <details class="mb-6 group border border-gray-200 rounded-lg" open>
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>1. Coalition Architecture</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <p class="text-text-secondary leading-relaxed mb-4">A well-structured civil society coalition for JCPS reform operates across four layers:</p>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border-collapse">
+            <thead><tr class="bg-gray-50"><th class="text-left p-2 font-heading font-semibold border-b">Layer</th><th class="text-left p-2 font-heading font-semibold border-b">Who Belongs</th><th class="text-left p-2 font-heading font-semibold border-b">Function</th></tr></thead>
+            <tbody>
+              <tr class="border-b"><td class="p-2 font-semibold">Steering Body</td><td class="p-2">Senior leaders of core organisations</td><td class="p-2">Strategic direction, public positioning, coalition-wide commitments</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">Thematic Working Groups</td><td class="p-2">Programme staff, researchers, lawyers, organisers</td><td class="p-2">Evidence gathering, policy submissions, litigation strategy</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">Community Networks</td><td class="p-2">CBOs, faith communities, survivor groups</td><td class="p-2">Ground-level evidence, lived experience, local accountability</td></tr>
+              <tr><td class="p-2 font-semibold">Solidarity Partners</td><td class="p-2">Media, academia, international allies</td><td class="p-2">Amplify voice, extend reach, resource mobilisation</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h4 class="font-heading font-semibold text-text-primary mt-5 mb-2">Key Coalition Roles</h4>
+        <ul class="text-text-secondary text-sm space-y-1 list-disc pl-5">
+          <li><strong>Convenor</strong> — holds space, manages relationships, coordinates logistics</li>
+          <li><strong>Public Spokesperson</strong> — credible, media-trained, politically savvy</li>
+          <li><strong>Legal &amp; Policy Lead</strong> — owns litigation and policy strategy</li>
+          <li><strong>Research &amp; Evidence Lead</strong> — data analysis, report production</li>
+          <li><strong>Community Accountability Lead</strong> — ensures lived experience is centred</li>
+          <li><strong>Communications Lead</strong> — media, social media, narrative strategy</li>
+          <li><strong>Resource Mobilisation Lead</strong> — fundraising and donor engagement</li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- Skills for Advocacy -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>2. Cross-Functional Skills</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <p class="text-text-secondary leading-relaxed mb-4">Reform rarely succeeds through legal skill alone, or community organising alone, or research alone. A strong coalition needs:</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+          <div class="rounded-lg border border-gray-200 p-3"><p class="font-semibold text-sm">Legal Advocacy</p><p class="text-xs text-text-secondary mt-1">Constitutional litigation, amicus briefs, regulatory submissions</p></div>
+          <div class="rounded-lg border border-gray-200 p-3"><p class="font-semibold text-sm">Policy Analysis</p><p class="text-xs text-text-secondary mt-1">Bill analysis, budget analysis, comparative research</p></div>
+          <div class="rounded-lg border border-gray-200 p-3"><p class="font-semibold text-sm">Community Organising</p><p class="text-xs text-text-secondary mt-1">Base-building, popular education, collective action</p></div>
+          <div class="rounded-lg border border-gray-200 p-3"><p class="font-semibold text-sm">Research &amp; Evidence</p><p class="text-xs text-text-secondary mt-1">Documenting abuses, building the evidence base, countering narratives</p></div>
+          <div class="rounded-lg border border-gray-200 p-3"><p class="font-semibold text-sm">Parliamentary Monitoring</p><p class="text-xs text-text-secondary mt-1">Committee tracking, legislative pipeline, holding MPs accountable</p></div>
+          <div class="rounded-lg border border-gray-200 p-3"><p class="font-semibold text-sm">Budget &amp; Finance</p><p class="text-xs text-text-secondary mt-1">Public finance analysis, PAIA requests, audit analysis</p></div>
+          <div class="rounded-lg border border-gray-200 p-3"><p class="font-semibold text-sm">Communications &amp; Narrative</p><p class="text-xs text-text-secondary mt-1">Media relations, storytelling, campaign design, framing</p></div>
+          <div class="rounded-lg border border-gray-200 p-3"><p class="font-semibold text-sm">Digital Security</p><p class="text-xs text-text-secondary mt-1">Data protection, encrypted comms, breach response</p></div>
+        </div>
+        <div class="bg-amber-50 border border-amber-200 rounded-lg p-3 text-sm">
+          <p class="font-semibold text-amber-800">Three capability gaps that most frequently limit effectiveness:</p>
+          <ol class="text-amber-900 mt-2 space-y-1 list-decimal pl-5">
+            <li><strong>Budget literacy</strong> — every coalition needs someone who can read a departmental budget and track MTEF allocations.</li>
+            <li><strong>Parliamentary procedure</strong> — knowing when and how to make submissions and engage committees pays enormous dividends.</li>
+            <li><strong>Digital security</strong> — organisations working on sensitive JCPS issues face real risks of surveillance and data breaches.</li>
+          </ol>
+        </div>
+      </div>
+    </details>
+
+    <!-- Advocacy Ladder -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>3. The Advocacy Ladder</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <p class="text-text-secondary leading-relaxed mb-4">Start with collaborative engagement and escalate as needed when government fails to respond:</p>
+        <div class="space-y-3">
+          <div class="flex items-start gap-3 p-3 rounded-lg bg-emerald-50 border border-emerald-200">
+            <span class="shrink-0 w-7 h-7 rounded-full bg-emerald-600 text-white font-heading font-bold text-xs flex items-center justify-center">1</span>
+            <div><p class="font-semibold text-sm">Constructive Engagement</p><p class="text-xs text-text-secondary mt-0.5">Technical assistance, joint planning, policy dialogue, capacity building with government</p></div>
+          </div>
+          <div class="flex items-start gap-3 p-3 rounded-lg bg-blue-50 border border-blue-200">
+            <span class="shrink-0 w-7 h-7 rounded-full bg-blue-600 text-white font-heading font-bold text-xs flex items-center justify-center">2</span>
+            <div><p class="font-semibold text-sm">Evidence-Based Monitoring</p><p class="text-xs text-text-secondary mt-0.5">Submissions, shadow reports, PAIA requests, Parliamentary monitoring, budget tracking</p></div>
+          </div>
+          <div class="flex items-start gap-3 p-3 rounded-lg bg-amber-50 border border-amber-200">
+            <span class="shrink-0 w-7 h-7 rounded-full bg-amber-600 text-white font-heading font-bold text-xs flex items-center justify-center">3</span>
+            <div><p class="font-semibold text-sm">Public Advocacy</p><p class="text-xs text-text-secondary mt-0.5">Media campaigns, public reports, op-eds, petitions, community protests, coalition statements</p></div>
+          </div>
+          <div class="flex items-start gap-3 p-3 rounded-lg bg-orange-50 border border-orange-200">
+            <span class="shrink-0 w-7 h-7 rounded-full bg-orange-600 text-white font-heading font-bold text-xs flex items-center justify-center">4</span>
+            <div><p class="font-semibold text-sm">Strategic Litigation</p><p class="text-xs text-text-secondary mt-0.5">Constitutional Court applications, High Court review, amicus briefs, interdicts</p></div>
+          </div>
+          <div class="flex items-start gap-3 p-3 rounded-lg bg-red-50 border border-red-200">
+            <span class="shrink-0 w-7 h-7 rounded-full bg-red-600 text-white font-heading font-bold text-xs flex items-center justify-center">5</span>
+            <div><p class="font-semibold text-sm">Escalated Mobilisation</p><p class="text-xs text-text-secondary mt-0.5">Mass mobilisation, international pressure, UN mechanisms, full public exposure campaigns</p></div>
+          </div>
+        </div>
+        <p class="text-xs text-text-secondary mt-3 italic">The ladder is not linear — you may operate at multiple levels simultaneously.</p>
+      </div>
+    </details>
+
+    <!-- JCPS Reform Priorities -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>4. JCPS Reform Priorities</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4 space-y-4">
+        <div>
+          <h4 class="font-heading font-semibold text-sm text-text-primary mb-1">Justice &amp; Constitutional Development</h4>
+          <ul class="text-text-secondary text-sm space-y-1 list-disc pl-5">
+            <li>Court backlogs and access to justice — virtual courts, additional magistrates, diversion programmes</li>
+            <li>Legal aid coverage gaps and funding</li>
+            <li>Gender justice — Domestic Violence Act implementation, dedicated GBV courts</li>
+            <li>Anti-corruption — NPA accountability, SIU referral pipeline, asset forfeiture</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-heading font-semibold text-sm text-text-primary mb-1">Correctional Services</h4>
+          <ul class="text-text-secondary text-sm space-y-1 list-disc pl-5">
+            <li>Prison conditions and overcrowding — JICS oversight visits, constitutional litigation</li>
+            <li>Remand detention — Section 35 rights violations, data publication</li>
+            <li>Rehabilitation programmes — TVET, education, psychosocial support</li>
+            <li>Parole and reintegration — board functioning, unlawful detention beyond sentence</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-heading font-semibold text-sm text-text-primary mb-1">Police — Safety &amp; Security</h4>
+          <ul class="text-text-secondary text-sm space-y-1 list-disc pl-5">
+            <li>Police accountability — IPID referrals, consequence management</li>
+            <li>GBVF response — Thuthuzela Care Centres, response times</li>
+            <li>Community policing forums — civil society representation, transparent funding</li>
+            <li>Protest and assembly rights — monitoring excessive force</li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-heading font-semibold text-sm text-text-primary mb-1">Cross-Cutting Priorities</h4>
+          <ul class="text-text-secondary text-sm space-y-1 list-disc pl-5">
+            <li>GBVF National Strategic Plan — unified scorecard across all four departments</li>
+            <li>Data transparency — systematic PAIA programme</li>
+            <li>Budget accountability — shadow departmental budgets every year</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+
+    <!-- Key Oversight Bodies -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>5. Key Oversight Bodies</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border-collapse">
+            <thead><tr class="bg-gray-50"><th class="text-left p-2 font-heading font-semibold border-b">Body</th><th class="text-left p-2 font-heading font-semibold border-b">Mandate</th><th class="text-left p-2 font-heading font-semibold border-b">How Civil Society Engages</th></tr></thead>
+            <tbody>
+              <tr class="border-b"><td class="p-2 font-semibold">IPID</td><td class="p-2">Investigate police misconduct</td><td class="p-2">Report cases; monitor investigations; submit research on patterns</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">JICS</td><td class="p-2">Inspect correctional centres</td><td class="p-2">Share evidence; conduct joint oversight visits</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">SAHRC</td><td class="p-2">Investigate rights violations</td><td class="p-2">Submit complaints; partner on investigations</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">Public Protector</td><td class="p-2">Investigate maladministration</td><td class="p-2">Submit complaints on systematic failures</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">Auditor-General</td><td class="p-2">Audit financial and performance management</td><td class="p-2">Engage on findings; submit evidence of misreporting</td></tr>
+              <tr><td class="p-2 font-semibold">SCOPA</td><td class="p-2">Hold departments accountable for audits</td><td class="p-2">Submit briefs ahead of hearings</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </details>
+
+    <!-- First 90 Days -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>6. Getting Started — First 90 Days</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <div class="space-y-4">
+          <div class="border-l-4 border-emerald-500 pl-4">
+            <p class="font-heading font-semibold text-sm">Days 1–30: Convening &amp; Charter</p>
+            <ul class="text-text-secondary text-xs mt-1 space-y-0.5 list-disc pl-4">
+              <li>Identify 3–7 founding organisations with diverse strengths</li>
+              <li>Hold founding meeting focused on shared values and theory of change</li>
+              <li>Draft and finalise a Coalition Charter</li>
+              <li>Designate a Convenor Organisation for year one</li>
+            </ul>
+          </div>
+          <div class="border-l-4 border-blue-500 pl-4">
+            <p class="font-heading font-semibold text-sm">Days 31–60: Skills, Structure &amp; Strategy</p>
+            <ul class="text-text-secondary text-xs mt-1 space-y-0.5 list-disc pl-4">
+              <li>Complete a coalition-wide Skills Audit</li>
+              <li>Form Thematic Working Groups around priority reform areas</li>
+              <li>Draft your Theory of Change for each priority</li>
+              <li>Submit your first joint work to a Portfolio Committee</li>
+            </ul>
+          </div>
+          <div class="border-l-4 border-amber-500 pl-4">
+            <p class="font-heading font-semibold text-sm">Days 61–90: First Public Actions</p>
+            <ul class="text-text-secondary text-xs mt-1 space-y-0.5 list-disc pl-4">
+              <li>Publish a "State of the System" statement</li>
+              <li>Hold your first community consultation event</li>
+              <li>Attend a Portfolio Committee hearing</li>
+              <li>Launch public presence: website, social media, first newsletter</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- ===================== PROVINCIAL PANEL ===================== -->
+  <section
+    id="panel-provincial"
+    role="tabpanel"
+    aria-labelledby="tab-provincial"
+    class="playbook-panel hidden"
+    data-panel="provincial"
+  >
+    <!-- Download banner -->
+    <div class="rounded-lg border border-blue-200 bg-blue-50 p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-8">
+      <div>
+        <p class="font-heading font-semibold text-text-primary text-sm">Changing the System From Outside It — Education Reform Playbook</p>
+        <p class="text-text-secondary text-xs mt-0.5">Basic Education reform across all nine provinces</p>
+      </div>
+      <a
+        href="/downloads/Education_Reform_Advocacy_Playbook.pdf"
+        download
+        class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-600 text-white font-heading text-sm font-semibold hover:bg-blue-700 transition-colors shrink-0"
+      >
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" /></svg>
+        Download Full Playbook (PDF)
+      </a>
+    </div>
+
+    <!-- Why This Playbook -->
+    <div class="mb-10">
+      <h2 class="font-heading text-2xl font-bold text-text-primary mb-3">Why This Playbook Exists</h2>
+      <p class="text-text-secondary leading-relaxed mb-3">
+        Government cannot fix a broken education system alone — not because officials lack ability, but because fixing it requires pressure from the outside, voice from communities, evidence from independent researchers, and legal accountability through courts and commissions. Civil society provides all four.
+      </p>
+      <p class="text-text-secondary leading-relaxed">
+        South Africa's Constitution places Basic Education in <strong class="text-text-primary">Schedule 4 as a concurrent national and provincial function</strong>. The DBE writes policy; nine Provincial Education Departments deliver it. This split creates a gap between policy intent and classroom reality that civil society is uniquely positioned to fill.
+      </p>
+    </div>
+
+    <!-- The Gap Civil Society Fills -->
+    <details class="mb-6 group border border-gray-200 rounded-lg" open>
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>1. The Gap Civil Society Fills</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border-collapse">
+            <thead><tr class="bg-gray-50"><th class="text-left p-2 font-heading font-semibold border-b">Government Blind Spot</th><th class="text-left p-2 font-heading font-semibold border-b">CSO Advantage</th></tr></thead>
+            <tbody>
+              <tr class="border-b"><td class="p-2">EMIS shows enrolment, not learning quality</td><td class="p-2">School-level research, learner testimony, NGO field presence</td></tr>
+              <tr class="border-b"><td class="p-2">PERSAL tracks posts, not teacher wellbeing</td><td class="p-2">Union partnerships, teacher communities of practice</td></tr>
+              <tr class="border-b"><td class="p-2">Infrastructure plans driven by assets, not lived experience</td><td class="p-2">Community-based organisations, ward committees, parent networks</td></tr>
+              <tr class="border-b"><td class="p-2">Departments litigate to defend decisions</td><td class="p-2">Public interest litigation, constitutional rights monitoring</td></tr>
+              <tr><td class="p-2">Treasury reports on expenditure, not impact</td><td class="p-2">Budget monitoring NGOs, Auditor-General shadow reports</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h4 class="font-heading font-semibold text-text-primary mt-5 mb-2">Civil Society is Not a Monolith</h4>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
+          <div class="p-2 rounded bg-blue-50"><strong>Rights-based NGOs</strong> — legal and constitutional power</div>
+          <div class="p-2 rounded bg-blue-50"><strong>Research institutions</strong> — evidence and credibility</div>
+          <div class="p-2 rounded bg-blue-50"><strong>Community-based organisations</strong> — legitimacy and reach</div>
+          <div class="p-2 rounded bg-blue-50"><strong>Teacher organisations</strong> — labour and professional power</div>
+          <div class="p-2 rounded bg-blue-50"><strong>Media</strong> — narrative and public pressure</div>
+          <div class="p-2 rounded bg-blue-50"><strong>Philanthropic foundations</strong> — funding and convening</div>
+          <div class="p-2 rounded bg-blue-50"><strong>Faith communities</strong> — trust and local infrastructure</div>
+          <div class="p-2 rounded bg-blue-50"><strong>Student &amp; youth formations</strong> — moral authority and mobilisation</div>
+        </div>
+      </div>
+    </details>
+
+    <!-- Coalition Architecture -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>2. Coalition Architecture</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border-collapse">
+            <thead><tr class="bg-gray-50"><th class="text-left p-2 font-heading font-semibold border-b">Layer</th><th class="text-left p-2 font-heading font-semibold border-b">Body</th><th class="text-left p-2 font-heading font-semibold border-b">Role</th></tr></thead>
+            <tbody>
+              <tr class="border-b"><td class="p-2 font-semibold">Strategic</td><td class="p-2">Coalition Steering Group (10–15 members)</td><td class="p-2">Sets direction, approves mandates, manages positioning. Meets quarterly.</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">Operational</td><td class="p-2">Campaign Coordination Team (5–7 people)</td><td class="p-2">Day-to-day management, shared calendar, workplans. Meets weekly.</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">Execution</td><td class="p-2">Campaign Working Groups (4–8 per issue)</td><td class="p-2">Issue-specific teams owning campaigns from diagnosis to win.</td></tr>
+              <tr><td class="p-2 font-semibold">Anchor</td><td class="p-2">Coalition Secretariat (rotates every 2 years)</td><td class="p-2">Legal home, banking, HR, admin infrastructure.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </details>
+
+    <!-- Campaign Lifecycle -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>3. Campaign Lifecycle</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <p class="text-text-secondary leading-relaxed mb-4">Every campaign follows a lifecycle. Knowing which phase you are in determines which tools to use.</p>
+        <div class="space-y-2">
+          <div class="flex items-start gap-3 p-3 rounded-lg bg-gray-50 border">
+            <span class="shrink-0 w-6 h-6 rounded-full bg-blue-600 text-white font-heading font-bold text-xs flex items-center justify-center">1</span>
+            <div><p class="font-semibold text-sm">Diagnosis</p><p class="text-xs text-text-secondary">Define the problem with evidence. Research, PAIA requests, field monitoring.</p></div>
+          </div>
+          <div class="flex items-start gap-3 p-3 rounded-lg bg-gray-50 border">
+            <span class="shrink-0 w-6 h-6 rounded-full bg-blue-600 text-white font-heading font-bold text-xs flex items-center justify-center">2</span>
+            <div><p class="font-semibold text-sm">Framing</p><p class="text-xs text-text-secondary">Win the narrative before government does. Media, community testimony, social media.</p></div>
+          </div>
+          <div class="flex items-start gap-3 p-3 rounded-lg bg-gray-50 border">
+            <span class="shrink-0 w-6 h-6 rounded-full bg-blue-600 text-white font-heading font-bold text-xs flex items-center justify-center">3</span>
+            <div><p class="font-semibold text-sm">Demand</p><p class="text-xs text-text-secondary">Put a specific, concrete ask on record. Demand letter, parliamentary submission.</p></div>
+          </div>
+          <div class="flex items-start gap-3 p-3 rounded-lg bg-gray-50 border">
+            <span class="shrink-0 w-6 h-6 rounded-full bg-blue-600 text-white font-heading font-bold text-xs flex items-center justify-center">4</span>
+            <div><p class="font-semibold text-sm">Escalation</p><p class="text-xs text-text-secondary">Increase the cost of non-compliance. Litigation threat, mobilisation, media blitz.</p></div>
+          </div>
+          <div class="flex items-start gap-3 p-3 rounded-lg bg-gray-50 border">
+            <span class="shrink-0 w-6 h-6 rounded-full bg-blue-600 text-white font-heading font-bold text-xs flex items-center justify-center">5</span>
+            <div><p class="font-semibold text-sm">Negotiation</p><p class="text-xs text-text-secondary">Convert pressure into commitment. Bilaterals, mediated dialogue, signed agreements.</p></div>
+          </div>
+          <div class="flex items-start gap-3 p-3 rounded-lg bg-gray-50 border">
+            <span class="shrink-0 w-6 h-6 rounded-full bg-blue-600 text-white font-heading font-bold text-xs flex items-center justify-center">6</span>
+            <div><p class="font-semibold text-sm">Monitoring</p><p class="text-xs text-text-secondary">Hold government to promises. Progress tracking, field verification, published scorecards.</p></div>
+          </div>
+          <div class="flex items-start gap-3 p-3 rounded-lg bg-gray-50 border">
+            <span class="shrink-0 w-6 h-6 rounded-full bg-blue-600 text-white font-heading font-bold text-xs flex items-center justify-center">7</span>
+            <div><p class="font-semibold text-sm">Consolidation</p><p class="text-xs text-text-secondary">Embed the win in policy or law. Policy brief, legislative submission, budget tracking.</p></div>
+          </div>
+        </div>
+      </div>
+    </details>
+
+    <!-- Accountability Scorecard -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>4. The Accountability Scorecard</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <p class="text-text-secondary leading-relaxed mb-3">A published scorecard transforms abstract advocacy into a specific, recurring accountability moment. Government knows it is coming. Media knows when to ask questions.</p>
+        <h4 class="font-heading font-semibold text-sm mb-2">Design Principles</h4>
+        <ul class="text-text-secondary text-sm space-y-1 list-disc pl-5 mb-4">
+          <li>Use government's <strong>own commitments</strong> as the measure — APPs, Budget Vote speeches, court orders</li>
+          <li><strong>RAG rating</strong>: Green = met, Amber = partial/delayed, Red = no delivery</li>
+          <li>Publish <strong>before</strong> government publishes its APR — do not let them set the narrative</li>
+          <li>Make it <strong>visual</strong> and shareable on WhatsApp</li>
+          <li>Include a <strong>trend line</strong> — year-on-year comparison is the most powerful tool</li>
+        </ul>
+        <h4 class="font-heading font-semibold text-sm mb-2">Sample Indicators (Education)</h4>
+        <div class="overflow-x-auto">
+          <table class="w-full text-xs border-collapse">
+            <thead><tr class="bg-gray-50"><th class="text-left p-2 font-heading font-semibold border-b">Indicator</th><th class="text-left p-2 font-heading font-semibold border-b">Target</th><th class="text-left p-2 font-heading font-semibold border-b">Actual</th><th class="text-left p-2 font-heading font-semibold border-b">Rating</th></tr></thead>
+            <tbody>
+              <tr class="border-b"><td class="p-2">Grade 1–3 workbooks delivered by Day 1</td><td class="p-2">100% by 15 Jan</td><td class="p-2">68% by end Jan</td><td class="p-2"><span class="inline-block w-3 h-3 rounded-full bg-red-500" title="Red"></span></td></tr>
+              <tr class="border-b"><td class="p-2">Teacher vacancy rate (quintile 1–2)</td><td class="p-2">&lt; 3%</td><td class="p-2">9.2%</td><td class="p-2"><span class="inline-block w-3 h-3 rounded-full bg-red-500" title="Red"></span></td></tr>
+              <tr class="border-b"><td class="p-2">Schools with functional toilets</td><td class="p-2">100% by 2025</td><td class="p-2">84%</td><td class="p-2"><span class="inline-block w-3 h-3 rounded-full bg-amber-500" title="Amber"></span></td></tr>
+              <tr><td class="p-2">ASIDI schools completed per year</td><td class="p-2">100% of plan</td><td class="p-2">61%</td><td class="p-2"><span class="inline-block w-3 h-3 rounded-full bg-red-500" title="Red"></span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </details>
+
+    <!-- Campaign Case Studies -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>5. Campaign Case Studies</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4 space-y-5">
+        <div class="border-l-4 border-blue-500 pl-4">
+          <h4 class="font-heading font-semibold text-sm">A. Mother-Tongue Literacy in Foundation Phase</h4>
+          <p class="text-text-secondary text-xs mt-1">PIRLS 2021: 81% of Grade 4 learners cannot read for meaning. Coalition led by PRAESA, with Stellenbosch ReSEP, SECTION27, and rural CBOs. Demand letters sent; negotiating binding timelines for Home Language Policy implementation.</p>
+        </div>
+        <div class="border-l-4 border-blue-500 pl-4">
+          <h4 class="font-heading font-semibold text-sm">B. School Safety &amp; Gender-Based Violence</h4>
+          <p class="text-text-secondary text-xs mt-1">Estimated 1 in 3 learners affected by SRGBV. Shadow review found only 7% of schools had a functional safety committee. PAIA requests to all 9 PEDs for misconduct records. Secured joint sitting of Education and Justice Portfolio Committees.</p>
+        </div>
+        <div class="border-l-4 border-blue-500 pl-4">
+          <h4 class="font-heading font-semibold text-sm">C. Rapid Response: Textbook Non-Delivery Crisis</h4>
+          <p class="text-text-secondary text-xs mt-1">72-hour response protocol: field data compiled within 4 hours, public statement released, demand letter to DBE DG at 12 hours, parliamentary questions at 24 hours, full evidence brief at 48–72 hours.</p>
+        </div>
+      </div>
+    </details>
+
+    <!-- 30-Day Launch -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>6. Launch a Coalition in 30 Days</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <div class="space-y-3">
+          <div class="border-l-4 border-blue-400 pl-4">
+            <p class="font-heading font-semibold text-sm">Week 1: Convening</p>
+            <p class="text-text-secondary text-xs mt-0.5">Identify anchor organisations; issue invitation; agree on 2–3 priority campaigns</p>
+          </div>
+          <div class="border-l-4 border-blue-500 pl-4">
+            <p class="font-heading font-semibold text-sm">Week 2: Founding Session</p>
+            <p class="text-text-secondary text-xs mt-0.5">Full-day workshop: agree mandate, governance structure, first campaign priority</p>
+          </div>
+          <div class="border-l-4 border-blue-600 pl-4">
+            <p class="font-heading font-semibold text-sm">Week 3: Campaign Diagnosis</p>
+            <p class="text-text-secondary text-xs mt-0.5">Evidence review; power map draft; win condition defined; skills gap identified</p>
+          </div>
+          <div class="border-l-4 border-blue-700 pl-4">
+            <p class="font-heading font-semibold text-sm">Week 4: Operational Setup</p>
+            <p class="text-text-secondary text-xs mt-0.5">Technology live; first weekly check-in held; campaign workplan assigned</p>
+          </div>
+        </div>
+        <div class="mt-4 bg-blue-50 border border-blue-200 rounded-lg p-3 text-sm">
+          <p class="font-semibold text-blue-800">First Public Act</p>
+          <p class="text-blue-900 text-xs mt-1">Within 60 days of coalition formation, publish something. Inaction in the first two months signals to government and funders that the coalition lacks the will to act.</p>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <!-- ===================== MUNICIPAL PANEL ===================== -->
+  <section
+    id="panel-municipal"
+    role="tabpanel"
+    aria-labelledby="tab-municipal"
+    class="playbook-panel hidden"
+    data-panel="municipal"
+  >
+    <!-- Download banner -->
+    <div class="rounded-lg border border-amber-200 bg-amber-50 p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-8">
+      <div>
+        <p class="font-heading font-semibold text-text-primary text-sm">Johannesburg Metro Civil Society Reform Alliance Playbook</p>
+        <p class="text-text-secondary text-xs mt-0.5">Water, Electricity, Roads, Waste, Health &amp; Safety</p>
+      </div>
+      <a
+        href="/downloads/Johannesburg_Metro_Reform_Playbook.pdf"
+        download
+        class="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-600 text-white font-heading text-sm font-semibold hover:bg-amber-700 transition-colors shrink-0"
+      >
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" /></svg>
+        Download Full Playbook (PDF)
+      </a>
+    </div>
+
+    <!-- Why This Playbook -->
+    <div class="mb-10">
+      <h2 class="font-heading text-2xl font-bold text-text-primary mb-3">Why Reform, Not Just Monitoring</h2>
+      <p class="text-text-secondary leading-relaxed mb-3">
+        Johannesburg generates nearly 16% of South Africa's GDP, yet hundreds of thousands of residents endure burst pipes, collapsing electricity grids, and dangerous roads. The City has one of the country's largest municipal budgets — and among the worst service delivery records.
+      </p>
+      <p class="text-text-secondary leading-relaxed">
+        <strong class="text-text-primary">Monitoring asks:</strong> Did the municipality fix the pothole?<br />
+        <strong class="text-text-primary">Reform advocacy asks:</strong> Why are 40% of potholes still unrepaired after 30 days, and what must change structurally so that this is no longer possible?
+      </p>
+    </div>
+
+    <!-- Theory of Change -->
+    <details class="mb-6 group border border-gray-200 rounded-lg" open>
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>1. Theory of Change</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <h4 class="font-heading font-semibold text-sm mb-2">Three Levels of Reform</h4>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border-collapse">
+            <thead><tr class="bg-gray-50"><th class="text-left p-2 font-heading font-semibold border-b">Level</th><th class="text-left p-2 font-heading font-semibold border-b">What Changes</th><th class="text-left p-2 font-heading font-semibold border-b">Examples</th></tr></thead>
+            <tbody>
+              <tr class="border-b"><td class="p-2 font-semibold">Policy &amp; By-law</td><td class="p-2">Written rules governing the city</td><td class="p-2">Procurement by-law, tariff schedule, IDP commitments</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">Institutional</td><td class="p-2">How departments and SOEs operate</td><td class="p-2">Performance contracts, independent oversight boards, ward-level SLAs</td></tr>
+              <tr><td class="p-2 font-semibold">Political &amp; Cultural</td><td class="p-2">Norms and power dynamics</td><td class="p-2">Councillor scorecards, community veto rights, anti-corruption culture</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="bg-amber-50 border border-amber-200 rounded-lg p-3 mt-4 text-sm">
+          <p class="font-semibold text-amber-800">The Reform Hypothesis</p>
+          <p class="text-amber-900 text-xs mt-1">IF cross-functional civil society actors build an organised, evidence-based, multi-sector coalition AND use coordinated pressure across legal, political, media, and community channels AND engage constructively with reform-minded actors inside government THEN structural reforms are adopted that improve service delivery for all residents.</p>
+        </div>
+      </div>
+    </details>
+
+    <!-- Reform Pathways -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>2. Four Reform Pathways</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <p class="text-text-secondary leading-relaxed mb-4">No single pathway is sufficient. The coalition uses all four in combination:</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div class="rounded-lg border border-amber-200 p-3 bg-amber-50">
+            <p class="font-heading font-semibold text-sm">Legal Pathway</p>
+            <p class="text-xs text-text-secondary mt-1">PAIA litigation, Public Protector complaints, Information Regulator, High Court review of procurement decisions, AGSA referrals</p>
+          </div>
+          <div class="rounded-lg border border-amber-200 p-3 bg-amber-50">
+            <p class="font-heading font-semibold text-sm">Political Pathway</p>
+            <p class="text-xs text-text-secondary mt-1">Candidate scorecards, IDP submissions, Council deputation, public hearings, multi-party engagement, election monitoring</p>
+          </div>
+          <div class="rounded-lg border border-amber-200 p-3 bg-amber-50">
+            <p class="font-heading font-semibold text-sm">Media &amp; Public Narrative</p>
+            <p class="text-xs text-text-secondary mt-1">Investigative partnerships, data journalism, social media campaigns, community radio, documentary evidence</p>
+          </div>
+          <div class="rounded-lg border border-amber-200 p-3 bg-amber-50">
+            <p class="font-heading font-semibold text-sm">Inside-Outside Strategy</p>
+            <p class="text-xs text-text-secondary mt-1">Joint technical working groups, co-designing solutions, amplifying whistleblowers, shadow policy drafting</p>
+          </div>
+        </div>
+      </div>
+    </details>
+
+    <!-- Power Mapping -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>3. Power Mapping Framework</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div class="rounded-lg border-2 border-emerald-300 p-3 bg-emerald-50">
+            <p class="font-heading font-semibold text-sm text-emerald-800">Champions</p>
+            <p class="text-xs text-text-secondary mt-1">Aligned on reform, have power to act. <strong>Strategy:</strong> activate, resource, protect.</p>
+            <p class="text-xs text-text-secondary mt-1 italic">Reform caucus councillors, whistleblower officials, progressive SOE board members</p>
+          </div>
+          <div class="rounded-lg border-2 border-blue-300 p-3 bg-blue-50">
+            <p class="font-heading font-semibold text-sm text-blue-800">Swing Actors</p>
+            <p class="text-xs text-text-secondary mt-1">Uncommitted, have power. <strong>Strategy:</strong> persuade with evidence and incentives.</p>
+            <p class="text-xs text-text-secondary mt-1 italic">Business community, faith leaders, suburban ratepayers</p>
+          </div>
+          <div class="rounded-lg border-2 border-amber-300 p-3 bg-amber-50">
+            <p class="font-heading font-semibold text-sm text-amber-800">Blocked Allies</p>
+            <p class="text-xs text-text-secondary mt-1">Aligned on reform, lack power. <strong>Strategy:</strong> organise and amplify.</p>
+            <p class="text-xs text-text-secondary mt-1 italic">Resident associations, underfunded NGOs, community journalists</p>
+          </div>
+          <div class="rounded-lg border-2 border-red-300 p-3 bg-red-50">
+            <p class="font-heading font-semibold text-sm text-red-800">Opponents</p>
+            <p class="text-xs text-text-secondary mt-1">Against reform or benefit from status quo. <strong>Strategy:</strong> contain, expose, neutralise.</p>
+            <p class="text-xs text-text-secondary mt-1 italic">Patronage networks, corrupt procurement officials</p>
+          </div>
+        </div>
+      </div>
+    </details>
+
+    <!-- Coalition Structure -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>4. Coalition Structure (CSRA Model)</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <p class="text-text-secondary leading-relaxed mb-3 text-sm">The CSRA is a coalition of organisations — not a new organisation itself. It operates on a federated model: member organisations retain full autonomy but commit to shared priorities and coordinated messaging.</p>
+        <h4 class="font-heading font-semibold text-sm mb-2">Member Categories</h4>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm mb-4">
+          <div class="p-2 rounded bg-amber-50"><strong>Advocacy &amp; Watchdog NGOs</strong> — campaign design, litigation, policy analysis</div>
+          <div class="p-2 rounded bg-amber-50"><strong>Community-Based Orgs</strong> — grassroots legitimacy, mobilisation</div>
+          <div class="p-2 rounded bg-amber-50"><strong>Professional Bodies</strong> — expert credibility, technical review</div>
+          <div class="p-2 rounded bg-amber-50"><strong>Faith Communities</strong> — moral authority, meeting venues</div>
+          <div class="p-2 rounded bg-amber-50"><strong>Trade Unions</strong> — worker voice, strike power</div>
+          <div class="p-2 rounded bg-amber-50"><strong>Academic Institutions</strong> — independent research, publication</div>
+          <div class="p-2 rounded bg-amber-50"><strong>Business &amp; Ratepayer Bodies</strong> — financial advocacy, leverage</div>
+          <div class="p-2 rounded bg-amber-50"><strong>Media Partners</strong> — investigation, amplification</div>
+        </div>
+        <h4 class="font-heading font-semibold text-sm mb-2">Governance</h4>
+        <ul class="text-text-secondary text-sm space-y-1 list-disc pl-5">
+          <li><strong>Steering Committee</strong> (8 seats, one per category) — strategic direction, annual campaign priorities</li>
+          <li><strong>Campaign Working Groups</strong> — cross-functional teams per reform campaign</li>
+          <li><strong>Research &amp; Evidence Unit</strong> — centralised evidence repository</li>
+          <li><strong>Legal Sub-committee</strong> — litigation strategy, PAIA programme</li>
+          <li><strong>Communications Hub</strong> — unified public narrative</li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- Legal Strategy -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>5. Legal Strategy &amp; PAIA</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <p class="text-text-secondary leading-relaxed mb-3 text-sm">The CSRA uses litigation strategically — not as a first resort, but as a lever that no other tool can replace.</p>
+        <div class="overflow-x-auto mb-4">
+          <table class="w-full text-sm border-collapse">
+            <thead><tr class="bg-gray-50"><th class="text-left p-2 font-heading font-semibold border-b">Legal Tool</th><th class="text-left p-2 font-heading font-semibold border-b">Application</th></tr></thead>
+            <tbody>
+              <tr class="border-b"><td class="p-2 font-semibold">PAIA Applications</td><td class="p-2">Obtain procurement records, audit letters, meeting minutes</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">High Court Review (PAJA)</td><td class="p-2">Challenge irrational procurement awards, tariff increases</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">Constitutional Litigation</td><td class="p-2">Right of access to water (s.27), environment (s.24), information (s.32)</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">Public Protector</td><td class="p-2">Maladministration, improper conduct, corruption by officials</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">Information Regulator</td><td class="p-2">When PAIA requests are refused without lawful grounds</td></tr>
+              <tr><td class="p-2 font-semibold">AGSA Referrals</td><td class="p-2">Accounting irregularities in CoJ financial statements</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="bg-amber-50 border border-amber-200 rounded-lg p-3 text-sm">
+          <p class="font-semibold text-amber-800">Annual PAIA Targets</p>
+          <ul class="text-amber-900 text-xs mt-1 space-y-0.5 list-disc pl-4">
+            <li>Minimum 50 PAIA requests filed per year across all CWGs</li>
+            <li>100% of responses reviewed within 5 working days</li>
+            <li>80% of refusals to receive formal appeal or Information Regulator complaint</li>
+            <li>All significant disclosures published as public research bulletins</li>
+          </ul>
+        </div>
+      </div>
+    </details>
+
+    <!-- Councillor Scorecard -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>6. Councillor Reform Scorecard</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <p class="text-text-secondary leading-relaxed mb-3 text-sm">Published annually and before local government elections, the Councillor Reform Scorecard holds elected officials accountable.</p>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm border-collapse">
+            <thead><tr class="bg-gray-50"><th class="text-left p-2 font-heading font-semibold border-b">Category</th><th class="text-left p-2 font-heading font-semibold border-b">What Is Assessed</th></tr></thead>
+            <tbody>
+              <tr class="border-b"><td class="p-2 font-semibold">Vote Record</td><td class="p-2">How did councillor vote on reform motions? (procurement transparency, City Power oversight)</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">Public Participation</td><td class="p-2">Did councillor attend and facilitate community input?</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">PAIA Cooperation</td><td class="p-2">Did they support or obstruct information requests?</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">IDP Commitments</td><td class="p-2">Did they deliver on specific IDP promises in their ward?</td></tr>
+              <tr class="border-b"><td class="p-2 font-semibold">Conflict of Interest</td><td class="p-2">Any undisclosed business relationships with CoJ contractors?</td></tr>
+              <tr><td class="p-2 font-semibold">Reform Engagement</td><td class="p-2">Did they engage constructively with CSRA reform proposals?</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="text-xs text-text-secondary mt-3 italic">The Scorecard is a democratic accountability tool, not a partisan attack document. Every factual claim must be substantiated.</p>
+      </div>
+    </details>
+
+    <!-- Key Legislation -->
+    <details class="mb-6 group border border-gray-200 rounded-lg">
+      <summary class="flex items-center justify-between p-4 cursor-pointer font-heading font-semibold text-text-primary hover:bg-gray-50 rounded-lg">
+        <span>7. Key Legislation for Municipal Reform</span>
+        <svg class="w-4 h-4 text-text-secondary transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+      </summary>
+      <div class="px-4 pb-4">
+        <ul class="text-text-secondary text-sm space-y-2">
+          <li><strong>Constitution, 1996 (s.24, 27, 32, 33, 195)</strong> — rights to environment, water, information, just admin action</li>
+          <li><strong>Municipal Systems Act 32 of 2000</strong> — service delivery, IDPs, community participation, performance management</li>
+          <li><strong>Municipal Finance Management Act 56 of 2003</strong> — financial management, procurement, accountability</li>
+          <li><strong>PAIA (Act 2 of 2000)</strong> — primary tool for obtaining government records</li>
+          <li><strong>PAJA (Act 3 of 2000)</strong> — judicial review of unlawful administrative action</li>
+          <li><strong>Public Audit Act 25 of 2004</strong> — enables AGSA referrals of material irregularities</li>
+          <li><strong>Electricity Regulation Act 4 of 2006</strong> — NERSA oversight of electricity distributors</li>
+          <li><strong>Water Services Act 108 of 1997</strong> — minimum water and sanitation standards</li>
+        </ul>
+      </div>
+    </details>
+  </section>
+
+  <!-- Footer CTA -->
+  <div class="mt-12 border-t border-gray-200 pt-8 text-center">
+    <p class="text-text-secondary text-sm leading-relaxed mb-4">
+      These playbooks are free to share and adapt with attribution. Reform requires organised citizens — share these guides with anyone building coalitions for change.
+    </p>
+    <div class="flex flex-wrap justify-center gap-3">
+      {levels.map((level) => (
+        <a
+          href={level.downloadUrl}
+          download
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-lg border-2 font-heading text-sm font-semibold transition-colors hover:text-white"
+          style={`border-color: ${level.color}; color: ${level.color}`}
+          onmouseover={`this.style.backgroundColor='${level.color}'`}
+          onmouseout={`this.style.backgroundColor='transparent'`}
+        >
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 15V3" /></svg>
+          {level.label}
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <!-- Tab switching JS -->
+  <script>
+    const tabs = document.querySelectorAll<HTMLButtonElement>(".playbook-tab");
+    const panels = document.querySelectorAll<HTMLElement>(".playbook-panel");
+
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => {
+        const target = tab.dataset.tab;
+        const color = tab.dataset.color;
+
+        // Update tabs
+        tabs.forEach((t) => {
+          const isActive = t.dataset.tab === target;
+          t.setAttribute("aria-selected", String(isActive));
+          if (isActive) {
+            t.style.backgroundColor = t.dataset.color || "";
+            t.style.borderColor = t.dataset.color || "";
+            t.style.color = "white";
+          } else {
+            t.style.backgroundColor = "transparent";
+            t.style.borderColor = t.dataset.color || "";
+            t.style.color = t.dataset.color || "";
+          }
+        });
+
+        // Update panels
+        panels.forEach((panel) => {
+          if (panel.dataset.panel === target) {
+            panel.classList.remove("hidden");
+          } else {
+            panel.classList.add("hidden");
+          }
+        });
+      });
+    });
+  </script>
+</PageLayout>

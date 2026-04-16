@@ -1,0 +1,778 @@
+JOHANNESBURG METRO
+Civil Society Reform Alliance
+CROSS-FUNCTIONAL
+ADVOCACY
+PLAYBOOK
+Organising for Systemic Reform Across
+Water  |  Electricity  |  Roads  |  Waste  |  Health  |  Safety
+A strategic guide for civil society coalitions driving structural, policy and governance reform
+in Johannesburg's Category A Metropolitan Municipality.
+Version 1.0  |  2025
+Foreword: Why Reform, Not Just Monitoring
+Johannesburg is a city of profound contradictions. It generates nearly 16% of South Africa's GDP, yet hundreds of thousands of its residents endure burst pipes that go unrepaired for weeks, load-shedding compounded by a collapsing local grid, and roads that have become dangerous obstacle courses. The CoJ has one of the country's largest municipal budgets — and among the worst service delivery records.
+The first playbook in this series equips communities to monitor, document, and escalate. This playbook goes further. It is for those who believe that documenting failures is necessary but not sufficient — that lasting change requires changing the systems, incentives, policies, and power relationships that produce those failures in the first place.
+The Reform Mandate
+This playbook is for cross-functional civil society organisations — coalitions, NGOs, trade unions, professional bodies, faith communities, activist networks — who are prepared to:
+  •  Analyse root causes, not just symptoms
+  •  Build lasting coalitions across sectors and communities
+  •  Engage policy processes to change the rules
+  •  Apply strategic pressure through multiple channels simultaneously
+  •  Sustain campaigns over years, not weeks
+The Difference Between Monitoring and Reform Advocacy
+Monitoring asks: Did the municipality fix the pothole?
+Reform advocacy asks: Why are 40% of potholes still unrepaired after 30 days, and what must change structurally so that this is no longer possible?
+Monitoring holds actors accountable for individual failures.
+Reform advocacy changes the environment in which those actors operate.
+1. Theory of Change
+1.1 What We Mean by Reform
+Reform in the metro context operates at three levels simultaneously. Durable change requires progress at all three:
+Level
+What Changes
+Examples
+Policy & By-law Reform
+The written rules that govern how the city operates, procures, plans, and spends
+Amended Procurement By-law, revised Tariff Schedule, updated Integrated Development Plan commitments
+Institutional Reform
+How departments, SOEs, and officials are organised, incentivised, and held accountable
+Performance contracts for City Power CEO, independent oversight board for Pikitup, ward-level service SLAs with teeth
+Political & Cultural Reform
+The norms, relationships, and power dynamics that enable or block change
+Transparent Ward Councillor performance scorecards, community veto rights over capital projects, anti-corruption culture shift
+1.2 The Reform Hypothesis
+The CSRA's working theory of change is:
+Theory of Change Statement
+IF cross-functional civil society actors build an organised, evidence-based, multi-sector coalition
+AND that coalition uses coordinated pressure across legal, political, media, and community channels
+AND engages constructively with reform-minded actors inside government
+THEN it becomes politically and institutionally impossible for the City to continue operating as it does
+AND structural reforms are adopted that improve service delivery outcomes for all residents.
+Key assumptions: (a) There are reform-minded actors within CoJ worth engaging. (b) Public pressure matters to elected officials facing elections. (c) Evidence changes what is politically possible over time.
+1.3 Power Mapping Framework
+Before designing any campaign, the coalition must map the power landscape. Use the following four-quadrant analysis:
+Quadrant
+Actor Type
+Engagement Strategy
+Examples (CoJ context)
+Champions
+Aligned on reform, have power to act
+Activate, resource, protect
+Reform caucus councillors, whistleblower officials, progressive SOE board members
+Swing Actors
+Uncommitted, have power to act
+Persuade with evidence and incentives
+Business community, faith leaders, suburban ratepayers, some ANC ward councillors
+Blocked Allies
+Aligned on reform, lack power
+Organise and amplify
+Resident associations, underfunded NGOs, community journalists, frontline workers
+Opponents
+Against reform or benefit from status quo
+Contain, expose, neutralise
+Patronage networks, corrupt procurement officials, capture-aligned politicians
+1.4 Reform Pathways
+The coalition uses four primary reform pathways in combination. No single pathway is sufficient:
+Pathway
+Mechanism
+Key Tactics
+Legal Pathway
+Using courts and statutory bodies to force compliance, obtain records, and establish precedent
+PAIA litigation, Public Protector complaints, Information Regulator, high court review of procurement decisions, AGSA referrals
+Political Pathway
+Influencing elected officials through organised constituency pressure, public participation, and electoral accountability
+Candidate scorecards, IDP submissions, Council deputation, public hearings, multi-party engagement, election monitoring
+Media & Public Narrative
+Shifting public understanding and political will by controlling the story
+Investigative partnerships, data journalism, social media campaigns, community radio, documentary evidence
+Inside-Outside Strategy
+Combining external pressure with constructive engagement with reform-minded insiders
+Joint technical working groups, co-designing solutions, amplifying whistleblowers, shadow policy drafting
+2. Coalition Organisation
+2.1 The Civil Society Reform Alliance (CSRA) Model
+The CSRA is a coalition of organisations — not a new organisation itself. It operates on a federated model: member organisations retain full autonomy but commit to shared priorities, joint actions, and coordinated messaging within agreed campaigns. This model maximises reach while minimising turf conflicts.
+Coalition Founding Principle
+The CSRA is stronger than the sum of its parts only if members act with genuine strategic discipline.
+This requires: (a) a binding coalition charter, (b) clear decision-making protocols, (c) explicit conflict-of-interest rules,
+and (d) the maturity to subordinate organisational interests to shared campaign goals during joint actions.
+2.2 Member Organisation Categories
+The CSRA welcomes organisations across the following categories, each contributing distinct capacity:
+Category
+Role in Coalition
+Example Organisations (JHB context)
+Advocacy & Watchdog NGOs
+Campaign design, litigation, policy analysis, evidence production
+OUTA, Section27, Centre for Environmental Rights, PSAM
+Community-Based Organisations
+Constituency base, grassroots legitimacy, issue identification, mobilisation
+Civic associations, resident forums, ward-level CBOs, street committee networks
+Professional & Technical Bodies
+Expert credibility, technical review of CoJ plans, expert witness capacity
+SAICE, CESA, South African Planning Institute, SA Institute of Chartered Accountants
+Faith Communities
+Moral authority, trusted community presence, meeting venues, volunteer networks
+SACC, Islamic Relief, Catholic Justice & Peace, evangelical community networks
+Trade Unions
+Worker voice inside CoJ and SOEs, strike power, NEDLAC engagement
+SAMWU, Solidarity, IMATU, NUM (for energy sector)
+Academic & Research Institutions
+Independent research, evaluation, publication credibility
+Wits School of Governance, UJ Urban Futures Centre, HSRC
+Business & Ratepayer Bodies
+Financial and economic advocacy, rate payer leverage, business community voice
+JOBURG Chamber of Commerce, Sandton Business Forum, Midrand Business Chamber
+Media Partners
+Investigation, amplification, public accountability
+Daily Maverick, GroundUp, Radio 702, eNCA, community radio stations
+2.3 CSRA Governance Structure
+Body
+Composition & Mandate
+Steering Committee
+One representative per member organisation category (8 seats). Sets strategic direction, approves annual campaign priorities, manages coalition charter. Meets monthly.
+Campaign Working Groups (CWGs)
+Cross-functional teams of 6–12 individuals drawn from member organisations, organised around a specific reform campaign (e.g., City Power Reform CWG). Each CWG has a Campaign Lead and a Technical Lead.
+Legal & Compliance Sub-committee
+3–5 attorneys and advocates. Manages all litigation, PAIA, and statutory complaint processes. Provides legal review of all public statements.
+Research & Evidence Unit
+Data analysts, researchers, GIS specialists drawn from member organisations. Produces evidence base for all campaigns. Maintains the central data repository.
+Communications Council
+Comms leads from each member org plus the CSRA's own communications staff. Coordinates messaging, manages media relations, approves public statements.
+Finance & Sustainability Committee
+Treasurer plus 2 members. Manages CSRA operating budget, grant reporting, member financial contributions, conflict-of-interest screening of funders.
+2.4 Membership Obligations & Charter Commitments
+Every member organisation signs the CSRA Coalition Charter, committing to:
+Non-partisan engagement — no electoral endorsements under the CSRA banner
+Evidence-based advocacy — all public claims are substantiated by documented evidence
+Transparency — financial relationships with government, business, or political parties disclosed annually
+Conflict-of-interest management — member organisations that are government contractors must recuse from relevant campaign decisions
+Shared messaging discipline — public statements on joint campaigns approved by the Communications Council before release
+Proportional contribution — each member contributes capacity (time, expertise, resources) proportional to its size
+Constructive tone — criticism of the City is substantive and solution-oriented, never personal or defamatory
+3. Cross-Functional Skills for Reform Advocacy
+3.1 Skills That Set Advocacy Apart From Monitoring
+Reform advocacy requires all the skills described in the companion monitoring playbook, plus a distinct set of strategic and influence competencies:
+Skill Domain
+Why It Matters for Reform
+How to Build It
+Campaign Strategy
+Without strategic discipline, energy dissipates into reactive complaint. Campaigns need a clear theory of change, milestones, and exit conditions.
+Dedicated Campaign Leads trained in advocacy strategy (use ActionAid, Oxfam, or Civicus toolkits). Recruit experienced campaigners from NGOs.
+Policy Analysis & Drafting
+Reform requires engaging the actual text of policies, by-laws, tariff schedules, and budget documents — and producing counter-proposals.
+Partner with academic institutions. Recruit retired municipal officials. Commission technical policy reviews.
+Strategic Litigation
+Courts can compel compliance, establish precedent, and unlock records that change public understanding.
+Maintain a panel of public interest attorneys. Partner with OUTA, CER, and Section27. Build a litigation fund.
+Investigative Research
+Reform advocacy needs the full story — not just symptoms but procurement records, audit trails, beneficial ownership of contractors.
+Partner with media (Daily Maverick's Scorpio unit, amaBhungane). Train team in PAIA and open-source investigation.
+Coalition Management
+Multi-stakeholder coalitions are slow and messy. Managing them without destroying them is a distinct professional skill.
+Invest in facilitation training. Use professional neutral facilitators for high-stakes coalition decisions.
+Political Economy Analysis
+Understanding who benefits from the status quo and why is essential to designing effective reform strategies.
+Use Drivers of Change analysis. Map financial flows, procurement networks, political career incentives.
+Media & Narrative Strategy
+Reform requires shifting public narrative — the dominant story about what is normal, acceptable, and possible.
+Embed a Communications Strategist (not just a press officer). Build relationships with senior journalists and editors.
+Community Organising
+Elite advocacy without a community base is fragile. Sustained pressure requires organised constituencies.
+Invest in community organising training. Partner with experienced CBOs. Pay community organisers fairly.
+Fundraising & Sustainability
+Long reform campaigns require multi-year funding. Financial dependence on one funder is a strategic vulnerability.
+Diversify: grants, membership fees, earned income (training, research), individual donors, diaspora funding.
+3.2 Campaign Working Group Composition
+Each Campaign Working Group (CWG) must have the following roles filled before a campaign launches:
+Role
+Function
+Minimum Qualifications
+Campaign Lead
+Owns the campaign strategy, manages the team, represents the CWG at Steering Committee
+5+ years advocacy experience; strategic planning ability
+Technical Lead
+Domain expert for the reform area (e.g., electrical engineer for City Power Reform CWG)
+Professional qualification or equivalent practitioner experience in relevant service domain
+Legal Lead
+Manages all litigation and statutory complaints for the campaign
+Attorney or advocate with public interest / administrative law experience
+Research Lead
+Produces evidence base, manages data, commissions research
+Postgraduate qualification; data analysis and PAIA research skills
+Community Organising Lead
+Ensures campaign is grounded in affected community voice and mobilisation
+Demonstrated community organising experience; trusted by target communities
+Communications Lead
+Manages campaign messaging, media, social media, and narrative
+Journalism, PR, or communications background; media contacts
+Political Liaison
+Manages relationships with Council, CoJ officials, and political parties
+Experience in political engagement; ability to operate across party lines
+Monitoring & Evaluation Lead
+Tracks campaign progress against theory of change; produces learning reports
+M&E methodology; ability to assess both quantitative and qualitative progress
+3.3 The Reform Skills Pipeline
+Skilled advocates are not born — they are developed. The CSRA must actively invest in the next generation:
+Annual advocacy training programme — 3-day residential bootcamp covering campaign strategy, PAIA, media skills, and political analysis
+Mentorship matching — junior advocates in CBOs matched with experienced advocates in larger member organisations
+Fellowship programme — one-year embedded fellowships for community organisers at CSRA, funded by international donors
+University partnerships — formal partnership with Wits School of Governance for joint research and student placements
+Leadership exchange — annual visit to another African city coalition (Nairobi, Cape Town, Lagos) to share learning
+4. Campaign Process & Operating Rhythms
+Reform campaigns operate on longer time horizons than monitoring. The CSRA uses a nested process: Annual Strategic Cycle, Quarterly Campaign Cycle, Monthly Operational Cycle, and Weekly Execution Cycle — with each level feeding the next.
+4.1 Annual Rhythm — Strategic Planning Cycle
+Purpose
+Set campaign priorities for the year, assess the political landscape, align the coalition, secure funding, and publish the Annual Reform Agenda.
+Period
+Activity
+January: Landscape Review
+Research Unit publishes the annual 'State of Reform' report: what changed last year, what didn't, why. Political Economy Analysis updated. Power map refreshed.
+February: Priority-Setting Retreat
+2-day retreat with all Steering Committee members and CWG Leads. Review Theory of Change. Select 3–5 priority reform campaigns for the year. Assign resources. Approve Annual Reform Agenda document.
+March: IDP & Budget Engagement
+All CWGs submit evidence-based inputs to CoJ's IDP public participation process. Legal team reviews draft budget for reform-relevant allocations. Political Liaisons brief sympathetic councillors.
+April: Coalition Renewal
+Annual member organisation re-commitment. New members onboarded. Coalition Charter reviewed and signed. Conflict-of-interest disclosures collected.
+June: Mid-Year Strategic Review
+Full Steering Committee reviews campaign progress against annual milestones. Adjust priorities if political context has shifted significantly. Budget reforecast.
+September: Forward Planning
+Begin planning for following year. Identify major political events (elections, CoJ audit release, IDP cycle) that will shape 2026 strategy. Begin funder engagement for next year.
+November: Annual Report Preparation
+Compile Annual Impact Report. Document what changed, what the CSRA contributed to it, what didn't work. Publish before year end — radical transparency about failures as well as wins.
+Annual Artifacts
+State of Reform Report
+Annual Reform Agenda
+Political Economy Analysis Update
+Power Map Update
+Annual Impact Report (public)
+IDP Public Participation Submissions (all CWGs)
+4.2 Quarterly Rhythm — Campaign Cycle
+Purpose
+Run the structured campaign management cycle. Each quarter is a campaign sprint with defined objectives, tactics, and learning reviews.
+Quarterly Campaign Review Meeting (Half-day, per CWG + Steering Committee)
+Agenda Block
+Content
+1. Campaign Scorecard (45 min)
+Each CWG presents: milestones hit/missed, theory of change progress, unexpected developments, next quarter targets. Use RAG (Red/Amber/Green) rating against each campaign objective.
+2. Power Map Update (30 min)
+Champions moved? Opponents strengthened? Swing actors ready to engage? Update map and adjust strategy.
+3. Legal & Regulatory Pipeline (20 min)
+Status of all active PAIA requests, litigation, complaints, and formal regulatory submissions. Any new opportunities opened (e.g., new audit findings to act on)?
+4. Coalition Health Check (20 min)
+Are members contributing as committed? Any conflict-of-interest issues? Any new potential members to recruit? Relationship quality with key external stakeholders?
+5. Narrative & Media Review (20 min)
+What stories landed? What was the public response? What narratives are opponents using? What's the plan for next quarter?
+6. Quarterly Action Plans (25 min)
+Each CWG sets 3–5 concrete deliverables for the next quarter with named owners and deadlines.
+4.3 Monthly Rhythm — Operational Cycle
+Purpose
+Maintain momentum, process new intelligence, coordinate across CWGs, manage media and political relationships, and respond to opportunities.
+Meeting / Activity
+Description
+Monthly Steering Committee (2 hrs)
+Coalition-wide operational meeting: CWG progress updates, cross-campaign coordination, communications review, emerging opportunities and threats, resource allocation adjustments
+CWG Monthly Operational Meeting (90 min)
+Within each CWG: task review, new intelligence and evidence, tactic adjustments, stakeholder relationship management
+Research Unit Briefing (60 min)
+Monthly data briefing to all CWGs: new CoJ data releases, audit outcomes, procurement notices, PAIA responses received, media monitoring summary
+Political Liaison Monthly Touchpoints
+Each Political Liaison maintains at least 2 direct engagements per month with relevant councillors, officials, or committee members. Notes shared with Legal Lead.
+Media Council Monthly Call (45 min)
+Comms Leads across member organisations: coordinate upcoming media moments, review story pitches in progress, agree on joint statements if any, manage social media calendar
+Monthly Artifacts
+Monthly Campaign Progress Notes (per CWG, internal)
+Monthly Media & Narrative Brief (internal)
+Political Engagement Log update
+Research Bulletin (public — data and analysis)
+4.4 Weekly Rhythm — Execution Cycle
+Purpose
+Rapid response to breaking developments, maintain public visibility, keep action items moving between monthly meetings.
+Cadence
+Activity
+Daily: Intelligence Monitoring
+Research Lead or designated analyst monitors CoJ media, AGSA releases, Council minutes, procurement portal, and social media for campaign-relevant developments. Flags to relevant CWG Lead.
+Monday: Week Kick-off (30 min virtual)
+Campaign Leads only. Review the week's planned actions. Flag anything that needs cross-campaign coordination. Assign any rapid-response tasks from weekend intelligence.
+Wednesday: Comms Check-in (20 min)
+Communications Council check: any breaking stories to respond to? Proactive content planned for the week? Any legal clearance needed for public statements?
+Thursday: Political Temperature Check
+Political Liaisons share any shifts in Council, new statements from CoJ executive, or changes in political dynamics that affect current campaigns.
+Friday: Weekly Digest Published
+Research Unit publishes the CSRA Weekly Digest (public): top 5 CoJ developments, campaign progress summary, upcoming opportunities for community engagement.
+Rapid Response Protocol (as needed)
+When a major CoJ failure, scandal, or opportunity breaks: Campaign Lead and Communications Lead coordinate a response within 4 hours. Legal Lead clears statement. Published via all channels.
+Rapid Response Window
+The first 24 hours after a major public development (audit release, infrastructure collapse, corruption exposure, Council vote) are the most influential.
+The CSRA must be able to:
+  •  Publish a substantive public statement within 4 hours
+  •  Have a spokesperson available for media within 6 hours
+  •  File a formal complaint or PAIA request within 48 hours if warranted
+  •  Publish a full analysis briefing within 5 working days
+Pre-draft response templates for the most likely scenarios. Assign a designated rapid-response duty officer on rotation.
+5. Campaign Design
+5.1 Selecting Reform Campaigns
+Not every issue warrants a full reform campaign. Use the following selection criteria to prioritise:
+Criterion
+Question to Ask
+Minimum Threshold
+Impact Potential
+If this reform succeeds, how many people benefit, and how significantly?
+Must affect 50,000+ residents or set metro-wide precedent
+Winnability
+Is there a realistic pathway to achieving the reform within 2–3 years given current political conditions?
+At least one plausible pathway through law, politics, or public pressure
+Evidence Base
+Do we have or can we obtain the evidence to make a credible, substantiated case?
+Primary data or verified secondary data exists or can be obtained via PAIA
+Coalition Relevance
+Can we mobilise meaningful coalition support across at least 3 member categories?
+At least 3 different types of member organisations willing to actively contribute
+Organisational Capacity
+Do we have (or can we acquire) the campaign skills and resources to sustain a 2-3 year campaign?
+CWG roles fully staffed and funded for minimum 12 months before launch
+5.2 Campaign Architecture
+Each approved campaign must be built on a Campaign Architecture Document covering:
+Element
+Content
+Problem Definition
+Specific, evidence-based statement of the reform needed: what is the policy/institution/practice that must change?
+Root Cause Analysis
+Why does this problem persist? Who benefits from it continuing? What has prevented reform so far?
+Theory of Change
+Specific causal logic: what must change for the reform to happen, and how will the campaign cause that change?
+Reform Objective
+SMART objective: specific policy/regulatory/institutional change, with measurable indicator of success, 2–3 year horizon
+Target Actors
+Primary decision-maker who must act (e.g., CoJ Executive Mayor, City Power Board, specific Council Committee)
+Pressure Points
+Specific vulnerabilities in the target actors that the campaign will leverage (electoral accountability, reputational risk, legal compliance obligation, financial incentive)
+Tactic Mix
+Which of the four pathways (legal, political, media, inside-outside) will be used, in what sequence, with what resources?
+Milestones & Exit Conditions
+What does partial success look like? What does full success look like? What conditions would cause us to suspend or abandon?
+Risk Register
+Key risks to the campaign: legal retaliation, coalition breakdown, co-optation, loss of public interest
+Resource Plan
+Staff time, legal budget, research budget, community organising budget, media budget
+5.3 Priority Reform Campaigns for Johannesburg (2025–2027)
+Based on current conditions and coalition capacity, the CSRA proposes the following initial campaign portfolio:
+Campaign
+Reform Objective
+Lead CWG Type
+Reform Pathway
+City Power Accountability Reform
+Binding CEO performance contract, independent board oversight, and published SAIDI/SAIFI improvement targets enforceable by NERSA
+Energy & Technical + Legal
+Legal + Political + Media
+Procurement Transparency Campaign
+Full public disclosure of all CoJ contracts above R500,000 in an open-data searchable format, with beneficial ownership registration
+Research + Legal + Media
+Legal (PAIA) + Media + Political
+Water Infrastructure Investment
+Dedicated ring-fenced capital allocation for JW pipe replacement programme with independent progress monitoring
+Technical + Finance + Community
+Political (IDP/Budget) + Inside-Outside
+Roads SLA Enforcement
+Legally binding road repair SLAs with automatic resident compensation for non-compliance, modelled on Cape Town's programme
+Community + Legal + Technical
+Legal + Political
+Waste Sector Reform
+Pikitup commercialisation review + mandatory community collection monitoring with independent audit
+Community + Research + Media
+Political + Media + Inside-Outside
+Housing & Urban Land Reform
+Reform of CoJ land disposal process to prioritise social and affordable housing over commercial sale
+Legal + Community + Academic
+Legal + Political (IDP)
+6. Technology Stack for Reform Advocacy
+6.1 Technology Principles for Advocacy
+Security-first — reform advocacy attracts hostile actors; assume all digital communications are potentially monitored
+Resilience over convenience — critical data must have offline backups and multiple custodians
+Open source preferred — avoid dependency on platforms that can be pressured, suspended, or sold
+Separation of functions — operational comms (internal) and public communications use different platforms
+Data sovereignty — sensitive data held on CSRA-controlled infrastructure, not only in third-party clouds
+6.2 Recommended Technology Stack
+Function
+Recommended Tool
+Security / Notes
+Secure Internal Comms
+Signal (individuals) + Element/Matrix (teams)
+End-to-end encrypted. Do NOT use WhatsApp for sensitive coalition strategy discussions.
+Public Community Comms
+WhatsApp Communities + Telegram Public Channel
+Public-facing only. No sensitive information.
+Campaign Management
+Asana or Monday.com (NGO pricing) / Notion
+Manage tasks, milestones, CWG workplans across teams
+Document Collaboration
+Google Workspace (Nonprofit tier, free) / Microsoft 365 Nonprofit
+Use Shared Drives with strict access controls per CWG
+Secure Document Vault
+Tresorit or Proton Drive (end-to-end encrypted)
+For sensitive PAIA documents, whistleblower evidence, legal files
+Evidence & Case Management
+Airtable (NGO pricing) or Casefleet
+Track all evidence items, PAIA requests, court filings, witness statements
+Data Analysis & Dashboards
+Python/Pandas + Plotly, or Google Looker Studio
+Build public accountability dashboards. Automate data extraction from CoJ portals.
+GIS & Spatial Analysis
+QGIS (free, open source)
+Map service delivery failures, infrastructure networks, political boundaries
+Research & OSINT
+Maltego Community (free) / SpiderFoot / Google Advanced Search
+Open-source intelligence: company structures, procurement networks, beneficial ownership
+Media Monitoring
+Meltwater (if funded) / Google Alerts + Mention free tier
+Monitor coverage of CSRA campaigns, CoJ officials, and reform issues
+CRM & Stakeholder Management
+CiviCRM (free, open source) / HubSpot Nonprofit
+Manage member organisations, donor relationships, media contacts, political relationships
+Website & Publications
+WordPress (self-hosted) with HTTPS + Cloudflare DDoS protection
+Host campaign pages, evidence repositories, public reports
+Digital Security
+Bitwarden (password manager) + Yubikey (2FA) for all senior staff
+Mandatory for all Steering Committee members and Legal team
+6.3 Data & Evidence Repository Structure
+The Research & Evidence Unit maintains a centralised, versioned evidence repository. All evidence that may be used in litigation, public statements, or submissions must be stored here:
+Repository Folder
+Contents
+01_Government_Documents/
+Official CoJ documents: IDP, budgets, audit reports, by-laws, council minutes, SCOA extracts
+02_PAIA_Requests/
+All PAIA request letters, responses received, refusal notices, and appeal documents — one sub-folder per request
+03_Procurement_Data/
+CoJ tender notices, contract awards, service provider data, beneficial ownership records
+04_Incident_Evidence/
+Dated, geotagged photos and video of service delivery failures. Named by date, location, and issue type.
+05_Media_Archive/
+Saved copies of all media coverage relevant to campaigns, with date and publication metadata
+06_Survey_Data/
+Raw data from community surveys, consent records, analysis files
+07_Legal_Files/
+Strictly access-controlled: pleadings, legal opinions, court orders, settlement documents
+08_Research_Products/
+CSRA-produced research reports, policy briefs, campaign analyses, Power Maps
+09_Communications_Archive/
+All published press statements, social media posts, newsletters — versioned and dated
+10_Financial_Records/
+Budget documents, grant reports, audited statements — strictly access-controlled
+7. Artifacts
+7.1 Artifact Philosophy
+In reform advocacy, artifacts serve three strategic purposes beyond documentation: they shift the public narrative, create political costs for inaction, and build the legal record. Every artifact should be designed with a specific audience and intended effect in mind — not just as a record of activity.
+7.2 The CSRA Artifact Library
+Artifact
+Cadence
+Strategic Purpose
+Primary Audience
+State of Reform Report
+Annual
+Set the reform agenda; define what has and hasn't changed and why
+Media, funders, progressive politicians, public
+Annual Reform Agenda
+Annual
+Signal coalition's priorities; create accountability for follow-through
+CoJ leadership, Council, member organisations, funders
+Annual Impact Report
+Annual
+Demonstrate value to funders; practise radical transparency about failures
+Funders, member orgs, media, general public
+IDP Submission (per campaign)
+Annual (March)
+Put reform demands into the formal IDP record; create legal standing
+CoJ IDP Office, Council, courts (future litigation)
+Political Economy Analysis
+Annual (internal)
+Understand who holds power and why reform is blocked
+Steering Committee, CWG Leads, funders
+Power Map
+Annual + quarterly update
+Guide tactical decisions about who to engage and how
+CWG Leads, Campaign strategists
+Campaign Architecture Document
+Per campaign
+Ensure strategic discipline; align coalition on theory of change
+CWG, Steering Committee, legal team
+Quarterly Campaign Scorecard
+Quarterly
+Honest assessment of progress; triggers strategy adjustments
+Steering Committee, member orgs, funders
+Policy Brief
+Per reform need
+Shift what informed actors think is possible; provide solution
+Councillors, officials, media, academic partners
+Shadow Policy Draft
+Per reform need
+Show reform is technically achievable; increase credibility
+Target officials, Council committees, public
+Investigative Research Report
+Per campaign
+Create political cost for inaction; shift public narrative
+Media, public, courts, Council
+PAIA Request Portfolio
+Rolling / per campaign
+Build legal record; obtain evidence; force disclosure
+CoJ/SOE Information Officers, courts, media
+Legal Opinion
+Per litigation
+Establish legal basis for action; advise coalition on risk
+Steering Committee, Legal Sub-committee
+Media Statement
+Rapid response + planned
+Frame the story; establish CSRA as authoritative voice
+Media, public, CoJ officials
+Reform Scorecard (councillors)
+Pre-election / annual
+Create electoral accountability for reform commitments
+Voters, media, political parties
+Campaign Brief (community)
+Monthly per CWG
+Keep affected communities informed and engaged
+CBO partners, community members
+Funder Report
+Per grant cycle
+Maintain funding relationships; document evidence of impact
+Funders, CSRA Finance Committee
+Learning Report
+Per concluded campaign
+Capture what worked and what didn't; build institutional memory
+All member organisations, advocacy sector
+7.3 Policy Brief — Standard Structure
+The Policy Brief is the CSRA's primary tool for shifting what decision-makers believe is technically and politically feasible. It must be evidence-based, solution-oriented, and readable in under 10 minutes:
+Section
+Content (max length)
+The Problem (half page)
+Specific, evidence-based description of the reform needed. Lead with impact on residents — numbers, specific cases. No jargon.
+Why It Persists (half page)
+Honest analysis of the political economy: who benefits from the status quo? What has been tried before and why it failed?
+The Reform Proposal (1 page)
+Specific, actionable change requested. Reference comparable reforms in other cities. Address the most obvious objections.
+The Evidence Base (1 page)
+Key data points, research citations, PAIA-obtained documents. Every factual claim has a source.
+The Case for Action (half page)
+What changes if this reform is adopted? Quantify benefits. What is the cost of continued inaction?
+Who Must Act (quarter page)
+Specific decision-maker(s), their legal powers, and the specific action required of them.
+Call to Action (quarter page)
+What should the reader do? Be specific: sign, attend, vote, contact, fund.
+7.4 Councillor Reform Scorecard — Framework
+Published annually and before local government elections, the Councillor Reform Scorecard holds elected officials accountable for their reform stance. Assessment criteria:
+Assessment Category
+What Is Assessed
+Data Sources
+Vote Record on Reform Motions
+How did councillor vote on key reform-related Council motions? (procurement transparency, City Power oversight, IDP amendments)
+Council minutes (public record)
+Public Participation Engagement
+Did councillor attend public participation sessions? Did they facilitate or obstruct community input?
+WAT observer reports, CoJ public participation records
+PAIA Cooperation
+Did the councillor support or obstruct CSRA PAIA requests involving their portfolio?
+PAIA correspondence records
+IDP Commitments Honoured
+Did the councillor deliver on specific IDP commitments made in their ward/portfolio?
+Previous IDP documents vs. current delivery status
+Conflict of Interest Disclosures
+Has the councillor made required conflict-of-interest disclosures? Any undisclosed business relationships with CoJ contractors?
+CoJ disclosures register, procurement database, company registry
+Reform Engagement
+Has the councillor engaged constructively with CSRA reform proposals? Responded to correspondence?
+CSRA engagement log
+Scorecard Publication Protocol
+The Scorecard must be: (a) verified by the Legal Sub-committee before publication, (b) sent to each councillor for right-of-reply 5 working days before publication,
+(c) published with full methodology and data sources, (d) simultaneously submitted to media partners.
+Every factual claim must be substantiated. Scores must reflect evidence, not political preference.
+The Scorecard is a democratic accountability tool, not a partisan attack document.
+8. Political Engagement Strategy
+8.1 Principles of Non-Partisan Political Engagement
+The CSRA engages political actors strategically without becoming partisan. This is not political neutrality — it is political discipline. Reform requires engaging power, and power in CoJ is held by elected officials and political parties.
+The Non-Partisan Engagement Test
+Before any political engagement, ask three questions:
+  1. Is this engagement driven by the reform objective or by political affinity?
+  2. Are we willing to apply the same pressure, the same scrutiny, and the same criticism to ALL parties?
+  3. Would this engagement compromise our independence in the eyes of the communities we represent?
+If any answer is 'no' — do not proceed without Steering Committee sign-off.
+8.2 Engagement with the Council
+Register all CWGs as regular participants in relevant Council committee public participation processes
+Submit written and oral deputations to the Executive Mayor's Committee, Finance Committee, and relevant MMC portfolios on reform issues
+Track all Council minutes for reform-relevant motions; respond publicly within 48 hours to significant votes
+Maintain relationships with the multi-party caucus chairs, seeking broad support for non-partisan reform motions
+Engage the Speaker's office on procedural rights of public participation
+8.3 Engagement with CoJ Executive & Administration
+Maintain a formal, documented relationship with the City Manager's office and relevant Group Heads
+Request quarterly technical briefings from relevant SOE CEOs (City Power, Johannesburg Water, Pikitup)
+Participate in any CoJ technical working groups related to reform campaigns, as long as independence is preserved
+All engagement with CoJ officials is documented, summarised, and shared with the relevant CWG within 48 hours
+Never accept hospitality, gifts, or consulting contracts from CoJ or its SOEs — independence is non-negotiable
+8.4 Electoral Engagement
+In the period before local government elections, the CSRA escalates accountability activities:
+Publish Councillor Reform Scorecard 6 months before elections
+Host public ward forums in partnership with WATs: candidates present reform positions
+Publish voter education guides: what to demand from your councillor on each reform campaign
+Monitor election promises and publish accountability tracker post-election
+The CSRA does NOT endorse candidates or parties — it holds all accountable
+9. Legal Strategy
+9.1 Strategic Litigation Philosophy
+The CSRA uses litigation strategically — not as a first resort, but as a lever that no other tool can replace. Courts can compel disclosure, stop harmful processes, establish legal precedent, and impose accountability on officials who believe they are untouchable.
+9.2 Legal Toolkit
+Legal Tool
+Application in Reform Campaigns
+PAIA Applications
+Primary tool for obtaining procurement records, audit management letters, meeting minutes, and technical reports that CoJ refuses to voluntarily disclose
+High Court Review (PAJA)
+Challenge irrational or unlawful administrative decisions: procurement awards, tariff increases, development approvals. PAJA (Promotion of Administrative Justice Act) provides the legal basis.
+Constitutional Litigation
+When fundamental rights are violated at scale: right of access to water (s.27), right to an environment not harmful to health (s.24), right of access to information (s.32)
+Public Protector Complaints
+For maladministration, improper conduct, or corruption by CoJ officials. Free, accessible, and produces binding remedial action directives.
+Information Regulator
+When PAIA requests are refused without lawful grounds. The Information Regulator can compel disclosure and impose penalties.
+AGSA Referrals
+Request the Auditor-General to investigate specific accounting irregularities or material misstatements in CoJ financial statements
+National Treasury
+Report material irregular, fruitless, and wasteful expenditure for MFMA compliance intervention
+SCA / Constitutional Court
+Appeal of adverse High Court decisions in cases with constitutional significance or public interest
+9.3 PAIA Strategic Programme
+PAIA requests are the CSRA's most used legal tool. The Research & Evidence Unit runs a rolling PAIA programme:
+Maintain a PAIA Request Register — all requests, responses, timelines, and outcomes tracked centrally
+Set quarterly PAIA targets per CWG: what records are needed to advance each campaign?
+All PAIA refusals are reviewed by the Legal Sub-committee within 5 working days for appeal potential
+PAIA responses that contain significant evidence are published (with legal clearance) within 10 working days
+Chronic non-responses are escalated to the Information Regulator and publicised via media partners
+PAIA Programme Targets (Annual)
+Minimum 50 PAIA requests filed per year across all CWGs
+100% of responses reviewed within 5 working days of receipt
+80% of refused requests to receive a formal appeal or Information Regulator complaint
+All significant PAIA disclosures to be published as public research bulletins
+10. Coalition Sustainability
+10.1 Financial Sustainability
+Reform campaigns fail when funding dries up. The CSRA maintains a diversified funding model:
+Funding Stream
+Description
+Foundation Grants
+Multi-year grants from international foundations (Open Society Foundation, Ford Foundation, Heinrich Böll Stiftung). Target 40% of budget but no single funder >30%.
+Membership Contributions
+Proportional annual contributions from member organisations — amount based on organisation's annual budget. Target 20% of CSRA operating budget.
+Research & Advisory
+Paid research commissions from media partners, academic institutions, and other CSOs. Not from government or corporations with CoJ interests.
+Individual Donations
+Small-donor programme via the CSRA public website. Builds citizen ownership and political independence.
+Diaspora Fundraising
+Targeted fundraising in Johannesburg diaspora communities (UK, Australia, USA). Tax-deductibility via NPO registration.
+Government Grants
+DSD NPO funding accepted only for service delivery activities, never for advocacy campaigns. No CoJ funding — independence is non-negotiable.
+10.2 Coalition Cohesion
+Coalitions fracture over strategy, credit, resources, and politics. The CSRA manages cohesion through:
+Annual coalition retreat — relationship-building, not just strategy
+Clear credit attribution — all publications name contributing organisations
+Conflict resolution protocol — neutral third-party facilitated mediation for inter-member disputes, resolved within 30 days
+Strategic patience — members with different speeds and risk appetites need explicit space to opt out of specific tactics without leaving the coalition
+Win sharing — when reforms are achieved, celebrate collectively and publicly attribute to the coalition, not just the most visible organisation
+10.3 Succession & Institutional Memory
+All strategy documents, power maps, stakeholder relationship records, and PAIA histories are stored in the institutional repository — not in individuals' heads or personal devices
+Minimum 2-person knowledge overlap for all critical functions — no single points of failure
+Annual succession planning review: who are the next generation of campaign leads?
+After each concluded campaign, a Learning Report is produced and published — documenting what worked, what failed, and why
+Appendix A: Reform Campaign Selection Criteria — Scoring Sheet
+Criterion
+Score 1 (Low)
+Score 2 (Medium)
+Score 3 (High)
+Impact Potential
+Affects <10,000 people or limited to one ward
+Affects 10,000–100,000 people or sets sub-regional precedent
+Affects 100,000+ people or sets metro-wide or national precedent
+Winnability (2–3 yrs)
+No plausible pathway; requires complete political transformation
+One viable pathway with significant obstacles
+Multiple viable pathways; reform-minded actors already engaged
+Evidence Base
+Evidence does not yet exist; would require >12 months to develop
+Evidence partially available; gaps can be filled via PAIA in 6 months
+Strong evidence base already in hand or obtainable within 3 months
+Coalition Relevance
+Interests only 1 member category
+Interests 2 member categories actively
+Interests 3+ member categories with active commitment
+Organisational Capacity
+Would require new hires and >R500k funding to execute adequately
+Can be run with partial new hires or reallocation; R200–500k
+Can be run substantially with existing capacity; <R200k additional
+Scoring: 12–15 = Launch now. 8–11 = Develop further before launch. Below 8 = Defer or decline.
+Appendix B: Escalation Protocol for Campaign Breakthroughs & Crises
+When a campaign experiences a major development — positive or negative — the following escalation protocol applies:
+Trigger
+Response Required
+Who Acts
+Major media breakthrough or viral story
+Rapid-response briefing within 2 hours; coordinate across all channels; prepare for media interviews
+Comms Lead + Campaign Lead
+CoJ agrees to key reform demand
+Document in writing immediately; legal review of any commitments; do not stand down campaign until implemented
+Campaign Lead + Legal Lead + Steering Committee
+Litigation win or adverse court ruling
+Full coalition briefing within 24 hours; media statement within 4 hours; strategy review within 5 days
+Legal Sub-committee + Campaign Lead + Steering Committee
+Whistleblower makes contact
+Escalate immediately to Legal Lead; activate whistleblower protection protocol; do not approach unilaterally
+Legal Lead + Campaign Lead only (strict need-to-know)
+CSRA member organisation withdraws
+Emergency Steering Committee meeting within 5 days; assess impact on campaigns; public statement if necessary
+Chairperson + Steering Committee
+Threat of legal action against CSRA
+Escalate to Legal Sub-committee and Chairperson within 24 hours; do not respond publicly without legal clearance
+Legal Sub-committee + Chairperson
+Coalition member conflict of interest exposed
+Conflict-of-interest protocol triggered: member recuses from relevant decisions pending review
+Chairperson + Finance & Compliance Committee
+Appendix C: Key Reform-Relevant Legislation
+Legislation
+Relevance to Reform Campaigns
+Constitution, 1996 (s.24, 27, 32, 33, 195)
+Constitutional rights to environment, water, information, just admin action, and principles of public administration. Foundation of all constitutional litigation.
+Municipal Systems Act 32 of 2000
+Governs service delivery, IDPs, community participation, and performance management. Core source of reform obligations.
+Municipal Finance Management Act 56 of 2003
+Governs financial management, procurement, and accountability. Source of legal basis for procurement reform campaigns.
+Promotion of Access to Information Act 2 of 2000
+Primary tool for obtaining government records. Every campaign should have a PAIA strategy.
+Promotion of Administrative Justice Act 3 of 2000
+Enables judicial review of unlawful or irrational administrative action by CoJ and its SOEs.
+Public Audit Act 25 of 2004
+Governs the AGSA. Enables referrals of material irregularities for investigation and recovery action.
+Prevention and Combating of Corrupt Activities Act 12 of 2004
+Makes certain persons (including directors of SOEs) liable for failing to report corrupt transactions.
+Local Government: Municipal Structures Act 117 of 1998
+Governs how Council and Ward Committees are constituted and how power is distributed within the metro.
+Electricity Regulation Act 4 of 2006
+Governs NERSA's oversight of electricity distributors including City Power. Enables regulatory complaints and licence challenges.
+Water Services Act 108 of 1997
+Governs provision of water and sanitation services. Enables complaints about failures to meet minimum standards.
+Appendix D: Glossary of Advocacy Terms
+Term
+Definition
+CSRA
+Civil Society Reform Alliance — the cross-functional coalition operating under this playbook
+CWG
+Campaign Working Group — the cross-functional team responsible for a specific reform campaign
+Theory of Change
+The causal logic explaining how the coalition's activities will produce the reform objective
+Power Map
+A structured analysis of actors in the reform landscape, categorised by their power and alignment
+PAIA
+Promotion of Access to Information Act — primary legal tool for obtaining government documents
+PAJA
+Promotion of Administrative Justice Act — legal basis for judicial review of unlawful government action
+AGSA
+Auditor-General of South Africa — constitutional body that audits government accounts and can investigate material irregularities
+IDP
+Integrated Development Plan — CoJ's 5-year strategic plan, updated annually; the primary site of budget and policy advocacy
+Political Economy Analysis
+Analysis of who holds power, who benefits from the status quo, and what incentives drive key actors
+Inside-Outside Strategy
+A campaign approach that combines external public pressure with constructive engagement with reform allies inside government
+SAIDI
+System Average Interruption Duration Index — international standard measure of electricity supply reliability, in hours per customer per year
+Shadow Policy
+A draft policy, by-law, or regulation produced by civil society to demonstrate that reform is technically feasible
+OSINT
+Open Source Intelligence — research using publicly available data sources to investigate individuals, companies, and procurement networks
