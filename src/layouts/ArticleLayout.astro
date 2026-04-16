@@ -384,7 +384,7 @@ const jsonLd = [articleJsonLd, breadcrumbJsonLd];
     color: #6b6b6b;
   }
 
-  /* Tables */
+  /* Tables — scrollable container */
   .prose-article :global(table) {
     width: 100%;
     border-collapse: collapse;
@@ -395,6 +395,27 @@ const jsonLd = [articleJsonLd, breadcrumbJsonLd];
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #c4c4c4 transparent;
+  }
+
+  /* Force visible scrollbar on webkit browsers when table overflows */
+  .prose-article :global(table)::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .prose-article :global(table)::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+  }
+
+  .prose-article :global(table)::-webkit-scrollbar-thumb {
+    background: #c4c4c4;
+    border-radius: 3px;
+  }
+
+  .prose-article :global(table)::-webkit-scrollbar-thumb:hover {
+    background: #a0a0a0;
   }
 
   .prose-article :global(thead) {
@@ -407,7 +428,8 @@ const jsonLd = [articleJsonLd, breadcrumbJsonLd];
     text-align: left;
     font-weight: 600;
     color: #1a1a1a;
-    white-space: nowrap;
+    white-space: normal;
+    min-width: 100px;
   }
 
   .prose-article :global(td) {
