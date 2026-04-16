@@ -19,9 +19,18 @@ series:
   prev: "hd-1-4-the-problem-that-has-no-name"
   next: "hd-2-2-violence-as-public-health-crisis"
 crossLinks:
+  - slug: "hd-1-4-the-problem-that-has-no-name"
+    label: "The Problem That Has No Name"
+    relationship: "The health deficit is a central dimension of the unnamed crisis — it compounds education and safety failures"
   - slug: "hd-1-2-south-africas-report-card"
     label: "South Africa's Report Card"
     relationship: "Life expectancy as HDI health dimension"
+  - slug: "hd-2-2-violence-as-public-health-crisis"
+    label: "Violence as a Public Health Crisis"
+    relationship: "Violence directly worsens the life expectancy deficit"
+  - slug: "hd-3-2-learning-in-a-war-zone"
+    label: "Learning in a War Zone"
+    relationship: "Health and hunger undermine learning — the education-health link in practice"
 seo:
   ogImage: "/og/hd-2-1-the-life-expectancy-deficit.png"
   keywords:

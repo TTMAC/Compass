@@ -19,9 +19,18 @@ series:
   prev: "hd-2-3-the-fiscal-arithmetic-of-health"
   next: "hd-3-2-learning-in-a-war-zone"
 crossLinks:
+  - slug: "hd-1-4-the-problem-that-has-no-name"
+    label: "The Problem That Has No Name"
+    relationship: "Education failures are a symptom of the broader unnamed crisis — spending more without integrated safety and health interventions cannot close the gap"
   - slug: "hd-1-2-south-africas-report-card"
     label: "South Africa's Report Card"
     relationship: "Education dimension of the HDI"
+  - slug: "hd-2-2-violence-as-public-health-crisis"
+    label: "Violence as a Public Health Crisis"
+    relationship: "Violence undermines learning outcomes regardless of education investment"
+  - slug: "hd-3-2-learning-in-a-war-zone"
+    label: "Learning in a War Zone"
+    relationship: "How community violence, hunger, and transport insecurity destroy classroom learning"
 seo:
   ogImage: "/og/hd-3-1-the-schooling-paradox.png"
   keywords:
