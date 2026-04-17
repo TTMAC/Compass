@@ -1,0 +1,373 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+
+const diagnosticFindings = [
+  {
+    number: "01",
+    title: "Enforcement is in critical failure",
+    body: "Across every government function analysed — education, healthcare, water, electricity, housing, waste, roads — not a single function scores above 2 out of 5 on enforcement. When a province fails to deliver outcomes, no automatic trigger fires. When a municipality's water treatment works produces contaminated water, no automatic consequence follows. Enforcement depends on political will, not institutional design.",
+  },
+  {
+    number: "02",
+    title: "Accountability is separated from authority",
+    body: "South Africa does not have an accountability deficit — it has an accountability-authority misalignment. Provincial MECs are held accountable for matric results but do not control teacher appointments. Municipal managers are the accounting officers for all functions but operate at the discretion of a council that controls appointments and procurement. People are held responsible for outcomes they cannot control.",
+  },
+  {
+    number: "03",
+    title: "Capability collapse at the delivery level",
+    body: "The national sphere generally has adequate capability for its standard-setting functions. The capability crisis is at the provincial and especially the municipal level — where qualified process controllers, engineers, financial managers, town planners, and subject advisors are absent from the posts that require them. This is not a training problem; it is a structural problem of political displacement.",
+  },
+];
+
+const distinguishingFeatures = [
+  {
+    letter: "A",
+    label: "Grounded in diagnosis, not aspiration",
+    body: "Every reform originates from a specific RAARICLE™ diagnostic finding — a measurable governance element that is misaligned, absent, or in failure.",
+  },
+  {
+    letter: "B",
+    label: "Legislated, not discretionary",
+    body: "Core principles, institutional machinery, and enforcement architecture are embedded in statute. They survive changes in political leadership.",
+  },
+  {
+    letter: "C",
+    label: "Integrated, not fragmented",
+    body: "Components are designed to reinforce each other. Enforcement depends on information. Authority depends on capability. Fiscal reform depends on institutional clarity.",
+  },
+  {
+    letter: "D",
+    label: "Measurable, not aspirational",
+    body: "Every component has defined indicators, tracked through existing institutions (AGSA, Treasury, DPME), published on a public platform, and connected to automatic enforcement.",
+  },
+  {
+    letter: "E",
+    label: "Honest about constraints",
+    body: "The programme cannot eliminate political resistance or overcome fiscal limits. What it can do is create a structural framework that shifts the burden of proof from reformers to defenders of the status quo.",
+  },
+];
+
+const actComponents = [
+  {
+    n: 1,
+    title: "The Structured Autonomy Principle",
+    summary: "A binding design standard for concurrent functions: the entity closest to delivery holds operational authority, within outcome standards set by the broader sphere, with automatic enforcement when outcomes fall short.",
+  },
+  {
+    n: 2,
+    title: "The Automatic Enforcement Architecture",
+    summary: "Trigger thresholds, a graduated response protocol (Tier 1 support → Tier 2 joint management → Tier 3 temporary administration), and binding exit criteria. Operates automatically and transparently, replacing the discretionary Section 100 and 139 intervention models.",
+  },
+  {
+    n: 3,
+    title: "The Protected Technical Appointments Framework",
+    summary: "Prescribed posts — engineers, process controllers, CFOs, district health managers, subject advisors — filled through merit-based processes with protected professional qualifications, insulated from political displacement.",
+  },
+  {
+    n: 4,
+    title: "The Integrated Information Architecture",
+    summary: "A single Integrated Governance Performance Platform that consolidates AGSA, Treasury, DPME, and sector data, publishes it publicly, and auto-flags threshold breaches. Closes the loop between measurement and consequence.",
+  },
+  {
+    n: 5,
+    title: "The Reform Coordination Mechanism",
+    summary: "A statutory Reform Coordination Office — built on the Operation Vulindlela model but with legislated mandate, guaranteed budget, and defined authority to coordinate function-specific amendment bills and resolve cross-cutting implementation problems.",
+  },
+  {
+    n: 6,
+    title: "The Parliamentary Accountability Framework",
+    summary: "A dedicated annual report tabled in both the National Assembly and NCOP, including performance data, enforcement actions triggered, legislative progress, and a coherence assessment that tests the programme against its own RAARICLE™ criteria.",
+  },
+];
+
+const phases = [
+  {
+    label: "Phase 1",
+    period: "Months 1–12",
+    title: "Regulatory Foundation",
+    body: "Uses existing legislative authority to establish the data platform, fiscal reforms, and capability measures that later phases require. The Integrated Governance Performance Platform goes live. MFMA regulations mandate ring-fenced revenue. Trigger protocols are piloted in voluntary agreements.",
+    color: "#355E3B",
+  },
+  {
+    label: "Phase 2",
+    period: "Years 1–3",
+    title: "Legislative Architecture",
+    body: "The Governance Reform Programme Act is drafted and introduced as the anchor legislation. Function-specific amendment bills (Employment of Educators Act, National Health Act, Water Services Act, Housing Act, Municipal Systems Act) follow in a coordinated sequence.",
+    color: "#7A5C1F",
+  },
+  {
+    label: "Phase 3",
+    period: "Years 3–5",
+    title: "Implementation & Calibration",
+    body: "New institutions take effect — district PHC authorities, WSA/WSP separation, municipal housing agencies. The enforcement architecture activates. The first full cycle of data generates the coherence assessment and recalibrates trigger thresholds.",
+    color: "#553691",
+  },
+  {
+    label: "Phase 4",
+    period: "Year 5+",
+    title: "Cycle Management",
+    body: "The Reform Coordination Office evolves from reform coordination into a permanent cycle management institution — monitoring the virtuous cycle (safety → growth → development → safety) and providing the systemic oversight South Africa has never had.",
+    color: "#1F6F8B",
+  },
+];
+
+const pathways = [
+  {
+    href: "/diagnostic-frameworks",
+    title: "Diagnostic Frameworks",
+    description: "Go deeper on the RAARICLE™ framework, the five failure patterns, the capture vulnerability assessment, and the structural principles that justify each reform.",
+    cta: "Open the diagnostic toolkit",
+  },
+  {
+    href: "/real-steps-to-reform",
+    title: "Reform Roadmap",
+    description: "See the 80+ concrete reforms across four workstreams, sequenced over 10 years, with the legislative changes required to implement them.",
+    cta: "Explore the roadmap",
+  },
+  {
+    href: "/reform-scorecard",
+    title: "Reinforcing Cycle Scorecard",
+    description: "Track the 15 indicators across safety, growth, and development that show whether the reforms are producing systemic change.",
+    cta: "View the scorecard",
+  },
+  {
+    href: "/advocacy-playbooks",
+    title: "Advocacy Playbooks",
+    description: "Turn analysis into action. The tactical playbooks for citizens, civil society, and professionals to move reforms from proposal to law.",
+    cta: "Use the playbooks",
+  },
+];
+---
+
+<PageLayout
+  title="The Reform Programme"
+  description="An executive summary of the integrated reform programme — why South Africa needs a single legislated reform architecture, what it contains, how the components interact, and how to navigate the companion pages."
+>
+  <!-- Hero -->
+  <header class="mb-10">
+    <p class="font-heading text-sm font-semibold text-compass-green uppercase tracking-wide mb-2">
+      Executive Summary
+    </p>
+    <h1 class="font-heading text-3xl md:text-4xl font-bold text-text-primary mb-3 leading-tight">
+      The Reform Programme
+    </h1>
+    <p class="text-lg text-text-secondary leading-relaxed mb-4">
+      South Africa does not lack reform proposals — the NDP, Operation Vulindlela, the District Development
+      Model, the Medium Term Strategic Framework, and hundreds of White Papers exist. What it lacks is a
+      <strong class="text-text-primary">single, legislated, integrated reform programme</strong> that addresses the
+      systemic governance failures common to every government function, and survives changes in political leadership.
+    </p>
+    <p class="text-text-secondary leading-relaxed">
+      This page summarises the architecture of that programme. It explains the diagnostic findings that motivate
+      it, the six components that would constitute a Governance Reform Programme Act, the four-phase sequencing
+      that respects both legislative feasibility and implementation dependency, and how each section of this
+      site fits into that whole.
+    </p>
+  </header>
+
+  <!-- On-page navigation -->
+  <nav class="mb-10 flex flex-wrap gap-x-4 gap-y-1 text-xs font-heading" aria-label="Jump to section">
+    <span class="text-text-secondary font-semibold">Jump to:</span>
+    <a href="#problem" class="text-compass-green hover:underline">The Problem</a>
+    <a href="#diagnostic" class="text-compass-green hover:underline">Diagnostic Findings</a>
+    <a href="#features" class="text-compass-green hover:underline">Distinguishing Features</a>
+    <a href="#components" class="text-compass-green hover:underline">Six Components</a>
+    <a href="#phases" class="text-compass-green hover:underline">Four Phases</a>
+    <a href="#navigate" class="text-compass-green hover:underline">Where to Go Next</a>
+  </nav>
+
+  <!-- The Problem -->
+  <section id="problem" class="mb-12 scroll-mt-32" aria-label="The problem with function-by-function reform">
+    <h2 class="font-heading text-2xl font-bold text-text-primary mb-3">
+      The Problem with Fixing Things One at a Time
+    </h2>
+    <p class="text-text-secondary mb-4 leading-relaxed">
+      Since 1994, South Africa has pursued reform through individual sectoral initiatives — each identifying real
+      problems and proposing real solutions, each operating within its own institutional silo. The result is
+      <strong class="text-text-primary">fragmented incrementalism</strong>. Ministerial directives are reversed when
+      ministers change. Departmental programmes are defunded when fiscal pressures mount. Presidential initiatives
+      lose momentum when presidential attention moves elsewhere.
+    </p>
+    <aside class="p-5 rounded-lg border-l-4 border-compass-green bg-compass-green-light/40">
+      <p class="font-heading text-sm font-bold text-text-primary mb-1">
+        The lesson from thirty years of reform experience
+      </p>
+      <p class="text-sm text-text-secondary leading-relaxed">
+        The only reforms that have proven durable in South Africa's governance system — the Municipal Finance
+        Management Act, the Division of Revenue framework, the Auditor-General's audit mandate — are those
+        embedded in legislation. They endure because they are law, not policy. A reform programme that is to
+        survive political cycles must be embedded in law.
+      </p>
+    </aside>
+  </section>
+
+  <!-- Diagnostic Findings -->
+  <section id="diagnostic" class="mb-12 scroll-mt-32" aria-label="Cross-pillar diagnostic findings">
+    <h2 class="font-heading text-2xl font-bold text-text-primary mb-2">
+      What the Cross-Pillar Diagnostic Reveals
+    </h2>
+    <p class="text-text-secondary mb-6 leading-relaxed">
+      Applying the RAARICLE™ framework across education, healthcare, water, electricity, housing, waste, roads,
+      and provincial governance surfaces three systemic patterns. These patterns are not function-specific —
+      which is why function-by-function reform cannot resolve them.
+    </p>
+    <div class="space-y-4">
+      {diagnosticFindings.map((f) => (
+        <div class="flex gap-4 p-5 rounded-lg border border-gray-200 bg-bg-secondary/40">
+          <span class="font-heading font-bold text-xl text-compass-green shrink-0">
+            {f.number}
+          </span>
+          <div>
+            <p class="font-heading text-base font-bold text-text-primary mb-2">
+              {f.title}
+            </p>
+            <p class="text-sm text-text-secondary leading-relaxed">
+              {f.body}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Distinguishing Features -->
+  <section id="features" class="mb-12 scroll-mt-32" aria-label="What distinguishes this programme">
+    <h2 class="font-heading text-2xl font-bold text-text-primary mb-2">
+      What Distinguishes This Programme
+    </h2>
+    <p class="text-text-secondary mb-6 leading-relaxed">
+      South Africa has more policy documents than it can implement. The integrated reform programme is
+      distinguished not by its ambition but by its architecture — five features that together make it
+      durable, coherent, and testable.
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+      {distinguishingFeatures.map((feat) => (
+        <div class="border border-gray-200 rounded-lg p-4 flex gap-3">
+          <span class="w-8 h-8 rounded-full bg-compass-green text-white font-heading font-bold text-sm flex items-center justify-center shrink-0">
+            {feat.letter}
+          </span>
+          <div>
+            <p class="font-heading text-sm font-semibold text-text-primary mb-1">
+              {feat.label}
+            </p>
+            <p class="text-xs text-text-secondary leading-relaxed">
+              {feat.body}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Six Components -->
+  <section id="components" class="mb-12 scroll-mt-32" aria-label="Six components of the Act">
+    <h2 class="font-heading text-2xl font-bold text-text-primary mb-2">
+      The Governance Reform Programme Act: Six Components
+    </h2>
+    <p class="text-text-secondary mb-6 leading-relaxed">
+      The Act does not attempt to legislate every function-specific reform in a single statute. It establishes
+      the architecture within which function-specific reforms are designed, coordinated, implemented, measured,
+      and enforced.
+    </p>
+    <div class="space-y-3">
+      {actComponents.map((c) => (
+        <details class="border border-gray-200 rounded-lg overflow-hidden group">
+          <summary class="flex items-center gap-3 px-4 py-3 cursor-pointer list-none [&::-webkit-details-marker]:hidden select-none hover:bg-bg-secondary transition-colors">
+            <span class="w-8 h-8 rounded bg-compass-green-light text-compass-green font-heading font-bold text-sm flex items-center justify-center shrink-0">
+              {c.n}
+            </span>
+            <span class="font-heading text-sm font-semibold text-text-primary flex-1">
+              {c.title}
+            </span>
+            <svg class="w-4 h-4 text-text-secondary shrink-0 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </summary>
+          <div class="px-4 pb-4 pt-1 border-t border-gray-100">
+            <p class="text-sm text-text-secondary leading-relaxed">
+              {c.summary}
+            </p>
+          </div>
+        </details>
+      ))}
+    </div>
+  </section>
+
+  <!-- Four Phases -->
+  <section id="phases" class="mb-12 scroll-mt-32" aria-label="Four phases of sequencing">
+    <h2 class="font-heading text-2xl font-bold text-text-primary mb-2">
+      Sequencing: Four Phases
+    </h2>
+    <p class="text-text-secondary mb-6 leading-relaxed">
+      Sequencing respects two constraints: legislative feasibility (what can move quickly through regulation
+      versus what requires parliamentary process) and implementation dependency (which institutional infrastructure
+      must precede which reforms). No phase assumes capabilities that have not yet been established.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {phases.map((p) => (
+        <div
+          class="rounded-lg border-l-4 border border-gray-200 p-5"
+          style={`border-left-color: ${p.color}`}
+        >
+          <div class="flex items-baseline gap-2 mb-1">
+            <p class="font-heading text-lg font-bold" style={`color: ${p.color}`}>
+              {p.label}
+            </p>
+            <span class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide">
+              {p.period}
+            </span>
+          </div>
+          <p class="font-heading text-sm font-semibold text-text-primary mb-2">
+            {p.title}
+          </p>
+          <p class="text-sm text-text-secondary leading-relaxed">
+            {p.body}
+          </p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Where to go next -->
+  <section id="navigate" class="mb-12 scroll-mt-32" aria-label="Companion pages">
+    <h2 class="font-heading text-2xl font-bold text-text-primary mb-2">
+      Where to Go Next
+    </h2>
+    <p class="text-text-secondary mb-6 leading-relaxed">
+      This page is the overview. Each of the Reform tab's companion pages takes one dimension of the programme
+      and develops it in operational detail.
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {pathways.map((p) => (
+        <a
+          href={p.href}
+          class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group flex flex-col"
+        >
+          <p class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+            {p.title}
+          </p>
+          <p class="text-sm text-text-secondary leading-relaxed mb-3 flex-1">
+            {p.description}
+          </p>
+          <span class="inline-flex items-center gap-1 text-xs font-heading font-semibold text-compass-green group-hover:text-compass-green-dark">
+            {p.cta}
+            <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Source -->
+  <footer class="border-t border-gray-200 pt-6 mt-8">
+    <p class="text-sm text-text-secondary leading-relaxed">
+      <strong class="text-text-primary">Full analysis:</strong> this summary distils
+      <a href="/articles/ra-5-3-the-integrated-reform-programme" class="text-compass-green hover:underline font-semibold">The Integrated Reform Programme</a>,
+      the capstone essay of the Reform Agenda series. The article develops the argument at full length, with
+      the cross-pillar RAARICLE™ matrix, the coherence test, the measurement architecture, and the institutional
+      evolution of the Reform Coordination Office into a permanent cycle management institution.
+    </p>
+  </footer>
+</PageLayout>

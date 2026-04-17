@@ -14,6 +14,7 @@ const mobileNavLinks = [
 ];
 
 const reformLinks = [
+  { href: "/reform-programme", label: "The Reform Programme" },
   { href: "/reform-scorecard", label: "Reinforcing Cycle Scorecard" },
   { href: "/diagnostic-frameworks", label: "Diagnostic Frameworks" },
   { href: "/real-steps-to-reform", label: "Reform Roadmap" },
@@ -30,7 +31,7 @@ const currentPath = Astro.url.pathname;
 const isTopicsActive = currentPath.startsWith("/pillars") || currentPath === "/big-picture" || currentPath.startsWith("/government-functions");
 
 const isDev = import.meta.env.DEV;
-const isReformActive = currentPath === "/reform-scorecard" || currentPath === "/diagnostic-frameworks" || currentPath === "/real-steps-to-reform" || currentPath === "/advocacy-playbooks";
+const isReformActive = currentPath === "/reform-programme" || currentPath === "/reform-scorecard" || currentPath === "/diagnostic-frameworks" || currentPath === "/real-steps-to-reform" || currentPath === "/advocacy-playbooks";
 ---
 
 <header class="bg-bg-primary border-b border-gray-100 sticky top-0 z-40" role="banner">
