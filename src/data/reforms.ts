@@ -495,7 +495,7 @@ export const reforms: Reform[] = [
     subgroup: "Primary Healthcare Reform",
     title: "NHI Implementation Alignment",
     description:
-      "Ensure the National Health Insurance (NHI) consolidates rather than fragments responsibility. Create single accountability point: NHI as payer, provincial facilities as integrated provider.",
+      "Ensure the National Health Insurance (NHI) consolidates rather than fragments responsibility. Create single accountability point: NHI as payer, provincial facilities as integrated provider. Comparator: Rwanda's Mutuelles de Santé community-based health insurance achieved near-universal coverage in a lower-income setting by unifying the payer function and tying enrolment to primary-care access points.",
     scope: ["national"],
     articleSlug: "ra-2-2-fixing-primary-healthcare",
   },
@@ -553,6 +553,18 @@ export const reforms: Reform[] = [
       "Increase subsidy quantum to reflect actual construction costs in high-cost areas. Implement performance-based developer selection. Create separate funding stream for bulk infrastructure independent of top-structure funding.",
     scope: ["national"],
     articleSlug: "ra-2-3-fixing-human-settlements",
+  },
+  {
+    id: "2K.1",
+    workstream: "reform-agenda",
+    phase: "phase-1",
+    subgroup: "Executive Delivery Accountability",
+    title: "Presidential Delivery Compact",
+    description:
+      "Legislate a binding requirement that the President publish, within 90 days of assuming office, a five-year Reform Delivery Compact — a set of specific, time-bound, measurable milestones across the four reform workstreams, anchored to the Integrated Reform Programme and the Reinforcing Cycle Scorecard. The Compact is tabled in Parliament and gazetted; progress is published quarterly on a public Presidential Delivery Scorecard (initially operated by DPME, later migrated to the statutory Reform Coordination Office once 2I.1 is in force); the Compact is reviewed annually in a dedicated joint sitting of the National Assembly and NCOP; and sustained underperformance on specified 'red-flag' milestones automatically triggers parliamentary debate. Comparator: Rwanda's Imihigo performance contracts — signed personally by officials up to cabinet level, with published scorecards and real consequences for missed targets — have been central to that country's sustained multi-decade delivery trajectory.",
+    legislative: "New Presidential Delivery Compact Act",
+    scope: ["national"],
+    articleSlug: "ra-5-3-the-integrated-reform-programme",
   },
 
   // ── Reform Agenda: Phase 2 ──
@@ -868,7 +880,7 @@ export const reforms: Reform[] = [
     subgroup: "Programme Architecture and Coordination",
     title: "Statutory Reform Coordination Office",
     description:
-      "Establish a statutory Reform Coordination Office — building on and formalising the Operation Vulindlela model — with a legislated mandate, guaranteed budget, and defined authority. Located in the Presidency with joint reporting to National Treasury. Functions: legislative coordination of function-specific amendment bills, implementation tracking against milestones, cross-cutting problem resolution, and stakeholder coordination. The critical difference from Vulindlela is statutory authority — a future president would need to amend or repeal the Act through Parliament, not simply redirect executive attention.",
+      "Establish a statutory Reform Coordination Office — building on and formalising the Operation Vulindlela model — with a legislated mandate, guaranteed budget, and defined authority. Located in the Presidency with joint reporting to National Treasury. Functions: legislative coordination of function-specific amendment bills, implementation tracking against milestones, cross-cutting problem resolution, and stakeholder coordination. The critical difference from Vulindlela is statutory authority — a future president would need to amend or repeal the Act through Parliament, not simply redirect executive attention. Comparator: Rwanda's Governance Board, established by statute, demonstrates how a centrally-located coordination body with legislated authority can survive political transitions and drive multi-year reform implementation.",
     legislative: "New Governance Reform Programme Act",
     scope: ["national"],
     articleSlug: "ra-5-3-the-integrated-reform-programme",
@@ -1305,6 +1317,7 @@ export const legislativeItems: LegislativeItem[] = [
   { id: "L.1", name: "Investigating Magistracy Act", type: "new", workstream: "safety-security", phase: "phase-1", articleSlug: "ss-3-2-independent-investigating-magistracy" },
   { id: "L.2", name: "Sentencing Reform Act", type: "new", workstream: "safety-security", phase: "phase-2", articleSlug: "ss-3-4-sentencing-commission-and-structured-guidelines" },
   { id: "L.3", name: "Small Business Guarantee Fund Act", type: "new", workstream: "economic-growth", phase: "phase-1", articleSlug: "eg-3-1-three-engines-of-growth" },
+  { id: "L.19", name: "Presidential Delivery Compact Act", type: "new", workstream: "reform-agenda", phase: "phase-1", articleSlug: "ra-5-3-the-integrated-reform-programme" },
   // Amendments
   { id: "L.4", name: "Criminal Procedure Act, 1977", type: "amendment", workstream: "safety-security", phase: "phase-1", articleSlug: "ss-2-1-the-broken-pipeline" },
   { id: "L.5", name: "National Prosecuting Authority Act, 1998", type: "amendment", workstream: "safety-security", phase: "phase-1", articleSlug: "ss-2-3-justice-delayed-rights-denied" },
