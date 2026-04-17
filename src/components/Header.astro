@@ -28,6 +28,8 @@ const topicsLinks = [
 
 const currentPath = Astro.url.pathname;
 const isTopicsActive = currentPath.startsWith("/pillars") || currentPath === "/big-picture" || currentPath.startsWith("/government-functions");
+
+const isDev = import.meta.env.DEV;
 const isReformActive = currentPath === "/reform-scorecard" || currentPath === "/diagnostic-frameworks" || currentPath === "/real-steps-to-reform" || currentPath === "/advocacy-playbooks";
 ---
 
@@ -154,7 +156,13 @@ const isReformActive = currentPath === "/reform-scorecard" || currentPath === "/
         </li>
       ))}
       <li>
-        <div id="search-desktop" class="w-40" aria-live="polite"></div>
+        <div id="search-desktop" class="w-40" aria-live="polite">
+          {isDev && (
+            <p class="text-xs text-text-secondary italic px-2 py-1.5 border border-dashed border-gray-300 rounded" title="Search is generated at build time. Run `npm run build && npm run preview` to test.">
+              Search: preview only
+            </p>
+          )}
+        </div>
       </li>
     </ul>
 
@@ -191,7 +199,13 @@ const isReformActive = currentPath === "/reform-scorecard" || currentPath === "/
     aria-hidden="true"
   >
     <div class="px-4 py-4 border-t border-gray-100 space-y-1">
-      <div id="search-mobile" class="mb-3" aria-live="polite"></div>
+      <div id="search-mobile" class="mb-3" aria-live="polite">
+        {isDev && (
+          <p class="text-xs text-text-secondary italic px-3 py-2 border border-dashed border-gray-300 rounded" title="Search is generated at build time. Run `npm run build && npm run preview` to test.">
+            Search: preview only
+          </p>
+        )}
+      </div>
       <ul class="space-y-1" role="list">
         <li>
           <a
@@ -297,7 +311,7 @@ const isReformActive = currentPath === "/reform-scorecard" || currentPath === "/
   </div>
 </header>
 
-<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+{!isDev && <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />}
 
 <script>
   const toggle = document.querySelector("[data-menu-toggle]");
@@ -393,5 +407,7 @@ const isReformActive = currentPath === "/reform-scorecard" || currentPath === "/
     } catch { /* Script injection failed */ }
   }
 
-  initPagefind();
+  if (import.meta.env.PROD) {
+    initPagefind();
+  }
 </script>
