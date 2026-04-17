@@ -86,23 +86,6 @@ const grouped = workstreams.map((ws) => {
     </p>
   </header>
 
-  <!-- Stats bar -->
-  <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-10">
-    {grouped.map((ws) => (
-      <div
-        class="rounded-lg p-4 text-center border"
-        style={`border-color: ${ws.color}20; background-color: ${ws.lightColor}`}
-      >
-        <p class="font-heading text-2xl font-bold" style={`color: ${ws.color}`}>
-          {ws.reformCount}
-        </p>
-        <p class="font-heading text-xs font-semibold text-text-secondary mt-1">
-          {ws.shortTitle} reforms
-        </p>
-      </div>
-    ))}
-  </div>
-
   <!-- On-page navigation -->
   <nav class="mb-8 flex flex-wrap gap-x-4 gap-y-1 text-xs font-heading" aria-label="Jump to section">
     <span class="text-text-secondary font-semibold">Jump to:</span>
@@ -132,49 +115,49 @@ const grouped = workstreams.map((ws) => {
 
   <!-- Workstream Filter -->
   <div
-    class="sticky top-16 bg-bg-primary py-3 z-30 border-b border-gray-100 mb-8"
+    class="sticky top-16 bg-bg-primary/95 backdrop-blur-sm py-2.5 z-30 border-b border-gray-100 mb-8"
   >
-    <div
-      class="flex flex-wrap items-center gap-2 mb-2"
-      role="group"
-      aria-label="Filter reforms by workstream"
-    >
-      <button
-        type="button"
-        class="reform-filter-btn px-4 py-2 rounded-full font-heading text-sm font-semibold transition-colors border-2 border-compass-green bg-compass-green text-white"
-        data-filter="all"
-        aria-pressed="true"
+    <div class="flex flex-wrap items-center gap-2">
+      <div
+        class="flex flex-wrap items-center gap-1.5 flex-1"
+        role="group"
+        aria-label="Filter reforms by workstream"
       >
-        All Workstreams
-      </button>
-      {workstreams.map((ws) => (
         <button
           type="button"
-          class="reform-filter-btn px-4 py-2 rounded-full font-heading text-sm font-semibold transition-colors border-2"
-          style={`border-color: ${ws.color}; color: ${ws.color}; background-color: transparent`}
-          data-filter={ws.id}
-          data-color={ws.color}
-          data-light={ws.lightColor}
-          aria-pressed="false"
+          class="reform-filter-btn px-3 py-1.5 rounded-full font-heading text-sm font-semibold transition-colors border-2 border-compass-green bg-compass-green text-white"
+          data-filter="all"
+          aria-pressed="true"
         >
-          {ws.shortTitle}
+          All <span class="opacity-70 font-normal">({reformCount})</span>
         </button>
-      ))}
-    </div>
-    <div class="flex items-center gap-3">
-      <div class="relative flex-1 max-w-sm">
+        {grouped.map((ws) => (
+          <button
+            type="button"
+            class="reform-filter-btn px-3 py-1.5 rounded-full font-heading text-sm font-semibold transition-colors border-2"
+            style={`border-color: ${ws.color}; color: ${ws.color}; background-color: transparent`}
+            data-filter={ws.id}
+            data-color={ws.color}
+            data-light={ws.lightColor}
+            aria-pressed="false"
+          >
+            {ws.shortTitle} <span class="opacity-70 font-normal">({ws.reformCount})</span>
+          </button>
+        ))}
+      </div>
+      <div class="relative w-full sm:w-64 shrink-0">
         <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-secondary pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
         </svg>
         <input
           type="search"
           id="reform-search"
-          class="w-full pl-9 pr-3 py-2 rounded-lg border border-gray-200 bg-white font-heading text-sm text-text-primary placeholder:text-text-secondary/60 focus:outline-none focus:border-compass-green focus:ring-1 focus:ring-compass-green"
-          placeholder="Search reforms (e.g. water, policing, education)"
+          class="w-full pl-9 pr-3 py-1.5 rounded-lg border border-gray-200 bg-white font-heading text-sm text-text-primary placeholder:text-text-secondary/60 focus:outline-none focus:border-compass-green focus:ring-1 focus:ring-compass-green"
+          placeholder="Search reforms…"
           aria-label="Search reforms by keyword"
         />
       </div>
-      <span id="reform-count" class="font-heading text-xs text-text-secondary whitespace-nowrap" aria-live="polite">
+      <span id="reform-count" class="font-heading text-xs text-text-secondary whitespace-nowrap shrink-0" aria-live="polite">
         {reformCount} reforms
       </span>
     </div>
@@ -182,10 +165,44 @@ const grouped = workstreams.map((ws) => {
 
   <!-- Phase Timeline -->
   <section id="timeline" class="mb-10 scroll-mt-32" aria-label="10-year reform timeline">
-    <h2 class="font-heading text-xl font-bold text-text-primary mb-4">
-      10-Year Timeline
-    </h2>
-    <div class="overflow-x-auto -mx-4 px-4">
+    <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-3">
+      <h2 class="font-heading text-xl font-bold text-text-primary">
+        10-Year Timeline
+      </h2>
+      <p class="font-heading text-xs text-text-secondary">
+        Click a phase to filter reforms →
+      </p>
+    </div>
+    {/* Mobile: stacked phase pills per workstream */}
+    <div class="md:hidden space-y-3">
+      {grouped.map((ws) => (
+        <div class="reform-ws-row" data-workstream={ws.id}>
+          <p class="font-heading text-xs font-bold mb-1.5" style={`color: ${ws.color}`}>
+            {ws.shortTitle}
+          </p>
+          <div class="flex flex-wrap gap-1.5">
+            {ws.phases.map((phase) => {
+              const phaseOpacity = phase.id === "phase-1" ? 0.7 : phase.id === "phase-2" ? 0.85 : 1;
+              return (
+                <button
+                  type="button"
+                  class="reform-phase-btn text-left px-2.5 py-1 rounded text-[11px] font-heading font-semibold text-white cursor-pointer transition hover:brightness-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 focus-visible:ring-gray-500"
+                  style={`background-color: ${ws.color}; opacity: ${phaseOpacity}`}
+                  data-workstream={ws.id}
+                  data-phase={phase.id}
+                  aria-label={`Filter reforms to ${phase.label}, ${phase.years}, ${ws.shortTitle}`}
+                >
+                  {phase.label} · {phase.years}
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      ))}
+    </div>
+
+    {/* Desktop: horizontal bar chart */}
+    <div class="hidden md:block overflow-x-auto -mx-4 px-4">
       <div class="min-w-[600px]">
         {grouped.map((ws) => (
           <div
@@ -208,11 +225,12 @@ const grouped = workstreams.map((ws) => {
                 return (
                   <button
                     type="button"
-                    class="reform-phase-btn relative flex items-center justify-center text-white font-heading text-[11px] font-semibold px-2 transition hover:brightness-110 whitespace-nowrap overflow-hidden"
+                    class="reform-phase-btn relative flex items-center justify-center text-white font-heading text-[11px] font-semibold px-2 cursor-pointer transition hover:brightness-110 hover:ring-2 hover:ring-offset-1 hover:ring-gray-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 focus-visible:ring-gray-500 whitespace-nowrap overflow-hidden"
                     style={`width: ${widthPct}%; background-color: ${ws.color}; opacity: ${phaseOpacity}; margin-left: ${phase.id === "phase-1" ? leftPct + "%" : "0"}`}
                     data-workstream={ws.id}
                     data-phase={phase.id}
-                    title={`${phase.label} (${phase.years})`}
+                    title={`Click to filter to ${phase.label} (${phase.years})`}
+                    aria-label={`Filter reforms to ${phase.label}, ${phase.years}, ${ws.shortTitle}`}
                   >
                     <span class="truncate">{phase.label}</span>
                   </button>
@@ -287,15 +305,26 @@ const grouped = workstreams.map((ws) => {
     </button>
   </div>
 
-  <!-- Critical path explainer -->
-  <aside class="mb-10 p-5 rounded-lg border-l-4" style={`border-color: #1B4965; background-color: #E0EBF240`}>
-    <p class="font-heading text-sm font-bold text-text-primary mb-2">
-      Citizen Safety and Security is the critical path
+  <!-- Empty state (shown when filters/search match nothing) -->
+  <div
+    id="reform-empty-state"
+    class="hidden mb-10 p-8 rounded-lg border border-dashed border-gray-300 bg-bg-secondary text-center"
+    aria-live="polite"
+  >
+    <p class="font-heading text-base font-bold text-text-primary mb-1">
+      No reforms match your filters
     </p>
-    <p class="text-sm text-text-secondary leading-relaxed">
-      Without a functioning criminal justice system, every other reform is built on sand. Investors won't invest in unsafe cities. Children can't learn in violent schools. Municipalities can't collect revenue when infrastructure is vandalised with impunity. The safety reforms below are sequenced first because they create the preconditions — rule of law, institutional credibility, and physical security — that the economic, governance, and human development workstreams depend on to succeed.
+    <p class="text-sm text-text-secondary mb-4" id="reform-empty-detail">
+      Try a different workstream, phase, or search term.
     </p>
-  </aside>
+    <button
+      type="button"
+      id="reform-clear-all"
+      class="font-heading text-sm font-semibold px-4 py-2 rounded-full border-2 border-compass-green text-compass-green hover:bg-compass-green hover:text-white transition-colors"
+    >
+      Clear all filters
+    </button>
+  </div>
 
   <!-- Reform Cards by Workstream -->
   {grouped.map((ws) => (
@@ -318,6 +347,16 @@ const grouped = workstreams.map((ws) => {
       <p class="text-text-secondary leading-relaxed mb-3 ml-7">
         {ws.vision}
       </p>
+      {ws.id === "safety-security" && (
+        <aside class="ml-7 mb-4 p-4 rounded-lg border-l-4" style={`border-color: ${ws.color}; background-color: ${ws.lightColor}60`}>
+          <p class="font-heading text-sm font-bold text-text-primary mb-1">
+            Why this workstream is sequenced first
+          </p>
+          <p class="text-sm text-text-secondary leading-relaxed">
+            Without a functioning criminal justice system, every other reform is built on sand. Investors won't invest in unsafe cities. Children can't learn in violent schools. Municipalities can't collect revenue when infrastructure is vandalised with impunity. The reforms below create the preconditions — rule of law, institutional credibility, and physical security — that the economic, governance, and human development workstreams depend on to succeed.
+          </p>
+        </aside>
+      )}
       <div class="ml-7 mb-6 flex gap-2" role="group" aria-label={`Expand or collapse ${ws.title} reform cards`}>
         <button
           type="button"
@@ -397,6 +436,18 @@ const grouped = workstreams.map((ws) => {
                               </span>
                             );
                           })}
+                        </span>
+                      )}
+                      {reform.articleSlug && (
+                        <span
+                          class="hidden sm:inline-flex items-center gap-1 shrink-0 px-1.5 py-0.5 rounded text-[10px] font-heading font-semibold uppercase bg-compass-green-light text-compass-green"
+                          title="Full article available"
+                          aria-label="Full article available"
+                        >
+                          <svg class="w-2.5 h-2.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                          </svg>
+                          Article
                         </span>
                       )}
                       <svg
@@ -530,30 +581,47 @@ const grouped = workstreams.map((ws) => {
           <span class="font-heading text-xs font-semibold text-text-secondary">({group.items.length})</span>
         </h3>
         <p class="text-sm text-text-secondary mb-3">{group.description}</p>
-        <div class="space-y-2">
-          {group.items.map((item) => {
-            const ws = workstreams.find((w) => w.id === item.workstream)!;
-            return (
-              <a
-                href={`/articles/${item.articleSlug}`}
-                class="flex flex-wrap items-center gap-2 px-4 py-3 border border-gray-200 rounded-lg hover:border-gray-300 hover:bg-bg-secondary transition-colors group"
-              >
-                <span class="font-heading text-xs font-bold text-text-secondary w-8">{item.id}</span>
-                <span class="font-heading text-sm font-semibold text-text-primary flex-1 min-w-[200px] group-hover:text-compass-green transition-colors">
-                  {item.name}
-                </span>
-                <span
-                  class="font-heading text-[10px] font-bold uppercase px-2 py-0.5 rounded-full text-white"
-                  style={`background-color: ${ws.color}`}
-                >
-                  {ws.shortTitle}
-                </span>
-                <span class="font-heading text-xs text-text-secondary">
-                  {ws.phases.find((p) => p.id === item.phase)?.years}
-                </span>
-              </a>
-            );
-          })}
+        <div class="overflow-x-auto -mx-4 px-4 border border-gray-200 rounded-lg">
+          <table class="min-w-full text-sm border-collapse">
+            <thead class="bg-bg-secondary">
+              <tr class="border-b border-gray-200">
+                <th class="text-left font-heading text-xs font-bold text-text-secondary uppercase tracking-wide py-2 px-3 w-12" scope="col">ID</th>
+                <th class="text-left font-heading text-xs font-bold text-text-secondary uppercase tracking-wide py-2 px-3" scope="col">Legislation</th>
+                <th class="text-left font-heading text-xs font-bold text-text-secondary uppercase tracking-wide py-2 px-3 whitespace-nowrap" scope="col">Workstream</th>
+                <th class="text-left font-heading text-xs font-bold text-text-secondary uppercase tracking-wide py-2 px-3 whitespace-nowrap" scope="col">Phase</th>
+              </tr>
+            </thead>
+            <tbody>
+              {group.items.map((item) => {
+                const ws = workstreams.find((w) => w.id === item.workstream)!;
+                const phaseYears = ws.phases.find((p) => p.id === item.phase)?.years;
+                return (
+                  <tr class="border-b border-gray-100 last:border-0 hover:bg-bg-secondary transition-colors group">
+                    <td class="font-heading text-xs font-bold text-text-secondary py-3 px-3 whitespace-nowrap align-middle">{item.id}</td>
+                    <td class="py-3 px-3 align-middle">
+                      <a
+                        href={`/articles/${item.articleSlug}`}
+                        class="font-heading text-sm font-semibold text-text-primary group-hover:text-compass-green transition-colors"
+                      >
+                        {item.name}
+                      </a>
+                    </td>
+                    <td class="py-3 px-3 whitespace-nowrap align-middle">
+                      <span
+                        class="font-heading text-[10px] font-bold uppercase px-2 py-0.5 rounded-full text-white"
+                        style={`background-color: ${ws.color}`}
+                      >
+                        {ws.shortTitle}
+                      </span>
+                    </td>
+                    <td class="font-heading text-xs text-text-secondary py-3 px-3 whitespace-nowrap align-middle">
+                      {phaseYears}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
         </div>
       </div>
     ))}
@@ -635,6 +703,9 @@ const grouped = workstreams.map((ws) => {
   const clearBtn = document.getElementById("clear-phase-filter")!;
   const searchInput = document.getElementById("reform-search") as HTMLInputElement;
   const reformCountEl = document.getElementById("reform-count")!;
+  const emptyState = document.getElementById("reform-empty-state")!;
+  const emptyDetail = document.getElementById("reform-empty-detail")!;
+  const clearAllBtn = document.getElementById("reform-clear-all")!;
   const totalReforms = reformCards.length;
 
   let activeWorkstream = "all";
@@ -730,6 +801,26 @@ const grouped = workstreams.map((ws) => {
       reformCountEl.textContent = `${totalReforms} reforms`;
     }
 
+    // Empty state
+    const hasAnyFilter = !!(query || activeWorkstream !== "all" || activePhase);
+    if (visibleCount === 0 && hasAnyFilter) {
+      emptyState.classList.remove("hidden");
+      const parts: string[] = [];
+      if (query) parts.push(`search "${query}"`);
+      if (activeWorkstream !== "all") {
+        const wsBtn = document.querySelector<HTMLButtonElement>(
+          `.reform-filter-btn[data-filter="${activeWorkstream}"]`,
+        );
+        if (wsBtn) parts.push(`workstream ${wsBtn.textContent?.trim()}`);
+      }
+      if (activePhase) parts.push(activePhase.replace("-", " "));
+      emptyDetail.textContent = parts.length
+        ? `No reforms match ${parts.join(" + ")}. Try a different filter or clear them all.`
+        : "Try a different workstream, phase, or search term.";
+    } else {
+      emptyState.classList.add("hidden");
+    }
+
     // Phase filter indicator
     if (activePhase) {
       indicator.classList.remove("hidden");
@@ -796,6 +887,16 @@ const grouped = workstreams.map((ws) => {
   // Clear phase filter
   clearBtn.addEventListener("click", () => {
     activePhase = "";
+    applyFilters();
+  });
+
+  // Clear all filters (from empty state)
+  clearAllBtn.addEventListener("click", () => {
+    activeWorkstream = "all";
+    activePhase = "";
+    searchQuery = "";
+    searchInput.value = "";
+    setWorkstreamButtonStyles("all");
     applyFilters();
   });
 

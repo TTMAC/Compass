@@ -1,6 +1,6 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
-import { reinforcingCycleScorecard } from "@data/reforms";
+import { reinforcingCycleScorecard, scorecardLastReviewed } from "@data/reforms";
 
 const linkColors: Record<string, { accent: string; light: string }> = {
   "safety-growth": { accent: "#1B4965", light: "#E0EBF2" },
@@ -8,24 +8,36 @@ const linkColors: Record<string, { accent: string; light: string }> = {
   "development-safety": { accent: "#553691", light: "#E8E0F4" },
 };
 
-const linkIcons: Record<string, string> = {
-  "safety-growth": "Safety → Growth",
-  "growth-development": "Growth → Development",
-  "development-safety": "Development → Safety",
+const trendDisplay: Record<string, { symbol: string; label: string; bg: string; fg: string; border: string }> = {
+  improving: { symbol: "↑", label: "Improving", bg: "#E6F4EA", fg: "#1E6A35", border: "#1E6A3540" },
+  worsening: { symbol: "↓", label: "Worsening", bg: "#FCE8E8", fg: "#B42318", border: "#B4231840" },
+  stalled:   { symbol: "→", label: "Stalled",   bg: "#FEF3C7", fg: "#8A5A00", border: "#8A5A0040" },
+};
+
+const reviewLabel = new Date(`${scorecardLastReviewed}-01`).toLocaleString("en-ZA", { month: "long", year: "numeric" });
+
+const splitThreshold = (t: string): { target: string; baseline: string | null } => {
+  const m = t.match(/^(.*?)\s*\(from\s+(.+)\)$/);
+  return m ? { target: m[1], baseline: m[2] } : { target: t, baseline: null };
 };
 ---
 
 <PageLayout
   title="Reinforcing Cycle Scorecard"
-  description="Is the virtuous cycle turning? Track the 15 indicators across safety, growth, and development that tell you whether South Africa's reform programme is producing systemic change."
+  description="Is the virtuous cycle turning? The 15 indicators across safety, growth, and development that tell you whether South Africa's reform programme is producing systemic change."
+  width="wide"
 >
-  <header class="mb-10">
+  <header class="mb-8 max-w-content">
     <p class="font-heading text-sm font-semibold text-compass-green uppercase tracking-wide mb-2">
       Reform Gateway
     </p>
     <h1 class="font-heading text-3xl md:text-4xl font-bold text-text-primary mb-3 leading-tight">
       The Reinforcing Cycle Scorecard
     </h1>
+    <p class="text-sm text-text-secondary mb-4">
+      <span class="font-semibold text-text-primary">Last reviewed:</span> {reviewLabel}
+      &middot; <span>Indicative public values; updated annually.</span>
+    </p>
     <p class="text-lg text-text-secondary leading-relaxed mb-4">
       South Africa's crises are not separate. Safety enables investment. Investment drives growth.
       Growth funds education and health. Education and health produce the capable, employed population
@@ -33,77 +45,150 @@ const linkIcons: Record<string, string> = {
       and it either compounds upward or spirals downward.
     </p>
     <p class="text-text-secondary leading-relaxed">
-      The RAARICLE&#8482; diagnostic measures whether institutions are designed correctly. Function-specific
+      The RAARICLE&#8482; (Reform Architecture, Accountability, Resourcing, Institutions, Coordination, Legitimacy,
+      Evaluation) diagnostic measures whether institutions are designed correctly. Function-specific
       indicators measure whether individual services are improving. This Scorecard sits above both —
       it tracks whether <strong class="text-text-primary">the system is turning</strong>. Whether the
       positive cycle is activating, or whether the vicious spiral continues despite institutional improvements.
     </p>
   </header>
 
-  <!-- Cycle diagram — three linked cards -->
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-10">
-    {reinforcingCycleScorecard.map((link) => {
-      const colors = linkColors[link.id];
-      return (
-        <a
-          href={`#${link.id}`}
-          class="rounded-lg border p-5 transition-colors hover:shadow-md"
-          style={`border-color: ${colors.accent}30; background-color: ${colors.light}40`}
-        >
-          <p class="font-heading text-lg font-bold mb-1" style={`color: ${colors.accent}`}>
-            {linkIcons[link.id]}
-          </p>
-          <p class="text-sm text-text-secondary leading-relaxed">
-            {link.description}
-          </p>
-          <p class="font-heading text-xs font-semibold mt-3" style={`color: ${colors.accent}`}>
-            {link.indicators.length} indicators &darr;
-          </p>
-        </a>
-      );
-    })}
-  </div>
+  <!-- Cycle diagram — three linked cards + loop-back indicator -->
+  <nav class="mb-6" aria-label="Jump to cycle link">
+    <p class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide mb-2">
+      Three links in the cycle &mdash; jump to each scorecard
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+      {reinforcingCycleScorecard.map((link, index) => {
+        const colors = linkColors[link.id];
+        return (
+          <a
+            href={`#${link.id}`}
+            class="group relative rounded-lg border-2 p-5 transition-all hover:shadow-md focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2"
+            style={`border-color: ${colors.accent}40; background-color: ${colors.light}AA; --tw-ring-color: ${colors.accent}`}
+          >
+            <p class="font-heading text-xs font-semibold uppercase tracking-wide mb-1" style={`color: ${colors.accent}`}>
+              Link {index + 1}
+            </p>
+            <p class="font-heading text-lg font-bold mb-2" style={`color: ${colors.accent}`}>
+              {link.shortLabel}
+            </p>
+            <p class="text-sm text-text-secondary leading-relaxed mb-4">
+              {link.description}
+            </p>
+            <span
+              class="inline-flex items-center gap-1.5 font-heading text-xs font-bold px-3 py-1.5 rounded-full transition-colors"
+              style={`background-color: ${colors.accent}; color: white`}
+            >
+              {link.indicators.length} indicators
+              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </span>
+          </a>
+        );
+      })}
+    </div>
+    <p class="mt-3 text-center text-xs text-text-secondary italic">
+      &#8634; The three links form a closed loop &mdash; each one feeds the next, and Link 3 returns to Link 1.
+    </p>
+  </nav>
+
+  <!-- How to read the Scorecard (moved above tables) -->
+  <section class="mb-10 max-w-content border-l-4 border-l-compass-green rounded-r-lg p-5 bg-bg-secondary" aria-labelledby="how-to-read">
+    <h2 id="how-to-read" class="font-heading text-lg font-bold text-text-primary mb-2">
+      How to Read the Scorecard
+    </h2>
+    <p class="text-text-secondary leading-relaxed mb-3 text-sm">
+      Each row shows a target <strong class="text-text-primary">Threshold</strong>, the
+      <strong class="text-text-primary">Latest</strong> publicly available value, and the
+      <strong class="text-text-primary">Trend</strong> (<span class="font-semibold" style="color: #1E6A35">&uarr; improving</span>,
+      <span class="font-semibold" style="color: #8A5A00">&rarr; stalled</span>, or
+      <span class="font-semibold" style="color: #B42318">&darr; worsening</span>).
+      When all three links are strengthening, the virtuous cycle is activating. When one link is broken,
+      the broken link tells you which reforms need attention.
+    </p>
+    <p class="text-text-secondary leading-relaxed text-sm">
+      The Scorecard is designed to be tabled annually in Parliament from Year 5 onwards as part of the Reform
+      Coordination Office's expanded cycle-management mandate (Phase 4 of the
+      <a href="/articles/ra-5-3-the-integrated-reform-programme" class="text-compass-green hover:underline font-semibold">Integrated Reform Programme</a>).
+    </p>
+  </section>
 
   <!-- Scorecard tables -->
   <section class="space-y-8 mb-12" aria-label="Scorecard indicators">
-    {reinforcingCycleScorecard.map((link) => {
+    {reinforcingCycleScorecard.map((link, index) => {
       const colors = linkColors[link.id];
       return (
         <div id={link.id} class="scroll-mt-24">
-          <div class="border rounded-lg overflow-hidden" style={`border-color: ${colors.accent}30`}>
-            <div class="px-5 py-4 border-b" style={`background-color: ${colors.light}60; border-color: ${colors.accent}30`}>
+          <div class="border rounded-lg overflow-hidden" style={`border-color: ${colors.accent}40`}>
+            <div class="px-5 py-4 border-b" style={`background-color: ${colors.light}AA; border-color: ${colors.accent}40`}>
+              <p class="font-heading text-xs font-semibold uppercase tracking-wide mb-1" style={`color: ${colors.accent}`}>
+                Link {index + 1}
+              </p>
               <h2 class="font-heading text-xl font-bold mb-1" style={`color: ${colors.accent}`}>
-                {link.label}
+                {link.shortLabel}
               </h2>
               <p class="text-sm text-text-secondary leading-relaxed">
                 {link.description}
               </p>
             </div>
             <div class="overflow-x-auto">
-              <table class="min-w-full text-sm border-collapse">
+              <table class="w-full text-sm border-collapse table-fixed">
+                <colgroup>
+                  <col class="w-[38%]" />
+                  <col class="w-[18%]" />
+                  <col class="w-[24%]" />
+                  <col class="w-[20%]" />
+                </colgroup>
                 <thead>
-                  <tr class="border-b border-gray-200">
-                    <th class="text-left font-heading font-bold text-text-primary py-3 px-5" scope="col">
+                  <tr class="border-b border-gray-200 bg-gray-50">
+                    <th class="text-left font-heading font-bold text-text-primary py-3 px-4" scope="col">
                       Indicator
                     </th>
-                    <th class="text-left font-heading font-bold text-text-primary py-3 px-5 whitespace-nowrap" scope="col">
-                      Source
+                    <th class="text-left font-heading font-bold text-text-primary py-3 px-4" scope="col">
+                      Latest
                     </th>
-                    <th class="text-left font-heading font-bold text-text-primary py-3 px-5 whitespace-nowrap" scope="col">
+                    <th class="text-left font-heading font-bold text-text-primary py-3 px-4" scope="col">
                       Threshold
+                    </th>
+                    <th class="text-left font-heading font-bold text-text-primary py-3 px-4" scope="col">
+                      Trend
                     </th>
                   </tr>
                 </thead>
                 <tbody>
-                  {link.indicators.map((row) => (
-                    <tr class="border-b border-gray-100 last:border-0 align-top">
-                      <td class="py-3 px-5 text-text-secondary">{row.indicator}</td>
-                      <td class="py-3 px-5 text-text-secondary text-xs">{row.source}</td>
-                      <td class="py-3 px-5 font-heading font-semibold whitespace-nowrap" style={`color: ${colors.accent}`}>
-                        {row.threshold}
-                      </td>
-                    </tr>
-                  ))}
+                  {link.indicators.map((row) => {
+                    const trend = trendDisplay[row.trend];
+                    const { target, baseline } = splitThreshold(row.threshold);
+                    return (
+                      <tr class="border-b border-gray-100 last:border-0 align-top hover:bg-gray-50/60 transition-colors">
+                        <td class="py-3 px-4">
+                          <p class="text-text-primary font-semibold leading-snug">{row.indicator}</p>
+                          <p class="text-xs text-text-secondary mt-1 leading-snug">{row.source}</p>
+                        </td>
+                        <td class="py-3 px-4">
+                          <p class="text-text-primary font-heading font-semibold leading-snug">{row.latest}</p>
+                          <p class="text-xs text-text-secondary mt-1 leading-snug">{row.latestPeriod}</p>
+                        </td>
+                        <td class="py-3 px-4">
+                          <p class="font-heading font-semibold leading-snug" style={`color: ${colors.accent}`}>{target}</p>
+                          {baseline && (
+                            <p class="text-xs text-text-secondary mt-1 leading-snug">from {baseline}</p>
+                          )}
+                        </td>
+                        <td class="py-3 px-4">
+                          <span
+                            class="inline-flex items-center gap-1 font-heading text-xs font-bold px-2 py-1 rounded-full border whitespace-nowrap"
+                            style={`background-color: ${trend.bg}; color: ${trend.fg}; border-color: ${trend.border}`}
+                          >
+                            <span aria-hidden="true">{trend.symbol}</span>
+                            {trend.label}
+                          </span>
+                        </td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>
@@ -113,45 +198,27 @@ const linkIcons: Record<string, string> = {
     })}
   </section>
 
-  <!-- How to read the Scorecard -->
-  <section class="mb-12 border border-gray-200 rounded-lg p-6 bg-bg-secondary">
-    <h2 class="font-heading text-xl font-bold text-text-primary mb-3">
-      How to Read the Scorecard
-    </h2>
-    <p class="text-text-secondary leading-relaxed mb-4">
-      When all three links are strengthening — crime declining and investment increasing; fiscal space expanding
-      and development spending rising in real terms; learning outcomes improving and youth unemployment declining —
-      the virtuous cycle is activating. South Africa is compounding upward.
-    </p>
-    <p class="text-text-secondary leading-relaxed mb-4">
-      When one link is broken — growth is increasing but development spending is captured by debt service, or learning
-      outcomes are improving but youth unemployment is not responding because the economic structure is not generating
-      appropriate jobs — you know where the system needs recalibration. The broken link tells you which reforms
-      need attention.
-    </p>
-    <p class="text-text-secondary leading-relaxed">
-      The Scorecard is designed to be tabled annually in Parliament from Year 5 onwards as part of the Reform
-      Coordination Office's expanded cycle-management mandate (Phase 4 of the
-      <a href="/articles/ra-5-3-the-integrated-reform-programme" class="text-compass-green hover:underline font-semibold">Integrated Reform Programme</a>).
-    </p>
-  </section>
-
   <!-- Gateway: Where to go from here -->
   <section class="mb-8">
-    <h2 class="font-heading text-xl font-bold text-text-primary mb-4">
+    <h2 class="font-heading text-xl font-bold text-text-primary mb-2">
       The Reform Roadmap
     </h2>
     <p class="text-text-secondary leading-relaxed mb-6">
       The Scorecard tells you whether the system is turning. The roadmap tells you what needs to happen
-      to make it turn. Explore the reform programme from diagnosis to implementation.
+      to make it turn.
     </p>
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+
+    <!-- Primary paths (2 cards) -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
       <a
         href="/real-steps-to-reform"
-        class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
+        class="border-2 border-compass-green/30 bg-compass-green-light/40 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
       >
-        <p class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
-          Real Steps to Reform
+        <p class="font-heading text-xs font-semibold uppercase tracking-wide text-compass-green mb-1">
+          Start here
+        </p>
+        <p class="font-heading text-lg font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+          Real Steps to Reform &rarr;
         </p>
         <p class="text-sm text-text-secondary leading-relaxed">
           80+ specific reforms across four workstreams, phased over 10 years, with the legislative changes required to make them real.
@@ -159,57 +226,67 @@ const linkIcons: Record<string, string> = {
       </a>
       <a
         href="/articles/ra-5-3-the-integrated-reform-programme"
-        class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
+        class="border-2 border-compass-green/30 bg-compass-green-light/40 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
       >
-        <p class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
-          The Integrated Reform Programme
+        <p class="font-heading text-xs font-semibold uppercase tracking-wide text-compass-green mb-1">
+          The architecture
+        </p>
+        <p class="font-heading text-lg font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+          The Integrated Reform Programme &rarr;
         </p>
         <p class="text-sm text-text-secondary leading-relaxed">
-          Why South Africa needs a single legislated reform architecture — and how RAARICLE&#8482; builds one that is coherent, comprehensive, and measurable.
+          Why South Africa needs a single legislated reform architecture &mdash; and how RAARICLE&#8482; builds one that is coherent, comprehensive, and measurable.
         </p>
       </a>
+    </div>
+
+    <!-- Background reading (4 smaller tiles) -->
+    <p class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide mb-3">
+      Background reading
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
       <a
         href="/articles/ra-5-2-anti-capture-architecture"
-        class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
+        class="border border-gray-200 rounded-lg p-4 hover:border-compass-green hover:shadow-sm transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
       >
-        <p class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+        <p class="font-heading text-sm font-bold text-text-primary group-hover:text-compass-green transition-colors mb-1">
           The Anti-Capture Architecture
         </p>
-        <p class="text-sm text-text-secondary leading-relaxed">
+        <p class="text-xs text-text-secondary leading-relaxed">
           The structural safeguards that must accompany any reform to prevent recapture by organised interests.
         </p>
       </a>
       <a
         href="/articles/hd-1-3-the-reinforcing-cycle"
-        class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
+        class="border border-gray-200 rounded-lg p-4 hover:border-compass-green hover:shadow-sm transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
       >
-        <p class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+        <p class="font-heading text-sm font-bold text-text-primary group-hover:text-compass-green transition-colors mb-1">
           The Reinforcing Cycle
         </p>
-        <p class="text-sm text-text-secondary leading-relaxed">
-          The causal model behind the Scorecard — how safety, growth, and development form a single system that compounds upward or spirals downward.
+        <p class="text-xs text-text-secondary leading-relaxed">
+          The causal model behind the Scorecard &mdash; how safety, growth, and development form a single system.
         </p>
       </a>
       <a
         href="/articles/hd-1-4-the-problem-that-has-no-name"
-        class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
+        class="border border-gray-200 rounded-lg p-4 hover:border-compass-green hover:shadow-sm transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
       >
-        <p class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+        <p class="font-heading text-sm font-bold text-text-primary group-hover:text-compass-green transition-colors mb-1">
           The Problem That Has No Name
         </p>
-        <p class="text-sm text-text-secondary leading-relaxed">
-          Why naming structural poverty through integrated measurement is a political act — and how the Scorecard performs it.
+        <p class="text-xs text-text-secondary leading-relaxed">
+          Why naming structural poverty through integrated measurement is a political act.
         </p>
       </a>
       <a
         href="/advocacy-playbooks"
-        class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
+        class="border border-gray-200 rounded-lg p-4 hover:border-compass-green hover:shadow-sm transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
       >
-        <p class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+        <p class="font-heading text-sm font-bold text-text-primary group-hover:text-compass-green transition-colors mb-1">
           Advocacy Playbooks
         </p>
-        <p class="text-sm text-text-secondary leading-relaxed">
-          Practical tools for citizens who want to drive reform — from attending council meetings to filing PAIA requests.
+        <p class="text-xs text-text-secondary leading-relaxed">
+          Practical tools for citizens who want to drive reform &mdash; from attending council meetings to filing PAIA requests.
         </p>
       </a>
     </div>

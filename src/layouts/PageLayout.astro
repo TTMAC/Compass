@@ -6,9 +6,15 @@ interface Props {
   description: string;
   canonicalUrl?: string;
   ogImage?: string;
+  width?: "content" | "wide";
 }
 
-const { title, description, canonicalUrl, ogImage } = Astro.props;
+const { title, description, canonicalUrl, ogImage, width = "content" } = Astro.props;
+
+const containerClass =
+  width === "wide"
+    ? "max-w-5xl mx-auto px-4 md:px-6 py-12"
+    : "max-w-content mx-auto px-4 md:px-0 py-12";
 ---
 
 <BaseLayout
@@ -17,7 +23,7 @@ const { title, description, canonicalUrl, ogImage } = Astro.props;
   canonicalUrl={canonicalUrl}
   ogImage={ogImage}
 >
-  <div class="max-w-content mx-auto px-4 md:px-0 py-12">
+  <div class={containerClass}>
     <slot />
   </div>
 </BaseLayout>

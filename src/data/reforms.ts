@@ -104,14 +104,20 @@ export interface CycleScorecardIndicator {
   indicator: string;
   source: string;
   threshold: string;
+  latest: string;
+  latestPeriod: string;
+  trend: "improving" | "worsening" | "stalled";
 }
 
 export interface CycleScorecardLink {
   id: "safety-growth" | "growth-development" | "development-safety";
   label: string;
   description: string;
+  shortLabel: string;
   indicators: CycleScorecardIndicator[];
 }
+
+export const scorecardLastReviewed = "2026-04";
 
 // ── Workstreams ──────────────────────────────────────────────
 
@@ -1533,41 +1539,44 @@ export const captureVectors: CaptureVector[] = [
 export const reinforcingCycleScorecard: CycleScorecardLink[] = [
   {
     id: "safety-growth",
-    label: "Link 1: Safety → Growth",
+    label: "Safety → Growth",
+    shortLabel: "Safety → Growth",
     description:
       "Whether the safety reforms are creating the security conditions that investors, businesses, and infrastructure operators need to commit capital and create employment.",
     indicators: [
-      { indicator: "Homicide rate per 100,000", source: "SAPS crime statistics", threshold: "Below 30 (from ~45)" },
-      { indicator: "Business crime victimisation rate", source: "Stats SA Victims of Crime Survey", threshold: "Below 10%" },
-      { indicator: "Infrastructure theft losses (Eskom, Transnet, Telkom)", source: "SOE annual reports", threshold: "Below R3 billion" },
-      { indicator: "FDI inflows as % of GDP", source: "SARB quarterly bulletin", threshold: "Above 2%" },
-      { indicator: "Small business formation rate", source: "CIPC registrations / Stats SA QLFS", threshold: "Year-on-year increase" },
+      { indicator: "Homicide rate per 100,000", source: "SAPS crime statistics", threshold: "Below 30 (from ~45)", latest: "~45", latestPeriod: "2023/24", trend: "worsening" },
+      { indicator: "Business crime victimisation rate", source: "Stats SA Victims of Crime Survey", threshold: "Below 10% (from ~22%)", latest: "~22%", latestPeriod: "2022/23", trend: "stalled" },
+      { indicator: "Infrastructure theft losses (Eskom, Transnet, Telkom)", source: "SOE annual reports", threshold: "Below R3 billion (from ~R7 billion)", latest: "~R7bn", latestPeriod: "2023/24", trend: "worsening" },
+      { indicator: "FDI inflows as % of GDP", source: "SARB quarterly bulletin", threshold: "Above 2% (from ~1.3%)", latest: "~1.3%", latestPeriod: "2024", trend: "stalled" },
+      { indicator: "Small business formation rate", source: "CIPC registrations / Stats SA QLFS", threshold: "Sustained year-on-year increase (from decline)", latest: "Declining", latestPeriod: "2023/24", trend: "worsening" },
     ],
   },
   {
     id: "growth-development",
-    label: "Link 2: Growth → Development",
+    label: "Growth → Development",
+    shortLabel: "Growth → Development",
     description:
       "Whether economic growth is generating the fiscal space needed to fund education, health, and social investment in real terms — and whether that funding is reaching the front line rather than being captured by debt service.",
     indicators: [
-      { indicator: "Real GDP per capita growth", source: "Stats SA / SARB", threshold: "Above 1.5%" },
-      { indicator: "Real per-learner education spending", source: "National Treasury ENE", threshold: "Year-on-year increase" },
-      { indicator: "Real per-capita health spending", source: "National Treasury ENE", threshold: "Year-on-year increase" },
-      { indicator: "Debt service as % of revenue", source: "National Treasury", threshold: "Below 15%" },
-      { indicator: "Expanded unemployment rate", source: "Stats SA QLFS", threshold: "Below 35% (from ~42%)" },
+      { indicator: "Real GDP per capita growth", source: "Stats SA / SARB", threshold: "Above 1.5% (from ~0%)", latest: "~-0.3%", latestPeriod: "2024", trend: "worsening" },
+      { indicator: "Real per-learner education spending", source: "National Treasury ENE", threshold: "Year-on-year real increase (from real decline)", latest: "Real decline", latestPeriod: "2024/25", trend: "worsening" },
+      { indicator: "Real per-capita health spending", source: "National Treasury ENE", threshold: "Year-on-year real increase (from real decline)", latest: "Real decline", latestPeriod: "2024/25", trend: "worsening" },
+      { indicator: "Debt service as % of revenue", source: "National Treasury", threshold: "Below 15% (from ~22%)", latest: "~22%", latestPeriod: "2024/25", trend: "worsening" },
+      { indicator: "Expanded unemployment rate", source: "Stats SA QLFS", threshold: "Below 35% (from ~42%)", latest: "~41.9%", latestPeriod: "Q4 2024", trend: "stalled" },
     ],
   },
   {
     id: "development-safety",
-    label: "Link 3: Development → Safety",
+    label: "Development → Safety",
+    shortLabel: "Development → Safety",
     description:
       "Whether human development outcomes — learning, employment, health, equality — are producing the capable, employed, healthy population that closes the cycle by reinforcing safety and reducing the conditions that drive crime.",
     indicators: [
-      { indicator: "Grade 4 reading proficiency (PIRLS)", source: "DBE / IEA", threshold: "Above 40% (from ~19%)" },
-      { indicator: "Youth unemployment (15–34)", source: "Stats SA QLFS", threshold: "Below 45% (from ~60%)" },
-      { indicator: "Childhood stunting rate", source: "DHS / NDoH", threshold: "Below 20% (from ~27%)" },
-      { indicator: "Life expectancy at birth", source: "Stats SA mid-year estimates", threshold: "Above 68 years" },
-      { indicator: "IHDI (Inequality-adjusted HDI)", source: "UNDP HDR", threshold: "Above 0.55 (from ~0.468)" },
+      { indicator: "Grade 4 reading proficiency (PIRLS)", source: "DBE / IEA", threshold: "Above 40% (from ~19%)", latest: "~19%", latestPeriod: "2021 PIRLS", trend: "worsening" },
+      { indicator: "Youth unemployment (15–34)", source: "Stats SA QLFS", threshold: "Below 45% (from ~60%)", latest: "~60%", latestPeriod: "Q4 2024", trend: "stalled" },
+      { indicator: "Childhood stunting rate", source: "DHS / NDoH", threshold: "Below 20% (from ~27%)", latest: "~27%", latestPeriod: "2016 SADHS", trend: "stalled" },
+      { indicator: "Life expectancy at birth", source: "Stats SA mid-year estimates", threshold: "Above 68 years (from ~64.5)", latest: "~64.5", latestPeriod: "2024", trend: "improving" },
+      { indicator: "IHDI (Inequality-adjusted HDI)", source: "UNDP HDR", threshold: "Above 0.55 (from ~0.468)", latest: "~0.468", latestPeriod: "2022", trend: "stalled" },
     ],
   },
 ];
