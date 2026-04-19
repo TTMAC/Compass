@@ -67,19 +67,21 @@ const grouped = workstreams.map((ws) => {
 ---
 
 <PageLayout
-  title="Real Steps to Reform"
-  description="An interactive explorer of South Africa's sequenced reform programme — 80+ concrete reforms across safety, governance, economy, and human development over 10 years."
+  title="Reform Roadmap"
+  description="An interactive explorer of South Africa's sequenced reform programme — 80+ concrete reforms across safety, governance, economy, and human development. Stage 1 of a 25-year reform cycle."
 >
   <!-- Hero -->
   <header class="mb-10">
     <h1 class="font-heading text-3xl md:text-4xl font-bold text-text-primary mb-3">
-      Real Steps to Reform
+      Reform Roadmap
     </h1>
     <p class="text-lg text-text-secondary leading-relaxed mb-4">
       South Africa doesn't lack diagnosis — it lacks a sequenced, concrete programme of institutional reform.
       This page consolidates <strong class="text-text-primary">{reformCount} specific reforms</strong> across
-      four workstreams, phased over 10 years, with the <strong class="text-text-primary">{legislativeCount} legislative
-      changes</strong> required to make them real.
+      four workstreams, with the <strong class="text-text-primary">{legislativeCount} legislative
+      changes</strong> required to make them real. These reforms are
+      <strong class="text-text-primary">Stage 1</strong> of a 25-year cycle — structural repair over the first
+      decade, cycle activation and convergence over the following fifteen years.
     </p>
     <p class="text-text-secondary leading-relaxed">
       Filter by workstream, explore each phase, and see exactly what needs to happen — and in what order.
@@ -89,8 +91,12 @@ const grouped = workstreams.map((ws) => {
   <!-- On-page navigation -->
   <nav class="mb-8 flex flex-wrap gap-x-4 gap-y-1 text-xs font-heading" aria-label="Jump to section">
     <span class="text-text-secondary font-semibold">Jump to:</span>
+    <a href="#cycle" class="text-compass-green hover:underline">25-Year Cycle</a>
     <a href="#timeline" class="text-compass-green hover:underline">Timeline</a>
     <a href="#milestones" class="text-compass-green hover:underline">Milestones</a>
+    <a href="#phase-4" class="hover:underline" style="color: #1F6F8B">Phase 4: Cycle Management</a>
+    <a href="#stage-2" class="hover:underline" style="color: #1F6F8B">Stage 2</a>
+    <a href="#stage-3" class="hover:underline" style="color: #553691">Stage 3</a>
     {grouped.map((ws) => (
       <a href={`#${ws.id}`} class="hover:underline" style={`color: ${ws.color}`}>{ws.shortTitle}</a>
     ))}
@@ -112,6 +118,56 @@ const grouped = workstreams.map((ws) => {
       <a href="/diagnostic-frameworks" class="text-compass-green font-semibold hover:underline">Read the full diagnostic toolkit →</a>
     </p>
   </aside>
+
+  <!-- 25-Year Cycle Overview -->
+  <section id="cycle" class="mb-10 scroll-mt-32" aria-label="The 25-year reform cycle">
+    <h2 class="font-heading text-xl font-bold text-text-primary mb-3">
+      The 25-Year Reform Cycle
+    </h2>
+    <p class="text-text-secondary leading-relaxed mb-5">
+      The {reformCount} reforms on this page are <strong class="text-text-primary">Stage 1</strong> of a longer
+      arc. Structural repair takes the first decade. But repaired institutions only matter if they produce the
+      systemic outcomes that the reinforcing cycle — safety → growth → development → safety — is designed to
+      deliver. That compounding takes another fifteen years, and it requires a permanent institutional mechanism
+      to manage.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+      <div class="rounded-lg border-l-4 border border-gray-200 p-5" style="border-left-color: #355E3B">
+        <p class="font-heading text-sm font-bold" style="color: #355E3B">Stage 1 · Years 1–10</p>
+        <p class="font-heading text-base font-bold text-text-primary mt-1 mb-2">Structural Repair</p>
+        <p class="text-xs text-text-secondary leading-relaxed">
+          The {reformCount} reforms below. Fix concurrent-function design failures, stand up the enforcement
+          architecture, build municipal capability, restore investigation and prosecution, stabilise health and
+          education.
+        </p>
+      </div>
+      <div class="rounded-lg border-l-4 border border-gray-200 p-5" style="border-left-color: #1F6F8B">
+        <p class="font-heading text-sm font-bold" style="color: #1F6F8B">Stage 2 · Years 10–18</p>
+        <p class="font-heading text-base font-bold text-text-primary mt-1 mb-2">Cycle Activation</p>
+        <p class="text-xs text-text-secondary leading-relaxed">
+          On repaired institutions, the cycle compounds. Efficiency-driven growth ($15K→$30K GDP per capita).
+          The enforcement architecture is calibrated on real performance data. Human development gains begin
+          showing up as workforce effects. The Reform Coordination Office operates as a permanent cycle
+          management institution.
+        </p>
+      </div>
+      <div class="rounded-lg border-l-4 border border-gray-200 p-5" style="border-left-color: #553691">
+        <p class="font-heading text-sm font-bold" style="color: #553691">Stage 3 · Years 18–25</p>
+        <p class="font-heading text-base font-bold text-text-primary mt-1 mb-2">Innovation &amp; Convergence</p>
+        <p class="text-xs text-text-secondary leading-relaxed">
+          Innovation-driven growth ($30K→$50K). Development outcomes converge toward upper-middle-income norms.
+          The cycle is self-sustaining. The naming-through-measurement function the integrated governance
+          platform was designed for is mature: systemic poverty is visible as a single tracked phenomenon.
+        </p>
+      </div>
+    </div>
+    <p class="text-xs text-text-secondary mt-3 italic">
+      Stage year ranges draw on the Economic Growth series' 25-year GDP-per-capita trajectory
+      (<a href="/articles/eg-5-2-from-strategy-to-reality" class="text-compass-green hover:underline">From Strategy to Reality</a>)
+      and the Reform Agenda's Phase 4 Cycle Management architecture
+      (<a href="/articles/ra-5-3-the-integrated-reform-programme" class="text-compass-green hover:underline">The Integrated Reform Programme</a>).
+    </p>
+  </section>
 
   <!-- Workstream Filter -->
   <div
@@ -164,15 +220,18 @@ const grouped = workstreams.map((ws) => {
   </div>
 
   <!-- Phase Timeline -->
-  <section id="timeline" class="mb-10 scroll-mt-32" aria-label="10-year reform timeline">
-    <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-3">
+  <section id="timeline" class="mb-10 scroll-mt-32" aria-label="Stage 1 ten-year reform timeline">
+    <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-1">
       <h2 class="font-heading text-xl font-bold text-text-primary">
-        10-Year Timeline
+        Stage 1 Timeline · Years 1–10
       </h2>
       <p class="font-heading text-xs text-text-secondary">
         Click a phase to filter reforms →
       </p>
     </div>
+    <p class="text-sm text-text-secondary mb-4">
+      The structural repair decade. Each workstream runs its own three-phase sequence within this window.
+    </p>
     {/* Mobile: stacked phase pills per workstream */}
     <div class="md:hidden space-y-3">
       {grouped.map((ws) => (
@@ -286,6 +345,213 @@ const grouped = workstreams.map((ws) => {
           </div>
         );
       })}
+    </div>
+  </section>
+
+  <!-- Phase 4: Cycle Management -->
+  <section id="phase-4" class="mb-12 scroll-mt-32" aria-label="Phase 4: Cycle Management">
+    <div
+      class="rounded-lg border-l-4 border border-gray-200 p-6"
+      style="border-left-color: #1F6F8B; background-color: #F0F7FA40"
+    >
+      <div class="flex items-baseline gap-2 mb-2">
+        <p class="font-heading text-lg font-bold" style="color: #1F6F8B">
+          Phase 4
+        </p>
+        <span class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide">
+          Year 5+
+        </span>
+      </div>
+      <h2 class="font-heading text-2xl font-bold text-text-primary mb-3">
+        From Reform Coordination to Permanent Cycle Management
+      </h2>
+      <p class="text-text-secondary leading-relaxed mb-3">
+        The 10-year roadmap above repairs structural design failures across government functions. But governance
+        repair is not an end in itself. The purpose of fixing education, healthcare, water, electricity, and
+        municipal capability is to activate the reinforcing cycle in which safety enables growth, growth funds
+        development, and development reinforces safety. That cycle is a permanent system — not a one-time
+        correction — and it requires a permanent institution to manage it.
+      </p>
+      <p class="text-text-secondary leading-relaxed mb-5">
+        Phase 4 is the institutional evolution. From Year 5, the statutory Reform Coordination Office established
+        under the Governance Reform Programme Act expands its mandate from
+        <strong class="text-text-primary">reform coordination</strong> (implementing this 10-year programme) to
+        <strong class="text-text-primary">cycle management</strong> (monitoring the reinforcing cycle across
+        safety, growth, and development on a permanent basis). It does not dissolve when its bills are passed.
+        It evolves into the systemic oversight institution South Africa has never had — comparable in
+        institutional weight to the Auditor-General and the Financial and Fiscal Commission, but for systemic
+        outcomes rather than financial or fiscal compliance.
+        <strong class="text-text-primary">Phase 4 is the institutional mechanism for
+        <a href="#stage-2" class="underline hover:no-underline" style="color: #1F6F8B">Stage 2</a> and
+        <a href="#stage-3" class="underline hover:no-underline" style="color: #553691">Stage 3</a></strong>
+        of the 25-year cycle.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+        <div class="p-4 rounded border border-gray-200 bg-white">
+          <p class="font-heading text-sm font-bold text-text-primary mb-1">Years 5–6</p>
+          <p class="text-xs text-text-secondary leading-relaxed">
+            Parliament reviews and amends the Reform Coordination Office mandate. Statutory functions expand from
+            reform coordination to cycle management. Reporting obligations now include the Reinforcing Cycle
+            Scorecard alongside RAARICLE™ compliance and function-specific performance data.
+          </p>
+        </div>
+        <div class="p-4 rounded border border-gray-200 bg-white">
+          <p class="font-heading text-sm font-bold text-text-primary mb-1">Years 6–7</p>
+          <p class="text-xs text-text-secondary leading-relaxed">
+            The Integrated Governance Performance Platform incorporates cross-pillar data — SAPS crime statistics,
+            SARB economic indicators, Stats SA labour force data, UNDP human development calculations — alongside
+            the governance data it already aggregates.
+          </p>
+        </div>
+        <div class="p-4 rounded border border-gray-200 bg-white">
+          <p class="font-heading text-sm font-bold text-text-primary mb-1">Years 7–10</p>
+          <p class="text-xs text-text-secondary leading-relaxed">
+            The institution matures into a permanent feature of South Africa's governance architecture, providing
+            independent systemic oversight: tracking whether the country's institutional architecture is producing
+            the virtuous cycle that converts governance reform into development outcomes.
+          </p>
+        </div>
+      </div>
+      <div class="mt-5 pt-5 border-t border-gray-200">
+        <p class="font-heading text-sm font-bold text-text-primary mb-2">Where to track this</p>
+        <p class="text-sm text-text-secondary leading-relaxed mb-3">
+          The systemic measurement instrument for Phase 4 is the Reinforcing Cycle Scorecard — fifteen indicators
+          across the three links of the cycle (Safety → Growth, Growth → Development, Development → Safety) that
+          show whether the repaired institutions are producing systemic change.
+        </p>
+        <a
+          href="/reform-scorecard"
+          class="inline-flex items-center gap-1 text-sm font-heading font-semibold text-compass-green hover:text-compass-green-dark hover:underline"
+        >
+          View the Reinforcing Cycle Scorecard
+          <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+      <p class="mt-4 text-xs text-text-secondary">
+        Full analysis:
+        <a href="/articles/ra-5-3-the-integrated-reform-programme" class="text-compass-green hover:underline font-semibold">
+          The Integrated Reform Programme
+        </a>
+        — see the section "From Reform Programme to Core Institution: Activating the Virtuous Cycle".
+      </p>
+    </div>
+  </section>
+
+  <!-- Stage 2: Cycle Activation -->
+  <section id="stage-2" class="mb-8 scroll-mt-32" aria-label="Stage 2: Cycle Activation">
+    <div
+      class="rounded-lg border-l-4 border border-gray-200 p-6"
+      style="border-left-color: #1F6F8B; background-color: #F0F7FA40"
+    >
+      <div class="flex items-baseline gap-2 mb-2">
+        <p class="font-heading text-lg font-bold" style="color: #1F6F8B">
+          Stage 2
+        </p>
+        <span class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide">
+          Years 10–18
+        </span>
+      </div>
+      <h2 class="font-heading text-2xl font-bold text-text-primary mb-3">
+        Cycle Activation
+      </h2>
+      <p class="text-text-secondary leading-relaxed mb-4">
+        Stage 1 is about fixing what's broken. Stage 2 is about what repaired institutions produce. With the
+        enforcement architecture calibrated on real performance data and the protected technical appointments
+        framework filling prescribed posts through merit-based processes, the reinforcing cycle compounds on
+        institutions that work.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
+        <div class="p-4 rounded border border-gray-200 bg-white">
+          <p class="font-heading text-sm font-bold text-text-primary mb-1">Safety → Growth</p>
+          <p class="text-xs text-text-secondary leading-relaxed">
+            The three-tier policing architecture, integrated case management, and restored prosecutorial capacity
+            produce a measurable reduction in business crime and infrastructure theft. Investor confidence returns.
+            FDI inflows pass 2% of GDP.
+          </p>
+        </div>
+        <div class="p-4 rounded border border-gray-200 bg-white">
+          <p class="font-heading text-sm font-bold text-text-primary mb-1">Growth → Development</p>
+          <p class="text-xs text-text-secondary leading-relaxed">
+            Efficiency-driven growth moves GDP per capita from $15K toward $30K. Real per-learner and per-capita
+            health spending increases year on year. Debt service drops below 15% of revenue, freeing fiscal space
+            for the human development spend that makes the next link of the cycle turn.
+          </p>
+        </div>
+        <div class="p-4 rounded border border-gray-200 bg-white">
+          <p class="font-heading text-sm font-bold text-text-primary mb-1">Development → Safety</p>
+          <p class="text-xs text-text-secondary leading-relaxed">
+            The cohort that entered Grade R under the Stage 1 education reforms enters the labour market with
+            functional literacy and employable skills. Youth unemployment falls. Stunting rates drop.
+            Intergenerational poverty transmission weakens.
+          </p>
+        </div>
+      </div>
+      <p class="text-sm text-text-secondary leading-relaxed">
+        The institutional mechanism managing Stage 2 is the permanent cycle management institution described in
+        <a href="#phase-4" class="text-compass-green hover:underline font-semibold">Phase 4</a> above. The
+        measurement instrument is the
+        <a href="/reform-scorecard" class="text-compass-green hover:underline font-semibold">Reinforcing Cycle Scorecard</a>.
+      </p>
+    </div>
+  </section>
+
+  <!-- Stage 3: Innovation & Convergence -->
+  <section id="stage-3" class="mb-12 scroll-mt-32" aria-label="Stage 3: Innovation and Convergence">
+    <div
+      class="rounded-lg border-l-4 border border-gray-200 p-6"
+      style="border-left-color: #553691; background-color: #F5F2FA40"
+    >
+      <div class="flex items-baseline gap-2 mb-2">
+        <p class="font-heading text-lg font-bold" style="color: #553691">
+          Stage 3
+        </p>
+        <span class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide">
+          Years 18–25
+        </span>
+      </div>
+      <h2 class="font-heading text-2xl font-bold text-text-primary mb-3">
+        Innovation &amp; Convergence
+      </h2>
+      <p class="text-text-secondary leading-relaxed mb-4">
+        No country has achieved innovation-driven growth without first passing through structural repair and
+        efficiency-driven growth. South Korea did not go from rice paddies to Samsung in one step. Stage 3 is
+        the destination that the prior stages make reachable — and that South Africa has the institutional
+        foundations to reach by Year 25 if the earlier stages deliver.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
+        <div class="p-4 rounded border border-gray-200 bg-white">
+          <p class="font-heading text-sm font-bold text-text-primary mb-1">Innovation-Driven Growth</p>
+          <p class="text-xs text-text-secondary leading-relaxed">
+            R&amp;D spending approaches 2% of GDP. Venture capital ecosystems fund domestic startups at scale.
+            Universities produce research that is commercialised through spin-offs and licensing. GDP per capita
+            moves from $30K toward $50K.
+          </p>
+        </div>
+        <div class="p-4 rounded border border-gray-200 bg-white">
+          <p class="font-heading text-sm font-bold text-text-primary mb-1">Development Convergence</p>
+          <p class="text-xs text-text-secondary leading-relaxed">
+            Learning outcomes, life expectancy, and stunting rates converge toward upper-middle-income norms.
+            The Grade 4 reading proficiency threshold is passed. The inequality-adjusted HDI crosses 0.55. The
+            cohort effect of Stage 1 reforms becomes the dominant story.
+          </p>
+        </div>
+        <div class="p-4 rounded border border-gray-200 bg-white">
+          <p class="font-heading text-sm font-bold text-text-primary mb-1">Self-Sustaining Cycle</p>
+          <p class="text-xs text-text-secondary leading-relaxed">
+            The cycle no longer needs deliberate political reinforcement. Safety, growth, and development
+            compound on one another through institutional machinery that operates on rules, not relationships.
+            The naming-through-measurement function of the governance platform is mature.
+          </p>
+        </div>
+      </div>
+      <p class="text-sm text-text-secondary leading-relaxed">
+        Stage 3 is not a plan — it is a destination. The plan is Stage 1. Stage 2 is the transition. Stage 3 is
+        what becomes possible if the plan is executed. The comparator countries that arrived at this stage —
+        South Korea, Malaysia, Botswana, Rwanda — did so because they built the institutional architecture to
+        manage the cycle as a system. That is what this programme proposes.
+      </p>
     </div>
   </section>
 

@@ -189,7 +189,7 @@ export const workstreams: Workstream[] = [
     title: "Economic Growth and Development",
     shortTitle: "Economy",
     vision:
-      "Shift South Africa from a resource-dependent, consumption-driven economy to a diversified, innovation-led economy capable of generating inclusive growth through three engines: new venture creation, export diversification, and MSME financing.",
+      "Shift South Africa from a resource-dependent, consumption-driven economy to a diversified, innovation-led economy through three engines: new venture creation, export diversification, and MSME financing. The 10-year reforms below are Stage 1 of a 25-year growth arc — resource optimisation and infrastructure repair ($7K→$15K GDP per capita), then efficiency-driven growth ($15K→$30K, Stage 2), then innovation-driven growth ($30K→$50K, Stage 3).",
     color: "#7A5C1F",
     lightColor: "#F3EBDA",
     phases: [
