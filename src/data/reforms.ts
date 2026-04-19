@@ -1308,6 +1308,57 @@ export const reforms: Reform[] = [
       "Establish a Human Development Scorecard moving beyond GDP to measure health, education, and opportunity outcomes at district level.",
     articleSlug: "hd-1-2-south-africas-report-card",
   },
+  {
+    id: "4F.1",
+    workstream: "human-development",
+    phase: "phase-3",
+    subgroup: "Grassroots Governance Institutions",
+    title: "School Governing Body Activation",
+    description:
+      "Make the SGB the working governance layer the South African Schools Act intended. Mandatory financial-literacy and data-interpretation training for elected members; provincial SGB support units; annual publication of SGB functionality scores per school. Enforce the statutory Section 20A power for SGBs to recommend staff appointments — a power routinely weakened by provincial departments. The education link in the reinforcing cycle operates at SGB level; when SGBs function, school performance becomes governable.",
+    legislative: "Regulations under South African Schools Act, 1996",
+    scope: ["provincial"],
+    articleSlug: "hd-5-2-building-the-cycle",
+    dependsOn: ["2A.1"],
+  },
+  {
+    id: "4F.2",
+    workstream: "human-development",
+    phase: "phase-3",
+    subgroup: "Grassroots Governance Institutions",
+    title: "Clinic Committee Mandate",
+    description:
+      "Mandate functioning clinic committees at every primary healthcare facility, modelled on the SGB governance structure. Committees receive quarterly facility performance data (immunisation coverage, stock-out rates, waiting times, patient headcount) and have formal input rights into facility operational planning. Creates the citizen-oversight layer that the National Health Act already provides for but that is inconsistently implemented — the health link in the reinforcing cycle at community level.",
+    legislative: "Amendments to National Health Act, 2003",
+    scope: ["provincial"],
+    articleSlug: "hd-5-2-building-the-cycle",
+    dependsOn: ["2B.1"],
+  },
+  {
+    id: "4F.3",
+    workstream: "human-development",
+    phase: "phase-3",
+    subgroup: "Grassroots Governance Institutions",
+    title: "Community Policing Forum Activation",
+    description:
+      "Legislate minimum functionality standards for every CPF: meeting frequency, published minutes, sub-committee structure, formal input into station operational priorities. Ring-fence CPF administrative support from SAPS station budgets. Publish CPF functionality scores per station alongside the quarterly crime statistics. The safety link in the reinforcing cycle runs through CPFs at the community level — when they function, they shape policing priorities and build trust; when they don't, police-community trust collapses and vigilantism fills the gap.",
+    legislative: "Amendments to South African Police Service Act, 1995",
+    scope: ["national", "provincial", "municipal"],
+    articleSlug: "hd-5-2-building-the-cycle",
+    dependsOn: ["2.3"],
+  },
+  {
+    id: "4F.4",
+    workstream: "human-development",
+    phase: "phase-3",
+    subgroup: "Grassroots Governance Institutions",
+    title: "Ward Committee Revitalisation",
+    description:
+      "Make ward committees the participatory governance layer the Municipal Structures Act intended: directly elected (not councillor-appointed) members, guaranteed administrative support and stipends (the 2018 amendments require this but implementation is uneven), quarterly public reporting on community priorities raised, and formal IDP input rights with documented responses. The governance link in the reinforcing cycle depends on whether ward committees function as genuine community voice or whether they are subordinated to party politics.",
+    legislative: "Amendments to Municipal Structures Act, 1998",
+    scope: ["municipal"],
+    articleSlug: "hd-5-2-building-the-cycle",
+  },
 ];
 
 // ── Legislative Programme ────────────────────────────────────
