@@ -13,6 +13,19 @@ const reformCount = reforms.length;
 const legislativeCount = legislativeItems.length;
 const reformTitleById = new Map(reforms.map((r) => [r.id, r.title]));
 
+const PHASE_WIDTH_PCT: Record<string, number> = {
+  "phase-1": 30,
+  "phase-2": 20,
+  "phase-3": 50,
+};
+
+const STAGE_COLORS = {
+  stage1: "#355E3B",
+  stage2: "#1F6F8B",
+  stage3: "#553691",
+  phase4: "#334155",
+};
+
 // Group legislative items by type for the Legislative Programme section
 const legislativeGroups: {
   type: "new" | "amendment" | "constitutional";
@@ -45,7 +58,6 @@ const grouped = workstreams.map((ws) => {
   const wsReforms = reforms.filter((r) => r.workstream === ws.id);
   const phases = ws.phases.map((phase) => {
     const phaseReforms = wsReforms.filter((r) => r.phase === phase.id);
-    // Group by subgroup within phase
     const subgroups: { name: string; reforms: typeof phaseReforms }[] = [];
     const seen = new Set<string>();
     for (const r of phaseReforms) {
@@ -71,41 +83,34 @@ const grouped = workstreams.map((ws) => {
   description="An interactive explorer of South Africa's sequenced reform programme — 80+ concrete reforms across safety, governance, economy, and human development. Stage 1 of a 25-year reform cycle."
 >
   <!-- Hero -->
-  <header class="mb-10">
+  <header class="mb-8">
     <h1 class="font-heading text-3xl md:text-4xl font-bold text-text-primary mb-3">
       Reform Roadmap
     </h1>
-    <p class="text-lg text-text-secondary leading-relaxed mb-4">
+    <p class="text-lg text-text-secondary leading-relaxed">
       South Africa doesn't lack diagnosis — it lacks a sequenced, concrete programme of institutional reform.
       This page consolidates <strong class="text-text-primary">{reformCount} specific reforms</strong> across
       four workstreams, with the <strong class="text-text-primary">{legislativeCount} legislative
-      changes</strong> required to make them real. These reforms are
-      <strong class="text-text-primary">Stage 1</strong> of a 25-year cycle — structural repair over the first
-      decade, cycle activation and convergence over the following fifteen years.
-    </p>
-    <p class="text-text-secondary leading-relaxed">
-      Filter by workstream, explore each phase, and see exactly what needs to happen — and in what order.
+      changes</strong> required to make them real — <strong class="text-text-primary">Stage 1</strong> of a
+      25-year cycle.
     </p>
   </header>
 
   <!-- On-page navigation -->
-  <nav class="mb-8 flex flex-wrap gap-x-4 gap-y-1 text-xs font-heading" aria-label="Jump to section">
-    <span class="text-text-secondary font-semibold">Jump to:</span>
-    <a href="#cycle" class="text-compass-green hover:underline">25-Year Cycle</a>
-    <a href="#timeline" class="text-compass-green hover:underline">Timeline</a>
-    <a href="#milestones" class="text-compass-green hover:underline">Milestones</a>
-    <a href="#phase-4" class="hover:underline" style="color: #1F6F8B">Phase 4: Cycle Management</a>
-    <a href="#stage-2" class="hover:underline" style="color: #1F6F8B">Stage 2</a>
-    <a href="#stage-3" class="hover:underline" style="color: #553691">Stage 3</a>
-    {grouped.map((ws) => (
-      <a href={`#${ws.id}`} class="hover:underline" style={`color: ${ws.color}`}>{ws.shortTitle}</a>
-    ))}
-    <a href="#legislative" class="text-compass-green hover:underline">Legislative Programme</a>
-    <a href="#enablers" class="text-compass-green hover:underline">Digital Infrastructure</a>
+  <nav
+    class="mb-8 border-y border-gray-100 py-2.5 flex flex-wrap gap-x-5 gap-y-1.5 items-baseline text-sm font-heading"
+    aria-label="Jump to section"
+  >
+    <span class="text-text-secondary font-semibold text-xs uppercase tracking-wide">On this page</span>
+    <a href="#cycle" class="hover:underline text-text-primary">The 25-year cycle</a>
+    <a href="#stage-1" class="hover:underline" style={`color: ${STAGE_COLORS.stage1}`}>Stage 1 · The 10-year programme</a>
+    <a href="#phase-4" class="hover:underline" style={`color: ${STAGE_COLORS.phase4}`}>Phase 4 · Cycle management</a>
+    <a href="#stage-2" class="hover:underline" style={`color: ${STAGE_COLORS.stage2}`}>Stage 2 · Cycle activation</a>
+    <a href="#stage-3" class="hover:underline" style={`color: ${STAGE_COLORS.stage3}`}>Stage 3 · Convergence</a>
   </nav>
 
   <!-- Frameworks reference card -->
-  <aside class="mb-8 p-4 rounded-lg border border-compass-green/30 bg-compass-green-light/40">
+  <aside class="mb-10 p-4 rounded-lg border border-compass-green/30 bg-compass-green-light/40">
     <p class="font-heading text-sm font-bold text-text-primary mb-1">
       The diagnostic lens behind these reforms
     </p>
@@ -120,249 +125,628 @@ const grouped = workstreams.map((ws) => {
   </aside>
 
   <!-- 25-Year Cycle Overview -->
-  <section id="cycle" class="mb-10 scroll-mt-32" aria-label="The 25-year reform cycle">
-    <h2 class="font-heading text-xl font-bold text-text-primary mb-3">
+  <section id="cycle" class="mb-14 scroll-mt-32" aria-label="The 25-year reform cycle">
+    <h2 class="font-heading text-2xl font-bold text-text-primary mb-2">
       The 25-Year Reform Cycle
     </h2>
-    <p class="text-text-secondary leading-relaxed mb-5">
-      The {reformCount} reforms on this page are <strong class="text-text-primary">Stage 1</strong> of a longer
-      arc. Structural repair takes the first decade. But repaired institutions only matter if they produce the
+    <p class="text-text-secondary leading-relaxed mb-5 max-w-3xl">
+      Structural repair takes the first decade. But repaired institutions only matter if they produce the
       systemic outcomes that the reinforcing cycle — safety → growth → development → safety — is designed to
-      deliver. That compounding takes another fifteen years, and it requires a permanent institutional mechanism
-      to manage.
+      deliver. That compounding takes another fifteen years, and it requires a permanent institutional
+      mechanism to manage.
     </p>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
-      <div class="rounded-lg border-l-4 border border-gray-200 p-5" style="border-left-color: #355E3B">
-        <p class="font-heading text-sm font-bold" style="color: #355E3B">Stage 1 · Years 1–10</p>
-        <p class="font-heading text-base font-bold text-text-primary mt-1 mb-2">Structural Repair</p>
+      <a
+        href="#stage-1"
+        class="group block rounded-lg border-l-4 border border-gray-200 p-5 hover:shadow-md hover:border-gray-300 transition-all"
+        style={`border-left-color: ${STAGE_COLORS.stage1}`}
+      >
+        <p class="font-heading text-sm font-bold" style={`color: ${STAGE_COLORS.stage1}`}>Stage 1 · Years 1–10</p>
+        <p class="font-heading text-base font-bold text-text-primary mt-1 mb-2 group-hover:underline">Structural Repair</p>
         <p class="text-xs text-text-secondary leading-relaxed">
           The {reformCount} reforms below. Fix concurrent-function design failures, stand up the enforcement
           architecture, build municipal capability, restore investigation and prosecution, stabilise health and
           education.
         </p>
-      </div>
-      <div class="rounded-lg border-l-4 border border-gray-200 p-5" style="border-left-color: #1F6F8B">
-        <p class="font-heading text-sm font-bold" style="color: #1F6F8B">Stage 2 · Years 10–18</p>
-        <p class="font-heading text-base font-bold text-text-primary mt-1 mb-2">Cycle Activation</p>
+      </a>
+      <a
+        href="#stage-2"
+        class="group block rounded-lg border-l-4 border border-gray-200 p-5 hover:shadow-md hover:border-gray-300 transition-all"
+        style={`border-left-color: ${STAGE_COLORS.stage2}`}
+      >
+        <p class="font-heading text-sm font-bold" style={`color: ${STAGE_COLORS.stage2}`}>Stage 2 · Years 10–18</p>
+        <p class="font-heading text-base font-bold text-text-primary mt-1 mb-2 group-hover:underline">Cycle Activation</p>
         <p class="text-xs text-text-secondary leading-relaxed">
           On repaired institutions, the cycle compounds. Efficiency-driven growth ($15K→$30K GDP per capita).
-          The enforcement architecture is calibrated on real performance data. Human development gains begin
-          showing up as workforce effects. The Reform Coordination Office operates as a permanent cycle
-          management institution.
+          Human development gains begin showing up as workforce effects. The Reform Coordination Office
+          operates as a permanent cycle management institution.
         </p>
-      </div>
-      <div class="rounded-lg border-l-4 border border-gray-200 p-5" style="border-left-color: #553691">
-        <p class="font-heading text-sm font-bold" style="color: #553691">Stage 3 · Years 18–25</p>
-        <p class="font-heading text-base font-bold text-text-primary mt-1 mb-2">Innovation &amp; Convergence</p>
+      </a>
+      <a
+        href="#stage-3"
+        class="group block rounded-lg border-l-4 border border-gray-200 p-5 hover:shadow-md hover:border-gray-300 transition-all"
+        style={`border-left-color: ${STAGE_COLORS.stage3}`}
+      >
+        <p class="font-heading text-sm font-bold" style={`color: ${STAGE_COLORS.stage3}`}>Stage 3 · Years 18–25</p>
+        <p class="font-heading text-base font-bold text-text-primary mt-1 mb-2 group-hover:underline">Innovation &amp; Convergence</p>
         <p class="text-xs text-text-secondary leading-relaxed">
           Innovation-driven growth ($30K→$50K). Development outcomes converge toward upper-middle-income norms.
-          The cycle is self-sustaining. The naming-through-measurement function the integrated governance
-          platform was designed for is mature: systemic poverty is visible as a single tracked phenomenon.
+          The cycle is self-sustaining. Systemic poverty is visible as a single tracked phenomenon.
         </p>
-      </div>
+      </a>
     </div>
     <p class="text-xs text-text-secondary mt-3 italic">
-      Stage year ranges draw on the Economic Growth series' 25-year GDP-per-capita trajectory
+      Stage year ranges draw on the Economic Growth series
       (<a href="/articles/eg-5-2-from-strategy-to-reality" class="text-compass-green hover:underline">From Strategy to Reality</a>)
       and the Reform Agenda's Phase 4 Cycle Management architecture
       (<a href="/articles/ra-5-3-the-integrated-reform-programme" class="text-compass-green hover:underline">The Integrated Reform Programme</a>).
     </p>
   </section>
 
-  <!-- Workstream Filter -->
-  <div
-    class="sticky top-16 bg-bg-primary/95 backdrop-blur-sm py-2.5 z-30 border-b border-gray-100 mb-8"
-  >
-    <div class="flex flex-wrap items-center gap-2">
-      <div
-        class="flex flex-wrap items-center gap-1.5 flex-1"
-        role="group"
-        aria-label="Filter reforms by workstream"
-      >
-        <button
-          type="button"
-          class="reform-filter-btn px-3 py-1.5 rounded-full font-heading text-sm font-semibold transition-colors border-2 border-compass-green bg-compass-green text-white"
-          data-filter="all"
-          aria-pressed="true"
-        >
-          All <span class="opacity-70 font-normal">({reformCount})</span>
-        </button>
-        {grouped.map((ws) => (
-          <button
-            type="button"
-            class="reform-filter-btn px-3 py-1.5 rounded-full font-heading text-sm font-semibold transition-colors border-2"
-            style={`border-color: ${ws.color}; color: ${ws.color}; background-color: transparent`}
-            data-filter={ws.id}
-            data-color={ws.color}
-            data-light={ws.lightColor}
-            aria-pressed="false"
-          >
-            {ws.shortTitle} <span class="opacity-70 font-normal">({ws.reformCount})</span>
-          </button>
-        ))}
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- STAGE 1 · Years 1–10: Structural Repair (the main content) -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <section id="stage-1" class="mb-16 scroll-mt-32" aria-label="Stage 1: Structural Repair">
+    <div class="mb-8 pb-5 border-b-2" style={`border-color: ${STAGE_COLORS.stage1}`}>
+      <div class="flex items-baseline gap-2 mb-1">
+        <p class="font-heading text-sm font-bold uppercase tracking-wide" style={`color: ${STAGE_COLORS.stage1}`}>
+          Stage 1 · Years 1–10
+        </p>
       </div>
-      <div class="relative w-full sm:w-64 shrink-0">
-        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-secondary pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-        </svg>
-        <input
-          type="search"
-          id="reform-search"
-          class="w-full pl-9 pr-3 py-1.5 rounded-lg border border-gray-200 bg-white font-heading text-sm text-text-primary placeholder:text-text-secondary/60 focus:outline-none focus:border-compass-green focus:ring-1 focus:ring-compass-green"
-          placeholder="Search reforms…"
-          aria-label="Search reforms by keyword"
-        />
-      </div>
-      <span id="reform-count" class="font-heading text-xs text-text-secondary whitespace-nowrap shrink-0" aria-live="polite">
-        {reformCount} reforms
-      </span>
-    </div>
-  </div>
-
-  <!-- Phase Timeline -->
-  <section id="timeline" class="mb-10 scroll-mt-32" aria-label="Stage 1 ten-year reform timeline">
-    <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-1">
-      <h2 class="font-heading text-xl font-bold text-text-primary">
-        Stage 1 Timeline · Years 1–10
+      <h2 class="font-heading text-2xl md:text-3xl font-bold text-text-primary mb-3">
+        Structural Repair: The 10-Year Programme
       </h2>
-      <p class="font-heading text-xs text-text-secondary">
-        Click a phase to filter reforms →
+      <p class="text-text-secondary leading-relaxed max-w-3xl">
+        {reformCount} reforms across four workstreams, sequenced in three phases. Filter by workstream, click a
+        phase to narrow further, or search by keyword.
       </p>
     </div>
-    <p class="text-sm text-text-secondary mb-4">
-      The structural repair decade. Each workstream runs its own three-phase sequence within this window.
-    </p>
-    {/* Mobile: stacked phase pills per workstream */}
-    <div class="md:hidden space-y-3">
-      {grouped.map((ws) => (
-        <div class="reform-ws-row" data-workstream={ws.id}>
-          <p class="font-heading text-xs font-bold mb-1.5" style={`color: ${ws.color}`}>
-            {ws.shortTitle}
-          </p>
-          <div class="flex flex-wrap gap-1.5">
-            {ws.phases.map((phase) => {
-              const phaseOpacity = phase.id === "phase-1" ? 0.7 : phase.id === "phase-2" ? 0.85 : 1;
-              return (
-                <button
-                  type="button"
-                  class="reform-phase-btn text-left px-2.5 py-1 rounded text-[11px] font-heading font-semibold text-white cursor-pointer transition hover:brightness-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 focus-visible:ring-gray-500"
-                  style={`background-color: ${ws.color}; opacity: ${phaseOpacity}`}
-                  data-workstream={ws.id}
-                  data-phase={phase.id}
-                  aria-label={`Filter reforms to ${phase.label}, ${phase.years}, ${ws.shortTitle}`}
-                >
-                  {phase.label} · {phase.years}
-                </button>
-              );
-            })}
-          </div>
+
+    <!-- Sticky Workstream Filter (scoped to Stage 1 via CSS position:sticky) -->
+    <div
+      class="sticky top-16 bg-bg-primary/95 backdrop-blur-sm z-30 border-b border-gray-100 py-3 mb-8"
+    >
+      <div class="flex flex-col md:flex-row md:items-center gap-2 md:gap-3">
+        <div
+          class="flex flex-wrap items-center gap-1.5"
+          role="group"
+          aria-label="Filter reforms by workstream"
+        >
+          <button
+            type="button"
+            class="reform-filter-btn px-3 py-1.5 rounded-full font-heading text-sm font-semibold transition-colors border-2 border-compass-green bg-compass-green text-white"
+            data-filter="all"
+            aria-pressed="true"
+          >
+            All <span class="opacity-70 font-normal">({reformCount})</span>
+          </button>
+          {grouped.map((ws) => (
+            <button
+              type="button"
+              class="reform-filter-btn px-3 py-1.5 rounded-full font-heading text-sm font-semibold transition-colors border-2"
+              style={`border-color: ${ws.color}; color: ${ws.color}; background-color: transparent`}
+              data-filter={ws.id}
+              data-color={ws.color}
+              data-light={ws.lightColor}
+              aria-pressed="false"
+            >
+              {ws.shortTitle} <span class="opacity-70 font-normal">({ws.reformCount})</span>
+            </button>
+          ))}
         </div>
-      ))}
+        <div class="flex items-center gap-2 md:ml-auto md:shrink-0">
+          <div class="relative flex-1 md:w-64 md:flex-none">
+            <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-text-secondary pointer-events-none" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+            <input
+              type="search"
+              id="reform-search"
+              class="w-full pl-9 pr-3 py-1.5 rounded-lg border border-gray-200 bg-white font-heading text-sm text-text-primary placeholder:text-text-secondary/60 focus:outline-none focus:border-compass-green focus:ring-1 focus:ring-compass-green"
+              placeholder="Search reforms…"
+              aria-label="Search reforms by keyword"
+            />
+          </div>
+          <span id="reform-count" class="font-heading text-xs text-text-secondary whitespace-nowrap shrink-0" aria-live="polite">
+            {reformCount} reforms
+          </span>
+        </div>
+      </div>
     </div>
 
-    {/* Desktop: horizontal bar chart */}
-    <div class="hidden md:block overflow-x-auto -mx-4 px-4">
-      <div class="min-w-[600px]">
+    <!-- Phase Timeline -->
+    <section id="timeline" class="mb-10 scroll-mt-32" aria-label="Stage 1 ten-year reform timeline">
+      <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-1">
+        <h3 class="font-heading text-xl font-bold text-text-primary">
+          Timeline
+        </h3>
+        <p class="font-heading text-xs text-text-secondary">
+          Click a phase to filter →
+        </p>
+      </div>
+      <p class="text-sm text-text-secondary mb-4">
+        Each workstream runs its own three-phase sequence within the 10-year window.
+      </p>
+      {/* Mobile: stacked phase pills per workstream */}
+      <div class="md:hidden space-y-3">
         {grouped.map((ws) => (
-          <div
-            class="reform-ws-row mb-3 flex items-center gap-3"
-            data-workstream={ws.id}
-          >
-            <span
-              class="font-heading text-xs font-bold w-16 shrink-0 text-right"
-              style={`color: ${ws.color}`}
-            >
+          <div class="reform-ws-row" data-workstream={ws.id}>
+            <p class="font-heading text-xs font-bold mb-1.5" style={`color: ${ws.color}`}>
               {ws.shortTitle}
-            </span>
-            <div class="flex-1 flex h-8 rounded overflow-hidden gap-px">
+            </p>
+            <div class="flex flex-wrap gap-1.5">
               {ws.phases.map((phase) => {
-                const startYear = parseInt(phase.years.match(/\d+/)?.[0] ?? "1");
-                const endYear = parseInt(phase.years.match(/\d+$/)?.[0] ?? "10");
-                const widthPct = ((endYear - startYear + 1) / 10) * 100;
-                const leftPct = ((startYear - 1) / 10) * 100;
                 const phaseOpacity = phase.id === "phase-1" ? 0.7 : phase.id === "phase-2" ? 0.85 : 1;
                 return (
                   <button
                     type="button"
-                    class="reform-phase-btn relative flex items-center justify-center text-white font-heading text-[11px] font-semibold px-2 cursor-pointer transition hover:brightness-110 hover:ring-2 hover:ring-offset-1 hover:ring-gray-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 focus-visible:ring-gray-500 whitespace-nowrap overflow-hidden"
-                    style={`width: ${widthPct}%; background-color: ${ws.color}; opacity: ${phaseOpacity}; margin-left: ${phase.id === "phase-1" ? leftPct + "%" : "0"}`}
+                    class="reform-phase-btn text-left px-2.5 py-1 rounded text-[11px] font-heading font-semibold text-white cursor-pointer transition hover:brightness-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 focus-visible:ring-gray-500"
+                    style={`background-color: ${ws.color}; opacity: ${phaseOpacity}`}
                     data-workstream={ws.id}
                     data-phase={phase.id}
-                    title={`Click to filter to ${phase.label} (${phase.years})`}
                     aria-label={`Filter reforms to ${phase.label}, ${phase.years}, ${ws.shortTitle}`}
                   >
-                    <span class="truncate">{phase.label}</span>
+                    {phase.label} · {phase.years}
                   </button>
                 );
               })}
             </div>
           </div>
         ))}
-        <!-- Year markers -->
-        <div class="flex items-center gap-3 mt-1">
-          <span class="w-16 shrink-0"></span>
-          <div class="flex-1 flex justify-between text-[10px] text-text-secondary font-heading">
-            {Array.from({ length: 10 }, (_, i) => (
-              <span>Yr {i + 1}</span>
-            ))}
+      </div>
+
+      {/* Desktop: horizontal bar chart */}
+      <div class="hidden md:block overflow-x-auto -mx-4 px-4">
+        <div class="min-w-[600px]">
+          {grouped.map((ws) => (
+            <div
+              class="reform-ws-row mb-3 flex items-center gap-3"
+              data-workstream={ws.id}
+            >
+              <span
+                class="font-heading text-xs font-bold w-16 shrink-0 text-right"
+                style={`color: ${ws.color}`}
+              >
+                {ws.shortTitle}
+              </span>
+              <div class="flex-1 flex h-8 rounded overflow-hidden gap-px">
+                {ws.phases.map((phase) => {
+                  const widthPct = PHASE_WIDTH_PCT[phase.id] ?? 33;
+                  const phaseOpacity = phase.id === "phase-1" ? 0.7 : phase.id === "phase-2" ? 0.85 : 1;
+                  return (
+                    <button
+                      type="button"
+                      class="reform-phase-btn relative flex items-center justify-center text-white font-heading text-[11px] font-semibold px-2 cursor-pointer transition hover:brightness-110 hover:ring-2 hover:ring-offset-1 hover:ring-gray-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 focus-visible:ring-gray-500 whitespace-nowrap overflow-hidden"
+                      style={`flex-basis: ${widthPct}%; background-color: ${ws.color}; opacity: ${phaseOpacity}`}
+                      data-workstream={ws.id}
+                      data-phase={phase.id}
+                      title={`Click to filter to ${phase.label} (${phase.years})`}
+                      aria-label={`Filter reforms to ${phase.label}, ${phase.years}, ${ws.shortTitle}`}
+                    >
+                      <span class="truncate">{phase.label}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+          <!-- Year markers -->
+          <div class="flex items-center gap-3 mt-1">
+            <span class="w-16 shrink-0"></span>
+            <div class="flex-1 flex justify-between text-[10px] text-text-secondary font-heading">
+              {Array.from({ length: 10 }, (_, i) => (
+                <span>Yr {i + 1}</span>
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Milestones -->
-  <section id="milestones" class="mb-10 scroll-mt-32" aria-label="Reform milestones">
-    <h2 class="font-heading text-xl font-bold text-text-primary mb-4">
-      Milestones
-    </h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-      {milestones.map((m) => {
-        const colors = m.period === "Year 1"
-          ? { bg: "#E6EFE8", border: "#355E3B", text: "#355E3B" }
-          : m.period === "Year 5"
-            ? { bg: "#F3EBDA", border: "#7A5C1F", text: "#7A5C1F" }
-            : { bg: "#E8E0F4", border: "#553691", text: "#553691" };
-        return (
-          <div class="rounded-lg border p-5" style={`border-color: ${colors.border}30; background-color: ${colors.bg}40`}>
-            <p class="font-heading text-lg font-bold mb-1" style={`color: ${colors.text}`}>
-              {m.period}
-            </p>
-            <p class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide mb-3">
-              {m.label}
-            </p>
-            <ul class="space-y-2">
-              {m.items.map((item) => (
-                <li
-                  class="milestone-item flex items-start gap-2 text-sm text-text-secondary leading-relaxed"
-                  data-workstream={item.workstream}
-                >
-                  <span class="shrink-0 mt-1.5 w-1.5 h-1.5 rounded-full" style={`background-color: ${colors.text}`}></span>
-                  {item.text}
-                </li>
-              ))}
-            </ul>
+    <!-- Milestones -->
+    <section id="milestones" class="mb-10 scroll-mt-32" aria-label="Reform milestones">
+      <h3 class="font-heading text-xl font-bold text-text-primary mb-4">
+        Milestones
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {milestones.map((m) => {
+          const colors = m.period === "Year 1"
+            ? { bg: "#E6EFE8", border: "#355E3B", text: "#355E3B" }
+            : m.period === "Year 5"
+              ? { bg: "#F3EBDA", border: "#7A5C1F", text: "#7A5C1F" }
+              : { bg: "#E8E0F4", border: "#553691", text: "#553691" };
+          return (
+            <div class="rounded-lg border p-5" style={`border-color: ${colors.border}30; background-color: ${colors.bg}40`}>
+              <p class="font-heading text-lg font-bold mb-1" style={`color: ${colors.text}`}>
+                {m.period}
+              </p>
+              <p class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide mb-3">
+                {m.label}
+              </p>
+              <ul class="space-y-2">
+                {m.items.map((item) => (
+                  <li
+                    class="milestone-item flex items-start gap-2 text-sm text-text-secondary leading-relaxed"
+                    data-workstream={item.workstream}
+                  >
+                    <span class="shrink-0 mt-1.5 w-1.5 h-1.5 rounded-full" style={`background-color: ${colors.text}`}></span>
+                    {item.text}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+
+    <!-- Active phase filter indicator -->
+    <div
+      id="active-filter-indicator"
+      class="hidden mb-6 p-3 rounded-lg border border-gray-200 bg-bg-secondary flex items-center justify-between"
+      aria-live="polite"
+    >
+      <span id="active-filter-text" class="font-heading text-sm text-text-secondary"></span>
+      <button
+        type="button"
+        id="clear-phase-filter"
+        class="font-heading text-xs text-compass-green hover:underline"
+      >
+        Clear filter
+      </button>
+    </div>
+
+    <!-- Empty state -->
+    <div
+      id="reform-empty-state"
+      class="hidden mb-10 p-8 rounded-lg border border-dashed border-gray-300 bg-bg-secondary text-center"
+      aria-live="polite"
+    >
+      <p class="font-heading text-base font-bold text-text-primary mb-1">
+        No reforms match your filters
+      </p>
+      <p class="text-sm text-text-secondary mb-4" id="reform-empty-detail">
+        Try a different workstream, phase, or search term.
+      </p>
+      <button
+        type="button"
+        id="reform-clear-all"
+        class="font-heading text-sm font-semibold px-4 py-2 rounded-full border-2 border-compass-green text-compass-green hover:bg-compass-green hover:text-white transition-colors"
+      >
+        Clear all filters
+      </button>
+    </div>
+
+    <!-- Workstream Reform Cards -->
+    <div class="mb-12">
+      <h3 class="font-heading text-xl font-bold text-text-primary mb-2">
+        The Reforms
+      </h3>
+      <p class="text-sm text-text-secondary mb-6">
+        {reformCount} reforms across the four workstreams below. Click any row to expand its detail.
+      </p>
+      {grouped.map((ws) => (
+        <section
+          id={ws.id}
+          class="reform-ws-section mb-12 scroll-mt-32"
+          data-workstream={ws.id}
+          aria-label={`${ws.title} reforms`}
+        >
+          <!-- Workstream header -->
+          <div class="flex items-center gap-3 mb-2">
+            <span
+              class="inline-block w-4 h-4 rounded-full shrink-0"
+              style={`background-color: ${ws.color}`}
+            ></span>
+            <h4 class="font-heading text-xl font-bold text-text-primary">
+              {ws.title}
+            </h4>
           </div>
-        );
-      })}
+          <p class="text-text-secondary leading-relaxed mb-3 ml-7">
+            {ws.vision}
+          </p>
+          {ws.id === "safety-security" && (
+            <aside class="ml-7 mb-4 p-4 rounded-lg border-l-4" style={`border-color: ${ws.color}; background-color: ${ws.lightColor}60`}>
+              <p class="font-heading text-sm font-bold text-text-primary mb-1">
+                Why this workstream is sequenced first
+              </p>
+              <p class="text-sm text-text-secondary leading-relaxed">
+                Without a functioning criminal justice system, every other reform is built on sand. Investors won't invest in unsafe cities. Children can't learn in violent schools. Municipalities can't collect revenue when infrastructure is vandalised with impunity. The reforms below create the preconditions — rule of law, institutional credibility, and physical security — that the economic, governance, and human development workstreams depend on to succeed.
+              </p>
+            </aside>
+          )}
+          <div class="ml-7 mb-6 flex gap-2" role="group" aria-label={`Expand or collapse ${ws.title} reform cards`}>
+            <button
+              type="button"
+              class="reform-expand-all font-heading text-xs font-semibold px-3 py-1 rounded border border-gray-200 text-text-secondary hover:border-gray-300 hover:bg-bg-secondary transition-colors"
+              data-workstream={ws.id}
+              data-action="expand"
+            >
+              Expand all
+            </button>
+            <button
+              type="button"
+              class="reform-expand-all font-heading text-xs font-semibold px-3 py-1 rounded border border-gray-200 text-text-secondary hover:border-gray-300 hover:bg-bg-secondary transition-colors"
+              data-workstream={ws.id}
+              data-action="collapse"
+            >
+              Collapse all
+            </button>
+          </div>
+
+          {/* Phases */}
+          {ws.phases.map((phase) => (
+            <div
+              class="reform-phase-section mb-8"
+              data-workstream={ws.id}
+              data-phase={phase.id}
+            >
+              <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-1">
+                <h5 class="font-heading text-lg font-bold text-text-primary">
+                  {phase.label}
+                </h5>
+                <span class="font-heading text-xs font-semibold px-2 py-0.5 rounded-full text-white" style={`background-color: ${ws.color}`}>
+                  {phase.years}
+                </span>
+              </div>
+              <p class="text-sm text-text-secondary mb-4 italic">
+                Priority: {phase.priority}
+              </p>
+
+              {/* Subgroups or flat list */}
+              {phase.subgroups.map((sg) => (
+                <div class="mb-4">
+                  {sg.name && (
+                    <h6 class="font-heading text-sm font-bold text-text-secondary uppercase tracking-wide mb-2 ml-1">
+                      {sg.name}
+                    </h6>
+                  )}
+                  <div class="space-y-2">
+                    {sg.reforms.map((reform) => (
+                      <details
+                        id={`reform-${reform.id}`}
+                        class="reform-card group border border-gray-200 rounded-lg overflow-hidden transition-colors hover:border-gray-300 scroll-mt-32 target:border-compass-green target:shadow-sm"
+                        data-workstream={reform.workstream}
+                        data-phase={reform.phase}
+                      >
+                        <summary
+                          class="flex items-center gap-3 px-4 py-3 cursor-pointer list-none [&::-webkit-details-marker]:hidden select-none"
+                        >
+                          <span
+                            class="font-heading text-xs font-bold shrink-0 w-10 text-center py-0.5 rounded"
+                            style={`background-color: ${ws.lightColor}; color: ${ws.color}`}
+                          >
+                            {reform.id}
+                          </span>
+                          <span class="font-heading text-sm font-semibold text-text-primary flex-1 min-w-0">
+                            {reform.title}
+                          </span>
+                          {reform.articleSlug && (
+                            <span
+                              class="shrink-0 inline-flex items-center justify-center w-5 h-5 rounded-full bg-compass-green-light text-compass-green"
+                              title="Full article available"
+                              aria-label="Full article available"
+                            >
+                              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+                              </svg>
+                            </span>
+                          )}
+                          <svg
+                            class="w-4 h-4 text-text-secondary shrink-0 transition-transform group-open:rotate-180"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            aria-hidden="true"
+                          >
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                          </svg>
+                        </summary>
+                        <div class="px-4 pb-4 pt-1 border-t border-gray-100">
+                          <p class="text-sm text-text-secondary leading-relaxed mb-3">
+                            {reform.description}
+                          </p>
+                          <div class="flex flex-wrap gap-x-6 gap-y-2 text-xs">
+                            {reform.legislative && (
+                              <div>
+                                <span class="font-heading font-semibold text-text-primary">Legislative: </span>
+                                <span class="text-text-secondary">{reform.legislative}</span>
+                              </div>
+                            )}
+                            {reform.scope && (
+                              <div class="flex items-center gap-1">
+                                <span class="font-heading font-semibold text-text-primary">Scope: </span>
+                                {reform.scope.map((s) => (
+                                  <span class="px-1.5 py-0.5 rounded text-[10px] font-heading font-semibold uppercase bg-gray-100 text-text-secondary">
+                                    {s}
+                                  </span>
+                                ))}
+                              </div>
+                            )}
+                            {reform.dependsOn && reform.dependsOn.length > 0 && (
+                              <div class="flex items-center gap-1 flex-wrap">
+                                <span class="font-heading font-semibold text-text-primary">Depends on: </span>
+                                {reform.dependsOn.map((depId) => {
+                                  const depTitle = reformTitleById.get(depId);
+                                  return (
+                                    <a
+                                      href={`#reform-${depId}`}
+                                      class="reform-dep-link px-1.5 py-0.5 rounded text-[10px] font-heading font-semibold bg-gray-100 text-text-secondary hover:bg-compass-green-light hover:text-compass-green transition-colors"
+                                      data-dep-id={depId}
+                                      title={depTitle ? `${depId} — ${depTitle}` : depId}
+                                    >
+                                      {depId}
+                                    </a>
+                                  );
+                                })}
+                              </div>
+                            )}
+                          </div>
+                          {reform.articleSlug && (
+                            <a
+                              href={`/articles/${reform.articleSlug}`}
+                              class="inline-flex items-center gap-1 mt-3 text-xs font-heading font-semibold text-compass-green hover:text-compass-green-dark hover:underline transition-colors"
+                            >
+                              Read the full analysis
+                              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                              </svg>
+                            </a>
+                          )}
+                        </div>
+                      </details>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          ))}
+
+          {/* Scorecard */}
+          {scorecardOutcomes[ws.id] && (
+            <div class="mt-8">
+              <h5 class="font-heading text-lg font-bold text-text-primary mb-2">
+                Example Scorecard for Outcome Areas
+              </h5>
+              <p class="text-sm text-text-secondary mb-4">
+                {scorecardOutcomes[ws.id].length} outcomes to track quarterly. Baselines
+                and targets will be populated as the scorecard is operationalised — empty
+                cells are shown as &ldquo;&mdash;&rdquo;.
+              </p>
+              <div class="overflow-x-auto -mx-4 px-4">
+                <table class="min-w-full text-sm border-collapse">
+                  <thead>
+                    <tr class="border-b-2" style={`border-color: ${ws.color}`}>
+                      <th class="text-left font-heading font-bold text-text-primary py-2 pr-3 w-8" scope="col">#</th>
+                      <th class="text-left font-heading font-bold text-text-primary py-2 pr-3" scope="col">Outcome</th>
+                      <th class="text-left font-heading font-bold text-text-primary py-2 px-3 whitespace-nowrap" scope="col">Baseline</th>
+                      <th class="text-left font-heading font-bold text-text-primary py-2 px-3 whitespace-nowrap" scope="col">Year 5 Target</th>
+                      <th class="text-left font-heading font-bold text-text-primary py-2 pl-3 whitespace-nowrap" scope="col">Year 10 Target</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {scorecardOutcomes[ws.id].map((row, i) => (
+                      <tr class="border-b border-gray-100 align-top">
+                        <td class="font-heading text-xs font-bold py-2 pr-3" style={`color: ${ws.color}`}>
+                          {i + 1}
+                        </td>
+                        <td class="py-2 pr-3 text-text-secondary">{row.outcome}</td>
+                        <td class="py-2 px-3 text-text-secondary whitespace-nowrap">{row.baseline ?? "—"}</td>
+                        <td class="py-2 px-3 text-text-secondary whitespace-nowrap">{row.year5 ?? "—"}</td>
+                        <td class="py-2 pl-3 text-text-secondary whitespace-nowrap">{row.year10 ?? "—"}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+        </section>
+      ))}
     </div>
+
+    <!-- Legislative Programme -->
+    <section id="legislative" class="mb-12 scroll-mt-32" aria-label="Legislative programme">
+      <h3 class="font-heading text-xl font-bold text-text-primary mb-2">
+        Legislative Programme
+      </h3>
+      <p class="text-text-secondary mb-6">
+        {legislativeCount} legislative changes required: {legislativeItems.filter(l => l.type === "new").length} new
+        statutes, {legislativeItems.filter(l => l.type === "amendment").length} amendments to existing
+        legislation, and {legislativeItems.filter(l => l.type === "constitutional").length} possible constitutional amendment.
+      </p>
+
+      {legislativeGroups.map((group) => (
+        <div class="mb-8 last:mb-0">
+          <h4 class="font-heading text-base font-bold text-text-primary mb-1 flex items-baseline gap-2">
+            {group.heading}
+            <span class="font-heading text-xs font-semibold text-text-secondary">({group.items.length})</span>
+          </h4>
+          <p class="text-sm text-text-secondary mb-3">{group.description}</p>
+          <div class="overflow-x-auto -mx-4 px-4 border border-gray-200 rounded-lg">
+            <table class="min-w-full text-sm border-collapse">
+              <thead class="bg-bg-secondary">
+                <tr class="border-b border-gray-200">
+                  <th class="text-left font-heading text-xs font-bold text-text-secondary uppercase tracking-wide py-2 px-3 w-12" scope="col">ID</th>
+                  <th class="text-left font-heading text-xs font-bold text-text-secondary uppercase tracking-wide py-2 px-3" scope="col">Legislation</th>
+                  <th class="text-left font-heading text-xs font-bold text-text-secondary uppercase tracking-wide py-2 px-3 whitespace-nowrap" scope="col">Workstream</th>
+                  <th class="text-left font-heading text-xs font-bold text-text-secondary uppercase tracking-wide py-2 px-3 whitespace-nowrap" scope="col">Phase</th>
+                </tr>
+              </thead>
+              <tbody>
+                {group.items.map((item) => {
+                  const ws = workstreams.find((w) => w.id === item.workstream)!;
+                  const phaseYears = ws.phases.find((p) => p.id === item.phase)?.years;
+                  return (
+                    <tr class="border-b border-gray-100 last:border-0 hover:bg-bg-secondary transition-colors group">
+                      <td class="font-heading text-xs font-bold text-text-secondary py-3 px-3 whitespace-nowrap align-middle">{item.id}</td>
+                      <td class="py-3 px-3 align-middle">
+                        <a
+                          href={`/articles/${item.articleSlug}`}
+                          class="font-heading text-sm font-semibold text-text-primary group-hover:text-compass-green transition-colors"
+                        >
+                          {item.name}
+                        </a>
+                      </td>
+                      <td class="py-3 px-3 whitespace-nowrap align-middle">
+                        <span
+                          class="font-heading text-[10px] font-bold uppercase px-2 py-0.5 rounded-full text-white"
+                          style={`background-color: ${ws.color}`}
+                        >
+                          {ws.shortTitle}
+                        </span>
+                      </td>
+                      <td class="font-heading text-xs text-text-secondary py-3 px-3 whitespace-nowrap align-middle">
+                        {phaseYears}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      ))}
+    </section>
+
+    <!-- Digital Infrastructure -->
+    <section id="enablers" class="scroll-mt-32" aria-label="Digital infrastructure enablers">
+      <h3 class="font-heading text-xl font-bold text-text-primary mb-2">
+        Digital Infrastructure Enablers
+      </h3>
+      <p class="text-text-secondary mb-6 leading-relaxed">
+        Cross-cutting digital systems that the reform programme builds or extends. Each platform serves multiple
+        workstreams and is treated as core infrastructure rather than as a tool for any single function.
+      </p>
+      <div class="space-y-2">
+        {digitalInfrastructure.map((di) => (
+          <div class="flex flex-wrap items-center gap-3 px-4 py-3 border border-gray-200 rounded-lg">
+            <span class="font-heading text-xs font-bold text-compass-green w-10">{di.id}</span>
+            <span class="font-heading text-sm font-semibold text-text-primary flex-1 min-w-[200px]">
+              {di.initiative}
+            </span>
+            <span class="text-xs text-text-secondary">{di.workstreams}</span>
+          </div>
+        ))}
+      </div>
+    </section>
   </section>
 
-  <!-- Phase 4: Cycle Management -->
-  <section id="phase-4" class="mb-12 scroll-mt-32" aria-label="Phase 4: Cycle Management">
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- PHASE 4 · Year 5+: Cycle Management Institution (the bridge) -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <section id="phase-4" class="mb-14 scroll-mt-32" aria-label="Phase 4: Cycle Management">
     <div
       class="rounded-lg border-l-4 border border-gray-200 p-6"
-      style="border-left-color: #1F6F8B; background-color: #F0F7FA40"
+      style={`border-left-color: ${STAGE_COLORS.phase4}; background-color: #F8FAFC`}
     >
       <div class="flex items-baseline gap-2 mb-2">
-        <p class="font-heading text-lg font-bold" style="color: #1F6F8B">
-          Phase 4
+        <p class="font-heading text-sm font-bold uppercase tracking-wide" style={`color: ${STAGE_COLORS.phase4}`}>
+          Phase 4 · Year 5+
         </p>
-        <span class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide">
-          Year 5+
-        </span>
       </div>
-      <h2 class="font-heading text-2xl font-bold text-text-primary mb-3">
+      <h2 class="font-heading text-2xl md:text-3xl font-bold text-text-primary mb-3">
         From Reform Coordination to Permanent Cycle Management
       </h2>
       <p class="text-text-secondary leading-relaxed mb-3">
@@ -373,17 +757,16 @@ const grouped = workstreams.map((ws) => {
         correction — and it requires a permanent institution to manage it.
       </p>
       <p class="text-text-secondary leading-relaxed mb-5">
-        Phase 4 is the institutional evolution. From Year 5, the statutory Reform Coordination Office established
-        under the Governance Reform Programme Act expands its mandate from
+        From Year 5, the statutory Reform Coordination Office established under the Governance Reform Programme
+        Act expands its mandate from
         <strong class="text-text-primary">reform coordination</strong> (implementing this 10-year programme) to
         <strong class="text-text-primary">cycle management</strong> (monitoring the reinforcing cycle across
-        safety, growth, and development on a permanent basis). It does not dissolve when its bills are passed.
-        It evolves into the systemic oversight institution South Africa has never had — comparable in
-        institutional weight to the Auditor-General and the Financial and Fiscal Commission, but for systemic
-        outcomes rather than financial or fiscal compliance.
+        safety, growth, and development on a permanent basis). It evolves into the systemic oversight institution
+        South Africa has never had — comparable in institutional weight to the Auditor-General and the Financial
+        and Fiscal Commission, but for systemic outcomes rather than financial or fiscal compliance.
         <strong class="text-text-primary">Phase 4 is the institutional mechanism for
-        <a href="#stage-2" class="underline hover:no-underline" style="color: #1F6F8B">Stage 2</a> and
-        <a href="#stage-3" class="underline hover:no-underline" style="color: #553691">Stage 3</a></strong>
+        <a href="#stage-2" class="underline hover:no-underline" style={`color: ${STAGE_COLORS.stage2}`}>Stage 2</a> and
+        <a href="#stage-3" class="underline hover:no-underline" style={`color: ${STAGE_COLORS.stage3}`}>Stage 3</a></strong>
         of the 25-year cycle.
       </p>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -439,21 +822,20 @@ const grouped = workstreams.map((ws) => {
     </div>
   </section>
 
-  <!-- Stage 2: Cycle Activation -->
-  <section id="stage-2" class="mb-8 scroll-mt-32" aria-label="Stage 2: Cycle Activation">
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- STAGE 2 · Years 10–18: Cycle Activation -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <section id="stage-2" class="mb-14 scroll-mt-32" aria-label="Stage 2: Cycle Activation">
     <div
       class="rounded-lg border-l-4 border border-gray-200 p-6"
-      style="border-left-color: #1F6F8B; background-color: #F0F7FA40"
+      style={`border-left-color: ${STAGE_COLORS.stage2}; background-color: #F0F7FA40`}
     >
       <div class="flex items-baseline gap-2 mb-2">
-        <p class="font-heading text-lg font-bold" style="color: #1F6F8B">
-          Stage 2
+        <p class="font-heading text-sm font-bold uppercase tracking-wide" style={`color: ${STAGE_COLORS.stage2}`}>
+          Stage 2 · Years 10–18
         </p>
-        <span class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide">
-          Years 10–18
-        </span>
       </div>
-      <h2 class="font-heading text-2xl font-bold text-text-primary mb-3">
+      <h2 class="font-heading text-2xl md:text-3xl font-bold text-text-primary mb-3">
         Cycle Activation
       </h2>
       <p class="text-text-secondary leading-relaxed mb-4">
@@ -490,28 +872,27 @@ const grouped = workstreams.map((ws) => {
       </div>
       <p class="text-sm text-text-secondary leading-relaxed">
         The institutional mechanism managing Stage 2 is the permanent cycle management institution described in
-        <a href="#phase-4" class="text-compass-green hover:underline font-semibold">Phase 4</a> above. The
-        measurement instrument is the
+        <a href="#phase-4" class="font-semibold hover:underline" style={`color: ${STAGE_COLORS.phase4}`}>Phase 4</a>
+        above. The measurement instrument is the
         <a href="/reform-scorecard" class="text-compass-green hover:underline font-semibold">Reinforcing Cycle Scorecard</a>.
       </p>
     </div>
   </section>
 
-  <!-- Stage 3: Innovation & Convergence -->
-  <section id="stage-3" class="mb-12 scroll-mt-32" aria-label="Stage 3: Innovation and Convergence">
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <!-- STAGE 3 · Years 18–25: Innovation & Convergence -->
+  <!-- ═══════════════════════════════════════════════════════════════ -->
+  <section id="stage-3" class="mb-14 scroll-mt-32" aria-label="Stage 3: Innovation and Convergence">
     <div
       class="rounded-lg border-l-4 border border-gray-200 p-6"
-      style="border-left-color: #553691; background-color: #F5F2FA40"
+      style={`border-left-color: ${STAGE_COLORS.stage3}; background-color: #F5F2FA40`}
     >
       <div class="flex items-baseline gap-2 mb-2">
-        <p class="font-heading text-lg font-bold" style="color: #553691">
-          Stage 3
+        <p class="font-heading text-sm font-bold uppercase tracking-wide" style={`color: ${STAGE_COLORS.stage3}`}>
+          Stage 3 · Years 18–25
         </p>
-        <span class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide">
-          Years 18–25
-        </span>
       </div>
-      <h2 class="font-heading text-2xl font-bold text-text-primary mb-3">
+      <h2 class="font-heading text-2xl md:text-3xl font-bold text-text-primary mb-3">
         Innovation &amp; Convergence
       </h2>
       <p class="text-text-secondary leading-relaxed mb-4">
@@ -552,366 +933,6 @@ const grouped = workstreams.map((ws) => {
         South Korea, Malaysia, Botswana, Rwanda — did so because they built the institutional architecture to
         manage the cycle as a system. That is what this programme proposes.
       </p>
-    </div>
-  </section>
-
-  <!-- Active phase filter indicator -->
-  <div
-    id="active-filter-indicator"
-    class="hidden mb-6 p-3 rounded-lg border border-gray-200 bg-bg-secondary flex items-center justify-between"
-    aria-live="polite"
-  >
-    <span id="active-filter-text" class="font-heading text-sm text-text-secondary"></span>
-    <button
-      type="button"
-      id="clear-phase-filter"
-      class="font-heading text-xs text-compass-green hover:underline"
-    >
-      Clear filter
-    </button>
-  </div>
-
-  <!-- Empty state (shown when filters/search match nothing) -->
-  <div
-    id="reform-empty-state"
-    class="hidden mb-10 p-8 rounded-lg border border-dashed border-gray-300 bg-bg-secondary text-center"
-    aria-live="polite"
-  >
-    <p class="font-heading text-base font-bold text-text-primary mb-1">
-      No reforms match your filters
-    </p>
-    <p class="text-sm text-text-secondary mb-4" id="reform-empty-detail">
-      Try a different workstream, phase, or search term.
-    </p>
-    <button
-      type="button"
-      id="reform-clear-all"
-      class="font-heading text-sm font-semibold px-4 py-2 rounded-full border-2 border-compass-green text-compass-green hover:bg-compass-green hover:text-white transition-colors"
-    >
-      Clear all filters
-    </button>
-  </div>
-
-  <!-- Reform Cards by Workstream -->
-  {grouped.map((ws) => (
-    <section
-      id={ws.id}
-      class="reform-ws-section mb-12 scroll-mt-32"
-      data-workstream={ws.id}
-      aria-label={`${ws.title} reforms`}
-    >
-      <!-- Workstream header -->
-      <div class="flex items-center gap-3 mb-2">
-        <span
-          class="inline-block w-4 h-4 rounded-full shrink-0"
-          style={`background-color: ${ws.color}`}
-        ></span>
-        <h2 class="font-heading text-2xl font-bold text-text-primary">
-          {ws.title}
-        </h2>
-      </div>
-      <p class="text-text-secondary leading-relaxed mb-3 ml-7">
-        {ws.vision}
-      </p>
-      {ws.id === "safety-security" && (
-        <aside class="ml-7 mb-4 p-4 rounded-lg border-l-4" style={`border-color: ${ws.color}; background-color: ${ws.lightColor}60`}>
-          <p class="font-heading text-sm font-bold text-text-primary mb-1">
-            Why this workstream is sequenced first
-          </p>
-          <p class="text-sm text-text-secondary leading-relaxed">
-            Without a functioning criminal justice system, every other reform is built on sand. Investors won't invest in unsafe cities. Children can't learn in violent schools. Municipalities can't collect revenue when infrastructure is vandalised with impunity. The reforms below create the preconditions — rule of law, institutional credibility, and physical security — that the economic, governance, and human development workstreams depend on to succeed.
-          </p>
-        </aside>
-      )}
-      <div class="ml-7 mb-6 flex gap-2" role="group" aria-label={`Expand or collapse ${ws.title} reform cards`}>
-        <button
-          type="button"
-          class="reform-expand-all font-heading text-xs font-semibold px-3 py-1 rounded border border-gray-200 text-text-secondary hover:border-gray-300 hover:bg-bg-secondary transition-colors"
-          data-workstream={ws.id}
-          data-action="expand"
-        >
-          Expand all
-        </button>
-        <button
-          type="button"
-          class="reform-expand-all font-heading text-xs font-semibold px-3 py-1 rounded border border-gray-200 text-text-secondary hover:border-gray-300 hover:bg-bg-secondary transition-colors"
-          data-workstream={ws.id}
-          data-action="collapse"
-        >
-          Collapse all
-        </button>
-      </div>
-
-      {/* Phases */}
-      {ws.phases.map((phase) => (
-        <div
-          class="reform-phase-section mb-8"
-          data-workstream={ws.id}
-          data-phase={phase.id}
-        >
-          <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-1">
-            <h3 class="font-heading text-lg font-bold text-text-primary">
-              {phase.label}
-            </h3>
-            <span class="font-heading text-xs font-semibold px-2 py-0.5 rounded-full text-white" style={`background-color: ${ws.color}`}>
-              {phase.years}
-            </span>
-          </div>
-          <p class="text-sm text-text-secondary mb-4 italic">
-            Priority: {phase.priority}
-          </p>
-
-          {/* Subgroups or flat list */}
-          {phase.subgroups.map((sg) => (
-            <div class="mb-4">
-              {sg.name && (
-                <h4 class="font-heading text-sm font-bold text-text-secondary uppercase tracking-wide mb-2 ml-1">
-                  {sg.name}
-                </h4>
-              )}
-              <div class="space-y-2">
-                {sg.reforms.map((reform) => (
-                  <details
-                    id={`reform-${reform.id}`}
-                    class="reform-card group border border-gray-200 rounded-lg overflow-hidden transition-colors hover:border-gray-300 scroll-mt-32 target:border-compass-green target:shadow-sm"
-                    data-workstream={reform.workstream}
-                    data-phase={reform.phase}
-                  >
-                    <summary
-                      class="flex items-center gap-3 px-4 py-3 cursor-pointer list-none [&::-webkit-details-marker]:hidden select-none"
-                    >
-                      <span
-                        class="font-heading text-xs font-bold shrink-0 w-10 text-center py-0.5 rounded"
-                        style={`background-color: ${ws.lightColor}; color: ${ws.color}`}
-                      >
-                        {reform.id}
-                      </span>
-                      <span class="font-heading text-sm font-semibold text-text-primary flex-1">
-                        {reform.title}
-                      </span>
-                      {reform.scope && reform.scope.length > 0 && (
-                        <span class="hidden sm:flex items-center gap-1 shrink-0">
-                          {reform.scope.map((s) => {
-                            const label = s === "national" ? "Nat" : s === "provincial" ? "Prov" : "Mun";
-                            return (
-                              <span
-                                class="px-1.5 py-0.5 rounded text-[10px] font-heading font-semibold uppercase bg-gray-100 text-text-secondary"
-                                title={s.charAt(0).toUpperCase() + s.slice(1)}
-                              >
-                                {label}
-                              </span>
-                            );
-                          })}
-                        </span>
-                      )}
-                      {reform.articleSlug && (
-                        <span
-                          class="hidden sm:inline-flex items-center gap-1 shrink-0 px-1.5 py-0.5 rounded text-[10px] font-heading font-semibold uppercase bg-compass-green-light text-compass-green"
-                          title="Full article available"
-                          aria-label="Full article available"
-                        >
-                          <svg class="w-2.5 h-2.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                          </svg>
-                          Article
-                        </span>
-                      )}
-                      <svg
-                        class="w-4 h-4 text-text-secondary shrink-0 transition-transform group-open:rotate-180"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        stroke-width="2"
-                        aria-hidden="true"
-                      >
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                      </svg>
-                    </summary>
-                    <div class="px-4 pb-4 pt-1 border-t border-gray-100">
-                      <p class="text-sm text-text-secondary leading-relaxed mb-3">
-                        {reform.description}
-                      </p>
-                      <div class="flex flex-wrap gap-x-6 gap-y-2 text-xs">
-                        {reform.legislative && (
-                          <div>
-                            <span class="font-heading font-semibold text-text-primary">Legislative: </span>
-                            <span class="text-text-secondary">{reform.legislative}</span>
-                          </div>
-                        )}
-                        {reform.scope && (
-                          <div class="flex items-center gap-1">
-                            <span class="font-heading font-semibold text-text-primary">Scope: </span>
-                            {reform.scope.map((s) => (
-                              <span class="px-1.5 py-0.5 rounded text-[10px] font-heading font-semibold uppercase bg-gray-100 text-text-secondary">
-                                {s}
-                              </span>
-                            ))}
-                          </div>
-                        )}
-                        {reform.dependsOn && reform.dependsOn.length > 0 && (
-                          <div class="flex items-center gap-1 flex-wrap">
-                            <span class="font-heading font-semibold text-text-primary">Depends on: </span>
-                            {reform.dependsOn.map((depId) => {
-                              const depTitle = reformTitleById.get(depId);
-                              return (
-                                <a
-                                  href={`#reform-${depId}`}
-                                  class="reform-dep-link px-1.5 py-0.5 rounded text-[10px] font-heading font-semibold bg-gray-100 text-text-secondary hover:bg-compass-green-light hover:text-compass-green transition-colors"
-                                  data-dep-id={depId}
-                                  title={depTitle ? `${depId} — ${depTitle}` : depId}
-                                >
-                                  {depId}
-                                </a>
-                              );
-                            })}
-                          </div>
-                        )}
-                      </div>
-                      {reform.articleSlug && (
-                        <a
-                          href={`/articles/${reform.articleSlug}`}
-                          class="inline-flex items-center gap-1 mt-3 text-xs font-heading font-semibold text-compass-green hover:text-compass-green-dark hover:underline transition-colors"
-                        >
-                          Read the full analysis
-                          <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-                          </svg>
-                        </a>
-                      )}
-                    </div>
-                  </details>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      ))}
-
-      {/* Scorecard */}
-      {scorecardOutcomes[ws.id] && (
-        <div class="mt-8">
-          <h3 class="font-heading text-lg font-bold text-text-primary mb-2">
-            Example Scorecard for Outcome Areas
-          </h3>
-          <p class="text-sm text-text-secondary mb-4">
-            {scorecardOutcomes[ws.id].length} outcomes to track quarterly. Baselines
-            and targets will be populated as the scorecard is operationalised — empty
-            cells are shown as &ldquo;&mdash;&rdquo;.
-          </p>
-          <div class="overflow-x-auto -mx-4 px-4">
-            <table class="min-w-full text-sm border-collapse">
-              <thead>
-                <tr class="border-b-2" style={`border-color: ${ws.color}`}>
-                  <th class="text-left font-heading font-bold text-text-primary py-2 pr-3 w-8" scope="col">#</th>
-                  <th class="text-left font-heading font-bold text-text-primary py-2 pr-3" scope="col">Outcome</th>
-                  <th class="text-left font-heading font-bold text-text-primary py-2 px-3 whitespace-nowrap" scope="col">Baseline</th>
-                  <th class="text-left font-heading font-bold text-text-primary py-2 px-3 whitespace-nowrap" scope="col">Year 5 Target</th>
-                  <th class="text-left font-heading font-bold text-text-primary py-2 pl-3 whitespace-nowrap" scope="col">Year 10 Target</th>
-                </tr>
-              </thead>
-              <tbody>
-                {scorecardOutcomes[ws.id].map((row, i) => (
-                  <tr class="border-b border-gray-100 align-top">
-                    <td class="font-heading text-xs font-bold py-2 pr-3" style={`color: ${ws.color}`}>
-                      {i + 1}
-                    </td>
-                    <td class="py-2 pr-3 text-text-secondary">{row.outcome}</td>
-                    <td class="py-2 px-3 text-text-secondary whitespace-nowrap">{row.baseline ?? "—"}</td>
-                    <td class="py-2 px-3 text-text-secondary whitespace-nowrap">{row.year5 ?? "—"}</td>
-                    <td class="py-2 pl-3 text-text-secondary whitespace-nowrap">{row.year10 ?? "—"}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
-      )}
-    </section>
-  ))}
-
-  <!-- Legislative Programme -->
-  <section id="legislative" class="mb-12 scroll-mt-32" aria-label="Legislative programme">
-    <h2 class="font-heading text-2xl font-bold text-text-primary mb-4">
-      Legislative Programme
-    </h2>
-    <p class="text-text-secondary mb-6">
-      {legislativeCount} legislative changes required: {legislativeItems.filter(l => l.type === "new").length} new
-      statutes, {legislativeItems.filter(l => l.type === "amendment").length} amendments to existing
-      legislation, and {legislativeItems.filter(l => l.type === "constitutional").length} possible constitutional amendment.
-    </p>
-
-    {legislativeGroups.map((group) => (
-      <div class="mb-8 last:mb-0">
-        <h3 class="font-heading text-lg font-bold text-text-primary mb-1 flex items-baseline gap-2">
-          {group.heading}
-          <span class="font-heading text-xs font-semibold text-text-secondary">({group.items.length})</span>
-        </h3>
-        <p class="text-sm text-text-secondary mb-3">{group.description}</p>
-        <div class="overflow-x-auto -mx-4 px-4 border border-gray-200 rounded-lg">
-          <table class="min-w-full text-sm border-collapse">
-            <thead class="bg-bg-secondary">
-              <tr class="border-b border-gray-200">
-                <th class="text-left font-heading text-xs font-bold text-text-secondary uppercase tracking-wide py-2 px-3 w-12" scope="col">ID</th>
-                <th class="text-left font-heading text-xs font-bold text-text-secondary uppercase tracking-wide py-2 px-3" scope="col">Legislation</th>
-                <th class="text-left font-heading text-xs font-bold text-text-secondary uppercase tracking-wide py-2 px-3 whitespace-nowrap" scope="col">Workstream</th>
-                <th class="text-left font-heading text-xs font-bold text-text-secondary uppercase tracking-wide py-2 px-3 whitespace-nowrap" scope="col">Phase</th>
-              </tr>
-            </thead>
-            <tbody>
-              {group.items.map((item) => {
-                const ws = workstreams.find((w) => w.id === item.workstream)!;
-                const phaseYears = ws.phases.find((p) => p.id === item.phase)?.years;
-                return (
-                  <tr class="border-b border-gray-100 last:border-0 hover:bg-bg-secondary transition-colors group">
-                    <td class="font-heading text-xs font-bold text-text-secondary py-3 px-3 whitespace-nowrap align-middle">{item.id}</td>
-                    <td class="py-3 px-3 align-middle">
-                      <a
-                        href={`/articles/${item.articleSlug}`}
-                        class="font-heading text-sm font-semibold text-text-primary group-hover:text-compass-green transition-colors"
-                      >
-                        {item.name}
-                      </a>
-                    </td>
-                    <td class="py-3 px-3 whitespace-nowrap align-middle">
-                      <span
-                        class="font-heading text-[10px] font-bold uppercase px-2 py-0.5 rounded-full text-white"
-                        style={`background-color: ${ws.color}`}
-                      >
-                        {ws.shortTitle}
-                      </span>
-                    </td>
-                    <td class="font-heading text-xs text-text-secondary py-3 px-3 whitespace-nowrap align-middle">
-                      {phaseYears}
-                    </td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </div>
-      </div>
-    ))}
-  </section>
-
-  <!-- Digital Infrastructure -->
-  <section id="enablers" class="mb-12 scroll-mt-32" aria-label="Digital infrastructure enablers">
-    <h2 class="font-heading text-2xl font-bold text-text-primary mb-2">
-      Digital Infrastructure Enablers
-    </h2>
-    <p class="text-text-secondary mb-6 leading-relaxed">
-      Cross-cutting digital systems that the reform programme builds or extends. Each platform serves multiple
-      workstreams and is treated as core infrastructure rather than as a tool for any single function.
-    </p>
-    <div class="space-y-2">
-      {digitalInfrastructure.map((di) => (
-        <div class="flex flex-wrap items-center gap-3 px-4 py-3 border border-gray-200 rounded-lg">
-          <span class="font-heading text-xs font-bold text-compass-green w-10">{di.id}</span>
-          <span class="font-heading text-sm font-semibold text-text-primary flex-1 min-w-[200px]">
-            {di.initiative}
-          </span>
-          <span class="text-xs text-text-secondary">{di.workstreams}</span>
-        </div>
-      ))}
     </div>
   </section>
 
@@ -1187,8 +1208,6 @@ const grouped = workstreams.map((ws) => {
       const target = document.getElementById(`reform-${depId}`) as HTMLDetailsElement | null;
       if (!target) return;
 
-      // If active filters would hide the target, reset workstream/phase/search
-      // so the user actually sees the card they're jumping to.
       const targetWs = target.dataset.workstream!;
       const targetPhase = target.dataset.phase!;
       const needsReset =
