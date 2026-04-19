@@ -1,0 +1,647 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+
+type Entry = { term: string; full: string; definition: string };
+type Category = { heading: string; entries: Entry[] };
+
+const categories: Category[] = [
+  {
+    heading: "Governance & Accountability",
+    entries: [
+      {
+        term: "AGSA",
+        full: "Auditor-General of South Africa",
+        definition:
+          "Chapter 9 institution that audits every national and provincial department, entity, and municipality and publishes the annual consolidated audit outcomes.",
+      },
+      {
+        term: "COGTA",
+        full: "Department of Cooperative Governance and Traditional Affairs",
+        definition:
+          "National department responsible for intergovernmental relations, provincial–municipal oversight, and traditional leadership.",
+      },
+      {
+        term: "DPME",
+        full: "Department of Planning, Monitoring and Evaluation",
+        definition:
+          "Presidency department that monitors government performance against the National Development Plan and runs the MPAT performance assessment.",
+      },
+      {
+        term: "MPAT",
+        full: "Management Performance Assessment Tool",
+        definition:
+          "DPME's annual diagnostic that rates national and provincial departments on governance, strategic management, HR, and financial management.",
+      },
+      {
+        term: "NCOP",
+        full: "National Council of Provinces",
+        definition:
+          "Second chamber of Parliament representing provincial interests in national legislation.",
+      },
+      {
+        term: "NPC",
+        full: "National Planning Commission",
+        definition:
+          "Advisory body in the Presidency that authored the National Development Plan and reviews progress on long-term strategy.",
+      },
+      {
+        term: "PMG",
+        full: "Parliamentary Monitoring Group",
+        definition:
+          "Independent civil-society organisation that tracks every parliamentary committee meeting, bill, and public submission.",
+      },
+      {
+        term: "SALGA",
+        full: "South African Local Government Association",
+        definition:
+          "Statutory voice of South Africa's 257 municipalities; provides capacity support, research, and collective bargaining for local government.",
+      },
+      {
+        term: "SCOPA",
+        full: "Standing Committee on Public Accounts",
+        definition:
+          "Parliament's watchdog committee that interrogates executive spending and follows up on AGSA findings.",
+      },
+    ],
+  },
+  {
+    heading: "Public Finance",
+    entries: [
+      {
+        term: "DORA",
+        full: "Division of Revenue Act",
+        definition:
+          "Annual Act that sets how nationally raised revenue is split between the national, provincial, and local spheres.",
+      },
+      {
+        term: "ENE",
+        full: "Estimates of National Expenditure",
+        definition:
+          "Treasury document published with the Budget that details every national department's planned spending, programmes, and performance indicators.",
+      },
+      {
+        term: "FFC",
+        full: "Financial and Fiscal Commission",
+        definition:
+          "Independent constitutional body that advises Parliament on the equitable division of revenue between spheres.",
+      },
+      {
+        term: "MFMA",
+        full: "Municipal Finance Management Act",
+        definition:
+          "The financial-management framework governing how municipalities budget, spend, report, and are audited.",
+      },
+      {
+        term: "MTBPS",
+        full: "Medium-Term Budget Policy Statement",
+        definition:
+          "October mini-budget in which Treasury updates the three-year fiscal framework before the February main Budget.",
+      },
+      {
+        term: "NRF",
+        full: "National Revenue Fund",
+        definition:
+          "The consolidated national account into which all money raised by the state is paid before appropriation by Parliament.",
+      },
+      {
+        term: "PFMA",
+        full: "Public Finance Management Act",
+        definition:
+          "The financial-management framework governing national and provincial departments and their entities.",
+      },
+      {
+        term: "SARB",
+        full: "South African Reserve Bank",
+        definition:
+          "Independent central bank responsible for monetary policy, inflation targeting, and financial stability.",
+      },
+      {
+        term: "SARS",
+        full: "South African Revenue Service",
+        definition:
+          "The national tax and customs authority; collects virtually all revenue paid into the NRF.",
+      },
+      {
+        term: "SDBIP",
+        full: "Service Delivery and Budget Implementation Plan",
+        definition:
+          "A municipality's quarterly execution plan that links its budget to measurable service-delivery targets.",
+      },
+      {
+        term: "VAT",
+        full: "Value-Added Tax",
+        definition:
+          "Consumption tax on goods and services, currently 15% and one of the largest sources of national revenue.",
+      },
+    ],
+  },
+  {
+    heading: "Safety & Justice",
+    entries: [
+      {
+        term: "CSPS",
+        full: "Civilian Secretariat for Police Service",
+        definition:
+          "Civilian oversight body that advises the Minister of Police and monitors SAPS performance.",
+      },
+      {
+        term: "DCS",
+        full: "Department of Correctional Services",
+        definition:
+          "National department that runs South Africa's prisons and remand-detention facilities.",
+      },
+      {
+        term: "GBV",
+        full: "Gender-Based Violence",
+        definition:
+          "Violence directed at a person because of their gender; the subject of a dedicated national strategic plan.",
+      },
+      {
+        term: "IPID",
+        full: "Independent Police Investigative Directorate",
+        definition:
+          "Statutory body that investigates deaths in police custody and serious misconduct by SAPS and municipal police.",
+      },
+      {
+        term: "ISS",
+        full: "Institute for Security Studies",
+        definition:
+          "Independent African research institute producing evidence-based analysis on crime, policing, and justice.",
+      },
+      {
+        term: "NPA",
+        full: "National Prosecuting Authority",
+        definition:
+          "The authority that prosecutes criminal cases on behalf of the state and houses units like the Investigating Directorate.",
+      },
+      {
+        term: "SAPS",
+        full: "South African Police Service",
+        definition:
+          "The national police service; publishes quarterly crime statistics and station-level data.",
+      },
+      {
+        term: "SIU",
+        full: "Special Investigating Unit",
+        definition:
+          "Body that investigates serious corruption and maladministration in state institutions under presidential proclamation.",
+      },
+    ],
+  },
+  {
+    heading: "Economy & Development",
+    entries: [
+      {
+        term: "BBBEE",
+        full: "Broad-Based Black Economic Empowerment",
+        definition:
+          "Policy framework scoring firms on ownership, management, skills development, and enterprise development to broaden economic participation.",
+      },
+      {
+        term: "DBSA",
+        full: "Development Bank of Southern Africa",
+        definition:
+          "State-owned development-finance institution that funds infrastructure across the SADC region.",
+      },
+      {
+        term: "DTIC",
+        full: "Department of Trade, Industry and Competition",
+        definition:
+          "National department responsible for industrial policy, trade, competition, and special economic zones.",
+      },
+      {
+        term: "ECI",
+        full: "Economic Complexity Index",
+        definition:
+          "Harvard Growth Lab measure of how diverse and sophisticated a country's export basket is; a leading indicator of future growth.",
+      },
+      {
+        term: "FDI",
+        full: "Foreign Direct Investment",
+        definition:
+          "Investment by a foreign entity that acquires a lasting management interest in a domestic enterprise.",
+      },
+      {
+        term: "GDP",
+        full: "Gross Domestic Product",
+        definition:
+          "The total monetary value of all goods and services produced within the country in a given period.",
+      },
+      {
+        term: "GNI",
+        full: "Gross National Income",
+        definition:
+          "The total income earned by a country's residents, including income from abroad; used as the income input in HDI.",
+      },
+      {
+        term: "NDP",
+        full: "National Development Plan",
+        definition:
+          "The 2012 long-term strategy (Vision 2030) that frames most government planning.",
+      },
+      {
+        term: "NERSA",
+        full: "National Energy Regulator of South Africa",
+        definition:
+          "The regulator for the electricity, piped-gas, and petroleum-pipeline industries.",
+      },
+      {
+        term: "PPP",
+        full: "Purchasing Power Parity",
+        definition:
+          "An exchange-rate adjustment that compares living costs across countries, used to make GDP and income figures internationally comparable.",
+      },
+      {
+        term: "REIPPPP",
+        full: "Renewable Energy Independent Power Producer Procurement Programme",
+        definition:
+          "The procurement programme through which private renewable-energy projects sell electricity to Eskom.",
+      },
+      {
+        term: "SOE",
+        full: "State-Owned Entity",
+        definition:
+          "An enterprise in which the state holds a controlling interest, such as Eskom, Transnet, or Prasa.",
+      },
+    ],
+  },
+  {
+    heading: "Human Development & Health",
+    entries: [
+      {
+        term: "GDI",
+        full: "Gender Development Index",
+        definition:
+          "UNDP measure comparing female and male HDI values.",
+      },
+      {
+        term: "GII",
+        full: "Gender Inequality Index",
+        definition:
+          "UNDP composite index measuring gender-based disadvantage in reproductive health, empowerment, and the labour market.",
+      },
+      {
+        term: "HDI",
+        full: "Human Development Index",
+        definition:
+          "UNDP composite index combining life expectancy, education, and GNI per capita into a single 0–1 score.",
+      },
+      {
+        term: "IHDI",
+        full: "Inequality-adjusted Human Development Index",
+        definition:
+          "HDI adjusted downward for internal inequality in each of its three dimensions.",
+      },
+      {
+        term: "MPI",
+        full: "Multidimensional Poverty Index",
+        definition:
+          "Measures poverty across health, education, and living standards rather than income alone.",
+      },
+      {
+        term: "NHI",
+        full: "National Health Insurance",
+        definition:
+          "The proposed universal health-coverage scheme that would pool funding for public and private healthcare.",
+      },
+      {
+        term: "OHSC",
+        full: "Office of Health Standards Compliance",
+        definition:
+          "Independent body that inspects and certifies public and private health establishments against national norms and standards.",
+      },
+      {
+        term: "PHC",
+        full: "Primary Healthcare",
+        definition:
+          "The first point of contact with the public health system — clinics, community health centres, and outreach teams.",
+      },
+      {
+        term: "PHDI",
+        full: "Planetary Pressures-adjusted HDI",
+        definition:
+          "HDI adjusted for a country's per-capita CO₂ emissions and material footprint.",
+      },
+      {
+        term: "SAMRC",
+        full: "South African Medical Research Council",
+        definition:
+          "Statutory research council producing cause-of-death data, burden-of-disease studies, and health-policy research.",
+      },
+      {
+        term: "UNDP",
+        full: "United Nations Development Programme",
+        definition:
+          "The UN agency that publishes the annual Human Development Report and the HDI family of indices.",
+      },
+      {
+        term: "WHO",
+        full: "World Health Organization",
+        definition:
+          "The UN's specialised agency for international public health.",
+      },
+    ],
+  },
+  {
+    heading: "Education",
+    entries: [
+      {
+        term: "CAPS",
+        full: "Curriculum and Assessment Policy Statements",
+        definition:
+          "The national curriculum framework specifying content, assessment, and pacing for every subject from Grade R to 12.",
+      },
+      {
+        term: "DBE",
+        full: "Department of Basic Education",
+        definition:
+          "National department responsible for schooling from Grade R to 12, including the national senior certificate.",
+      },
+      {
+        term: "NEEDU",
+        full: "National Education Evaluation and Development Unit",
+        definition:
+          "Independent unit that evaluates school, district, and system performance and reports to the Minister.",
+      },
+      {
+        term: "PIRLS",
+        full: "Progress in International Reading Literacy Study",
+        definition:
+          "International comparative assessment of Grade 4 reading comprehension conducted every five years.",
+      },
+      {
+        term: "SACE",
+        full: "South African Council for Educators",
+        definition:
+          "Statutory professional body that registers teachers and enforces the educators' code of conduct.",
+      },
+      {
+        term: "SGB",
+        full: "School Governing Body",
+        definition:
+          "Elected body of parents, educators, and learners that governs each public school.",
+      },
+      {
+        term: "TIMSS",
+        full: "Trends in International Mathematics and Science Study",
+        definition:
+          "International comparative assessment of mathematics and science achievement at Grade 5 and Grade 9.",
+      },
+      {
+        term: "TVET",
+        full: "Technical and Vocational Education and Training",
+        definition:
+          "Public technical-college sector offering vocational qualifications from NQF levels 2 to 6.",
+      },
+    ],
+  },
+  {
+    heading: "Local Government & Infrastructure",
+    entries: [
+      {
+        term: "DWS",
+        full: "Department of Water and Sanitation",
+        definition:
+          "National department responsible for water-resource management and national sanitation policy.",
+      },
+      {
+        term: "IDP",
+        full: "Integrated Development Plan",
+        definition:
+          "A municipality's statutory five-year strategic plan that frames its budget and service-delivery priorities.",
+      },
+      {
+        term: "MIG",
+        full: "Municipal Infrastructure Grant",
+        definition:
+          "The main conditional grant funding municipal infrastructure for basic services.",
+      },
+      {
+        term: "MPAC",
+        full: "Municipal Public Accounts Committee",
+        definition:
+          "A council committee that scrutinises municipal finances and audit outcomes — the local-government equivalent of SCOPA.",
+      },
+      {
+        term: "PRASA",
+        full: "Passenger Rail Agency of South Africa",
+        definition:
+          "The state-owned entity running commuter rail (Metrorail) and long-distance passenger services (Shosholoza Meyl).",
+      },
+      {
+        term: "SANRAL",
+        full: "South African National Roads Agency",
+        definition:
+          "The SOE that plans, finances, and maintains the national road network.",
+      },
+      {
+        term: "WSA",
+        full: "Water Services Authority",
+        definition:
+          "The municipality legally responsible for ensuring water and sanitation services are provided within its area.",
+      },
+    ],
+  },
+  {
+    heading: "Elections, Civic Participation & Rights",
+    entries: [
+      {
+        term: "CPF",
+        full: "Community Police Forum",
+        definition:
+          "Statutory community-level body through which residents engage their local police station on safety priorities.",
+      },
+      {
+        term: "IEC",
+        full: "Independent Electoral Commission",
+        definition:
+          "Chapter 9 institution that manages national, provincial, and municipal elections.",
+      },
+      {
+        term: "NEDLAC",
+        full: "National Economic Development and Labour Council",
+        definition:
+          "Statutory forum where government, business, labour, and community negotiate socio-economic policy before it reaches Parliament.",
+      },
+      {
+        term: "PAIA",
+        full: "Promotion of Access to Information Act",
+        definition:
+          "The law giving effect to the constitutional right of access to information held by the state and private bodies.",
+      },
+      {
+        term: "SAHRC",
+        full: "South African Human Rights Commission",
+        definition:
+          "Chapter 9 institution that monitors and enforces the Bill of Rights and handles human-rights complaints.",
+      },
+    ],
+  },
+  {
+    heading: "Statistics, Research & Data",
+    entries: [
+      {
+        term: "CSIR",
+        full: "Council for Scientific and Industrial Research",
+        definition:
+          "National research council focused on applied science, technology, and industrial innovation.",
+      },
+      {
+        term: "HSRC",
+        full: "Human Sciences Research Council",
+        definition:
+          "National social-science research council producing large-scale surveys on attitudes, health, and social conditions.",
+      },
+      {
+        term: "QLFS",
+        full: "Quarterly Labour Force Survey",
+        definition:
+          "Stats SA's quarterly household survey that produces the official unemployment rate.",
+      },
+      {
+        term: "SACN",
+        full: "South African Cities Network",
+        definition:
+          "Network of the nine largest cities that publishes the State of South African Cities Report.",
+      },
+      {
+        term: "StatsSA",
+        full: "Statistics South Africa",
+        definition:
+          "The national statistical office responsible for the census, labour-force surveys, and official economic indicators.",
+      },
+    ],
+  },
+  {
+    heading: "Political Bodies & Offices",
+    entries: [
+      {
+        term: "ANC",
+        full: "African National Congress",
+        definition:
+          "Liberation movement and governing party since 1994; led a coalition Government of National Unity from 2024.",
+      },
+      {
+        term: "CFO",
+        full: "Chief Financial Officer",
+        definition:
+          "The accounting officer's senior financial deputy in a department, entity, or municipality.",
+      },
+      {
+        term: "DA",
+        full: "Democratic Alliance",
+        definition:
+          "The largest opposition party and governing partner in several provincial and metropolitan coalitions.",
+      },
+      {
+        term: "DG",
+        full: "Director-General",
+        definition:
+          "The administrative head (accounting officer) of a national department.",
+      },
+      {
+        term: "EFF",
+        full: "Economic Freedom Fighters",
+        definition:
+          "Left-populist party founded in 2013, represented in Parliament and most provincial legislatures.",
+      },
+      {
+        term: "HoD",
+        full: "Head of Department",
+        definition:
+          "The administrative head (accounting officer) of a provincial department.",
+      },
+      {
+        term: "IFP",
+        full: "Inkatha Freedom Party",
+        definition:
+          "Political party with its historic base in KwaZulu-Natal; part of the 2024 Government of National Unity.",
+      },
+      {
+        term: "MEC",
+        full: "Member of the Executive Council",
+        definition:
+          "A member of a provincial cabinet, appointed by the Premier and accountable to the provincial legislature.",
+      },
+      {
+        term: "MP",
+        full: "Member of Parliament",
+        definition:
+          "An elected representative in the National Assembly or a permanent delegate to the NCOP.",
+      },
+      {
+        term: "SONA",
+        full: "State of the Nation Address",
+        definition:
+          "The President's annual address to a joint sitting of Parliament setting out government priorities.",
+      },
+    ],
+  },
+];
+
+const total = categories.reduce((n, c) => n + c.entries.length, 0);
+---
+
+<PageLayout
+  title="Glossary"
+  description="A plain-language glossary of the acronyms and abbreviations used across the GovCompass series — from AGSA to SONA."
+>
+  <h1 class="font-heading text-3xl font-bold text-text-primary mb-4">
+    Glossary
+  </h1>
+
+  <p class="text-text-secondary mb-4 leading-relaxed">
+    South African public life runs on acronyms. This glossary collects the
+    {total} abbreviations used across the GovCompass series in one place, each
+    with a plain-language definition so you can read any article without losing
+    the thread.
+  </p>
+  <p class="text-text-secondary mb-8 leading-relaxed">
+    Entries are grouped by theme. Use the jump links below to move between
+    sections.
+  </p>
+
+  <nav aria-label="Glossary sections" class="mb-10">
+    <ul class="flex flex-wrap gap-2" role="list">
+      {categories.map((c) => (
+        <li>
+          <a
+            href={`#${c.heading.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`}
+            class="inline-block px-3 py-1.5 rounded-full border border-gray-200 font-heading text-xs text-text-secondary hover:border-compass-green hover:text-compass-green transition-colors"
+          >
+            {c.heading}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+
+  {
+    categories.map((category) => {
+      const id = category.heading
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "");
+      return (
+        <section id={id} class="mb-10 scroll-mt-20">
+          <h2 class="font-heading text-xl font-bold text-text-primary mb-4">
+            {category.heading}
+          </h2>
+          <dl class="space-y-4">
+            {category.entries.map((entry) => (
+              <div class="border border-gray-200 rounded-lg p-5">
+                <dt class="font-heading text-lg font-semibold text-text-primary mb-1">
+                  <span class="text-compass-green">{entry.term}</span>
+                  <span class="text-text-secondary font-normal"> — {entry.full}</span>
+                </dt>
+                <dd class="text-sm text-text-secondary leading-relaxed">
+                  {entry.definition}
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </section>
+      );
+    })
+  }
+</PageLayout>

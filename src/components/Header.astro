@@ -25,10 +25,11 @@ const topicsLinks = [
   { href: "/big-picture", label: "The Big Picture" },
   { href: "/government-functions", label: "State Functions" },
   ...pillars.map((p) => ({ href: `/pillars/${p.slug}`, label: p.title })),
+  { href: "/glossary", label: "Glossary" },
 ];
 
 const currentPath = Astro.url.pathname;
-const isTopicsActive = currentPath.startsWith("/pillars") || currentPath === "/big-picture" || currentPath.startsWith("/government-functions");
+const isTopicsActive = currentPath.startsWith("/pillars") || currentPath === "/big-picture" || currentPath.startsWith("/government-functions") || currentPath === "/glossary";
 
 const isDev = import.meta.env.DEV;
 const isReformActive = currentPath === "/reform-programme" || currentPath === "/reform-scorecard" || currentPath === "/diagnostic-frameworks" || currentPath === "/real-steps-to-reform" || currentPath === "/advocacy-playbooks";
