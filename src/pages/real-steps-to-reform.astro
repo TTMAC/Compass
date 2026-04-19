@@ -34,19 +34,19 @@ const legislativeGroups: {
   items: typeof legislativeItems;
 }[] = [
   {
-    type: "new",
+    type: "new" as const,
     heading: "New Statutes",
     description: "Wholly new legislation required to create institutions or frameworks that do not currently exist.",
     items: legislativeItems.filter((l) => l.type === "new"),
   },
   {
-    type: "amendment",
+    type: "amendment" as const,
     heading: "Amendments to Existing Legislation",
     description: "Changes to existing Acts to enable or implement the reform programme.",
     items: legislativeItems.filter((l) => l.type === "amendment"),
   },
   {
-    type: "constitutional",
+    type: "constitutional" as const,
     heading: "Possible Constitutional Amendment",
     description: "Changes to the Constitution — to be pursued only if legislative reform proves insufficient.",
     items: legislativeItems.filter((l) => l.type === "constitutional"),
@@ -523,13 +523,14 @@ const grouped = workstreams.map((ws) => {
                           </span>
                           {reform.articleSlug && (
                             <span
-                              class="shrink-0 inline-flex items-center justify-center w-5 h-5 rounded-full bg-compass-green-light text-compass-green"
-                              title="Full article available"
-                              aria-label="Full article available"
+                              class="hidden sm:inline-flex items-center gap-1 shrink-0 px-2 py-0.5 rounded text-[10px] font-heading font-semibold uppercase tracking-wide bg-compass-green-light text-compass-green"
+                              title="Supporting analysis available"
+                              aria-label="Supporting analysis available"
                             >
-                              <svg class="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" aria-hidden="true">
+                              <svg class="w-2.5 h-2.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3" aria-hidden="true">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                               </svg>
+                              Supporting Analysis
                             </span>
                           )}
                           <svg
@@ -1203,7 +1204,7 @@ const grouped = workstreams.map((ws) => {
 
   // Dependency links: open the target reform card so it's visible after anchor scroll
   document.querySelectorAll<HTMLAnchorElement>(".reform-dep-link").forEach((link) => {
-    link.addEventListener("click", (e) => {
+    link.addEventListener("click", () => {
       const depId = link.dataset.depId!;
       const target = document.getElementById(`reform-${depId}`) as HTMLDetailsElement | null;
       if (!target) return;
