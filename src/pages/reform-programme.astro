@@ -85,33 +85,33 @@ const actComponents = [
   },
 ];
 
-const phases = [
+const waves = [
   {
-    label: "Phase 1",
+    label: "Wave 1",
     period: "Months 1–12",
     title: "Regulatory Foundation",
-    body: "Uses existing legislative authority to establish the data platform, fiscal reforms, and capability measures that later phases require. The Integrated Governance Performance Platform goes live. MFMA regulations mandate ring-fenced revenue. Trigger protocols are piloted in voluntary agreements.",
+    body: "Uses existing legislative authority to establish the data platform, fiscal reforms, and capability measures that later waves require. The Integrated Governance Performance Platform goes live. MFMA regulations mandate ring-fenced revenue. Trigger protocols are piloted in voluntary agreements.",
     color: "#355E3B",
   },
   {
-    label: "Phase 2",
+    label: "Wave 2",
     period: "Years 1–3",
     title: "Legislative Architecture",
     body: "The Governance Reform Programme Act is drafted and introduced as the anchor legislation. Function-specific amendment bills (Employment of Educators Act, National Health Act, Water Services Act, Housing Act, Municipal Systems Act) follow in a coordinated sequence.",
     color: "#7A5C1F",
   },
   {
-    label: "Phase 3",
+    label: "Wave 3",
     period: "Years 3–5",
     title: "Implementation & Calibration",
     body: "New institutions take effect — district PHC authorities, WSA/WSP separation, municipal housing agencies. The enforcement architecture activates. The first full cycle of data generates the coherence assessment and recalibrates trigger thresholds.",
     color: "#553691",
   },
   {
-    label: "Phase 4",
+    label: "Wave 4",
     period: "Year 5+",
     title: "Cycle Management",
-    body: "The Reform Coordination Office evolves from reform coordination into a permanent cycle management institution — monitoring the virtuous cycle (safety → growth → development → safety) and providing the systemic oversight South Africa has never had. Phase 4 is the institutional mechanism that operates across Stages 2 and 3 of the 25-year cycle.",
+    body: "The Reform Coordination Office evolves from reform coordination into a permanent cycle management institution — monitoring the virtuous cycle (safety → growth → development → safety) and providing the systemic oversight South Africa has never had. Wave 4 is the institutional mechanism that operates across Stages 2 and 3 of the 25-year cycle.",
     color: "#1F6F8B",
   },
 ];
@@ -164,9 +164,9 @@ const pathways = [
     </p>
     <p class="text-text-secondary leading-relaxed">
       This page summarises the architecture of that programme. It explains the diagnostic findings that motivate
-      it, the seven components that would constitute a Governance Reform Programme Act, the four-phase sequencing
+      it, the seven components that would constitute a Governance Reform Programme Act, the four-wave sequencing
       that respects both legislative feasibility and implementation dependency, and how each section of this
-      site fits into that whole. The four phases sit inside a longer 25-year cycle — structural repair over
+      site fits into that whole. The four waves sit inside a longer 25-year cycle — structural repair over
       the first decade, then cycle activation and innovation-driven convergence over the following fifteen
       years. See <a href="/real-steps-to-reform#cycle" class="text-compass-green hover:underline font-semibold">the
       25-year cycle overview</a> on the Reform Roadmap page.
@@ -180,7 +180,7 @@ const pathways = [
     <a href="#diagnostic" class="text-compass-green hover:underline">Diagnostic Findings</a>
     <a href="#features" class="text-compass-green hover:underline">Distinguishing Features</a>
     <a href="#components" class="text-compass-green hover:underline">Seven Components</a>
-    <a href="#phases" class="text-compass-green hover:underline">Four Phases</a>
+    <a href="#waves" class="text-compass-green hover:underline">Four Waves</a>
     <a href="#navigate" class="text-compass-green hover:underline">Where to Go Next</a>
   </nav>
 
@@ -301,18 +301,18 @@ const pathways = [
     </div>
   </section>
 
-  <!-- Four Phases -->
-  <section id="phases" class="mb-12 scroll-mt-32" aria-label="Four phases of sequencing">
+  <!-- Four Waves -->
+  <section id="waves" class="mb-12 scroll-mt-32" aria-label="Four waves of sequencing">
     <h2 class="font-heading text-2xl font-bold text-text-primary mb-2">
-      Sequencing: Four Phases
+      Sequencing: Four Waves
     </h2>
     <p class="text-text-secondary mb-6 leading-relaxed">
       Sequencing respects two constraints: legislative feasibility (what can move quickly through regulation
       versus what requires parliamentary process) and implementation dependency (which institutional infrastructure
-      must precede which reforms). No phase assumes capabilities that have not yet been established.
+      must precede which reforms). No wave assumes capabilities that have not yet been established.
     </p>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      {phases.map((p) => (
+      {waves.map((p) => (
         <div
           class="rounded-lg border-l-4 border border-gray-200 p-5"
           style={`border-left-color: ${p.color}`}
