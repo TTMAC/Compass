@@ -1,0 +1,653 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+
+const logicChain = [
+  {
+    stage: "1",
+    name: "Inputs",
+    aka: "Resources",
+    horizon: "Now",
+    control: "Direct",
+    side: "leading",
+    definition:
+      "Human, financial, institutional, and legal resources available to the reform programme — budget, staff, statutory mandates, data infrastructure.",
+    govCompass:
+      "The Governance Reform Programme Act, the Reform Coordination Office, guaranteed budget lines, the Integrated Governance Performance Platform.",
+  },
+  {
+    stage: "2",
+    name: "Activities",
+    aka: "Processes",
+    horizon: "Months",
+    control: "Direct",
+    side: "leading",
+    definition:
+      "What the programme does with those resources — drafting bills, gazetting regulations, standing up institutions, running interventions, training officials.",
+    govCompass:
+      "The 80+ reforms across four workstreams, the four-wave sequencing, Section 100/139 interventions with binding exit criteria.",
+  },
+  {
+    stage: "3",
+    name: "Outputs",
+    aka: "Deliverables",
+    horizon: "1–3 years",
+    control: "High",
+    side: "leading",
+    definition:
+      "Direct, quantifiable products of activities — legislation passed, institutions operational, posts filled, triggers fired, audits cleared.",
+    govCompass:
+      "RAARICLE™ institutional scores per function, protected-post fill rates, Wave 1 and 2 milestones completed on schedule.",
+  },
+  {
+    stage: "4",
+    name: "Outcomes",
+    aka: "Changes",
+    horizon: "3–7 years",
+    control: "Indirect",
+    side: "lagging",
+    definition:
+      "Specific changes in conditions, behaviour, and capability — functional services, investment responding, safer neighbourhoods, healthier children.",
+    govCompass:
+      "The intermediate indicators in the Reinforcing Cycle Scorecard — contact-crime rate, fixed investment as % of GDP, PHC coverage, Grade 4 reading.",
+  },
+  {
+    stage: "5",
+    name: "Impact",
+    aka: "Systemic change",
+    horizon: "7–25 years",
+    control: "Low",
+    side: "lagging",
+    definition:
+      "Fundamental, durable change in the governance system and citizens' lives — the virtuous cycle activating across safety, growth, and development.",
+    govCompass:
+      "The headline outcomes — life expectancy, HDI, multidimensional poverty, homicide rate — that define whether South Africa's reinforcing cycle has turned.",
+  },
+];
+
+const comparisonRows = [
+  {
+    dimension: "Position in the chain",
+    leading: "Stages 1–3 (Inputs, Activities, Outputs).",
+    lagging: "Stages 4–5 (Outcomes, Impact).",
+  },
+  {
+    dimension: "What it measures",
+    leading: "Resources, effort, and the institutional quality of delivery — the drivers the theory of change says produce outcomes.",
+    lagging: "The outcomes and systemic impact themselves — the conditions citizens actually experience.",
+  },
+  {
+    dimension: "When the signal appears",
+    leading: "Early. Readable quarter by quarter as reforms move through the pipeline.",
+    lagging: "Late. Readable only after enough time for causal effects to propagate.",
+  },
+  {
+    dimension: "Time horizon",
+    leading: "Quarterly to annual.",
+    lagging: "Annual to decadal.",
+  },
+  {
+    dimension: "Control by the state",
+    leading: "High. Directly changed by legislation, appointments, budget, and operational choices.",
+    lagging: "Low. Shaped by many upstream decisions plus exogenous shocks and behavioural responses.",
+  },
+  {
+    dimension: "Primary risk",
+    leading: "Measuring drivers that do not actually cause the outcome — activity theatre.",
+    lagging: "Acting too late — by the time the metric moves, the window to course-correct has closed.",
+  },
+  {
+    dimension: "Accountability target",
+    leading: "The executive and administration delivering reforms in flight.",
+    lagging: "The system as a whole — government, markets, households, and their interactions.",
+  },
+  {
+    dimension: "Political economy",
+    leading: "Under-used. Harder to campaign on, cheap to publish, easier to manipulate if the theory of change is weak.",
+    lagging: "Over-used. Emotionally resonant and easy to politicise, but tells you only what has already happened.",
+  },
+];
+
+const knowledgeMap = [
+  {
+    layer: "Layer 1 — Causal model",
+    title: "The Reinforcing Cycle",
+    href: "/big-picture",
+    role: "Theory of change",
+    chainRole:
+      "Defines what counts as Impact (Stage 5) and which intermediate Outcomes (Stage 4) must move together. Binds the whole chain to a single causal story.",
+    metric: "Neither leading nor lagging — it is the logic that makes every other metric legitimate.",
+    tone: "#1B4965",
+    tint: "#E0EBF2",
+  },
+  {
+    layer: "Layer 2 — Diagnostic",
+    title: "RAARICLE™ & failure patterns",
+    href: "/diagnostic-frameworks",
+    role: "Why outcomes fail",
+    chainRole:
+      "Identifies the institutional conditions that must exist at Stages 1–3 for the chain to work at all. Every reform in the programme traces back to a RAARICLE finding.",
+    metric: "Supplies leading metrics on institutional quality — RAARICLE scores, capability ratios, enforcement compliance.",
+    tone: "#7A5C1F",
+    tint: "#F3EBDA",
+  },
+  {
+    layer: "Layer 3 — Reform programme",
+    title: "Reform Programme & Roadmap",
+    href: "/reform-programme",
+    role: "What must change",
+    chainRole:
+      "Specifies the Inputs (Stage 1), Activities (Stage 2), and Outputs (Stage 3) that the programme is committing to deliver. The entire left side of the chain is authored here.",
+    metric: "Supplies leading metrics on reform delivery — legislation introduced, regulations gazetted, institutions stood up.",
+    tone: "#553691",
+    tint: "#E8E0F4",
+  },
+  {
+    layer: "Layer 4 — Measurement",
+    title: "Reinforcing Cycle Scorecard",
+    href: "/reform-scorecard",
+    role: "Confirmation",
+    chainRole:
+      "Reads the right side of the chain — the Outcomes (Stage 4) and Impact (Stage 5) — through 15 indicators across safety, growth, and development.",
+    metric: "Is the lagging set. Confirms, years later, whether the preceding three layers produced the system they promised.",
+    tone: "#1E6A35",
+    tint: "#E6F4EA",
+  },
+];
+
+const pairedExamples = [
+  {
+    domain: "Safety",
+    leading: "Detective-to-docket ratio (Stage 1); court-ready dockets within 90 days (Stage 2); specialised-court clearance rate (Stage 3).",
+    lagging: "Contact-crime rate; homicide per 100 000; trust in SAPS (Stages 4–5).",
+  },
+  {
+    domain: "Growth",
+    leading: "Rail tonne-kilometres hauled; Durban port throughput; building-plan approval time; investment pipeline value (Stages 2–3).",
+    lagging: "Real GDP growth; fixed investment as % of GDP; expanded unemployment rate (Stages 4–5).",
+  },
+  {
+    domain: "Development",
+    leading: "Blue Drop compliance by WSA; PHC first-visit waiting time; Grade 4 reading proficiency (Stages 2–3).",
+    lagging: "Life expectancy at birth; HDI; child stunting; multidimensional poverty headcount (Stages 4–5).",
+  },
+  {
+    domain: "Institutional quality",
+    leading: "AGSA unqualified-audit share; technical-post vacancy rate; interventions with binding exit criteria (Stages 2–3).",
+    lagging: "State capability index; perceived corruption; citizen trust in institutions (Stages 4–5).",
+  },
+];
+---
+
+<PageLayout
+  title="Leading and Lagging Metrics"
+  description="How the Kellogg Logic Model maps onto South Africa's reform programme — inputs, activities, outputs, outcomes, impact — and how leading and lagging metrics cut across that chain to connect the GovCompass Knowledge Model."
+  width="wide"
+>
+  <!-- Hero -->
+  <header class="mb-10">
+    <p class="font-heading text-sm font-semibold text-compass-green uppercase tracking-wide mb-2">
+      Reform Measurement
+    </p>
+    <h1 class="font-heading text-3xl md:text-4xl font-bold text-text-primary mb-3 leading-tight">
+      Leading and Lagging Metrics
+    </h1>
+    <p class="text-lg text-text-secondary leading-relaxed mb-4">
+      Every serious reform programme is held together by a <strong class="text-text-primary">logic model</strong> — a
+      causal chain that links the resources the state commands to the impact citizens eventually feel. The Kellogg
+      Foundation's formulation of that chain is the most widely used in public-programme evaluation: five stages
+      running from <em>Inputs</em> through <em>Activities</em> and <em>Outputs</em> to <em>Outcomes</em> and
+      <em>Impact</em>. Leading and lagging metrics are not two separate systems; they are the two halves of that
+      single chain.
+    </p>
+    <p class="text-text-secondary leading-relaxed">
+      This page lays the chain out explicitly, marks the boundary where leading metrics become lagging ones, and
+      shows how each layer of the GovCompass Knowledge Model — the Reinforcing Cycle, RAARICLE™, the Reform
+      Programme, and the Scorecard — attaches to a specific stage of the model. The design rule is simple: a metric
+      earns its place only if its position in the chain is explicit and its causal link to the next stage is
+      defensible.
+    </p>
+  </header>
+
+  <!-- On-page navigation -->
+  <nav class="mb-10 flex flex-wrap gap-x-4 gap-y-1 text-xs font-heading" aria-label="Jump to section">
+    <span class="text-text-secondary font-semibold">Jump to:</span>
+    <a href="#chain" class="text-compass-green hover:underline">The Logic-Model Chain</a>
+    <a href="#cut" class="text-compass-green hover:underline">Leading vs Lagging</a>
+    <a href="#directions" class="text-compass-green hover:underline">Two Reading Directions</a>
+    <a href="#knowledge-model" class="text-compass-green hover:underline">The Knowledge Model</a>
+    <a href="#examples" class="text-compass-green hover:underline">Worked Pairs</a>
+    <a href="#reading" class="text-compass-green hover:underline">Reading the System</a>
+    <a href="#navigate" class="text-compass-green hover:underline">Where to Go Next</a>
+  </nav>
+
+  <!-- 1. The chain -->
+  <section id="chain" class="mb-14 scroll-mt-24" aria-labelledby="chain-heading">
+    <h2 id="chain-heading" class="font-heading text-2xl font-bold text-text-primary mb-3">
+      The Logic-Model Chain
+    </h2>
+    <p class="text-text-secondary mb-4 leading-relaxed">
+      The Kellogg Logic Model reads as a sequence of <strong class="text-text-primary">if-then</strong> causal
+      statements. <em>If</em> we have these resources, <em>then</em> we can run these activities. <em>If</em> the
+      activities run, <em>then</em> these outputs are produced. <em>If</em> the outputs are produced, <em>then</em>
+      these outcomes follow. <em>If</em> outcomes accumulate, <em>then</em> impact occurs. The chain is only as
+      strong as its weakest link: a reform that is funded and delivered (Stages 1–3) but whose theory linking outputs
+      to outcomes is wrong (Stage 3→4) will never produce impact, no matter how faithfully it is implemented.
+    </p>
+    <p class="text-text-secondary mb-6 leading-relaxed">
+      Each stage has a distinct time horizon and a distinct degree of state control. As you move right along the
+      chain, the state's direct control falls and the lag between action and evidence rises. That gradient is what
+      makes the leading/lagging distinction necessary.
+    </p>
+
+    <!-- Stage cards with arrows -->
+    <div class="relative">
+      <div class="grid grid-cols-1 md:grid-cols-5 gap-3 md:gap-2">
+        {logicChain.map((stage, idx) => {
+          const isLeading = stage.side === "leading";
+          const border = isLeading ? "#553691" : "#1E6A35";
+          const tint = isLeading ? "#E8E0F4" : "#E6F4EA";
+          return (
+            <div class="relative flex flex-col">
+              <div
+                class="rounded-lg border-2 p-4 h-full flex flex-col"
+                style={`border-color: ${border}40; background-color: ${tint}AA`}
+              >
+                <div class="flex items-center gap-2 mb-2">
+                  <span
+                    class="inline-flex items-center justify-center w-6 h-6 rounded-full font-heading text-xs font-bold text-white"
+                    style={`background-color: ${border}`}
+                  >
+                    {stage.stage}
+                  </span>
+                  <p class="font-heading text-xs font-semibold uppercase tracking-wide" style={`color: ${border}`}>
+                    {isLeading ? "Leading" : "Lagging"}
+                  </p>
+                </div>
+                <p class="font-heading text-lg font-bold mb-1" style={`color: ${border}`}>
+                  {stage.name}
+                </p>
+                <p class="text-xs text-text-secondary italic mb-2">
+                  {stage.aka} &middot; {stage.horizon}
+                </p>
+                <p class="text-xs text-text-secondary leading-relaxed">
+                  {stage.definition}
+                </p>
+              </div>
+              {idx < logicChain.length - 1 && (
+                <div class="hidden md:flex absolute top-1/2 -right-2 -translate-y-1/2 z-10 items-center justify-center w-4 h-4 pointer-events-none" aria-hidden="true">
+                  <svg class="w-4 h-4 text-text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+
+      <!-- Leading/lagging banner beneath chain -->
+      <div class="mt-4 grid grid-cols-5 gap-2" aria-hidden="true">
+        <div class="col-span-3 h-1.5 rounded-full" style="background-color: #55369180"></div>
+        <div class="col-span-2 h-1.5 rounded-full" style="background-color: #1E6A3580"></div>
+      </div>
+      <div class="mt-1 grid grid-cols-5 gap-2 text-xs font-heading font-semibold">
+        <p class="col-span-3" style="color: #553691">&larr; Leading metrics live here (Stages 1–3)</p>
+        <p class="col-span-2 text-right" style="color: #1E6A35">Lagging metrics live here (Stages 4–5) &rarr;</p>
+      </div>
+    </div>
+
+    <aside class="mt-6 p-5 rounded-lg border-l-4 border-compass-green bg-compass-green-light/40">
+      <p class="font-heading text-sm font-bold text-text-primary mb-1">
+        The two inter-stage joints that matter most
+      </p>
+      <p class="text-sm text-text-secondary leading-relaxed mb-2">
+        <strong class="text-text-primary">Stage 2 → Stage 3</strong> is where good intentions become deliverables.
+        Reforms that stall here produce activity without outputs — consultations that never become bills, bills
+        that never become regulations, regulations that are never enforced.
+      </p>
+      <p class="text-sm text-text-secondary leading-relaxed">
+        <strong class="text-text-primary">Stage 3 → Stage 4</strong> is the <em>theory of change</em> joint. An
+        output may be produced faithfully and still fail to cause the outcome it was intended to produce. This is
+        the joint where leading metrics stop speaking and lagging ones take over — and the joint most likely to
+        embarrass a reform programme whose causal assumptions were never stress-tested.
+      </p>
+    </aside>
+  </section>
+
+  <!-- 2. The cut across the chain -->
+  <section id="cut" class="mb-14 scroll-mt-24" aria-labelledby="cut-heading">
+    <h2 id="cut-heading" class="font-heading text-2xl font-bold text-text-primary mb-3">
+      Leading vs Lagging: A Cut Across the Chain
+    </h2>
+    <p class="text-text-secondary mb-6 leading-relaxed">
+      Leading and lagging are not two independent families of metric. They are one chain, cut at the boundary
+      between <strong class="text-text-primary">Outputs (Stage 3)</strong> and <strong class="text-text-primary">Outcomes
+      (Stage 4)</strong>. Everything upstream of that line is under the state's direct control and visible quickly;
+      everything downstream is indirect and slow. The two halves have opposite strengths and opposite failure modes.
+    </p>
+    <div class="overflow-x-auto border border-gray-200 rounded-lg">
+      <table class="w-full text-sm border-collapse">
+        <colgroup>
+          <col class="w-[22%]" />
+          <col class="w-[39%]" />
+          <col class="w-[39%]" />
+        </colgroup>
+        <thead>
+          <tr class="border-b border-gray-200 bg-gray-50">
+            <th class="text-left font-heading font-bold text-text-primary py-3 px-4" scope="col">
+              Dimension
+            </th>
+            <th class="text-left font-heading font-bold py-3 px-4" style="color: #553691" scope="col">
+              Leading (Stages 1–3)
+            </th>
+            <th class="text-left font-heading font-bold py-3 px-4" style="color: #1E6A35" scope="col">
+              Lagging (Stages 4–5)
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {comparisonRows.map((row) => (
+            <tr class="border-b border-gray-100 last:border-0 align-top hover:bg-gray-50/60 transition-colors">
+              <td class="py-3 px-4">
+                <p class="font-heading font-semibold text-text-primary leading-snug">{row.dimension}</p>
+              </td>
+              <td class="py-3 px-4">
+                <p class="text-text-secondary leading-relaxed">{row.leading}</p>
+              </td>
+              <td class="py-3 px-4">
+                <p class="text-text-secondary leading-relaxed">{row.lagging}</p>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 3. Two directions -->
+  <section id="directions" class="mb-14 scroll-mt-24" aria-labelledby="directions-heading">
+    <h2 id="directions-heading" class="font-heading text-2xl font-bold text-text-primary mb-3">
+      Two Ways to Read the Chain
+    </h2>
+    <p class="text-text-secondary mb-6 leading-relaxed">
+      The Kellogg Guide makes a point that is easy to overlook: the logic model is read in one direction when you
+      <em>plan</em> a programme and in the opposite direction when you <em>implement and evaluate</em> it. A reform
+      programme that only reads the chain in one direction will either build unaffordable cathedrals or deliver
+      cheap activity that never produces impact.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="rounded-lg border-2 p-5" style="border-color: #1E6A3540; background-color: #E6F4EA66">
+        <div class="flex items-center gap-2 mb-2">
+          <span class="font-heading text-xs font-semibold uppercase tracking-wide" style="color: #1E6A35">Planning</span>
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="#1E6A35" stroke-width="2.5" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+          <span class="font-heading text-xs font-semibold uppercase tracking-wide" style="color: #1E6A35">Right to Left</span>
+        </div>
+        <p class="font-heading text-lg font-bold text-text-primary mb-2">
+          Impact &rarr; Outcomes &rarr; Outputs &rarr; Activities &rarr; Inputs
+        </p>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          Start from the Impact you want to produce — a turning reinforcing cycle — and work backwards. What outcomes
+          must obtain? What outputs produce those outcomes? What activities produce those outputs? What resources do
+          the activities require? This is the direction that makes a reform programme <em>affordable</em> and
+          <em>purposeful</em>. GovCompass's Reform Programme was written this way.
+        </p>
+      </div>
+      <div class="rounded-lg border-2 p-5" style="border-color: #55369140; background-color: #E8E0F466">
+        <div class="flex items-center gap-2 mb-2">
+          <span class="font-heading text-xs font-semibold uppercase tracking-wide" style="color: #553691">Implementation</span>
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="#553691" stroke-width="2.5" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+          <span class="font-heading text-xs font-semibold uppercase tracking-wide" style="color: #553691">Left to Right</span>
+        </div>
+        <p class="font-heading text-lg font-bold text-text-primary mb-2">
+          Inputs &rarr; Activities &rarr; Outputs &rarr; Outcomes &rarr; Impact
+        </p>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          Once the programme is running, read the chain forwards. Are the Inputs secured? Are Activities occurring
+          on schedule? Are Outputs being produced? Are Outcomes responding on the expected lag? Is Impact compounding
+          at the predicted rate? This is the direction that makes a reform programme <em>accountable</em> — and it
+          is what the Scorecard and the leading-metric dashboards are for.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Knowledge Model mapped onto the chain -->
+  <section id="knowledge-model" class="mb-14 scroll-mt-24" aria-labelledby="km-heading">
+    <h2 id="km-heading" class="font-heading text-2xl font-bold text-text-primary mb-3">
+      The GovCompass Knowledge Model on the Chain
+    </h2>
+    <p class="text-text-secondary mb-4 leading-relaxed">
+      GovCompass is organised as a <strong class="text-text-primary">Knowledge Model</strong> — a sequenced stack in
+      which each layer supplies the justification for the layer above. That stack sits <em>across</em> the logic
+      model rather than alongside it. One layer authors the left side of the chain. Another reads the right side.
+      A third supplies the institutional tests that must be satisfied at every stage. A fourth provides the causal
+      theory that makes the whole model legitimate.
+    </p>
+    <p class="text-text-secondary mb-6 leading-relaxed">
+      The table below shows how each layer of the Knowledge Model attaches to the Kellogg chain and whether it
+      produces leading metrics, lagging metrics, or the theory that validates both.
+    </p>
+
+    <div class="overflow-x-auto border border-gray-200 rounded-lg mb-6">
+      <table class="w-full text-sm border-collapse">
+        <colgroup>
+          <col class="w-[18%]" />
+          <col class="w-[22%]" />
+          <col class="w-[36%]" />
+          <col class="w-[24%]" />
+        </colgroup>
+        <thead>
+          <tr class="border-b border-gray-200 bg-gray-50">
+            <th class="text-left font-heading font-bold text-text-primary py-3 px-4" scope="col">Layer</th>
+            <th class="text-left font-heading font-bold text-text-primary py-3 px-4" scope="col">GovCompass artefact</th>
+            <th class="text-left font-heading font-bold text-text-primary py-3 px-4" scope="col">Role in the chain</th>
+            <th class="text-left font-heading font-bold text-text-primary py-3 px-4" scope="col">Metric it produces</th>
+          </tr>
+        </thead>
+        <tbody>
+          {knowledgeMap.map((layer) => (
+            <tr class="border-b border-gray-100 last:border-0 align-top hover:bg-gray-50/60 transition-colors">
+              <td class="py-3 px-4">
+                <p class="font-heading font-semibold leading-snug" style={`color: ${layer.tone}`}>{layer.layer}</p>
+                <p class="text-xs text-text-secondary mt-1 leading-snug">{layer.role}</p>
+              </td>
+              <td class="py-3 px-4">
+                <a href={layer.href} class="font-heading font-semibold text-text-primary hover:text-compass-green transition-colors leading-snug">
+                  {layer.title} &rarr;
+                </a>
+              </td>
+              <td class="py-3 px-4">
+                <p class="text-text-secondary leading-relaxed">{layer.chainRole}</p>
+              </td>
+              <td class="py-3 px-4">
+                <p class="text-text-secondary leading-relaxed">{layer.metric}</p>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <aside class="p-5 rounded-lg border-l-4 border-compass-green bg-compass-green-light/40">
+      <p class="font-heading text-sm font-bold text-text-primary mb-1">
+        The admission rule for any new metric
+      </p>
+      <p class="text-sm text-text-secondary leading-relaxed">
+        A proposed metric earns its place in the reform programme only if three questions can be answered: (a) which
+        Kellogg stage does it live on, (b) which Knowledge Model layer authorises it, and (c) what causal assumption
+        links it to the next stage. A metric that fails any of the three is activity theatre, however attractive
+        its politics.
+      </p>
+    </aside>
+  </section>
+
+  <!-- 5. Worked pairs -->
+  <section id="examples" class="mb-14 scroll-mt-24" aria-labelledby="examples-heading">
+    <h2 id="examples-heading" class="font-heading text-2xl font-bold text-text-primary mb-3">
+      Paired Metrics Across the Reform Programme
+    </h2>
+    <p class="text-text-secondary mb-6 leading-relaxed">
+      In every domain the Knowledge Model covers, leading and lagging metrics travel in pairs — a leading set drawn
+      from Stages 1–3 and a lagging set drawn from Stages 4–5. The lagging metric defines success. The leading
+      metric tells you, in advance, whether you are on track to reach it.
+    </p>
+    <div class="overflow-x-auto border border-gray-200 rounded-lg">
+      <table class="w-full text-sm border-collapse">
+        <colgroup>
+          <col class="w-[18%]" />
+          <col class="w-[45%]" />
+          <col class="w-[37%]" />
+        </colgroup>
+        <thead>
+          <tr class="border-b border-gray-200 bg-gray-50">
+            <th class="text-left font-heading font-bold text-text-primary py-3 px-4" scope="col">Domain</th>
+            <th class="text-left font-heading font-bold py-3 px-4" style="color: #553691" scope="col">Leading metrics (Stages 1–3)</th>
+            <th class="text-left font-heading font-bold py-3 px-4" style="color: #1E6A35" scope="col">Lagging metrics (Stages 4–5)</th>
+          </tr>
+        </thead>
+        <tbody>
+          {pairedExamples.map((row) => (
+            <tr class="border-b border-gray-100 last:border-0 align-top hover:bg-gray-50/60 transition-colors">
+              <td class="py-3 px-4">
+                <p class="font-heading font-semibold text-text-primary leading-snug">{row.domain}</p>
+              </td>
+              <td class="py-3 px-4">
+                <p class="text-text-secondary leading-relaxed">{row.leading}</p>
+              </td>
+              <td class="py-3 px-4">
+                <p class="text-text-secondary leading-relaxed">{row.lagging}</p>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 6. Reading the system -->
+  <section id="reading" class="mb-14 scroll-mt-24" aria-labelledby="reading-heading">
+    <h2 id="reading-heading" class="font-heading text-2xl font-bold text-text-primary mb-3">
+      Reading the System With Both in Hand
+    </h2>
+    <p class="text-text-secondary mb-4 leading-relaxed">
+      Once both halves of the chain are instrumented, four diagnostic patterns become legible. Each tells a different
+      story about where the reform programme stands — and what the next corrective action should be.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="border border-gray-200 rounded-lg p-5">
+        <p class="font-heading text-sm font-bold text-text-primary mb-1">Leading up, lagging up</p>
+        <p class="text-xs text-text-secondary italic mb-2">Stages 1–3 delivering; Stages 4–5 responding.</p>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          The reform is working and the outcomes confirm it. Hold the sequencing. Protect it from political reversal
+          and from scope creep. This is the pattern the Reform Programme is designed to produce.
+        </p>
+      </div>
+      <div class="border border-gray-200 rounded-lg p-5">
+        <p class="font-heading text-sm font-bold text-text-primary mb-1">Leading up, lagging flat</p>
+        <p class="text-xs text-text-secondary italic mb-2">Stages 1–3 delivering; Stages 4–5 not yet moving.</p>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          Either the lag is still running, or the theory of change at the Stage 3→4 joint is wrong. Re-examine the
+          causal assumption before adding new reforms on top of a link that may not exist.
+        </p>
+      </div>
+      <div class="border border-gray-200 rounded-lg p-5">
+        <p class="font-heading text-sm font-bold text-text-primary mb-1">Leading flat, lagging up</p>
+        <p class="text-xs text-text-secondary italic mb-2">Stages 1–3 stalled; Stages 4–5 nonetheless improving.</p>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          Outcomes are improving for reasons the reform programme cannot legitimately claim. Usually an exogenous
+          tailwind — commodity cycle, demographic transition, weather. Do not mistake luck for delivery; the trend
+          is unprotected.
+        </p>
+      </div>
+      <div class="border border-gray-200 rounded-lg p-5">
+        <p class="font-heading text-sm font-bold text-text-primary mb-1">Leading flat, lagging down</p>
+        <p class="text-xs text-text-secondary italic mb-2">Stages 1–3 stalled; Stages 4–5 deteriorating.</p>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          The programme is failing and the cycle is spiralling. The leading metrics told you first. The lagging
+          metrics are now confirming the price of inaction — and the corrective action required is structural, not
+          incremental.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gateway -->
+  <section id="navigate" class="mb-8 scroll-mt-24" aria-labelledby="navigate-heading">
+    <h2 id="navigate-heading" class="font-heading text-2xl font-bold text-text-primary mb-2">
+      Where to Go Next
+    </h2>
+    <p class="text-text-secondary leading-relaxed mb-6">
+      The companion pages put the chain to work. The Reform Programme authors Stages 1–3. The Scorecard reads
+      Stages 4–5. The Diagnostic Frameworks supply the institutional tests without which the chain does not hold.
+    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <a
+        href="/reform-scorecard"
+        class="border-2 border-compass-green/30 bg-compass-green-light/40 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
+      >
+        <p class="font-heading text-xs font-semibold uppercase tracking-wide text-compass-green mb-1">
+          The lagging set (Stages 4–5)
+        </p>
+        <p class="font-heading text-lg font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+          Reinforcing Cycle Scorecard &rarr;
+        </p>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          The 15 outcome indicators that confirm — years after the fact — whether the system is turning.
+        </p>
+      </a>
+      <a
+        href="/real-steps-to-reform"
+        class="border-2 border-compass-green/30 bg-compass-green-light/40 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
+      >
+        <p class="font-heading text-xs font-semibold uppercase tracking-wide text-compass-green mb-1">
+          The leading work (Stages 2–3)
+        </p>
+        <p class="font-heading text-lg font-bold text-text-primary group-hover:text-compass-green transition-colors mb-2">
+          Reform Roadmap &rarr;
+        </p>
+        <p class="text-sm text-text-secondary leading-relaxed">
+          The 80+ reforms whose delivery supplies the leading metrics — legislation introduced, institutions stood
+          up, enforcement triggers activated on schedule.
+        </p>
+      </a>
+      <a
+        href="/reform-programme"
+        class="border border-gray-200 rounded-lg p-4 hover:border-compass-green hover:shadow-sm transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
+      >
+        <p class="font-heading text-sm font-bold text-text-primary group-hover:text-compass-green transition-colors mb-1">
+          The Reform Programme (Stage 1 author)
+        </p>
+        <p class="text-xs text-text-secondary leading-relaxed">
+          The seven-component architecture and four-wave sequencing — the statutory source of every Input and
+          Activity the logic model depends on.
+        </p>
+      </a>
+      <a
+        href="/diagnostic-frameworks"
+        class="border border-gray-200 rounded-lg p-4 hover:border-compass-green hover:shadow-sm transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
+      >
+        <p class="font-heading text-sm font-bold text-text-primary group-hover:text-compass-green transition-colors mb-1">
+          Diagnostic Frameworks (chain integrity)
+        </p>
+        <p class="text-xs text-text-secondary leading-relaxed">
+          RAARICLE™ and the five failure patterns — the tests that tell you whether each stage of the chain is
+          institutionally sound.
+        </p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Source note -->
+  <footer class="border-t border-gray-200 pt-6 mt-4">
+    <p class="text-xs text-text-secondary leading-relaxed">
+      The five-stage chain used above — Inputs, Activities, Outputs, Outcomes, Impact — follows the W.K. Kellogg
+      Foundation's <em>Logic Model Development Guide</em>, the standard reference for public-programme logic modelling.
+      The mapping onto the GovCompass Knowledge Model, the leading/lagging cut at the Stage 3→4 boundary, and the
+      application to South Africa's reform architecture are GovCompass's own.
+    </p>
+  </footer>
+</PageLayout>
