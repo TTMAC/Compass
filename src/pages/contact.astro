@@ -1,0 +1,206 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+
+const enquiryTypes = [
+  "Questions",
+  "Corrections",
+  "Suggestions",
+  "Business Enquiries",
+];
+---
+
+<PageLayout
+  title="Contact"
+  description="Get in touch with GovCompass — send questions, corrections, suggestions, or business enquiries."
+>
+  <h1 class="font-heading text-3xl font-bold text-text-primary mb-4">
+    Contact
+  </h1>
+
+  <p class="text-text-secondary leading-relaxed mb-8">
+    Questions, corrections, suggestions, or business enquiries — send a note
+    below and we'll get back to you. You can also email
+    <strong class="text-text-primary">hello@govcompass.co.za</strong>.
+  </p>
+
+  <form
+    name="contact"
+    method="POST"
+    data-netlify="true"
+    netlify-honeypot="bot-field"
+    class="space-y-5"
+    data-testid="contact-form"
+    data-contact-form
+  >
+    <input type="hidden" name="form-name" value="contact" />
+    <p class="hidden">
+      <label>
+        Don't fill this out: <input name="bot-field" />
+      </label>
+    </p>
+
+    <div>
+      <label
+        for="enquiry-type"
+        class="block font-heading text-sm font-semibold text-text-primary mb-2"
+      >
+        Enquiry type <span class="text-red-600" aria-hidden="true">*</span>
+      </label>
+      <select
+        id="enquiry-type"
+        name="enquiry-type"
+        required
+        class="w-full min-h-[48px] px-4 py-3 border border-gray-300 rounded font-body text-text-primary bg-bg-primary focus:outline-none focus:ring-2 focus:ring-compass-green focus:border-transparent"
+      >
+        <option value="" disabled selected>Select enquiry type…</option>
+        {enquiryTypes.map((type) => (
+          <option value={type}>{type}</option>
+        ))}
+      </select>
+    </div>
+
+    <div>
+      <label
+        for="name"
+        class="block font-heading text-sm font-semibold text-text-primary mb-2"
+      >
+        Name
+      </label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        autocomplete="name"
+        class="w-full min-h-[48px] px-4 py-3 border border-gray-300 rounded font-body text-text-primary placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-compass-green focus:border-transparent"
+      />
+    </div>
+
+    <div>
+      <label
+        for="email"
+        class="block font-heading text-sm font-semibold text-text-primary mb-2"
+      >
+        Email <span class="text-red-600" aria-hidden="true">*</span>
+      </label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        required
+        autocomplete="email"
+        placeholder="your@email.com"
+        class="w-full min-h-[48px] px-4 py-3 border border-gray-300 rounded font-body text-text-primary placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-compass-green focus:border-transparent"
+      />
+    </div>
+
+    <div>
+      <label
+        for="subject"
+        class="block font-heading text-sm font-semibold text-text-primary mb-2"
+      >
+        Subject
+      </label>
+      <input
+        type="text"
+        id="subject"
+        name="subject"
+        class="w-full min-h-[48px] px-4 py-3 border border-gray-300 rounded font-body text-text-primary placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-compass-green focus:border-transparent"
+      />
+    </div>
+
+    <div>
+      <label
+        for="message"
+        class="block font-heading text-sm font-semibold text-text-primary mb-2"
+      >
+        Message <span class="text-red-600" aria-hidden="true">*</span>
+      </label>
+      <textarea
+        id="message"
+        name="message"
+        required
+        rows="6"
+        class="w-full px-4 py-3 border border-gray-300 rounded font-body text-text-primary placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-compass-green focus:border-transparent resize-y"
+      ></textarea>
+    </div>
+
+    <button
+      type="submit"
+      class="w-full sm:w-auto min-h-[48px] px-6 py-3 bg-compass-green text-white font-heading font-semibold rounded hover:bg-compass-green-dark transition-colors"
+    >
+      Send message
+    </button>
+
+    <div
+      class="hidden text-sm font-heading p-4 bg-compass-green-light rounded"
+      data-form-success
+      aria-live="polite"
+    >
+      <p class="text-compass-green-dark">
+        Thanks — your message has been sent. We'll get back to you soon.
+      </p>
+    </div>
+
+    <div
+      class="hidden text-sm font-heading p-4 bg-red-50 border border-red-200 rounded"
+      data-form-error
+      aria-live="assertive"
+      role="alert"
+    >
+      <p class="text-red-700">
+        Something went wrong. Please try again, or email
+        hello@govcompass.co.za directly.
+      </p>
+    </div>
+  </form>
+
+  <p class="mt-8 text-xs text-text-secondary">
+    We respect your privacy. Read our
+    <a
+      href="/privacy"
+      class="text-compass-green underline hover:text-compass-green-dark transition-colors"
+      >privacy policy</a
+    >.
+  </p>
+</PageLayout>
+
+<script>
+  const forms = document.querySelectorAll("[data-contact-form]");
+
+  forms.forEach((form) => {
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const formEl = e.target as HTMLFormElement;
+      const successEl = formEl.querySelector("[data-form-success]");
+      const errorEl = formEl.querySelector("[data-form-error]");
+      const submitBtn = formEl.querySelector<HTMLButtonElement>(
+        "button[type='submit']",
+      );
+
+      if (submitBtn) submitBtn.disabled = true;
+
+      try {
+        const response = await fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams(
+            new FormData(formEl) as unknown as Record<string, string>,
+          ).toString(),
+        });
+
+        if (response.ok) {
+          formEl.reset();
+          successEl?.classList.remove("hidden");
+          errorEl?.classList.add("hidden");
+        } else {
+          throw new Error("Form submission failed");
+        }
+      } catch {
+        successEl?.classList.add("hidden");
+        errorEl?.classList.remove("hidden");
+      } finally {
+        if (submitBtn) submitBtn.disabled = false;
+      }
+    });
+  });
+</script>
