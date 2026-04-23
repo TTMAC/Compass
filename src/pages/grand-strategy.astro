@@ -1,6 +1,8 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
 import JumpToSection from "@components/JumpToSection.astro";
+import DoctrinalStack from "@components/DoctrinalStack.astro";
+import EndowmentStack from "@components/EndowmentStack.astro";
 
 const publishDate = new Date("2026-04-23");
 const formattedDate = publishDate.toLocaleDateString("en-ZA", {
@@ -230,6 +232,8 @@ const alignmentMap = [
       grand strategy must instead be reconstructed from a layered doctrinal stack, each layer operating
       at a different altitude, each layer binding on the layers below it.
     </p>
+
+    <DoctrinalStack />
 
     <p class="text-text-secondary mb-4 leading-relaxed">
       The constitutional tier sits at the top. The Constitution of 1996 — especially Section 198, which
@@ -830,6 +834,8 @@ const alignmentMap = [
       member remains a genuine, if declining, asset. Taken together, the endowment stack suggests a
       specific strategic programme.
     </p>
+
+    <EndowmentStack />
 
     <p class="text-text-secondary mb-4 leading-relaxed">
       Five mutually reinforcing pillars follow from the endowment analysis.

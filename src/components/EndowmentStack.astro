@@ -1,0 +1,130 @@
+---
+const uid = Math.random().toString(36).slice(2, 8);
+---
+
+<figure class="mx-auto max-w-2xl my-10">
+  <svg
+    width="680"
+    height="520"
+    viewBox="0 0 680 520"
+    xmlns="http://www.w3.org/2000/svg"
+    class="w-full h-auto"
+    role="img"
+    aria-labelledby={`endowment-stack-title-${uid}`}
+    aria-describedby={`endowment-stack-desc-${uid}`}
+    style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"
+  >
+    <title id={`endowment-stack-title-${uid}`}>South Africa's endowment stack</title>
+    <desc id={`endowment-stack-desc-${uid}`}>
+      A six-tier inventory of South Africa's strategic endowments. Mineral endowment: world-leading
+      reserves of platinum-group metals, manganese, chromium, and vanadium. Financial depth: the
+      deepest capital markets and most sophisticated financial and legal services sector in Africa.
+      Geographic position: a two-ocean coast astride the Cape route, making the country the natural
+      logistics gateway to SADC. Demographic window: a young population with a demographic dividend
+      open for roughly fifteen to twenty years. Industrial and logistics base: residual but decayed
+      rail, ports, and manufacturing — a reconstructible foundation. Diplomatic capital: non-aligned
+      middle-power credibility and BRICS membership, a declining but genuine asset. Unlike the
+      doctrinal stack, the endowment stack is a parallel portfolio of assets rather than a
+      hierarchy.
+    </desc>
+
+    <!-- Figure heading -->
+    <text x="340" y="24" text-anchor="middle" font-size="13" font-weight="600" fill="#7A5C1F" letter-spacing="1.2">
+      SOUTH AFRICA&apos;S ENDOWMENT STACK
+    </text>
+    <text x="340" y="46" text-anchor="middle" font-size="12" fill="#4A4A4A" font-style="italic">
+      Six strategic assets in the country&rsquo;s hand — a portfolio, not a hierarchy
+    </text>
+
+    <!-- Tier 1: Minerals -->
+    <rect x="70" y="78" width="540" height="56" rx="6" fill="#5E4613"/>
+    <text x="92" y="100" font-size="11" font-weight="600" fill="#E8D9A8" letter-spacing="1.4">
+      I &middot; MINERAL ENDOWMENT
+    </text>
+    <text x="92" y="120" font-size="14" font-weight="500" fill="#FFFFFF">
+      PGMs &middot; manganese &middot; chromium &middot; vanadium
+    </text>
+    <text x="588" y="120" text-anchor="end" font-size="12" fill="#E8D9A8" font-style="italic">
+      World-leading
+    </text>
+
+    <!-- Tier 2: Financial -->
+    <rect x="70" y="140" width="540" height="56" rx="6" fill="#7A5C1F"/>
+    <text x="92" y="162" font-size="11" font-weight="600" fill="#F0E6C8" letter-spacing="1.4">
+      II &middot; FINANCIAL DEPTH
+    </text>
+    <text x="92" y="182" font-size="14" font-weight="500" fill="#FFFFFF">
+      Capital markets &middot; legal &amp; financial services
+    </text>
+    <text x="588" y="182" text-anchor="end" font-size="12" fill="#F0E6C8" font-style="italic">
+      Africa-leading
+    </text>
+
+    <!-- Tier 3: Geography -->
+    <rect x="70" y="202" width="540" height="56" rx="6" fill="#A68A2B"/>
+    <text x="92" y="224" font-size="11" font-weight="600" fill="#F7EFD4" letter-spacing="1.4">
+      III &middot; GEOGRAPHIC POSITION
+    </text>
+    <text x="92" y="244" font-size="14" font-weight="500" fill="#FFFFFF">
+      Two-ocean coast &middot; Cape route &middot; SADC gateway
+    </text>
+    <text x="588" y="244" text-anchor="end" font-size="12" fill="#F7EFD4" font-style="italic">
+      Structural
+    </text>
+
+    <!-- Tier 4: Demography -->
+    <rect x="70" y="264" width="540" height="56" rx="6" fill="#BFA455"/>
+    <text x="92" y="286" font-size="11" font-weight="600" fill="#3A2E0C" letter-spacing="1.4">
+      IV &middot; DEMOGRAPHIC WINDOW
+    </text>
+    <text x="92" y="306" font-size="14" font-weight="500" fill="#1A1A1A">
+      Young population &middot; demographic dividend
+    </text>
+    <text x="588" y="306" text-anchor="end" font-size="12" fill="#3A2E0C" font-style="italic">
+      15&ndash;20 years
+    </text>
+
+    <!-- Tier 5: Industrial & logistics base -->
+    <rect x="70" y="326" width="540" height="56" rx="6" fill="#D9C586"/>
+    <text x="92" y="348" font-size="11" font-weight="600" fill="#4A3A0F" letter-spacing="1.4">
+      V &middot; INDUSTRIAL &amp; LOGISTICS BASE
+    </text>
+    <text x="92" y="368" font-size="14" font-weight="500" fill="#1A1A1A">
+      Rail &middot; ports &middot; residual manufacturing
+    </text>
+    <text x="588" y="368" text-anchor="end" font-size="12" fill="#4A3A0F" font-style="italic">
+      Decayed &middot; reconstructible
+    </text>
+
+    <!-- Tier 6: Diplomatic capital -->
+    <rect x="70" y="388" width="540" height="56" rx="6" fill="#F3EBDA"/>
+    <text x="92" y="410" font-size="11" font-weight="600" fill="#7A5C1F" letter-spacing="1.4">
+      VI &middot; DIPLOMATIC CAPITAL
+    </text>
+    <text x="92" y="430" font-size="14" font-weight="500" fill="#1A1A1A">
+      Non-aligned middle power &middot; BRICS member
+    </text>
+    <text x="588" y="430" text-anchor="end" font-size="12" fill="#7A5C1F" font-style="italic">
+      Declining &middot; genuine
+    </text>
+
+    <!-- Portfolio bracket (right margin) -->
+    <path d="M 628,88 Q 638,88 638,105 L 638,417 Q 638,434 628,434" stroke="#7A5C1F" stroke-width="1" fill="none" stroke-linecap="round"/>
+    <text x="654" y="264" text-anchor="middle" font-size="10" fill="#7A5C1F" letter-spacing="0.5" transform="rotate(90 654 264)">
+      PORTFOLIO
+    </text>
+
+    <!-- Caption -->
+    <text x="340" y="484" text-anchor="middle" font-size="12" fill="#5F5E5A">
+      A parallel portfolio of strategic assets — no tier binds the others; each stands or falls on its own use.
+    </text>
+    <text x="340" y="502" text-anchor="middle" font-size="12" fill="#5F5E5A" font-style="italic">
+      The strategic question is whether the doctrinal stack above is aligned to the endowment stack below.
+    </text>
+  </svg>
+  <figcaption class="sr-only">
+    Figure: South Africa&rsquo;s endowment stack — six strategic assets (minerals, financial depth,
+    geographic position, demographic window, industrial and logistics base, diplomatic capital)
+    presented as a parallel portfolio rather than a doctrinal hierarchy.
+  </figcaption>
+</figure>
