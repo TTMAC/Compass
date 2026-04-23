@@ -1,5 +1,16 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
+import JumpToSection from "@components/JumpToSection.astro";
+
+const jumpLinks = [
+  { href: "#chain", label: "The Logic-Model Chain" },
+  { href: "#cut", label: "Leading vs Lagging" },
+  { href: "#directions", label: "Two Reading Directions" },
+  { href: "#knowledge-model", label: "The Knowledge Model" },
+  { href: "#examples", label: "Worked Pairs" },
+  { href: "#reading", label: "Reading the System" },
+  { href: "#navigate", label: "Where to Go Next" },
+];
 
 const logicChain = [
   {
@@ -208,17 +219,7 @@ const pairedExamples = [
     </p>
   </header>
 
-  <!-- On-page navigation -->
-  <nav class="mb-10 flex flex-wrap gap-x-4 gap-y-1 text-xs font-heading" aria-label="Jump to section">
-    <span class="text-text-secondary font-semibold">Jump to:</span>
-    <a href="#chain" class="text-compass-green hover:underline">The Logic-Model Chain</a>
-    <a href="#cut" class="text-compass-green hover:underline">Leading vs Lagging</a>
-    <a href="#directions" class="text-compass-green hover:underline">Two Reading Directions</a>
-    <a href="#knowledge-model" class="text-compass-green hover:underline">The Knowledge Model</a>
-    <a href="#examples" class="text-compass-green hover:underline">Worked Pairs</a>
-    <a href="#reading" class="text-compass-green hover:underline">Reading the System</a>
-    <a href="#navigate" class="text-compass-green hover:underline">Where to Go Next</a>
-  </nav>
+  <JumpToSection links={jumpLinks} class="mb-10" />
 
   <!-- 1. The chain -->
   <section id="chain" class="mb-14 scroll-mt-24" aria-labelledby="chain-heading">

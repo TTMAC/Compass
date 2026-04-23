@@ -1,5 +1,6 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
+import JumpToSection from "@components/JumpToSection.astro";
 
 const publishDate = new Date("2026-04-23");
 const formattedDate = publishDate.toLocaleDateString("en-ZA", {
@@ -133,13 +134,7 @@ const alignmentMap = [
     </div>
   </header>
 
-  <!-- Jump nav -->
-  <nav class="mb-12 flex flex-wrap gap-x-4 gap-y-1 text-xs font-heading" aria-label="Jump to section">
-    <span class="text-text-secondary font-semibold">Jump to:</span>
-    {jumpLinks.map((l) => (
-      <a href={l.href} class="text-compass-green hover:underline">{l.label}</a>
-    ))}
-  </nav>
+  <JumpToSection links={jumpLinks} class="mb-12" />
 
   <!-- Section 1: Introduction & Conceptual Foundation -->
   <section id="introduction" class="mb-14 scroll-mt-24" aria-label="Introduction and conceptual foundation">

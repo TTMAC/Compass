@@ -1,11 +1,19 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
+import JumpToSection from "@components/JumpToSection.astro";
 import {
   raaricleElements,
   failurePatterns,
   captureVectors,
   structuralPrinciples,
 } from "@data/reforms";
+
+const jumpLinks = [
+  { href: "#raaricle", label: "RAARICLE Framework" },
+  { href: "#failure-patterns", label: "Failure Patterns" },
+  { href: "#capture-vectors", label: "Capture Vectors" },
+  { href: "#structural-principles", label: "Structural Principles" },
+];
 ---
 
 <PageLayout
@@ -34,14 +42,7 @@ import {
     </p>
   </header>
 
-  <!-- On-page navigation -->
-  <nav class="mb-10 flex flex-wrap gap-x-4 gap-y-1 text-xs font-heading" aria-label="Jump to section">
-    <span class="text-text-secondary font-semibold">Jump to:</span>
-    <a href="#raaricle" class="text-compass-green hover:underline">RAARICLE Framework</a>
-    <a href="#failure-patterns" class="text-compass-green hover:underline">Failure Patterns</a>
-    <a href="#capture-vectors" class="text-compass-green hover:underline">Capture Vectors</a>
-    <a href="#structural-principles" class="text-compass-green hover:underline">Structural Principles</a>
-  </nav>
+  <JumpToSection links={jumpLinks} />
 
   <!-- RAARICLE™ Framework -->
   <section id="raaricle" class="mb-12 scroll-mt-32" aria-label="RAARICLE diagnostic framework">

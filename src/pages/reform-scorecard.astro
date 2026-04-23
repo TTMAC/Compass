@@ -1,6 +1,16 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
+import JumpToSection from "@components/JumpToSection.astro";
 import { reinforcingCycleScorecard, scorecardLastReviewed } from "@data/reforms";
+
+const jumpLinks = [
+  { href: "#cycle-links", label: "The Cycle" },
+  { href: "#how-to-read", label: "How to Read" },
+  { href: "#safety-growth", label: "Link 1: Safety &rarr; Growth" },
+  { href: "#growth-development", label: "Link 2: Growth &rarr; Development" },
+  { href: "#development-safety", label: "Link 3: Development &rarr; Safety" },
+  { href: "#roadmap", label: "Reform Roadmap" },
+];
 
 const linkColors: Record<string, { accent: string; light: string }> = {
   "safety-growth": { accent: "#1B4965", light: "#E0EBF2" },
@@ -53,8 +63,10 @@ const splitThreshold = (t: string): { target: string; baseline: string | null } 
     </p>
   </header>
 
+  <JumpToSection links={jumpLinks} />
+
   <!-- Cycle diagram — three linked cards + loop-back indicator -->
-  <nav class="mb-6" aria-label="Jump to cycle link">
+  <nav id="cycle-links" class="mb-6 scroll-mt-24" aria-label="Jump to cycle link">
     <p class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide mb-2">
       Three links in the cycle &mdash; jump to each scorecard
     </p>
@@ -95,7 +107,7 @@ const splitThreshold = (t: string): { target: string; baseline: string | null } 
   </nav>
 
   <!-- How to read the Scorecard (moved above tables) -->
-  <section class="mb-10 border-l-4 border-l-compass-green rounded-r-lg p-5 bg-bg-secondary" aria-labelledby="how-to-read">
+  <section class="mb-10 border-l-4 border-l-compass-green rounded-r-lg p-5 bg-bg-secondary scroll-mt-24" aria-labelledby="how-to-read">
     <h2 id="how-to-read" class="font-heading text-lg font-bold text-text-primary mb-2">
       How to Read the Scorecard
     </h2>
@@ -199,7 +211,7 @@ const splitThreshold = (t: string): { target: string; baseline: string | null } 
   </section>
 
   <!-- Gateway: Where to go from here -->
-  <section class="mb-8">
+  <section id="roadmap" class="mb-8 scroll-mt-24">
     <h2 class="font-heading text-xl font-bold text-text-primary mb-2">
       The Reform Roadmap
     </h2>

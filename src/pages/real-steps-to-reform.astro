@@ -1,5 +1,6 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
+import JumpToSection from "@components/JumpToSection.astro";
 import {
   workstreams,
   reforms,
@@ -8,6 +9,14 @@ import {
   digitalInfrastructure,
   scorecardOutcomes,
 } from "@data/reforms";
+
+const jumpLinks = [
+  { href: "#cycle", label: "The 25-year Cycle" },
+  { href: "#phase-4", label: "Key Legislated Institution" },
+  { href: "#stage-1", label: "Stage 1 &middot; The 10-year Programme" },
+  { href: "#stage-2", label: "Stage 2 &middot; Cycle Activation" },
+  { href: "#stage-3", label: "Stage 3 &middot; Convergence" },
+];
 
 const reformCount = reforms.length;
 const legislativeCount = legislativeItems.length;
@@ -96,18 +105,7 @@ const grouped = workstreams.map((ws) => {
     </p>
   </header>
 
-  <!-- On-page navigation -->
-  <nav
-    class="mb-8 border-y border-gray-100 py-2.5 flex flex-wrap gap-x-5 gap-y-1.5 items-baseline text-sm font-heading"
-    aria-label="Jump to section"
-  >
-    <span class="text-text-secondary font-semibold text-xs uppercase tracking-wide">On this page</span>
-    <a href="#cycle" class="hover:underline text-text-primary">The 25-year cycle</a>
-    <a href="#phase-4" class="hover:underline" style={`color: ${STAGE_COLORS.phase4}`}>Key legislated institution</a>
-    <a href="#stage-1" class="hover:underline" style={`color: ${STAGE_COLORS.stage1}`}>Stage 1 · The 10-year programme</a>
-    <a href="#stage-2" class="hover:underline" style={`color: ${STAGE_COLORS.stage2}`}>Stage 2 · Cycle activation</a>
-    <a href="#stage-3" class="hover:underline" style={`color: ${STAGE_COLORS.stage3}`}>Stage 3 · Convergence</a>
-  </nav>
+  <JumpToSection links={jumpLinks} />
 
   <!-- Frameworks reference card -->
   <aside class="mb-10 p-4 rounded-lg border border-compass-green/30 bg-compass-green-light/40">
