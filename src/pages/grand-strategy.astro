@@ -1,6 +1,14 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
 
+const publishDate = new Date("2026-04-23");
+const formattedDate = publishDate.toLocaleDateString("en-ZA", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+const readingTime = 40;
+
 const jumpLinks = [
   { href: "#introduction", label: "Introduction" },
   { href: "#doctrinal-stack", label: "Doctrinal Stack" },
@@ -110,13 +118,19 @@ const alignmentMap = [
       South Africa's grand strategy — analysis, critique, and realignment — and how the GovCompass
       Reform Agenda provides the domestic execution layer on which it depends.
     </p>
-    <p class="text-text-secondary leading-relaxed">
+    <p class="text-text-secondary leading-relaxed mb-6">
       This is the synthesis article for the Topics section. It reconstructs South Africa's grand strategy from
       its doctrinal stack, evaluates it through the classical Ends–Ways–Means triad, and proposes an
       endowment-aligned alternative. It then shows, explicitly, how every pillar of the GovCompass Reform
       Agenda maps to a component of that grand strategy — so that readers who have worked through the five
       Topic pillars can see exactly how domestic reform plugs into national strategic ambition.
     </p>
+
+    <div class="flex items-center gap-4 text-sm text-text-secondary font-heading border-t border-gray-200 pt-4">
+      <span>Citizen X</span>
+      <time datetime={publishDate.toISOString()}>{formattedDate}</time>
+      <span aria-label={`${readingTime} minute read`}>{readingTime} min read</span>
+    </div>
   </header>
 
   <!-- Jump nav -->
