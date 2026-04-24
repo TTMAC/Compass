@@ -6,8 +6,8 @@ const arrowId = `arrow-${uid}`;
 <figure class="mx-auto max-w-2xl my-10">
   <svg
     width="680"
-    height="560"
-    viewBox="0 0 680 560"
+    height="628"
+    viewBox="0 0 680 628"
     xmlns="http://www.w3.org/2000/svg"
     class="w-full h-auto"
     role="img"
@@ -20,11 +20,12 @@ const arrowId = `arrow-${uid}`;
       A five-tier diagram of the documents from which South Africa's grand strategy must be
       reconstructed. From top to bottom: Constitutional tier (Constitution of South Africa, Section
       198, 1996); Strategic tier (National Security Strategy, National Intelligence Estimate, and
-      National Intelligence Priorities, 2024 to 2029); Foreign-policy tier (Diplomacy of Ubuntu and
-      the Framework Document on the National Interest, 2011 and 2022); Defence tier (Defence Review
-      and the pending Long-Term Force Evolution Strategy, 2015 and 2025 to 2055); Development tier
-      (National Development Plan, Vision 2030, adopted 2012). Each tier binds on the tiers below it,
-      so authority flows downward through the stack.
+      National Intelligence Priorities, 2024 to 2029); Foreign-policy tier (White Paper on the
+      Diplomacy of Ubuntu 2011, the 2022 Framework Document on the National Interest, and the DIRCO
+      Strategic Plan 2025 to 2030); Defence tier (1996 White Paper on Defence, 2015 Defence Review,
+      and the pending Long-Term Force Evolution Strategy 2025 to 2055); Development tier (National
+      Development Plan, Vision 2030, adopted 2012). Each tier binds on the tiers below it, so
+      authority flows downward through the stack.
     </desc>
 
     <defs>
@@ -80,52 +81,76 @@ const arrowId = `arrow-${uid}`;
     <line x1="340" y1="236" x2="340" y2="250" stroke="#888780" stroke-width="1" marker-end={`url(#${arrowId})`}/>
 
     <!-- Tier 3: Foreign-policy -->
-    <rect x="70" y="254" width="540" height="66" rx="6" fill="#4D7B54"/>
+    <rect x="70" y="254" width="540" height="100" rx="6" fill="#4D7B54"/>
     <text x="92" y="280" font-size="11" font-weight="600" fill="#E4ECE5" letter-spacing="1.4">
       III &middot; FOREIGN-POLICY TIER
     </text>
-    <text x="92" y="304" font-size="14" font-weight="500" fill="#FFFFFF">
-      Diplomacy of Ubuntu &middot; National Interest Framework
+    <text x="92" y="302" font-size="14" font-weight="500" fill="#FFFFFF">
+      Diplomacy of Ubuntu
     </text>
-    <text x="588" y="304" text-anchor="end" font-size="13" fill="#E4ECE5" font-variant-numeric="tabular-nums">
-      2011 / 2022
+    <text x="588" y="302" text-anchor="end" font-size="13" fill="#E4ECE5" font-variant-numeric="tabular-nums">
+      2011
+    </text>
+    <text x="92" y="322" font-size="14" font-weight="500" fill="#FFFFFF">
+      Framework Document on the National Interest
+    </text>
+    <text x="588" y="322" text-anchor="end" font-size="13" fill="#E4ECE5" font-variant-numeric="tabular-nums">
+      2022
+    </text>
+    <text x="92" y="342" font-size="14" font-weight="500" fill="#FFFFFF">
+      DIRCO Strategic Plan
+    </text>
+    <text x="588" y="342" text-anchor="end" font-size="13" fill="#E4ECE5" font-variant-numeric="tabular-nums">
+      2025&ndash;30
     </text>
 
     <!-- Binding arrow 3→4 -->
-    <line x1="340" y1="324" x2="340" y2="338" stroke="#888780" stroke-width="1" marker-end={`url(#${arrowId})`}/>
+    <line x1="340" y1="358" x2="340" y2="372" stroke="#888780" stroke-width="1" marker-end={`url(#${arrowId})`}/>
 
     <!-- Tier 4: Defence -->
-    <rect x="70" y="342" width="540" height="66" rx="6" fill="#88A68F"/>
-    <text x="92" y="368" font-size="11" font-weight="600" fill="#2F4A34" letter-spacing="1.4">
+    <rect x="70" y="376" width="540" height="100" rx="6" fill="#88A68F"/>
+    <text x="92" y="402" font-size="11" font-weight="600" fill="#2F4A34" letter-spacing="1.4">
       IV &middot; DEFENCE TIER
     </text>
-    <text x="92" y="392" font-size="14" font-weight="500" fill="#1A1A1A">
-      Defence Review &middot; Long-Term Force Evolution (pending)
+    <text x="92" y="424" font-size="14" font-weight="500" fill="#1A1A1A">
+      White Paper on Defence
     </text>
-    <text x="588" y="392" text-anchor="end" font-size="13" fill="#2F4A34" font-variant-numeric="tabular-nums">
-      2015 / 2025&ndash;55
+    <text x="588" y="424" text-anchor="end" font-size="13" fill="#2F4A34" font-variant-numeric="tabular-nums">
+      1996
+    </text>
+    <text x="92" y="444" font-size="14" font-weight="500" fill="#1A1A1A">
+      Defence Review
+    </text>
+    <text x="588" y="444" text-anchor="end" font-size="13" fill="#2F4A34" font-variant-numeric="tabular-nums">
+      2015
+    </text>
+    <text x="92" y="464" font-size="14" font-weight="500" fill="#1A1A1A">
+      Long-Term Force Evolution Strategy (pending)
+    </text>
+    <text x="588" y="464" text-anchor="end" font-size="13" fill="#2F4A34" font-variant-numeric="tabular-nums">
+      2025&ndash;55
     </text>
 
     <!-- Binding arrow 4→5 -->
-    <line x1="340" y1="412" x2="340" y2="426" stroke="#888780" stroke-width="1" marker-end={`url(#${arrowId})`}/>
+    <line x1="340" y1="480" x2="340" y2="494" stroke="#888780" stroke-width="1" marker-end={`url(#${arrowId})`}/>
 
     <!-- Tier 5: Development -->
-    <rect x="70" y="430" width="540" height="66" rx="6" fill="#C2D3C6"/>
-    <text x="92" y="456" font-size="11" font-weight="600" fill="#264A2C" letter-spacing="1.4">
+    <rect x="70" y="498" width="540" height="66" rx="6" fill="#C2D3C6"/>
+    <text x="92" y="524" font-size="11" font-weight="600" fill="#264A2C" letter-spacing="1.4">
       V &middot; DEVELOPMENT TIER
     </text>
-    <text x="92" y="480" font-size="14" font-weight="500" fill="#1A1A1A">
+    <text x="92" y="548" font-size="14" font-weight="500" fill="#1A1A1A">
       National Development Plan &mdash; Vision 2030
     </text>
-    <text x="588" y="480" text-anchor="end" font-size="13" fill="#264A2C" font-variant-numeric="tabular-nums">
+    <text x="588" y="548" text-anchor="end" font-size="13" fill="#264A2C" font-variant-numeric="tabular-nums">
       2012
     </text>
 
     <!-- Caption -->
-    <text x="340" y="524" text-anchor="middle" font-size="12" fill="#5F5E5A">
+    <text x="340" y="592" text-anchor="middle" font-size="12" fill="#5F5E5A">
       Binding authority flows downward. Each tier inherits the normative constraints of every tier above it.
     </text>
-    <text x="340" y="542" text-anchor="middle" font-size="12" fill="#5F5E5A" font-style="italic">
+    <text x="340" y="610" text-anchor="middle" font-size="12" fill="#5F5E5A" font-style="italic">
       Vertical tension between tiers is where grand strategy is negotiated.
     </text>
   </svg>
