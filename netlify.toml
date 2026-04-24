@@ -49,6 +49,11 @@
     Service-Worker-Allowed = "/"
 
 [[redirects]]
+  from = "/series"
+  to = "/pillars/government-structure"
+  status = 301
+
+[[redirects]]
   from = "/*"
   to = "/404"
   status = 404

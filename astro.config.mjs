@@ -24,12 +24,6 @@ export default defineConfig({
         }),
     ].filter(Boolean),
   },
-  redirects: {
-    "/series": {
-      status: 301,
-      destination: "/pillars/government-structure",
-    },
-  },
   markdown: {
     remarkPlugins: [remarkDirective, remarkCallouts],
     rehypePlugins: [rehypeArticleImages],
