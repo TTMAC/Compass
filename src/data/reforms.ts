@@ -1409,6 +1409,8 @@ export const milestones: Milestone[] = [
       { text: "District-level human development baseline", workstream: "human-development" },
       { text: "Business registration simplification (48-hour target)", workstream: "economic-growth" },
       { text: "Title deed backlog task team established", workstream: "reform-agenda" },
+      { text: "Femicide and GBV measurement framework operational with monthly public reporting", workstream: "safety-security" },
+      { text: "State-citizen interface service-quality dashboard live (Home Affairs, SASSA, SAPS 10111)", workstream: "reform-agenda" },
     ],
   },
   {
@@ -1426,6 +1428,8 @@ export const milestones: Milestone[] = [
       { text: "First export cluster products entering international markets", workstream: "economic-growth" },
       { text: "Reinforcing cycle measurable in bundled intervention districts", workstream: "human-development" },
       { text: "Revenue ring-fencing in effect for water and electricity", workstream: "reform-agenda" },
+      { text: "End-to-end criminal justice case attrition tracker live across all magisterial districts", workstream: "safety-security" },
+      { text: "Court order compliance register operational with automatic escalation on state non-compliance", workstream: "reform-agenda" },
     ],
   },
   {
@@ -1441,7 +1445,7 @@ export const milestones: Milestone[] = [
       { text: "Diversified export base reducing commodity dependence", workstream: "economic-growth" },
       { text: "Self-sustaining venture ecosystems", workstream: "economic-growth" },
       { text: "Measurable intergenerational human development gains", workstream: "human-development" },
-      { text: "All 13 Law and Order Scorecard outcomes tracked quarterly", workstream: "safety-security" },
+      { text: "All Law and Order Scorecard outcomes — core plus supplementary diagnostic metrics — tracked quarterly with full baseline data", workstream: "safety-security" },
     ],
   },
 ];
