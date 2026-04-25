@@ -1667,6 +1667,21 @@ export const scorecardOutcomes: Record<WorkstreamId, ScorecardOutcome[]> = {
       dataSource: "SARS Customs trade data, DTIC export statistics, UN Comtrade",
     },
     {
+      outcome: "Economic Complexity Index (ECI)",
+      metric: "ECI score and global rank (Harvard Growth Lab); product complexity index of top exports; number of products with revealed comparative advantage (RCA > 1); diversification of productive knowledge",
+      dataSource: "Harvard Growth Lab Atlas of Economic Complexity, MIT Observatory of Economic Complexity, SARS Customs trade data, DTIC industrial policy reports",
+    },
+    {
+      outcome: "R&D Intensity (Gross Expenditure on R&D as % of GDP)",
+      metric: "GERD as % of GDP (NDP target: 1.5%); business-sector R&D as share of total; researcher headcount per 1,000 employed; PhD graduates in STEM per million population",
+      dataSource: "HSRC National R&D Survey (CeSTII), DSI Annual Performance Report, Stats SA, OECD Main Science and Technology Indicators",
+    },
+    {
+      outcome: "Innovation Output: Patents and Innovation-driven Firms",
+      metric: "Patent applications and grants per million population (resident filers); WIPO PCT international filings; new innovation-driven enterprises (IDEs) registered; venture-capital funding deployed (R-billion per year); tech-cluster employment growth",
+      dataSource: "CIPC patent register, WIPO IP Statistics Data Centre, SAVCA Venture Capital Survey, DSI Innovation Survey, Endeavor Insight ecosystem mapping",
+    },
+    {
       outcome: "Youth Unemployment Rate Reduction",
       metric: "Expanded youth (15–34) unemployment rate; youth absorption rate; share of youth unemployed for >1 year (long-term unemployed)",
       dataSource: "Stats SA Quarterly Labour Force Survey (QLFS)",
