@@ -87,6 +87,8 @@ export interface FailurePattern {
 
 export interface ScorecardOutcome {
   outcome: string;
+  metric?: string;
+  dataSource?: string;
   baseline?: string;
   year5?: string;
   year10?: string;
@@ -1489,19 +1491,71 @@ export const failurePatterns: FailurePattern[] = [
 
 export const scorecardOutcomes: Record<WorkstreamId, ScorecardOutcome[]> = {
   "safety-security": [
-    { outcome: "Crime Suppression and Deterrence" },
-    { outcome: "Detection and Rapid Response" },
-    { outcome: "Investigation Quality" },
-    { outcome: "Lawful Arrest and Secure Pre-Trial Custody" },
-    { outcome: "Intelligence Production and Threat Assessment" },
-    { outcome: "Public Order and Stability Management" },
-    { outcome: "Prosecutorial Effectiveness and Case Conversion" },
-    { outcome: "Judicial Efficiency and Access to Justice" },
-    { outcome: "Sentencing Integrity and Proportionality" },
-    { outcome: "Secure and Humane Incarceration" },
-    { outcome: "Rehabilitation and Skills Development" },
-    { outcome: "Reintegration and Recidivism Reduction" },
-    { outcome: "Victim Justice, Reparation, and Restoration" },
+    {
+      outcome: "Crime Incidence and Deterrence Effect",
+      metric: "Composite crime rate (SAPS reported crime weighted against Stats SA Victims of Crime Survey estimates)",
+      dataSource: "SAPS CAS, Stats SA VoCS",
+    },
+    {
+      outcome: "Detection and Rapid Response",
+      metric: "10111 emergency response time, crime-scene attendance rate, initial evidence-preservation rate",
+      dataSource: "SAPS",
+    },
+    {
+      outcome: "Investigation-to-Arrest Conversion",
+      metric: "Case-to-arrest conversion rate, detective caseload ratio, forensic turnaround time, docket acceptance rate",
+      dataSource: "SAPS, Forensic Science Laboratory, NPA",
+    },
+    {
+      outcome: "Lawful Arrest and Secure Pre-Trial Custody",
+      metric: "Section 35 compliance rate, 48-hour first-appearance rate, bail decision quality (risk-based vs wealth-based)",
+      dataSource: "SAPS, Magistrates' Courts",
+    },
+    {
+      outcome: "Threat Disruption and Intelligence Effectiveness",
+      metric: "Proactive-to-reactive operations ratio, threat-assessment quality, intelligence-failure incidence (major events without prior warning)",
+      dataSource: "SAPS Crime Intelligence, SSA",
+    },
+    {
+      outcome: "Public Order and Stability Management",
+      metric: "Crowd-management events resolved without use of force, Marikana-recommendation compliance, de-escalation-to-escalation ratio",
+      dataSource: "SAPS Public Order Policing, IPID",
+    },
+    {
+      outcome: "Prosecutorial Effectiveness and Case Conversion",
+      metric: "Case acceptance rate, conviction rate by crime type, case cycle time, withdrawal rate (and cause)",
+      dataSource: "NPA",
+    },
+    {
+      outcome: "Judicial Efficiency and Access to Justice",
+      metric: "Time-to-trial, postponement rate, case clearance rate, accused with legal representation at trial",
+      dataSource: "Office of the Chief Justice, Legal Aid SA",
+    },
+    {
+      outcome: "Sentencing Integrity and Proportionality",
+      metric: "Inter-court sentence variance for like offences, deviation from guideline ranges, share of sentences with rehabilitative or restorative components",
+      dataSource: "Sentencing Commission, Office of the Chief Justice",
+    },
+    {
+      outcome: "Secure and Humane Incarceration",
+      metric: "Overcrowding ratio (population vs design capacity), deaths in custody (natural and unnatural), assault rates, JICS-recommendation compliance",
+      dataSource: "DCS, Judicial Inspectorate for Correctional Services (JICS)",
+    },
+    {
+      outcome: "Rehabilitation Outcomes and Skills Acquisition",
+      metric: "Programme completion rate, literacy improvement, vocational and educational qualifications obtained",
+      dataSource: "DCS, Department of Higher Education and Training",
+    },
+    {
+      outcome: "Reintegration and Recidivism Reduction",
+      metric: "Recidivism rate at 12 and 36 months post-release, post-release employment rate, Community Corrections caseload ratio",
+      dataSource: "DCS Community Corrections, SAPS CAS (re-arrest matching)",
+    },
+    {
+      outcome: "Victim Justice, Reparation, and Restoration",
+      metric: "Victim satisfaction survey scores, protection-order compliance rate, compensation-order compliance rate, victim parole-participation rate",
+      dataSource: "NPA, Department of Justice & Constitutional Development, DCS",
+    },
   ],
   "reform-agenda": [
     { outcome: "Audit Outcome Improvement Across Municipalities" },
