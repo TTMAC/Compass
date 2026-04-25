@@ -749,10 +749,13 @@ const grouped = workstreams.map((ws) => {
       </p>
 
       {legislativeGroups.map((group) => (
-        <div class="mb-8 last:mb-0">
+        <div class="legislative-group mb-8 last:mb-0" data-group={group.type}>
           <h4 class="font-heading text-base font-bold text-text-primary mb-1 flex items-baseline gap-2">
             {group.heading}
-            <span class="font-heading text-xs font-semibold text-text-secondary">({group.items.length})</span>
+            <span
+              class="legislative-group-count font-heading text-xs font-semibold text-text-secondary"
+              data-total={group.items.length}
+            >({group.items.length})</span>
           </h4>
           <p class="text-sm text-text-secondary mb-3">{group.description}</p>
           <div class="overflow-x-auto -mx-4 px-4 border border-gray-200 rounded-lg">
@@ -770,7 +773,10 @@ const grouped = workstreams.map((ws) => {
                   const ws = workstreams.find((w) => w.id === item.workstream)!;
                   const phaseYears = ws.phases.find((p) => p.id === item.phase)?.years;
                   return (
-                    <tr class="border-b border-gray-100 last:border-0 hover:bg-bg-secondary transition-colors group">
+                    <tr
+                      class="legislative-row border-b border-gray-100 last:border-0 hover:bg-bg-secondary transition-colors group"
+                      data-workstream={item.workstream}
+                    >
                       <td class="font-heading text-xs font-bold text-text-secondary py-3 px-3 whitespace-nowrap align-middle">{item.id}</td>
                       <td class="py-3 px-3 align-middle">
                         <a
@@ -1081,6 +1087,27 @@ const grouped = workstreams.map((ws) => {
     document.querySelectorAll<HTMLElement>(".milestone-item").forEach((item) => {
       const ws = item.dataset.workstream!;
       item.style.display = activeWorkstream === "all" || activeWorkstream === ws ? "" : "none";
+    });
+
+    // Legislative rows follow workstream filter only
+    document.querySelectorAll<HTMLElement>(".legislative-group").forEach((group) => {
+      const rows = group.querySelectorAll<HTMLElement>(".legislative-row");
+      let groupVisible = 0;
+      rows.forEach((row) => {
+        const ws = row.dataset.workstream!;
+        const visible = activeWorkstream === "all" || activeWorkstream === ws;
+        row.style.display = visible ? "" : "none";
+        if (visible) groupVisible++;
+      });
+      group.style.display = groupVisible === 0 ? "none" : "";
+      const countEl = group.querySelector<HTMLElement>(".legislative-group-count");
+      if (countEl) {
+        const total = countEl.dataset.total;
+        countEl.textContent =
+          activeWorkstream === "all"
+            ? `(${total})`
+            : `(${groupVisible} of ${total})`;
+      }
     });
 
     // Reform count
