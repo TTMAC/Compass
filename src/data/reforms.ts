@@ -815,7 +815,7 @@ export const reforms: Reform[] = [
     workstream: "reform-agenda",
     phase: "phase-3",
     subgroup: "Municipal Capability Development",
-    title: "Professional Cadre Development",
+    title: "Professional Civil Service Development",
     description:
       "Establish municipal capability development programmes in engineering, financial management, and project management with professional development pathways.",
     scope: ["municipal"],
