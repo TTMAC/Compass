@@ -719,19 +719,34 @@ const grouped = workstreams.map((ws) => {
                     </tr>
                   </thead>
                   <tbody>
-                    {scorecardOutcomes[ws.id].map((row, i) => (
-                      <tr class="border-b border-gray-100 align-top">
-                        <td class="font-heading text-xs font-bold py-2 pr-3" style={`color: ${ws.color}`}>
-                          {i + 1}
-                        </td>
-                        <td class="py-2 pr-3 text-text-secondary font-medium">{row.outcome}</td>
-                        <td class="py-2 px-3 text-text-secondary leading-snug">{row.metric ?? "—"}</td>
-                        <td class="py-2 px-3 text-text-secondary leading-snug">{row.dataSource ?? "—"}</td>
-                        <td class="py-2 px-3 text-text-secondary whitespace-nowrap">{row.baseline ?? "—"}</td>
-                        <td class="py-2 px-3 text-text-secondary whitespace-nowrap">{row.year5 ?? "—"}</td>
-                        <td class="py-2 pl-3 text-text-secondary whitespace-nowrap">{row.year10 ?? "—"}</td>
-                      </tr>
-                    ))}
+                    {scorecardOutcomes[ws.id].flatMap((row, i, arr) => {
+                      const prevCategory = i > 0 ? arr[i - 1].category : undefined;
+                      const showCategoryHeader = !!row.category && row.category !== prevCategory;
+                      const rowEl = (
+                        <tr class="border-b border-gray-100 align-top">
+                          <td class="font-heading text-xs font-bold py-2 pr-3" style={`color: ${ws.color}`}>
+                            {i + 1}
+                          </td>
+                          <td class="py-2 pr-3 text-text-secondary font-medium">{row.outcome}</td>
+                          <td class="py-2 px-3 text-text-secondary leading-snug">{row.metric ?? "—"}</td>
+                          <td class="py-2 px-3 text-text-secondary leading-snug">{row.dataSource ?? "—"}</td>
+                          <td class="py-2 px-3 text-text-secondary whitespace-nowrap">{row.baseline ?? "—"}</td>
+                          <td class="py-2 px-3 text-text-secondary whitespace-nowrap">{row.year5 ?? "—"}</td>
+                          <td class="py-2 pl-3 text-text-secondary whitespace-nowrap">{row.year10 ?? "—"}</td>
+                        </tr>
+                      );
+                      if (!showCategoryHeader) return [rowEl];
+                      return [
+                        (
+                          <tr class="bg-gray-50">
+                            <td colspan="7" class="font-heading text-xs font-bold uppercase tracking-wide py-2 px-3" style={`color: ${ws.color}`}>
+                              {row.category}
+                            </td>
+                          </tr>
+                        ),
+                        rowEl,
+                      ];
+                    })}
                   </tbody>
                 </table>
               </div>

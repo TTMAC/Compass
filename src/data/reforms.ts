@@ -92,6 +92,7 @@ export interface ScorecardOutcome {
   baseline?: string;
   year5?: string;
   year10?: string;
+  category?: string;
 }
 
 export interface CaptureVector {
@@ -1683,66 +1684,97 @@ export const scorecardOutcomes: Record<WorkstreamId, ScorecardOutcome[]> = {
   ],
   "human-development": [
     {
+      category: "Population Health Metrics",
       outcome: "Life Expectancy at Birth",
       metric: "Life expectancy at birth (male and female); healthy life expectancy",
       dataSource: "Stats SA mid-year population estimates, Thembisa Model, MRC Burden of Disease Research Unit",
     },
     {
-      outcome: "Under-Five Mortality Rate",
-      metric: "Deaths per 1,000 live births before age five; neonatal and infant mortality components",
-      dataSource: "Stats SA Demographic and Health Survey, Rapid Mortality Surveillance, NDOH District Health Information System",
-    },
-    {
+      category: "Population Health Metrics",
       outcome: "Maternal Mortality Ratio",
       metric: "Deaths per 100,000 live births; institutional vs community deaths; cause-of-death breakdown",
       dataSource: "NDOH National Committee on Confidential Enquiries into Maternal Deaths (NCCEMD), Stats SA causes of death",
     },
     {
-      outcome: "HIV Treatment Cascade Completion Rate",
-      metric: "UNAIDS 95-95-95 progression: % diagnosed, % on ART, % virally suppressed",
-      dataSource: "Thembisa Model, NDOH HIV programme reports, SANAC monitoring framework",
+      category: "Population Health Metrics",
+      outcome: "Under-Five Mortality Rate",
+      metric: "Deaths per 1,000 live births before age five; neonatal and infant mortality components",
+      dataSource: "Stats SA Demographic and Health Survey, Rapid Mortality Surveillance, NDOH District Health Information System",
     },
     {
-      outcome: "TB Case Detection and Treatment Success Rate",
-      metric: "TB case-detection rate; treatment success rate; MDR-TB cure rate; TB-HIV co-infection treatment coverage",
-      dataSource: "WHO Global TB Report, NDOH TB programme, NICD surveillance",
-    },
-    {
-      outcome: "Grade 4 Reading Proficiency Rate",
-      metric: "% of Grade 4 learners reading for meaning at PIRLS benchmark; home-language reading proficiency",
-      dataSource: "Progress in International Reading Literacy Study (PIRLS), DBE Systemic Evaluation",
-    },
-    {
-      outcome: "Matric Pass Rate and Bachelor Eligibility Rate",
-      metric: "Matric pass rate; Bachelor's pass rate; true cohort pass rate (excluding learners who dropped out before Grade 12)",
-      dataSource: "Department of Basic Education (DBE) NSC results, Umalusi quality assurance reports",
-    },
-    {
-      outcome: "NEET Rate (Youth Not in Education, Employment, or Training)",
-      metric: "% of 15–24 year-olds NEET; % of 15–34 year-olds NEET; gender breakdown",
-      dataSource: "Stats SA Quarterly Labour Force Survey (QLFS), General Household Survey",
-    },
-    {
+      category: "Population Health Metrics",
       outcome: "Stunting Prevalence in Children Under Five",
       metric: "% of children under five with height-for-age below -2 SD; severe stunting (<-3 SD); exclusive breastfeeding coverage",
       dataSource: "Stats SA SADHS, NDOH District Health Information System, MRC Child Health surveillance",
     },
     {
-      outcome: "ECD Programme Access and Quality Compliance",
-      metric: "% of children 0–4 in registered ECD programmes; % of ECD centres meeting registration norms; share of poorest quintile reached",
-      dataSource: "Department of Basic Education ECD census, Stats SA General Household Survey, Ilifa Labantwana Thrive by Five Index",
+      category: "Population Health Metrics",
+      outcome: "HIV Treatment Cascade Completion Rate",
+      metric: "UNAIDS 95-95-95 progression: % diagnosed, % on ART, % virally suppressed",
+      dataSource: "Thembisa Model, NDOH HIV programme reports, SANAC monitoring framework",
     },
     {
-      outcome: "TVET and Artisan Qualification Completion Rates",
-      metric: "TVET certification completion rate; artisan trade test pass rate; placement rate within 12 months of qualification",
-      dataSource: "DHET Statistics on Post-School Education and Training, NAMB artisan data, SETA annual reports",
+      category: "Population Health Metrics",
+      outcome: "TB Case Detection and Treatment Success Rate",
+      metric: "TB case-detection rate; treatment success rate; MDR-TB cure rate; TB-HIV co-infection treatment coverage",
+      dataSource: "WHO Global TB Report, NDOH TB programme, NICD surveillance",
     },
     {
+      category: "Population Health Metrics",
       outcome: "Water and Sanitation Service Reliability",
       metric: "% of households with reliable piped water access; Blue Drop and Green Drop scores; days per year of supply interruption",
       dataSource: "DWS Blue Drop / Green Drop / No Drop reports, Stats SA General Household Survey, COGTA municipal performance",
     },
     {
+      category: "Educational Attainment and Skills Development Metrics",
+      outcome: "ECD Programme Access and Quality Compliance",
+      metric: "% of children 0–4 in registered ECD programmes; % of ECD centres meeting registration norms; share of poorest quintile reached",
+      dataSource: "Department of Basic Education ECD census, Stats SA General Household Survey, Ilifa Labantwana Thrive by Five Index",
+    },
+    {
+      category: "Educational Attainment and Skills Development Metrics",
+      outcome: "Grade 4 Reading Proficiency Rate",
+      metric: "% of Grade 4 learners reading for meaning at PIRLS benchmark; home-language reading proficiency",
+      dataSource: "Progress in International Reading Literacy Study (PIRLS), DBE Systemic Evaluation",
+    },
+    {
+      category: "Educational Attainment and Skills Development Metrics",
+      outcome: "Matric Pass Rate and Bachelor Eligibility Rate",
+      metric: "Matric pass rate; Bachelor's pass rate; true cohort pass rate (excluding learners who dropped out before Grade 12)",
+      dataSource: "Department of Basic Education (DBE) NSC results, Umalusi quality assurance reports",
+    },
+    {
+      category: "Educational Attainment and Skills Development Metrics",
+      outcome: "NEET Rate (Youth Not in Education, Employment, or Training)",
+      metric: "% of 15–24 year-olds NEET; % of 15–34 year-olds NEET; gender breakdown",
+      dataSource: "Stats SA Quarterly Labour Force Survey (QLFS), General Household Survey",
+    },
+    {
+      category: "Educational Attainment and Skills Development Metrics",
+      outcome: "TVET and Artisan Qualification Completion Rates",
+      metric: "TVET certification completion rate; artisan trade test pass rate; placement rate within 12 months of qualification",
+      dataSource: "DHET Statistics on Post-School Education and Training, NAMB artisan data, SETA annual reports",
+    },
+    {
+      category: "Income and Wealth Generation Metrics",
+      outcome: "Poverty Headcount and Depth",
+      metric: "% of population below upper-bound poverty line (UBPL); poverty gap index; child poverty rate; share of population below food poverty line",
+      dataSource: "Stats SA Living Conditions Survey, General Household Survey, NIDS-CRAM panel data",
+    },
+    {
+      category: "Income and Wealth Generation Metrics",
+      outcome: "Income Inequality (Gini Coefficient)",
+      metric: "Gini coefficient on disposable (post-tax-and-transfer) income; Palma ratio; income share of bottom 40% vs top 10%",
+      dataSource: "Stats SA Living Conditions Survey, Income and Expenditure Survey, NIDS, World Inequality Database",
+    },
+    {
+      category: "Income and Wealth Generation Metrics",
+      outcome: "Household Food Security",
+      metric: "% of households reporting hunger (GHS); % of children in food-insecure households; dietary diversity score",
+      dataSource: "Stats SA General Household Survey, NIDS-CRAM, NDOH National Food Consumption Survey",
+    },
+    {
+      category: "Income and Wealth Generation Metrics",
       outcome: "Social Grant Adequacy and Beneficiary Reach",
       metric: "% of eligible population receiving grants; child support grant value relative to food poverty line; uptake among eligible children",
       dataSource: "SASSA monthly reports, Stats SA General Household Survey, National Treasury Social Development Vote",
