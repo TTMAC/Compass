@@ -1632,6 +1632,21 @@ export const scorecardOutcomes: Record<WorkstreamId, ScorecardOutcome[]> = {
       dataSource: "SARB Quarterly Bulletin, Stats SA national accounts",
     },
     {
+      outcome: "Current Account Balance and Income Account Sustainability",
+      metric: "Current account balance as % of GDP; trade balance vs primary income account decomposition; net interest, dividend, and investment-income outflows as % of GDP; share of current account deficit financed by debt vs equity",
+      dataSource: "SARB Quarterly Bulletin (Balance of Payments), Stats SA Trade Statistics, National Treasury Budget Review",
+    },
+    {
+      outcome: "Capital Inflow Quality (FDI vs Portfolio Composition)",
+      metric: "Net FDI inflows as % of GDP; FDI share of total capital inflows; greenfield vs brownfield FDI split; portfolio inflow volatility; reinvested earnings retention",
+      dataSource: "SARB Quarterly Bulletin (Financial Account), UNCTAD World Investment Report, DTIC Investment Promotion data",
+    },
+    {
+      outcome: "External Vulnerability (Reserves and External Debt)",
+      metric: "Net International Investment Position (% of GDP); gross external debt as % of GDP; gross foreign reserves in months of import cover; reserves-to-short-term-external-debt ratio; sovereign credit ratings",
+      dataSource: "SARB Quarterly Bulletin, IMF External Sector Report, sovereign credit ratings (S&P, Moody's, Fitch)",
+    },
+    {
       outcome: "Business Entry Rate and Regulatory Burden",
       metric: "New business registrations per 1,000 working-age adults; median time and cost to register; regulatory cost as % of GNI per capita",
       dataSource: "CIPC business registration data, Stats SA business demography, World Bank B-READY survey",
