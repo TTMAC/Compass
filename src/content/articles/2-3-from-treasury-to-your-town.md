@@ -120,6 +120,25 @@ Water revenue is the second-largest trading service revenue stream for most muni
 
 Refuse removal charges are levied on all properties receiving municipal waste collection. The charges are typically modest compared to electricity and water, contributing 3–5% of own revenue. But refuse collection is one of the most visible municipal services — its failure is immediately apparent in uncollected waste on streets — and the revenue it generates is essential to maintaining collection vehicles, staffing collection routes, and operating landfill sites.
 
+## Funding Mix by Municipal Category: A Summary
+
+The Constitution divides South Africa's 257 municipalities into three categories — A, B, and C — and each category has a distinct funding profile. The table below summarises the principal funding types, their sub-types, and the share each typically contributes. The two percentage columns are deliberately separated: **% of total income** shows what share a top-level funding stream contributes to the municipality's overall budget, while **% of own revenue** shows how the own-revenue stream itself is composed (only meaningfully measured for metros). A row populates one column or the other — never both — so the denominator for each figure is unambiguous. Percentages reflect figures discussed above and Treasury data; actual ratios vary considerably by individual municipality.
+
+| Category | Funding Type | Sub-type / Instrument | % of total income | % of own revenue |
+|---|---|---|---|---|
+| **A** — Metropolitan (8 metros; e.g., Cape Town, Johannesburg) | Own revenue (top-level total) | Property rates + electricity surcharge + water/sanitation + refuse + fees, combined | **70–80%** | — |
+| **A** — Metropolitan | ↳ component of own revenue | Property rates | — | 20–25% |
+| **A** — Metropolitan | ↳ component of own revenue | Electricity surcharge | — | 25–35% |
+| **A** — Metropolitan | ↳ component of own revenue | Water & sanitation charges | — | 15–20% |
+| **A** — Metropolitan | ↳ component of own revenue | Refuse removal charges | — | 3–5% |
+| **A** — Metropolitan | National transfers (top-level total) | Equitable share (unconditional); Urban Settlements Development Grant (USDG); INEP, RBIG, PTNG | **20–30%** | — |
+| **A** — Metropolitan | Borrowing (top-level total) | Capital project loans (for metros with strong balance sheets) | Variable | — |
+| **B** — Local (non-metro; e.g., small rural Eastern Cape or Limpopo) | Own revenue (top-level total) | Property rates and service charges | **10–20%** (small rural); higher for secondary cities | — |
+| **B** — Local (non-metro) | National transfers (top-level total) | Equitable share (primary, unconditional); Municipal Infrastructure Grant (MIG); INEP, RBIG, MDRG | **80–90%** for transfer-dependent municipalities | — |
+| **B** — Local (non-metro) | Borrowing (top-level total) | Limited; largely absent for small rural municipalities | Negligible | — |
+| **C** — District (44 districts, each containing 3–6 local municipalities) | National transfers (top-level total) | Equitable share (district share); MIG and RBIG where the district is the water services authority | Majority of funding | — |
+| **C** — District | Own revenue (top-level total) | Bulk service charges where the district performs the water or sanitation function | Limited | — |
+
 ## The Revenue Collection Crisis
 
 The municipal business model described above works only if residents and businesses pay their bills. In a growing number of municipalities, they do not — and the reasons extend far beyond simple unwillingness.
