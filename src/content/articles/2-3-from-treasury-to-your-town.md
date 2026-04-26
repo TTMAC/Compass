@@ -79,7 +79,7 @@ When MIG funds are not spent, they can be rolled over to the next financial year
 
 ### The Urban Settlements Development Grant
 
-Metropolitan municipalities receive the Urban Settlements Development Grant (USDG) instead of the MIG. The USDG, allocated at approximately R14.5 billion in 2024/25, funds bulk infrastructure to support human settlements in metropolitan areas — the water mains, sewer trunks, roads, and electrical networks that make housing development possible. The USDG gives metros more flexibility than the MIG gives non-metro municipalities — reflecting the metros' greater administrative capacity and their more complex infrastructure challenges.
+Metropolitan municipalities receive the Urban Settlements Development Grant (USDG) instead of the MIG. The USDG, allocated at approximately R8.7 billion in 2024/25, funds bulk infrastructure to support human settlements in metropolitan areas — the water mains, sewer trunks, roads, and electrical networks that make housing development possible. The USDG gives metros more flexibility than the MIG gives non-metro municipalities — reflecting the metros' greater administrative capacity and their more complex infrastructure challenges. A separate Informal Settlements Upgrading Partnership Grant for Metros (~R4.5 billion in 2024/25) complements the USDG by funding the upgrading of informal settlements within metropolitan areas.
 
 ### Other Conditional Grants
 
@@ -138,6 +138,30 @@ The Constitution divides South Africa's 257 municipalities into three categories
 | **B** — Local (non-metro) | Borrowing (top-level total) | Limited; largely absent for small rural municipalities | Negligible | — |
 | **C** — District (44 districts, each containing 3–6 local municipalities) | National transfers (top-level total) | Equitable share (district share); MIG and RBIG where the district is the water services authority | Majority of funding | — |
 | **C** — District | Own revenue (top-level total) | Bulk service charges where the district performs the water or sanitation function | Limited | — |
+
+### Conditional Grants Available to Municipalities (2024/25)
+
+The table below lists the principal conditional grants that flow from National Treasury to municipalities under the Division of Revenue Act, together with each grant's purpose and the 2024/25 allocation. Conditional grants are *contingent* funding: they are released only on satisfaction of spending conditions, reporting requirements, and project registration with the administering national department. Unspent grants may be rolled over with Treasury approval or reallocated. Allocations change annually — verify current-year figures in the Division of Revenue Bill and Annexure W1 at [treasury.gov.za](https://www.treasury.gov.za).
+
+| Grant | Recipient category | Purpose | 2024/25 allocation |
+|---|---|---|---|
+| Municipal Infrastructure Grant (MIG) | Category B & C (non-metro) | Basic infrastructure: water, sanitation, municipal roads, community lighting, solid waste | ~R17 billion |
+| Urban Settlements Development Grant (USDG) | Category A (8 metros) | Bulk infrastructure for human settlements: water mains, sewer trunks, roads, electrical networks | ~R8.7 billion |
+| Informal Settlements Upgrading Partnership Grant — Metros (ISUPG-M) | Category A | Upgrading informal settlements in metros: services, tenure, top structures | ~R4.5 billion |
+| Integrated Urban Development Grant (IUDG) | Selected intermediate cities (Category B) | Capital infrastructure with integrated spatial-planning and capacity conditions | ~R1.1 billion |
+| Public Transport Network Grant (PTNG) | Selected metros and cities | Bus rapid transit, integrated public-transport infrastructure and operations | See DORA Annexure W1 |
+| Integrated National Electrification Programme — Municipal (INEP) | Various | Household electricity connections in areas without supply | See DORA Annexure W1 |
+| Regional Bulk Infrastructure Grant (RBIG) | District municipalities & water boards | Water and sanitation bulk infrastructure serving multiple municipalities (direct & indirect components) | See DORA Annexure W1 |
+| Water Services Infrastructure Grant (WSIG) | Various | Reticulation and bulk water/sanitation infrastructure not covered by RBIG | See DORA Annexure W1 |
+| Energy Efficiency and Demand Side Management Grant (EEDSM) | Selected municipalities | Retrofits to reduce municipal electricity consumption (street lighting, buildings) | See DORA Annexure W1 |
+| Smart Prepaid Meters Grant | Selected municipalities | Rollout of smart prepaid electricity and water meters | R500 million |
+| Local Government Financial Management Grant (FMG) | All municipalities | Financial-management capacity-building under the MFMA | See DORA Annexure W1 |
+| Expanded Public Works Programme (EPWP) Integrated Grant for Municipalities | Various | Incentive for labour-intensive job creation through municipal infrastructure work | See DORA Annexure W1 |
+| Neighbourhood Development Partnership Grant (NDPG) | Selected municipalities | Township economic infrastructure and precinct development | See DORA Annexure W1 |
+| Municipal Disaster Recovery / Response Grants | Affected municipalities | Emergency response and infrastructure rehabilitation after declared disasters | Variable — drawn from contingency reserve |
+| Rural Roads Asset Management Systems Grant | District municipalities | Roads asset registers and asset-management systems | See DORA Annexure W1 |
+| Programme & Projects Preparation Support Grant | Selected municipalities | Project-preparation funding for capital infrastructure pipelines | See DORA Annexure W1 |
+| **Direct conditional grants to local government — total** | All categories | All direct grants combined | **~R44.1 billion** (as at end-December 2024 in-year reporting) |
 
 ## The Revenue Collection Crisis
 
