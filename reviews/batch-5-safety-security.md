@@ -76,15 +76,33 @@ All four underweight articles were brought to or above the 4,500-word minimum th
 
 ---
 
-## Should-fix Items Left as Nits
+## Should-fix Items — Closure Pass Applied
 
-The agents flagged a number of should-fix items below blocker threshold that are tracked but not applied during this closure pass, in line with the Batch 1–4 precedent of leaving review-categorised nits in place where the underlying claims are well-anchored elsewhere in the corpus:
+After the initial closure, a follow-up pass applied the should-fix items previously deferred. The fixes:
 
-- **SF date-anchoring on PSIRA / SAPS headline figures** (ss-2-2 private security industry size; ss-2-5 PSIRA registrations and revenue; ss-2-5 SAPS member count): the figures appear repeatedly across the series and are sourced through the Resources sections; adding a fiscal year on every occurrence would be heavy without changing the substance.
-- **SF expert-block specific-publication anchors** (ss-1-1 ISS analysis; ss-2-1 ISS pipeline argument; ss-3-2 Scorpions conviction-rate quantification): the Resources sections carry the institutional pointers; tighter inline citation could be added but is not load-bearing.
-- **SF cross-reference verification** for slug integrity in ss-3-1 and ss-3-2: build verified clean (101 pages), so all internal slugs resolve.
-- **SF tone refinements** on rhetorical phrases ("crime wave of historic proportions" in ss-1-2; "decades-long failure" in ss-4-3): each is supported by the surrounding evidence and stays within the O'Reilly register the series uses.
-- **SF subtitle on ss-2-4** ("most catastrophic failure"): retained as intentional emphasis on scale; the subject matter (GBV/femicide) supports the framing and the article body delivers the evidence.
+- **ss-1-2** Polokwane reference: "Zuma defeated Mbeki" → "Jacob Zuma defeated Thabo Mbeki" — full-name rendering for younger readers.
+- **ss-2-1** DNA backlog: anchored peak to 2015–2016 with explicit AGSA performance reporting and SAPS Forensic Services annual reporting attribution.
+- **ss-2-1** sexual-offences conviction ratio: replaced "catastrophically low" lone phrase with the specific 4–8 per cent range from successive NPA annual reports and Stats SA VOCS analyses.
+- **ss-2-2** detective caseload: international 30–40 benchmark added; 150–200 figure anchored to ISS analysis of SAPS Detective Service data.
+- **ss-2-2** "largest in the world" claim now anchored to PSIRA annual reporting and ISS comparative analyses.
+- **ss-2-3** TB rate: anchored to JICS reporting and Department of Health data, with the *Lee v Minister of Correctional Services* (2013) Constitutional Court judgment providing the legal anchor for state liability for TB transmission in custody.
+- **ss-2-4** SAPS sexual-offences statistics anchored to the most recent published year (2022/23, ~53,000 cases); SAMRC prevalence framing tightened to "Successive South African Medical Research Council prevalence studies, supplemented by university-based research"; femicide rate citation tightened to "South African Medical Research Council mortuary studies and SAPS data"; forensic backlog citation tightened to "SAPS Forensic Services annual reporting and Auditor-General performance audits".
+- **ss-2-5** PSIRA 2.7M now anchored to "the most recent PSIRA annual report"; SAPS 190,000 now anchored to "its most recent Annual Report".
+- **ss-3-1** Limpopo 5.8M figure anchored to "the most recent Statistics South Africa mid-year population estimate".
+- **ss-3-2** detective caseload (80–150) anchored to ISS analysis of SAPS Detective Service data.
+- **ss-3-2** Scorpions conviction rate quantified as exceeding 90 per cent over the unit's operational lifetime, attributed to press, academic, and parliamentary analyses.
+- **ss-3-3** Hatfield Community Court founding year anchored to "the early 2000s".
+- **ss-4-2** World Bank 10–14% GDP cost anchored to its 2018 *Overcoming Poverty and Inequality in South Africa* analysis.
+- **ss-4-2** R100bn tourism figure anchored to "the most recent year for which complete South African Tourism data is available".
+- **ss-4-2** "performative toughness" reframed to "visible operations" with explicit structural framing of the misalignment between citizen demand under fear conditions and what systems analysis suggests, removing the implicit editorial commentary on political rationality.
+
+**Items not applied (intentionally retained):**
+
+- **ss-2-4** subtitle ("most catastrophic failure"): retained as intentional emphasis on scale; the subject matter (GBV/femicide) supports the framing and the article body delivers the evidence.
+- **ss-3-4** schedule redundancy at line 49: the offence schedule reads slightly repetitively but the structure is statutorily accurate (Part I of Schedule 2 vs Parts II–IV) and rephrasing would distort the legal precision.
+- **ss-3-5** Halden Prison framing: review flagged a slight tone drift but the surrounding evidence carries the claim; rephrase would over-correct.
+- **ss-4-3** ONS attribution at line 138: already in place ("the United Kingdom's Office for National Statistics").
+- **Cross-reference slug verification:** build is clean across 101 pages, so all internal slugs resolve correctly.
 
 ---
 

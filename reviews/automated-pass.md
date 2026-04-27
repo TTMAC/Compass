@@ -1,6 +1,6 @@
 # Automated Editorial Audit — Item 34 Pass 1
 
-Generated: 2026-04-27T15:23:35.529Z
+Generated: 2026-04-27T15:31:21.756Z
 Articles scanned: 79
 Word minimum: 4500
 
@@ -113,19 +113,19 @@ Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Em
 | Slug | Words | < min | FM | Links | Emoji | Forbidden |
 |---|---:|:-:|:-:|:-:|:-:|:-:|
 | ss-1-1-order-through-oppression | 5135 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-1-2-from-rainbow-nation-to-state-capture | 5463 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-2-1-the-broken-pipeline | 5595 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-2-2-policing-a-divided-country | 4538 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-2-3-justice-delayed-rights-denied | 4594 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-2-4-the-systems-most-catastrophic-failure | 4500 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-2-5-the-private-security-paradox | 4502 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-3-1-three-tier-policing-architecture | 4518 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-3-2-independent-investigating-magistracy | 4821 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-3-3-community-courts-and-restorative-justice | 4538 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-1-2-from-rainbow-nation-to-state-capture | 5465 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-2-1-the-broken-pipeline | 5657 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-2-2-policing-a-divided-country | 4577 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-2-3-justice-delayed-rights-denied | 4639 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-2-4-the-systems-most-catastrophic-failure | 4539 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-2-5-the-private-security-paradox | 4516 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-3-1-three-tier-policing-architecture | 4529 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-3-2-independent-investigating-magistracy | 4859 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-3-3-community-courts-and-restorative-justice | 4542 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-3-4-sentencing-commission-and-structured-guidelines | 5108 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-3-5-rehabilitation-as-constitutional-mandate | 4504 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-4-1-sequencing-reform | 5113 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-4-2-funding-the-delta | 5242 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-4-2-funding-the-delta | 5305 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-4-3-measuring-progress | 5184 | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 ## Detailed Findings
