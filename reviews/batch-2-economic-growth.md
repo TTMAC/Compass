@@ -186,7 +186,12 @@ Estimated time for all five: ~90 minutes of focused editing work.
 
 **Automated pass after closure (2026-04-27 audit re-run):** EG series 17/17 over 4,500 words, 0 frontmatter / linkage / emoji / forbidden-term issues.
 
-**No fixes applied during closure.** Unlike Batch 1, where two residual SF items were corrected directly (`2-3` load-shedding definition, `5-3` PARI-study replacement), Batch 2's residual SF-2 gaps either reference legitimate multi-paper research traditions or require the owner to select specific publication years for institutional reports — neither category warranted unilateral edits.
+**Closure-time fixes applied (three targeted SF-2 rewrites, 2026-04-27).** Three expert blocks named institutions but referenced ongoing programmes or platforms without a year anchor. Per owner direction (drop the citation if no specific year is needed), each block was rewritten to drop the institutional citation and stand on its substantive content:
+- `eg-4-1-the-municipal-performance-index` § Treasury MFIP block — reframed around Section 71 of the MFMA (the underlying regulatory system) rather than the MFIP programme.
+- `eg-4-2-the-metro-rankings` § Treasury MFIP block — reframed around the Municipal Money portal (a current, named public data product) rather than the MFIP programme.
+- `eg-2-5-innovation-driven-growth` § World Bank Innovation Policy Platform block — dropped the WBIPP attribution; the comparative observation about South Korea, Finland, and Israel innovation-policy continuity now stands as a historical claim on its own.
+
+The 9 remaining SF-2 residuals reference multi-paper research traditions (e.g. "Wits SoG, PARI, HSRC have consistently identified...") where the consensus framing is the appropriate honest attribution and a single-paper citation would be misleading. Left as-is.
 
 **Final verdict:** 17/17 Pass, 0 blockers, 0 should-fix outstanding for publication. Build clean.
 

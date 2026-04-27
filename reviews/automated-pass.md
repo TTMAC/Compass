@@ -1,6 +1,6 @@
 # Automated Editorial Audit — Item 34 Pass 1
 
-Generated: 2026-04-27T14:29:02.582Z
+Generated: 2026-04-27T14:37:49.945Z
 Articles scanned: 79
 Word minimum: 4500
 
@@ -49,12 +49,12 @@ Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Em
 | eg-2-2-infrastructure-foundations | 8897 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | eg-2-3-financing-the-build | 5207 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | eg-2-4-the-efficiency-transition | 7641 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| eg-2-5-innovation-driven-growth | 8544 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| eg-2-5-innovation-driven-growth | 8531 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | eg-3-1-three-engines-of-growth | 9381 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | eg-3-2-the-execution-machine | 7949 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | eg-3-3-watching-the-watchers | 7937 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| eg-4-1-the-municipal-performance-index | 9396 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| eg-4-2-the-metro-rankings | 8700 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| eg-4-1-the-municipal-performance-index | 9377 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| eg-4-2-the-metro-rankings | 8686 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | eg-4-3-infrastructure-planning-vs-reality | 8939 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | eg-5-1-the-political-economy-of-growth | 9197 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | eg-5-2-from-strategy-to-reality | 11944 | ✓ | ✓ | ✓ | ✓ | ✓ |
