@@ -197,7 +197,7 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Resolution:** Audited all 76 articles and standardised 28 that had inconsistent formatting. Fixed: (1) 6 articles (3-1 through 4-3) converted from paragraph format with bold sub-headings and plain URLs to bullet list with markdown links. (2) 15 eg-series articles converted from various paragraph/prose formats with bold source names to bullet list format. (3) 4 ra-4-x articles had plain URLs converted to markdown links. (4) 2 ra-5-x articles converted from prose paragraphs to bullet list. (5) 2 articles (eg-1-1, eg-4-2) had heading corrected from "Resources and Institutional Sources" to "Resources". (6) All intro lines standardised to "The analysis in this article draws on the following institutional research and publications:". All internal cross-reference links preserved. Build verified clean.
 
 ### Item 34: Batched editorial standards review across all articles
-- **Status:** ⬜ Not started
+- **Status:** 🟡 In progress — Batch 1 (Core Series) complete; Batches 2–5 outstanding
 - **Why:** Item 20 covered structural and domain-language consistency, but articles have not been systematically audited against the full Content Style Guide — voice (direct address, BLUF, lead-with-specifics, O'Reilly register), evidentiary standards (data-anchored claims, visible sources, no speculation as fact), non-partisan tone, the 4,500-word minimum (lowered 2026-04-14), and the requirement that every article close with a practical tool (framework, checklist, data source, or complaint mechanism). With ~77 articles across 5 series, a batched approach is needed to keep review tractable and maintain thematic context.
 - **Standards checklist (applied per article):**
   - **Structural:** word count ≥ 4,500; frontmatter valid (`part`, `articleNumber`, `sphere`, `description`, `series.prev/next` correctly doubly-linked); BLUF in first two paragraphs; closes with a practical tool.
@@ -216,7 +216,8 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
   3. Produce batch report at `reviews/batch-N-<series>.md` with pass/fail matrix, top issues, and recommended fixes grouped by severity (blocker / should-fix / nit).
   4. Apply fixes only after owner sign-off on severity triage.
   5. Re-run automated pass to confirm no regressions before moving to next batch.
-- **Open question:** Start with Batch 1 (Core Series) to unblock MVP launch, or run the automated pass across all five batches first to triage where the worst issues live?
+- **Batch 1 resolution (2026-04-27):** Core Series (15 articles) closed. Initial review on 2026-04-14 identified 2 blockers and ~30 should-fix items grouped into 7 patterns (SF-1 to SF-7). Verification on 2026-04-27 confirmed all blockers and SF patterns resolved in the corpus, with two residual fixes applied directly: (1) `2-3` first-use definition for "load shedding"; (2) `5-3` replacement of an unsourced "2025 PARI study" reference with attribution to the IEC's 2021 voter-registration statistics and PARI / GGLN local-governance research, plus added Resources entries. Final verdict: 15/15 Pass, 0 blockers, 0 should-fix outstanding. Build clean (104 pages). See `reviews/batch-1-core-series.md`.
+- **Open question (Batches 2–5):** Run the automated pass across the four remaining batches first to triage where the worst issues live, or proceed sequentially Batch 2 → 3 → 4 → 5?
 
 ---
 

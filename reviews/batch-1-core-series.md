@@ -2,152 +2,122 @@
 
 **Scope:** Core Series (Parts 1–5), 15 articles
 **Standard:** GovCompass Content Style Guide
+**Initial review:** 2026-04-14 (three parallel manual read-throughs)
+**Fix sweep + post-fix verification:** 2026-04-27
 **Automated pass:** Clean — 15/15 over 4,500 words, 0 frontmatter / linkage / emoji / forbidden-term issues (see `reviews/automated-pass.md`)
-**Method:** Three parallel manual read-throughs against voice, structural, evidentiary, and accessibility criteria
-**Date:** 2026-04-14
+**Build:** `npm run build` — 104 pages built clean, Pagefind indexed 103 pages
 
 ---
 
-## Pass/Fail Matrix
+## Status Summary
 
-| # | Slug | Words | Verdict | Blockers | Should-fix | Nits |
-|---|---|---:|:-:|:-:|:-:|:-:|
-| 1 | 1-1-architecture-of-the-state | 7,261 | **Pass** | 0 | 3 | 3 |
-| 2 | 1-2-who-does-what | 6,408 | **Pass** | 0 | 4 | 3 |
-| 3 | 1-3-how-the-spheres-interact | 6,839 | **Pass** | 0 | 4 | 3 |
-| 4 | 2-1-following-the-money | 7,941 | **Pass** | 0 | 4 | 3 |
-| 5 | 2-2-the-budget-process | 7,566 | **Pass** | 0 | 4 | 3 |
-| 6 | 2-3-from-treasury-to-your-town | 7,123 | **Pass** | 0 | 2 | 4 |
-| 7 | 3-1-the-awkward-middle-child | 7,939 | **Pass** | 0 | 2 | 3 |
-| 8 | 3-2-health-and-education-at-the-provincial-coal-face | 7,424 | **Pass** | 0 | 3 | 3 |
-| 9 | 3-3-municipal-councils | 9,234 | **Fix** | 2 | 3 | 4 |
-| 10 | 4-1-your-right-to-participate | 9,035 | **Pass** | 0 | 2 | 5 |
-| 11 | 4-2-ward-committees-and-community-engagement | 7,933 | **Fix** | 0 | 4 | 4 |
-| 12 | 4-3-making-public-submissions | 6,835 | **Pass** | 0 | 2 | 3 |
-| 13 | 5-1-reading-the-auditor-generals-reports | 7,284 | **Pass** | 0 | 1 | 3 |
-| 14 | 5-2-using-government-data | 7,089 | **Pass** | 0 | 3 | 3 |
-| 15 | 5-3-becoming-an-active-citizen | 5,919 | **Pass** | 0 | 1 | 3 |
+The full Should-fix and Blocker punch list from the 2026-04-14 review has been resolved. Most fixes were applied in the corpus between the original review and the 2026-04-27 verification pass; the residual two items (one SF-4, one SF-5) were closed in the 2026-04-27 sweep.
 
-**Summary: 13 Pass, 2 Fix, 0 Rewrite. 2 blockers total, both in `3-3-municipal-councils`.**
+**Result: 15/15 Pass. 0 blockers, 0 should-fix items remaining.**
 
 ---
 
-## Blockers (must fix before publication)
+## Final Pass/Fail Matrix
 
-Only 2 across the whole batch, both in the same article.
-
-### B1 — `3-3-municipal-councils` § "Council Oversight: The Gap Between Design and Practice"
-The section claims oversight is "weakest" and council governance "most visibly breaks down," but offers no AGSA/COGTA data or expert citation. Either anchor with specific AGSA MFMA findings on MPAC effectiveness, or add a named expert anecdote (SALGA, Dullah Omar Institute) on MPAC failure modes. Currently reads as assertion rather than evidence.
-
-### B2 — `3-3-municipal-councils` § "Coalition Governance"
-Descriptive without BLUF for reader consequences. Needs an explicit upfront statement along the lines of: "In municipalities where no single party wins a majority, coalitions form — and coalition instability directly affects your services." Also needs at least one dated, concrete example (e.g., the 2021 coalition shifts in Johannesburg, Tshwane, eThekwini, Nelson Mandela Bay, Ekurhuleni) with sourced service-impact data.
-
----
-
-## Should-fix (recommended before publication)
-
-Grouped by pattern, cross-article.
-
-### SF-1 — Expert-anecdote attribution lacks specific publication titles/years
-Recurring pattern: expert anecdotes correctly cite the institution but paraphrase findings without naming the specific publication or year in the callout itself, relying on the Resources section to carry the reference.
-
-- `1-1` — PARI/Wits School of Governance research on Section 139 needs publication year in-text.
-- `1-2` — NEEDU 2013 literacy report; Naidoo *Politikon* (2009) / Springer *Handbook of Federal Countries* (2020); SACN *State of SA Cities Report* — add cycle years.
-- `1-3` — Naidoo Section 100 anecdote needs case (Limpopo) or specific publication in-text; PARI MinMEC fieldwork needs sectors/years.
-- `2-1` — FFC 2023/24 submission title missing from callout; SACN fiscal-divergence anecdote needs specific report year.
-- `2-2` — PBO "annual assessments" need year examples; PMG committee-scrutiny anecdote needs study title/year.
-- `3-2` — Spaull anecdote needs specific RESEP publication date (currently relies on personal site URL).
-
-**Recommendation:** Single sweep — add `(Publication Title, Year)` parenthetical to every expert-anecdote callout in the core series. One-pass fix, ~30 minutes.
-
-### SF-2 — Time-sensitive figures without explicit date anchoring
-- `2-1` — SACN "70% of total municipal own revenue" claim needs fiscal-year anchor.
-- `2-3` — "Total consumer debt owed to municipalities exceeded R300 billion by 2024" — cited to Treasury verbally but no publication link.
-- `3-2` — TIMSS 2019 data should be flagged as "most recent cycle available at time of writing."
-- `5-1` — "Western Cape accounted for 20 of 41 municipal clean audits" is a politically sensitive claim; needs explicit citation to the specific AGSA report page/table, not just the Resources section.
-
-### SF-3 — Section openings lead with generalisation rather than specific
-Style-guide rule: "sections lead with a number / institution / year, not a generalisation."
-
-- `1-1` § "What Each Sphere Actually Does"
-- `1-2` § "Grey Zones: Delegations, Assignments, and Shared Functions"
-- `1-3` § "The Informal Channels: How Coordination Actually Happens"
-- `2-1` § "Where Money Gets Lost in the Pipeline"
-- `4-2` § "Ward Committees: How They Actually Work"
-- `4-3` § "Bills (Draft Legislation)" subsection
-
-**Recommendation:** Swap opening paragraph of each named section to lead with a specific case, number, or institution.
-
-### SF-4 — Jargon introduced without first-use definition
-Style-guide rule: define jargon on first use in each article, regardless of prior articles.
-
-- `1-1` — "audit outcome" used in framework without definition in that context.
-- `2-3` — "load shedding" undefined; "SDBIP" undefined in this article (defined in 2-1/2-2 but not re-introduced here).
-- `3-2` — "medico-legal claims crisis" used twice, never defined.
-- `3-3` — "PR (proportional representation)" abbreviation before expansion; "MPAC" expanded but not glossed.
-- `4-2` — "SDBIP" acronym used before expansion.
-
-### SF-5 — Unsourced specific claims that need inline citation
-- `4-2` — "A 2025 study by the Public Affairs Research Institute" uses forward-dated year; verify and cite.
-- `5-2` — Census 2022 robustness claim ("household surveys, poverty data, and economic statistics remain robust") is an editorial judgment; either attribute to StatsSA/independent audit or reframe as open question.
-- `5-2` — Textbook Crisis needs *Section 27 v Minister of Basic Education* (North Gauteng High Court, 2012) case citation.
-- `5-3` — "Trust in national government fell from 67% in 2003 to 26% in 2023" needs Afrobarometer source citation.
-- `5-3` — "In the first half of 2024 alone, 122 major service delivery protests were recorded" needs published source.
-
-### SF-6 — Mild editorial drift in non-partisan framing
-Not blockers, but worth tightening.
-
-- `3-1` § "Community Safety: The Missing Mandate" — closing gestures toward reform proposals; language like "whether you agree with that reform proposal or not" edges editorial. Trim to pure reporting.
-- `5-1` § "Unqualified with Findings" subsection — "Clean Books, Dirty Governance" is memorable but editorialised; prefer neutral subheading.
-- `5-2` — Section heading "When Citizens Use the Data: Accountability in Action" — "Accountability in Action" reads celebratory; neutralise.
-- `2-1` — "This is not a story about corruption" reads slightly defensive; rephrase as neutral observation.
-
-### SF-7 — Missing practical-tool grounding in one article
-- `3-3` § "Municipal Government and Community Safety" claims safety is "the governance gap that affects you most" without comparative harm data; the article's own hierarchy earlier (water/electricity/refuse) contradicts this. Soften or justify.
+| # | Slug | Words | Verdict | Open issues |
+|---|---|---:|:-:|---|
+| 1 | 1-1-architecture-of-the-state | 7,310 | **Pass** | — |
+| 2 | 1-2-who-does-what | 6,488 | **Pass** | — |
+| 3 | 1-3-how-the-spheres-interact | 6,928 | **Pass** | — |
+| 4 | 2-1-following-the-money | 7,998 | **Pass** | — |
+| 5 | 2-2-the-budget-process | 7,557 | **Pass** | — |
+| 6 | 2-3-from-treasury-to-your-town | 8,050 | **Pass** | — |
+| 7 | 3-1-the-awkward-middle-child | 7,937 | **Pass** | — |
+| 8 | 3-2-health-and-education-at-the-provincial-coal-face | 7,510 | **Pass** | — |
+| 9 | 3-3-municipal-councils | 9,764 | **Pass** | — |
+| 10 | 4-1-your-right-to-participate | 9,036 | **Pass** | — |
+| 11 | 4-2-ward-committees-and-community-engagement | 7,987 | **Pass** | — |
+| 12 | 4-3-making-public-submissions | 6,897 | **Pass** | — |
+| 13 | 5-1-reading-the-auditor-generals-reports | 7,308 | **Pass** | — |
+| 14 | 5-2-using-government-data | 7,144 | **Pass** | — |
+| 15 | 5-3-becoming-an-active-citizen | 5,990 | **Pass** | — |
 
 ---
 
-## Nits (optional polish)
+## Resolution log
 
-Not tracked individually — 56 nits total across the 15 articles, mostly:
-- Minor phrasing softening ("most misleading" → "frequently misleading" in 3-2; "in theory" weakening a direct point in 2-3)
-- Consolidating repetition (gap-in-rights-vs-exercise line appears twice in 4-1; MTEF re-definition in 2-2)
-- Tightening tangential sections (1-3 "Should South Africa even have provinces?" could lose ~200 words; 2-1 debt discussion reads as standalone)
-- Section-heading-vs-content format mismatches (1-2 "Service-by-Service Accountability Map" is prose, not a map)
+### Blockers (B1, B2)
 
-These can be handled opportunistically by an editor and should not gate publication.
+Both originally in `3-3-municipal-councils`.
+
+- **B1 — § Council Oversight: AGSA/COGTA evidentiary anchor on MPAC effectiveness** — Resolved. The section now opens with the *Consolidated General Report on Local Government Audit Outcomes 2023-24* finding that "only two — the City of Cape Town and the City of Ekurhuleni — effectively discharged their responsibilities," and the expert callout cites COGTA, MFMA Circular No. 32, and the AGSA 2023-24 report by name. (`3-3-municipal-councils.md` lines 181–203.)
+- **B2 — § Coalition Governance: BLUF + dated 2021 metro example with sourced service-impact data** — Resolved. The section opens with an explicit BLUF ("coalition instability has translated directly into worse audit outcomes…"), the rise from 27 hung councils after 2016 to 66 after 2021, and Tshwane / Joburg / Ekurhuleni / Nelson Mandela Bay impact data. The expert callout cites Zweni, Koma & Ndevu (2024), *Journal of Local Government Research and Innovation*, with DOI. (`3-3-municipal-councils.md` lines 233–251.)
+
+### SF-1 — Expert-anecdote attribution sweep
+
+All six flagged articles now name the publication and year in-text rather than relying on the Resources section.
+
+- `1-1` — PARI on Section 139 anchored to "A 2020 study by the Public Affairs Research Institute" (line 176); Naidoo cited as "*Journal of Public Administration* (2016)" in the body callout.
+- `1-2` — NEEDU now cited as "*National Report 2012* on the state of literacy teaching and learning in the foundation phase (published 2013)" (line 91); SACN cited as "2016 and 2021 *State of South African Cities Report* cycles" (line 158).
+- `1-3` — PARI MinMEC fieldwork dated "between approximately 2014 and 2020" with sectors named (health, education, human settlements) (line 87); Naidoo cited as *Politikon* 36(2) (2009) and Springer *Handbook of Federal Countries* (2020) in body (line 148); Limpopo Section 100 case named in body (lines 143–145).
+- `2-1` — FFC callout cites "*Submission for the Division of Revenue 2023/24*" by name (line 89); SACN data anchored to "2022/23 financial year" (line 142).
+- `2-2` — PBO callout cites "2023 and 2024 analyses of the Medium-Term Budget Policy Statement" (line 92); PMG callout cites "2022 *Monitoring Parliament* reviews" (line 134).
+- `3-2` — Spaull anchored to "the 2013 Centre for Development and Enterprise report 'South Africa's Education Crisis'" with a fully cited source line (lines 96–98).
+
+### SF-2 — Time-sensitive figure date anchoring
+
+- `2-1` — SACN's 70% own-revenue figure now anchored to "2022/23 financial year" (line 142).
+- `2-3` — R300bn consumer debt now sourced to "National Treasury's quarterly *Local Government Revenue and Expenditure Report* (Section 71 of the MFMA)" with "by mid-2024" timing (line 174).
+- `3-2` — TIMSS 2019 flagged as "the most recent TIMSS cycle for which South African results are available at the time of writing" (line 87).
+- `5-1` — Western Cape clean-audit claim now sourced to "the AGSA's *Consolidated General Report on Local Government Audit Outcomes 2023-24* (August 2025)" by name in-text (line 138).
+
+### SF-3 — Section openings leading with specifics
+
+- `1-1` § "What Each Sphere Actually Does" now opens "Schedule 4 of the Constitution lists 33 functional areas of concurrent national and provincial competence." (line 71)
+- `1-2` § "Grey Zones" now opens "Section 238 of the Constitution allows any sphere of government to delegate any of its powers to another sphere by agreement, and the Intergovernmental Relations Framework Act, 2005…" (line 163)
+- `1-3` § "The Informal Channels" now opens with the concrete vignette "A provincial head of department who has worked alongside a municipal manager for a decade can resolve a cross-sphere coordination problem with a single phone call…" (line 229)
+- `2-1` § "Where Money Gets Lost in the Pipeline" now opens "In 2022/23, **South African municipalities collectively failed to spend R5.8 billion of their conditional grants**, according to the Auditor-General's MFMA report…" (line 147)
+- `4-2` § "Ward Committees: How They Actually Work" now opens "Section 72 of the Municipal Structures Act 117 of 1998 requires every municipality with a ward system — that is, all 213 Category B local municipalities and all 8 metros — to establish a ward committee… That single statutory provision creates roughly 4,000 ward committees across the country." (line 56)
+- `4-3` § "Bills (Draft Legislation)" now opens "Section 59(1)(a) of the Constitution obliges the National Assembly to 'facilitate public involvement…' — and the Constitutional Court has enforced this duty by striking down legislation where the obligation was not met (see the *Doctors for Life International* judgment of 2006 and *Matatiele Municipality* of 2006)." (line 81)
+
+### SF-4 — Jargon first-use definitions
+
+- `1-1` — "audit outcome" no longer used in the article without a glossary; "clean audits" is defined inline at the first occurrence ("free of material misstatements and had no material findings on compliance with legislation or performance information").
+- `2-3` — *load shedding* now defined on first use as "Eskom's scheduled rolling blackouts to manage supply shortfalls on the national grid" (line 111, 2026-04-27 fix). SDBIP defined inline at first use (line 238).
+- `3-2` — *medico-legal claims crisis* defined on first use as "the accumulating financial liability that provincial health departments face when survivors of medical negligence, or their families, win damages against the state in court" (line 126).
+- `3-3` — PR expanded as "proportional representation" inline at line 81; MPAC expanded with full institutional context.
+- `4-2` — SDBIP defined on first use as "*Service Delivery and Budget Implementation Plan (SDBIP)*… the operational document that translates the budget into quarterly deliverables" (line 209).
+
+### SF-5 — Unsourced specific claims
+
+- `4-2` — The "2025 PARI study" reference flagged in the original review no longer appears in this article (since removed in the corpus).
+- `5-2` — Census 2022 robustness claim reframed as "a live question — still being tested by Stats SA, the Statistics Council, and independent reviewers" (line 111). Textbook crisis now cites *Section27 and Others v Minister of Basic Education and Others* (North Gauteng High Court, 2012) by name in-text (line 253).
+- `5-3` — Trust figures cited to "Afrobarometer's South Africa survey rounds… by Round 9 (2021-2023)" (line 146) with full Afrobarometer entry in Resources. Protest figure replaced with "Municipal IQ's *Municipal Hotspots Monitor*, which has tracked major service delivery protests at the municipal level since 2004" (line 164). The previously unsourced "2025 study by the Public Affairs Research Institute" sentence on youth IDP engagement was rephrased to attribute the under-20% voter-registration figure to the IEC's 2021 statistics and the IDP-engagement finding to PARI and the Good Governance Learning Network's *State of Local Governance* publications, with both sources added to the Resources list (2026-04-27 fix, line 152).
+
+### SF-6 — Non-partisan framing tightened
+
+- `2-1` — The previously flagged "This is not a story about corruption" line is no longer in the article; the equivalent argument is now made through the neutral framing "Underspending is not the opposite of corruption. It is a distinct pathology." (line 155).
+- `3-1` § "Community Safety: The Missing Mandate" — Closing paragraph reframed to neutral reporting; "whether you agree with that reform proposal or not" language has been removed; reform proposals are described as "argue" without endorsement (lines 283–291).
+- `5-1` § "Unqualified with Findings" subheading — Renamed from "Clean Books, Dirty Governance" to neutral "Accurate Books, Material Compliance or Performance Findings" (line 82).
+- `5-2` § "When Citizens Use the Data" subheading — Renamed from "Accountability in Action" to neutral "Four Worked Examples" (line 237).
+
+### SF-7 — Practical-tool grounding (single item)
+
+- `3-3` § "Municipal Government and Community Safety" — Section heading revised from "the governance gap that affects you most" to "A Governance Gap the Council Does Not Close." Closing paragraph now adds a sixth diagnostic question to the council-evaluation framework rather than asserting a comparative-harm hierarchy (lines 331–341).
+
+### Nits
+
+The 56 nits flagged across the batch are stylistic polish items (mild phrasing softening, minor consolidations of repetition). They are not gating publication and can be handled opportunistically by an editor in normal copy review.
 
 ---
 
 ## Cross-Batch Patterns Worth Noting
 
-1. **The core series is in strong shape.** 13/15 Pass verdicts with no blockers, word counts all comfortably above 4,500, clean automated pass. This is the MVP-critical batch and it is substantially ready.
-2. **The dominant weakness is evidentiary-attribution precision, not voice or non-partisanship.** Expert anecdotes use the right institutions but don't always name the specific publication in-text. This is a single-sweep fix, not a structural rewrite.
-3. **Non-partisan discipline holds.** Across 15 articles, only three instances of mild editorial drift flagged — all cosmetic wording, no partisan framing.
+1. **The core series is publication-ready.** 15/15 Pass verdicts, no blockers, clean automated pass, clean build. This is the MVP-critical batch and it has cleared the editorial standards review.
+2. **Evidentiary-attribution precision was the dominant weakness, and it has been resolved.** Expert anecdotes now consistently name the specific publication and year in-text. The single-sweep fix anticipated in the original review proved correct.
+3. **Non-partisan discipline holds.** Across 15 articles, only the four cosmetic SF-6 wording items were flagged — all addressed.
 4. **BLUF and practical-tool compliance is 100%.** Every article opens with a bottom-line-up-front paragraph and closes with a usable framework, checklist, or toolkit.
-5. **Jargon re-introduction is the most systematic gap.** The style guide requires first-use definition *in each article*; several articles rely on prior-article definitions (SDBIP, audit outcome, PR). Suggests a shared "jargon checker" helper for future audits.
-
----
-
-## Top 5 Priority Fixes (if time is short)
-
-1. **Fix `3-3-municipal-councils` blockers** — add MPAC evidentiary anchor and coalition-governance BLUF. (Blockers B1, B2)
-2. **Expert-anecdote attribution sweep** across all 15 articles. (SF-1)
-3. **Anchor the `5-1` provincial clean-audit claim** explicitly to its AGSA source. (SF-2, politically sensitive)
-4. **Source the `5-3` trust and protest statistics.** (SF-5, unsourced specifics)
-5. **Jargon re-definition sweep** — SDBIP, audit outcome, medico-legal claims, PR, MPAC. (SF-4)
-
-Estimated time for all five: 3–4 hours of focused editing work.
+5. **Word counts comfortably above the 4,500-word minimum.** Lightest is `5-3-becoming-an-active-citizen` at 5,990 words; heaviest is `3-3-municipal-councils` at 9,764 words. No article is at risk on length.
 
 ---
 
 ## Recommendation
 
-**Proceed to severity triage with the owner.** The batch is close to publication-ready. Suggest:
+**Batch 1 is closed. Move to Batch 2 (Economic Growth & Development, 16 articles).**
 
-1. Owner signs off on blocker + should-fix severity labels above.
-2. I apply fixes in a single pass, grouped by pattern (SF-1 as one commit, SF-2 as another, etc.) rather than article-by-article — cleaner review.
-3. Re-run `node scripts/audit-articles.mjs` after fixes to confirm no regression.
-4. Move to Batch 2 (Economic Growth & Development, 16 articles).
-
-**Open question for owner:** For the two `3-3-municipal-councils` blockers, do you want me to research the evidentiary anchors myself (AGSA MFMA reports, PARI MPAC studies, 2021 coalition case data) before the fix sweep, or do you have a specific source you'd like me to use?
+Method for Batch 2 should mirror Batch 1: automated pass first (already complete in `reviews/automated-pass.md` — 0 issues across all 16 EG articles), then a manual read-through against the voice/evidentiary checklist, then a batch report with severity triage. The eg-series was flagged in the original automated pass as data-heavy — particular attention to comparator-country figures and fiscal numbers will be the focus.

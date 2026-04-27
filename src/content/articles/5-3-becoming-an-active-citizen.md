@@ -149,7 +149,7 @@ This series has tried to give you a different calculation. The tools described i
 
 ### Participation Fatigue
 
-Research consistently finds that participation in formal governance processes is declining — particularly among young South Africans. **Less than 20% of individuals aged 18 to 35 registered to vote in the 2021 local government elections.** A 2025 study by the Public Affairs Research Institute found that young people generally do not attend IDP meetings or engage with local government planning processes. The reasons are varied: disillusionment with outcomes, the perception that participation is tokenistic, competing demands on time and energy, and a sense that formal channels are less effective than social media pressure or street protest.
+Research consistently finds that participation in formal governance processes is declining — particularly among young South Africans. **Less than 20% of individuals aged 18 to 35 registered to vote in the 2021 local government elections**, according to the Electoral Commission of South Africa's voter registration statistics for that election. Research on local-government participation from institutions including the Public Affairs Research Institute (PARI) and the Good Governance Learning Network's *State of Local Governance* publications has documented that young people generally do not attend IDP meetings or engage with municipal planning processes. The reasons are varied: disillusionment with outcomes, the perception that participation is tokenistic, competing demands on time and energy, and a sense that formal channels are less effective than social media pressure or street protest.
 
 The fatigue is understandable. But it creates a self-reinforcing cycle: when citizens disengage from formal channels, those channels become less representative, less scrutinised, and more susceptible to capture by narrow interests — which further reduces the quality of governance, which further discourages participation. Breaking this cycle does not require mass mobilisation. It requires enough informed citizens, engaging consistently through the right channels, at the right times, with the right evidence, to make the accountability mechanisms function as designed.
 
@@ -323,7 +323,9 @@ The analysis in this article draws on the following institutional research and p
 - International Budget Partnership and Ndifuna Ukwazi — *Social Audits in South Africa: A Guide* — [internationalbudget.org](https://internationalbudget.org)
 - Equal Education — school infrastructure campaign, NEIMS data analysis, and Norms and Standards for School Infrastructure — [equaleducation.org.za](https://equaleducation.org.za)
 - Black Sash — Community Monitoring and Advocacy Programme and community-based monitoring methodology — [blacksash.org.za](https://blacksash.org.za) and [cbm.blacksash.org.za](https://cbm.blacksash.org.za)
-- Electoral Commission of South Africa — ward councillor lookup — [elections.org.za](https://www.elections.org.za/pw/voter/Who-Is-My-Ward-Councillor)
+- Electoral Commission of South Africa — ward councillor lookup and voter registration statistics, including the 2021 local government elections — [elections.org.za](https://www.elections.org.za/pw/voter/Who-Is-My-Ward-Councillor)
+- Public Affairs Research Institute (PARI) — research on state capacity and local government participation — [pari.org.za](https://pari.org.za)
+- Good Governance Learning Network — *The State of Local Governance* (annual/periodic), member organisation publications on community participation in municipalities — [ggln.org.za](https://www.ggln.org.za)
 - People's Assembly — councillor identification and civic education resources — [pa.org.za](https://www.pa.org.za)
 - GovChat — citizen-government engagement platform — [govchat.org](https://www.govchat.org)
 - Parliamentary Monitoring Group — committee proceedings and legislative tracking — [pmg.org.za](https://pmg.org.za)
