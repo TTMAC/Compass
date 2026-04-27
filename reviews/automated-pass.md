@@ -1,16 +1,16 @@
 # Automated Editorial Audit — Item 34 Pass 1
 
-Generated: 2026-04-27T15:07:35.871Z
+Generated: 2026-04-27T15:23:35.529Z
 Articles scanned: 79
 Word minimum: 4500
 
 ## Summary
 
-- **Word count < 4500:** 4
+- **Word count < 4500:** 0
 - **Frontmatter issues:** 0
 - **Series linkage issues:** 0
 - **Emoji in body:** 0
-- **Forbidden-term hits (any severity):** 2
+- **Forbidden-term hits (any severity):** 0
 
 ## Per-Batch Breakdown
 
@@ -108,42 +108,24 @@ Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Em
 
 ### Safety & Security (15 articles)
 
-Under 4500 words: **4** | Frontmatter issues: **0** | Linkage issues: **0** | Emoji: **0** | Forbidden-term hits: **2**
+Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Emoji: **0** | Forbidden-term hits: **0**
 
 | Slug | Words | < min | FM | Links | Emoji | Forbidden |
 |---|---:|:-:|:-:|:-:|:-:|:-:|
-| ss-1-1-order-through-oppression | 5133 | ✓ | ✓ | ✓ | ✓ | 1 |
+| ss-1-1-order-through-oppression | 5135 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-1-2-from-rainbow-nation-to-state-capture | 5463 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-2-1-the-broken-pipeline | 5571 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-2-1-the-broken-pipeline | 5595 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-2-2-policing-a-divided-country | 4538 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-2-3-justice-delayed-rights-denied | 4568 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-2-4-the-systems-most-catastrophic-failure | 3969 | ❌ | ✓ | ✓ | ✓ | ✓ |
-| ss-2-5-the-private-security-paradox | 3470 | ❌ | ✓ | ✓ | ✓ | ✓ |
-| ss-3-1-three-tier-policing-architecture | 4470 | ❌ | ✓ | ✓ | ✓ | 1 |
+| ss-2-3-justice-delayed-rights-denied | 4594 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-2-4-the-systems-most-catastrophic-failure | 4500 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-2-5-the-private-security-paradox | 4502 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-3-1-three-tier-policing-architecture | 4518 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-3-2-independent-investigating-magistracy | 4821 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-3-3-community-courts-and-restorative-justice | 4538 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-3-4-sentencing-commission-and-structured-guidelines | 5108 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-3-5-rehabilitation-as-constitutional-mandate | 4448 | ❌ | ✓ | ✓ | ✓ | ✓ |
+| ss-3-5-rehabilitation-as-constitutional-mandate | 4504 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-4-1-sequencing-reform | 5113 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-4-2-funding-the-delta | 5174 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-4-2-funding-the-delta | 5242 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-4-3-measuring-progress | 5184 | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 ## Detailed Findings
-
-### Word Count Below 4500
-
-| Slug | Words | Deficit |
-|---|---:|---:|
-| ss-2-5-the-private-security-paradox | 3470 | 1030 |
-| ss-2-4-the-systems-most-catastrophic-failure | 3969 | 531 |
-| ss-3-5-rehabilitation-as-constitutional-mandate | 4448 | 52 |
-| ss-3-1-three-tier-policing-architecture | 4470 | 30 |
-
-### Forbidden-Term Hits
-
-_Note: many of these are false positives (e.g. 'three-tier policing' is legitimate). Manual triage required._
-
-| Slug | Term | Count | Severity | Note |
-|---|---|---:|---|---|
-| ss-1-1-order-through-oppression | level of government | 1 | should-fix | domain: 'sphere of government' |
-| ss-3-1-three-tier-policing-architecture | level of government | 1 | should-fix | domain: 'sphere of government' |
