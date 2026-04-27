@@ -282,7 +282,7 @@ The Carnegie Commission named the "Poor White Problem," diagnosed it across five
 
 ### Poverty and Inequality Data
 
-6. Statistics South Africa. *National Poverty Lines 2024.* Statistical Release P0310.1. Pretoria: Stats SA, 2024. (Food poverty line of R760 and upper-bound poverty line of R1,417 per person per month.)
+6. Statistics South Africa. *National Poverty Lines 2023.* Statistical Release P0310.1. Pretoria: Stats SA, 2023. (Food poverty line of R760 and upper-bound poverty line of R1,558 per person per month.)
 7. Statistics South Africa. *General Household Survey 2023.* Statistical Release P0318. Pretoria: Stats SA, 2024. (Poverty headcount: 18.2 million below food poverty line; 30.4 million below upper-bound poverty line.)
 8. Statistics South Africa. *Quarterly Labour Force Survey, Q4 2024.* Statistical Release P0211. Pretoria: Stats SA, 2025. (Expanded unemployment rate exceeding 40 per cent among black South Africans.)
 9. World Bank. *Inequality in Southern Africa: An Assessment of the Southern African Customs Union.* Washington, DC: World Bank, 2022. (Gini coefficient of approximately 0.63; racial income ratios.)

@@ -1,6 +1,6 @@
 # Automated Editorial Audit — Item 34 Pass 1
 
-Generated: 2026-04-27T14:37:49.945Z
+Generated: 2026-04-27T14:45:43.848Z
 Articles scanned: 79
 Word minimum: 4500
 
@@ -68,7 +68,7 @@ Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Em
 |---|---:|:-:|:-:|:-:|:-:|:-:|
 | hd-1-1-beyond-gdp | 7564 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-1-2-south-africas-report-card | 7265 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-1-3-the-reinforcing-cycle | 8097 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-1-3-the-reinforcing-cycle | 8103 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-1-4-the-problem-that-has-no-name | 8415 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-2-1-the-life-expectancy-deficit | 8709 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-2-2-violence-as-public-health-crisis | 7738 | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -79,8 +79,8 @@ Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Em
 | hd-4-1-when-the-cycle-works | 8312 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-4-2-south-africas-broken-cycle | 7194 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-4-3-development-within-limits | 7627 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-5-1-your-development-rights | 10093 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-5-2-building-the-cycle | 8591 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-5-1-your-development-rights | 10118 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-5-2-building-the-cycle | 8598 | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 ### Reform Agenda (17 articles)
 
