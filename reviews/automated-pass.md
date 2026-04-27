@@ -1,6 +1,6 @@
 # Automated Editorial Audit — Item 34 Pass 1
 
-Generated: 2026-04-27T15:31:21.756Z
+Generated: 2026-04-27T15:38:44.222Z
 Articles scanned: 79
 Word minimum: 4500
 
@@ -116,15 +116,15 @@ Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Em
 | ss-1-2-from-rainbow-nation-to-state-capture | 5465 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-2-1-the-broken-pipeline | 5657 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-2-2-policing-a-divided-country | 4577 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-2-3-justice-delayed-rights-denied | 4639 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-2-3-justice-delayed-rights-denied | 4661 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-2-4-the-systems-most-catastrophic-failure | 4539 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-2-5-the-private-security-paradox | 4516 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-2-5-the-private-security-paradox | 4522 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-3-1-three-tier-policing-architecture | 4529 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-3-2-independent-investigating-magistracy | 4859 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-3-3-community-courts-and-restorative-justice | 4542 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-3-4-sentencing-commission-and-structured-guidelines | 5108 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-3-4-sentencing-commission-and-structured-guidelines | 5120 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-3-5-rehabilitation-as-constitutional-mandate | 4504 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ss-4-1-sequencing-reform | 5113 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ss-4-1-sequencing-reform | 5124 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-4-2-funding-the-delta | 5305 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ss-4-3-measuring-progress | 5184 | ✓ | ✓ | ✓ | ✓ | ✓ |
 
