@@ -1,6 +1,6 @@
 # Automated Editorial Audit — Item 34 Pass 1
 
-Generated: 2026-04-27T14:45:43.848Z
+Generated: 2026-04-27T15:07:35.871Z
 Articles scanned: 79
 Word minimum: 4500
 
@@ -66,21 +66,21 @@ Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Em
 
 | Slug | Words | < min | FM | Links | Emoji | Forbidden |
 |---|---:|:-:|:-:|:-:|:-:|:-:|
-| hd-1-1-beyond-gdp | 7564 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-1-2-south-africas-report-card | 7265 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-1-3-the-reinforcing-cycle | 8103 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-1-1-beyond-gdp | 7572 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-1-2-south-africas-report-card | 7273 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-1-3-the-reinforcing-cycle | 8111 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-1-4-the-problem-that-has-no-name | 8415 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-2-1-the-life-expectancy-deficit | 8709 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-2-1-the-life-expectancy-deficit | 8720 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-2-2-violence-as-public-health-crisis | 7738 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-2-3-the-fiscal-arithmetic-of-health | 11516 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-3-1-the-schooling-paradox | 7220 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-3-2-learning-in-a-war-zone | 6610 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-3-2-learning-in-a-war-zone | 6608 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-3-3-from-classroom-to-paycheck | 7497 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-4-1-when-the-cycle-works | 8312 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-4-2-south-africas-broken-cycle | 7194 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-4-3-development-within-limits | 7627 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | hd-5-1-your-development-rights | 10118 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| hd-5-2-building-the-cycle | 8598 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| hd-5-2-building-the-cycle | 8610 | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 ### Reform Agenda (17 articles)
 
@@ -88,11 +88,11 @@ Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Em
 
 | Slug | Words | < min | FM | Links | Emoji | Forbidden |
 |---|---:|:-:|:-:|:-:|:-:|:-:|
-| ra-1-1-eight-tests | 7211 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ra-1-1-eight-tests | 7232 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-1-2-why-institutions-fail | 6728 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-2-1-fixing-basic-education | 6568 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-2-2-fixing-primary-healthcare | 6918 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ra-2-3-fixing-human-settlements | 6792 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ra-2-3-fixing-human-settlements | 6763 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-2-4-fixing-safety-and-security | 7316 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-3-1-provincial-performance-crisis | 5164 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-3-2-making-concurrent-functions-work | 7426 | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -100,7 +100,7 @@ Under 4500 words: **0** | Frontmatter issues: **0** | Linkage issues: **0** | Em
 | ra-4-1-fixing-water-and-sanitation | 7597 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-4-2-fixing-electricity | 6366 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-4-3-fixing-waste-and-roads | 6134 | ✓ | ✓ | ✓ | ✓ | ✓ |
-| ra-4-4-building-municipal-capability | 5386 | ✓ | ✓ | ✓ | ✓ | ✓ |
+| ra-4-4-building-municipal-capability | 5397 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-5-1-constitutional-vs-legislative | 12872 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-5-2-anti-capture-architecture | 11601 | ✓ | ✓ | ✓ | ✓ | ✓ |
 | ra-5-3-the-integrated-reform-programme | 8814 | ✓ | ✓ | ✓ | ✓ | ✓ |
