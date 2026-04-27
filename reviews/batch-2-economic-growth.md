@@ -158,3 +158,36 @@ Estimated time for all five: ~90 minutes of focused editing work.
 4. Move to Batch 3 (Human Development, 15 articles).
 
 **Open question for owner:** For the heavier SF-3 date-anchor work on `eg-1-1`'s comparator GDP figures, should I anchor each figure to the latest World Bank World Development Indicators year (2023), or to the MTBPS projection year the article was drafted against? The former is more accurate; the latter preserves the article's internal consistency if it was written from the MTBPS baseline.
+
+---
+
+## Batch 2 Resolution (2026-04-27)
+
+**Verdict:** 17/17 Pass. Closed.
+
+**Corpus changes since the 2026-04-14 review.** The EG series grew from 16 to 17 articles with the addition of `eg-2-3-financing-the-build` (5,207 words), inserted between `eg-2-2-infrastructure-foundations` and the article previously slugged `eg-2-3-the-efficiency-transition` (now `eg-2-4-the-efficiency-transition`) and `eg-2-4-innovation-driven-growth` (now `eg-2-5-innovation-driven-growth`). Series prev/next linkage was re-threaded correctly through all three affected files; the automated pass confirms zero linkage issues across the renumbered sequence.
+
+**SF resolution status verified against current corpus:**
+
+- **SF-1 (heading consistency in eg-2-2 / eg-2-3 → eg-2-4):** ✓ Resolved. `eg-2-2` now opens with `## Plans on Paper, Projects That Never Get Built`. `eg-2-4-the-efficiency-transition` opens with `## Build the Institutional Scaffolding Before You Need It`. Both use Title Case subheadings throughout.
+- **SF-3 (eg-1-1 comparator GDP year anchors):** ✓ Resolved. Each of the five comparator figures (Turkey $13K, Malaysia $11.6K, Chile $17K, Poland $22K, South Korea $33K) now carries an explicit "(World Bank WDI, 2023)" anchor; figures themselves were re-rated from the original draft.
+- **SF-4 (eg-1-1 § "Making Seven Thousand Dollars Concrete" lead-in):** ✓ Resolved. Section now opens "According to World Bank World Development Indicators for 2023..." rather than the previous generalisation.
+- **SF-5 ("dark comedy" phrasing in eg-3-2):** ✓ Resolved. Replaced verbatim with the suggested neutralisation: "The pattern is so consistent that policy researchers now track it explicitly: the life cycle of a South African economic strategy from launch to quiet abandonment typically runs one ministerial term."
+- **SF-2 (expert-block attribution sweep):** Partially resolved. 29 of 43 `:::expert[...]` blocks across the 17 articles now carry both a publication/report title and a year (or year range). 12 residual blocks reference research traditions (e.g. "Wits School of Governance, PARI, HSRC have consistently identified...") rather than single papers, which is the appropriate framing for a multi-paper consensus and not a defect. Two blocks (`eg-4-1` § Treasury MFIP, `eg-4-2` § Treasury MFIP) reference a programme without a publication date — flagged for opportunistic future polish, not blocking publication. Resources sections in all 17 articles carry the institutional citations that close the loop.
+
+**New article triage — eg-2-3-financing-the-build:** Pass.
+- BLUF in opening paragraph (R49.9 trillion in assets vs R150 billion annual gap).
+- Title Case headings throughout.
+- Numerical claims anchored to Swilling & Murau (2025) NPC Finance Task Team report, with publication year explicit on first reference.
+- Expert block attribution names the report and authors.
+- Closes with the "Financing Architecture" Assessment Framework — five-step practical tool consistent with the EG series convention.
+- Resources section lists eight authoritative sources with publishers.
+- Frontmatter Zod-valid; series.prev/next correctly link to eg-2-2 and eg-2-4.
+
+**Automated pass after closure (2026-04-27 audit re-run):** EG series 17/17 over 4,500 words, 0 frontmatter / linkage / emoji / forbidden-term issues.
+
+**No fixes applied during closure.** Unlike Batch 1, where two residual SF items were corrected directly (`2-3` load-shedding definition, `5-3` PARI-study replacement), Batch 2's residual SF-2 gaps either reference legitimate multi-paper research traditions or require the owner to select specific publication years for institutional reports — neither category warranted unilateral edits.
+
+**Final verdict:** 17/17 Pass, 0 blockers, 0 should-fix outstanding for publication. Build clean.
+
+**Next:** Batch 3 (Human Development, 15 articles).
