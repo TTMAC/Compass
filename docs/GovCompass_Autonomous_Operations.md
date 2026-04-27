@@ -36,7 +36,7 @@ This document is structured using the **MECE principle** (Mutually Exclusive, Co
 
 **Human-in-the-Loop Model:** Agents operate on a "propose → approve → execute" cycle. The human approves at defined gates marked with 🚦 throughout this document. Between gates, agents act autonomously.
 
-**Product Context:** GovCompass is a free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. It delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — through a fast, mobile-first, reading-optimised static website. The target reader is a 25–45-year-old South African professional on a mid-range Android smartphone over 4G prepaid data.
+**Product Context:** GovCompass is a free, long-form political education blog that makes South Africa's government and governance systems legible to ordinary citizens. It delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — through a fast, mobile-first, reading-optimised static website. The target reader is a 25–45-year-old South African professional on a mid-range Android smartphone over 4G prepaid data.
 
 ---
 
@@ -260,7 +260,7 @@ Agents are autonomous entities that own a bounded domain of work. Each agent map
 
 **Autonomous Actions:**
 - Draft new article notification emails following PRD §13.3 format: Subject: "[Article Title] — New on GovCompass"; Body: article title, subtitle, one-sentence hook, direct link with UTM parameters (`utm_source=email&utm_medium=notification&utm_campaign=article-[slug]`). Plain text or minimal HTML for mobile deliverability
-- Verify WhatsApp share button constructs correct pre-filled message per PRD §14.1 format: 📍 [Article Title] + one-sentence hook + UTM-tagged URL (`utm_source=whatsapp&utm_medium=share&utm_campaign=article-[slug]`) + "— From GovCompass: Making SA's governance system legible"
+- Verify WhatsApp share button constructs correct pre-filled message per PRD §14.1 format: 📍 [Article Title] + one-sentence hook + UTM-tagged URL (`utm_source=whatsapp&utm_medium=share&utm_campaign=article-[slug]`) + "— From GovCompass: Making SA's government and governance systems legible"
 - Verify OG preview renders correctly in WhatsApp (title, description, image) — cache-bust if stale
 - Draft confirmation email: Subject: "Confirm your GovCompass subscription"; Body: welcome message + confirmation link + "We'll only email you when a new GovCompass article is published — roughly once every 2–3 weeks"
 - Track and report subscriber growth metrics (new subscribers, churn, source attribution)

@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.1.0",
   "private": true,
-  "description": "Making South Africa's governance system legible to ordinary citizens",
+  "description": "Making South Africa's government and governance systems legible to ordinary citizens",
   "scripts": {
     "dev": "astro dev",
     "build": "node scripts/scheduled-publish.mjs && astro build && npx pagefind --site dist",

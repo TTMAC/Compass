@@ -47,7 +47,7 @@ This PRD translates the market requirements defined in the GovCompass MRD (v0.1)
 
 ### 1.2 Product Vision
 
-GovCompass is a free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. The product delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — through a fast, mobile-first, reading-optimised website.
+GovCompass is a free, long-form political education blog that makes South Africa's government and governance systems legible to ordinary citizens. The product delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — through a fast, mobile-first, reading-optimised website.
 
 ### 1.3 Design Philosophy
 
@@ -349,7 +349,7 @@ Build time for 15 articles with Astro: estimated under 30 seconds. Netlify deplo
 
 **Layout (top to bottom):**
 
-1. **Hero section.** GovCompass wordmark/logo. Tagline: "Making South Africa's governance system legible to ordinary citizens." One sentence: "A free, 15-article series that explains how your government works, where your money goes, and how to hold the right people accountable." Primary CTA: "Start Reading →" (links to Article 1.1). Secondary CTA: "View the Series" (links to /series).
+1. **Hero section.** GovCompass wordmark/logo. Tagline: "Making South Africa's government and governance systems legible to ordinary citizens." One sentence: "A free, 15-article series that explains how your government works, where your money goes, and how to hold the right people accountable." Primary CTA: "Start Reading →" (links to Article 1.1). Secondary CTA: "View the Series" (links to /series).
 
 2. **The Problem (2–3 sentences).** A concise framing of the accountability confusion problem. E.g., "When your water stops running, do you call your municipality, your province, or a national minister? South Africa's Constitution divides power across three spheres — and almost nobody teaches you how to navigate the system. GovCompass does."
 
@@ -772,7 +772,7 @@ WhatsApp share button uses the `https://api.whatsapp.com/send?text=` URL scheme:
 
 Read it here: [Article URL with UTM parameters]
 
-— From GovCompass: Making SA's governance system legible
+— From GovCompass: Making SA's government and governance systems legible
 ```
 
 Example:
@@ -785,7 +785,7 @@ or national government — this explains it.
 Read it here: https://govcompass.co.za/articles/architecture-of-the-state
 ?utm_source=whatsapp&utm_medium=share&utm_campaign=article-1-1
 
-— From GovCompass: Making SA's governance system legible
+— From GovCompass: Making SA's government and governance systems legible
 ```
 
 ### 14.2 Copy Link (Secondary)

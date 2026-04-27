@@ -36,7 +36,7 @@
 
 ### 1.1 Purpose of This Document
 
-This document defines the user experience for GovCompass, a free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. It serves as the single reference for all design decisions — from strategic positioning through to visual execution — ensuring every pixel traces back to a validated user need and business objective.
+This document defines the user experience for GovCompass, a free, long-form political education blog that makes South Africa's government and governance systems legible to ordinary citizens. It serves as the single reference for all design decisions — from strategic positioning through to visual execution — ensuring every pixel traces back to a validated user need and business objective.
 
 The document follows Jesse James Garrett's Elements of User Experience model, progressing from abstract strategy through concrete surface design across five interdependent planes.
 
@@ -138,7 +138,7 @@ This is a 0→1 UX document. Use it when:
 
 #### 2.2.1 Product Vision Statement
 
-*"GovCompass is a free political education blog that enables South Africa's missing middle — 38 million citizens locked out of meaningful civic participation — to evaluate government performance and hold the right people accountable by making the governance system legible through plain-language, data-anchored, long-form articles. Unlike news media (event-driven, assumes structural knowledge), academic publications (deep but inaccessible), and WhatsApp groups (peer-driven, unreliable), GovCompass provides systematic, practically actionable political education for non-experts."*
+*"GovCompass is a free political education blog that enables South Africa's missing middle — 38 million citizens locked out of meaningful civic participation — to evaluate government performance and hold the right people accountable by making the government and governance systems legible through plain-language, data-anchored, long-form articles. Unlike news media (event-driven, assumes structural knowledge), academic publications (deep but inaccessible), and WhatsApp groups (peer-driven, unreliable), GovCompass provides systematic, practically actionable political education for non-experts."*
 
 *Source: MRD §1.1–1.3, §7.2*
 
@@ -240,7 +240,7 @@ User Story: *As Thabo, I want to share a GovCompass article to my building's Wha
 
 Functional Requirements:
 - FR-002.1: WhatsApp share button present on all article pages using `https://api.whatsapp.com/send?text=` URL scheme
-- FR-002.2: Pre-filled share message includes: article title, one-sentence hook, UTM-tagged article URL, and "— From GovCompass: Making SA's governance system legible"
+- FR-002.2: Pre-filled share message includes: article title, one-sentence hook, UTM-tagged article URL, and "— From GovCompass: Making SA's government and governance systems legible"
 - FR-002.3: OG meta tags optimised per article: OG title (under 60 chars), OG description (under 160 chars), OG image (1200×630px with GovCompass branding, article title, sphere tag)
 - FR-002.4: All shared links include UTM parameters: `utm_source=whatsapp&utm_medium=share&utm_campaign=article-[slug]`
 
@@ -472,7 +472,7 @@ Steps:
 5. **Shares or subscribes** → Share/subscribe CTAs
    - User action: Taps WhatsApp share button to forward to another group. May enter email to subscribe
    - System response: WhatsApp opens with pre-filled message. Email form submits and shows confirmation
-   - Brand moment: The share message includes "— From GovCompass: Making SA's governance system legible" — the reader becomes a distributor of the brand
+   - Brand moment: The share message includes "— From GovCompass: Making SA's government and governance systems legible" — the reader becomes a distributor of the brand
 
 Error Handling:
 - Slow connection (>3s load): Static HTML renders progressively — text appears before fonts finish loading (`font-display: swap`)
@@ -646,8 +646,9 @@ This is the most important page in the product — everything else exists to get
 │  ┌─────────────────────────────────┐        │
 │  │  COMPASS                        │        │
 │  │  Making South Africa's          │        │
-│  │  governance system legible      │        │
-│  │  to ordinary citizens.          │        │
+│  │  government and governance      │        │
+│  │  systems legible to             │        │
+│  │  ordinary citizens.             │        │
 │  │                                 │        │
 │  │  [Start Reading →]              │        │
 │  │  [View the Series]              │        │

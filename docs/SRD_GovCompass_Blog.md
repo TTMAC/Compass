@@ -52,7 +52,7 @@ author: "Tshepo Machele"
 
 ## 1.1 System Vision Statement
 
-GovCompass is a free, long-form political education blog that makes South Africa’s governance system legible to ordinary citizens. The system delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen’s toolkit — through a fast, mobile-first, reading-optimised static website.
+GovCompass is a free, long-form political education blog that makes South Africa’s government and governance systems legible to ordinary citizens. The system delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen’s toolkit — through a fast, mobile-first, reading-optimised static website.
 
 This System Requirements Document translates the product specifications defined in the GovCompass PRD (v0.1) and the user experience design defined in the GovCompass UXD (v0.1) into precise technical specifications that can be implemented by the development team. Every system requirement traces back to a validated product requirement, which in turn traces back to a validated market need in the MRD.
 

@@ -12,7 +12,7 @@
 South Africa's 1996 Constitution divides power across three spheres of government (national, provincial, municipal), but no existing publication provides a systematic, plain-language guide to how these spheres work, how money flows between them, and how citizens can evaluate performance using public data. The result is an "accountability confusion" problem — citizens cannot identify which sphere is responsible for which service, leading to misdirected frustration and disengagement.
 
 **Solution Space:**
-GovCompass delivers a structured, 15-article educational series that makes SA's governance system legible to ordinary citizens. The system is a content-delivery platform — articles are authored in Markdown, compiled to static HTML at build time via Astro, and served from Netlify's edge CDN. The domain model captures the content taxonomy (articles, parts, spheres), reading experience (series navigation, reading time), and distribution mechanics (SEO metadata, email subscription).
+GovCompass delivers a structured, 15-article educational series that makes SA's government and governance systems legible to ordinary citizens. The system is a content-delivery platform — articles are authored in Markdown, compiled to static HTML at build time via Astro, and served from Netlify's edge CDN. The domain model captures the content taxonomy (articles, parts, spheres), reading experience (series navigation, reading time), and distribution mechanics (SEO metadata, email subscription).
 
 **Domain Complexity Level:** Simple (file-based content, no transactions, no real-time state)
 

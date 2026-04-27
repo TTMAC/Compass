@@ -268,7 +268,7 @@ Write meta descriptions of 150–160 characters that summarise the article's pra
 
 ### 10.3 WhatsApp Share Text
 
-Pre-filled WhatsApp share messages include: the article title, a one-sentence hook that makes the reader's contact want to tap the link, the UTM-tagged article URL, and the sign-off "— From GovCompass: Making SA's governance system legible." The hook should highlight practical value: "Did you know you can look up your municipality's audit outcome online? This explains how."
+Pre-filled WhatsApp share messages include: the article title, a one-sentence hook that makes the reader's contact want to tap the link, the UTM-tagged article URL, and the sign-off "— From GovCompass: Making SA's government and governance systems legible." The hook should highlight practical value: "Did you know you can look up your municipality's audit outcome online? This explains how."
 
 ### 10.4 OG Image
 

@@ -24,7 +24,7 @@
 
 **Project:** GovCompass
 
-**Description:** A free, long-form political education blog that makes South Africa's governance system legible to ordinary citizens. Delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — through a fast, mobile-first, reading-optimised static website.
+**Description:** A free, long-form political education blog that makes South Africa's government and governance systems legible to ordinary citizens. Delivers a 15-article series across five parts — foundational framework, national government, provincial government, municipal government, and a citizen's toolkit — through a fast, mobile-first, reading-optimised static website.
 
 **Owner:** Tshepo Machele — Product, Engineering, Design, Business/GTM Lead (sole developer)
 
