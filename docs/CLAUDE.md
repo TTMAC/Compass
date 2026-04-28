@@ -136,7 +136,7 @@ govcompass-blog/
 
 ## Active Work
 
-**Current Focus:** Phase 0 — Build (project scaffold, core components, design system, deployment pipeline)
+**Current Focus:** Phase 0 build deliverables are complete (all 38 TODO items closed; all 5 editorial review batches closed 2026-04-27; 79 articles published clean). Awaiting owner decision to transition to Phase 1 — MVP Launch (Articles 1.1–1.4 distribution cadence, ESP downstream wiring).
 
 **Branch:** `main` (single-environment production; branch deploys for previews)
 
@@ -150,12 +150,13 @@ govcompass-blog/
 - English only for MVP — the primary media consumption language for the target segment
 - 15-article series structure is fixed — MECE coverage of SA's three spheres of government
 - Non-partisan editorial position is non-negotiable — any perception of partisan alignment destroys credibility
+- OG image generation — Python script (`scripts/generate-og-images.py`); 18 custom images, remaining articles fall back to `/og/default.png`
+- Pagefind search — implemented in `Header.astro` (desktop + mobile); shipped with MVP
 
 **Open Questions:**
 
-- OG image generation approach — Python script vs build-time Astro integration
-- Buttondown vs Mailchimp for ESP — Buttondown is lighter (free <100 subscribers), Mailchimp has more features (free <500)
-- Whether to implement Pagefind search for MVP or defer to post-Phase 0
+- ESP downstream for Netlify Forms — Buttondown vs Mailchimp. Form receiver is wired (`EmailCapture.astro` posts to Netlify Forms `name="subscribe"`); the ESP webhook that picks up submissions is not yet selected.
+- Per-article OG image coverage — 18 of 79 articles have custom OG images; the rest fall back to default. Decide whether to back-fill or accept the fallback for Phase 1.
 
 ---
 
@@ -171,11 +172,11 @@ This is a content-delivery domain, not a transactional domain. The core domain e
 
 | Context | Status | Notes |
 |---------|--------|-------|
-| Content Management | Active | Article schema, series navigation, sphere taxonomy — Phase 0 build |
-| Reader Experience | Active | Reading progress, TOC, share buttons, callout components |
-| Email Subscription | Planned | Netlify Forms → ESP webhook pipeline |
-| Analytics & Measurement | Planned | GA4 integration with consent, custom events |
-| SEO & Distribution | Planned | OG meta, structured data, WhatsApp preview optimisation |
+| Content Management | Active | Article schema, series navigation, sphere taxonomy — 79 articles live |
+| Reader Experience | Active | Reading progress, TOC, share buttons, callout components, Pagefind search, PWA + offline page |
+| Email Subscription | Partial | `EmailCapture.astro` → Netlify Forms (`name="subscribe"`) wired; ESP webhook downstream not yet selected |
+| Analytics & Measurement | Active | GA4 with consent + anonymised IP; custom events: `scroll_depth`, `whatsapp_share`, `copy_link`, `email_subscribe` |
+| SEO & Distribution | Active | OG/Twitter meta + JSON-LD (Organization, WebSite, BreadcrumbList, Article) on all pages; 18 of 79 custom OG images, rest fall back to `/og/default.png` |
 
 **Key Domain Entities:**
 
