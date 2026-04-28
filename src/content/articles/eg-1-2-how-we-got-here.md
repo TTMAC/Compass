@@ -46,6 +46,9 @@ This is the story of those decisions and their consequences.
 
 Before diamonds were discovered near Kimberley in 1867, the southern African economy was predominantly agrarian. The Cape Colony and Natal exported wool, wine, and sugar. The Boer republics were pastoral economies with limited connection to global markets. Indigenous economies were based on cattle, agriculture, and regional trade networks. None of this was destined to produce what South Africa became.
 
+
+![Mineral extraction and migrant labour built the foundations of the modern South African economy | Photo by Juanita Geldenhuys on Unsplash](/images/articles/eg-1-2-how-we-got-here/img-1.webp)
+
 The discovery of diamonds, and then gold on the Witwatersrand in 1886, transformed everything. Within two decades, southern Africa went from an economic backwater of the British Empire to its most strategically important territory. Gold from the Witwatersrand became the foundation of the international gold standard — the monetary system that underpinned global trade until 1971. By 1900, South Africa was producing roughly a quarter of the world's gold output. The mineral discoveries attracted massive inflows of British capital, created Johannesburg from nothing, triggered the South African War of 1899–1902, and ultimately drove the political unification of the four colonies into the Union of South Africa in 1910.
 
 What matters for understanding today's economy is not the minerals themselves but the economic system built around them. The mining industry that emerged on the Witwatersrand was not a competitive market of independent operators. It was a cartel. The major mining houses — initially dominated by figures like Cecil Rhodes and later consolidated into giants like Anglo American, De Beers, Gold Fields, and Gencor — operated through interlocking directorates, shared infrastructure, and coordinated labour recruitment. They fixed wages collectively through the Chamber of Mines. They shared recruitment networks through the Witwatersrand Native Labour Association (WNLA) and the Native Recruiting Corporation (NRC), which recruited black workers from across southern Africa on fixed-term contracts at suppressed wages.
@@ -99,6 +102,9 @@ When you hear commentators describe the South African economy as "dual" — with
 ## Post-1994: The Policy Trajectory That Accelerated Deindustrialisation
 
 The democratic government that took power in 1994 inherited an economy that was, in many respects, already in crisis. GDP growth had averaged less than 1 per cent per year during the 1980s. International sanctions, capital flight, and political instability had starved the economy of investment. Inflation was running above 10 per cent. The fiscal deficit was large and growing. And the accumulated costs of apartheid — the infrastructure backlogs in black communities, the education deficit, the healthcare inequities — represented an enormous claim on future government spending.
+
+
+![Manufacturing's share of output fell as trade liberalisation outpaced industrial upgrading | Photo by Celso A. Torres Pirron on Unsplash](/images/articles/eg-1-2-how-we-got-here/img-2.webp)
 
 The ANC's initial economic framework was the Reconstruction and Development Programme (RDP), adopted in 1994. The RDP was a broad social-democratic programme that prioritised meeting basic needs — housing, water, electricity, healthcare, education — while restructuring the economy for greater equity and participation. It envisaged an active role for the state in economic development, including public investment in infrastructure, redistribution of land and other assets, and the development of small and medium enterprises.
 
@@ -171,6 +177,9 @@ The energy crisis is not merely a management failure (though management failures
 ## What the Comparator Countries Did Differently
 
 The next article in this series, [The Comparator Countries](/articles/eg-1-3-the-comparator-countries), will examine in detail how countries at similar income levels followed different paths. But it is worth previewing the comparison here because it sharpens the question of why South Africa's economic trajectory was not inevitable.
+
+
+![Countries that escaped middle-income stagnation made deliberate industrial choices South Africa avoided | Photo by Shubham Nayak on Unsplash](/images/articles/eg-1-2-how-we-got-here/img-3.webp)
 
 South Korea in 1960 had a GDP per capita roughly equal to that of many African countries. It had few natural resources, a devastated infrastructure after the Korean War, and an agrarian economy with limited industrial capacity. Within four decades, it became one of the world's leading industrial economies. How? Through deliberate, state-directed industrial policy that channelled investment into labour-intensive export manufacturing (textiles and wigs in the 1960s, electronics and ships in the 1970s, semiconductors and automobiles in the 1980s), combined with massive investment in education at all levels and systematic absorption of technology from more advanced economies.
 

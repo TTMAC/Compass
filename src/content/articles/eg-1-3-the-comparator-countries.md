@@ -85,6 +85,9 @@ South Africa's experience with mining revenues could hardly be more different. D
 
 In 1986, **Vietnam's GDP per capita was approximately $230.** The country was internationally isolated, its infrastructure was shattered by decades of war, and its command economy was producing chronic food shortages. By 2023, **GDP per capita had risen to approximately $4,300, the poverty rate had fallen from over sixty per cent to under five per cent**, and Vietnam had become the world's fifth-largest recipient of manufacturing foreign direct investment. Samsung alone employs over 100,000 workers in Vietnam and produces roughly half of its global smartphone output there.
 
+
+![Vietnam's manufacturing surge transformed a war-ravaged economy into a global production hub | Photo by Clement Chai on Unsplash](/images/articles/eg-1-3-the-comparator-countries/img-1.webp)
+
 This transformation did not happen by accident. It was the product of a deliberate, sequenced reform programme that South Africa would do well to study carefully — not because Vietnam's political system is one South Africa should emulate, but because the economic mechanics of Vietnam's transformation are highly transferable.
 
 The first critical decision was infrastructure. In the 1990s and 2000s, Vietnam invested massively in the logistics corridors that make manufacturing FDI viable. This meant ports (Hai Phong and Ho Chi Minh City's Cat Lai terminal), highways connecting industrial zones to those ports, reliable electricity supply to industrial areas, and purpose-built industrial zones with pre-approved zoning, utility connections, and customs facilities. **The sequencing mattered: infrastructure came before the FDI push, not after.** Vietnam did not wait for manufacturers to arrive and then scramble to build roads. It built the roads and then invited the manufacturers.
@@ -124,6 +127,9 @@ The Malaysian experience also demonstrates something uncomfortable: successful i
 ## South Korea — The Innovation Transition
 
 South Korea's story is the most dramatic of the six, and in some ways the most daunting. **In 1960, South Korea's GDP per capita was lower than Ghana's.** By 2023, it was approximately $33,000 — making it one of the very few countries to transition from developing to fully developed status within a single lifetime. The journey from poverty through factor-driven growth, efficiency-driven growth, and into innovation-driven growth took roughly six decades. South Africa, by contrast, has been stuck in the transition between factor-driven and efficiency-driven growth for the better part of three decades.
+
+
+![South Korea built world-leading firms by sequencing efficiency-led growth into innovation-led growth | Photo by Vee V on Unsplash](/images/articles/eg-1-3-the-comparator-countries/img-2.webp)
 
 The early phase of Korean development (1960s-1970s) was built on low-wage manufacturing — textiles, wigs, plywood, basic steel products. The government under Park Chung-hee directed bank lending to favoured industries (the Heavy and Chemical Industry drive of the 1970s), suppressed wages, restricted imports, and pushed exports relentlessly. This is the phase that produces the fastest visible growth and the most dramatic poverty reduction. It is also the phase that requires conditions South Africa does not currently have: a large pool of workers willing to accept very low wages, a repressive labour regime, and an undervalued currency.
 
@@ -190,6 +196,9 @@ Poland's lesson for South Africa is about sequencing. The Polish experience sugg
 ## Common Threads — What All Six Got Right
 
 Step back from the individual stories, and five common threads emerge across all six comparator countries. These are not the only factors that mattered, but they are the ones that appeared in every successful case.
+
+
+![Six different countries, six different sectors, but the institutional patterns rhyme | Photo by Zoshua Colah on Unsplash](/images/articles/eg-1-3-the-comparator-countries/img-3.webp)
 
 The first is coordinating institutional architecture. Every successful transition economy built or inherited an institution capable of coordinating strategy across government. In Malaysia, it was the EPU. In South Korea, it was the Economic Planning Board (later absorbed into the Ministry of Strategy and Finance). In Chile, CORFO played this role alongside the Finance Ministry. In Vietnam, the Communist Party's Central Economic Commission coordinated reform sequencing. In Botswana, the Ministry of Finance and Development Planning served as the coordinating body. In Poland, the Office of the Committee for European Integration coordinated the EU accession process that drove reform. The specific form varied. The function was universal.
 

@@ -48,6 +48,9 @@ This article is the first in a series on economic growth and development. Its pu
 
 According to World Bank World Development Indicators for 2023 (the most recent full-year series available at the time of writing), South Africa's GDP per capita sits at approximately $6,200 in current US dollar terms, near the floor of its post-1994 range. Round that to $7,000 for the purposes of this article (the figure has hovered in the $6,000–$7,500 band for most of the past decade depending on the exchange rate) and you have the starting point. The stagnation story becomes visible only when you put that number alongside comparator economies.
 
+
+![Daily economic life in South Africa runs on incomes the official averages obscure | Photo by Giorgio Scavalli on Unsplash](/images/articles/eg-1-1-the-seven-thousand-rand-economy/img-1.webp)
+
 Turkey's GDP per capita is approximately $13,000 (World Bank WDI, 2023). Malaysia's is approximately $11,600. Chile's is approximately $17,000. Poland's is approximately $22,000. South Korea's is approximately $33,000. These are all countries that, at various points in the twentieth century, faced structural economic challenges not entirely unlike South Africa's — dependence on primary commodities, inequality, institutional weaknesses, or some combination of all three. The difference is that they did something about it. **South Korea's GDP per capita in 1960 was lower than many sub-Saharan African countries.** Malaysia was a commodity exporter dependent on rubber and tin in the 1970s. Chile was trapped in a cycle of commodity dependence and political instability through the 1980s. Poland emerged from communism in 1989 with a shattered industrial base and no market institutions. Turkey has lurched between economic crises and reform periods for decades.
 
 What all of these countries share is that they grew. Not uniformly, not without setbacks, but substantially and persistently over time. South Africa did not — or more precisely, South Africa grew in the early post-apartheid years (roughly 1994 to 2008), then stalled, then stagnated, and has been essentially treading water ever since.
@@ -90,6 +93,9 @@ The World Economic Forum's *Global Competitiveness Report* series, published ann
 
 Porter's framework gives you the stages. The Atlas of Economic Complexity — developed by Ricardo Hausmann and Cesar Hidalgo at Harvard University's Growth Lab — gives you the granular picture of what a country actually produces and exports, and what that production profile implies about the economy's accumulated capabilities and future growth potential.
 
+
+![What an economy exports reveals which productive capabilities it has actually built | Photo by Asher Pardey on Unsplash](/images/articles/eg-1-1-the-seven-thousand-rand-economy/img-2.webp)
+
 The core concept is economic complexity. In plain language, economic complexity measures two things: how many different products a country can make (diversity), and how sophisticated those products are (ubiquity, measured inversely — a product is considered more complex if fewer countries can make it). A country that exports a wide variety of sophisticated products — products that only a handful of other countries can also produce — has high economic complexity. A country that exports a narrow range of simple products — products that many other countries also produce — has low economic complexity.
 
 The Economic Complexity Index (ECI) combines these two dimensions into a single ranking. And here is where South Africa's position becomes starkly clear. According to the Harvard Growth Lab's Atlas of Economic Complexity, **South Africa's ECI ranking has been declining over the past two decades.** As of the most recent data, South Africa ranks in the lower half of the ECI global rankings — roughly around 50th to 60th out of approximately 130 countries with sufficient trade data, depending on the year. That might not sound terrible until you consider that **countries with far fewer natural resources, smaller populations, and less developed infrastructure rank higher.** Thailand, Vietnam, the Philippines, and Indonesia all rank above South Africa on the ECI, despite being at similar or lower income levels.
@@ -121,6 +127,9 @@ We will explore this framework in much greater detail in [The Comparator Countri
 ## What Stagnation Means for Ordinary South Africans
 
 The economic frameworks discussed above — Porter's stages, Hausmann's complexity, Lin's structural economics — can feel abstract. But economic stagnation is not abstract for the millions of South Africans who live with its consequences every day.
+
+
+![A decade of flat output per person shows up first in household budgets | Photo by TruckRun on Unsplash](/images/articles/eg-1-1-the-seven-thousand-rand-economy/img-3.webp)
 
 Start with unemployment. South Africa's official unemployment rate, measured by Statistics South Africa's Quarterly Labour Force Survey, has hovered between 32% and 35% in recent years. But that figure uses the *narrow* definition, which counts as unemployed only those who actively looked for work in the four weeks before the survey. The *expanded* definition — which includes discouraged work-seekers, people who want to work but have given up looking — pushes the rate above 40%. By this measure, **more than four out of every ten working-age South Africans who want a job do not have one.** There is no comparable economy in the world with unemployment at this level. **It is not a recession-level figure; it is the structural baseline.**
 

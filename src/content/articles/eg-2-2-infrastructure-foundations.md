@@ -65,6 +65,9 @@ The uncomfortable truth is that **South Africa's infrastructure crisis is not pr
 
 The story of South Africa's electricity crisis begins not in 2008, when load shedding first hit, but in 1998, when the government published a White Paper on Energy Policy that correctly identified the need for new generation capacity. The Department of Minerals and Energy's own modelling showed that Eskom's reserve margin — the buffer between total generation capacity and peak demand — would fall below safe levels by 2007 unless new power stations were commissioned. The modelling was sound. The decision to build was not taken.
 
+
+![Two decades of underinvestment turned Eskom from a continental asset into a national constraint | Photo by Leohoho on Unsplash](/images/articles/eg-2-2-infrastructure-foundations/img-1.webp)
+
 Between 1998 and 2004, a combination of factors paralysed investment in new generation. Government was considering restructuring the electricity sector, potentially unbundling Eskom and introducing competition. While this policy debate continued — without resolution — no final investment decision was made on new base-load capacity. Eskom's board, uncertain about the utility's future structure, deferred capital expenditure. By the time Cabinet gave Eskom the green light to build in 2004, the reserve margin had already deteriorated dangerously, and the utility was forced into an emergency procurement programme.
 
 The result was Medupi and Kusile — two of the largest dry-cooled coal-fired power stations in the world, with a combined planned capacity of approximately 9,600 megawatts (MW). Medupi, in Limpopo, was approved in 2007 with an initial budget of R79 billion and a completion date of 2012. Kusile, in Mpumalanga, followed with similar timelines. What happened next became a case study in how not to deliver mega-projects. **Medupi's first unit was only synchronised to the grid in 2015 — three years late. By 2023, the project's cost had ballooned to over R145 billion, nearly double the original estimate. Kusile fared even worse, with costs exceeding R161 billion**, persistent design defects (including flue gas desulphurisation failures), and units that repeatedly tripped offline after commissioning. Both stations were plagued by procurement irregularities, contractor disputes, welding defects, and project management failures that the Zondo Commission on State Capture would later document in detail.
@@ -98,6 +101,9 @@ Yet the energy picture remains incomplete without addressing transmission. Even 
 ## The Logistics Crisis: When the Supply Chain Breaks
 
 If energy is South Africa's most visible infrastructure crisis, logistics is its most economically damaging one. South Africa's economy is structurally dependent on the efficient movement of bulk commodities — iron ore, coal, manganese, chrome, agricultural products — from inland production sites to coastal ports for export. Transnet, the state-owned freight logistics company, operates the rail network (Transnet Freight Rail, or TFR), the major commercial ports (Transnet National Ports Authority, or TNPA), and the port terminals (Transnet Port Terminals, or TPT). When Transnet performs, the economy flows. When it does not, the economy chokes.
+
+
+![Port and rail bottlenecks cost exporters billions and erode the case for South African manufacturing | Photo by Zeo Smith on Unsplash](/images/articles/eg-2-2-infrastructure-foundations/img-2.webp)
 
 Transnet is not performing. **Rail freight volumes on the general freight business declined from approximately 81 million tonnes in 2016/17 to below 55 million tonnes by 2022/23 — a decline of more than 30% in six years.** The reasons are interconnected and cumulative. Locomotive procurement became entangled in state capture, with the Zondo Commission documenting how politically connected intermediaries inflated the cost of 1,064 locomotives procured from China South Rail (CSR) and China North Rail (CNR) by approximately R5 billion through kickbacks and inflated agency fees. Many of the delivered locomotives experienced operational problems, with some Chinese-manufactured units poorly suited to South African track conditions and gradients.
 
@@ -210,6 +216,9 @@ The lesson is not that PPPs are inherently flawed or that the framework needs ra
 ## Water: The Crisis Nobody Talks About
 
 While energy and logistics dominate the infrastructure headlines, South Africa faces a water infrastructure crisis that may ultimately prove more consequential. The country is classified as water-stressed by the United Nations — annual freshwater resources per capita are approximately 1,000 cubic metres, well below the global average and close to the threshold for water scarcity. The National Water and Sanitation Master Plan, published by the Department of Water and Sanitation in 2018, projected a 17% gap between water supply and demand by 2030 under a business-as-usual scenario.
+
+
+![Ageing pipes and overstretched dams make water the next infrastructure crisis already underway | Photo by Ivan Bandura on Unsplash](/images/articles/eg-2-2-infrastructure-foundations/img-3.webp)
 
 The supply-side challenges are compounded by infrastructure failure. **Municipal water losses — the difference between water produced at treatment works and water billed to consumers — average approximately 41% nationally**, with some municipalities recording non-revenue water percentages above 60%. These losses result from ageing and poorly maintained pipe networks, illegal connections, meter failures, and billing system breakdowns. The cost of water lost through leaks alone has been estimated by the Water Research Commission at over R9 billion annually.
 

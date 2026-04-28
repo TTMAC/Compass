@@ -44,6 +44,9 @@ If you have followed this series from [The R7,000 Economy](/articles/eg-1-1-the-
 
 "Beneficiation" has been a political slogan in South Africa for at least two decades. Every iteration of industrial policy since the mid-2000s has invoked it. The Mineral and Petroleum Resources Development Act of 2002 enshrines the principle. The Mining Charter references it. Successive ministers of mineral resources have promised it. And yet, despite all the rhetoric, South Africa's share of downstream mineral processing has not meaningfully increased. In some subsectors, it has declined.
 
+
+![Adding processing steps to mineral exports captures value that raw ore shipments leave on the table | Photo by Cinq1 on Unsplash](/images/articles/eg-2-1-resource-optimisation/img-1.webp)
+
 The reason is not a lack of political will or even a lack of policy. The reason is that "beneficiate everything" is an economically incoherent demand. It treats beneficiation as a moral imperative — we have the minerals, therefore we must process them here — rather than as an economic calculation that must be evaluated on a case-by-case basis. And when you evaluate it case by case, using Lin's comparative advantage framework, the picture becomes far more nuanced and far more useful than the blanket sloganeering suggests.
 
 Lin's test, as applied to resource beneficiation, asks a simple set of questions. Does South Africa have or can it realistically build the factor endowments — energy supply, skilled labour, logistics infrastructure, scale economies — required to process this particular mineral competitively? Is there a plausible path to capturing enough of the global market to justify the investment? And critically, what are the opportunity costs — what else could the capital, energy, and policy attention be spent on instead?
@@ -96,6 +99,9 @@ The beneficiation debate in South Africa has been distorted by treating all down
 
 Mining dominates the resource conversation in South Africa, but the agricultural sector offers beneficiation opportunities that are in some ways more accessible, more employment-intensive, and more immediately realisable. The reason is straightforward: agricultural value chain upgrading does not require the massive energy inputs that mineral processing demands. A pack house, a cold chain facility, or a juice processing plant runs on a fraction of the electricity that a ferrochrome smelter consumes. And agricultural value chain jobs tend to be more labour-absorbing, creating employment at skill levels that match the current South African workforce better than heavy industrial processing does.
 
+
+![Citrus, wine and processed foods show where South African agriculture moves up the value chain | Photo by Nel Ranoko on Unsplash](/images/articles/eg-2-1-resource-optimisation/img-2.webp)
+
 ### The Chile Benchmark
 
 Chile's agricultural transformation is the benchmark that South Africa should study most carefully, and it was introduced in [The Comparator Countries](/articles/eg-1-3-the-comparator-countries) precisely because the parallels are so direct. In the 1970s and 1980s, Chile exported raw agricultural products — unprocessed fruit, bulk wine, raw timber. By the 2000s, Chile had become one of the world's leading exporters of branded, processed, high-value agricultural products: fresh counter-seasonal fruit sold in European and North American supermarkets, premium bottled wine recognised globally, farmed salmon, processed forestry products, and increasingly sophisticated food ingredients.
@@ -143,6 +149,9 @@ Energy independence is not a separate policy goal from resource optimisation —
 ## Logistics Corridor Modernisation
 
 If energy is the first foundational prerequisite for resource optimisation, logistics is the second. You can beneficiate every mineral and process every agricultural product in the country, but if you cannot move those goods to port efficiently and ship them to international markets at competitive cost, the value chain advantage evaporates.
+
+
+![Rail and port corridors decide whether resource exports reach world markets at competitive cost | Photo by Paul Arky on Unsplash](/images/articles/eg-2-1-resource-optimisation/img-3.webp)
 
 South Africa's logistics infrastructure was, at its peak, among the best in the developing world. The port of Durban is the largest container port in sub-Saharan Africa. The port of Cape Town serves the Western Cape's agricultural export corridor. The port of Ngqura (Coega) in the Eastern Cape was purpose-built as a deepwater facility for bulk and container exports. The national rail network, operated by Transnet Freight Rail, connects mines, farms, and factories to these ports across thousands of kilometres of track.
 
