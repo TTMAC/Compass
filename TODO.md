@@ -327,3 +327,44 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 - **Why:** Content changes to crossLinks frontmatter and article body text must compile cleanly against the Zod content schema.
 - **Action:** Run `npm run build` and confirm zero errors.
 - **Resolution:** `npm run build` completed successfully. All 96 HTML pages built, Pagefind indexed 94 pages. Zero Zod validation errors on updated crossLinks frontmatter.
+
+---
+
+## Medium Priority — Content Imagery
+
+### Item 39: Back-fill imagery for eg-/hd-/ra-/ss- series articles
+- **Status:** Open (added 2026-04-28)
+- **Why:** Only the 15 Core series articles (1-x to 5-x) carry imagery. The remaining 64 articles across the four other series have neither inline images nor custom OG images:
+  - **Core (15 articles):** 3 inline `.webp` images per article in `public/images/articles/<slug>/`, custom OG image in `public/og/<slug>.png`.
+  - **Economic Growth (17 articles):** no inline images, no custom OG (falls back to `/og/default.png`).
+  - **Human Development (15 articles):** no inline images, no custom OG.
+  - **Reform Agenda (17 articles):** no inline images, no custom OG.
+  - **Safety & Security (15 articles):** no inline images, no custom OG.
+  - The asymmetry is visible to readers (Core articles look richer than the rest) and weakens distribution payoff for the 61 non-Core articles whose previews — WhatsApp, Twitter, LinkedIn, Slack — currently render with the generic default image.
+- **Scope:** 64 articles requiring inline imagery (3 images each = 192 `.webp` files) and 61 articles requiring custom OG images (eg-1-1, eg-1-2, eg-1-3 already have OG only — verify and either keep or replace).
+- **Constraints:**
+  - Page weight budget: 450 KB hard limit, 250 KB target. Three `.webp` images per article must fit alongside body copy and JSON-LD without breaching budget. Current Core series article pages are well under (heaviest is 52.7 KB gzipped per Item 7's budget report) so there is headroom, but back-fill should preserve that margin.
+  - Image source must be free-to-use: Unsplash, Pexels, Pixabay, or original photography. Unsplash licence allows commercial use without attribution but attribution is courteous; check each image's specific licence.
+  - Image dimensions: match Core series convention — verify what the existing `.webp` files in `public/images/articles/1-1-architecture-of-the-state/` are sized to (likely 1200×800 or similar 3:2) and replicate.
+  - Non-partisan editorial constraint: imagery must avoid party logos, campaign material, or obvious political-figure portraits. South African civic / institutional / infrastructural / community imagery preferred.
+  - Sensitive subject-matter constraint: ss- (Safety & Security) and parts of hd- (violence-as-public-health, GBV, prisons) must not use exploitative or graphic imagery. Default to architectural / institutional / abstract framings.
+- **Pre-batch decisions (one-time, before Batch 1):**
+  1. **Inline image cadence:** confirm with owner whether the 3-images-per-article cadence used in the Core series is the target for all 64 non-Core articles, or whether a lighter 1-image-per-article pattern is acceptable for the four other series. This decision applies uniformly across all four batches below.
+  2. **OG generation approach:** the existing `scripts/generate-og-images.py` produces OG images for the Core series. Decide whether to (a) extend the script to generate OG images for all 79 articles programmatically (cheaper, consistent), (b) hand-curate OG images per article (richer, slower), or (c) combine — programmatic generation as default plus hand-curated overrides for high-traffic articles. Same approach applies to all batches.
+  3. **Attribution placement:** decide whether image credits surface in the article body, in a hidden `imageCredits` frontmatter field, or on a site-wide `/credits` page. Same approach applies to all batches.
+  4. **Image dimensions baseline:** verify the dimensions of existing Core series `.webp` files in `public/images/articles/1-1-architecture-of-the-state/` and adopt as the convention for all batches.
+- **Batches** (mirroring the editorial review batching from Item 34, minus the Core Series since it already has imagery):
+  1. **Economic Growth & Development** — 17 articles (`eg-1-1` … `eg-5-3`). Imagery directions: economic infrastructure, ports, rail, mining, agriculture, manufacturing, township economy, comparator-country contexts. Lower sensitivity — broad licence to use illustrative SA economic imagery.
+  2. **Human Development** — 15 articles (`hd-1-1` … `hd-5-2`). Imagery directions: clinics, classrooms, early-childhood spaces, community settings, public health infrastructure. **Sensitivity:** GBV, child mortality, and HIV/TB articles must avoid exploitative or graphic imagery — default to institutional, architectural, or community-resilience framings.
+  3. **Reform Agenda** — 17 articles (`ra-1-1` … `ra-5-4`). Imagery directions: institutional buildings (Parliament, Constitutional Court, NPA, Treasury, AGSA), municipal infrastructure, civic process. **Highest partisan-drift risk** — strictly no party logos, campaign material, or political-figure portraits; favour neutral institutional and infrastructure framings.
+  4. **Safety & Security** — 15 articles (`ss-1-1` … `ss-4-3`). Imagery directions: SAPS stations, court buildings, correctional facilities, community policing forums, neighbourhood safety. **Sensitivity:** crime, prisons, GBV, and policing articles must not use violent, graphic, or stigmatising imagery — default to architectural / institutional framings, daylight community scenes, or abstract representations of process.
+- **Per-batch execution:**
+  1. **Sourcing:** assemble a shortlist of Unsplash/Pexels/Pixabay images per article in the batch. Capture image URL, photographer credit, and licence note in a tracking sheet under `reviews/imagery-batch-N-<series>.md`.
+  2. **Owner sign-off on shortlist:** owner reviews the shortlist for the full batch before any download/conversion work starts. Catches sensitivity / non-partisan / on-brand issues cheaply, before time is sunk into conversion.
+  3. **Conversion + placement:** convert approved JPEGs to `.webp` at the Core-series dimensions, name `img-1.webp` / `img-2.webp` / `img-3.webp` (or `img-1.webp` only if the lighter cadence is chosen), drop into `public/images/articles/<slug>/`.
+  4. **Embed:** add Markdown image references inside each article body at editorially appropriate breakpoints (typical Core pattern: one near the top after BLUF, one mid-article, one before the closing tool/Resources section).
+  5. **OG generation:** run the chosen OG approach for the batch's articles and confirm `dist/og/<slug>.png` exists for each after build.
+  6. **Build + budget check:** run `npm run build` followed by `npm run budget:strict` to confirm no page in the batch exceeds 450 KB gzipped and that the 250 KB target is preserved on the heaviest pages. Re-run on batch close before moving to the next batch.
+  7. **Spot-check distribution:** for 2–3 representative articles in the batch, verify the WhatsApp / Twitter / LinkedIn preview renders with the new OG image (use a preview validator or share link in a test channel).
+  8. **Batch report:** produce closure note at `reviews/imagery-batch-N-<series>.md` covering: articles touched, image sources + licences, page-weight delta, and any articles where suitable imagery could not be sourced (so the owner can decide whether to commission original photography for those).
+- **Sequencing rationale:** Economic Growth runs first because it is the lowest-sensitivity batch and the largest test of the sourcing+conversion pipeline before applying it to the more sensitive hd-/ra-/ss- batches. Safety & Security runs last so that lessons from the three prior batches (especially attribution discipline and sensitive-tone framings learned in hd-) are applied to the highest-sensitivity content.
