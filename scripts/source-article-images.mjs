@@ -496,14 +496,14 @@ const ARTICLE_CONFIG = {
   // eg-2-3: SA has R49.9 trillion in financial assets but a R150 billion annual investment gap — financing is misallocated.
   "eg-2-3-financing-the-build": {
     queries: [
-      "Johannesburg stock exchange trading floor",
+      "skyscraper financial district city",
       "construction crane infrastructure project",
       "bank vault financial institution",
     ],
     placements: [
       {
         afterH2: "Where the Money Actually Sits",
-        caption: "South Africa's pension and asset management pools dwarf the infrastructure spending shortfall",
+        caption: "Financial centres concentrate the pension and asset management pools that could fund South Africa's infrastructure build",
       },
       {
         afterH2: "How Banks Turned Away from the Real Economy",

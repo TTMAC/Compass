@@ -79,6 +79,9 @@ The Cabinet approved the National Infrastructure Plan 2050 in 2022 — South Afr
 
 The NPC report's most striking contribution is its mapping of the total assets held across South Africa's financial system. By 2024, these included:
 
+
+![Financial centres concentrate the pension and asset management pools that could fund South Africa's infrastructure build | Photo by Shai Pal on Unsplash](/images/articles/eg-2-3-financing-the-build/img-1.webp)
+
 - **Commercial banks**: R6.7 trillion in assets
 - **Pension and insurance funds (ASISA members)**: R6.7 trillion
 - **Non-financial corporations (listed)**: R12.7 trillion
@@ -105,6 +108,9 @@ The NPC report identifies three systemic failures that explain this mismatch:
 ## How Banks Turned Away from the Real Economy
 
 By 2024, bank balance sheets had changed in three important respects. First, while lending to the private sector had levelled out due to weak economic growth, lending to government — not SOEs — had been rising steadily in recent years. Second, as deposits by households declined, deposits by non-financial corporations (NFCs) increased, mainly because these NFCs preferred to retain high levels of liquidity rather than invest in GFCF. Third, banks redirected approximately R80 billion to fund nearly 6 gigawatts of rooftop solar between 2021 and 2024 — a productive balance sheet reconfiguration driven by the loadshedding crisis.
+
+
+![Bank balance sheets shifted toward consumer credit and government bonds rather than productive investment | Photo by Sergej Karpow on Unsplash](/images/articles/eg-2-3-financing-the-build/img-2.webp)
 
 Credit extension — loans, overdrafts, and advances — grew from less than R500 billion in 1994 to over R5 trillion by 2023. But the composition changed fundamentally. The significant expansion of credit for mortgages since 1993 reveals the driver of debt-funded consumption-led economic growth since democracy. By 2024, banks were increasing their lending to government while not increasing lending to the NFC sector — the businesses that actually invest in fixed assets and create jobs. Private-sector lending as a share of GDP declined from over 70 per cent in 2008 to approximately 60 per cent in 2024.
 
@@ -188,6 +194,9 @@ These recommendations are not a prescriptive blueprint. The NPC report emphasise
 ## What This Means for the Growth Strategy
 
 The financing architecture analysis transforms the infrastructure debate. As [Infrastructure Foundations](/articles/eg-2-2-infrastructure-foundations) documents in detail, South Africa's infrastructure crisis is severe across energy, logistics, ports, water, and digital connectivity. The conventional view is that these are purely institutional delivery failures. That diagnosis is correct — but incomplete.
+
+
+![Closing the investment gap is a financial-architecture problem, not a savings problem | Photo by Alex Duffy on Unsplash](/images/articles/eg-2-3-financing-the-build/img-3.webp)
 
 Delivery failures exist within a financial ecosystem that systematically underinvests in productive fixed assets. Banks prefer government bonds. Pension funds send capital offshore. DFIs lack the backstop to scale. Shadow banks accelerate financial flows within the financial sector rather than channelling them to the real economy. SOE balance sheets have been hollowed out by state capture and fiscal bailouts. The corporate sector shifts surpluses offshore rather than reinvesting domestically.
 
