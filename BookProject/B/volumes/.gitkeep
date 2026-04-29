@@ -1,0 +1,8 @@
+# Product B volume folders go here.
+# Suggested layout:
+#   B/volumes/v1-how-sa-works/
+#   B/volumes/v2-the-growth-question/
+#   B/volumes/v3-human-development-crisis/
+#   B/volumes/v4-the-reform-agenda/
+# Each volume folder contains its own chapter briefs (copies of program/chapter-brief-template.md)
+# and drafts.
