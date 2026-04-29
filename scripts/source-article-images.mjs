@@ -757,6 +757,339 @@ const ARTICLE_CONFIG = {
       },
     ],
   },
+
+  // ---- Human Development series (Item 39 Batch 2) ----
+
+  // hd-1-1: GDP misses what matters; Sen's capabilities approach and the HDI measure development as a life people can live.
+  "hd-1-1-beyond-gdp": {
+    queries: [
+      "person reading library books",
+      "community health worker home visit",
+      "school children classroom Africa",
+    ],
+    placements: [
+      {
+        afterH2: "The GDP Illusion",
+        caption: "National output figures hide the daily reality of how households actually live and spend",
+      },
+      {
+        afterH2: "The Human Development Index: Anatomy of a Measure",
+        caption: "Health, education and income together capture the freedoms an economy delivers to its people",
+      },
+      {
+        afterH2: "From Numbers to Lives",
+        caption: "Development is ultimately measured in the choices ordinary people are free to make",
+      },
+    ],
+  },
+  // hd-1-2: South Africa scores 0.713 on HDI but collapses to 0.468 once inequality is factored in.
+  "hd-1-2-south-africas-report-card": {
+    queries: [
+      "community clinic waiting room",
+      "primary school classroom desks",
+      "aerial city neighbourhoods view",
+    ],
+    placements: [
+      {
+        afterH2: "Dimension One: A Nation's Health",
+        caption: "Public clinics carry the weight of measuring a country's average lifespan",
+      },
+      {
+        afterH2: "Dimension Three: What South Africans Earn",
+        caption: "Household income data reveals the spread that national averages quietly absorb",
+      },
+      {
+        afterH2: "What the Gap Reveals",
+        caption: "The distance between headline and inequality-adjusted scores maps unequal access to the same country",
+      },
+    ],
+  },
+  // hd-1-3: Safety, growth and development are one reinforcing system — broken in SA, virtuous in successful peers.
+  "hd-1-3-the-reinforcing-cycle": {
+    queries: [
+      "construction workers building site",
+      "community meeting outdoor gathering",
+      "interlocking gears machinery close",
+    ],
+    placements: [
+      {
+        afterH2: "The Three Pillars as a System",
+        caption: "Safety, growth and development connect like gears — each turn depends on the others moving",
+      },
+      {
+        afterH2: "The Virtuous Cycle",
+        caption: "Investment, learning and stable neighbourhoods compound into rising living standards over time",
+      },
+      {
+        afterH2: "What This Means for Policy",
+        caption: "Policy gains traction when it acts on safety, growth and development as a single connected system",
+      },
+    ],
+  },
+  // hd-1-4: The Carnegie Commission named white poverty in the 1930s; post-1994 black poverty has had no comparable diagnostic project.
+  "hd-1-4-the-problem-that-has-no-name": {
+    queries: [
+      "old library archive books",
+      "historical archive photographs vintage",
+      "researcher writing notes desk",
+    ],
+    placements: [
+      {
+        afterH2: "What You Name, You Can Solve",
+        caption: "Naming a social problem precisely is what makes systematic policy responses possible",
+      },
+      {
+        afterH2: "The Carnegie Commission: Anatomy of a Named Problem",
+        caption: "The 1930s commission produced volumes of fieldwork that turned poverty into a researchable subject",
+      },
+      {
+        afterH2: "What a Named Problem Would Look Like",
+        caption: "A named problem gets a research agenda, a budget line and a department accountable for solving it",
+      },
+    ],
+  },
+  // hd-2-1: SA's life expectancy is roughly ten years below where its income predicts — HIV, TB, maternal and child mortality drive the gap.
+  "hd-2-1-the-life-expectancy-deficit": {
+    queries: [
+      "community health centre exterior Africa",
+      "pharmacy dispensing medication shelves",
+      "public health nurse outreach",
+    ],
+    placements: [
+      {
+        afterH2: "The Preston Curve and South Africa's Outlier Position",
+        caption: "Income predicts longevity across countries, and the outliers tell you where health systems are failing",
+      },
+      {
+        afterH2: "The Treatment Cascade: 95-79-93",
+        caption: "Each step from diagnosis to suppression is where the cascade either holds or leaks",
+      },
+      {
+        afterH2: "What Closing the Gap Would Take: A Policy Roadmap",
+        caption: "Closing the deficit means primary care that reaches every district, not just every province",
+      },
+    ],
+  },
+  // hd-2-2: Interpersonal violence, GBV and road deaths subtract three to four years from national life expectancy.
+  "hd-2-2-violence-as-public-health-crisis": {
+    queries: [
+      "hospital emergency entrance ambulance",
+      "support service reception desk",
+      "community safety walk neighbourhood",
+    ],
+    placements: [
+      {
+        afterH2: "The Numbers That Should Shock",
+        caption: "Trauma units absorb the daily volume that national mortality statistics summarise into a single line",
+      },
+      {
+        afterH2: "The Trauma System Under Siege",
+        caption: "Emergency departments operate as the front line where violence becomes a measurable health cost",
+      },
+      {
+        afterH2: "What the Evidence Shows Works",
+        caption: "Coordinated responses across health, policing and social services consistently outperform single-agency efforts",
+      },
+    ],
+  },
+  // hd-2-3: SA spends 8.5% of GDP on health but splits it between two systems; growth is the binding constraint on universal coverage.
+  "hd-2-3-the-fiscal-arithmetic-of-health": {
+    queries: [
+      "public hospital corridor beds",
+      "medical records files clipboard",
+      "health worker training session",
+    ],
+    placements: [
+      {
+        afterH2: "Health Spending in International Context",
+        caption: "Comparing health budgets across countries shows where the rand actually buys care",
+      },
+      {
+        afterH2: "Health Worker Crisis",
+        caption: "The pipeline of doctors, nurses and pharmacists is what determines whether budgets reach patients",
+      },
+      {
+        afterH2: "The Path Forward: Growth as Health Policy",
+        caption: "A growing tax base is what eventually makes universal coverage fiscally durable",
+      },
+    ],
+  },
+  // hd-3-1: SA spends among the most on education globally but ranks near the bottom on learning outcomes.
+  "hd-3-1-the-schooling-paradox": {
+    queries: [
+      "primary school classroom Africa",
+      "students reading textbook desk",
+      "school library books shelves",
+    ],
+    placements: [
+      {
+        afterH2: "The Spending Numbers",
+        caption: "Per-learner spending in South Africa exceeds many peer countries with stronger results",
+      },
+      {
+        afterH2: "The Foundation Phase Crisis",
+        caption: "Whether a child can read for meaning by Grade 4 shapes everything that follows",
+      },
+      {
+        afterH2: "What Works: Evidence from South Africa and Globally",
+        caption: "Structured lesson plans and reading benchmarks consistently lift outcomes across school systems",
+      },
+    ],
+  },
+  // hd-3-2: Children cannot learn when they walk through violent neighbourhoods, eat poorly, and study in overcrowded homes.
+  "hd-3-2-learning-in-a-war-zone": {
+    queries: [
+      "child walking school path morning",
+      "school feeding scheme meal tray",
+      "children studying home table",
+    ],
+    placements: [
+      {
+        afterH2: "The Neuroscience of Stress and Learning",
+        caption: "The brain under chronic stress allocates attention to threat rather than to what teachers are teaching",
+      },
+      {
+        afterH2: "Hunger and Learning",
+        caption: "School feeding schemes turn cognitive bandwidth back toward the lesson on the board",
+      },
+      {
+        afterH2: "What Would It Take?",
+        caption: "Safer routes, better nutrition and study space at home are education investments by another name",
+      },
+    ],
+  },
+  // hd-3-3: SA's economy cannot absorb the workers its education system produces — skills mismatch and structural unemployment.
+  "hd-3-3-from-classroom-to-paycheck": {
+    queries: [
+      "vocational training workshop tools",
+      "young job seekers queue",
+      "apprentice technician workbench",
+    ],
+    placements: [
+      {
+        afterH2: "Economic Complexity and Human Capital",
+        caption: "An economy makes more sophisticated products only as fast as its workforce learns to make them",
+      },
+      {
+        afterH2: "The TVET Question",
+        caption: "Technical and vocational colleges are the bridge most successful economies invest in heavily",
+      },
+      {
+        afterH2: "The Reinforcing Cycle: Education, Growth, and More Education",
+        caption: "Productive jobs justify staying in school, and more schooling fills the productive jobs that follow",
+      },
+    ],
+  },
+  // hd-4-1: South Korea, Botswana, Rwanda and Malaysia each built the development cycle from harder starting points than SA.
+  "hd-4-1-when-the-cycle-works": {
+    queries: [
+      "modern factory production line",
+      "agricultural cooperative farmers field",
+      "city skyline development cranes",
+    ],
+    placements: [
+      {
+        afterH2: "South Korea: From War to Wonder",
+        caption: "Industrial scale-up combined with universal schooling reshaped a war-flattened economy within a generation",
+      },
+      {
+        afterH2: "Rwanda: From Genocide to Growth",
+        caption: "Disciplined public administration and primary health investment rebuilt institutions from the ground up",
+      },
+      {
+        afterH2: "The Common Pattern",
+        caption: "Different countries, different sectors, but the institutional sequencing rhymes across every successful case",
+      },
+    ],
+  },
+  // hd-4-2: SA is not stagnating — it is actively spiralling downward, with brain drain, state capture and fiscal squeeze breaking the cycle.
+  "hd-4-2-south-africas-broken-cycle": {
+    queries: [
+      "abandoned office building decay",
+      "load shedding candles dark room",
+      "departures airport terminal travellers",
+    ],
+    placements: [
+      {
+        afterH2: "The Vicious Spiral Mapped",
+        caption: "Each weakening link pulls the next one down, turning shocks into compounding losses",
+      },
+      {
+        afterH2: "The Brain Drain: Bleeding Capability",
+        caption: "Skilled emigration thins the institutional capacity that built whatever still functions",
+      },
+      {
+        afterH2: "Can the Spiral Be Reversed?",
+        caption: "Reversing a spiral means stabilising one link well enough to take pressure off the others",
+      },
+    ],
+  },
+  // hd-4-3: Development must respect planetary limits — energy modernisation and the water-energy-food nexus.
+  "hd-4-3-development-within-limits": {
+    queries: [
+      "solar panels rural installation",
+      "wind turbines landscape farm",
+      "water reservoir dam landscape",
+    ],
+    placements: [
+      {
+        afterH2: "South Africa's Environmental Challenges",
+        caption: "Coal-heavy electricity and stressed catchments define the environmental ledger development has to balance",
+      },
+      {
+        afterH2: "Renewable Energy as Economic Opportunity",
+        caption: "Wind and solar build-outs add generation capacity and industrial work at the same time",
+      },
+      {
+        afterH2: "The Case for Leapfrogging",
+        caption: "Newer infrastructure can skip the dirtiest stage of development that earlier industrialisers passed through",
+      },
+    ],
+  },
+  // hd-5-1: Sections 26-29 of the Bill of Rights are enforceable; citizens can use HDI, DHB and school data to hold government to them.
+  "hd-5-1-your-development-rights": {
+    queries: [
+      "constitution book legal document",
+      "data dashboard laptop charts",
+      "citizen filing complaint office",
+    ],
+    placements: [
+      {
+        afterH2: "The Bill of Rights: Sections 26–29",
+        caption: "Housing, healthcare, food, water, social security and education are written as enforceable claims",
+      },
+      {
+        afterH2: "Tool 3: Municipal Service Delivery Data",
+        caption: "Municipal performance data lets residents track the services their rights actually depend on",
+      },
+      {
+        afterH2: "Putting It All Together: A Practical Accountability Workflow",
+        caption: "An accountability workflow turns data and rights into a sequence of letters, meetings and follow-ups",
+      },
+    ],
+  },
+  // hd-5-2: The development cycle is built or broken at the local level — SGBs, CPFs, ward committees, clinic committees, LED.
+  "hd-5-2-building-the-cycle": {
+    queries: [
+      "parents school meeting classroom",
+      "community policing forum gathering",
+      "ward committee residents discussion",
+    ],
+    placements: [
+      {
+        afterH2: "School Governing Bodies: The Education Link",
+        caption: "School governing bodies are where parents shape the institution their children attend each day",
+      },
+      {
+        afterH2: "Community Policing Forums: The Safety Link",
+        caption: "Community policing forums coordinate residents and station commanders around shared local priorities",
+      },
+      {
+        afterH2: "Building Coalitions Across the Cycle",
+        caption: "Coalitions across health, education, safety and economic forums lift each link by reinforcing the others",
+      },
+    ],
+  },
 };
 
 /**
