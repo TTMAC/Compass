@@ -48,6 +48,9 @@ This article presents the thesis that animates this entire publication. GovCompa
 
 Before mapping the specific causal links between safety, growth, and development, it is worth pausing on a conceptual point that shapes everything that follows: the difference between a collection of parts and a system.
 
+
+![Safety, growth and development connect like gears — each turn depends on the others moving | Photo by Oleksandr Skochko on Unsplash](/images/articles/hd-1-3-the-reinforcing-cycle/img-1.webp)
+
 A collection of parts is a set of things that happen to coexist. The items on your desk — a pen, a notebook, a coffee mug — are a collection. Remove the pen and the notebook and coffee mug are unaffected. The parts do not interact in ways that produce emergent properties. There is no "desk behaviour" that arises from their combination.
 
 A system is a set of interconnected elements that interact to produce behaviour that cannot be predicted from any element alone. A car engine is a system — remove the fuel pump and the entire engine stops, even though every other component is intact. The human body is a system — a disease affecting the liver eventually manifests in the kidneys, the brain, and the skin. An economy is a system. A democracy is a system. And, this article argues, the triad of safety, growth, and development is a system.
@@ -148,6 +151,9 @@ The development → safety link operates through education (each additional year
 
 When all three links in the reinforcing cycle operate in the positive direction, the results compound over time in ways that can seem almost miraculous from the outside — though they are, in fact, the predictable consequence of systems operating as designed.
 
+
+![Investment, learning and stable neighbourhoods compound into rising living standards over time | Photo by Random Institute on Unsplash](/images/articles/hd-1-3-the-reinforcing-cycle/img-2.webp)
+
 Consider South Korea. In 1960, South Korea was one of the poorest countries in the world — poorer, by GDP per capita, than most sub-Saharan African countries. Its human development indicators were abysmal: life expectancy was approximately 53 years, mean years of schooling were minimal, and income per capita was approximately $1,100 in PPP terms. It had just emerged from a devastating civil war that killed millions and destroyed most of its physical infrastructure. Its northern neighbour was a constant military threat. Its natural resource endowment was negligible — no oil, no significant mineral wealth, limited agricultural land.
 
 Yet by 2023, South Korea's HDI was 0.929 — one of the highest in the world. Life expectancy was 84 years. Mean years of schooling exceeded 12. GNI per capita exceeded $47,000 PPP. The transformation occurred in a single human lifetime — a person born in 1960 witnessed the transition from subsistence poverty to first-world prosperity.
@@ -199,6 +205,9 @@ The IHDI gap is thus not just a number. It is a diagnostic tool. It tells you wh
 ## What This Means for Policy
 
 The reinforcing cycle framework has direct implications for how South Africans should evaluate policy proposals — and how governments should design them.
+
+
+![Policy gains traction when it acts on safety, growth and development as a single connected system | Photo by Shahabudin Ibragimov on Unsplash](/images/articles/hd-1-3-the-reinforcing-cycle/img-3.webp)
 
 **Implication 1: You cannot fix safety without growth.** Policing, prosecution, and correctional services require funding. More importantly, safety ultimately depends on a population that has legitimate economic opportunities. No police force, however well-resourced, can maintain order in a society where 60% of young people have no prospect of employment. The long-term solution to South Africa's crime crisis is not more police officers — it is an economy that generates employment. This does not mean that policing and justice reform are unnecessary. They are urgently necessary, and [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) documents why. But they are necessary conditions, not sufficient ones. Without growth that creates jobs, even excellent policing will be overwhelmed.
 

@@ -101,6 +101,9 @@ South Africa's education paradox: 11.3 mean years of schooling (higher than Braz
 
 The income dimension of South Africa's HDI is both the strongest component and, paradoxically, the one most distorted by inequality. South Africa's gross national income per capita of approximately $12,948 in PPP terms places it firmly in the upper-middle-income category. The logarithmic transformation used in the HDI — which reflects the diminishing marginal utility of income — yields an income index of approximately 0.741. By this measure, South Africa's material resources are comparable to those of Brazil ($16,390 GNI per capita PPP), not far behind Mexico ($21,030), and substantially ahead of many countries with higher HDI scores.
 
+
+![Household income data reveals the spread that national averages quietly absorb | Photo by Thomas Park on Unsplash](/images/articles/hd-1-2-south-africas-report-card/img-2.webp)
+
 **The PPP adjustment and what it reveals.** The purchasing power parity adjustment is designed to make income comparable across countries by accounting for differences in the cost of goods and services. South Africa's nominal GNI per capita — approximately $7,000 in current US dollar terms — is less impressive than the PPP figure. The PPP adjustment reflects the fact that many goods and services in South Africa are cheaper than in high-income countries: a loaf of bread, a taxi ride, a haircut cost less in Johannesburg than in London. But the PPP adjustment assumes that these goods are equally accessible to all citizens, which in South Africa they emphatically are not. A loaf of bread may be cheaper in South Africa than in Switzerland, but that is irrelevant to a household in rural Limpopo where the nearest shop is twenty kilometres away and the household has no income at all.
 
 **The distribution behind the average.** South Africa's GNI per capita of $12,948 PPP is, as discussed in [Beyond GDP](/articles/hd-1-1-beyond-gdp), an average that describes almost nobody's lived reality. According to data from the World Inequality Database, the top 10% of South African income earners capture approximately 65% of all national income. The top 1% captures approximately 20%. The bottom 50% — thirty million people — share less than 6% of national income. This means that for the bottom half of the population, GNI per capita is not $12,948 but approximately $1,500 PPP — a figure that places their lived economic reality in the "low income" category, comparable to countries like Senegal or Tanzania.
@@ -200,6 +203,9 @@ The progress is real. Between 1994 and the present, the proportion of households
 ## What the Gap Reveals
 
 The distance between South Africa's HDI of 0.713 and its IHDI of 0.468 is not merely a statistical artefact. It is the quantitative signature of a society that has failed to convert its considerable resources — economic, institutional, and human — into broadly shared human development. The gap reveals several things simultaneously.
+
+
+![The distance between headline and inequality-adjusted scores maps unequal access to the same country | Photo by Nicolas Backal on Unsplash](/images/articles/hd-1-2-south-africas-report-card/img-3.webp)
 
 **It reveals the continuing legacy of apartheid.** Apartheid was, in human development terms, a system designed to concentrate capabilities among a racial minority and to systematically deprive the majority. The spatial geography of inequality (former homelands versus former white South Africa), the racial distribution of income and wealth, the quality differential in education, and the patterns of health inequality all trace back to apartheid-era policies. Thirty years of democracy have not erased these patterns — they have mitigated them at the margins while leaving the underlying structure largely intact.
 

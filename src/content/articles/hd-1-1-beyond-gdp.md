@@ -47,6 +47,9 @@ If you have read [The R7,000 Economy](/articles/eg-1-1-the-seven-thousand-rand-e
 
 Gross domestic product was never designed to measure human welfare. This is not a matter of interpretation or political spin — it is a matter of historical record. Simon Kuznets, the economist who developed the national income accounting framework that became GDP in the 1930s and 1940s, explicitly warned the United States Congress in 1934 that "the welfare of a nation can scarcely be inferred from a measurement of national income." Kuznets understood that his creation measured the monetary value of goods and services produced within a country's borders in a given period. It did not measure, and was not intended to measure, whether that production made people's lives better.
 
+
+![National output figures hide the daily reality of how households actually live and spend | Photo by matthew Feeney on Unsplash](/images/articles/hd-1-1-beyond-gdp/img-1.webp)
+
 The warning went unheeded. In the decades following World War II, GDP growth became the dominant metric by which countries measured their progress and by which international institutions — the World Bank, the International Monetary Fund, development agencies — assessed and ranked nations. The logic was seductively simple: more production means more stuff, more stuff means more consumption, more consumption means better lives. For countries emerging from the devastation of war or the stagnation of colonialism, the appeal was obvious. GDP growth was measurable, comparable across countries, and politically useful — a rising GDP line on a graph was proof that the government was doing something right.
 
 But GDP has blind spots so large that you could drive the entire South African social crisis through them without the indicator noticing.
@@ -90,6 +93,9 @@ The capabilities approach has a particular resonance in South Africa. The South 
 ## The Human Development Index: Anatomy of a Measure
 
 The Human Development Index is built on three dimensions, each intended to capture a fundamental aspect of what it means to live a decent human life. Understanding how these dimensions are measured, why they were chosen, and what they capture and miss is essential to using the HDI as an analytical tool rather than treating it as a magical number that tells you everything you need to know.
+
+
+![Health, education and income together capture the freedoms an economy delivers to its people | Photo by Frederick Shaw on Unsplash](/images/articles/hd-1-1-beyond-gdp/img-2.webp)
 
 **Dimension One: A long and healthy life.** The indicator is life expectancy at birth. This is not a measure of healthcare quality or access directly — it is an outcome measure that captures the cumulative effect of nutrition, disease environment, healthcare access, environmental quality, violence, and social determinants of health. Life expectancy at birth represents the average number of years a newborn would be expected to live if current age-specific mortality rates were to remain constant throughout their life. In the HDI calculation, life expectancy is normalised using a minimum value of 20 years and a maximum of 85 years. South Africa's life expectancy of approximately 63 years (Stats SA *Mid-year Population Estimates 2023*) yields a health index of approximately 0.662.
 
@@ -198,6 +204,9 @@ The goal is not to tell you what to think about any particular policy proposal. 
 ## From Numbers to Lives
 
 Let us close by returning from the abstractions of indices and frameworks to the concrete reality that they attempt to capture.
+
+
+![Development is ultimately measured in the choices ordinary people are free to make | Photo by Fatima Yusuf on Unsplash](/images/articles/hd-1-1-beyond-gdp/img-3.webp)
 
 An HDI of 0.713 is not a number about a country. It is a summary — a deeply imperfect summary — of sixty million individual stories. It is the story of a nurse in a rural clinic in KwaZulu-Natal who works twelve-hour shifts treating patients with tuberculosis, HIV, diabetes, and hypertension, with insufficient medication and no specialist backup, whose own life expectancy is shortened by the stress and occupational hazards of her work. It is the story of a fourteen-year-old in Khayelitsha who walks forty minutes to school each morning through areas where gang violence is a daily reality, who sits in a classroom with forty-five other learners and a teacher who was never adequately trained in the subject they are teaching, and who will complete twelve years of schooling without acquiring the literacy and numeracy skills that the curriculum intended. It is the story of a retrenched mineworker in Rustenburg whose silicosis diagnosis means he will never work again and whose family survives on a social grant that covers food but not the transport costs to reach the clinic where he needs treatment.
 

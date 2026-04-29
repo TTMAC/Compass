@@ -53,6 +53,9 @@ This article maps the terrain. It explains why South Africa's life expectancy is
 
 In 1975, the demographer Samuel Preston published a paper that would become one of the most cited in public health scholarship. Using data from nations across income levels, Preston demonstrated that the relationship between national income and life expectancy follows a distinctive curve: life expectancy rises steeply with income at low levels — moving from $1,000 to $5,000 per capita produces dramatic health gains — then flattens at higher incomes, as the basic infrastructure of public health (clean water, sanitation, vaccination, nutrition) is established and further gains require more targeted and expensive interventions. The curve that bears his name has been updated repeatedly with contemporary data, and the fundamental shape holds: income buys health, but with diminishing returns.
 
+
+![Income predicts longevity across countries, and the outliers tell you where health systems are failing | Photo by Ed Wingate on Unsplash](/images/articles/hd-2-1-the-life-expectancy-deficit/img-1.webp)
+
 What makes the Preston Curve analytically powerful is not the average relationship but the deviations from it. Countries that sit above the curve — that achieve life expectancies higher than their income would predict — are doing something right with their health systems, their public health infrastructure, or their social determinants of health. Countries that sit below the curve are failing in one or more of these domains. The distance from the curve provides a rough but useful measure of health system performance, independent of wealth.
 
 South Africa is one of the most dramatic outliers below the Preston Curve in the contemporary world. At a GDP per capita of approximately $7,000 in current US dollar terms — placing it in the upper-middle-income category — the curve predicts a life expectancy of roughly seventy-two to seventy-four years. The actual figure, as of the most recent data from Statistics South Africa's mid-year population estimates, is approximately sixty-three years. That ten-year gap is among the largest negative deviations of any country in the world. To find comparable deviations, you would need to look at countries experiencing active conflict, famine, or state collapse.
@@ -92,6 +95,9 @@ South Africa's life expectancy fell from approximately sixty-two years in 1994 t
 ## The Treatment Cascade: 95-79-93
 
 The UNAIDS 95-95-95 targets provide the most precise available framework for understanding where South Africa's HIV response is succeeding and where it is failing. The targets, first articulated by UNAIDS in 2014, specify that by 2025, ninety-five percent of people living with HIV should know their status, ninety-five percent of those who know their status should be on sustained antiretroviral therapy, and ninety-five percent of those on treatment should be virally suppressed. Achieving all three targets simultaneously means that approximately eighty-six percent of all people living with HIV would be virally suppressed — a level that epidemiological models suggest would be sufficient to end the epidemic as a public health threat through the "treatment as prevention" effect, whereby viral suppression dramatically reduces onward transmission.
+
+
+![Each step from diagnosis to suppression is where the cascade either holds or leaks | Photo by National Cancer Institute on Unsplash](/images/articles/hd-2-1-the-life-expectancy-deficit/img-2.webp)
 
 South Africa's treatment cascade, as of the most recent data compiled by UNAIDS and the National Department of Health, stands at approximately 95-79-93. Let us unpack each number.
 
@@ -200,6 +206,9 @@ The "points per rand" framing is a simplification that serves analytical clarity
 ## What Closing the Gap Would Take: A Policy Roadmap
 
 Understanding the problem is necessary but not sufficient. What would it actually take to close the treatment cascade gap and begin addressing the broader health drivers of South Africa's life expectancy deficit? You can use this roadmap to assess whether the policies your elected representatives are pursuing are actually pointed at the right targets.
+
+
+![Closing the deficit means primary care that reaches every district, not just every province | Photo by TopSphere Media on Unsplash](/images/articles/hd-2-1-the-life-expectancy-deficit/img-3.webp)
 
 The first priority is closing the second ninety-five. This requires a package of interventions that are individually well-evidenced and collectively achievable within existing fiscal constraints. Differentiated service delivery — tailoring the frequency and modality of clinic visits to patients' clinical stability — has been shown to reduce the burden on patients and facilities simultaneously. Stable patients on antiretroviral therapy do not need to visit a clinic every month; they can collect medication from community pickup points, pharmacy dispensing units, or adherence group meetings. This frees clinic capacity for new initiations and complex patients while reducing the friction that deters people from starting and staying on treatment. Multi-month dispensing — providing three or six months of medication at once rather than one month at a time — reduces clinic visits further and has been shown in South African implementation studies to improve retention without compromising outcomes.
 

@@ -65,6 +65,9 @@ seo:
 
 In 1929, the Carnegie Corporation of New York funded what would become one of the most consequential social science investigations in South African history. The Carnegie Commission of Investigation on the Poor White Question assembled a team of researchers — economists, psychologists, educationalists, and health specialists — to study a phenomenon that had alarmed white South African society for three decades: the emergence of a substantial class of white people who were visibly, measurably, and persistently poor. The Commission produced five volumes totalling over 3,000 pages. It quantified the problem. It diagnosed its causes. It proposed solutions. And — this is the part that matters most — the state acted on its findings with a coherence, scale, and sustained political will that transformed the material conditions of an entire population within a single generation.
 
+
+![Naming a social problem precisely is what makes systematic policy responses possible | Photo by Keisha on Unsplash](/images/articles/hd-1-4-the-problem-that-has-no-name/img-1.webp)
+
 The "Poor White Problem" was not merely studied. It was *named*. **Naming it created a political object** — something that could be debated in Parliament, funded in budgets, tracked with metrics, and evaluated against targets. The name gave the problem boundaries, assigned it urgency, and implied a corresponding obligation: if there is a "Poor White Problem," then there must be a solution to the Poor White Problem, and the state must find and implement that solution. The Carnegie Commission did not invent white poverty in South Africa. But by naming it, framing it as a systemic crisis rather than a collection of individual misfortunes, and producing an evidence base that demanded institutional response, the Commission created the conditions for one of the most effective — and most racially exclusive — anti-poverty programmes in twentieth-century history.
 
 Now consider the inverse. Since 1994, South Africa has confronted a phenomenon that dwarfs the Poor White Problem in every measurable dimension: the persistent, structural, intergenerational poverty of the black majority. According to Stats SA's *National Poverty Lines* series for 2023, approximately 18.2 million South Africans live below the food poverty line of R760 per person per month, and **approximately 30.4 million — more than half the population — live below the upper-bound poverty line of R1,558.** The overwhelming majority of these people are black. **The unemployment rate among black South Africans exceeds 40 per cent on the expanded definition.** Black households earn, on average, one-fifth of what white households earn. Black children attend schools that produce the worst learning outcomes in the developing world. Black communities experience homicide rates that would constitute a public health emergency in any other country. The Inequality-adjusted Human Development Index reveals that the average black South African experiences conditions closer to "low human development" than the national HDI figure of 0.713 suggests.
@@ -80,6 +83,9 @@ This article argues that the asymmetry between the named "Poor White Problem" an
 ## The Carnegie Commission: Anatomy of a Named Problem
 
 To understand what it means to *name* a development problem, you must understand what the Carnegie Commission actually did — not as a historical curiosity, but as a case study in the mechanics of effective state intervention.
+
+
+![The 1930s commission produced volumes of fieldwork that turned poverty into a researchable subject | Photo by Eric Prouzet on Unsplash](/images/articles/hd-1-4-the-problem-that-has-no-name/img-2.webp)
 
 ### The Context: White Poverty as Political Crisis
 
@@ -237,6 +243,9 @@ But moral admiration does not compensate for analytical failure. **The Carnegie 
 ## What a Named Problem Would Look Like
 
 If South Africa were to apply the Carnegie Commission's analytical method — stripped of its racial exclusivity but retaining its diagnostic rigour — to the structural poverty of the black majority, what would it look like?
+
+
+![A named problem gets a research agenda, a budget line and a department accountable for solving it | Photo by Vitaly Gariev on Unsplash](/images/articles/hd-1-4-the-problem-that-has-no-name/img-3.webp)
 
 **A bounded definition.** The "Poor Black Problem" would need to be defined with the same precision the Carnegie Commission brought to the Poor White Problem: not all poverty, not all inequality, but the specific, structural, intergenerational poverty that affects approximately 25-30 million black South Africans and that is reproduced across generations through identifiable mechanisms. The definition would distinguish between transient poverty (a middle-class family temporarily impoverished by job loss) and structural poverty (a family that has been poor for three or more generations and whose children face statistically negligible prospects of escaping poverty through existing institutional pathways).
 
