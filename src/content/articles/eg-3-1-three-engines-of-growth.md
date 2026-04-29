@@ -47,6 +47,9 @@ This article examines each engine in turn, but the core argument is that they on
 
 ### The Entrepreneurship Deficit
 
+
+![Small and medium firms are where most net new jobs are created in successful economies | Photo by Vitaly Gariev on Unsplash](/images/articles/eg-3-1-three-engines-of-growth/img-1.webp)
+
 South Africa does not have a shortage of people who want to start businesses. It has a shortage of people who successfully do. The Global Entrepreneurship Monitor (GEM), which has tracked entrepreneurial activity across countries since 1999, consistently ranks South Africa's *Total Early-Stage Entrepreneurial Activity (TEA) rate* — the percentage of the working-age population actively starting or running a new business — well below comparator countries. **South Africa's TEA rate has hovered between roughly seven and eleven per cent over the past decade.** Compare that to Chile (around twenty-five per cent), Brazil (around twenty per cent), or even Botswana (around fifteen per cent in recent surveys). The gap is not marginal. **South Africa's early-stage entrepreneurship rate is roughly half that of peer economies at similar income levels.**
 
 The TEA rate alone does not tell you everything. What matters as much is the composition and survival of those ventures. GEM data distinguishes between "necessity-driven" entrepreneurship — people starting businesses because they have no other income option — and "opportunity-driven" entrepreneurship — people starting businesses because they have identified a market gap they believe they can fill profitably. South Africa's entrepreneurial activity is disproportionately necessity-driven. Many of the country's micro-enterprises — spaza shops, street vendors, informal service providers — exist because the formal economy excludes their owners, not because a genuine business opportunity beckoned. There is nothing wrong with necessity entrepreneurship as a survival mechanism, but it does not drive the kind of productive, scalable, export-capable venture creation that moves GDP per capita upward.
@@ -97,6 +100,9 @@ South Africa's entrepreneurship deficit is structural, not cultural. The country
 
 ### The Narrow Basket Problem
 
+
+![Export diversification reduces commodity risk and forces firms to compete at world standards | Photo by Haris Illahi on Unsplash](/images/articles/eg-3-1-three-engines-of-growth/img-2.webp)
+
 South Africa's export structure tells a story of unrealised potential. The Harvard Growth Lab's Atlas of Economic Complexity, which maps every country's export basket and calculates an *Economic Complexity Index (ECI)*, ranks South Africa in the middle of the global distribution — **roughly 50th to 60th out of approximately 130 countries, depending on the year.** That ranking is lower than you would expect for an economy of South Africa's size, industrial history, and institutional sophistication. It is lower than Chile, lower than Malaysia, and substantially lower than South Korea or any of the East Asian manufacturing economies.
 
 The ECI matters because **it is one of the strongest predictors of future economic growth that economists have identified.** Countries with high economic complexity — meaning they export a diverse range of sophisticated products that few other countries can make — tend to grow faster than countries that export a narrow range of simple products. The logic is intuitive: a country that can manufacture pharmaceuticals, precision instruments, and specialised chemicals has deeper capabilities — in education, in industrial organisation, in institutional quality — than a country that exports raw minerals and basic agricultural commodities. Those deeper capabilities generate growth opportunities across multiple sectors, making the economy more resilient and more dynamic.
@@ -142,6 +148,9 @@ South Africa's export basket is narrow and, on some measures, becoming narrower.
 ## Engine Three: New Financing Vehicles
 
 ### How Businesses Are Financed
+
+
+![New financing vehicles channel domestic savings into the productive economy | Photo by Markus Winkler on Unsplash](/images/articles/eg-3-1-three-engines-of-growth/img-3.webp)
 
 Every business, from a spaza shop to a multinational corporation, is financed through some combination of two fundamental sources: equity (ownership capital — the money that founders, partners, or investors put in, in exchange for a share of the business) and debt (borrowed capital — money that must be repaid, usually with interest, regardless of whether the business succeeds or fails). The mix between equity and debt that a business uses — its capital structure — is not arbitrary. It depends on several factors.
 

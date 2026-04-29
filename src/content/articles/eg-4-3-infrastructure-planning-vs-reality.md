@@ -47,6 +47,9 @@ The measurement dimension matters because it connects infrastructure delivery to
 
 To understand why South Africa plans so well and delivers so poorly, you need a diagnostic framework that separates the different stages of infrastructure delivery and identifies where the system breaks down at each stage. McKinsey Global Institute's research on infrastructure productivity, drawn from analysis of dozens of countries, provides precisely this. The framework identifies five dimensions that distinguish countries that deliver infrastructure effectively from those that do not. What makes it useful is not its complexity but its specificity — it tells you where to look.
 
+
+![Five dimensions — selection, finance, delivery, regulation, capability — determine whether plans become projects | Photo by Fons Heijnsbroek on Unsplash](/images/articles/eg-4-3-infrastructure-planning-vs-reality/img-1.webp)
+
 ### Dimension 1: Strategic Prioritisation
 
 This is the question of whether a country has a coherent, evidence-based plan that identifies the right projects in the right sequence, based on economic impact analysis. You need to know what to build, where to build it, and in what order.
@@ -124,6 +127,9 @@ The planning-execution gap is not a story about one or two troubled projects. It
 ## Sector-by-Sector Scorecard
 
 The following scorecard assesses infrastructure delivery across four critical sectors. For each sector, five dimensions are scored: the original NIP/SIP commitment, the current delivery status, the timeline variance (how far behind schedule delivery has fallen), the cost variance (how much costs have exceeded estimates), and the binding constraint that explains the gap. This structure is designed to be updated as new data becomes available, making it a living measurement tool rather than a static assessment.
+
+
+![Energy, transport, water and digital infrastructure each show different patterns of planning-to-delivery failure | Photo by Adrian Sulyok on Unsplash](/images/articles/eg-4-3-infrastructure-planning-vs-reality/img-2.webp)
 
 ### Energy: The Partial Turnaround
 
@@ -216,6 +222,9 @@ National Treasury's annual Budget Review and the Estimates of National Expenditu
 ## Why the Gap Persists
 
 If the diagnosis is clear and the solutions are known, why does the planning-execution gap persist? The answer lies in a set of reinforcing institutional weaknesses that are individually understood but collectively resistant to quick fixes.
+
+
+![The planning-execution gap is institutional, not technical — capacity sits in plans, not delivery teams | Photo by Wesley Pacífico on Unsplash](/images/articles/eg-4-3-infrastructure-planning-vs-reality/img-3.webp)
 
 The first and most fundamental reason is the project preparation deficit. Preparing a complex infrastructure project for construction and financing requires sustained effort by a multidisciplinary team over two to five years. It requires engineering design, environmental impact assessment, social consultation, land acquisition, financial modelling, legal structuring, and procurement document preparation — each of which involves specialised skills, regulatory approvals, and coordination across multiple institutions. South Africa does not have enough of these teams, and creating them takes years of capacity building. GTAC, the DBSA, and the Infrastructure Fund collectively employ perhaps a few hundred professionals focused on project preparation. The pipeline requires thousands. No amount of political will can substitute for the patient, technical work of preparing projects to the point where construction can begin and investors can commit capital.
 

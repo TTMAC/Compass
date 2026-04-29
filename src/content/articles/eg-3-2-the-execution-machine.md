@@ -94,6 +94,9 @@ Taken together, these five structural features explain why South Africa produces
 
 If you want to see what an execution machine looks like in practice, Malaysia's Economic Planning Unit offers the clearest example. The EPU was established in 1961, shortly after Malaysian independence, and for more than five decades it served as the central coordinating body for Malaysia's economic development strategy. Understanding how it worked — and why it worked — is essential for thinking about what South Africa needs.
 
+
+![Malaysia's Economic Planning Unit shows how a coordinating body translates strategy into delivery | Photo by Angelyn Sanjorjo on Unsplash](/images/articles/eg-3-2-the-execution-machine/img-1.webp)
+
 The EPU sat within the Prime Minister's Department, **giving it direct access to the highest level of political authority.** This positioning was not merely symbolic. It meant that the EPU's head reported directly to the prime minister, not to a line minister who might be reshuffled. It meant that the EPU could convene any ministry, any agency, and any state-owned enterprise to a coordination meeting with the authority of the PM's office behind it. And it meant that when the EPU identified a blockage — a ministry dragging its feet on a reform, a state-level government failing to release land for an industrial park — it could escalate the issue directly to the political leadership with the speed and authority that resolution required.
 
 The EPU's core function was to prepare and coordinate the implementation of Malaysia's five-year development plans, known as the Malaysia Plans. Between 1966 and 2020, Malaysia published twelve of these plans, each running to hundreds of pages of sector-by-sector targets, investment allocations, and institutional reform commitments. The critical feature was not the plans themselves — many countries produce development plans — but the fact that **the EPU had real authority over the development budget.** The EPU controlled the allocation of the development expenditure budget, meaning that it could direct capital spending toward the priorities identified in the Malaysia Plan and away from projects that did not align with the strategy. *This budget authority gave the EPU genuine leverage over line ministries.* A ministry that refused to cooperate with the EPU's coordination requirements risked losing its development budget allocation.
@@ -139,6 +142,9 @@ The Korean model is more authoritarian than either the Malaysian or Singaporean 
 ## What This Looks Like for South Africa
 
 What would a South African execution machine look like? Not a copy of the EPU or the EDB — South Africa's constitutional framework, democratic requirements, and governance challenges demand a distinct design. But an institution that performs the same core functions, adapted to South African conditions.
+
+
+![An execution machine sits inside the Presidency with the authority to enforce delivery across departments | Photo by Compagnons on Unsplash](/images/articles/eg-3-2-the-execution-machine/img-2.webp)
 
 The first design requirement is a legislated mandate that outlasts individual ministers. The institution should be established by an Act of Parliament, not by a ministerial directive or a presidential proclamation. This matters because an institution created by legislation cannot be abolished, reorganised, or defunded by a single minister or a single cabinet reshuffle. Changing its mandate requires a parliamentary process with public hearings, committee deliberation, and a recorded vote. This is the most basic form of institutional insulation — making the institution's existence and core mandate a matter of law rather than a matter of political convenience.
 

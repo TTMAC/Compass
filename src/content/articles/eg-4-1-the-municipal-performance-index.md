@@ -46,6 +46,9 @@ This article gives you the complete methodology. By the end, you will understand
 
 **Economic growth does not happen at national level. It happens in specific places.** A factory opens in a specific municipality. A small business registers in a specific town. A young person finds or fails to find a job in a specific local economy. The national GDP growth rate is an average that conceals enormous variation between places. In any given year, some South African municipalities are growing employment, attracting investment, and delivering services effectively, while others are losing businesses, shedding jobs, and allowing infrastructure to collapse. The national statistics tell you about the average. The MPI tells you about the distribution.
 
+
+![A single comparable score lets residents see how their municipality performs against peers | Photo by Jason Richard on Unsplash](/images/articles/eg-4-1-the-municipal-performance-index/img-1.webp)
+
 This matters for several reasons. The first is accountability. South Africa holds local government elections every five years. Voters are asked to choose between parties and candidates who promise to improve their municipality. But on what basis do you evaluate whether the previous administration succeeded or failed? Anecdotes and lived experience are valuable but incomplete. A pothole on your street tells you something about road maintenance, but it tells you nothing about the municipality's debt collection rate, its capital expenditure execution, or its performance on water quality standards. The MPI gives you a structured basis for evaluation — not a substitute for your own experience, but a complement to it.
 
 The second reason is comparison. South Africa's 257 municipalities are not all the same. They range from the City of Johannesburg, with a population of over five million and an annual budget of tens of billions of rands, to tiny rural municipalities in the Eastern Cape or Limpopo with populations under fifty thousand and budgets measured in hundreds of millions. Comparing Johannesburg to a rural municipality in the former Transkei is not useful without adjusting for the fundamentally different contexts, resources, and challenges these municipalities face. The MPI addresses this through differentiated weighting — the relative importance of each pillar shifts depending on whether you are assessing a metropolitan municipality (Category A), a secondary city (Category B1), a medium-sized town (Category B2 or B3), or a rural municipality (Category B4). This means you are always comparing like with like, or at least as closely as the data permits.
@@ -91,6 +94,9 @@ These weights are not arbitrary. They reflect the structural differences between
 ## The Indicators: What Gets Measured
 
 Each pillar contains a set of indicators drawn from publicly available data sources. This section explains every indicator, what it measures, why it was chosen, and where the data comes from.
+
+
+![Indicators draw from financial, service-delivery, governance and economic data already in the public record | Photo by Jolame Chirwa on Unsplash](/images/articles/eg-4-1-the-municipal-performance-index/img-2.webp)
 
 ### Economic Development Indicators
 
@@ -189,6 +195,9 @@ A score below 40 places a municipality in the Critical tier. These municipalitie
 ## Data Sources and Where to Find Them
 
 The MPI draws on data from a defined set of public sources. Transparency about data origins is essential because it allows you to verify any score the MPI produces and to challenge any ranking you believe is inaccurate.
+
+
+![Treasury, Stats SA and the Auditor-General publish the raw data the MPI assembles | Photo by 1981 Digital on Unsplash](/images/articles/eg-4-1-the-municipal-performance-index/img-3.webp)
 
 Statistics South Africa (Stats SA) provides the economic and demographic data through several instruments. The Quarterly Labour Force Survey, published four times a year, provides unemployment and employment data at the metro level and for some secondary cities. The Census, most recently conducted in 2022, provides comprehensive municipal-level data on service access (water, sanitation, electricity, refuse removal), demographics, and economic activity. The General Household Survey, published annually, provides supplementary household-level data on service delivery and living conditions. All Stats SA data is available at statssa.gov.za.
 
