@@ -67,6 +67,9 @@ The Hanushek-Woessmann research programme, spanning publications from 2007 to th
 
 The concept of economic complexity, developed by Ricardo Hausmann and César Hidalgo at Harvard's Center for International Development, provides a complementary lens on the education-growth relationship. The Economic Complexity Index (ECI) measures the diversity and sophistication of a country's export basket — the idea being that complex economies produce a wide variety of sophisticated products, which requires a wide variety of sophisticated productive capabilities, which in turn requires a well-educated, skilled workforce.
 
+
+![An economy makes more sophisticated products only as fast as its workforce learns to make them | Photo by Jason Leung on Unsplash](/images/articles/hd-3-3-from-classroom-to-paycheck/img-1.webp)
+
 The empirical relationship between economic complexity and prosperity is strong. Countries with high ECI — Germany, Japan, South Korea, Switzerland — tend to be wealthy. Countries with low ECI — commodity exporters, countries with narrow export baskets — tend to be less wealthy. And critically, ECI predicts future growth: countries that are more complex than their current income level would suggest tend to grow faster, as if converging toward the income level that their productive sophistication implies.
 
 If you have ever wondered why South Africa's economy feels like it keeps circling the same problems — high unemployment, commodity dependence, slow growth — the ECI trajectory gives you part of the answer. A declining complexity index is a declining future.
@@ -129,6 +132,9 @@ The education dimension of structural unemployment operates through several chan
 
 If the education-growth link depends on cognitive skills, and if the skills mismatch is the proximate cause of structural unemployment, then the obvious policy response is to fix the pipeline between education and employment. And the institution that is supposed to serve as that pipeline — the Technical and Vocational Education and Training (TVET) system — is, in South Africa, a case study in missed potential.
 
+
+![Technical and vocational colleges are the bridge most successful economies invest in heavily | Photo by Musemind UX Agency on Unsplash](/images/articles/hd-3-3-from-classroom-to-paycheck/img-2.webp)
+
 South Africa has 50 public TVET colleges, enrolling approximately 700,000 students. These colleges are supposed to produce the middle-skill workers that the economy most desperately needs: artisans, technicians, IT professionals, hospitality workers, office administrators. In the growth framework documented in [The Efficiency Transition](/articles/eg-2-4-the-efficiency-transition), TVET graduates are the workforce backbone of the manufacturing scale-up, the services expansion, and the infrastructure maintenance that Stage 2 growth requires.
 
 If you are a parent considering whether TVET is a viable pathway for your child, the throughput and employment data below will help you ask the right questions when you visit a college. Completion rates and employer relationships are the two numbers that matter most.
@@ -186,6 +192,9 @@ South Korea, Singapore, and Vietnam all invested in education before their econo
 ## The Reinforcing Cycle: Education, Growth, and More Education
 
 The comparator country evidence illustrates the reinforcing cycle that this entire Human Development series traces. When education improves, the human capital stock of the economy improves. When human capital improves, economic complexity rises — the economy can produce a wider variety of more sophisticated goods and services. When economic complexity rises, productivity grows, wages increase, and the economy generates more tax revenue. When tax revenue increases, the government can invest more in education — and in the safety, nutrition, and housing that [Learning in a War Zone](/articles/hd-3-2-learning-in-a-war-zone) identified as prerequisites for learning. And when education investment increases, education improves further. The cycle reinforces.
+
+
+![Productive jobs justify staying in school, and more schooling fills the productive jobs that follow | Photo by TECNIC Bioprocess Solutions on Unsplash](/images/articles/hd-3-3-from-classroom-to-paycheck/img-3.webp)
 
 This is the virtuous version of the cycle. South Korea, Singapore, and Vietnam have been operating it for decades. The compounding returns are visible in their income trajectories, their productive structures, and their social indicators.
 

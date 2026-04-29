@@ -176,6 +176,9 @@ Research by the Trade and Industrial Policy Strategies think tank, the Centre fo
 
 The shift toward renewable energy is not merely a substitution of one energy source for another. It is an economic opportunity that could address multiple dimensions of South Africa's development challenge simultaneously.
 
+
+![Wind and solar build-outs add generation capacity and industrial work at the same time | Photo by Aline Li Varen on Unsplash](/images/articles/hd-4-3-development-within-limits/img-2.webp)
+
 South Africa has extraordinary renewable energy potential. Solar irradiation in the Northern Cape exceeds 2,500 kilowatt-hours per square metre per year — among the highest in the world. Wind resources along the Eastern and Western Cape coastlines are sufficient for large-scale wind generation. The combination of abundant solar and wind resources means that South Africa could, in principle, generate a large share of its electricity from renewable sources at costs that are now lower than new coal generation and increasingly competitive with existing coal generation.
 
 The Renewable Energy Independent Power Producer Procurement Programme — the REIPPPP — demonstrated what is possible. **Between 2011 and 2021, the programme attracted over R210 billion in private investment, brought approximately 6,300 megawatts of renewable capacity online, and created an estimated 58,000 full-time equivalent jobs** in construction and operations. The average price of electricity from REIPPPP projects has fallen dramatically with each bidding round, reflecting global trends in technology cost reduction.
@@ -209,6 +212,9 @@ For South Africa specifically, the responsible development agenda suggests sever
 ## The Case for Leapfrogging
 
 South Africa does not have to follow outdated development models. The concept of leapfrogging — skipping intermediate stages of technological development by adopting the most advanced available technologies directly — is not hypothetical. South Africa has already done it in several domains.
+
+
+![Newer infrastructure can skip the dirtiest stage of development that earlier industrialisers passed through | Photo by kaori kubota on Unsplash](/images/articles/hd-4-3-development-within-limits/img-3.webp)
 
 Mobile banking is the most cited example. South Africa effectively leapfrogged the branch-banking model — the network of physical bank branches that developed countries built over centuries — by adopting mobile and digital banking at scale. Mobile money and digital payment platforms enable financial transactions for millions of South Africans who never had access to a physical bank branch. The infrastructure cost is a fraction of what a branch network would have required, and the service is often more accessible and convenient.
 

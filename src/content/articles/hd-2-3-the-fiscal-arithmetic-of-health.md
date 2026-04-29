@@ -158,6 +158,9 @@ The conditional grants — earmarked funding from the national government to pro
 
 No discussion of the fiscal arithmetic of health is complete without confronting the health workforce challenge — arguably the most critical constraint on the health system's ability to translate funding into outcomes. If you have ever waited hours at a public clinic to see an overworked nurse managing a queue that would defeat anyone, you have experienced the vacancy rate in human terms.
 
+
+![The pipeline of doctors, nurses and pharmacists is what determines whether budgets reach patients | Photo by Arisa Chattasa on Unsplash](/images/articles/hd-2-3-the-fiscal-arithmetic-of-health/img-2.webp)
+
 South Africa has approximately 350,000 health workers in the public sector, including approximately 22,000 medical practitioners (doctors), approximately 140,000 nurses of various categories, and the remainder comprising allied health professionals, pharmacists, community health workers, and support staff. These numbers are inadequate for the population served. **The doctor-to-population ratio in the public sector is approximately 0.3 per thousand (compared to approximately 2.7 per thousand in the private sector).** The nurse-to-population ratio, while better, is still below WHO recommendations for the level of primary healthcare delivery South Africa's disease burden demands.
 
 The vacancy rate — the gap between funded positions and filled positions — is a persistent and pernicious problem. Nationally, vacancy rates for professional nurses (the backbone of the primary healthcare system) average approximately twenty to twenty-five percent, with some provinces and some facilities experiencing vacancy rates of forty percent or more. For medical officers and specialists, vacancy rates in rural and underserved areas are even higher. Some rural district hospitals operate without a single specialist in key disciplines — no obstetrician, no paediatrician, no surgeon — relying on generalist medical officers to manage conditions that require specialist expertise.
@@ -283,6 +286,9 @@ A middle path — often discussed but rarely articulated precisely — would inv
 ## The Path Forward: Growth as Health Policy
 
 This article has presented the fiscal arithmetic of South Africa's health system in unvarnished terms. The numbers are constraining but not hopeless. The path forward requires clarity about three things.
+
+
+![A growing tax base is what eventually makes universal coverage fiscally durable | Photo by Akeyodia - Business Coaching Firm on Unsplash](/images/articles/hd-2-3-the-fiscal-arithmetic-of-health/img-3.webp)
 
 First, economic growth is health policy. This is not a metaphor or a political slogan. It is a fiscal fact. Without sustained GDP growth of at least three percent per year — and preferably higher — there is no pathway to expanding public health coverage, hiring the health workers the system needs, funding the treatment cascades documented earlier in this series, or implementing NHI in any meaningful form. The economic reforms discussed in [Three Engines of Growth](/articles/eg-3-1-three-engines-of-growth) and [Resource Optimisation](/articles/eg-2-1-resource-optimisation) are not separate from the health agenda. They are its fiscal foundation.
 

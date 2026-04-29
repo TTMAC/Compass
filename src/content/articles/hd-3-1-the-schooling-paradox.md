@@ -55,6 +55,9 @@ Understanding why this paradox exists — why spending does not translate to lea
 
 Let us begin with what South Africa actually spends, because the numbers matter and the public discourse around them is often imprecise.
 
+
+![Per-learner spending in South Africa exceeds many peer countries with stronger results | Photo by bill wegener on Unsplash](/images/articles/hd-3-1-the-schooling-paradox/img-1.webp)
+
 In the 2023/24 financial year, the Department of Basic Education and provincial education departments collectively spent approximately R310 billion on basic education. The Department of Higher Education and Training spent an additional R130 billion on post-school education and training. Total public expenditure on education thus exceeded R440 billion — roughly 6.5 per cent of GDP and approximately 20 per cent of consolidated government expenditure. These figures have been broadly consistent for the past decade, rising in nominal terms but remaining relatively stable as a share of GDP and total expenditure.
 
 To put that in international context: the Organisation for Economic Co-operation and Development (OECD) average for public education spending is approximately 4.9 per cent of GDP. The European Union average is similar. South Korea, which has one of the world's highest-performing education systems, spends 4.7 per cent. Finland, regularly cited as a global education exemplar, spends 5.9 per cent. Brazil, South Africa's BRICS peer, spends approximately 6.0 per cent. Among major economies, only a handful — Israel, Costa Rica, some Nordic countries — spend a larger share of their GDP on education than South Africa.
@@ -159,6 +162,9 @@ This is not to suggest that unions are the sole or even primary cause of the cri
 
 If there is a single leverage point in the entire education system — one intervention that would have more impact than any other — it is early-grade reading. If you are a parent of a child in Grade R, 1, 2, or 3, the most important question you can ask their teacher right now is: can my child read a short paragraph aloud and tell me what it means? The answer to that question predicts their educational trajectory more accurately than any test score or report card grade. The evidence on this point is overwhelming and converges from multiple research traditions.
 
+
+![Whether a child can read for meaning by Grade 4 shapes everything that follows | Photo by Yen Vu on Unsplash](/images/articles/hd-3-1-the-schooling-paradox/img-2.webp)
+
 The logic is straightforward. In the Foundation Phase (Grades R to 3), children are *learning to read*. From Grade 4 onwards, they are *reading to learn*. **The transition from "learning to read" to "reading to learn" is the hinge point of the entire educational trajectory.** A child who cannot read with fluency and comprehension by the end of Grade 3 cannot access the curriculum from Grade 4 onwards — because the curriculum is delivered through text. Mathematics problems are presented in words. Science concepts are explained in textbooks. History and geography require reading comprehension. A child who cannot read is locked out of every subject.
 
 In South Africa, the Foundation Phase crisis is the crisis. The PIRLS data confirms that 81 per cent of Grade 4 learners cannot read for meaning. This means that 81 per cent of learners enter the Intermediate Phase (Grades 4 to 6) without the foundational skill required to access the curriculum. From this point, the deficit compounds. Each year, the gap between what the curriculum requires and what the learner can do widens. By Grade 9, the cumulative deficit is so large that meaningful remediation within the normal school system is virtually impossible. The learner may remain in the system — South Africa's progression policies ensure that most learners advance through grades regardless of performance — but they are in the building without being in the learning.
@@ -174,6 +180,9 @@ RESEP's research on early-grade reading in South Africa has produced the most de
 ## What Works: Evidence from South Africa and Globally
 
 The diagnostic is bleak. But the evidence base on what works is surprisingly robust, and some of the most compelling evidence comes from South Africa itself. What this means for you, as a parent, a community member, or a voter, is that the question worth demanding answers to is not "what are we spending?" but "which of these evidence-based approaches is this school — this district — this department — actually implementing?"
+
+
+![Structured lesson plans and reading benchmarks consistently lift outcomes across school systems | Photo by Trust "Tru" Katsande on Unsplash](/images/articles/hd-3-1-the-schooling-paradox/img-3.webp)
 
 **Structured learning programmes.** The most rigorous evidence from South Africa comes from the Early Grade Reading Study (EGRS), a series of randomised controlled trials conducted in partnership between the Department of Basic Education and research organisations. The EGRS tested the impact of structured learning programmes — lesson plans that prescribe what the teacher should do in each lesson, with accompanying learner materials, training, and coaching support. The results were striking. In the EGRS Phase I trial, learners in schools that received the structured programme showed significant improvements in reading outcomes compared to control schools. The EGRS Phase II trial, which tested similar interventions in Setswana (a home language), also showed positive results. The effect sizes were not small: in some specifications, the structured programme closed one-third to one-half of the gap between the lowest-performing learners and the PIRLS minimum benchmark.
 

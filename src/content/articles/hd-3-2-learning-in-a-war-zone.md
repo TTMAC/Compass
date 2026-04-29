@@ -55,6 +55,9 @@ South Africa asks millions of children to learn under conditions that make learn
 
 To understand why the environment matters so much, you need to understand what stress does to a developing brain. This is not a digression — it is the biological mechanism that connects community violence, hunger, and poverty to learning outcomes.
 
+
+![The brain under chronic stress allocates attention to threat rather than to what teachers are teaching | Photo by Anton Ryazanov on Unsplash](/images/articles/hd-3-2-learning-in-a-war-zone/img-1.webp)
+
 The human stress response is an evolutionary adaptation designed for acute threats. When the brain perceives danger — a predator, an attacker, a sudden threat — the amygdala triggers the hypothalamic-pituitary-adrenal (HPA) axis, which floods the body with cortisol and adrenaline. Heart rate increases. Blood is diverted to the muscles. The prefrontal cortex — responsible for higher-order thinking — is suppressed in favour of the amygdala's rapid threat-response circuitry. This is adaptive when the threat is acute and temporary: you escape the predator, cortisol levels return to normal, and the prefrontal cortex resumes normal function.
 
 The problem arises when the stress response is not acute and temporary but chronic and sustained. When a child lives in an environment of persistent threat — community violence, domestic abuse, food insecurity, housing instability — the stress response system is activated continuously. Cortisol levels remain elevated. The prefrontal cortex remains suppressed. And the developing brain, which is in a critical period of growth and neural pruning during childhood and adolescence, develops differently under these conditions.
@@ -114,6 +117,9 @@ The SAHRC's monitoring reports on school safety, produced through both complaint
 ## Hunger and Learning
 
 A child cannot learn on an empty stomach. This is not folk wisdom. It is nutritional science with a robust evidence base.
+
+
+![School feeding schemes turn cognitive bandwidth back toward the lesson on the board | Photo by Richard R on Unsplash](/images/articles/hd-3-2-learning-in-a-war-zone/img-2.webp)
 
 The National School Nutrition Programme (NSNP) is one of the largest social programmes in South Africa. **It provides a daily meal — typically a cooked lunch — to approximately 9.6 million learners** in roughly 21,000 Quintile 1 to 3 schools (the poorest 60 per cent of schools). The programme's budget exceeds R9 billion annually, and it is administered through provincial education departments with food preparation typically done by volunteer food handlers at each school.
 
@@ -194,6 +200,9 @@ The ISS has produced some of the most rigorous research linking community safety
 ## What Would It Take?
 
 The evidence base on integrated interventions — combining educational improvement with safety, nutrition, and psychosocial support — is growing, and the most promising results come from programmes that address multiple barriers simultaneously.
+
+
+![Safer routes, better nutrition and study space at home are education investments by another name | Photo by leoon liang on Unsplash](/images/articles/hd-3-2-learning-in-a-war-zone/img-3.webp)
 
 **Safe routes to school.** Several South African cities and community organisations have experimented with safe route programmes — designated walking corridors with adult supervision, lighting, and community monitoring. In Brazil, the Programa Caminho da Escola (School Route Programme) provides school transport in rural and high-risk areas and has been associated with improved attendance. In Colombia, the Bogotá school safety programme combined infrastructure improvements (street lighting, pedestrian crossings) with community policing to reduce violence along school routes. These programmes are not expensive relative to their impact: the cost of a school transport programme is a fraction of the cost of a school building, and the attendance impact can be significant.
 

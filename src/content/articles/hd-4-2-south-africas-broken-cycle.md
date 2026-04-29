@@ -111,6 +111,9 @@ The net effect of thirty years of democratic governance is that inequality has n
 
 South Africa is haemorrhaging human capital. The emigration of skilled professionals — what the development literature calls "brain drain" — is one of the most damaging and least discussed dimensions of the vicious spiral.
 
+
+![Skilled emigration thins the institutional capacity that built whatever still functions | Photo by Nestergrapher nedie on Unsplash](/images/articles/hd-4-2-south-africas-broken-cycle/img-2.webp)
+
 Precise emigration data is difficult to obtain because South Africa does not systematically track permanent emigration. But estimates from multiple sources — including Statistics South Africa, the South African Institute of Race Relations, and academic researchers — suggest that between 800,000 and 1.2 million South Africans now live abroad, with the United Kingdom, Australia, New Zealand, Canada, the United States, and the United Arab Emirates as primary destinations. The emigrant population is disproportionately skilled: professionals, managers, and technical workers are dramatically over-represented relative to their share of the population.
 
 The impact on specific professions is severe. **The Health Professions Council of South Africa has estimated that approximately 20,000 South African doctors are practising abroad — roughly equal to the total number of doctors in the public health system.** South Africa trains approximately 1,200 doctors per year at a cost of approximately R3-4 million each, and a significant proportion emigrate within five years of qualification. The engineering profession faces similar challenges: the Engineering Council of South Africa has raised concerns about the declining number of registered professional engineers, driven partly by emigration.
@@ -192,6 +195,9 @@ Comparing South Africa's IHDI penalty with those of other countries at similar i
 ## Can the Spiral Be Reversed?
 
 The vicious spiral is self-reinforcing, but it is not unbreakable. The case studies in the previous article demonstrate that countries have reversed spirals as severe as South Africa's — though none have done so from a starting position of inequality as extreme as South Africa's.
+
+
+![Reversing a spiral means stabilising one link well enough to take pressure off the others | Photo by Pim de Boer on Unsplash](/images/articles/hd-4-2-south-africas-broken-cycle/img-3.webp)
 
 Reversing the spiral requires intervening at multiple links simultaneously. A crime reduction strategy alone will not work if the inequality that drives crime is not addressed. An education improvement programme alone will not work if the graduates it produces emigrate because the economy offers no opportunities. A fiscal consolidation programme alone will not work if it squeezes the very development spending that builds the capabilities needed for growth.
 
