@@ -61,6 +61,9 @@ Now it is your turn.
 
 Every October, the Minister of Finance tables the Medium Term Budget Policy Statement in Parliament. The MTBPS is not the budget itself — the full budget arrives in February — but **it is in many ways the more important document for understanding the government's actual economic priorities.** The February budget is constrained by the fiscal framework that the MTBPS establishes. By October, the strategic choices have already been made. The February budget fills in the details; the MTBPS reveals the direction.
 
+
+![The MTBPS is the single best annual document for tracking whether economic promises survive contact with the fiscus | Photo by Mathias Reding on Unsplash](/images/articles/eg-5-3-your-economic-citizenship/img-1.webp)
+
 You can access the MTBPS on the National Treasury website (treasury.gov.za) on the day it is tabled. The full document is typically between 80 and 120 pages, but you do not need to read all of it. What you need is a structured approach to extracting the information that matters for evaluating economic policy against the framework you have built over this series.
 
 The MTBPS contains several categories of information, and you should approach each one with specific questions in mind. The first category is the macroeconomic forecast. The Treasury provides projections for GDP growth, inflation (CPI), the current account balance, and the exchange rate over the medium term — typically three years forward. These numbers are not predictions in the scientific sense; they are the assumptions on which the fiscal framework is built. When the Treasury projects GDP growth of 1.8 per cent for the coming year, it is saying: this is what we expect, and we have built our revenue and expenditure plans on this assumption. Your job as a citizen reader is not to second-guess the Treasury's econometric models but to ask a simpler question: is this growth rate consistent with the structural transformation that the growth strategy requires? **You know from Part 1 that South Africa needs sustained growth of at least 3 to 5 per cent per annum to make meaningful progress on unemployment and poverty.** If the Treasury's own projections show growth below 2 per cent for the medium term, **that is the government's own admission that its current policy framework is not generating the growth the country needs.**
@@ -112,6 +115,9 @@ Once you have assembled this data for your municipality, you have a crude but fu
 ## Engaging Local Economic Development
 
 Local Economic Development — LED — is one of the most important and least understood functions of local government in South Africa. The Constitution assigns economic development responsibilities across all three spheres of government, but it is at the local level where economic policy meets the lived reality of communities. Your municipality's LED strategy determines whether industrial land is zoned and serviced, whether small business support programmes are available, whether local procurement policies favour local suppliers, whether investment promotion is active, and whether the regulatory environment enables or inhibits economic activity.
+
+
+![Local Economic Development units are where most citizens can shape economic policy in practice | Photo by Age Cymru on Unsplash](/images/articles/eg-5-3-your-economic-citizenship/img-2.webp)
 
 The National Framework for Local Economic Development, published by the Department of Cooperative Governance and Traditional Affairs (COGTA) in collaboration with the Department of Economic Development, provides the policy foundation for LED in South Africa. It defines LED as "an outcome of the actions of local people and communities to build up economic activity and so generate employment within their locality." This is a deliberately broad definition, and the framework recognises that LED strategies must be tailored to local economic conditions — what works in the City of Johannesburg will not work in a rural district municipality in the Eastern Cape.
 
@@ -170,6 +176,9 @@ South African economists and political economy researchers — including those a
 ## Election-Season Engagement: Reading Party Manifestos
 
 General elections in South Africa occur every five years, with the next national and provincial elections following the 2024 cycle. In the months before an election, every political party publishes a manifesto — a document outlining its policy positions and commitments across multiple domains, including the economy. These manifestos are the formal, documented basis on which parties ask for your vote. They deserve more serious scrutiny than they typically receive.
+
+
+![Manifestos deserve to be read against a fixed checklist rather than evaluated on rhetoric alone | Photo by Ernie Journeys on Unsplash](/images/articles/eg-5-3-your-economic-citizenship/img-3.webp)
 
 When you read a party manifesto's economic section, apply the six-question framework systematically. But also look for several additional features that distinguish serious economic thinking from rhetorical posturing.
 

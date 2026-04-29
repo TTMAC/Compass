@@ -586,7 +586,7 @@ const ARTICLE_CONFIG = {
     queries: [
       "Singapore government building skyline",
       "project management office whiteboard",
-      "Malaysia Putrajaya government complex",
+      "government complex modern architecture",
     ],
     placements: [
       {
@@ -651,8 +651,8 @@ const ARTICLE_CONFIG = {
   "eg-4-2-the-metro-rankings": {
     queries: [
       "Cape Town aerial city view",
-      "Johannesburg metro rail station",
-      "South African suburb residential street",
+      "urban metro train commuters",
+      "residential houses aerial neighbourhood",
     ],
     placements: [
       {
@@ -716,8 +716,8 @@ const ARTICLE_CONFIG = {
   // eg-5-2: Translating strategy into sequenced milestones, dashboards and accountability — Rwanda's EDPRS as model.
   "eg-5-2-from-strategy-to-reality": {
     queries: [
-      "Kigali Rwanda city skyline",
-      "project timeline gantt chart",
+      "African city skyline modern",
+      "strategic planning whiteboard team",
       "government press conference podium",
     ],
     placements: [
@@ -727,7 +727,7 @@ const ARTICLE_CONFIG = {
       },
       {
         afterH2: "The Transparent Dashboard: Learning from Rwanda's EDPRS",
-        caption: "Rwanda's public dashboard tracks every strategic target against quarterly milestones the public can see",
+        caption: "Public delivery dashboards translate strategic targets into milestones citizens can track in real time",
       },
       {
         afterH2: "The Annual Strategy Review: South Africa's Missing Institution",

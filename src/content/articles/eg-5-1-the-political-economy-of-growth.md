@@ -63,6 +63,9 @@ South Africa illustrates this dynamic with painful clarity. The National Develop
 
 To understand why reform stalls, you need to map the specific winners and losers of each major policy area. Abstract discussions about "vested interests" are not useful. What is useful is identifying, with precision, which organisations, industries, and constituencies stand to gain or lose from each proposed reform — and then assessing whether the winners are more politically powerful than the losers.
 
+
+![Every reform redistributes income and risk — naming the affected groups is the first political task | Photo by Ehimetalor Akhere Unuabona on Unsplash](/images/articles/eg-5-1-the-political-economy-of-growth/img-1.webp)
+
 Let us work through the four major reform areas covered in this series.
 
 ### Resource Optimisation: Moving Up the Value Chain
@@ -135,6 +138,9 @@ Governance researchers at institutions including the Wits School of Governance, 
 
 The concept of a social compact is straightforward: it is a negotiated agreement among government, business, labour, and civil society on the terms of economic transition. It says, in effect: we agree that the economy needs to change, we agree on the broad direction of change, we agree on how the costs and benefits will be distributed, and we commit to supporting the reform process even when it imposes costs on our own constituency.
 
+
+![Social compacts work when government, labour and business each give up something they value | Photo by ANNIE HATUANH on Unsplash](/images/articles/eg-5-1-the-political-economy-of-growth/img-2.webp)
+
 Social compacts have been the vehicle through which several countries managed difficult economic transitions without either authoritarian coercion or political paralysis. Three cases are particularly instructive for South Africa.
 
 ### South Korea's Crisis Compact (1997-1998)
@@ -198,6 +204,9 @@ Research on South Africa's trade and industrial policy — including work by sch
 ## Parliamentary Accountability: The Missing Link
 
 There is one more political institution that should be central to the political economy of reform but has largely failed to play its role: Parliament.
+
+
+![Parliament is where reform trade-offs should be debated openly rather than negotiated behind closed doors | Photo by Vitaly Gariev on Unsplash](/images/articles/eg-5-1-the-political-economy-of-growth/img-3.webp)
 
 As described in [The Architecture of the State](/articles/1-1-architecture-of-the-state), South Africa's Parliament is structured with portfolio committees that are supposed to exercise oversight over executive departments. The Portfolio Committee on Trade, Industry and Competition should scrutinise industrial policy implementation. The Portfolio Committee on Mineral Resources and Energy should hold the minister accountable for beneficiation strategy. The Portfolio Committee on Public Enterprises should oversee SOE reform. The Standing Committee on Finance and the Standing Committee on Appropriations should ensure that budgets align with strategic priorities.
 

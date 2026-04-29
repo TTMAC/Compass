@@ -83,6 +83,9 @@ When you apply these weights to Cape Town's four pillar scores and calculate the
 
 Johannesburg is South Africa's largest city by economic output, the seat of the Johannesburg Stock Exchange, the commercial hub of the continent's most industrialised economy, and home to approximately 5.6 million people. It generates more GDP than any other South African metro. On paper, it should be the country's best-governed city — it has the largest revenue base, the deepest pool of skilled professionals, and the most developed private sector ecosystem to draw upon. **It is not.** Johannesburg scores 52.2 on the Municipal Performance Index, placing it squarely in the Needs Improvement tier, 32 points behind Cape Town.
 
+
+![Johannesburg's score diverges across pillars, exposing the gap between scale and governance quality | Photo by Nic Y-C on Unsplash](/images/articles/eg-4-2-the-metro-rankings/img-2.webp)
+
 Understanding where those 32 points are lost is more instructive than any amount of political commentary about the city's governance challenges.
 
 On the Economic Development pillar, Johannesburg's headline indicators are not dramatically worse than Cape Town's. Johannesburg's broad unemployment rate is higher, its youth unemployment rate is higher, and its employment growth is weaker — but these differences, while meaningful, account for only a portion of the gap. The economic divergence becomes sharper when you examine the business environment indicators: business registrations per capita, LED budget execution, and the trajectory of the formal tax base.
@@ -128,6 +131,9 @@ The Financial and Fiscal Commission, South Africa's constitutionally mandated ad
 ## Peer Group Stratification: Why Comparing a Metro to a Rural Municipality is Unfair
 
 If you were to rank all 257 of South Africa's municipalities on a single league table using uniform weights and identical indicators, the result would be misleading at best and actively harmful at worst. It would be misleading because it would compare institutions that face fundamentally different structural conditions, serve fundamentally different populations, and operate with fundamentally different resource bases. It would be harmful because politicians and media would inevitably use the ranking to shame struggling rural municipalities for failing to match metropolitan performance levels, without acknowledging that the comparison itself is structurally unfair.
+
+
+![Fair comparison requires grouping municipalities by category before ranking their performance | Photo by Eloi Smith on Unsplash](/images/articles/eg-4-2-the-metro-rankings/img-3.webp)
 
 Consider the differences. A Category A metropolitan municipality like Cape Town has an annual budget exceeding R60 billion, generates the majority of its revenue from own sources, employs thousands of professionally qualified engineers, accountants, and planners, and serves a population that is overwhelmingly urban and connected to formal economic networks. A Category B4 rural municipality in the Eastern Cape or Limpopo may have an annual budget of R200 million, generate less than 10 per cent of its revenue from own sources, employ no professionally qualified engineers at all, and serve a population that is largely dependent on social grants and subsistence agriculture. Expecting these two institutions to perform equally on the same indicators with the same weights is not rigorous analysis — it is a category error.
 

@@ -48,6 +48,9 @@ This article gives you the sequencing logic, the stage-specific KPIs, the dashbo
 
 Every economic strategy South Africa has produced since 1994 has contained good ideas. The Reconstruction and Development Programme identified the right priorities. The Growth, Employment and Redistribution strategy contained sound macroeconomic logic. The Accelerated and Shared Growth Initiative was analytically rigorous. The National Development Plan is, by any reasonable assessment, a well-researched document that correctly identifies infrastructure, education, and institutional capability as binding constraints. The problem has never been the quality of the analysis. The problem has been the assumption that a good strategy, once announced, will somehow implement itself.
 
+
+![Strategies fail not because the goals are wrong but because the sequence of milestones is missing | Photo by Gift Habeshaw on Unsplash](/images/articles/eg-5-2-from-strategy-to-reality/img-1.webp)
+
 Strategies do not implement themselves. They are implemented through a sequence of institutional actions, each of which depends on the successful completion of prior actions. This is the sequencing problem, and it is the single most underrated reason why South African economic strategies fail. Consider what happens when you try to attract foreign direct investment into manufacturing without first fixing the electricity supply. The investor conducts due diligence, discovers that load-shedding will interrupt production an average of four hours per day, factors in the cost of backup generation, and invests in Vietnam instead. The manufacturing strategy was sound. The sequencing was wrong. You cannot attract manufacturing investment until you have reliable electricity, and you cannot have reliable electricity until you have resolved Eskom's generation capacity crisis, and you cannot resolve Eskom's generation capacity crisis without both new generation procurement (the REIPPPP) and the restructuring of Eskom's transmission and distribution functions. Each step depends on the one before it. Skip a step, and the entire chain breaks.
 
 This is not a theoretical observation. It is the empirical history of South Africa's economic policy since the mid-2000s. The Industrial Policy Action Plans identified beneficiation as a strategic priority — adding value to South Africa's mineral resources before export. Correct in principle. But beneficiation requires reliable and affordable electricity (which was failing), functioning rail and port infrastructure to move finished goods (which Transnet was not delivering), and a regulatory environment that made it cheaper to process minerals locally than to export them raw (which the fiscal and regulatory framework did not consistently provide). The strategy was announced. The prerequisites were not in place. The strategy produced marginal results. A new strategy was announced. The cycle repeated.
@@ -117,6 +120,9 @@ The lagging indicators for Stage 3 are GDP per capita (on trajectory from $30,00
 ## The Transparent Dashboard: Learning from Rwanda's EDPRS
 
 Having the right KPIs is necessary but not sufficient. The KPIs must be publicly visible, regularly updated, and presented in a format that allows citizens, journalists, researchers, and opposition politicians to track progress without needing a statistics degree. This is where Rwanda's EDPRS monitoring system provides a genuinely instructive model.
+
+
+![Public delivery dashboards translate strategic targets into milestones citizens can track in real time | Photo by Vitaly Gariev on Unsplash](/images/articles/eg-5-2-from-strategy-to-reality/img-2.webp)
 
 Rwanda's Economic Development and Poverty Reduction Strategy — now in its third iteration as the National Strategy for Transformation (NST1) — is accompanied by **one of the most rigorous implementation monitoring systems in Africa.** The system works because it has four features that South Africa's monitoring architecture has historically lacked.
 
@@ -207,6 +213,9 @@ The key principle is that the burden of proof escalates with the magnitude of th
 ## The Annual Strategy Review: South Africa's Missing Institution
 
 The course-correction mechanism requires a regular forum where progress is assessed, evidence is reviewed, and decisions about adjustments are made. This is the annual strategy review, and it is the single most important institutional gap in South Africa's economic governance architecture.
+
+
+![An annual strategy review forces government to defend last year's results before setting next year's targets | Photo by Navy Medicine on Unsplash](/images/articles/eg-5-2-from-strategy-to-reality/img-3.webp)
 
 Rwanda conducts its Joint Sector Reviews annually. Singapore's Economic Development Board conducts quarterly strategy sessions with private sector leaders. South Korea's Blue House (now the Yongsan Presidential Office) held monthly export promotion meetings during its high-growth decades — meetings chaired by the president, attended by the heads of major conglomerates, and focused on identifying and removing obstacles to export performance. These were not ceremonial events. They were working sessions where data was presented, problems were identified, and solutions were agreed upon with specific deadlines and accountable officials.
 
