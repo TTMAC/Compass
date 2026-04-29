@@ -6,7 +6,7 @@
 
 ## Strategic framing first
 
-The site has ~78 published articles across 6 series — roughly **350,000 words** of source material. A typical accessible trade non-fiction book runs **70,000–100,000 words**, so the core challenge is **distillation and narrative architecture**, not compilation.
+The site has **79 published articles** across **5 thematic series** (Core, EG, HD, RA, SS) — roughly **568,000 words** of source material (average ~7,200 words per article). A typical accessible trade non-fiction book runs **70,000–100,000 words**, so the core challenge is **distillation and narrative architecture**, not compilation. At a 90,000-word target, only ~16% of source survives.
 
 There are two viable shapes. Pick before outlining:
 
@@ -99,7 +99,7 @@ This is the part most authors get wrong. Build a repeatable process before draft
 ### Risks worth flagging now
 1. **Non-partisanship under book-length scrutiny.** Articles can hedge; a book takes positions. Decide upfront how strong the reform recommendations get — a soft book reads as evasive, a hard book invites attack. The RA series already commits, so lean *clear but evidence-anchored*.
 2. **Data freshness.** A book printed in 2026 will be read in 2028. Frame statistics as illustrative-of-pattern, not point-in-time, and direct readers to the live site for current numbers.
-3. **Scope creep.** 78 articles want to be in the book. They can't all fit. The discipline of Phase 2 is what makes or breaks this project.
+3. **Scope creep.** 79 articles (~568,000 words) want to be in the book; only ~90,000 words can fit. That is an 84% cut. The discipline of Phase 2 is what makes or breaks this project.
 
 ---
 

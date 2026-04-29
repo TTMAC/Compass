@@ -11,7 +11,7 @@ This document defines a **two-product publishing program** built from a single b
 To start the new project you will need to bring three things:
 
 1. This document.
-2. The **source corpus**: 78 markdown articles from `src/content/articles/` in the GovCompass repo (~350,000 words). Copy these as read-only reference material into the new project's `/source/` directory.
+2. The **source corpus**: 79 markdown articles from `src/content/articles/` in the GovCompass repo (~568,000 words; average ~7,200 words per article). Copy these as read-only reference material into the new project's `/source/` directory.
 3. The **GovCompass Content Style Guide** (`docs/GovCompass_Content_Style_Guide.md`) and the **Domain Model** (`docs/DOMAIN_MODEL_GovCompass.md`). These define voice, terminology, and non-partisanship rules that both books must inherit.
 
 Everything else needed to execute is in this document.
@@ -22,7 +22,9 @@ Everything else needed to execute is in this document.
 
 ### 1.1 Context
 
-GovCompass (govcompass.co.za) publishes long-form civic education articles on how the South African state works, why outcomes are what they are, and what reform would require. The site has 78 articles across 6 thematic series totalling ~350,000 words. The audience is South African citizens with prepaid data and limited prior policy literacy. The editorial line is non-partisan and evidence-anchored.
+GovCompass (govcompass.co.za) publishes long-form civic education articles on how the South African state works, why outcomes are what they are, and what reform would require. The site has **79 articles** across **5 thematic series** (Core, Economic Growth, Human Development, Reform Agenda, Safety & Security) totalling **~568,000 words** (average ~7,200 words per article). The audience is South African citizens with prepaid data and limited prior policy literacy. The editorial line is non-partisan and evidence-anchored.
+
+Series breakdown: Core 15 · EG 16 · HD 15 · RA 17 · SS 16.
 
 ### 1.2 Program goal
 
@@ -46,7 +48,7 @@ The two products share research, glossary, citations, and visual assets. They di
 | **Format** | Trade paperback + ebook | Boxed set or individually sold; ebook + print-on-demand |
 | **Price target** | R250–R350 (commercial trade pricing) | R450–R600 per volume; R1,800–R2,200 boxed |
 | **Channel** | CNA, Exclusive Books, Takealot, Amazon KDP | Direct-to-institution, Loot, Amazon KDP, university bookshops |
-| **Source ratio** | ~30% of source material survives | ~80% of source material survives |
+| **Source ratio** | ~16% of source material survives (90k of 568k) | ~35% of source material survives (200k of 568k) |
 | **Build order** | First | Second (reuses A's research backbone) |
 
 ### 1.4 Why this sequencing
@@ -210,7 +212,7 @@ For each chapter of A and each volume of B:
 
 Articles are written for screen-skimmers; books are read linearly. Every chapter needs a narrative spine — a question, a story, or a journey — not just a topic.
 
-- **Deliverable:** 14 chapter briefs (A) + 4 volume briefs with chapter-level breakdowns (B). Source map populated for all 78 articles.
+- **Deliverable:** 14 chapter briefs (A) + 4 volume briefs with chapter-level breakdowns (B). Source map populated for all 79 articles.
 
 #### Phase 3 — Vertical slice (Weeks 9–12)
 - Draft **Prologue + Chapter 1 of A** as a vertical slice of the entire pipeline (research → draft → figures → edit → expert review).
@@ -280,7 +282,7 @@ These are the moments where a decision on one product affects the other. Do not 
 
 1. **Non-partisanship under book-length scrutiny.** Articles can hedge; books take positions. Decide upfront how strong the reform recommendations get — soft reads as evasive, hard invites attack. The RA source series already commits, so lean *clear but evidence-anchored* in both products.
 2. **Data freshness.** Books printed in 2026 are read in 2028. Frame statistics as illustrative-of-pattern, not point-in-time. Direct readers to the live site for current numbers. Consider an annual digital errata sheet.
-3. **Scope creep.** Seventy-eight articles want to be in the books. They cannot all fit, even in B. The discipline of Phase 2 is what makes or breaks the program.
+3. **Scope creep.** Seventy-nine articles (~568,000 words) want to be in the books. They cannot all fit, even in B (which retains only ~35% of source). The discipline of Phase 2 is what makes or breaks the program.
 4. **Voice contamination between A and B.** If the same drafter writes both back-to-back without a voice reset, B can drift simple or A can drift technical. Lock voice in Phase 3 and have the editor flag drift in every chapter review.
 5. **Expert-reviewer asymmetry.** B's credibility depends on named expert reviewers across at least four domains. Recruit them in Phase 1, not Phase 5 — late recruitment compresses review time and weakens the result.
 6. **Cannibalisation fear.** The website team may worry the books reduce site traffic. The opposite is the design: both books treat the site as the live, current, deep-dive layer and route readers to it. Make this explicit in launch comms.
@@ -291,7 +293,7 @@ These are the moments where a decision on one product affects the other. Do not 
 
 When you start the separate project workspace, populate it with:
 
-- `/source/articles/` — 78 markdown articles from `src/content/articles/`.
+- `/source/articles/` — 79 markdown articles from `src/content/articles/` (~568,000 words total).
 - `/source/style-guide.md` — copy of `docs/GovCompass_Content_Style_Guide.md`.
 - `/source/domain-model.md` — copy of `docs/DOMAIN_MODEL_GovCompass.md`.
 - `/source/manifesto.md` — copy of `docs/Manifesto.md`.
