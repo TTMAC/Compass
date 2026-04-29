@@ -1027,7 +1027,7 @@ const ARTICLE_CONFIG = {
   // hd-4-3: Development must respect planetary limits — energy modernisation and the water-energy-food nexus.
   "hd-4-3-development-within-limits": {
     queries: [
-      "solar panels rural installation",
+      "solar panels installation sunshine",
       "wind turbines landscape farm",
       "water reservoir dam landscape",
     ],
