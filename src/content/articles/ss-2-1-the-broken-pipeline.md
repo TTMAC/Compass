@@ -90,6 +90,9 @@ Even when cases are opened, the quality of the initial registration matters. The
 
 Investigation is the stage where the largest proportion of cases are effectively lost — not through a formal decision to close or withdraw, but through the slow death of neglect. A case is assigned to a detective. That detective, in a typical SAPS station, is carrying anywhere from 80 to over 150 active cases simultaneously. The detective must manage all of these cases — visiting crime scenes, interviewing witnesses, collecting evidence, liaising with forensic services, tracking suspects, and preparing dockets for prosecution. With caseloads of this magnitude, meaningful investigation of all but the most serious cases is physically impossible.
 
+
+![Investigation is the stage where the largest share of opened cases quietly stalls and is closed | Photo by Luke Caunt on Unsplash](/images/articles/ss-2-1-the-broken-pipeline/img-2.webp)
+
 The *detective-to-case ratio* is one of the most important metrics in the criminal justice pipeline, and in South Africa it is catastrophically strained. **International benchmarks suggest that a detective carrying more than 30 to 40 active cases cannot provide adequate investigation quality. South African detectives routinely carry two to four times that number.** The result is triage by default: detectives focus on the cases they are most likely to close — often cases where the suspect is already known or where political or media pressure demands action — and the remaining cases receive minimal investigative attention.
 
 The quality of crime scene management compounds the problem. First responders — the uniformed officers who arrive at a crime scene before detectives — are responsible for securing the scene and preserving evidence. In practice, crime scene contamination is widespread, particularly at scenes in high-crime areas where resources are stretched and response times are long. By the time a detective arrives, evidence may have been compromised, witnesses may have dispersed, and the window for effective forensic collection may have closed.
@@ -127,6 +130,9 @@ The NPA is the gateway between investigation and trial, and a substantial propor
 ## Stage Five: The Court System — Justice Delayed Indefinitely
 
 For the cases that survive the investigation and prosecution filters — already a small fraction of the cases that entered the pipeline — the court system presents its own set of attrition points.
+
+
+![By the time cases reach a courtroom, years of delay have eroded evidence, witnesses, and public faith | Photo by Thanh Ly on Unsplash](/images/articles/ss-2-1-the-broken-pipeline/img-3.webp)
 
 The first is the bail hearing. Within 48 hours of arrest (as required by Section 35 of the Constitution), the accused must appear before a magistrate for a bail decision. The bail system is supposed to balance the accused person's right to freedom (they have not been convicted of anything) against the risk of flight, the risk of interfering with the investigation, and the seriousness of the offence. In practice, as [Justice Delayed, Rights Denied](/articles/ss-2-3-justice-delayed-rights-denied) will examine in detail, the bail system produces outcomes that are shaped more by the accused person's ability to afford bail than by a rational assessment of risk. Poor accused persons who cannot afford even modest bail amounts are detained in remand, while those with resources secure release.
 

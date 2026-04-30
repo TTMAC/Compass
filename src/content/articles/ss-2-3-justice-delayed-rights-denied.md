@@ -60,6 +60,9 @@ South Africa's remand detention population of approximately 50,000 people repres
 
 To understand why so many people are in remand detention, you need to understand the bail system — because bail is the mechanism that determines whether an accused person waits for trial in the community or in a correctional facility. In theory, bail is supposed to balance the accused person's right to freedom against the risk that they will flee, interfere with the investigation, or pose a danger to the public. In practice, the bail system operates with a structural bias toward detention — a bias that falls disproportionately on the poor.
 
+
+![The bail system filters by ability to pay before it filters by flight risk or danger to the community | Photo by Matthew Jackson on Unsplash](/images/articles/ss-2-3-justice-delayed-rights-denied/img-1.webp)
+
 The Criminal Procedure Act of 1977 (as amended) establishes the framework for bail decisions. For most offences, the accused has the right to apply for bail, and the state bears the onus of showing that release would be against the interests of justice. But for offences listed in Schedule 5 of the Act — which include serious violent offences — the onus is shifted: the accused must show that the interests of justice permit their release. For offences listed in Schedule 6 — which include murder, rape, and certain robberies — the onus is shifted even further: the accused must demonstrate that "exceptional circumstances" justify release. This reversed onus, intended to address public concern about serious crime, means that for the most serious offence categories, the system's default position is detention.
 
 The bail amount itself is a second filter that discriminates by wealth. A magistrate who sets bail at R3,000 for a shoplifting case may consider this a modest amount — and for a middle-class accused person, it is. But for an unemployed person from an informal settlement, R3,000 is an impossibility. The accused person cannot pay, remains in remand detention, and joins the 50,000. The offence for which they were arrested may ultimately result in a suspended sentence or a fine — but they will have spent months in a correctional facility before reaching that outcome. In effect, they serve a harsher punishment awaiting trial than they would have received upon conviction.
@@ -90,6 +93,9 @@ The Judicial Inspectorate for Correctional Services (JICS), the independent body
 
 The remand detention crisis is perpetuated by the same court delays documented in [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) — but from the perspective of the person trapped inside the system, those delays take on a different and more devastating character.
 
+
+![Postponements stack on postponements as the same case returns to the same court for another delay | Photo by Tingey Injury Law Firm on Unsplash](/images/articles/ss-2-3-justice-delayed-rights-denied/img-2.webp)
+
 Every postponement of a remand detainee's case means additional weeks or months in detention. Every missing witness, every unavailable interpreter, every incomplete investigation, every overloaded court roll translates directly into continued incarceration of a legally innocent person. The postponement culture that defines South Africa's lower courts — cases routinely postponed five, ten, fifteen times before reaching trial — is not merely an administrative inefficiency when viewed from the remand detainee's perspective. It is a progressive violation of constitutional rights, compounding with each additional court date that produces no progress.
 
 The causes of delay mirror the pipeline failures: SAPS investigations that remain incomplete months or years after arrest, because the detective is carrying 150 other cases; forensic results that have not been returned from backlogged laboratories; NPA prosecutors who are not ready to proceed because they received an inadequate docket; defence attorneys from Legal Aid South Africa who are themselves carrying enormous caseloads and cannot prepare for trial in the available time; and court infrastructure that simply does not have enough courtrooms, magistrates, or support staff to process the volume of cases before it.
@@ -103,6 +109,9 @@ The remand detention crisis is perpetuated by the same court delays that the pip
 ## The Constitutional Rights That Exist on Paper
 
 The Constitution provides a comprehensive set of rights for arrested, detained, and accused persons in Section 35. These rights were drafted with the apartheid experience in mind — the detention without trial, the torture in custody, the denial of legal representation that characterised the apartheid security state. They represent the constitutional framers' determination that the new democracy would treat detained persons with dignity and provide them with meaningful protections. Understanding these rights is essential because the remand detention crisis is, at its core, a systematic violation of constitutional guarantees.
+
+
+![Section 35 rights to a speedy trial exist on paper while remand populations grow year on year | Photo by Ed Stone on Unsplash](/images/articles/ss-2-3-justice-delayed-rights-denied/img-3.webp)
 
 Section 35(1) provides rights for arrested persons: the right to remain silent, to be informed of the right to remain silent and of the consequences of not remaining silent, to not be compelled to make a confession, to be brought before a court as soon as reasonably possible (but not later than 48 hours after the arrest), and to be released if the interests of justice permit (subject to reasonable conditions).
 

@@ -53,6 +53,9 @@ This article takes you through three eras: the colonial origins of policing in s
 
 The history of policing in South Africa does not begin with apartheid. It begins with colonialism, and understanding the colonial model is essential because it established the foundational logic that apartheid later perfected.
 
+
+![Colonial-era policing was instrumented around extraction and pass laws, not the safety of the policed | Photo by Annie Spratt on Unsplash](/images/articles/ss-1-1-order-through-oppression/img-1.webp)
+
 When the British established formal police forces in the Cape Colony in the mid-nineteenth century, they did not import the model that Sir Robert Peel had created for London's Metropolitan Police in 1829. The Peelian model — often summarised as "policing by consent" — was built on the principle that the police are civilians in uniform, that their authority derives from public cooperation, and that their primary function is crime prevention through visible presence and community trust. It was, at least in theory, designed for a population that the police served.
 
 *Colonial policing* operated on an entirely different logic. Police forces in the Cape Colony, Natal, the Transvaal Republic, and the Orange Free State were **paramilitary organisations designed primarily to control indigenous populations and protect settler economic interests**. The Cape Mounted Riflemen, established in 1806, were a military unit repurposed for frontier policing — their job was to patrol the boundary between colonial settlement and indigenous territory, suppress resistance, and enforce the labour arrangements that the colonial economy depended on. When the Natal Mounted Police were established in 1874, their primary function was controlling the Zulu population in the aftermath of colonial expansion. The Zuid-Afrikaansche Republiek Politie in the Transvaal, established in 1881, existed to maintain order on the goldfields and ensure that the mining industry had access to a controlled, compliant labour force.
@@ -70,6 +73,9 @@ After the South Africa Act of 1909 unified the four colonies into the Union of S
 ## Apartheid's Perfection of the Control Model
 
 When the National Party came to power in 1948 and began implementing its apartheid programme, it did not need to build a repressive police force from scratch. It inherited one. What apartheid did was systematise, expand, and weaponise the colonial policing model into a comprehensive apparatus of racial control that touched every aspect of black South Africans' daily lives.
+
+
+![Apartheid refined the inherited control model into a paramilitary instrument of racial governance | Photo by Salah Ait Mokhtar on Unsplash](/images/articles/ss-1-1-order-through-oppression/img-2.webp)
 
 The pass laws were the most pervasive interface between black South Africans and the police. Under the Native Laws Amendment Act of 1952 and the subsequent Abolition of Passes and Co-ordination of Documents Act (which, despite its name, replaced multiple passes with a single, mandatory reference book), every black South African over the age of sixteen was required to carry a passbook — the dompas — at all times. The passbook contained the bearer's photograph, employment history, tax payments, and permission to be in a particular area. Failure to produce a valid passbook on demand was a criminal offence, and the SAP enforced this requirement relentlessly.
 
@@ -102,6 +108,9 @@ The homeland forces also compounded the skills deficit that the democratic gover
 ## The 1994 Transition: Democracy's Impossible Inheritance
 
 The negotiated transition to democracy required merging all twelve police forces — the SAP, the four TBVC homeland forces, the six self-governing territory forces, and elements of the liberation movement's self-defence units — into a single South African Police Service. This was one of the most ambitious institutional integration projects in modern democratic transitions, and it was undertaken under extraordinary pressure. Crime was surging. Communities that had been subject to decades of police repression now expected the same police service to protect them. The international community was watching. And the political negotiations that produced the new Constitution required compromises on policing structure that would shape the institution for decades.
+
+
+![The 1994 democratic state inherited a single police service welded together from eleven incompatible forces | Photo by katsuma tanaka on Unsplash](/images/articles/ss-1-1-order-through-oppression/img-3.webp)
 
 The most consequential structural decision was to keep policing as a primarily national function. The Constitution lists "police services" in Schedule 4 Part A as a concurrent competency between national and provincial government, and Section 206 gives provincial executives some oversight role through provincial secretariats and community police forums. But in practice, the 1995 South African Police Service Act established SAPS as a single, national police service under a National Commissioner appointed by the President, with provincial commissioners who reported upward to national headquarters rather than outward to provincial governments.
 

@@ -82,6 +82,9 @@ This means that if you are a farmer in the Limpopo river valley whose cattle are
 
 If rural policing is characterised by the absence of the state, township and informal settlement policing is characterised by the presence of a state that communities do not trust. The apartheid inheritance documented in [Order Through Oppression](/articles/ss-1-1-order-through-oppression) — decades of adversarial policing in which the SAP operated as an occupying force in black communities — created a relationship between police and communities that has proven extraordinarily resistant to change.
 
+
+![Townships and informal settlements inherited a policing footprint built for surveillance, not service | Photo by Alfred Quartey on Unsplash](/images/articles/ss-2-2-policing-a-divided-country/img-2.webp)
+
 Townships and informal settlements have crime profiles that are distinct from both suburban and rural environments. Crime is hyperlocal — it occurs within communities where perpetrators and victims often know each other, where crime is concentrated in specific micro-locations (shebeens, taxi ranks, open spaces between shack dwellings), and where the dynamics of crime are shaped by conditions that are themselves products of apartheid spatial planning: dense, poorly serviced communities with limited economic opportunity, inadequate infrastructure, and high levels of alcohol and substance abuse.
 
 Policing these environments effectively requires a model that is fundamentally different from the suburban patrol model or the rural response model. It requires beat policing — officers on foot who know the community, who build relationships, who gather intelligence through cooperation rather than coercion, and who can identify and address crime patterns before they escalate. It requires community trust — the willingness of residents to report crimes, identify perpetrators, and cooperate with investigations. And it requires legitimacy — the perception that the police are part of the community rather than an external force imposed upon it.
@@ -97,6 +100,9 @@ The Institute for Security Studies (ISS) has published extensive research on pol
 ## The Parallel System: Private Security
 
 The most visible manifestation of policing inequality in South Africa is not a government policy or a statistical disparity. It is the physical infrastructure of private security that defines the landscape of middle-class and affluent South Africa: the boom gates across suburban streets, the armed response signs on every second house, the security guards at every shopping centre, the private patrol vehicles that outnumber SAPS vehicles in many neighbourhoods.
+
+
+![Behind suburban walls, a parallel security system fills the gap that public policing leaves | Photo by Brian Wangenheim on Unsplash](/images/articles/ss-2-2-policing-a-divided-country/img-3.webp)
 
 **South Africa's private security industry is the largest in the world relative to population, per PSIRA annual reporting and comparative analyses by the Institute for Security Studies.** More than 2.7 million people are registered with the Private Security Industry Regulatory Authority (PSIRA) — roughly three times the number of SAPS officers. **The industry generates over R70 billion in annual revenue.** It employs more people than the mining industry, the agricultural sector, and several other major industries. By any measure, private security is one of South Africa's largest economic sectors — and its existence is predicated on the failure of the state to provide public safety.
 
