@@ -1090,6 +1090,336 @@ const ARTICLE_CONFIG = {
       },
     ],
   },
+  // ss-1-1: Colonial and apartheid policing built a system designed for control, not safety — and 1994 inherited that design.
+  "ss-1-1-order-through-oppression": {
+    queries: [
+      "vintage colonial archive photograph",
+      "old police badge uniform vintage",
+      "south africa parliament building cape town",
+    ],
+    placements: [
+      {
+        afterH2: "Colonial Policing: Built to Extract, Not to Protect",
+        caption: "Colonial-era policing was instrumented around extraction and pass laws, not the safety of the policed",
+      },
+      {
+        afterH2: "Apartheid's Perfection of the Control Model",
+        caption: "Apartheid refined the inherited control model into a paramilitary instrument of racial governance",
+      },
+      {
+        afterH2: "The 1994 Transition: Democracy's Impossible Inheritance",
+        caption: "The 1994 democratic state inherited a single police service welded together from eleven incompatible forces",
+      },
+    ],
+  },
+  // ss-1-2: The post-1994 system was first overwhelmed by a crime explosion, then deliberately hollowed out by state capture.
+  "ss-1-2-from-rainbow-nation-to-state-capture": {
+    queries: [
+      "newspaper headlines stack archive",
+      "detective investigation files folders",
+      "parliament chamber empty hall",
+    ],
+    placements: [
+      {
+        afterH2: "Act One: The Crime Explosion (1994–2004)",
+        caption: "The first decade of democracy was defined by a crime wave the new system was structurally unprepared to absorb",
+      },
+      {
+        afterH2: "Act Two: The Mbeki Era and the Scorpions (1999–2008)",
+        caption: "Specialist investigation units briefly closed the gap between crime and consequence before being dismantled",
+      },
+      {
+        afterH2: "Act Three: State Capture and the Deliberate Hollowing Out (2009–2018)",
+        caption: "State capture turned the criminal justice system from understaffed to deliberately disabled",
+      },
+    ],
+  },
+  // ss-2-1: A data-driven walk through the criminal justice pipeline showing where cases are lost stage by stage.
+  "ss-2-1-the-broken-pipeline": {
+    queries: [
+      "police station reception desk",
+      "evidence box files shelves",
+      "empty courtroom interior bench",
+    ],
+    placements: [
+      {
+        afterH2: "Stage Two: Case Registration — The Station-Level Filter",
+        caption: "Most cases that survive reporting are filtered out at the station counter before a docket is opened",
+      },
+      {
+        afterH2: "Stage Three: Investigation — Where Most Cases Go to Die",
+        caption: "Investigation is the stage where the largest share of opened cases quietly stalls and is closed",
+      },
+      {
+        afterH2: "Stage Five: The Court System — Justice Delayed Indefinitely",
+        caption: "By the time cases reach a courtroom, years of delay have eroded evidence, witnesses, and public faith",
+      },
+    ],
+  },
+  // ss-2-2: Policing resources are distributed unequally across geography — your safety depends on your postcode.
+  "ss-2-2-policing-a-divided-country": {
+    queries: [
+      "south africa township aerial view",
+      "rural dirt road landscape africa",
+      "suburban gated community wall",
+    ],
+    placements: [
+      {
+        afterH2: "Rural Policing: The Near-Absence of the State",
+        caption: "Rural beats stretch across distances that make a police response time of hours the structural norm",
+      },
+      {
+        afterH2: "Township and Informal Settlement Policing: The Apartheid Inheritance on the Ground",
+        caption: "Townships and informal settlements inherited a policing footprint built for surveillance, not service",
+      },
+      {
+        afterH2: "The Parallel System: Private Security",
+        caption: "Behind suburban walls, a parallel security system fills the gap that public policing leaves",
+      },
+    ],
+  },
+  // ss-2-3: Fifty thousand people sit in remand detention without conviction — a constitutional emergency hidden in plain sight.
+  "ss-2-3-justice-delayed-rights-denied": {
+    queries: [
+      "courthouse columns exterior building",
+      "judge gavel wooden bench",
+      "prison corridor empty institutional",
+    ],
+    placements: [
+      {
+        afterH2: "How People End Up in Remand: The Bail System's Structural Bias",
+        caption: "The bail system filters by ability to pay before it filters by flight risk or danger to the community",
+      },
+      {
+        afterH2: "The Court Delays That Perpetuate the Crisis",
+        caption: "Postponements stack on postponements as the same case returns to the same court for another delay",
+      },
+      {
+        afterH2: "The Constitutional Rights That Exist on Paper",
+        caption: "Section 35 rights to a speedy trial exist on paper while remand populations grow year on year",
+      },
+    ],
+  },
+  // ss-2-4: The criminal justice system fails GBV survivors at every stage — but Thuthuzela Care Centres show what works.
+  "ss-2-4-the-systems-most-catastrophic-failure": {
+    queries: [
+      "support centre office building exterior",
+      "case file folders desk paperwork",
+      "medical clinic reception waiting area",
+    ],
+    placements: [
+      {
+        afterH2: "Stage One: The Police Station — Where Survivors Are Failed First",
+        caption: "The first contact between survivor and state happens at a counter that decides whether a case begins at all",
+      },
+      {
+        afterH2: "Stage Two: Investigation — Where Dockets Disappear",
+        caption: "GBV dockets are lost at higher rates than any other case category, often before any suspect is identified",
+      },
+      {
+        afterH2: "The Thuthuzela Care Centres: An Island of Good Practice",
+        caption: "Thuthuzela centres co-locate medical care, evidence collection and counselling in one survivor-centred site",
+      },
+    ],
+  },
+  // ss-2-5: The private security industry outnumbers SAPS — a symptom of state failure that turns safety into a commodity.
+  "ss-2-5-the-private-security-paradox": {
+    queries: [
+      "security guard uniform back view",
+      "armed response vehicle estate gate",
+      "cctv camera mounted wall",
+    ],
+    placements: [
+      {
+        afterH2: "The Scale: An Industry Larger Than the Police",
+        caption: "South Africa's private security workforce now exceeds the South African Police Service by a wide margin",
+      },
+      {
+        afterH2: "The Inequality Dimension: Safety as a Commodity",
+        caption: "When safety is bought rather than provided, the line between protected and unprotected tracks the income line",
+      },
+      {
+        afterH2: "The Accountability Gap: When Private Security Operates as Quasi-Police",
+        caption: "Private operators carry out functions that look like policing without the oversight that policing requires",
+      },
+    ],
+  },
+  // ss-3-1: South Africa could rebuild policing on a constitutional three-tier model — national, provincial, and metro.
+  "ss-3-1-three-tier-policing-architecture": {
+    queries: [
+      "fbi style police badge insignia",
+      "gendarmerie patrol vehicle europe",
+      "city police uniform metro officer",
+    ],
+    placements: [
+      {
+        afterH2: "Tier 1 — National: The FBI Model",
+        caption: "A narrowed national agency would specialise in serious, organised, and cross-jurisdictional crime",
+      },
+      {
+        afterH2: "Tier 2 — Provincial: The Gendarmerie Model",
+        caption: "A provincial tier modelled on European gendarmeries would carry general policing across each province",
+      },
+      {
+        afterH2: "Tier 3 — Municipal: Elevated Metro and Community Police",
+        caption: "Empowered metro and community policing would put the closest tier closest to the streets it serves",
+      },
+    ],
+  },
+  // ss-3-2: An investigating magistrate model could break the SAPS-NPA deadlock that collapses complex cases.
+  "ss-3-2-independent-investigating-magistracy": {
+    queries: [
+      "judicial robes courtroom bench",
+      "law books legal library shelves",
+      "magnifying glass document evidence",
+    ],
+    placements: [
+      {
+        afterH2: "The French Model: What an Investigating Magistrate Actually Does",
+        caption: "A judicial officer leads the investigation itself, bridging the gap between police work and prosecution",
+      },
+      {
+        afterH2: "Comparative Models Beyond France",
+        caption: "Italy, Spain, and the Netherlands each adapt the investigating-magistrate model to their own constitutional fit",
+      },
+      {
+        afterH2: "Adapting the Model for South Africa: Judicial Investigation Officers",
+        caption: "A South African adaptation would graft judicial investigation officers onto the existing magistracy",
+      },
+    ],
+  },
+  // ss-3-3: Community courts at municipal level could decongest magistrates' courts and incorporate restorative justice.
+  "ss-3-3-community-courts-and-restorative-justice": {
+    queries: [
+      "community hall meeting circle chairs",
+      "small town municipal building exterior",
+      "people in conversation table outdoor",
+    ],
+    placements: [
+      {
+        afterH2: "The Case-Flow Triage System",
+        caption: "A triage system routes minor matters to community courts and reserves magistrates for cases that need them",
+      },
+      {
+        afterH2: "The Community Court Model",
+        caption: "Community courts sit at municipal level and resolve low-stakes matters through locally accountable processes",
+      },
+      {
+        afterH2: "Restorative Justice: What It Is and How It Works",
+        caption: "Restorative processes bring victim, offender and community together to repair harm rather than only punish it",
+      },
+    ],
+  },
+  // ss-3-4: A sentencing commission with structured guidelines could replace blunt minimum sentences with a constitutional framework.
+  "ss-3-4-sentencing-commission-and-structured-guidelines": {
+    queries: [
+      "scales of justice statue close",
+      "law book gavel desk study",
+      "data analytics dashboard charts screen",
+    ],
+    placements: [
+      {
+        afterH2: "The Current Framework: Act 105 and Its Problems",
+        caption: "Minimum sentences applied uniformly produce results that are simultaneously too rigid and too arbitrary",
+      },
+      {
+        afterH2: "The Proposed Reform: A South African Sentencing Commission",
+        caption: "A standing commission would issue structured guidelines that judges apply with reasoned departures",
+      },
+      {
+        afterH2: "Real-Time Sentencing Analytics",
+        caption: "Live sentencing data would let the commission see disparities as they emerge, not years after the fact",
+      },
+    ],
+  },
+  // ss-3-5: A corrections system that warehouses guarantees a 40 per cent recidivism cycle — rehabilitation is a constitutional mandate.
+  "ss-3-5-rehabilitation-as-constitutional-mandate": {
+    queries: [
+      "vocational training workshop tools",
+      "library books learning education",
+      "open keys lock release symbolic",
+    ],
+    placements: [
+      {
+        afterH2: "The Constitutional Foundation for Rehabilitation",
+        caption: "Section 35 frames imprisonment as a deprivation of liberty, not a withdrawal of the right to grow",
+      },
+      {
+        afterH2: "Comparative Lessons: What Low-Recidivism Systems Do Differently",
+        caption: "Norway, Germany and the Netherlands invest in skills, education and structured re-entry rather than warehousing",
+      },
+      {
+        afterH2: "What a Rehabilitation-Centred System Would Require",
+        caption: "A rehabilitation-centred system pairs work, study and counselling with structured release into stable housing",
+      },
+    ],
+  },
+  // ss-4-1: South Africa has enough plans — what's missing is sequencing. Some reforms are prerequisites for others.
+  "ss-4-1-sequencing-reform": {
+    queries: [
+      "project roadmap timeline planning",
+      "construction scaffolding building phase",
+      "south africa constitution document cover",
+    ],
+    placements: [
+      {
+        afterH2: "Phase 1: Investigation and Prosecution Reform (Years 1–3)",
+        caption: "The first phase rebuilds the upstream stages where most cases are currently lost",
+      },
+      {
+        afterH2: "Phase 2: Court Reform and Policing Restructuring (Years 3–5)",
+        caption: "The second phase reorganises courts and policing once the upstream pipeline is producing usable cases",
+      },
+      {
+        afterH2: "The Legislative Agenda",
+        caption: "Each phase has a matching set of bills that need to clear Parliament for the reform to take effect",
+      },
+    ],
+  },
+  // ss-4-2: The fiscal case for reform — the cost of impunity, recidivism, and lost investment exceeds the cost of fixing it.
+  "ss-4-2-funding-the-delta": {
+    queries: [
+      "south african rand banknotes stack",
+      "calculator spreadsheet budget desk",
+      "treasury building government finance",
+    ],
+    placements: [
+      {
+        afterH2: "The Current Cost Baseline",
+        caption: "The current criminal justice budget already runs into tens of billions of rands a year",
+      },
+      {
+        afterH2: "The Cost of the Status Quo",
+        caption: "The hidden costs of impunity, recidivism, and lost investment outweigh the visible budget line",
+      },
+      {
+        afterH2: "The Fiscal Pathway: Where Would the Money Come From?",
+        caption: "Reform funding draws from reallocation, efficiency, and the fiscal returns that lower crime delivers",
+      },
+    ],
+  },
+  // ss-4-3: Crime statistics tell you almost nothing about justice — a 13-outcome scorecard would.
+  "ss-4-3-measuring-progress": {
+    queries: [
+      "dashboard metrics charts monitor",
+      "checklist clipboard pen office",
+      "citizen voting ballot box",
+    ],
+    placements: [
+      {
+        afterH2: "The 13-Outcome Scorecard",
+        caption: "Thirteen outcomes — covering reporting, conviction, attrition, remand, and trust — define what justice actually delivers",
+      },
+      {
+        afterH2: "The Digital Infrastructure",
+        caption: "A live data spine would let the scorecard update in something close to real time rather than annually",
+      },
+      {
+        afterH2: "The Citizen's Scorecard",
+        caption: "Citizens need a version of the scorecard they can read at a glance and use to hold representatives to account",
+      },
+    ],
+  },
 };
 
 /**
