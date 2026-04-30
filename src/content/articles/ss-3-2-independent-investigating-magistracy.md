@@ -74,6 +74,9 @@ The lesson from all three attempts is the same: *structural reform that depends 
 
 The French Juge d'Instruction — the investigating magistrate or examining magistrate — is a judicial officer embedded in the investigation process. The role has existed in French law since the Napoleonic Code of 1808 and, despite periodic debates about reform, remains a central feature of the French criminal justice system for serious and complex cases.
 
+
+![A judicial officer leads the investigation itself, bridging the gap between police work and prosecution | Photo by Thanh Ly on Unsplash](/images/articles/ss-3-2-independent-investigating-magistracy/img-1.webp)
+
 Here is how it works in practice. When a serious or complex crime occurs in France — a murder, a major fraud, an organised crime case, a terrorism matter — the public prosecutor can refer the case to a Juge d'Instruction. Once the referral is made, the investigating magistrate takes control of the case. The magistrate has comprehensive powers: they can direct police investigators (ordering them to pursue specific leads, interview specific witnesses, conduct specific searches), issue search warrants and arrest warrants, question witnesses and suspects under oath (in a formal proceeding called a mise en examen), order expert testimony and forensic analysis, and access financial records, telephone records, and other documentation through judicial orders. When the investigation is complete, the magistrate compiles a comprehensive case dossier — the ordonnance — that contains all evidence gathered during the investigation. This dossier is then handed to the prosecution and defence for trial.
 
 *The critical feature of the model is independence.* The Juge d'Instruction is a member of the judiciary, not the police or the prosecution. They operate independently of both, subject only to judicial oversight (appeal to the Chambre de l'Instruction, an appellate investigation chamber). This independence means that the investigating magistrate has no institutional incentive to close cases prematurely (as an overloaded detective might), no incentive to avoid politically sensitive cases (as a police commander under political pressure might), and no incentive to accept inadequate investigation quality (as a prosecutor under caseload pressure might). **The magistrate's sole professional obligation is to establish the truth — to conduct a thorough, impartial investigation and compile a docket that is ready for trial.**
@@ -83,6 +86,9 @@ The French model is not without critics. There has been debate within France abo
 ## Comparative Models Beyond France
 
 The French *Juge d'Instruction* is the most widely discussed model of judicial investigation, but it is not the only one. Several other jurisdictions offer variations worth examining, because each illustrates different design choices that a South African model could draw on.
+
+
+![Italy, Spain, and the Netherlands each adapt the investigating-magistrate model to their own constitutional fit | Photo by Ilya Semenov on Unsplash](/images/articles/ss-3-2-independent-investigating-magistracy/img-2.webp)
 
 **Italy: The *Giudice per le Indagini Preliminari*.** Italy reformed its investigating magistrate system in 1989. The current model distinguishes between the prosecutor (*pubblico ministero*), who directs the investigation, and the investigating judge (*giudice per le indagini preliminari*), who supervises preliminary proceedings and safeguards the rights of suspects. The Italian approach places direction of the investigation with the prosecution but inserts a judicial officer to provide oversight at the preliminary stage. The trade-off is less judicial direction of the investigation itself, offset by stronger judicial protection of procedural rights. The Italian experience is instructive because it shows that judicial involvement in investigation can take more than one form.
 
@@ -97,6 +103,9 @@ The French *Juge d'Instruction* is the most widely discussed model of judicial i
 ## Adapting the Model for South Africa: Judicial Investigation Officers
 
 The proposal for South Africa is not to transplant the French model unchanged, but to adapt its structural logic to South African conditions. The adapted model creates a new institutional role: Judicial Investigation Officers (JIOs) — magistrate-level officers with both investigative and preliminary judicial powers.
+
+
+![A South African adaptation would graft judicial investigation officers onto the existing magistracy | Photo by Harshit Suryawanshi on Unsplash](/images/articles/ss-3-2-independent-investigating-magistracy/img-3.webp)
 
 JIOs would be appointed through the judiciary (not through SAPS or the NPA), would be legally trained (holding at minimum an LLB or equivalent qualification), and would be subject to judicial oversight and the same independence protections that apply to magistrates. They would not replace SAPS detectives or NPA prosecutors — they would bridge the gap between them.
 

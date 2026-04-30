@@ -48,6 +48,9 @@ The structural reform proposed in this article is not radical. It is what the Co
 
 The first tier is a radically narrowed national agency. Today's SAPS tries to do everything — from investigating transnational organised crime syndicates to responding to domestic disputes in Soweto. This generalist mandate is the root of its failure. A national police service should do only what only a national police service can do.
 
+
+![A narrowed national agency would specialise in serious, organised, and cross-jurisdictional crime | Photo by David Trinks on Unsplash](/images/articles/ss-3-1-three-tier-policing-architecture/img-1.webp)
+
 Under the proposed architecture, the national SAPS would be restructured into a focused agency with five core mandates: a Serious and Organised Crime Bureau handling syndicates, gang networks, and trafficking operations that cross provincial boundaries; a National Counter-Corruption Police investigating police-on-police corruption and state capture; a Cyber Crime and Financial Crime Unit addressing digital fraud, money laundering, and complex financial crime; a Border and Ports Authority Police (merged with Home Affairs enforcement) securing the country's borders and ports of entry; and a National Rapid Response capability for cross-provincial deployment during crises.
 
 *The critical lesson from the United States is this: specialist federal agencies with narrow mandates are harder to capture politically than massive generalist bureaucracies.* The FBI, the DEA, the US Marshals Service, and the Secret Service each have defined jurisdictions and specialised capabilities. No single political appointee controls all federal law enforcement. The narrowness of each agency's mandate creates institutional focus, and the multiplicity of agencies creates redundancy — if one agency is compromised, others continue to function. SAPS today is the opposite: one enormous bureaucracy controlled by one commissioner under one minister, with no redundancy and no specialisation. **When the top is captured — as the state capture era demonstrated — the entire system is captured.**
@@ -61,6 +64,9 @@ The first tier of the proposed architecture is a radically narrowed national SAP
 ## Tier 2 — Provincial: The Gendarmerie Model
 
 The second tier — and the most important missing element in South Africa's current architecture — is provincial policing. As [Policing a Divided Country](/articles/ss-2-2-policing-a-divided-country) documented, rural and peri-urban South Africa is catastrophically underpoliced. Police stations cover vast areas with insufficient personnel, no vehicles, and no detective capacity. The structural cause is that provincial governments — the sphere of government closest to rural communities — have no policing authority. They cannot hire officers, deploy them, set priorities, or allocate resources. All of those decisions are made nationally.
+
+
+![A provincial tier modelled on European gendarmeries would carry general policing across each province | Photo by Valentin Lacoste on Unsplash](/images/articles/ss-3-1-three-tier-policing-architecture/img-2.webp)
 
 The proposed reform creates nine Provincial Police Services (PPS), each with operational independence from national SAPS, budgets allocated through provincial legislatures, accountability to the provincial premier and legislature, jurisdiction over everything outside metropolitan boundaries (townships, farms, small towns, rural areas), and dedicated Rural Crimes Units in every province addressing farm attacks, stock theft, illegal mining, and poaching.
 
@@ -77,6 +83,9 @@ The African Policing Civilian Oversight Forum (APCOF) has conducted comparative 
 ## Tier 3 — Municipal: Elevated Metro and Community Police
 
 The third tier addresses the policing gap at the most local level. South Africa's metropolitan municipalities — Johannesburg, Cape Town, eThekwini, Tshwane, Ekurhuleni, Nelson Mandela Bay, Mangaung, and Buffalo City — already have municipal police services. But **these metro police forces are restricted to traffic enforcement, bylaw enforcement, and crime prevention — they do not have criminal investigation powers.** A car thief caught by Johannesburg Metro Police must be handed over to SAPS for investigation and prosecution. This jurisdictional limitation means that metro police cannot follow through on the crimes they encounter, and the handoff to SAPS introduces exactly the kind of institutional disconnect that causes cases to fall out of the pipeline.
+
+
+![Empowered metro and community policing would put the closest tier closest to the streets it serves | Photo by Vagamood Sundaze on Unsplash](/images/articles/ss-3-1-three-tier-policing-architecture/img-3.webp)
 
 Under the proposed architecture, metropolitan police services would receive full criminal investigation powers — their own detective branches, their own intelligence units, their own forensic access. The eight metros would operate with near-autonomy on criminal matters within their boundaries, accountable to their mayors and city councils. This is not a novel concept — it is the standard model in virtually every major city in the developed world. New York, London, Paris, Tokyo, and Berlin all have city-level police forces with full criminal jurisdiction. South Africa's metros are among the largest cities on the African continent, with populations, GDP contributions, and crime volumes that justify dedicated, locally accountable police services.
 

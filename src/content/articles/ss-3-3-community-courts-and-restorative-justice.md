@@ -60,6 +60,9 @@ The constitutional case is not ancillary to the policy case — it is the policy
 
 Before examining community courts in detail, you need to understand how they fit into the broader case-flow architecture. The current system processes all criminal matters through essentially the same pipeline. The reform proposes a triage system — borrowed from hospital emergency department logic — in which every criminal matter entering the system is classified within 72 hours of arrest.
 
+
+![A triage system routes minor matters to community courts and reserves magistrates for cases that need them | Photo by Jacob McGowin on Unsplash](/images/articles/ss-3-3-community-courts-and-restorative-justice/img-1.webp)
+
 The triage sorts cases into four tracks. Track A covers summary offences and cases suitable for diversion — these flow to community courts for rapid resolution. Track B covers standard criminal matters requiring formal prosecution — these proceed through magistrates' courts as currently. Track C covers complex and serious matters — these proceed through provincial High Courts with Judicial Investigation Officers directing the investigation, as proposed in [An Independent Investigating Magistracy](/articles/ss-3-2-independent-investigating-magistracy). Track D covers national priority matters (organised crime, terrorism, major corruption) — these go to specialised national courts.
 
 **Each track has defined time limits. Track A matters must be resolved within 90 days. Track B within 18 months. Track C within 24 months. Track D within 30 months.** If a case exceeds its track's time limit, charges are provisionally stayed pending review — constitutionalising the right to a speedy trial in a practical, enforceable way.
@@ -73,6 +76,9 @@ The case-flow triage system classifies every criminal matter within 72 hours int
 ## The Community Court Model
 
 Municipal Community Justice Courts would be established under an amended Magistrates' Courts Act, empowered to handle summary offences with sentences up to two years. They would operate within the municipal governance framework — located in municipal buildings, funded partly through municipal budgets (supplemented by national conditional grants), and accountable to the local community through the same democratic structures that govern other municipal functions.
+
+
+![Community courts sit at municipal level and resolve low-stakes matters through locally accountable processes | Photo by Acton Crawford on Unsplash](/images/articles/ss-3-3-community-courts-and-restorative-justice/img-2.webp)
 
 The courts would be presided over by Community Justice Officers (CJOs) — a new para-legal profession requiring a minimum of a three-year legal diploma (not a full LLB), specialised training in community justice, restorative justice facilitation, and dispute resolution. CJOs would be legally trained but not full magistrates — they would handle a defined category of summary offences and would refer matters that exceed their jurisdiction to the magistrates' court. The CJO training programme would draw on South Africa's existing para-legal training infrastructure, expanded to include the specific competencies required for community adjudication.
 
@@ -107,6 +113,9 @@ Professor Ann Skelton — South African academic, member of the UN Committee on 
 ## Restorative Justice: What It Is and How It Works
 
 Restorative justice is a framework for responding to crime that focuses on repairing the harm caused rather than simply punishing the offender. In a restorative justice process, the victim, the offender, and affected community members come together — facilitated by a trained mediator — to discuss the impact of the offence, hear the offender's acceptance of responsibility, and agree on actions that the offender will take to repair the harm.
+
+
+![Restorative processes bring victim, offender and community together to repair harm rather than only punish it | Photo by Johan Mouchet on Unsplash](/images/articles/ss-3-3-community-courts-and-restorative-justice/img-3.webp)
 
 *Restorative justice is not a soft option.* When done properly, **it is harder on the offender than the conventional system**, because it requires them to face the person they harmed, hear the impact of their actions, and commit to meaningful reparation. A community service order imposed through a restorative justice process — in which the offender has heard directly from the victim and agreed to specific reparation — carries more moral weight and produces better compliance than a sentence imposed by a magistrate who heard the facts for fifteen minutes.
 
