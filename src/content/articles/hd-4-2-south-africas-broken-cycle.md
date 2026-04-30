@@ -49,6 +49,9 @@ The purpose is not despair. The purpose is diagnosis. You cannot treat a disease
 
 The reinforcing cycle, when it operates in the positive direction, follows a clear logic: safety enables investment, investment generates growth, growth funds human development, human development improves the workforce, a better workforce attracts higher-value economic activity, which generates more revenue, which funds more development. Each link strengthens the next.
 
+
+![Each weakening link pulls the next one down, turning shocks into compounding losses | Photo by lee zhaoming on Unsplash](/images/articles/hd-4-2-south-africas-broken-cycle/img-1.webp)
+
 In South Africa, the cycle runs in reverse. Let us trace it.
 
 **Link One: Inequality generates crime.** South Africa's Gini coefficient of approximately 0.63 makes it the most unequal country in the world by most measures. This is not merely an income statistic. It means that desperately poor communities exist in close proximity to extraordinary wealth, with limited legitimate pathways connecting them. A young man in Khayelitsha can see the wealth of Constantia but has no realistic path to accessing it through education, employment, or entrepreneurship. The relationship between inequality and violent crime is one of the most robust findings in criminology — not poverty alone, but the combination of poverty and visible, proximate wealth creates the conditions for criminal violence.

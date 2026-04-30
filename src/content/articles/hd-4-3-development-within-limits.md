@@ -76,6 +76,9 @@ South Africa's SDI ranking is poor for the same reason its PHDI is poor: high en
 
 To understand why South Africa's development is environmentally inefficient, it is necessary to examine the specific sources of its environmental impact — and to recognise that the most pressing environmental problems are those that directly harm people and ecosystems today.
 
+
+![Coal-heavy electricity and stressed catchments define the environmental ledger development has to balance | Photo by Virtue Solar on Unsplash](/images/articles/hd-4-3-development-within-limits/img-1.webp)
+
 ### Energy, Pollution, and Environmental Health
 
 South Africa's energy system presents multiple environmental challenges, the most immediately harmful of which is air pollution. Eskom's coal-fired power stations, concentrated in the Mpumalanga Highveld, produce sulphur dioxide, nitrogen oxides, particulate matter, and mercury — pollutants that directly damage human health. Research by the Centre for Environmental Rights and the organisation groundWork has documented that air quality in the Mpumalanga Highveld Air Priority Area regularly exceeds national ambient air quality standards. **An estimated 20,000 premature deaths per year in South Africa are attributed to air pollution**, with the burden concentrated in low-income communities near power stations and industrial facilities.

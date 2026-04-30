@@ -52,6 +52,9 @@ The evidence from these four countries delivers a message that is simultaneously
 
 In 1953, the Korean War ended with an armistice that left South Korea devastated. The country's infrastructure was destroyed. Its industrial base was obliterated. **Per-capita income was approximately $67 — lower than most countries in sub-Saharan Africa at the time.** Life expectancy was around 47 years. The adult literacy rate was below 30 per cent. By any measure — GDP, HDI, institutional capacity — South Korea was among the poorest and most damaged countries on earth.
 
+
+![Industrial scale-up combined with universal schooling reshaped a war-flattened economy within a generation | Photo by Adrien Olichon on Unsplash](/images/articles/hd-4-1-when-the-cycle-works/img-1.webp)
+
 The Human Development Index, had it been calculated for South Korea in 1953, would have been approximately 0.30 — placing it below contemporary figures for Chad, the Central African Republic, and South Sudan. Today, South Korea's HDI stands at 0.929, placing it in the "very high human development" category alongside Norway, Switzerland, and Australia. In seven decades, South Korea achieved a transformation in human welfare that has no historical parallel in terms of speed and comprehensiveness.
 
 How did it happen? The answer is not a single policy or a single leader. The answer is a deliberate, sustained, state-directed reinforcing cycle that was built in identifiable stages over approximately four decades.
@@ -146,6 +149,9 @@ This matters for you because the comparison is not flattering. South Africa has 
 
 Rwanda's inclusion in a discussion of development success is inherently controversial, and it should be. The Rwandan model raises questions about the relationship between democratic governance and development outcomes that are uncomfortable for anyone committed to both values simultaneously. But the development outcomes are real and must be examined honestly.
 
+
+![Disciplined public administration and primary health investment rebuilt institutions from the ground up | Photo by wilsan u on Unsplash](/images/articles/hd-4-1-when-the-cycle-works/img-2.webp)
+
 In April 1994, Rwanda experienced one of the most catastrophic events of the twentieth century. **Over approximately 100 days, an estimated 800,000 to one million people were murdered** in a genocide targeting the Tutsi population and moderate Hutus. The state collapsed entirely. Infrastructure was destroyed. The economy contracted by over 50 per cent. The social fabric was shredded. Rwanda's HDI, estimated at approximately 0.28, was among the lowest ever recorded for any country.
 
 Three decades later, Rwanda's HDI stands at approximately 0.53 — still in the "low human development" category, but representing an improvement of nearly 90 per cent from the post-genocide nadir. Life expectancy has risen from approximately 28 years in 1994 to over 66 years. Under-five mortality has fallen by more than 70 per cent. Primary school enrolment is near-universal. GDP per capita has increased more than fivefold. Poverty rates have fallen from approximately 78 per cent to under 40 per cent.
@@ -225,6 +231,9 @@ The result, over five decades, was a transformation from a low-income, ethnicall
 ## The Common Pattern
 
 Stepping back from the specifics of each case, a common pattern emerges. It is not identical across countries — the details vary enormously — but the structural logic is consistent.
+
+
+![Different countries, different sectors, but the institutional sequencing rhymes across every successful case | Photo by Belov Sergey on Unsplash](/images/articles/hd-4-1-when-the-cycle-works/img-3.webp)
 
 ### Principle One: Safety and Stability First
 
