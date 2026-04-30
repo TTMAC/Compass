@@ -68,6 +68,9 @@ South Africa spends approximately R230 billion annually on criminal justice. The
 
 Now consider what the dysfunctional system costs — not in budget allocations, but in economic damage.
 
+
+![The hidden costs of impunity, recidivism, and lost investment outweigh the visible budget line | Photo by Cht Gsml on Unsplash](/images/articles/ss-4-2-funding-the-delta/img-2.webp)
+
 **The Recidivism Tax.** As [Rehabilitation as Constitutional Mandate](/articles/ss-3-5-rehabilitation-as-constitutional-mandate) documented, South Africa's recidivism rate exceeds 40 per cent. Of approximately 100,000 inmates released annually, at least 40,000 will be re-arrested, re-prosecuted, and re-incarcerated. The cost of incarcerating one person for one year is approximately R130,000 to R150,000 (DCS budget divided by inmate population). If the average re-incarceration period is three years, the direct fiscal cost of one recidivism event is approximately R400,000 to R450,000 — before adding the policing cost of re-arrest, the prosecutorial cost of re-trial, the court cost of re-adjudication, and the social cost to the offender's family and community. At 40,000 recidivism events per year, the annual fiscal cost of the recidivism cycle is conservatively R16 billion to R18 billion. This is money the state spends because the corrections system does not rehabilitate — it is the price of warehousing.
 
 Reducing the recidivism rate from 40 per cent to 25 per cent — still higher than international benchmarks of 15 to 20 per cent achieved in Scandinavian countries — would eliminate approximately 15,000 re-incarcerations per year, saving R6 billion to R7 billion annually in direct fiscal costs alone. That saving exceeds the total investment required for comprehensive rehabilitation programming.
@@ -141,6 +144,9 @@ Gareth Newham, head of the Justice and Violence Prevention programme at the Inst
 ## The Fiscal Pathway: Where Would the Money Come From?
 
 Acknowledging the political economy obstacles, and accepting that reform requires R3 billion to R5 billion per year in additional investment over a decade, the practical question remains: where does the money come from in a constrained fiscal environment?
+
+
+![Reform funding draws from reallocation, efficiency, and the fiscal returns that lower crime delivers | Photo by David Vives on Unsplash](/images/articles/ss-4-2-funding-the-delta/img-3.webp)
 
 Four sources.
 

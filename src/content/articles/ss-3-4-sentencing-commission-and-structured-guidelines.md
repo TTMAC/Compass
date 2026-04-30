@@ -48,6 +48,9 @@ A permanent Sentencing Commission with structured guidelines — presumptive sen
 
 The Criminal Law Amendment Act of 1997 was a response to public outrage over perceived sentencing leniency for serious crimes, particularly in the context of the post-apartheid crime explosion documented in [From Rainbow Nation to State Capture](/articles/ss-1-2-from-rainbow-nation-to-state-capture). The Act prescribes minimum sentences for specified offences: **life imprisonment for premeditated murder, rape in specified circumstances**, and other offences listed in Part I of Schedule 2; **fifteen years for first offenders** (escalating with repeat offences) for murder, rape, robbery with aggravating circumstances, and other serious offences listed in Parts II, III, and IV.
 
+
+![Minimum sentences applied uniformly produce results that are simultaneously too rigid and too arbitrary | Photo by Albert Stoynov on Unsplash](/images/articles/ss-3-4-sentencing-commission-and-structured-guidelines/img-1.webp)
+
 The Act allows deviation from the minimum when "substantial and compelling circumstances" exist — a standard that the Constitutional Court has interpreted as permitting judicial discretion, but only when the circumstances of the case are sufficiently exceptional to justify a departure. The Constitutional Court, in *S v Malgas* (2001), confirmed that the minimum sentencing framework is constitutionally valid but emphasised that courts retain discretion to impose lesser sentences when the prescribed minimum would be disproportionate.
 
 The jurisprudence that followed *Malgas* has not resolved the underlying tension. In *S v Dodo* (2001), the Constitutional Court upheld the constitutional validity of the minimum sentencing framework but cautioned that a sentence grossly disproportionate to the offence would violate the right to dignity in Section 10 of the Constitution and the prohibition on cruel, inhuman, or degrading punishment in Section 12. The Supreme Court of Appeal in *S v Vilakazi* (2009) applied this principle to a minimum sentencing case and deviated below the prescribed term, signalling that the "substantial and compelling circumstances" standard should not be interpreted so narrowly that it produces constitutionally offensive outcomes.
@@ -123,6 +126,9 @@ This integration serves two purposes. First, it gives restorative justice proces
 ## Real-Time Sentencing Analytics
 
 One of the most powerful features of the proposed framework is real-time sentencing analytics. The Sentencing Commission would maintain a national sentencing database — recording every sentence imposed, by offence, circumstances, judicial officer, and jurisdiction. This database would power a dashboard accessible to judicial officers, showing what sentences similar cases received nationally.
+
+
+![Live sentencing data would let the commission see disparities as they emerge, not years after the fact | Photo by Luke Chesser on Unsplash](/images/articles/ss-3-4-sentencing-commission-and-structured-guidelines/img-3.webp)
 
 When a magistrate is about to sentence a first-time offender for assault with intent to do grievous bodily harm, the dashboard would show the distribution of sentences for similar cases across the country — the median, the range, the factors associated with higher and lower sentences. The magistrate retains full discretion — the dashboard informs rather than dictates. **But the information makes inconsistency visible. A magistrate who consistently sentences outside the national distribution would be identifiable**, and their deviation would require explanation — not to a political authority, but through the auditable written-reasons requirement.
 

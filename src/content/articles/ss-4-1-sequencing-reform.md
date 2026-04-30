@@ -65,6 +65,9 @@ Reform sequence is determined by three principles: prerequisites (some reforms d
 
 The criminal justice system is a pipeline. Crime enters at one end, and consequences — whether conviction, diversion, or acquittal — emerge at the other. The pipeline's performance is determined by its narrowest point. In South Africa, that narrowest point is the handoff between investigation and prosecution: Outcome 3 (investigation quality) and Outcome 7 (prosecutorial effectiveness).
 
+
+![The first phase rebuilds the upstream stages where most cases are currently lost | Photo by Jo Szczepanska on Unsplash](/images/articles/ss-4-1-sequencing-reform/img-1.webp)
+
 As [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) documented, SAPS detectives are overwhelmed, undertrained, and unsupported. Forensic laboratories have multi-year backlogs. Case dockets arrive at the NPA incomplete, poorly compiled, and lacking the evidence needed for successful prosecution. The NPA, itself depleted by years of political interference and institutional decay, declines or withdraws cases not because offenders are innocent but because the evidence is insufficient. The result is a system in which the probability of a reported crime resulting in conviction is catastrophically low — and the deterrent effect of the criminal justice system approaches zero.
 
 **Phase 1 targets this bottleneck.**
@@ -86,6 +89,9 @@ The Institute for Security Studies (ISS) has researched criminal justice reform 
 ## Phase 2: Court Reform and Policing Restructuring (Years 3–5)
 
 With investigation and prosecution capacity strengthened, Phase 2 addresses the institutional architecture — how courts process cases and how policing is structured.
+
+
+![The second phase reorganises courts and policing once the upstream pipeline is producing usable cases | Photo by boris misevic on Unsplash](/images/articles/ss-4-1-sequencing-reform/img-2.webp)
 
 **Community Courts Legislation.** The community courts described in [Community Courts and Restorative Justice](/articles/ss-3-3-community-courts-and-restorative-justice) require amendment to the Magistrates' Courts Act of 1944. The amendment would establish Municipal Community Justice Courts as a formal tier of the judiciary, define their jurisdiction (summary offences with sentences up to two years), create the Community Justice Officer (CJO) profession, and establish the case-flow triage system that routes matters to the appropriate track. This is contested legislation — the legal profession will debate jurisdiction, the magistracy will resist perceived encroachment, and the Treasury will resist the funding implications. But the amendment is achievable because the case for decongesting the courts is overwhelming, the Hatfield Community Court pilot — examined in detail in [Community Courts and Restorative Justice](/articles/ss-3-3-community-courts-and-restorative-justice) — has demonstrated viability, and the Child Justice Act's diversion provisions have already established the legal principle that not every criminal matter requires a full magistrate's attention.
 
@@ -128,6 +134,9 @@ Phase 3 is where the reforms consolidate into a transformed system. It depends o
 ## The Legislative Agenda
 
 The reform sequence requires amendments to six existing Acts and at least two new pieces of primary legislation. Here is the map.
+
+
+![Each phase has a matching set of bills that need to clear Parliament for the reform to take effect | Photo by Mpho Mojapelo on Unsplash](/images/articles/ss-4-1-sequencing-reform/img-3.webp)
 
 **The Criminal Procedure Act, 1977 (Act 51 of 1977).** This is South Africa's foundational criminal procedure legislation. Phase 1 amendments would create the legal basis for Judicial Investigation Officers, establish the case-flow triage system, and modernise provisions governing digital evidence and electronic docket management. Phase 2 amendments would define community court procedure and the rights of accused persons in the community court track. This Act is the legislative workhorse of the reform — the most amendments, the most complexity, and the most contested provisions.
 
