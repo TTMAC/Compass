@@ -3,6 +3,7 @@ import PageLayout from "@layouts/PageLayout.astro";
 import JumpToSection from "@components/JumpToSection.astro";
 import DoctrinalStack from "@components/DoctrinalStack.astro";
 import EndowmentStack from "@components/EndowmentStack.astro";
+import Callout from "@components/Callout.astro";
 
 const publishDate = new Date("2026-04-23");
 const formattedDate = publishDate.toLocaleDateString("en-ZA", {
@@ -10,9 +11,179 @@ const formattedDate = publishDate.toLocaleDateString("en-ZA", {
   month: "long",
   day: "numeric",
 });
-const readingTime = 43;
+const readingTime = 40;
+
+const dimeScorecard = [
+  {
+    instrument: "Diplomatic",
+    verdict: "Overweight",
+    tone: "strong",
+    summary:
+      "≈120 missions, full G20/BRICS/AU/SADC portfolio, convening power at scale. The most capable arm — and the source of the country's outsized strategic profile relative to its economic weight.",
+  },
+  {
+    instrument: "Informational",
+    verdict: "Mixed",
+    tone: "neutral",
+    summary:
+      "Ubuntu narrative and G20 messaging land as soft power. But cyber and information-security capability lags the threat profile — flagged by the NSS itself as under-developed.",
+  },
+  {
+    instrument: "Military",
+    verdict: "Hollow",
+    tone: "weak",
+    summary:
+      "R98.3bn baseline vs R57.2bn allocation — a 43% structural deficit. 12 of 26 Gripens operational; submarine arm non-functional; one frigate at sea on most days. Insufficient for the Sovereignty Projection pillar the NSS claims.",
+  },
+  {
+    instrument: "Economic",
+    verdict: "Latent",
+    tone: "neutral",
+    summary:
+      "Strong on paper — minerals, financial depth, two-ocean geography, regional hydrocarbon adjacency. Underperforming in practice — grey-listing, US tariffs, SOE decay. The gap that funds, or fails to fund, every other instrument.",
+  },
+];
+
+const dimeToneStyles: Record<string, string> = {
+  strong: "border-compass-green bg-compass-green-light",
+  neutral: "border-compass-gold bg-bg-secondary/40",
+  weak: "border-red-400 bg-red-50/40",
+};
+
+const failureModes = [
+  {
+    n: 1,
+    label: "Ends–Means Mismatch",
+    body:
+      "The NSS asserts military power as a pillar, yet the SANDF budget supports border patrol and limited peacekeeping — not the regional anchor-state projection Pillar 3 implies. Closing the gap means either a substantial defence-budget uplift or a frank revision of the pillar to what the force can actually do.",
+  },
+  {
+    n: 2,
+    label: "Values–Interests Tension",
+    body:
+      "The ICJ Gaza case, the BRICS naval exercises with Russia and China, and the 2023 Putin–ICC episode illustrate the tension between the constitutional values framework and the partnership portfolio. Otto and Nagar's scenario work rates 'Idealism under Strain' as the most probable trajectory — values-based positioning persists but is incrementally adapted to the cost of partnership maintenance.",
+  },
+  {
+    n: 3,
+    label: "Coordination Deficits",
+    body:
+      "The 2018 High-Level Review Panel on the State Security Agency documented policy incoherence at the heart of the security community. The NSC was effectively moribund before its 2019 revival; NICOC, the NSS Secretariat, and the NSC still face capacity questions. Without a functioning coordination spine, the doctrinal coherence the NSS asserts is not produced operationally.",
+  },
+  {
+    n: 4,
+    label: "Economic Foundation Risk",
+    body:
+      "Grey-listing, stagnant growth, Eskom and Transnet dysfunction, unemployment above 32%, and capital outflows together erode the fiscal base on which every NSS pillar depends. This is the critique shared across every think-tank camp — official, mainstream, contrarian, and defence-community. Without growth the other risks compound; with growth, several resolve themselves.",
+  },
+  {
+    n: 5,
+    label: "External Coercion Risk",
+    body:
+      "The US 30% reciprocal tariff imposed in August 2025, the AGOA non-renewal threat, and the Trump administration's bilateral review together mark a shift in the cost profile of non-alignment. Non-alignment has always carried costs; it is becoming materially more expensive, and the economic instrument has to absorb the cost it currently cannot easily bear.",
+  },
+  {
+    n: 6,
+    label: "Regional Blowback Risk",
+    body:
+      "Cabo Delgado in Mozambique, M23 in eastern DRC, and SADC fragmentation expose South Africa to spillover risks — terrorism, illicit arms, cross-border migration, criminal networks — that current SANDF capability cannot address and that current regional architecture cannot coordinate. The Pan-African Way cannot be sustained at the level the doctrine asserts without capability the country does not yet have.",
+  },
+];
+
+const bridgingMoves = [
+  {
+    n: 1,
+    title: "Reprioritise economic security as first among equals",
+    body:
+      "The NSS formally presents eight co-equal pillars. That formal symmetry is analytically incorrect. Economic Security is not one of eight; it is the enabling condition for the other seven. Without sustained 3–5% GDP growth, the fiscal base does not support the military, cyber, environmental, or cultural pillars. The doctrine should name this explicitly.",
+  },
+  {
+    n: 2,
+    title: "Ground diplomatic posture in commercial outcomes",
+    body:
+      "Foreign policy should be measured, at the end of every fiscal year, by trade secured, foreign direct investment attracted, and technology transfer consummated — not by the volume of multilateral communiqué language. This is not a demotion of the values framework; it is a restatement of the premise that the values framework is funded by commerce.",
+  },
+  {
+    n: 3,
+    title: "Accept strategic triage on defence",
+    body:
+      "The SANDF cannot become, over any reasonable horizon, the force the 'Journey to Greatness' document describes. A 15-year roadmap to a modest but functional force — Special Operations, ISR, and maritime-domain awareness — is achievable. A paper plan for a force the fiscus cannot fund is not. The honest doctrine names what can be afforded and frees the fiscal space for the economic-security pillar on which every future force rests.",
+  },
+];
+
+const acronyms: { term: string; expansion: string }[] = [
+  { term: "AfCFTA", expansion: "African Continental Free Trade Area" },
+  { term: "AGOA", expansion: "African Growth and Opportunity Act (US trade preference programme)" },
+  { term: "AGSA", expansion: "Auditor-General of South Africa" },
+  { term: "AU", expansion: "African Union" },
+  { term: "BRICS", expansion: "Brazil, Russia, India, China, South Africa (and now expanded membership)" },
+  { term: "DIME", expansion: "Diplomatic, Informational, Military, Economic — the four instruments of national power" },
+  { term: "DIRCO", expansion: "Department of International Relations and Cooperation" },
+  { term: "DPME", expansion: "Department of Planning, Monitoring and Evaluation" },
+  { term: "FATF", expansion: "Financial Action Task Force" },
+  { term: "GNU", expansion: "Government of National Unity (the post-2024 coalition)" },
+  { term: "IBSA", expansion: "India–Brazil–South Africa Dialogue Forum" },
+  { term: "ICJ", expansion: "International Criminal Court of Justice" },
+  { term: "ISR", expansion: "Intelligence, Surveillance and Reconnaissance" },
+  { term: "JET", expansion: "Just Energy Transition (Partnership)" },
+  { term: "MECE", expansion: "Mutually Exclusive, Collectively Exhaustive — a categorisation that does not overlap and leaves no gaps" },
+  { term: "NAM", expansion: "Non-Aligned Movement" },
+  { term: "NDP", expansion: "National Development Plan — Vision 2030" },
+  { term: "NICOC", expansion: "National Intelligence Co-ordinating Committee" },
+  { term: "NSC", expansion: "National Security Council" },
+  { term: "NSS", expansion: "National Security Strategy 2024–2029" },
+  { term: "PGM", expansion: "Platinum-Group Metals (platinum, palladium, rhodium, etc.)" },
+  { term: "REIPPPP", expansion: "Renewable Energy Independent Power Producer Procurement Programme" },
+  { term: "ROMPCO", expansion: "Republic of Mozambique Pipeline Company — gas pipeline from Pande/Temane to South Africa" },
+  { term: "SADC", expansion: "Southern African Development Community" },
+  { term: "SADPA", expansion: "South African Development Partnership Agency" },
+  { term: "SAMIDRC", expansion: "SADC Mission in the Democratic Republic of the Congo" },
+  { term: "SANDF", expansion: "South African National Defence Force" },
+  { term: "SOE", expansion: "State-Owned Enterprise" },
+  { term: "TVET", expansion: "Technical and Vocational Education and Training" },
+  { term: "WSA / WSP", expansion: "Water Services Authority / Water Services Provider" },
+];
+
+const keyFigures: { n: number; claim: string; source: string }[] = [
+  {
+    n: 1,
+    claim: "Defence baseline R98.3bn vs 2025–26 allocation R57.2bn (43% structural deficit)",
+    source:
+      "Department of Defence Annual Performance Plan 2025–26 (baseline cost estimate); National Treasury, Estimates of National Expenditure 2025 (allocation). The 43% gap is the arithmetic difference, widely reported by defenceWeb and the Stellenbosch Centre for Military Studies.",
+  },
+  {
+    n: 2,
+    claim: "12 of 26 Gripen fighters operational; SAS submarines non-functional; one frigate at sea",
+    source:
+      "defenceWeb force-structure reporting 2024–25; Stellenbosch Centre for Military Studies; corroborated by parliamentary Portfolio Committee on Defence briefings.",
+  },
+  {
+    n: 3,
+    claim: "~120 South African diplomatic missions abroad",
+    source:
+      "DIRCO Strategic Plan 2025–2030 and the Department's published mission list. The figure has been broadly stable across the past decade.",
+  },
+  {
+    n: 4,
+    claim: "South Africa–BRICS bilateral trade ≈ $50bn (2022)",
+    source:
+      "Department of Trade, Industry and Competition (the dtic) trade data; SARS customs aggregates. Ordering varies year-to-year but the order of magnitude is stable.",
+  },
+  {
+    n: 5,
+    claim: "ROMPCO ≈ 180 petajoules / year; Brulpadda + Luiperd ≈ 1 billion BOE",
+    source:
+      "ROMPCO operator and Sasol annual reports (pipeline throughput); TotalEnergies operator estimates published 2019–2020 for Brulpadda and Luiperd discoveries (gas-condensate, recoverable reserves). Karoo unconventional and KZN/Free State coal-bed methane figures are estimate ranges only.",
+  },
+  {
+    n: 6,
+    claim: "Unemployment 32%+ narrow / 40%+ broad; ≈ $400bn GDP",
+    source:
+      "Stats SA Quarterly Labour Force Survey (most recent four quarters); World Bank GDP (current US$). Reserve Bank Monetary Policy Review supplies the per-capita projection.",
+  },
+];
 
 const jumpLinks = [
+  { href: "#summary", label: "In Plain English" },
   { href: "#introduction", label: "Introduction" },
   { href: "#doctrinal-stack", label: "Doctrinal Stack" },
   { href: "#ends", label: "Ends" },
@@ -24,6 +195,8 @@ const jumpLinks = [
   { href: "#synthesis", label: "Gap & Synthesis" },
   { href: "#alignment", label: "Reform Agenda Alignment" },
   { href: "#conclusion", label: "Conclusion" },
+  { href: "#key-figures", label: "Key Figures" },
+  { href: "#acronyms", label: "Acronyms Used" },
 ];
 
 const nssPillars = [
@@ -66,7 +239,7 @@ const alignmentMap = [
     nss: "Pillar 5 — Cyber & Information Security",
     nssDesc: "Explicitly flagged as under-developed in the NSS — a national capability gap.",
     raAnchor: "GRP Act Component 4 — the Integrated Governance Performance Platform",
-    raDesc: "The Platform is the informational backbone the NSS's cyber and information pillar presupposes but does not build. A state that cannot see its own performance in real time cannot defend its information space. Publishing AGSA, Treasury, and DPME data through a single secure platform is the foundation layer on which sectoral cyber doctrine depends.",
+    raDesc: "The Platform is the informational backbone the NSS's cyber and information pillar presupposes but does not build. A state that cannot see its own performance in real time cannot defend its information space. Publishing Auditor-General (AGSA), Treasury, and Department of Planning, Monitoring and Evaluation (DPME) data through a single secure platform is the foundation layer on which sectoral cyber doctrine depends.",
     link: "/reform-programme#components",
     linkLabel: "The Governance Reform Programme Act",
   },
@@ -138,79 +311,108 @@ const alignmentMap = [
 
   <JumpToSection links={jumpLinks} class="mb-12" />
 
+  <!-- Reading-level note -->
+  <Callout type="takeaway">
+    <p class="mb-2">
+      <strong>This is the long-form synthesis</strong> — pitched at the policy-analyst end of GovCompass,
+      and the bridge between the five Topic pillars and the Reform Agenda. Plan for a long sitting, or
+      jump to the section you need.
+    </p>
+    <p class="mb-2">
+      <strong>If you want the citizen-pitched version of the same argument:</strong> skip to
+      <a href="#summary" class="text-compass-green underline font-semibold">In plain English</a> below
+      (90 seconds), then to
+      <a href="#conclusion" class="text-compass-green underline font-semibold">What this means for citizens</a>
+      at the end (5 minutes).
+    </p>
+    <p class="mb-0">
+      <strong>If acronyms slow you down:</strong> the
+      <a href="#acronyms" class="text-compass-green underline font-semibold">Acronyms used</a> block
+      at the foot of the page is a one-screen reference.
+    </p>
+  </Callout>
+
+  <!-- Plain-English summary -->
+  <section id="summary" class="mb-14 scroll-mt-24" aria-label="Plain-English summary">
+    <p class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide mb-1">In plain English</p>
+    <h2 class="font-heading text-2xl md:text-3xl font-bold text-text-primary mb-4">
+      The Argument in 150 Words
+    </h2>
+    <p class="text-text-secondary mb-4 leading-relaxed">
+      South Africa is trying to run the foreign and security policy of a top-twenty state on the budget
+      of an upper-middle-income economy that is shrinking on a per-capita basis. The country has a
+      serious set of strategic doctrines — a 2025 National Security Strategy with eight pillars, a
+      four-interest national-interest framework, and a long-term defence plan. But the economy that
+      funds them is growing too slowly to keep up. The defence budget sits 43 per cent below its own
+      stated baseline. Unemployment is above 32 per cent. The diplomatic profile is bigger than the
+      economic base can carry.
+    </p>
+    <p class="text-text-secondary leading-relaxed">
+      This article reconstructs the country's grand strategy from its layered doctrines, weighs it
+      against four interpretive lenses and six failure modes, and proposes a strategy aligned to the
+      country's actual endowments. It then maps every pillar of the GovCompass Reform Agenda to the
+      grand-strategic component it is designed to deliver.
+    </p>
+  </section>
+
   <!-- Section 1: Introduction & Conceptual Foundation -->
   <section id="introduction" class="mb-14 scroll-mt-24" aria-label="Introduction and conceptual foundation">
     <p class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide mb-1">Section 1</p>
     <h2 class="font-heading text-2xl md:text-3xl font-bold text-text-primary mb-4">
-      What Grand Strategy Is and Why It Matters for South Africa
+      The Arithmetic of South African Grand Strategy
     </h2>
 
     <p class="text-text-secondary mb-4 leading-relaxed">
-      Grand strategy is the highest level of statecraft. It is the discipline by which a nation
-      coordinates every instrument of power it possesses — military, economic, diplomatic, technological,
-      cultural, informational — to secure its core interests over decades. Where military strategy asks
-      "how do we win this war?", grand strategy asks a prior and larger question: "what kind of world do
-      we want to live in, and how do we arrange the full weight of the state to help produce it?" The
-      two questions are related but not the same. A state can win every battle and still lose its
-      strategic position, because victory on the battlefield does not by itself answer the question of
-      whether the state's ends, ways, and means are in durable alignment.
+      Start with the numbers, because they discipline everything else. South Africa is running the
+      foreign and security policy of a top-twenty state on
+      <a href="/articles/eg-1-1-the-seven-thousand-rand-economy" class="text-compass-green hover:underline font-semibold">a roughly $400-billion economy</a><sup class="text-compass-green"><a href="#fig-6" id="ref-6" class="hover:underline">[6]</a></sup>.
+      Unemployment sits above 32 per cent on the narrow definition and past 40 per cent on the broad
+      one. The Department of Defence's own baseline puts the SANDF (South African National Defence
+      Force) at R98.3 billion a year; the 2025–26 allocation is R57.2 billion — a structural deficit
+      of 43 per cent<sup class="text-compass-green"><a href="#fig-1" id="ref-1" class="hover:underline">[1]</a></sup>. The 2025 National Security Strategy declares eight security pillars. The 2022
+      Framework Document on the National Interest names four core interests. The pending Long-Term
+      Force Evolution Strategy — "Journey to Greatness" — proposes a 1.5-per-cent-of-GDP defence floor.
+      Reserve Bank projections keep per-capita income stagnant for the rest of the decade. Strategic
+      ambition and economic base are not in alignment, and the gap is the subject of this article.
     </p>
 
     <p class="text-text-secondary mb-4 leading-relaxed">
-      The intellectual lineage of grand strategy runs from Liddell Hart's insistence that strategy
-      extends beyond the battlefield into the peace that follows, through Paul Kennedy's thesis that
-      great powers decline when strategic commitments outrun their economic base, to Luttwak's
-      reconstruction of Roman grand strategy as a system that evolved with circumstance rather than a
-      fixed doctrine. John Lewis Gaddis distilled the practical test — grand strategy is the calculated
-      relationship of means to large ends — and Colin Gray reminded readers that grand strategy is the
-      direction and use made of any and all of the assets of a security community for the political
-      purposes that community has adopted. Across the tradition, the unifying insight is disciplinary:
-      grand strategy is what happens when a state refuses to treat its military, economic, diplomatic,
-      and domestic choices as separate conversations and instead asks how they add up.
-    </p>
-
-    <p class="text-text-secondary mb-4 leading-relaxed">
-      Why this matters for South Africa, right now, is a question with a specific answer. South Africa
-      is an upper-middle-income economy that is deindustrialising. It is trapped between the strategic
-      ambitions of a developed state — universal welfare provision, complex industry, global diplomatic
-      weight, G20-level convening — and the fiscal and institutional base of a struggling emerging
-      market. Unemployment sits above 32 per cent, the narrow definition; broader measures climb past
-      40 per cent. Core infrastructure has decayed: the electricity grid, the ports and rail, the
-      water treatment works, the roads network. A newly published National Security Strategy, released
-      to the public on 15 July 2025, declares eight security pillars. A Framework Document on the
-      National Interest, adopted by Cabinet in 2022, names four core national interests. A pending
-      Long-Term Force Evolution Strategy — "Journey to Greatness" — proposes a 1.5 per cent of GDP
-      defence floor. Yet the economic base on which every one of these commitments rests is producing
-      growth rates that, by the Reserve Bank's own projections, will keep per-capita income stagnant
-      for the remainder of the decade.
+      Paul Kennedy's thesis is the mechanism that animates the analysis: great powers decline when
+      strategic commitments outrun the economic base on which they rest. South Africa is not a great
+      power, but the principle scales — a state's commitments either match its base or, in time, hollow
+      it out. The wider conceptual lineage supplies the vocabulary: Liddell Hart on strategy extending
+      beyond the battlefield into the peace that follows; Luttwak on Roman grand strategy as an
+      adaptive system rather than a fixed doctrine; John Lewis Gaddis on the calculated relationship
+      of means to large ends; Colin Gray on the direction and use made of any and all the assets of a
+      security community for the political purposes it has adopted. Across the tradition, one
+      discipline holds: grand strategy is what happens when a state refuses to treat its military,
+      economic, diplomatic, and domestic choices as separate conversations and instead asks how they
+      add up.
     </p>
 
     <p class="text-text-secondary mb-4 leading-relaxed">
       A country that takes its grand strategy seriously has to confront the arithmetic. A country that
-      does not ends up with a doctrinal stack that describes a world the state cannot afford, a defence
-      force it cannot fund, and a diplomatic posture whose costs it cannot absorb. The analysis that
-      follows is an attempt to bring the doctrinal ambition and the economic arithmetic into the same
-      conversation — not to diminish the former, but to specify what it would take to fund it.
+      does not ends up with a doctrinal stack describing a world the state cannot afford, a defence
+      force it cannot fund, and a diplomatic posture whose costs it cannot absorb. What follows is an
+      attempt to bring doctrinal ambition and economic arithmetic into the same conversation — not to
+      diminish the former, but to specify what it would take to fund it.
     </p>
 
     <p class="text-text-secondary mb-4 leading-relaxed">
-      The architecture of this piece proceeds in four moves. The first reconstructs South Africa's
-      actual grand strategy from the doctrinal stack — the constitutional, strategic, foreign-policy,
-      defence, and development tiers that together constitute the country's answer to the grand-strategic
-      question, even though no single document carries the title. The second evaluates that strategy
-      through the classical Ends–Ways–Means triad, through four interpretive lenses, and through a risk
-      register that names the six most visible gaps between doctrine and delivery. The third proposes
-      an endowment-aligned alternative — a grand strategy designed from South Africa's actual resource
-      base rather than inherited from doctrinal inertia. The fourth makes the bridging argument: how
-      the existing strategy and the proposed alternative connect, and — crucially for the readers of
-      GovCompass — how the Reform Agenda articulated across this site is the domestic execution layer
-      without which either strategy remains performative.
+      The piece proceeds in four moves. The first reconstructs South Africa's grand strategy from the
+      doctrinal stack — the constitutional, strategic, foreign-policy, defence, and development tiers
+      that together answer the grand-strategic question, even though no single document carries the
+      title. The second evaluates that strategy through the classical Ends–Ways–Means triad, through
+      four interpretive lenses, and through a risk register naming the six most visible gaps between
+      doctrine and delivery. The third proposes an endowment-aligned alternative — a strategy built
+      upward from the country's actual resources rather than downward from inherited ambition. The
+      fourth shows how the GovCompass Reform Agenda is the domestic execution layer without which
+      either strategy remains performative.
     </p>
 
     <p class="text-text-secondary leading-relaxed">
-      The tone throughout is analytical rather than advocatory. The goal is not to persuade a reader
-      toward any particular political position, but to give a reader the conceptual apparatus to judge
-      for themselves whether the country's strategic commitments and its economic base are in
+      The tone is analytical rather than advocatory. The goal is to give the reader the apparatus to
+      judge for themselves whether the country's strategic commitments and its economic base are in
       alignment — and, if they are not, what realignment would require. Grand strategy belongs to
       citizens as much as to cabinets. The citizens who understand it are the ones who can hold the
       cabinet to it.
@@ -249,9 +451,9 @@ const alignmentMap = [
 
     <p class="text-text-secondary mb-4 leading-relaxed">
       Below the constitutional tier sits the strategic tier. The National Security Strategy
-      2024–2029, publicly released on 15 July 2025, is the central document here. Its release marked
-      the first transparent publication of core intelligence doctrine in South African history — a
-      posture shift from the classified tradition inherited from the State Security Agency era. The
+      2024–2029 (NSS), publicly released on 15 July 2025, is the central document here. Its release
+      marked the first transparent publication of core intelligence doctrine in South African history —
+      a posture shift from the classified tradition inherited from the State Security Agency era. The
       NSS articulates eight security pillars, maps a threat landscape, and situates security within
       the developmental mandate of the state. Alongside the NSS sit the National Intelligence
       Estimate for the 2019–2024 period, which inventoried threats to the economy, territorial
@@ -263,9 +465,10 @@ const alignmentMap = [
       The foreign-policy tier articulates how the state operates externally. The 2011 White Paper
       "Building a Better World: The Diplomacy of Ubuntu" remains the principal articulation of
       diplomatic philosophy — humanity in connection, peaceful conflict resolution, Global South
-      solidarity. The DIRCO Strategic Plan 2025–2030 translates that philosophy into a programme of
-      activity: economic diplomacy, multilateral positioning, consular services, and development
-      cooperation through SADPA. The 2022 Framework Document on the National Interest, adopted by
+      solidarity. The Department of International Relations and Cooperation (DIRCO) Strategic Plan
+      2025–2030 translates that philosophy into a programme of activity: economic diplomacy,
+      multilateral positioning, consular services, and development cooperation through the South
+      African Development Partnership Agency (SADPA). The 2022 Framework Document on the National Interest, adopted by
       Cabinet in the wake of academic and policy debate over how South Africa defines its own
       interests, names four — Survival, Prosperity, Identity, and Influence — and provides the
       conceptual hinge between foreign-policy philosophy and security doctrine.
@@ -284,11 +487,11 @@ const alignmentMap = [
 
     <p class="text-text-secondary mb-4 leading-relaxed">
       The development tier anchors the domestic limb of the grand strategy. The National Development
-      Plan — Vision 2030, adopted in 2012 — remains the reference framework for every department's
-      planning cycle, even as its 2030 target date approaches without the growth and employment
-      outcomes it promised. The NDP is the explicit bridge between the foreign-policy vision of "a
-      better South Africa, in a better Africa, in a better world" and the domestic machinery that is
-      supposed to deliver it.
+      Plan — Vision 2030 (NDP), adopted in 2012 — remains the reference framework for every
+      department's planning cycle, even as its 2030 target date approaches without the growth and
+      employment outcomes it promised. The NDP is the explicit bridge between the foreign-policy
+      vision of "a better South Africa, in a better Africa, in a better world" and the domestic
+      machinery that is supposed to deliver it.
     </p>
 
     <p class="text-text-secondary mb-4 leading-relaxed">
@@ -351,8 +554,8 @@ const alignmentMap = [
 
     <p class="text-text-secondary mb-4 leading-relaxed">
       The narrowest level is the NSS's eight security pillars, which operationalise the Ends across
-      mutually exclusive security domains. Each pillar names a field of operational activity and
-      carries downstream planning obligations.
+      non-overlapping security domains. Each pillar names a field of operational activity and carries
+      downstream planning obligations.
     </p>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-6">
@@ -368,7 +571,9 @@ const alignmentMap = [
     </div>
 
     <p class="text-text-secondary mb-4 leading-relaxed">
-      The pillars are structured to be MECE. Public Security is the protection of persons and
+      The pillars are structured to be MECE — mutually exclusive (no two pillars cover the same
+      ground) and collectively exhaustive (between them they cover every security domain). Public
+      Security is the protection of persons and
       communities from crime and disorder; Territorial Integrity is the protection of borders, airspace,
       and the exclusive economic zone; Sovereignty Projection is the credible capacity to defend the
       constitutional order and project influence externally; Economic Security is the productive base
@@ -450,11 +655,12 @@ const alignmentMap = [
     <p class="text-text-secondary mb-4 leading-relaxed">
       Africa is doctrinally "the centre" of South African foreign and security policy. The 2011 White
       Paper, the NSS, and the DIRCO Strategic Plan all position Pan-African agency as the first-order
-      Way. Operational expressions are numerous: SADC and AU Standby Force support; the SAMIDRC
-      deployment in the eastern Democratic Republic of Congo; the championing of the African
-      Continental Free Trade Area; the long-running push for a permanent African seat on the United
-      Nations Security Council; the projection of peace-mediation credentials from Lesotho and
-      Burundi in the past to Sudan and the Great Lakes in the present. The Way asserts that South
+      Way. Operational expressions are numerous: Southern African Development Community (SADC) and
+      African Union (AU) Standby Force support; the SADC Mission in the DRC (SAMIDRC) deployment in
+      the eastern Democratic Republic of Congo; the championing of the African Continental Free Trade
+      Area (AfCFTA); the long-running push for a permanent African seat on the United Nations Security
+      Council; the projection of peace-mediation credentials from Lesotho and Burundi in the past to
+      Sudan and the Great Lakes in the present. The Way asserts that South
       Africa cannot be a credible global actor if it is not first a credible regional actor, and that
       continental integration is both a developmental and a security project.
     </p>
@@ -481,10 +687,10 @@ const alignmentMap = [
     </h3>
 
     <p class="text-text-secondary mb-4 leading-relaxed">
-      The fourth Way is the deliberate stacking of memberships. BRICS, the G20, IBSA, the Non-Aligned
-      Movement, the Commonwealth, the African Union, the Southern African Development Community, the
-      European Union Strategic Partnership, the rotating UN Security Council seat — the state holds a
-      portfolio of memberships unmatched by any other middle power. The portfolio is used to leverage
+      The fourth Way is the deliberate stacking of memberships. BRICS, the G20, the India–Brazil–
+      South Africa Dialogue Forum (IBSA), the Non-Aligned Movement (NAM), the Commonwealth, the AU,
+      SADC, the European Union Strategic Partnership, the rotating UN Security Council seat — the
+      state holds a portfolio of memberships unmatched by any other middle power. The portfolio is used to leverage
       every forum for Global South agenda-setting while maintaining Western market access. The
       Belfer Center has characterised this in a November 2025 analysis as "coordinated
       multi-alignment" — not a confusion of affiliations but a calculated attempt to extract
@@ -533,13 +739,28 @@ const alignmentMap = [
       defines the strategic problem.
     </p>
 
+    <!-- DIME scorecard -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8" aria-label="DIME scorecard summary">
+      {dimeScorecard.map((d) => (
+        <div class={`border-l-4 rounded-r-lg p-4 ${dimeToneStyles[d.tone]}`}>
+          <div class="flex items-baseline justify-between mb-1 gap-2">
+            <span class="font-heading text-sm font-bold text-text-primary">{d.instrument}</span>
+            <span class="font-heading text-xs font-semibold uppercase tracking-wide text-text-secondary">
+              {d.verdict}
+            </span>
+          </div>
+          <p class="text-xs text-text-secondary leading-relaxed">{d.summary}</p>
+        </div>
+      ))}
+    </div>
+
     <h3 class="font-heading text-lg font-bold text-text-primary mb-2 mt-6">
       Diplomatic
     </h3>
 
     <p class="text-text-secondary mb-4 leading-relaxed">
-      South Africa maintains approximately 120 diplomatic missions abroad — one of the larger
-      footprints in the Global South. The DIRCO Strategic Plan 2025–2030 centralises economic
+      South Africa maintains approximately 120 diplomatic missions abroad<sup class="text-compass-green"><a href="#fig-3" id="ref-3" class="hover:underline">[3]</a></sup>
+      — one of the larger footprints in the Global South. The DIRCO Strategic Plan 2025–2030 centralises economic
       diplomacy as a principal function, shifting missions from representational toward outcome-based
       commercial roles. The state holds a membership portfolio unmatched by its peers: BRICS, G20,
       IBSA, NAM, Commonwealth, AU, SADC, EU Strategic Partnership, and rotational UN Security Council
@@ -571,12 +792,13 @@ const alignmentMap = [
       The South African National Defence Force is the most degraded instrument in the portfolio, and
       the structural numbers are stark. The baseline budget requirement, as estimated by the Department
       of Defence itself, is approximately R98.3 billion; the 2025–26 allocation is R57.2 billion — a
-      structural deficit of 43 per cent. More than 60 per cent of that constrained allocation is
-      consumed by personnel costs, leaving operational and capital budgets residual. Force-structure
-      data tell the same story. Of 26 Gripen fighters on the books, roughly 12 are reported
-      operational. The C-130BZ transport fleet, the backbone of strategic airlift, is largely not
-      airworthy. The submarine arm is non-functional. The frigate force has, by public accounts, one
-      operational vessel at any given time.
+      structural deficit of 43 per cent<sup class="text-compass-green"><a href="#fig-1" class="hover:underline">[1]</a></sup>.
+      More than 60 per cent of that constrained allocation is consumed by personnel costs, leaving
+      operational and capital budgets residual. Force-structure data tell the same story. Of 26
+      Gripen fighters on the books, roughly 12 are reported operational. The C-130BZ transport
+      fleet, the backbone of strategic airlift, is largely not airworthy. The submarine arm is
+      non-functional. The frigate force has, by public accounts, one operational vessel at any
+      given time<sup class="text-compass-green"><a href="#fig-2" id="ref-2" class="hover:underline">[2]</a></sup>.
     </p>
 
     <p class="text-text-secondary mb-4 leading-relaxed">
@@ -601,7 +823,7 @@ const alignmentMap = [
       vulnerabilities. Strengths: two-ocean geography astride the Cape route, the world's deepest
       reserves of platinum-group metals, manganese, and chromium, deep capital markets and a
       sophisticated financial and legal services sector, and a bilateral BRICS trade relationship
-      estimated at roughly $50 billion in 2022. The Department of Trade, Industry and Competition's
+      estimated at roughly $50 billion in 2022<sup class="text-compass-green"><a href="#fig-4" id="ref-4" class="hover:underline">[4]</a></sup>. The Department of Trade, Industry and Competition's
       economic-diplomacy mechanism and DIRCO's 2025–2030 reorientation together constitute a
       commercial-diplomacy architecture that, on paper, is credible.
     </p>
@@ -621,8 +843,9 @@ const alignmentMap = [
     </p>
 
     <p class="text-text-secondary mb-4 leading-relaxed">
-      The regional supply geometry compounds the point. The ROMPCO pipeline from Mozambique's Pande
-      and Temane fields has, since 2004, delivered roughly 180 petajoules a year of natural gas
+      The regional supply geometry compounds the point. The Republic of Mozambique Pipeline Company
+      (ROMPCO) line from Mozambique's Pande and Temane fields has, since 2004, delivered roughly
+      180 petajoules a year of natural gas<sup class="text-compass-green"><a href="#fig-5" id="ref-5" class="hover:underline">[5]</a></sup>
       into South African industry — principally Sasol's Secunda complex and a cluster of gas-fired
       industrial users; the field decline profile creates a "gas cliff" in the late-2020s that
       domestic policy has not yet resolved. Mozambique's Rovuma Basin LNG developments — TotalEnergies'
@@ -638,12 +861,15 @@ const alignmentMap = [
     </p>
 
     <p class="text-text-secondary mb-4 leading-relaxed">
-      Vulnerabilities: the Financial Action Task Force grey-listing imposed reputational and
+      Vulnerabilities: the Financial Action Task Force (FATF) grey-listing imposed reputational and
       operational costs on cross-border finance; the United States' 30 per cent reciprocal tariff
       imposed in August 2025 removed a material share of the export advantage to the US market; the
-      AGOA review creates further uncertainty; state-owned enterprise decay — Eskom, Transnet, and
-      the water boards — continues to degrade the network-industry base on which private investment
-      depends. The economic instrument is potentially formidable; it is actually under-performing.
+      review of the African Growth and Opportunity Act (AGOA, the US trade-preference programme that
+      gives sub-Saharan African exports duty-free access to American markets) creates further
+      uncertainty; state-owned enterprise (SOE) decay — Eskom, Transnet, and the
+      <a href="/articles/ra-4-1-fixing-water-and-sanitation" class="text-compass-green hover:underline font-semibold">water boards</a>
+      — continues to degrade the network-industry base on which private investment depends. The
+      economic instrument is potentially formidable; it is actually under-performing.
       The gap between potential and performance is the most consequential DIME finding, because it
       is the gap that funds — or fails to fund — every other instrument.
     </p>
@@ -763,68 +989,107 @@ const alignmentMap = [
       The Delta Between Doctrine and Delivery: Six Failure Modes
     </h2>
 
-    <p class="text-text-secondary mb-4 leading-relaxed">
+    <p class="text-text-secondary mb-6 leading-relaxed">
       The gap between stated strategy and observable execution resolves into six risk families. They
       are mutually exclusive enough to be diagnosed separately and collectively exhaustive enough to
       map the full delivery shortfall.
     </p>
 
-    <p class="text-text-secondary mb-4 leading-relaxed">
-      <strong class="text-text-primary">Ends–Means Mismatch.</strong> The NSS asserts military power
-      as a pillar, yet the SANDF budget supports border patrol and limited peacekeeping — not the
-      regional anchor-state projection that Pillar 3 implies. The Sovereignty Projection pillar is the
-      clearest case of an End without corresponding Means. Closing the gap requires either a
-      substantial uplift in the defence budget or a frank revision of the pillar toward what the
-      force can actually do.
-    </p>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8" aria-label="Six failure modes">
+      {failureModes.map((f) => (
+        <div class="border border-gray-200 rounded-lg p-4 bg-bg-secondary/30">
+          <div class="flex items-baseline gap-2 mb-1">
+            <span class="font-heading text-xs font-bold text-compass-green">Failure Mode {f.n}</span>
+            <span class="font-heading text-sm font-semibold text-text-primary">{f.label}</span>
+          </div>
+          <p class="text-xs text-text-secondary leading-relaxed">{f.body}</p>
+        </div>
+      ))}
+    </div>
 
-    <p class="text-text-secondary mb-4 leading-relaxed">
-      <strong class="text-text-primary">Values–Interests Tension.</strong> The ICJ Gaza case, the
-      BRICS naval exercises alongside Russia and China, and the 2023 Putin–ICC episode illustrate the
-      tension between the constitutional values framework and the partnership portfolio. Otto and
-      Nagar's scenario analysis rates "Idealism under Strain" as the most probable trajectory —
-      values-based positioning persists but is incrementally adapted to the cost of partnership
-      maintenance. The tension is not resolvable by doctrine alone; it is managed, episode by
-      episode, through the procedural and legal interpretation of each case.
-    </p>
+    <!-- Backward-loop diagram -->
+    <figure class="mx-auto max-w-2xl my-8">
+      <svg
+        width="600"
+        height="380"
+        viewBox="0 0 600 380"
+        xmlns="http://www.w3.org/2000/svg"
+        class="w-full h-auto"
+        role="img"
+        aria-labelledby="backward-loop-title"
+        aria-describedby="backward-loop-desc"
+        style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;"
+      >
+        <title id="backward-loop-title">The strategic loop running backward</title>
+        <desc id="backward-loop-desc">
+          A circular diagram showing how the six failure modes compound. Economic weakness starves the
+          military, which undermines regional credibility, which reduces diplomatic leverage, which
+          makes external coercion more effective, which further narrows the economic base. Breaking
+          the loop at the economic node is the strategic priority.
+        </desc>
+        <defs>
+          <marker id="loop-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+            <path d="M1 1L9 5L1 9" fill="none" stroke="#264A2C" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+          </marker>
+        </defs>
 
-    <p class="text-text-secondary mb-4 leading-relaxed">
-      <strong class="text-text-primary">Coordination Deficits.</strong> The 2018 High-Level Review
-      Panel on the State Security Agency documented policy incoherence at the heart of the security
-      community. The National Security Council was effectively moribund before President Ramaphosa's
-      2019 revival, and the NICOC, NSS Secretariat, and NSC still face questions about capacity and
-      decision-making cadence. The coordination problem is a binding constraint on every other
-      pillar, because without a functioning coordination spine, the pillars are administered
-      separately and the doctrinal coherence the NSS asserts is not produced operationally.
-    </p>
+        <text x="300" y="22" text-anchor="middle" font-size="13" font-weight="600" fill="#264A2C" letter-spacing="1.2">
+          THE LOOP RUNNING BACKWARD
+        </text>
+        <text x="300" y="40" text-anchor="middle" font-size="11" fill="#4A4A4A" font-style="italic">
+          Each risk feeds the next; breaking it at the economic node is the strategic priority
+        </text>
 
-    <p class="text-text-secondary mb-4 leading-relaxed">
-      <strong class="text-text-primary">Economic Foundation Risk.</strong> Grey-listing, stagnant
-      growth, Eskom and Transnet dysfunction, unemployment above 32 per cent, and capital outflows
-      together erode the fiscal base on which every NSS pillar depends. This is the critique shared
-      across every think-tank camp: official, mainstream, contrarian, and defence-community. The
-      consensus is analytically rare and politically significant. Without growth, the other risks
-      compound; with growth, several resolve themselves.
-    </p>
+        <!-- 5 nodes around a pentagonal layout, centered at (300, 210), radius 130 -->
+        <!-- Node 1: top — Economic base (highlighted) -->
+        <g>
+          <circle cx="300" cy="80" r="50" fill="#264A2C" stroke="#1A1A1A" stroke-width="2" />
+          <text x="300" y="76" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">Economic</text>
+          <text x="300" y="90" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">base</text>
+          <text x="300" y="104" text-anchor="middle" font-size="9" fill="#C6D4C9" font-style="italic">break here</text>
+        </g>
+        <!-- Node 2: top-right — Military -->
+        <g>
+          <circle cx="424" cy="170" r="46" fill="#88A68F" stroke="#264A2C" stroke-width="1.5" />
+          <text x="424" y="168" text-anchor="middle" font-size="11" font-weight="600" fill="#1A1A1A">Military</text>
+          <text x="424" y="182" text-anchor="middle" font-size="11" font-weight="600" fill="#1A1A1A">capability</text>
+        </g>
+        <!-- Node 3: bottom-right — Regional credibility -->
+        <g>
+          <circle cx="378" cy="306" r="46" fill="#88A68F" stroke="#264A2C" stroke-width="1.5" />
+          <text x="378" y="304" text-anchor="middle" font-size="11" font-weight="600" fill="#1A1A1A">Regional</text>
+          <text x="378" y="318" text-anchor="middle" font-size="11" font-weight="600" fill="#1A1A1A">credibility</text>
+        </g>
+        <!-- Node 4: bottom-left — Diplomatic leverage -->
+        <g>
+          <circle cx="222" cy="306" r="46" fill="#88A68F" stroke="#264A2C" stroke-width="1.5" />
+          <text x="222" y="304" text-anchor="middle" font-size="11" font-weight="600" fill="#1A1A1A">Diplomatic</text>
+          <text x="222" y="318" text-anchor="middle" font-size="11" font-weight="600" fill="#1A1A1A">leverage</text>
+        </g>
+        <!-- Node 5: top-left — External coercion -->
+        <g>
+          <circle cx="176" cy="170" r="46" fill="#88A68F" stroke="#264A2C" stroke-width="1.5" />
+          <text x="176" y="168" text-anchor="middle" font-size="11" font-weight="600" fill="#1A1A1A">External</text>
+          <text x="176" y="182" text-anchor="middle" font-size="11" font-weight="600" fill="#1A1A1A">coercion</text>
+        </g>
 
-    <p class="text-text-secondary mb-4 leading-relaxed">
-      <strong class="text-text-primary">External Coercion Risk.</strong> The United States' 30 per
-      cent reciprocal tariff imposed in August 2025, the AGOA non-renewal threat, and the Trump
-      administration's bilateral review together mark a shift in the cost profile of non-alignment.
-      Non-alignment has always carried costs; it is becoming materially more expensive. External
-      actors are now pricing the China-leaning tilt, and the economic instrument has to absorb the
-      cost — which, given its current condition, it cannot easily do.
-    </p>
+        <!-- Arrows connecting nodes 1→2→3→4→5→1 -->
+        <path d="M 339,108 Q 392,124 397,135" fill="none" stroke="#264A2C" stroke-width="1.6" marker-end="url(#loop-arrow)" />
+        <path d="M 416,213 Q 411,266 391,275" fill="none" stroke="#264A2C" stroke-width="1.6" marker-end="url(#loop-arrow)" />
+        <path d="M 332,306 L 268,306" fill="none" stroke="#264A2C" stroke-width="1.6" marker-end="url(#loop-arrow)" />
+        <path d="M 209,275 Q 189,266 184,213" fill="none" stroke="#264A2C" stroke-width="1.6" marker-end="url(#loop-arrow)" />
+        <path d="M 203,135 Q 208,124 261,108" fill="none" stroke="#264A2C" stroke-width="1.6" marker-end="url(#loop-arrow)" />
 
-    <p class="text-text-secondary mb-4 leading-relaxed">
-      <strong class="text-text-primary">Regional Blowback Risk.</strong> Mozambique's Cabo Delgado
-      insurgency, the M23 conflict in eastern DRC, and SADC fragmentation expose South Africa to
-      spillover risks — terrorism, illicit arms, cross-border migration, criminal networks — that
-      current SANDF capability cannot address and that current regional architecture cannot
-      coordinate. The Pan-African Way cannot be sustained at the level of ambition the doctrine
-      asserts without either a regional-defence capacity the country does not have or a regional
-      institutional machinery the continent has not built.
-    </p>
+        <text x="300" y="370" text-anchor="middle" font-size="11" fill="#5F5E5A" font-style="italic">
+          Recovery at any other node is undone if the economic base does not recover with it.
+        </text>
+      </svg>
+      <figcaption class="sr-only">
+        Diagram: the six failure modes form a feedback loop. Economic weakness → degraded military
+        capability → diminished regional credibility → reduced diplomatic leverage → greater external
+        coercion → further narrowed economic base. The loop must be broken at the economic node.
+      </figcaption>
+    </figure>
 
     <p class="text-text-secondary leading-relaxed">
       The six risks compound each other in a specific order. Economic weakness starves the military,
@@ -857,9 +1122,10 @@ const alignmentMap = [
       vehicle drivetrains, green-hydrogen production, grid-scale battery storage, and high-grade
       stainless steel. The country has the deepest capital markets and most sophisticated financial
       and legal services sector in Africa. Its two-ocean geography astride the Cape route makes it
-      the natural logistics gateway to the SADC interior. Its population is young — the demographic
-      dividend remains open for roughly fifteen to twenty years — though it is skills-mismatched in
-      ways that the education and TVET systems have not closed. Residual but decayed industrial,
+      the natural logistics gateway to the SADC interior. Its population is young, but skills-
+      mismatched in ways the
+      <a href="/articles/ra-2-1-fixing-basic-education" class="text-compass-green hover:underline font-semibold">education</a>
+      and Technical and Vocational Education and Training (TVET) systems have not closed. Residual but decayed industrial,
       rail, and port infrastructure provides a base from which reconstruction is feasible, not a
       starting point from scratch. Diplomatic credibility as a non-aligned middle power and BRICS
       member remains a genuine, if declining, asset. Taken together, the endowment stack suggests a
@@ -896,8 +1162,9 @@ const alignmentMap = [
       is an opportunity, not only a liability. A credible energy-transition programme builds domestic
       solar, wind, and green-hydrogen manufacturing capability, co-locates production with PGM
       deposits to compress the supply chain, and treats decarbonisation as the vehicle for
-      reindustrialisation. The REIPPPP procurement framework provides a starting architecture; the
-      Just Energy Transition Partnership provides a financing channel. The strategic question is
+      reindustrialisation. The Renewable Energy Independent Power Producer Procurement Programme
+      (REIPPPP) provides a starting architecture; the Just Energy Transition (JET) Partnership
+      provides a financing channel. The strategic question is
       whether the country uses the transition to build industry or merely to import green technology
       from manufacturers elsewhere. The answer determines whether the energy sector becomes a growth
       engine or a cost centre.
@@ -969,10 +1236,11 @@ const alignmentMap = [
     <p class="text-text-secondary mb-4 leading-relaxed">
       The developmental-state agenda cannot be advanced through an expansion of the state's scope
       while the existing scope is under-performing. The endowment-aligned strategy requires a
-      deliberate sequencing: capacity first, expansion second. That means ruthless civil-service
-      professionalisation, the unbundling and reform of Eskom and Transnet, the repair of the
-      revenue authority and the prosecutorial apparatus, and the insulation of technical appointments
-      from political interference. Fiscal consolidation is part of the same package, as are targeted
+      deliberate sequencing: capacity first, expansion second. That means ruthless
+      <a href="/articles/ra-5-2-anti-capture-architecture" class="text-compass-green hover:underline font-semibold">civil-service professionalisation</a>,
+      the unbundling and reform of Eskom and Transnet, the repair of the revenue authority and the
+      <a href="/articles/ss-3-2-independent-investigating-magistracy" class="text-compass-green hover:underline font-semibold">prosecutorial apparatus</a>,
+      and the insulation of technical appointments from political interference. Fiscal consolidation is part of the same package, as are targeted
       cash transfers rather than a universal Basic Income Grant — the tax base cannot support Nordic
       ambitions, and pretending otherwise produces deficit-financed promises that the next generation
       cannot honour.
@@ -993,21 +1261,32 @@ const alignmentMap = [
       a disciplining of its application.
     </p>
 
-    <h3 class="font-heading text-lg font-bold text-text-primary mb-2 mt-6">
-      What to Give Up
-    </h3>
-
-    <p class="text-text-secondary mb-4 leading-relaxed">
-      The prescriptive strategy requires abandoning several positions that currently absorb political
-      energy without producing strategic return. The broad-spectrum manufacturing-revival fantasy —
-      that South Africa can rebuild its 1980s industrial base across every sector — has to be let
-      go; focus is not the same as surrender. Import-substitution nostalgia, which produced the
-      tariff walls of the apartheid era and the inefficiencies they protected, must be distinguished
-      from sectoral-targeting strategies aimed at endowment-aligned activity. The pretence that
-      state-owned enterprises can be simultaneously commercial and welfare instruments has to end;
-      they are one or the other, and the conflation is the mechanism by which both functions
-      deteriorate.
-    </p>
+    <aside class="border-l-4 border-red-500 bg-red-50/40 p-5 rounded-r-lg my-8" role="note" aria-label="What to Give Up">
+      <p class="font-heading text-xs font-semibold text-red-700 uppercase tracking-wide mb-2">
+        What to Give Up
+      </p>
+      <p class="text-sm text-text-primary leading-relaxed mb-3">
+        The prescriptive strategy requires abandoning several positions that currently absorb
+        political energy without producing strategic return.
+      </p>
+      <ul class="list-disc list-outside ml-5 space-y-2 text-sm text-text-secondary leading-relaxed">
+        <li>
+          <strong class="text-text-primary">The broad-spectrum manufacturing-revival fantasy</strong>
+          — that South Africa can rebuild its 1980s industrial base across every sector — has to be
+          let go. Focus is not the same as surrender.
+        </li>
+        <li>
+          <strong class="text-text-primary">Import-substitution nostalgia</strong>, which produced
+          the tariff walls of the apartheid era and the inefficiencies they protected, must be
+          distinguished from sectoral-targeting strategies aimed at endowment-aligned activity.
+        </li>
+        <li>
+          <strong class="text-text-primary">The pretence that SOEs can be simultaneously commercial
+          and welfare instruments</strong> has to end. They are one or the other, and the conflation
+          is the mechanism by which both functions deteriorate.
+        </li>
+      </ul>
+    </aside>
 
     <h3 class="font-heading text-lg font-bold text-text-primary mb-2 mt-6">
       Internal Risks to Flag
@@ -1043,39 +1322,23 @@ const alignmentMap = [
       and execution priority.
     </p>
 
-    <p class="text-text-secondary mb-4 leading-relaxed">
+    <p class="text-text-secondary mb-6 leading-relaxed">
       Three bridging moves are required to convert the strategy from aspiration into plan.
     </p>
 
-    <p class="text-text-secondary mb-4 leading-relaxed">
-      <strong class="text-text-primary">First, reprioritise the economic-security pillar as first
-      among equals.</strong> The NSS formally presents eight co-equal pillars. That formal symmetry
-      is analytically incorrect. <strong class="text-text-primary">Economic Security is not one of eight; it is the enabling condition
-      for the other seven.</strong> Without sustained three-to-five-per-cent GDP growth, the fiscal base does
-      not support the military pillar, the cyber pillar, the environmental pillar, or the cultural
-      pillar. The doctrine should name this explicitly. The cost of the current framing — eight
-      co-equal pillars — is that capital is allocated by precedent rather than by causal priority.
-    </p>
-
-    <p class="text-text-secondary mb-4 leading-relaxed">
-      <strong class="text-text-primary">Second, ground diplomatic posture in commercial outcomes.</strong>
-      The SAIIA recommendation to convert the Global South's numerical strength into agenda-setting
-      power through technical expertise applies equally to the bilateral axis. <strong class="text-text-primary">Foreign policy should
-      be measured, at the end of every fiscal year, by trade secured, foreign direct investment
-      attracted, and technology transfer consummated — not by the volume of multilateral communiqué
-      language.</strong> This is not a demotion of the values framework; it is a restatement of the premise
-      that the values framework is funded by commerce.
-    </p>
-
-    <p class="text-text-secondary mb-4 leading-relaxed">
-      <strong class="text-text-primary">Third, accept strategic triage on defence.</strong> The
-      SANDF cannot become, over any reasonable horizon, the force that the "Journey to Greatness"
-      document describes. <strong class="text-text-primary">A fifteen-year roadmap to a modest but functional force — Special
-      Operations capability, intelligence-surveillance-reconnaissance capability, and maritime-
-      domain-awareness capability — is achievable.</strong> A paper plan for a force the fiscus cannot fund
-      is not. The honest doctrine names the scope of the force that can be afforded and frees the
-      fiscal space for the economic-security pillar on which every future force rests.
-    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6" aria-label="Three bridging moves">
+      {bridgingMoves.map((m) => (
+        <div class="border-l-4 border-compass-green bg-compass-green-light rounded-r-lg p-4 flex flex-col">
+          <span class="font-heading text-xs font-bold text-compass-green uppercase tracking-wide mb-2">
+            Move {m.n}
+          </span>
+          <h3 class="font-heading text-base font-bold text-text-primary mb-2 leading-snug">
+            {m.title}
+          </h3>
+          <p class="text-sm text-text-secondary leading-relaxed">{m.body}</p>
+        </div>
+      ))}
+    </div>
 
     <p class="text-text-secondary mb-4 leading-relaxed">
       The dominant probable trajectory, as Otto and Nagar's scenario work and the Belfer Center and
@@ -1084,7 +1347,8 @@ const alignmentMap = [
       The strategy persists in its current form because each separate institution has an incentive
       to defend its own pillar, and no single institution has the authority to impose the triage the
       synthesis requires. That is itself a coordination-deficit outcome, and it is the one the
-      Reform Agenda articulated across this site is designed to address.
+      <a href="/reform-programme" class="text-compass-green hover:underline font-semibold">Reform Agenda</a>
+      articulated across this site is designed to address.
     </p>
 
     <p class="text-text-secondary leading-relaxed">
@@ -1262,15 +1526,103 @@ const alignmentMap = [
       window is open for now. It is not open indefinitely.
     </p>
 
-    <p class="text-text-secondary leading-relaxed">
-      The forward-looking judgement is measured but pointed. <strong>South Africa can make Constitutional
-      Non-Alignment for a Multipolar Era a functioning grand strategy or a well-written epitaph for
-      strategic ambition that outran its means.</strong> The decisive variable is not the doctrinal stack,
-      which is already in reasonable shape, and not the diplomatic portfolio, which is already over-
-      subscribed. The decisive variable is the domestic execution layer — the legislated,
-      coordinated, measurable delivery architecture that the Reform Agenda is designed to build.
-      The next five years will tell.
+    <p class="text-text-secondary leading-relaxed mb-8">
+      The forward-looking judgement is measured but pointed. <strong>Constitutional Non-Alignment
+      for a Multipolar Era can become an operational programme — or it can settle into a performative
+      posture: elegantly drafted, diplomatically decorated, and quietly unaffordable.</strong> The
+      decisive variable is not the doctrinal stack, which is already in reasonable shape, and not the
+      diplomatic portfolio, which is already over-subscribed. The decisive variable is the domestic
+      execution layer — the legislated, coordinated, measurable delivery architecture that the
+      <a href="/reform-programme" class="text-compass-green hover:underline font-semibold">Reform Agenda</a>
+      is designed to build. The next five years will tell.
     </p>
+
+    <!-- Citizen frame -->
+    <div class="border-l-4 border-compass-gold bg-bg-secondary rounded-r-lg p-5 my-6" role="note" aria-label="What this means for citizens">
+      <p class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide mb-3">
+        What this means for citizens
+      </p>
+      <p class="text-sm text-text-primary leading-relaxed mb-3">
+        Most readers will never write a National Security Strategy. But every reader pays for one,
+        and every reader can ask whether the country is funding the strategy it claims. Three
+        practical handles follow from the analysis above:
+      </p>
+      <ul class="list-disc list-outside ml-5 space-y-2 text-sm text-text-secondary leading-relaxed mb-3">
+        <li>
+          <strong class="text-text-primary">Watch the next budget for two numbers</strong> — the
+          Department of Defence allocation against its own R98.3-billion baseline, and total fixed
+          investment as a share of GDP. The first tells you whether the defence pillar is being
+          funded; the second tells you whether the economic base on which every pillar rests is
+          being rebuilt.
+        </li>
+        <li>
+          <strong class="text-text-primary">Ask candidates and councillors a specific question</strong>
+          — not "are you for growth?" (everyone says yes) but "what would you stop doing to fund
+          state capacity reconstruction first?" The answer tells you whether they have understood
+          the trade-off in this article.
+        </li>
+        <li>
+          <strong class="text-text-primary">Read three Reform Agenda articles next.</strong> They
+          are the domestic-delivery counterpart to the grand strategy:
+          <a href="/articles/ra-5-3-the-integrated-reform-programme" class="text-compass-green hover:underline font-semibold">The Integrated Reform Programme</a> (the capstone),
+          <a href="/articles/ra-5-2-anti-capture-architecture" class="text-compass-green hover:underline font-semibold">The Anti-Capture Architecture</a> (state capacity), and
+          <a href="/reform-scorecard" class="text-compass-green hover:underline font-semibold">the Reinforcing Cycle Scorecard</a> (the metrics that link safety, growth, and human development).
+        </li>
+      </ul>
+      <p class="text-sm text-text-primary leading-relaxed">
+        The doctrinal stack belongs to cabinets. The arithmetic that funds it belongs to citizens.
+      </p>
+    </div>
+  </section>
+
+  <!-- Key figures (footnotes) -->
+  <section id="key-figures" class="mb-14 scroll-mt-24" aria-label="Sources for key figures">
+    <p class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide mb-1">Reference</p>
+    <h2 class="font-heading text-2xl md:text-3xl font-bold text-text-primary mb-4">
+      Key Figures Sourced From
+    </h2>
+    <p class="text-text-secondary mb-4 leading-relaxed">
+      The numerical claims in the text are anchored here. Footnote markers in the body return to this
+      list when clicked.
+    </p>
+    <ol class="space-y-3 mb-2">
+      {keyFigures.map((f) => (
+        <li id={`fig-${f.n}`} class="border-l-2 border-compass-green pl-4 py-1 scroll-mt-24">
+          <p class="text-sm text-text-primary leading-relaxed mb-1">
+            <span class="font-heading font-bold text-compass-green mr-1">[{f.n}]</span>
+            {f.claim}
+          </p>
+          <p class="text-xs text-text-secondary leading-relaxed">
+            <span class="font-heading font-semibold text-text-primary mr-1">Source —</span>
+            {f.source}
+            {" "}
+            <a href={`#ref-${f.n}`} class="text-compass-green hover:underline">↩ back</a>
+          </p>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <!-- Acronyms reference -->
+  <section id="acronyms" class="mb-14 scroll-mt-24" aria-label="Acronyms used in this article">
+    <p class="font-heading text-xs font-semibold text-text-secondary uppercase tracking-wide mb-1">Reference</p>
+    <h2 class="font-heading text-2xl md:text-3xl font-bold text-text-primary mb-4">
+      Acronyms Used
+    </h2>
+    <p class="text-text-secondary mb-4 leading-relaxed">
+      A one-screen reference for the acronyms in this article. Most are expanded on first use in the
+      body; this list is for the reader who jumps in mid-text or comes back to a section later.
+    </p>
+    <dl class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 mb-2">
+      {acronyms.map((a) => (
+        <div class="flex gap-2 items-baseline border-b border-gray-100 pb-2">
+          <dt class="font-heading text-sm font-bold text-compass-green shrink-0 min-w-[5.5rem]">
+            {a.term}
+          </dt>
+          <dd class="text-sm text-text-secondary leading-snug">{a.expansion}</dd>
+        </div>
+      ))}
+    </dl>
   </section>
 
   <!-- Source footer -->
