@@ -43,6 +43,9 @@ Water is the function where municipal governance failure kills people. Not figur
 
 It can. And to understand why, you need to trace the water value chain from source to tap and see exactly where the governance architecture breaks.
 
+
+![Water and sanitation move through a chain that runs from catchment to bulk supply to household tap and back through treatment | Photo by Mario Mesaglio on Unsplash](/images/articles/ra-4-1-fixing-water-and-sanitation/img-1.webp)
+
 The chain begins with the Department of Water and Sanitation at the national level. DWS is responsible for water as a resource — the National Water Act of 1998 vests all water in the nation and assigns national government legislative and executive authority over freshwater resources. DWS sets national water policy, issues water use licences, manages water resource infrastructure (dams, inter-basin transfers, bulk supply systems), and is supposed to regulate water services delivery through the Water Services Act of 1997.
 
 The next link is the Water Services Authority. The Water Services Act designates certain municipalities — **currently 144 of South Africa's 278 municipalities** — as WSAs. A WSA has the legal duty to ensure access to water services within its area of jurisdiction. It must plan, regulate, and ensure the provision of water supply and sanitation services. It sets by-laws, determines tariffs, and is responsible for ensuring that the services meet national norms and standards.
@@ -188,6 +191,9 @@ These three failures are mutually reinforcing. Conflation means there is no regu
 ## The Reform Blueprint
 
 ### Structural Separation: WSA and WSP Must Be Different Entities
+
+
+![A working reform separates the regulator from the provider so accountability for quality is independent of operations | Photo by roman pentin on Unsplash](/images/articles/ra-4-1-fixing-water-and-sanitation/img-3.webp)
 
 The first and most fundamental reform is to make the theoretical distinction between WSA and WSP real. The regulator cannot be the provider. This is not a South African insight — it is a universal principle of governance design. Every country that has achieved reliable water services has separated the regulatory function from the operational function.
 

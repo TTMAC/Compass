@@ -49,6 +49,9 @@ If the previous three articles in this series diagnosed functions where the stat
 
 As the Citizen Safety and Security pillar of GovCompass documented in detail — from the [historical inheritance](/articles/ss-1-1-order-through-oppression) of a police force designed for racial control rather than public safety, through the [broken pipeline](/articles/ss-2-1-the-broken-pipeline) that haemorrhages cases at every stage, to the [geographic inequality](/articles/ss-2-2-policing-a-divided-country) that makes your safety dependent on your postcode — South Africa's criminal justice system is in structural crisis. The probability of a reported crime resulting in a conviction is catastrophically low. The private security industry employs more than twice as many guards as SAPS has officers, because millions of South Africans have effectively exited the public safety system. And the communities that are most exposed to violent crime — informal settlements, rural areas, townships — are precisely the communities where the state's safety apparatus is weakest.
 
+
+![Safety is produced by a chain that runs from prevention to investigation to prosecution to corrections | Photo by taichi nakamura on Unsplash](/images/articles/ra-2-4-fixing-safety-and-security/img-1.webp)
+
 This article applies the RAARICLE™ framework to the criminal justice system. It traces the value chain from the Minister of Police in Pretoria to the officer at your local police station, diagnoses where and why the eight governance elements are misaligned, identifies the structural root cause, and proposes a reform blueprint. The diagnosis will reveal a pattern distinct from education, healthcare, and housing. Those functions suffer primarily from fragmentation (too many entities) and cross-sphere misalignment (authority in the wrong sphere). **Safety and security suffers from the opposite structural pathology: excessive centralisation.** A single national police service of over 190,000 members, under a single National Commissioner appointed by the President, reporting to a single Minister of Police, tries to police a country of 62 million people across nine provinces with radically different crime profiles — and *fails because no centralised hierarchy can effectively manage that level of operational diversity.*
 
 To understand the full value chain, you need to trace the institutional landscape from national policy to the point where a citizen interacts with the system — the police station, the court, the prison.
@@ -186,6 +189,9 @@ The root cause of safety and security governance failure in South Africa is exce
 ## The Reform Blueprint
 
 The RAARICLE™-aligned reform for safety and security is a three-tier policing architecture that distributes policing power across the three spheres of government — matching the constitutional design that already governs education, healthcare, housing, and every other concurrent function. This is not a novel proposal. As [A Three-Tier Policing Architecture](/articles/ss-3-1-three-tier-policing-architecture) detailed in the Citizen Safety and Security pillar, the Constitution already envisions distributed policing: Schedule 4 Part A lists "police services" (plural) as a concurrent function, and Section 206 provides for provincial policing governance. What is missing is not constitutional permission but political will and legislative implementation.
+
+
+![A working reform splits the function into national, provincial and metro tiers, each with its own accountability | Photo by Jim Luo on Unsplash](/images/articles/ra-2-4-fixing-safety-and-security/img-3.webp)
 
 The blueprint addresses each RAARICLE™ element systematically, showing how the proposed architecture co-locates all eight elements at each tier.
 

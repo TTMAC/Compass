@@ -64,6 +64,9 @@ In each case, across every province that has been subject to intervention or nea
 
 The RAARICLE™ framework, applied to the Section 100 intervention mechanism itself, reveals why interventions produce mixed results. The intervention mechanism does not co-locate all eight governance elements — it merely transfers some elements from one sphere to another, while leaving others fragmented.
 
+
+![Section 100 interventions are reactive, late, and rarely accompanied by the structural reset that would prevent recurrence | Photo by CHUTTERSNAP on Unsplash](/images/articles/ra-3-3-when-provinces-fail/img-1.webp)
+
 Responsibility shifts from the province to the national government — but the national administrators typically operate through existing provincial staff, using existing provincial systems. The national government does not deploy a complete replacement institutional apparatus. It deploys a small team of senior administrators who must manage thousands of provincial employees whose loyalties, routines, and institutional culture have not changed. The responsibility transfer is nominal rather than operational.
 
 Accountability becomes confused. The national minister who authorises the intervention is nominally responsible for the provincial function. But the provincial MEC remains in office (Section 100(1)(b) transfers executive obligation, not the executive itself). The provincial legislature continues to sit. The provincial treasury continues to manage the budget. Multiple accountability lines run simultaneously — national minister to Parliament, provincial MEC to provincial legislature, administrator to inter-ministerial task team — creating the kind of diffused accountability that the RAARICLE™ framework identifies as a hallmark of governance failure.
@@ -104,6 +107,9 @@ Third, **enforcement lacks proportionality.** Section 100 offers two options: di
 
 The alternative to discretionary, politically mediated enforcement is *an automatic system with pre-defined triggers, graduated responses, and binding exit criteria.* This is not a radical idea — it is how enforcement works in every well-designed regulatory system. Banking regulation uses automatic triggers (capital adequacy ratios falling below prescribed levels trigger mandatory supervisory action). Tax enforcement uses automatic triggers (failure to file triggers automatic penalties). Electrical safety uses automatic triggers (circuit breakers trip at defined thresholds). **The principle of automatic enforcement with pre-defined consequences is well established. South Africa simply has not applied it to intergovernmental governance.**
 
+
+![Automatic triggers tied to leading indicators move enforcement from political judgement to predictable rule | Photo by Christina @ wocintechchat.com M on Unsplash](/images/articles/ra-3-3-when-provinces-fail/img-2.webp)
+
 The proposed system operates in three tiers.
 
 ### Tier 1: Early Warning — Mandatory Remedial Support
@@ -143,6 +149,9 @@ The dashboard's design must accommodate the different data cycles of different f
 ## From Intervention to Prevention
 
 The most important insight of this three-article series on provincial government is that **enforcement and structural reform are complementary, not alternative, strategies.** Better enforcement mechanisms — automatic triggers, graduated responses, binding exit criteria — address the symptom: what to do when provinces fail. Structural reform — co-locating authority with accountability through the structured autonomy model proposed in [Making Concurrent Functions Work](/articles/ra-3-2-making-concurrent-functions-work) — addresses the cause: *why provinces fail in the first place.*
+
+
+![The shift is from rescuing failed provinces to preventing the conditions in which provinces fail | Photo by Brett Jordan on Unsplash](/images/articles/ra-3-3-when-provinces-fail/img-3.webp)
 
 If concurrent functions are properly restructured so that delivery entities have genuine operational authority within a framework of national standards, the incidence of provincial failure should decline. A provincial education department that controls teacher deployment, operational budgets, and district management — and that faces automatic enforcement triggers linked to learning outcomes — has both the means and the incentive to perform. The structured autonomy model reduces the need for intervention by fixing the structural conditions that produce failure.
 

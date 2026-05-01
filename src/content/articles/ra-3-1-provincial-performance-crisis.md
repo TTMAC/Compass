@@ -62,6 +62,9 @@ The provincial RAARICLE™ scorecard reveals a sphere-level design problem, not 
 
 Why do provinces consistently underperform? The answer lies in the constitutional design of the provincial sphere and its relationship to national government — a design that was explored in [The Awkward Middle Child](/articles/3-1-the-awkward-middle-child) and that the RAARICLE™ framework now diagnoses with precision.
 
+
+![Provinces inherit responsibility for outcomes without the authority or resources to deliver them | Photo by Jolame Chirwa on Unsplash](/images/articles/ra-3-1-provincial-performance-crisis/img-1.webp)
+
 The Constitution lists the most important service delivery functions — education, health, housing, public transport, environment, agriculture — as Schedule 4 concurrent competences. "Concurrent" means both national and provincial government have legislative authority over these functions. In practice, this creates a structural condition where national government sets the framework (legislation, policy, standards, employment conditions, conditional grant rules) and provincial government implements within that framework. The province is accountable for delivery but does not control the design parameters that determine whether delivery succeeds or fails.
 
 This is the misalignment pattern identified in [Why South Africa's Institutions Keep Failing](/articles/ra-1-2-why-institutions-fail) — and at the sphere level, it is not a bug in a single function's institutional architecture. It is a feature of the constitutional design itself. The concurrency model was adopted in 1996 as a compromise between those who wanted a unitary state (with a strong central government and weak provinces) and those who wanted a federal state (with constitutionally entrenched provincial autonomy). The compromise gave provinces the appearance of autonomy — their own legislatures, executives, and budgets — while retaining national control over the critical levers of service delivery. The result is a sphere of government that looks autonomous but operates as a constrained agent of national government.
@@ -77,6 +80,9 @@ The Financial and Fiscal Commission's annual submissions on the Division of Reve
 ## The Evidence
 
 The sphere-level diagnosis is not theoretical. It is documented in data that the Auditor-General, National Treasury, and sector-specific monitoring bodies publish annually.
+
+
+![Auditor-General reports and service delivery indices show the underperformance is sphere-wide, not province-specific | Photo by 2H Media on Unsplash](/images/articles/ra-3-1-provincial-performance-crisis/img-2.webp)
 
 The Auditor-General's provincial audit outcomes provide the broadest measure of provincial governance quality. In the 2022-23 PFMA audit cycle, the AG assessed 162 provincial government entities (departments and public entities). The results showed deep variation between provinces. The Western Cape achieved the highest proportion of clean audits — unqualified opinions with no material findings on financial reporting, compliance, or performance — across its departments. Gauteng and KwaZulu-Natal showed mixed results, with some departments performing well and others poorly. The Eastern Cape, Limpopo, and the Free State had the weakest audit outcomes, with multiple departments receiving qualified or adverse opinions and the AG identifying material irregularities, fruitless and wasteful expenditure, and inadequate financial controls.
 

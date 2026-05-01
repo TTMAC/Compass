@@ -42,6 +42,9 @@ seo:
 
 In practice, concurrency has produced something very different from this intention. As the RAARICLE™ diagnoses of [education](/articles/ra-2-1-fixing-basic-education), [healthcare](/articles/ra-2-2-fixing-primary-healthcare), and [human settlements](/articles/ra-2-3-fixing-human-settlements) have demonstrated, "sharing" a function between two spheres of government does not mean each sphere handles its part effectively. **It means that authority is split, accountability is diffused, resources flow through competing channels, and enforcement falls into the gap between the spheres.** The concurrent function model, as implemented in South Africa, is the structural mechanism that produces the *misalignment pattern* identified in [Why South Africa's Institutions Keep Failing](/articles/ra-1-2-why-institutions-fail).
 
+
+![When two spheres share a function, neither holds the full set of elements needed to deliver it | Photo by Vitaly Gariev on Unsplash](/images/articles/ra-3-2-making-concurrent-functions-work/img-1.webp)
+
 The problem is not unique to South Africa. Every federal and quasi-federal system that shares functions between spheres of government faces a version of the concurrency challenge. But South Africa's version is particularly severe because of three compounding factors. First, the fiscal architecture concentrates revenue collection at the national level and distributes it downward through transfers, leaving provinces almost entirely dependent on national funding. Second, the national government has used its legislative power to establish detailed frameworks — for employment, procurement, financial management, and service delivery standards — that constrain provincial operational autonomy far beyond what the Constitution requires. Third, the enforcement architecture is discretionary rather than automatic, meaning there are no binding consequences when the concurrent arrangement produces failure.
 
 This article examines three alternative models for structuring concurrent functions, tests each against the full RAARICLE™ framework, and proposes a design that resolves the authority-accountability split without requiring constitutional amendment.
@@ -53,6 +56,9 @@ Concurrency was designed to combine national standard-setting with provincial fl
 ## Three Models for Concurrent Functions
 
 There are fundamentally three ways to structure a function that involves both national and provincial government. Each has been tried in various countries, and each produces a different distribution of the eight RAARICLE™ elements.
+
+
+![Three working models — delegated authority, joint authority, and split authority — each fix the gap differently | Photo by pulkit jain on Unsplash](/images/articles/ra-3-2-making-concurrent-functions-work/img-2.webp)
 
 ### Model A: National Policy, Provincial Delivery (Status Quo)
 
@@ -131,6 +137,9 @@ The international evidence converges on a clear principle: the most effective co
 ## The Reform Blueprint
 
 The RAARICLE™ analysis and international comparisons point to a model that is neither the pure status quo (Model A) nor full devolution (Model B) nor full centralisation (Model C), but a structured hybrid that takes the strongest elements of each.
+
+
+![A working reform names the model for each Schedule 4 function rather than leaving the split implicit | Photo by Davi Mendes on Unsplash](/images/articles/ra-3-2-making-concurrent-functions-work/img-3.webp)
 
 The proposed model — which this series has termed **structured autonomy** — was introduced in the education reform blueprint and applied in the healthcare reform blueprint. This article presents it as a generalised design principle for all concurrent functions.
 
