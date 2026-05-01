@@ -1425,7 +1425,7 @@ const ARTICLE_CONFIG = {
     queries: [
       "executive signing official document",
       "performance dashboard analytics screen",
-      "team meeting circle workspace",
+      "office team collaboration desk",
     ],
     placements: [
       {

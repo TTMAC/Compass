@@ -200,6 +200,9 @@ This is not a fantasy. It is how banking regulation works. It is how tax enforce
 
 The eight tests described above are not a checklist to be ticked off independently. They form an integrated system, and **the most important insight of the RAARICLE™ framework is this: all eight elements must be co-located in a single institutional chain, or coherently aligned across institutions with binding coordination mechanisms.**
 
+
+![Co-location is the principle that the same body should hold responsibility, accountability and authority for one function | Photo by Vitaly Gariev on Unsplash](/images/articles/ra-1-1-eight-tests/img-3.webp)
+
 Co-location means that the entity responsible for the work is also the entity that is accountable for the outcome, that has the authority to act, that controls the resources, that can see the performance data, that possesses the necessary capability, that holds a recognised mandate, and that faces automatic consequences for failure. When all eight elements sit within one institutional chain, governance tends to work. When they are scattered across different entities, different spheres of government, different budget lines, and different political principals — governance fails predictably.
 
 Think of it this way. Imagine a private company where the sales team is accountable for revenue targets, but the marketing team controls the advertising budget, the IT department owns the customer database, the HR department decides who gets hired onto the sales team, and the finance department can veto any deal over a certain size. No board of directors would design a company this way, because it is manifestly dysfunctional. The accountability is disconnected from the authority. The resources are controlled by an entity that does not bear the consequences. The information sits with an entity that has no operational role.
