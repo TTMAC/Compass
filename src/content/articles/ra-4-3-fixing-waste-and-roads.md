@@ -58,6 +58,9 @@ Waste management and municipal roads share an identical RAARICLE™ failure patt
 
 ### The Value Chain
 
+
+![Waste collection runs from kerbside bin to transfer station to landfill — and breaks when any link fails | Photo by Zoshua Colah on Unsplash](/images/articles/ra-4-3-fixing-waste-and-roads/img-1.webp)
+
 Waste management flows through three institutional layers. The Department of Forestry, Fisheries and the Environment sets national policy, establishes norms and standards for waste management, and administers the National Environmental Management: Waste Act of 2008. DFFE is responsible for the national waste management strategy, the licensing framework for waste disposal facilities, and the South African Waste Information System that is supposed to aggregate municipal waste data.
 
 Provincial environmental departments handle the licensing of waste management facilities — landfills, transfer stations, and recycling facilities must be licensed by the provincial authority. Provincial departments are also supposed to monitor compliance with licence conditions and enforce environmental regulations at waste disposal sites.
@@ -123,6 +126,9 @@ The Department of Forestry, Fisheries and the Environment's own assessment of wa
 ## Municipal Roads and Stormwater: The Value Chain and Diagnosis
 
 ### The Value Chain
+
+
+![Roads and stormwater fail incrementally; the visible damage is the lagging indicator of an underfunded maintenance cycle | Photo by Evan Aker on Unsplash](/images/articles/ra-4-3-fixing-waste-and-roads/img-2.webp)
 
 South Africa's road network spans approximately 317,000 kilometres across three institutional layers. The South African National Roads Agency manages 21,403 kilometres of national roads — the arterial network that connects cities and major economic centres. Provincial roads departments manage roughly 205,000 kilometres of provincial roads (47,348 km paved, 157,482 km unpaved). Municipalities manage approximately 90,700 kilometres of municipal roads, plus the stormwater drainage infrastructure that protects those roads from water damage.
 
@@ -209,6 +215,9 @@ The Institute of Municipal Engineering of Southern Africa's February 2026 analys
 ## The Reform Blueprint
 
 ### Ring-Fenced Revenue for Both Functions
+
+
+![A working reform funds maintenance cycles directly rather than treating maintenance as a residual budget item | Photo by CARL LU on Unsplash](/images/articles/ra-4-3-fixing-waste-and-roads/img-3.webp)
 
 Waste management revenue — refuse removal charges — must be ring-fenced for waste operations: collection, transport, disposal, and landfill management. This is the same reform proposed for [water](/articles/ra-4-1-fixing-water-and-sanitation) and [electricity](/articles/ra-4-2-fixing-electricity), and it can be implemented through the same National Treasury regulation under the MFMA. Operation Vulindlela Phase II, launched in May 2025, has already identified revenue ring-fencing as a core element of municipal trading services reform. The R100 billion performance-based grant for metros explicitly requires ring-fencing of solid waste revenue. This principle must extend to all municipalities, not just metros.
 

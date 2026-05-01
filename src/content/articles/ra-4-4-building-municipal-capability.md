@@ -42,6 +42,9 @@ The previous three articles in Part 4 diagnosed [water](/articles/ra-4-1-fixing-
 
 This article steps back from individual functions to diagnose these two elements directly. The question is not "why does the water department lack a qualified process controller?" or "why does the roads department lack an engineer?" The question is: why does the municipal institutional architecture systematically fail to attract, deploy, and retain qualified professionals — and why do municipal information systems consistently fail to provide the data that oversight bodies need?
 
+
+![Vacancy rates, qualification gaps and turnover data show the capability shortfall is structural, not cyclical | Photo by Vitaly Gariev on Unsplash](/images/articles/ra-4-4-building-municipal-capability/img-1.webp)
+
 The numbers paint the picture. According to AGSA MFMA audit reporting and DCoG vacancy data, in the Free State only 8 of 23 municipalities have a qualified permanent municipal manager, and of 129 senior posts, 73 are vacant — a 57 per cent vacancy rate. **Across all municipalities, an estimated 47 per cent of municipal managers do not meet the basic qualification criteria for their positions** — a figure surfaced during the Zondo Commission's examination of cadre deployment practices, a structural vulnerability that any governing party with unchecked appointment authority could exploit.
 
 The technical staffing crisis is equally severe. **Engineering staff experience a 4.7 per cent annual turnover rate — the highest of all municipal staffing categories.** More than 50 per cent of professionals, technicians, and clerical support workers in municipalities are employed in shortage occupations. Only 141 accredited civil engineers serve across all 257 municipalities. No municipality in the country meets the Municipal Staff Regulations' requirement of a 3&#58;1 ratio of technical to support staff. The best-performing municipalities manage roughly 1&#58;1.
@@ -75,6 +78,9 @@ Research by the Dullah Omar Institute documented the municipal skills crisis in 
 ## The Information Black Hole
 
 If capability is the first cross-cutting failure, information is the second. A municipality cannot manage what it cannot measure. And across South Africa's 257 municipalities, the information systems that should enable management, accountability, and oversight are fragmented, incomplete, or non-existent.
+
+
+![Most municipalities cannot produce real-time performance data on their own functions | Photo by Chris Liverani on Unsplash](/images/articles/ra-4-4-building-municipal-capability/img-2.webp)
 
 The municipal Standard Chart of Accounts was supposed to transform financial reporting. Mandated from 1 July 2017, mSCOA requires all municipalities to transact and report using a standardised chart of accounts that enables consistent financial analysis across municipalities. In practice, implementation has been uneven. Some municipalities have fully transitioned to mSCOA; others have struggled with system migration, particularly for payroll. The City of Tshwane was assessed at only 13 per cent implementation in an earlier review. No single national compliance rate is published — which is itself telling. The data about data systems is incomplete.
 
@@ -133,6 +139,9 @@ The Public Affairs Research Institute's COMPACT project, reporting in November 2
 ## The Reform Blueprint for Capability
 
 ### Protected Technical Appointments
+
+
+![A working reform invests in a permanent municipal cadre with portable qualifications and protected tenure | Photo by Olek Buzunov on Unsplash](/images/articles/ra-4-4-building-municipal-capability/img-3.webp)
 
 The most critical reform is *structural separation of technical appointments from political appointments*. The current system allows political authority (the council) to appoint all senior managers, including the technical professionals (engineers, CFOs, planners) whose qualifications and competence determine whether services function. The reform requires:
 

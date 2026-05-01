@@ -46,6 +46,9 @@ Electricity is different from every other municipal function analysed in this se
 
 To understand how the system works and why it is failing, trace the value chain from policy to plug.
 
+
+![Municipal electricity runs from generation through transmission to the meter on the wall and the tariff on the bill | Photo by Dong Cheng on Unsplash](/images/articles/ra-4-2-fixing-electricity/img-1.webp)
+
 At the top sits the Department of Mineral Resources and Energy, which sets national energy policy — the Integrated Resource Plan that determines South Africa's generation mix, the regulatory framework for licensing, and the strategic direction of the sector. DMRE does not directly touch municipal reticulation, but its decisions on generation capacity, renewable energy procurement, and market structure shape the environment within which municipalities operate.
 
 The National Energy Regulator of South Africa occupies the next layer. NERSA licenses electricity distributors (including municipalities), approves tariff structures, regulates Eskom's bulk pricing, and oversees the emerging competitive electricity market. NERSA's decisions on Eskom's Multi-Year Price Determination directly determine the input cost that municipalities face — the price at which they buy electricity from Eskom before adding their own distribution surcharge. For 2025/26, NERSA approved a 12.74 per cent increase in Eskom's tariff. For 2026/27, following a court-ordered redetermination, NERSA approved 9.01 per cent for municipal customers. These annual increases, compounding over years, steadily squeeze the margin between what municipalities pay Eskom and what they can charge consumers.
@@ -160,6 +163,9 @@ The municipality's debt to Eskom illustrates the enforcement vacuum. Municipalit
 
 The electricity diagnosis differs from water in one critical respect: the core structural problem is not conflation but absence — specifically, the absence of any mechanism that ring-fences electricity revenue for electricity infrastructure. The municipality is not simultaneously regulator and provider in the way that the WSA/WSP model conflates these roles. NERSA regulates. The municipality distributes. The regulatory separation exists — imperfectly, with weak enforcement, but it exists.
 
+
+![The root cause is the cross-subsidy trap — electricity revenue is structurally diverted to fund other municipal functions | Photo by Chad Nathan on Unsplash](/images/articles/ra-4-2-fixing-electricity/img-2.webp)
+
 The root cause is the interaction of three structural failures.
 
 The first is *resource absence*. The cross-subsidy model extracts electricity revenue to fund other municipal functions, and no institutional mechanism prevents this extraction. This is not a bug — it is the design. Municipalities were explicitly expected to use electricity surpluses to cross-subsidise services for which there is no direct revenue (like roads, libraries, and parks). **The problem is that the cross-subsidy was never calibrated against the infrastructure maintenance requirement.** Nobody designed a rule that said "you may extract surplus only after investing 8 per cent of asset value in maintenance." The extraction was unlimited, and the infrastructure paid the price. In the [five failure patterns](/articles/ra-1-2-why-institutions-fail) taxonomy, this is a textbook absence: the Resources element of the RAARICLE™ framework is structurally compromised because the institutional architecture that would protect it — ring-fenced revenue, minimum maintenance thresholds, infrastructure renewal obligations — was never built.
@@ -177,6 +183,9 @@ The OECD's 2025 review of South Africa's energy sector recommended that the gove
 ## The Reform Blueprint
 
 ### Ring-Fence Electricity Revenue for Electricity
+
+
+![A working reform unbundles distribution, opens procurement, and ring-fences electricity revenue from cross-subsidy | Photo by Raze Solar on Unsplash](/images/articles/ra-4-2-fixing-electricity/img-3.webp)
 
 The first reform mirrors the water blueprint: **electricity revenue must be ring-fenced for electricity operations and infrastructure.** Every rand collected through electricity tariffs must fund electricity — distribution, maintenance, debt service, and infrastructure investment — before any surplus flows to the general municipal account.
 

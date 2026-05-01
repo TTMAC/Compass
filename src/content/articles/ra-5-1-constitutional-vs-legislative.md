@@ -41,6 +41,9 @@ Over the course of Parts 2, 3, and 4 of this series, you have seen a comprehensi
 
 That is a substantial reform agenda. The question that naturally follows — the question that will determine whether any of this actually happens — is: what does it take, legally, to implement each of these reforms? Does South Africa need to rewrite its Constitution? Does it need new Acts of Parliament? Or can some of these changes happen through the stroke of a ministerial pen?
 
+
+![Three pathways move a reform from idea to effect — administrative action, new legislation, or constitutional amendment | Photo by Mpho Mojapelo on Unsplash](/images/articles/ra-5-1-constitutional-vs-legislative/img-1.webp)
+
 The answer depends on which of three distinct legal pathways each reform requires. Understanding these pathways is not an academic exercise. **It is the difference between knowing where to direct your advocacy energy and wasting years pushing for changes through the wrong channel.** A reform that only needs a regulation change could be implemented within months — but if you spend your energy demanding a constitutional amendment, you will wait a decade and probably get nothing. Conversely, a reform that genuinely requires legislation cannot be short-circuited through a policy directive, no matter how well-intentioned the minister.
 
 South Africa's legal system provides three pathways for governance reform, each with different requirements, different timelines, and different political dynamics.
@@ -222,6 +225,9 @@ Shared services arrangements for small municipalities can be established through
 
 The reform-by-reform legal map reveals something that should give every reform advocate both hope and frustration: a remarkable number of the reforms proposed across this series can be implemented through regulation, policy change, or executive action under existing legislation. No new Acts of Parliament. No constitutional amendments. No multi-year legislative processes. Just political will and administrative competence applied to powers that already exist.
 
+
+![A surprising share of the reform programme can begin immediately under existing constitutional and legislative authority | Photo by Marco Oriolesi on Unsplash](/images/articles/ra-5-1-constitutional-vs-legislative/img-2.webp)
+
 Here is what can be done within months, using existing legal authority.
 
 National Treasury can restructure conditional grants from input-based conditions to outcome-based targets through the annual Division of Revenue process. This single change — which Treasury has the authority to make unilaterally in drafting the next DORA — would begin the shift from national micromanagement to structured autonomy for every function funded through conditional grants. Treasury already redesigns grants regularly. The shift to outcome-based conditions is a design choice, not a legal barrier. The Education Infrastructure Grant, the Health Facility Revitalisation Grant, the Human Settlements Development Grant, and the Municipal Infrastructure Grant can all be restructured to specify what outcomes must be achieved while giving the recipient entity discretion over how to achieve them.
@@ -325,6 +331,9 @@ The media plays a shaping role in reform politics. Governance reform is not inhe
 ## A Sequenced Legal Reform Programme
 
 Converting the legal map and political feasibility analysis into a practical implementation timeline requires sequencing — doing the fastest, easiest, and most impactful reforms first, building momentum and evidence, and then tackling the more politically difficult legislative changes.
+
+
+![Sequencing turns a long list of reforms into a programme that builds on each prior step rather than competing with it | Photo by Magic Fan on Unsplash](/images/articles/ra-5-1-constitutional-vs-legislative/img-3.webp)
 
 The following programme organises the reform agenda into three phases, sequenced by legal pathway and political feasibility.
 
