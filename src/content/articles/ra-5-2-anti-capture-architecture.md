@@ -40,6 +40,9 @@ When most South Africans hear the word "capture," they think of a specific story
 
 Start with the distinction between corruption and capture, because the two are different problems requiring different solutions. Corruption is transactional. A municipal official takes a bribe to approve a building plan. A traffic officer accepts cash to overlook a violation. A procurement official steers a tender to a family member's company. These are individual acts of dishonesty, and they can be addressed through investigation, prosecution, and punishment. South Africa has a well-developed legal framework for fighting corruption — the Prevention and Combating of Corrupt Activities Act, the Public Finance Management Act, the Municipal Finance Management Act, and a network of institutions from the National Prosecuting Authority to the Special Investigating Unit. Corruption is a crime committed by individuals within an institution that is otherwise functioning according to its mandate.
 
+
+![Capture is the structural condition of an institution serving a private interest while presenting as a public one | Photo by Othman Alghanmi on Unsplash](/images/articles/ra-5-2-anti-capture-architecture/img-1.webp)
+
 Capture is something fundamentally different. **Capture occurs when an institution's decisions systematically serve private interests rather than its public mandate — not because one person is corrupt, but because the institution's structure, incentives, and decision-making processes have been reorganised to produce that outcome.** When an institution is captured, you do not need to bribe anyone. The normal functioning of the institution already delivers benefits to the capturing interest. The appointment system places loyal people in key positions. The procurement system channels resources to connected suppliers. The regulatory system protects incumbents rather than the public. The information system conceals problems rather than revealing them. Each of these mechanisms operates through formal, legal processes — appointments are made through selection panels, tenders are awarded through supply chain management, regulations are applied through published criteria. *The machinery looks legitimate. The outcomes are not.*
 
 The Zondo Commission on State Capture, which sat from 2018 to 2022 under the chairmanship of Chief Justice Raymond Zondo, documented this distinction with devastating clarity. The Commission's reports, spanning thousands of pages across multiple volumes, showed how state-owned enterprises, government departments, and regulatory bodies were systematically reoriented to serve a network of private interests. The capture of Eskom, Transnet, Denel, and the South African Revenue Service was not achieved primarily through briefcases of cash. It was achieved through the capture of appointment processes (placing compliant executives in key positions), procurement systems (directing contracts through intermediaries to connected suppliers), regulatory oversight (weakening the capacity of oversight bodies to detect and respond to irregularities), and information flows (controlling what boards, ministers, and Parliament could see about institutional performance). Corruption was the method at points, but capture was the architecture.
@@ -57,6 +60,9 @@ Corruption is a crime committed by individuals within a functioning institution.
 ## Vector 1: Political Capture
 
 Political capture is the oldest and most pervasive form of institutional capture, and in South Africa it operates through three primary mechanisms: patronage appointments, cadre deployment, and political tariff manipulation. Each of these mechanisms exploits a structural vulnerability in the design of South Africa's governance system — the intersection of political authority with administrative and technical functions.
+
+
+![Political capture occurs when appointment power is used to install loyalty rather than competence | Photo by Paulo Mateus Oliveira Guerra on Unsplash](/images/articles/ra-5-2-anti-capture-architecture/img-2.webp)
 
 ### Patronage and Cadre Deployment
 
@@ -251,6 +257,9 @@ The Auditor-General of South Africa has increasingly emphasised the link between
 ## Designing Capture-Resistant Institutions
 
 The five vectors of capture — political, commercial, labour, regulatory, and information — do not operate in isolation. In a fully captured institution, they reinforce each other in ways that make the capture self-sustaining. Political capture of the appointment process places compliant officials in key positions. Those officials facilitate commercial capture of the procurement system. The bloated non-technical workforce created by labour capture provides a constituency that supports the political network. The weakened regulator created by regulatory capture cannot detect what is happening. And the filtered information produced by information capture ensures that oversight bodies cannot see the full picture.
+
+
+![Capture-resistant design separates appointment from operation, and embeds independent audit at every layer | Photo by Mick Haupt on Unsplash](/images/articles/ra-5-2-anti-capture-architecture/img-3.webp)
 
 **Designing capture-resistant institutions requires addressing all five vectors simultaneously.** An institution that has strong procurement controls but weak appointment protections will simply have its procurement controls dismantled by a captured appointee. An institution that has transparent financial reporting but no performance management for staff will publish data that nobody acts upon. An institution that has an independent regulator but no whistleblower protection will find that the regulator lacks the information it needs to intervene. *The anti-capture architecture must be comprehensive — and it must be tested against all five vectors.*
 

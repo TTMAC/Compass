@@ -92,6 +92,9 @@ The South African Local Government Association has published ward-level data lin
 
 You have chosen your function and identified the responsible institution. Now you need to diagnose the problem structurally. This is where the RAARICLE™ framework moves from theory to practice. You are going to apply all eight tests to your chosen function, one by one, and record what you find. Do this on paper, in a spreadsheet, in a notebook — the medium does not matter. What matters is that you work through each test systematically rather than jumping to the one that seems most obvious.
 
+
+![Running the eight tests on a function you care about turns frustration into a structured diagnosis | Photo by Toa Heftiba on Unsplash](/images/articles/ra-5-4-from-citizen-to-reformer/img-1.webp)
+
 Let us walk through an example. Suppose you live in a mid-sized municipality and your function is water.
 
 ### Responsibility
@@ -135,6 +138,9 @@ Write down your findings for each test. Be specific. Do not write "accountabilit
 ## Step 3: Find the Data
 
 A diagnosis is only as strong as its evidence. The good news is that South Africa, for all its governance failures, produces a remarkable quantity of public data about government performance. The challenge is knowing where to find it, how to read it, and how to use it. What follows is a guide to the most important sources, organised by the RAARICLE™ elements they illuminate.
+
+
+![Most of the data needed for a citizen diagnosis already exists — in audits, scorecards, and freely available reports | Photo by Bluestonex on Unsplash](/images/articles/ra-5-4-from-citizen-to-reformer/img-2.webp)
 
 The single most valuable source for any governance diagnostic is the Auditor-General of South Africa. The AG audits every national department, every provincial department, and every municipality annually, and the audit reports are published on the AGSA website at agsa.co.za. For municipalities, the AG's annual Municipal Finance Management Act audit outcomes provide a wealth of information: whether the municipality received a clean audit, a qualified opinion, an adverse opinion, or a disclaimer; the nature and extent of irregular expenditure, fruitless and wasteful expenditure, and unauthorised expenditure; the effectiveness of internal controls; the quality of financial management; and — increasingly — the quality of service delivery performance reporting. The AG's general reports, published alongside the individual audit reports, identify systemic trends across the local government sector. If you are diagnosing a municipal function, start with the AG's most recent MFMA report for your municipality. It will tell you more about the institution's financial health, governance practices, and accountability mechanisms than any other single document.
 
@@ -201,6 +207,9 @@ The National Planning Commission's Diagnostic Report and the National Developmen
 ## Step 6: Use the Channels That Exist
 
 South Africa's constitutional democracy provides multiple formal channels through which citizens can participate in governance, submit proposals, access information, and — when necessary — enforce their rights through the courts. These channels are imperfect, often under-resourced, and sometimes deliberately obstructed. But they exist, they have legal backing, and they have been used effectively by citizen movements throughout South Africa's democratic history. The task is not to invent new channels but to use the existing ones more effectively, armed with the structural analysis you have now developed.
+
+
+![Existing channels — submissions, ward committees, courts, the press — give a structured diagnosis somewhere to land | Photo by Clive Thibela on Unsplash](/images/articles/ra-5-4-from-citizen-to-reformer/img-3.webp)
 
 ### Ward Committees and Municipal Participation
 

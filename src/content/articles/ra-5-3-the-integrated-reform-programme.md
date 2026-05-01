@@ -125,6 +125,9 @@ This is the case for an integrated reform programme. Not a collection of individ
 
 Why must this programme be legislated? Why not pursue it through executive action — a presidential directive, a Cabinet resolution, an expanded Operation Vulindlela? The answer lies in the distinction between discretionary reform and structural reform.
 
+
+![A single legislated structure forces the reforms to fit together rather than compete for attention | Photo by Vardan Papikyan on Unsplash](/images/articles/ra-5-3-the-integrated-reform-programme/img-1.webp)
+
 Discretionary reform depends on the decision of a specific political actor — a president, a minister, a director-general. It can be initiated quickly, adjusted flexibly, and terminated at will. This makes it useful for pilot programmes, policy experiments, and immediate crisis responses. But it also makes it fragile. When the political actor who initiated the reform leaves office, the reform has no institutional anchor. The incoming actor may share the reform commitment, or may not. Even if they do, they may redefine the reform's scope, redirect its resources, or subordinate it to different priorities. Discretionary reform is, by definition, revocable at the discretion of whoever holds power.
 
 Structural reform is embedded in legislation. It creates institutional obligations that bind current and future office-holders. It establishes rights, duties, and enforcement mechanisms that persist regardless of who occupies political positions. It requires a parliamentary process to amend or repeal — the same process that enacted it — which means it cannot be quietly abandoned through ministerial neglect. Structural reform is durable because it changes the rules of the system, not just the behaviour of the people currently operating within it.
@@ -142,6 +145,9 @@ Discretionary reform depends on political will and can be reversed when leadersh
 ## The Governance Reform Programme Act
 
 What would a Governance Reform Programme Act contain? It would not attempt to legislate every function-specific reform in a single statute — that would produce an unwieldy omnibus bill impossible to navigate through Parliament. Instead, it would establish the architecture within which function-specific reforms are designed, coordinated, implemented, measured, and enforced. The Act would have seven substantive components.
+
+
+![A Governance Reform Programme Act gives the integrated package a legal home with measurable obligations | Photo by Isaac Smith on Unsplash](/images/articles/ra-5-3-the-integrated-reform-programme/img-2.webp)
 
 ### Component 1: The Structured Autonomy Principle
 
@@ -265,6 +271,9 @@ The measurement architecture for the integrated reform programme leverages three
 ## Sequencing the Integrated Programme
 
 The sequencing of the integrated reform programme must respect two constraints: legislative feasibility and implementation dependency. Legislative feasibility — detailed in [What Needs Constitutional Change and What Doesn't](/articles/ra-5-1-constitutional-vs-legislative) — determines which reforms can move quickly through regulation and which require the slower parliamentary process. Implementation dependency determines which reforms must precede others because they create the institutional infrastructure that subsequent reforms require.
+
+
+![Sequencing decides which reforms must land first to make later reforms possible at all | Photo by Soweto Graphics on Unsplash](/images/articles/ra-5-3-the-integrated-reform-programme/img-3.webp)
 
 ### Phase 1: The Regulatory Foundation (Months 1–12)
 
