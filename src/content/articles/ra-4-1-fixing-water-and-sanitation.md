@@ -176,6 +176,9 @@ The enforcement element for water services is the mirror image of legitimacy: th
 
 The eight-element diagnosis reveals a clear structural picture. Legitimacy is strong — there is no question that municipalities must provide water. Information is moderate — the Drop reports provide useful diagnostics, even if they lag. Every other element scores 1 or 2. Responsibility is fragmented. Accountability is diffuse. Authority is constrained. Resources leak. Capability is catastrophically absent. Enforcement is discretionary.
 
+
+![The root cause is conflation — the same municipality is asked to be both regulator and provider of water services | Photo by Pavel Neznanov on Unsplash](/images/articles/ra-4-1-fixing-water-and-sanitation/img-2.webp)
+
 The root cause is not any single element in isolation. It is the interaction of three structural failures that together create a system incapable of delivering on its constitutional mandate.
 
 The first failure is *conflation*. The WSA/WSP model, as implemented, conflates the regulator with the provider. This is the structural condition identified in [Why Institutions Fail](/articles/ra-1-2-why-institutions-fail) as Pattern 4. **When the same entity sets the standard and delivers the service, self-regulation does not work.** The Water Services Act envisaged separation — it provides for separate WSPs — but the political economy of municipal governance ensured that almost every WSA appointed itself as its own WSP. The theoretical separation was never implemented.

@@ -1534,7 +1534,7 @@ const ARTICLE_CONFIG = {
   "ra-2-4-fixing-safety-and-security": {
     queries: [
       "police vehicle patrol street",
-      "south africa courtroom interior",
+      "parliament building south africa",
       "officer uniform back walking",
     ],
     placements: [
@@ -1557,7 +1557,7 @@ const ARTICLE_CONFIG = {
     queries: [
       "provincial government building south africa",
       "audit report stack documents",
-      "map south africa provinces regions",
+      "stone columns architecture pillars",
     ],
     placements: [
       {
@@ -1622,7 +1622,7 @@ const ARTICLE_CONFIG = {
   "ra-4-1-fixing-water-and-sanitation": {
     queries: [
       "water tap dripping close up",
-      "water treatment plant exterior",
+      "water reservoir tank infrastructure",
       "sanitation pipes infrastructure construction",
     ],
     placements: [

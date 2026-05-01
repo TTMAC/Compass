@@ -170,6 +170,9 @@ The Institute for Security Studies has conducted extensive research on police ac
 
 The RAARICLE™ diagnosis of safety and security reveals a pattern distinct from the other concurrent functions analysed in this series. Education, healthcare, and housing each suffer primarily from fragmentation (too many entities involved) and cross-sphere misalignment (elements scattered between national and provincial government). Safety and security suffers from the pathology at the other end of the spectrum: excessive centralisation combined with absent enforcement.
 
+
+![The structural root cause is a single national service trying to police nine provinces with one allocation model | Photo by Jolame Chirwa on Unsplash](/images/articles/ra-2-4-fixing-safety-and-security/img-2.webp)
+
 The root cause can be stated precisely: policing in South Africa is structured as a single national function in a country that requires three-sphere governance. The Constitution lists "police services" as a concurrent function in Schedule 4 Part A and provides for provincial policing oversight in Section 206. But the SAPS Act implemented a centralised model that concentrates all eight RAARICLE™ elements at the national level — responsibility, accountability, authority, resources, information, capability, legitimacy, and enforcement are all housed in or controlled by national SAPS. Provincial and municipal governments, despite being the spheres closest to the communities that experience crime, have been structurally excluded from policing governance.
 
 This centralisation creates four cascading failures.

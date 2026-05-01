@@ -190,6 +190,9 @@ This scorecard gives you a structured, evidence-based view of your province's pe
 
 The evidence assembled in this article leads to a conclusion that many governance practitioners and scholars have been reluctant to state directly: incremental improvement within the current provincial structure is necessary but insufficient. Better management, more training, stricter monitoring, and improved audit outcomes will make the system perform less badly — but they cannot overcome the structural constraints that the RAARICLE™ diagnosis has identified.
 
+
+![Patching individual provinces cannot fix a problem built into the constitutional architecture itself | Photo by Konstantin Dyadyun on Unsplash](/images/articles/ra-3-1-provincial-performance-crisis/img-3.webp)
+
 This is not a counsel of despair. It is a structural diagnosis that points to structural remedies.
 
 The management improvement agenda is important and should continue. Every province should strive for clean audit outcomes. Every provincial HOD should meet prescribed competency requirements. Every critical post should be filled with a qualified permanent incumbent. These are prerequisites for any governance system to function, and they represent the minimum standard of institutional capability.
