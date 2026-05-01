@@ -49,6 +49,9 @@ If you have read [Beyond GDP](/articles/hd-1-1-beyond-gdp), you understand the c
 
 Life expectancy at birth is the HDI's indicator for the health dimension, and South Africa's story in this dimension is unlike that of almost any other upper-middle-income country. It is a story of catastrophe, denial, belated response, and partial — only partial — recovery.
 
+
+![Public clinics carry the weight of measuring a country's average lifespan | Photo by Solen Feyissa on Unsplash](/images/articles/hd-1-2-south-africas-report-card/img-1.webp)
+
 South Africa's current life expectancy at birth is approximately 63 years (Stats SA *Mid-year Population Estimates 2023*). That number, by itself, tells you that something is seriously wrong. For a country with South Africa's income level, the expected life expectancy — based on the cross-country relationship between income and health outcomes — would be approximately 73 to 75 years. **South Africa's citizens die, on average, more than a decade earlier than citizens of countries at comparable income levels.** The *life expectancy deficit* is the single most damning statistic in South Africa's development profile.
 
 To understand how the country arrived at this point, you must understand the HIV/AIDS catastrophe — not just as a health crisis, but as a governance failure with consequences that continue to shape every dimension of South African development.

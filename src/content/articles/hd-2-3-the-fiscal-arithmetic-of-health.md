@@ -46,6 +46,9 @@ The argument is straightforward: economic growth is not a separate agenda from t
 
 Before diving into South Africa's fiscal specifics, it is worth understanding how the country's health spending compares to its peers. International comparison provides the benchmark against which to assess whether South Africa spends too little, too much, or the wrong amount in the wrong places. When you hear politicians claim that the government is spending generously on health, these comparisons are what you need to hold them to account.
 
+
+![Comparing health budgets across countries shows where the rand actually buys care | Photo by You Le on Unsplash](/images/articles/hd-2-3-the-fiscal-arithmetic-of-health/img-1.webp)
+
 Total health expenditure as a percentage of GDP is the most commonly used comparison metric. South Africa's approximately 8.5 percent places it above the average for upper-middle-income countries (approximately 6.2 percent), above the average for sub-Saharan Africa (approximately 5.2 percent), and close to the OECD average (approximately 8.8 percent). By this measure alone, South Africa is not a low-spending country. It devotes a substantial share of national income to health.
 
 But the composition of that spending is where South Africa becomes an outlier. In most countries at South Africa's income level, public health expenditure accounts for sixty to seventy percent of total health expenditure. In South Africa, public expenditure accounts for approximately forty-eight percent and private expenditure for approximately fifty-two percent. This private-heavy split is unusual for an upper-middle-income country and is characteristic of countries with highly unequal access to healthcare — the United States being the most prominent example among high-income countries, and South Africa being the most extreme example among middle-income countries.

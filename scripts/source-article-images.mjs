@@ -785,7 +785,7 @@ const ARTICLE_CONFIG = {
   // hd-1-2: South Africa scores 0.713 on HDI but collapses to 0.468 once inequality is factored in.
   "hd-1-2-south-africas-report-card": {
     queries: [
-      "community clinic waiting room",
+      "health clinic exterior building",
       "primary school classroom desks",
       "aerial city neighbourhoods view",
     ],
@@ -895,7 +895,7 @@ const ARTICLE_CONFIG = {
   // hd-2-3: SA spends 8.5% of GDP on health but splits it between two systems; growth is the binding constraint on universal coverage.
   "hd-2-3-the-fiscal-arithmetic-of-health": {
     queries: [
-      "public hospital corridor beds",
+      "hospital building exterior modern",
       "medical records files clipboard",
       "health worker training session",
     ],
@@ -1073,7 +1073,7 @@ const ARTICLE_CONFIG = {
     queries: [
       "parents school meeting classroom",
       "community policing forum gathering",
-      "ward committee residents discussion",
+      "community meeting hands together",
     ],
     placements: [
       {
@@ -1137,7 +1137,7 @@ const ARTICLE_CONFIG = {
   // ss-2-1: A data-driven walk through the criminal justice pipeline showing where cases are lost stage by stage.
   "ss-2-1-the-broken-pipeline": {
     queries: [
-      "police station reception desk",
+      "police station building exterior",
       "evidence box files shelves",
       "empty courtroom interior bench",
     ],
@@ -1159,8 +1159,8 @@ const ARTICLE_CONFIG = {
   // ss-2-2: Policing resources are distributed unequally across geography — your safety depends on your postcode.
   "ss-2-2-policing-a-divided-country": {
     queries: [
-      "south africa township aerial view",
       "rural dirt road landscape africa",
+      "south africa neighbourhood streets",
       "suburban gated community wall",
     ],
     placements: [
@@ -1314,7 +1314,7 @@ const ARTICLE_CONFIG = {
   "ss-3-4-sentencing-commission-and-structured-guidelines": {
     queries: [
       "scales of justice statue close",
-      "law book gavel desk study",
+      "judicial panel meeting room",
       "data analytics dashboard charts screen",
     ],
     placements: [
@@ -1379,7 +1379,7 @@ const ARTICLE_CONFIG = {
   // ss-4-2: The fiscal case for reform — the cost of impunity, recidivism, and lost investment exceeds the cost of fixing it.
   "ss-4-2-funding-the-delta": {
     queries: [
-      "south african rand banknotes stack",
+      "currency banknotes counted stack",
       "calculator spreadsheet budget desk",
       "treasury building government finance",
     ],
@@ -1403,7 +1403,7 @@ const ARTICLE_CONFIG = {
     queries: [
       "dashboard metrics charts monitor",
       "checklist clipboard pen office",
-      "citizen voting ballot box",
+      "voting booth ballot paper",
     ],
     placements: [
       {

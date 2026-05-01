@@ -82,6 +82,9 @@ The Institute for Security Studies (ISS) has conducted extensive analysis compar
 
 When a crime is reported, the station-level process determines whether it is registered as a case in the SAPS Crime Administration System (CAS). This sounds like a mechanical step — victim arrives, case is opened, case number is assigned — but in practice, the station is itself a filter that can prevent cases from entering the pipeline.
 
+
+![Most cases that survive reporting are filtered out at the station counter before a docket is opened | Photo by Juan Pablo on Unsplash](/images/articles/ss-2-1-the-broken-pipeline/img-1.webp)
+
 There is well-documented evidence that some SAPS stations discourage victims from opening cases. This can take various forms: officers telling victims that the matter is "not serious enough" for a case; advising victims to resolve the matter privately; requiring victims to return at a different time or with additional documentation; or simply refusing to open a case. For domestic violence matters, despite the clear obligations imposed by the Domestic Violence Act of 1998, studies have consistently found that some station-level officers fail to open cases, fail to serve protection orders, or actively discourage complainants from pursuing their cases.
 
 Even when cases are opened, the quality of the initial registration matters. The CAS system — SAPS's primary case management technology — has been widely criticised as outdated and inadequate. Case dockets are still largely paper-based, and the handoff between the initial case registration at the charge office and the detective assigned to investigate is a point where information is lost, dockets are mislaid, and cases begin their journey toward oblivion. The physical loss of case dockets — an almost unbelievable failure in a modern police service — remains a documented problem. When a docket is lost, the case effectively ceases to exist within the system.
