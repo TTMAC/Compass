@@ -74,6 +74,9 @@ What does passing this test look like? Consider South Africa's own Revenue Servi
 
 Responsibility is about who does the work. Accountability is about who answers when it goes wrong — or, crucially, who gets credit when it goes right. The test here is: is there one name on the performance agreement?
 
+
+![Accountability is the test that asks who actually answers when an outcome lands or fails to land | Photo by Haim Charbit on Unsplash](/images/articles/ra-1-1-eight-tests/img-1.webp)
+
 Accountability requires that a specific, identifiable person or entity bears consequences for outcomes. Not processes. Not inputs. Outcomes. It is not enough to say "the municipality submitted its Integrated Development Plan on time." The question is whether residents received reliable water, whether refuse was collected on schedule, whether the roads are maintained. Accountability links a named entity to a measurable result.
 
 In South African governance, accountability is often diffused to the point of meaninglessness. Consider basic education. The provincial Member of the Executive Council for Education is politically accountable for the province's matric results. That MEC signs a performance agreement with the Premier. But what does the MEC actually control? The curriculum is set nationally by the Department of Basic Education. Teacher salary scales and conditions of service are negotiated nationally at the Education Labour Relations Council. The South African Council for Educators handles professional registration and discipline nationally. Even teacher post provisioning — how many teachers each school gets — follows a nationally determined model. The provincial MEC is accountable for an outcome that depends overwhelmingly on inputs controlled by national entities.
@@ -129,6 +132,9 @@ What does passing this test look like? Consider Rand Water, the bulk water utili
 ## Test 5: Information — Who Has Visibility into Performance?
 
 You cannot manage what you cannot see. The fifth test asks: can the responsible entity see real-time performance data for everything it operates?
+
+
+![Information is the test that asks whether the people responsible can see what is actually happening | Photo by Justin Morgan on Unsplash](/images/articles/ra-1-1-eight-tests/img-2.webp)
 
 Information, in the RAARICLE™ framework, is not about having a monitoring and evaluation unit or publishing an annual report. It is about operational visibility — the ability to know, in real time or near-real time, whether the function is performing as designed. Can the water services authority see today's water quality readings from every treatment plant? Can the provincial education department see this term's learner attendance and assessment data from every school? Can the municipality see which refuse collection routes were completed today and which were missed?
 

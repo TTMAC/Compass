@@ -47,6 +47,9 @@ When you walk into a public clinic with a cough that will not clear, a child wit
 
 Start at the national level. The National Department of Health sets health policy for the country, determines the Essential Medicines List (which prescribes exactly which medicines should be available at each level of care), publishes clinical guidelines and treatment protocols, and administers several of the largest conditional grants in the Division of Revenue. The Comprehensive HIV/AIDS Grant — approximately R29 billion in 2024/25 — funds antiretroviral treatment, prevention of mother-to-child transmission, and HIV testing across all provinces. The Health Facility Revitalisation Grant funds clinic and hospital infrastructure construction and rehabilitation. The National Health Insurance Indirect Grant funds NHI pilot activities. Each grant comes with its own conditions, reporting requirements, and spending timelines.
 
+
+![Primary healthcare is delivered through a chain that runs from national policy to the clinic floor where care meets the patient | Photo by Cohen Berg on Unsplash](/images/articles/ra-2-2-fixing-primary-healthcare/img-1.webp)
+
 The South African Health Products Regulatory Authority (SAHPRA) regulates the registration and safety of medicines and medical devices. The Office of Health Standards Compliance (OHSC) is mandated to inspect health facilities and enforce compliance with national quality standards — though, as we will see, its enforcement capacity falls far short of its mandate. These national bodies set the regulatory environment within which provincial health systems operate.
 
 Move to the provincial level. Each of the nine provincial departments of health is the operational engine of healthcare delivery. The provincial department employs the doctors, nurses, pharmacists, and allied health professionals who staff hospitals and clinics. It manages the provincial pharmaceutical depot — the warehousing and distribution system that supplies medicines from manufacturers to facilities. It manages district health services, which are the primary vehicle for delivering primary healthcare to communities. The provincial head of department is the accounting officer, responsible for the department's financial management and compliance with the PFMA. The provincial MEC for Health is the political principal, accountable to the Premier and the provincial legislature for health outcomes.
@@ -153,6 +156,9 @@ Healthcare enforcement scores a 1 — critical failure. The system can identify 
 
 The RAARICLE™ diagnosis reveals that primary healthcare governance suffers from two compounding failure patterns: **fragmentation** and **misalignment**.
 
+
+![The root cause is the gap between facility-level responsibility and the procurement authority that sits a province away | Photo by Árpád Czapp on Unsplash](/images/articles/ra-2-2-fixing-primary-healthcare/img-2.webp)
+
 Fragmentation is the primary pattern. The PHC delivery chain involves too many entities — NDoH, SAHPRA, provincial health departments, provincial pharmaceutical depots, district management teams, facility managers, community health workers employed through multiple contractual arrangements, NPOs, and now potentially the NHI Fund. No single entity owns the journey from policy to patient outcome. The medicine supply chain alone involves at least four entities (NDoH for the Essential Medicines List, SAHPRA for regulation, national or provincial procurement for contracting, and the provincial depot for distribution) before a medicine reaches the facility manager's shelf.
 
 Misalignment compounds the fragmentation. The facility manager — the person closest to the patient — has the least authority in the system. The facility manager cannot procure medicines, cannot hire staff, cannot commission repairs, and cannot adjust service models without approvals from entities further up the chain. Authority is concentrated at provincial and national levels, while delivery happens at facility level. The entity accountable for patient care does not control the inputs that determine whether patients receive care.
@@ -164,6 +170,9 @@ Any healthcare financing reform — whether NHI in its current form or an altern
 ## The Reform Blueprint
 
 The structural prescription for primary healthcare follows the same principle as education: authority must be co-located with accountability at the point of delivery. But healthcare has a complexity that education does not — the medicine supply chain, which introduces a logistics dimension that requires specialised institutional capacity. The reform blueprint must address both the governance architecture and the supply chain architecture simultaneously.
+
+
+![A working reform pushes essential procurement authority down to the facility while keeping policy at national level | Photo by JESHOOTS.COM on Unsplash](/images/articles/ra-2-2-fixing-primary-healthcare/img-3.webp)
 
 ### The Core Design: District-Based PHC Authorities
 

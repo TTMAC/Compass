@@ -44,6 +44,9 @@ If you want to understand what maximum institutional fragmentation looks like �
 
 In [Why South Africa's Institutions Keep Failing](/articles/ra-1-2-why-institutions-fail), fragmentation was identified as the first of five structural failure patterns. Human settlements is where that pattern reaches its most extreme expression. The education value chain is fragmented across two spheres. The healthcare value chain involves multiple entities but at least has a single facility as the point of delivery. The housing value chain involves at least six distinct entities across all three spheres of government, plus private sector developers, a regulatory body, and a deeds registration system — and the output is not a recurring service but a once-off physical product that must be planned, financed, built, inspected, and legally transferred. Every step requires a different entity. Every handoff creates a gap. And the beneficiary at the end of the chain — the person who has been on a waiting list for years or decades — bears the full cost of every gap.
 
+
+![A single house passes through four different entities before a family receives the keys | Photo by Moustafa Neamatalla on Unsplash](/images/articles/ra-2-3-fixing-human-settlements/img-1.webp)
+
 Trace the chain from start to finish. The national Department of Human Settlements sets the policy framework for subsidised housing. The DHS determines the subsidy quantum — the amount allocated per housing unit under the various subsidy programmes (currently ranging from approximately R160,000 to R220,000 depending on the programme and location). The DHS publishes the National Housing Code, which prescribes the norms and standards for subsidised housing — minimum house size (40 square metres), construction specifications, and environmental standards. The DHS administers the two main conditional grants: the Human Settlements Development Grant (HSDG), which funds housing delivery in all provinces and non-metropolitan municipalities, and the Urban Settlements Development Grant (USDG), which provides integrated infrastructure funding to metropolitan municipalities.
 
 Move to the provincial level. Each provincial department of human settlements manages the housing pipeline within its province. The provincial department receives the HSDG allocation, approves housing project applications from municipalities or developers, appoints or approves the developers who will construct the houses, manages the disbursement of subsidy funding to developers against construction milestones, and is supposed to inspect completed houses before approving final payment. The provincial MEC for Human Settlements is politically accountable for housing delivery targets in the province.
@@ -152,6 +155,9 @@ Human settlements scores 1 — critical failure — on both responsibility and e
 
 The RAARICLE™ diagnosis confirms what the value chain mapping suggested: human settlements is a case of **maximum fragmentation**. Every RAARICLE™ element sits in a different institution. Responsibility is scattered across six or more entities. Accountability is diffused across three spheres. Authority is split between the municipality (land), the province (project management), and national government (policy and funding). Resources flow through different channels for different components of the same project. Information is fragmented across incompatible systems. Capability is insufficient at every level. And enforcement — the element that should hold the chain together — is virtually absent.
 
+
+![The root cause is fragmentation — no single entity owns the project from land assembly through to occupation | Photo by Filiz Elaerts on Unsplash](/images/articles/ra-2-3-fixing-human-settlements/img-2.webp)
+
 **This is not a coordination problem.** Coordination assumes that the institutional architecture is sound and the entities simply need to communicate better. The RAARICLE™ diagnosis reveals that *the architecture itself is the problem*. The housing value chain was designed — through the Housing Act, the Division of Revenue, and the functional assignments in the Constitution — in a way that distributes every element of governance across different institutions. No amount of coordination meetings, intergovernmental forums, or shared monitoring frameworks can overcome a design that structurally prevents end-to-end ownership.
 
 The Level 2 metropolitan accreditation model provides the evidence. Metros with Level 2 accreditation manage the full housing delivery process internally — from project identification and developer appointment through construction management and subsidy disbursement. They still depend on the Deeds Registry for title registration, but the core delivery chain is consolidated in a single entity. While metro housing delivery is far from perfect, the metros' ability to manage the process end-to-end eliminates the inter-sphere handoff problems that plague non-metropolitan delivery. The accreditation model is proof of concept that consolidation works.
@@ -159,6 +165,9 @@ The Level 2 metropolitan accreditation model provides the evidence. Metros with 
 ## The Reform Blueprint
 
 The structural prescription is clear: consolidate the housing delivery chain into a single institutional owner. The entity that identifies the land must also manage the construction, ensure the quality, and register the title deed. End-to-end ownership is not a luxury — it is the minimum design requirement for a function this complex.
+
+
+![A working reform consolidates the chain under a single accountable delivery agent for each project | Photo by Tommy on Unsplash](/images/articles/ra-2-3-fixing-human-settlements/img-3.webp)
 
 ### The Core Design: Municipal Housing Delivery Agencies
 

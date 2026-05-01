@@ -1420,6 +1420,380 @@ const ARTICLE_CONFIG = {
       },
     ],
   },
+  // ra-1-1: Introduces the eight RAARICLE™ governance tests as plain-language tests citizens can apply to any government function.
+  "ra-1-1-eight-tests": {
+    queries: [
+      "executive signing official document",
+      "performance dashboard analytics screen",
+      "team meeting circle workspace",
+    ],
+    placements: [
+      {
+        afterH2: "Test 2: Accountability — Who Answers for the Outcome?",
+        caption: "Accountability is the test that asks who actually answers when an outcome lands or fails to land",
+      },
+      {
+        afterH2: "Test 5: Information — Who Has Visibility into Performance?",
+        caption: "Information is the test that asks whether the people responsible can see what is actually happening",
+      },
+      {
+        afterH2: "The Co-Location Principle",
+        caption: "Co-location is the principle that the same body should hold responsibility, accountability and authority for one function",
+      },
+    ],
+  },
+  // ra-1-2: Maps the five recurring failure patterns — fragmentation, misalignment, absence, conflation, capture — across SA's governance.
+  "ra-1-2-why-institutions-fail": {
+    queries: [
+      "office workers many desks busy",
+      "scales of justice balance close",
+      "dominos falling chain reaction",
+    ],
+    placements: [
+      {
+        afterH2: "Pattern 1: Fragmentation — Too Many Cooks",
+        caption: "Fragmentation occurs when responsibility for one function is split so many ways that nobody is left in charge",
+      },
+      {
+        afterH2: "Pattern 4: Conflation — Referee and Player on the Same Team",
+        caption: "Conflation occurs when the same entity is asked to be both player and referee inside the same function",
+      },
+      {
+        afterH2: "The Compounding Effect",
+        caption: "When several patterns stack on the same function, their effects compound and the function collapses",
+      },
+    ],
+  },
+  // ra-2-1: A RAARICLE™ diagnosis of the DBE-to-school delivery chain — why provincial MECs are accountable for results they cannot control.
+  "ra-2-1-fixing-basic-education": {
+    queries: [
+      "school classroom desks empty",
+      "education department building exterior",
+      "teacher training workshop session",
+    ],
+    placements: [
+      {
+        afterH2: "The Education Value Chain",
+        caption: "Basic education is delivered through a chain that runs from national policy through provincial departments to the classroom",
+      },
+      {
+        afterH2: "The Root Cause",
+        caption: "The root cause is structural: accountability sits with provinces while the authority to act sits in national policy",
+      },
+      {
+        afterH2: "The Reform Blueprint",
+        caption: "A working reform realigns authority and accountability so the entity answering for results can also act on them",
+      },
+    ],
+  },
+  // ra-2-2: A RAARICLE™ diagnosis of the NDoH-to-clinic chain — why facility managers cannot procure essential medicines and how to rebuild it.
+  "ra-2-2-fixing-primary-healthcare": {
+    queries: [
+      "clinic exterior small building",
+      "pharmacy medicine shelves stocked",
+      "nurse uniform stethoscope clinic",
+    ],
+    placements: [
+      {
+        afterH2: "The Healthcare Value Chain",
+        caption: "Primary healthcare is delivered through a chain that runs from national policy to the clinic floor where care meets the patient",
+      },
+      {
+        afterH2: "The Root Cause",
+        caption: "The root cause is the gap between facility-level responsibility and the procurement authority that sits a province away",
+      },
+      {
+        afterH2: "The Reform Blueprint",
+        caption: "A working reform pushes essential procurement authority down to the facility while keeping policy at national level",
+      },
+    ],
+  },
+  // ra-2-3: A RAARICLE™ diagnosis of the most fragmented value chain in SA government — four entities per housing project, no single owner.
+  "ra-2-3-fixing-human-settlements": {
+    queries: [
+      "rdp housing development construction",
+      "housing site building blocks south africa",
+      "blueprint drawing plans table",
+    ],
+    placements: [
+      {
+        afterH2: "The Human Settlements Value Chain",
+        caption: "A single house passes through four different entities before a family receives the keys",
+      },
+      {
+        afterH2: "The Root Cause",
+        caption: "The root cause is fragmentation — no single entity owns the project from land assembly through to occupation",
+      },
+      {
+        afterH2: "The Reform Blueprint",
+        caption: "A working reform consolidates the chain under a single accountable delivery agent for each project",
+      },
+    ],
+  },
+  // ra-2-4: A RAARICLE™ diagnosis of the SAPS-to-courtroom delivery chain — why centralised policing fails across nine provinces.
+  "ra-2-4-fixing-safety-and-security": {
+    queries: [
+      "police vehicle patrol street",
+      "south africa courtroom interior",
+      "officer uniform back walking",
+    ],
+    placements: [
+      {
+        afterH2: "The Criminal Justice Value Chain",
+        caption: "Safety is produced by a chain that runs from prevention to investigation to prosecution to corrections",
+      },
+      {
+        afterH2: "The Structural Root Cause",
+        caption: "The structural root cause is a single national service trying to police nine provinces with one allocation model",
+      },
+      {
+        afterH2: "The Reform Blueprint",
+        caption: "A working reform splits the function into national, provincial and metro tiers, each with its own accountability",
+      },
+    ],
+  },
+  // ra-3-1: A full RAARICLE™ sphere-level diagnosis — why SA's constitutional design creates systematic provincial underperformance.
+  "ra-3-1-provincial-performance-crisis": {
+    queries: [
+      "provincial government building south africa",
+      "audit report stack documents",
+      "map south africa provinces regions",
+    ],
+    placements: [
+      {
+        afterH2: "The Structural Problem",
+        caption: "Provinces inherit responsibility for outcomes without the authority or resources to deliver them",
+      },
+      {
+        afterH2: "The Evidence",
+        caption: "Auditor-General reports and service delivery indices show the underperformance is sphere-wide, not province-specific",
+      },
+      {
+        afterH2: "The Case for Structural Reform",
+        caption: "Patching individual provinces cannot fix a problem built into the constitutional architecture itself",
+      },
+    ],
+  },
+  // ra-3-2: How to resolve the authority-accountability split between national policy and provincial delivery on Schedule 4 functions.
+  "ra-3-2-making-concurrent-functions-work": {
+    queries: [
+      "two hands shaking agreement",
+      "policy document signature pen",
+      "intergovernmental meeting officials table",
+    ],
+    placements: [
+      {
+        afterH2: "The Concurrent Function Problem",
+        caption: "When two spheres share a function, neither holds the full set of elements needed to deliver it",
+      },
+      {
+        afterH2: "Three Models for Concurrent Functions",
+        caption: "Three working models — delegated authority, joint authority, and split authority — each fix the gap differently",
+      },
+      {
+        afterH2: "The Reform Blueprint",
+        caption: "A working reform names the model for each Schedule 4 function rather than leaving the split implicit",
+      },
+    ],
+  },
+  // ra-3-3: Why Section 100 interventions in provinces have mixed results — and how to design automatic enforcement triggers.
+  "ra-3-3-when-provinces-fail": {
+    queries: [
+      "warning light dashboard alert",
+      "government meeting boardroom serious",
+      "trigger lever switch industrial",
+    ],
+    placements: [
+      {
+        afterH2: "Why Interventions Fail",
+        caption: "Section 100 interventions are reactive, late, and rarely accompanied by the structural reset that would prevent recurrence",
+      },
+      {
+        afterH2: "Designing Automatic Enforcement Triggers",
+        caption: "Automatic triggers tied to leading indicators move enforcement from political judgement to predictable rule",
+      },
+      {
+        afterH2: "From Intervention to Prevention",
+        caption: "The shift is from rescuing failed provinces to preventing the conditions in which provinces fail",
+      },
+    ],
+  },
+  // ra-4-1: A RAARICLE™ diagnosis of the WSA/WSP model — the regulator-provider conflation and a structural blueprint for water governance.
+  "ra-4-1-fixing-water-and-sanitation": {
+    queries: [
+      "water tap dripping close up",
+      "water treatment plant exterior",
+      "sanitation pipes infrastructure construction",
+    ],
+    placements: [
+      {
+        afterH2: "The Water Value Chain",
+        caption: "Water and sanitation move through a chain that runs from catchment to bulk supply to household tap and back through treatment",
+      },
+      {
+        afterH2: "The Root Cause",
+        caption: "The root cause is conflation — the same municipality is asked to be both regulator and provider of water services",
+      },
+      {
+        afterH2: "The Reform Blueprint",
+        caption: "A working reform separates the regulator from the provider so accountability for quality is independent of operations",
+      },
+    ],
+  },
+  // ra-4-2: A RAARICLE™ diagnosis of municipal electricity — the cross-subsidy trap, NERSA tariff constraints, and independent power procurement.
+  "ra-4-2-fixing-electricity": {
+    queries: [
+      "electricity power lines pylons",
+      "electrical substation transformer industrial",
+      "solar panels rooftop installation",
+    ],
+    placements: [
+      {
+        afterH2: "The Electricity Value Chain",
+        caption: "Municipal electricity runs from generation through transmission to the meter on the wall and the tariff on the bill",
+      },
+      {
+        afterH2: "The Root Cause",
+        caption: "The root cause is the cross-subsidy trap — electricity revenue is structurally diverted to fund other municipal functions",
+      },
+      {
+        afterH2: "The Reform Blueprint",
+        caption: "A working reform unbundles distribution, opens procurement, and ring-fences electricity revenue from cross-subsidy",
+      },
+    ],
+  },
+  // ra-4-3: A RAARICLE™ diagnosis of waste management and municipal roads — the two most visible municipal service delivery failures.
+  "ra-4-3-fixing-waste-and-roads": {
+    queries: [
+      "rubbish refuse truck collection",
+      "pothole road damage close",
+      "municipal worker maintenance road",
+    ],
+    placements: [
+      {
+        afterH2: "Waste Management: The Value Chain and Diagnosis",
+        caption: "Waste collection runs from kerbside bin to transfer station to landfill — and breaks when any link fails",
+      },
+      {
+        afterH2: "Municipal Roads and Stormwater: The Value Chain and Diagnosis",
+        caption: "Roads and stormwater fail incrementally; the visible damage is the lagging indicator of an underfunded maintenance cycle",
+      },
+      {
+        afterH2: "The Reform Blueprint",
+        caption: "A working reform funds maintenance cycles directly rather than treating maintenance as a residual budget item",
+      },
+    ],
+  },
+  // ra-4-4: A cross-cutting RAARICLE™ diagnosis of the capability and information gaps that undermine all municipal functions.
+  "ra-4-4-building-municipal-capability": {
+    queries: [
+      "training classroom adults learning",
+      "data spreadsheet computer screen",
+      "city council chamber meeting",
+    ],
+    placements: [
+      {
+        afterH2: "The Capability Crisis in Numbers",
+        caption: "Vacancy rates, qualification gaps and turnover data show the capability shortfall is structural, not cyclical",
+      },
+      {
+        afterH2: "The Information Black Hole",
+        caption: "Most municipalities cannot produce real-time performance data on their own functions",
+      },
+      {
+        afterH2: "The Reform Blueprint for Capability",
+        caption: "A working reform invests in a permanent municipal cadre with portable qualifications and protected tenure",
+      },
+    ],
+  },
+  // ra-5-1: Maps each proposed RAARICLE™ reform to its legal pathway — constitutional amendment, new legislation, or doable today.
+  "ra-5-1-constitutional-vs-legislative": {
+    queries: [
+      "south africa constitution book document",
+      "parliament legislation bills paper",
+      "legal gavel law desk",
+    ],
+    placements: [
+      {
+        afterH2: "The Three Legal Pathways",
+        caption: "Three pathways move a reform from idea to effect — administrative action, new legislation, or constitutional amendment",
+      },
+      {
+        afterH2: "What Can Be Done Tomorrow",
+        caption: "A surprising share of the reform programme can begin immediately under existing constitutional and legislative authority",
+      },
+      {
+        afterH2: "A Sequenced Legal Reform Programme",
+        caption: "Sequencing turns a long list of reforms into a programme that builds on each prior step rather than competing with it",
+      },
+    ],
+  },
+  // ra-5-2: The five capture vectors that undermine SA institutions — and the structural defences that make capture architecturally difficult.
+  "ra-5-2-anti-capture-architecture": {
+    queries: [
+      "fortress wall stone defence",
+      "padlock chain security close",
+      "audit document ledger desk",
+    ],
+    placements: [
+      {
+        afterH2: "What Capture Actually Means",
+        caption: "Capture is the structural condition of an institution serving a private interest while presenting as a public one",
+      },
+      {
+        afterH2: "Vector 1: Political Capture",
+        caption: "Political capture occurs when appointment power is used to install loyalty rather than competence",
+      },
+      {
+        afterH2: "Designing Capture-Resistant Institutions",
+        caption: "Capture-resistant design separates appointment from operation, and embeds independent audit at every layer",
+      },
+    ],
+  },
+  // ra-5-3: Why SA needs a single legislated reform programme — and how RAARICLE™ builds a coherent, measurable package across all pillars.
+  "ra-5-3-the-integrated-reform-programme": {
+    queries: [
+      "puzzle pieces fitting together",
+      "project gantt chart planning",
+      "cabinet meeting officials south africa",
+    ],
+    placements: [
+      {
+        afterH2: "The Case for a Legislated Reform Structure",
+        caption: "A single legislated structure forces the reforms to fit together rather than compete for attention",
+      },
+      {
+        afterH2: "The Governance Reform Programme Act",
+        caption: "A Governance Reform Programme Act gives the integrated package a legal home with measurable obligations",
+      },
+      {
+        afterH2: "Sequencing the Integrated Programme",
+        caption: "Sequencing decides which reforms must land first to make later reforms possible at all",
+      },
+    ],
+  },
+  // ra-5-4: How ordinary citizens can use RAARICLE™ diagnostics to hold government accountable and become advocates for structural reform.
+  "ra-5-4-from-citizen-to-reformer": {
+    queries: [
+      "person reading newspaper engaged",
+      "data laptop research workspace",
+      "community advocate microphone speaking",
+    ],
+    placements: [
+      {
+        afterH2: "Step 2: Run the Eight Tests",
+        caption: "Running the eight tests on a function you care about turns frustration into a structured diagnosis",
+      },
+      {
+        afterH2: "Step 3: Find the Data",
+        caption: "Most of the data needed for a citizen diagnosis already exists — in audits, scorecards, and freely available reports",
+      },
+      {
+        afterH2: "Step 6: Use the Channels That Exist",
+        caption: "Existing channels — submissions, ward committees, courts, the press — give a structured diagnosis somewhere to land",
+      },
+    ],
+  },
 };
 
 /**

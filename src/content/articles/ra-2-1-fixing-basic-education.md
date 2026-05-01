@@ -43,6 +43,9 @@ Basic education touches more South Africans more directly than any other governm
 
 In the 2023 National Senior Certificate examinations, the national pass rate was 82.9 per cent. That figure sounds respectable until you examine what it conceals. **The pass threshold for a subject is 30 per cent** — a level that would constitute failure in most education systems globally. **Only 37.5 per cent of candidates achieved a bachelor's pass** — the minimum requirement for university entrance. The Progress in International Reading Literacy Study (PIRLS) has consistently shown that *roughly 81 per cent of South African Grade 4 learners cannot read for meaning*. In TIMSS 2019 — the most recent cycle for which South African results are available at the time of writing — South African Grade 5 learners scored an average of 374 in mathematics, against an international centre point of 500. These outcomes are not the result of insufficient money. **They are the result of a broken delivery chain.**
 
+
+![Basic education is delivered through a chain that runs from national policy through provincial departments to the classroom | Photo by Vida Huang on Unsplash](/images/articles/ra-2-1-fixing-basic-education/img-1.webp)
+
 To understand why education fails, you need to trace the value chain from national policy to the classroom — every institution, every handoff, every point where the chain can break. What you will find is not a single chain but a web of overlapping mandates, divided authorities, and fragmented responsibilities that no institutional designer would create from scratch.
 
 Start at the national level. The Department of Basic Education sets the curriculum (the Curriculum and Assessment Policy Statements — CAPS — which prescribe what is taught in every grade, in every subject, in every school). DBE also determines the norms and standards for school funding through the National Norms and Standards for School Funding, which classify schools into wealth quintiles and prescribe per-learner funding allocations. DBE sets the assessment framework, administers the National Senior Certificate examination, and publishes matric results. Through the Employment of Educators Act, DBE determines the conditions of employment for all public school teachers — a critical piece of authority that sits at national level even though the employers are provincial departments.
@@ -151,6 +154,9 @@ Education governance scores a 1 on enforcement — critical failure. The system 
 
 The RAARICLE™ diagnosis reveals education's primary failure pattern: **cross-sphere misalignment**. The pattern identified in [Why South Africa's Institutions Keep Failing](/articles/ra-1-2-why-institutions-fail) as Pattern 2 — the wrong entity holds the wrong element — is the dominant structural flaw in basic education governance.
 
+
+![The root cause is structural: accountability sits with provinces while the authority to act sits in national policy | Photo by Andy Feliciotti on Unsplash](/images/articles/ra-2-1-fixing-basic-education/img-2.webp)
+
 Authority sits primarily at the national level. DBE controls the curriculum. The ELRC controls salary bargaining. The Employment of Educators Act sets employment conditions. National Treasury controls the conditional grant framework. These are not peripheral inputs — they are the critical levers that determine whether education succeeds or fails.
 
 Delivery sits at the provincial level. Provincial departments employ the teachers, manage the schools, maintain the infrastructure, and support the districts. The province is where the work happens.
@@ -164,6 +170,9 @@ The misalignment is compounded by fragmentation (too many entities in the value 
 ## The Reform Blueprint
 
 The diagnosis points to a clear structural prescription: authority must be co-located with accountability. The entity that is accountable for educational outcomes must control the inputs that determine those outcomes. There are three possible approaches, and each must be evaluated against all eight RAARICLE™ tests.
+
+
+![A working reform realigns authority and accountability so the entity answering for results can also act on them | Photo by maks_d on Unsplash](/images/articles/ra-2-1-fixing-basic-education/img-3.webp)
 
 ### Option A: Full Devolution
 
