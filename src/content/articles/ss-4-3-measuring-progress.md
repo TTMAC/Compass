@@ -69,6 +69,9 @@ Dr Anine Kriegler, researcher at the Centre of Criminology at the University of 
 
 The systems theory framework developed across this series identifies 13 distinct outcomes that a functional criminal justice system must produce. These 13 outcomes span two clusters — Citizen Safety and Security (Outcomes 1 through 6) and Criminal Justice and Correctional Services (Outcomes 7 through 13) — and together constitute a complete, mutually exclusive, collectively exhaustive (MECE) description of system performance. A National Law and Order Scorecard built on these 13 outcomes would replace the crime statistics ritual with a comprehensive performance measurement framework.
 
+
+![Thirteen outcomes — covering reporting, conviction, attrition, remand, and trust — define what justice actually delivers | Photo by Luke Chesser on Unsplash](/images/articles/ss-4-3-measuring-progress/img-1.webp)
+
 Here is what each outcome measures and how.
 
 **Outcome 1: Crime Incidence and Deterrence Effect.** This is the one outcome where crime statistics are partially relevant — but only when weighted by victimisation survey data. The scorecard would track crime rate trends not through SAPS data alone but through a composite indicator that combines SAPS reported crime with Stats SA Victims of Crime Survey estimates of actual crime. This composite provides a more accurate measure of whether crime is actually declining (not just being reported less) and whether the deterrent effect of the criminal justice system is operating.
@@ -118,6 +121,9 @@ The 13 individual outcomes do not operate in isolation. A functional criminal ju
 ## The Digital Infrastructure
 
 The scorecard is only as good as the data that feeds it. Currently, that data does not exist in an integrated, accessible form. SAPS has its Crime Administration System (CAS). The NPA has its case management systems. The courts have their roll management systems. DCS has its inmate management system. These systems do not talk to each other. A case that enters the system through a SAPS station and proceeds through prosecution, trial, sentencing, incarceration, and eventual release is tracked in multiple disconnected databases — if it is tracked at all. There is no unified view of a case's journey through the system, and therefore no way to measure the system's end-to-end performance.
+
+
+![A live data spine would let the scorecard update in something close to real time rather than annually | Photo by Zulfugar Karimov on Unsplash](/images/articles/ss-4-3-measuring-progress/img-2.webp)
 
 The Integrated Criminal Justice Information System (ICJS) was supposed to solve this. Proposed in the late 1990s, the ICJS was envisioned as a unified digital platform connecting SAPS, the NPA, the courts, and DCS — allowing a case to be tracked from report through final disposition and a person to be tracked from arrest through release. The concept was sound. **The implementation has been a decades-long failure. Multiple tender processes, multiple technology vendors, multiple project restarts, and hundreds of millions of rands spent — and South Africa still does not have a functional integrated criminal justice information system.**
 
