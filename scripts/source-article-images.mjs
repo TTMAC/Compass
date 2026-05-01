@@ -1314,7 +1314,7 @@ const ARTICLE_CONFIG = {
   "ss-3-4-sentencing-commission-and-structured-guidelines": {
     queries: [
       "scales of justice statue close",
-      "judicial panel meeting room",
+      "meeting boardroom conference table",
       "data analytics dashboard charts screen",
     ],
     placements: [
@@ -1403,7 +1403,7 @@ const ARTICLE_CONFIG = {
     queries: [
       "dashboard metrics charts monitor",
       "checklist clipboard pen office",
-      "voting booth ballot paper",
+      "report card grades document",
     ],
     placements: [
       {

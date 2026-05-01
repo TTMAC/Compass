@@ -79,6 +79,9 @@ This is not a technocratic exercise. It is a constitutional one. The South Afric
 
 The reform proposes a permanent South African Sentencing Commission — an independent body, appointed through the judiciary, mandated to develop, publish, and maintain structured sentencing guidelines for all criminal offences. The model draws on the US Sentencing Commission (for institutional design) and China's structured sentencing grids (for the systematic approach to structuring discretion), adapted to South Africa's constitutional value framework.
 
+
+![A standing commission would issue structured guidelines that judges apply with reasoned departures | Photo by Jakub Żerdzicki on Unsplash](/images/articles/ss-3-4-sentencing-commission-and-structured-guidelines/img-2.webp)
+
 The Commission would develop *presumptive sentencing bands* for each offence category. A presumptive band defines an expected sentencing range — say, three to five years for a first-time robbery without aggravating circumstances. A magistrate or judge can sentence within the band without providing reasons beyond the normal sentencing considerations. **A sentence below or above the band requires written reasons, creating an auditable record that promotes consistency without eliminating discretion.**
 
 The sentencing bands would be determined by multiple inputs: the crime type and its statutory maximum, the circumstances of the offence (aggravating and mitigating), the offender's prior record, the impact on the victim (as established through victim impact statements or restorative justice processes), and the offender's rehabilitation prospects (as assessed through pre-sentencing reports from probation officers). Each input would be structured — not as a mechanical formula, but as a framework that guides the judicial officer through a consistent analytical process.

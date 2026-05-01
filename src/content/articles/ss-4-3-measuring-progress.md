@@ -155,6 +155,9 @@ The Authority would also publish the raw data — not just summary statistics, b
 
 You do not need to wait for a Criminal Justice Statistics Authority to be established. You can start measuring your local criminal justice environment now, using data that is already publicly available — if you know where to look.
 
+
+![Citizens need a version of the scorecard they can read at a glance and use to hold representatives to account | Photo by Mika Baumeister on Unsplash](/images/articles/ss-4-3-measuring-progress/img-3.webp)
+
 :::framework
 **The Citizen's Scorecard**
 
