@@ -119,7 +119,7 @@ The Institute for Security Studies (ISS) has examined the investigation-prosecut
 
 ## Why This Is Especially Effective for GBV Cases
 
-The investigating magistrate model would be particularly transformative for gender-based violence cases — the crime category that [The System's Most Catastrophic Failure](/articles/ss-2-4-the-systems-most-catastrophic-failure) identified as the system's most devastating point of failure.
+The investigating magistrate model would be particularly transformative for gender-based violence cases — the crime category that [The System's Most Catastrophic Failure](/articles/ss-2-4-the-systems-most-catastrophic-failure) identified as the system's gravest point of failure.
 
 GBV cases are characterised by specific investigation challenges: survivors who are traumatised and may be reluctant to provide detailed statements; forensic evidence that is time-sensitive and requires careful handling; perpetrators who are often known to the survivor, creating risks of intimidation and evidence tampering; and institutional cultures within SAPS that treat GBV as a lower priority. The current system fails GBV survivors at the investigation stage because detectives are overloaded, forensic processing is delayed, and the quality of evidence collection is inconsistent.
 
@@ -149,7 +149,7 @@ The first objection is cost. Creating a new cadre of JIOs requires recruitment, 
 
 The second objection is the training pipeline. Where would South Africa find hundreds of legally trained JIOs? The answer is that the training pipeline already exists: South African law faculties produce thousands of LLB graduates annually, and the candidate attorney and pupil advocate systems provide practical legal training. A specialised JIO training programme — combining legal qualification with investigation methodology, forensic awareness, and judicial ethics — could be developed within existing educational infrastructure. The Scorpions demonstrated that South Africa can build a cadre of integrated investigator-prosecutors from scratch within a few years.
 
-The third objection is the risk of creating another bureaucratic layer. This concern is valid but manageable. The JIO model should not apply to all cases — it should be reserved for serious and complex matters (roughly Track C and Track D in the case-flow triage system proposed in the next article). Routine cases would continue to be investigated by SAPS detectives and prosecuted by NPA prosecutors through existing channels. The JIO layer is added for the cases where the current system fails most catastrophically — complex investigations that require sustained attention, legal expertise, and quality assurance that an overloaded detective cannot provide.
+The third objection is the risk of creating another bureaucratic layer. This concern is valid but manageable. The JIO model should not apply to all cases — it should be reserved for serious and complex matters (roughly Track C and Track D in the case-flow triage system proposed in the next article). Routine cases would continue to be investigated by SAPS detectives and prosecuted by NPA prosecutors through existing channels. The JIO layer is added for the cases where the current system fails most severely — complex investigations that require sustained attention, legal expertise, and quality assurance that an overloaded detective cannot provide.
 
 ## Sequencing and Oversight: How the JIO Corps Would Be Built
 

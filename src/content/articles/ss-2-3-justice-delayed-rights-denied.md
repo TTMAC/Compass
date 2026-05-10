@@ -91,7 +91,7 @@ The Judicial Inspectorate for Correctional Services (JICS), the independent body
 
 ## The Court Delays That Perpetuate the Crisis
 
-The remand detention crisis is perpetuated by the same court delays documented in [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) — but from the perspective of the person trapped inside the system, those delays take on a different and more devastating character.
+The remand detention crisis is perpetuated by the same court delays documented in [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) — but from the perspective of the person trapped inside the system, those delays take on a different and more punishing character.
 
 
 ![Postponements stack on postponements as the same case returns to the same court for another delay | Photo by Tingey Injury Law Firm on Unsplash](/images/articles/ss-2-3-justice-delayed-rights-denied/img-2.webp)

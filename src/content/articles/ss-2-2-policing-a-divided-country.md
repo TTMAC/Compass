@@ -59,7 +59,7 @@ Vehicle availability follows the same pattern. Policing in South Africa requires
 Forensic access is perhaps the most extreme inequality. SAPS forensic laboratories are located in major centres — Pretoria, Cape Town, Durban. Officers at rural stations who need forensic processing — DNA analysis, ballistics, fingerprint comparison — must send physical evidence to these distant laboratories. The logistics of transporting evidence across hundreds of kilometres, maintaining chain of custody, and awaiting results from already-backlogged laboratories mean that forensic evidence is effectively unavailable for the vast majority of cases investigated at rural stations. A station in Limpopo investigating a sexual assault must send DNA evidence to Pretoria and wait months or years for results. A station in suburban Johannesburg, by contrast, has far more direct access to forensic services, shorter transport times, and, because of higher station-level demand, more institutional familiarity with the process.
 
 :::takeaway
-The geographic inequality of policing in South Africa is measurable across every dimension: police-to-population ratios, detective capacity, vehicle availability, forensic access, and response times all show the same pattern. Resources are concentrated in urban and suburban areas while rural and township stations operate with chronic shortfalls. This means the broken pipeline documented in the previous article is not uniformly broken — it is catastrophically broken in the areas that need it most and somewhat less broken in the areas that already have alternative safety resources.
+The geographic inequality of policing in South Africa is measurable across every dimension: police-to-population ratios, detective capacity, vehicle availability, forensic access, and response times all show the same pattern. Resources are concentrated in urban and suburban areas while rural and township stations operate with chronic shortfalls. This means the broken pipeline documented in the previous article is not uniformly broken — it is most severely broken in the areas that need it most and somewhat less broken in the areas that already have alternative safety resources.
 :::
 
 ## Rural Policing: The Near-Absence of the State
@@ -139,7 +139,7 @@ Township and informal settlement policing would be a municipal function — with
 
 National SAPS would be narrowed to the functions that genuinely require national coordination: organised crime, cybercrime, cross-border crime, and national security. This narrowing would allow the national force to specialise and professionalise, rather than attempting to be all things to all communities and failing at most of them.
 
-This is not a hypothetical exercise. It is the structural logic that the rest of this series builds toward. But before we get to the blueprint, the remaining articles in Part 2 must document three more dimensions of the current system's failure: the remand detention crisis, the system's catastrophic failure on gender-based violence, and the private security paradox that turns safety into a commodity.
+This is not a hypothetical exercise. It is the structural logic that the rest of this series builds toward. But before we get to the blueprint, the remaining articles in Part 2 must document three more dimensions of the current system's failure: the remand detention crisis, the system's gravest failure — on gender-based violence — and the private security paradox that turns safety into a commodity.
 
 ## The Accountability Checklist: Your Local Station, Your Rights
 

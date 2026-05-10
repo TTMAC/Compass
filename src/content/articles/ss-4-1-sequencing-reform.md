@@ -68,7 +68,7 @@ The criminal justice system is a pipeline. Crime enters at one end, and conseque
 
 ![The first phase rebuilds the upstream stages where most cases are currently lost | Photo by Jo Szczepanska on Unsplash](/images/articles/ss-4-1-sequencing-reform/img-1.webp)
 
-As [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) documented, SAPS detectives are overwhelmed, undertrained, and unsupported. Forensic laboratories have multi-year backlogs. Case dockets arrive at the NPA incomplete, poorly compiled, and lacking the evidence needed for successful prosecution. The NPA, itself depleted by years of political interference and institutional decay, declines or withdraws cases not because offenders are innocent but because the evidence is insufficient. The result is a system in which the probability of a reported crime resulting in conviction is catastrophically low — and the deterrent effect of the criminal justice system approaches zero.
+As [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) documented, SAPS detectives are overwhelmed, undertrained, and unsupported. Forensic laboratories have multi-year backlogs. Case dockets arrive at the NPA incomplete, poorly compiled, and lacking the evidence needed for successful prosecution. The NPA, itself depleted by years of political interference and institutional decay, declines or withdraws cases not because offenders are innocent but because the evidence is insufficient. The result is a system in which the probability of a reported crime resulting in conviction is exceptionally low — and the deterrent effect of the criminal justice system approaches zero.
 
 **Phase 1 targets this bottleneck.**
 
