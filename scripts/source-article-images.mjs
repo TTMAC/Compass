@@ -1201,7 +1201,7 @@ const ARTICLE_CONFIG = {
     ],
   },
   // ss-2-4: The criminal justice system fails GBV survivors at every stage — but Thuthuzela Care Centres show what works.
-  "ss-2-4-the-systems-most-catastrophic-failure": {
+  "ss-2-4-the-systems-gravest-failure": {
     queries: [
       "support centre office building exterior",
       "case file folders desk paperwork",

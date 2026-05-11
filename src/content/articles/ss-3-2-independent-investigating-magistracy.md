@@ -119,13 +119,13 @@ The Institute for Security Studies (ISS) has examined the investigation-prosecut
 
 ## Why This Is Especially Effective for GBV Cases
 
-The investigating magistrate model would be particularly transformative for gender-based violence cases — the crime category that [The System's Most Catastrophic Failure](/articles/ss-2-4-the-systems-most-catastrophic-failure) identified as the system's gravest point of failure.
+The investigating magistrate model would be particularly transformative for gender-based violence cases — the crime category that [The System's Gravest Failure](/articles/ss-2-4-the-systems-gravest-failure) identified as the system's gravest point of failure.
 
 GBV cases are characterised by specific investigation challenges: survivors who are traumatised and may be reluctant to provide detailed statements; forensic evidence that is time-sensitive and requires careful handling; perpetrators who are often known to the survivor, creating risks of intimidation and evidence tampering; and institutional cultures within SAPS that treat GBV as a lower priority. The current system fails GBV survivors at the investigation stage because detectives are overloaded, forensic processing is delayed, and the quality of evidence collection is inconsistent.
 
 A JIO assigned to a GBV case would bring several structural advantages. **The JIO's judicial authority would enable expedited forensic processing — a court order for DNA analysis carries urgency that a detective's request does not.** The JIO's legal training would ensure that evidence is collected and preserved to prosecution standards from the outset, reducing the risk of cases collapsing due to technical deficiencies. *The JIO's independence from SAPS's institutional culture would insulate the investigation from the attitudes that lead to victim-blaming and case deprioritisation.* And the JIO's ability to question witnesses under oath — including the suspect — would produce evidence of a quality that an overloaded detective conducting informal interviews cannot consistently achieve.
 
-The Thuthuzela Care Centres, described in [The System's Most Catastrophic Failure](/articles/ss-2-4-the-systems-most-catastrophic-failure), demonstrate that integrated, specialised service delivery improves GBV outcomes. The investigating magistrate model extends this logic from the service delivery dimension to the investigation dimension — providing the same kind of specialised, quality-assured investigation that the TCCs provide for medical and counselling services.
+The Thuthuzela Care Centres, described in [The System's Gravest Failure](/articles/ss-2-4-the-systems-gravest-failure), demonstrate that integrated, specialised service delivery improves GBV outcomes. The investigating magistrate model extends this logic from the service delivery dimension to the investigation dimension — providing the same kind of specialised, quality-assured investigation that the TCCs provide for medical and counselling services.
 
 ## The Constitutional and Legal Framework
 

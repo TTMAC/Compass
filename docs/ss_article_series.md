@@ -196,11 +196,11 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 ---
 
-### Article 2.4: The System's Most Catastrophic Failure — Why South Africa's Criminal Justice System Fails Gender-Based Violence Survivors at Every Single Stage
+### Article 2.4: The System's Gravest Failure — Why South Africa's Criminal Justice System Fails Gender-Based Violence Survivors at Every Single Stage
 
 **Prompt:**
 
-> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"The System's Most Catastrophic Failure — Why South Africa's Criminal Justice System Fails Gender-Based Violence Survivors at Every Single Stage."**
+> You are a Nobel-level political economist and criminal justice researcher writing for a general public audience in the style of an O'Reilly technical book — conversational, specific, and practical. Write an article of at least 4,500 words titled **"The System's Gravest Failure — Why South Africa's Criminal Justice System Fails Gender-Based Violence Survivors at Every Single Stage."**
 >
 > **Context:** This is the fourth article in Part 2. The reader understands the pipeline, geographic inequality, and remand crisis. This article examines the system's failure through the lens of its most catastrophic dimension: gender-based violence. GBV is not a separate problem — it is the problem that exposes every structural weakness in the criminal justice system simultaneously.
 >
@@ -330,7 +330,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 >
 > Include 2–3 short anecdotes or insights from named South African criminal justice researchers, comparative law scholars, or prosecution practitioners (e.g., from ISS, CSVR, UCT, Wits, or the NPA). These should ground the comparative model in South African institutional reality.
 >
-> **Cross-references:** Back-reference [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) for the investigation-prosecution failure. Reference [The System's Most Catastrophic Failure](/articles/ss-2-4-the-systems-most-catastrophic-failure) for GBV investigation failures. Forward-reference [Sequencing Reform](/articles/ss-4-1-sequencing-reform) for the implementation pathway.
+> **Cross-references:** Back-reference [The Broken Pipeline](/articles/ss-2-1-the-broken-pipeline) for the investigation-prosecution failure. Reference [The System's Gravest Failure](/articles/ss-2-4-the-systems-gravest-failure) for GBV investigation failures. Forward-reference [Sequencing Reform](/articles/ss-4-1-sequencing-reform) for the implementation pathway.
 >
 > **Tone and style:** Use "you" to address the reader directly. Lead with specifics. No bullet points in prose. O'Reilly conversational register. British English. Non-partisan.
 >

@@ -53,7 +53,7 @@ const SS_ARTICLES = [
   { slug: "ss-2-1-the-broken-pipeline", part: 2, articleNumber: "2.1" },
   { slug: "ss-2-2-policing-a-divided-country", part: 2, articleNumber: "2.2" },
   { slug: "ss-2-3-justice-delayed-rights-denied", part: 2, articleNumber: "2.3" },
-  { slug: "ss-2-4-the-systems-most-catastrophic-failure", part: 2, articleNumber: "2.4" },
+  { slug: "ss-2-4-the-systems-gravest-failure", part: 2, articleNumber: "2.4" },
   { slug: "ss-2-5-the-private-security-paradox", part: 2, articleNumber: "2.5" },
   { slug: "ss-3-1-three-tier-policing-architecture", part: 3, articleNumber: "3.1" },
   { slug: "ss-3-2-independent-investigating-magistracy", part: 3, articleNumber: "3.2" },

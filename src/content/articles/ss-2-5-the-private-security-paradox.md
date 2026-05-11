@@ -15,7 +15,7 @@ publishDate: 2027-12-24
 readingTime: 30
 status: "draft"
 series:
-  prev: "ss-2-4-the-systems-most-catastrophic-failure"
+  prev: "ss-2-4-the-systems-gravest-failure"
   next: "ss-3-1-three-tier-policing-architecture"
 seo:
   ogImage: "/og/ss-2-5-the-private-security-paradox.png"

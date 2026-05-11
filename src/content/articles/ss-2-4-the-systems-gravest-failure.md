@@ -1,5 +1,5 @@
 ---
-title: "The System's Most Catastrophic Failure"
+title: "The System's Gravest Failure"
 subtitle: "Why South Africa's Criminal Justice System Fails Gender-Based Violence Survivors at Every Single Stage"
 pillar: "safety-security"
 part: 2
@@ -23,7 +23,7 @@ crossLinks:
     label: "Making Public Submissions"
     relationship: "Engaging Parliament on GBV legislation"
 seo:
-  ogImage: "/og/ss-2-4-the-systems-most-catastrophic-failure.png"
+  ogImage: "/og/ss-2-4-the-systems-gravest-failure.png"
   keywords:
     - "gender-based violence South Africa"
     - "GBV criminal justice"
@@ -66,7 +66,7 @@ South Africa's GBV crisis is measured in stark numbers: over 40,000 reported sex
 For many GBV survivors, the police station is their first point of contact with the criminal justice system. It is also, in a disturbing number of cases, the point at which the system first fails them.
 
 
-![The first contact between survivor and state happens at a counter that decides whether a case begins at all | Photo by Nik on Unsplash](/images/articles/ss-2-4-the-systems-most-catastrophic-failure/img-1.webp)
+![The first contact between survivor and state happens at a counter that decides whether a case begins at all | Photo by Nik on Unsplash](/images/articles/ss-2-4-the-systems-gravest-failure/img-1.webp)
 
 The problem begins with the reception a survivor receives. Research by the Centre for the Study of Violence and Reconciliation (CSVR), Rape Crisis Cape Town, and other organisations has documented a pattern of secondary victimisation at police stations — survivors of sexual violence being disbelieved, blamed for the assault, asked intrusive and irrelevant questions about their sexual history or clothing, made to wait for hours before being seen, or told to return at a different time because the station is busy. For domestic violence survivors, the pattern is similar: officers minimising the violence, advising the complainant to "go home and sort it out," or treating domestic disputes as private matters rather than criminal offences.
 
@@ -79,7 +79,7 @@ Even when survivors are received respectfully and cases are opened, the quality 
 If a GBV case survives the station-level filter and is opened, it enters the investigation stage — and here, the failures become even more acute.
 
 
-![GBV dockets are lost at higher rates than any other case category, often before any suspect is identified | Photo by Joachim Schnürle on Unsplash](/images/articles/ss-2-4-the-systems-most-catastrophic-failure/img-2.webp)
+![GBV dockets are lost at higher rates than any other case category, often before any suspect is identified | Photo by Joachim Schnürle on Unsplash](/images/articles/ss-2-4-the-systems-gravest-failure/img-2.webp)
 
 SAPS has specialised Family Violence, Child Protection and Sexual Offences (FCS) units tasked with investigating sexual offences and serious cases of domestic violence. These units represent a recognition that GBV cases require specialised skills — interviewing traumatised survivors, managing forensic evidence, understanding the dynamics of intimate partner violence, and building cases that can withstand the rigours of prosecution. In principle, the FCS units should provide a level of investigation quality above the general detective service.
 
@@ -118,7 +118,7 @@ The withdrawal of charges by survivors is a particularly painful feature of the 
 Against this landscape of systemic failure, the Thuthuzela Care Centres (TCCs) stand out as an island of relative good practice — a model that demonstrates what is possible when the system is designed around the survivor's needs.
 
 
-![Thuthuzela centres co-locate medical care, evidence collection and counselling in one survivor-centred site | Photo by Tasha Kostyuk on Unsplash](/images/articles/ss-2-4-the-systems-most-catastrophic-failure/img-3.webp)
+![Thuthuzela centres co-locate medical care, evidence collection and counselling in one survivor-centred site | Photo by Tasha Kostyuk on Unsplash](/images/articles/ss-2-4-the-systems-gravest-failure/img-3.webp)
 
 TCCs are one-stop facilities, typically located at hospitals, that provide integrated services for sexual offence survivors: medical examination (including forensic evidence collection), police statement taking, counselling, and access to a dedicated prosecutor — all in a single location, at a single visit. The model was developed by the NPA's SOCA unit and is operated through partnerships between the NPA, SAPS, the Department of Health, and civil society organisations. There are currently over 50 TCCs across South Africa.
 

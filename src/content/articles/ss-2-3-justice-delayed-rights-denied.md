@@ -16,7 +16,7 @@ readingTime: 30
 status: "draft"
 series:
   prev: "ss-2-2-policing-a-divided-country"
-  next: "ss-2-4-the-systems-most-catastrophic-failure"
+  next: "ss-2-4-the-systems-gravest-failure"
 seo:
   ogImage: "/og/ss-2-3-justice-delayed-rights-denied.png"
   keywords:
