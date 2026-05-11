@@ -31,6 +31,7 @@
 7. Appendix A: How Comparator Frameworks Earned Their Standing
 8. Appendix B: Risks to Credibility and How to Pre-empt Them
 9. Appendix C: Developing This Work into a Masters or PhD Thesis in Institutional Design and Governance
+10. Appendix D: Cross-Sector Extension — Applying RAARICLE™ to Private Sector and Non-Governmental Organisations
 
 ---
 
@@ -615,6 +616,56 @@ The cost is substantial — three to five years, displaced income, geographic re
 
 ---
 
+## Appendix D — Cross-Sector Extension: Applying RAARICLE™ to Private Sector and Non-Governmental Organisations
+
+The body of this document addresses cross-jurisdictional extension within the public sector (with United States states as the illustrative test case). A distinct question, raised separately and recorded here for completeness, is whether the framework's reach extends across sectors — specifically to private sector businesses and non-governmental organisations. The short answer is that the framework's theoretical structure transfers cleanly, but two adaptations are required and one strategic caution applies. This appendix sets out the position.
+
+### D.1 The Eight Elements Are Genuinely Sector-Agnostic
+
+Every organised entity that must deliver an outcome requires the same eight design features. Someone must be **responsible** for doing the work. Someone must be **accountable** for the outcome. Decision **authority** must exist where the work happens. **Resources** — financial, human, technical — must be controlled by the entity charged with delivery. **Information** about performance must flow to those who can act on it. **Capability** — skills, systems, processes — must be present. **Legitimacy** — the mandate to act, recognised by those affected — must be intact. And **enforcement** — consequences for failure or success — must operate. These eight requirements are not artefacts of public administration. They are properties of any institution that exists to produce something.
+
+The **co-location thesis** — that the eight elements must sit in a single institutional chain or be coordinated by binding mechanisms — also transfers without modification. A firm in which the engineering team is responsible for delivery, the product team is accountable to customers, capital allocation authority sits with finance, and information about customer behaviour sits with marketing, with no binding coordination mechanism, will fail for the same structural reason a public function fails when these properties are scattered across departments. The failure is not contingent on the sector; it is contingent on the design.
+
+The **five failure patterns** — fragmentation, misalignment, absence, conflation, and capture — recur in firms and in NGOs with structural similarity to their public sector forms. Fragmentation appears as siloed profit-and-loss centres without shared accountability for the customer outcome. Misalignment appears as product strategy disconnected from engineering capacity. Absence appears as functions that no one owns — the "orphan" problem familiar to anyone who has worked in a mid-sized organisation. Conflation appears as founder-CEO arrangements in which ownership rights, operating authority, and board oversight collapse into one person. Capture appears as vendor lock-in, regulatory capture's commercial cousin; in NGOs it appears as donor capture, where funder priorities override mission. The pattern grammar is the same; only the surface manifestation changes.
+
+### D.2 Two Adaptations Are Required
+
+**D.2.1 The indicator translation layer is sector-specific and non-trivial.** What operationalises "Accountability" in a South African municipality (Auditor-General reports, council oversight, Municipal Finance Management Act section 71 reporting, electoral discipline) is unrecognisable in a private firm (board scorecards, shareholder votes, market discipline via customer exit, capital discipline via cost of capital) or in an NGO (donor reporting cycles, trustee oversight, beneficiary feedback loops, regulatory compliance with the relevant non-profit statute). Each element must be re-operationalised per sector. This is the same codebook exercise that Section 5 of this document describes for cross-jurisdictional extension within the public sector, but the codebooks for private sector firms and for NGOs are distinct artefacts that must be built from first principles for each sector. Treating a public sector codebook as transferable to private sector use will produce incoherent diagnostics.
+
+**D.2.2 Element weights almost certainly shift across sectors.** The MVP equal-weighting assumption — already labelled as a non-informative prior in Pillar B — is more clearly a placeholder for cross-sector use than it is for cross-jurisdictional public sector use, because the *relative* explanatory power of the eight elements varies substantially by sector.
+
+- In the **public sector**, Legitimacy and Enforcement carry heavy weight because citizens have no exit option. A public function that loses its mandate or that operates without consequences will degrade in ways that no amount of capability investment can compensate for.
+- In the **private sector**, market discipline substitutes for much of Enforcement and Accountability. Customers leave; capital reprices. These mechanisms operate continuously and at low latency, so the marginal explanatory power of formal Enforcement and Accountability structures may be lower, while Capability and Information become more diagnostically powerful — competitive advantage in modern markets is increasingly a function of these two elements.
+- In the **NGO sector**, market discipline and electoral discipline are both weak. Beneficiaries rarely "exit"; donors discipline imperfectly and on long cycles. Legitimacy — defined as mission credibility plus stakeholder trust — does disproportionate work. NGOs that lose legitimacy collapse even when their operational metrics are sound; NGOs with strong legitimacy survive operational lapses that would terminate a firm.
+
+The empirical weighting model described in Pillar B (B.5) should therefore be sector-stratified from the beginning rather than universal. The data requirement is correspondingly larger — approximately 50 diagnostics per sector with matched outcome data, not 50 in total — and the timeline for a credible weighting model in any non-public sector should be planned accordingly.
+
+### D.3 One Strategic Caution
+
+The private sector diagnostic and operating-model market is crowded. Established frameworks include McKinsey's 7S model, the Balanced Scorecard (Kaplan-Norton), Objectives and Key Results (Doerr's adaptation of Andy Grove's framework), RACI matrices, BCG's organisational health index, Bain's organisational diagnostic, and an extensive ecosystem of target-operating-model frameworks promoted by every major consultancy. The eight elements of RAARICLE™, considered in isolation, overlap heavily with 7S and with target-operating-model frameworks. A claim of novelty for the dimensions themselves would not survive scrutiny by a private sector audience familiar with these frameworks.
+
+RAARICLE™'s distinct contribution in a cross-sector setting is not the eight dimensions but two specific structural claims: the **co-location thesis** (that scattered elements without binding coordination produce predictable failure regardless of how strong any individual element is) and the **five-pattern failure typology** (that observed failures are exhaustively classifiable into one of five structural patterns, which redirects diagnosis from blame to design). Neither of these claims has a crowded incumbent in the private sector or NGO literature. The co-location thesis is closest in spirit to organisational design treatments of "end-to-end ownership" (e.g., Jay Galbraith's Star Model on alignment), but is stated more rigorously and lends itself to formal measurement. The five-pattern typology has no clear analogue.
+
+A cross-sector extension of RAARICLE™ should therefore position not as a new dimension list but as a **diagnostic for why institutions fail** — a structural theory backed by a measurement protocol — explicitly differentiated from dimension-based frameworks. The marketing claim "we will tell you what is broken and what pattern it is, not just describe your current state" is defensible. The marketing claim "we have eight novel dimensions of organisational design" is not.
+
+### D.4 Sequencing the Cross-Sector Extension
+
+If cross-sector extension is pursued, it should follow rather than precede the public sector credibility programme described in the body of this document. The reasons are three.
+
+First, the public sector application is where the framework was developed and where the most diagnostic depth currently exists. Establishing the framework's standing in its strongest domain first creates a credibility surplus that can be spent on cross-sector expansion later; reversing the order spends credibility before it has been earned.
+
+Second, the methodology paper, indicator library and validation studies described in Pillars A through D produce artefacts that the cross-sector codebook can adapt rather than reinvent. Building cross-sector codebooks in parallel with public sector ones doubles the work and halves the focus.
+
+Third, multilateral practitioner adoption (UNDP, World Bank, AfDB) — the primary commercial market for the public sector application — will not be diluted by a parallel private sector positioning, but a primary private sector positioning would dilute the multilateral case. Establish the multilateral standing first, then leverage it into cross-sector work that is positioned as "the same framework that the World Bank uses for public function diagnostics, adapted for private sector and NGO use."
+
+A defensible sequence is: complete the methodology paper and the water services validation (2026–2027); complete the cross-jurisdictional US states extension (2027–2028); only then commission a sector-translation paper for private sector and NGO applications, paired with one paid pilot in each non-public sector to build the first sector-specific codebooks (2028–2029). Reversing this order is feasible but spends credibility inefficiently.
+
+### D.5 Summary
+
+The eight elements, the co-location thesis, and the five failure patterns transfer cleanly to private sector and NGO contexts. What changes is the indicator translation layer (which must be rebuilt per sector) and the element weights (which must be empirically re-estimated per sector). The strategic caution is that the dimension list is not novel in the private sector market and should not be marketed as such; the structural claims about co-location and failure patterns are the differentiated assets. Cross-sector extension should follow rather than precede the public sector credibility programme.
+
+---
+
 ## Closing Note
 
 RAARICLE™ has the characteristic most frameworks lack — a clear theoretical claim with explanatory power. It lacks the institutional infrastructure most frameworks take for granted. The conversion from the first condition to the second is not a matter of marketing; it is a programme of work whose steps are known, sequenced and bounded. The preceding document specifies that programme. Its execution is the difference between a respected framework used by the World Bank and a thoughtful blog cited occasionally in sector reports.
@@ -627,3 +678,4 @@ RAARICLE™ has the characteristic most frameworks lack — a clear theoretical 
 |---------|------|--------|---------|
 | 0.1 | 2026-04-23 | Tshepo Machele | Initial draft |
 | 0.2 | 2026-04-23 | Tshepo Machele | Added Appendix C on Masters/PhD thesis development pathway |
+| 0.3 | 2026-05-11 | Tshepo Machele | Added Appendix D on cross-sector extension to private sector and NGO contexts |
