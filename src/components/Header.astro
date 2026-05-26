@@ -35,7 +35,7 @@ const topicsLinks = [
 const currentPath = Astro.url.pathname;
 const isTopicsActive = currentPath.startsWith("/pillars") || currentPath === "/big-picture" || currentPath.startsWith("/government-functions") || currentPath === "/grand-strategy" || currentPath === "/glossary";
 
-const isDev = import.meta.env.DEV;
+const isDev = import.meta.env.DEV && !import.meta.env.PUBLIC_DEV_SEARCH;
 const isReformActive = currentPath === "/reform-programme" || currentPath === "/leading-and-lagging-metrics" || currentPath === "/reform-scorecard" || currentPath === "/diagnostic-frameworks" || currentPath === "/real-steps-to-reform" || currentPath === "/advocacy-playbooks";
 ---
 
@@ -413,7 +413,7 @@ const isReformActive = currentPath === "/reform-programme" || currentPath === "/
     } catch { /* Script injection failed */ }
   }
 
-  if (import.meta.env.PROD) {
+  if (import.meta.env.PROD || import.meta.env.PUBLIC_DEV_SEARCH) {
     initPagefind();
   }
 </script>
