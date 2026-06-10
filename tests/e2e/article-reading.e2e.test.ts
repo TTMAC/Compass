@@ -87,16 +87,18 @@ test.describe("Article reading journey", () => {
 
   test("should have proper heading hierarchy", async ({ page }) => {
     await page.goto("/articles/1-1-architecture-of-the-state/");
-    await page.waitForLoadState("networkidle");
 
-    const h1 = page.locator("h1");
-    await expect(h1).toHaveCount(1);
+    // Scope to the article so JS-injected third-party widgets (e.g. the
+    // Netlify Identity modal, which adds its own <h1>s and reflows the DOM)
+    // can't pollute the heading counts.
+    const article = page.locator("article");
+    await expect(article.locator("h1")).toHaveCount(1);
 
-    // Wait for the article body (section headings) to be rendered before the
-    // one-shot count, so a slow load can't read zero.
-    const h2s = page.locator("article h2");
-    await expect(h2s.first()).toBeVisible({ timeout: 10000 });
-    expect(await h2s.count()).toBeGreaterThan(0);
+    // Poll the section-heading count so transient DOM churn from injected
+    // widgets can't cause a one-shot read of zero.
+    await expect
+      .poll(() => article.locator("h2").count(), { timeout: 10000 })
+      .toBeGreaterThan(0);
   });
 
   test("should navigate using mobile menu", async ({ page }) => {
