@@ -22,17 +22,28 @@ test.describe("Performance basics", () => {
   test("should not have console errors", async ({ page }) => {
     const errors: string[] = [];
     page.on("console", (msg) => {
-      if (msg.type() === "error") {
-        const text = msg.text();
-        // Pagefind resources may 404 in preview if not yet indexed
-        if (text.includes("pagefind")) return;
-        errors.push(text);
+      if (msg.type() !== "error") return;
+      const text = msg.text();
+      const url = msg.location()?.url ?? "";
+      // Pagefind resources may 404 in preview if not yet indexed
+      if (text.includes("pagefind") || url.includes("pagefind")) return;
+      // The Netlify Identity widget is CORS-blocked in local preview but
+      // loads same-origin (and fine) in production.
+      if (
+        text.includes("identity.netlify.com") ||
+        url.includes("identity.netlify.com") ||
+        text.includes("netlify-identity")
+      ) {
+        return;
       }
+      errors.push(text);
     });
 
     await page.goto("/");
     await page.goto("/articles/1-1-architecture-of-the-state/");
-    await page.goto("/series/");
+    // /series is a Netlify redirect, absent from the static preview output;
+    // visit its real destination instead.
+    await page.goto("/pillars/government-structure/");
 
     expect(errors).toHaveLength(0);
   });
@@ -61,6 +72,8 @@ test.describe("Performance basics", () => {
   test("should render correctly at 360px (Samsung A15)", async ({ page }) => {
     await page.setViewportSize({ width: 360, height: 640 });
     await page.goto("/articles/1-1-architecture-of-the-state/");
+    // Let fonts/images settle so the width measurement is stable, not mid-layout
+    await page.waitForLoadState("networkidle");
 
     // Content should not overflow
     const body = page.locator("body");
@@ -71,6 +84,8 @@ test.describe("Performance basics", () => {
   test("should render correctly at 390px (iPhone)", async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/articles/1-1-architecture-of-the-state/");
+    // Let fonts/images settle so the width measurement is stable, not mid-layout
+    await page.waitForLoadState("networkidle");
 
     const body = page.locator("body");
     const bodyWidth = await body.evaluate((el) => el.scrollWidth);
