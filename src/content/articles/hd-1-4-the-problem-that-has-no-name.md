@@ -42,7 +42,7 @@ crossLinks:
   - slug: "hd-3-2-learning-in-a-war-zone"
     label: "Learning in a War Zone"
     relationship: "The clearest proof that education, safety, and health must be tackled together — children cannot learn in violent, hungry conditions"
-  - slug: "hd-4-2-south-africas-broken-cycle"
+  - slug: "hd-5-2-south-africas-broken-cycle"
     label: "South Africa's Broken Cycle"
     relationship: "The vicious spiral that perpetuates mass black poverty"
   - slug: "eg-1-1-the-seven-thousand-rand-economy"

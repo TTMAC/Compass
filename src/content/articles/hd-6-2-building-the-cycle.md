@@ -2,8 +2,8 @@
 title: "Building the Cycle From the Ground Up"
 subtitle: "What Citizens, Communities, and Civil Society Can Do to Strengthen the Reinforcing Loop"
 pillar: "human-development"
-part: 5
-articleNumber: "5.2"
+part: 6
+articleNumber: "6.2"
 tags:
   - "civic-participation"
   - "community-action"
@@ -17,7 +17,7 @@ publishDate: 2029-12-15
 readingTime: 30
 status: "draft"
 series:
-  prev: "hd-5-1-your-development-rights"
+  prev: "hd-6-1-your-development-rights"
   next: null
 crossLinks:
   - slug: "ss-3-3-community-courts-and-restorative-justice"
@@ -27,7 +27,7 @@ crossLinks:
     label: "Your Economic Citizenship"
     relationship: "Economic participation tools that complement development citizenship"
 seo:
-  ogImage: "/og/hd-5-2-building-the-cycle.png"
+  ogImage: "/og/hd-6-2-building-the-cycle.png"
   keywords:
     - "citizen participation development South Africa"
     - "community action governance"
@@ -63,7 +63,7 @@ The relationship between citizen participation and development outcomes is not m
 The South African Schools Act (SASA), Act 84 of 1996, establishes school governing bodies (SGBs) as the primary governance structure for every public school in the country. The SGB is not an advisory body. It is a statutory governance structure with real powers and real responsibilities. Understanding what it can do — and participating in it effectively — is one of the most direct ways a citizen can strengthen the education link in the reinforcing cycle.
 
 
-![School governing bodies are where parents shape the institution their children attend each day | Photo by Ahmadreza Rezaie on Unsplash](/images/articles/hd-5-2-building-the-cycle/img-1.webp)
+![School governing bodies are where parents shape the institution their children attend each day | Photo by Ahmadreza Rezaie on Unsplash](/images/articles/hd-6-2-building-the-cycle/img-1.webp)
 
 The composition of an SGB depends on the type of school. For schools with learners in Grade 8 and above, the SGB comprises elected parents (who must constitute a majority), educators at the school, non-educator staff, the principal (in an ex officio capacity), and learners in Grade 8 or above. For schools without learners above Grade 7, the SGB comprises parents, educators, non-educator staff, and the principal. The critical design feature is that *parents are the majority*. This was a deliberate legislative choice: **parents — as representatives of the community and as the people with the most direct stake in the quality of education — have the majority voice in school governance.** Not teachers. Not the principal. Not the Department of Education. Parents.
 
@@ -73,7 +73,7 @@ Perhaps most significantly, Section 20A gives SGBs the power to recommend the ap
 
 How do you participate effectively in an SGB? First, you need to be there. SGB elections are held every three years, and parent turnout is often dismally low — **in many schools, fewer than a quarter of parents vote**, which means the SGB is elected by a fraction of the community it is supposed to represent. If you are a parent of a child at a public school, attend the SGB election. Vote. Better yet, stand for election. The SGB needs members who are willing to read financial statements, interrogate school performance data, and hold the principal accountable.
 
-Second, use the data tools from the previous article. Obtain your school's NSC results (if it is a secondary school), disaggregated by subject. What is the mathematics pass rate? The physical science pass rate? The English pass rate? How do these compare to provincial averages and to schools in similar quintile classifications? If your school's mathematics pass rate is 28 per cent while comparable schools in the same district achieve 50 per cent, the SGB should be asking why — and what intervention is needed. The data is publicly available, as described in [Your Development Rights](/articles/hd-5-1-your-development-rights). Bring it to the SGB meeting.
+Second, use the data tools from the previous article. Obtain your school's NSC results (if it is a secondary school), disaggregated by subject. What is the mathematics pass rate? The physical science pass rate? The English pass rate? How do these compare to provincial averages and to schools in similar quintile classifications? If your school's mathematics pass rate is 28 per cent while comparable schools in the same district achieve 50 per cent, the SGB should be asking why — and what intervention is needed. The data is publicly available, as described in [Your Development Rights](/articles/hd-6-1-your-development-rights). Bring it to the SGB meeting.
 
 Third, focus on financial governance. SGBs in Section 21 schools manage significant budgets — including school fees (where applicable) and allocations from the Department. Financial mismanagement at the school level is not uncommon, and the SGB is the primary check on it. Request the school's financial statements. Ensure they are audited annually, as SASA requires. Ask how funds are being allocated across priorities. A school that spends a disproportionate share of its budget on administration while classrooms lack basic resources has a governance problem that the SGB has the power and the responsibility to address.
 
@@ -90,7 +90,7 @@ The education link in the reinforcing cycle depends on whether schools produce l
 The South African Police Service Act (Act 68 of 1995) and the Civilian Secretariat for Police Service Act (Act 2 of 2011) establish Community Policing Forums (CPFs) at every police station in the country. CPFs are the institutional mechanism through which communities participate in policing at the local level — and they are the primary link between ordinary citizens and the safety dimension of the reinforcing cycle.
 
 
-![Community policing forums coordinate residents and station commanders around shared local priorities | Photo by Keith Helfrich on Unsplash](/images/articles/hd-5-2-building-the-cycle/img-2.webp)
+![Community policing forums coordinate residents and station commanders around shared local priorities | Photo by Keith Helfrich on Unsplash](/images/articles/hd-6-2-building-the-cycle/img-2.webp)
 
 As discussed in greater detail in the Citizen Safety and Security series — particularly in [Community Courts and Restorative Justice](/articles/ss-3-3-community-courts-and-restorative-justice) — South Africa's policing architecture operates across three tiers: national (SAPS), provincial, and municipal (metro police in the metropolitan municipalities). CPFs sit at the interface between SAPS and the community. Their mandate, as defined in Section 18 of the SAPS Act, includes establishing and maintaining a partnership between the community and the police service; promoting communication between the police and the community; promoting cooperation between the police and the community in fulfilling the needs of the community regarding policing; improving the rendering of police services at all levels; improving transparency and accountability of the police to the community; and promoting joint problem identification and problem solving by the police and the community.
 
@@ -177,7 +177,7 @@ The amplification effect works in both directions. Civil society organisations a
 **The deepest insight of this series is that safety, growth, and development are interconnected** — that treating them as separate policy domains, addressed by separate government departments, monitored by separate indicators, and advocated for by separate civil society organisations, misses the systemic nature of the challenge. The reinforcing cycle means that an intervention in one domain has effects in all the others. A school feeding programme (development) reduces hunger-related absenteeism, which improves educational outcomes (development), which increases future earnings potential (growth), which reduces the economic desperation that drives some forms of crime (safety). A community policing intervention that reduces violent crime (safety) makes it possible for small businesses to operate after dark (growth), which creates employment (growth), which enables families to invest in their children's education and health (development). An LED intervention that creates employment (growth) reduces poverty-driven crime (safety), enables families to afford healthcare and nutrition (development), and generates municipal revenue that can be invested in infrastructure and services (governance).
 
 
-![Coalitions across health, education, safety and economic forums lift each link by reinforcing the others | Photo by Marlis Trio Akbar on Unsplash](/images/articles/hd-5-2-building-the-cycle/img-3.webp)
+![Coalitions across health, education, safety and economic forums lift each link by reinforcing the others | Photo by Marlis Trio Akbar on Unsplash](/images/articles/hd-6-2-building-the-cycle/img-3.webp)
 
 These connections are not abstract. They are practical, and they have implications for how communities organise. The most effective community-level interventions are those that address multiple links in the cycle simultaneously rather than working in silos. A coalition that brings together the SGB, the CPF, the ward committee, the clinic committee, and local civil society organisations to address a shared set of priorities — using shared data, pursuing coordinated advocacy, and holding government accountable across multiple dimensions simultaneously — is far more powerful than any of these institutions operating alone.
 

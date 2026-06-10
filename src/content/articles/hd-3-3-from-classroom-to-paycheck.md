@@ -17,7 +17,7 @@ readingTime: 30
 status: "draft"
 series:
   prev: "hd-3-2-learning-in-a-war-zone"
-  next: "hd-4-1-when-the-cycle-works"
+  next: "hd-4-1-the-conversion-problem"
 crossLinks:
   - slug: "eg-2-4-the-efficiency-transition"
     label: "The Efficiency Transition"

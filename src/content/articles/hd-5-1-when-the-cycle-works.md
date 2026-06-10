@@ -2,8 +2,8 @@
 title: "When the Cycle Works"
 subtitle: "How South Korea, Botswana, Rwanda, and Malaysia Built Virtuous Cycles of Safety, Growth, and Development"
 pillar: "human-development"
-part: 4
-articleNumber: "4.1"
+part: 5
+articleNumber: "5.1"
 tags:
   - "case-studies"
   - "virtuous-cycle"
@@ -17,8 +17,8 @@ publishDate: 2029-10-15
 readingTime: 30
 status: "draft"
 series:
-  prev: "hd-3-3-from-classroom-to-paycheck"
-  next: "hd-4-2-south-africas-broken-cycle"
+  prev: "hd-4-4-from-income-to-assets"
+  next: "hd-5-2-south-africas-broken-cycle"
 crossLinks:
   - slug: "ss-4-1-sequencing-reform"
     label: "Sequencing Reform"
@@ -27,7 +27,7 @@ crossLinks:
     label: "The Comparator Countries"
     relationship: "Economic growth trajectories of comparator nations"
 seo:
-  ogImage: "/og/hd-4-1-when-the-cycle-works.png"
+  ogImage: "/og/hd-5-1-when-the-cycle-works.png"
   keywords:
     - "South Korea development model"
     - "Botswana development success"
@@ -53,7 +53,7 @@ The evidence from these four countries delivers a message that is simultaneously
 In 1953, the Korean War ended with an armistice that left South Korea devastated. The country's infrastructure was destroyed. Its industrial base was obliterated. **Per-capita income was approximately $67 — lower than most countries in sub-Saharan Africa at the time.** Life expectancy was around 47 years. The adult literacy rate was below 30 per cent. By any measure — GDP, HDI, institutional capacity — South Korea was among the poorest and most damaged countries on earth.
 
 
-![Industrial scale-up combined with universal schooling reshaped a war-flattened economy within a generation | Photo by Adrien Olichon on Unsplash](/images/articles/hd-4-1-when-the-cycle-works/img-1.webp)
+![Industrial scale-up combined with universal schooling reshaped a war-flattened economy within a generation | Photo by Adrien Olichon on Unsplash](/images/articles/hd-5-1-when-the-cycle-works/img-1.webp)
 
 The Human Development Index, had it been calculated for South Korea in 1953, would have been approximately 0.30 — placing it below contemporary figures for Chad, the Central African Republic, and South Sudan. Today, South Korea's HDI stands at 0.929, placing it in the "very high human development" category alongside Norway, Switzerland, and Australia. In seven decades, South Korea achieved a transformation in human welfare that has no historical parallel in terms of speed and comprehensiveness.
 
@@ -150,7 +150,7 @@ This matters for you because the comparison is not flattering. South Africa has 
 Rwanda's inclusion in a discussion of development success is inherently controversial, and it should be. The Rwandan model raises questions about the relationship between democratic governance and development outcomes that are uncomfortable for anyone committed to both values simultaneously. But the development outcomes are real and must be examined honestly.
 
 
-![Disciplined public administration and primary health investment rebuilt institutions from the ground up | Photo by wilsan u on Unsplash](/images/articles/hd-4-1-when-the-cycle-works/img-2.webp)
+![Disciplined public administration and primary health investment rebuilt institutions from the ground up | Photo by wilsan u on Unsplash](/images/articles/hd-5-1-when-the-cycle-works/img-2.webp)
 
 In April 1994, Rwanda experienced one of the most catastrophic events of the twentieth century. **Over approximately 100 days, an estimated 800,000 to one million people were murdered** in a genocide targeting the Tutsi population and moderate Hutus. The state collapsed entirely. Infrastructure was destroyed. The economy contracted by over 50 per cent. The social fabric was shredded. Rwanda's HDI, estimated at approximately 0.28, was among the lowest ever recorded for any country.
 
@@ -233,7 +233,7 @@ The result, over five decades, was a transformation from a low-income, ethnicall
 Stepping back from the specifics of each case, a common pattern emerges. It is not identical across countries — the details vary enormously — but the structural logic is consistent.
 
 
-![Different countries, different sectors, but the institutional sequencing rhymes across every successful case | Photo by Belov Sergey on Unsplash](/images/articles/hd-4-1-when-the-cycle-works/img-3.webp)
+![Different countries, different sectors, but the institutional sequencing rhymes across every successful case | Photo by Belov Sergey on Unsplash](/images/articles/hd-5-1-when-the-cycle-works/img-3.webp)
 
 ### Principle One: Safety and Stability First
 
@@ -265,7 +265,7 @@ This time horizon is incompatible with the electoral cycle in democratic countri
 
 The countries that solved this problem did so in different ways. South Korea and Malaysia had authoritarian governments during key phases of the development cycle, which insulated economic policy from short-term electoral pressures. Botswana had a dominant party — the BDP — that won every election from independence until 2019, providing continuity without authoritarianism. Rwanda has effectively one-party rule.
 
-For South Africa, which has a vibrant multi-party democracy and has already experienced a change of governing party (through coalition), the challenge is to build institutional mechanisms that sustain long-term development investments across changes in government. This requires embedding development commitments in legislation and institutional structures that are harder to reverse than policy documents — a point explored further in [Your Development Rights](/articles/hd-5-1-your-development-rights).
+For South Africa, which has a vibrant multi-party democracy and has already experienced a change of governing party (through coalition), the challenge is to build institutional mechanisms that sustain long-term development investments across changes in government. This requires embedding development commitments in legislation and institutional structures that are harder to reverse than policy documents — a point explored further in [Your Development Rights](/articles/hd-6-1-your-development-rights).
 
 ### Principle Five: Institutional Quality as Enabler
 
@@ -315,7 +315,7 @@ Fifth, protect the cycle institutionally. Embed development commitments in legis
 
 This sequencing matters directly to you. Where South Africa sits today — the skills your children can access, the safety of your neighbourhood, the reliability of the electricity and water — reflects decisions made (or not made) at each of these stages over the past thirty years. Understanding the sequence tells you both what went wrong and what a credible recovery would have to look like.
 
-South Africa is not starting from zero. It has elements of each stage already in place — an advanced constitution, substantial education and health infrastructure, a diversified economy, sophisticated financial institutions. What it lacks is not the components of the cycle but the alignment, sequencing, and institutional discipline to make them reinforce each other rather than working at cross purposes. The next article examines what happens when the cycle runs in reverse — [South Africa's Broken Cycle](/articles/hd-4-2-south-africas-broken-cycle) — and why understanding the vicious spiral is essential to designing the intervention that can reverse it.
+South Africa is not starting from zero. It has elements of each stage already in place — an advanced constitution, substantial education and health infrastructure, a diversified economy, sophisticated financial institutions. What it lacks is not the components of the cycle but the alignment, sequencing, and institutional discipline to make them reinforce each other rather than working at cross purposes. The next article examines what happens when the cycle runs in reverse — [South Africa's Broken Cycle](/articles/hd-5-2-south-africas-broken-cycle) — and why understanding the vicious spiral is essential to designing the intervention that can reverse it.
 
 :::framework
 **The Cycle Readiness Checklist**

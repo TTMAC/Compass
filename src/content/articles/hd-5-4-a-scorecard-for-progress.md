@@ -2,8 +2,8 @@
 title: "A Scorecard for Progress"
 subtitle: "Fifteen Cross-Pillar Indicators That Would Tell You Whether South Africa's Reinforcing Cycle Is Turning"
 pillar: "human-development"
-part: 4
-articleNumber: "4.4"
+part: 5
+articleNumber: "5.4"
 tags:
   - "reinforcing-cycle"
   - "scorecard"
@@ -16,20 +16,20 @@ publishDate: 2029-11-22
 readingTime: 28
 status: "draft"
 series:
-  prev: "hd-4-3-development-within-limits"
-  next: "hd-5-1-your-development-rights"
+  prev: "hd-5-3-development-within-limits"
+  next: "hd-6-1-your-development-rights"
 crossLinks:
   - slug: "hd-1-3-the-reinforcing-cycle"
     label: "The Reinforcing Cycle"
     relationship: "The causal model the Scorecard measures"
-  - slug: "hd-4-2-south-africas-broken-cycle"
+  - slug: "hd-5-2-south-africas-broken-cycle"
     label: "South Africa's Broken Cycle"
     relationship: "What the Scorecard would diagnose if applied today"
   - slug: "ra-5-3-the-integrated-reform-programme"
     label: "The Integrated Reform Programme"
     relationship: "The institutional architecture that would table the Scorecard in Parliament"
 seo:
-  ogImage: "/og/hd-4-4-a-scorecard-for-progress.png"
+  ogImage: "/og/hd-5-4-a-scorecard-for-progress.png"
   keywords:
     - "South Africa reform scorecard"
     - "reinforcing cycle indicators"
@@ -44,7 +44,7 @@ South Africa publishes a great deal of governance data. Statistics South Africa 
 
 What the country lacks is not data. What it lacks is **a single instrument that reads across the data to tell you whether the system as a whole is moving in the right direction.** Each institution measures what falls within its mandate. No institution measures whether safety reforms are translating into investment, whether investment is translating into fiscal space, whether fiscal space is translating into education spending, or whether education spending is translating into a workforce that can sustain higher-value economic activity. The reinforcing cycle described in [The Reinforcing Cycle](/articles/hd-1-3-the-reinforcing-cycle) — the linked sequence by which safety, growth, and human development either compound upward together or spiral downward together — is invisible in the country's existing measurement architecture. The data exists; the integration does not.
 
-This article presents what an integrated cross-pillar scorecard could look like. It walks through fifteen indicators across the three links of the reinforcing cycle, explains why each one was selected, identifies the institutional source for each, sets a threshold that would signal the link is strengthening, and discusses how trends should be read. It is not an audit of where South Africa stands today — that work is done elsewhere in this series, particularly in [South Africa's Broken Cycle](/articles/hd-4-2-south-africas-broken-cycle). It is a design proposal for the measurement instrument the country needs and does not yet have.
+This article presents what an integrated cross-pillar scorecard could look like. It walks through fifteen indicators across the three links of the reinforcing cycle, explains why each one was selected, identifies the institutional source for each, sets a threshold that would signal the link is strengthening, and discusses how trends should be read. It is not an audit of where South Africa stands today — that work is done elsewhere in this series, particularly in [South Africa's Broken Cycle](/articles/hd-5-2-south-africas-broken-cycle). It is a design proposal for the measurement instrument the country needs and does not yet have.
 
 The fully realised version of this proposal — the Reinforcing Cycle Scorecard — is already published on this site at [/reform-scorecard](/reform-scorecard), tied to the legislated institutional architecture set out at [/real-steps-to-reform](/real-steps-to-reform). What follows is the longer explanation of why those fifteen indicators, why those thresholds, and why the scorecard sits above — rather than alongside — the sector-specific dashboards that already exist.
 
@@ -240,11 +240,11 @@ It is worth being clear about what the scorecard does not do, so that its proper
 
 ## Why This Article Now
 
-Part 4 of this pillar has traced the reinforcing cycle from its successful operation in [comparator countries](/articles/hd-4-1-when-the-cycle-works), through its [breakdown in South Africa](/articles/hd-4-2-south-africas-broken-cycle), through the [environmental dimension](/articles/hd-4-3-development-within-limits) that any responsible development strategy must respect. This article completes the sequence by addressing the question that follows naturally from the previous three: granted that the cycle exists, granted that it has broken, granted that it must be repaired within environmental limits — how would you know whether the repair was working?
+Part 4 of this pillar has traced the reinforcing cycle from its successful operation in [comparator countries](/articles/hd-5-1-when-the-cycle-works), through its [breakdown in South Africa](/articles/hd-5-2-south-africas-broken-cycle), through the [environmental dimension](/articles/hd-5-3-development-within-limits) that any responsible development strategy must respect. This article completes the sequence by addressing the question that follows naturally from the previous three: granted that the cycle exists, granted that it has broken, granted that it must be repaired within environmental limits — how would you know whether the repair was working?
 
 The answer is the scorecard. Without a measurement instrument designed for the cycle as a whole, every claim of improvement can be made plausible by selectively quoting whichever sector indicator happens to be moving in the desired direction. With the scorecard, the test of whether the cycle is turning becomes a public, transparent, year-on-year question that any citizen can ask of any government. The scorecard transfers a measure of accountability from the closed conversations of cabinet committees and parliamentary portfolio committees to the open record of the country's actual performance against a small set of indicators that everyone can read.
 
-The next pillar of this series — [Your Development Citizenship](/articles/hd-5-1-your-development-rights) — takes the practical step that follows from the scorecard's existence. If the scorecard tells you whether the cycle is turning, your citizenship is the lever by which you act on what it tells you. The scorecard is the instrument; your participation in the democratic life of the country is the energy that gives the instrument its meaning.
+The next pillar of this series — [Your Development Citizenship](/articles/hd-6-1-your-development-rights) — takes the practical step that follows from the scorecard's existence. If the scorecard tells you whether the cycle is turning, your citizenship is the lever by which you act on what it tells you. The scorecard is the instrument; your participation in the democratic life of the country is the energy that gives the instrument its meaning.
 
 ## Resources
 

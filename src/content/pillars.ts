@@ -170,12 +170,18 @@ export const pillars: PillarConfig[] = [
       },
       {
         number: 4,
+        title: "The Capability to Earn",
+        description:
+          "The HDI's third leg — how people convert health and education into livelihoods, through skills, self-employment, and assets.",
+      },
+      {
+        number: 5,
         title: "The Reinforcing System",
         description:
           "How the virtuous cycle works abroad, why it broke in South Africa, and the sustainability dimension.",
       },
       {
-        number: 5,
+        number: 6,
         title: "Your Development Citizenship",
         description:
           "Constitutional rights, accountability tools, and how to build the cycle from the ground up.",

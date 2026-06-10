@@ -2,8 +2,8 @@
 title: "Your Development Rights"
 subtitle: "Sections 26–29 of the Constitution, the District Health Barometer, and How to Hold Government Accountable"
 pillar: "human-development"
-part: 5
-articleNumber: "5.1"
+part: 6
+articleNumber: "6.1"
 tags:
   - "constitutional-rights"
   - "accountability"
@@ -15,8 +15,8 @@ publishDate: 2029-12-01
 readingTime: 30
 status: "draft"
 series:
-  prev: "hd-4-4-a-scorecard-for-progress"
-  next: "hd-5-2-building-the-cycle"
+  prev: "hd-5-4-a-scorecard-for-progress"
+  next: "hd-6-2-building-the-cycle"
 crossLinks:
   - slug: "hd-1-2-south-africas-report-card"
     label: "South Africa's Report Card"
@@ -25,7 +25,7 @@ crossLinks:
     label: "The Architecture of the State"
     relationship: "Constitutional framework for socioeconomic rights"
 seo:
-  ogImage: "/og/hd-5-1-your-development-rights.png"
+  ogImage: "/og/hd-6-1-your-development-rights.png"
   keywords:
     - "South Africa constitutional rights healthcare education"
     - "Section 27 right to healthcare"
@@ -47,7 +47,7 @@ If you have followed this series from the beginning, you understand the reinforc
 The Bill of Rights occupies Chapter 2 of the Constitution of the Republic of South Africa, 1996. It is, by the express terms of Section 7, the cornerstone of democracy in South Africa. It enshrines the rights of all people in the country and affirms the democratic values of human dignity, equality, and freedom. **The state is obliged to respect, protect, promote, and fulfil the rights in the Bill of Rights.** That fourfold obligation — respect, protect, promote, fulfil — is not rhetorical decoration. Each word carries distinct legal weight. To respect a right means the state must not interfere with it. To protect means the state must prevent others from interfering with it. To promote means the state must create awareness of and conditions for its enjoyment. To fulfil means the state must take positive steps to ensure its realisation. A state that does not actively demolish people's houses is respecting the right to housing. A state that prevents private landlords from conducting illegal evictions is protecting it. A state that runs public education campaigns about housing rights is promoting it. A state that builds houses and provides housing subsidies is fulfilling it. All four obligations apply simultaneously and continuously.
 
 
-![Housing, healthcare, food, water, social security and education are written as enforceable claims | Photo by Brett Jordan on Unsplash](/images/articles/hd-5-1-your-development-rights/img-1.webp)
+![Housing, healthcare, food, water, social security and education are written as enforceable claims | Photo by Brett Jordan on Unsplash](/images/articles/hd-6-1-your-development-rights/img-1.webp)
 
 Sections 26 through 29 contain the socioeconomic rights that are most directly relevant to human development. Let us examine each one with the precision it deserves, because the specific language matters — it has been litigated, interpreted, and refined through decades of Constitutional Court jurisprudence, and the meaning of every phrase has practical consequences for what you can demand from the state.
 
@@ -132,7 +132,7 @@ The distinction between educational access and educational quality is perhaps th
 Your municipality is the sphere of government closest to your daily life, and it is responsible for delivering many of the services that directly affect human development: water and sanitation, electricity, refuse removal, housing, and local health services (in some municipalities). Whether your municipality is fulfilling its constitutional obligations can be assessed through several publicly available data sources.
 
 
-![Municipal performance data lets residents track the services their rights actually depend on | Photo by Vitaly Gariev on Unsplash](/images/articles/hd-5-1-your-development-rights/img-2.webp)
+![Municipal performance data lets residents track the services their rights actually depend on | Photo by Vitaly Gariev on Unsplash](/images/articles/hd-6-1-your-development-rights/img-2.webp)
 
 **Blue Drop and Green Drop Reports.** The Department of Water and Sanitation (DWS) administers the Blue Drop certification programme (for drinking water quality) and the Green Drop certification programme (for wastewater treatment). The Blue Drop assessment evaluates municipal water supply systems against a set of criteria including water safety planning, process management, water quality compliance, management and governance, and asset management. Systems are scored from 0 to 100, with scores above 95 qualifying for Blue Drop certification. The Green Drop assessment applies a similar methodology to wastewater treatment works.
 
@@ -207,7 +207,7 @@ The enforcement of court orders in socioeconomic rights cases remains one of the
 You now have four data tools (DHB, school performance data, municipal service delivery data, HDI data), knowledge of the constitutional framework (Sections 26–29, the reasonableness standard, the landmark cases), and awareness of the complaints and legal remedies available to you. The question is how to use all of this systematically rather than in isolated, reactive responses to specific failures.
 
 
-![An accountability workflow turns data and rights into a sequence of letters, meetings and follow-ups | Photo by Jon Tyson on Unsplash](/images/articles/hd-5-1-your-development-rights/img-3.webp)
+![An accountability workflow turns data and rights into a sequence of letters, meetings and follow-ups | Photo by Jon Tyson on Unsplash](/images/articles/hd-6-1-your-development-rights/img-3.webp)
 
 Here is a practical workflow that any citizen, community organisation, or ward committee can follow.
 
@@ -225,7 +225,7 @@ Here is a practical workflow that any citizen, community organisation, or ward c
 
 This workflow is not a guarantee of success. The machinery of accountability is imperfect, underfunded, and sometimes deliberately obstructed. But it is the machinery you have, and it is more powerful than most citizens realise. The Constitution gave you the rights. The data is publicly available. The complaint mechanisms exist. The courts stand ready to enforce your rights when all else fails. What remains is for you to use these tools — not once, not in a moment of crisis, but consistently, systematically, and with the patience that the progressive realisation of rights demands.
 
-The next article in this series, [Building the Cycle From the Ground Up](/articles/hd-5-2-building-the-cycle), takes the accountability framework you have built here and connects it to the broader reinforcing cycle of safety, growth, and human development. Because your development rights are not just about holding government accountable for service delivery. They are about building the conditions in which the virtuous cycle — where safety enables growth, growth funds development, and development creates the conditions for sustained safety and growth — can take root in your ward, your municipality, and your province. The tools in this article are the foundation. The next article builds the house.
+The next article in this series, [Building the Cycle From the Ground Up](/articles/hd-6-2-building-the-cycle), takes the accountability framework you have built here and connects it to the broader reinforcing cycle of safety, growth, and human development. Because your development rights are not just about holding government accountable for service delivery. They are about building the conditions in which the virtuous cycle — where safety enables growth, growth funds development, and development creates the conditions for sustained safety and growth — can take root in your ward, your municipality, and your province. The tools in this article are the foundation. The next article builds the house.
 
 :::framework
 **The Development Rights Accountability Toolkit**
