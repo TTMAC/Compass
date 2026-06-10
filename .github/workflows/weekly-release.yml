@@ -1,0 +1,96 @@
+name: Weekly release
+
+# Batches a week of changes from develop into main. Netlify builds production
+# only when main changes, so this Monday push is the single planned production
+# deploy each week. develop deploys continuously to the dev environment
+# (see the [context.develop] block in netlify.toml); this workflow is the only
+# planned path from develop to production.
+#
+# For an out-of-cycle release, run it manually:
+#   Actions tab -> Weekly release -> Run workflow.
+#
+# Compass note: the hourly scheduled-publish.yml bot can also advance main on
+# its own (it promotes articles whose scheduledPublishDate has passed so they
+# deploy on time). When that has happened, main is no longer a clean
+# fast-forward of develop, so the promote step below falls back from
+# `merge --ff-only` to a real merge commit. A genuine content conflict makes
+# the job fail loudly rather than corrupt either branch.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 08:00 SAST (UTC+2; South Africa has no DST)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-release
+  cancel-in-progress: false
+
+env:
+  NODE_VERSION: 20
+
+jobs:
+  release:
+    name: Gate develop and promote to main
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout develop
+        uses: actions/checkout@v4
+        with:
+          ref: develop
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Format check
+        run: npm run format:check
+
+      - name: Unit tests
+        run: npm test
+
+      - name: Build
+        run: npm run build
+
+      - name: Promote develop to main
+        run: |
+          # Discard any working-tree changes the build produced
+          # (scripts/scheduled-publish.mjs rewrites article frontmatter at
+          # build time) so the branch operations below start clean.
+          git reset --hard
+          git clean -fd
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main develop
+
+          if git merge-base --is-ancestor origin/develop origin/main; then
+            echo "main already contains develop — nothing to release this week."
+            exit 0
+          fi
+
+          git checkout -B main origin/main
+          if git merge-base --is-ancestor origin/main origin/develop; then
+            # main has not advanced independently — clean fast-forward.
+            git merge --ff-only origin/develop
+            echo "Released: develop -> main (fast-forward)."
+          else
+            # main advanced on its own (e.g. scheduled-publish bot) — merge.
+            # A real content conflict will abort the merge and fail the job.
+            git merge --no-edit origin/develop
+            echo "Released: develop -> main (merge commit; main had advanced)."
+          fi
+
+          git push origin main
+          echo "Pushed to main. Netlify will build production."
