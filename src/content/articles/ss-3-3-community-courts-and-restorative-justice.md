@@ -48,7 +48,7 @@ A municipal justice layer — community courts handling summary offences, incorp
 
 The case for community courts is grounded in three constitutional provisions that the current system cannot deliver on at scale.
 
-**Section 34 of the Constitution guarantees the right to have any dispute resolved "in a fair public hearing before a court or, where appropriate, another independent and impartial tribunal or forum."** The "another independent and impartial tribunal or forum" language is a *deliberate constitutional choice* — the framers anticipated that a single-track court system would not be sufficient to deliver accessible justice in a country with the size, diversity, and pre-existing traditional justice practices of South Africa. Community courts are a direct exercise of this constitutional provision: they are the "independent and impartial forum" that the Constitution explicitly contemplates.
+**Section 34 of the Constitution guarantees the right to have any dispute resolved "in a fair public hearing before a court or, where appropriate, another independent and impartial tribunal or forum."** The "another independent and impartial tribunal or forum" language is a _deliberate constitutional choice_ — the framers anticipated that a single-track court system would not be sufficient to deliver accessible justice in a country with the size, diversity, and pre-existing traditional justice practices of South Africa. Community courts are a direct exercise of this constitutional provision: they are the "independent and impartial forum" that the Constitution explicitly contemplates.
 
 Section 35(3) guarantees the right to a fair trial, which includes the right to have the trial begin and conclude without unreasonable delay. The Constitutional Court has emphasised in multiple judgments that unreasonable delay is itself a violation of constitutional rights, not merely an administrative inconvenience. The current magistrates' court backlog — cases postponed five, ten, or fifteen times over months and years — routinely violates this right. Community courts, with defined time limits for each case category, are the structural mechanism for giving effect to the right to a speedy trial in matters that do not require the full apparatus of formal prosecution.
 
@@ -59,7 +59,6 @@ The constitutional case is not ancillary to the policy case — it is the policy
 ## The Case-Flow Triage System
 
 Before examining community courts in detail, you need to understand how they fit into the broader case-flow architecture. The current system processes all criminal matters through essentially the same pipeline. The reform proposes a triage system — borrowed from hospital emergency department logic — in which every criminal matter entering the system is classified within 72 hours of arrest.
-
 
 ![A triage system routes minor matters to community courts and reserves magistrates for cases that need them | Photo by Jacob McGowin on Unsplash](/images/articles/ss-3-3-community-courts-and-restorative-justice/img-1.webp)
 
@@ -76,7 +75,6 @@ The case-flow triage system classifies every criminal matter within 72 hours int
 ## The Community Court Model
 
 Municipal Community Justice Courts would be established under an amended Magistrates' Courts Act, empowered to handle summary offences with sentences up to two years. They would operate within the municipal governance framework — located in municipal buildings, funded partly through municipal budgets (supplemented by national conditional grants), and accountable to the local community through the same democratic structures that govern other municipal functions.
-
 
 ![Community courts sit at municipal level and resolve low-stakes matters through locally accountable processes | Photo by Acton Crawford on Unsplash](/images/articles/ss-3-3-community-courts-and-restorative-justice/img-2.webp)
 
@@ -114,10 +112,9 @@ Professor Ann Skelton — South African academic, member of the UN Committee on 
 
 Restorative justice is a framework for responding to crime that focuses on repairing the harm caused rather than simply punishing the offender. In a restorative justice process, the victim, the offender, and affected community members come together — facilitated by a trained mediator — to discuss the impact of the offence, hear the offender's acceptance of responsibility, and agree on actions that the offender will take to repair the harm.
 
-
 ![Restorative processes bring victim, offender and community together to repair harm rather than only punish it | Photo by Johan Mouchet on Unsplash](/images/articles/ss-3-3-community-courts-and-restorative-justice/img-3.webp)
 
-*Restorative justice is not a soft option.* When done properly, **it is harder on the offender than the conventional system**, because it requires them to face the person they harmed, hear the impact of their actions, and commit to meaningful reparation. A community service order imposed through a restorative justice process — in which the offender has heard directly from the victim and agreed to specific reparation — carries more moral weight and produces better compliance than a sentence imposed by a magistrate who heard the facts for fifteen minutes.
+_Restorative justice is not a soft option._ When done properly, **it is harder on the offender than the conventional system**, because it requires them to face the person they harmed, hear the impact of their actions, and commit to meaningful reparation. A community service order imposed through a restorative justice process — in which the offender has heard directly from the victim and agreed to specific reparation — carries more moral weight and produces better compliance than a sentence imposed by a magistrate who heard the facts for fifteen minutes.
 
 South Africa already has legislative frameworks that recognise restorative justice. The Child Justice Act of 2008 provides for diversion of juvenile offenders into restorative justice programmes as an alternative to prosecution. The Probation Services Act provides for victim-offender mediation. The Correctional Services Act recognises restorative justice as a component of rehabilitation. What is missing is the institutional infrastructure to deliver restorative justice at scale — and the community court provides that infrastructure.
 

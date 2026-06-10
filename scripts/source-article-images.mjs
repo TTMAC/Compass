@@ -40,7 +40,9 @@ config({ path: join(__dirname, "..", ".env") });
 
 const ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY;
 if (!ACCESS_KEY) {
-  console.error("Error: UNSPLASH_ACCESS_KEY not found. Add it to .env or set as env var.");
+  console.error(
+    "Error: UNSPLASH_ACCESS_KEY not found. Add it to .env or set as env var.",
+  );
   process.exit(1);
 }
 
@@ -73,16 +75,21 @@ const ARTICLE_CONFIG = {
     ],
     placements: [
       {
-        afterH2: "Why \u201CSpheres\u201D and Not \u201CTiers\u201D: The Framers\u2019 Deliberate Choice",
-        caption: "The Constitutional Court in Johannesburg, where disputes over government powers are resolved",
+        afterH2:
+          "Why \u201CSpheres\u201D and Not \u201CTiers\u201D: The Framers\u2019 Deliberate Choice",
+        caption:
+          "The Constitutional Court in Johannesburg, where disputes over government powers are resolved",
       },
       {
         afterH2: "What Each Sphere Actually Does: A Plain-Language Guide",
-        caption: "Government services like water and electricity are delivered through different spheres",
+        caption:
+          "Government services like water and electricity are delivered through different spheres",
       },
       {
-        afterH2: "The Role of Local Government: Where the Rubber Meets the Road",
-        caption: "Municipal service delivery is where most citizens interact with government",
+        afterH2:
+          "The Role of Local Government: Where the Rubber Meets the Road",
+        caption:
+          "Municipal service delivery is where most citizens interact with government",
       },
     ],
   },
@@ -94,16 +101,22 @@ const ARTICLE_CONFIG = {
     ],
     placements: [
       {
-        afterH2: "The National Government Machine: Departments, Ministers, and Directors-General",
-        caption: "Parliament in Cape Town, where national legislation is debated and passed",
+        afterH2:
+          "The National Government Machine: Departments, Ministers, and Directors-General",
+        caption:
+          "Parliament in Cape Town, where national legislation is debated and passed",
       },
       {
-        afterH2: "The Provincial Government Machine: MECs, HODs, and the Services Closest to You",
-        caption: "Provincial legislatures oversee education, health, and other critical services",
+        afterH2:
+          "The Provincial Government Machine: MECs, HODs, and the Services Closest to You",
+        caption:
+          "Provincial legislatures oversee education, health, and other critical services",
       },
       {
-        afterH2: "The Municipal Government Machine: Where Services Meet Your Street",
-        caption: "Municipal offices are where citizens access local government services directly",
+        afterH2:
+          "The Municipal Government Machine: Where Services Meet Your Street",
+        caption:
+          "Municipal offices are where citizens access local government services directly",
       },
     ],
   },
@@ -116,11 +129,14 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Constitutional Foundation: What Chapter 3 Demands",
-        caption: "Cooperative governance requires all three spheres to work together in good faith",
+        caption:
+          "Cooperative governance requires all three spheres to work together in good faith",
       },
       {
-        afterH2: "The Intergovernmental Relations Framework Act: The Operating Manual",
-        caption: "Intergovernmental forums bring together officials from national, provincial, and municipal government",
+        afterH2:
+          "The Intergovernmental Relations Framework Act: The Operating Manual",
+        caption:
+          "Intergovernmental forums bring together officials from national, provincial, and municipal government",
       },
       {
         afterH2: "The National Council of Provinces: The Legislative Bridge",
@@ -137,15 +153,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Where Your Tax Money Comes From: Inside SARS",
-        caption: "SARS collects over R2 trillion annually, forming the fiscal foundation of government",
+        caption:
+          "SARS collects over R2 trillion annually, forming the fiscal foundation of government",
       },
       {
         afterH2: "The Great Division: How DORA Splits the Money",
-        caption: "The Division of Revenue Act determines how money flows between spheres of government",
+        caption:
+          "The Division of Revenue Act determines how money flows between spheres of government",
       },
       {
         afterH2: "Two Types of Money: Equitable Share and Conditional Grants",
-        caption: "Conditional grants ring-fence funding for specific programmes like housing and infrastructure",
+        caption:
+          "Conditional grants ring-fence funding for specific programmes like housing and infrastructure",
       },
     ],
   },
@@ -157,16 +176,22 @@ const ARTICLE_CONFIG = {
     ],
     placements: [
       {
-        afterH2: "The Medium-Term Expenditure Framework: Why the Budget Is Always Three Years Long",
-        caption: "The budget cycle spans three years, balancing long-term planning with annual adjustments",
+        afterH2:
+          "The Medium-Term Expenditure Framework: Why the Budget Is Always Three Years Long",
+        caption:
+          "The budget cycle spans three years, balancing long-term planning with annual adjustments",
       },
       {
-        afterH2: "Phase 2: The Medium-Term Budget Policy Statement — The Preview (October)",
-        caption: "The MTBPS in October previews the fiscal framework before the full budget in February",
+        afterH2:
+          "Phase 2: The Medium-Term Budget Policy Statement — The Preview (October)",
+        caption:
+          "The MTBPS in October previews the fiscal framework before the full budget in February",
       },
       {
-        afterH2: "Phase 3: Budget Preparation — The Negotiation Nobody Sees (August to January)",
-        caption: "Departments negotiate their allocations with National Treasury behind closed doors",
+        afterH2:
+          "Phase 3: Budget Preparation — The Negotiation Nobody Sees (August to January)",
+        caption:
+          "Departments negotiate their allocations with National Treasury behind closed doors",
       },
     ],
   },
@@ -179,15 +204,19 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Three Revenue Streams: How Your Municipality Gets Its Money",
-        caption: "Municipalities fund their operations through a mix of national transfers, grants, and own revenue",
+        caption:
+          "Municipalities fund their operations through a mix of national transfers, grants, and own revenue",
       },
       {
-        afterH2: "Conditional Grants: Ring-Fenced Money for Specific Municipal Projects",
-        caption: "Infrastructure grants fund critical projects like water treatment and road maintenance",
+        afterH2:
+          "Conditional Grants: Ring-Fenced Money for Specific Municipal Projects",
+        caption:
+          "Infrastructure grants fund critical projects like water treatment and road maintenance",
       },
       {
         afterH2: "The Municipal Business Model: How Own Revenue Works",
-        caption: "Property rates and service charges form the backbone of municipal own revenue",
+        caption:
+          "Property rates and service charges form the backbone of municipal own revenue",
       },
     ],
   },
@@ -200,15 +229,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "How South Africa Ended Up With Nine Provinces",
-        caption: "The nine provinces were created through negotiations during the transition to democracy",
+        caption:
+          "The nine provinces were created through negotiations during the transition to democracy",
       },
       {
         afterH2: "What Provinces Can Actually Do: The Constitutional Powers",
-        caption: "Provincial powers are defined in the Constitution's Schedules 4 and 5",
+        caption:
+          "Provincial powers are defined in the Constitution's Schedules 4 and 5",
       },
       {
         afterH2: "The Money Problem: Provincial Fiscal Dependence",
-        caption: "Provinces depend on national transfers for over 95% of their revenue",
+        caption:
+          "Provinces depend on national transfers for over 95% of their revenue",
       },
     ],
   },
@@ -221,15 +253,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Basic Education: The Largest Provincial Function",
-        caption: "Education consumes roughly 40% of every provincial budget in South Africa",
+        caption:
+          "Education consumes roughly 40% of every provincial budget in South Africa",
       },
       {
         afterH2: "Health: Where Provincial Government Meets Your Body",
-        caption: "Provincial hospitals and clinics are the primary healthcare access point for most South Africans",
+        caption:
+          "Provincial hospitals and clinics are the primary healthcare access point for most South Africans",
       },
       {
         afterH2: "How Provinces Compare: The Performance Map",
-        caption: "Service delivery outcomes vary dramatically across South Africa's nine provinces",
+        caption:
+          "Service delivery outcomes vary dramatically across South Africa's nine provinces",
       },
     ],
   },
@@ -242,15 +277,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Three Categories of Municipality: Why the Type Matters",
-        caption: "South Africa's 257 municipalities are divided into three categories with different powers",
+        caption:
+          "South Africa's 257 municipalities are divided into three categories with different powers",
       },
       {
         afterH2: "How Your Council Is Elected: The Mixed Electoral System",
-        caption: "Municipal elections use a mixed system combining ward representatives and proportional representation",
+        caption:
+          "Municipal elections use a mixed system combining ward representatives and proportional representation",
       },
       {
         afterH2: "The Municipal Manager: Where Politics Meets Administration",
-        caption: "The municipal manager is the accounting officer responsible for turning council decisions into services",
+        caption:
+          "The municipal manager is the accounting officer responsible for turning council decisions into services",
       },
     ],
   },
@@ -262,16 +300,21 @@ const ARTICLE_CONFIG = {
     ],
     placements: [
       {
-        afterH2: "The Constitutional Foundation: Rights That Demand Participation",
-        caption: "The Constitution guarantees every citizen the right to participate in government",
+        afterH2:
+          "The Constitutional Foundation: Rights That Demand Participation",
+        caption:
+          "The Constitution guarantees every citizen the right to participate in government",
       },
       {
-        afterH2: "The Constitutional Court Speaks: Participation Is Not Optional",
-        caption: "Landmark court rulings have established that public participation is a constitutional requirement",
+        afterH2:
+          "The Constitutional Court Speaks: Participation Is Not Optional",
+        caption:
+          "Landmark court rulings have established that public participation is a constitutional requirement",
       },
       {
         afterH2: "The Participation Map: Every Channel Available to You",
-        caption: "Citizens have multiple formal channels to engage with government at every level",
+        caption:
+          "Citizens have multiple formal channels to engage with government at every level",
       },
     ],
   },
@@ -284,15 +327,19 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Ward Committees: How They Actually Work",
-        caption: "Ward committees are the primary mechanism for community participation in local government",
+        caption:
+          "Ward committees are the primary mechanism for community participation in local government",
       },
       {
         afterH2: "The IDP Process: Shaping Your Municipality's Five-Year Plan",
-        caption: "The Integrated Development Plan process gives communities a say in municipal priorities",
+        caption:
+          "The Integrated Development Plan process gives communities a say in municipal priorities",
       },
       {
-        afterH2: "The Municipal Budget Process: Following the Money You Helped Prioritise",
-        caption: "Public budget consultations allow residents to influence how municipal funds are allocated",
+        afterH2:
+          "The Municipal Budget Process: Following the Money You Helped Prioritise",
+        caption:
+          "Public budget consultations allow residents to influence how municipal funds are allocated",
       },
     ],
   },
@@ -305,15 +352,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Finding the Opportunities: How to Know When to Comment",
-        caption: "Government Gazettes and parliamentary websites publish calls for public comment",
+        caption:
+          "Government Gazettes and parliamentary websites publish calls for public comment",
       },
       {
         afterH2: "Anatomy of an Effective Submission",
-        caption: "An effective submission is structured, evidence-based, and proposes specific alternatives",
+        caption:
+          "An effective submission is structured, evidence-based, and proposes specific alternatives",
       },
       {
         afterH2: "Step by Step: Writing Your First Submission",
-        caption: "Even a single well-reasoned submission can influence policy outcomes",
+        caption:
+          "Even a single well-reasoned submission can influence policy outcomes",
       },
     ],
   },
@@ -326,15 +376,19 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Constitutional Watchdog: What AGSA Is and Why It Matters",
-        caption: "The Auditor-General audits every government department and public entity annually",
+        caption:
+          "The Auditor-General audits every government department and public entity annually",
       },
       {
         afterH2: "The Five Audit Outcomes: A Vocabulary for Accountability",
-        caption: "Audit outcomes range from clean audit to disclaimer — each telling a different story",
+        caption:
+          "Audit outcomes range from clean audit to disclaimer — each telling a different story",
       },
       {
-        afterH2: "The Language of Financial Failure: Key Terms You Need to Know",
-        caption: "Understanding audit terminology is essential for reading government accountability reports",
+        afterH2:
+          "The Language of Financial Failure: Key Terms You Need to Know",
+        caption:
+          "Understanding audit terminology is essential for reading government accountability reports",
       },
     ],
   },
@@ -347,15 +401,19 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "National Treasury: Following the Rands and Cents",
-        caption: "Treasury publishes detailed budget data that anyone can access and analyse",
+        caption:
+          "Treasury publishes detailed budget data that anyone can access and analyse",
       },
       {
         afterH2: "Statistics South Africa: Measuring the Country",
-        caption: "Stats SA surveys and censuses provide the baseline data for policy decisions",
+        caption:
+          "Stats SA surveys and censuses provide the baseline data for policy decisions",
       },
       {
-        afterH2: "The Parliamentary Monitoring Group: Parliament's Public Memory",
-        caption: "PMG records and publishes detailed minutes of every parliamentary committee meeting",
+        afterH2:
+          "The Parliamentary Monitoring Group: Parliament's Public Memory",
+        caption:
+          "PMG records and publishes detailed minutes of every parliamentary committee meeting",
       },
     ],
   },
@@ -368,15 +426,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "What Makes Civic Engagement Work: The TAC Model",
-        caption: "The Treatment Action Campaign showed how informed, organised citizens can change policy",
+        caption:
+          "The Treatment Action Campaign showed how informed, organised citizens can change policy",
       },
       {
         afterH2: "Know Your Entry Points: Where You Can Engage",
-        caption: "Effective civic engagement starts with knowing where and when to direct your energy",
+        caption:
+          "Effective civic engagement starts with knowing where and when to direct your energy",
       },
       {
         afterH2: "The Honest Obstacles",
-        caption: "Civic participation faces real barriers — but understanding them is the first step to overcoming them",
+        caption:
+          "Civic participation faces real barriers — but understanding them is the first step to overcoming them",
       },
     ],
   },
@@ -393,15 +454,19 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Making Seven Thousand Dollars Concrete",
-        caption: "Daily economic life in South Africa runs on incomes the official averages obscure",
+        caption:
+          "Daily economic life in South Africa runs on incomes the official averages obscure",
       },
       {
-        afterH2: "The Atlas of Economic Complexity: What South Africa Actually Makes",
-        caption: "What an economy exports reveals which productive capabilities it has actually built",
+        afterH2:
+          "The Atlas of Economic Complexity: What South Africa Actually Makes",
+        caption:
+          "What an economy exports reveals which productive capabilities it has actually built",
       },
       {
         afterH2: "What Stagnation Means for Ordinary South Africans",
-        caption: "A decade of flat output per person shows up first in household budgets",
+        caption:
+          "A decade of flat output per person shows up first in household budgets",
       },
     ],
   },
@@ -414,16 +479,21 @@ const ARTICLE_CONFIG = {
     ],
     placements: [
       {
-        afterH2: "The Colonial Extractive Economy: Minerals, Labour, and the Architecture of Dependence",
-        caption: "Mineral extraction and migrant labour built the foundations of the modern South African economy",
+        afterH2:
+          "The Colonial Extractive Economy: Minerals, Labour, and the Architecture of Dependence",
+        caption:
+          "Mineral extraction and migrant labour built the foundations of the modern South African economy",
       },
       {
-        afterH2: "Post-1994: The Policy Trajectory That Accelerated Deindustrialisation",
-        caption: "Manufacturing's share of output fell as trade liberalisation outpaced industrial upgrading",
+        afterH2:
+          "Post-1994: The Policy Trajectory That Accelerated Deindustrialisation",
+        caption:
+          "Manufacturing's share of output fell as trade liberalisation outpaced industrial upgrading",
       },
       {
         afterH2: "What the Comparator Countries Did Differently",
-        caption: "Countries that escaped middle-income stagnation made deliberate industrial choices South Africa avoided",
+        caption:
+          "Countries that escaped middle-income stagnation made deliberate industrial choices South Africa avoided",
       },
     ],
   },
@@ -437,15 +507,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Vietnam — From War-Devastation to Manufacturing Magnet",
-        caption: "Vietnam's manufacturing surge transformed a war-ravaged economy into a global production hub",
+        caption:
+          "Vietnam's manufacturing surge transformed a war-ravaged economy into a global production hub",
       },
       {
         afterH2: "South Korea — The Innovation Transition",
-        caption: "South Korea built world-leading firms by sequencing efficiency-led growth into innovation-led growth",
+        caption:
+          "South Korea built world-leading firms by sequencing efficiency-led growth into innovation-led growth",
       },
       {
         afterH2: "Common Threads — What All Six Got Right",
-        caption: "Six different countries, six different sectors, but the institutional patterns rhyme",
+        caption:
+          "Six different countries, six different sectors, but the institutional patterns rhyme",
       },
     ],
   },
@@ -459,15 +532,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Reframing the Beneficiation Debate",
-        caption: "Adding processing steps to mineral exports captures value that raw ore shipments leave on the table",
+        caption:
+          "Adding processing steps to mineral exports captures value that raw ore shipments leave on the table",
       },
       {
         afterH2: "Agriculture Value Chain Upgrading",
-        caption: "Citrus, wine and processed foods show where South African agriculture moves up the value chain",
+        caption:
+          "Citrus, wine and processed foods show where South African agriculture moves up the value chain",
       },
       {
         afterH2: "Logistics Corridor Modernisation",
-        caption: "Rail and port corridors decide whether resource exports reach world markets at competitive cost",
+        caption:
+          "Rail and port corridors decide whether resource exports reach world markets at competitive cost",
       },
     ],
   },
@@ -481,15 +557,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Energy Crisis: How South Africa Lost the Lights",
-        caption: "Two decades of underinvestment turned Eskom from a continental asset into a national constraint",
+        caption:
+          "Two decades of underinvestment turned Eskom from a continental asset into a national constraint",
       },
       {
         afterH2: "The Logistics Crisis: When the Supply Chain Breaks",
-        caption: "Port and rail bottlenecks cost exporters billions and erode the case for South African manufacturing",
+        caption:
+          "Port and rail bottlenecks cost exporters billions and erode the case for South African manufacturing",
       },
       {
         afterH2: "Water: The Crisis Nobody Talks About",
-        caption: "Ageing pipes and overstretched dams make water the next infrastructure crisis already underway",
+        caption:
+          "Ageing pipes and overstretched dams make water the next infrastructure crisis already underway",
       },
     ],
   },
@@ -503,15 +582,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Where the Money Actually Sits",
-        caption: "Financial centres concentrate the pension and asset management pools that could fund South Africa's infrastructure build",
+        caption:
+          "Financial centres concentrate the pension and asset management pools that could fund South Africa's infrastructure build",
       },
       {
         afterH2: "How Banks Turned Away from the Real Economy",
-        caption: "Bank balance sheets shifted toward consumer credit and government bonds rather than productive investment",
+        caption:
+          "Bank balance sheets shifted toward consumer credit and government bonds rather than productive investment",
       },
       {
         afterH2: "What This Means for the Growth Strategy",
-        caption: "Closing the investment gap is a financial-architecture problem, not a savings problem",
+        caption:
+          "Closing the investment gap is a financial-architecture problem, not a savings problem",
       },
     ],
   },
@@ -524,16 +606,22 @@ const ARTICLE_CONFIG = {
     ],
     placements: [
       {
-        afterH2: "Manufacturing Scale-Up: Where South Africa Can Realistically Compete",
-        caption: "Automotive and components manufacturing show where South African industry already operates at global scale",
+        afterH2:
+          "Manufacturing Scale-Up: Where South Africa Can Realistically Compete",
+        caption:
+          "Automotive and components manufacturing show where South African industry already operates at global scale",
       },
       {
-        afterH2: "The Education-to-Employment Pipeline: Where Stage 2 Will Be Won or Lost",
-        caption: "Technical and vocational training is the binding constraint on efficiency-driven growth",
+        afterH2:
+          "The Education-to-Employment Pipeline: Where Stage 2 Will Be Won or Lost",
+        caption:
+          "Technical and vocational training is the binding constraint on efficiency-driven growth",
       },
       {
-        afterH2: "The SADC Integration Opportunity: Market Scale as Manufacturing Prerequisite",
-        caption: "Regional markets give manufacturers the scale that domestic demand alone cannot provide",
+        afterH2:
+          "The SADC Integration Opportunity: Market Scale as Manufacturing Prerequisite",
+        caption:
+          "Regional markets give manufacturers the scale that domestic demand alone cannot provide",
       },
     ],
   },
@@ -547,15 +635,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "R&D Intensity: The Fundamental Metric",
-        caption: "Research spending as a share of GDP is the single best predictor of long-run innovation capacity",
+        caption:
+          "Research spending as a share of GDP is the single best predictor of long-run innovation capacity",
       },
       {
         afterH2: "University-Industry Collaboration: The Missing Bridge",
-        caption: "The link between university research and commercial product is where most innovation systems succeed or fail",
+        caption:
+          "The link between university research and commercial product is where most innovation systems succeed or fail",
       },
       {
         afterH2: "South Africa's Existing Innovation Pockets",
-        caption: "Pockets of world-class innovation already exist in South African firms and research institutions",
+        caption:
+          "Pockets of world-class innovation already exist in South African firms and research institutions",
       },
     ],
   },
@@ -569,15 +660,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Engine One: New Venture Creation and Scaling",
-        caption: "Small and medium firms are where most net new jobs are created in successful economies",
+        caption:
+          "Small and medium firms are where most net new jobs are created in successful economies",
       },
       {
         afterH2: "Engine Two: Export Diversification",
-        caption: "Export diversification reduces commodity risk and forces firms to compete at world standards",
+        caption:
+          "Export diversification reduces commodity risk and forces firms to compete at world standards",
       },
       {
         afterH2: "Engine Three: New Financing Vehicles",
-        caption: "New financing vehicles channel domestic savings into the productive economy",
+        caption:
+          "New financing vehicles channel domestic savings into the productive economy",
       },
     ],
   },
@@ -591,15 +685,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Malaysia's Economic Planning Unit — The Gold Standard",
-        caption: "Malaysia's Economic Planning Unit shows how a coordinating body translates strategy into delivery",
+        caption:
+          "Malaysia's Economic Planning Unit shows how a coordinating body translates strategy into delivery",
       },
       {
         afterH2: "What This Looks Like for South Africa",
-        caption: "An execution machine sits inside the Presidency with the authority to enforce delivery across departments",
+        caption:
+          "An execution machine sits inside the Presidency with the authority to enforce delivery across departments",
       },
       {
         afterH2: "Operation Vulindlela — What Is Possible and What Is Missing",
-        caption: "Operation Vulindlela proves South Africa can execute when the institutional design is right",
+        caption:
+          "Operation Vulindlela proves South Africa can execute when the institutional design is right",
       },
     ],
   },
@@ -612,16 +709,20 @@ const ARTICLE_CONFIG = {
     ],
     placements: [
       {
-        afterH2: "The Auditor-General: Africa's Most Sophisticated Public Audit",
-        caption: "The Auditor-General produces world-class findings that government too rarely converts into corrective action",
+        afterH2:
+          "The Auditor-General: Africa's Most Sophisticated Public Audit",
+        caption:
+          "The Auditor-General produces world-class findings that government too rarely converts into corrective action",
       },
       {
         afterH2: "The Gap Between Measurement and Action",
-        caption: "South Africa's monitoring system surfaces problems faster than its political system responds to them",
+        caption:
+          "South Africa's monitoring system surfaces problems faster than its political system responds to them",
       },
       {
         afterH2: "What Would an Effective M&E System Look Like?",
-        caption: "An effective monitoring system links findings to consequences for the officials responsible",
+        caption:
+          "An effective monitoring system links findings to consequences for the officials responsible",
       },
     ],
   },
@@ -635,15 +736,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Why a Municipal Performance Index Matters",
-        caption: "A single comparable score lets residents see how their municipality performs against peers",
+        caption:
+          "A single comparable score lets residents see how their municipality performs against peers",
       },
       {
         afterH2: "The Indicators: What Gets Measured",
-        caption: "Indicators draw from financial, service-delivery, governance and economic data already in the public record",
+        caption:
+          "Indicators draw from financial, service-delivery, governance and economic data already in the public record",
       },
       {
         afterH2: "Data Sources and Where to Find Them",
-        caption: "Treasury, Stats SA and the Auditor-General publish the raw data the MPI assembles",
+        caption:
+          "Treasury, Stats SA and the Auditor-General publish the raw data the MPI assembles",
       },
     ],
   },
@@ -657,15 +761,19 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Cape Town: The Economic Pillar Worked Example",
-        caption: "Cape Town's economic pillar score reflects its tax base, business environment and own-revenue strength",
+        caption:
+          "Cape Town's economic pillar score reflects its tax base, business environment and own-revenue strength",
       },
       {
         afterH2: "Johannesburg: Where the Numbers Diverge",
-        caption: "Johannesburg's score diverges across pillars, exposing the gap between scale and governance quality",
+        caption:
+          "Johannesburg's score diverges across pillars, exposing the gap between scale and governance quality",
       },
       {
-        afterH2: "Peer Group Stratification: Why Comparing a Metro to a Rural Municipality is Unfair",
-        caption: "Fair comparison requires grouping municipalities by category before ranking their performance",
+        afterH2:
+          "Peer Group Stratification: Why Comparing a Metro to a Rural Municipality is Unfair",
+        caption:
+          "Fair comparison requires grouping municipalities by category before ranking their performance",
       },
     ],
   },
@@ -678,16 +786,20 @@ const ARTICLE_CONFIG = {
     ],
     placements: [
       {
-        afterH2: "The McKinsey Framework: Five Dimensions of Infrastructure Delivery",
-        caption: "Five dimensions — selection, finance, delivery, regulation, capability — determine whether plans become projects",
+        afterH2:
+          "The McKinsey Framework: Five Dimensions of Infrastructure Delivery",
+        caption:
+          "Five dimensions — selection, finance, delivery, regulation, capability — determine whether plans become projects",
       },
       {
         afterH2: "Sector-by-Sector Scorecard",
-        caption: "Energy, transport, water and digital infrastructure each show different patterns of planning-to-delivery failure",
+        caption:
+          "Energy, transport, water and digital infrastructure each show different patterns of planning-to-delivery failure",
       },
       {
         afterH2: "Why the Gap Persists",
-        caption: "The planning-execution gap is institutional, not technical — capacity sits in plans, not delivery teams",
+        caption:
+          "The planning-execution gap is institutional, not technical — capacity sits in plans, not delivery teams",
       },
     ],
   },
@@ -701,15 +813,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Mapping the Winners and Losers",
-        caption: "Every reform redistributes income and risk — naming the affected groups is the first political task",
+        caption:
+          "Every reform redistributes income and risk — naming the affected groups is the first political task",
       },
       {
         afterH2: "The Social Compact: Learning from Others",
-        caption: "Social compacts work when government, labour and business each give up something they value",
+        caption:
+          "Social compacts work when government, labour and business each give up something they value",
       },
       {
         afterH2: "Parliamentary Accountability: The Missing Link",
-        caption: "Parliament is where reform trade-offs should be debated openly rather than negotiated behind closed doors",
+        caption:
+          "Parliament is where reform trade-offs should be debated openly rather than negotiated behind closed doors",
       },
     ],
   },
@@ -723,15 +838,19 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Why Sequencing Matters More Than Strategy",
-        caption: "Strategies fail not because the goals are wrong but because the sequence of milestones is missing",
+        caption:
+          "Strategies fail not because the goals are wrong but because the sequence of milestones is missing",
       },
       {
         afterH2: "The Transparent Dashboard: Learning from Rwanda's EDPRS",
-        caption: "Public delivery dashboards translate strategic targets into milestones citizens can track in real time",
+        caption:
+          "Public delivery dashboards translate strategic targets into milestones citizens can track in real time",
       },
       {
-        afterH2: "The Annual Strategy Review: South Africa's Missing Institution",
-        caption: "An annual strategy review forces government to defend last year's results before setting next year's targets",
+        afterH2:
+          "The Annual Strategy Review: South Africa's Missing Institution",
+        caption:
+          "An annual strategy review forces government to defend last year's results before setting next year's targets",
       },
     ],
   },
@@ -745,15 +864,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Reading the Medium Term Budget Policy Statement",
-        caption: "The MTBPS is the single best annual document for tracking whether economic promises survive contact with the fiscus",
+        caption:
+          "The MTBPS is the single best annual document for tracking whether economic promises survive contact with the fiscus",
       },
       {
         afterH2: "Engaging Local Economic Development",
-        caption: "Local Economic Development units are where most citizens can shape economic policy in practice",
+        caption:
+          "Local Economic Development units are where most citizens can shape economic policy in practice",
       },
       {
         afterH2: "Election-Season Engagement: Reading Party Manifestos",
-        caption: "Manifestos deserve to be read against a fixed checklist rather than evaluated on rhetoric alone",
+        caption:
+          "Manifestos deserve to be read against a fixed checklist rather than evaluated on rhetoric alone",
       },
     ],
   },
@@ -770,15 +892,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The GDP Illusion",
-        caption: "National output figures hide the daily reality of how households actually live and spend",
+        caption:
+          "National output figures hide the daily reality of how households actually live and spend",
       },
       {
         afterH2: "The Human Development Index: Anatomy of a Measure",
-        caption: "Health, education and income together capture the freedoms an economy delivers to its people",
+        caption:
+          "Health, education and income together capture the freedoms an economy delivers to its people",
       },
       {
         afterH2: "From Numbers to Lives",
-        caption: "Development is ultimately measured in the choices ordinary people are free to make",
+        caption:
+          "Development is ultimately measured in the choices ordinary people are free to make",
       },
     ],
   },
@@ -792,15 +917,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Dimension One: A Nation's Health",
-        caption: "Public clinics carry the weight of measuring a country's average lifespan",
+        caption:
+          "Public clinics carry the weight of measuring a country's average lifespan",
       },
       {
         afterH2: "Dimension Three: What South Africans Earn",
-        caption: "Household income data reveals the spread that national averages quietly absorb",
+        caption:
+          "Household income data reveals the spread that national averages quietly absorb",
       },
       {
         afterH2: "What the Gap Reveals",
-        caption: "The distance between headline and inequality-adjusted scores maps unequal access to the same country",
+        caption:
+          "The distance between headline and inequality-adjusted scores maps unequal access to the same country",
       },
     ],
   },
@@ -814,15 +942,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Three Pillars as a System",
-        caption: "Safety, growth and development connect like gears — each turn depends on the others moving",
+        caption:
+          "Safety, growth and development connect like gears — each turn depends on the others moving",
       },
       {
         afterH2: "The Virtuous Cycle",
-        caption: "Investment, learning and stable neighbourhoods compound into rising living standards over time",
+        caption:
+          "Investment, learning and stable neighbourhoods compound into rising living standards over time",
       },
       {
         afterH2: "What This Means for Policy",
-        caption: "Policy gains traction when it acts on safety, growth and development as a single connected system",
+        caption:
+          "Policy gains traction when it acts on safety, growth and development as a single connected system",
       },
     ],
   },
@@ -836,15 +967,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "What You Name, You Can Solve",
-        caption: "Naming a social problem precisely is what makes systematic policy responses possible",
+        caption:
+          "Naming a social problem precisely is what makes systematic policy responses possible",
       },
       {
         afterH2: "The Carnegie Commission: Anatomy of a Named Problem",
-        caption: "The 1930s commission produced volumes of fieldwork that turned poverty into a researchable subject",
+        caption:
+          "The 1930s commission produced volumes of fieldwork that turned poverty into a researchable subject",
       },
       {
         afterH2: "What a Named Problem Would Look Like",
-        caption: "A named problem gets a research agenda, a budget line and a department accountable for solving it",
+        caption:
+          "A named problem gets a research agenda, a budget line and a department accountable for solving it",
       },
     ],
   },
@@ -858,15 +992,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Preston Curve and South Africa's Outlier Position",
-        caption: "Income predicts longevity across countries, and the outliers tell you where health systems are failing",
+        caption:
+          "Income predicts longevity across countries, and the outliers tell you where health systems are failing",
       },
       {
         afterH2: "The Treatment Cascade: 95-79-93",
-        caption: "Each step from diagnosis to suppression is where the cascade either holds or leaks",
+        caption:
+          "Each step from diagnosis to suppression is where the cascade either holds or leaks",
       },
       {
         afterH2: "What Closing the Gap Would Take: A Policy Roadmap",
-        caption: "Closing the deficit means primary care that reaches every district, not just every province",
+        caption:
+          "Closing the deficit means primary care that reaches every district, not just every province",
       },
     ],
   },
@@ -880,15 +1017,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Numbers That Should Shock",
-        caption: "Trauma units absorb the daily volume that national mortality statistics summarise into a single line",
+        caption:
+          "Trauma units absorb the daily volume that national mortality statistics summarise into a single line",
       },
       {
         afterH2: "The Trauma System Under Siege",
-        caption: "Emergency departments operate as the front line where violence becomes a measurable health cost",
+        caption:
+          "Emergency departments operate as the front line where violence becomes a measurable health cost",
       },
       {
         afterH2: "What the Evidence Shows Works",
-        caption: "Coordinated responses across health, policing and social services consistently outperform single-agency efforts",
+        caption:
+          "Coordinated responses across health, policing and social services consistently outperform single-agency efforts",
       },
     ],
   },
@@ -902,15 +1042,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Health Spending in International Context",
-        caption: "Comparing health budgets across countries shows where the rand actually buys care",
+        caption:
+          "Comparing health budgets across countries shows where the rand actually buys care",
       },
       {
         afterH2: "Health Worker Crisis",
-        caption: "The pipeline of doctors, nurses and pharmacists is what determines whether budgets reach patients",
+        caption:
+          "The pipeline of doctors, nurses and pharmacists is what determines whether budgets reach patients",
       },
       {
         afterH2: "The Path Forward: Growth as Health Policy",
-        caption: "A growing tax base is what eventually makes universal coverage fiscally durable",
+        caption:
+          "A growing tax base is what eventually makes universal coverage fiscally durable",
       },
     ],
   },
@@ -924,15 +1067,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Spending Numbers",
-        caption: "Per-learner spending in South Africa exceeds many peer countries with stronger results",
+        caption:
+          "Per-learner spending in South Africa exceeds many peer countries with stronger results",
       },
       {
         afterH2: "The Foundation Phase Crisis",
-        caption: "Whether a child can read for meaning by Grade 4 shapes everything that follows",
+        caption:
+          "Whether a child can read for meaning by Grade 4 shapes everything that follows",
       },
       {
         afterH2: "What Works: Evidence from South Africa and Globally",
-        caption: "Structured lesson plans and reading benchmarks consistently lift outcomes across school systems",
+        caption:
+          "Structured lesson plans and reading benchmarks consistently lift outcomes across school systems",
       },
     ],
   },
@@ -946,15 +1092,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Neuroscience of Stress and Learning",
-        caption: "The brain under chronic stress allocates attention to threat rather than to what teachers are teaching",
+        caption:
+          "The brain under chronic stress allocates attention to threat rather than to what teachers are teaching",
       },
       {
         afterH2: "Hunger and Learning",
-        caption: "School feeding schemes turn cognitive bandwidth back toward the lesson on the board",
+        caption:
+          "School feeding schemes turn cognitive bandwidth back toward the lesson on the board",
       },
       {
         afterH2: "What Would It Take?",
-        caption: "Safer routes, better nutrition and study space at home are education investments by another name",
+        caption:
+          "Safer routes, better nutrition and study space at home are education investments by another name",
       },
     ],
   },
@@ -968,15 +1117,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Economic Complexity and Human Capital",
-        caption: "An economy makes more sophisticated products only as fast as its workforce learns to make them",
+        caption:
+          "An economy makes more sophisticated products only as fast as its workforce learns to make them",
       },
       {
         afterH2: "The TVET Question",
-        caption: "Technical and vocational colleges are the bridge most successful economies invest in heavily",
+        caption:
+          "Technical and vocational colleges are the bridge most successful economies invest in heavily",
       },
       {
         afterH2: "The Reinforcing Cycle: Education, Growth, and More Education",
-        caption: "Productive jobs justify staying in school, and more schooling fills the productive jobs that follow",
+        caption:
+          "Productive jobs justify staying in school, and more schooling fills the productive jobs that follow",
       },
     ],
   },
@@ -990,15 +1142,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "South Korea: From War to Wonder",
-        caption: "Industrial scale-up combined with universal schooling reshaped a war-flattened economy within a generation",
+        caption:
+          "Industrial scale-up combined with universal schooling reshaped a war-flattened economy within a generation",
       },
       {
         afterH2: "Rwanda: From Genocide to Growth",
-        caption: "Disciplined public administration and primary health investment rebuilt institutions from the ground up",
+        caption:
+          "Disciplined public administration and primary health investment rebuilt institutions from the ground up",
       },
       {
         afterH2: "The Common Pattern",
-        caption: "Different countries, different sectors, but the institutional sequencing rhymes across every successful case",
+        caption:
+          "Different countries, different sectors, but the institutional sequencing rhymes across every successful case",
       },
     ],
   },
@@ -1012,15 +1167,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Vicious Spiral Mapped",
-        caption: "Each weakening link pulls the next one down, turning shocks into compounding losses",
+        caption:
+          "Each weakening link pulls the next one down, turning shocks into compounding losses",
       },
       {
         afterH2: "The Brain Drain: Bleeding Capability",
-        caption: "Skilled emigration thins the institutional capacity that built whatever still functions",
+        caption:
+          "Skilled emigration thins the institutional capacity that built whatever still functions",
       },
       {
         afterH2: "Can the Spiral Be Reversed?",
-        caption: "Reversing a spiral means stabilising one link well enough to take pressure off the others",
+        caption:
+          "Reversing a spiral means stabilising one link well enough to take pressure off the others",
       },
     ],
   },
@@ -1034,15 +1192,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "South Africa's Environmental Challenges",
-        caption: "Coal-heavy electricity and stressed catchments define the environmental ledger development has to balance",
+        caption:
+          "Coal-heavy electricity and stressed catchments define the environmental ledger development has to balance",
       },
       {
         afterH2: "Renewable Energy as Economic Opportunity",
-        caption: "Wind and solar build-outs add generation capacity and industrial work at the same time",
+        caption:
+          "Wind and solar build-outs add generation capacity and industrial work at the same time",
       },
       {
         afterH2: "The Case for Leapfrogging",
-        caption: "Newer infrastructure can skip the dirtiest stage of development that earlier industrialisers passed through",
+        caption:
+          "Newer infrastructure can skip the dirtiest stage of development that earlier industrialisers passed through",
       },
     ],
   },
@@ -1056,15 +1217,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Bill of Rights: Sections 26–29",
-        caption: "Housing, healthcare, food, water, social security and education are written as enforceable claims",
+        caption:
+          "Housing, healthcare, food, water, social security and education are written as enforceable claims",
       },
       {
         afterH2: "Tool 3: Municipal Service Delivery Data",
-        caption: "Municipal performance data lets residents track the services their rights actually depend on",
+        caption:
+          "Municipal performance data lets residents track the services their rights actually depend on",
       },
       {
         afterH2: "Putting It All Together: A Practical Accountability Workflow",
-        caption: "An accountability workflow turns data and rights into a sequence of letters, meetings and follow-ups",
+        caption:
+          "An accountability workflow turns data and rights into a sequence of letters, meetings and follow-ups",
       },
     ],
   },
@@ -1078,15 +1242,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "School Governing Bodies: The Education Link",
-        caption: "School governing bodies are where parents shape the institution their children attend each day",
+        caption:
+          "School governing bodies are where parents shape the institution their children attend each day",
       },
       {
         afterH2: "Community Policing Forums: The Safety Link",
-        caption: "Community policing forums coordinate residents and station commanders around shared local priorities",
+        caption:
+          "Community policing forums coordinate residents and station commanders around shared local priorities",
       },
       {
         afterH2: "Building Coalitions Across the Cycle",
-        caption: "Coalitions across health, education, safety and economic forums lift each link by reinforcing the others",
+        caption:
+          "Coalitions across health, education, safety and economic forums lift each link by reinforcing the others",
       },
     ],
   },
@@ -1100,15 +1267,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Colonial Policing: Built to Extract, Not to Protect",
-        caption: "Colonial-era policing was instrumented around extraction and pass laws, not the safety of the policed",
+        caption:
+          "Colonial-era policing was instrumented around extraction and pass laws, not the safety of the policed",
       },
       {
         afterH2: "Apartheid's Perfection of the Control Model",
-        caption: "Apartheid refined the inherited control model into a paramilitary instrument of racial governance",
+        caption:
+          "Apartheid refined the inherited control model into a paramilitary instrument of racial governance",
       },
       {
         afterH2: "The 1994 Transition: Democracy's Impossible Inheritance",
-        caption: "The 1994 democratic state inherited a single police service welded together from eleven incompatible forces",
+        caption:
+          "The 1994 democratic state inherited a single police service welded together from eleven incompatible forces",
       },
     ],
   },
@@ -1122,15 +1292,19 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Act One: The Crime Explosion (1994–2004)",
-        caption: "The first decade of democracy was defined by a crime wave the new system was structurally unprepared to absorb",
+        caption:
+          "The first decade of democracy was defined by a crime wave the new system was structurally unprepared to absorb",
       },
       {
         afterH2: "Act Two: The Mbeki Era and the Scorpions (1999–2008)",
-        caption: "Specialist investigation units briefly closed the gap between crime and consequence before being dismantled",
+        caption:
+          "Specialist investigation units briefly closed the gap between crime and consequence before being dismantled",
       },
       {
-        afterH2: "Act Three: State Capture and the Deliberate Hollowing Out (2009–2018)",
-        caption: "State capture turned the criminal justice system from understaffed to deliberately disabled",
+        afterH2:
+          "Act Three: State Capture and the Deliberate Hollowing Out (2009–2018)",
+        caption:
+          "State capture turned the criminal justice system from understaffed to deliberately disabled",
       },
     ],
   },
@@ -1144,15 +1318,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Stage Two: Case Registration — The Station-Level Filter",
-        caption: "Most cases that survive reporting are filtered out at the station counter before a docket is opened",
+        caption:
+          "Most cases that survive reporting are filtered out at the station counter before a docket is opened",
       },
       {
         afterH2: "Stage Three: Investigation — Where Most Cases Go to Die",
-        caption: "Investigation is the stage where the largest share of opened cases quietly stalls and is closed",
+        caption:
+          "Investigation is the stage where the largest share of opened cases quietly stalls and is closed",
       },
       {
         afterH2: "Stage Five: The Court System — Justice Delayed Indefinitely",
-        caption: "By the time cases reach a courtroom, years of delay have eroded evidence, witnesses, and public faith",
+        caption:
+          "By the time cases reach a courtroom, years of delay have eroded evidence, witnesses, and public faith",
       },
     ],
   },
@@ -1166,15 +1343,19 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Rural Policing: The Near-Absence of the State",
-        caption: "Rural beats stretch across distances that make a police response time of hours the structural norm",
+        caption:
+          "Rural beats stretch across distances that make a police response time of hours the structural norm",
       },
       {
-        afterH2: "Township and Informal Settlement Policing: The Apartheid Inheritance on the Ground",
-        caption: "Townships and informal settlements inherited a policing footprint built for surveillance, not service",
+        afterH2:
+          "Township and Informal Settlement Policing: The Apartheid Inheritance on the Ground",
+        caption:
+          "Townships and informal settlements inherited a policing footprint built for surveillance, not service",
       },
       {
         afterH2: "The Parallel System: Private Security",
-        caption: "Behind suburban walls, a parallel security system fills the gap that public policing leaves",
+        caption:
+          "Behind suburban walls, a parallel security system fills the gap that public policing leaves",
       },
     ],
   },
@@ -1187,16 +1368,20 @@ const ARTICLE_CONFIG = {
     ],
     placements: [
       {
-        afterH2: "How People End Up in Remand: The Bail System's Structural Bias",
-        caption: "The bail system filters by ability to pay before it filters by flight risk or danger to the community",
+        afterH2:
+          "How People End Up in Remand: The Bail System's Structural Bias",
+        caption:
+          "The bail system filters by ability to pay before it filters by flight risk or danger to the community",
       },
       {
         afterH2: "The Court Delays That Perpetuate the Crisis",
-        caption: "Postponements stack on postponements as the same case returns to the same court for another delay",
+        caption:
+          "Postponements stack on postponements as the same case returns to the same court for another delay",
       },
       {
         afterH2: "The Constitutional Rights That Exist on Paper",
-        caption: "Section 35 rights to a speedy trial exist on paper while remand populations grow year on year",
+        caption:
+          "Section 35 rights to a speedy trial exist on paper while remand populations grow year on year",
       },
     ],
   },
@@ -1209,16 +1394,20 @@ const ARTICLE_CONFIG = {
     ],
     placements: [
       {
-        afterH2: "Stage One: The Police Station — Where Survivors Are Failed First",
-        caption: "The first contact between survivor and state happens at a counter that decides whether a case begins at all",
+        afterH2:
+          "Stage One: The Police Station — Where Survivors Are Failed First",
+        caption:
+          "The first contact between survivor and state happens at a counter that decides whether a case begins at all",
       },
       {
         afterH2: "Stage Two: Investigation — Where Dockets Disappear",
-        caption: "GBV dockets are lost at higher rates than any other case category, often before any suspect is identified",
+        caption:
+          "GBV dockets are lost at higher rates than any other case category, often before any suspect is identified",
       },
       {
         afterH2: "The Thuthuzela Care Centres: An Island of Good Practice",
-        caption: "Thuthuzela centres co-locate medical care, evidence collection and counselling in one survivor-centred site",
+        caption:
+          "Thuthuzela centres co-locate medical care, evidence collection and counselling in one survivor-centred site",
       },
     ],
   },
@@ -1232,15 +1421,19 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Scale: An Industry Larger Than the Police",
-        caption: "South Africa's private security workforce now exceeds the South African Police Service by a wide margin",
+        caption:
+          "South Africa's private security workforce now exceeds the South African Police Service by a wide margin",
       },
       {
         afterH2: "The Inequality Dimension: Safety as a Commodity",
-        caption: "When safety is bought rather than provided, the line between protected and unprotected tracks the income line",
+        caption:
+          "When safety is bought rather than provided, the line between protected and unprotected tracks the income line",
       },
       {
-        afterH2: "The Accountability Gap: When Private Security Operates as Quasi-Police",
-        caption: "Private operators carry out functions that look like policing without the oversight that policing requires",
+        afterH2:
+          "The Accountability Gap: When Private Security Operates as Quasi-Police",
+        caption:
+          "Private operators carry out functions that look like policing without the oversight that policing requires",
       },
     ],
   },
@@ -1254,15 +1447,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Tier 1 — National: The FBI Model",
-        caption: "A narrowed national agency would specialise in serious, organised, and cross-jurisdictional crime",
+        caption:
+          "A narrowed national agency would specialise in serious, organised, and cross-jurisdictional crime",
       },
       {
         afterH2: "Tier 2 — Provincial: The Gendarmerie Model",
-        caption: "A provincial tier modelled on European gendarmeries would carry general policing across each province",
+        caption:
+          "A provincial tier modelled on European gendarmeries would carry general policing across each province",
       },
       {
         afterH2: "Tier 3 — Municipal: Elevated Metro and Community Police",
-        caption: "Empowered metro and community policing would put the closest tier closest to the streets it serves",
+        caption:
+          "Empowered metro and community policing would put the closest tier closest to the streets it serves",
       },
     ],
   },
@@ -1275,16 +1471,21 @@ const ARTICLE_CONFIG = {
     ],
     placements: [
       {
-        afterH2: "The French Model: What an Investigating Magistrate Actually Does",
-        caption: "A judicial officer leads the investigation itself, bridging the gap between police work and prosecution",
+        afterH2:
+          "The French Model: What an Investigating Magistrate Actually Does",
+        caption:
+          "A judicial officer leads the investigation itself, bridging the gap between police work and prosecution",
       },
       {
         afterH2: "Comparative Models Beyond France",
-        caption: "Italy, Spain, and the Netherlands each adapt the investigating-magistrate model to their own constitutional fit",
+        caption:
+          "Italy, Spain, and the Netherlands each adapt the investigating-magistrate model to their own constitutional fit",
       },
       {
-        afterH2: "Adapting the Model for South Africa: Judicial Investigation Officers",
-        caption: "A South African adaptation would graft judicial investigation officers onto the existing magistracy",
+        afterH2:
+          "Adapting the Model for South Africa: Judicial Investigation Officers",
+        caption:
+          "A South African adaptation would graft judicial investigation officers onto the existing magistracy",
       },
     ],
   },
@@ -1298,15 +1499,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Case-Flow Triage System",
-        caption: "A triage system routes minor matters to community courts and reserves magistrates for cases that need them",
+        caption:
+          "A triage system routes minor matters to community courts and reserves magistrates for cases that need them",
       },
       {
         afterH2: "The Community Court Model",
-        caption: "Community courts sit at municipal level and resolve low-stakes matters through locally accountable processes",
+        caption:
+          "Community courts sit at municipal level and resolve low-stakes matters through locally accountable processes",
       },
       {
         afterH2: "Restorative Justice: What It Is and How It Works",
-        caption: "Restorative processes bring victim, offender and community together to repair harm rather than only punish it",
+        caption:
+          "Restorative processes bring victim, offender and community together to repair harm rather than only punish it",
       },
     ],
   },
@@ -1320,15 +1524,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Current Framework: Act 105 and Its Problems",
-        caption: "Minimum sentences applied uniformly produce results that are simultaneously too rigid and too arbitrary",
+        caption:
+          "Minimum sentences applied uniformly produce results that are simultaneously too rigid and too arbitrary",
       },
       {
         afterH2: "The Proposed Reform: A South African Sentencing Commission",
-        caption: "A standing commission would issue structured guidelines that judges apply with reasoned departures",
+        caption:
+          "A standing commission would issue structured guidelines that judges apply with reasoned departures",
       },
       {
         afterH2: "Real-Time Sentencing Analytics",
-        caption: "Live sentencing data would let the commission see disparities as they emerge, not years after the fact",
+        caption:
+          "Live sentencing data would let the commission see disparities as they emerge, not years after the fact",
       },
     ],
   },
@@ -1342,15 +1549,19 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Constitutional Foundation for Rehabilitation",
-        caption: "Section 35 frames imprisonment as a deprivation of liberty, not a withdrawal of the right to grow",
+        caption:
+          "Section 35 frames imprisonment as a deprivation of liberty, not a withdrawal of the right to grow",
       },
       {
-        afterH2: "Comparative Lessons: What Low-Recidivism Systems Do Differently",
-        caption: "Norway, Germany and the Netherlands invest in skills, education and structured re-entry rather than warehousing",
+        afterH2:
+          "Comparative Lessons: What Low-Recidivism Systems Do Differently",
+        caption:
+          "Norway, Germany and the Netherlands invest in skills, education and structured re-entry rather than warehousing",
       },
       {
         afterH2: "What a Rehabilitation-Centred System Would Require",
-        caption: "A rehabilitation-centred system pairs work, study and counselling with structured release into stable housing",
+        caption:
+          "A rehabilitation-centred system pairs work, study and counselling with structured release into stable housing",
       },
     ],
   },
@@ -1364,15 +1575,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Phase 1: Investigation and Prosecution Reform (Years 1–3)",
-        caption: "The first phase rebuilds the upstream stages where most cases are currently lost",
+        caption:
+          "The first phase rebuilds the upstream stages where most cases are currently lost",
       },
       {
         afterH2: "Phase 2: Court Reform and Policing Restructuring (Years 3–5)",
-        caption: "The second phase reorganises courts and policing once the upstream pipeline is producing usable cases",
+        caption:
+          "The second phase reorganises courts and policing once the upstream pipeline is producing usable cases",
       },
       {
         afterH2: "The Legislative Agenda",
-        caption: "Each phase has a matching set of bills that need to clear Parliament for the reform to take effect",
+        caption:
+          "Each phase has a matching set of bills that need to clear Parliament for the reform to take effect",
       },
     ],
   },
@@ -1386,15 +1600,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Current Cost Baseline",
-        caption: "The current criminal justice budget already runs into tens of billions of rands a year",
+        caption:
+          "The current criminal justice budget already runs into tens of billions of rands a year",
       },
       {
         afterH2: "The Cost of the Status Quo",
-        caption: "The hidden costs of impunity, recidivism, and lost investment outweigh the visible budget line",
+        caption:
+          "The hidden costs of impunity, recidivism, and lost investment outweigh the visible budget line",
       },
       {
         afterH2: "The Fiscal Pathway: Where Would the Money Come From?",
-        caption: "Reform funding draws from reallocation, efficiency, and the fiscal returns that lower crime delivers",
+        caption:
+          "Reform funding draws from reallocation, efficiency, and the fiscal returns that lower crime delivers",
       },
     ],
   },
@@ -1408,15 +1625,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The 13-Outcome Scorecard",
-        caption: "Thirteen outcomes — covering reporting, conviction, attrition, remand, and trust — define what justice actually delivers",
+        caption:
+          "Thirteen outcomes — covering reporting, conviction, attrition, remand, and trust — define what justice actually delivers",
       },
       {
         afterH2: "The Digital Infrastructure",
-        caption: "A live data spine would let the scorecard update in something close to real time rather than annually",
+        caption:
+          "A live data spine would let the scorecard update in something close to real time rather than annually",
       },
       {
         afterH2: "The Citizen's Scorecard",
-        caption: "Citizens need a version of the scorecard they can read at a glance and use to hold representatives to account",
+        caption:
+          "Citizens need a version of the scorecard they can read at a glance and use to hold representatives to account",
       },
     ],
   },
@@ -1430,15 +1650,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Test 2: Accountability — Who Answers for the Outcome?",
-        caption: "Accountability is the test that asks who actually answers when an outcome lands or fails to land",
+        caption:
+          "Accountability is the test that asks who actually answers when an outcome lands or fails to land",
       },
       {
         afterH2: "Test 5: Information — Who Has Visibility into Performance?",
-        caption: "Information is the test that asks whether the people responsible can see what is actually happening",
+        caption:
+          "Information is the test that asks whether the people responsible can see what is actually happening",
       },
       {
         afterH2: "The Co-Location Principle",
-        caption: "Co-location is the principle that the same body should hold responsibility, accountability and authority for one function",
+        caption:
+          "Co-location is the principle that the same body should hold responsibility, accountability and authority for one function",
       },
     ],
   },
@@ -1452,15 +1675,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Pattern 1: Fragmentation — Too Many Cooks",
-        caption: "Fragmentation occurs when responsibility for one function is split so many ways that nobody is left in charge",
+        caption:
+          "Fragmentation occurs when responsibility for one function is split so many ways that nobody is left in charge",
       },
       {
         afterH2: "Pattern 4: Conflation — Referee and Player on the Same Team",
-        caption: "Conflation occurs when the same entity is asked to be both player and referee inside the same function",
+        caption:
+          "Conflation occurs when the same entity is asked to be both player and referee inside the same function",
       },
       {
         afterH2: "The Compounding Effect",
-        caption: "When several patterns stack on the same function, their effects compound and the function collapses",
+        caption:
+          "When several patterns stack on the same function, their effects compound and the function collapses",
       },
     ],
   },
@@ -1474,15 +1700,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Education Value Chain",
-        caption: "Basic education is delivered through a chain that runs from national policy through provincial departments to the classroom",
+        caption:
+          "Basic education is delivered through a chain that runs from national policy through provincial departments to the classroom",
       },
       {
         afterH2: "The Root Cause",
-        caption: "The root cause is structural: accountability sits with provinces while the authority to act sits in national policy",
+        caption:
+          "The root cause is structural: accountability sits with provinces while the authority to act sits in national policy",
       },
       {
         afterH2: "The Reform Blueprint",
-        caption: "A working reform realigns authority and accountability so the entity answering for results can also act on them",
+        caption:
+          "A working reform realigns authority and accountability so the entity answering for results can also act on them",
       },
     ],
   },
@@ -1496,15 +1725,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Healthcare Value Chain",
-        caption: "Primary healthcare is delivered through a chain that runs from national policy to the clinic floor where care meets the patient",
+        caption:
+          "Primary healthcare is delivered through a chain that runs from national policy to the clinic floor where care meets the patient",
       },
       {
         afterH2: "The Root Cause",
-        caption: "The root cause is the gap between facility-level responsibility and the procurement authority that sits a province away",
+        caption:
+          "The root cause is the gap between facility-level responsibility and the procurement authority that sits a province away",
       },
       {
         afterH2: "The Reform Blueprint",
-        caption: "A working reform pushes essential procurement authority down to the facility while keeping policy at national level",
+        caption:
+          "A working reform pushes essential procurement authority down to the facility while keeping policy at national level",
       },
     ],
   },
@@ -1518,15 +1750,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Human Settlements Value Chain",
-        caption: "A single house passes through four different entities before a family receives the keys",
+        caption:
+          "A single house passes through four different entities before a family receives the keys",
       },
       {
         afterH2: "The Root Cause",
-        caption: "The root cause is fragmentation — no single entity owns the project from land assembly through to occupation",
+        caption:
+          "The root cause is fragmentation — no single entity owns the project from land assembly through to occupation",
       },
       {
         afterH2: "The Reform Blueprint",
-        caption: "A working reform consolidates the chain under a single accountable delivery agent for each project",
+        caption:
+          "A working reform consolidates the chain under a single accountable delivery agent for each project",
       },
     ],
   },
@@ -1540,15 +1775,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Criminal Justice Value Chain",
-        caption: "Safety is produced by a chain that runs from prevention to investigation to prosecution to corrections",
+        caption:
+          "Safety is produced by a chain that runs from prevention to investigation to prosecution to corrections",
       },
       {
         afterH2: "The Structural Root Cause",
-        caption: "The structural root cause is a single national service trying to police nine provinces with one allocation model",
+        caption:
+          "The structural root cause is a single national service trying to police nine provinces with one allocation model",
       },
       {
         afterH2: "The Reform Blueprint",
-        caption: "A working reform splits the function into national, provincial and metro tiers, each with its own accountability",
+        caption:
+          "A working reform splits the function into national, provincial and metro tiers, each with its own accountability",
       },
     ],
   },
@@ -1562,15 +1800,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Structural Problem",
-        caption: "Provinces inherit responsibility for outcomes without the authority or resources to deliver them",
+        caption:
+          "Provinces inherit responsibility for outcomes without the authority or resources to deliver them",
       },
       {
         afterH2: "The Evidence",
-        caption: "Auditor-General reports and service delivery indices show the underperformance is sphere-wide, not province-specific",
+        caption:
+          "Auditor-General reports and service delivery indices show the underperformance is sphere-wide, not province-specific",
       },
       {
         afterH2: "The Case for Structural Reform",
-        caption: "Patching individual provinces cannot fix a problem built into the constitutional architecture itself",
+        caption:
+          "Patching individual provinces cannot fix a problem built into the constitutional architecture itself",
       },
     ],
   },
@@ -1584,15 +1825,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Concurrent Function Problem",
-        caption: "When two spheres share a function, neither holds the full set of elements needed to deliver it",
+        caption:
+          "When two spheres share a function, neither holds the full set of elements needed to deliver it",
       },
       {
         afterH2: "Three Models for Concurrent Functions",
-        caption: "Three working models — delegated authority, joint authority, and split authority — each fix the gap differently",
+        caption:
+          "Three working models — delegated authority, joint authority, and split authority — each fix the gap differently",
       },
       {
         afterH2: "The Reform Blueprint",
-        caption: "A working reform names the model for each Schedule 4 function rather than leaving the split implicit",
+        caption:
+          "A working reform names the model for each Schedule 4 function rather than leaving the split implicit",
       },
     ],
   },
@@ -1606,15 +1850,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Why Interventions Fail",
-        caption: "Section 100 interventions are reactive, late, and rarely accompanied by the structural reset that would prevent recurrence",
+        caption:
+          "Section 100 interventions are reactive, late, and rarely accompanied by the structural reset that would prevent recurrence",
       },
       {
         afterH2: "Designing Automatic Enforcement Triggers",
-        caption: "Automatic triggers tied to leading indicators move enforcement from political judgement to predictable rule",
+        caption:
+          "Automatic triggers tied to leading indicators move enforcement from political judgement to predictable rule",
       },
       {
         afterH2: "From Intervention to Prevention",
-        caption: "The shift is from rescuing failed provinces to preventing the conditions in which provinces fail",
+        caption:
+          "The shift is from rescuing failed provinces to preventing the conditions in which provinces fail",
       },
     ],
   },
@@ -1628,15 +1875,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Water Value Chain",
-        caption: "Water and sanitation move through a chain that runs from catchment to bulk supply to household tap and back through treatment",
+        caption:
+          "Water and sanitation move through a chain that runs from catchment to bulk supply to household tap and back through treatment",
       },
       {
         afterH2: "The Root Cause",
-        caption: "The root cause is conflation — the same municipality is asked to be both regulator and provider of water services",
+        caption:
+          "The root cause is conflation — the same municipality is asked to be both regulator and provider of water services",
       },
       {
         afterH2: "The Reform Blueprint",
-        caption: "A working reform separates the regulator from the provider so accountability for quality is independent of operations",
+        caption:
+          "A working reform separates the regulator from the provider so accountability for quality is independent of operations",
       },
     ],
   },
@@ -1650,15 +1900,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Electricity Value Chain",
-        caption: "Municipal electricity runs from generation through transmission to the meter on the wall and the tariff on the bill",
+        caption:
+          "Municipal electricity runs from generation through transmission to the meter on the wall and the tariff on the bill",
       },
       {
         afterH2: "The Root Cause",
-        caption: "The root cause is the cross-subsidy trap — electricity revenue is structurally diverted to fund other municipal functions",
+        caption:
+          "The root cause is the cross-subsidy trap — electricity revenue is structurally diverted to fund other municipal functions",
       },
       {
         afterH2: "The Reform Blueprint",
-        caption: "A working reform unbundles distribution, opens procurement, and ring-fences electricity revenue from cross-subsidy",
+        caption:
+          "A working reform unbundles distribution, opens procurement, and ring-fences electricity revenue from cross-subsidy",
       },
     ],
   },
@@ -1672,15 +1925,19 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Waste Management: The Value Chain and Diagnosis",
-        caption: "Waste collection runs from kerbside bin to transfer station to landfill — and breaks when any link fails",
+        caption:
+          "Waste collection runs from kerbside bin to transfer station to landfill — and breaks when any link fails",
       },
       {
-        afterH2: "Municipal Roads and Stormwater: The Value Chain and Diagnosis",
-        caption: "Roads and stormwater fail incrementally; the visible damage is the lagging indicator of an underfunded maintenance cycle",
+        afterH2:
+          "Municipal Roads and Stormwater: The Value Chain and Diagnosis",
+        caption:
+          "Roads and stormwater fail incrementally; the visible damage is the lagging indicator of an underfunded maintenance cycle",
       },
       {
         afterH2: "The Reform Blueprint",
-        caption: "A working reform funds maintenance cycles directly rather than treating maintenance as a residual budget item",
+        caption:
+          "A working reform funds maintenance cycles directly rather than treating maintenance as a residual budget item",
       },
     ],
   },
@@ -1694,15 +1951,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Capability Crisis in Numbers",
-        caption: "Vacancy rates, qualification gaps and turnover data show the capability shortfall is structural, not cyclical",
+        caption:
+          "Vacancy rates, qualification gaps and turnover data show the capability shortfall is structural, not cyclical",
       },
       {
         afterH2: "The Information Black Hole",
-        caption: "Most municipalities cannot produce real-time performance data on their own functions",
+        caption:
+          "Most municipalities cannot produce real-time performance data on their own functions",
       },
       {
         afterH2: "The Reform Blueprint for Capability",
-        caption: "A working reform invests in a permanent municipal cadre with portable qualifications and protected tenure",
+        caption:
+          "A working reform invests in a permanent municipal cadre with portable qualifications and protected tenure",
       },
     ],
   },
@@ -1716,15 +1976,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Three Legal Pathways",
-        caption: "Three pathways move a reform from idea to effect — administrative action, new legislation, or constitutional amendment",
+        caption:
+          "Three pathways move a reform from idea to effect — administrative action, new legislation, or constitutional amendment",
       },
       {
         afterH2: "What Can Be Done Tomorrow",
-        caption: "A surprising share of the reform programme can begin immediately under existing constitutional and legislative authority",
+        caption:
+          "A surprising share of the reform programme can begin immediately under existing constitutional and legislative authority",
       },
       {
         afterH2: "A Sequenced Legal Reform Programme",
-        caption: "Sequencing turns a long list of reforms into a programme that builds on each prior step rather than competing with it",
+        caption:
+          "Sequencing turns a long list of reforms into a programme that builds on each prior step rather than competing with it",
       },
     ],
   },
@@ -1738,15 +2001,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "What Capture Actually Means",
-        caption: "Capture is the structural condition of an institution serving a private interest while presenting as a public one",
+        caption:
+          "Capture is the structural condition of an institution serving a private interest while presenting as a public one",
       },
       {
         afterH2: "Vector 1: Political Capture",
-        caption: "Political capture occurs when appointment power is used to install loyalty rather than competence",
+        caption:
+          "Political capture occurs when appointment power is used to install loyalty rather than competence",
       },
       {
         afterH2: "Designing Capture-Resistant Institutions",
-        caption: "Capture-resistant design separates appointment from operation, and embeds independent audit at every layer",
+        caption:
+          "Capture-resistant design separates appointment from operation, and embeds independent audit at every layer",
       },
     ],
   },
@@ -1760,15 +2026,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "The Case for a Legislated Reform Structure",
-        caption: "A single legislated structure forces the reforms to fit together rather than compete for attention",
+        caption:
+          "A single legislated structure forces the reforms to fit together rather than compete for attention",
       },
       {
         afterH2: "The Governance Reform Programme Act",
-        caption: "A Governance Reform Programme Act gives the integrated package a legal home with measurable obligations",
+        caption:
+          "A Governance Reform Programme Act gives the integrated package a legal home with measurable obligations",
       },
       {
         afterH2: "Sequencing the Integrated Programme",
-        caption: "Sequencing decides which reforms must land first to make later reforms possible at all",
+        caption:
+          "Sequencing decides which reforms must land first to make later reforms possible at all",
       },
     ],
   },
@@ -1782,15 +2051,18 @@ const ARTICLE_CONFIG = {
     placements: [
       {
         afterH2: "Step 2: Run the Eight Tests",
-        caption: "Running the eight tests on a function you care about turns frustration into a structured diagnosis",
+        caption:
+          "Running the eight tests on a function you care about turns frustration into a structured diagnosis",
       },
       {
         afterH2: "Step 3: Find the Data",
-        caption: "Most of the data needed for a citizen diagnosis already exists — in audits, scorecards, and freely available reports",
+        caption:
+          "Most of the data needed for a citizen diagnosis already exists — in audits, scorecards, and freely available reports",
       },
       {
         afterH2: "Step 6: Use the Channels That Exist",
-        caption: "Existing channels — submissions, ward committees, courts, the press — give a structured diagnosis somewhere to land",
+        caption:
+          "Existing channels — submissions, ward committees, courts, the press — give a structured diagnosis somewhere to land",
       },
     ],
   },
@@ -1907,14 +2179,19 @@ function insertImageAfterH2(content, h2Text, imageMarkdown) {
 
   // Find the H2 line
   for (let i = 0; i < lines.length; i++) {
-    if (lines[i].startsWith("## ") && normalizeQuotes(lines[i]).includes(needle)) {
+    if (
+      lines[i].startsWith("## ") &&
+      normalizeQuotes(lines[i]).includes(needle)
+    ) {
       h2Index = i;
       break;
     }
   }
 
   if (h2Index === -1) {
-    console.warn(`  Warning: H2 "${h2Text.slice(0, 50)}..." not found, skipping`);
+    console.warn(
+      `  Warning: H2 "${h2Text.slice(0, 50)}..." not found, skipping`,
+    );
     return content;
   }
 
@@ -1975,7 +2252,9 @@ async function processArticle(slug) {
   let content = readFileSync(filePath, "utf-8");
 
   if (hasExistingImages(content) && !FORCE) {
-    console.log(`${slug}: Already has images, skipping (use --force to re-process)`);
+    console.log(
+      `${slug}: Already has images, skipping (use --force to re-process)`,
+    );
     return;
   }
 
@@ -2013,11 +2292,7 @@ async function processArticle(slug) {
       }
 
       if (!DRY_RUN) {
-        await downloadAndOptimize(
-          photo.urls.regular,
-          imageDir,
-          filename,
-        );
+        await downloadAndOptimize(photo.urls.regular, imageDir, filename);
       }
 
       const alt = buildAlt(
@@ -2028,7 +2303,9 @@ async function processArticle(slug) {
       const imageMarkdown = `![${alt}](${imgPath})`;
 
       if (DRY_RUN) {
-        console.log(`  [DRY RUN] Would insert after "${placement.afterH2.slice(0, 50)}..."`);
+        console.log(
+          `  [DRY RUN] Would insert after "${placement.afterH2.slice(0, 50)}..."`,
+        );
         console.log(`  ${imageMarkdown}`);
       } else {
         content = insertImageAfterH2(content, placement.afterH2, imageMarkdown);
@@ -2106,9 +2383,7 @@ async function main() {
 
   if (BATCH_SIZE > 0 && !SINGLE_ARTICLE) {
     const nextOffset = BATCH_OFFSET + BATCH_SIZE;
-    console.log(
-      `\nNext batch: --batch=${BATCH_SIZE} --offset=${nextOffset}`,
-    );
+    console.log(`\nNext batch: --batch=${BATCH_SIZE} --offset=${nextOffset}`);
   }
 }
 

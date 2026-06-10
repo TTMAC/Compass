@@ -12,7 +12,8 @@ interface Props {
 }
 
 const { prev, next } = Astro.props;
-const isLinkable = (status: string) => status === "published" || status === "draft";
+const isLinkable = (status: string) =>
+  status === "published" || status === "draft";
 ---
 
 {
@@ -93,7 +94,9 @@ const isLinkable = (status: string) => status === "published" || status === "dra
       if (typeof (window as any).gtag === "function") {
         const direction = link.getAttribute("data-article-nav");
         const targetSlug = link.getAttribute("data-target-slug");
-        const currentSlug = window.location.pathname.replace(/^\/articles\//, "").replace(/\/$/, "");
+        const currentSlug = window.location.pathname
+          .replace(/^\/articles\//, "")
+          .replace(/\/$/, "");
         (window as any).gtag("event", "article_navigate", {
           from: currentSlug,
           to: targetSlug,

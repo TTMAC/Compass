@@ -48,8 +48,7 @@ export const pillars: PillarConfig[] = [
       {
         number: 4,
         title: "The Participation",
-        description:
-          "How citizens can meaningfully engage with government.",
+        description: "How citizens can meaningfully engage with government.",
       },
       {
         number: 5,
@@ -110,14 +109,12 @@ export const pillars: PillarConfig[] = [
       {
         number: 1,
         title: "The Inheritance",
-        description:
-          "Where South Africa's economy stands and how it got here.",
+        description: "Where South Africa's economy stands and how it got here.",
       },
       {
         number: 2,
         title: "The Growth Strategy",
-        description:
-          "A staged path from $7,000 to $50,000 GDP per capita.",
+        description: "A staged path from $7,000 to $50,000 GDP per capita.",
       },
       {
         number: 3,

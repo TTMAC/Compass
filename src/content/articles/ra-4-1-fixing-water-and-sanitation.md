@@ -43,14 +43,13 @@ Water is the function where municipal governance failure kills people. Not figur
 
 It can. And to understand why, you need to trace the water value chain from source to tap and see exactly where the governance architecture breaks.
 
-
 ![Water and sanitation move through a chain that runs from catchment to bulk supply to household tap and back through treatment | Photo by Mario Mesaglio on Unsplash](/images/articles/ra-4-1-fixing-water-and-sanitation/img-1.webp)
 
 The chain begins with the Department of Water and Sanitation at the national level. DWS is responsible for water as a resource — the National Water Act of 1998 vests all water in the nation and assigns national government legislative and executive authority over freshwater resources. DWS sets national water policy, issues water use licences, manages water resource infrastructure (dams, inter-basin transfers, bulk supply systems), and is supposed to regulate water services delivery through the Water Services Act of 1997.
 
 The next link is the Water Services Authority. The Water Services Act designates certain municipalities — **currently 144 of South Africa's 278 municipalities** — as WSAs. A WSA has the legal duty to ensure access to water services within its area of jurisdiction. It must plan, regulate, and ensure the provision of water supply and sanitation services. It sets by-laws, determines tariffs, and is responsible for ensuring that the services meet national norms and standards.
 
-Then comes the Water Services Provider. The WSA does not have to provide the services itself. The Water Services Act envisages that a WSA may appoint a separate entity — a water board, a private contractor, a municipal entity, or another municipality — as the WSP to actually deliver the services. *The WSA is the regulator. The WSP is the operator.* The WSA sets the standards. The WSP meets them. The WSA monitors compliance. The WSP reports performance.
+Then comes the Water Services Provider. The WSA does not have to provide the services itself. The Water Services Act envisages that a WSA may appoint a separate entity — a water board, a private contractor, a municipal entity, or another municipality — as the WSP to actually deliver the services. _The WSA is the regulator. The WSP is the operator._ The WSA sets the standards. The WSP meets them. The WSA monitors compliance. The WSP reports performance.
 
 That is the design. Here is the reality: **in almost every case, the municipality that is the WSA is also its own WSP.** The same entity that is supposed to regulate water services also delivers them. The same officials who set the standards are the ones who must meet them. The same council that should be holding the operator accountable is the political authority over the operator. The WSA writes the rules. The WSP — which is the same municipality — follows them. Or does not follow them. Because who is going to enforce compliance when the regulator and the provider sit in the same building, report to the same municipal manager, and answer to the same council?
 
@@ -82,7 +81,7 @@ The municipal council is the democratic accountability point for water services.
 
 In practice, the accountability chain is weak at every link. Most councillors lack the technical knowledge to evaluate water operations. They see a budget line item for water services. They see a tariff proposal. They do not see Blue Drop scores in real time. They do not understand process controller classifications. They cannot evaluate whether the wastewater treatment works is meeting discharge standards. They rely on management to tell them whether water services are functioning — and management has every incentive to present a positive picture, because the alternative is admitting failure.
 
-The Auditor-General audits municipal water functions as part of the annual MFMA audit cycle, but the AG's primary focus is financial compliance — whether money was spent according to regulations, whether procurement was lawful, whether financial statements are accurate. **The AG can identify irregular expenditure on water tankers (in 2023/24, 59 municipalities spent R2.32 billion on water tankers, of which R419 million was irregular expenditure) but cannot compel a municipality to fix its treatment plant.** *Financial accountability and service delivery accountability run on separate tracks.*
+The Auditor-General audits municipal water functions as part of the annual MFMA audit cycle, but the AG's primary focus is financial compliance — whether money was spent according to regulations, whether procurement was lawful, whether financial statements are accurate. **The AG can identify irregular expenditure on water tankers (in 2023/24, 59 municipalities spent R2.32 billion on water tankers, of which R419 million was irregular expenditure) but cannot compel a municipality to fix its treatment plant.** _Financial accountability and service delivery accountability run on separate tracks._
 
 DWS has an accountability role as the national regulator — it publishes Blue Drop, Green Drop, and No Drop reports that rate municipal water performance. But these reports are assessment tools, not enforcement mechanisms. A municipality can receive a catastrophic Green Drop score and face no binding consequence. **The 2023 Green Drop assessment found that 64 per cent of the country's 850 wastewater treatment works were at high or critical risk of discharging partially or untreated water. Ninety of 144 WSAs were found to be discharging partially treated or untreated sewage.** And yet the same municipalities continue to operate the same failing plants, because the accountability mechanism stops at publishing the score.
 
@@ -112,7 +111,7 @@ The national government transfers R62 billion annually to municipalities for wat
 
 The infrastructure maintenance backlog illustrates the scale of the resource failure. **DWS estimates that fixing the maintenance backlog across 105 municipalities rated critical or poor will cost R400 billion.** This figure excludes metros and national or regional bulk systems, so the true total is higher. Against this R400 billion backlog, the entire national water and sanitation budget for 2025/26 is approximately R26 billion. At current spending rates, the backlog will grow, not shrink. Every year of deferred maintenance makes the eventual fix more expensive.
 
-*Non-revenue water* — water that enters the system but is never billed for, because of leaks, theft, metering failures, or administrative losses — compounds the resource problem. **The 2023 No Drop report found that national non-revenue water had reached 47 per cent, up from 37 per cent in 2014.** Of the 4.39 billion cubic metres that entered municipal systems in 2022/23, 2.08 billion cubic metres — 47.4 per cent — was written off. Even Johannesburg, the country's economic hub, loses 48.4 per cent of its water. eThekwini loses 58 per cent. These are not minor leakages. They represent a system that wastes nearly half of the water it produces.
+_Non-revenue water_ — water that enters the system but is never billed for, because of leaks, theft, metering failures, or administrative losses — compounds the resource problem. **The 2023 No Drop report found that national non-revenue water had reached 47 per cent, up from 37 per cent in 2014.** Of the 4.39 billion cubic metres that entered municipal systems in 2022/23, 2.08 billion cubic metres — 47.4 per cent — was written off. Even Johannesburg, the country's economic hub, loses 48.4 per cent of its water. eThekwini loses 58 per cent. These are not minor leakages. They represent a system that wastes nearly half of the water it produces.
 
 :::takeaway
 The combination of non-ring-fenced water revenue, chronic underinvestment in maintenance (3 per cent of asset value versus the recommended 8 per cent), and 47 per cent non-revenue water creates a vicious resource cycle: revenue leaks out of the water function to subsidise other departments, infrastructure deteriorates, water losses increase, less revenue is collected, and the cycle deepens. The R400 billion infrastructure backlog is the accumulated cost of decades of this cycle.
@@ -158,7 +157,7 @@ This is the paradox of water governance in South Africa: the function with the s
 
 DWS is supposed to regulate water services delivery. It publishes Drop reports. It issues directives when municipalities fail to comply with norms and standards. It can, under the National Water Act, open criminal cases against municipalities that pollute water resources. By 2025, DWS had opened 42 criminal cases under the National Water Act, and 56 municipalities faced criminal charges including cases from environmental departments.
 
-But **criminal prosecution is a blunt instrument for systemic failure. You cannot arrest your way to clean water.** *The enforcement architecture that is needed — automatic, pre-defined consequences triggered by objective performance data — does not exist for water services.*
+But **criminal prosecution is a blunt instrument for systemic failure. You cannot arrest your way to clean water.** _The enforcement architecture that is needed — automatic, pre-defined consequences triggered by objective performance data — does not exist for water services._
 
 Consider what happens when a municipality receives a critical Green Drop score. DWS publishes the score. DWS may issue a directive requiring corrective action. DWS may send a letter demanding a corrective action plan. As of January 2026, 42 WSAs had not even submitted corrective action plans in response to DWS's demands. And for those that did submit plans, there is no automatic consequence for failing to implement them. DWS can escalate — issuing further directives, referring the matter to the Minister, potentially recommending a Section 139 intervention. But each escalation step is discretionary. Each requires a decision by a human official who is subject to political pressures, resource constraints, and competing priorities.
 
@@ -176,16 +175,15 @@ The enforcement element for water services is the mirror image of legitimacy: th
 
 The eight-element diagnosis reveals a clear structural picture. Legitimacy is strong — there is no question that municipalities must provide water. Information is moderate — the Drop reports provide useful diagnostics, even if they lag. Every other element scores 1 or 2. Responsibility is fragmented. Accountability is diffuse. Authority is constrained. Resources leak. Capability is catastrophically absent. Enforcement is discretionary.
 
-
 ![The root cause is conflation — the same municipality is asked to be both regulator and provider of water services | Photo by Pavel Neznanov on Unsplash](/images/articles/ra-4-1-fixing-water-and-sanitation/img-2.webp)
 
 The root cause is not any single element in isolation. It is the interaction of three structural failures that together create a system incapable of delivering on its constitutional mandate.
 
-The first failure is *conflation*. The WSA/WSP model, as implemented, conflates the regulator with the provider. This is the structural condition identified in [Why Institutions Fail](/articles/ra-1-2-why-institutions-fail) as Pattern 4. **When the same entity sets the standard and delivers the service, self-regulation does not work.** The Water Services Act envisaged separation — it provides for separate WSPs — but the political economy of municipal governance ensured that almost every WSA appointed itself as its own WSP. The theoretical separation was never implemented.
+The first failure is _conflation_. The WSA/WSP model, as implemented, conflates the regulator with the provider. This is the structural condition identified in [Why Institutions Fail](/articles/ra-1-2-why-institutions-fail) as Pattern 4. **When the same entity sets the standard and delivers the service, self-regulation does not work.** The Water Services Act envisaged separation — it provides for separate WSPs — but the political economy of municipal governance ensured that almost every WSA appointed itself as its own WSP. The theoretical separation was never implemented.
 
-The second failure is *resource absence* — not the absence of revenue itself, but the absence of any mechanism that ring-fences water revenue for water infrastructure. This is the structural condition identified in [Why Institutions Fail](/articles/ra-1-2-why-institutions-fail) as Pattern 3 — a critical RAARICLE™ element that simply does not exist. Water revenue flows into the municipality's general account and cross-subsidises other functions. Infrastructure maintenance is deferred because the money generated by water services is spent elsewhere. The assets deteriorate. Water losses increase. Revenue collection falls. **The R400 billion infrastructure backlog is the accumulated cost of three decades of unprotected resource extraction.**
+The second failure is _resource absence_ — not the absence of revenue itself, but the absence of any mechanism that ring-fences water revenue for water infrastructure. This is the structural condition identified in [Why Institutions Fail](/articles/ra-1-2-why-institutions-fail) as Pattern 3 — a critical RAARICLE™ element that simply does not exist. Water revenue flows into the municipality's general account and cross-subsidises other functions. Infrastructure maintenance is deferred because the money generated by water services is spent elsewhere. The assets deteriorate. Water losses increase. Revenue collection falls. **The R400 billion infrastructure backlog is the accumulated cost of three decades of unprotected resource extraction.**
 
-The third failure is *capability collapse*. Even if you fixed the conflation problem and ring-fenced the revenue, you would still face a system that lacks the qualified people to operate treatment plants, maintain pipe networks, and manage the technical complexity of water and sanitation services. The capability pipeline is broken — training institutions have limited capacity, municipal salary scales cannot compete with the private sector, and political instability in municipal leadership deters qualified professionals.
+The third failure is _capability collapse_. Even if you fixed the conflation problem and ring-fenced the revenue, you would still face a system that lacks the qualified people to operate treatment plants, maintain pipe networks, and manage the technical complexity of water and sanitation services. The capability pipeline is broken — training institutions have limited capacity, municipal salary scales cannot compete with the private sector, and political instability in municipal leadership deters qualified professionals.
 
 These three failures are mutually reinforcing. Conflation means there is no regulator to demand that resources be ring-fenced or that capability gaps be filled. The absence of ring-fenced revenue means there is no money to attract qualified professionals or maintain the infrastructure that those professionals would operate. Capability collapse means there is nobody who can articulate the case for ring-fencing or design the systems that would make separation work.
 
@@ -195,7 +193,6 @@ These three failures are mutually reinforcing. Conflation means there is no regu
 
 ### Structural Separation: WSA and WSP Must Be Different Entities
 
-
 ![A working reform separates the regulator from the provider so accountability for quality is independent of operations | Photo by roman pentin on Unsplash](/images/articles/ra-4-1-fixing-water-and-sanitation/img-3.webp)
 
 The first and most fundamental reform is to make the theoretical distinction between WSA and WSP real. The regulator cannot be the provider. This is not a South African insight — it is a universal principle of governance design. Every country that has achieved reliable water services has separated the regulatory function from the operational function.
@@ -204,7 +201,7 @@ In England and Wales, Ofwat (the Water Services Regulation Authority) regulated 
 
 In Chile, the Superintendencia de Servicios Sanitarios created in 1990 achieved remarkable results — 100 per cent urban coverage for drinking water and sanitation, 99.7 per cent service continuity — through a model that rigidly separated the regulator from the operator and used innovative tariff regulation based on benchmarking against an efficient "model company."
 
-For South Africa, the structural separation should take the form of *regional water utilities*. **The current model — 144 individual municipalities each operating as their own WSP — is structurally incapable of achieving economies of scale, attracting qualified professionals, or sustaining the technical capability required for water and wastewater treatment.** Most of these municipalities are too small, too poor, and too capacity-constrained to operate as water utilities.
+For South Africa, the structural separation should take the form of _regional water utilities_. **The current model — 144 individual municipalities each operating as their own WSP — is structurally incapable of achieving economies of scale, attracting qualified professionals, or sustaining the technical capability required for water and wastewater treatment.** Most of these municipalities are too small, too poor, and too capacity-constrained to operate as water utilities.
 
 The reform blueprint proposes consolidating water service provision into a smaller number of regional water utilities — perhaps 20 to 30, aligned with water management areas or district boundaries. These utilities would be professionally managed entities with ring-fenced budgets, qualified staff, and operational autonomy. They would not be municipal departments. They would be separate legal entities — water boards expanded to cover reticulation, or new entities created through Water Services Act amendments. The WSA function would remain with municipalities — councillors would still set the standards, approve tariffs, and hold the utility accountable. But the WSP function would be performed by a professionally managed entity that is structurally separate from the political authority of the municipality.
 
@@ -216,7 +213,7 @@ The second reform is non-negotiable: water revenue must be ring-fenced for water
 
 Ring-fencing is not technically difficult. The municipal Standard Chart of Accounts (mSCOA) already requires separate accounting for trading services including water. **The problem is that ring-fencing is not legally mandated — municipalities can and do transfer water surpluses to their general account.** National Treasury has the regulatory power to mandate ring-fencing through the MFMA regulations. It has not done so.
 
-The reform requires *a binding regulation* — not a guideline, not a recommendation, but a regulation with the force of law — that water revenue is ring-fenced and can only be spent on water operations, water infrastructure maintenance, and water infrastructure expansion. **This regulation can be issued under existing MFMA provisions. It does not require new legislation.**
+The reform requires _a binding regulation_ — not a guideline, not a recommendation, but a regulation with the force of law — that water revenue is ring-fenced and can only be spent on water operations, water infrastructure maintenance, and water infrastructure expansion. **This regulation can be issued under existing MFMA provisions. It does not require new legislation.**
 
 ### An Independent Economic Water Regulator
 
@@ -318,16 +315,16 @@ The goal is not to take water away from municipalities. The goal is to separate 
 
 The analysis in this article draws on the following institutional research and publications:
 
-- Department of Water and Sanitation, *Blue Drop Report 2023* — released 5 December 2023 — [dws.gov.za](https://dws.gov.za)
-- Department of Water and Sanitation, *Green Drop Watch Report 2023* — [ws.dws.gov.za](https://ws.dws.gov.za/iris/releases/GDWR.pdf)
-- Department of Water and Sanitation, *No Drop Report 2023* — [ws.dws.gov.za](https://ws.dws.gov.za/iris/releases/ND_2023_Report.pdf)
-- Auditor-General of South Africa, *MFMA 2023/24 Audit Outcomes* — [agsa.co.za](https://www.agsa.co.za)
-- National Treasury, *Municipal Finance Management Act* (56 of 2003)
-- Republic of South Africa, *Water Services Act* (108 of 1997)
-- Republic of South Africa, *National Water Act* (36 of 1998)
-- Republic of South Africa, *National Water Resources Infrastructure Agency Act* (2024) — gazetted 2 September 2024
-- Republic of South Africa, *Water Services Amendment Bill* (B24-2025) — [parliament.gov.za](https://www.parliament.gov.za)
-- Operation Vulindlela, *Water Sector Reform Programme* — [stateofthenation.gov.za](https://stateofthenation.gov.za/operation-vulindlela/water-sector)
-- Helen Suzman Foundation, *The Institutional Structure for Delivering Water Services* — [hsf.org.za](https://www.hsf.org.za)
-- Water Institute of Southern Africa, *Regulation 3630 Process Controller Requirements* — [wisa.org.za](https://www.wisa.org.za)
-- South African Human Rights Commission, *Hammanskraal Cholera Investigation* (2023) — [sahrc.org.za](https://www.sahrc.org.za)
+- Department of Water and Sanitation, _Blue Drop Report 2023_ — released 5 December 2023 — [dws.gov.za](https://dws.gov.za)
+- Department of Water and Sanitation, _Green Drop Watch Report 2023_ — [ws.dws.gov.za](https://ws.dws.gov.za/iris/releases/GDWR.pdf)
+- Department of Water and Sanitation, _No Drop Report 2023_ — [ws.dws.gov.za](https://ws.dws.gov.za/iris/releases/ND_2023_Report.pdf)
+- Auditor-General of South Africa, _MFMA 2023/24 Audit Outcomes_ — [agsa.co.za](https://www.agsa.co.za)
+- National Treasury, _Municipal Finance Management Act_ (56 of 2003)
+- Republic of South Africa, _Water Services Act_ (108 of 1997)
+- Republic of South Africa, _National Water Act_ (36 of 1998)
+- Republic of South Africa, _National Water Resources Infrastructure Agency Act_ (2024) — gazetted 2 September 2024
+- Republic of South Africa, _Water Services Amendment Bill_ (B24-2025) — [parliament.gov.za](https://www.parliament.gov.za)
+- Operation Vulindlela, _Water Sector Reform Programme_ — [stateofthenation.gov.za](https://stateofthenation.gov.za/operation-vulindlela/water-sector)
+- Helen Suzman Foundation, _The Institutional Structure for Delivering Water Services_ — [hsf.org.za](https://www.hsf.org.za)
+- Water Institute of Southern Africa, _Regulation 3630 Process Controller Requirements_ — [wisa.org.za](https://www.wisa.org.za)
+- South African Human Rights Commission, _Hammanskraal Cholera Investigation_ (2023) — [sahrc.org.za](https://www.sahrc.org.za)

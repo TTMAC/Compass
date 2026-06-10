@@ -39,7 +39,7 @@ seo:
 
 South Africa is not stuck. The word "stuck" implies stasis — a country frozen in place, waiting for something to change. The reality is worse than stasis. South Africa is actively spiralling downward. Each broken link in the reinforcing cycle that was described in the previous article — [When the Cycle Works](/articles/hd-5-1-when-the-cycle-works) — does not merely fail to strengthen the next link. It actively weakens it. High inequality produces high crime. High crime drives investment and skills out of the country. The loss of investment and skills shrinks the tax base and fiscal space. Shrinking fiscal space forces cuts to education and health spending, or at minimum prevents the quality improvements those services desperately need. Deteriorating education and health outcomes reduce the capabilities of the workforce. A less capable workforce produces lower growth. Lower growth deepens inequality. The spiral tightens with each turn.
 
-The *Inequality-adjusted Human Development Index* — the IHDI — provides a single, devastating metric for this systemic failure. **South Africa's HDI of 0.713 suggests a country in the "high human development" category. Its IHDI of 0.468 — a penalty of approximately 34 per cent — reveals the truth:** the average development outcome masks a distribution so unequal that the typical South African experiences conditions closer to "low human development" than the headline figure suggests. That approximately 34 per cent penalty is not a statistical curiosity. It is the quantified measure of a system that is eating itself.
+The _Inequality-adjusted Human Development Index_ — the IHDI — provides a single, devastating metric for this systemic failure. **South Africa's HDI of 0.713 suggests a country in the "high human development" category. Its IHDI of 0.468 — a penalty of approximately 34 per cent — reveals the truth:** the average development outcome masks a distribution so unequal that the typical South African experiences conditions closer to "low human development" than the headline figure suggests. That approximately 34 per cent penalty is not a statistical curiosity. It is the quantified measure of a system that is eating itself.
 
 This article maps the vicious spiral link by link, with South African data at every step. It traces how the cycle broke, identifies the accelerants that made it worse, and assesses the conditions under which the spiral could be reversed. If the previous article showed you what the reinforcing cycle looks like when it works, this one shows you what it looks like when it runs in reverse — and why understanding the mechanism is the first step toward intervention.
 
@@ -48,7 +48,6 @@ The purpose is not despair. The purpose is diagnosis. You cannot treat a disease
 ## The Vicious Spiral Mapped
 
 The reinforcing cycle, when it operates in the positive direction, follows a clear logic: safety enables investment, investment generates growth, growth funds human development, human development improves the workforce, a better workforce attracts higher-value economic activity, which generates more revenue, which funds more development. Each link strengthens the next.
-
 
 ![Each weakening link pulls the next one down, turning shocks into compounding losses | Photo by lee zhaoming on Unsplash](/images/articles/hd-5-2-south-africas-broken-cycle/img-1.webp)
 
@@ -74,7 +73,7 @@ The arithmetic is stark. Government revenue is approximately R1.8 trillion. Debt
 
 South Africa's education system produces some of the worst learning outcomes among middle-income countries. The 2021 Progress in International Reading Literacy Study found that 81 per cent of South African Grade 4 learners could not read for meaning — the worst result among the 57 participating countries. The health system faces a nursing shortage of approximately 45,000. Over 46 per cent of municipal water systems fail to meet minimum quality standards. These are not abstract statistics — they represent children who cannot read, patients who cannot access treatment, families who drink unsafe water.
 
-**Link Six: Worse outcomes deepen inequality.** Children who receive poor education earn less as adults. Communities with inadequate health services have lower life expectancy and higher disability rates. Areas without reliable infrastructure have fewer economic opportunities. The children of the poor receive the worst services and face the worst outcomes, perpetuating inequality into the next generation. *South Africa's intergenerational mobility* — the probability that a child born into poverty will escape poverty as an adult — **is among the lowest in the world.** The vicious spiral does not merely perpetuate existing inequality. It deepens it. Each generation faces worse odds than the last.
+**Link Six: Worse outcomes deepen inequality.** Children who receive poor education earn less as adults. Communities with inadequate health services have lower life expectancy and higher disability rates. Areas without reliable infrastructure have fewer economic opportunities. The children of the poor receive the worst services and face the worst outcomes, perpetuating inequality into the next generation. _South Africa's intergenerational mobility_ — the probability that a child born into poverty will escape poverty as an adult — **is among the lowest in the world.** The vicious spiral does not merely perpetuate existing inequality. It deepens it. Each generation faces worse odds than the last.
 
 And so the spiral completes its turn and begins again. Deeper inequality generates more crime. More crime drives more investment and skills out of the country. The fiscal base shrinks further. Services deteriorate further. Outcomes worsen further. Inequality deepens further. The cycle is self-reinforcing in the negative direction, just as the virtuous cycle is self-reinforcing in the positive direction. The only difference is the direction of travel.
 
@@ -113,7 +112,6 @@ The net effect of thirty years of democratic governance is that inequality has n
 ## The Brain Drain: Bleeding Capability
 
 South Africa is haemorrhaging human capital. The emigration of skilled professionals — what the development literature calls "brain drain" — is one of the most damaging and least discussed dimensions of the vicious spiral.
-
 
 ![Skilled emigration thins the institutional capacity that built whatever still functions | Photo by Nestergrapher nedie on Unsplash](/images/articles/hd-5-2-south-africas-broken-cycle/img-2.webp)
 
@@ -199,7 +197,6 @@ Comparing South Africa's IHDI penalty with those of other countries at similar i
 
 The vicious spiral is self-reinforcing, but it is not unbreakable. The case studies in the previous article demonstrate that countries have reversed spirals as severe as South Africa's — though none have done so from a starting position of inequality as extreme as South Africa's.
 
-
 ![Reversing a spiral means stabilising one link well enough to take pressure off the others | Photo by Pim de Boer on Unsplash](/images/articles/hd-5-2-south-africas-broken-cycle/img-3.webp)
 
 Reversing the spiral requires intervening at multiple links simultaneously. A crime reduction strategy alone will not work if the inequality that drives crime is not addressed. An education improvement programme alone will not work if the graduates it produces emigrate because the economy offers no opportunities. A fiscal consolidation programme alone will not work if it squeezes the very development spending that builds the capabilities needed for growth.
@@ -260,11 +257,11 @@ If you can trace all six links in your community or province, you are observing 
 
 The analysis in this article draws on the following institutional research and publications:
 
-- United Nations Development Programme (UNDP), *Human Development Report* — HDI and IHDI scores, inequality penalty calculations, and country comparisons — [hdr.undp.org](https://hdr.undp.org)
-- Statistics South Africa (Stats SA), *Inequality Trends in South Africa* — Gini coefficient data, income distribution analysis, and consumption inequality measures — [statssa.gov.za](https://www.statssa.gov.za)
-- South African Reserve Bank (SARB), *Quarterly Bulletin* — capital flows, foreign direct investment trends, and macroeconomic indicators reflecting investor confidence — [resbank.co.za](https://www.resbank.co.za)
+- United Nations Development Programme (UNDP), _Human Development Report_ — HDI and IHDI scores, inequality penalty calculations, and country comparisons — [hdr.undp.org](https://hdr.undp.org)
+- Statistics South Africa (Stats SA), _Inequality Trends in South Africa_ — Gini coefficient data, income distribution analysis, and consumption inequality measures — [statssa.gov.za](https://www.statssa.gov.za)
+- South African Reserve Bank (SARB), _Quarterly Bulletin_ — capital flows, foreign direct investment trends, and macroeconomic indicators reflecting investor confidence — [resbank.co.za](https://www.resbank.co.za)
 - Institute for Security Studies (ISS), research on the relationship between inequality, crime, and investment — [issafrica.org](https://issafrica.org)
 - Gillian Hamilton and Eliya Sobel, research on skills emigration from South Africa — brain drain data, professional emigration patterns, and fiscal impact estimates
-- Judicial Commission of Inquiry into Allegations of State Capture (Zondo Commission), *Reports Parts I–VI* — documented institutional decay and its cascading effects on service delivery — [statecapture.org.za](https://www.statecapture.org.za)
-- National Treasury, *Budget Review* — fiscal deficit trends, debt-to-GDP trajectory, and expenditure pressures on health and education — [treasury.gov.za](https://www.treasury.gov.za)
-- World Bank, *South Africa Economic Update* — periodic analysis of growth constraints, inequality dynamics, and structural reform priorities — [worldbank.org](https://www.worldbank.org)
+- Judicial Commission of Inquiry into Allegations of State Capture (Zondo Commission), _Reports Parts I–VI_ — documented institutional decay and its cascading effects on service delivery — [statecapture.org.za](https://www.statecapture.org.za)
+- National Treasury, _Budget Review_ — fiscal deficit trends, debt-to-GDP trajectory, and expenditure pressures on health and education — [treasury.gov.za](https://www.treasury.gov.za)
+- World Bank, _South Africa Economic Update_ — periodic analysis of growth constraints, inequality dynamics, and structural reform priorities — [worldbank.org](https://www.worldbank.org)

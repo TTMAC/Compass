@@ -27,7 +27,7 @@ seo:
 
 ## How to Make Your Written Voice Count in the Legislature
 
-In *Your Right to Participate*, you learned that the Constitution requires the National Assembly, the NCOP, and every provincial legislature to facilitate public involvement in their legislative processes—and that the Constitutional Court has struck down legislation when this obligation was not met. In *Ward Committees and Community Engagement*, you learned how to participate in municipal planning and budgeting at the local level. This article completes Part 4 by giving you something the first two articles deliberately held back: the practical, step-by-step mechanics of making a written submission on draft legislation, regulations, budgets, and policy documents at the national and provincial level.
+In _Your Right to Participate_, you learned that the Constitution requires the National Assembly, the NCOP, and every provincial legislature to facilitate public involvement in their legislative processes—and that the Constitutional Court has struck down legislation when this obligation was not met. In _Ward Committees and Community Engagement_, you learned how to participate in municipal planning and budgeting at the local level. This article completes Part 4 by giving you something the first two articles deliberately held back: the practical, step-by-step mechanics of making a written submission on draft legislation, regulations, budgets, and policy documents at the national and provincial level.
 
 ## Your Voice on Paper
 
@@ -38,7 +38,6 @@ This article changes that. It teaches you how to find out when comment opportuni
 ## Finding the Opportunities: How to Know When to Comment
 
 The most common reason people do not make public submissions is not that they do not care. It is that they do not know a comment opportunity exists. Government publishes calls for comment through channels that most citizens never see. Knowing where to look is the first skill you need.
-
 
 ![Government Gazettes and parliamentary websites publish calls for public comment | Photo by Vitaly Gariev on Unsplash](/images/articles/4-3-making-public-submissions/img-1.webp)
 
@@ -78,11 +77,11 @@ Not all public comment opportunities are the same. Understanding the different t
 
 ### Bills (Draft Legislation)
 
-Section 59(1)(a) of the Constitution obliges the National Assembly to "facilitate public involvement in the legislative and other processes" of the Assembly and its committees — and the Constitutional Court has enforced this duty by striking down legislation where the obligation was not met (see the *Doctors for Life International* judgment of 2006 and *Matatiele Municipality* of 2006). That is the legal reason every bill introduced into Parliament triggers a call for public submissions before a parliamentary committee can finalise it. A bill is a proposed law, and may be introduced by a cabinet minister (in which case it is typically drafted by the relevant department and approved by cabinet before introduction) or by an individual member of Parliament (a private member's bill, which is less common).
+Section 59(1)(a) of the Constitution obliges the National Assembly to "facilitate public involvement in the legislative and other processes" of the Assembly and its committees — and the Constitutional Court has enforced this duty by striking down legislation where the obligation was not met (see the _Doctors for Life International_ judgment of 2006 and _Matatiele Municipality_ of 2006). That is the legal reason every bill introduced into Parliament triggers a call for public submissions before a parliamentary committee can finalise it. A bill is a proposed law, and may be introduced by a cabinet minister (in which case it is typically drafted by the relevant department and approved by cabinet before introduction) or by an individual member of Parliament (a private member's bill, which is less common).
 
 When a bill is referred to a parliamentary committee, the committee typically publishes a call for written submissions and may schedule public hearings. The call specifies the submission deadline, the format for submissions (usually email or postal address), and sometimes the specific issues on which the committee is seeking input. Bills are published in the Government Gazette and are available on Parliament's website.
 
-*Bills are the highest-impact comment opportunity.* A bill, once enacted, becomes binding law. If a problematic provision makes it through the committee process without being challenged, it becomes entrenched in the statute book and can only be changed by amending legislation—a process that may take years. **Catching problems at the bill stage is far more efficient than trying to fix them after enactment.**
+_Bills are the highest-impact comment opportunity._ A bill, once enacted, becomes binding law. If a problematic provision makes it through the committee process without being challenged, it becomes entrenched in the statute book and can only be changed by amending legislation—a process that may take years. **Catching problems at the bill stage is far more efficient than trying to fix them after enactment.**
 
 ### Regulations and Subordinate Legislation
 
@@ -111,7 +110,6 @@ Budget submissions require some technical understanding of the budget structure,
 ## Anatomy of an Effective Submission
 
 Not all submissions are equal. **A well-structured submission that addresses the specific provisions of a bill, presents evidence, and makes clear recommendations has far more impact than a vague expression of support or opposition.** Committee members and their research staff read hundreds of submissions on major bills. Your submission needs to stand out—not through length or rhetoric, but through clarity, specificity, and substance.
-
 
 ![An effective submission is structured, evidence-based, and proposes specific alternatives | Photo by Brett Jordan on Unsplash](/images/articles/4-3-making-public-submissions/img-2.webp)
 
@@ -148,7 +146,6 @@ The Parliamentary Monitoring Group, in its capacity-building work with civil soc
 ## Step by Step: Writing Your First Submission
 
 If you have never made a public submission before, the process can feel intimidating. It is not. Here is a step-by-step guide that takes you from finding the opportunity to pressing send.
-
 
 ![Even a single well-reasoned submission can influence policy outcomes | Photo by Bermix Studio on Unsplash](/images/articles/4-3-making-public-submissions/img-3.webp)
 
@@ -206,7 +203,7 @@ You will be introduced, invited to present, and then asked questions by committe
 
 Provincial legislature committee hearings follow a similar format, though the scale is smaller. Provincial committees consider provincial bills and oversee provincial department performance. If a provincial bill or policy affects your life—a provincial health regulation, a provincial planning framework, a provincial education policy—you can submit written comments and request to present orally, following the same process described above. Contact the relevant committee through the provincial legislature's website or through PMG if it covers the province.
 
-**Provincial hearings tend to receive even fewer public submissions than national ones—which means your submission has a proportionally greater impact.** In a national process, your submission may be one of hundreds. In a provincial process, it may be one of a dozen. *The marginal impact of your participation is higher at the provincial level precisely because fewer people participate.*
+**Provincial hearings tend to receive even fewer public submissions than national ones—which means your submission has a proportionally greater impact.** In a national process, your submission may be one of hundreds. In a provincial process, it may be one of a dozen. _The marginal impact of your participation is higher at the provincial level precisely because fewer people participate._
 
 ## Commenting on Regulations
 
@@ -240,7 +237,7 @@ The main budget, tabled in February, translates the MTBPS framework into specifi
 
 The Standing Committee on Finance also considers the fiscal framework and revenue proposals (tax changes) announced in the budget. If you have a view on proposed tax changes—VAT adjustments, income tax bracket changes, excise duties, carbon tax—the fiscal framework hearings are the place to raise it.
 
-Budget submissions require some understanding of how the budget is structured. If you have read Article 2.2 (*The Budget Process*) in this series, you have the foundation you need. Focus your submission on the specific programme or allocation that concerns you, provide evidence for your position, and propose a clear recommendation.
+Budget submissions require some understanding of how the budget is structured. If you have read Article 2.2 (_The Budget Process_) in this series, you have the foundation you need. Focus your submission on the specific programme or allocation that concerns you, provide evidence for your position, and propose a clear recommendation.
 
 ## What Happens After You Submit
 
@@ -262,12 +259,12 @@ If you present orally, your impact is more visible. Committee members' questions
 
 It happens. Committees receive submissions and do not address the concerns raised. Departments receive comments on draft regulations and adopt the regulations unchanged. This is frustrating—but it does not mean your submission was wasted. Your submission is on the record. If the legislation or regulation produces the problems you predicted, your submission is evidence that the legislature or department was warned. Civil society organisations, researchers, and journalists access submission records and can use your documented concern to build accountability cases after the fact.
 
-If you believe the committee failed to adequately consider public submissions—particularly if the committee held no hearings, or conducted hearings that were insufficient given the significance of the legislation—the *Doctors for Life* and *LAMOSA* jurisprudence (discussed in Article 4.1) provides a legal basis for challenging the legislation on participation grounds. This is a legal avenue that requires resources and expertise—typically pursued by civil society organisations rather than individuals—but it is available.
+If you believe the committee failed to adequately consider public submissions—particularly if the committee held no hearings, or conducted hearings that were insufficient given the significance of the legislation—the _Doctors for Life_ and _LAMOSA_ jurisprudence (discussed in Article 4.1) provides a legal basis for challenging the legislation on participation grounds. This is a legal avenue that requires resources and expertise—typically pursued by civil society organisations rather than individuals—but it is available.
 
 :::expert
-The Centre for Environmental Rights (CER), a public interest law organisation that specialises in environmental governance and participatory rights, has extensive practical experience with the public submission process across all spheres of government. CER's work—documented in their annual *Full Disclosure* reports on corporate environmental transparency and in their published submission guides—provides insight into what makes submissions effective at scale. CER's experience shows that coordinated submission campaigns, where multiple organisations and individuals submit on the same bill or regulation with aligned but distinct perspectives, produce the greatest legislative impact. When a parliamentary committee receives submissions from a legal organisation identifying constitutional concerns, a community organisation describing lived experience of the affected issue, a scientific body providing technical evidence, and individual citizens expressing personal impact—all addressing the same clause of the same bill—the cumulative weight of those submissions creates accountability pressure that a single submission, however well-crafted, cannot. CER has also documented the specific challenge of regulatory submissions: departments receive far fewer public comments on draft regulations than parliamentary committees receive on bills, which means that regulatory processes are disproportionately shaped by the industry participants who submit consistently. CER's practical recommendation is that citizens and civil society organisations should invest as much effort in regulatory submissions as in parliamentary submissions—because regulations often have a more direct and immediate impact on people's lives than the parent Acts.
+The Centre for Environmental Rights (CER), a public interest law organisation that specialises in environmental governance and participatory rights, has extensive practical experience with the public submission process across all spheres of government. CER's work—documented in their annual _Full Disclosure_ reports on corporate environmental transparency and in their published submission guides—provides insight into what makes submissions effective at scale. CER's experience shows that coordinated submission campaigns, where multiple organisations and individuals submit on the same bill or regulation with aligned but distinct perspectives, produce the greatest legislative impact. When a parliamentary committee receives submissions from a legal organisation identifying constitutional concerns, a community organisation describing lived experience of the affected issue, a scientific body providing technical evidence, and individual citizens expressing personal impact—all addressing the same clause of the same bill—the cumulative weight of those submissions creates accountability pressure that a single submission, however well-crafted, cannot. CER has also documented the specific challenge of regulatory submissions: departments receive far fewer public comments on draft regulations than parliamentary committees receive on bills, which means that regulatory processes are disproportionately shaped by the industry participants who submit consistently. CER's practical recommendation is that citizens and civil society organisations should invest as much effort in regulatory submissions as in parliamentary submissions—because regulations often have a more direct and immediate impact on people's lives than the parent Acts.
 
-**Source:** Centre for Environmental Rights, submission guides and advocacy publications, available at www.cer.org.za. See also CER's annual *Full Disclosure* reports and published analyses of environmental governance and public participation.
+**Source:** Centre for Environmental Rights, submission guides and advocacy publications, available at www.cer.org.za. See also CER's annual _Full Disclosure_ reports and published analyses of environmental governance and public participation.
 :::
 
 ## A Model Submission Structure
@@ -303,7 +300,7 @@ To make the guidance in this article concrete, here is a model structure for a w
 > 2. [Recommendation 2]
 > 3. [Recommendation 3]
 >
-> **4. Request for Oral Presentation** *(optional)*
+> **4. Request for Oral Presentation** _(optional)_
 >
 > [If you wish to present orally, state your request here and briefly explain what additional perspective you would bring beyond the written submission.]
 
@@ -380,11 +377,11 @@ The analysis in this article draws on the following institutional research and p
 - Parliamentary Monitoring Group (PMG) — committee schedules, calls for public comment, submission deadlines, and committee meeting reports; the single most useful resource for tracking public participation opportunities — [pmg.org.za](https://www.pmg.org.za)
 - Parliament of South Africa — official committee programmes, draft legislation, and calls for submissions — [parliament.gov.za](https://www.parliament.gov.za)
 - Government Gazette (Government Printing Works) — official publication of draft legislation, regulations, and calls for comment — [gpwonline.co.za](https://www.gpwonline.co.za)
-- *Doctors for Life International v Speaker of the National Assembly* [2006] ZACC 11 — landmark judgment on the obligation to facilitate public involvement — [saflii.org](https://www.saflii.org)
-- *Land Access Movement of South Africa v Chairperson of the NCOP* [2016] ZACC 22 — invalidation of legislation for inadequate public participation — [saflii.org](https://www.saflii.org)
+- _Doctors for Life International v Speaker of the National Assembly_ [2006] ZACC 11 — landmark judgment on the obligation to facilitate public involvement — [saflii.org](https://www.saflii.org)
+- _Land Access Movement of South Africa v Chairperson of the NCOP_ [2016] ZACC 22 — invalidation of legislation for inadequate public participation — [saflii.org](https://www.saflii.org)
 - Constitution of the Republic of South Africa, 1996 — Sections 59, 72, and 118 (public involvement in legislative processes) — [gov.za](https://www.gov.za)
 - Rules of the National Assembly and Rules of the NCOP — governing committee procedures and public participation — [parliament.gov.za](https://www.parliament.gov.za)
-- Centre for Environmental Rights (CER) — submission guides, environmental governance publications, and *Full Disclosure* reports — [cer.org.za](https://www.cer.org.za)
+- Centre for Environmental Rights (CER) — submission guides, environmental governance publications, and _Full Disclosure_ reports — [cer.org.za](https://www.cer.org.za)
 - Section27 — healthcare and education advocacy, including published submissions on health and education legislation — [section27.org.za](https://www.section27.org.za)
 - Helen Suzman Foundation — constitutional democracy research and published submissions on governance legislation — [hsf.org.za](https://www.hsf.org.za)
 - Equal Education — education policy submissions and advocacy publications — [equaleducation.org.za](https://www.equaleducation.org.za)

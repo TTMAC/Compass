@@ -13,10 +13,7 @@ describe("Pages build", () => {
     ["subscribe", "subscribe/index.html"],
     ["privacy", "privacy/index.html"],
     ["404", "404.html"],
-    [
-      "article 1.1",
-      "articles/1-1-architecture-of-the-state/index.html",
-    ],
+    ["article 1.1", "articles/1-1-architecture-of-the-state/index.html"],
   ];
 
   it.each(expectedPages)("should build %s page", (_name, path) => {
@@ -25,10 +22,7 @@ describe("Pages build", () => {
 
   it("should render article content", () => {
     const articleHtml = readFileSync(
-      resolve(
-        distDir,
-        "articles/1-1-architecture-of-the-state/index.html",
-      ),
+      resolve(distDir, "articles/1-1-architecture-of-the-state/index.html"),
       "utf-8",
     );
     expect(articleHtml).toContain("The Architecture of the State");
@@ -37,10 +31,7 @@ describe("Pages build", () => {
   });
 
   it("should render home page with series overview", () => {
-    const indexHtml = readFileSync(
-      resolve(distDir, "index.html"),
-      "utf-8",
-    );
+    const indexHtml = readFileSync(resolve(distDir, "index.html"), "utf-8");
     expect(indexHtml).toContain("The Architecture");
     expect(indexHtml).toContain("The Money");
     expect(indexHtml).toContain("The Accountability");

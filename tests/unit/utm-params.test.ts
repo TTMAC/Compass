@@ -27,11 +27,14 @@ describe("buildUtmUrl", () => {
   });
 
   it("should handle URLs with existing query params", () => {
-    const result = buildUtmUrl("https://govcompass.co.za/articles/test?foo=bar", {
-      source: "whatsapp",
-      medium: "share",
-      campaign: "test",
-    });
+    const result = buildUtmUrl(
+      "https://govcompass.co.za/articles/test?foo=bar",
+      {
+        source: "whatsapp",
+        medium: "share",
+        campaign: "test",
+      },
+    );
     expect(result).toContain("foo=bar");
     expect(result).toContain("utm_source=whatsapp");
   });

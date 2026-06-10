@@ -41,7 +41,7 @@ seo:
 
 This is not a cyclical problem that will resolve when the business cycle turns. It is a structural problem embedded in the relationship between what schools produce and what the economy needs. The economy demands workers who can read technical manuals, operate sophisticated machinery, write software, manage supply chains, analyse data, and solve problems. The education system, as [The Schooling Paradox](/articles/hd-3-1-the-schooling-paradox) documented, produces a majority of learners who cannot read for meaning by Grade 4. The gap between the demand for skills and the supply of skills is not a gap that job creation programmes, wage subsidies, or expanded public works can close. It is a gap that only a fundamentally better education system can close.
 
-The international evidence on this point is unambiguous. The economists Eric Hanushek and Ludger Woessmann — most comprehensively in *The Knowledge Capital of Nations* (MIT Press, 2015) and a sustained body of NBER and OECD working papers through the 2010s and 2020s — have demonstrated that *cognitive skills, not years of schooling or credentials or spending*, are the education variable that predicts economic growth. **A one-standard-deviation improvement in a country's average test scores on international assessments is associated with approximately 2 percentage points of additional annual GDP growth.** For South Africa, which has been growing at roughly 1 per cent per year in per capita terms, a 2-percentage-point increase would be transformational. But it requires an education system that actually produces cognitive skills — not one that merely produces years of seat-time.
+The international evidence on this point is unambiguous. The economists Eric Hanushek and Ludger Woessmann — most comprehensively in _The Knowledge Capital of Nations_ (MIT Press, 2015) and a sustained body of NBER and OECD working papers through the 2010s and 2020s — have demonstrated that _cognitive skills, not years of schooling or credentials or spending_, are the education variable that predicts economic growth. **A one-standard-deviation improvement in a country's average test scores on international assessments is associated with approximately 2 percentage points of additional annual GDP growth.** For South Africa, which has been growing at roughly 1 per cent per year in per capita terms, a 2-percentage-point increase would be transformational. But it requires an education system that actually produces cognitive skills — not one that merely produces years of seat-time.
 
 This article traces the pipeline from classroom to paycheck. It documents the evidence on how education quality drives economic growth, explains why South Africa's skills mismatch produces structural unemployment, examines the concept of economic complexity and its dependence on human capital, compares South Africa's trajectory with countries that invested in education and then grew, and connects the education-growth link to the reinforcing cycle that this entire series tracks. The argument is not that education is the only driver of economic growth. It is that education is the driver without which the other drivers — investment, infrastructure, institutions, trade — cannot produce sustained, inclusive growth.
 
@@ -49,7 +49,7 @@ This article traces the pipeline from classroom to paycheck. It documents the ev
 
 The relationship between education and economic growth has been studied for over half a century, and the findings have evolved significantly. The early human capital theory, developed by Gary Becker, Theodore Schultz, and Jacob Mincer in the 1960s, treated education primarily as an investment in productive capacity — years of schooling increase a worker's productivity, which increases output, which drives growth. This framework generated the simple prediction that more years of schooling should produce more economic growth. The HDI's education component is built on this logic.
 
-The problem is that the prediction does not hold. When Hanushek and Woessmann assembled data across countries and decades, they found that years of schooling — the variable that the HDI measures — **has essentially no independent effect on economic growth once cognitive skills are controlled for.** Countries with the same average years of schooling but different levels of cognitive skills (measured by international assessment scores) have dramatically different growth trajectories. *Years of schooling without learning is, from a growth perspective, economically inert.*
+The problem is that the prediction does not hold. When Hanushek and Woessmann assembled data across countries and decades, they found that years of schooling — the variable that the HDI measures — **has essentially no independent effect on economic growth once cognitive skills are controlled for.** Countries with the same average years of schooling but different levels of cognitive skills (measured by international assessment scores) have dramatically different growth trajectories. _Years of schooling without learning is, from a growth perspective, economically inert._
 
 What does this mean for you? It means that when a politician argues for more education spending as the key to economic growth, the question you should ask is: what are those rands actually producing in terms of cognitive skills — not certificates, not years in a classroom, but measurable ability to read, reason, and solve problems?
 
@@ -66,7 +66,6 @@ The Hanushek-Woessmann research programme, spanning publications from 2007 to th
 ## Economic Complexity and Human Capital
 
 The concept of economic complexity, developed by Ricardo Hausmann and César Hidalgo at Harvard's Center for International Development, provides a complementary lens on the education-growth relationship. The Economic Complexity Index (ECI) measures the diversity and sophistication of a country's export basket — the idea being that complex economies produce a wide variety of sophisticated products, which requires a wide variety of sophisticated productive capabilities, which in turn requires a well-educated, skilled workforce.
-
 
 ![An economy makes more sophisticated products only as fast as its workforce learns to make them | Photo by Jason Leung on Unsplash](/images/articles/hd-3-3-from-classroom-to-paycheck/img-1.webp)
 
@@ -90,7 +89,7 @@ Economic complexity — the diversity and sophistication of what a country produ
 
 The abstract connection between education and economic complexity becomes concrete in the labour market, where the mismatch between the skills that employers demand and the skills that the education system supplies produces one of the defining features of the South African economy: simultaneous mass unemployment and critical skills shortages.
 
-South Africa has approximately 3.5 million people aged 15 to 24 who are not in employment, education, or training — the so-called *NEET category*. These are young people who have left the education system without the skills to find employment and who are not in any form of training that might develop those skills. The NEET rate among this age group exceeds 40 per cent, one of the highest in the world.
+South Africa has approximately 3.5 million people aged 15 to 24 who are not in employment, education, or training — the so-called _NEET category_. These are young people who have left the education system without the skills to find employment and who are not in any form of training that might develop those skills. The NEET rate among this age group exceeds 40 per cent, one of the highest in the world.
 
 At the same time, South African employers report persistent shortages in specific skill categories. The Department of Home Affairs' Critical Skills List identifies occupations where demand exceeds domestic supply — and the list reads like a catalogue of the capabilities that a modern economy requires: engineers (civil, electrical, mechanical, chemical), ICT professionals (software developers, data scientists, cybersecurity specialists), healthcare professionals (doctors, pharmacists, specialist nurses), artisans (electricians, plumbers, welders, toolmakers), financial professionals (actuaries, quantitative analysts), and natural scientists (geologists, physicists, chemists).
 
@@ -131,7 +130,6 @@ The education dimension of structural unemployment operates through several chan
 ## The TVET Question
 
 If the education-growth link depends on cognitive skills, and if the skills mismatch is the proximate cause of structural unemployment, then the obvious policy response is to fix the pipeline between education and employment. And the institution that is supposed to serve as that pipeline — the Technical and Vocational Education and Training (TVET) system — is, in South Africa, a case study in missed potential.
-
 
 ![Technical and vocational colleges are the bridge most successful economies invest in heavily | Photo by Musemind UX Agency on Unsplash](/images/articles/hd-3-3-from-classroom-to-paycheck/img-2.webp)
 
@@ -192,7 +190,6 @@ South Korea, Singapore, and Vietnam all invested in education before their econo
 ## The Reinforcing Cycle: Education, Growth, and More Education
 
 The comparator country evidence illustrates the reinforcing cycle that this entire Human Development series traces. When education improves, the human capital stock of the economy improves. When human capital improves, economic complexity rises — the economy can produce a wider variety of more sophisticated goods and services. When economic complexity rises, productivity grows, wages increase, and the economy generates more tax revenue. When tax revenue increases, the government can invest more in education — and in the safety, nutrition, and housing that [Learning in a War Zone](/articles/hd-3-2-learning-in-a-war-zone) identified as prerequisites for learning. And when education investment increases, education improves further. The cycle reinforces.
-
 
 ![Productive jobs justify staying in school, and more schooling fills the productive jobs that follow | Photo by TECNIC Bioprocess Solutions on Unsplash](/images/articles/hd-3-3-from-classroom-to-paycheck/img-3.webp)
 
@@ -266,11 +263,11 @@ Key questions: Is manufacturing's share of GDP and employment growing or declini
 
 The analysis in this article draws on the following institutional research and publications:
 
-- Eric Hanushek and Ludger Woessmann, *The Knowledge Capital of Nations* (2015) — the definitive empirical work linking cognitive skills (not years of schooling) to long-run economic growth — MIT Press
-- Statistics South Africa (Stats SA), *Quarterly Labour Force Survey* — unemployment rates (official and expanded), youth unemployment, and employment by sector — [statssa.gov.za](https://www.statssa.gov.za)
-- Harvard Growth Lab, *Atlas of Economic Complexity* — Economic Complexity Index rankings, product space analysis, and South Africa's complexity trajectory — [atlas.cid.harvard.edu](https://atlas.cid.harvard.edu)
-- Statistics South Africa (Stats SA), *GDP by industry* quarterly releases — manufacturing share of GDP, sectoral employment trends, and structural transformation indicators — [statssa.gov.za](https://www.statssa.gov.za)
-- Department of Higher Education and Training (DHET), *Annual Report* and SETA performance data — skills development programme outcomes, NEET statistics, and post-school education data — [dhet.gov.za](https://www.dhet.gov.za)
-- World Bank, *Human Capital Index* — learning-adjusted years of schooling, expected productivity, and cross-country human capital comparisons — [worldbank.org/en/publication/human-capital](https://www.worldbank.org/en/publication/human-capital)
-- National Treasury, *Budget Review* — education and skills development budget allocations and expenditure trends — [treasury.gov.za](https://www.treasury.gov.za)
-- OECD, *Education at a Glance* — international education spending and outcome comparisons for benchmarking South Africa's performance — [oecd.org/education](https://www.oecd.org/education)
+- Eric Hanushek and Ludger Woessmann, _The Knowledge Capital of Nations_ (2015) — the definitive empirical work linking cognitive skills (not years of schooling) to long-run economic growth — MIT Press
+- Statistics South Africa (Stats SA), _Quarterly Labour Force Survey_ — unemployment rates (official and expanded), youth unemployment, and employment by sector — [statssa.gov.za](https://www.statssa.gov.za)
+- Harvard Growth Lab, _Atlas of Economic Complexity_ — Economic Complexity Index rankings, product space analysis, and South Africa's complexity trajectory — [atlas.cid.harvard.edu](https://atlas.cid.harvard.edu)
+- Statistics South Africa (Stats SA), _GDP by industry_ quarterly releases — manufacturing share of GDP, sectoral employment trends, and structural transformation indicators — [statssa.gov.za](https://www.statssa.gov.za)
+- Department of Higher Education and Training (DHET), _Annual Report_ and SETA performance data — skills development programme outcomes, NEET statistics, and post-school education data — [dhet.gov.za](https://www.dhet.gov.za)
+- World Bank, _Human Capital Index_ — learning-adjusted years of schooling, expected productivity, and cross-country human capital comparisons — [worldbank.org/en/publication/human-capital](https://www.worldbank.org/en/publication/human-capital)
+- National Treasury, _Budget Review_ — education and skills development budget allocations and expenditure trends — [treasury.gov.za](https://www.treasury.gov.za)
+- OECD, _Education at a Glance_ — international education spending and outcome comparisons for benchmarking South Africa's performance — [oecd.org/education](https://www.oecd.org/education)

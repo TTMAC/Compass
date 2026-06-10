@@ -6,15 +6,15 @@
 
 ## Quick Reference
 
-| Document | Location | Purpose |
-|----------|----------|---------|
-| Domain Model | `docs/DOMAIN_MODEL.md` | Content domain entities, article schema, bounded contexts |
-| Testing Strategy | `docs/TESTING_STRATEGY.md` | TDD workflow, test standards, coverage targets |
-| Market Requirements | `docs/MRD_GovCompass_Blog.md` | Market validation, job executor profile, success metrics |
-| Product Requirements | `docs/PRD_GovCompass_Blog.md` | Buildable product spec, page-by-page requirements, launch plan |
-| UX Design | `docs/UXD_GovCompass_Blog.md` | Five-plane UX model, information architecture, visual design |
-| System Requirements | `docs/SRD_GovCompass_Blog.docx` | Technical specifications, NFRs, traceability matrix |
-| Article Prompts | `docs/sa_political_system_article_series.md` | MECE article series structure and generation prompts |
+| Document             | Location                                     | Purpose                                                        |
+| -------------------- | -------------------------------------------- | -------------------------------------------------------------- |
+| Domain Model         | `docs/DOMAIN_MODEL.md`                       | Content domain entities, article schema, bounded contexts      |
+| Testing Strategy     | `docs/TESTING_STRATEGY.md`                   | TDD workflow, test standards, coverage targets                 |
+| Market Requirements  | `docs/MRD_GovCompass_Blog.md`                | Market validation, job executor profile, success metrics       |
+| Product Requirements | `docs/PRD_GovCompass_Blog.md`                | Buildable product spec, page-by-page requirements, launch plan |
+| UX Design            | `docs/UXD_GovCompass_Blog.md`                | Five-plane UX model, information architecture, visual design   |
+| System Requirements  | `docs/SRD_GovCompass_Blog.docx`              | Technical specifications, NFRs, traceability matrix            |
+| Article Prompts      | `docs/sa_political_system_article_series.md` | MECE article series structure and generation prompts           |
 
 **Claude must read the relevant doc before making changes in that area.**
 
@@ -34,19 +34,19 @@
 
 **Tech Stack:**
 
-| Layer | Technology |
-|-------|------------|
-| Language | TypeScript / JavaScript (Astro components), Python (OG image generation script) |
-| Framework | Astro (static site generator with content collections) |
-| Styling | Tailwind CSS (utility-first, purged at build time) |
-| Database | None — file-based content architecture (Markdown + YAML frontmatter) |
-| Cache | Netlify edge CDN caching (static assets cached with immutable headers) |
-| Search | Pagefind (static search index generated at build time) |
-| Analytics | Google Analytics 4 (GA4) with consent banner, anonymised IP, 2-month data retention |
-| Email | Netlify Forms → webhook → Buttondown (or Mailchimp free tier) |
-| Hosting & CDN | Netlify (free tier — auto-deploys from Git, edge CDN, form handling) |
-| Version Control | Git (GitHub) |
-| Infrastructure | Netlify (no servers, no databases, no authentication) |
+| Layer           | Technology                                                                          |
+| --------------- | ----------------------------------------------------------------------------------- |
+| Language        | TypeScript / JavaScript (Astro components), Python (OG image generation script)     |
+| Framework       | Astro (static site generator with content collections)                              |
+| Styling         | Tailwind CSS (utility-first, purged at build time)                                  |
+| Database        | None — file-based content architecture (Markdown + YAML frontmatter)                |
+| Cache           | Netlify edge CDN caching (static assets cached with immutable headers)              |
+| Search          | Pagefind (static search index generated at build time)                              |
+| Analytics       | Google Analytics 4 (GA4) with consent banner, anonymised IP, 2-month data retention |
+| Email           | Netlify Forms → webhook → Buttondown (or Mailchimp free tier)                       |
+| Hosting & CDN   | Netlify (free tier — auto-deploys from Git, edge CDN, form handling)                |
+| Version Control | Git (GitHub)                                                                        |
+| Infrastructure  | Netlify (no servers, no databases, no authentication)                               |
 
 **Repository Structure:**
 
@@ -170,37 +170,37 @@ This is a content-delivery domain, not a transactional domain. The core domain e
 
 **Bounded Contexts in Scope:**
 
-| Context | Status | Notes |
-|---------|--------|-------|
-| Content Management | Active | Article schema, series navigation, sphere taxonomy — 79 articles live |
-| Reader Experience | Active | Reading progress, TOC, share buttons, callout components, Pagefind search, PWA + offline page |
-| Email Subscription | Partial | `EmailCapture.astro` → Netlify Forms (`name="subscribe"`) wired; ESP webhook downstream not yet selected |
-| Analytics & Measurement | Active | GA4 with consent + anonymised IP; custom events: `scroll_depth`, `whatsapp_share`, `copy_link`, `email_subscribe` |
-| SEO & Distribution | Active | OG/Twitter meta + JSON-LD (Organization, WebSite, BreadcrumbList, Article) on all pages; 18 of 79 custom OG images, rest fall back to `/og/default.png` |
+| Context                 | Status  | Notes                                                                                                                                                   |
+| ----------------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Content Management      | Active  | Article schema, series navigation, sphere taxonomy — 79 articles live                                                                                   |
+| Reader Experience       | Active  | Reading progress, TOC, share buttons, callout components, Pagefind search, PWA + offline page                                                           |
+| Email Subscription      | Partial | `EmailCapture.astro` → Netlify Forms (`name="subscribe"`) wired; ESP webhook downstream not yet selected                                                |
+| Analytics & Measurement | Active  | GA4 with consent + anonymised IP; custom events: `scroll_depth`, `whatsapp_share`, `copy_link`, `email_subscribe`                                       |
+| SEO & Distribution      | Active  | OG/Twitter meta + JSON-LD (Organization, WebSite, BreadcrumbList, Article) on all pages; 18 of 79 custom OG images, rest fall back to `/og/default.png` |
 
 **Key Domain Entities:**
 
-| Entity | Type | Key Attributes |
-|--------|------|----------------|
-| Article | Aggregate Root | title, subtitle, part (1–5), articleNumber (X.Y), sphere, description, publishDate, readingTime, status, series.prev, series.next, seo |
-| Part | Derived Entity | number (1–5), title, description — derived from Article.part at build time |
-| Sphere | Enum / Value Object | national, provincial, municipal, all — with colour mapping in Tailwind config |
-| SEOMetadata | Value Object | ogImage, canonicalUrl, keywords[] — nested within Article schema |
-| SeriesNavigation | Value Object | prev (slug \| null), next (slug \| null) — doubly-linked reading order |
-| EmailSubscriber | External Entity | email, confirmedAt, source — managed by ESP, not stored in GovCompass repo |
+| Entity           | Type                | Key Attributes                                                                                                                         |
+| ---------------- | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Article          | Aggregate Root      | title, subtitle, part (1–5), articleNumber (X.Y), sphere, description, publishDate, readingTime, status, series.prev, series.next, seo |
+| Part             | Derived Entity      | number (1–5), title, description — derived from Article.part at build time                                                             |
+| Sphere           | Enum / Value Object | national, provincial, municipal, all — with colour mapping in Tailwind config                                                          |
+| SEOMetadata      | Value Object        | ogImage, canonicalUrl, keywords[] — nested within Article schema                                                                       |
+| SeriesNavigation | Value Object        | prev (slug \| null), next (slug \| null) — doubly-linked reading order                                                                 |
+| EmailSubscriber  | External Entity     | email, confirmedAt, source — managed by ESP, not stored in GovCompass repo                                                             |
 
 **Key Ubiquitous Language:**
 
-| Term | Meaning | Don't Say |
-|------|---------|-----------|
-| Article | A single long-form piece (4,500+ words) in the 15-article series | Post, Blog post, Entry |
-| Part | One of five thematic groupings (Foundation, National, Provincial, Municipal, Toolkit) | Section, Chapter, Module |
-| Sphere | One of SA's three constitutional governance spheres (national, provincial, municipal) or "all" for cross-cutting | Tier, Level, Layer |
-| Series | The complete 15-article collection forming one cohesive guide | Blog, Course, Curriculum |
-| Reader | The person consuming GovCompass content | User, Visitor, Customer |
-| Job Executor | The primary target reader (MRD §3.1) — Black South African, 25–45, Gauteng metro, R8K–R29K/month | Target audience, Persona |
-| Callout | Styled content block for expert anecdotes, key takeaways, or practical frameworks | Sidebar, Box, Card (in article context) |
-| Data Sources | Curated links to AGSA, Treasury, DPME, StatsSA, IEC and oversight bodies | Resources, Links, References |
+| Term         | Meaning                                                                                                          | Don't Say                               |
+| ------------ | ---------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
+| Article      | A single long-form piece (4,500+ words) in the 15-article series                                                 | Post, Blog post, Entry                  |
+| Part         | One of five thematic groupings (Foundation, National, Provincial, Municipal, Toolkit)                            | Section, Chapter, Module                |
+| Sphere       | One of SA's three constitutional governance spheres (national, provincial, municipal) or "all" for cross-cutting | Tier, Level, Layer                      |
+| Series       | The complete 15-article collection forming one cohesive guide                                                    | Blog, Course, Curriculum                |
+| Reader       | The person consuming GovCompass content                                                                          | User, Visitor, Customer                 |
+| Job Executor | The primary target reader (MRD §3.1) — Black South African, 25–45, Gauteng metro, R8K–R29K/month                 | Target audience, Persona                |
+| Callout      | Styled content block for expert anecdotes, key takeaways, or practical frameworks                                | Sidebar, Box, Card (in article context) |
+| Data Sources | Curated links to AGSA, Treasury, DPME, StatsSA, IEC and oversight bodies                                         | Resources, Links, References            |
 
 **Claude must:**
 
@@ -215,23 +215,23 @@ This is a content-delivery domain, not a transactional domain. The core domain e
 
 **The 15-Article Series:**
 
-| Part | Article | Title | Sphere | Status |
-|------|---------|-------|--------|--------|
-| **1: Foundational Framework** | 1.1 | The Architecture of the State | all | MVP |
-| | 1.2 | Following the Money | all | MVP |
-| | 1.3 | Who Watches the Watchers | all | MVP |
-| | 1.4 | Measuring What Matters | all | MVP |
-| **2: National Government** | 2.1 | Inside the Machine | national | Post-MVP |
-| | 2.2 | Your National Budget | national | Post-MVP |
-| | 2.3 | Parliament and You | national | Post-MVP |
-| **3: Provincial Government** | 3.1 | The Awkward Middle Child | provincial | Post-MVP |
-| | 3.2 | Provincial Budgets and Performance | provincial | Post-MVP |
-| | 3.3 | When Provinces Fail | provincial | Post-MVP |
-| **4: Municipal Government** | 4.1 | Where the Rubber Meets the Road | municipal | Post-MVP |
-| | 4.2 | Municipal Money | municipal | Post-MVP |
-| | 4.3 | When Municipalities Fail | municipal | Post-MVP |
-| | 4.4 | Your Ward, Your Power | municipal | Post-MVP |
-| **5: Citizen's Toolkit** | 5.1 | The Citizen's Toolkit | all | Post-MVP |
+| Part                          | Article | Title                              | Sphere     | Status   |
+| ----------------------------- | ------- | ---------------------------------- | ---------- | -------- |
+| **1: Foundational Framework** | 1.1     | The Architecture of the State      | all        | MVP      |
+|                               | 1.2     | Following the Money                | all        | MVP      |
+|                               | 1.3     | Who Watches the Watchers           | all        | MVP      |
+|                               | 1.4     | Measuring What Matters             | all        | MVP      |
+| **2: National Government**    | 2.1     | Inside the Machine                 | national   | Post-MVP |
+|                               | 2.2     | Your National Budget               | national   | Post-MVP |
+|                               | 2.3     | Parliament and You                 | national   | Post-MVP |
+| **3: Provincial Government**  | 3.1     | The Awkward Middle Child           | provincial | Post-MVP |
+|                               | 3.2     | Provincial Budgets and Performance | provincial | Post-MVP |
+|                               | 3.3     | When Provinces Fail                | provincial | Post-MVP |
+| **4: Municipal Government**   | 4.1     | Where the Rubber Meets the Road    | municipal  | Post-MVP |
+|                               | 4.2     | Municipal Money                    | municipal  | Post-MVP |
+|                               | 4.3     | When Municipalities Fail           | municipal  | Post-MVP |
+|                               | 4.4     | Your Ward, Your Power              | municipal  | Post-MVP |
+| **5: Citizen's Toolkit**      | 5.1     | The Citizen's Toolkit              | all        | Post-MVP |
 
 **Article Generation:** Articles are generated using the prompts in `docs/sa_political_system_article_series.md`. Each prompt specifies a Nobel-level political economist writing in O'Reilly conversational style, 4,500+ words, with specific structural requirements, anecdotes, and sourcing standards.
 
@@ -247,12 +247,12 @@ This is a content-delivery domain, not a transactional domain. The core domain e
 
 **Quick Coverage Targets:**
 
-| Layer | Minimum | Target |
-|-------|---------|--------|
-| Content Schema (Zod validation, series navigation) | 90% | 95% |
-| Component Logic (reading progress, share, email form) | 80% | 90% |
-| Integration (article rendering, OG meta, form pipeline) | 70% | 80% |
-| E2E (critical reader journeys) | Critical paths only | — |
+| Layer                                                   | Minimum             | Target |
+| ------------------------------------------------------- | ------------------- | ------ |
+| Content Schema (Zod validation, series navigation)      | 90%                 | 95%    |
+| Component Logic (reading progress, share, email form)   | 80%                 | 90%    |
+| Integration (article rendering, OG meta, form pipeline) | 70%                 | 80%    |
+| E2E (critical reader journeys)                          | Critical paths only | —      |
 
 **Test Pyramid:**
 
@@ -290,12 +290,12 @@ npx lighthouse https://govcompass.co.za --throttling.cpuSlowdownMultiplier=4
 
 **Critical E2E Paths:**
 
-| Journey | Priority |
-|---------|----------|
-| Reader loads article → reading progress bar works → reaches article footer | P0 |
-| Reader submits email → sees confirmation → receives double opt-in email | P0 |
-| WhatsApp share button → correct UTM URL → OG preview renders in WhatsApp | P1 |
-| Series page → sphere filter toggle → correct articles displayed | P1 |
+| Journey                                                                    | Priority |
+| -------------------------------------------------------------------------- | -------- |
+| Reader loads article → reading progress bar works → reaches article footer | P0       |
+| Reader submits email → sees confirmation → receives double opt-in email    | P0       |
+| WhatsApp share button → correct UTM URL → OG preview renders in WhatsApp   | P1       |
+| Series page → sphere filter toggle → correct articles displayed            | P1       |
 
 **Claude must:**
 
@@ -311,18 +311,18 @@ npx lighthouse https://govcompass.co.za --throttling.cpuSlowdownMultiplier=4
 
 > The target reader is on a Samsung Galaxy A15 on 4G prepaid data. Every unnecessary byte costs them money (~R2/MB).
 
-| Metric | Target | Hard Limit |
-|--------|--------|------------|
-| First Contentful Paint (FCP) | < 1.0s | < 1.5s |
-| Largest Contentful Paint (LCP) | < 1.5s | < 2.5s |
-| Cumulative Layout Shift (CLS) | < 0.05 | < 0.1 |
-| Total page weight (article page, all resources) | < 250KB | < 450KB |
-| HTML document size | < 80KB | < 120KB |
-| CSS bundle | < 15KB | < 25KB |
-| Total JavaScript (all scripts) | < 20KB | < 35KB |
-| Font files | < 80KB total | < 120KB |
-| Lighthouse Performance score | ≥ 95 | ≥ 90 |
-| Lighthouse Accessibility score | ≥ 95 | ≥ 90 |
+| Metric                                          | Target       | Hard Limit |
+| ----------------------------------------------- | ------------ | ---------- |
+| First Contentful Paint (FCP)                    | < 1.0s       | < 1.5s     |
+| Largest Contentful Paint (LCP)                  | < 1.5s       | < 2.5s     |
+| Cumulative Layout Shift (CLS)                   | < 0.05       | < 0.1      |
+| Total page weight (article page, all resources) | < 250KB      | < 450KB    |
+| HTML document size                              | < 80KB       | < 120KB    |
+| CSS bundle                                      | < 15KB       | < 25KB     |
+| Total JavaScript (all scripts)                  | < 20KB       | < 35KB     |
+| Font files                                      | < 80KB total | < 120KB    |
+| Lighthouse Performance score                    | ≥ 95         | ≥ 90       |
+| Lighthouse Accessibility score                  | ≥ 95         | ≥ 90       |
 
 **Performance Rules:**
 
@@ -351,15 +351,15 @@ npx lighthouse https://govcompass.co.za --throttling.cpuSlowdownMultiplier=4
 
 **Naming:**
 
-| Element | Convention | Example |
-|---------|------------|---------|
-| Files (components) | PascalCase.astro | `ReadingProgress.astro` |
-| Files (pages) | kebab-case.astro | `data-sources.astro` |
-| Files (content) | kebab-case.md (numbered prefix) | `1-1-architecture-of-the-state.md` |
-| CSS classes | Tailwind utilities (no custom CSS classes unless unavoidable) | `class="text-lg leading-relaxed"` |
-| TypeScript interfaces | PascalCase | `ArticleSchema` |
-| Functions | camelCase | `getReadingTime()` |
-| Constants | UPPER_SNAKE_CASE | `MAX_PAGE_WEIGHT_KB` |
+| Element               | Convention                                                    | Example                            |
+| --------------------- | ------------------------------------------------------------- | ---------------------------------- |
+| Files (components)    | PascalCase.astro                                              | `ReadingProgress.astro`            |
+| Files (pages)         | kebab-case.astro                                              | `data-sources.astro`               |
+| Files (content)       | kebab-case.md (numbered prefix)                               | `1-1-architecture-of-the-state.md` |
+| CSS classes           | Tailwind utilities (no custom CSS classes unless unavoidable) | `class="text-lg leading-relaxed"`  |
+| TypeScript interfaces | PascalCase                                                    | `ArticleSchema`                    |
+| Functions             | camelCase                                                     | `getReadingTime()`                 |
+| Constants             | UPPER_SNAKE_CASE                                              | `MAX_PAGE_WEIGHT_KB`               |
 
 **Commit Messages (Conventional Commits):**
 
@@ -380,11 +380,11 @@ docs(claude): update testing reminders with new coverage targets
 
 ## Compliance & Security
 
-| Requirement | Specification |
-|-------------|---------------|
+| Requirement                                        | Specification                                                                                                                                                                                                 |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **POPIA** (Protection of Personal Information Act) | Email addresses are personal information; legitimate interest basis; clear privacy policy at /privacy; easy unsubscribe; cookie consent banner for GA4; no data sharing with third parties beyond ESP and GA4 |
-| **WCAG 2.1 Level AA** | Colour contrast ≥ 4.5:1; keyboard navigation; screen reader compatibility; responsive text ≥ 16px; `lang="en-ZA"` attribute; descriptive link text; minimum 48px tap targets |
-| **GDPR** (if EU subscribers) | GA4 consent mode v2; `analytics_storage` defaults to "denied"; IP anonymisation enabled; 2-month data retention |
+| **WCAG 2.1 Level AA**                              | Colour contrast ≥ 4.5:1; keyboard navigation; screen reader compatibility; responsive text ≥ 16px; `lang="en-ZA"` attribute; descriptive link text; minimum 48px tap targets                                  |
+| **GDPR** (if EU subscribers)                       | GA4 consent mode v2; `analytics_storage` defaults to "denied"; IP anonymisation enabled; 2-month data retention                                                                                               |
 
 **Security Headers (netlify.toml):**
 
@@ -436,11 +436,11 @@ python scripts/generate-og-images.py
 
 **Environment Files:**
 
-| File | Purpose | Committed? |
-|------|---------|------------|
-| `.env.example` | Template with required vars (GA4 measurement ID, ESP webhook URL) | Yes |
-| `.env` | Local development values | No |
-| `netlify.toml` | Netlify build config, redirects, security headers | Yes |
+| File           | Purpose                                                           | Committed? |
+| -------------- | ----------------------------------------------------------------- | ---------- |
+| `.env.example` | Template with required vars (GA4 measurement ID, ESP webhook URL) | Yes        |
+| `.env`         | Local development values                                          | No         |
+| `netlify.toml` | Netlify build config, redirects, security headers                 | Yes        |
 
 ---
 
@@ -448,10 +448,10 @@ python scripts/generate-og-images.py
 
 **Environments:**
 
-| Environment | Branch | URL | Deploy Method |
-|-------------|--------|-----|---------------|
-| Production | `main` | govcompass.co.za | Auto on push to main (Netlify) |
-| Preview | Any branch | `[branch]--govcompass.netlify.app` | Auto on push (Netlify branch deploys) |
+| Environment | Branch     | URL                                | Deploy Method                         |
+| ----------- | ---------- | ---------------------------------- | ------------------------------------- |
+| Production  | `main`     | govcompass.co.za                   | Auto on push to main (Netlify)        |
+| Preview     | Any branch | `[branch]--govcompass.netlify.app` | Auto on push (Netlify branch deploys) |
 
 **Deploy Flow:**
 
@@ -513,24 +513,24 @@ git push origin main
 
 **North Star:** Monthly readers who read at least 2 articles and spend 8+ minutes total on site.
 
-| Stage | Timeline | Key Targets |
-|-------|----------|-------------|
-| Discovery | Months 1–2 | Platform live; 4 Part 1 articles pass expert review |
-| Validation | Months 3–6 | 1,000 unique monthly readers; 8-min avg time-on-page; 30%+ WhatsApp referral share; 500 email subscribers |
-| Growth | Months 7–12 | 10,000 unique monthly readers; 40% return visit rate; 2,000 email subscribers |
+| Stage      | Timeline    | Key Targets                                                                                               |
+| ---------- | ----------- | --------------------------------------------------------------------------------------------------------- |
+| Discovery  | Months 1–2  | Platform live; 4 Part 1 articles pass expert review                                                       |
+| Validation | Months 3–6  | 1,000 unique monthly readers; 8-min avg time-on-page; 30%+ WhatsApp referral share; 500 email subscribers |
+| Growth     | Months 7–12 | 10,000 unique monthly readers; 40% return visit rate; 2,000 email subscribers                             |
 
 ---
 
 ## Implementation Roadmap
 
-| Phase | Weeks | Focus |
-|-------|-------|-------|
-| **Phase 0: Build** | 1–8 | Project scaffold, core components, design polish, integrations, QA |
-| **Phase 1: MVP Launch (Part 1)** | 9–16 | Articles 1.1–1.4 published at ~2-week cadence; WhatsApp distribution |
-| **Phase 2: National (Part 2)** | 17–24 | Articles 2.1–2.3 published |
-| **Phase 3: Provincial + Municipal (Parts 3–4)** | 25–40 | 7 articles; municipal articles prioritised for 2026 local elections |
-| **Phase 4: Toolkit (Part 5)** | 41–44 | Capstone article 5.1; series complete |
-| **Phase 5: PMF Assessment** | 48+ | Formal assessment against MRD §9 metrics; go/no-go on v2 |
+| Phase                                           | Weeks | Focus                                                                |
+| ----------------------------------------------- | ----- | -------------------------------------------------------------------- |
+| **Phase 0: Build**                              | 1–8   | Project scaffold, core components, design polish, integrations, QA   |
+| **Phase 1: MVP Launch (Part 1)**                | 9–16  | Articles 1.1–1.4 published at ~2-week cadence; WhatsApp distribution |
+| **Phase 2: National (Part 2)**                  | 17–24 | Articles 2.1–2.3 published                                           |
+| **Phase 3: Provincial + Municipal (Parts 3–4)** | 25–40 | 7 articles; municipal articles prioritised for 2026 local elections  |
+| **Phase 4: Toolkit (Part 5)**                   | 41–44 | Capstone article 5.1; series complete                                |
+| **Phase 5: PMF Assessment**                     | 48+   | Formal assessment against MRD §9 metrics; go/no-go on v2             |
 
 ---
 
@@ -550,10 +550,10 @@ git push origin main
 
 ## Contacts & Ownership
 
-| Area | Owner | Notes |
-|------|-------|-------|
+| Area      | Owner          | Notes                                                       |
+| --------- | -------------- | ----------------------------------------------------------- |
 | All areas | Tshepo Machele | Sole developer — Product, Engineering, Design, Business/GTM |
 
 ---
 
-*Last updated: 2026-02-16*
+_Last updated: 2026-02-16_

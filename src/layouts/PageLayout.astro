@@ -9,7 +9,13 @@ interface Props {
   width?: "content" | "wide";
 }
 
-const { title, description, canonicalUrl, ogImage, width = "content" } = Astro.props;
+const {
+  title,
+  description,
+  canonicalUrl,
+  ogImage,
+  width = "content",
+} = Astro.props;
 
 const containerClass =
   width === "wide"

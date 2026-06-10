@@ -10,23 +10,23 @@
 
 ## Pass/Fail Matrix
 
-| # | Slug | Words | Verdict | Blockers | Should-fix | Nits |
-|---|---|---:|:-:|:-:|:-:|:-:|
-| 1 | hd-1-1-beyond-gdp | 7,563 | **Fix** | 1 | 2 | 2 |
-| 2 | hd-1-2-south-africas-report-card | 7,240 | **Fix** | 2 | 1 | 2 |
-| 3 | hd-1-3-the-reinforcing-cycle | 8,086 | **Fix** | 1 | 1 | 2 |
-| 4 | hd-1-4-the-problem-that-has-no-name | 7,731 | **Fix** | 2 | 3 | 2 |
-| 5 | hd-2-1-the-life-expectancy-deficit | 8,703 | **Pass** | 0 | 2 | 2 |
-| 6 | hd-2-2-violence-as-public-health-crisis | 7,729 | **Pass** | 0 | 1 | 2 |
-| 7 | hd-2-3-the-fiscal-arithmetic-of-health | 11,522 | **Pass** | 0 | 1 | 2 |
-| 8 | hd-3-1-the-schooling-paradox | 7,203 | **Pass** | 0 | 1 | 2 |
-| 9 | hd-3-2-learning-in-a-war-zone | 6,609 | **Pass** | 0 | 1 | 2 |
-| 10 | hd-3-3-from-classroom-to-paycheck | 7,481 | **Pass** | 0 | 1 | 2 |
-| 11 | hd-4-1-when-the-cycle-works | 8,309 | **Pass** | 0 | 2 | 2 |
-| 12 | hd-4-2-south-africas-broken-cycle | 7,189 | **Fix** | 1 | 1 | 2 |
-| 13 | hd-4-3-development-within-limits | 7,625 | **Pass** | 0 | 1 | 2 |
-| 14 | hd-5-1-your-development-rights | 10,091 | **Pass** | 0 | 1 | 2 |
-| 15 | hd-5-2-building-the-cycle | 8,608 | **Fix** | 1 | 1 | 2 |
+| #   | Slug                                    |  Words | Verdict  | Blockers | Should-fix | Nits |
+| --- | --------------------------------------- | -----: | :------: | :------: | :--------: | :--: |
+| 1   | hd-1-1-beyond-gdp                       |  7,563 | **Fix**  |    1     |     2      |  2   |
+| 2   | hd-1-2-south-africas-report-card        |  7,240 | **Fix**  |    2     |     1      |  2   |
+| 3   | hd-1-3-the-reinforcing-cycle            |  8,086 | **Fix**  |    1     |     1      |  2   |
+| 4   | hd-1-4-the-problem-that-has-no-name     |  7,731 | **Fix**  |    2     |     3      |  2   |
+| 5   | hd-2-1-the-life-expectancy-deficit      |  8,703 | **Pass** |    0     |     2      |  2   |
+| 6   | hd-2-2-violence-as-public-health-crisis |  7,729 | **Pass** |    0     |     1      |  2   |
+| 7   | hd-2-3-the-fiscal-arithmetic-of-health  | 11,522 | **Pass** |    0     |     1      |  2   |
+| 8   | hd-3-1-the-schooling-paradox            |  7,203 | **Pass** |    0     |     1      |  2   |
+| 9   | hd-3-2-learning-in-a-war-zone           |  6,609 | **Pass** |    0     |     1      |  2   |
+| 10  | hd-3-3-from-classroom-to-paycheck       |  7,481 | **Pass** |    0     |     1      |  2   |
+| 11  | hd-4-1-when-the-cycle-works             |  8,309 | **Pass** |    0     |     2      |  2   |
+| 12  | hd-4-2-south-africas-broken-cycle       |  7,189 | **Fix**  |    1     |     1      |  2   |
+| 13  | hd-4-3-development-within-limits        |  7,625 | **Pass** |    0     |     1      |  2   |
+| 14  | hd-5-1-your-development-rights          | 10,091 | **Pass** |    0     |     1      |  2   |
+| 15  | hd-5-2-building-the-cycle               |  8,608 | **Fix**  |    1     |     1      |  2   |
 
 **Summary: 9 Pass, 6 Fix, 0 Rewrite. 2 distinct blockers affecting 7 articles total.**
 
@@ -50,19 +50,20 @@ The four opening articles of the HD series use `:::expert-perspective` as their 
 
 Two different headline HDI/IHDI values are in circulation across the HD series:
 
-| Article | HDI | IHDI |
-|---|---|---|
+| Article        | HDI       | IHDI      |
+| -------------- | --------- | --------- |
 | hd-1-1 line 38 | **0.741** | **0.462** |
 | hd-1-2 line 42 | **0.741** | **0.462** |
-| hd-1-4 line 56 | **0.713** | — |
+| hd-1-4 line 56 | **0.713** | —         |
 | hd-4-2 line 42 | **0.713** | **0.468** |
-| hd-5-2 line 49 | **0.713** | — |
+| hd-5-2 line 49 | **0.713** | —         |
 
 The hd-1-1 and hd-1-2 BLUFs are built around 0.741 → 0.462 (a 37.6% penalty). The later articles reference 0.713 → 0.468. A reader working through the series from hd-1-1 through hd-5-2 will encounter contradictory headline numbers for South Africa's flagship HDI and IHDI scores — the exact figures the entire series is built around.
 
 The discrepancy tracks different UNDP Human Development Report editions. 0.713 / 0.468 appears in the UNDP HDR 2023/24 report (based on 2022 data); 0.741 / 0.462 appears in the UNDP HDR 2021/22 report (based on 2019 data, with 2020 COVID adjustments).
 
 **Fix options:**
+
 1. **Unify on 0.713 / 0.468** (the more recent UNDP HDR 2023/24 figures). Update hd-1-1 and hd-1-2 to match. This is the more current and verifiable figure.
 2. Unify on 0.741 / 0.462 (older but internally more consistent with the BLUFs already written). Update hd-1-4, hd-4-2, hd-5-2 to match. This preserves the existing hero number in the series-opening articles.
 
@@ -121,6 +122,7 @@ Both patterns deliver a practical tool to the reader, so this is not a complianc
 ## Nits (optional polish)
 
 Approximately 30 nits across the 15 articles, mostly:
+
 - Comparator-country life-expectancy figures in hd-2-1 undated
 - HDI rankings relative positions ("around 50th–60th") vague in places
 - Occasional "this is not just a health problem — it is a public health crisis" phrasing that lands twice

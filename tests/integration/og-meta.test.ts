@@ -22,10 +22,7 @@ describe("OG meta tags", () => {
 
   it("should have article-specific OG tags", () => {
     const html = readFileSync(
-      resolve(
-        distDir,
-        "articles/1-1-architecture-of-the-state/index.html",
-      ),
+      resolve(distDir, "articles/1-1-architecture-of-the-state/index.html"),
       "utf-8",
     );
     expect(html).toContain('property="og:type" content="article"');
@@ -34,10 +31,7 @@ describe("OG meta tags", () => {
 
   it("should have JSON-LD on article page", () => {
     const html = readFileSync(
-      resolve(
-        distDir,
-        "articles/1-1-architecture-of-the-state/index.html",
-      ),
+      resolve(distDir, "articles/1-1-architecture-of-the-state/index.html"),
       "utf-8",
     );
     expect(html).toContain("application/ld+json");

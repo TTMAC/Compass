@@ -46,7 +46,6 @@ This article gives you the complete methodology. By the end, you will understand
 
 **Economic growth does not happen at national level. It happens in specific places.** A factory opens in a specific municipality. A small business registers in a specific town. A young person finds or fails to find a job in a specific local economy. The national GDP growth rate is an average that conceals enormous variation between places. In any given year, some South African municipalities are growing employment, attracting investment, and delivering services effectively, while others are losing businesses, shedding jobs, and allowing infrastructure to collapse. The national statistics tell you about the average. The MPI tells you about the distribution.
 
-
 ![A single comparable score lets residents see how their municipality performs against peers | Photo by Jason Richard on Unsplash](/images/articles/eg-4-1-the-municipal-performance-index/img-1.webp)
 
 This matters for several reasons. The first is accountability. South Africa holds local government elections every five years. Voters are asked to choose between parties and candidates who promise to improve their municipality. But on what basis do you evaluate whether the previous administration succeeded or failed? Anecdotes and lived experience are valuable but incomplete. A pothole on your street tells you something about road maintenance, but it tells you nothing about the municipality's debt collection rate, its capital expenditure execution, or its performance on water quality standards. The MPI gives you a structured basis for evaluation — not a substitute for your own experience, but a complement to it.
@@ -95,7 +94,6 @@ These weights are not arbitrary. They reflect the structural differences between
 
 Each pillar contains a set of indicators drawn from publicly available data sources. This section explains every indicator, what it measures, why it was chosen, and where the data comes from.
 
-
 ![Indicators draw from financial, service-delivery, governance and economic data already in the public record | Photo by Jolame Chirwa on Unsplash](/images/articles/eg-4-1-the-municipal-performance-index/img-2.webp)
 
 ### Economic Development Indicators
@@ -138,7 +136,7 @@ The sixth indicator is the percentage of senior management posts that are filled
 
 The Infrastructure and Sustainability pillar contains three indicators. The first is capital expenditure execution, measuring the percentage of the municipality's approved capital budget that was actually spent, drawn from Treasury Section 71 reports. Capital expenditure is the spending that builds and maintains infrastructure — roads, water pipes, electrical substations, community facilities. A municipality that budgets R200 million for capital projects but spends only R80 million is failing to maintain and expand its infrastructure, which means the current service delivery levels are being sustained on ageing and deteriorating assets. Capital underspending is one of the most persistent problems in South African local government, driven by procurement bottlenecks, project management capacity constraints, land acquisition delays, and politically motivated project changes.
 
-The second indicator is non-revenue water, published by the Department of Water and Sanitation. This measures the percentage of water entering the municipality's distribution system that is not billed to consumers — lost to physical leaks, commercial losses (meter inaccuracies, theft, unbilled consumption), or administrative errors. Non-revenue water is one of the most telling indicators of infrastructure condition available. Well-managed water utilities globally target *non-revenue water* below fifteen per cent. **Many South African municipalities have non-revenue water rates above forty per cent, meaning nearly half of the treated water they pump into the system disappears before it reaches a paying customer.** This is simultaneously an infrastructure crisis (the pipes are literally falling apart), a financial crisis (the municipality is paying to treat water it cannot sell), and a sustainability crisis (the water resource is being wasted in a water-scarce country).
+The second indicator is non-revenue water, published by the Department of Water and Sanitation. This measures the percentage of water entering the municipality's distribution system that is not billed to consumers — lost to physical leaks, commercial losses (meter inaccuracies, theft, unbilled consumption), or administrative errors. Non-revenue water is one of the most telling indicators of infrastructure condition available. Well-managed water utilities globally target _non-revenue water_ below fifteen per cent. **Many South African municipalities have non-revenue water rates above forty per cent, meaning nearly half of the treated water they pump into the system disappears before it reaches a paying customer.** This is simultaneously an infrastructure crisis (the pipes are literally falling apart), a financial crisis (the municipality is paying to treat water it cannot sell), and a sustainability crisis (the water resource is being wasted in a water-scarce country).
 
 The third indicator is public transport coverage, measuring the percentage of the municipal population with access to formal public transport services. This indicator is most relevant for Category A and B1 municipalities, where public transport is a significant component of urban functionality. For smaller municipalities where formal public transport is largely absent, this indicator is less meaningful and may be replaced with alternative infrastructure measures as the MPI is refined over time.
 
@@ -195,7 +193,6 @@ A score below 40 places a municipality in the Critical tier. These municipalitie
 ## Data Sources and Where to Find Them
 
 The MPI draws on data from a defined set of public sources. Transparency about data origins is essential because it allows you to verify any score the MPI produces and to challenge any ranking you believe is inaccurate.
-
 
 ![Treasury, Stats SA and the Auditor-General publish the raw data the MPI assembles | Photo by 1981 Digital on Unsplash](/images/articles/eg-4-1-the-municipal-performance-index/img-3.webp)
 
@@ -335,7 +332,7 @@ The analysis in this article draws on the following institutional research and p
 
 - Companies and Intellectual Property Commission (CIPC) — company registration statistics that can be filtered by region — [cipc.co.za](https://cipc.co.za)
 
-- OECD-JRC, *Handbook on Constructing Composite Indicators* — rigorous treatment of normalisation methods, weighting schemes, and aggregation approaches, including a detailed discussion of geometric versus arithmetic means — [oecd.org](https://oecd.org)
+- OECD-JRC, _Handbook on Constructing Composite Indicators_ — rigorous treatment of normalisation methods, weighting schemes, and aggregation approaches, including a detailed discussion of geometric versus arithmetic means — [oecd.org](https://oecd.org)
 
 - Financial and Fiscal Commission — annual submissions to Parliament providing essential context on the intergovernmental fiscal framework within which municipalities operate — [ffc.co.za](https://ffc.co.za)
 

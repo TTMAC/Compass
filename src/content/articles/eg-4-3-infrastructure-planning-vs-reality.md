@@ -47,7 +47,6 @@ The measurement dimension matters because it connects infrastructure delivery to
 
 To understand why South Africa plans so well and delivers so poorly, you need a diagnostic framework that separates the different stages of infrastructure delivery and identifies where the system breaks down at each stage. McKinsey Global Institute's research on infrastructure productivity, drawn from analysis of dozens of countries, provides precisely this. The framework identifies five dimensions that distinguish countries that deliver infrastructure effectively from those that do not. What makes it useful is not its complexity but its specificity — it tells you where to look.
 
-
 ![Five dimensions — selection, finance, delivery, regulation, capability — determine whether plans become projects | Photo by Fons Heijnsbroek on Unsplash](/images/articles/eg-4-3-infrastructure-planning-vs-reality/img-1.webp)
 
 ### Dimension 1: Strategic Prioritisation
@@ -62,7 +61,7 @@ If you were scoring this dimension on a scale from one to ten, South Africa woul
 
 This is where the South African infrastructure pipeline begins to fail, and it is worth understanding exactly why because it explains the vast majority of the planning-execution gap.
 
-*Project preparation* is the detailed engineering, environmental, financial, and legal work required to take an infrastructure concept from idea to investment-ready project. **It typically costs between five and ten per cent of total project value and takes two to five years for complex projects.** It requires specialised skills in transaction advisory, environmental impact assessment, engineering design, and financial structuring. It is expensive, time-consuming, and unglamorous — which is precisely why governments underinvest in it.
+_Project preparation_ is the detailed engineering, environmental, financial, and legal work required to take an infrastructure concept from idea to investment-ready project. **It typically costs between five and ten per cent of total project value and takes two to five years for complex projects.** It requires specialised skills in transaction advisory, environmental impact assessment, engineering design, and financial structuring. It is expensive, time-consuming, and unglamorous — which is precisely why governments underinvest in it.
 
 South Africa has a chronic shortage of project preparation capacity in the public sector. National Treasury's Government Technical Advisory Centre and the Development Bank of Southern Africa provide project preparation support, but their combined capacity is limited relative to the pipeline of projects that need to be prepared. The consequence is a phenomenon that development economists call the "missing middle" of infrastructure finance: a large pipeline of planned projects at one end, available capital looking for investment opportunities at the other end, and a thin pipeline of bankable projects in between. Announcements of R827 billion in planned infrastructure investment mean very little if only a fraction of that pipeline has completed the preparation work necessary for construction to begin.
 
@@ -128,7 +127,6 @@ The planning-execution gap is not a story about one or two troubled projects. It
 
 The following scorecard assesses infrastructure delivery across four critical sectors. For each sector, five dimensions are scored: the original NIP/SIP commitment, the current delivery status, the timeline variance (how far behind schedule delivery has fallen), the cost variance (how much costs have exceeded estimates), and the binding constraint that explains the gap. This structure is designed to be updated as new data becomes available, making it a living measurement tool rather than a static assessment.
 
-
 ![Energy, transport, water and digital infrastructure each show different patterns of planning-to-delivery failure | Photo by Adrian Sulyok on Unsplash](/images/articles/eg-4-3-infrastructure-planning-vs-reality/img-2.webp)
 
 ### Energy: The Partial Turnaround
@@ -159,7 +157,7 @@ The following scorecard assesses infrastructure delivery across four critical se
 
 **NIP/SIP commitment:** SIP 18 (Water and Sanitation Infrastructure) and multiple components of other SIPs committed to addressing South Africa's growing water supply-demand gap. The National Water and Sanitation Master Plan projected a 17% gap between supply and demand by 2030 under business-as-usual conditions and identified the investments needed to close it.
 
-**Current delivery status:** The water sector is arguably South Africa's most underperforming infrastructure domain relative to need. *Non-revenue water* — the difference between water produced at treatment works and water billed to consumers — **averages approximately 41% nationally, with some municipalities recording losses above 60%.** This means that for every 100 litres of treated water entering the distribution system, 41 litres are lost through leaks, illegal connections, meter failures, and billing system breakdowns. The Water Research Commission estimates the cost of physical water losses alone at over R9 billion annually.
+**Current delivery status:** The water sector is arguably South Africa's most underperforming infrastructure domain relative to need. _Non-revenue water_ — the difference between water produced at treatment works and water billed to consumers — **averages approximately 41% nationally, with some municipalities recording losses above 60%.** This means that for every 100 litres of treated water entering the distribution system, 41 litres are lost through leaks, illegal connections, meter failures, and billing system breakdowns. The Water Research Commission estimates the cost of physical water losses alone at over R9 billion annually.
 
 The Blue Drop and Green Drop assessment systems, administered by the Department of Water and Sanitation, provide the most direct measurement of water and wastewater treatment quality. The Blue Drop programme assesses drinking water quality management at treatment works, while the Green Drop programme assesses wastewater treatment compliance. After a hiatus in publication, the most recent assessments showed a concerning deterioration. **The national Blue Drop score declined from approximately 87% in 2014 to around 47% in the 2023 assessment**, indicating a significant decline in the quality management systems at drinking water treatment works. **The Green Drop results were even more alarming, with the majority of wastewater treatment works scoring in the "critical" risk category**, meaning they were not treating wastewater to the standards required before discharge into rivers and other water bodies.
 
@@ -222,7 +220,6 @@ National Treasury's annual Budget Review and the Estimates of National Expenditu
 ## Why the Gap Persists
 
 If the diagnosis is clear and the solutions are known, why does the planning-execution gap persist? The answer lies in a set of reinforcing institutional weaknesses that are individually understood but collectively resistant to quick fixes.
-
 
 ![The planning-execution gap is institutional, not technical — capacity sits in plans, not delivery teams | Photo by Wesley Pacífico on Unsplash](/images/articles/eg-4-3-infrastructure-planning-vs-reality/img-3.webp)
 
@@ -322,11 +319,11 @@ By identifying the specific stage at which delivery breaks down, you move from a
 
 The analysis in this article draws on the following institutional research and publications:
 
-- National Treasury, *Budget Review* — the most authoritative data on public infrastructure spending by department and state-owned entity; the Estimates of National Expenditure provide programme-level detail on capital budgets, actual expenditure, and forward projections; the Appropriation Bills track how infrastructure allocations flow through the intergovernmental fiscal system, a process that [Following the Money](/articles/2-1-following-the-money) examines in detail — [www.treasury.gov.za](https://www.treasury.gov.za)
+- National Treasury, _Budget Review_ — the most authoritative data on public infrastructure spending by department and state-owned entity; the Estimates of National Expenditure provide programme-level detail on capital budgets, actual expenditure, and forward projections; the Appropriation Bills track how infrastructure allocations flow through the intergovernmental fiscal system, a process that [Following the Money](/articles/2-1-following-the-money) examines in detail — [www.treasury.gov.za](https://www.treasury.gov.za)
 
 - Infrastructure South Africa — pipeline reports published through the Presidency and tabled in Parliament providing project-level data on the status, timelines, and identified constraints for catalytic infrastructure projects; the closest thing to a comprehensive government-produced assessment of SIP delivery — [www.pmg.org.za](https://www.pmg.org.za)
 
-- Development Bank of Southern Africa, *Infrastructure Barometer* — infrastructure investment trends, delivery performance, and financing patterns across all three spheres of government and SOEs; methodology for comparing budgeted and actual infrastructure expenditure provides the foundation for the cost variance dimension of the tracker; annual report also contains performance data on the Infrastructure Fund — [www.dbsa.org](https://www.dbsa.org)
+- Development Bank of Southern Africa, _Infrastructure Barometer_ — infrastructure investment trends, delivery performance, and financing patterns across all three spheres of government and SOEs; methodology for comparing budgeted and actual infrastructure expenditure provides the foundation for the cost variance dimension of the tracker; annual report also contains performance data on the Infrastructure Fund — [www.dbsa.org](https://www.dbsa.org)
 
 - State-owned enterprise integrated reports — Eskom, Transnet, PRASA, Rand Water, and others provide operational and financial data mapping to the delivery status and cost variance dimensions of the tracker; Eskom's integrated report contains the EAF, generation capacity data, and capital expenditure figures; Transnet's contains freight volumes, port throughput, and capital programme performance; typically published between June and September each year on the respective entities' websites
 

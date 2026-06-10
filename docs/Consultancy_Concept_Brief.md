@@ -2,7 +2,7 @@
 
 A global advisory firm operating across four interlocking practice areas: **Grand Strategy**, **Safety & Security**, **Economic Growth & Development**, and **Human Development**.
 
-The name binds the firm's posture (*Sentinel* — vigilance, early warning, watchfulness) to its analytical frame (*Quadrant* — the four practice pillars treated as one integrated system).
+The name binds the firm's posture (_Sentinel_ — vigilance, early warning, watchfulness) to its analytical frame (_Quadrant_ — the four practice pillars treated as one integrated system).
 
 ---
 
@@ -24,12 +24,12 @@ We produce integrated diagnoses and deliver the strategy, programme design, and 
 
 The category we own: **integrated statecraft advisory** — a firm for clients whose problems are simultaneously strategic, security-adjacent, economic, and human.
 
-| Against | Our differentiator |
-|---|---|
-| Commercial strategy houses (McKinsey, BCG, Bain) | Statecraft literacy and public-interest framing that commercial firms lack. |
-| Think tanks (Brookings, Chatham House, RAND) | We deliver implementation, not only analysis. |
-| Boutique specialists (Control Risks, Dalberg) | We work across all four domains as one integrated practice, not one vertical. |
-| Big four (Deloitte, PwC, EY, KPMG) | We are an integrated advisory firm, not a diversified services conglomerate — partners own the work end-to-end. |
+| Against                                          | Our differentiator                                                                                              |
+| ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| Commercial strategy houses (McKinsey, BCG, Bain) | Statecraft literacy and public-interest framing that commercial firms lack.                                     |
+| Think tanks (Brookings, Chatham House, RAND)     | We deliver implementation, not only analysis.                                                                   |
+| Boutique specialists (Control Risks, Dalberg)    | We work across all four domains as one integrated practice, not one vertical.                                   |
+| Big four (Deloitte, PwC, EY, KPMG)               | We are an integrated advisory firm, not a diversified services conglomerate — partners own the work end-to-end. |
 
 ## Messaging
 
@@ -39,14 +39,14 @@ The category we own: **integrated statecraft advisory** — a firm for clients w
 
 ### Thirty-second pitch
 
-The most consequential problems governments face today are not strategy problems *or* security problems *or* economic problems *or* human development problems — they are all of those at once. A fiscal crisis is also a security crisis. A security crisis is also a development crisis. A development failure is also a political strategy failure. We are the firm built to diagnose and solve those composite problems as one integrated problem, not four siloed ones.
+The most consequential problems governments face today are not strategy problems _or_ security problems _or_ economic problems _or_ human development problems — they are all of those at once. A fiscal crisis is also a security crisis. A security crisis is also a development crisis. A development failure is also a political strategy failure. We are the firm built to diagnose and solve those composite problems as one integrated problem, not four siloed ones.
 
 ### Tagline candidates
 
-- *Integrated advisory for composite problems.*
-- *Where strategy, security, economy, and human development meet.*
-- *Problems that cross domains. Advisors who can.*
-- *The firm for problems that cross the seams.*
+- _Integrated advisory for composite problems._
+- _Where strategy, security, economy, and human development meet._
+- _Problems that cross domains. Advisors who can._
+- _The firm for problems that cross the seams._
 
 ## Value Proposition
 
@@ -65,12 +65,12 @@ What clients get:
 
 ## Practice Areas
 
-| # | Practice | Core offerings |
-|---|---|---|
-| 1 | **Grand Strategy** | National strategy, foreign policy, strategic planning, state capacity reform. |
-| 2 | **Safety & Security** | Public safety, criminal justice reform, counter-violence, stabilisation. |
-| 3 | **Economic Growth & Development** | Industrial policy, fiscal policy, private-sector development, trade. |
-| 4 | **Human Development** | Health, education, social protection, labour markets, poverty reduction. |
+| #   | Practice                          | Core offerings                                                                |
+| --- | --------------------------------- | ----------------------------------------------------------------------------- |
+| 1   | **Grand Strategy**                | National strategy, foreign policy, strategic planning, state capacity reform. |
+| 2   | **Safety & Security**             | Public safety, criminal justice reform, counter-violence, stabilisation.      |
+| 3   | **Economic Growth & Development** | Industrial policy, fiscal policy, private-sector development, trade.          |
+| 4   | **Human Development**             | Health, education, social protection, labour markets, poverty reduction.      |
 
 Each practice has depth on its own. The differentiator is what happens when two or more are engaged together on the same problem.
 
@@ -81,12 +81,14 @@ Each practice has depth on its own. The differentiator is what happens when two 
 **Sentinel Quadrant** (locked 2026-04-24).
 
 Rationale:
-- *Sentinel* signals vigilance, early warning, and watchfulness — domains that span strategy and security and extend naturally to monitoring economic and human development indicators.
-- *Quadrant* makes the four practice areas explicit and binds them as one analytical frame.
+
+- _Sentinel_ signals vigilance, early warning, and watchfulness — domains that span strategy and security and extend naturally to monitoring economic and human development indicators.
+- _Quadrant_ makes the four practice areas explicit and binds them as one analytical frame.
 - Distinctive: the two-word compound is not in wide use in the advisory category.
 - Global-ready: pronounceable in English and most target-market languages without explanation.
 
 **Priority clearance actions:**
+
 - Register `sentinelquadrant.com` and `sentinelquadrant.io` (plus defensive `.co`, `.co.za`, `.co.uk`).
 - Trademark searches — USPTO, EUIPO, UKIPO — in class 35 (business / management consulting) and class 45 (advisory). "Sentinel" has many hits in cybersecurity and finance; the question is whether any are in consulting classes or on the two-word mark "Sentinel Quadrant."
 - Secure social handles: `@sentinelquadrant` on LinkedIn (company page), X, Substack.
@@ -131,7 +133,7 @@ Decide early whether the consultancy relates to GovCompass or is walled off:
 Advisory firms in this category win work on reputation, not RFPs. The firm will need, within the first 12 months:
 
 - A signature white paper demonstrating the integrated-diagnosis method on a public case.
-- Founder bylines in at least two recognised outlets (*Foreign Affairs*, *Project Syndicate*, *The Economist*, regional equivalents).
+- Founder bylines in at least two recognised outlets (_Foreign Affairs_, _Project Syndicate_, _The Economist_, regional equivalents).
 - A short book or long-form report that becomes the reference text in its niche.
 
 ---

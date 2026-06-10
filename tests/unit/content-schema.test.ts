@@ -5,37 +5,43 @@ import { ArticleBuilder } from "../fixtures/test-helpers";
 // Mirror the schema from src/content/config.ts for unit testing
 const sphereEnum = z.enum(["national", "provincial", "municipal", "all"]);
 
-const articleSchema = z.object({
-  title: z.string().min(1),
-  subtitle: z.string().min(1),
-  part: z.number().int().min(1).max(5),
-  articleNumber: z
-    .string()
-    .regex(/^\d+\.\d+$/, "Must be in X.Y format (e.g. 1.1)"),
-  sphere: z
-    .union([sphereEnum, z.array(sphereEnum)])
-    .transform((v) => (Array.isArray(v) ? v : [v])),
-  description: z
-    .string()
-    .min(150, "Description must be at least 150 characters for SEO")
-    .max(160, "Description must be at most 160 characters for SEO"),
-  publishDate: z.coerce.date(),
-  scheduledPublishDate: z.coerce.date().optional(),
-  readingTime: z.number().int().positive(),
-  status: z.enum(["published", "draft", "coming-soon", "scheduled"]),
-  series: z.object({
-    prev: z.string().nullable().default(null),
-    next: z.string().nullable().default(null),
-  }),
-  seo: z.object({
-    ogImage: z.string().optional(),
-    canonicalUrl: z.string().url().optional(),
-    keywords: z.array(z.string()).default([]),
-  }),
-}).refine(
-  (data) => data.status !== "scheduled" || data.scheduledPublishDate !== undefined,
-  { message: "scheduledPublishDate is required when status is 'scheduled'", path: ["scheduledPublishDate"] },
-);
+const articleSchema = z
+  .object({
+    title: z.string().min(1),
+    subtitle: z.string().min(1),
+    part: z.number().int().min(1).max(5),
+    articleNumber: z
+      .string()
+      .regex(/^\d+\.\d+$/, "Must be in X.Y format (e.g. 1.1)"),
+    sphere: z
+      .union([sphereEnum, z.array(sphereEnum)])
+      .transform((v) => (Array.isArray(v) ? v : [v])),
+    description: z
+      .string()
+      .min(150, "Description must be at least 150 characters for SEO")
+      .max(160, "Description must be at most 160 characters for SEO"),
+    publishDate: z.coerce.date(),
+    scheduledPublishDate: z.coerce.date().optional(),
+    readingTime: z.number().int().positive(),
+    status: z.enum(["published", "draft", "coming-soon", "scheduled"]),
+    series: z.object({
+      prev: z.string().nullable().default(null),
+      next: z.string().nullable().default(null),
+    }),
+    seo: z.object({
+      ogImage: z.string().optional(),
+      canonicalUrl: z.string().url().optional(),
+      keywords: z.array(z.string()).default([]),
+    }),
+  })
+  .refine(
+    (data) =>
+      data.status !== "scheduled" || data.scheduledPublishDate !== undefined,
+    {
+      message: "scheduledPublishDate is required when status is 'scheduled'",
+      path: ["scheduledPublishDate"],
+    },
+  );
 
 describe("Article Schema", () => {
   describe("valid articles", () => {
@@ -231,9 +237,7 @@ describe("Article Schema", () => {
     });
 
     it("should reject description shorter than 150 characters", () => {
-      const article = new ArticleBuilder()
-        .withDescription("Too short")
-        .build();
+      const article = new ArticleBuilder().withDescription("Too short").build();
       const result = articleSchema.safeParse(article);
       expect(result.success).toBe(false);
     });

@@ -101,9 +101,7 @@ async function main() {
   // Summary table
   console.log("\n  Page Weight Budget Report");
   console.log("  " + "=".repeat(60));
-  console.log(
-    `  ${"Route".padEnd(45)} ${"Gzip".padStart(8)}  Status`,
-  );
+  console.log(`  ${"Route".padEnd(45)} ${"Gzip".padStart(8)}  Status`);
   console.log("  " + "-".repeat(60));
 
   for (const p of pages) {
@@ -118,8 +116,12 @@ async function main() {
   }
 
   console.log("  " + "-".repeat(60));
-  console.log(`  Budget: target ${formatKB(BUDGET_TARGET)} / hard limit ${formatKB(BUDGET_HARD)} (gzipped)`);
-  console.log(`  Pages: ${pages.length} total, ${overBudget} over hard limit\n`);
+  console.log(
+    `  Budget: target ${formatKB(BUDGET_TARGET)} / hard limit ${formatKB(BUDGET_HARD)} (gzipped)`,
+  );
+  console.log(
+    `  Pages: ${pages.length} total, ${overBudget} over hard limit\n`,
+  );
 
   // Top 5 heaviest assets
   const allAssets = [...assetSizes.entries()].sort(
@@ -134,7 +136,9 @@ async function main() {
   }
 
   if (strict && overBudget > 0) {
-    console.error(`  ERROR: ${overBudget} page(s) exceed the ${formatKB(BUDGET_HARD)} hard limit.\n`);
+    console.error(
+      `  ERROR: ${overBudget} page(s) exceed the ${formatKB(BUDGET_HARD)} hard limit.\n`,
+    );
     process.exit(1);
   }
 }

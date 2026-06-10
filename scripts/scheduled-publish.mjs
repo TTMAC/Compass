@@ -5,7 +5,9 @@ const ARTICLES_DIR = join(process.cwd(), "src", "content", "articles");
 
 async function main() {
   const now = new Date();
-  console.log(`[scheduled-publish] Checking for scheduled articles at ${now.toISOString()}`);
+  console.log(
+    `[scheduled-publish] Checking for scheduled articles at ${now.toISOString()}`,
+  );
 
   let files;
   try {
@@ -28,21 +30,29 @@ async function main() {
     const frontmatter = match[1];
 
     // Check if status is scheduled
-    const statusMatch = frontmatter.match(/^status:\s*["']?scheduled["']?\s*$/m);
+    const statusMatch = frontmatter.match(
+      /^status:\s*["']?scheduled["']?\s*$/m,
+    );
     if (!statusMatch) continue;
 
     // Extract scheduledPublishDate
-    const dateMatch = frontmatter.match(/^scheduledPublishDate:\s*["']?(.+?)["']?\s*$/m);
+    const dateMatch = frontmatter.match(
+      /^scheduledPublishDate:\s*["']?(.+?)["']?\s*$/m,
+    );
     if (!dateMatch) continue;
 
     const scheduledDate = new Date(dateMatch[1]);
     if (isNaN(scheduledDate.getTime())) {
-      console.log(`[scheduled-publish] WARNING: Invalid date in ${file}: ${dateMatch[1]}`);
+      console.log(
+        `[scheduled-publish] WARNING: Invalid date in ${file}: ${dateMatch[1]}`,
+      );
       continue;
     }
 
     if (scheduledDate > now) {
-      console.log(`[scheduled-publish] ${file}: scheduled for ${scheduledDate.toISOString()}, not yet due.`);
+      console.log(
+        `[scheduled-publish] ${file}: scheduled for ${scheduledDate.toISOString()}, not yet due.`,
+      );
       continue;
     }
 
@@ -66,7 +76,9 @@ async function main() {
     await writeFile(filePath, newContent, "utf-8");
 
     promoted++;
-    console.log(`[scheduled-publish] PROMOTED: ${file} (scheduled for ${scheduledDate.toISOString()})`);
+    console.log(
+      `[scheduled-publish] PROMOTED: ${file} (scheduled for ${scheduledDate.toISOString()})`,
+    );
   }
 
   console.log(`[scheduled-publish] Done. ${promoted} article(s) promoted.`);

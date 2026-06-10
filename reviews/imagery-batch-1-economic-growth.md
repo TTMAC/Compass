@@ -12,25 +12,25 @@
 
 ## Image inventory
 
-| Article | img-1 | img-2 | img-3 | Dir total |
-|---|---|---|---|---|
-| eg-1-1-the-seven-thousand-rand-economy | 63.0 KB | 42.5 KB | 21.9 KB | 132 KB |
-| eg-1-2-how-we-got-here | 73.1 KB | 42.1 KB | 37.7 KB | 160 KB |
-| eg-1-3-the-comparator-countries | 21.4 KB | 51.2 KB | 30.8 KB | 108 KB |
-| eg-2-1-resource-optimisation | 30.8 KB | 46.7 KB | 85.3 KB | 168 KB |
-| eg-2-2-infrastructure-foundations | 30.4 KB | 25.8 KB | 34.3 KB | 96 KB |
-| eg-2-3-financing-the-build | 67.3 KB | 46.3 KB | 39.0 KB | 156 KB |
-| eg-2-4-the-efficiency-transition | 44.2 KB | 25.5 KB | 31.2 KB | 108 KB |
-| eg-2-5-innovation-driven-growth | 27.2 KB | 8.3 KB | 18.6 KB | 60 KB |
-| eg-3-1-three-engines-of-growth | 25.7 KB | 62.3 KB | 26.7 KB | 120 KB |
-| eg-3-2-the-execution-machine | 48.5 KB | 6.6 KB | 38.7 KB | 100 KB |
-| eg-3-3-watching-the-watchers | 28.8 KB | 22.8 KB | 28.0 KB | 88 KB |
-| eg-4-1-the-municipal-performance-index | 84.2 KB | 86.2 KB | 8.6 KB | 188 KB |
-| eg-4-2-the-metro-rankings | 57.1 KB | 20.5 KB | 35.7 KB | 120 KB |
-| eg-4-3-infrastructure-planning-vs-reality | 37.5 KB | 16.7 KB | 11.6 KB | 72 KB |
-| eg-5-1-the-political-economy-of-growth | 60.9 KB | 32.2 KB | 19.9 KB | 120 KB |
-| eg-5-2-from-strategy-to-reality | 15.4 KB | 27.6 KB | 43.1 KB | 88 KB |
-| eg-5-3-your-economic-citizenship | 17.3 KB | 12.5 KB | 72.8 KB | 112 KB |
+| Article                                   | img-1   | img-2   | img-3   | Dir total |
+| ----------------------------------------- | ------- | ------- | ------- | --------- |
+| eg-1-1-the-seven-thousand-rand-economy    | 63.0 KB | 42.5 KB | 21.9 KB | 132 KB    |
+| eg-1-2-how-we-got-here                    | 73.1 KB | 42.1 KB | 37.7 KB | 160 KB    |
+| eg-1-3-the-comparator-countries           | 21.4 KB | 51.2 KB | 30.8 KB | 108 KB    |
+| eg-2-1-resource-optimisation              | 30.8 KB | 46.7 KB | 85.3 KB | 168 KB    |
+| eg-2-2-infrastructure-foundations         | 30.4 KB | 25.8 KB | 34.3 KB | 96 KB     |
+| eg-2-3-financing-the-build                | 67.3 KB | 46.3 KB | 39.0 KB | 156 KB    |
+| eg-2-4-the-efficiency-transition          | 44.2 KB | 25.5 KB | 31.2 KB | 108 KB    |
+| eg-2-5-innovation-driven-growth           | 27.2 KB | 8.3 KB  | 18.6 KB | 60 KB     |
+| eg-3-1-three-engines-of-growth            | 25.7 KB | 62.3 KB | 26.7 KB | 120 KB    |
+| eg-3-2-the-execution-machine              | 48.5 KB | 6.6 KB  | 38.7 KB | 100 KB    |
+| eg-3-3-watching-the-watchers              | 28.8 KB | 22.8 KB | 28.0 KB | 88 KB     |
+| eg-4-1-the-municipal-performance-index    | 84.2 KB | 86.2 KB | 8.6 KB  | 188 KB    |
+| eg-4-2-the-metro-rankings                 | 57.1 KB | 20.5 KB | 35.7 KB | 120 KB    |
+| eg-4-3-infrastructure-planning-vs-reality | 37.5 KB | 16.7 KB | 11.6 KB | 72 KB     |
+| eg-5-1-the-political-economy-of-growth    | 60.9 KB | 32.2 KB | 19.9 KB | 120 KB    |
+| eg-5-2-from-strategy-to-reality           | 15.4 KB | 27.6 KB | 43.1 KB | 88 KB     |
+| eg-5-3-your-economic-citizenship          | 17.3 KB | 12.5 KB | 72.8 KB | 112 KB    |
 
 **Disk total:** ~2.0 MB (1996 KB) for 51 `.webp` files at 680×450, quality 78.
 **Heaviest article:** eg-4-1 at 188 KB total imagery (84 + 86 + 9 KB).
@@ -53,14 +53,14 @@ Build run: `npm run build && npm run budget:strict` on 2026-04-29.
 
 5 of the original 51 queries returned zero Unsplash results on first run and were swapped to generic photographable concepts. All were filled successfully on the retry pass.
 
-| Article / placement | Original query | Replacement |
-|---|---|---|
-| eg-2-3 / img-1 | `Johannesburg stock exchange trading floor` → `Sandton financial district skyline` | `skyscraper financial district city` |
-| eg-3-2 / img-3 | `Malaysia Putrajaya government complex` | `government complex modern architecture` |
-| eg-4-2 / img-2 | `Johannesburg metro rail station` | `urban metro train commuters` |
-| eg-4-2 / img-3 | `South African suburb residential street` | `residential houses aerial neighbourhood` |
-| eg-5-2 / img-1 | `Kigali Rwanda city skyline` | `African city skyline modern` |
-| eg-5-2 / img-2 | `project timeline gantt chart` | `strategic planning whiteboard team` |
+| Article / placement | Original query                                                                     | Replacement                               |
+| ------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------- |
+| eg-2-3 / img-1      | `Johannesburg stock exchange trading floor` → `Sandton financial district skyline` | `skyscraper financial district city`      |
+| eg-3-2 / img-3      | `Malaysia Putrajaya government complex`                                            | `government complex modern architecture`  |
+| eg-4-2 / img-2      | `Johannesburg metro rail station`                                                  | `urban metro train commuters`             |
+| eg-4-2 / img-3      | `South African suburb residential street`                                          | `residential houses aerial neighbourhood` |
+| eg-5-2 / img-1      | `Kigali Rwanda city skyline`                                                       | `African city skyline modern`             |
+| eg-5-2 / img-2      | `project timeline gantt chart`                                                     | `strategic planning whiteboard team`      |
 
 **Pattern:** Unsplash has thin coverage for queries combining named cities/institutions with industry terms ("Sandton", "Putrajaya", "Kigali", "Johannesburg + metro", "South African + suburb"). Generic photographable concepts succeeded uniformly. Carry this lesson forward to the hd-/ra-/ss- batches: prefer concrete subjects ("hospital ward", "court room") over named-place specificity.
 

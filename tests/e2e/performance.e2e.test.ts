@@ -47,10 +47,7 @@ test.describe("Performance basics", () => {
       const href = await link.getAttribute("href");
       if (href) {
         const response = await page.request.get(href);
-        expect(
-          response.status(),
-          `Broken link: ${href}`,
-        ).toBeLessThan(400);
+        expect(response.status(), `Broken link: ${href}`).toBeLessThan(400);
       }
     }
   });
@@ -58,10 +55,7 @@ test.describe("Performance basics", () => {
   test("should have proper viewport meta tag", async ({ page }) => {
     await page.goto("/");
     const viewport = await page.locator('meta[name="viewport"]');
-    await expect(viewport).toHaveAttribute(
-      "content",
-      /width=device-width/,
-    );
+    await expect(viewport).toHaveAttribute("content", /width=device-width/);
   });
 
   test("should render correctly at 360px (Samsung A15)", async ({ page }) => {

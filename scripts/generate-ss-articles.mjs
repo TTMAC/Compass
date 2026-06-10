@@ -41,7 +41,10 @@ const PROJECT_ROOT = join(__dirname, "..");
 
 const ARTICLES_DIR = join(PROJECT_ROOT, "src/content/articles");
 const PROMPTS_FILE = join(PROJECT_ROOT, "docs/ss_article_series.md");
-const KNOWLEDGE_BASE_FILE = join(PROJECT_ROOT, "docs/sa-law-and-order-project.md");
+const KNOWLEDGE_BASE_FILE = join(
+  PROJECT_ROOT,
+  "docs/sa-law-and-order-project.md",
+);
 
 // ---------------------------------------------------------------------------
 // Article registry (ordered by series)
@@ -49,17 +52,49 @@ const KNOWLEDGE_BASE_FILE = join(PROJECT_ROOT, "docs/sa-law-and-order-project.md
 
 const SS_ARTICLES = [
   { slug: "ss-1-1-order-through-oppression", part: 1, articleNumber: "1.1" },
-  { slug: "ss-1-2-from-rainbow-nation-to-state-capture", part: 1, articleNumber: "1.2" },
+  {
+    slug: "ss-1-2-from-rainbow-nation-to-state-capture",
+    part: 1,
+    articleNumber: "1.2",
+  },
   { slug: "ss-2-1-the-broken-pipeline", part: 2, articleNumber: "2.1" },
   { slug: "ss-2-2-policing-a-divided-country", part: 2, articleNumber: "2.2" },
-  { slug: "ss-2-3-justice-delayed-rights-denied", part: 2, articleNumber: "2.3" },
+  {
+    slug: "ss-2-3-justice-delayed-rights-denied",
+    part: 2,
+    articleNumber: "2.3",
+  },
   { slug: "ss-2-4-the-systems-gravest-failure", part: 2, articleNumber: "2.4" },
-  { slug: "ss-2-5-the-private-security-paradox", part: 2, articleNumber: "2.5" },
-  { slug: "ss-3-1-three-tier-policing-architecture", part: 3, articleNumber: "3.1" },
-  { slug: "ss-3-2-independent-investigating-magistracy", part: 3, articleNumber: "3.2" },
-  { slug: "ss-3-3-community-courts-and-restorative-justice", part: 3, articleNumber: "3.3" },
-  { slug: "ss-3-4-sentencing-commission-and-structured-guidelines", part: 3, articleNumber: "3.4" },
-  { slug: "ss-3-5-rehabilitation-as-constitutional-mandate", part: 3, articleNumber: "3.5" },
+  {
+    slug: "ss-2-5-the-private-security-paradox",
+    part: 2,
+    articleNumber: "2.5",
+  },
+  {
+    slug: "ss-3-1-three-tier-policing-architecture",
+    part: 3,
+    articleNumber: "3.1",
+  },
+  {
+    slug: "ss-3-2-independent-investigating-magistracy",
+    part: 3,
+    articleNumber: "3.2",
+  },
+  {
+    slug: "ss-3-3-community-courts-and-restorative-justice",
+    part: 3,
+    articleNumber: "3.3",
+  },
+  {
+    slug: "ss-3-4-sentencing-commission-and-structured-guidelines",
+    part: 3,
+    articleNumber: "3.4",
+  },
+  {
+    slug: "ss-3-5-rehabilitation-as-constitutional-mandate",
+    part: 3,
+    articleNumber: "3.5",
+  },
   { slug: "ss-4-1-sequencing-reform", part: 4, articleNumber: "4.1" },
   { slug: "ss-4-2-funding-the-delta", part: 4, articleNumber: "4.2" },
   { slug: "ss-4-3-measuring-progress", part: 4, articleNumber: "4.3" },
@@ -125,10 +160,7 @@ function extractPrompt(promptsDoc, articleNumber) {
  * Update frontmatter status field.
  */
 function updateFrontmatterStatus(content, newStatus) {
-  return content.replace(
-    /^(status:\s*)"?[^"\n]+"?/m,
-    `$1"${newStatus}"`,
-  );
+  return content.replace(/^(status:\s*)"?[^"\n]+"?/m, `$1"${newStatus}"`);
 }
 
 /**
@@ -216,7 +248,9 @@ function cmdPrompt(slug) {
   const prompt = extractPrompt(promptsDoc, article.articleNumber);
 
   if (!prompt) {
-    console.error(`Error: No prompt found for article ${article.articleNumber}`);
+    console.error(
+      `Error: No prompt found for article ${article.articleNumber}`,
+    );
     process.exit(1);
   }
 

@@ -32,24 +32,26 @@ const resolved = links.map((link) => {
     Related reading from other topics
   </h3>
   <div class="space-y-2">
-    {resolved.map((link) => (
-      <a
-        href={`/articles/${link.slug}`}
-        class="flex items-start gap-3 p-3 border border-gray-200 rounded-lg hover:border-gray-300 transition-colors"
-      >
-        <span
-          class="inline-block w-2.5 h-2.5 rounded-full mt-1 shrink-0"
-          style={`background-color: ${link.pillarColor}`}
-        ></span>
-        <div>
-          <span class="font-heading text-sm font-semibold text-text-primary">
-            {link.title}
-          </span>
-          <span class="block text-xs text-text-secondary mt-0.5">
-            {link.pillarName} &middot; {link.relationship}
-          </span>
-        </div>
-      </a>
-    ))}
+    {
+      resolved.map((link) => (
+        <a
+          href={`/articles/${link.slug}`}
+          class="flex items-start gap-3 p-3 border border-gray-200 rounded-lg hover:border-gray-300 transition-colors"
+        >
+          <span
+            class="inline-block w-2.5 h-2.5 rounded-full mt-1 shrink-0"
+            style={`background-color: ${link.pillarColor}`}
+          />
+          <div>
+            <span class="font-heading text-sm font-semibold text-text-primary">
+              {link.title}
+            </span>
+            <span class="block text-xs text-text-secondary mt-0.5">
+              {link.pillarName} &middot; {link.relationship}
+            </span>
+          </div>
+        </a>
+      ))
+    }
   </div>
 </aside>

@@ -40,12 +40,11 @@ seo:
 
 ## The Only Municipal Function That Funds Everything Else
 
-Electricity is different from every other municipal function analysed in this series. **It is the only function where the municipality's financial survival depends on the service itself — not just delivering it, but profiting from it.** Electricity surpluses represent 25 to 30 per cent of total municipal income on average, and in some rural municipalities the figure reaches 40 per cent. When you pay your electricity bill, a significant portion of what you pay is not funding the electricity network. It is funding libraries, road maintenance, general administration, and councillor salaries. *This cross-subsidy model* is the structural feature that defines everything about municipal electricity governance — its political economy, its incentive structure, and its trajectory of decline.
+Electricity is different from every other municipal function analysed in this series. **It is the only function where the municipality's financial survival depends on the service itself — not just delivering it, but profiting from it.** Electricity surpluses represent 25 to 30 per cent of total municipal income on average, and in some rural municipalities the figure reaches 40 per cent. When you pay your electricity bill, a significant portion of what you pay is not funding the electricity network. It is funding libraries, road maintenance, general administration, and councillor salaries. _This cross-subsidy model_ is the structural feature that defines everything about municipal electricity governance — its political economy, its incentive structure, and its trajectory of decline.
 
 ## The Electricity Value Chain
 
 To understand how the system works and why it is failing, trace the value chain from policy to plug.
-
 
 ![Municipal electricity runs from generation through transmission to the meter on the wall and the tariff on the bill | Photo by Dong Cheng on Unsplash](/images/articles/ra-4-2-fixing-electricity/img-1.webp)
 
@@ -111,7 +110,7 @@ Municipal markups above the NERSA-approved bulk tariff range from 20 to 150 per 
 
 The consequences for the electricity infrastructure are severe. **The maintenance backlog for municipal electricity distribution has reached R32 billion and grows by R2.5 billion annually.** Thirty-nine per cent of municipalities allocate 1 per cent or less of their budgets to infrastructure maintenance, against a National Treasury recommendation of 8 per cent. Distribution networks average approximately 40 years old. Some Johannesburg assets are up to 90 years old. City Power, Johannesburg's electricity entity, reported an annual loss of R4.3 billion for the period ending 30 June 2025.
 
-*Distribution losses* — the electricity that enters the network but is never billed — compound the problem. Well-managed urban municipalities achieve losses as low as 5 per cent. The international benchmark for efficient management is below 10 per cent. **But South African municipalities average approximately 18 per cent, and poorly performing municipalities exceed 25 per cent.** Johannesburg's losses grew from 11 per cent in 2007 to 18 per cent in 2017. Ekurhuleni went from 8 to 20 per cent. Tshwane went from 8 to 20 per cent. Non-technical losses alone cost Tshwane R1.6 billion in 2023. These are not natural losses from physics — they are the signature of degrading infrastructure, illegal connections, and weak revenue management.
+_Distribution losses_ — the electricity that enters the network but is never billed — compound the problem. Well-managed urban municipalities achieve losses as low as 5 per cent. The international benchmark for efficient management is below 10 per cent. **But South African municipalities average approximately 18 per cent, and poorly performing municipalities exceed 25 per cent.** Johannesburg's losses grew from 11 per cent in 2007 to 18 per cent in 2017. Ekurhuleni went from 8 to 20 per cent. Tshwane went from 8 to 20 per cent. Non-technical losses alone cost Tshwane R1.6 billion in 2023. These are not natural losses from physics — they are the signature of degrading infrastructure, illegal connections, and weak revenue management.
 
 **Municipalities collectively owe Eskom more than R110 billion in unpaid bulk purchases** — a figure that grew 27 per cent year-on-year and is up from R4.3 billion in 2014. Meanwhile, municipalities collected only 61.5 per cent of billed electricity revenue between July 2023 and March 2024. The financial model is broken at every point: municipalities underspend on maintenance, lose electricity through leaking networks and theft, fail to collect what they bill, and owe their bulk supplier an ever-growing debt.
 
@@ -163,16 +162,15 @@ The municipality's debt to Eskom illustrates the enforcement vacuum. Municipalit
 
 The electricity diagnosis differs from water in one critical respect: the core structural problem is not conflation but absence — specifically, the absence of any mechanism that ring-fences electricity revenue for electricity infrastructure. The municipality is not simultaneously regulator and provider in the way that the WSA/WSP model conflates these roles. NERSA regulates. The municipality distributes. The regulatory separation exists — imperfectly, with weak enforcement, but it exists.
 
-
 ![The root cause is the cross-subsidy trap — electricity revenue is structurally diverted to fund other municipal functions | Photo by Chad Nathan on Unsplash](/images/articles/ra-4-2-fixing-electricity/img-2.webp)
 
 The root cause is the interaction of three structural failures.
 
-The first is *resource absence*. The cross-subsidy model extracts electricity revenue to fund other municipal functions, and no institutional mechanism prevents this extraction. This is not a bug — it is the design. Municipalities were explicitly expected to use electricity surpluses to cross-subsidise services for which there is no direct revenue (like roads, libraries, and parks). **The problem is that the cross-subsidy was never calibrated against the infrastructure maintenance requirement.** Nobody designed a rule that said "you may extract surplus only after investing 8 per cent of asset value in maintenance." The extraction was unlimited, and the infrastructure paid the price. In the [five failure patterns](/articles/ra-1-2-why-institutions-fail) taxonomy, this is a textbook absence: the Resources element of the RAARICLE™ framework is structurally compromised because the institutional architecture that would protect it — ring-fenced revenue, minimum maintenance thresholds, infrastructure renewal obligations — was never built.
+The first is _resource absence_. The cross-subsidy model extracts electricity revenue to fund other municipal functions, and no institutional mechanism prevents this extraction. This is not a bug — it is the design. Municipalities were explicitly expected to use electricity surpluses to cross-subsidise services for which there is no direct revenue (like roads, libraries, and parks). **The problem is that the cross-subsidy was never calibrated against the infrastructure maintenance requirement.** Nobody designed a rule that said "you may extract surplus only after investing 8 per cent of asset value in maintenance." The extraction was unlimited, and the infrastructure paid the price. In the [five failure patterns](/articles/ra-1-2-why-institutions-fail) taxonomy, this is a textbook absence: the Resources element of the RAARICLE™ framework is structurally compromised because the institutional architecture that would protect it — ring-fenced revenue, minimum maintenance thresholds, infrastructure renewal obligations — was never built.
 
-The second is *authority constraint*. Municipalities cannot set tariffs without NERSA approval. They cannot procure independent power without navigating complex regulatory processes. They cannot restructure their distribution operations without council approval and compliance with multiple legislative frameworks. The municipality is responsible for distribution but does not fully control the key parameters that determine whether distribution succeeds or fails.
+The second is _authority constraint_. Municipalities cannot set tariffs without NERSA approval. They cannot procure independent power without navigating complex regulatory processes. They cannot restructure their distribution operations without council approval and compliance with multiple legislative frameworks. The municipality is responsible for distribution but does not fully control the key parameters that determine whether distribution succeeds or fails.
 
-The third is the *distributed energy transition*. Rooftop solar is growing at 18.4 per cent annually. The Electricity Regulation Amendment Act enables a wholesale market where consumers can buy from private traders. **The draft trading rules include revenue neutrality provisions that could reduce municipal electricity income by up to 60 per cent.** The cross-subsidy model that municipalities depend on is being eroded by technology and regulation simultaneously. A municipality that loses its electricity surplus loses a quarter to a third of its total income — with no replacement revenue source in sight.
+The third is the _distributed energy transition_. Rooftop solar is growing at 18.4 per cent annually. The Electricity Regulation Amendment Act enables a wholesale market where consumers can buy from private traders. **The draft trading rules include revenue neutrality provisions that could reduce municipal electricity income by up to 60 per cent.** The cross-subsidy model that municipalities depend on is being eroded by technology and regulation simultaneously. A municipality that loses its electricity surplus loses a quarter to a third of its total income — with no replacement revenue source in sight.
 
 These three failures are converging on a crisis. The absence of ring-fenced revenue has degraded the infrastructure. Authority constraints have prevented municipalities from adapting. The energy transition is eliminating the revenue model. **The result will be municipalities with broken distribution networks, shrinking revenue, growing Eskom debt, and no capacity to invest in the infrastructure that their consumers and the broader economy depend on.**
 
@@ -183,7 +181,6 @@ The OECD's 2025 review of South Africa's energy sector recommended that the gove
 ## The Reform Blueprint
 
 ### Ring-Fence Electricity Revenue for Electricity
-
 
 ![A working reform unbundles distribution, opens procurement, and ring-fences electricity revenue from cross-subsidy | Photo by Raze Solar on Unsplash](/images/articles/ra-4-2-fixing-electricity/img-3.webp)
 
@@ -209,7 +206,7 @@ The third reform addresses the elephant in the room: if electricity surpluses no
 
 The transition should include: a phased reduction of the cross-subsidy over three to five years, allowing municipalities to adjust; an increase in property rates to partially replace electricity surplus revenue (property rates are the municipality's own revenue source and are more sustainable than electricity surcharges); a revision of the equitable share formula to compensate municipalities that lose electricity surplus revenue due to ring-fencing; and support for municipalities to develop alternative revenue sources, including the distribution wire fee that the wholesale market will create.
 
-The coming wholesale electricity market, if designed correctly, creates a new revenue opportunity for municipalities: *the distribution network itself becomes a regulated asset*, and the municipality charges a regulated wire fee for access. This is the model used in most liberalised electricity markets globally. The municipality does not profit from the sale of energy (which private traders and generators will do) but from providing the distribution infrastructure that enables the sale. **The wire fee replaces the cross-subsidy — and because it is a regulated fee based on the cost of maintaining the infrastructure, it creates an incentive to invest in the network rather than extract from it.**
+The coming wholesale electricity market, if designed correctly, creates a new revenue opportunity for municipalities: _the distribution network itself becomes a regulated asset_, and the municipality charges a regulated wire fee for access. This is the model used in most liberalised electricity markets globally. The municipality does not profit from the sale of energy (which private traders and generators will do) but from providing the distribution infrastructure that enables the sale. **The wire fee replaces the cross-subsidy — and because it is a regulated fee based on the cost of maintaining the infrastructure, it creates an incentive to invest in the network rather than extract from it.**
 
 ### Streamlined Independent Power Procurement
 
@@ -295,13 +292,13 @@ The end state is a distribution sector with clear responsibility (licensed distr
 
 The analysis in this article draws on the following institutional research and publications:
 
-- National Energy Regulator of South Africa, *Municipal Tariff Approval Process* — reformed per Gauteng High Court ruling, November 2025
-- Republic of South Africa, *Electricity Regulation Amendment Act* (38 of 2024) — in force from 1 January 2025
-- Eskom Holdings, *Ministerial Approval for Unbundling* — December 2025 — [eskom.co.za](https://www.eskom.co.za)
+- National Energy Regulator of South Africa, _Municipal Tariff Approval Process_ — reformed per Gauteng High Court ruling, November 2025
+- Republic of South Africa, _Electricity Regulation Amendment Act_ (38 of 2024) — in force from 1 January 2025
+- Eskom Holdings, _Ministerial Approval for Unbundling_ — December 2025 — [eskom.co.za](https://www.eskom.co.za)
 - National Transmission Company of South Africa — commenced trading 1 July 2024
-- SAICE, *Infrastructure Report Card 2022* — [saice.org.za](https://www.saice.org.za)
-- Auditor-General of South Africa, *MFMA 2023/24 Audit Outcomes* — [agsa.co.za](https://www.agsa.co.za)
-- National Treasury, *State of Local Government Finance and Financial Management as at 30 June 2024* — [treasury.gov.za](https://www.treasury.gov.za)
-- Statistics South Africa, *Municipal Finances and Electricity* — [statssa.gov.za](https://www.statssa.gov.za)
-- OECD, *South Africa Energy Sector Review 2025* — recommendation on municipal distribution concessions
-- NERSA, *Eskom Retail Tariff Application — Reasons for Decision* — March 2025 — [nersa.org.za](https://www.nersa.org.za)
+- SAICE, _Infrastructure Report Card 2022_ — [saice.org.za](https://www.saice.org.za)
+- Auditor-General of South Africa, _MFMA 2023/24 Audit Outcomes_ — [agsa.co.za](https://www.agsa.co.za)
+- National Treasury, _State of Local Government Finance and Financial Management as at 30 June 2024_ — [treasury.gov.za](https://www.treasury.gov.za)
+- Statistics South Africa, _Municipal Finances and Electricity_ — [statssa.gov.za](https://www.statssa.gov.za)
+- OECD, _South Africa Energy Sector Review 2025_ — recommendation on municipal distribution concessions
+- NERSA, _Eskom Retail Tariff Application — Reasons for Decision_ — March 2025 — [nersa.org.za](https://www.nersa.org.za)

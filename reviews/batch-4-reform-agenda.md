@@ -11,24 +11,24 @@
 
 ## Pass/Fail Matrix
 
-| # | Slug | Words | Verdict | Partisan Drift | Blockers | Should-fix |
-|---|---|---:|:-:|:-:|:-:|:-:|
-| 1 | ra-1-1-eight-tests | 7,207 | **Fix** | Clean | 0 | 2 |
-| 2 | ra-1-2-why-institutions-fail | 6,693 | **Fix** | Minor | 0 | 3 |
-| 3 | ra-2-1-fixing-basic-education | 6,518 | **Fix** | Minor | 0 | 3 |
-| 4 | ra-2-2-fixing-primary-healthcare | 6,901 | **Fix** | Minor | 0 | 3 |
-| 5 | ra-2-3-fixing-human-settlements | 6,731 | **Fix** | **Significant** | 3 | 3 |
-| 6 | ra-2-4-fixing-safety-and-security | 7,315 | Not re-reviewed | — | — | — |
-| 7 | ra-3-1-provincial-performance-crisis | 5,131 | **Pass** | Clean | 0 | 0 |
-| 8 | ra-3-2-making-concurrent-functions-work | 7,421 | **Fix** | Minor | 1 | 1 |
-| 9 | ra-3-3-when-provinces-fail | 5,070 | **Pass** | Clean | 0 | 0 |
-| 10 | ra-4-1-fixing-water-and-sanitation | 7,594 | **Pass** | Clean | 0 | 0 |
-| 11 | ra-4-2-fixing-electricity | 6,374 | **Pass** | Clean | 0 | 1 |
-| 12 | ra-4-3-fixing-waste-and-roads | 6,148 | **Fix** | Clean | 0 | 2 |
-| 13 | ra-4-4-building-municipal-capability | 5,360 | **Fix** | **Significant** | 1 | 3 |
-| 14 | ra-5-1-constitutional-vs-legislative | 12,872 | **Pass** | Clean | 0 | 1 |
-| 15 | ra-5-2-anti-capture-architecture | 11,521 | **Fix** | **Significant** | 1 | 2 |
-| 16 | ra-5-3-from-citizen-to-reformer | 9,390 | **Fix** | Clean | 0 | 1 |
+| #   | Slug                                    |  Words |     Verdict     | Partisan Drift  | Blockers | Should-fix |
+| --- | --------------------------------------- | -----: | :-------------: | :-------------: | :------: | :--------: |
+| 1   | ra-1-1-eight-tests                      |  7,207 |     **Fix**     |      Clean      |    0     |     2      |
+| 2   | ra-1-2-why-institutions-fail            |  6,693 |     **Fix**     |      Minor      |    0     |     3      |
+| 3   | ra-2-1-fixing-basic-education           |  6,518 |     **Fix**     |      Minor      |    0     |     3      |
+| 4   | ra-2-2-fixing-primary-healthcare        |  6,901 |     **Fix**     |      Minor      |    0     |     3      |
+| 5   | ra-2-3-fixing-human-settlements         |  6,731 |     **Fix**     | **Significant** |    3     |     3      |
+| 6   | ra-2-4-fixing-safety-and-security       |  7,315 | Not re-reviewed |        —        |    —     |     —      |
+| 7   | ra-3-1-provincial-performance-crisis    |  5,131 |    **Pass**     |      Clean      |    0     |     0      |
+| 8   | ra-3-2-making-concurrent-functions-work |  7,421 |     **Fix**     |      Minor      |    1     |     1      |
+| 9   | ra-3-3-when-provinces-fail              |  5,070 |    **Pass**     |      Clean      |    0     |     0      |
+| 10  | ra-4-1-fixing-water-and-sanitation      |  7,594 |    **Pass**     |      Clean      |    0     |     0      |
+| 11  | ra-4-2-fixing-electricity               |  6,374 |    **Pass**     |      Clean      |    0     |     1      |
+| 12  | ra-4-3-fixing-waste-and-roads           |  6,148 |     **Fix**     |      Clean      |    0     |     2      |
+| 13  | ra-4-4-building-municipal-capability    |  5,360 |     **Fix**     | **Significant** |    1     |     3      |
+| 14  | ra-5-1-constitutional-vs-legislative    | 12,872 |    **Pass**     |      Clean      |    0     |     1      |
+| 15  | ra-5-2-anti-capture-architecture        | 11,521 |     **Fix**     | **Significant** |    1     |     2      |
+| 16  | ra-5-3-from-citizen-to-reformer         |  9,390 |     **Fix**     |      Clean      |    0     |     1      |
 
 **Summary: 5 Pass, 10 Fix, 0 Rewrite, 1 not re-reviewed (see note). 5 blockers, all cluster around the partisan-drift line in 3 articles.**
 
@@ -96,14 +96,14 @@ These don't rise to blocker level but would benefit from the same disciplined fr
 Same pattern as Batches 1–3, plus some specific verification items:
 
 - **`ra-1-1`** — RAARICLE acronym expansion should appear before the first use in Test 1.
-- **`ra-2-1`** — OECD reference on education decentralisation needs a specific publication (e.g., "OECD *Education Policy Outlook*").
+- **`ra-2-1`** — OECD reference on education decentralisation needs a specific publication (e.g., "OECD _Education Policy Outlook_").
 - **`ra-2-2`** — **Verify "Stop Stock Outs Project" is a real ongoing civil society initiative** with published reports. If not verifiable, reframe as "civil society monitoring data."
 - **`ra-2-3`** — Level 2 metropolitan accreditation claim ("Johannesburg, eThekwini, Cape Town delivered more units") is currently anecdotal. Anchor with specific National Treasury or DHS data on performance by accreditation status.
 - **`ra-4-3`** — Verify IMESA quote on patronage weakening local government; cite exact publication.
 - **`ra-4-4`** — Free State "8 of 23 municipalities" / Limpopo "131 of 172 senior positions" / Gauteng "40 of 115 vacant" figures need source attribution (DCoG, AGSA, or provincial HR records). Currently unsourced.
 - **`ra-4-4`** — Dullah Omar Institute figures ("4.7% annual engineering loss", "338 departures exceed hires") need specific report title and year.
 - **`ra-4-4`** — LGSETA 2022-23 quote needs exact document citation.
-- **`ra-5-2`** — National Treasury *State of Local Government Finances* citation should specify the year (e.g., 2024 edition).
+- **`ra-5-2`** — National Treasury _State of Local Government Finances_ citation should specify the year (e.g., 2024 edition).
 
 ### SF-3 — Unsourced severity examples and framework grounding
 
@@ -170,4 +170,4 @@ Estimated time for all: ~100 minutes of focused editing work.
 **Open questions for owner:**
 
 1. **ra-2-4 spot-read:** should I do a full review of ra-2-4 now, or proceed with the fixes and only spot-check for partisan framing?
-2. **Batch-wide universal-framing discipline:** should I add an explicit "any governing party could exploit this" disclaimer to *all* Zondo/Gupta references across the batch (more consistent) or only to the flagged blockers (minimum change)?
+2. **Batch-wide universal-framing discipline:** should I add an explicit "any governing party could exploit this" disclaimer to _all_ Zondo/Gupta references across the batch (more consistent) or only to the flagged blockers (minimum change)?

@@ -44,11 +44,11 @@
            /────────────────────────────\
 ```
 
-| Test Type | Target % | Max Execution Time | Scope |
-|-----------|----------|-------------------|-------|
-| Unit | 70% | < 100ms per test | Schema validation, pure functions, utility logic |
-| Integration | 20% | < 5s per test | Component rendering, build output verification, OG meta |
-| E2E / Lighthouse | 10% | < 30s per test | Critical reader journeys, performance budget compliance |
+| Test Type        | Target % | Max Execution Time | Scope                                                   |
+| ---------------- | -------- | ------------------ | ------------------------------------------------------- |
+| Unit             | 70%      | < 100ms per test   | Schema validation, pure functions, utility logic        |
+| Integration      | 20%      | < 5s per test      | Component rendering, build output verification, OG meta |
+| E2E / Lighthouse | 10%      | < 30s per test     | Critical reader journeys, performance budget compliance |
 
 ---
 
@@ -70,12 +70,12 @@
 
 **Isolation Rules:**
 
-| Dependency Type | Approach |
-|-----------------|----------|
-| Astro build system | Not needed — test Zod schemas directly |
-| File system | Mock or use inline test data |
-| External APIs (GA4, ESP) | Not tested at unit level |
-| Browser APIs (Clipboard, scroll) | Mock in unit tests if testing logic |
+| Dependency Type                  | Approach                               |
+| -------------------------------- | -------------------------------------- |
+| Astro build system               | Not needed — test Zod schemas directly |
+| File system                      | Mock or use inline test data           |
+| External APIs (GA4, ESP)         | Not tested at unit level               |
+| Browser APIs (Clipboard, scroll) | Mock in unit tests if testing logic    |
 
 **Naming Convention (BDD-style):**
 
@@ -101,34 +101,34 @@ should_validate_series_navigation_links_to_existing_slugs
 **Example:**
 
 ```typescript
-import { describe, it, expect } from 'vitest';
-import { articleSchema } from '../src/content/config';
+import { describe, it, expect } from "vitest";
+import { articleSchema } from "../src/content/config";
 
-describe('Article Schema', () => {
-  describe('sphere validation', () => {
-    it('should_reject_article_when_sphere_is_invalid', () => {
+describe("Article Schema", () => {
+  describe("sphere validation", () => {
+    it("should_reject_article_when_sphere_is_invalid", () => {
       // Arrange
       const invalidArticle = {
         ...validArticleBase,
-        sphere: 'federal', // Invalid — not in enum
+        sphere: "federal", // Invalid — not in enum
       };
 
       // Act & Assert
       expect(() => articleSchema.parse(invalidArticle)).toThrow();
     });
 
-    it('should_accept_article_when_sphere_is_national', () => {
+    it("should_accept_article_when_sphere_is_national", () => {
       // Arrange
       const article = {
         ...validArticleBase,
-        sphere: 'national',
+        sphere: "national",
       };
 
       // Act
       const result = articleSchema.parse(article);
 
       // Assert
-      expect(result.sphere).toBe('national');
+      expect(result.sphere).toBe("national");
     });
   });
 });
@@ -158,10 +158,10 @@ describe('Article Schema', () => {
 
 **Data Management:**
 
-| Strategy | When to Use |
-|----------|-------------|
+| Strategy              | When to Use                                                    |
+| --------------------- | -------------------------------------------------------------- |
 | Test fixture articles | Markdown files with known frontmatter for build-output testing |
-| Inline Zod test data | Quick schema validation without touching filesystem |
+| Inline Zod test data  | Quick schema validation without touching filesystem            |
 
 **Naming Convention:**
 
@@ -193,14 +193,14 @@ SitemapIntegration_includesAllPublishedArticles
 
 **Critical Paths to Cover:**
 
-| Journey | Priority | Frequency |
-|---------|----------|-----------|
-| Reader loads article → reading progress bar works → reaches footer → sees prev/next | P0 | Every deploy |
-| Reader submits email → sees inline confirmation (no page reload) | P0 | Every deploy |
-| WhatsApp share button → opens WhatsApp with correct UTM URL | P1 | Every deploy |
-| Series page → sphere filter → correct articles shown | P1 | Weekly |
-| Lighthouse Performance ≥ 90 on article page (4G throttle) | P0 | Every deploy |
-| Lighthouse Accessibility ≥ 90 on all page types | P0 | Every deploy |
+| Journey                                                                             | Priority | Frequency    |
+| ----------------------------------------------------------------------------------- | -------- | ------------ |
+| Reader loads article → reading progress bar works → reaches footer → sees prev/next | P0       | Every deploy |
+| Reader submits email → sees inline confirmation (no page reload)                    | P0       | Every deploy |
+| WhatsApp share button → opens WhatsApp with correct UTM URL                         | P1       | Every deploy |
+| Series page → sphere filter → correct articles shown                                | P1       | Weekly       |
+| Lighthouse Performance ≥ 90 on article page (4G throttle)                           | P0       | Every deploy |
+| Lighthouse Accessibility ≥ 90 on all page types                                     | P0       | Every deploy |
 
 **E2E Test Rules:**
 
@@ -220,15 +220,15 @@ SitemapIntegration_includesAllPublishedArticles
 
 **Baseline Metrics:**
 
-| Metric | Target | Hard Limit (Fail Build) |
-|--------|--------|------------------------|
-| FCP | < 1.0s | < 1.5s |
-| LCP | < 1.5s | < 2.5s |
-| CLS | < 0.05 | < 0.1 |
-| Performance Score | ≥ 95 | ≥ 90 |
-| Accessibility Score | ≥ 95 | ≥ 90 |
-| Total page weight | < 250KB | < 450KB |
-| Total JavaScript | < 20KB | < 35KB |
+| Metric              | Target  | Hard Limit (Fail Build) |
+| ------------------- | ------- | ----------------------- |
+| FCP                 | < 1.0s  | < 1.5s                  |
+| LCP                 | < 1.5s  | < 2.5s                  |
+| CLS                 | < 0.05  | < 0.1                   |
+| Performance Score   | ≥ 95    | ≥ 90                    |
+| Accessibility Score | ≥ 95    | ≥ 90                    |
+| Total page weight   | < 250KB | < 450KB                 |
+| Total JavaScript    | < 20KB  | < 35KB                  |
 
 **Lighthouse Configuration:**
 
@@ -237,18 +237,21 @@ SitemapIntegration_includesAllPublishedArticles
 module.exports = {
   ci: {
     collect: {
-      url: ['http://localhost:4321/', 'http://localhost:4321/articles/architecture-of-the-state'],
+      url: [
+        "http://localhost:4321/",
+        "http://localhost:4321/articles/architecture-of-the-state",
+      ],
       settings: {
         throttling: { cpuSlowdownMultiplier: 4 }, // Simulate mid-range device
       },
     },
     assert: {
       assertions: {
-        'categories:performance': ['error', { minScore: 0.90 }],
-        'categories:accessibility': ['error', { minScore: 0.90 }],
-        'first-contentful-paint': ['error', { maxNumericValue: 1500 }],
-        'largest-contentful-paint': ['error', { maxNumericValue: 2500 }],
-        'cumulative-layout-shift': ['error', { maxNumericValue: 0.1 }],
+        "categories:performance": ["error", { minScore: 0.9 }],
+        "categories:accessibility": ["error", { minScore: 0.9 }],
+        "first-contentful-paint": ["error", { maxNumericValue: 1500 }],
+        "largest-contentful-paint": ["error", { maxNumericValue: 2500 }],
+        "cumulative-layout-shift": ["error", { maxNumericValue: 0.1 }],
       },
     },
   },
@@ -297,12 +300,12 @@ govcompass-blog/
 
 ### 4.2 File Naming Conventions
 
-| Test Type | Pattern | Example |
-|-----------|---------|---------| 
-| Unit | `<name>.test.ts` | `content-schema.test.ts` |
-| Integration | `<name>.test.ts` (in integration/) | `og-meta.test.ts` |
-| E2E | `<name>.e2e.test.ts` | `article-reading.e2e.test.ts` |
-| Performance | `performance.e2e.test.ts` | Runs Lighthouse CI assertions |
+| Test Type   | Pattern                            | Example                       |
+| ----------- | ---------------------------------- | ----------------------------- |
+| Unit        | `<name>.test.ts`                   | `content-schema.test.ts`      |
+| Integration | `<name>.test.ts` (in integration/) | `og-meta.test.ts`             |
+| E2E         | `<name>.e2e.test.ts`               | `article-reading.e2e.test.ts` |
+| Performance | `performance.e2e.test.ts`          | Runs Lighthouse CI assertions |
 
 ---
 
@@ -310,12 +313,12 @@ govcompass-blog/
 
 ### 5.1 Coverage Targets
 
-| Layer | Minimum Coverage | Target Coverage |
-|-------|------------------|-----------------|
-| Content Schema (Zod validation, series nav) | 90% | 95% |
-| Component Logic (utilities, share URL generation) | 80% | 90% |
-| Integration (rendering, OG meta, forms) | 70% | 80% |
-| **Overall** | 80% | 85% |
+| Layer                                             | Minimum Coverage | Target Coverage |
+| ------------------------------------------------- | ---------------- | --------------- |
+| Content Schema (Zod validation, series nav)       | 90%              | 95%             |
+| Component Logic (utilities, share URL generation) | 80%              | 90%             |
+| Integration (rendering, OG meta, forms)           | 70%              | 80%             |
+| **Overall**                                       | 80%              | 85%             |
 
 ### 5.2 Coverage Exclusions
 
@@ -336,14 +339,18 @@ The following are excluded from coverage calculations:
 
 ```typescript
 // vitest.config.ts
-import { defineConfig } from 'vitest/config';
+import { defineConfig } from "vitest/config";
 
 export default defineConfig({
   test: {
     coverage: {
-      provider: 'v8',
-      include: ['src/content/config.ts', 'src/components/**/*.ts', 'src/utils/**/*.ts'],
-      exclude: ['src/**/*.astro', 'scripts/**'],
+      provider: "v8",
+      include: [
+        "src/content/config.ts",
+        "src/components/**/*.ts",
+        "src/utils/**/*.ts",
+      ],
+      exclude: ["src/**/*.astro", "scripts/**"],
       thresholds: {
         statements: 80,
         branches: 80,
@@ -361,11 +368,11 @@ export default defineConfig({
 
 ### 6.1 Test Data Strategies
 
-| Strategy | Use Case | Example |
-|----------|----------|---------| 
-| Fixtures (Markdown) | Full article files for build-output testing | `tests/fixtures/valid-article.md` |
-| Inline objects | Quick Zod schema tests | `{ title: 'Test', part: 1, sphere: 'national', ... }` |
-| Invalid variants | Schema rejection testing | Articles with part=6, sphere='federal', description of 100 chars |
+| Strategy            | Use Case                                    | Example                                                          |
+| ------------------- | ------------------------------------------- | ---------------------------------------------------------------- |
+| Fixtures (Markdown) | Full article files for build-output testing | `tests/fixtures/valid-article.md`                                |
+| Inline objects      | Quick Zod schema tests                      | `{ title: 'Test', part: 1, sphere: 'national', ... }`            |
+| Invalid variants    | Schema rejection testing                    | Articles with part=6, sphere='federal', description of 100 chars |
 
 ### 6.2 Test Data Builders
 
@@ -377,47 +384,75 @@ interface ArticleFrontmatter {
   subtitle: string;
   part: number;
   articleNumber: string;
-  sphere: 'national' | 'provincial' | 'municipal' | 'all';
+  sphere: "national" | "provincial" | "municipal" | "all";
   description: string;
   publishDate: Date;
   readingTime: number;
-  status: 'published' | 'draft' | 'coming-soon';
+  status: "published" | "draft" | "coming-soon";
   series: { prev: string | null; next: string | null };
   seo: { ogImage?: string; canonicalUrl?: string; keywords: string[] };
 }
 
 class ArticleBuilder {
   private props: ArticleFrontmatter = {
-    title: 'Test Article',
-    subtitle: 'A test subtitle',
+    title: "Test Article",
+    subtitle: "A test subtitle",
     part: 1,
-    articleNumber: '1.1',
-    sphere: 'all',
-    description: 'A test description that is exactly one hundred and fifty-five characters long for valid SEO meta description testing purposes here.',
-    publishDate: new Date('2026-09-01'),
+    articleNumber: "1.1",
+    sphere: "all",
+    description:
+      "A test description that is exactly one hundred and fifty-five characters long for valid SEO meta description testing purposes here.",
+    publishDate: new Date("2026-09-01"),
     readingTime: 25,
-    status: 'published',
+    status: "published",
     series: { prev: null, next: null },
-    seo: { keywords: ['test'] },
+    seo: { keywords: ["test"] },
   };
 
-  withPart(part: number) { this.props.part = part; return this; }
-  withSphere(sphere: ArticleFrontmatter['sphere']) { this.props.sphere = sphere; return this; }
-  withStatus(status: ArticleFrontmatter['status']) { this.props.status = status; return this; }
-  withDescription(desc: string) { this.props.description = desc; return this; }
+  withPart(part: number) {
+    this.props.part = part;
+    return this;
+  }
+  withSphere(sphere: ArticleFrontmatter["sphere"]) {
+    this.props.sphere = sphere;
+    return this;
+  }
+  withStatus(status: ArticleFrontmatter["status"]) {
+    this.props.status = status;
+    return this;
+  }
+  withDescription(desc: string) {
+    this.props.description = desc;
+    return this;
+  }
   withSeriesNav(prev: string | null, next: string | null) {
     this.props.series = { prev, next };
     return this;
   }
-  published() { this.props.status = 'published'; return this; }
-  draft() { this.props.status = 'draft'; return this; }
-  comingSoon() { this.props.status = 'coming-soon'; return this; }
+  published() {
+    this.props.status = "published";
+    return this;
+  }
+  draft() {
+    this.props.status = "draft";
+    return this;
+  }
+  comingSoon() {
+    this.props.status = "coming-soon";
+    return this;
+  }
 
-  build(): ArticleFrontmatter { return { ...this.props }; }
+  build(): ArticleFrontmatter {
+    return { ...this.props };
+  }
 }
 
 // Usage in tests:
-const article = new ArticleBuilder().withPart(3).withSphere('provincial').published().build();
+const article = new ArticleBuilder()
+  .withPart(3)
+  .withSphere("provincial")
+  .published()
+  .build();
 ```
 
 ### 6.3 Shared Test Utilities Location
@@ -436,21 +471,21 @@ tests/fixtures/test-helpers.ts
 
 ### 7.2 Mocking Rules
 
-| Do | Don't |
-|----|-------|
-| Mock browser APIs (Clipboard, scroll events) in unit tests | Mock Zod — test the real schema |
-| Mock Netlify Forms submission for E2E if needed | Mock the Astro build system in integration tests — test real build output |
-| Stub GA4 `gtag()` calls in component tests | Over-mock — most GovCompass logic is pure functions |
+| Do                                                         | Don't                                                                     |
+| ---------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Mock browser APIs (Clipboard, scroll events) in unit tests | Mock Zod — test the real schema                                           |
+| Mock Netlify Forms submission for E2E if needed            | Mock the Astro build system in integration tests — test real build output |
+| Stub GA4 `gtag()` calls in component tests                 | Over-mock — most GovCompass logic is pure functions                       |
 
 ### 7.3 Mock vs Real in Context
 
-| Dependency | Unit Tests | Integration Tests | E2E Tests |
-|------------|-----------|-------------------|-----------|
-| Zod schema | Real | Real | N/A |
-| Astro build | N/A | Real (build then inspect output) | Real |
-| Browser APIs | Mock | Mock | Real (Playwright) |
-| Netlify Forms | N/A | Verify HTML attributes | Stub submission |
-| GA4 | N/A | N/A | Verify consent flow |
+| Dependency    | Unit Tests | Integration Tests                | E2E Tests           |
+| ------------- | ---------- | -------------------------------- | ------------------- |
+| Zod schema    | Real       | Real                             | N/A                 |
+| Astro build   | N/A        | Real (build then inspect output) | Real                |
+| Browser APIs  | Mock       | Mock                             | Real (Playwright)   |
+| Netlify Forms | N/A        | Verify HTML attributes           | Stub submission     |
+| GA4           | N/A        | N/A                              | Verify consent flow |
 
 ---
 
@@ -458,15 +493,15 @@ tests/fixtures/test-helpers.ts
 
 ### 8.1 When to Apply TDD
 
-| Scenario | TDD Required? | Rationale |
-|----------|---------------|-----------|
-| Content schema changes | Yes | Schema is the invariant enforcer — test first |
-| Series navigation logic | Yes | Broken links break the core reading experience |
-| New utility functions | Yes | Pure functions are ideal TDD candidates |
-| Bug fixes | Yes | Write failing test that reproduces bug first |
-| New Astro components | Test-after | Component rendering is best tested via build output |
-| Layout/styling changes | No | Visual — verify via browser and Lighthouse |
-| Markdown content authoring | No | Validated by schema at build time |
+| Scenario                   | TDD Required? | Rationale                                           |
+| -------------------------- | ------------- | --------------------------------------------------- |
+| Content schema changes     | Yes           | Schema is the invariant enforcer — test first       |
+| Series navigation logic    | Yes           | Broken links break the core reading experience      |
+| New utility functions      | Yes           | Pure functions are ideal TDD candidates             |
+| Bug fixes                  | Yes           | Write failing test that reproduces bug first        |
+| New Astro components       | Test-after    | Component rendering is best tested via build output |
+| Layout/styling changes     | No            | Visual — verify via browser and Lighthouse          |
+| Markdown content authoring | No            | Validated by schema at build time                   |
 
 ### 8.2 TDD Micro-Cycle
 
@@ -492,24 +527,24 @@ Before writing implementation code, Claude should confirm:
 
 ### 9.1 Test Execution in Pipeline
 
-| Stage | Tests Run | Failure Action |
-|-------|-----------|----------------|
-| Pre-commit (local) | Unit tests (fast subset) | Block commit |
-| Push to branch | All unit + integration | Block merge to main |
-| Push to main | All tests + Lighthouse CI | Alert; failed build does not deploy (Netlify keeps previous deploy) |
-| Weekly | Full suite including all E2E | Alert |
+| Stage              | Tests Run                    | Failure Action                                                      |
+| ------------------ | ---------------------------- | ------------------------------------------------------------------- |
+| Pre-commit (local) | Unit tests (fast subset)     | Block commit                                                        |
+| Push to branch     | All unit + integration       | Block merge to main                                                 |
+| Push to main       | All tests + Lighthouse CI    | Alert; failed build does not deploy (Netlify keeps previous deploy) |
+| Weekly             | Full suite including all E2E | Alert                                                               |
 
 ### 9.2 Quality Gates
 
-| Gate | Threshold | Enforcement |
-|------|-----------|-------------|
-| Unit tests pass | 100% | Block merge |
-| Integration tests pass | 100% | Block merge |
-| Coverage (overall) | ≥ 80% | Block merge |
-| Lighthouse Performance | ≥ 90 | Block deploy |
-| Lighthouse Accessibility | ≥ 90 | Block deploy |
-| Total page weight | < 450KB | Block deploy |
-| No skipped tests | 0 (or justified) | Warning |
+| Gate                     | Threshold        | Enforcement  |
+| ------------------------ | ---------------- | ------------ |
+| Unit tests pass          | 100%             | Block merge  |
+| Integration tests pass   | 100%             | Block merge  |
+| Coverage (overall)       | ≥ 80%            | Block merge  |
+| Lighthouse Performance   | ≥ 90             | Block deploy |
+| Lighthouse Accessibility | ≥ 90             | Block deploy |
+| Total page weight        | < 450KB          | Block deploy |
+| No skipped tests         | 0 (or justified) | Warning      |
 
 ### 9.3 Test Reporting
 
@@ -533,23 +568,23 @@ Before writing implementation code, Claude should confirm:
 
 **Common Causes & Fixes for GovCompass:**
 
-| Cause | Symptom | Fix |
-|-------|---------|-----|
-| Build order | Component test fails intermittently | Ensure test runs against fresh build output |
-| Port conflict | E2E preview server doesn't start | Use dynamic port allocation in Playwright config |
+| Cause               | Symptom                                | Fix                                              |
+| ------------------- | -------------------------------------- | ------------------------------------------------ |
+| Build order         | Component test fails intermittently    | Ensure test runs against fresh build output      |
+| Port conflict       | E2E preview server doesn't start       | Use dynamic port allocation in Playwright config |
 | Lighthouse variance | Performance score fluctuates ±3 points | Use median of 3 runs; set thresholds with margin |
 
 ---
 
 ## 11. Testing Anti-Patterns to Avoid
 
-| Anti-Pattern | Problem | Better Approach |
-|--------------|---------|-----------------|
-| Testing Tailwind class names | Brittle, breaks on styling refactor | Test rendered output behaviour, not CSS classes |
-| Testing Markdown content | Content is validated by schema | Test the schema rules, not individual articles |
-| E2E for schema validation | Slow and unnecessary | Unit-test Zod schemas directly |
-| Skipping Lighthouse | Performance regression goes unnoticed | Automate Lighthouse in CI |
-| Testing GA4 fires correctly | Flaky, depends on consent state | Test consent flow; trust GA4's own validation |
+| Anti-Pattern                 | Problem                               | Better Approach                                 |
+| ---------------------------- | ------------------------------------- | ----------------------------------------------- |
+| Testing Tailwind class names | Brittle, breaks on styling refactor   | Test rendered output behaviour, not CSS classes |
+| Testing Markdown content     | Content is validated by schema        | Test the schema rules, not individual articles  |
+| E2E for schema validation    | Slow and unnecessary                  | Unit-test Zod schemas directly                  |
+| Skipping Lighthouse          | Performance regression goes unnoticed | Automate Lighthouse in CI                       |
+| Testing GA4 fires correctly  | Flaky, depends on consent state       | Test consent flow; trust GA4's own validation   |
 
 ---
 
@@ -583,23 +618,23 @@ Before writing implementation code, Claude should confirm:
 
 ## 13. Tools & Configuration Reference
 
-| Purpose | Tool | Config File |
-|---------|------|-------------|
-| Test runner | Vitest | `vitest.config.ts` |
-| Assertions | Vitest (built-in expect) | — |
-| Mocking | Vitest (built-in vi) | — |
-| Coverage | Vitest + V8 | `vitest.config.ts` |
-| E2E | Playwright | `playwright.config.ts` |
-| Performance | Lighthouse CI | `lighthouserc.js` |
+| Purpose     | Tool                     | Config File            |
+| ----------- | ------------------------ | ---------------------- |
+| Test runner | Vitest                   | `vitest.config.ts`     |
+| Assertions  | Vitest (built-in expect) | —                      |
+| Mocking     | Vitest (built-in vi)     | —                      |
+| Coverage    | Vitest + V8              | `vitest.config.ts`     |
+| E2E         | Playwright               | `playwright.config.ts` |
+| Performance | Lighthouse CI            | `lighthouserc.js`      |
 
 ---
 
 ## 14. Document History
 
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 1.0 | 2026-02-16 | Tshepo Machele | Initial testing strategy for GovCompass MVP |
+| Version | Date       | Author         | Changes                                     |
+| ------- | ---------- | -------------- | ------------------------------------------- |
+| 1.0     | 2026-02-16 | Tshepo Machele | Initial testing strategy for GovCompass MVP |
 
 ---
 
-*Last updated: 2026-02-16*
+_Last updated: 2026-02-16_

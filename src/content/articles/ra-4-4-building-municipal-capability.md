@@ -42,7 +42,6 @@ The previous three articles in Part 4 diagnosed [water](/articles/ra-4-1-fixing-
 
 This article steps back from individual functions to diagnose these two elements directly. The question is not "why does the water department lack a qualified process controller?" or "why does the roads department lack an engineer?" The question is: why does the municipal institutional architecture systematically fail to attract, deploy, and retain qualified professionals — and why do municipal information systems consistently fail to provide the data that oversight bodies need?
 
-
 ![Vacancy rates, qualification gaps and turnover data show the capability shortfall is structural, not cyclical | Photo by Vitaly Gariev on Unsplash](/images/articles/ra-4-4-building-municipal-capability/img-1.webp)
 
 The numbers paint the picture. According to AGSA MFMA audit reporting and DCoG vacancy data, in the Free State only 8 of 23 municipalities have a qualified permanent municipal manager, and of 129 senior posts, 73 are vacant — a 57 per cent vacancy rate. **Across all municipalities, an estimated 47 per cent of municipal managers do not meet the basic qualification criteria for their positions** — a figure surfaced during the Zondo Commission's examination of cadre deployment practices, a structural vulnerability that any governing party with unchecked appointment authority could exploit.
@@ -61,15 +60,15 @@ The capability crisis is not a function-specific problem. The same vacancy patte
 
 The capability deficit has four structural causes, and understanding them is essential because each requires a different kind of fix.
 
-The first cause is *political appointments*. The Zondo Commission documented how cadre deployment practices intervened in appointments at 88 state institutions — a structural vulnerability that could, in principle, arise wherever a governing party's internal selection processes operate ahead of statutory merit requirements. At the municipal level, Section 56 and 57 managers — the municipal manager, the chief financial officer, and other senior managers — are appointed by the municipal council. In theory, appointments must follow the Regulations on Minimum Competency Levels, which require specific qualifications and prescribe that senior managers must hold or obtain SAQA Qualification ID No. 48965 within 18 months of appointment. **In practice, political considerations routinely override professional criteria.** A politically connected candidate who lacks qualifications is appointed over a qualified professional who lacks political connections. The appointment is technically lawful — the new appointee has 18 months to obtain the qualification — but the institution is immediately weaker because the appointee lacks the competence to manage a complex technical operation.
+The first cause is _political appointments_. The Zondo Commission documented how cadre deployment practices intervened in appointments at 88 state institutions — a structural vulnerability that could, in principle, arise wherever a governing party's internal selection processes operate ahead of statutory merit requirements. At the municipal level, Section 56 and 57 managers — the municipal manager, the chief financial officer, and other senior managers — are appointed by the municipal council. In theory, appointments must follow the Regulations on Minimum Competency Levels, which require specific qualifications and prescribe that senior managers must hold or obtain SAQA Qualification ID No. 48965 within 18 months of appointment. **In practice, political considerations routinely override professional criteria.** A politically connected candidate who lacks qualifications is appointed over a qualified professional who lacks political connections. The appointment is technically lawful — the new appointee has 18 months to obtain the qualification — but the institution is immediately weaker because the appointee lacks the competence to manage a complex technical operation.
 
 The Municipal Systems Amendment Act of 2022 attempted to address this by preventing senior public officials from holding political office in political parties, requiring national advertising of vacant municipal manager posts, and barring the re-employment of officials dismissed for misconduct. These are important safeguards. But the Constitutional Court in April 2025 struck down the provision restricting municipal employees from holding political party positions, in a challenge brought by SAMWU. **The boundary between political and professional appointments remains contested — and as long as it remains contested, political considerations will continue to influence who runs municipalities.**
 
-The second cause is *salary competition*. Municipal salary scales cannot compete with the private sector for qualified technical professionals. **A water or wastewater engineer in municipal employment earns approximately R260,000 per year. A civil engineer in the private sector earns R650,000. A consulting engineer earns R970,000.** Municipal engineers earn roughly 40 per cent of what their private sector counterparts earn — and 27 per cent of consulting engineer salaries. The gap is structural: SAMWU's five-year wage agreement (2024-2029) delivers CPI plus 0.75 per cent annually, which maintains the real value of existing salaries but does not close the gap with the private sector. National government departments, which can offer somewhat higher salaries and more stable employment, also outcompete municipalities for technical talent.
+The second cause is _salary competition_. Municipal salary scales cannot compete with the private sector for qualified technical professionals. **A water or wastewater engineer in municipal employment earns approximately R260,000 per year. A civil engineer in the private sector earns R650,000. A consulting engineer earns R970,000.** Municipal engineers earn roughly 40 per cent of what their private sector counterparts earn — and 27 per cent of consulting engineer salaries. The gap is structural: SAMWU's five-year wage agreement (2024-2029) delivers CPI plus 0.75 per cent annually, which maintains the real value of existing salaries but does not close the gap with the private sector. National government departments, which can offer somewhat higher salaries and more stable employment, also outcompete municipalities for technical talent.
 
 The third cause is rural isolation. South Africa's most capability-constrained municipalities are rural local municipalities in the Eastern Cape, Limpopo, KwaZulu-Natal, and the North West — places where qualified professionals do not want to live. The household-to-staff ratio reveals the disparity: Tshwane has 40 households per municipal staff member, while Alfred Nzo district in the Eastern Cape has more than 150. But the staffing problem in rural areas is not just about volume — it is about type. Rural municipalities have large numbers of non-technical staff (general workers, administration, security) and almost no technical professionals. A rural municipality that advertises an engineering post may receive no qualified applicants — not because the salary is too low (though it is) but because no qualified engineer wants to live in a remote town with limited schools, healthcare, and career prospects.
 
-The fourth cause is *institutional instability*. Municipal manager employment contracts are fixed-term — a maximum of five years, not exceeding one year after the election of the new council. When a new council takes office after an election, senior managers know their contracts may not be renewed. In coalition municipalities, the instability is worse: changes in coalition composition can trigger changes in senior management, sometimes within months of appointment. **This instability deters qualified professionals who value career stability.** It also creates a rational disincentive to invest in long-term institutional building — why develop a five-year asset management plan when you may be replaced before you can implement it?
+The fourth cause is _institutional instability_. Municipal manager employment contracts are fixed-term — a maximum of five years, not exceeding one year after the election of the new council. When a new council takes office after an election, senior managers know their contracts may not be renewed. In coalition municipalities, the instability is worse: changes in coalition composition can trigger changes in senior management, sometimes within months of appointment. **This instability deters qualified professionals who value career stability.** It also creates a rational disincentive to invest in long-term institutional building — why develop a five-year asset management plan when you may be replaced before you can implement it?
 
 :::expert
 Research by the Dullah Omar Institute documented the municipal skills crisis in quantitative terms. Annual staff losses in engineering positions reached 4.7 per cent — the highest turnover of any municipal staffing category — with planning professionals at 3.6 per cent and ICT staff at 3.5 per cent. In a single reporting year (2018/19), departures exceeded new hires by at least 338 high-priority managers, 84 professionals, and 249 technicians. The Institute's analysis identified a fundamental mismatch: municipalities recruit from a shrinking pool of technical professionals, cannot match private sector salaries, offer limited career progression, and provide an institutional environment characterised by political interference and instability. The result is a permanent structural deficit in exactly the capabilities that municipal service delivery depends on.
@@ -78,7 +77,6 @@ Research by the Dullah Omar Institute documented the municipal skills crisis in 
 ## The Information Black Hole
 
 If capability is the first cross-cutting failure, information is the second. A municipality cannot manage what it cannot measure. And across South Africa's 257 municipalities, the information systems that should enable management, accountability, and oversight are fragmented, incomplete, or non-existent.
-
 
 ![Most municipalities cannot produce real-time performance data on their own functions | Photo by Chris Liverani on Unsplash](/images/articles/ra-4-4-building-municipal-capability/img-2.webp)
 
@@ -90,7 +88,7 @@ Municipal performance management systems are supposed to track whether the munic
 
 The information failure has a specific consequence for democratic accountability. Councillors are the elected representatives who are supposed to hold the municipal administration accountable on behalf of citizens. But research published in the Journal of Local Government Research and Innovation found that councillors are "relatively ill-prepared" to conduct oversight — they lack technical knowledge regarding planning frameworks, budgeting processes, and bylaw content. They cannot interpret financial data. They cannot evaluate performance reports. They approve budgets they do not fully understand. They oversee departments whose operations are opaque to them.
 
-This is not a criticism of individual councillors. It is a structural condition. **The municipal institutional architecture places democratic oversight responsibility on part-time elected officials who receive limited training and limited access to the independent technical advice that would enable them to do their jobs.** When the only source of information is the administration itself, and the administration has every incentive to present a positive picture, *oversight becomes a ritual rather than a function.*
+This is not a criticism of individual councillors. It is a structural condition. **The municipal institutional architecture places democratic oversight responsibility on part-time elected officials who receive limited training and limited access to the independent technical advice that would enable them to do their jobs.** When the only source of information is the administration itself, and the administration has every incentive to present a positive picture, _oversight becomes a ritual rather than a function._
 
 :::takeaway
 The information black hole has two dimensions. First, municipalities lack the operational data systems — asset registers, performance monitoring, real-time dashboards — needed to manage their own operations. Second, the information that does exist is filtered through management before it reaches councillors, the AG, or the public, creating a structural condition where oversight bodies cannot see what is actually happening. The capability deficit and the information deficit are mutually reinforcing: you need capable people to build information systems, and you need information systems to identify where capable people are most needed.
@@ -140,10 +138,9 @@ The Public Affairs Research Institute's COMPACT project, reporting in November 2
 
 ### Protected Technical Appointments
 
-
 ![A working reform invests in a permanent municipal cadre with portable qualifications and protected tenure | Photo by Olek Buzunov on Unsplash](/images/articles/ra-4-4-building-municipal-capability/img-3.webp)
 
-The most critical reform is *structural separation of technical appointments from political appointments*. The current system allows political authority (the council) to appoint all senior managers, including the technical professionals (engineers, CFOs, planners) whose qualifications and competence determine whether services function. The reform requires:
+The most critical reform is _structural separation of technical appointments from political appointments_. The current system allows political authority (the council) to appoint all senior managers, including the technical professionals (engineers, CFOs, planners) whose qualifications and competence determine whether services function. The reform requires:
 
 A binding classification of municipal posts into two categories: **executive positions** (municipal manager, deputy municipal manager) that are appointed by the council and serve fixed terms aligned with the electoral cycle; and **technical positions** (CFO, director of engineering/infrastructure, director of community services, technical directors for water/electricity/waste/roads) that are appointed through an independent professional appointment process.
 
@@ -245,19 +242,19 @@ As discussed in [Municipal Councils](/articles/3-3-municipal-councils) and [The 
 
 The analysis in this article draws on the following institutional research and publications:
 
-- Auditor-General of South Africa, *MFMA 2023/24 Audit Outcomes* — [agsa.co.za](https://www.agsa.co.za)
-- Zondo Commission of Inquiry into State Capture, *Final Report: Cadre Deployment* — [statecapture.org.za](https://www.statecapture.org.za)
-- Republic of South Africa, *Municipal Systems Amendment Act* (3 of 2022)
-- Republic of South Africa, *Municipal Finance Management Act* (56 of 2003)
-- National Treasury, *Regulations on Minimum Competency Levels* — Gazette 41996 of 2018
-- Cabinet, *Framework for the Professionalisation of the Public Sector* — 2024
-- Public Service Commission, *Public Service Reforms Towards Professionalisation* — 2024 — [psc.gov.za](https://www.psc.gov.za)
-- Dullah Omar Institute, *Skills Mismatch in South African Local Government* — Local Government Bulletin, Volume 15 Issue 4, December 2020
-- LGSETA, *Feasibility Study on Shared Services in Local Government* — 2022-2023 — [lgseta.org.za](https://www.lgseta.org.za)
-- LGSETA, *Research Report on Municipal Oversight* — 2022-2023 — [lgseta.org.za](https://www.lgseta.org.za)
-- Institute for Security Studies, *Organised Corruption: A New Threat to South Africa's Municipalities* — [issafrica.org](https://issafrica.org)
-- PARI, *COMPACT Consolidated Technical Findings Report* — November 2024 — [pari.org.za](https://www.pari.org.za)
-- Institute of Municipal Engineering of Southern Africa, *Technical Staffing Analysis* — February 2026
-- DCoG, *Annual Performance Plan 2024/25* — [cogta.gov.za](https://www.cogta.gov.za)
+- Auditor-General of South Africa, _MFMA 2023/24 Audit Outcomes_ — [agsa.co.za](https://www.agsa.co.za)
+- Zondo Commission of Inquiry into State Capture, _Final Report: Cadre Deployment_ — [statecapture.org.za](https://www.statecapture.org.za)
+- Republic of South Africa, _Municipal Systems Amendment Act_ (3 of 2022)
+- Republic of South Africa, _Municipal Finance Management Act_ (56 of 2003)
+- National Treasury, _Regulations on Minimum Competency Levels_ — Gazette 41996 of 2018
+- Cabinet, _Framework for the Professionalisation of the Public Sector_ — 2024
+- Public Service Commission, _Public Service Reforms Towards Professionalisation_ — 2024 — [psc.gov.za](https://www.psc.gov.za)
+- Dullah Omar Institute, _Skills Mismatch in South African Local Government_ — Local Government Bulletin, Volume 15 Issue 4, December 2020
+- LGSETA, _Feasibility Study on Shared Services in Local Government_ — 2022-2023 — [lgseta.org.za](https://www.lgseta.org.za)
+- LGSETA, _Research Report on Municipal Oversight_ — 2022-2023 — [lgseta.org.za](https://www.lgseta.org.za)
+- Institute for Security Studies, _Organised Corruption: A New Threat to South Africa's Municipalities_ — [issafrica.org](https://issafrica.org)
+- PARI, _COMPACT Consolidated Technical Findings Report_ — November 2024 — [pari.org.za](https://www.pari.org.za)
+- Institute of Municipal Engineering of Southern Africa, _Technical Staffing Analysis_ — February 2026
+- DCoG, _Annual Performance Plan 2024/25_ — [cogta.gov.za](https://www.cogta.gov.za)
 - SAMWU v Minister of COGTA — Constitutional Court of South Africa, April 2025 — [2025] ZACC 4
-- Operation Vulindlela Phase II, *Municipal Reform Programme* — launched May 2025
+- Operation Vulindlela Phase II, _Municipal Reform Programme_ — launched May 2025

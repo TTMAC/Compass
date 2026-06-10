@@ -47,7 +47,7 @@ The answer, as of now, is mixed. South Africa has genuine innovation pockets —
 
 ## What Innovation-Driven Growth Actually Means
 
-Michael Porter's competitive development framework, introduced in *The Competitive Advantage of Nations* (1990), identifies four stages through which national economies progress. Stage 1 is factor-driven growth, where competitiveness derives from natural resources and cheap labour — the stage covered in [Resource Optimisation](/articles/eg-2-1-resource-optimisation). Stage 2 is efficiency-driven growth, where competitiveness comes from superior production processes, better education, functioning institutions, and well-developed infrastructure — the stage covered in [The Efficiency Transition](/articles/eg-2-4-the-efficiency-transition). Stage 3 is innovation-driven growth, where competitiveness rests on the ability to produce innovative products and services at the global technology frontier using the most advanced methods.
+Michael Porter's competitive development framework, introduced in _The Competitive Advantage of Nations_ (1990), identifies four stages through which national economies progress. Stage 1 is factor-driven growth, where competitiveness derives from natural resources and cheap labour — the stage covered in [Resource Optimisation](/articles/eg-2-1-resource-optimisation). Stage 2 is efficiency-driven growth, where competitiveness comes from superior production processes, better education, functioning institutions, and well-developed infrastructure — the stage covered in [The Efficiency Transition](/articles/eg-2-4-the-efficiency-transition). Stage 3 is innovation-driven growth, where competitiveness rests on the ability to produce innovative products and services at the global technology frontier using the most advanced methods.
 
 The distinction matters because each stage requires fundamentally different capabilities and policies. In Stage 1, you compete by having something in the ground — platinum, coal, iron ore — and extracting it at reasonable cost. In Stage 2, you compete by doing things better than your competitors — manufacturing more efficiently, delivering services more reliably, educating workers more effectively. In Stage 3, you compete by doing things that nobody else is doing yet. You are not making existing products more cheaply; you are creating products and services that did not previously exist.
 
@@ -62,7 +62,6 @@ The timeline matters. Innovation-driven growth is a 20-to-30-year project. If So
 ## R&D Intensity: The Fundamental Metric
 
 Research and development intensity — measured as total R&D expenditure as a percentage of GDP — is the single most important input metric for innovation-driven growth. It is not sufficient on its own (you can spend money on R&D badly), but it is necessary. No country has achieved sustained innovation-driven growth with R&D intensity below 2% of GDP. The threshold for Stage 3 entry, based on the historical experience of countries that have made the transition, appears to be approximately 2.5% of GDP, with the most innovation-intensive economies spending 3% to 5%.
-
 
 ![Research spending as a share of GDP is the single best predictor of long-run innovation capacity | Photo by National Institute of Allergy and Infectious Diseases on Unsplash](/images/articles/eg-2-5-innovation-driven-growth/img-1.webp)
 
@@ -112,7 +111,6 @@ Venture capital is not charity for startups. It is the financial infrastructure 
 
 South Africa's research university system produces respectable output. The country consistently ranks first in Africa for scientific publications. Universities such as the University of Cape Town, Stellenbosch University, the University of the Witwatersrand, and the University of Pretoria maintain research programmes that are competitive by global standards in selected fields — astronomy, palaeontology, infectious disease, materials science, and several others. The Square Kilometre Array (SKA) telescope, being built in the Northern Cape with its operational headquarters in Cape Town, positions South Africa at the frontier of radio astronomy. The country's HIV/AIDS research programme, born of tragic necessity, has produced globally significant work in virology, epidemiology, and vaccine development.
 
-
 ![The link between university research and commercial product is where most innovation systems succeed or fail | Photo by Thorium on Unsplash](/images/articles/eg-2-5-innovation-driven-growth/img-2.webp)
 
 The problem is not the quality of research produced. The problem is the connection — or rather, the disconnection — between that research and commercial application. University technology transfer, the process by which research findings are converted into marketable products and services, remains weak and unsystematic in South Africa compared to leading innovation economies.
@@ -155,7 +153,6 @@ Patent output is a lagging indicator — it reflects investments made five to te
 
 The picture painted so far — low R&D intensity, nascent venture capital, weak technology transfer, modest patent output — is accurate at the system level. But it would be misleading to suggest that South Africa has no innovation capacity. Several sectors demonstrate genuine, globally competitive innovation capability, and understanding these pockets is important for two reasons: they show what is possible, and they suggest where Stage 3 capabilities might most naturally develop.
 
-
 ![Pockets of world-class innovation already exist in South African firms and research institutions | Photo by Hack Capital on Unsplash](/images/articles/eg-2-5-innovation-driven-growth/img-3.webp)
 
 **Fintech and digital financial services.** South Africa's financial services sector is, by some measures, the most sophisticated in the developing world. The Johannesburg Stock Exchange (JSE) is the largest in Africa and among the most advanced globally in terms of trading technology. South African banks were early adopters of mobile and digital banking. The country's fintech ecosystem has produced companies that operate across Africa and beyond, leveraging South Africa's combination of financial services expertise, technology talent, and understanding of emerging market conditions. Mobile payment systems, digital lending platforms, insurance technology (insurtech), and regulatory technology (regtech) are all areas where South African firms demonstrate genuine innovation — not merely copying Silicon Valley models but developing solutions adapted to the specific conditions of African markets.
@@ -187,7 +184,7 @@ This does not mean South Africa should pursue a militarised innovation strategy.
 :::expert
 Steve Blank's research on the secret history of Silicon Valley documents how United States defence and intelligence spending shaped the birth and growth of what became the world's most productive innovation ecosystem. The key mechanism was not direct commercialisation of military technology but the creation of a talent pipeline, institutional knowledge base, and university-industry infrastructure that subsequently enabled civilian innovation. Stanford University's transformation from a regional institution to a global research powerhouse was substantially funded by defence contracts. The semiconductor industry, the computing industry, and the internet all have roots in government-funded defence research. This history challenges the assumption that innovation ecosystems emerge purely from market forces — in practice, every major innovation economy has benefited from substantial, sustained government investment in research, often initially motivated by national security.
 
-**Source:** Steve Blank, *The Secret History of Silicon Valley*, lecture series and published research, available at steveblank.com/secret-history/
+**Source:** Steve Blank, _The Secret History of Silicon Valley_, lecture series and published research, available at steveblank.com/secret-history/
 :::
 
 ## The Political Challenge: Twenty-Year Investments in Five-Year Cycles

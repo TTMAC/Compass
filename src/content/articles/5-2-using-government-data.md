@@ -27,7 +27,7 @@ seo:
 
 ## The Data Exists — Nobody Drew You a Map
 
-In *Reading the Auditor-General's Reports*, you learned how to interpret the annual audit that tells you whether government managed its money properly. But the Auditor-General's reports are one source among many. South Africa's government publishes more data about its own performance, spending, and service delivery than almost any other country on the African continent — budgets, surveys, census results, quarterly expenditure figures, performance assessments, school registers, poverty statistics, and municipal financial reports. The data exists. It is public. Much of it is free to download.
+In _Reading the Auditor-General's Reports_, you learned how to interpret the annual audit that tells you whether government managed its money properly. But the Auditor-General's reports are one source among many. South Africa's government publishes more data about its own performance, spending, and service delivery than almost any other country on the African continent — budgets, surveys, census results, quarterly expenditure figures, performance assessments, school registers, poverty statistics, and municipal financial reports. The data exists. It is public. Much of it is free to download.
 
 ## The Library That Nobody Visits
 
@@ -37,8 +37,7 @@ This article is that map. It will walk you through the major government data sou
 
 ## National Treasury: Following the Rands and Cents
 
-You were introduced to National Treasury's budget documents in *Following the Money*. Here, we go deeper — not into the policy they contain, but into the data platforms that make them usable.
-
+You were introduced to National Treasury's budget documents in _Following the Money_. Here, we go deeper — not into the policy they contain, but into the data platforms that make them usable.
 
 ![Treasury publishes detailed budget data that anyone can access and analyse | Photo by Luke Chesser on Unsplash](/images/articles/5-2-using-government-data/img-1.webp)
 
@@ -77,14 +76,13 @@ National Treasury publishes three layers of fiscal data: the raw budget document
 
 If National Treasury tells you how money is allocated and spent, Statistics South Africa (Stats SA) tells you what the country actually looks like — how many people live where, what they earn, whether they have water and electricity, how many are employed, how much prices have risen, and how poverty is changing over time. Stats SA is the national statistics agency, established under the Statistics Act 6 of 1999, and its data underpins virtually every policy debate in South Africa.
 
-
 ![Stats SA surveys and censuses provide the baseline data for policy decisions | Photo by Luis Quintero on Unsplash](/images/articles/5-2-using-government-data/img-2.webp)
 
 ### The Census and Community Survey
 
 The census is the most comprehensive data collection exercise the government undertakes. Census 2022 — the first to be conducted digitally — **counted a total population of 62,027,503**, up from 51.8 million in 2011. Census data is published at [census.statssa.gov.za](https://census.statssa.gov.za) and provides demographic, social, and economic data at national, provincial, municipal, and ward level.
 
-Between census years, Stats SA conducts a Community Survey — a large-sample household survey that provides intercensal demographic and socioeconomic data. The most recent Community Survey was conducted in 2016. Together, the census and Community Survey provide the baseline population data that the equitable share formulas described in *Following the Money* use to allocate billions of rand across provinces and municipalities. When you read that KwaZulu-Natal receives a larger share of the provincial equitable share than the Western Cape, the reason traces back to the population data that Stats SA collected.
+Between census years, Stats SA conducts a Community Survey — a large-sample household survey that provides intercensal demographic and socioeconomic data. The most recent Community Survey was conducted in 2016. Together, the census and Community Survey provide the baseline population data that the equitable share formulas described in _Following the Money_ use to allocate billions of rand across provinces and municipalities. When you read that KwaZulu-Natal receives a larger share of the provincial equitable share than the Western Cape, the reason traces back to the population data that Stats SA collected.
 
 ### Household Surveys: The Pulse of the Nation
 
@@ -98,7 +96,7 @@ Stats SA conducts several recurring household surveys that measure living condit
 
 ### Poverty Data: Who Is Poor, and How Do We Know?
 
-Stats SA publishes national poverty lines using an internationally recognised cost-of-basic-needs methodology. There are three poverty lines: the food poverty line (the amount needed to purchase enough food for adequate nutrition), the lower-bound poverty line (food plus essential non-food items), and the upper-bound poverty line (food plus a broader range of non-food items). The poverty lines are updated annually to account for price changes. Stats SA's *Poverty Trends in South Africa* reports — which track poverty rates over time, disaggregated by province, gender, age, and geographic type — are among the most important publications for understanding whether the country's social policies are achieving their stated goals.
+Stats SA publishes national poverty lines using an internationally recognised cost-of-basic-needs methodology. There are three poverty lines: the food poverty line (the amount needed to purchase enough food for adequate nutrition), the lower-bound poverty line (food plus essential non-food items), and the upper-bound poverty line (food plus a broader range of non-food items). The poverty lines are updated annually to account for price changes. Stats SA's _Poverty Trends in South Africa_ reports — which track poverty rates over time, disaggregated by province, gender, age, and geographic type — are among the most important publications for understanding whether the country's social policies are achieving their stated goals.
 
 ### The Consumer Price Index and GDP
 
@@ -144,14 +142,13 @@ APPs are available on departmental websites and through the Parliamentary Monito
 
 The Parliamentary Monitoring Group (PMG) at [pmg.org.za](https://pmg.org.za) is not a government institution — it is an independent civil society organisation that monitors and documents the proceedings of every parliamentary committee. But it is so essential to government accountability that no article about using government data would be complete without it.
 
-
 ![PMG records and publishes detailed minutes of every parliamentary committee meeting | Photo by Luke Chesser on Unsplash](/images/articles/5-2-using-government-data/img-3.webp)
 
 PMG maintains monitors who attend every committee meeting (except the Intelligence Committee, which is closed), record the proceedings, and publish detailed unofficial minutes within three working days. **Since 1998, PMG has built the most comprehensive public archive of parliamentary committee activity in South Africa.** The archive includes meeting minutes, tabled documents, public submissions, working drafts of bills, departmental briefings, questions to ministers and their written responses, and MP attendance records.
 
 For citizens, PMG answers questions that no other source can. Did the parliamentary health committee actually interrogate the Department of Health on its audit findings? What did the director-general commit to in response? Which MPs were present, and which were absent? Has the department appeared before the committee again to report on progress? PMG documents all of this, creating an accountability trail that connects audit findings to parliamentary action — or parliamentary inaction.
 
-PMG also publishes weekly bill status reports, tracking every piece of legislation through the parliamentary process. If you made a public submission on a bill (using the skills from *Making Public Submissions*), PMG tells you what happened next: whether the committee considered your submission, whether the bill was amended, and when it is scheduled for a vote.
+PMG also publishes weekly bill status reports, tracking every piece of legislation through the parliamentary process. If you made a public submission on a bill (using the skills from _Making Public Submissions_), PMG tells you what happened next: whether the committee considered your submission, whether the bill was amended, and when it is scheduled for a vote.
 
 Most PMG content is freely accessible. Some premium features may require a subscription, but the core archive of committee meeting reports, tabled documents, and legislation tracking is available to all.
 
@@ -178,7 +175,7 @@ PAIA covers both public bodies (government departments, municipalities, public e
 
 Oversight of PAIA was originally the responsibility of the South African Human Rights Commission (SAHRC). That function has since been transferred to the Information Regulator — an independent body established under the Protection of Personal Information Act (POPIA) that now has a dual mandate covering both data protection and access to information. The Information Regulator's website at [inforegulator.org.za](https://inforegulator.org.za) provides PAIA forms, guidelines, and information about enforcement actions.
 
-The SAHRC continues to play a monitoring and education role. Its *Guide on How to Use the Promotion of Access to Information Act* — available at [sahrc.org.za](https://www.sahrc.org.za/index.php/understanding-paia) — remains one of the most accessible introductions to the PAIA process for citizens who have never filed a request.
+The SAHRC continues to play a monitoring and education role. Its _Guide on How to Use the Promotion of Access to Information Act_ — available at [sahrc.org.za](https://www.sahrc.org.za/index.php/understanding-paia) — remains one of the most accessible introductions to the PAIA process for citizens who have never filed a request.
 
 ### The Reality of PAIA in Practice
 
@@ -231,7 +228,7 @@ The Open Data South Africa Toolkit at [opendataza.gitbook.io/toolkit](https://op
 :::expert
 South Africa's open data landscape illustrates a pattern that the Open Government Partnership's Independent Reporting Mechanism has documented across multiple countries: the data exists, but the bridge between publication and use remains fragile. South Africa is a founding member of the Open Government Partnership (since 2011) and is currently implementing its 5th National Action Plan (2024–2026), which includes specific commitments on fiscal transparency through Vulekamali and the Municipal Money portal, and on developing a citizen-oriented open data framework through the CSIR's Centre for the Fourth Industrial Revolution. Yet the IRM's evaluation has found that use of government data remains limited, with low citizen awareness of what data is available. The critical insight from the OGP experience is that publishing data is necessary but not sufficient. Data intermediaries — the Wazimaps, the Municipal Moneys, the PMGs — perform the translation function that makes government data usable. When these intermediaries are well-funded and technically capable, open data produces accountability outcomes. When they are not, the data sits on government servers, technically public but practically invisible. The 2024–2026 Action Plan's emphasis on building citizen data literacy and engaging "data champions" in targeted municipalities reflects a hard-won recognition that supply-side publication must be matched by demand-side capacity.
 
-**Source:** Open Government Partnership, *South Africa Action Plan 2024–2026* and IRM assessment reports, available at [opengovpartnership.org/members/south-africa](https://www.opengovpartnership.org/members/south-africa/)
+**Source:** Open Government Partnership, _South Africa Action Plan 2024–2026_ and IRM assessment reports, available at [opengovpartnership.org/members/south-africa](https://www.opengovpartnership.org/members/south-africa/)
 :::
 
 ## When Citizens Use the Data: Four Worked Examples
@@ -250,7 +247,7 @@ The Public Service Accountability Monitor (PSAM) at Rhodes University has monito
 
 ### The Textbook Crisis
 
-In *Section27 and Others v Minister of Basic Education and Others* (North Gauteng High Court, 2012), **the public-interest law centre Section27 used government data to secure a court order compelling the Limpopo provincial government to deliver outstanding textbooks to schools.** The Limpopo textbook crisis was documented through delivery records, procurement data, and departmental performance reports — all government data — that demonstrated the province had failed to deliver textbooks months into the school year. The court order, handed down by Judge Jody Kollapen, established that the right to basic education includes the right to textbooks and that failure to deliver them violates the Constitution. The data trail was essential: without documented evidence of non-delivery, the case could not have been brought.
+In _Section27 and Others v Minister of Basic Education and Others_ (North Gauteng High Court, 2012), **the public-interest law centre Section27 used government data to secure a court order compelling the Limpopo provincial government to deliver outstanding textbooks to schools.** The Limpopo textbook crisis was documented through delivery records, procurement data, and departmental performance reports — all government data — that demonstrated the province had failed to deliver textbooks months into the school year. The court order, handed down by Judge Jody Kollapen, established that the right to basic education includes the right to textbooks and that failure to deliver them violates the Constitution. The data trail was essential: without documented evidence of non-delivery, the case could not have been brought.
 
 ### Tracking Corruption at Scale
 
@@ -289,7 +286,7 @@ Always check whether the figures you are comparing are in nominal or real terms.
 
 **Step 5: Act on what you find**
 
-Data without action is information without purpose. Use your findings to write a public submission (as described in *Making Public Submissions*), attend a municipal IDP review process, contact your ward councillor with specific evidence, file a complaint with the relevant oversight body, or share your analysis with a civil society organisation that works on the relevant issue. The goal is not to become a data analyst. The goal is to become a citizen whose claims are grounded in evidence rather than anecdote.
+Data without action is information without purpose. Use your findings to write a public submission (as described in _Making Public Submissions_), attend a municipal IDP review process, contact your ward councillor with specific evidence, file a complaint with the relevant oversight body, or share your analysis with a civil society organisation that works on the relevant issue. The goal is not to become a data analyst. The goal is to become a citizen whose claims are grounded in evidence rather than anecdote.
 
 **Where to find the data — a quick reference:**
 
@@ -306,7 +303,7 @@ Data without action is information without purpose. Use your findings to write a
 - Open data resource index: [opendataza.gitbook.io/toolkit](https://opendataza.gitbook.io/toolkit)
 - PAIA request forms: [inforegulator.org.za/paia-forms](https://inforegulator.org.za/paia-forms/)
 - PAIA guidance: [sahrc.org.za](https://www.sahrc.org.za/index.php/understanding-paia)
-:::
+  :::
 
 :::framework
 **The Evidence Chain Builder**
@@ -340,7 +337,7 @@ By building evidence chains from publicly available data, you transform governan
 
 You now have a map of South Africa's government data landscape — the fiscal data from National Treasury, the demographic and social data from Stats SA, the performance assessments from DPME, the parliamentary record from PMG, the right to request unpublished records through PAIA, the municipal planning documents that set local targets, and the intermediary platforms that translate all of this into formats citizens can use. You have seen how civil society organisations have used this data to achieve concrete accountability outcomes — from binding school infrastructure standards to court orders on textbook delivery to measurable improvements in provincial financial management.
 
-In *Becoming an Active Citizen*, the final article in this series, we bring everything together. The architecture of the state, the flow of money, the participation rights, the audit findings, and the data sources — all of it converges in a practical framework for sustained civic engagement. Not engagement as a one-off act — attending a single public hearing, reading a single audit report — but engagement as a practice: a recurring, evidence-based, institutionally grounded way of relating to the government that spends your money and delivers your services.
+In _Becoming an Active Citizen_, the final article in this series, we bring everything together. The architecture of the state, the flow of money, the participation rights, the audit findings, and the data sources — all of it converges in a practical framework for sustained civic engagement. Not engagement as a one-off act — attending a single public hearing, reading a single audit report — but engagement as a practice: a recurring, evidence-based, institutionally grounded way of relating to the government that spends your money and delivers your services.
 
 The data is public. The platforms are accessible. The right to information is constitutional. What remains is the decision to use them — and the confidence that comes from knowing where to look. That confidence is what this article was designed to give you.
 

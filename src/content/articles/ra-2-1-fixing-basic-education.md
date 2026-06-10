@@ -41,8 +41,7 @@ Basic education touches more South Africans more directly than any other governm
 
 ## The Education Value Chain
 
-In the 2023 National Senior Certificate examinations, the national pass rate was 82.9 per cent. That figure sounds respectable until you examine what it conceals. **The pass threshold for a subject is 30 per cent** — a level that would constitute failure in most education systems globally. **Only 37.5 per cent of candidates achieved a bachelor's pass** — the minimum requirement for university entrance. The Progress in International Reading Literacy Study (PIRLS) has consistently shown that *roughly 81 per cent of South African Grade 4 learners cannot read for meaning*. In TIMSS 2019 — the most recent cycle for which South African results are available at the time of writing — South African Grade 5 learners scored an average of 374 in mathematics, against an international centre point of 500. These outcomes are not the result of insufficient money. **They are the result of a broken delivery chain.**
-
+In the 2023 National Senior Certificate examinations, the national pass rate was 82.9 per cent. That figure sounds respectable until you examine what it conceals. **The pass threshold for a subject is 30 per cent** — a level that would constitute failure in most education systems globally. **Only 37.5 per cent of candidates achieved a bachelor's pass** — the minimum requirement for university entrance. The Progress in International Reading Literacy Study (PIRLS) has consistently shown that _roughly 81 per cent of South African Grade 4 learners cannot read for meaning_. In TIMSS 2019 — the most recent cycle for which South African results are available at the time of writing — South African Grade 5 learners scored an average of 374 in mathematics, against an international centre point of 500. These outcomes are not the result of insufficient money. **They are the result of a broken delivery chain.**
 
 ![Basic education is delivered through a chain that runs from national policy through provincial departments to the classroom | Photo by Vida Huang on Unsplash](/images/articles/ra-2-1-fixing-basic-education/img-1.webp)
 
@@ -96,7 +95,7 @@ The 30-day authority test reveals the depth of the problem. Take a concrete scen
 
 The MEC cannot offer higher salaries to attract qualified teachers — salary scales are determined nationally through the ELRC. The MEC cannot recruit teachers outside of the post provisioning model — teacher allocation follows national norms. The MEC cannot change the incentive structures for rural or difficult schools — those structures are determined by national policy. The MEC cannot procure additional textbooks or learning materials outside the provincial procurement process — which typically takes months. The MEC cannot restructure the district office to improve support — organisational design changes require consultation processes that extend over months or years. The MEC cannot dismiss a district director who has failed to support schools effectively — the disciplinary process, governed by the Public Service Act and collective agreements, is lengthy and procedurally complex.
 
-What can the MEC do within 30 days? The MEC can issue a directive. The MEC can convene a meeting. The MEC can announce a plan. **But the MEC cannot execute a material operational change within 30 days using only provincial authority.** This is the *authority deficit* that the RAARICLE™ framework identifies as the most critical structural flaw in South African governance — and in education, it is severe.
+What can the MEC do within 30 days? The MEC can issue a directive. The MEC can convene a meeting. The MEC can announce a plan. **But the MEC cannot execute a material operational change within 30 days using only provincial authority.** This is the _authority deficit_ that the RAARICLE™ framework identifies as the most critical structural flaw in South African governance — and in education, it is severe.
 
 ### Resources — Rating: 3 (Moderate Tension)
 
@@ -120,7 +119,7 @@ The information deficit is most severe where it matters most: in the poorest, mo
 
 The capability crisis in education operates at three levels: teacher capability, district support capability, and institutional management capability.
 
-At the teacher level, South Africa has approximately 440,000 teachers in public schools. The quantity is broadly sufficient — but the quality and distribution are not. **There is a persistent shortage of qualified teachers in mathematics, physical sciences, technology, and languages** (particularly in African languages at senior phase). Rural and township schools struggle to attract and retain qualified teachers because the employment framework does not allow schools or provinces to offer meaningful incentives for difficult postings. *The national salary scale is uniform* — a mathematics teacher in a Johannesburg suburban school earns the same as a mathematics teacher in a remote Limpopo village, despite vastly different living costs and working conditions.
+At the teacher level, South Africa has approximately 440,000 teachers in public schools. The quantity is broadly sufficient — but the quality and distribution are not. **There is a persistent shortage of qualified teachers in mathematics, physical sciences, technology, and languages** (particularly in African languages at senior phase). Rural and township schools struggle to attract and retain qualified teachers because the employment framework does not allow schools or provinces to offer meaningful incentives for difficult postings. _The national salary scale is uniform_ — a mathematics teacher in a Johannesburg suburban school earns the same as a mathematics teacher in a remote Limpopo village, despite vastly different living costs and working conditions.
 
 At the district level, subject advisor vacancies are a chronic problem. A district that lacks a mathematics subject advisor cannot provide specialist support to mathematics teachers across dozens of schools. Circuit managers are often responsible for more schools than they can meaningfully support — some circuits encompass 30 or more schools spread across vast rural geographies. The district office is supposed to be the critical support mechanism that translates policy into practice, but in many districts, it lacks the human resources to fulfil this function.
 
@@ -144,7 +143,7 @@ Enforcement is the weakest element in education governance and arguably the most
 
 Section 100 of the Constitution empowers national government to intervene when a province "cannot or does not fulfil" a constitutional obligation. Section 100 has been invoked in education — most notably in Limpopo in 2012, when the national government placed the provincial education department under administration after a textbook delivery crisis left hundreds of thousands of learners without learning materials. But the Limpopo intervention demonstrated the limitations of Section 100 as an enforcement mechanism. The intervention was politically contentious, legally challenged, operationally disruptive, and ultimately temporary. When the intervention ended, many of the structural problems that caused the crisis remained.
 
-**There are no automatic triggers in education governance.** There is no provision that says "if a province's matric pass rate falls below X per cent for three consecutive years, the following corrective measures are automatically activated." There is no automatic consequence for persistent underspending of infrastructure grants. There is no mandatory intervention when a district's literacy assessments show that 80 per cent of learners cannot read for meaning. *Enforcement depends entirely on political will — and political will is, by definition, discretionary.*
+**There are no automatic triggers in education governance.** There is no provision that says "if a province's matric pass rate falls below X per cent for three consecutive years, the following corrective measures are automatically activated." There is no automatic consequence for persistent underspending of infrastructure grants. There is no mandatory intervention when a district's literacy assessments show that 80 per cent of learners cannot read for meaning. _Enforcement depends entirely on political will — and political will is, by definition, discretionary._
 
 :::takeaway
 Education governance scores a 1 on enforcement — critical failure. The system can identify failing provinces, failing districts, and failing schools. It publishes the data annually. But it has no mechanism for automatically converting identified failure into mandatory corrective action. Reports are written. Concern is expressed. And the children who cannot read remain unable to read.
@@ -154,7 +153,6 @@ Education governance scores a 1 on enforcement — critical failure. The system 
 
 The RAARICLE™ diagnosis reveals education's primary failure pattern: **cross-sphere misalignment**. The pattern identified in [Why South Africa's Institutions Keep Failing](/articles/ra-1-2-why-institutions-fail) as Pattern 2 — the wrong entity holds the wrong element — is the dominant structural flaw in basic education governance.
 
-
 ![The root cause is structural: accountability sits with provinces while the authority to act sits in national policy | Photo by Andy Feliciotti on Unsplash](/images/articles/ra-2-1-fixing-basic-education/img-2.webp)
 
 Authority sits primarily at the national level. DBE controls the curriculum. The ELRC controls salary bargaining. The Employment of Educators Act sets employment conditions. National Treasury controls the conditional grant framework. These are not peripheral inputs — they are the critical levers that determine whether education succeeds or fails.
@@ -163,14 +161,13 @@ Delivery sits at the provincial level. Provincial departments employ the teacher
 
 Accountability is split. The provincial MEC is politically accountable for matric results and educational outcomes. But the national Minister of Basic Education is accountable for curriculum, policy, and the employment framework. **Neither entity bears full accountability because neither entity controls the full system.**
 
-This misalignment produces the *accountability theatre* described in [The Eight Tests](/articles/ra-1-1-eight-tests) — a system where accountability is assigned but not genuine, because the entity that is accountable lacks the authority to deliver. The provincial MEC can be blamed for poor results, but the MEC cannot fix the underlying causes because the levers of control sit at the national level.
+This misalignment produces the _accountability theatre_ described in [The Eight Tests](/articles/ra-1-1-eight-tests) — a system where accountability is assigned but not genuine, because the entity that is accountable lacks the authority to deliver. The provincial MEC can be blamed for poor results, but the MEC cannot fix the underlying causes because the levers of control sit at the national level.
 
 The misalignment is compounded by fragmentation (too many entities in the value chain), absence (no automatic enforcement), and, in some provinces, capture (political deployment of unqualified district directors and school principals). But the primary pattern — the one that, if fixed, would create the conditions for addressing the others — is misalignment. Co-locating authority with accountability is the structural reform that education requires.
 
 ## The Reform Blueprint
 
 The diagnosis points to a clear structural prescription: authority must be co-located with accountability. The entity that is accountable for educational outcomes must control the inputs that determine those outcomes. There are three possible approaches, and each must be evaluated against all eight RAARICLE™ tests.
-
 
 ![A working reform realigns authority and accountability so the entity answering for results can also act on them | Photo by maks_d on Unsplash](/images/articles/ra-2-1-fixing-basic-education/img-3.webp)
 
@@ -298,13 +295,13 @@ The reform outlined in this article is ambitious but structurally necessary. **S
 
 The analysis in this article draws on the following institutional research and publications:
 
-- Department of Basic Education (2024). *2023 National Senior Certificate Examination Report* — matric pass rates, bachelor pass rates, provincial performance — [education.gov.za](https://www.education.gov.za)
-- Department of Basic Education. *Annual Survey of Schools* and *Annual Report* — school infrastructure data, teacher statistics, district performance — [education.gov.za](https://www.education.gov.za)
-- Auditor-General of South Africa (2023). *PFMA Consolidated General Report 2022/23* — provincial education department audit outcomes, infrastructure grant expenditure — [agsa.co.za](https://www.agsa.co.za)
-- National Treasury (2024). *2024 Budget Review* and *Division of Revenue Bill 2024/25* — education funding allocations, Education Infrastructure Grant, equitable share — [treasury.gov.za](https://www.treasury.gov.za)
-- Department of Planning, Monitoring and Evaluation. *Education performance assessments* — provincial outcome indicators, management performance reviews — [dpme.gov.za](https://www.dpme.gov.za)
+- Department of Basic Education (2024). _2023 National Senior Certificate Examination Report_ — matric pass rates, bachelor pass rates, provincial performance — [education.gov.za](https://www.education.gov.za)
+- Department of Basic Education. _Annual Survey of Schools_ and _Annual Report_ — school infrastructure data, teacher statistics, district performance — [education.gov.za](https://www.education.gov.za)
+- Auditor-General of South Africa (2023). _PFMA Consolidated General Report 2022/23_ — provincial education department audit outcomes, infrastructure grant expenditure — [agsa.co.za](https://www.agsa.co.za)
+- National Treasury (2024). _2024 Budget Review_ and _Division of Revenue Bill 2024/25_ — education funding allocations, Education Infrastructure Grant, equitable share — [treasury.gov.za](https://www.treasury.gov.za)
+- Department of Planning, Monitoring and Evaluation. _Education performance assessments_ — provincial outcome indicators, management performance reviews — [dpme.gov.za](https://www.dpme.gov.za)
 - Progress in International Reading Literacy Study (PIRLS). South African learner literacy data — [iea.nl](https://www.iea.nl)
 - Trends in International Mathematics and Science Study (TIMSS). South African learner performance data — [iea.nl](https://www.iea.nl)
-- Organisation for Economic Co-operation and Development (2023). *Education Governance in Decentralised Systems* — comparative analysis of centralisation vs. devolution in education — [oecd.org](https://www.oecd.org)
-- South African Institution of Civil Engineering (2022). *Infrastructure Report Card* — school infrastructure condition assessment — [saice.org.za](https://www.saice.org.za)
+- Organisation for Economic Co-operation and Development (2023). _Education Governance in Decentralised Systems_ — comparative analysis of centralisation vs. devolution in education — [oecd.org](https://www.oecd.org)
+- South African Institution of Civil Engineering (2022). _Infrastructure Report Card_ — school infrastructure condition assessment — [saice.org.za](https://www.saice.org.za)
 - Constitution of the Republic of South Africa, 1996, Sections 29 (right to education), 100 (national intervention in provinces), Schedule 4 (concurrent functions) — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)

@@ -3,7 +3,12 @@ interface ArticleData {
   subtitle: string;
   part: number;
   articleNumber: string;
-  sphere: "national" | "provincial" | "municipal" | "all" | ("national" | "provincial" | "municipal" | "all")[];
+  sphere:
+    | "national"
+    | "provincial"
+    | "municipal"
+    | "all"
+    | ("national" | "provincial" | "municipal" | "all")[];
   description: string;
   publishDate: Date | string;
   scheduledPublishDate?: Date | string;

@@ -6,12 +6,12 @@
 
 ---
 
-| Field | Detail |
-|-------|--------|
-| **Document Owner** | Tshepo Machele |
-| **Version** | 1.0 |
-| **Date** | 17 February 2026 |
-| **Derived From** | MRD v0.1, PRD v0.1, UXD v0.1 |
+| Field              | Detail                       |
+| ------------------ | ---------------------------- |
+| **Document Owner** | Tshepo Machele               |
+| **Version**        | 1.0                          |
+| **Date**           | 17 February 2026             |
+| **Derived From**   | MRD v0.1, PRD v0.1, UXD v0.1 |
 
 ---
 
@@ -39,11 +39,11 @@ They are not apathetic. They are uninformed and underserved. This distinction is
 
 Our reader struggles most in three recurring moments, and every piece of content should help with at least one of them:
 
-| Struggling Moment | What the Reader Needs |
-|---|---|
-| **"Who do I blame?"** — A service fails and they cannot identify the responsible sphere of government. | A clear mental model for tracing accountability: is this national, provincial, or municipal? |
-| **"Election decision"** — An election approaches and they have no framework for evaluating incumbent performance. | Access to performance data and the knowledge to interpret it — audit outcomes, spending patterns, service delivery metrics. |
-| **"Is this normal?"** — They encounter a failure and cannot tell whether it reflects systemic dysfunction or an isolated incident. | Benchmarks and context: what does a well-run municipality look like vs. one in financial distress? |
+| Struggling Moment                                                                                                                  | What the Reader Needs                                                                                                       |
+| ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **"Who do I blame?"** — A service fails and they cannot identify the responsible sphere of government.                             | A clear mental model for tracing accountability: is this national, provincial, or municipal?                                |
+| **"Election decision"** — An election approaches and they have no framework for evaluating incumbent performance.                  | Access to performance data and the knowledge to interpret it — audit outcomes, spending patterns, service delivery metrics. |
+| **"Is this normal?"** — They encounter a failure and cannot tell whether it reflects systemic dysfunction or an isolated incident. | Benchmarks and context: what does a well-run municipality look like vs. one in financial distress?                          |
 
 ### 2.3 What Our Reader Is Not
 
@@ -55,12 +55,12 @@ Our reader is not an academic, a policy professional, a journalist, or a governa
 
 Every sentence must reflect these five brand attributes. They are not aspirational — they are constraints. If a piece of content violates any of them, it does not publish.
 
-| Attribute | What It Means for Content |
-|---|---|
-| **Trustworthy** | Sources are always visible and linked. Claims are anchored in data. No speculation presented as fact. No clickbait. No sensationalism. In a low-trust environment, trust is earned sentence by sentence. |
-| **Empowering** | The reader leaves with agency, not just knowledge. Every article ends with practical tools: a framework, a checklist, a data source, a complaint mechanism. We do not just explain — we equip. |
-| **Accessible** | Complex governance concepts made legible to intelligent non-experts. The O'Reilly register: conversational, specific, practical. Technical terms are explained on first use. Jargon is earned, never assumed. |
-| **Serious** | This is civic education, not entertainment. No gamification, no hype words, no emoji in article body text. The design and writing communicate that the content matters. |
+| Attribute        | What It Means for Content                                                                                                                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Trustworthy**  | Sources are always visible and linked. Claims are anchored in data. No speculation presented as fact. No clickbait. No sensationalism. In a low-trust environment, trust is earned sentence by sentence.            |
+| **Empowering**   | The reader leaves with agency, not just knowledge. Every article ends with practical tools: a framework, a checklist, a data source, a complaint mechanism. We do not just explain — we equip.                      |
+| **Accessible**   | Complex governance concepts made legible to intelligent non-experts. The O'Reilly register: conversational, specific, practical. Technical terms are explained on first use. Jargon is earned, never assumed.       |
+| **Serious**      | This is civic education, not entertainment. No gamification, no hype words, no emoji in article body text. The design and writing communicate that the content matters.                                             |
 | **Non-partisan** | Rigorously neutral. No party alignment, no editorial opinion on partisan questions. Data speaks; the reader decides. We report what the Auditor-General found — we do not editorialize about which party caused it. |
 
 ---
@@ -85,13 +85,13 @@ Think of the GovCompass voice as a knowledgeable friend who happens to be a gove
 
 ### 4.3 Tone by Context
 
-| Context | Tone | Example |
-|---|---|---|
-| **Article body** | Conversational, authoritative, direct | Here's how this affects you: when your water stops running, the first question is whether it's a bulk supply issue (national/water board) or a reticulation issue (your municipality). Here's how to tell the difference. |
-| **Success / completion** | Warm, genuine, understated | You now have the tools to look up your municipality's audit outcome and understand what it means. That puts you ahead of most people — including many elected officials. |
-| **Error / recovery** | Supportive, solution-focused | Something went wrong on our end. Please try again — and if it keeps happening, let us know at hello@govcompass.co.za. |
-| **Empty states** | Inviting, action-oriented | This article is coming soon. In the meantime, start with The Architecture of the State — it explains how South Africa's Constitution divides power. |
-| **Email notifications** | Respectful, brief, useful | Subject: "Following the Money — New on GovCompass." One-sentence hook plus direct article link. No marketing fluff. |
+| Context                  | Tone                                  | Example                                                                                                                                                                                                                   |
+| ------------------------ | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Article body**         | Conversational, authoritative, direct | Here's how this affects you: when your water stops running, the first question is whether it's a bulk supply issue (national/water board) or a reticulation issue (your municipality). Here's how to tell the difference. |
+| **Success / completion** | Warm, genuine, understated            | You now have the tools to look up your municipality's audit outcome and understand what it means. That puts you ahead of most people — including many elected officials.                                                  |
+| **Error / recovery**     | Supportive, solution-focused          | Something went wrong on our end. Please try again — and if it keeps happening, let us know at hello@govcompass.co.za.                                                                                                     |
+| **Empty states**         | Inviting, action-oriented             | This article is coming soon. In the meantime, start with The Architecture of the State — it explains how South Africa's Constitution divides power.                                                                       |
+| **Email notifications**  | Respectful, brief, useful             | Subject: "Following the Money — New on GovCompass." One-sentence hook plus direct article link. No marketing fluff.                                                                                                       |
 
 ---
 
@@ -165,38 +165,38 @@ Think of the GovCompass voice as a knowledgeable friend who happens to be a gove
 
 Use correct South African governance terminology consistently:
 
-| Term | Usage Note |
-|---|---|
-| **Spheres** (not tiers) | The Constitution deliberately chose "spheres" to imply equality, not hierarchy. Never use "tiers" or "levels" of government. |
+| Term                                              | Usage Note                                                                                                                        |
+| ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **Spheres** (not tiers)                           | The Constitution deliberately chose "spheres" to imply equality, not hierarchy. Never use "tiers" or "levels" of government.      |
 | **Municipality** (not council or local authority) | Use "municipality" for the institution. "Council" refers specifically to the elected body. "Local authority" is an outdated term. |
-| **MEC** (not minister) | Provincial political heads are Members of the Executive Council, not ministers. Reserve "minister" for national Cabinet members. |
-| **Ward councillor** | Two words, lower case unless referring to a specific named individual. |
-| **Equitable share** | Lower case. This is the constitutional term for the unconditional allocation to provinces and municipalities. |
-| **Conditional grant** | Lower case, unless referring to a specific named grant (e.g., the Municipal Infrastructure Grant). |
-| **Section 139 intervention** | Always include "of the Constitution" on first use in each article. |
-| **AGSA / Auditor-General** | Use the full title on first reference, then AGSA or "the Auditor-General" thereafter. |
-| **Chapter 9 institutions** | Capitalise "Chapter" when referring to the constitutional chapter. Lower case "institutions." |
-| **Clean audit / qualified / disclaimer** | Use AGSA's official audit outcome categories. Define each on first use. |
+| **MEC** (not minister)                            | Provincial political heads are Members of the Executive Council, not ministers. Reserve "minister" for national Cabinet members.  |
+| **Ward councillor**                               | Two words, lower case unless referring to a specific named individual.                                                            |
+| **Equitable share**                               | Lower case. This is the constitutional term for the unconditional allocation to provinces and municipalities.                     |
+| **Conditional grant**                             | Lower case, unless referring to a specific named grant (e.g., the Municipal Infrastructure Grant).                                |
+| **Section 139 intervention**                      | Always include "of the Constitution" on first use in each article.                                                                |
+| **AGSA / Auditor-General**                        | Use the full title on first reference, then AGSA or "the Auditor-General" thereafter.                                             |
+| **Chapter 9 institutions**                        | Capitalise "Chapter" when referring to the constitutional chapter. Lower case "institutions."                                     |
+| **Clean audit / qualified / disclaimer**          | Use AGSA's official audit outcome categories. Define each on first use.                                                           |
 
 ### 6.3 Abbreviations and Acronyms
 
 Spell out in full on first use in each article, followed by the abbreviation in parentheses. Use the abbreviation thereafter. Common abbreviations used across the series:
 
-| Abbreviation | Full Form |
-|---|---|
-| AGSA | Auditor-General of South Africa |
-| DORA | Division of Revenue Act |
-| DPME | Department of Planning, Monitoring and Evaluation |
-| FFC | Financial and Fiscal Commission |
-| FOSAD | Forum of South African Directors-General |
-| IDP | Integrated Development Plan |
-| MFMA | Municipal Finance Management Act |
-| MTSF | Medium-Term Strategic Framework |
-| NCOP | National Council of Provinces |
-| PAIA | Promotion of Access to Information Act |
-| PFMA | Public Finance Management Act |
-| SDBIP | Service Delivery and Budget Implementation Plan |
-| StatsSA | Statistics South Africa |
+| Abbreviation | Full Form                                         |
+| ------------ | ------------------------------------------------- |
+| AGSA         | Auditor-General of South Africa                   |
+| DORA         | Division of Revenue Act                           |
+| DPME         | Department of Planning, Monitoring and Evaluation |
+| FFC          | Financial and Fiscal Commission                   |
+| FOSAD        | Forum of South African Directors-General          |
+| IDP          | Integrated Development Plan                       |
+| MFMA         | Municipal Finance Management Act                  |
+| MTSF         | Medium-Term Strategic Framework                   |
+| NCOP         | National Council of Provinces                     |
+| PAIA         | Promotion of Access to Information Act            |
+| PFMA         | Public Finance Management Act                     |
+| SDBIP        | Service Delivery and Budget Implementation Plan   |
+| StatsSA      | Statistics South Africa                           |
 
 ---
 
@@ -204,28 +204,28 @@ Spell out in full on first use in each article, followed by the abbreviation in 
 
 ### 7.1 Banned Patterns
 
-| Pattern | Why It's Banned |
-|---|---|
-| **Bullet points in article prose** | Breaks the conversational register. Signals superficial treatment. Weave lists into flowing paragraphs instead. |
-| **Hype words** ("revolutionary," "game-changing," "groundbreaking") | Undermines trust and seriousness. Every word must earn its place. |
-| **Academic register** ("it is submitted that," "the aforementioned") | Alienates the target reader. Write for humans, not for a journal submission. |
-| **Corporate speak** ("stakeholder engagement," "synergies," "going forward") | Empty language that obscures meaning. Use plain words. |
-| **Emoji in article body text** | Undermines the "Serious" brand attribute. GovCompass is civic education, not social media content. |
-| **Passive voice as default** | Obscures who is doing what — which is exactly the problem GovCompass exists to solve. Name the actor. |
-| **Unsourced claims** | Destroys trust. Every substantive claim needs a source. |
-| **Partisan editorial opinion** | Destroys non-partisan positioning. Present data and let the reader draw conclusions. |
-| **Clickbait headlines or framing** | Undermines trust. Titles should be descriptive and accurate, not manipulative. |
-| **"Congratulations!" / "Well done!" / gamified language** | Patronising. The reader is an adult engaging in civic education, not a student collecting badges. |
-| **Addressing the reader as "the citizen" or "residents"** | Use "you." Always "you." The second person is mandatory. |
+| Pattern                                                                      | Why It's Banned                                                                                                 |
+| ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **Bullet points in article prose**                                           | Breaks the conversational register. Signals superficial treatment. Weave lists into flowing paragraphs instead. |
+| **Hype words** ("revolutionary," "game-changing," "groundbreaking")          | Undermines trust and seriousness. Every word must earn its place.                                               |
+| **Academic register** ("it is submitted that," "the aforementioned")         | Alienates the target reader. Write for humans, not for a journal submission.                                    |
+| **Corporate speak** ("stakeholder engagement," "synergies," "going forward") | Empty language that obscures meaning. Use plain words.                                                          |
+| **Emoji in article body text**                                               | Undermines the "Serious" brand attribute. GovCompass is civic education, not social media content.              |
+| **Passive voice as default**                                                 | Obscures who is doing what — which is exactly the problem GovCompass exists to solve. Name the actor.           |
+| **Unsourced claims**                                                         | Destroys trust. Every substantive claim needs a source.                                                         |
+| **Partisan editorial opinion**                                               | Destroys non-partisan positioning. Present data and let the reader draw conclusions.                            |
+| **Clickbait headlines or framing**                                           | Undermines trust. Titles should be descriptive and accurate, not manipulative.                                  |
+| **"Congratulations!" / "Well done!" / gamified language**                    | Patronising. The reader is an adult engaging in civic education, not a student collecting badges.               |
+| **Addressing the reader as "the citizen" or "residents"**                    | Use "you." Always "you." The second person is mandatory.                                                        |
 
 ### 7.2 Tone Anti-Patterns
 
-| Anti-Pattern | Why It Fails | What to Do Instead |
-|---|---|---|
-| **Lecturing** | Makes the reader feel small. Triggers the same "institution talking at me" reflex that kills trust. | Explain with them, not at them. "Let's walk through how this works" not "It is important to understand that." |
-| **Catastrophising** | Feeds cynicism instead of agency. If everything is broken, why bother engaging? | Be honest about failures but always point to leverage: what works, what data is available, where the citizen has power. |
-| **Both-sidesism** | Presenting a well-documented failure as "one perspective" is dishonest, not balanced. | Non-partisan means no party alignment. It does not mean pretending that a disclaimer audit and a clean audit are equivalent. |
-| **Jargon gatekeeping** | Using technical terms without explanation excludes the reader and signals "this isn't for you." | Define every technical term on first use. Treat jargon as a tool to give the reader, not a barrier to keep them out. |
+| Anti-Pattern           | Why It Fails                                                                                        | What to Do Instead                                                                                                           |
+| ---------------------- | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| **Lecturing**          | Makes the reader feel small. Triggers the same "institution talking at me" reflex that kills trust. | Explain with them, not at them. "Let's walk through how this works" not "It is important to understand that."                |
+| **Catastrophising**    | Feeds cynicism instead of agency. If everything is broken, why bother engaging?                     | Be honest about failures but always point to leverage: what works, what data is available, where the citizen has power.      |
+| **Both-sidesism**      | Presenting a well-documented failure as "one perspective" is dishonest, not balanced.               | Non-partisan means no party alignment. It does not mean pretending that a disclaimer audit and a clean audit are equivalent. |
+| **Jargon gatekeeping** | Using technical terms without explanation excludes the reader and signals "this isn't for you."     | Define every technical term on first use. Treat jargon as a tool to give the reader, not a barrier to keep them out.         |
 
 ---
 
@@ -233,14 +233,14 @@ Spell out in full on first use in each article, followed by the abbreviation in 
 
 Every GovCompass article follows this consistent structure. Deviations require explicit justification.
 
-| Section | Requirements |
-|---|---|
-| **Title** | Descriptive, accurate, and compelling. Format: "[Vivid Phrase] — [What the Article Actually Covers]." Example: "Following the Money — How South Africa's Intergovernmental Fiscal System Actually Works." No clickbait. No questions as titles. |
-| **Metadata line** | Reading time (calculated at word count ÷ 200 wpm), publish date, sphere tag (National / Provincial / Municipal / All Spheres), part number. |
-| **Bottom-line-up-front opening** | One to two paragraphs stating the article's core conclusion. The reader should know the main takeaway before scrolling further. |
-| **Body sections (H2/H3)** | Logically structured sections progressing from foundation to detail. Each section begins with a concrete example or data point. Expert anecdotes woven throughout (two to three per article minimum). |
-| **Practical Framework section** | A distinct section at the end using the `:::framework` callout syntax with actionable tools: a mental model, a data-source walkthrough with "what to look for" guidance, a checklist, or a complaint mechanism. Visually distinguished from body text (dashed border callout). |
-| **Cross-references** | Links to related articles in the series where relevant. |
+| Section                          | Requirements                                                                                                                                                                                                                                                                   |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Title**                        | Descriptive, accurate, and compelling. Format: "[Vivid Phrase] — [What the Article Actually Covers]." Example: "Following the Money — How South Africa's Intergovernmental Fiscal System Actually Works." No clickbait. No questions as titles.                                |
+| **Metadata line**                | Reading time (calculated at word count ÷ 200 wpm), publish date, sphere tag (National / Provincial / Municipal / All Spheres), part number.                                                                                                                                    |
+| **Bottom-line-up-front opening** | One to two paragraphs stating the article's core conclusion. The reader should know the main takeaway before scrolling further.                                                                                                                                                |
+| **Body sections (H2/H3)**        | Logically structured sections progressing from foundation to detail. Each section begins with a concrete example or data point. Expert anecdotes woven throughout (two to three per article minimum).                                                                          |
+| **Practical Framework section**  | A distinct section at the end using the `:::framework` callout syntax with actionable tools: a mental model, a data-source walkthrough with "what to look for" guidance, a checklist, or a complaint mechanism. Visually distinguished from body text (dashed border callout). |
+| **Cross-references**             | Links to related articles in the series where relevant.                                                                                                                                                                                                                        |
 
 ---
 
@@ -248,10 +248,10 @@ Every GovCompass article follows this consistent structure. Deviations require e
 
 Three distinct callout types break up article body text and serve specific functions. Use them deliberately — they lose impact if overused.
 
-| Callout Type | Purpose | Visual Treatment |
-|---|---|---|
-| **Expert Anecdote** | Attributed quote or narrative from a named practitioner or scholar. Grounds analysis in lived experience. | 4px compass-green left border, light background. Attribution includes name, role, and institutional affiliation. |
-| **Key Takeaway** | Bottom-line-up-front summary for a section, or a critical insight the reader should remember. | GovCompass-gold left border, secondary background colour. One to three sentences maximum. |
+| Callout Type            | Purpose                                                                                                        | Visual Treatment                                                                                                                  |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| **Expert Anecdote**     | Attributed quote or narrative from a named practitioner or scholar. Grounds analysis in lived experience.      | 4px compass-green left border, light background. Attribution includes name, role, and institutional affiliation.                  |
+| **Key Takeaway**        | Bottom-line-up-front summary for a section, or a critical insight the reader should remember.                  | GovCompass-gold left border, secondary background colour. One to three sentences maximum.                                         |
 | **Practical Framework** | Actionable guidance: data sources, complaint steps, evaluation frameworks. Uses `:::framework` callout syntax. | Dashed compass-green border. Appears at the end of an article. Contains direct links to sources with "what to look for" guidance. |
 
 ---
@@ -280,14 +280,14 @@ Each article has a 1200×630px Open Graph image showing the GovCompass brand mar
 
 GovCompass articles must be accessible to readers with disabilities and to readers on constrained devices and connections. These are not aspirational targets — they are requirements.
 
-| Requirement | Specification |
-|---|---|
-| **Heading hierarchy** | Strict H1 > H2 > H3 progression. Never skip levels. The heading structure is the article's skeleton for screen readers and the table of contents. |
-| **Link text** | Descriptive, never "click here." "Read the AGSA's 2022/23 MFMA report" not "Click here for the report." |
-| **Alt text** (if images added) | Descriptive alt text that conveys the information the image communicates. For data visualisations, describe the key finding. |
-| **Plain language** | Target a Grade 10 reading level for body text. Technical terms are permitted when defined on first use. |
-| **Page weight** | Total article page weight target: 200KB, hard limit: 400KB. The reader may be on prepaid data. Every kilobyte must justify its existence. |
-| **Mobile readability** | Body text legible on a 360px screen without horizontal scrolling. Line length does not exceed approximately 75 characters. |
+| Requirement                    | Specification                                                                                                                                     |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Heading hierarchy**          | Strict H1 > H2 > H3 progression. Never skip levels. The heading structure is the article's skeleton for screen readers and the table of contents. |
+| **Link text**                  | Descriptive, never "click here." "Read the AGSA's 2022/23 MFMA report" not "Click here for the report."                                           |
+| **Alt text** (if images added) | Descriptive alt text that conveys the information the image communicates. For data visualisations, describe the key finding.                      |
+| **Plain language**             | Target a Grade 10 reading level for body text. Technical terms are permitted when defined on first use.                                           |
+| **Page weight**                | Total article page weight target: 200KB, hard limit: 400KB. The reader may be on prepaid data. Every kilobyte must justify its existence.         |
+| **Mobile readability**         | Body text legible on a 360px screen without horizontal scrolling. Line length does not exceed approximately 75 characters.                        |
 
 ---
 
@@ -309,25 +309,25 @@ These principles govern how GovCompass treats politically sensitive content. The
 
 Before any article is published, verify every item:
 
-| Check | Verified? |
-|---|---|
-| Does the article open with a bottom-line-up-front conclusion in the first two paragraphs? | |
-| Does the article use "you" to address the reader throughout? | |
-| Are there zero bullet points in the article body prose? | |
-| Are there at least two to three named expert anecdotes? | |
-| Has every named expert been verified as a real person with published research in the cited field? (Google Scholar, institutional pages, ORCID, or academic databases — minimum two independent sources) | |
-| Are all expert insights paraphrased from verifiable published research with specific publications cited? (No fabricated quotes — zero tolerance) | |
-| Does the article include a Resources section linking to verifiable publications and institutional sources cited in expert blocks? | |
-| Does the article end with a practical framework section (`:::framework` callout)? | |
-| Is every substantive claim supported by a specific data point or source? | |
-| Are all technical terms defined on first use? | |
-| Is the article free of hype words, emoji, and gamified language? | |
-| Is the article free of partisan editorial opinion? | |
-| Are all source links direct to primary documents (AGSA, Treasury, DPME, StatsSA)? | |
-| Does the metadata include reading time, sphere tag, and publish date? | |
-| Is the total article page weight under 400KB (target: 200KB)? | |
-| Do all five brand attributes (Trustworthy, Empowering, Accessible, Serious, Non-partisan) hold? | |
+| Check                                                                                                                                                                                                   | Verified? |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
+| Does the article open with a bottom-line-up-front conclusion in the first two paragraphs?                                                                                                               |           |
+| Does the article use "you" to address the reader throughout?                                                                                                                                            |           |
+| Are there zero bullet points in the article body prose?                                                                                                                                                 |           |
+| Are there at least two to three named expert anecdotes?                                                                                                                                                 |           |
+| Has every named expert been verified as a real person with published research in the cited field? (Google Scholar, institutional pages, ORCID, or academic databases — minimum two independent sources) |           |
+| Are all expert insights paraphrased from verifiable published research with specific publications cited? (No fabricated quotes — zero tolerance)                                                        |           |
+| Does the article include a Resources section linking to verifiable publications and institutional sources cited in expert blocks?                                                                       |           |
+| Does the article end with a practical framework section (`:::framework` callout)?                                                                                                                       |           |
+| Is every substantive claim supported by a specific data point or source?                                                                                                                                |           |
+| Are all technical terms defined on first use?                                                                                                                                                           |           |
+| Is the article free of hype words, emoji, and gamified language?                                                                                                                                        |           |
+| Is the article free of partisan editorial opinion?                                                                                                                                                      |           |
+| Are all source links direct to primary documents (AGSA, Treasury, DPME, StatsSA)?                                                                                                                       |           |
+| Does the metadata include reading time, sphere tag, and publish date?                                                                                                                                   |           |
+| Is the total article page weight under 400KB (target: 200KB)?                                                                                                                                           |           |
+| Do all five brand attributes (Trustworthy, Empowering, Accessible, Serious, Non-partisan) hold?                                                                                                         |           |
 
 ---
 
-*— End of Document —*
+_— End of Document —_

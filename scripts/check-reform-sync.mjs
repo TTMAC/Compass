@@ -27,7 +27,14 @@
 //
 // Output: prints to stdout, also writes reviews/reform-sync.md
 
-import { readFileSync, readdirSync, statSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
+import {
+  readFileSync,
+  readdirSync,
+  statSync,
+  writeFileSync,
+  mkdirSync,
+  existsSync,
+} from "node:fs";
 import { join, dirname, basename } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -42,17 +49,35 @@ const args = new Set(process.argv.slice(2));
 const JSON_OUT = args.has("--json");
 const STRICT = args.has("--strict");
 const sinceArg = [...args].find((a) => a.startsWith("--since="));
-const SINCE_OVERRIDE = sinceArg ? new Date(sinceArg.split("=")[1]).getTime() : null;
+const SINCE_OVERRIDE = sinceArg
+  ? new Date(sinceArg.split("=")[1]).getTime()
+  : null;
 
 // Words too generic on their own — they only count as a candidate when prefixed
 // with a Capitalised qualifier (regex enforces this).
 const INSTITUTION_NOUNS = [
-  "Office", "Authority", "Council", "Commission", "Agency", "Regulator",
-  "Directorate", "Tribunal", "Board", "Unit", "Inspectorate",
+  "Office",
+  "Authority",
+  "Council",
+  "Commission",
+  "Agency",
+  "Regulator",
+  "Directorate",
+  "Tribunal",
+  "Board",
+  "Unit",
+  "Inspectorate",
 ];
 const FRAMEWORK_NOUNS = [
-  "Framework", "Architecture", "Platform", "Mechanism", "Protocol",
-  "Standard", "Model", "Pipeline", "Programme",
+  "Framework",
+  "Architecture",
+  "Platform",
+  "Mechanism",
+  "Protocol",
+  "Standard",
+  "Model",
+  "Pipeline",
+  "Programme",
 ];
 // Statute suffixes — must follow a Capitalised name chain.
 const STATUTE_SUFFIXES = ["Act", "Bill", "Amendment Act", "Amendment Bill"];
@@ -74,13 +99,24 @@ const HEADING_PROPOSAL_RE =
   /^#{2,4}\s+(?:Component\s+\d+:|Defence\s+\d+:|Recommendation\s+\d+:?|Reform\s+\d+:?|Vector\s+\d+:|Phase\s+\d+:?|Step\s+\d+:?)\s*(.+)$/gm;
 
 // Candidates we always ignore — generic, off-topic, or already programme-level.
-const STOPLIST = new Set([
-  "the Act", "this Act", "the Bill", "this Bill",
-  "the Office", "the Authority", "the Council", "the Commission", "the Board",
-  "the Programme", "the Framework", "the Platform",
-  // Ignore self-references to the page concept.
-  "Reform Programme",
-].map((s) => s.toLowerCase()));
+const STOPLIST = new Set(
+  [
+    "the Act",
+    "this Act",
+    "the Bill",
+    "this Bill",
+    "the Office",
+    "the Authority",
+    "the Council",
+    "the Commission",
+    "the Board",
+    "the Programme",
+    "the Framework",
+    "the Platform",
+    // Ignore self-references to the page concept.
+    "Reform Programme",
+  ].map((s) => s.toLowerCase()),
+);
 
 function listArticles() {
   return readdirSync(ARTICLES_DIR)
@@ -97,7 +133,10 @@ function extractCandidates(text) {
   function add(kind, raw) {
     const cleaned = raw.replace(/\s+/g, " ").trim();
     // Drop trailing common stop words.
-    const trimmed = cleaned.replace(/^(?:The|An?|This|That|Each|Every|Such)\s+/i, "");
+    const trimmed = cleaned.replace(
+      /^(?:The|An?|This|That|Each|Every|Such)\s+/i,
+      "",
+    );
     if (trimmed.length < 6) return;
     const key = trimmed.toLowerCase();
     if (STOPLIST.has(key)) return;
@@ -127,7 +166,11 @@ function findInReforms(reformsText, raw) {
     /\s+(office|authority|council|commission|agency|regulator|framework|architecture|platform|mechanism|protocol|act|bill)$/,
     "",
   );
-  if (stripped !== needle && stripped.length > 8 && haystack.includes(stripped)) {
+  if (
+    stripped !== needle &&
+    stripped.length > 8 &&
+    haystack.includes(stripped)
+  ) {
     return true;
   }
   return false;
@@ -203,7 +246,9 @@ function renderHumanReport({ reformsMtime, stale, findings, totalMissing }) {
 
   push(`# Reform Roadmap Sync Report`);
   push();
-  push(`_Generated ${new Date().toISOString().slice(0, 16).replace("T", " ")}_`);
+  push(
+    `_Generated ${new Date().toISOString().slice(0, 16).replace("T", " ")}_`,
+  );
   push();
   push(`- \`src/data/reforms.ts\` last modified: **${fmt(reformsMtime)}**`);
   push(`- Articles modified since: **${stale.length}**`);
@@ -211,7 +256,9 @@ function renderHumanReport({ reformsMtime, stale, findings, totalMissing }) {
   push();
 
   if (stale.length === 0) {
-    push(`✓ No articles have been modified since reforms.ts. The Reform Roadmap data is up to date with article mtimes.`);
+    push(
+      `✓ No articles have been modified since reforms.ts. The Reform Roadmap data is up to date with article mtimes.`,
+    );
   } else {
     push(`## Stale articles (modified after reforms.ts)`);
     push();
@@ -235,7 +282,12 @@ function renderHumanReport({ reformsMtime, stale, findings, totalMissing }) {
       for (const f of withMissing) {
         push(`### \`${f.file}\``);
         push();
-        const grouped = { statute: [], institution: [], framework: [], heading: [] };
+        const grouped = {
+          statute: [],
+          institution: [],
+          framework: [],
+          heading: [],
+        };
         for (const c of f.missing) grouped[c.kind].push(c);
         for (const kind of ["statute", "institution", "framework", "heading"]) {
           if (grouped[kind].length === 0) continue;
@@ -250,7 +302,9 @@ function renderHumanReport({ reformsMtime, stale, findings, totalMissing }) {
         }
       }
     } else {
-      push(`✓ No unmatched candidates — every named proposal in the changed articles is referenced somewhere in reforms.ts.`);
+      push(
+        `✓ No unmatched candidates — every named proposal in the changed articles is referenced somewhere in reforms.ts.`,
+      );
     }
   }
 

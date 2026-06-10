@@ -3,7 +3,13 @@
 // Checks word count, frontmatter integrity, series linkage, emoji, forbidden terms.
 // Outputs a report to reviews/automated-pass.md.
 
-import { readFileSync, readdirSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
+import {
+  readFileSync,
+  readdirSync,
+  writeFileSync,
+  mkdirSync,
+  existsSync,
+} from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -16,10 +22,22 @@ const WORD_MIN = 4500;
 // Whitelist ™ (trademark) — used legitimately on the RAARICLE™ framework name.
 const EMOJI_ALLOW = new Set(["™", "®", "©"]);
 const EMOJI_RE = /\p{Extended_Pictographic}/u;
-function isDisallowedEmoji(ch) { return !EMOJI_ALLOW.has(ch); }
+function isDisallowedEmoji(ch) {
+  return !EMOJI_ALLOW.has(ch);
+}
 const FORBIDDEN_TERMS = [
-  { term: "blog post", re: /\bblog posts?\b/gi, severity: "blocker", note: "domain: use 'article'" },
-  { term: "blog", re: /\bblogs?\b/gi, severity: "should-fix", note: "domain: use 'series' or 'article'" },
+  {
+    term: "blog post",
+    re: /\bblog posts?\b/gi,
+    severity: "blocker",
+    note: "domain: use 'article'",
+  },
+  {
+    term: "blog",
+    re: /\bblogs?\b/gi,
+    severity: "should-fix",
+    note: "domain: use 'series' or 'article'",
+  },
   // "users" removed — every hit across the corpus was legitimate domain usage
   // (service users, user fees/charges/tariffs, data tool users, "users of financial statements").
   // Re-introduce only if a narrower pattern emerges for reader/citizen drift.
@@ -28,7 +46,12 @@ const FORBIDDEN_TERMS = [
   // explanatory "spheres not tiers" framing from Section 40(1)).
   // "section (series)" removed — all 3 hits were intra-article navigation to ## headings,
   // not cross-series Part references.
-  { term: "level of government", re: /\blevels? of government\b/gi, severity: "should-fix", note: "domain: 'sphere of government'" },
+  {
+    term: "level of government",
+    re: /\blevels? of government\b/gi,
+    severity: "should-fix",
+    note: "domain: 'sphere of government'",
+  },
 ];
 
 const SERIES_BATCHES = {
@@ -93,7 +116,11 @@ function findEmoji(body) {
     const matches = line.match(/\p{Extended_Pictographic}/gu) || [];
     const disallowed = matches.filter(isDisallowedEmoji);
     if (disallowed.length) {
-      hits.push({ line: i + 1, text: line.trim().slice(0, 120), ch: disallowed.join(" ") });
+      hits.push({
+        line: i + 1,
+        text: line.trim().slice(0, 120),
+        ch: disallowed.join(" "),
+      });
     }
   });
   return hits;
@@ -101,9 +128,7 @@ function findEmoji(body) {
 
 function stripUrls(body) {
   // Strip markdown link targets and bare URLs so forbidden-term scans don't match URL params.
-  return body
-    .replace(/\]\([^)]*\)/g, "]()")
-    .replace(/https?:\/\/\S+/g, " ");
+  return body.replace(/\]\([^)]*\)/g, "]()").replace(/https?:\/\/\S+/g, " ");
 }
 
 function findForbidden(body) {
@@ -111,18 +136,26 @@ function findForbidden(body) {
   const hits = {};
   for (const f of FORBIDDEN_TERMS) {
     const matches = scanBody.match(f.re);
-    if (matches) hits[f.term] = { count: matches.length, severity: f.severity, note: f.note };
+    if (matches)
+      hits[f.term] = {
+        count: matches.length,
+        severity: f.severity,
+        note: f.note,
+      };
   }
   return hits;
 }
 
 function batchOf(slug) {
-  for (const [name, fn] of Object.entries(SERIES_BATCHES)) if (fn(slug)) return name;
+  for (const [name, fn] of Object.entries(SERIES_BATCHES))
+    if (fn(slug)) return name;
   return "Unknown";
 }
 
 function main() {
-  const files = readdirSync(ARTICLES_DIR).filter((f) => f.endsWith(".md")).sort();
+  const files = readdirSync(ARTICLES_DIR)
+    .filter((f) => f.endsWith(".md"))
+    .sort();
   const articles = {};
   for (const file of files) {
     const slug = file.replace(/\.md$/, "");
@@ -147,8 +180,19 @@ function main() {
       a.fmIssues.push("missing frontmatter");
       continue;
     }
-    const required = ["title", "subtitle", "part", "articleNumber", "description", "publishDate", "readingTime", "status", "series"];
-    for (const k of required) if (a.fm[k] === undefined) a.fmIssues.push(`missing ${k}`);
+    const required = [
+      "title",
+      "subtitle",
+      "part",
+      "articleNumber",
+      "description",
+      "publishDate",
+      "readingTime",
+      "status",
+      "series",
+    ];
+    for (const k of required)
+      if (a.fm[k] === undefined) a.fmIssues.push(`missing ${k}`);
     if (a.fm.description && typeof a.fm.description === "string") {
       const len = a.fm.description.length;
       if (len < 150) a.fmIssues.push(`description ${len} chars (<150)`);
@@ -167,10 +211,18 @@ function main() {
       const next = a.fm?.series?.next;
       if (prev && !articles[prev]) a.linkIssues.push(`prev→${prev} missing`);
       if (next && !articles[next]) a.linkIssues.push(`next→${next} missing`);
-      if (prev && articles[prev] && articles[prev].fm?.series?.next !== a.slug) {
+      if (
+        prev &&
+        articles[prev] &&
+        articles[prev].fm?.series?.next !== a.slug
+      ) {
         a.linkIssues.push(`prev (${prev}) does not point back`);
       }
-      if (next && articles[next] && articles[next].fm?.series?.prev !== a.slug) {
+      if (
+        next &&
+        articles[next] &&
+        articles[next].fm?.series?.prev !== a.slug
+      ) {
         a.linkIssues.push(`next (${next}) does not point back`);
       }
     }
@@ -198,7 +250,9 @@ function main() {
   lines.push(`- **Frontmatter issues:** ${withFmIssues.length}`);
   lines.push(`- **Series linkage issues:** ${withLinkIssues.length}`);
   lines.push(`- **Emoji in body:** ${withEmoji.length}`);
-  lines.push(`- **Forbidden-term hits (any severity):** ${withForbidden.length}`);
+  lines.push(
+    `- **Forbidden-term hits (any severity):** ${withForbidden.length}`,
+  );
   lines.push("");
 
   // Per-batch breakdown
@@ -213,7 +267,9 @@ function main() {
     const fb = list.filter((a) => Object.keys(a.forbidden).length).length;
     lines.push(`### ${batch} (${list.length} articles)`);
     lines.push("");
-    lines.push(`Under ${WORD_MIN} words: **${u}** | Frontmatter issues: **${fm}** | Linkage issues: **${lk}** | Emoji: **${em}** | Forbidden-term hits: **${fb}**`);
+    lines.push(
+      `Under ${WORD_MIN} words: **${u}** | Frontmatter issues: **${fm}** | Linkage issues: **${lk}** | Emoji: **${em}** | Forbidden-term hits: **${fb}**`,
+    );
     lines.push("");
     lines.push("| Slug | Words | < min | FM | Links | Emoji | Forbidden |");
     lines.push("|---|---:|:-:|:-:|:-:|:-:|:-:|");
@@ -222,9 +278,14 @@ function main() {
       const fmMark = a.fmIssues.length ? "❌" : "✓";
       const lkMark = a.linkIssues.length ? "❌" : "✓";
       const emMark = a.emoji.length ? "❌" : "✓";
-      const fbCount = Object.values(a.forbidden).reduce((s, x) => s + x.count, 0);
+      const fbCount = Object.values(a.forbidden).reduce(
+        (s, x) => s + x.count,
+        0,
+      );
       const fbMark = fbCount ? `${fbCount}` : "✓";
-      lines.push(`| ${a.slug} | ${a.wordCount} | ${under} | ${fmMark} | ${lkMark} | ${emMark} | ${fbMark} |`);
+      lines.push(
+        `| ${a.slug} | ${a.wordCount} | ${under} | ${fmMark} | ${lkMark} | ${emMark} | ${fbMark} |`,
+      );
     }
     lines.push("");
   }
@@ -277,13 +338,17 @@ function main() {
   if (withForbidden.length) {
     lines.push("### Forbidden-Term Hits");
     lines.push("");
-    lines.push("_Note: many of these are false positives (e.g. 'three-tier policing' is legitimate). Manual triage required._");
+    lines.push(
+      "_Note: many of these are false positives (e.g. 'three-tier policing' is legitimate). Manual triage required._",
+    );
     lines.push("");
     lines.push("| Slug | Term | Count | Severity | Note |");
     lines.push("|---|---|---:|---|---|");
     for (const a of withForbidden) {
       for (const [term, info] of Object.entries(a.forbidden)) {
-        lines.push(`| ${a.slug} | ${term} | ${info.count} | ${info.severity} | ${info.note} |`);
+        lines.push(
+          `| ${a.slug} | ${term} | ${info.count} | ${info.severity} | ${info.note} |`,
+        );
       }
     }
     lines.push("");
@@ -293,7 +358,9 @@ function main() {
   const out = join(REVIEWS_DIR, "automated-pass.md");
   writeFileSync(out, lines.join("\n"));
   console.log(`Wrote ${out}`);
-  console.log(`\nSummary: ${files.length} articles | ${underWord.length} under ${WORD_MIN} words | ${withFmIssues.length} fm issues | ${withLinkIssues.length} link issues | ${withEmoji.length} with emoji | ${withForbidden.length} with forbidden terms`);
+  console.log(
+    `\nSummary: ${files.length} articles | ${underWord.length} under ${WORD_MIN} words | ${withFmIssues.length} fm issues | ${withLinkIssues.length} link issues | ${withEmoji.length} with emoji | ${withForbidden.length} with forbidden terms`,
+  );
 }
 
 main();

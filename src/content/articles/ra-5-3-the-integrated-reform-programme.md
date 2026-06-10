@@ -77,29 +77,29 @@ Consider the eight RAARICLE™ elements rated across the major functions analyse
 
 **Institutional Design Elements**
 
-| Function | Resp. | Acct. | Auth. | Res. |
-|---|---|---|---|---|
-| Basic Education | 2 | 2 | 1 | 3 |
-| Primary Healthcare | 2 | 2 | 2 | 2 |
-| Human Settlements | 1 | 2 | 1 | 2 |
-| Water & Sanitation | 2 | 2 | 2 | 2 |
-| Electricity | 3 | 2 | 2 | 2 |
-| Waste Management | 2 | 2 | 3 | 1 |
-| Municipal Roads | 2 | 2 | 3 | 1 |
-| Provincial Governance | 2 | 2 | 2 | 3 |
+| Function              | Resp. | Acct. | Auth. | Res. |
+| --------------------- | ----- | ----- | ----- | ---- |
+| Basic Education       | 2     | 2     | 1     | 3    |
+| Primary Healthcare    | 2     | 2     | 2     | 2    |
+| Human Settlements     | 1     | 2     | 1     | 2    |
+| Water & Sanitation    | 2     | 2     | 2     | 2    |
+| Electricity           | 3     | 2     | 2     | 2    |
+| Waste Management      | 2     | 2     | 3     | 1    |
+| Municipal Roads       | 2     | 2     | 3     | 1    |
+| Provincial Governance | 2     | 2     | 2     | 3    |
 
 **Operational Capacity Elements**
 
-| Function | Info. | Capab. | Legit. | Enforc. | Primary Pattern |
-|---|---|---|---|---|---|
-| Basic Education | 2 | 2 | 4 | 1 | Misalignment |
-| Primary Healthcare | 3 | 2 | 4 | 1 | Fragmentation |
-| Human Settlements | 1 | 2 | 3 | 1 | Fragmentation |
-| Water & Sanitation | 2 | 1 | 3 | 1 | Conflation |
-| Electricity | 3 | 2 | 3 | 2 | Misalignment |
-| Waste Management | 1 | 1 | 3 | 1 | Absence |
-| Municipal Roads | 1 | 1 | 4 | 1 | Absence |
-| Provincial Governance | 2 | 2 | 4 | 1 | Misalignment |
+| Function              | Info. | Capab. | Legit. | Enforc. | Primary Pattern |
+| --------------------- | ----- | ------ | ------ | ------- | --------------- |
+| Basic Education       | 2     | 2      | 4      | 1       | Misalignment    |
+| Primary Healthcare    | 3     | 2      | 4      | 1       | Fragmentation   |
+| Human Settlements     | 1     | 2      | 3      | 1       | Fragmentation   |
+| Water & Sanitation    | 2     | 1      | 3      | 1       | Conflation      |
+| Electricity           | 3     | 2      | 3      | 2       | Misalignment    |
+| Waste Management      | 1     | 1      | 3      | 1       | Absence         |
+| Municipal Roads       | 1     | 1      | 4      | 1       | Absence         |
+| Provincial Governance | 2     | 2      | 4      | 1       | Misalignment    |
 
 Three patterns dominate.
 
@@ -125,7 +125,6 @@ This is the case for an integrated reform programme. Not a collection of individ
 
 Why must this programme be legislated? Why not pursue it through executive action — a presidential directive, a Cabinet resolution, an expanded Operation Vulindlela? The answer lies in the distinction between discretionary reform and structural reform.
 
-
 ![A single legislated structure forces the reforms to fit together rather than compete for attention | Photo by Vardan Papikyan on Unsplash](/images/articles/ra-5-3-the-integrated-reform-programme/img-1.webp)
 
 Discretionary reform depends on the decision of a specific political actor — a president, a minister, a director-general. It can be initiated quickly, adjusted flexibly, and terminated at will. This makes it useful for pilot programmes, policy experiments, and immediate crisis responses. But it also makes it fragile. When the political actor who initiated the reform leaves office, the reform has no institutional anchor. The incoming actor may share the reform commitment, or may not. Even if they do, they may redefine the reform's scope, redirect its resources, or subordinate it to different priorities. Discretionary reform is, by definition, revocable at the discretion of whoever holds power.
@@ -145,7 +144,6 @@ Discretionary reform depends on political will and can be reversed when leadersh
 ## The Governance Reform Programme Act
 
 What would a Governance Reform Programme Act contain? It would not attempt to legislate every function-specific reform in a single statute — that would produce an unwieldy omnibus bill impossible to navigate through Parliament. Instead, it would establish the architecture within which function-specific reforms are designed, coordinated, implemented, measured, and enforced. The Act would have seven substantive components.
-
 
 ![A Governance Reform Programme Act gives the integrated package a legal home with measurable obligations | Photo by Isaac Smith on Unsplash](/images/articles/ra-5-3-the-integrated-reform-programme/img-2.webp)
 
@@ -272,7 +270,6 @@ The measurement architecture for the integrated reform programme leverages three
 
 The sequencing of the integrated reform programme must respect two constraints: legislative feasibility and implementation dependency. Legislative feasibility — detailed in [What Needs Constitutional Change and What Doesn't](/articles/ra-5-1-constitutional-vs-legislative) — determines which reforms can move quickly through regulation and which require the slower parliamentary process. Implementation dependency determines which reforms must precede others because they create the institutional infrastructure that subsequent reforms require.
 
-
 ![Sequencing decides which reforms must land first to make later reforms possible at all | Photo by Soweto Graphics on Unsplash](/images/articles/ra-5-3-the-integrated-reform-programme/img-3.webp)
 
 ### Phase 1: The Regulatory Foundation (Months 1–12)
@@ -323,17 +320,17 @@ In [The Problem That Has No Name](/articles/hd-1-4-the-problem-that-has-no-name)
 
 The integrated reform programme's measurement architecture — the Integrated Governance Performance Platform — has the potential to perform precisely this naming function. Not through rhetoric, but through data. When the platform publishes, quarterly and publicly, an integrated dashboard that shows how safety outcomes (homicide rates, business crime, infrastructure theft), growth outcomes (GDP per capita, employment rates, investment flows, small business formation), and development outcomes (learning outcomes disaggregated by quintile, life expectancy disaggregated by province, access to clean water disaggregated by municipality, childhood stunting rates disaggregated by district) interact as a system — when it connects education spending to learning outcomes to employment to crime to investment to growth to tax revenue to education spending — it creates the political object that the post-1994 state has never produced.
 
-**This is the act of naming through measurement.** The platform does not need to use the phrase "Poor Black Problem." It does not need to frame the issue in racial terms, which the constitutional settlement makes politically difficult. What it does is make the *system of structural poverty* visible as a single, integrated, measurable phenomenon — not as a collection of departmental outputs (grants delivered, houses built, meals served) but as a system of interconnected outcomes that either compound positively or compound negatively. When a parliamentary committee can look at a single dashboard and see that a decline in matric pass rates in quintile 1 schools correlates with an increase in youth unemployment, which correlates with an increase in violent crime, which correlates with a decrease in small business formation — when that causal chain is visible in real time, disaggregated by geography and population, tracked against defined thresholds — the problem acquires the specificity and boundedness that the Carnegie Commission provided for white poverty in 1932.
+**This is the act of naming through measurement.** The platform does not need to use the phrase "Poor Black Problem." It does not need to frame the issue in racial terms, which the constitutional settlement makes politically difficult. What it does is make the _system of structural poverty_ visible as a single, integrated, measurable phenomenon — not as a collection of departmental outputs (grants delivered, houses built, meals served) but as a system of interconnected outcomes that either compound positively or compound negatively. When a parliamentary committee can look at a single dashboard and see that a decline in matric pass rates in quintile 1 schools correlates with an increase in youth unemployment, which correlates with an increase in violent crime, which correlates with a decrease in small business formation — when that causal chain is visible in real time, disaggregated by geography and population, tracked against defined thresholds — the problem acquires the specificity and boundedness that the Carnegie Commission provided for white poverty in 1932.
 
 The Carnegie Commission produced five volumes. The Integrated Governance Performance Platform produces a living, continuously updated diagnostic that is more comprehensive than any commission report could be, because it draws on data from every government institution across every function and publishes it in real time. The Commission's five dimensions — economic, educational, health, psychological, sociological — map directly to the reinforcing cycle's three pillars and the RAARICLE™ framework's eight elements. The platform integrates them into a single measurement system that makes the problem visible, its dimensions measurable, its trajectory trackable, and its institutional remedies assessable.
 
 :::expert
-The Carnegie Commission's methodological innovation was not any single analytical technique. It was the act of *integration* — treating white poverty as a single phenomenon with five interacting dimensions rather than five separate problems. The post-1994 state's analytical failure is the mirror image: it treats the structural poverty of the black majority as a collection of separate problems — an education problem, a health problem, an employment problem, a housing problem, a safety problem — each assigned to a separate department, each measured by separate indicators, each funded through separate budget votes. The Integrated Governance Performance Platform reverses this fragmentation by publishing a single integrated view that makes the interactions between dimensions visible and the system's trajectory measurable. In doing so, it does what the Carnegie Commission did: it names the problem — not with a phrase, but with data.
+The Carnegie Commission's methodological innovation was not any single analytical technique. It was the act of _integration_ — treating white poverty as a single phenomenon with five interacting dimensions rather than five separate problems. The post-1994 state's analytical failure is the mirror image: it treats the structural poverty of the black majority as a collection of separate problems — an education problem, a health problem, an employment problem, a housing problem, a safety problem — each assigned to a separate department, each measured by separate indicators, each funded through separate budget votes. The Integrated Governance Performance Platform reverses this fragmentation by publishing a single integrated view that makes the interactions between dimensions visible and the system's trajectory measurable. In doing so, it does what the Carnegie Commission did: it names the problem — not with a phrase, but with data.
 :::
 
 ### The Reinforcing Cycle Scorecard
 
-The programme's transition from reform coordination to cycle management requires a measurement instrument that goes beyond governance compliance. The RAARICLE™ diagnostic measures institutional design. The reinforcing cycle requires measuring *systemic outcomes* — whether the repaired institutions are actually producing the positive cycle.
+The programme's transition from reform coordination to cycle management requires a measurement instrument that goes beyond governance compliance. The RAARICLE™ diagnostic measures institutional design. The reinforcing cycle requires measuring _systemic outcomes_ — whether the repaired institutions are actually producing the positive cycle.
 
 The [Reinforcing Cycle Scorecard](/reform-scorecard) tracks fifteen indicators across the three links of the cycle — Safety → Growth, Growth → Development, and Development → Safety — each drawn from existing data sources (SAPS, Stats SA, SARB, National Treasury, UNDP). It would be published as a component of the annual parliamentary report, providing the systemic measurement layer that sits above both the RAARICLE™ governance diagnostic and the function-specific performance indicators.
 
@@ -347,7 +344,7 @@ The programme's three-phase sequencing described earlier — regulatory foundati
 
 - **Year 5–6:** The Reform Coordination Office's mandate is reviewed and amended by Parliament. Its statutory functions are expanded from reform coordination (implementing the Governance Reform Programme Act) to cycle management (monitoring and managing the reinforcing cycle across safety, growth, and development). Its reporting obligations expand to include the Reinforcing Cycle Scorecard alongside the RAARICLE™ compliance assessment and function-specific performance data.
 - **Year 6–7:** The Integrated Governance Performance Platform incorporates cross-pillar data — SAPS crime statistics, SARB economic indicators, Stats SA labour force data, UNDP human development calculations — alongside the governance data it already integrates. The platform becomes the single institutional source for the integrated view of South Africa's development trajectory.
-- **Year 7–10:** The institution matures into a permanent feature of South Africa's governance architecture — comparable in institutional weight to the Auditor-General (which provides independent financial oversight) and the Financial and Fiscal Commission (which provides independent fiscal advice). It provides independent *systemic* oversight: tracking whether South Africa's institutional architecture is producing the virtuous cycle that converts governance reform into development outcomes.
+- **Year 7–10:** The institution matures into a permanent feature of South Africa's governance architecture — comparable in institutional weight to the Auditor-General (which provides independent financial oversight) and the Financial and Fiscal Commission (which provides independent fiscal advice). It provides independent _systemic_ oversight: tracking whether South Africa's institutional architecture is producing the virtuous cycle that converts governance reform into development outcomes.
 
 The institutional evolution resolves the gap identified in [The Problem That Has No Name](/articles/hd-1-4-the-problem-that-has-no-name). The Carnegie Commission's integrated diagnosis worked because it was institutionalised — the state built departments, agencies, and programmes specifically designed to implement the Commission's recommendations as a system. The post-1994 state produced the National Development Plan — an analytically sophisticated document — but never built the institutional machinery to implement it as a system. The Reform Coordination Office, evolved into a cycle management institution, is that machinery. It does not replace the NDP or any future national development strategy. It provides the institutional mechanism through which any such strategy is implemented as an integrated system, measured against the reinforcing cycle's dynamics, and held accountable through the existing constitutional oversight architecture.
 

@@ -41,8 +41,8 @@ const SECTION_PATTERNS = [
   /^Preface\b/i,
   /^Introduction\b/i,
   /^Acknowledgements?\b/i,
-  /^\d+\.\s+[A-Z]/,            // "1. Organisation"
-  /^\d+\s+[A-Z]{3,}/,           // "1 COALITION ORGANISATION"
+  /^\d+\.\s+[A-Z]/, // "1. Organisation"
+  /^\d+\s+[A-Z]{3,}/, // "1 COALITION ORGANISATION"
   /^Appendix\s+[A-Z0-9]/i,
   /^Closing\s+[Ww]ord/i,
   /^Conclusion\b/i,
@@ -64,19 +64,16 @@ function isSubsection(text) {
 // Convert the pandoc HTML: promote recognised <p><strong>...</strong></p>
 // paragraphs into <h1>/<h2>. Everything else passes through unchanged.
 function promoteHeadings(html) {
-  return html.replace(
-    /<p><strong>([^<]+?)<\/strong><\/p>/g,
-    (match, inner) => {
-      const text = inner.trim();
-      if (isSection(text)) {
-        return `<h1 class="section">${inner}</h1>`;
-      }
-      if (isSubsection(text)) {
-        return `<h2 class="subsection">${inner}</h2>`;
-      }
-      return match;
-    },
-  );
+  return html.replace(/<p><strong>([^<]+?)<\/strong><\/p>/g, (match, inner) => {
+    const text = inner.trim();
+    if (isSection(text)) {
+      return `<h1 class="section">${inner}</h1>`;
+    }
+    if (isSubsection(text)) {
+      return `<h2 class="subsection">${inner}</h2>`;
+    }
+    return match;
+  });
 }
 
 function wrapDocument({ body, title, accent }) {

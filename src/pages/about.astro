@@ -13,13 +13,13 @@ import { pillars } from "@content/pillars";
 
   <div class="space-y-6 text-text-secondary leading-relaxed">
     <p>
-      GovCompass is a deep, analytical political education project for South Africa. It
-      started with a simple question: why is it so hard for an engaged citizen
-      to understand how the country actually works? Not the party politics —
-      the systems underneath. How money flows from Treasury to your town. Why
-      the police solve so few cases. What drives economic growth and what
-      blocks it. Why health and education outcomes lag behind what our spending
-      should deliver.
+      GovCompass is a deep, analytical political education project for South
+      Africa. It started with a simple question: why is it so hard for an
+      engaged citizen to understand how the country actually works? Not the
+      party politics — the systems underneath. How money flows from Treasury to
+      your town. Why the police solve so few cases. What drives economic growth
+      and what blocks it. Why health and education outcomes lag behind what our
+      spending should deliver.
     </p>
 
     <p>
@@ -29,41 +29,44 @@ import { pillars } from "@content/pillars";
     </p>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 my-2">
-      {pillars.map((p) => (
-        <a
-          href={`/pillars/${p.slug}`}
-          class="flex items-start gap-3 p-4 border border-gray-200 rounded-lg hover:border-gray-300 transition-colors group"
-        >
-          <span
-            class="inline-block w-3 h-3 rounded-full mt-1 shrink-0"
-            style={`background-color: ${p.color}`}
-          ></span>
-          <div>
-            <span class="font-heading text-sm font-bold text-text-primary group-hover:text-compass-green transition-colors">
-              {p.title}
-            </span>
-            <span class="block text-xs text-text-secondary mt-0.5">
-              {p.description}
-            </span>
-          </div>
-        </a>
-      ))}
+      {
+        pillars.map((p) => (
+          <a
+            href={`/pillars/${p.slug}`}
+            class="flex items-start gap-3 p-4 border border-gray-200 rounded-lg hover:border-gray-300 transition-colors group"
+          >
+            <span
+              class="inline-block w-3 h-3 rounded-full mt-1 shrink-0"
+              style={`background-color: ${p.color}`}
+            />
+            <div>
+              <span class="font-heading text-sm font-bold text-text-primary group-hover:text-compass-green transition-colors">
+                {p.title}
+              </span>
+              <span class="block text-xs text-text-secondary mt-0.5">
+                {p.description}
+              </span>
+            </div>
+          </a>
+        ))
+      }
     </div>
 
     <p>
       Together these topics map the reinforcing cycle that connects governance
-      quality to lived outcomes — and show where that cycle is broken. The
-      site also includes a
+      quality to lived outcomes — and show where that cycle is broken. The site
+      also includes a
       <a
         href="/government-functions"
         class="text-compass-green underline hover:text-compass-green-dark transition-colors"
-      >State Functions</a> reference mapping every functional area across the
-      three spheres of government, and a
+        >State Functions</a
+      > reference mapping every functional area across the three spheres of government,
+      and a
       <a
         href="/real-steps-to-reform"
         class="text-compass-green underline hover:text-compass-green-dark transition-colors"
-      >Reform Programme</a> consolidating over 80 concrete reforms into a
-      sequenced, phased 10-year plan.
+        >Reform Programme</a
+      > consolidating over 80 concrete reforms into a sequenced, phased 10-year plan.
     </p>
 
     <h2 class="font-heading text-xl font-bold text-text-primary pt-4">
@@ -71,11 +74,11 @@ import { pillars } from "@content/pillars";
     </h2>
 
     <p>
-      GovCompass is written for the "missing middle" — people who are
-      educated, engaged, and frustrated, but were never taught how the system
-      actually works. You vote, you pay tax, you read the news, but the gap
-      between headline outrage and structural understanding remains wide. We
-      aim to close that gap.
+      GovCompass is written for the "missing middle" — people who are educated,
+      engaged, and frustrated, but were never taught how the system actually
+      works. You vote, you pay tax, you read the news, but the gap between
+      headline outrage and structural understanding remains wide. We aim to
+      close that gap.
     </p>
 
     <h2 class="font-heading text-xl font-bold text-text-primary pt-4">
@@ -84,32 +87,31 @@ import { pillars } from "@content/pillars";
 
     <ul class="list-disc pl-6 space-y-2">
       <li>
-        <strong class="text-text-primary">Non-partisan:</strong> GovCompass
-        explains systems, not parties. We don't tell you who to vote for — we
-        help you understand what you're voting for.
+        <strong class="text-text-primary">Non-partisan:</strong> GovCompass explains
+        systems, not parties. We don't tell you who to vote for — we help you understand
+        what you're voting for.
       </li>
       <li>
-        <strong class="text-text-primary">Evidence-based:</strong> Every claim
-        is backed by publicly available data — from the Auditor-General and
-        National Treasury to the UNDP Human Development Reports and the
-        Harvard Growth Lab's economic complexity data.
+        <strong class="text-text-primary">Evidence-based:</strong> Every claim is
+        backed by publicly available data — from the Auditor-General and National
+        Treasury to the UNDP Human Development Reports and the Harvard Growth Lab's
+        economic complexity data.
       </li>
       <li>
-        <strong class="text-text-primary">Structurally focused:</strong> We
-        diagnose systems, not symptoms. Each topic traces root causes, maps
-        institutional design, and identifies where reforms have leverage.
+        <strong class="text-text-primary">Structurally focused:</strong> We diagnose
+        systems, not symptoms. Each topic traces root causes, maps institutional design,
+        and identifies where reforms have leverage.
       </li>
       <li>
-        <strong class="text-text-primary">Reform-oriented:</strong> We don't
-        stop at diagnosis. The Reform Agenda series applies the RAARICLE™
-        governance framework to propose concrete, sequenced institutional
-        reforms — grounded in international evidence and costed where data
-        permits.
+        <strong class="text-text-primary">Reform-oriented:</strong> We don't stop
+        at diagnosis. The Reform Agenda series applies the RAARICLE™ governance framework
+        to propose concrete, sequenced institutional reforms — grounded in international
+        evidence and costed where data permits.
       </li>
       <li>
-        <strong class="text-text-primary">Accessible:</strong> Written for
-        smart people who aren't specialists. No jargon without explanation, no
-        assumptions about prior knowledge.
+        <strong class="text-text-primary">Accessible:</strong> Written for smart people
+        who aren't specialists. No jargon without explanation, no assumptions about
+        prior knowledge.
       </li>
     </ul>
 
@@ -122,21 +124,22 @@ import { pillars } from "@content/pillars";
       constitutional and legislative framework — what the law says should
       happen. We then layer on institutional analysis — what actually happens
       and why. We use official data to quantify the gap between design and
-      reality, draw on international comparators to show what is possible,
-      and end with practical takeaways for citizens.
+      reality, draw on international comparators to show what is possible, and
+      end with practical takeaways for citizens.
     </p>
 
     <p>
-      Where we propose reforms — particularly across the Citizen Safety & Security,
-      Economic Growth, and Reform Agenda series — we ground them in evidence
-      from countries that have faced similar challenges. We sequence proposals
-      by institutional prerequisites, estimate fiscal costs where data
+      Where we propose reforms — particularly across the Citizen Safety &
+      Security, Economic Growth, and Reform Agenda series — we ground them in
+      evidence from countries that have faced similar challenges. We sequence
+      proposals by institutional prerequisites, estimate fiscal costs where data
       permits, and identify the political economy constraints that make
       implementation hard. The full reform programme is consolidated in our
       <a
         href="/real-steps-to-reform"
         class="text-compass-green underline hover:text-compass-green-dark transition-colors"
-      >Reform Roadmap</a> page.
+        >Reform Roadmap</a
+      > page.
     </p>
 
     <p>
@@ -144,10 +147,10 @@ import { pillars } from "@content/pillars";
       <a
         href="/data-sources"
         class="text-compass-green underline hover:text-compass-green-dark transition-colors"
-      >Data Sources</a> page. We draw on official government publications,
-      audited financial data, international development indices, academic
-      research, and independent civil society analysis — never unnamed
-      sources or speculation.
+        >Data Sources</a
+      > page. We draw on official government publications, audited financial data,
+      international development indices, academic research, and independent civil
+      society analysis — never unnamed sources or speculation.
     </p>
 
     <h2 class="font-heading text-xl font-bold text-text-primary pt-4">
@@ -155,8 +158,8 @@ import { pillars } from "@content/pillars";
     </h2>
 
     <p>
-      Questions, corrections, suggestions, or business enquiries? Reach us
-      via the
+      Questions, corrections, suggestions, or business enquiries? Reach us via
+      the
       <a
         href="/contact"
         class="text-compass-green underline hover:text-compass-green-dark transition-colors"

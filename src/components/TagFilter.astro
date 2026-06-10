@@ -6,7 +6,12 @@ interface Props {
   pillarColor?: string;
 }
 
-const { tags, tagCounts = {}, initialVisible = 6, pillarColor = "#355E3B" } = Astro.props;
+const {
+  tags,
+  tagCounts = {},
+  initialVisible = 6,
+  pillarColor = "#355E3B",
+} = Astro.props;
 const hasOverflow = tags.length > initialVisible;
 ---
 
@@ -21,33 +26,37 @@ const hasOverflow = tags.length > initialVisible;
     >
       All
     </button>
-    {tags.map((tag, i) => (
-      <button
-        type="button"
-        class:list={[
-          "px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-gray-100 text-text-secondary hover:bg-gray-200",
-          { "hidden": hasOverflow && i >= initialVisible },
-        ]}
-        data-tag={tag}
-        data-tag-index={i}
-        aria-pressed="false"
-      >
-        {tag.charAt(0).toUpperCase() + tag.slice(1)}
-        {tagCounts[tag] !== undefined && (
-          <span class="ml-1 text-[10px] opacity-70">({tagCounts[tag]})</span>
-        )}
-      </button>
-    ))}
-    {hasOverflow && (
-      <button
-        type="button"
-        class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors border border-dashed border-gray-300 text-text-secondary hover:bg-gray-50"
-        data-tag-toggle
-        aria-expanded="false"
-      >
-        +{tags.length - initialVisible} more
-      </button>
-    )}
+    {
+      tags.map((tag, i) => (
+        <button
+          type="button"
+          class:list={[
+            "px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors bg-gray-100 text-text-secondary hover:bg-gray-200",
+            { hidden: hasOverflow && i >= initialVisible },
+          ]}
+          data-tag={tag}
+          data-tag-index={i}
+          aria-pressed="false"
+        >
+          {tag.charAt(0).toUpperCase() + tag.slice(1)}
+          {tagCounts[tag] !== undefined && (
+            <span class="ml-1 text-[10px] opacity-70">({tagCounts[tag]})</span>
+          )}
+        </button>
+      ))
+    }
+    {
+      hasOverflow && (
+        <button
+          type="button"
+          class="px-3 py-1.5 text-sm font-heading font-semibold rounded transition-colors border border-dashed border-gray-300 text-text-secondary hover:bg-gray-50"
+          data-tag-toggle
+          aria-expanded="false"
+        >
+          +{tags.length - initialVisible} more
+        </button>
+      )
+    }
   </div>
 </div>
 
@@ -64,21 +73,28 @@ const hasOverflow = tags.length > initialVisible;
       expanded = !expanded;
       toggleBtn.setAttribute("aria-expanded", String(expanded));
 
-      filterContainer?.querySelectorAll("button[data-tag-index]").forEach((btn) => {
-        const idx = Number(btn.getAttribute("data-tag-index"));
-        if (idx >= initialVisible) {
-          btn.classList.toggle("hidden", !expanded);
-        }
-      });
+      filterContainer
+        ?.querySelectorAll("button[data-tag-index]")
+        .forEach((btn) => {
+          const idx = Number(btn.getAttribute("data-tag-index"));
+          if (idx >= initialVisible) {
+            btn.classList.toggle("hidden", !expanded);
+          }
+        });
 
-      const hiddenCount = filterContainer?.querySelectorAll("button[data-tag-index].hidden").length ?? 0;
-      const totalOverflow = filterContainer?.querySelectorAll("button[data-tag-index]").length - initialVisible;
+      const hiddenCount =
+        filterContainer?.querySelectorAll("button[data-tag-index].hidden")
+          .length ?? 0;
+      const totalOverflow =
+        filterContainer?.querySelectorAll("button[data-tag-index]").length -
+        initialVisible;
       toggleBtn.textContent = expanded ? "Show less" : `+${totalOverflow} more`;
     });
   }
 
   // Tag filtering
-  const pillarColor = filterContainer?.getAttribute("data-pillar-color") || "#355E3B";
+  const pillarColor =
+    filterContainer?.getAttribute("data-pillar-color") || "#355E3B";
 
   filterButtons?.forEach((btn) => {
     btn.addEventListener("click", () => {
@@ -86,19 +102,19 @@ const hasOverflow = tags.length > initialVisible;
 
       filterButtons.forEach((b) => {
         b.setAttribute("aria-pressed", "false");
-        b.className = b.className
-          .replace("text-white", "")
-          .replace("bg-gray-100 text-text-secondary hover:bg-gray-200", "")
-          .trim()
-          + " bg-gray-100 text-text-secondary hover:bg-gray-200";
+        b.className =
+          b.className
+            .replace("text-white", "")
+            .replace("bg-gray-100 text-text-secondary hover:bg-gray-200", "")
+            .trim() + " bg-gray-100 text-text-secondary hover:bg-gray-200";
         b.style.backgroundColor = "";
       });
 
       btn.setAttribute("aria-pressed", "true");
-      btn.className = btn.className
-        .replace("bg-gray-100 text-text-secondary hover:bg-gray-200", "")
-        .trim()
-        + " text-white";
+      btn.className =
+        btn.className
+          .replace("bg-gray-100 text-text-secondary hover:bg-gray-200", "")
+          .trim() + " text-white";
       btn.style.backgroundColor = pillarColor;
 
       cards.forEach((card) => {

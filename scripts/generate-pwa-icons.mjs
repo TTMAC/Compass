@@ -42,9 +42,6 @@ const svg = `
 
 for (const size of SIZES) {
   const outPath = resolve(`public/icon-${size}.png`);
-  await sharp(Buffer.from(svg))
-    .resize(size, size)
-    .png()
-    .toFile(outPath);
+  await sharp(Buffer.from(svg)).resize(size, size).png().toFile(outPath);
   console.log(`Generated ${outPath} (${size}×${size})`);
 }

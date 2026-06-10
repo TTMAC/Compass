@@ -21,7 +21,10 @@
         "categories:best-practices": ["warn", { "minScore": 0.9 }],
         "categories:seo": ["warn", { "minScore": 0.95 }],
         "resource-summary:script:size": ["warn", { "maxNumericValue": 153600 }],
-        "resource-summary:stylesheet:size": ["warn", { "maxNumericValue": 51200 }],
+        "resource-summary:stylesheet:size": [
+          "warn",
+          { "maxNumericValue": 51200 }
+        ],
         "resource-summary:total:size": ["warn", { "maxNumericValue": 460800 }],
         "uses-long-cache-ttl": "off",
         "csp-xss": "off"

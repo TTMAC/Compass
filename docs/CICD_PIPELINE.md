@@ -6,11 +6,11 @@ This document describes how code moves from development to production for the Go
 
 GovCompass uses **GitHub Actions** for continuous integration and **Netlify** for deployment. Three long-lived branches map to three environments on a single Netlify site using branch deploys:
 
-| Branch    | Environment | URL                                    | GA4     |
-| --------- | ----------- | -------------------------------------- | ------- |
-| `develop` | Development | `develop--{netlify-site}.netlify.app`  | Off     |
-| `staging` | Staging     | `staging--{netlify-site}.netlify.app`  | Off     |
-| `main`    | Production  | `govcompass.co.za`                     | On      |
+| Branch    | Environment | URL                                   | GA4 |
+| --------- | ----------- | ------------------------------------- | --- |
+| `develop` | Development | `develop--{netlify-site}.netlify.app` | Off |
+| `staging` | Staging     | `staging--{netlify-site}.netlify.app` | Off |
+| `main`    | Production  | `govcompass.co.za`                    | On  |
 
 ## Promotion Flow
 
@@ -55,18 +55,22 @@ The pipeline runs four jobs in this order:
 ```
 
 **1. Lint** (runs in parallel with Test)
+
 - `npm run lint` — ESLint across `.ts` and `.astro` files
 - `npm run format:check` — Prettier formatting check
 
 **2. Unit Tests** (runs in parallel with Lint)
+
 - `npm test` — Vitest unit tests with happy-dom
 
 **3. Build** (runs after Lint and Test pass)
+
 - Sets `SITE_URL` dynamically based on the target branch
 - `npm run build` — Runs the scheduled-publish script, Astro build, and Pagefind indexing
 - Uploads the `dist/` directory as an artifact for the E2E job
 
 **4. E2E Tests** (runs after Build)
+
 - Downloads the build artifact
 - Installs Playwright with Chromium
 - `npm run test:e2e` — Runs Playwright tests against the built site (Desktop Chrome + Mobile Chrome)
@@ -101,12 +105,12 @@ The `SITE_URL` feeds into `astro.config.mjs` (`site` property), which makes `Ast
 
 ### Environment Variables
 
-| Variable             | Production           | Staging / Develop | Where Set                              |
-| -------------------- | -------------------- | ----------------- | -------------------------------------- |
-| `SITE_URL`           | `govcompass.co.za`   | Branch URL        | `netlify.toml` contexts               |
-| `PUBLIC_GA4_ID`      | Real GA4 ID          | Empty             | Netlify UI (Production context only)   |
-| `BUTTONDOWN_API_KEY` | Real key             | Empty             | Netlify UI (Production context only)   |
-| `UNSPLASH_ACCESS_KEY`| Real key             | Real key          | Netlify UI (all contexts)              |
+| Variable              | Production         | Staging / Develop | Where Set                            |
+| --------------------- | ------------------ | ----------------- | ------------------------------------ |
+| `SITE_URL`            | `govcompass.co.za` | Branch URL        | `netlify.toml` contexts              |
+| `PUBLIC_GA4_ID`       | Real GA4 ID        | Empty             | Netlify UI (Production context only) |
+| `BUTTONDOWN_API_KEY`  | Real key           | Empty             | Netlify UI (Production context only) |
+| `UNSPLASH_ACCESS_KEY` | Real key           | Real key          | Netlify UI (all contexts)            |
 
 GA4 and the email newsletter API key are intentionally disabled on non-production environments to avoid polluting analytics and sending test emails.
 
@@ -121,21 +125,24 @@ The `github-actions[bot]` user is exempted from branch protection on `main` so i
 Configured in GitHub repository settings:
 
 **`main` branch:**
+
 - Require status checks to pass (lint, test, build, e2e)
 - Exempt `github-actions[bot]` (for scheduled publishing)
 
 **`staging` branch:**
+
 - Require status checks to pass (lint, test, build, e2e)
 
 **`develop` branch:**
+
 - Optional — can allow direct pushes for faster iteration during development
 
 ## Key Files
 
-| File | Purpose |
-| ---- | ------- |
-| `.github/workflows/ci.yml` | CI pipeline definition |
-| `.github/workflows/scheduled-publish.yml` | Hourly scheduled article publishing |
-| `netlify.toml` | Build config, branch deploy contexts, headers, redirects |
-| `astro.config.mjs` | Reads `SITE_URL` from environment |
-| `scripts/scheduled-publish.mjs` | Promotes scheduled articles to published |
+| File                                      | Purpose                                                  |
+| ----------------------------------------- | -------------------------------------------------------- |
+| `.github/workflows/ci.yml`                | CI pipeline definition                                   |
+| `.github/workflows/scheduled-publish.yml` | Hourly scheduled article publishing                      |
+| `netlify.toml`                            | Build config, branch deploy contexts, headers, redirects |
+| `astro.config.mjs`                        | Reads `SITE_URL` from environment                        |
+| `scripts/scheduled-publish.mjs`           | Promotes scheduled articles to published                 |

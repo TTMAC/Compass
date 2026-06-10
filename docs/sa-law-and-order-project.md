@@ -35,13 +35,13 @@ Drawn from the USA's FBI, DEA, and Marshal Service separation of concerns.
 
 The national SAPS should be radically narrowed in mandate and professionalised to focus only on:
 
-| Unit | Mandate |
-|---|---|
-| Serious & Organised Crime Bureau | Syndicates, gang networks, trafficking |
+| Unit                               | Mandate                                    |
+| ---------------------------------- | ------------------------------------------ |
+| Serious & Organised Crime Bureau   | Syndicates, gang networks, trafficking     |
 | National Counter-Corruption Police | Police-on-police corruption, state capture |
-| Cyber Crime & Financial Crime Unit | Digital fraud, money laundering |
-| Border & Ports Authority Police | Fully merged with Home Affairs enforcement |
-| National Rapid Response | Cross-provincial deployment for crises |
+| Cyber Crime & Financial Crime Unit | Digital fraud, money laundering            |
+| Border & Ports Authority Police    | Fully merged with Home Affairs enforcement |
+| National Rapid Response            | Cross-provincial deployment for crises     |
 
 The critical USA lesson: specialist federal agencies with narrow mandates are harder to capture politically than massive generalist bureaucracies. SAPS today is too big, too generalist, and too easy to corrupt at the top.
 
@@ -79,17 +79,18 @@ A major failure in SA policing is that Crime Intelligence is inside SAPS and has
 Fix: Create a Civilian Police Intelligence Oversight Council — independent of all three tiers, reporting directly to Parliament, modelled on the USA's Inspector General system but with real prosecutorial referral power.
 
 Strengthen IPID (Independent Police Investigative Directorate) with:
+
 - Provincial IPID offices with ring-fenced budgets
 - Power to prosecute directly, not just refer to the NPA
 
 #### Technology Layer: Selective China Inspiration (Without the Surveillance State)
 
-| Technology | SA Application |
-|---|---|
-| Predictive deployment analytics | Use crime data to dynamically deploy officers — not to surveil citizens |
-| Integrated CCTV + ANPR networks | Metro-level, under civilian oversight, with strict data retention laws |
-| Digital case management | Replace SAPS's catastrophically broken CAS system |
-| Drone surveillance (rural) | Farm attack response in remote areas where reaction times are 45+ minutes |
+| Technology                      | SA Application                                                            |
+| ------------------------------- | ------------------------------------------------------------------------- |
+| Predictive deployment analytics | Use crime data to dynamically deploy officers — not to surveil citizens   |
+| Integrated CCTV + ANPR networks | Metro-level, under civilian oversight, with strict data retention laws    |
+| Digital case management         | Replace SAPS's catastrophically broken CAS system                         |
+| Drone surveillance (rural)      | Farm attack response in remote areas where reaction times are 45+ minutes |
 
 The hard line: no social scoring, no political surveillance. SA's Constitution makes this cleaner to legislate than most countries.
 
@@ -145,11 +146,11 @@ The structural fix is decentralisation of accountability — the reason France's
 
 The US distinguishes sharply between federal crimes, state crimes, and municipal offences. South Africa should do the same:
 
-| Crime Category | Jurisdiction | Court |
-|---|---|---|
-| Organised crime, corruption, terrorism, cross-border crime | National | Specialised National Criminal Court |
-| Serious violent crime, major drug offences | Provincial | Provincial High Court (criminal division) |
-| Petty crime, minor assault, traffic | Municipal | Community Justice Courts |
+| Crime Category                                             | Jurisdiction | Court                                     |
+| ---------------------------------------------------------- | ------------ | ----------------------------------------- |
+| Organised crime, corruption, terrorism, cross-border crime | National     | Specialised National Criminal Court       |
+| Serious violent crime, major drug offences                 | Provincial   | Provincial High Court (criminal division) |
+| Petty crime, minor assault, traffic                        | Municipal    | Community Justice Courts                  |
 
 What this achieves: Provincial governments gain co-ownership of their criminal justice environment. A Western Cape or Gauteng with different crime profiles can resource and prioritise differently, rather than waiting on a singular national NPA.
 
@@ -210,6 +211,7 @@ Each track has defined time limits — e.g., Track B must conclude within 18 mon
 #### Reform 6 — Digital Infrastructure as a Constitutional Imperative
 
 Non-negotiables:
+
 - Unified digital docket system — no more lost paper dockets
 - Virtual remand hearings — accused don't need to be physically transported for a 5-minute remand
 - AI-assisted case scheduling — optimise magistrate time across courts
@@ -217,14 +219,14 @@ Non-negotiables:
 
 ### Criminal Justice Reform Matrix
 
-| Problem | Current State | Proposed Fix | Inspired By |
-|---|---|---|---|
-| Jurisdiction confusion | All crimes treated similarly | Tiered national/provincial/municipal jurisdiction | USA |
-| Poor investigations | SAPS-NPA disconnect | Independent Investigating Magistracy | France |
-| Sentencing inconsistency | Blunt minimums | Structured sentencing guidelines + commission | China |
-| Backlog at magistrates' level | Overloaded courts | Community Courts for minor offences | USA/customary law |
-| Remand detention crisis | Slow case processing | 72-hour triage + track system | France |
-| Systemic opacity | No data-driven oversight | Digital dashboards + AI scheduling | China |
+| Problem                       | Current State                | Proposed Fix                                      | Inspired By       |
+| ----------------------------- | ---------------------------- | ------------------------------------------------- | ----------------- |
+| Jurisdiction confusion        | All crimes treated similarly | Tiered national/provincial/municipal jurisdiction | USA               |
+| Poor investigations           | SAPS-NPA disconnect          | Independent Investigating Magistracy              | France            |
+| Sentencing inconsistency      | Blunt minimums               | Structured sentencing guidelines + commission     | China             |
+| Backlog at magistrates' level | Overloaded courts            | Community Courts for minor offences               | USA/customary law |
+| Remand detention crisis       | Slow case processing         | 72-hour triage + track system                     | France            |
+| Systemic opacity              | No data-driven oversight     | Digital dashboards + AI scheduling                | China             |
 
 ### Constitutional Foundation
 
@@ -264,37 +266,49 @@ ENVIRONMENT (Socio-economic conditions, inequality, governance, culture)
 ### Cluster 1: Citizen Safety and Security — Outcomes 1–6
 
 #### Outcome 1 — Crime Suppression & Deterrence
+
 The system must reduce the probability of crime occurring in the first instance.
+
 - Visible, intelligence-led policing presence
 - Proactive disruption of criminal networks (organised crime, gangs, syndicates)
 - Demand-side deterrence: the perceived risk of apprehension must be high
 
 #### Outcome 2 — Detection & Rapid Response
+
 When crime occurs, the system must detect it and mobilise response efficiently.
+
 - 10111 / emergency response times within acceptable thresholds
 - Crime scene attendance and initial evidence preservation
 - Victim and witness engagement at the point of incident
 
 #### Outcome 3 — Quality Investigation & Evidence Integrity
+
 The investigative subsystem must convert detected crime into prosecutable case dockets.
+
 - Professional detective capacity with specialised units
 - Chain of custody compliance for physical and digital evidence
 - Forensic science capability (SAPS forensic labs currently have multi-year backlogs)
 
 #### Outcome 4 — Lawful Arrest & Secure Pre-Trial Custody
+
 Arrests must be constitutionally compliant and suspects must be safely processed.
+
 - Section 35 rights compliance (right to silence, legal representation, no forced confessions)
 - Bail system functioning correctly — risk-based, not wealth-based
 - Remand detention minimised to constitutional limits (48-hour first appearance)
 
 #### Outcome 5 — Intelligence Production & Threat Assessment
+
 The system needs a dedicated feedback/sensing function that anticipates crime rather than only reacting.
+
 - Crime Intelligence as a strategic function, not a political tool
 - Threat environment monitoring: organised crime, gang activity, terrorism, cybercrime
 - Intelligence-to-operations pipeline: intelligence products must drive deployments, not just generate reports
 
 #### Outcome 6 — Public Order & Stability Management
+
 The system must maintain macro-level stability and manage collective action events without escalation.
+
 - Crowd management consistent with the Marikana Commission recommendations
 - Service delivery protest response protocols that de-escalate rather than militarise
 - Counter-terrorism readiness without normalising emergency powers
@@ -302,43 +316,57 @@ The system must maintain macro-level stability and manage collective action even
 ### Cluster 2: Criminal Justice & Correctional Services — Outcomes 7–13
 
 #### Outcome 7 — Prosecutorial Effectiveness & Case Conversion
+
 The NPA must convert investigation outputs into successful prosecutions.
+
 - Case screening and prioritisation (not every case can or should be prosecuted)
 - Prosecutor-detective coordination (the current handoff is a critical system failure)
 - Specialised prosecution capacity: GBV, financial crime, organised crime, corruption
 
 #### Outcome 8 — Judicial Efficiency & Access to Justice
+
 Courts must process cases within acceptable time frames.
+
 - Time-to-trial metrics: currently catastrophic, with remand detainees waiting years
 - Court infrastructure: many magistrates' courts are literally falling apart
 - Access to legal representation: Legal Aid SA is under-resourced
 
 #### Outcome 9 — Sentencing Integrity & Proportionality
+
 The sentencing subsystem must produce outcomes that are constitutionally sound, consistent, and serve both retributive and rehabilitative purposes.
+
 - Minimum sentencing reform (current framework removes judicial discretion bluntly)
 - Restorative justice as a formal sentencing option
 - Sentencing data transparency: inter-court consistency must be measurable
 
 #### Outcome 10 — Secure & Humane Incarceration
+
 DCS must hold sentenced and remand prisoners safely.
+
 - Current overcrowding at ~130%+ of capacity — a constitutional and practical crisis
 - Gang control inside prisons (the Numbers gangs operate as parallel governance systems)
 - Staff-to-prisoner ratios and working conditions for correctional officers
 
 #### Outcome 11 — Rehabilitation & Skills Development
+
 Incarceration must transform, not just contain.
+
 - Educational and vocational programmes: most inmates leave prison less employable than they entered
 - Substance abuse treatment: addiction is a primary driver of recidivism
 - Mental health services within correctional facilities
 
 #### Outcome 12 — Reintegration & Recidivism Reduction
+
 The system output that loops back into the environment.
+
 - Community Corrections (parole and probation) as a functional reintegration mechanism, not just surveillance
 - Post-release housing support, and social reintegration
 - Recidivism rates as the primary lagging indicator of system performance
 
 #### Outcome 13 — Victim Justice, Reparation & Restoration
+
 Often the most neglected subsystem output.
+
 - Victim participation rights in sentencing and parole (SOCA, Child Justice Act)
 - Victim-Offender Mediation (VOM) programmes
 - Compensation orders and civil claims support
@@ -348,31 +376,31 @@ Often the most neglected subsystem output.
 
 These are emergent system properties that neither cluster alone owns:
 
-| System Property | Outcome Required |
-|---|---|
-| Inter-cluster integration | Seamless SAPS → NPA → DCS handoffs with minimal case attrition |
-| Data & feedback loops | Integrated Criminal Justice Information System (ICJS) operational and driving decisions |
-| Public legitimacy & trust | Communities cooperate with police; system perceived as just and non-corrupt |
+| System Property           | Outcome Required                                                                                |
+| ------------------------- | ----------------------------------------------------------------------------------------------- |
+| Inter-cluster integration | Seamless SAPS → NPA → DCS handoffs with minimal case attrition                                  |
+| Data & feedback loops     | Integrated Criminal Justice Information System (ICJS) operational and driving decisions         |
+| Public legitimacy & trust | Communities cooperate with police; system perceived as just and non-corrupt                     |
 | Constitutional compliance | Rule of law and human rights upheld throughout — the system's non-negotiable boundary condition |
-| Fiscal sustainability | Outcomes achieved within budget envelope; no perverse incentives from underfunding |
+| Fiscal sustainability     | Outcomes achieved within budget envelope; no perverse incentives from underfunding              |
 
 ### MECE Outcome Summary
 
-| # | Outcome | Cluster | System Function |
-|---|---|---|---|
-| 1 | Crime Suppression | Safety & Security | Prevention (Input reduction) |
-| 2 | Detection & Response | Safety & Security | Sensing |
-| 3 | Investigation Quality | Safety & Security | Throughput |
-| 4 | Lawful Arrest & Custody | Safety & Security | Output to justice |
-| 5 | Intelligence Production | Safety & Security | Feedback/Sensing |
-| 6 | Public Order & Stability | Safety & Security | Boundary maintenance |
-| 7 | Prosecutorial Effectiveness | CJ & Correctional | Conversion |
-| 8 | Judicial Efficiency | CJ & Correctional | Throughput |
-| 9 | Sentencing Integrity | CJ & Correctional | Output quality |
-| 10 | Secure Incarceration | CJ & Correctional | Containment |
-| 11 | Rehabilitation | CJ & Correctional | Transformation |
-| 12 | Reintegration & Recidivism | CJ & Correctional | Feedback loop |
-| 13 | Victim Justice | CJ & Correctional | Secondary output |
+| #   | Outcome                     | Cluster           | System Function              |
+| --- | --------------------------- | ----------------- | ---------------------------- |
+| 1   | Crime Suppression           | Safety & Security | Prevention (Input reduction) |
+| 2   | Detection & Response        | Safety & Security | Sensing                      |
+| 3   | Investigation Quality       | Safety & Security | Throughput                   |
+| 4   | Lawful Arrest & Custody     | Safety & Security | Output to justice            |
+| 5   | Intelligence Production     | Safety & Security | Feedback/Sensing             |
+| 6   | Public Order & Stability    | Safety & Security | Boundary maintenance         |
+| 7   | Prosecutorial Effectiveness | CJ & Correctional | Conversion                   |
+| 8   | Judicial Efficiency         | CJ & Correctional | Throughput                   |
+| 9   | Sentencing Integrity        | CJ & Correctional | Output quality               |
+| 10  | Secure Incarceration        | CJ & Correctional | Containment                  |
+| 11  | Rehabilitation              | CJ & Correctional | Transformation               |
+| 12  | Reintegration & Recidivism  | CJ & Correctional | Feedback loop                |
+| 13  | Victim Justice              | CJ & Correctional | Secondary output             |
 
 ### Critical Failure Points
 
@@ -454,12 +482,12 @@ What metrics should define success — not just crime statistics (which can be m
 
 ### Series Architecture Summary
 
-| Pillar | Themes | Core Narrative |
-|---|---|---|
-| Historical Background | 1.1 – 1.4 | The deficit was inherited and then deliberately worsened |
-| Current State | 2.1 – 2.5 | A broken pipeline with structural, geographic and political dimensions |
-| Desired Future State | 3.1 – 3.5 | A tiered, legitimate, rehabilitation-oriented system grounded in the Constitution |
-| The Delta | 4.1 – 4.6 | Sequenced reform requiring legislative, fiscal, technological and political will |
+| Pillar                | Themes    | Core Narrative                                                                    |
+| --------------------- | --------- | --------------------------------------------------------------------------------- |
+| Historical Background | 1.1 – 1.4 | The deficit was inherited and then deliberately worsened                          |
+| Current State         | 2.1 – 2.5 | A broken pipeline with structural, geographic and political dimensions            |
+| Desired Future State  | 3.1 – 3.5 | A tiered, legitimate, rehabilitation-oriented system grounded in the Constitution |
+| The Delta             | 4.1 – 4.6 | Sequenced reform requiring legislative, fiscal, technological and political will  |
 
 ---
 
@@ -483,13 +511,13 @@ What metrics should define success — not just crime statistics (which can be m
 
 ## Comparator Country Models Referenced
 
-| Country | Model Borrowed | Applied To |
-|---|---|---|
-| USA | FBI / federal-state-municipal jurisdiction split | Three-tier policing; tiered court jurisdiction |
-| USA | District Attorney system | Provincial Prosecution Authorities |
-| USA | Sentencing Commission | SA Sentencing Reform Commission |
-| France | Gendarmerie Nationale | Provincial Police Services for rural areas |
-| France | Juge d'Instruction | Independent Investigating Magistracy |
-| China | Structured sentencing grids | Presumptive sentencing bands |
-| China | Grid policing (wanggezhua) | Municipal community policing |
-| China | Court digitisation | Digital infrastructure for SA courts |
+| Country | Model Borrowed                                   | Applied To                                     |
+| ------- | ------------------------------------------------ | ---------------------------------------------- |
+| USA     | FBI / federal-state-municipal jurisdiction split | Three-tier policing; tiered court jurisdiction |
+| USA     | District Attorney system                         | Provincial Prosecution Authorities             |
+| USA     | Sentencing Commission                            | SA Sentencing Reform Commission                |
+| France  | Gendarmerie Nationale                            | Provincial Police Services for rural areas     |
+| France  | Juge d'Instruction                               | Independent Investigating Magistracy           |
+| China   | Structured sentencing grids                      | Presumptive sentencing bands                   |
+| China   | Grid policing (wanggezhua)                       | Municipal community policing                   |
+| China   | Court digitisation                               | Digital infrastructure for SA courts           |

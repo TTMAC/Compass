@@ -1,6 +1,6 @@
 # The Integrated Statecraft Audit
 
-*A Diagnostic Method for Composite National Problems — Applied to the Republic of South Africa*
+_A Diagnostic Method for Composite National Problems — Applied to the Republic of South Africa_
 
 **A Sentinel Quadrant White Paper — Draft v1.0 — April 2026**
 
@@ -58,7 +58,7 @@ The paper does not prescribe specific policies for South Africa; that is the wor
 
 The audit is not novel in its components. Its components are drawn from a lineage of well-established analytical traditions: the systems-thinking work of Donella Meadows and Peter Senge on feedback loops and emergence; the institutional economics of Douglass North and of Daron Acemoglu and James Robinson on inclusive versus extractive institutions; Amartya Sen's capabilities approach and the United Nations Development Programme's operationalisation of it into the Human Development Index; and — most directly — the Carnegie Commission of Investigation on the Poor White Question (1929–1932), which produced the first five-volume integrated diagnosis of a single composite national problem in any setting.
 
-What is novel is the explicit architecture. The audit codifies the move from integrated *diagnosis* to integrated *programme design* and — critically — to integrated *accountability design*. The latter is the failure point at which most integrated strategies collapse. Many countries produce integrated national development plans; few produce accountable ones.
+What is novel is the explicit architecture. The audit codifies the move from integrated _diagnosis_ to integrated _programme design_ and — critically — to integrated _accountability design_. The latter is the failure point at which most integrated strategies collapse. Many countries produce integrated national development plans; few produce accountable ones.
 
 ### 2.2 The four pillars
 
@@ -78,7 +78,7 @@ The audit's signature analytical move is the 4×4 interdependency matrix. For an
 
 The discipline is demanding. Populating all twelve off-diagonal cells forces the analyst to identify the specific transmission mechanisms between pillars — not as generalities ("insecurity hurts growth") but as specific evidentiary claims ("private security spend of X% of GDP is a pure dead-weight loss relative to a functioning state monopoly on violence"). An interdependency cell without evidence is not an interdependency claim; it is an assertion, and the audit discards it.
 
-The diagnostic value of the matrix is that it reveals which pillar failures are *load-bearing* — that is, which failures, if resolved, would propagate outwards into other pillars and which would not. A load-bearing failure has dense interdependency evidence in multiple cells; a marginal failure does not. Programme-design choices follow.
+The diagnostic value of the matrix is that it reveals which pillar failures are _load-bearing_ — that is, which failures, if resolved, would propagate outwards into other pillars and which would not. A load-bearing failure has dense interdependency evidence in multiple cells; a marginal failure does not. Programme-design choices follow.
 
 ### 2.4 The audit sequence
 
@@ -260,7 +260,7 @@ The audit's signature move on programme design is the requirement that a named i
 
 What would such an institution look like? The closest international analogue is the UK Prime Minister's Delivery Unit under Tony Blair (2001–2010), which operated within the Cabinet Office with direct Prime Ministerial mandate, a small elite staff (thirty-to-forty professionals), authority to demand data from line departments, and accountability milestones that were publicly tracked. It had three critical features: direct executive mandate, small and elite staffing, and public accountability. None of the three currently exists in the South African Presidency's delivery architecture at the scale required.
 
-The audit does not prescribe a specific structure. It insists that *some* structure must exist if an integrated programme is to be delivered rather than managed. The presence or absence of that structure is the single most reliable predictor of whether integrated programmes produce integrated outcomes.
+The audit does not prescribe a specific structure. It insists that _some_ structure must exist if an integrated programme is to be delivered rather than managed. The presence or absence of that structure is the single most reliable predictor of whether integrated programmes produce integrated outcomes.
 
 ### 4.4 Accountability design
 
@@ -328,16 +328,16 @@ The audit takes clear positions on institutional design because the evidence sup
 
 ## 7. References
 
-**South African official sources.** Statistics South Africa, *Quarterly Labour Force Survey Q4 2025* (P0211), February 2026. Statistics South Africa, *Mid-Year Population Estimates 2024* (P0302). Statistics South Africa, *National Poverty Lines 2024* (P0310.1). Statistics South Africa, *Poverty Trends in South Africa 2006–2023*. National Treasury, *Budget Review 2026*, 25 February 2026. South African Police Service, quarterly and annual crime statistics releases 2024/25 and 2025/26. Eskom, power system status releases 2025–2026. South African Reserve Bank, quarterly bulletin 2025–2026. Auditor-General of South Africa, consolidated PFMA reports. Department of International Relations and Cooperation, annual reports. Judicial Commission of Inquiry into State Capture (Zondo Commission), *Report*, 2022.
+**South African official sources.** Statistics South Africa, _Quarterly Labour Force Survey Q4 2025_ (P0211), February 2026. Statistics South Africa, _Mid-Year Population Estimates 2024_ (P0302). Statistics South Africa, _National Poverty Lines 2024_ (P0310.1). Statistics South Africa, _Poverty Trends in South Africa 2006–2023_. National Treasury, _Budget Review 2026_, 25 February 2026. South African Police Service, quarterly and annual crime statistics releases 2024/25 and 2025/26. Eskom, power system status releases 2025–2026. South African Reserve Bank, quarterly bulletin 2025–2026. Auditor-General of South Africa, consolidated PFMA reports. Department of International Relations and Cooperation, annual reports. Judicial Commission of Inquiry into State Capture (Zondo Commission), _Report_, 2022.
 
-**Multilateral sources.** United Nations Development Programme, *Human Development Report 2023/24: Breaking the Gridlock*. World Bank, Worldwide Governance Indicators, annual releases. World Bank, World Development Indicators. Stockholm International Peace Research Institute, *Military Expenditure Database*. International Association for the Evaluation of Educational Achievement, *PIRLS 2021 International Results in Reading*. International Monetary Fund, *World Economic Outlook*, 2025 and 2026 editions.
+**Multilateral sources.** United Nations Development Programme, _Human Development Report 2023/24: Breaking the Gridlock_. World Bank, Worldwide Governance Indicators, annual releases. World Bank, World Development Indicators. Stockholm International Peace Research Institute, _Military Expenditure Database_. International Association for the Evaluation of Educational Achievement, _PIRLS 2021 International Results in Reading_. International Monetary Fund, _World Economic Outlook_, 2025 and 2026 editions.
 
-**Independent research.** Institute for Security Studies Africa, *ISS Today* and *Policy Briefs* 2024–2026. Global Initiative Against Transnational Organized Crime, *Organized Crime Index*. South African Medical Research Council, burden-of-disease and femicide research. Spaull, Nic, research and commentary on South African educational outcomes 2023–2025.
+**Independent research.** Institute for Security Studies Africa, _ISS Today_ and _Policy Briefs_ 2024–2026. Global Initiative Against Transnational Organized Crime, _Organized Crime Index_. South African Medical Research Council, burden-of-disease and femicide research. Spaull, Nic, research and commentary on South African educational outcomes 2023–2025.
 
-**Academic.** Acemoglu, Daron, and Robinson, James A., *Why Nations Fail*, Crown, 2012. North, Douglass C., *Institutions, Institutional Change and Economic Performance*, Cambridge University Press, 1990. Sen, Amartya, *Development as Freedom*, Knopf, 1999. Meadows, Donella H., *Thinking in Systems: A Primer*, Chelsea Green, 2008. Seekings, Jeremy, and Nattrass, Nicoli, *Class, Race, and Inequality in South Africa*, Yale University Press, 2005. Terreblanche, Sampie, *A History of Inequality in South Africa, 1652–2002*, University of Natal Press, 2002. Giliomee, Hermann, *The Afrikaners: Biography of a People*, Tafelberg, 2003.
+**Academic.** Acemoglu, Daron, and Robinson, James A., _Why Nations Fail_, Crown, 2012. North, Douglass C., _Institutions, Institutional Change and Economic Performance_, Cambridge University Press, 1990. Sen, Amartya, _Development as Freedom_, Knopf, 1999. Meadows, Donella H., _Thinking in Systems: A Primer_, Chelsea Green, 2008. Seekings, Jeremy, and Nattrass, Nicoli, _Class, Race, and Inequality in South Africa_, Yale University Press, 2005. Terreblanche, Sampie, _A History of Inequality in South Africa, 1652–2002_, University of Natal Press, 2002. Giliomee, Hermann, _The Afrikaners: Biography of a People_, Tafelberg, 2003.
 
 **Contemporary reporting.** Daily Maverick, DefenceWeb, Business Day, Financial Mail, Bloomberg — cited as marked in-text.
 
 ---
 
-*Published by Sentinel Quadrant. Draft v1.0, April 2026. For internal review; not for external distribution pending peer review cycle.*
+_Published by Sentinel Quadrant. Draft v1.0, April 2026. For internal review; not for external distribution pending peer review cycle._

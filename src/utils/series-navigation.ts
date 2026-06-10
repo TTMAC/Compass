@@ -30,12 +30,8 @@ export function getSeriesNavigation(
   const { prev, next } = currentArticle.data.series;
 
   return {
-    prev: prev
-      ? findArticleLink(prev, allArticles)
-      : null,
-    next: next
-      ? findArticleLink(next, allArticles)
-      : null,
+    prev: prev ? findArticleLink(prev, allArticles) : null,
+    next: next ? findArticleLink(next, allArticles) : null,
   };
 }
 
@@ -43,9 +39,7 @@ function findArticleLink(
   slug: string,
   articles: ArticleEntry[],
 ): ArticleLink | null {
-  const article = articles.find(
-    (a) => a.id === slug || a.id === `${slug}.md`,
-  );
+  const article = articles.find((a) => a.id === slug || a.id === `${slug}.md`);
   if (!article) return null;
 
   return {

@@ -64,6 +64,7 @@ Reference file: docs/RAARICLE_ANALYSIS_INSTRUCTIONS.md
 >
 > **Eight test sections (one per RAARICLE™ element):**
 > For each of the eight elements, write a section that:
+>
 > 1. States the test as a simple question (e.g., "Can you name one entity that owns the task end-to-end?")
 > 2. Explains why this test matters using everyday language
 > 3. Gives a South African example of what happens when this test fails — use real institutional examples (municipalities, departments, agencies) but keep the tone diagnostic, not partisan
@@ -169,6 +170,7 @@ Reference file: docs/RAARICLE_ANALYSIS_INSTRUCTIONS.md
 > Map: NDoH (policy, norms, conditional grants — Comprehensive HIV/AIDS Grant, National Health Grant, Health Facility Revitalisation Grant) → provincial health departments (hospital and clinic management, staffing, budgets) → district health services (PHC delivery, community health workers, ward-based outreach teams) → facility level (clinic managers, nursing staff, community health workers). Also map: SAHPRA (medicine regulation), pharmaceutical depots (provincial medicine supply chain), CCOD (community health worker contracting — sometimes through NPOs, sometimes direct employment), OHSC (quality standards). Search for the latest District Health Barometer, Ideal Clinic monitoring results, and NHI implementation updates.
 >
 > **RAARICLE™ Diagnosis (one subsection per element):**
+>
 > - **Responsibility:** PHC delivery assigned to provinces through district health system, but community health workers managed through fragmented contractual arrangements — some via NPOs, some direct employment, different terms in different provinces. NHI proposes to shift purchasing power to a national fund. Rating: likely 2.
 > - **Accountability:** Provincial HODs accountable but conditional grant conditions set nationally. Facility managers accountable for clinic operations but dependent on provincial supply chains. Rating: likely 2-3.
 > - **Authority:** Facility managers cannot independently procure essential medicines — provincial pharmaceutical depots control the supply chain. A clinic that runs out of ARVs cannot buy them locally. The 30-day test fails badly here. Rating: likely 2. Search for medicine stockout data.
@@ -203,6 +205,7 @@ Reference file: docs/RAARICLE_ANALYSIS_INSTRUCTIONS.md
 > Map the full chain: DHS (national — policy, subsidy framework, conditional grants: Human Settlements Development Grant, Urban Settlements Development Grant) → provincial human settlements departments (project approval, developer appointment, beneficiary selection, quality inspection) → municipalities (land identification, rezoning, bulk infrastructure, building plan approval, rates clearance) → developers/contractors (construction) → beneficiaries (occupation) → deeds registry (title deed registration). Note: some metros have Level 2 accreditation and manage the full process internally — compare their performance. Search for latest housing delivery statistics, title deed backlog data, and AG Human Settlements audit outcomes.
 >
 > **RAARICLE™ Diagnosis (one subsection per element):**
+>
 > - **Responsibility:** Fragmented across at least four entities per project. No single entity owns the chain from land identification to title deed registration. When a project fails, accountability is diffused across institutions that each completed "their part." Rating: likely 1-2.
 > - **Accountability:** DHS Minister accountable to Parliament, provincial MEC accountable to legislature, municipal manager accountable to council — but the beneficiary who doesn't receive their house or title deed has no single point to hold accountable. Rating: likely 2.
 > - **Authority:** Municipalities identify land but provinces approve projects. Provinces appoint developers but municipalities approve building plans. Neither can act independently. The 30-day test fails comprehensively. Rating: likely 1-2.

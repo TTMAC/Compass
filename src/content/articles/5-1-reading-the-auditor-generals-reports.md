@@ -27,7 +27,7 @@ seo:
 
 ## The Annual Report Card That Almost Nobody Reads
 
-In *Following the Money*, you traced how SARS collects over R2 trillion in revenue and how that money flows through the National Revenue Fund, through the Division of Revenue Act, and into the budgets of departments and municipalities that are supposed to turn it into services. In *The Budget Process*, you learned when and how those fiscal decisions are made. In *Making Public Submissions*, you learned how to participate in the legislative processes that shape those decisions. But there is a question that every article in this series has been building toward: once the money has been allocated and spent, how do you know whether it was spent properly?
+In _Following the Money_, you traced how SARS collects over R2 trillion in revenue and how that money flows through the National Revenue Fund, through the Division of Revenue Act, and into the budgets of departments and municipalities that are supposed to turn it into services. In _The Budget Process_, you learned when and how those fiscal decisions are made. In _Making Public Submissions_, you learned how to participate in the legislative processes that shape those decisions. But there is a question that every article in this series has been building toward: once the money has been allocated and spent, how do you know whether it was spent properly?
 
 ## The Report Card Nobody Reads
 
@@ -42,7 +42,6 @@ This article closes that gap. By the end of it, you will understand what AGSA is
 ## The Constitutional Watchdog: What AGSA Is and Why It Matters
 
 The Auditor-General is not a department. It is not a ministry. It is a constitutional institution — one of the Chapter 9 institutions established by the Constitution to strengthen democracy. Section 188 of the Constitution mandates the Auditor-General to audit and report on the accounts, financial statements, and financial management of all national and provincial state departments and administrations, all municipalities, and any other institution or accounting entity required by national or provincial legislation to be audited.
-
 
 ![The Auditor-General audits every government department and public entity annually | Photo by Joachim Schnürle on Unsplash](/images/articles/5-1-reading-the-auditor-generals-reports/img-1.webp)
 
@@ -69,7 +68,6 @@ AGSA is a constitutionally independent institution that audits every organ of st
 ## The Five Audit Outcomes: A Vocabulary for Accountability
 
 When AGSA completes an audit, it issues an audit opinion — a formal assessment of the entity's financial statements. There are five possible outcomes, ranging from the best (a clean audit) to the worst (a disclaimer of opinion). These five outcomes are the vocabulary of public financial accountability in South Africa, and understanding what each one means — and what it does not mean — is the most important skill this article teaches you.
-
 
 ![Audit outcomes range from clean audit to disclaimer — each telling a different story | Photo by Jakub Żerdzicki on Unsplash](/images/articles/5-1-reading-the-auditor-generals-reports/img-2.webp)
 
@@ -135,7 +133,7 @@ The Municipal Finance Management Act 56 of 2003 (MFMA) governs the financial man
 
 The municipal CultureShift assessment is striking: 45% of municipalities were classified as "doing harm," 43% as "not doing the basics," and only 1% as "doing good." The gap between the PFMA and MFMA audit outcomes reflects the capacity and governance challenges that this series has documented across multiple articles — the structural mismatch between what municipalities are expected to deliver and the institutional resources available to them.
 
-The geographic distribution of clean audits reveals deep provincial disparities. According to the AGSA's *Consolidated General Report on Local Government Audit Outcomes 2023-24* (August 2025), **the Western Cape accounted for 20 of the 41 municipal clean audits nationally — nearly half.** The same report records that **the Free State has not produced a single clean municipal audit since 2016.** These patterns are not random. They reflect long-standing differences in provincial oversight, institutional stability, and governance culture that the audit results quantify but cannot, on their own, resolve.
+The geographic distribution of clean audits reveals deep provincial disparities. According to the AGSA's _Consolidated General Report on Local Government Audit Outcomes 2023-24_ (August 2025), **the Western Cape accounted for 20 of the 41 municipal clean audits nationally — nearly half.** The same report records that **the Free State has not produced a single clean municipal audit since 2016.** These patterns are not random. They reflect long-standing differences in provincial oversight, institutional stability, and governance culture that the audit results quantify but cannot, on their own, resolve.
 
 :::expert
 The Auditor-General's consolidated reports provide not only audit outcomes but also a diagnostic framework for understanding why those outcomes occur. AGSA's analysis consistently identifies three "key controls" that predict audit outcomes: leadership, financial and performance management, and governance. Where all three controls are assessed as functioning effectively, the entity almost always receives a clean or unqualified audit. Where one or more controls have broken down, the audit outcomes deteriorate predictably. AGSA's data shows that the root cause most frequently associated with poor audit outcomes is leadership instability — vacancies in the positions of accounting officer, chief financial officer, or head of internal audit. A municipality that has had three different municipal managers in five years, or a provincial department that has operated with an acting CFO for two years, is statistically far more likely to receive a qualified, adverse, or disclaimed audit than one with stable, competent leadership. The implication for citizens is significant: when your municipality appoints an acting municipal manager for the third time in as many years, the audit outcome two years later is, to a large extent, already determined. Leadership stability is not a bureaucratic nicety — it is a prerequisite for financial accountability.
@@ -145,7 +143,6 @@ The Auditor-General's consolidated reports provide not only audit outcomes but a
 
 AGSA's reports use a specific vocabulary to describe financial management failures. These terms appear in every audit report, every parliamentary debate about government performance, and every media headline about fiscal mismanagement. Understanding them precisely — rather than treating them as interchangeable synonyms for "corruption" — is essential to reading the reports accurately.
 
-
 ![Understanding audit terminology is essential for reading government accountability reports | Photo by Sasun Bughdaryan on Unsplash](/images/articles/5-1-reading-the-auditor-generals-reports/img-3.webp)
 
 ### Irregular Expenditure
@@ -154,7 +151,7 @@ Irregular expenditure is expenditure incurred in contravention of applicable leg
 
 The most common cause of irregular expenditure is non-compliance with supply chain management regulations — procurement procedures were not followed correctly. A municipality that awarded a R10 million contract without inviting competitive bids, as required by law, has incurred R10 million in irregular expenditure. The contract may have been awarded to a competent company at a fair price, delivering excellent work — or it may have been awarded to a politically connected company at an inflated price. The irregular expenditure classification tells you that the rules were broken. It does not tell you whether the outcome was harmful. For that, you need further investigation.
 
-The scale of irregular expenditure is enormous. **In the 2022/23 financial year alone, AGSA reported irregular expenditure of R53.55 billion across local government.** National and provincial departments added further tens of billions. The cumulative total of unresolved irregular expenditure — expenditure that has been flagged but never fully investigated, condoned, or recovered — *runs into the hundreds of billions.* This accumulated backlog represents one of the most significant accountability failures in South Africa's public financial management system.
+The scale of irregular expenditure is enormous. **In the 2022/23 financial year alone, AGSA reported irregular expenditure of R53.55 billion across local government.** National and provincial departments added further tens of billions. The cumulative total of unresolved irregular expenditure — expenditure that has been flagged but never fully investigated, condoned, or recovered — _runs into the hundreds of billions._ This accumulated backlog represents one of the most significant accountability failures in South Africa's public financial management system.
 
 ### Fruitless and Wasteful Expenditure
 
@@ -267,7 +264,7 @@ This is what reading AGSA reports gives you: not just the knowledge that "water 
 :::expert
 AGSA has increasingly adopted thematic and sector-specific auditing alongside its standard financial audits, recognising that the most serious service delivery failures often span multiple entities and governance levels. The water and sanitation sector audit exemplifies this approach: rather than examining individual municipal audits in isolation, AGSA traced the entire water value chain from national policy through provincial oversight to municipal delivery, identifying systemic breakdowns at each level. This approach reveals patterns that entity-by-entity auditing cannot — the fact that a municipality's failing wastewater treatment plant is not an isolated management failure but part of a national pattern affecting 99% of plants, driven by decades of underinvestment, skills shortages, and inadequate regulatory enforcement. For citizens, thematic audits are particularly valuable because they answer the question "is this just my municipality, or is this a systemic problem?" — a question that determines whether the solution lies in local accountability or national policy reform. AGSA's thematic reports are published alongside the consolidated general reports and are accessible on the AGSA website under special audit reports.
 
-**Source:** Auditor-General of South Africa, *Special Audit Reports: Water and Sanitation*, available at [agsa.co.za](https://www.agsa.co.za/Reporting/SpecialAuditReports.aspx)
+**Source:** Auditor-General of South Africa, _Special Audit Reports: Water and Sanitation_, available at [agsa.co.za](https://www.agsa.co.za/Reporting/SpecialAuditReports.aspx)
 :::
 
 ## The AGSA Report Toolkit: How to Use the Reports Yourself
@@ -334,7 +331,7 @@ By systematically answering these four questions, you transform an audit report 
 
 You now understand what the Auditor-General of South Africa is, what it audits, how its five audit opinions work, what the key financial management terms mean, how the expanded material irregularity mandate operates, and how to access and read the reports yourself. You understand the difference between PFMA and MFMA audits, you know what SCOPA does with audit findings, and you have a practical toolkit for turning published audit data into accountability claims.
 
-In *Using Government Data*, the next article in this series, we will broaden the lens from AGSA to the full landscape of public data that citizens can use — from National Treasury's fiscal data to Statistics South Africa's survey data to the performance information that departments publish under the Government Wide Monitoring and Evaluation System. In *Becoming an Active Citizen*, the final article, we will bring everything together: the architecture, the money, the participation rights, and the accountability tools — into a framework for sustained civic engagement that goes beyond a single election, a single audit report, or a single public submission.
+In _Using Government Data_, the next article in this series, we will broaden the lens from AGSA to the full landscape of public data that citizens can use — from National Treasury's fiscal data to Statistics South Africa's survey data to the performance information that departments publish under the Government Wide Monitoring and Evaluation System. In _Becoming an Active Citizen_, the final article, we will bring everything together: the architecture, the money, the participation rights, and the accountability tools — into a framework for sustained civic engagement that goes beyond a single election, a single audit report, or a single public submission.
 
 The Auditor-General's reports are not written for accountants. They are written for you — the citizen whose money was collected, allocated, and spent. The reports tell you whether that money was managed responsibly. The expanded mandate ensures that when it was not, there are consequences. The only missing ingredient is citizens who read the reports, understand the findings, and use them to demand accountability. That ingredient is you.
 
@@ -345,10 +342,10 @@ The analysis in this article draws on the following institutional research and p
 - Constitution of the Republic of South Africa, 1996, Sections 181 and 188–189 (Chapter 9 institutions, Auditor-General) — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)
 - Public Audit Act No. 25 of 2004 — establishing the Auditor-General's mandate, functions, and reporting obligations — [gov.za](https://www.gov.za/documents/public-audit-act)
 - Public Audit Amendment Act, 2018 — expanding the Auditor-General's powers to include material irregularity process, binding remedial action, and certificates of debt — [gov.za](https://www.gov.za/documents/public-audit-amendment-act-20-2018-english-afrikaans-21-nov-2018-0000)
-- Auditor-General of South Africa (2024). *PFMA Consolidated General Report 2023/24* — national and provincial audit outcomes, key controls, material irregularities — [agsa.co.za](https://www.agsa.co.za)
-- Auditor-General of South Africa (2025). *MFMA Consolidated General Report 2023/24* — municipal audit outcomes, financial health, compliance findings — [agsa.co.za](https://www.agsa.co.za)
-- Auditor-General of South Africa. *Special Audit Report: Water and Sanitation Sector* — thematic audit of water service delivery across municipalities — [agsa.co.za](https://www.agsa.co.za/Reporting/SpecialAuditReports.aspx)
-- Auditor-General of South Africa (2025). *Media Statement: AGSA Issues First Certificate of Debt* — enforcement action against Ngaka Modiri Molema District Municipality — [agsa.co.za](https://www.agsa.co.za)
+- Auditor-General of South Africa (2024). _PFMA Consolidated General Report 2023/24_ — national and provincial audit outcomes, key controls, material irregularities — [agsa.co.za](https://www.agsa.co.za)
+- Auditor-General of South Africa (2025). _MFMA Consolidated General Report 2023/24_ — municipal audit outcomes, financial health, compliance findings — [agsa.co.za](https://www.agsa.co.za)
+- Auditor-General of South Africa. _Special Audit Report: Water and Sanitation Sector_ — thematic audit of water service delivery across municipalities — [agsa.co.za](https://www.agsa.co.za/Reporting/SpecialAuditReports.aspx)
+- Auditor-General of South Africa (2025). _Media Statement: AGSA Issues First Certificate of Debt_ — enforcement action against Ngaka Modiri Molema District Municipality — [agsa.co.za](https://www.agsa.co.za)
 - Public Finance Management Act No. 1 of 1999 — financial management framework for national and provincial government — [treasury.gov.za](https://www.treasury.gov.za/legislation/pfma/)
 - Municipal Finance Management Act No. 56 of 2003 — financial management framework for local government — [treasury.gov.za](https://www.treasury.gov.za/legislation/mfma/)
 - Parliamentary Monitoring Group — SCOPA committee proceedings, hearing records, and committee reports — [pmg.org.za](https://pmg.org.za/committee/42/)

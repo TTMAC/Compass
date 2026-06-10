@@ -1,6 +1,6 @@
 # GovCompass Book Program — Brief & Execution Plan
 
-*Self-contained execution document. Designed to be transferred to a separate project workspace and executed without reference to the GovCompass site repository.*
+_Self-contained execution document. Designed to be transferred to a separate project workspace and executed without reference to the GovCompass site repository._
 
 ---
 
@@ -37,19 +37,19 @@ The two products share research, glossary, citations, and visual assets. They di
 
 ### 1.3 The two products at a glance
 
-| | **Product A — The Compass** | **Product B — The Analyst Series** |
-|---|---|---|
-| **Audience** | General public, no prerequisites | Policy analysts, journalists, postgraduates, civil servants, CSO staff |
-| **Reading model** | Linear narrative, cover-to-cover | Reference + course; volumes read independently |
-| **Length** | ~90,000 words, single volume | ~50,000 words × 4 volumes (~200,000 words) |
-| **Reading level** | Grade 10 | Grade 14 (university) |
-| **Voice** | Narrative, story-led, hooks before theory | Analytical, structured, dense with citations |
-| **Visuals** | 20–30 figures, accessible infographics | 60–80 figures, technical charts, methodology boxes |
-| **Format** | Trade paperback + ebook | Boxed set or individually sold; ebook + print-on-demand |
-| **Price target** | R250–R350 (commercial trade pricing) | R450–R600 per volume; R1,800–R2,200 boxed |
-| **Channel** | CNA, Exclusive Books, Takealot, Amazon KDP | Direct-to-institution, Loot, Amazon KDP, university bookshops |
-| **Source ratio** | ~16% of source material survives (90k of 568k) | ~35% of source material survives (200k of 568k) |
-| **Build order** | First | Second (reuses A's research backbone) |
+|                   | **Product A — The Compass**                    | **Product B — The Analyst Series**                                     |
+| ----------------- | ---------------------------------------------- | ---------------------------------------------------------------------- |
+| **Audience**      | General public, no prerequisites               | Policy analysts, journalists, postgraduates, civil servants, CSO staff |
+| **Reading model** | Linear narrative, cover-to-cover               | Reference + course; volumes read independently                         |
+| **Length**        | ~90,000 words, single volume                   | ~50,000 words × 4 volumes (~200,000 words)                             |
+| **Reading level** | Grade 10                                       | Grade 14 (university)                                                  |
+| **Voice**         | Narrative, story-led, hooks before theory      | Analytical, structured, dense with citations                           |
+| **Visuals**       | 20–30 figures, accessible infographics         | 60–80 figures, technical charts, methodology boxes                     |
+| **Format**        | Trade paperback + ebook                        | Boxed set or individually sold; ebook + print-on-demand                |
+| **Price target**  | R250–R350 (commercial trade pricing)           | R450–R600 per volume; R1,800–R2,200 boxed                              |
+| **Channel**       | CNA, Exclusive Books, Takealot, Amazon KDP     | Direct-to-institution, Loot, Amazon KDP, university bookshops          |
+| **Source ratio**  | ~16% of source material survives (90k of 568k) | ~35% of source material survives (200k of 568k)                        |
+| **Build order**   | First                                          | Second (reuses A's research backbone)                                  |
 
 ### 1.4 Why this sequencing
 
@@ -59,11 +59,11 @@ A and B can run in **partial parallel from Phase 4 onwards** — once A's draft 
 
 ---
 
-## 2. Product A — *The Compass*
+## 2. Product A — _The Compass_
 
 ### 2.1 Brief
 
-**Working title:** *The Compass: A Citizen's Guide to How South Africa Actually Works — and How to Fix It*
+**Working title:** _The Compass: A Citizen's Guide to How South Africa Actually Works — and How to Fix It_
 
 **One-line promise:** Read this and you will understand the South African state well enough to hold it accountable.
 
@@ -78,48 +78,50 @@ A and B can run in **partial parallel from Phase 4 onwards** — once A's draft 
 **Target:** ~90,000 words · 14 chapters · 3 parts · 20–30 figures · ~300 pages trade paperback
 
 **Front matter**
+
 - **Prologue** — A single citizen's day (water, taxi, clinic, school, payslip) mapped to the spheres and budgets that shape it. Hook before theory.
 - **How to read this book** — Three reading paths: 30-min skim, 3-hour core, full read.
 
-**Part I — The Machine** *(≈25,000 words)*
-*"You can't fix what you can't see."*
+**Part I — The Machine** _(≈25,000 words)_
+_"You can't fix what you can't see."_
 
-1. **The Architecture of the State** — Three spheres, separation of powers, the Constitution as operating system. *(Source: 1-1, 1-2, 1-3)*
-2. **Following the Rand** — Where money comes from, how it's divided, why your municipality is broke. *(Source: 2-1, 2-2, 2-3)*
-3. **Where the Work Actually Happens** — Provinces as the awkward middle, municipalities as the front line. *(Source: 3-1, 3-2, 3-3)*
-4. **The Accountability Toolkit** — AG reports, public participation, your right to know. *(Source: 4-x, 5-1, 5-2)*
+1. **The Architecture of the State** — Three spheres, separation of powers, the Constitution as operating system. _(Source: 1-1, 1-2, 1-3)_
+2. **Following the Rand** — Where money comes from, how it's divided, why your municipality is broke. _(Source: 2-1, 2-2, 2-3)_
+3. **Where the Work Actually Happens** — Provinces as the awkward middle, municipalities as the front line. _(Source: 3-1, 3-2, 3-3)_
+4. **The Accountability Toolkit** — AG reports, public participation, your right to know. _(Source: 4-x, 5-1, 5-2)_
 
-**Part II — The Verdict** *(≈40,000 words)*
-*"Forty years from democracy, what do the numbers say?"*
+**Part II — The Verdict** _(≈40,000 words)_
+_"Forty years from democracy, what do the numbers say?"_
 
-5. **The Seven-Thousand-Rand Economy** — Growth diagnosis, comparator countries, why we stalled. *(Source: eg-1-x, eg-3-1)*
-6. **Beyond GDP: The Development Verdict** — Life expectancy, learning outcomes, the reinforcing cycle. *(Source: hd-1-x, hd-2-1, hd-3-1)*
-7. **The Schooling Paradox** — In school, not learning; the link to the wage. *(Source: hd-3-x)*
-8. **Violence as the Hidden Tax** — The public-health framing of crime. *(Source: hd-2-2, ss-2-x)*
-9. **The Broken Pipeline** — Why the justice system catches almost no one. *(Source: ss-2-1, ss-2-3, ss-2-4)*
-10. **Why Institutions Fail** — The eight tests, capture, capability collapse. *(Source: ra-1-1, ra-1-2)*
+5. **The Seven-Thousand-Rand Economy** — Growth diagnosis, comparator countries, why we stalled. _(Source: eg-1-x, eg-3-1)_
+6. **Beyond GDP: The Development Verdict** — Life expectancy, learning outcomes, the reinforcing cycle. _(Source: hd-1-x, hd-2-1, hd-3-1)_
+7. **The Schooling Paradox** — In school, not learning; the link to the wage. _(Source: hd-3-x)_
+8. **Violence as the Hidden Tax** — The public-health framing of crime. _(Source: hd-2-2, ss-2-x)_
+9. **The Broken Pipeline** — Why the justice system catches almost no one. _(Source: ss-2-1, ss-2-3, ss-2-4)_
+10. **Why Institutions Fail** — The eight tests, capture, capability collapse. _(Source: ra-1-1, ra-1-2)_
 
-**Part III — The Repair Manual** *(≈22,000 words)*
-*"What working looks like, and what it would take to get there."*
+**Part III — The Repair Manual** _(≈22,000 words)_
+_"What working looks like, and what it would take to get there."_
 
-11. **Fixing the Front Line** — Education, primary healthcare, water, electricity: the four reforms with the highest leverage. *(Source: ra-2-x, ra-4-x)*
-12. **Re-architecting Safety** — Three-tier policing, independent investigation, sentencing reform. *(Source: ss-3-x)*
-13. **The Anti-Capture Architecture** — Constitutional vs legislative reform, sequencing. *(Source: ra-5-1, ra-5-2, ss-4-1)*
-14. **From Citizen to Reformer** — A practical 12-month civic action plan. *(Source: 5-3, ra-5-4, hd-5-x)*
+11. **Fixing the Front Line** — Education, primary healthcare, water, electricity: the four reforms with the highest leverage. _(Source: ra-2-x, ra-4-x)_
+12. **Re-architecting Safety** — Three-tier policing, independent investigation, sentencing reform. _(Source: ss-3-x)_
+13. **The Anti-Capture Architecture** — Constitutional vs legislative reform, sequencing. _(Source: ra-5-1, ra-5-2, ss-4-1)_
+14. **From Citizen to Reformer** — A practical 12-month civic action plan. _(Source: 5-3, ra-5-4, hd-5-x)_
 
 **Back matter**
-- **Appendix A:** The MPI — how to read your municipality's report card. *(Source: eg-4-x)*
+
+- **Appendix A:** The MPI — how to read your municipality's report card. _(Source: eg-4-x)_
 - **Appendix B:** A glossary in plain English (60–80 terms).
 - **Appendix C:** Where to find the data yourself (links to AG, Treasury, StatsSA, GovCompass).
 - **Source notes by chapter** — keyed to the original articles on govcompass.co.za so the book becomes a gateway, not a substitute.
 
 ---
 
-## 3. Product B — *The GovCompass Analyst Series*
+## 3. Product B — _The GovCompass Analyst Series_
 
 ### 3.1 Brief
 
-**Working title:** *The GovCompass Analyst Series* (4 volumes)
+**Working title:** _The GovCompass Analyst Series_ (4 volumes)
 
 **One-line promise:** A practitioner-grade reference for understanding and fixing the South African state, written for the people who advise, report on, or work inside it.
 
@@ -131,19 +133,20 @@ A and B can run in **partial parallel from Phase 4 onwards** — once A's draft 
 
 ### 3.2 Volume structure
 
-**Volume 1 — *How South Africa Works: The State as a System*** *(~50,000 words)*
+**Volume 1 — _How South Africa Works: The State as a System_** _(~50,000 words)_
 The constitutional architecture, intergovernmental fiscal system, concurrent functions, accountability institutions. Built from the GovCompass core series (1-x through 5-x) plus expanded methodology on reading public finance documents.
 
-**Volume 2 — *The Growth Question: Diagnosing a Stalled Economy*** *(~50,000 words)*
+**Volume 2 — _The Growth Question: Diagnosing a Stalled Economy_** _(~50,000 words)_
 Growth diagnostics, comparator analysis, infrastructure and capital, the execution machine, the Municipal Performance Index. Built from the EG series (eg-1-x through eg-5-x) plus the MPI methodology in full.
 
-**Volume 3 — *The Human Development Crisis: Health, Learning, and the Reinforcing Cycle*** *(~50,000 words)*
+**Volume 3 — _The Human Development Crisis: Health, Learning, and the Reinforcing Cycle_** _(~50,000 words)_
 Beyond-GDP framework, life expectancy and the violence-health interaction, the schooling paradox, the development cycle, planetary limits. Built from the HD series (hd-1-x through hd-5-x).
 
-**Volume 4 — *The Reform Agenda: What It Would Take to Fix It*** *(~50,000 words)*
+**Volume 4 — _The Reform Agenda: What It Would Take to Fix It_** _(~50,000 words)_
 The eight institutional tests, sectoral reform programmes (education, healthcare, water, electricity, settlements), provincial dysfunction, the safety and justice rebuild, anti-capture architecture, sequencing and funding. Built from the RA series (ra-1-x through ra-5-x) and the SS reform chapters (ss-3-x, ss-4-x).
 
 Each volume includes:
+
 - A standalone introduction (so volumes can be bought individually).
 - Methodology appendix (data sources, statistical caveats, definitions used).
 - Full citation apparatus (footnotes, not endnotes — analyst readers expect them on the page).
@@ -165,15 +168,15 @@ Each volume includes:
 
 These are produced once and feed both products. Build them in Phase 2 of A and treat as permanent program infrastructure.
 
-| Asset | Format | Purpose | Owner |
-|---|---|---|---|
-| **Source map** | Spreadsheet | Each source article → which book chapters consume it, % retention, what gets cut | Editor |
-| **Stat-check spreadsheet** | Spreadsheet | Every numeric claim → source, date, methodology note, freshness flag | Researcher |
-| **Master glossary** | Markdown | All terms with two definitions per term: plain-English (for A) and technical (for B) | Editor |
-| **Citation database** | Zotero / BibTeX | All sources with full metadata, used by B and lightly by A | Researcher |
-| **Figure library** | SVG + source data | All charts, maps, diagrams. A uses simplified versions; B uses full versions | Designer |
-| **Voice & non-partisanship guide** | Markdown | Inherited from GovCompass Content Style Guide; extended for book-length argument | Editor |
-| **Fact-check log** | Spreadsheet | Issues raised in expert review → resolution → final-text decision | Editor |
+| Asset                              | Format            | Purpose                                                                              | Owner      |
+| ---------------------------------- | ----------------- | ------------------------------------------------------------------------------------ | ---------- |
+| **Source map**                     | Spreadsheet       | Each source article → which book chapters consume it, % retention, what gets cut     | Editor     |
+| **Stat-check spreadsheet**         | Spreadsheet       | Every numeric claim → source, date, methodology note, freshness flag                 | Researcher |
+| **Master glossary**                | Markdown          | All terms with two definitions per term: plain-English (for A) and technical (for B) | Editor     |
+| **Citation database**              | Zotero / BibTeX   | All sources with full metadata, used by B and lightly by A                           | Researcher |
+| **Figure library**                 | SVG + source data | All charts, maps, diagrams. A uses simplified versions; B uses full versions         | Designer   |
+| **Voice & non-partisanship guide** | Markdown          | Inherited from GovCompass Content Style Guide; extended for book-length argument     | Editor     |
+| **Fact-check log**                 | Spreadsheet       | Issues raised in expert review → resolution → final-text decision                    | Editor     |
 
 ---
 
@@ -184,6 +187,7 @@ These are produced once and feed both products. Build them in Phase 2 of A and t
 **Total elapsed time:** ~14–18 months part-time, or ~9–12 months with a dedicated drafter for B.
 
 **Total out-of-pocket cost (self-published, indicative ZAR):**
+
 - Product A: R55,000–R150,000 (developmental editor, copy edit, design, ISBN, cover, print setup, expert reviewers).
 - Product B: R120,000–R280,000 (four developmental edits, four copy edits, technical reviewers, more figures, boxed-set design).
 - Shared infrastructure (citation tooling, figure library setup, fact-checker): R20,000–R40,000.
@@ -194,6 +198,7 @@ Traditional publishing replaces most of this cost with smaller royalties; decide
 ### 5.2 Phase plan
 
 #### Phase 1 — Program architecture (Weeks 1–4)
+
 - Confirm both product briefs against current source material; flag any topics that have shifted since publication.
 - Produce a **one-page brief** per product (audience, promise, success criteria, voice).
 - Choose channel for each product: self-publish vs. traditional vs. hybrid.
@@ -202,9 +207,11 @@ Traditional publishing replaces most of this cost with smaller royalties; decide
 - **Deliverable:** Two signed-off briefs + populated tooling stubs.
 
 #### Phase 2 — Distillation pipeline (Weeks 5–8)
+
 This phase exists to prevent the most common failure mode: drafting at scale before the editorial spine is locked.
 
 For each chapter of A and each volume of B:
+
 - Build the **source map** entry: which articles feed it, which 3–5 arguments survive, which examples carry weight, what gets cut.
 - Write a **chapter brief** (1 page: thesis, narrative arc, key evidence, opening hook, closing turn) before any prose is drafted.
 - Identify figures needed and add to figure library backlog.
@@ -215,6 +222,7 @@ Articles are written for screen-skimmers; books are read linearly. Every chapter
 - **Deliverable:** 14 chapter briefs (A) + 4 volume briefs with chapter-level breakdowns (B). Source map populated for all 79 articles.
 
 #### Phase 3 — Vertical slice (Weeks 9–12)
+
 - Draft **Prologue + Chapter 1 of A** as a vertical slice of the entire pipeline (research → draft → figures → edit → expert review).
 - Send to **3–5 lay readers** (not policy people). Iterate until a stranger can read without bouncing.
 - Run the same slice for **Volume 1 introduction + Chapter 1 of B**, with two analyst readers.
@@ -222,6 +230,7 @@ Articles are written for screen-skimmers; books are read linearly. Every chapter
 - **Deliverable:** Two reviewed vertical slices + locked style templates.
 
 #### Phase 4 — Drafting Product A (Weeks 13–28, ~16 weeks)
+
 - Target ~6,000 words of finished prose per week.
 - Draft in chapter order — Part I establishes vocabulary the rest needs.
 - Maintain the stat-check spreadsheet and glossary as you write; retrofitting these later is brutal.
@@ -231,7 +240,8 @@ Articles are written for screen-skimmers; books are read linearly. Every chapter
 
 #### Phase 5 — A editing + B drafting in parallel (Weeks 25–40)
 
-*A track:*
+_A track:_
+
 - Self-edit pass for argument and cuts (expect to lose 15–20%).
 - Developmental editor.
 - Sensitivity & accuracy review by 2–3 domain experts.
@@ -239,7 +249,8 @@ Articles are written for screen-skimmers; books are read linearly. Every chapter
 - Copy edit and proofread.
 - Design and typeset.
 
-*B track:*
+_B track:_
+
 - Volume 1 draft (Weeks 25–32).
 - Volume 2 draft (Weeks 29–36).
 - Volume 3 draft (Weeks 33–40).
@@ -250,18 +261,21 @@ Articles are written for screen-skimmers; books are read linearly. Every chapter
 
 #### Phase 6 — A launch + B editing (Weeks 37–56)
 
-*A launch:*
+_A launch:_
+
 - Cover, ISBN, legal deposit (National Library of SA), print-on-demand setup, distribution.
 - Launch leverages the live site: book becomes the on-ramp, articles become the deep-dive. Add a "Read the book" CTA site-wide; add "Read the source articles" QR codes inside the book.
 - POPIA-compliant pre-order list piped from the existing site.
 
-*B editing:*
+_B editing:_
+
 - Each volume goes through developmental edit → technical review (named experts per domain) → copy edit → proofread.
 - Run as a pipeline so volumes finish editing in sequence.
 
 - **Deliverable:** A is on sale; B is in late-stage editing.
 
 #### Phase 7 — B launch (Weeks 57–72)
+
 - Box set design and print setup; individual volumes also available.
 - Direct outreach to public policy / public administration master's programmes for adoption.
 - Academic and policy-press review copies.
@@ -280,7 +294,7 @@ These are the moments where a decision on one product affects the other. Do not 
 
 ## 6. Risks
 
-1. **Non-partisanship under book-length scrutiny.** Articles can hedge; books take positions. Decide upfront how strong the reform recommendations get — soft reads as evasive, hard invites attack. The RA source series already commits, so lean *clear but evidence-anchored* in both products.
+1. **Non-partisanship under book-length scrutiny.** Articles can hedge; books take positions. Decide upfront how strong the reform recommendations get — soft reads as evasive, hard invites attack. The RA source series already commits, so lean _clear but evidence-anchored_ in both products.
 2. **Data freshness.** Books printed in 2026 are read in 2028. Frame statistics as illustrative-of-pattern, not point-in-time. Direct readers to the live site for current numbers. Consider an annual digital errata sheet.
 3. **Scope creep.** Seventy-nine articles (~568,000 words) want to be in the books. They cannot all fit, even in B (which retains only ~35% of source). The discipline of Phase 2 is what makes or breaks the program.
 4. **Voice contamination between A and B.** If the same drafter writes both back-to-back without a voice reset, B can drift simple or A can drift technical. Lock voice in Phase 3 and have the editor flag drift in every chapter review.

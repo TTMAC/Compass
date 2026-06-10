@@ -158,10 +158,7 @@ function extractPrompt(promptsDoc, articleNumber) {
  * Update frontmatter status field.
  */
 function updateFrontmatterStatus(content, newStatus) {
-  return content.replace(
-    /^(status:\s*)"?[^"\n]+"?/m,
-    `$1"${newStatus}"`,
-  );
+  return content.replace(/^(status:\s*)"?[^"\n]+"?/m, `$1"${newStatus}"`);
 }
 
 /**

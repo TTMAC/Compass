@@ -13,15 +13,15 @@ author: "Tshepo Machele"
 
 ## GovCompass — A Political Literacy Blog for South Africa's Missing Middle
 
-| Field | Detail |
-|---|---|
+| Field              | Detail                                                           |
+| ------------------ | ---------------------------------------------------------------- |
 | **Document Owner** | Tshepo Machele — Product, Engineering, Design, Business/GTM Lead |
-| **Version** | 0.1 |
-| **Created Date** | 2026-02-15 |
-| **Derived From** | PRD v0.1, MRD v0.1, UXD v0.1 |
-| **Status** | Draft |
-| **Target Launch** | Q3 2026 |
-| **Platform** | Web (Astro static site deployed on Netlify) |
+| **Version**        | 0.1                                                              |
+| **Created Date**   | 2026-02-15                                                       |
+| **Derived From**   | PRD v0.1, MRD v0.1, UXD v0.1                                     |
+| **Status**         | Draft                                                            |
+| **Target Launch**  | Q3 2026                                                          |
+| **Platform**       | Web (Astro static site deployed on Netlify)                      |
 
 ---
 
@@ -42,6 +42,7 @@ author: "Tshepo Machele"
 13. [Technical Feasibility Validation](#13-technical-feasibility-validation)
 14. [Implementation Roadmap](#14-implementation-roadmap)
 15. [Risks, Assumptions and Dependencies](#15-risks-assumptions-and-dependencies)
+
 - [Appendix A: Stakeholder Sign-Off](#appendix-a-stakeholder-sign-off)
 - [Appendix B: Document History](#appendix-b-document-history)
 - [Appendix C: SRD Completion Checklist](#appendix-c-srd-completion-checklist)
@@ -87,20 +88,20 @@ The MVP delivers the following technical capabilities, aligned with PRD §15 Pha
 The system meets its technical success criteria when:
 
 |                                         |            |                |               |
-|-----------------------------------------|------------|----------------|---------------|
+| --------------------------------------- | ---------- | -------------- | ------------- |
 | **Criterion**                           | **Target** | **Hard Limit** | **PRD Trace** |
-| First Contentful Paint (FCP)            | < 1.0s    | < 1.5s        | PRD §11.1     |
-| Largest Contentful Paint (LCP)          | < 1.5s    | < 2.5s        | PRD §11.1     |
-| Cumulative Layout Shift (CLS)           | < 0.05    | < 0.1         | PRD §11.1     |
-| Total page weight (article)             | < 250KB   | < 450KB       | PRD §11.1     |
-| JavaScript payload (application)        | < 20KB    | < 50KB        | PRD §11.1     |
-| JavaScript payload (GA4 gtag.js, async) | ~28KB      | < 35KB        | PRD §9.1      |
-| CSS payload                             | < 15KB    | < 30KB        | PRD §11.1     |
-| Font payload                            | < 80KB    | < 120KB       | PRD §11.1     |
+| First Contentful Paint (FCP)            | < 1.0s     | < 1.5s         | PRD §11.1     |
+| Largest Contentful Paint (LCP)          | < 1.5s     | < 2.5s         | PRD §11.1     |
+| Cumulative Layout Shift (CLS)           | < 0.05     | < 0.1          | PRD §11.1     |
+| Total page weight (article)             | < 250KB    | < 450KB        | PRD §11.1     |
+| JavaScript payload (application)        | < 20KB     | < 50KB         | PRD §11.1     |
+| JavaScript payload (GA4 gtag.js, async) | ~28KB      | < 35KB         | PRD §9.1      |
+| CSS payload                             | < 15KB     | < 30KB         | PRD §11.1     |
+| Font payload                            | < 80KB     | < 120KB        | PRD §11.1     |
 | Lighthouse Performance                  | ≥ 95       | ≥ 90           | PRD §2.2      |
 | Lighthouse Accessibility                | ≥ 90       | ≥ 90           | PRD §12.1     |
-| Build time (15 articles)                | < 30s     | < 60s         | PRD §5.4      |
-| Deploy propagation                      | < 60s     | < 120s        | PRD §5.4      |
+| Build time (15 articles)                | < 30s      | < 60s          | PRD §5.4      |
+| Deploy propagation                      | < 60s      | < 120s         | PRD §5.4      |
 
 # 2. Traceability Matrix
 
@@ -109,11 +110,11 @@ The system meets its technical success criteria when:
 The following matrix traces market requirements through product requirements to system requirements, ensuring every technical decision serves a validated user need.
 
 |                                               |                                         |                                                              |
-|-----------------------------------------------|-----------------------------------------|--------------------------------------------------------------|
+| --------------------------------------------- | --------------------------------------- | ------------------------------------------------------------ |
 | **MRD Reference**                             | **PRD Reference**                       | **SRD Requirement**                                          |
 | MRD §1.1 — Problem hypothesis                 | PRD §1.2 — Product vision               | SRD §7 — Article rendering engine; content collection schema |
 | MRD §3.1 — Job executor (smartphone, prepaid) | PRD §11 — Performance requirements      | SRD §12 — Performance NFRs; page weight budgets              |
-| MRD §4.2 — Outcome #1 (identify sphere)      | PRD §6.3 — Practical framework sections | SRD §7 — Callout component rendering                         |
+| MRD §4.2 — Outcome #1 (identify sphere)       | PRD §6.3 — Practical framework sections | SRD §7 — Callout component rendering                         |
 | MRD §5.1 — Anxiety: agenda perception         | PRD §7 — Non-partisan visual language   | SRD §12 — No third-party ad/tracking scripts                 |
 | MRD §5.1 — Habit: effort cost                 | PRD §6.3 — Reading progress indicator   | SRD §7 — ReadingProgress component spec                      |
 | MRD §5.2 — WhatsApp trigger                   | PRD §14 — Social sharing                | SRD §7 — ShareButtons; OG meta; UTM params                   |
@@ -126,7 +127,7 @@ The following matrix traces market requirements through product requirements to 
 This mapping connects each primary user journey (from UXD §4.2.2) to the system components that enable it.
 
 |                          |                                 |                                                                                |
-|--------------------------|---------------------------------|--------------------------------------------------------------------------------|
+| ------------------------ | ------------------------------- | ------------------------------------------------------------------------------ |
 | **User Journey**         | **UXD Flow**                    | **System Components**                                                          |
 | WhatsApp-referred reader | Flow 1: WhatsApp link → article | OG meta renderer, CDN edge cache, ArticleLayout, ReadingProgress, ShareButtons |
 | Search-driven reader     | Flow 2: Google → article        | SEO meta generator, structured data (JSON-LD), ArticleLayout, TableOfContents  |
@@ -138,7 +139,7 @@ This mapping connects each primary user journey (from UXD §4.2.2) to the system
 The following MRD hypotheses require specific technical instrumentation to validate:
 
 |                           |                             |                                                                                 |
-|---------------------------|-----------------------------|---------------------------------------------------------------------------------|
+| ------------------------- | --------------------------- | ------------------------------------------------------------------------------- |
 | **MRD Hypothesis**        | **Validation Metric**       | **Technical Requirement**                                                       |
 | H2: Long-form readership  | Avg time on page ≥ 8 min    | GA4 engagement time tracking; scroll-depth custom events at 25%, 50%, 75%, 100% |
 | H3: WhatsApp distribution | 30% traffic from WhatsApp   | UTM parameter parsing; GA4 referral source tracking; OG meta tags per article   |
@@ -151,7 +152,7 @@ The following MRD hypotheses require specific technical instrumentation to valid
 
 The GovCompass system follows a static site generation (SSG) architecture with the following data flow:
 
-*Author writes Markdown (.md) with YAML frontmatter → Git push to GitHub (main branch) → Netlify build hook triggers → Astro builds static HTML/CSS/JS → Pagefind indexes content → Netlify deploys to edge CDN → Site live at govcompass.co.za*
+_Author writes Markdown (.md) with YAML frontmatter → Git push to GitHub (main branch) → Netlify build hook triggers → Astro builds static HTML/CSS/JS → Pagefind indexes content → Netlify deploys to edge CDN → Site live at govcompass.co.za_
 
 Parallel pipelines:
 
@@ -162,7 +163,7 @@ Parallel pipelines:
 ## 3.2 Architecture Components
 
 |                       |                            |                                                                                                                                             |               |
-|-----------------------|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+| --------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | **Component**         | **Technology**             | **Responsibility**                                                                                                                          | **PRD Trace** |
 | Static Site Generator | Astro                      | Compiles Markdown content to static HTML; manages content collections; handles partial hydration for interactive islands                    | PRD §5.1      |
 | Styling Engine        | Tailwind CSS               | Utility-first CSS framework; purges unused classes at build time; enforces design system consistency                                        | PRD §5.1      |
@@ -177,7 +178,7 @@ Parallel pipelines:
 ## 3.3 Key Architecture Decisions
 
 |                 |                             |                                                                                                                                                                                                                                         |                                                                                                                      |
-|-----------------|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| --------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **Decision**    | **Choice**                  | **Rationale**                                                                                                                                                                                                                           | **Alternatives Considered**                                                                                          |
 | Site generation | Static (SSG) via Astro      | Zero server cost; sub-second TTFB from CDN; minimal attack surface; content is read-only                                                                                                                                                | Next.js SSR (unnecessary complexity), WordPress (security surface, hosting cost, performance overhead)               |
 | Client-side JS  | Near-zero by default        | Respects prepaid data costs; faster FCP/LCP; reduces parse/compile time on low-end devices. Only reading progress bar + analytics require JS, loaded as Astro islands                                                                   | SPA framework (React/Vue) would add 50–100KB+ of framework JS                                                        |
@@ -189,7 +190,7 @@ Parallel pipelines:
 ## 3.4 Technology Stack
 
 |                 |                          |               |                        |
-|-----------------|--------------------------|---------------|------------------------|
+| --------------- | ------------------------ | ------------- | ---------------------- |
 | **Layer**       | **Technology**           | **Version**   | **License**            |
 | Runtime         | Node.js                  | 20 LTS        | MIT                    |
 | SSG Framework   | Astro                    | Latest stable | MIT                    |
@@ -211,27 +212,27 @@ A 32-year-old Johannesburg professional experiencing persistent water outages. H
 
 ### 4.1.1 Epic: Discover and Read a GovCompass Article
 
-|          |                                                 |                                                                                        |                                                                                         |
-|----------|-------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| **Step** | **User Action**                                 | **System Behaviour**                                                                   | **Acceptance Criteria**                                                                 |
+|          |                                                    |                                                                                        |                                                                                         |
+| -------- | -------------------------------------------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| **Step** | **User Action**                                    | **System Behaviour**                                                                   | **Acceptance Criteria**                                                                 |
 | 1        | Receives WhatsApp link with GovCompass article URL | OG meta tags render branded preview in WhatsApp (title, description, 1200×630px image) | WhatsApp displays article title, description, and branded image within 2s of link paste |
-| 2        | Taps link on mobile                             | CDN serves static HTML; page renders within performance budget                         | FCP < 1.5s; LCP < 2.5s; total page weight < 400KB                                    |
-| 3        | Begins reading the article                      | Reading progress bar appears at viewport top; reading time displayed in metadata       | Progress bar updates on scroll; reading time accurate to ±1 minute                      |
-| 4        | Navigates within article using TOC              | Collapsible TOC on mobile expands inline below metadata; anchors scroll to section     | Tapping TOC item scrolls to correct H2; active section highlighted                      |
-| 5        | Reaches end of article                          | Practical Framework callout is visually distinct; Prev/Next article links displayed    | Callout has dashed green border; navigation links are thumb-friendly (≥48px)            |
+| 2        | Taps link on mobile                                | CDN serves static HTML; page renders within performance budget                         | FCP < 1.5s; LCP < 2.5s; total page weight < 400KB                                       |
+| 3        | Begins reading the article                         | Reading progress bar appears at viewport top; reading time displayed in metadata       | Progress bar updates on scroll; reading time accurate to ±1 minute                      |
+| 4        | Navigates within article using TOC                 | Collapsible TOC on mobile expands inline below metadata; anchors scroll to section     | Tapping TOC item scrolls to correct H2; active section highlighted                      |
+| 5        | Reaches end of article                             | Practical Framework callout is visually distinct; Prev/Next article links displayed    | Callout has dashed green border; navigation links are thumb-friendly (≥48px)            |
 
 ### 4.1.2 Epic: Share Article via WhatsApp
 
-|          |                                   |                                                                                                  |                                                                                               |
-|----------|-----------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| **Step** | **User Action**                   | **System Behaviour**                                                                             | **Acceptance Criteria**                                                                       |
+|          |                                   |                                                                                                |                                                                                               |
+| -------- | --------------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Step** | **User Action**                   | **System Behaviour**                                                                           | **Acceptance Criteria**                                                                       |
 | 1        | Taps WhatsApp share button        | System constructs URL: https://api.whatsapp.com/send?text=[pre-filled message with UTM params] | WhatsApp app opens with pre-filled message containing article title, hook, and UTM-tagged URL |
-| 2        | Selects recipient/group and sends | N/A (WhatsApp-native)                                                                            | Shared link renders OG preview in recipient’s chat                                            |
+| 2        | Selects recipient/group and sends | N/A (WhatsApp-native)                                                                          | Shared link renders OG preview in recipient’s chat                                            |
 
 ### 4.1.3 Epic: Subscribe to Email Notifications
 
 |          |                                                               |                                                                                                                               |                                                                                   |
-|----------|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| -------- | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
 | **Step** | **User Action**                                               | **System Behaviour**                                                                                                          | **Acceptance Criteria**                                                           |
 | 1        | Encounters email capture form (inline, footer, or /subscribe) | Form renders: single email input + submit button + privacy assurance text                                                     | Input field and button are thumb-friendly (≥48px tap target); no CAPTCHA          |
 | 2        | Enters email and taps Subscribe                               | Client-side: HTML5 email validation; Netlify honeypot spam check; form submission via Netlify Forms                           | Invalid email shows inline error; valid email triggers submission                 |
@@ -245,7 +246,7 @@ Persona: Lerato — The Pre-Election Researcher (UXD §2.1.2)
 ### 4.2.1 Epic: Browse Full Article Series by Sphere
 
 |          |                             |                                                                                |                                                                                      |
-|----------|-----------------------------|--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| -------- | --------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 | **Step** | **User Action**             | **System Behaviour**                                                           | **Acceptance Criteria**                                                              |
 | 1        | Navigates to /series        | Series page renders: all 15 articles grouped by Part with publication status   | Published articles are linked; coming-soon articles show title + “Coming soon” label |
 | 2        | Toggles view to “By Sphere” | Client-side filter shows articles grouped by National/Provincial/Municipal/All | Filter is instant (no server call); article count per sphere is visible              |
@@ -255,12 +256,12 @@ Persona: Sipho — The WhatsApp Debater (UXD §2.1.2)
 
 ### 4.2.2 Epic: Quick-scan Article from WhatsApp Link
 
-|          |                                         |                                                                                              |                                                      |
-|----------|-----------------------------------------|----------------------------------------------------------------------------------------------|------------------------------------------------------|
-| **Step** | **User Action**                         | **System Behaviour**                                                                         | **Acceptance Criteria**                              |
+|          |                                         |                                                                                              |                                                     |
+| -------- | --------------------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| **Step** | **User Action**                         | **System Behaviour**                                                                         | **Acceptance Criteria**                             |
 | 1        | Taps WhatsApp link                      | Page loads within 3s on 4G; hero content (title, subtitle, reading time) visible immediately | FCP < 1.5s; above-the-fold content requires zero JS |
-| 2        | Scans headings to find relevant section | TOC provides scannable overview; H2 headings are descriptive                                 | TOC renders within first scroll on mobile            |
-| 3        | Shares to own WhatsApp group            | One-tap WhatsApp share with pre-filled message                                               | Share button visible in article header and footer    |
+| 2        | Scans headings to find relevant section | TOC provides scannable overview; H2 headings are descriptive                                 | TOC renders within first scroll on mobile           |
+| 3        | Shares to own WhatsApp group            | One-tap WhatsApp share with pre-filled message                                               | Share button visible in article header and footer   |
 
 # 5. UML Diagrams
 
@@ -271,12 +272,12 @@ The following class specifications represent the core domain entities in the Gov
 ### 5.1.1 Class Specifications
 
 |                  |                                                                                                                                                                                                         |                                                                                       |                                                                                                 |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | **Class**        | **Attributes**                                                                                                                                                                                          | **Relationships**                                                                     | **Implementation**                                                                              |
 | Article          | title: string, subtitle: string, part: number (1–5), articleNumber: string, sphere: enum, description: string (150–160 chars), publishDate: Date, updatedDate: Date?, readingTime: number, status: enum | Has one Part; has one Sphere; has prev/next Article (nullable); has many SEO Keywords | Astro Content Collection schema (z.object) in src/content/config.ts; stored as YAML frontmatter |
 | Part             | number: number (1–5), title: string, description: string                                                                                                                                                | Has many Articles                                                                     | Derived from Article.part at build time; no separate file                                       |
 | Sphere           | name: enum (national, provincial, municipal, all), colour: string                                                                                                                                       | Tags many Articles                                                                    | Enum in content schema; colour mapping in Tailwind config                                       |
-| SEOMetadata      | ogImage: string?, canonicalUrl: string?, keywords: string[]                                                                                                                                           | Belongs to one Article                                                                | Nested z.object within Article schema                                                           |
+| SEOMetadata      | ogImage: string?, canonicalUrl: string?, keywords: string[]                                                                                                                                             | Belongs to one Article                                                                | Nested z.object within Article schema                                                           |
 | SeriesNavigation | prev: string \| null, next: string \| null                                                                                                                                                              | Belongs to one Article                                                                | Nested z.object within Article schema; slug references                                          |
 | EmailSubscriber  | email: string, confirmedAt: Date?, source: string                                                                                                                                                       | N/A (external)                                                                        | Managed by ESP (Buttondown/Mailchimp); captured via Netlify Forms                               |
 
@@ -316,7 +317,7 @@ The following sequence describes the end-to-end email subscription flow:
 ### 5.3.1 Article State Machine
 
 |             |                                                                                   |                                                          |                                                                                                 |
-|-------------|-----------------------------------------------------------------------------------|----------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| ----------- | --------------------------------------------------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | **State**   | **Description**                                                                   | **Transitions**                                          | **System Behaviour**                                                                            |
 | coming-soon | Article title visible in series page; content not yet authored                    | coming-soon → draft (author begins writing)              | Series page shows title + “Coming soon” label; no link; article not in search index             |
 | draft       | Content authored but not published; visible in Git but not deployed to production | draft → published (Git push to main triggers deploy)     | Article excluded from build output (status !== “published” filter in Astro queries)             |
@@ -325,7 +326,7 @@ The following sequence describes the end-to-end email subscription flow:
 ### 5.3.2 Email Subscriber State Machine
 
 |                      |                                                          |                                                                  |
-|----------------------|----------------------------------------------------------|------------------------------------------------------------------|
+| -------------------- | -------------------------------------------------------- | ---------------------------------------------------------------- |
 | **State**            | **Description**                                          | **Transitions**                                                  |
 | unsubmitted          | Reader has not interacted with email form                | unsubmitted → submitted (reader enters email and taps Subscribe) |
 | submitted            | Email submitted to Netlify Forms; pending ESP processing | submitted → pending_confirmation (ESP sends confirmation email)  |
@@ -374,11 +375,11 @@ Flow: Reader requests and consumes a GovCompass article (PRD §6.3)
 ## 6.3 Error Handling Flow
 
 |                                |                                                               |                                                                                                                                  |                   |
-|--------------------------------|---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| ------------------------------ | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------- |
 | **Error Condition**            | **System Response**                                           | **User-Facing Message**                                                                                                          | **PRD/UXD Trace** |
 | 404: Page not found            | Netlify serves custom 404.html page                           | “This page doesn’t exist. Start with The Architecture of the State — it explains how South Africa’s Constitution divides power.” | UXD §4.2.4        |
 | Email form: invalid email      | HTML5 validation prevents submission                          | Browser-native validation message                                                                                                | PRD §13.2         |
-| Email form: submission failure | Client-side error handler catches failed POST                 | “Something went wrong on our end. Please try again — and if it keeps happening, let us know at hello@govcompass.co.za.”             | UXD §2.3.2        |
+| Email form: submission failure | Client-side error handler catches failed POST                 | “Something went wrong on our end. Please try again — and if it keeps happening, let us know at hello@govcompass.co.za.”          | UXD §2.3.2        |
 | Search: no results             | Pagefind returns empty result set                             | “No articles match your search. Try a different term, or browse the full series.”                                                | UXD §4.2.4        |
 | CDN: edge cache miss           | Netlify fetches from origin; serves response; populates cache | No user impact (transparent)                                                                                                     | PRD §5.4          |
 | Build failure                  | Netlify build fails; previous deploy remains live             | No user impact (previous version stays live); author receives Netlify build failure notification                                 | PRD §5.4          |
@@ -394,7 +395,7 @@ Each system requirement follows a consistent format: unique identifier, title, p
 ### SRD-FUNC-001: Article Rendering Engine
 
 |             |                                                                                                                   |
-|-------------|-------------------------------------------------------------------------------------------------------------------|
+| ----------- | ----------------------------------------------------------------------------------------------------------------- |
 | **Field**   | **Value**                                                                                                         |
 | Priority    | Must Have                                                                                                         |
 | PRD Trace   | PRD §6.3, UXD FR-001                                                                                              |
@@ -406,7 +407,7 @@ Each system requirement follows a consistent format: unique identifier, title, p
 - SRD-FUNC-001.2: The system shall render articles in a single-column layout at 680px max content width with 19px serif body font (17px on mobile at breakpoint ≤ 640px).
 - SRD-FUNC-001.3: The system shall extract and validate all frontmatter fields against the Astro Content Collection schema (z.object) at build time. Build shall fail if any required field is missing or invalid.
 - SRD-FUNC-001.4: The system shall calculate reading time at build time using the formula: word count ÷ 200 words per minute, rounded to the nearest whole number.
-- SRD-FUNC-001.5: The system shall render external source links with target="_blank" and rel="noopener noreferrer" via the rehypeExternalLinks plugin.
+- SRD-FUNC-001.5: The system shall render external source links with target="\_blank" and rel="noopener noreferrer" via the rehypeExternalLinks plugin.
 - SRD-FUNC-001.6: The system shall render internal cross-references between articles as relative links (e.g., /articles/following-the-money).
 - SRD-FUNC-001.7: The system shall render three distinct callout component types: Expert Anecdote (styled narrative container), Key Takeaway (compass-gold left border), and Practical Framework (dashed compass-green border).
 
@@ -420,7 +421,7 @@ Each system requirement follows a consistent format: unique identifier, title, p
 ### SRD-FUNC-002: Reading Progress Indicator
 
 |             |                                                                                                               |
-|-------------|---------------------------------------------------------------------------------------------------------------|
+| ----------- | ------------------------------------------------------------------------------------------------------------- |
 | **Field**   | **Value**                                                                                                     |
 | Priority    | Must Have                                                                                                     |
 | PRD Trace   | PRD §6.3, UXD FR-001.2                                                                                        |
@@ -442,7 +443,7 @@ Each system requirement follows a consistent format: unique identifier, title, p
 ### SRD-FUNC-003: Table of Contents
 
 |             |                                                                                                                               |
-|-------------|-------------------------------------------------------------------------------------------------------------------------------|
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | **Field**   | **Value**                                                                                                                     |
 | Priority    | Must Have                                                                                                                     |
 | PRD Trace   | PRD §6.3, UXD FR-001.4                                                                                                        |
@@ -463,7 +464,7 @@ Each system requirement follows a consistent format: unique identifier, title, p
 ### SRD-FUNC-004: WhatsApp Sharing System
 
 |             |                                                                                                        |
-|-------------|--------------------------------------------------------------------------------------------------------|
+| ----------- | ------------------------------------------------------------------------------------------------------ |
 | **Field**   | **Value**                                                                                              |
 | Priority    | Must Have                                                                                              |
 | PRD Trace   | PRD §14.1, UXD FR-002                                                                                  |
@@ -485,7 +486,7 @@ Each system requirement follows a consistent format: unique identifier, title, p
 ### SRD-FUNC-005: Email Subscription Pipeline
 
 |             |                                                                                                                          |
-|-------------|--------------------------------------------------------------------------------------------------------------------------|
+| ----------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **Field**   | **Value**                                                                                                                |
 | Priority    | Must Have                                                                                                                |
 | PRD Trace   | PRD §13, UXD FR-003                                                                                                      |
@@ -509,7 +510,7 @@ Each system requirement follows a consistent format: unique identifier, title, p
 ### SRD-FUNC-006: Copy Link Sharing
 
 |             |                                                                                                           |
-|-------------|-----------------------------------------------------------------------------------------------------------|
+| ----------- | --------------------------------------------------------------------------------------------------------- |
 | **Field**   | **Value**                                                                                                 |
 | Priority    | Should Have                                                                                               |
 | PRD Trace   | PRD §14.2, UXD FR-004                                                                                     |
@@ -528,7 +529,7 @@ Each system requirement follows a consistent format: unique identifier, title, p
 ### SRD-FUNC-006a: Cookie Consent Banner
 
 |             |                                                                                                                                |
-|-------------|--------------------------------------------------------------------------------------------------------------------------------|
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | **Field**   | **Value**                                                                                                                      |
 | Priority    | Must Have                                                                                                                      |
 | PRD Trace   | SRD §9.2.3, POPIA/GDPR                                                                                                         |
@@ -556,7 +557,7 @@ Each system requirement follows a consistent format: unique identifier, title, p
 ### SRD-FUNC-007: Static Site Search
 
 |             |                                                                                                                      |
-|-------------|----------------------------------------------------------------------------------------------------------------------|
+| ----------- | -------------------------------------------------------------------------------------------------------------------- |
 | **Field**   | **Value**                                                                                                            |
 | Priority    | Should Have                                                                                                          |
 | PRD Trace   | PRD §5.1, UXD FR-005                                                                                                 |
@@ -576,7 +577,7 @@ Each system requirement follows a consistent format: unique identifier, title, p
 ### SRD-FUNC-008: Series Overview with Sphere Filtering
 
 |             |                                                                                                                               |
-|-------------|-------------------------------------------------------------------------------------------------------------------------------|
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | **Field**   | **Value**                                                                                                                     |
 | Priority    | Must Have                                                                                                                     |
 | PRD Trace   | PRD §6.2, UXD FR-006                                                                                                          |
@@ -596,7 +597,7 @@ Each system requirement follows a consistent format: unique identifier, title, p
 ### SRD-FUNC-009: SEO and Structured Data
 
 |             |                                                                                                   |
-|-------------|---------------------------------------------------------------------------------------------------|
+| ----------- | ------------------------------------------------------------------------------------------------- |
 | **Field**   | **Value**                                                                                         |
 | Priority    | Must Have                                                                                         |
 | PRD Trace   | PRD §10                                                                                           |
@@ -620,7 +621,7 @@ Each system requirement follows a consistent format: unique identifier, title, p
 ## 7.4 Deferred System Requirements
 
 |                                                    |                  |                                                                                                      |                  |
-|----------------------------------------------------|------------------|------------------------------------------------------------------------------------------------------|------------------|
+| -------------------------------------------------- | ---------------- | ---------------------------------------------------------------------------------------------------- | ---------------- |
 | **Requirement**                                    | **Priority**     | **Rationale for Deferral**                                                                           | **Target Phase** |
 | Multilingual support (isiZulu, Afrikaans, Sesotho) | Could Have       | English is primary media language for target segment; translation adds content management complexity | Post-PMF (v2)    |
 | Interactive municipal scorecard                    | Could Have       | Requires structured AGSA data; adds dynamic JS; exceeds MVP complexity                               | Post-PMF (v2)    |
@@ -647,7 +648,7 @@ GovCompass uses a file-based content architecture rather than a relational datab
 Implementation: src/content/config.ts using Astro Content Collections and Zod.
 
 |                  |                |              |                                            |                                                   |
-|------------------|----------------|--------------|--------------------------------------------|---------------------------------------------------|
+| ---------------- | -------------- | ------------ | ------------------------------------------ | ------------------------------------------------- |
 | **Field**        | **Type**       | **Required** | **Validation Rules**                       | **Example**                                       |
 | title            | string         | Yes          | Non-empty                                  | The Architecture of the State                     |
 | subtitle         | string         | Yes          | Non-empty                                  | Understanding South Africa’s Three Spheres        |
@@ -662,8 +663,8 @@ Implementation: src/content/config.ts using Astro Content Collections and Zod.
 | series.prev      | string \| null | Yes          | Valid slug or null                         | null                                              |
 | series.next      | string \| null | Yes          | Valid slug or null                         | following-the-money                               |
 | seo.ogImage      | string         | No           | Valid path                                 | /og/architecture-of-the-state.png                 |
-| seo.canonicalUrl | string         | No           | Valid URL                                  | https://govcompass.co.za/articles/...                |
-| seo.keywords     | string[]     | Yes          | Non-empty array                            | ["three spheres", "government structure"]       |
+| seo.canonicalUrl | string         | No           | Valid URL                                  | https://govcompass.co.za/articles/...             |
+| seo.keywords     | string[]       | Yes          | Non-empty array                            | ["three spheres", "government structure"]         |
 
 ## 8.3 Data Flow Diagram
 
@@ -687,11 +688,11 @@ The only runtime data flow is email subscription:
 ## 8.4 Data Privacy and Compliance
 
 |                          |                                                                                                                                                                                       |                    |
-|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
 | **Concern**              | **Approach**                                                                                                                                                                          | **PRD/MRD Trace**  |
-| Personal data collection | Only email address collected; no name, no demographics, no browsing history stored by GovCompass                                                                                         | PRD §13.2          |
+| Personal data collection | Only email address collected; no name, no demographics, no browsing history stored by GovCompass                                                                                      | PRD §13.2          |
 | Analytics data           | Google Analytics 4 uses first-party cookies; cookie consent banner required; IP anonymisation enabled; data retention set to 2 months; no PII collected beyond anonymised identifiers | PRD §9.1           |
-| Data storage location    | Email addresses stored by ESP (Buttondown: EU-hosted / Mailchimp: US-hosted); GovCompass system stores zero PII                                                                          | PRD §13.1          |
+| Data storage location    | Email addresses stored by ESP (Buttondown: EU-hosted / Mailchimp: US-hosted); GovCompass system stores zero PII                                                                       | PRD §13.1          |
 | Data retention           | Subscriber data retained by ESP until unsubscribe; Netlify Forms submissions retained per Netlify’s policy                                                                            | —                  |
 | Privacy policy           | Plain-language privacy policy at /privacy explaining: what data is collected, why, where it’s stored, and how to unsubscribe                                                          | PRD §6.6 (implied) |
 | POPIA compliance         | Minimal data collection; legitimate interest basis; easy unsubscribe; privacy policy published                                                                                        | —                  |
@@ -703,7 +704,7 @@ The only runtime data flow is email subscription:
 GovCompass integrates with four external services. All integrations are designed to be loosely coupled: the static site functions fully without any integration (degraded gracefully), and no integration requires a custom backend or server.
 
 |                            |                             |                        |                                            |                                                              |
-|----------------------------|-----------------------------|------------------------|--------------------------------------------|--------------------------------------------------------------|
+| -------------------------- | --------------------------- | ---------------------- | ------------------------------------------ | ------------------------------------------------------------ |
 | **Integration**            | **Direction**               | **Protocol**           | **Authentication**                         | **Failure Impact**                                           |
 | Netlify CDN / Hosting      | Outbound (deploy)           | Git push → Netlify API | Git SSH key + Netlify account              | Site not updated (previous version remains live)             |
 | Netlify Forms              | Inbound (reader → Netlify)  | HTTP POST              | None (public form)                         | Email subscription fails; error message shown to reader      |
@@ -715,7 +716,7 @@ GovCompass integrates with four external services. All integrations are designed
 ### 9.2.1 Netlify Forms Integration
 
 |                 |                                                                                                   |
-|-----------------|---------------------------------------------------------------------------------------------------|
+| --------------- | ------------------------------------------------------------------------------------------------- |
 | **Field**       | **Specification**                                                                                 |
 | Endpoint        | Netlify-managed (auto-detected from HTML form with netlify attribute)                             |
 | Method          | POST                                                                                              |
@@ -727,20 +728,20 @@ GovCompass integrates with four external services. All integrations are designed
 
 ### 9.2.2 ESP Webhook Integration
 
-|                |                                                                                                                                                        |
-|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Field**      | **Specification**                                                                                                                                      |
-| Trigger        | Netlify Forms outgoing notification (configured in Netlify dashboard)                                                                                  |
+|                |                                                                                                                                                    |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Field**      | **Specification**                                                                                                                                  |
+| Trigger        | Netlify Forms outgoing notification (configured in Netlify dashboard)                                                                              |
 | Endpoint       | ESP API endpoint (Buttondown: https://api.buttondown.email/v1/subscribers; Mailchimp: https://us[X].api.mailchimp.com/3.0/lists/[list_id]/members) |
-| Method         | POST                                                                                                                                                   |
-| Authentication | API key in Authorization header or query parameter                                                                                                     |
-| Payload        | JSON: { email: string, status: “pending” } (triggers double opt-in)                                                                                    |
-| Retry Policy   | Netlify retries failed webhooks up to 3 times                                                                                                          |
+| Method         | POST                                                                                                                                               |
+| Authentication | API key in Authorization header or query parameter                                                                                                 |
+| Payload        | JSON: { email: string, status: “pending” } (triggers double opt-in)                                                                                |
+| Retry Policy   | Netlify retries failed webhooks up to 3 times                                                                                                      |
 
 ### 9.2.3 Google Analytics 4 Integration
 
 |                    |                                                                                                                                                                                  |
-|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Field**          | **Specification**                                                                                                                                                                |
 | Script URL         | https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX                                                                                                                         |
 | Script Size        | ~28KB (gtag.js)                                                                                                                                                                  |
@@ -751,13 +752,13 @@ GovCompass integrates with four external services. All integrations are designed
 | Standard Events    | page_view (automatic), session_start, first_visit, scroll                                                                                                                        |
 | Custom Events      | scroll_depth_25, scroll_depth_50, scroll_depth_75, scroll_depth_100, whatsapp_share, copy_link, email_subscribe, outbound_link, article_nav_next, article_nav_prev               |
 | UTM Tracking       | Automatic from URL parameters: utm_source, utm_medium, utm_campaign                                                                                                              |
-| Cookie Usage       | First-party cookies (_ga, _ga\_\*); requires cookie consent banner                                                                                                             |
+| Cookie Usage       | First-party cookies (\_ga, \_ga\_\*); requires cookie consent banner                                                                                                             |
 | Consent Management | Lightweight inline consent banner; GA4 consent mode v2: analytics_storage defaults to ‘denied’ until reader accepts; cookieless pings sent in denied state for basic measurement |
 
 ## 9.3 Integration Error Handling Matrix
 
 |                    |                                |                                      |                                                                       |                                                                |
-|--------------------|--------------------------------|--------------------------------------|-----------------------------------------------------------------------|----------------------------------------------------------------|
+| ------------------ | ------------------------------ | ------------------------------------ | --------------------------------------------------------------------- | -------------------------------------------------------------- |
 | **Integration**    | **Error Type**                 | **Detection**                        | **Recovery**                                                          | **User Impact**                                                |
 | Netlify Forms      | Submission failure (5xx)       | HTTP response status                 | Client-side error message; reader can retry                           | Subscription delayed; error message shown                      |
 | Netlify Forms      | Rate limit exceeded            | HTTP 429                             | Display message suggesting reader try again later                     | Subscription delayed                                           |
@@ -783,7 +784,7 @@ Design principles for all integrations:
 Astro Content Collections provide a type-safe, build-time API for querying article content. This is not a runtime API — all queries are resolved during the build process and compiled into static HTML.
 
 |                                   |                                                |                                                                        |
-|-----------------------------------|------------------------------------------------|------------------------------------------------------------------------|
+| --------------------------------- | ---------------------------------------------- | ---------------------------------------------------------------------- |
 | **Query**                         | **Usage**                                      | **Returns**                                                            |
 | getCollection('articles')         | Retrieve all articles for series page, sitemap | Array of article entries with validated frontmatter + compiled content |
 | getCollection('articles', filter) | Filter by status, sphere, part                 | Filtered array (e.g., status === 'published')                          |
@@ -794,7 +795,7 @@ Astro Content Collections provide a type-safe, build-time API for querying artic
 The following netlify.toml configuration governs the build, deployment, redirects, and security headers:
 
 |                                         |                                           |                                     |
-|-----------------------------------------|-------------------------------------------|-------------------------------------|
+| --------------------------------------- | ----------------------------------------- | ----------------------------------- |
 | **Configuration**                       | **Value**                                 | **Purpose**                         |
 | build.command                           | npm run build                             | Triggers Astro build                |
 | build.publish                           | dist                                      | Output directory for Netlify deploy |
@@ -812,7 +813,7 @@ The following netlify.toml configuration governs the build, deployment, redirect
 GovCompass has no authentication or authorisation system. The entire site is publicly accessible. Content authoring is controlled via Git repository access (GitHub account permissions). There are no user accounts, no login, no session management, and no role-based access control on the public-facing site.
 
 |                                 |                                                         |                                                |
-|---------------------------------|---------------------------------------------------------|------------------------------------------------|
+| ------------------------------- | ------------------------------------------------------- | ---------------------------------------------- |
 | **Actor**                       | **Access Level**                                        | **Mechanism**                                  |
 | Public reader                   | Read all published content                              | No authentication; static HTML served from CDN |
 | Content author (Tshepo Machele) | Read/write content in Git repo; manage Netlify settings | GitHub SSH key; Netlify account credentials    |
@@ -821,13 +822,13 @@ GovCompass has no authentication or authorisation system. The entire site is pub
 ## 11.2 Security Controls
 
 |                           |                                                                                                                |                                                                           |
-|---------------------------|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| ------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | **Control**               | **Implementation**                                                                                             | **Threat Mitigated**                                                      |
 | HTTPS enforcement         | Netlify auto-provisions TLS certificate; HTTP → HTTPS redirect                                                 | Man-in-the-middle attacks; data interception                              |
 | Security headers          | X-Frame-Options: DENY; X-Content-Type-Options: nosniff; Referrer-Policy: strict-origin-when-cross-origin       | Clickjacking; MIME sniffing; referrer leakage                             |
 | No dynamic endpoints      | Static site with no server-side code execution                                                                 | SQL injection, XSS via server, RCE — entire classes of attacks eliminated |
 | Form spam protection      | Netlify honeypot field; Netlify’s built-in spam filtering                                                      | Bot-driven form spam                                                      |
-| External link safety      | All external links rendered with target="_blank" rel="noopener noreferrer"                                    | Tabnapping; reverse tabnapping                                            |
+| External link safety      | All external links rendered with target="\_blank" rel="noopener noreferrer"                                    | Tabnapping; reverse tabnapping                                            |
 | Dependency management     | npm audit in CI; minimal dependency tree                                                                       | Supply chain attacks via compromised packages                             |
 | Content integrity         | All content version-controlled in Git; no user-generated content                                               | Content tampering; unauthorised modifications                             |
 | Cookie consent management | GA4 consent mode v2; analytics_storage defaults to denied; reader explicitly opts in via inline consent banner | Ensures compliance with POPIA/GDPR; minimises cookies to analytics-only   |
@@ -835,7 +836,7 @@ GovCompass has no authentication or authorisation system. The entire site is pub
 ## 11.3 Compliance Requirements
 
 |                                                              |                                                                                   |                                                                                                                                                                                                       |
-|--------------------------------------------------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------------------------------------------------------ | --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Regulation / Standard**                                    | **Applicability**                                                                 | **Compliance Approach**                                                                                                                                                                               |
 | POPIA (Protection of Personal Information Act, South Africa) | Applicable: email addresses are personal information; GA4 cookies require consent | Minimal collection (email only); legitimate interest basis; clear privacy policy; easy unsubscribe; cookie consent banner for GA4; no data sharing with third parties beyond ESP and Google Analytics |
 | GDPR                                                         | Potentially applicable if EU residents subscribe                                  | GA4 consent mode v2 implemented; analytics_storage defaults to ‘denied’; cookie consent banner displayed; IP anonymisation enabled; data retention set to minimum (2 months)                          |
@@ -848,19 +849,19 @@ GovCompass has no authentication or authorisation system. The entire site is pub
 Performance is both a UX requirement and a respect-for-the-reader requirement. The target reader is on a Samsung Galaxy A15 on 4G prepaid data where every unnecessary byte costs them money (approximately R2/MB on Vodacom/MTN in 2026). PRD trace: §11.
 
 |              |                                         |            |                |                                         |
-|--------------|-----------------------------------------|------------|----------------|-----------------------------------------|
+| ------------ | --------------------------------------- | ---------- | -------------- | --------------------------------------- |
 | **Req ID**   | **Requirement**                         | **Target** | **Hard Limit** | **Measurement Method**                  |
-| SRD-NFR-001  | First Contentful Paint (FCP)            | < 1.0s    | < 1.5s        | Lighthouse audit on 4G throttle profile |
-| SRD-NFR-002  | Largest Contentful Paint (LCP)          | < 1.5s    | < 2.5s        | Lighthouse audit on 4G throttle profile |
-| SRD-NFR-003  | Cumulative Layout Shift (CLS)           | < 0.05    | < 0.1         | Lighthouse audit                        |
-| SRD-NFR-004  | Total page weight (article, incl. GA4)  | < 250KB   | < 450KB       | Network tab / build output analysis     |
-| SRD-NFR-005  | JavaScript payload (application)        | < 20KB    | < 50KB        | Build output analysis                   |
-| SRD-NFR-005a | JavaScript payload (GA4 gtag.js, async) | ~28KB      | < 35KB        | Network tab analysis                    |
-| SRD-NFR-006  | CSS payload (after Tailwind purge)      | < 15KB    | < 30KB        | Build output analysis                   |
-| SRD-NFR-007  | Font payload (subsetted)                | < 80KB    | < 120KB       | Build output analysis                   |
+| SRD-NFR-001  | First Contentful Paint (FCP)            | < 1.0s     | < 1.5s         | Lighthouse audit on 4G throttle profile |
+| SRD-NFR-002  | Largest Contentful Paint (LCP)          | < 1.5s     | < 2.5s         | Lighthouse audit on 4G throttle profile |
+| SRD-NFR-003  | Cumulative Layout Shift (CLS)           | < 0.05     | < 0.1          | Lighthouse audit                        |
+| SRD-NFR-004  | Total page weight (article, incl. GA4)  | < 250KB    | < 450KB        | Network tab / build output analysis     |
+| SRD-NFR-005  | JavaScript payload (application)        | < 20KB     | < 50KB         | Build output analysis                   |
+| SRD-NFR-005a | JavaScript payload (GA4 gtag.js, async) | ~28KB      | < 35KB         | Network tab analysis                    |
+| SRD-NFR-006  | CSS payload (after Tailwind purge)      | < 15KB     | < 30KB         | Build output analysis                   |
+| SRD-NFR-007  | Font payload (subsetted)                | < 80KB     | < 120KB        | Build output analysis                   |
 | SRD-NFR-008  | Lighthouse Performance score            | ≥ 95       | ≥ 90           | Lighthouse CI                           |
 | SRD-NFR-009  | Lighthouse Accessibility score          | ≥ 90       | ≥ 90           | Lighthouse CI                           |
-| SRD-NFR-010  | Reader data cost per article            | ~R0.50     | < R0.90       | Page weight × R2/MB                     |
+| SRD-NFR-010  | Reader data cost per article            | ~R0.50     | < R0.90        | Page weight × R2/MB                     |
 
 **Performance implementation strategy:**
 
@@ -873,17 +874,17 @@ Performance is both a UX requirement and a respect-for-the-reader requirement. T
 ## 12.2 Reliability and Availability
 
 |             |                   |                                                         |                                                                                    |
-|-------------|-------------------|---------------------------------------------------------|------------------------------------------------------------------------------------|
+| ----------- | ----------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | **Req ID**  | **Requirement**   | **Target**                                              | **Rationale**                                                                      |
 | SRD-NFR-011 | Uptime            | 99.9% (Netlify SLA)                                     | Static site on CDN inherently highly available; no server to fail                  |
-| SRD-NFR-012 | Disaster recovery | Redeploy from Git in < 5 minutes                       | Entire site is reproducible from Git repository; no data to back up                |
+| SRD-NFR-012 | Disaster recovery | Redeploy from Git in < 5 minutes                        | Entire site is reproducible from Git repository; no data to back up                |
 | SRD-NFR-013 | Build resilience  | Failed builds do not affect live site                   | Netlify only deploys successful builds; failed builds leave previous deploy intact |
 | SRD-NFR-014 | CDN edge caching  | All static assets cached at edge with immutable headers | Maximises cache hit rate; minimises origin requests                                |
 
 ## 12.3 Scalability Requirements
 
 |             |                         |                                               |                                                                                                                      |
-|-------------|-------------------------|-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| ----------- | ----------------------- | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **Req ID**  | **Requirement**         | **Target**                                    | **Approach**                                                                                                         |
 | SRD-NFR-015 | Concurrent readers      | 10,000+ simultaneous                          | Static CDN architecture; no server bottleneck; Netlify free tier supports 100GB/month bandwidth                      |
 | SRD-NFR-016 | Content growth          | 15 articles at full series; extensible to 50+ | File-based content (no DB migration); Pagefind indexing scales linearly; build time scales linearly                  |
@@ -892,7 +893,7 @@ Performance is both a UX requirement and a respect-for-the-reader requirement. T
 ## 12.4 Operational Requirements
 
 |             |                    |                                                                                                                  |
-|-------------|--------------------|------------------------------------------------------------------------------------------------------------------|
+| ----------- | ------------------ | ---------------------------------------------------------------------------------------------------------------- |
 | **Req ID**  | **Requirement**    | **Specification**                                                                                                |
 | SRD-NFR-018 | Deployment process | Git push to main → automatic Netlify build and deploy; no manual steps                                           |
 | SRD-NFR-019 | Monitoring         | Netlify deploy notifications (email); Google Analytics 4 dashboard; Netlify Forms dashboard for submissions      |
@@ -904,21 +905,21 @@ Performance is both a UX requirement and a respect-for-the-reader requirement. T
 
 ## 13.1 Technical Hypothesis Validation
 
-|                                                          |                                                                                                                        |                                                                                                                                     |                                                                                                             |
-|----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| **Hypothesis**                                           | **Validation Approach**                                                                                                | **Expected Outcome**                                                                                                                | **Risk if Invalid**                                                                                         |
+|                                                          |                                                                                                                        |                                                                                                                                  |                                                                                                             |
+| -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Hypothesis**                                           | **Validation Approach**                                                                                                | **Expected Outcome**                                                                                                             | **Risk if Invalid**                                                                                         |
 | Astro can deliver article pages under 200KB total weight | Build a prototype article page with full content (~5,000 words), Tailwind CSS, and all components; measure page weight | Total weight < 200KB (HTML ~50KB, CSS <15KB, fonts ~80KB, JS <20KB, GA4 ~28KB loaded async — excluded from critical path budget) | Low: Astro is designed for content-heavy static sites; weight budget is achievable without analytics script |
-| Pagefind search index remains lightweight at 15 articles | Index 15 sample articles; measure index size                                                                           | Index < 200KB total (UI + index chunks)                                                                                            | Low: Pagefind is designed for static sites; index size scales efficiently                                   |
-| Netlify Forms → ESP webhook pipeline works end-to-end    | Configure test form on Netlify; set up Buttondown webhook; submit test email; verify confirmation email delivery       | Email submission → ESP subscriber creation → confirmation email within 60s                                                          | Medium: Webhook reliability depends on Netlify’s outgoing notification system                               |
-| GA4 custom events capture scroll depth accurately        | Implement Intersection Observer-based scroll tracking; verify events in GA4 real-time reports                          | Custom events fire at 25/50/75/100% scroll thresholds with < 2% error                                                              | Low: Standard pattern with well-documented GA4 Measurement Protocol and gtag API                            |
-| OG images render correctly in WhatsApp link previews     | Generate test OG image; share test URL in WhatsApp; verify preview rendering                                           | WhatsApp displays OG image, title, and description within 2s of link paste                                                          | Low: Standard OG meta tags; WhatsApp supports og:image natively                                             |
+| Pagefind search index remains lightweight at 15 articles | Index 15 sample articles; measure index size                                                                           | Index < 200KB total (UI + index chunks)                                                                                          | Low: Pagefind is designed for static sites; index size scales efficiently                                   |
+| Netlify Forms → ESP webhook pipeline works end-to-end    | Configure test form on Netlify; set up Buttondown webhook; submit test email; verify confirmation email delivery       | Email submission → ESP subscriber creation → confirmation email within 60s                                                       | Medium: Webhook reliability depends on Netlify’s outgoing notification system                               |
+| GA4 custom events capture scroll depth accurately        | Implement Intersection Observer-based scroll tracking; verify events in GA4 real-time reports                          | Custom events fire at 25/50/75/100% scroll thresholds with < 2% error                                                            | Low: Standard pattern with well-documented GA4 Measurement Protocol and gtag API                            |
+| OG images render correctly in WhatsApp link previews     | Generate test OG image; share test URL in WhatsApp; verify preview rendering                                           | WhatsApp displays OG image, title, and description within 2s of link paste                                                       | Low: Standard OG meta tags; WhatsApp supports og:image natively                                             |
 
 ## 13.2 Proof of Concept Results
 
 To be completed during Phase 0 (Weeks 1–2) of the implementation roadmap. Results will be documented here before proceeding to full implementation.
 
 |                                         |            |            |                                                |
-|-----------------------------------------|------------|------------|------------------------------------------------|
+| --------------------------------------- | ---------- | ---------- | ---------------------------------------------- |
 | **PoC**                                 | **Status** | **Result** | **Action**                                     |
 | Astro + Tailwind prototype article page | Pending    | —          | Week 1: Build prototype; measure performance   |
 | Netlify Forms → ESP webhook             | Pending    | —          | Week 2: Configure and test end-to-end          |
@@ -929,7 +930,7 @@ To be completed during Phase 0 (Weeks 1–2) of the implementation roadmap. Resu
 ## 13.3 Remaining Technical Risks
 
 |                                                                                             |                 |            |                                                                                                                                                                              |
-|---------------------------------------------------------------------------------------------|-----------------|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------------------------------------------------------------------------------------- | --------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Risk**                                                                                    | **Probability** | **Impact** | **Mitigation**                                                                                                                                                               |
 | Netlify Forms free tier limit (100 submissions/month) exceeded if subscription rate is high | Medium          | Medium     | Monitor submission count; upgrade to Netlify Pro (\$19/month for 1,000 submissions) if threshold approached; or switch to direct ESP form embed                              |
 | WhatsApp OG cache prevents updated previews from displaying                                 | Medium          | Low        | Append version query parameter to OG image URL; use cache-busting strategies                                                                                                 |
@@ -943,7 +944,7 @@ To be completed during Phase 0 (Weeks 1–2) of the implementation roadmap. Resu
 The implementation roadmap aligns with PRD §15 and is designed for a single developer (Tshepo Machele) using Claude Code as development partner.
 
 |                                 |              |                      |                                                                                                                                   |               |
-|---------------------------------|--------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------|---------------|
+| ------------------------------- | ------------ | -------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ------------- |
 | **Phase**                       | **Duration** | **Focus**            | **Key Deliverables**                                                                                                              | **PRD Trace** |
 | Phase 0: Build                  | Weeks 1–8    | Platform engineering | Astro scaffold, Tailwind config, all components, page templates, Netlify pipeline, analytics, email pipeline, OG image script, QA | PRD §15.1     |
 | Phase 1: MVP Launch             | Weeks 9–16   | Content delivery     | Articles 1.1–1.4 published sequentially; initial distribution via WhatsApp + LinkedIn                                             | PRD §15.2     |
@@ -957,7 +958,7 @@ The implementation roadmap aligns with PRD §15 and is designed for a single dev
 Phase 0 detailed breakdown (the primary technical implementation phase):
 
 |          |                  |                                                                                                                                                  |                                                                                                     |
-|----------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| -------- | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
 | **Week** | **Milestone**    | **Technical Deliverables**                                                                                                                       | **Verification**                                                                                    |
 | 1–2      | Project scaffold | Astro project init; Tailwind config; BaseLayout, Header, Footer components; Netlify deployment pipeline; domain DNS                              | Site deploys to Netlify on git push; Tailwind classes render correctly                              |
 | 3–4      | Core components  | ArticleLayout, ReadingProgress, ShareButtons, EmailCapture, TableOfContents, Callout, SeriesCard, ArticleNav; all page templates                 | All components render with all states; responsive at 360px, 768px, 1024px                           |
@@ -967,23 +968,23 @@ Phase 0 detailed breakdown (the primary technical implementation phase):
 
 ## 14.3 Resource Requirements
 
-|                             |                                                                           |                                  |           |
-|-----------------------------|---------------------------------------------------------------------------|----------------------------------|-----------|
-| **Resource**                | **Specification**                                                         | **Cost**                         | **Phase** |
-| Developer                   | Tshepo Machele (full-stack, solo)                                         | Sweat equity                     | All       |
-| AI Development Partner      | Claude Code                                                               | Anthropic subscription           | All       |
-| Domain                      | govcompass.co.za                                                             | ~R100–200/year                   | Phase 0   |
-| Hosting                     | Netlify free tier (100GB bandwidth, 300 build minutes)                    | Free                             | All       |
-| Analytics                   | Google Analytics 4 free tier                                              | Free                             | Phase 0+  |
+|                             |                                                                         |                                  |           |
+| --------------------------- | ----------------------------------------------------------------------- | -------------------------------- | --------- |
+| **Resource**                | **Specification**                                                       | **Cost**                         | **Phase** |
+| Developer                   | Tshepo Machele (full-stack, solo)                                       | Sweat equity                     | All       |
+| AI Development Partner      | Claude Code                                                             | Anthropic subscription           | All       |
+| Domain                      | govcompass.co.za                                                        | ~R100–200/year                   | Phase 0   |
+| Hosting                     | Netlify free tier (100GB bandwidth, 300 build minutes)                  | Free                             | All       |
+| Analytics                   | Google Analytics 4 free tier                                            | Free                             | Phase 0+  |
 | Email ESP                   | Buttondown free tier (< 100 subscribers) or Mailchimp free tier (< 500) | Free (upgrade if growth exceeds) | Phase 0+  |
-| Total estimated annual cost | —                                                                         | R200–R1,500/year                 | —         |
+| Total estimated annual cost | —                                                                       | R200–R1,500/year                 | —         |
 
 # 15. Risks, Assumptions and Dependencies
 
 ## 15.1 Technical Risks
 
 |             |                                                                    |                 |            |                                                                                                                                         |                |
-|-------------|--------------------------------------------------------------------|-----------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------|----------------|
+| ----------- | ------------------------------------------------------------------ | --------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
 | **Risk ID** | **Risk**                                                           | **Probability** | **Impact** | **Mitigation**                                                                                                                          | **Owner**      |
 | TR-001      | Netlify Forms free tier (100/month) exceeded                       | Medium          | Medium     | Monitor submission rate; upgrade to Pro or switch to direct ESP form at 80% threshold                                                   | Tshepo Machele |
 | TR-002      | GA4 analytics underreporting due to ad blockers or consent refusal | High            | Low        | GA4 consent mode v2 provides basic measurement even without consent; consider server-side Google Tag Manager for improved collection    | Tshepo Machele |
@@ -995,7 +996,7 @@ Phase 0 detailed breakdown (the primary technical implementation phase):
 ## 15.2 Technical Assumptions
 
 |        |                                                                                                 |                                         |                                                                      |
-|--------|-------------------------------------------------------------------------------------------------|-----------------------------------------|----------------------------------------------------------------------|
+| ------ | ----------------------------------------------------------------------------------------------- | --------------------------------------- | -------------------------------------------------------------------- |
 | **ID** | **Assumption**                                                                                  | **Validated?**                          | **Impact if Invalid**                                                |
 | TA-001 | Netlify’s CDN provides adequate performance for SA readers (edge nodes in or near South Africa) | No — validate in Phase 0                | Latency may exceed targets; consider Cloudflare Pages as alternative |
 | TA-002 | Astro Content Collections can handle 15+ articles without performance degradation               | Partially (Astro is designed for this)  | Negligible risk; Astro handles hundreds of pages efficiently         |
@@ -1006,19 +1007,19 @@ Phase 0 detailed breakdown (the primary technical implementation phase):
 ## 15.3 Technical Dependencies
 
 |        |                            |          |                    |                                 |                                                                                  |
-|--------|----------------------------|----------|--------------------|---------------------------------|----------------------------------------------------------------------------------|
+| ------ | -------------------------- | -------- | ------------------ | ------------------------------- | -------------------------------------------------------------------------------- |
 | **ID** | **Dependency**             | **Type** | **Owner/Provider** | **Risk if Unavailable**         | **Contingency**                                                                  |
 | TD-001 | Netlify hosting service    | External | Netlify Inc.       | Site goes offline               | Migrate to Cloudflare Pages or Vercel (Astro supports both; config change only)  |
 | TD-002 | GitHub repository access   | External | GitHub / Microsoft | Cannot deploy updates           | Mirror repo to GitLab; Netlify supports GitLab deployment                        |
 | TD-003 | Google Analytics 4 service | External | Google LLC         | No analytics data               | Switch to Plausible or Umami (privacy-focused alternatives); or self-host Matomo |
 | TD-004 | Buttondown / Mailchimp ESP | External | ESP provider       | Cannot send email notifications | Switch ESP (simple webhook reconfiguration); subscriber data exportable          |
 | TD-005 | Node.js 20 LTS             | Runtime  | OpenJS Foundation  | Build environment unavailable   | Netlify supports multiple Node versions; update netlify.toml                     |
-| TD-006 | govcompass.co.za domain       | External | Domain registrar   | Site unreachable by name        | Register backup domain (e.g., compasssa.org); update DNS                         |
+| TD-006 | govcompass.co.za domain    | External | Domain registrar   | Site unreachable by name        | Register backup domain (e.g., compasssa.org); update DNS                         |
 
 # Appendix A: Stakeholder Sign-Off
 
 |                   |                |              |          |
-|-------------------|----------------|--------------|----------|
+| ----------------- | -------------- | ------------ | -------- |
 | **Role**          | **Name**       | **Sign-Off** | **Date** |
 | Technical Lead    | Tshepo Machele | ☐ Approved   |          |
 | Product Lead      | Tshepo Machele | ☐ Approved   |          |
@@ -1027,9 +1028,9 @@ Phase 0 detailed breakdown (the primary technical implementation phase):
 
 # Appendix B: Document History
 
-|             |            |                |                                                            |
-|-------------|------------|----------------|------------------------------------------------------------|
-| **Version** | **Date**   | **Author**     | **Changes**                                                |
+|             |            |                |                                                               |
+| ----------- | ---------- | -------------- | ------------------------------------------------------------- |
+| **Version** | **Date**   | **Author**     | **Changes**                                                   |
 | 0.1         | 2026-02-15 | Tshepo Machele | Initial SRD — complete system requirements for GovCompass MVP |
 
 # Appendix C: SRD Completion Checklist
@@ -1074,7 +1075,6 @@ Phase 0 detailed breakdown (the primary technical implementation phase):
 - Dependencies documented with owners and contingencies
 - All technical stakeholders have reviewed
 
-
 ---
 
-*— END OF DOCUMENT —*
+_— END OF DOCUMENT —_

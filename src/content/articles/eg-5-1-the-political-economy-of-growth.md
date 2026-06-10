@@ -53,7 +53,7 @@ Every economic policy is a distributional choice. A decision to reduce tariffs o
 
 You cannot avoid creating losers. The question is never whether a policy has distributional consequences — it always does. The question is whether those consequences are managed, whether the losers are compensated or given transition support, and whether the beneficiaries of reform are politically organised enough to sustain the policy through the inevitable resistance.
 
-Daron Acemoglu and James Robinson, in *Why Nations Fail: The Origins of Power, Prosperity, and Poverty* (2012), make the point with characteristic directness: economic institutions that promote growth are threatening to political elites who benefit from extractive arrangements. The reason poor countries stay poor is not usually that their leaders do not know what good economic policy looks like. It is that good economic policy would redistribute power and resources away from the people who currently control the state. The problem is not ignorance but incentives.
+Daron Acemoglu and James Robinson, in _Why Nations Fail: The Origins of Power, Prosperity, and Poverty_ (2012), make the point with characteristic directness: economic institutions that promote growth are threatening to political elites who benefit from extractive arrangements. The reason poor countries stay poor is not usually that their leaders do not know what good economic policy looks like. It is that good economic policy would redistribute power and resources away from the people who currently control the state. The problem is not ignorance but incentives.
 
 South Africa illustrates this dynamic with painful clarity. The National Development Plan, published in 2012, is a sophisticated and largely sound economic strategy document. It was adopted by Cabinet. It was endorsed across the political spectrum. Its diagnosis of South Africa's economic challenges — unemployment, inequality, low growth — is accurate. Its prescriptions — infrastructure investment, education reform, regulatory simplification, competition policy — are broadly correct. And in the fourteen years since its publication, the vast majority of its economic recommendations have not been implemented. Not because they were technically flawed, but because implementation would have required confronting entrenched interests — in the public service, in state-owned enterprises, in organised labour, in politically connected business — that benefit from the existing arrangement.
 
@@ -62,7 +62,6 @@ South Africa illustrates this dynamic with painful clarity. The National Develop
 ## Mapping the Winners and Losers
 
 To understand why reform stalls, you need to map the specific winners and losers of each major policy area. Abstract discussions about "vested interests" are not useful. What is useful is identifying, with precision, which organisations, industries, and constituencies stand to gain or lose from each proposed reform — and then assessing whether the winners are more politically powerful than the losers.
-
 
 ![Every reform redistributes income and risk — naming the affected groups is the first political task | Photo by Ehimetalor Akhere Unuabona on Unsplash](/images/articles/eg-5-1-the-political-economy-of-growth/img-1.webp)
 
@@ -78,7 +77,7 @@ The losers are equally identifiable, and they are politically powerful. Mining h
 
 The political management challenge is acute because the losers are concentrated and well-organised while the winners are diffuse and not yet organised. A mining company that faces beneficiation requirements can hire lobbyists, fund political campaigns, threaten to withdraw investment, and engage in regulatory arbitrage (shifting operations to jurisdictions with fewer requirements). The potential workers in a downstream processing plant that does not yet exist cannot lobby for anything — they do not yet know they are potential beneficiaries.
 
-**This asymmetry between concentrated losers and diffuse winners is the central challenge of political economy**, first identified by Mancur Olson in his work on *collective action*. Small groups with large individual stakes in a policy outcome will always organise more effectively than large groups with small individual stakes. A mining company that stands to lose R500 million from beneficiation requirements will spend R50 million on lobbying to prevent them. A million consumers who would each benefit by R50 from lower processed goods prices will not organise at all.
+**This asymmetry between concentrated losers and diffuse winners is the central challenge of political economy**, first identified by Mancur Olson in his work on _collective action_. Small groups with large individual stakes in a policy outcome will always organise more effectively than large groups with small individual stakes. A mining company that stands to lose R500 million from beneficiation requirements will spend R50 million on lobbying to prevent them. A million consumers who would each benefit by R50 from lower processed goods prices will not organise at all.
 
 The successful political management of resource optimisation requires several strategies. First, phase in beneficiation requirements over time, giving mining companies predictability and adjustment periods. Chile did not impose copper processing requirements overnight — it phased them in over a decade, allowing the private sector to plan and invest. Second, use tax incentives rather than mandates where possible. A tax credit for domestic processing investment is less threatening than a legal requirement to process a minimum percentage domestically, even if the economic effect is similar, because incentives preserve the perception of choice. Third, build the winner coalition by investing in downstream industries before imposing upstream requirements — create the processing capacity and the jobs first, so that the beneficiaries of reform exist and can advocate for its continuation. Fourth, use the employment narrative relentlessly. In a country with thirty-three per cent unemployment, the argument that beneficiation creates more jobs per unit of mineral extracted than raw export is politically potent — but only if the government can point to actual jobs in actual processing facilities, not projections in strategy documents.
 
@@ -137,7 +136,6 @@ Governance researchers at institutions including the Wits School of Governance, 
 ## The Social Compact: Learning from Others
 
 The concept of a social compact is straightforward: it is a negotiated agreement among government, business, labour, and civil society on the terms of economic transition. It says, in effect: we agree that the economy needs to change, we agree on the broad direction of change, we agree on how the costs and benefits will be distributed, and we commit to supporting the reform process even when it imposes costs on our own constituency.
-
 
 ![Social compacts work when government, labour and business each give up something they value | Photo by ANNIE HATUANH on Unsplash](/images/articles/eg-5-1-the-political-economy-of-growth/img-2.webp)
 
@@ -204,7 +202,6 @@ Research on South Africa's trade and industrial policy — including work by sch
 ## Parliamentary Accountability: The Missing Link
 
 There is one more political institution that should be central to the political economy of reform but has largely failed to play its role: Parliament.
-
 
 ![Parliament is where reform trade-offs should be debated openly rather than negotiated behind closed doors | Photo by Vitaly Gariev on Unsplash](/images/articles/eg-5-1-the-political-economy-of-growth/img-3.webp)
 
@@ -336,14 +333,14 @@ The next article in this series, [From Strategy to Reality](/articles/eg-5-2-fro
 
 The analysis in this article draws on the following institutional research and publications:
 
-- National Treasury, *Medium-Term Budget Policy Statement (MTBPS)* and *Budget Review* — published annually, providing the fiscal context for understanding how political economy constraints shape budget allocations and reform funding; the gap between policy commitments and budget allocations is often the clearest indicator of political economy dynamics at work — [www.treasury.gov.za](https://www.treasury.gov.za)
+- National Treasury, _Medium-Term Budget Policy Statement (MTBPS)_ and _Budget Review_ — published annually, providing the fiscal context for understanding how political economy constraints shape budget allocations and reform funding; the gap between policy commitments and budget allocations is often the clearest indicator of political economy dynamics at work — [www.treasury.gov.za](https://www.treasury.gov.za)
 
 - National Economic Development and Labour Council (NEDLAC) — records of social dialogue processes, including stakeholder submissions on economic reform proposals; reveals the positions of organised business, labour, community constituencies, and government — [www.nedlac.org.za](https://www.nedlac.org.za)
 
 - Parliamentary Monitoring Group (PMG) — committee proceedings, public submissions, and legislative progress; essential for monitoring how economic reform proposals move through the parliamentary process and where resistance emerges — [www.pmg.org.za](https://www.pmg.org.za)
 
-- World Bank, *South Africa Economic Updates* — independent assessment of structural reform progress and constraints, including political economy analysis of why specific reforms stall — [www.worldbank.org](https://www.worldbank.org)
+- World Bank, _South Africa Economic Updates_ — independent assessment of structural reform progress and constraints, including political economy analysis of why specific reforms stall — [www.worldbank.org](https://www.worldbank.org)
 
-- International Monetary Fund, *Article IV Consultation reports* for South Africa — detailed assessments of reform implementation gaps and structural bottlenecks — [www.imf.org](https://www.imf.org)
+- International Monetary Fund, _Article IV Consultation reports_ for South Africa — detailed assessments of reform implementation gaps and structural bottlenecks — [www.imf.org](https://www.imf.org)
 
-- Organisation for Economic Co-operation and Development (OECD), *Economic Surveys: South Africa* — comparative analysis of structural reform implementation against peer countries — [www.oecd.org](https://www.oecd.org)
+- Organisation for Economic Co-operation and Development (OECD), _Economic Surveys: South Africa_ — comparative analysis of structural reform implementation against peer countries — [www.oecd.org](https://www.oecd.org)

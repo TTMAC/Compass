@@ -30,7 +30,6 @@ export interface Workstream {
   color: string;
   lightColor: string;
   phases: Phase[];
-
 }
 
 export interface Phase {
@@ -38,7 +37,6 @@ export interface Phase {
   label: string;
   years: string;
   priority: string;
-
 }
 
 export interface LegislativeItem {
@@ -182,8 +180,7 @@ export const workstreams: Workstream[] = [
         id: "phase-3",
         label: "Capability Building & Systemic Integration",
         years: "Years 5–10",
-        priority:
-          "Build the professional capacity needed to sustain reforms.",
+        priority: "Build the professional capacity needed to sustain reforms.",
       },
     ],
   },
@@ -244,8 +241,7 @@ export const workstreams: Workstream[] = [
         id: "phase-3",
         label: "Sustain & Compound Gains",
         years: "Years 5–10",
-        priority:
-          "Ensure gains are self-reinforcing and intergenerational.",
+        priority: "Ensure gains are self-reinforcing and intergenerational.",
       },
     ],
   },
@@ -262,7 +258,8 @@ export const reforms: Reform[] = [
     title: "Investigating Magistracy Pilot",
     description:
       "Pilot Judicial Investigation Officers (JIOs) in 2–3 metropolitan areas (i.e., Johannesburg, Cape Town, and eThekwini). JIOs are magistrate-level officers with both investigative and preliminary judicial powers, directing South African Police Service (SAPS) detectives on serious and complex cases (Track C and Track D matters).",
-    legislative: "New Investigating Magistracy Act; amendments to Criminal Procedure Act, 1977",
+    legislative:
+      "New Investigating Magistracy Act; amendments to Criminal Procedure Act, 1977",
     articleSlug: "ss-3-2-independent-investigating-magistracy",
   },
   {
@@ -354,8 +351,7 @@ export const reforms: Reform[] = [
     title: "Private Security Regulation",
     description:
       "Strengthen regulation of the private security industry to ensure alignment with constitutional policing standards.",
-    legislative:
-      "Amendments to Private Security Industry Regulation Act, 2001",
+    legislative: "Amendments to Private Security Industry Regulation Act, 2001",
     articleSlug: "ss-2-5-the-private-security-paradox",
   },
   // ── Citizen Safety & Security: Phase 3 ──
@@ -756,7 +752,8 @@ export const reforms: Reform[] = [
     title: "Beneficial Ownership Disclosure at Tender Submission",
     description:
       "Every company bidding for government work must disclose its full beneficial ownership chain at the point of tender submission, verified against the CIPC beneficial ownership register and cross-referenced against the database of restricted suppliers. Defends Vector 2 (commercial capture) by eliminating the opacity that allows captured procurement to operate within formal compliance.",
-    legislative: "Amendments to Public Procurement framework; integration with Companies Act, 2008",
+    legislative:
+      "Amendments to Public Procurement framework; integration with Companies Act, 2008",
     scope: ["national", "provincial", "municipal"],
     articleSlug: "ra-5-2-anti-capture-architecture",
   },
@@ -780,7 +777,8 @@ export const reforms: Reform[] = [
     title: "Cooling-Off Periods (Revolving Door)",
     description:
       "Senior officials of regulated entities prohibited from taking positions at the regulator (and vice versa) for a prescribed period of two to five years, with disclosure requirements and penalties for non-compliance. Defends Vector 4 (regulatory capture) by reducing the incentive effects of the revolving door between regulators and regulated industries.",
-    legislative: "New Regulator Independence Act or amendments to sector regulator statutes",
+    legislative:
+      "New Regulator Independence Act or amendments to sector regulator statutes",
     scope: ["national"],
     articleSlug: "ra-5-2-anti-capture-architecture",
   },
@@ -1368,27 +1366,160 @@ export const reforms: Reform[] = [
 
 export const legislativeItems: LegislativeItem[] = [
   // New statutes
-  { id: "L.1", name: "Investigating Magistracy Act", type: "new", workstream: "safety-security", phase: "phase-1", articleSlug: "ss-3-2-independent-investigating-magistracy" },
-  { id: "L.2", name: "Sentencing Reform Act", type: "new", workstream: "safety-security", phase: "phase-2", articleSlug: "ss-3-4-sentencing-commission-and-structured-guidelines" },
-  { id: "L.3", name: "Small Business Guarantee Fund Act", type: "new", workstream: "economic-growth", phase: "phase-1", articleSlug: "eg-3-1-three-engines-of-growth" },
-  { id: "L.19", name: "Presidential Delivery Compact Act", type: "new", workstream: "reform-agenda", phase: "phase-1", articleSlug: "ra-5-3-the-integrated-reform-programme" },
+  {
+    id: "L.1",
+    name: "Investigating Magistracy Act",
+    type: "new",
+    workstream: "safety-security",
+    phase: "phase-1",
+    articleSlug: "ss-3-2-independent-investigating-magistracy",
+  },
+  {
+    id: "L.2",
+    name: "Sentencing Reform Act",
+    type: "new",
+    workstream: "safety-security",
+    phase: "phase-2",
+    articleSlug: "ss-3-4-sentencing-commission-and-structured-guidelines",
+  },
+  {
+    id: "L.3",
+    name: "Small Business Guarantee Fund Act",
+    type: "new",
+    workstream: "economic-growth",
+    phase: "phase-1",
+    articleSlug: "eg-3-1-three-engines-of-growth",
+  },
+  {
+    id: "L.19",
+    name: "Presidential Delivery Compact Act",
+    type: "new",
+    workstream: "reform-agenda",
+    phase: "phase-1",
+    articleSlug: "ra-5-3-the-integrated-reform-programme",
+  },
   // Amendments
-  { id: "L.4", name: "Criminal Procedure Act, 1977", type: "amendment", workstream: "safety-security", phase: "phase-1", articleSlug: "ss-2-1-the-broken-pipeline" },
-  { id: "L.5", name: "National Prosecuting Authority Act, 1998", type: "amendment", workstream: "safety-security", phase: "phase-1", articleSlug: "ss-2-3-justice-delayed-rights-denied" },
-  { id: "L.6", name: "South African Police Service Act, 1995", type: "amendment", workstream: "safety-security", phase: "phase-1", articleSlug: "ss-3-1-three-tier-policing-architecture" },
-  { id: "L.7", name: "Magistrates' Courts Act, 1944", type: "amendment", workstream: "safety-security", phase: "phase-2", articleSlug: "ss-3-3-community-courts-and-restorative-justice" },
-  { id: "L.8", name: "Correctional Services Act, 1998", type: "amendment", workstream: "safety-security", phase: "phase-3", articleSlug: "ss-3-5-rehabilitation-as-constitutional-mandate" },
-  { id: "L.9", name: "Private Security Industry Regulation Act, 2001", type: "amendment", workstream: "safety-security", phase: "phase-2", articleSlug: "ss-2-5-the-private-security-paradox" },
-  { id: "L.10", name: "Housing Act", type: "amendment", workstream: "reform-agenda", phase: "phase-1", articleSlug: "ra-2-3-fixing-human-settlements" },
-  { id: "L.11", name: "Water Services Act", type: "amendment", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-4-1-fixing-water-and-sanitation" },
-  { id: "L.12", name: "Municipal Finance Management Act", type: "amendment", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-4-4-building-municipal-capability" },
-  { id: "L.13", name: "Electricity Regulation Amendment Act, 2024", type: "amendment", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-4-2-fixing-electricity" },
-  { id: "L.15", name: "Governance Reform Programme Act", type: "new", workstream: "reform-agenda", phase: "phase-3", articleSlug: "ra-5-3-the-integrated-reform-programme" },
-  { id: "L.16", name: "Public Procurement Bill (Open Contracting & Beneficial Ownership)", type: "new", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-5-2-anti-capture-architecture" },
-  { id: "L.17", name: "Water Services Act, 1997 (Independent Economic Regulator)", type: "amendment", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-5-1-constitutional-vs-legislative" },
-  { id: "L.18", name: "Protected Disclosures Act, 2000 (Whistleblower Strengthening)", type: "amendment", workstream: "reform-agenda", phase: "phase-2", articleSlug: "ra-5-2-anti-capture-architecture" },
+  {
+    id: "L.4",
+    name: "Criminal Procedure Act, 1977",
+    type: "amendment",
+    workstream: "safety-security",
+    phase: "phase-1",
+    articleSlug: "ss-2-1-the-broken-pipeline",
+  },
+  {
+    id: "L.5",
+    name: "National Prosecuting Authority Act, 1998",
+    type: "amendment",
+    workstream: "safety-security",
+    phase: "phase-1",
+    articleSlug: "ss-2-3-justice-delayed-rights-denied",
+  },
+  {
+    id: "L.6",
+    name: "South African Police Service Act, 1995",
+    type: "amendment",
+    workstream: "safety-security",
+    phase: "phase-1",
+    articleSlug: "ss-3-1-three-tier-policing-architecture",
+  },
+  {
+    id: "L.7",
+    name: "Magistrates' Courts Act, 1944",
+    type: "amendment",
+    workstream: "safety-security",
+    phase: "phase-2",
+    articleSlug: "ss-3-3-community-courts-and-restorative-justice",
+  },
+  {
+    id: "L.8",
+    name: "Correctional Services Act, 1998",
+    type: "amendment",
+    workstream: "safety-security",
+    phase: "phase-3",
+    articleSlug: "ss-3-5-rehabilitation-as-constitutional-mandate",
+  },
+  {
+    id: "L.9",
+    name: "Private Security Industry Regulation Act, 2001",
+    type: "amendment",
+    workstream: "safety-security",
+    phase: "phase-2",
+    articleSlug: "ss-2-5-the-private-security-paradox",
+  },
+  {
+    id: "L.10",
+    name: "Housing Act",
+    type: "amendment",
+    workstream: "reform-agenda",
+    phase: "phase-1",
+    articleSlug: "ra-2-3-fixing-human-settlements",
+  },
+  {
+    id: "L.11",
+    name: "Water Services Act",
+    type: "amendment",
+    workstream: "reform-agenda",
+    phase: "phase-2",
+    articleSlug: "ra-4-1-fixing-water-and-sanitation",
+  },
+  {
+    id: "L.12",
+    name: "Municipal Finance Management Act",
+    type: "amendment",
+    workstream: "reform-agenda",
+    phase: "phase-2",
+    articleSlug: "ra-4-4-building-municipal-capability",
+  },
+  {
+    id: "L.13",
+    name: "Electricity Regulation Amendment Act, 2024",
+    type: "amendment",
+    workstream: "reform-agenda",
+    phase: "phase-2",
+    articleSlug: "ra-4-2-fixing-electricity",
+  },
+  {
+    id: "L.15",
+    name: "Governance Reform Programme Act",
+    type: "new",
+    workstream: "reform-agenda",
+    phase: "phase-3",
+    articleSlug: "ra-5-3-the-integrated-reform-programme",
+  },
+  {
+    id: "L.16",
+    name: "Public Procurement Bill (Open Contracting & Beneficial Ownership)",
+    type: "new",
+    workstream: "reform-agenda",
+    phase: "phase-2",
+    articleSlug: "ra-5-2-anti-capture-architecture",
+  },
+  {
+    id: "L.17",
+    name: "Water Services Act, 1997 (Independent Economic Regulator)",
+    type: "amendment",
+    workstream: "reform-agenda",
+    phase: "phase-2",
+    articleSlug: "ra-5-1-constitutional-vs-legislative",
+  },
+  {
+    id: "L.18",
+    name: "Protected Disclosures Act, 2000 (Whistleblower Strengthening)",
+    type: "amendment",
+    workstream: "reform-agenda",
+    phase: "phase-2",
+    articleSlug: "ra-5-2-anti-capture-architecture",
+  },
   // Constitutional
-  { id: "L.14", name: "Schedule 4 concurrent function clarity", type: "constitutional", workstream: "reform-agenda", phase: "phase-3", articleSlug: "ra-5-1-constitutional-vs-legislative" },
+  {
+    id: "L.14",
+    name: "Schedule 4 concurrent function clarity",
+    type: "constitutional",
+    workstream: "reform-agenda",
+    phase: "phase-3",
+    articleSlug: "ra-5-1-constitutional-vs-legislative",
+  },
 ];
 
 // ── Milestones ───────────────────────────────────────────────
@@ -1398,54 +1529,156 @@ export const milestones: Milestone[] = [
     period: "Year 1",
     label: "Quick Wins",
     items: [
-      { text: "Case-flow triage system design and pilot", workstream: "safety-security" },
-      { text: "MSME ecosystem integration audit", workstream: "economic-growth" },
-      { text: "RAARICLE™ diagnostic assessments across concurrent functions", workstream: "reform-agenda" },
-      { text: "Revenue ring-fencing legislation drafted", workstream: "reform-agenda" },
-      { text: "Integrated Governance Performance Platform (IGPP) live, aggregating AGSA, Treasury, DPME data", workstream: "reform-agenda" },
-      { text: "MFMA regulations mandating ring-fenced revenue for municipal trading services", workstream: "reform-agenda" },
-      { text: "Conditional grants shifted from input-based to outcome-based via DORA", workstream: "reform-agenda" },
-      { text: "Teacher development programme launch", workstream: "human-development" },
-      { text: "District-level human development baseline", workstream: "human-development" },
-      { text: "Business registration simplification (48-hour target)", workstream: "economic-growth" },
-      { text: "Title deed backlog task team established", workstream: "reform-agenda" },
-      { text: "Femicide and GBV measurement framework operational with monthly public reporting", workstream: "safety-security" },
-      { text: "State-citizen interface service-quality dashboard live (Home Affairs, SASSA, SAPS 10111)", workstream: "reform-agenda" },
+      {
+        text: "Case-flow triage system design and pilot",
+        workstream: "safety-security",
+      },
+      {
+        text: "MSME ecosystem integration audit",
+        workstream: "economic-growth",
+      },
+      {
+        text: "RAARICLE™ diagnostic assessments across concurrent functions",
+        workstream: "reform-agenda",
+      },
+      {
+        text: "Revenue ring-fencing legislation drafted",
+        workstream: "reform-agenda",
+      },
+      {
+        text: "Integrated Governance Performance Platform (IGPP) live, aggregating AGSA, Treasury, DPME data",
+        workstream: "reform-agenda",
+      },
+      {
+        text: "MFMA regulations mandating ring-fenced revenue for municipal trading services",
+        workstream: "reform-agenda",
+      },
+      {
+        text: "Conditional grants shifted from input-based to outcome-based via DORA",
+        workstream: "reform-agenda",
+      },
+      {
+        text: "Teacher development programme launch",
+        workstream: "human-development",
+      },
+      {
+        text: "District-level human development baseline",
+        workstream: "human-development",
+      },
+      {
+        text: "Business registration simplification (48-hour target)",
+        workstream: "economic-growth",
+      },
+      {
+        text: "Title deed backlog task team established",
+        workstream: "reform-agenda",
+      },
+      {
+        text: "Femicide and GBV measurement framework operational with monthly public reporting",
+        workstream: "safety-security",
+      },
+      {
+        text: "State-citizen interface service-quality dashboard live (Home Affairs, SASSA, SAPS 10111)",
+        workstream: "reform-agenda",
+      },
     ],
   },
   {
     period: "Year 5",
     label: "Medium-Term Milestones",
     items: [
-      { text: "Investigating Magistracy operational in pilot areas", workstream: "safety-security" },
+      {
+        text: "Investigating Magistracy operational in pilot areas",
+        workstream: "safety-security",
+      },
       { text: "Community courts operational", workstream: "safety-security" },
-      { text: "Three-tier policing piloted in 2–3 provinces", workstream: "safety-security" },
+      {
+        text: "Three-tier policing piloted in 2–3 provinces",
+        workstream: "safety-security",
+      },
       { text: "WSA/WSP separation implemented", workstream: "reform-agenda" },
-      { text: "Statutory Reform Coordination Office operational with legislated mandate", workstream: "reform-agenda" },
-      { text: "Governance Reform Programme Act passed; coordinated function-specific bills introduced", workstream: "reform-agenda" },
-      { text: "National e-procurement platform live with Open Contracting Data Standard publication", workstream: "reform-agenda" },
-      { text: "Small Business Guarantee Fund lending at scale", workstream: "economic-growth" },
-      { text: "First export cluster products entering international markets", workstream: "economic-growth" },
-      { text: "Reinforcing cycle measurable in bundled intervention districts", workstream: "human-development" },
-      { text: "Revenue ring-fencing in effect for water and electricity", workstream: "reform-agenda" },
-      { text: "End-to-end criminal justice case attrition tracker live across all magisterial districts", workstream: "safety-security" },
-      { text: "Court order compliance register operational with automatic escalation on state non-compliance", workstream: "reform-agenda" },
+      {
+        text: "Statutory Reform Coordination Office operational with legislated mandate",
+        workstream: "reform-agenda",
+      },
+      {
+        text: "Governance Reform Programme Act passed; coordinated function-specific bills introduced",
+        workstream: "reform-agenda",
+      },
+      {
+        text: "National e-procurement platform live with Open Contracting Data Standard publication",
+        workstream: "reform-agenda",
+      },
+      {
+        text: "Small Business Guarantee Fund lending at scale",
+        workstream: "economic-growth",
+      },
+      {
+        text: "First export cluster products entering international markets",
+        workstream: "economic-growth",
+      },
+      {
+        text: "Reinforcing cycle measurable in bundled intervention districts",
+        workstream: "human-development",
+      },
+      {
+        text: "Revenue ring-fencing in effect for water and electricity",
+        workstream: "reform-agenda",
+      },
+      {
+        text: "End-to-end criminal justice case attrition tracker live across all magisterial districts",
+        workstream: "safety-security",
+      },
+      {
+        text: "Court order compliance register operational with automatic escalation on state non-compliance",
+        workstream: "reform-agenda",
+      },
     ],
   },
   {
     period: "Year 10",
     label: "Long-Term Outcomes",
     items: [
-      { text: "Nationwide three-tier policing operational", workstream: "safety-security" },
-      { text: "Rehabilitation-centred corrections system functional", workstream: "safety-security" },
-      { text: "Integrated Criminal Justice Information System fully deployed", workstream: "safety-security" },
-      { text: "Municipal service delivery structurally reformed", workstream: "reform-agenda" },
-      { text: "Reform Coordination Office mandate expanded to permanent cycle management (Phase 4)", workstream: "reform-agenda" },
-      { text: "Reinforcing Cycle Scorecard published annually as part of parliamentary report", workstream: "reform-agenda" },
-      { text: "Diversified export base reducing commodity dependence", workstream: "economic-growth" },
-      { text: "Self-sustaining venture ecosystems", workstream: "economic-growth" },
-      { text: "Measurable intergenerational human development gains", workstream: "human-development" },
-      { text: "All Law and Order Scorecard outcomes — core plus supplementary diagnostic metrics — tracked quarterly with full baseline data", workstream: "safety-security" },
+      {
+        text: "Nationwide three-tier policing operational",
+        workstream: "safety-security",
+      },
+      {
+        text: "Rehabilitation-centred corrections system functional",
+        workstream: "safety-security",
+      },
+      {
+        text: "Integrated Criminal Justice Information System fully deployed",
+        workstream: "safety-security",
+      },
+      {
+        text: "Municipal service delivery structurally reformed",
+        workstream: "reform-agenda",
+      },
+      {
+        text: "Reform Coordination Office mandate expanded to permanent cycle management (Phase 4)",
+        workstream: "reform-agenda",
+      },
+      {
+        text: "Reinforcing Cycle Scorecard published annually as part of parliamentary report",
+        workstream: "reform-agenda",
+      },
+      {
+        text: "Diversified export base reducing commodity dependence",
+        workstream: "economic-growth",
+      },
+      {
+        text: "Self-sustaining venture ecosystems",
+        workstream: "economic-growth",
+      },
+      {
+        text: "Measurable intergenerational human development gains",
+        workstream: "human-development",
+      },
+      {
+        text: "All Law and Order Scorecard outcomes — core plus supplementary diagnostic metrics — tracked quarterly with full baseline data",
+        workstream: "safety-security",
+      },
     ],
   },
 ];
@@ -1453,43 +1686,166 @@ export const milestones: Milestone[] = [
 // ── Cross-Cutting ────────────────────────────────────────────
 
 export const digitalInfrastructure: CrossCuttingDigital[] = [
-  { id: "CC.1", initiative: "Integrated Criminal Justice Information System (ICJS)", workstreams: "Citizen Safety and Security" },
-  { id: "CC.2", initiative: "Unified Housing Demand Database", workstreams: "Reform Agenda" },
-  { id: "CC.3", initiative: "Real-Time Education Data Systems", workstreams: "Reform Agenda, Human Development" },
-  { id: "CC.4", initiative: "Digital Financial Inclusion Infrastructure", workstreams: "Economic Growth" },
-  { id: "CC.5", initiative: "Municipal Service Performance Dashboards", workstreams: "Reform Agenda" },
-  { id: "CC.6", initiative: "Integrated Governance Performance Platform (IGPP)", workstreams: "Reform Agenda (cross-pillar — aggregates AGSA, Treasury, DPME, sector data)" },
-  { id: "CC.7", initiative: "National E-Procurement Platform (Open Contracting Data Standard)", workstreams: "Reform Agenda, Economic Growth" },
+  {
+    id: "CC.1",
+    initiative: "Integrated Criminal Justice Information System (ICJS)",
+    workstreams: "Citizen Safety and Security",
+  },
+  {
+    id: "CC.2",
+    initiative: "Unified Housing Demand Database",
+    workstreams: "Reform Agenda",
+  },
+  {
+    id: "CC.3",
+    initiative: "Real-Time Education Data Systems",
+    workstreams: "Reform Agenda, Human Development",
+  },
+  {
+    id: "CC.4",
+    initiative: "Digital Financial Inclusion Infrastructure",
+    workstreams: "Economic Growth",
+  },
+  {
+    id: "CC.5",
+    initiative: "Municipal Service Performance Dashboards",
+    workstreams: "Reform Agenda",
+  },
+  {
+    id: "CC.6",
+    initiative: "Integrated Governance Performance Platform (IGPP)",
+    workstreams:
+      "Reform Agenda (cross-pillar — aggregates AGSA, Treasury, DPME, sector data)",
+  },
+  {
+    id: "CC.7",
+    initiative:
+      "National E-Procurement Platform (Open Contracting Data Standard)",
+    workstreams: "Reform Agenda, Economic Growth",
+  },
 ];
 
 export const structuralPrinciples: StructuralPrinciple[] = [
-  { title: "Separation of Regulator from Provider", description: "The entity that sets standards and monitors compliance must be independent from the entity that delivers the service. Combining both roles creates a conflict of interest where providers effectively regulate themselves.", examples: "Water (Water Services Authority vs. Provider, WSA/WSP), Electricity (municipality vs. independent power producer, IPP), Healthcare (regulator vs. facility), Policing (oversight vs. operational)" },
-  { title: "Revenue Ring-Fencing", description: "Revenue collected for a specific service must be spent on that service. When funds are pooled into general municipal budgets, essential infrastructure maintenance is raided to cover unrelated expenditure.", examples: "Water revenue for water, electricity revenue for electricity, healthcare funding for healthcare" },
-  { title: "Consolidation of End-to-End Responsibility", description: "A single entity must own the full delivery chain for a given outcome. When responsibility is fragmented across multiple departments or spheres of government, no one is accountable when the system fails.", examples: "Housing, education, healthcare, criminal justice pipeline" },
-  { title: "Automatic Enforcement Triggers", description: "Intervention mechanisms must activate automatically when defined thresholds are breached. Relying on political discretion to trigger intervention means failing institutions are left to deteriorate until crises force action.", examples: "Provincial intervention thresholds, municipal service failure protocols, court case-flow time limits" },
-  { title: "Performance-Based Accountability", description: "Every institution must be measured against clear, published performance standards with real consequences for sustained failure. Without transparent metrics and enforced accountability, underperformance becomes entrenched.", examples: "Scorecards, rankings, and consequences at every level" },
-  { title: "Structured Autonomy", description: "The entity closest to delivery holds operational authority, within outcome standards set by the entity with the broader mandate, with automatic enforcement when outcomes fall short. Legislated as a binding design standard for all concurrent functions: every institutional arrangement must pass the structured autonomy test or fail it.", examples: "Provincial education delivery within national outcome standards; municipal water provision within DWS quality regulation; district PHC operations within provincial oversight" },
+  {
+    title: "Separation of Regulator from Provider",
+    description:
+      "The entity that sets standards and monitors compliance must be independent from the entity that delivers the service. Combining both roles creates a conflict of interest where providers effectively regulate themselves.",
+    examples:
+      "Water (Water Services Authority vs. Provider, WSA/WSP), Electricity (municipality vs. independent power producer, IPP), Healthcare (regulator vs. facility), Policing (oversight vs. operational)",
+  },
+  {
+    title: "Revenue Ring-Fencing",
+    description:
+      "Revenue collected for a specific service must be spent on that service. When funds are pooled into general municipal budgets, essential infrastructure maintenance is raided to cover unrelated expenditure.",
+    examples:
+      "Water revenue for water, electricity revenue for electricity, healthcare funding for healthcare",
+  },
+  {
+    title: "Consolidation of End-to-End Responsibility",
+    description:
+      "A single entity must own the full delivery chain for a given outcome. When responsibility is fragmented across multiple departments or spheres of government, no one is accountable when the system fails.",
+    examples: "Housing, education, healthcare, criminal justice pipeline",
+  },
+  {
+    title: "Automatic Enforcement Triggers",
+    description:
+      "Intervention mechanisms must activate automatically when defined thresholds are breached. Relying on political discretion to trigger intervention means failing institutions are left to deteriorate until crises force action.",
+    examples:
+      "Provincial intervention thresholds, municipal service failure protocols, court case-flow time limits",
+  },
+  {
+    title: "Performance-Based Accountability",
+    description:
+      "Every institution must be measured against clear, published performance standards with real consequences for sustained failure. Without transparent metrics and enforced accountability, underperformance becomes entrenched.",
+    examples: "Scorecards, rankings, and consequences at every level",
+  },
+  {
+    title: "Structured Autonomy",
+    description:
+      "The entity closest to delivery holds operational authority, within outcome standards set by the entity with the broader mandate, with automatic enforcement when outcomes fall short. Legislated as a binding design standard for all concurrent functions: every institutional arrangement must pass the structured autonomy test or fail it.",
+    examples:
+      "Provincial education delivery within national outcome standards; municipal water provision within DWS quality regulation; district PHC operations within provincial oversight",
+  },
 ];
 
 // ── RAARICLE™ Framework ───────────────────────────────────────
 
 export const raaricleElements: RaaricleElement[] = [
-  { letter: "R", name: "Responsibility", question: "Is there a single, identifiable entity responsible for the outcome?" },
-  { letter: "A", name: "Accountability", question: "Can that entity be held to account for success or failure?" },
-  { letter: "A", name: "Authority", question: "Does the responsible entity have the power to act?" },
-  { letter: "R", name: "Resources", question: "Are adequate financial and human resources available?" },
-  { letter: "I", name: "Information", question: "Does the entity have the data needed to make decisions?" },
-  { letter: "C", name: "Capability", question: "Does the entity have the skills and systems to deliver?" },
-  { letter: "L", name: "Legitimacy", question: "Does the entity have the democratic mandate and public trust to act?" },
-  { letter: "E", name: "Enforcement", question: "Are there automatic consequences for failure?" },
+  {
+    letter: "R",
+    name: "Responsibility",
+    question:
+      "Is there a single, identifiable entity responsible for the outcome?",
+  },
+  {
+    letter: "A",
+    name: "Accountability",
+    question: "Can that entity be held to account for success or failure?",
+  },
+  {
+    letter: "A",
+    name: "Authority",
+    question: "Does the responsible entity have the power to act?",
+  },
+  {
+    letter: "R",
+    name: "Resources",
+    question: "Are adequate financial and human resources available?",
+  },
+  {
+    letter: "I",
+    name: "Information",
+    question: "Does the entity have the data needed to make decisions?",
+  },
+  {
+    letter: "C",
+    name: "Capability",
+    question: "Does the entity have the skills and systems to deliver?",
+  },
+  {
+    letter: "L",
+    name: "Legitimacy",
+    question:
+      "Does the entity have the democratic mandate and public trust to act?",
+  },
+  {
+    letter: "E",
+    name: "Enforcement",
+    question: "Are there automatic consequences for failure?",
+  },
 ];
 
 export const failurePatterns: FailurePattern[] = [
-  { name: "Fragmentation", description: "Responsibility scattered across multiple entities (housing, education, healthcare)", articleSlug: "ra-1-2-why-institutions-fail" },
-  { name: "Misalignment", description: "Wrong entity holds the wrong governance element (education authority at wrong level)", articleSlug: "ra-2-1-fixing-basic-education" },
-  { name: "Absence", description: "Critical RAARICLE™ element does not exist (no enforcement triggers)", articleSlug: "ra-3-3-when-provinces-fail" },
-  { name: "Conflation", description: "Incompatible functions combined in same entity (WSA = WSP, regulator = provider)", articleSlug: "ra-4-1-fixing-water-and-sanitation" },
-  { name: "Inversion", description: "Wrong entity makes the decision (national deciding provincial operational matters)", articleSlug: "ra-3-2-making-concurrent-functions-work" },
+  {
+    name: "Fragmentation",
+    description:
+      "Responsibility scattered across multiple entities (housing, education, healthcare)",
+    articleSlug: "ra-1-2-why-institutions-fail",
+  },
+  {
+    name: "Misalignment",
+    description:
+      "Wrong entity holds the wrong governance element (education authority at wrong level)",
+    articleSlug: "ra-2-1-fixing-basic-education",
+  },
+  {
+    name: "Absence",
+    description:
+      "Critical RAARICLE™ element does not exist (no enforcement triggers)",
+    articleSlug: "ra-3-3-when-provinces-fail",
+  },
+  {
+    name: "Conflation",
+    description:
+      "Incompatible functions combined in same entity (WSA = WSP, regulator = provider)",
+    articleSlug: "ra-4-1-fixing-water-and-sanitation",
+  },
+  {
+    name: "Inversion",
+    description:
+      "Wrong entity makes the decision (national deciding provincial operational matters)",
+    articleSlug: "ra-3-2-making-concurrent-functions-work",
+  },
 ];
 
 // ── Scorecard ────────────────────────────────────────────────
@@ -1498,500 +1854,657 @@ export const scorecardOutcomes: Record<WorkstreamId, ScorecardOutcome[]> = {
   "safety-security": [
     {
       outcome: "Crime Incidence and Deterrence Effect",
-      metric: "Composite crime rate (SAPS reported crime weighted against Stats SA Victims of Crime Survey estimates)",
+      metric:
+        "Composite crime rate (SAPS reported crime weighted against Stats SA Victims of Crime Survey estimates)",
       dataSource: "SAPS CAS, Stats SA VoCS",
     },
     {
       outcome: "Detection and Rapid Response",
-      metric: "10111 emergency response time, crime-scene attendance rate, initial evidence-preservation rate",
+      metric:
+        "10111 emergency response time, crime-scene attendance rate, initial evidence-preservation rate",
       dataSource: "SAPS",
     },
     {
       outcome: "Investigation-to-Arrest Conversion",
-      metric: "Case-to-arrest conversion rate, detective caseload ratio, forensic turnaround time, docket acceptance rate",
+      metric:
+        "Case-to-arrest conversion rate, detective caseload ratio, forensic turnaround time, docket acceptance rate",
       dataSource: "SAPS, Forensic Science Laboratory, NPA",
     },
     {
       outcome: "Lawful Arrest and Secure Pre-Trial Custody",
-      metric: "Section 35 compliance rate, 48-hour first-appearance rate, bail decision quality (risk-based vs wealth-based)",
+      metric:
+        "Section 35 compliance rate, 48-hour first-appearance rate, bail decision quality (risk-based vs wealth-based)",
       dataSource: "SAPS, Magistrates' Courts",
     },
     {
       outcome: "Threat Disruption and Intelligence Effectiveness",
-      metric: "Proactive-to-reactive operations ratio, threat-assessment quality, intelligence-failure incidence (major events without prior warning)",
+      metric:
+        "Proactive-to-reactive operations ratio, threat-assessment quality, intelligence-failure incidence (major events without prior warning)",
       dataSource: "SAPS Crime Intelligence, SSA",
     },
     {
       outcome: "Public Order and Stability Management",
-      metric: "Crowd-management events resolved without use of force, Marikana-recommendation compliance, de-escalation-to-escalation ratio",
+      metric:
+        "Crowd-management events resolved without use of force, Marikana-recommendation compliance, de-escalation-to-escalation ratio",
       dataSource: "SAPS Public Order Policing, IPID",
     },
     {
       outcome: "Prosecutorial Effectiveness and Case Conversion",
-      metric: "Case acceptance rate, conviction rate by crime type, case cycle time, withdrawal rate (and cause)",
+      metric:
+        "Case acceptance rate, conviction rate by crime type, case cycle time, withdrawal rate (and cause)",
       dataSource: "NPA",
     },
     {
       outcome: "Judicial Efficiency and Access to Justice",
-      metric: "Time-to-trial, postponement rate, case clearance rate, accused with legal representation at trial",
+      metric:
+        "Time-to-trial, postponement rate, case clearance rate, accused with legal representation at trial",
       dataSource: "Office of the Chief Justice, Legal Aid SA",
     },
     {
       outcome: "Sentencing Integrity and Proportionality",
-      metric: "Inter-court sentence variance for like offences, deviation from guideline ranges, share of sentences with rehabilitative or restorative components",
+      metric:
+        "Inter-court sentence variance for like offences, deviation from guideline ranges, share of sentences with rehabilitative or restorative components",
       dataSource: "Sentencing Commission, Office of the Chief Justice",
     },
     {
       outcome: "Secure and Humane Incarceration",
-      metric: "Overcrowding ratio (population vs design capacity), deaths in custody (natural and unnatural), assault rates, JICS-recommendation compliance",
+      metric:
+        "Overcrowding ratio (population vs design capacity), deaths in custody (natural and unnatural), assault rates, JICS-recommendation compliance",
       dataSource: "DCS, Judicial Inspectorate for Correctional Services (JICS)",
     },
     {
       outcome: "Rehabilitation Outcomes and Skills Acquisition",
-      metric: "Programme completion rate, literacy improvement, vocational and educational qualifications obtained",
+      metric:
+        "Programme completion rate, literacy improvement, vocational and educational qualifications obtained",
       dataSource: "DCS, Department of Higher Education and Training",
     },
     {
       outcome: "Reintegration and Recidivism Reduction",
-      metric: "Recidivism rate at 12 and 36 months post-release, post-release employment rate, Community Corrections caseload ratio",
+      metric:
+        "Recidivism rate at 12 and 36 months post-release, post-release employment rate, Community Corrections caseload ratio",
       dataSource: "DCS Community Corrections, SAPS CAS (re-arrest matching)",
     },
     {
       outcome: "Victim Justice, Reparation, and Restoration",
-      metric: "Victim satisfaction survey scores, protection-order compliance rate, compensation-order compliance rate, victim parole-participation rate",
-      dataSource: "NPA, Department of Justice & Constitutional Development, DCS",
+      metric:
+        "Victim satisfaction survey scores, protection-order compliance rate, compensation-order compliance rate, victim parole-participation rate",
+      dataSource:
+        "NPA, Department of Justice & Constitutional Development, DCS",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Femicide and Gender-Based Violence Prevalence",
-      metric: "Femicide rate per 100,000 women; intimate-partner femicide share; reported sexual offences per 100,000; GBV repeat-victimisation rate; protection-order issuance and breach rates",
-      dataSource: "SAPS Crime Statistics, MRC Gender and Health Research Unit Femicide Study, Stats SA Victims of Crime Survey, Department of Justice protection-order register",
+      metric:
+        "Femicide rate per 100,000 women; intimate-partner femicide share; reported sexual offences per 100,000; GBV repeat-victimisation rate; protection-order issuance and breach rates",
+      dataSource:
+        "SAPS Crime Statistics, MRC Gender and Health Research Unit Femicide Study, Stats SA Victims of Crime Survey, Department of Justice protection-order register",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "End-to-End Criminal Justice Case Attrition",
-      metric: "Lifecycle conversion rates: incident → reported (VoCS reporting rate) → docket opened → arrest → docket to NPA → trial → conviction; share of cases lost at each transition; cause-of-loss decomposition (witness, evidence, withdrawal)",
-      dataSource: "Stats SA Victims of Crime Survey, SAPS CAS, NPA case-tracking, Office of the Chief Justice court statistics",
+      metric:
+        "Lifecycle conversion rates: incident → reported (VoCS reporting rate) → docket opened → arrest → docket to NPA → trial → conviction; share of cases lost at each transition; cause-of-loss decomposition (witness, evidence, withdrawal)",
+      dataSource:
+        "Stats SA Victims of Crime Survey, SAPS CAS, NPA case-tracking, Office of the Chief Justice court statistics",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Extortion Economy Footprint",
-      metric: "Reported extortion incidents at construction sites and businesses; estimated value of stalled construction projects citing extortion; taxi-violence-related deaths and incidents; business-closure rate citing intimidation",
-      dataSource: "SAPS Crime Statistics, Construction Industry Development Board (CIDB) reports, Global Initiative Against Transnational Organized Crime, BUSA business confidence surveys",
+      metric:
+        "Reported extortion incidents at construction sites and businesses; estimated value of stalled construction projects citing extortion; taxi-violence-related deaths and incidents; business-closure rate citing intimidation",
+      dataSource:
+        "SAPS Crime Statistics, Construction Industry Development Board (CIDB) reports, Global Initiative Against Transnational Organized Crime, BUSA business confidence surveys",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Vigilantism and Mob Justice Incidence",
-      metric: "Reported mob-justice killings and assaults per 100,000; vigilante-incident clusters by district; share of communities reporting low SAPS trust in Stats SA Governance, Public Safety and Justice Survey",
-      dataSource: "SAPS Crime Statistics, ISS African Futures research, Stats SA Governance, Public Safety and Justice Survey",
+      metric:
+        "Reported mob-justice killings and assaults per 100,000; vigilante-incident clusters by district; share of communities reporting low SAPS trust in Stats SA Governance, Public Safety and Justice Survey",
+      dataSource:
+        "SAPS Crime Statistics, ISS African Futures research, Stats SA Governance, Public Safety and Justice Survey",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Road Death Rate",
-      metric: "Road fatalities per 100,000 population and per 100m vehicle-km; pedestrian fatality share; alcohol-related crash share; serious-injury rate; major-arterial fatality clusters",
-      dataSource: "Road Traffic Management Corporation (RTMC) State of Road Safety Report, Stats SA causes of death, AA road-safety statistics",
+      metric:
+        "Road fatalities per 100,000 population and per 100m vehicle-km; pedestrian fatality share; alcohol-related crash share; serious-injury rate; major-arterial fatality clusters",
+      dataSource:
+        "Road Traffic Management Corporation (RTMC) State of Road Safety Report, Stats SA causes of death, AA road-safety statistics",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Cybercrime Incidence and Case Resolution",
-      metric: "Reported cybercrime incidents per 100,000 (financial fraud, ransomware, identity theft); rand value of cyber-fraud losses; cybercrime conviction rate; SAPS Cybercrime Centre case-finalisation time",
-      dataSource: "SAPS Cybercrime Unit, SABRIC Annual Crime Statistics, Information Regulator data-breach notifications, Hawks Serious Commercial Crime Investigation",
+      metric:
+        "Reported cybercrime incidents per 100,000 (financial fraud, ransomware, identity theft); rand value of cyber-fraud losses; cybercrime conviction rate; SAPS Cybercrime Centre case-finalisation time",
+      dataSource:
+        "SAPS Cybercrime Unit, SABRIC Annual Crime Statistics, Information Regulator data-breach notifications, Hawks Serious Commercial Crime Investigation",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Border Integrity and Illicit Financial Flows",
-      metric: "Estimated illicit financial outflows as % of GDP; customs underinvoicing detected; contraband seizures by value (cigarettes, narcotics, counterfeit goods); irregular border crossings interdicted; BMA staffing density per kilometre of land border",
-      dataSource: "SARS Customs, Border Management Authority (BMA), Global Financial Integrity reports, FATF Mutual Evaluation, ISS Crime Hub",
+      metric:
+        "Estimated illicit financial outflows as % of GDP; customs underinvoicing detected; contraband seizures by value (cigarettes, narcotics, counterfeit goods); irregular border crossings interdicted; BMA staffing density per kilometre of land border",
+      dataSource:
+        "SARS Customs, Border Management Authority (BMA), Global Financial Integrity reports, FATF Mutual Evaluation, ISS Crime Hub",
     },
   ],
   "reform-agenda": [
     {
       outcome: "Audit Outcome Quality Across Municipalities",
-      metric: "Share of municipalities with clean and unqualified audit outcomes; share with disclaimed or adverse opinions; repeat findings rate",
-      dataSource: "Auditor-General of South Africa (AGSA) MFMA and PFMA general reports",
+      metric:
+        "Share of municipalities with clean and unqualified audit outcomes; share with disclaimed or adverse opinions; repeat findings rate",
+      dataSource:
+        "Auditor-General of South Africa (AGSA) MFMA and PFMA general reports",
     },
     {
       outcome: "Irregular and Wasteful Expenditure Rate",
-      metric: "Irregular, fruitless, and wasteful expenditure as a share of total expenditure (national, provincial, municipal); recovery rate",
+      metric:
+        "Irregular, fruitless, and wasteful expenditure as a share of total expenditure (national, provincial, municipal); recovery rate",
       dataSource: "AGSA, National Treasury",
     },
     {
       outcome: "Revenue Collection Rates at Municipal Level",
-      metric: "Billed revenue collected within 30 days, consumer debtor age, collection rate by service (water, electricity, rates)",
+      metric:
+        "Billed revenue collected within 30 days, consumer debtor age, collection rate by service (water, electricity, rates)",
       dataSource: "National Treasury MFMA Section 71 reports, Stats SA",
     },
     {
       outcome: "Critical Post Vacancy and Tenure Stability",
-      metric: "Vacancy rate for senior management posts unfilled longer than six months; average tenure of municipal managers, DGs, and HoDs; acting-appointment incidence",
-      dataSource: "Department of Public Service and Administration (DPSA), COGTA",
+      metric:
+        "Vacancy rate for senior management posts unfilled longer than six months; average tenure of municipal managers, DGs, and HoDs; acting-appointment incidence",
+      dataSource:
+        "Department of Public Service and Administration (DPSA), COGTA",
     },
     {
       outcome: "Citizen Satisfaction With Government Services",
-      metric: "Service-specific satisfaction scores; composite trust-in-government index; complaint resolution rate",
-      dataSource: "Stats SA Governance, Public Safety and Justice Survey; HSRC South African Social Attitudes Survey (SASAS)",
+      metric:
+        "Service-specific satisfaction scores; composite trust-in-government index; complaint resolution rate",
+      dataSource:
+        "Stats SA Governance, Public Safety and Justice Survey; HSRC South African Social Attitudes Survey (SASAS)",
     },
     {
       outcome: "Information Disclosure Compliance and Open Data Use",
-      metric: "PAIA compliance rate (timely responses to information requests); proactive disclosure index; published-dataset count and download volume",
-      dataSource: "South African Human Rights Commission PAIA report, DPSA, National Treasury Open Government portal",
+      metric:
+        "PAIA compliance rate (timely responses to information requests); proactive disclosure index; published-dataset count and download volume",
+      dataSource:
+        "South African Human Rights Commission PAIA report, DPSA, National Treasury Open Government portal",
     },
     {
       outcome: "Anti-Corruption Case Finalisation Rate",
-      metric: "Case finalisation rate, conviction rate in corruption cases, average days from referral to finalisation, asset recovery as a share of estimated loss",
-      dataSource: "NPA Investigating Directorate, Special Investigating Unit (SIU), Directorate for Priority Crime Investigation (Hawks)",
+      metric:
+        "Case finalisation rate, conviction rate in corruption cases, average days from referral to finalisation, asset recovery as a share of estimated loss",
+      dataSource:
+        "NPA Investigating Directorate, Special Investigating Unit (SIU), Directorate for Priority Crime Investigation (Hawks)",
     },
     {
       outcome: "Intergovernmental Dispute Resolution Timeliness",
-      metric: "Average days from intergovernmental dispute notification to resolution under IGRFA; share resolved without litigation; section 100/139 intervention duration",
+      metric:
+        "Average days from intergovernmental dispute notification to resolution under IGRFA; share resolved without litigation; section 100/139 intervention duration",
       dataSource: "COGTA, the Presidency, National Treasury",
     },
     {
       outcome: "SOE Financial Sustainability and Governance Scores",
-      metric: "Composite financial sustainability index (debt service coverage, operating margin), King IV governance compliance, going-concern status, guarantee exposure",
+      metric:
+        "Composite financial sustainability index (debt service coverage, operating margin), King IV governance compliance, going-concern status, guarantee exposure",
       dataSource: "National Treasury, Department of Public Enterprises, AGSA",
     },
     {
       outcome: "Political Party Funding Disclosure Compliance",
-      metric: "Party compliance rate with Political Party Funding Act disclosure obligations; share of donations disclosed relative to estimates; IEC enforcement actions",
-      dataSource: "Independent Electoral Commission (IEC) Political Party Funding Unit",
+      metric:
+        "Party compliance rate with Political Party Funding Act disclosure obligations; share of donations disclosed relative to estimates; IEC enforcement actions",
+      dataSource:
+        "Independent Electoral Commission (IEC) Political Party Funding Unit",
     },
     {
       outcome: "Legislative Cycle Time and Bill Throughput",
-      metric: "Average days from bill introduction to assent; bills passed per session; committee-stage backlog; pre-certification quality (Constitutional Court referrals)",
-      dataSource: "Parliament (National Assembly, NCOP), Office of the Chief State Law Adviser",
+      metric:
+        "Average days from bill introduction to assent; bills passed per session; committee-stage backlog; pre-certification quality (Constitutional Court referrals)",
+      dataSource:
+        "Parliament (National Assembly, NCOP), Office of the Chief State Law Adviser",
     },
     {
       outcome: "Public Participation Reach and Responsiveness",
-      metric: "Public participation events per major bill; share of submissions reflected in final bill text; ward-committee functionality rate",
-      dataSource: "Parliament Public Participation Unit, COGTA, ward committee assessments",
+      metric:
+        "Public participation events per major bill; share of submissions reflected in final bill text; ward-committee functionality rate",
+      dataSource:
+        "Parliament Public Participation Unit, COGTA, ward committee assessments",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Auditor-General Finding Implementation Rate",
-      metric: "Share of prior-year AG findings remediated within the next reporting cycle; share of repeat findings; share of consequence-management actions completed against officials responsible for irregular expenditure; rand value of Material Irregularities recovered",
-      dataSource: "Auditor-General South Africa (AGSA) general reports, AGSA Material Irregularity tracking, National Treasury consequence-management reports",
+      metric:
+        "Share of prior-year AG findings remediated within the next reporting cycle; share of repeat findings; share of consequence-management actions completed against officials responsible for irregular expenditure; rand value of Material Irregularities recovered",
+      dataSource:
+        "Auditor-General South Africa (AGSA) general reports, AGSA Material Irregularity tracking, National Treasury consequence-management reports",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Court Order Compliance by the State",
-      metric: "Share of Constitutional Court and High Court orders against organs of state complied with on time; outstanding contempt-of-court findings against state officials; rand value of state legal costs from non-compliance; share of socio-economic-rights judgments fully implemented",
-      dataSource: "Office of the Chief Justice, SAHRC court-order monitoring, SECTION27 / SERI litigation trackers, State Attorney annual reports",
+      metric:
+        "Share of Constitutional Court and High Court orders against organs of state complied with on time; outstanding contempt-of-court findings against state officials; rand value of state legal costs from non-compliance; share of socio-economic-rights judgments fully implemented",
+      dataSource:
+        "Office of the Chief Justice, SAHRC court-order monitoring, SECTION27 / SERI litigation trackers, State Attorney annual reports",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "State-Citizen Interface Service Quality",
-      metric: "Average queue time at Home Affairs offices; ID and passport turnaround times; SASSA grant first-payment turnaround; SAPS 10111 answer rate; municipal billing-query resolution time; e-service availability uptime",
-      dataSource: "Department of Home Affairs service-level reports, SASSA monthly performance, SAPS 10111 audit reports, COGTA municipal performance assessments, DPSA Service Delivery Improvement Plans",
+      metric:
+        "Average queue time at Home Affairs offices; ID and passport turnaround times; SASSA grant first-payment turnaround; SAPS 10111 answer rate; municipal billing-query resolution time; e-service availability uptime",
+      dataSource:
+        "Department of Home Affairs service-level reports, SASSA monthly performance, SAPS 10111 audit reports, COGTA municipal performance assessments, DPSA Service Delivery Improvement Plans",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Open Contracting and Tender Transparency",
-      metric: "Share of public tenders published in machine-readable Open Contracting Data Standard (OCDS) format; share of awarded contracts disclosing beneficial ownership; supplier concentration (HHI of awards by spend); share of contracts with cost-overrun above 10%",
-      dataSource: "National Treasury eTender Portal, Open Contracting Partnership SA reports, Public Procurement Office, Corruption Watch tender-monitoring",
+      metric:
+        "Share of public tenders published in machine-readable Open Contracting Data Standard (OCDS) format; share of awarded contracts disclosing beneficial ownership; supplier concentration (HHI of awards by spend); share of contracts with cost-overrun above 10%",
+      dataSource:
+        "National Treasury eTender Portal, Open Contracting Partnership SA reports, Public Procurement Office, Corruption Watch tender-monitoring",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Whistleblower Protection Effectiveness",
-      metric: "Reported whistleblower retaliation incidents; share of whistleblowers receiving formal protection under the Protected Disclosures Act; conviction rate in cases originating from whistleblower disclosures; financial recovery linked to whistleblower-originated cases",
-      dataSource: "Public Service Commission whistleblower reports, Public Protector annual reports, Corruption Watch whistleblower hotline data, NPA case-origination statistics",
+      metric:
+        "Reported whistleblower retaliation incidents; share of whistleblowers receiving formal protection under the Protected Disclosures Act; conviction rate in cases originating from whistleblower disclosures; financial recovery linked to whistleblower-originated cases",
+      dataSource:
+        "Public Service Commission whistleblower reports, Public Protector annual reports, Corruption Watch whistleblower hotline data, NPA case-origination statistics",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Service Delivery Protest Incidence",
-      metric: "Recorded service-delivery protests per municipality per year; protests classified as violent vs peaceful; protest-incident-to-resolution time; share of protests citing water, electricity, housing, or sanitation grievances",
-      dataSource: "Municipal IQ Hotspots Monitor, ISS African Futures, SAPS Public Order Policing data, Civic Protest Barometer (University of Johannesburg)",
+      metric:
+        "Recorded service-delivery protests per municipality per year; protests classified as violent vs peaceful; protest-incident-to-resolution time; share of protests citing water, electricity, housing, or sanitation grievances",
+      dataSource:
+        "Municipal IQ Hotspots Monitor, ISS African Futures, SAPS Public Order Policing data, Civic Protest Barometer (University of Johannesburg)",
     },
   ],
   "economic-growth": [
     {
       outcome: "GDP Growth Rate (Real, Annual)",
-      metric: "Annual real GDP growth (%); per-capita real GDP growth; sectoral contributions to growth",
+      metric:
+        "Annual real GDP growth (%); per-capita real GDP growth; sectoral contributions to growth",
       dataSource: "Stats SA quarterly GDP releases, SARB Quarterly Bulletin",
     },
     {
       outcome: "Fixed Investment as Percentage of GDP",
-      metric: "Gross fixed capital formation / GDP (%); private vs public split; investment in productive (non-residential) sectors",
+      metric:
+        "Gross fixed capital formation / GDP (%); private vs public split; investment in productive (non-residential) sectors",
       dataSource: "SARB Quarterly Bulletin, Stats SA national accounts",
     },
     {
       outcome: "Current Account Balance and Income Account Sustainability",
-      metric: "Current account balance as % of GDP; trade balance vs primary income account decomposition; net interest, dividend, and investment-income outflows as % of GDP; share of current account deficit financed by debt vs equity",
-      dataSource: "SARB Quarterly Bulletin (Balance of Payments), Stats SA Trade Statistics, National Treasury Budget Review",
+      metric:
+        "Current account balance as % of GDP; trade balance vs primary income account decomposition; net interest, dividend, and investment-income outflows as % of GDP; share of current account deficit financed by debt vs equity",
+      dataSource:
+        "SARB Quarterly Bulletin (Balance of Payments), Stats SA Trade Statistics, National Treasury Budget Review",
     },
     {
       outcome: "Capital Inflow Quality (FDI vs Portfolio Composition)",
-      metric: "Net FDI inflows as % of GDP; FDI share of total capital inflows; greenfield vs brownfield FDI split; portfolio inflow volatility; reinvested earnings retention",
-      dataSource: "SARB Quarterly Bulletin (Financial Account), UNCTAD World Investment Report, DTIC Investment Promotion data",
+      metric:
+        "Net FDI inflows as % of GDP; FDI share of total capital inflows; greenfield vs brownfield FDI split; portfolio inflow volatility; reinvested earnings retention",
+      dataSource:
+        "SARB Quarterly Bulletin (Financial Account), UNCTAD World Investment Report, DTIC Investment Promotion data",
     },
     {
       outcome: "External Vulnerability (Reserves and External Debt)",
-      metric: "Net International Investment Position (% of GDP); gross external debt as % of GDP; gross foreign reserves in months of import cover; reserves-to-short-term-external-debt ratio; sovereign credit ratings",
-      dataSource: "SARB Quarterly Bulletin, IMF External Sector Report, sovereign credit ratings (S&P, Moody's, Fitch)",
+      metric:
+        "Net International Investment Position (% of GDP); gross external debt as % of GDP; gross foreign reserves in months of import cover; reserves-to-short-term-external-debt ratio; sovereign credit ratings",
+      dataSource:
+        "SARB Quarterly Bulletin, IMF External Sector Report, sovereign credit ratings (S&P, Moody's, Fitch)",
     },
     {
       outcome: "Business Entry Rate and Regulatory Burden",
-      metric: "New business registrations per 1,000 working-age adults; median time and cost to register; regulatory cost as % of GNI per capita",
-      dataSource: "CIPC business registration data, Stats SA business demography, World Bank B-READY survey",
+      metric:
+        "New business registrations per 1,000 working-age adults; median time and cost to register; regulatory cost as % of GNI per capita",
+      dataSource:
+        "CIPC business registration data, Stats SA business demography, World Bank B-READY survey",
     },
     {
       outcome: "Formal Employment Creation (Net New Jobs Per Quarter)",
-      metric: "Net change in formal sector employment; employment-to-population ratio; absorption rate (employment growth ÷ working-age population growth)",
-      dataSource: "Stats SA Quarterly Labour Force Survey (QLFS), Quarterly Employment Statistics",
+      metric:
+        "Net change in formal sector employment; employment-to-population ratio; absorption rate (employment growth ÷ working-age population growth)",
+      dataSource:
+        "Stats SA Quarterly Labour Force Survey (QLFS), Quarterly Employment Statistics",
     },
     {
       outcome: "SMME Survival and Scale-Up Rates",
-      metric: "Five-year SMME survival rate; net firm formation rate; share of SMMEs reaching scale (>10 employees)",
-      dataSource: "Stats SA business demography, CIPC, SARS small business tax returns",
+      metric:
+        "Five-year SMME survival rate; net firm formation rate; share of SMMEs reaching scale (>10 employees)",
+      dataSource:
+        "Stats SA business demography, CIPC, SARS small business tax returns",
     },
     {
       outcome: "Electricity Supply Reliability and Generation Adequacy",
-      metric: "Hours of load-shedding per year by stage; reserve margin (%); Energy Availability Factor of installed fleet",
-      dataSource: "Eskom System Operator daily reports, NERSA, CSIR Energy Centre statistics",
+      metric:
+        "Hours of load-shedding per year by stage; reserve margin (%); Energy Availability Factor of installed fleet",
+      dataSource:
+        "Eskom System Operator daily reports, NERSA, CSIR Energy Centre statistics",
     },
     {
       outcome: "Freight Throughput and Port Turnaround Time",
-      metric: "Tonnes moved by rail vs road; container vessel turnaround time at Durban, Cape Town and Ngqura; truck staging time",
-      dataSource: "Transnet quarterly performance reports, Ports Regulator of South Africa, World Bank Container Port Performance Index",
+      metric:
+        "Tonnes moved by rail vs road; container vessel turnaround time at Durban, Cape Town and Ngqura; truck staging time",
+      dataSource:
+        "Transnet quarterly performance reports, Ports Regulator of South Africa, World Bank Container Port Performance Index",
     },
     {
       outcome: "Broadband Access and Affordability",
-      metric: "Households with fixed/mobile broadband (%); average download speed; cost of 1GB mobile data as % of average monthly income",
-      dataSource: "ICASA State of ICT Report, Stats SA General Household Survey, Research ICT Africa",
+      metric:
+        "Households with fixed/mobile broadband (%); average download speed; cost of 1GB mobile data as % of average monthly income",
+      dataSource:
+        "ICASA State of ICT Report, Stats SA General Household Survey, Research ICT Africa",
     },
     {
       outcome: "Export Diversification Index",
-      metric: "Herfindahl-Hirschman concentration index of exports; share of manufactured exports in total; number of products exceeding $100m export value",
-      dataSource: "SARS Customs trade data, DTIC export statistics, UN Comtrade",
+      metric:
+        "Herfindahl-Hirschman concentration index of exports; share of manufactured exports in total; number of products exceeding $100m export value",
+      dataSource:
+        "SARS Customs trade data, DTIC export statistics, UN Comtrade",
     },
     {
       outcome: "Economic Complexity Index (ECI)",
-      metric: "ECI score and global rank (Harvard Growth Lab); product complexity index of top exports; number of products with revealed comparative advantage (RCA > 1); diversification of productive knowledge",
-      dataSource: "Harvard Growth Lab Atlas of Economic Complexity, MIT Observatory of Economic Complexity, SARS Customs trade data, DTIC industrial policy reports",
+      metric:
+        "ECI score and global rank (Harvard Growth Lab); product complexity index of top exports; number of products with revealed comparative advantage (RCA > 1); diversification of productive knowledge",
+      dataSource:
+        "Harvard Growth Lab Atlas of Economic Complexity, MIT Observatory of Economic Complexity, SARS Customs trade data, DTIC industrial policy reports",
     },
     {
       outcome: "R&D Intensity (Gross Expenditure on R&D as % of GDP)",
-      metric: "GERD as % of GDP (NDP target: 1.5%); business-sector R&D as share of total; researcher headcount per 1,000 employed; PhD graduates in STEM per million population",
-      dataSource: "HSRC National R&D Survey (CeSTII), DSI Annual Performance Report, Stats SA, OECD Main Science and Technology Indicators",
+      metric:
+        "GERD as % of GDP (NDP target: 1.5%); business-sector R&D as share of total; researcher headcount per 1,000 employed; PhD graduates in STEM per million population",
+      dataSource:
+        "HSRC National R&D Survey (CeSTII), DSI Annual Performance Report, Stats SA, OECD Main Science and Technology Indicators",
     },
     {
       outcome: "Innovation Output: Patents and Innovation-driven Firms",
-      metric: "Patent applications and grants per million population (resident filers); WIPO PCT international filings; new innovation-driven enterprises (IDEs) registered; venture-capital funding deployed (R-billion per year); tech-cluster employment growth",
-      dataSource: "CIPC patent register, WIPO IP Statistics Data Centre, SAVCA Venture Capital Survey, DSI Innovation Survey, Endeavor Insight ecosystem mapping",
+      metric:
+        "Patent applications and grants per million population (resident filers); WIPO PCT international filings; new innovation-driven enterprises (IDEs) registered; venture-capital funding deployed (R-billion per year); tech-cluster employment growth",
+      dataSource:
+        "CIPC patent register, WIPO IP Statistics Data Centre, SAVCA Venture Capital Survey, DSI Innovation Survey, Endeavor Insight ecosystem mapping",
     },
     {
       outcome: "Youth Unemployment Rate Reduction",
-      metric: "Expanded youth (15–34) unemployment rate; youth absorption rate; share of youth unemployed for >1 year (long-term unemployed)",
+      metric:
+        "Expanded youth (15–34) unemployment rate; youth absorption rate; share of youth unemployed for >1 year (long-term unemployed)",
       dataSource: "Stats SA Quarterly Labour Force Survey (QLFS)",
     },
     {
       outcome: "Special Economic Zone Realised Investment and Job Outputs",
-      metric: "Realised (not committed) investment in SEZs; permanent jobs created in SEZs; SEZ exports as share of national exports",
-      dataSource: "DTIC SEZ Programme reports, individual SEZ operating-company annual reports",
+      metric:
+        "Realised (not committed) investment in SEZs; permanent jobs created in SEZs; SEZ exports as share of national exports",
+      dataSource:
+        "DTIC SEZ Programme reports, individual SEZ operating-company annual reports",
     },
     {
       outcome: "Private Sector Confidence Index",
-      metric: "BER Business Confidence Index; RMB/BER Investor Confidence Index; SACCI Trade Conditions Survey trends",
+      metric:
+        "BER Business Confidence Index; RMB/BER Investor Confidence Index; SACCI Trade Conditions Survey trends",
       dataSource: "Bureau for Economic Research (Stellenbosch), RMB, SACCI",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Domestic Savings vs Investment Gap",
-      metric: "Gross domestic savings as % of GDP; gross fixed capital formation as % of GDP; savings-investment gap (current account counterpart); share of investment financed by foreign savings; corporate, household, and government savings decomposition",
-      dataSource: "SARB Quarterly Bulletin, Stats SA national accounts, IMF Article IV staff reports, World Bank World Development Indicators",
+      metric:
+        "Gross domestic savings as % of GDP; gross fixed capital formation as % of GDP; savings-investment gap (current account counterpart); share of investment financed by foreign savings; corporate, household, and government savings decomposition",
+      dataSource:
+        "SARB Quarterly Bulletin, Stats SA national accounts, IMF Article IV staff reports, World Bank World Development Indicators",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "State-Owned Enterprise Macro-Fiscal Drag",
-      metric: "Cumulative bailouts and equity injections to major SOEs as % of GDP; outstanding government guarantees to SOEs as % of GDP; SOE arrears to suppliers; SOE contribution (or detraction) from annual GDP growth",
-      dataSource: "National Treasury Budget Review and MTBPS, AGSA SOE audit reports, Department of Public Enterprises Annual Performance Plan, IMF Article IV staff reports",
+      metric:
+        "Cumulative bailouts and equity injections to major SOEs as % of GDP; outstanding government guarantees to SOEs as % of GDP; SOE arrears to suppliers; SOE contribution (or detraction) from annual GDP growth",
+      dataSource:
+        "National Treasury Budget Review and MTBPS, AGSA SOE audit reports, Department of Public Enterprises Annual Performance Plan, IMF Article IV staff reports",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Energy and Water Intensity of Output",
-      metric: "Primary energy use per rand of real GDP (kWh/R); freshwater withdrawn per rand of real GDP (litres/R); decoupling rate (year-on-year change in energy and water intensity); water-stress index in major economic catchments",
-      dataSource: "Stats SA Environmental Economic Accounts, DMRE Energy Balances, DWS National Water Resource Strategy, CSIR Energy Centre, Eskom System Operator",
+      metric:
+        "Primary energy use per rand of real GDP (kWh/R); freshwater withdrawn per rand of real GDP (litres/R); decoupling rate (year-on-year change in energy and water intensity); water-stress index in major economic catchments",
+      dataSource:
+        "Stats SA Environmental Economic Accounts, DMRE Energy Balances, DWS National Water Resource Strategy, CSIR Energy Centre, Eskom System Operator",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Market Concentration in Strategic Sectors",
-      metric: "Herfindahl-Hirschman Index in 8–10 strategic sectors (banking, retail food, telecoms, fuel, fertiliser, healthcare, cement, steel); share of sectors with single-firm dominance >40%; Competition Commission market-inquiry findings; merger filings and prohibitions",
-      dataSource: "Competition Commission market inquiries and annual reports, DTIC Industrial Policy Action Plan reviews, DPME Socio-Economic Impact Assessments",
+      metric:
+        "Herfindahl-Hirschman Index in 8–10 strategic sectors (banking, retail food, telecoms, fuel, fertiliser, healthcare, cement, steel); share of sectors with single-firm dominance >40%; Competition Commission market-inquiry findings; merger filings and prohibitions",
+      dataSource:
+        "Competition Commission market inquiries and annual reports, DTIC Industrial Policy Action Plan reviews, DPME Socio-Economic Impact Assessments",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Informal Sector Size, Productivity, and Linkages",
-      metric: "Informal-sector employment share of total employment; informal-sector contribution to GDP; informal-formal value-chain linkages; spaza-shop and street-trader registration and turnover; informal-sector earnings premium relative to social grants",
-      dataSource: "Stats SA QLFS (informal-sector module), Stats SA Survey of Employers and Self-Employed (SESE), SARS small-business returns, REDI3x3 research, World Bank informality assessments",
+      metric:
+        "Informal-sector employment share of total employment; informal-sector contribution to GDP; informal-formal value-chain linkages; spaza-shop and street-trader registration and turnover; informal-sector earnings premium relative to social grants",
+      dataSource:
+        "Stats SA QLFS (informal-sector module), Stats SA Survey of Employers and Self-Employed (SESE), SARS small-business returns, REDI3x3 research, World Bank informality assessments",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Female Labour Force Participation Rate",
-      metric: "Female labour-force participation rate (15–64); gender participation gap; share of women in vulnerable employment; female share of senior management and executive positions; gender wage gap (median male vs female earnings)",
-      dataSource: "Stats SA QLFS, Stats SA Gender Series reports, Commission for Employment Equity Annual Reports, ILO Stat",
+      metric:
+        "Female labour-force participation rate (15–64); gender participation gap; share of women in vulnerable employment; female share of senior management and executive positions; gender wage gap (median male vs female earnings)",
+      dataSource:
+        "Stats SA QLFS, Stats SA Gender Series reports, Commission for Employment Equity Annual Reports, ILO Stat",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Manufacturing Share of GDP and Industrial Depth",
-      metric: "Manufacturing value-added as % of GDP; manufacturing employment share; capacity utilisation in manufacturing; medium-and-high-tech manufacturing share of total manufacturing exports; share of capital goods produced domestically",
-      dataSource: "Stats SA Manufacturing Statistics, SARB Quarterly Bulletin, DTIC Industrial Policy Action Plan, UNIDO Competitive Industrial Performance (CIP) Index",
+      metric:
+        "Manufacturing value-added as % of GDP; manufacturing employment share; capacity utilisation in manufacturing; medium-and-high-tech manufacturing share of total manufacturing exports; share of capital goods produced domestically",
+      dataSource:
+        "Stats SA Manufacturing Statistics, SARB Quarterly Bulletin, DTIC Industrial Policy Action Plan, UNIDO Competitive Industrial Performance (CIP) Index",
     },
   ],
   "human-development": [
     {
       category: "Population Health Metrics",
       outcome: "Life Expectancy at Birth",
-      metric: "Life expectancy at birth (male and female); healthy life expectancy",
-      dataSource: "Stats SA mid-year population estimates, Thembisa Model, MRC Burden of Disease Research Unit",
+      metric:
+        "Life expectancy at birth (male and female); healthy life expectancy",
+      dataSource:
+        "Stats SA mid-year population estimates, Thembisa Model, MRC Burden of Disease Research Unit",
     },
     {
       category: "Population Health Metrics",
       outcome: "Maternal Mortality Ratio",
-      metric: "Deaths per 100,000 live births; institutional vs community deaths; cause-of-death breakdown",
-      dataSource: "NDOH National Committee on Confidential Enquiries into Maternal Deaths (NCCEMD), Stats SA causes of death",
+      metric:
+        "Deaths per 100,000 live births; institutional vs community deaths; cause-of-death breakdown",
+      dataSource:
+        "NDOH National Committee on Confidential Enquiries into Maternal Deaths (NCCEMD), Stats SA causes of death",
     },
     {
       category: "Population Health Metrics",
       outcome: "Under-Five Mortality Rate",
-      metric: "Deaths per 1,000 live births before age five; neonatal and infant mortality components",
-      dataSource: "Stats SA Demographic and Health Survey, Rapid Mortality Surveillance, NDOH District Health Information System",
+      metric:
+        "Deaths per 1,000 live births before age five; neonatal and infant mortality components",
+      dataSource:
+        "Stats SA Demographic and Health Survey, Rapid Mortality Surveillance, NDOH District Health Information System",
     },
     {
       category: "Population Health Metrics",
       outcome: "Stunting Prevalence in Children Under Five",
-      metric: "% of children under five with height-for-age below -2 SD; severe stunting (<-3 SD); exclusive breastfeeding coverage",
-      dataSource: "Stats SA SADHS, NDOH District Health Information System, MRC Child Health surveillance",
+      metric:
+        "% of children under five with height-for-age below -2 SD; severe stunting (<-3 SD); exclusive breastfeeding coverage",
+      dataSource:
+        "Stats SA SADHS, NDOH District Health Information System, MRC Child Health surveillance",
     },
     {
       category: "Population Health Metrics",
       outcome: "HIV Treatment Cascade Completion Rate",
-      metric: "UNAIDS 95-95-95 progression: % diagnosed, % on ART, % virally suppressed",
-      dataSource: "Thembisa Model, NDOH HIV programme reports, SANAC monitoring framework",
+      metric:
+        "UNAIDS 95-95-95 progression: % diagnosed, % on ART, % virally suppressed",
+      dataSource:
+        "Thembisa Model, NDOH HIV programme reports, SANAC monitoring framework",
     },
     {
       category: "Population Health Metrics",
       outcome: "TB Case Detection and Treatment Success Rate",
-      metric: "TB case-detection rate; treatment success rate; MDR-TB cure rate; TB-HIV co-infection treatment coverage",
+      metric:
+        "TB case-detection rate; treatment success rate; MDR-TB cure rate; TB-HIV co-infection treatment coverage",
       dataSource: "WHO Global TB Report, NDOH TB programme, NICD surveillance",
     },
     {
       category: "Population Health Metrics",
       outcome: "Water and Sanitation Service Reliability",
-      metric: "% of households with reliable piped water access; Blue Drop and Green Drop scores; days per year of supply interruption",
-      dataSource: "DWS Blue Drop / Green Drop / No Drop reports, Stats SA General Household Survey, COGTA municipal performance",
+      metric:
+        "% of households with reliable piped water access; Blue Drop and Green Drop scores; days per year of supply interruption",
+      dataSource:
+        "DWS Blue Drop / Green Drop / No Drop reports, Stats SA General Household Survey, COGTA municipal performance",
     },
     {
       category: "Educational Attainment and Skills Development Metrics",
       outcome: "ECD Programme Access and Quality Compliance",
-      metric: "% of children 0–4 in registered ECD programmes; % of ECD centres meeting registration norms; share of poorest quintile reached",
-      dataSource: "Department of Basic Education ECD census, Stats SA General Household Survey, Ilifa Labantwana Thrive by Five Index",
+      metric:
+        "% of children 0–4 in registered ECD programmes; % of ECD centres meeting registration norms; share of poorest quintile reached",
+      dataSource:
+        "Department of Basic Education ECD census, Stats SA General Household Survey, Ilifa Labantwana Thrive by Five Index",
     },
     {
       category: "Educational Attainment and Skills Development Metrics",
       outcome: "Grade 4 Reading Proficiency Rate",
-      metric: "% of Grade 4 learners reading for meaning at PIRLS benchmark; home-language reading proficiency",
-      dataSource: "Progress in International Reading Literacy Study (PIRLS), DBE Systemic Evaluation",
+      metric:
+        "% of Grade 4 learners reading for meaning at PIRLS benchmark; home-language reading proficiency",
+      dataSource:
+        "Progress in International Reading Literacy Study (PIRLS), DBE Systemic Evaluation",
     },
     {
       category: "Educational Attainment and Skills Development Metrics",
       outcome: "Matric Pass Rate and Bachelor Eligibility Rate",
-      metric: "Matric pass rate; Bachelor's pass rate; true cohort pass rate (excluding learners who dropped out before Grade 12)",
-      dataSource: "Department of Basic Education (DBE) NSC results, Umalusi quality assurance reports",
+      metric:
+        "Matric pass rate; Bachelor's pass rate; true cohort pass rate (excluding learners who dropped out before Grade 12)",
+      dataSource:
+        "Department of Basic Education (DBE) NSC results, Umalusi quality assurance reports",
     },
     {
       category: "Educational Attainment and Skills Development Metrics",
       outcome: "NEET Rate (Youth Not in Education, Employment, or Training)",
-      metric: "% of 15–24 year-olds NEET; % of 15–34 year-olds NEET; gender breakdown",
-      dataSource: "Stats SA Quarterly Labour Force Survey (QLFS), General Household Survey",
+      metric:
+        "% of 15–24 year-olds NEET; % of 15–34 year-olds NEET; gender breakdown",
+      dataSource:
+        "Stats SA Quarterly Labour Force Survey (QLFS), General Household Survey",
     },
     {
       category: "Educational Attainment and Skills Development Metrics",
       outcome: "TVET and Artisan Qualification Completion Rates",
-      metric: "TVET certification completion rate; artisan trade test pass rate; placement rate within 12 months of qualification",
-      dataSource: "DHET Statistics on Post-School Education and Training, NAMB artisan data, SETA annual reports",
+      metric:
+        "TVET certification completion rate; artisan trade test pass rate; placement rate within 12 months of qualification",
+      dataSource:
+        "DHET Statistics on Post-School Education and Training, NAMB artisan data, SETA annual reports",
     },
     {
       category: "Income and Wealth Generation Metrics",
       outcome: "Median Real Household Income",
-      metric: "Median household income at constant prices; year-on-year real growth by quintile; share of households earning above the working-age living wage; PIT-declared taxable income distribution by bracket",
-      dataSource: "Stats SA Living Conditions Survey, Income and Expenditure Survey, General Household Survey, SARS / National Treasury Tax Statistics Bulletin (PIT registered taxpayer data), SARB Quarterly Bulletin",
+      metric:
+        "Median household income at constant prices; year-on-year real growth by quintile; share of households earning above the working-age living wage; PIT-declared taxable income distribution by bracket",
+      dataSource:
+        "Stats SA Living Conditions Survey, Income and Expenditure Survey, General Household Survey, SARS / National Treasury Tax Statistics Bulletin (PIT registered taxpayer data), SARB Quarterly Bulletin",
     },
     {
       category: "Income and Wealth Generation Metrics",
       outcome: "Real Wage Growth and Living Wage Coverage",
-      metric: "Real wage growth (mean and median) by earnings quintile; share of formal-sector workers earning above the National Minimum Wage and living-wage thresholds; gender and racial pay gap trends",
-      dataSource: "Stats SA QLFS Earnings Data, SARS IRP5/IT3(a) employer-declared remuneration data (Tax Statistics Bulletin), SARB Labour Market Bulletin, National Minimum Wage Commission annual report",
+      metric:
+        "Real wage growth (mean and median) by earnings quintile; share of formal-sector workers earning above the National Minimum Wage and living-wage thresholds; gender and racial pay gap trends",
+      dataSource:
+        "Stats SA QLFS Earnings Data, SARS IRP5/IT3(a) employer-declared remuneration data (Tax Statistics Bulletin), SARB Labour Market Bulletin, National Minimum Wage Commission annual report",
     },
     {
       category: "Income and Wealth Generation Metrics",
       outcome: "Household Net Worth and Long-Term Savings",
-      metric: "Real household net worth per capita; debt-to-disposable-income ratio; gross household savings rate (% of disposable income); share of working-age adults with retirement provision; CGT-declared capital gains and dividend tax base",
-      dataSource: "SARB Household Balance Sheet, SARS Tax Statistics (CGT, dividends tax, retirement-contribution deductions), FinScope Consumer Survey, FSCA, Association for Savings and Investment SA (ASISA), NCR credit market reports",
+      metric:
+        "Real household net worth per capita; debt-to-disposable-income ratio; gross household savings rate (% of disposable income); share of working-age adults with retirement provision; CGT-declared capital gains and dividend tax base",
+      dataSource:
+        "SARB Household Balance Sheet, SARS Tax Statistics (CGT, dividends tax, retirement-contribution deductions), FinScope Consumer Survey, FSCA, Association for Savings and Investment SA (ASISA), NCR credit market reports",
     },
     {
       category: "Income and Wealth Generation Metrics",
       outcome: "Homeownership and Title Deed Coverage",
-      metric: "Owner-occupier rate (overall and bottom 40%); share of RDP and subsidised housing units with formal title deeds issued; backlog of un-issued title deeds; transfer duty filings as a proxy for property transaction volumes",
-      dataSource: "Stats SA General Household Survey, Deeds Office statistics, SARS Transfer Duty data, Department of Human Settlements reports, HDA backlog assessments",
+      metric:
+        "Owner-occupier rate (overall and bottom 40%); share of RDP and subsidised housing units with formal title deeds issued; backlog of un-issued title deeds; transfer duty filings as a proxy for property transaction volumes",
+      dataSource:
+        "Stats SA General Household Survey, Deeds Office statistics, SARS Transfer Duty data, Department of Human Settlements reports, HDA backlog assessments",
     },
     {
       category: "Income and Wealth Generation Metrics",
       outcome: "Income Inequality (Gini Coefficient)",
-      metric: "Gini coefficient on disposable (post-tax-and-transfer) income; Palma ratio; income share of bottom 40% vs top 10%; top-end concentration measured via PIT data (top 1% and top 0.1% income share)",
-      dataSource: "Stats SA Living Conditions Survey, Income and Expenditure Survey, NIDS, SARS Tax Statistics Bulletin (top-end PIT distribution), World Inequality Database",
+      metric:
+        "Gini coefficient on disposable (post-tax-and-transfer) income; Palma ratio; income share of bottom 40% vs top 10%; top-end concentration measured via PIT data (top 1% and top 0.1% income share)",
+      dataSource:
+        "Stats SA Living Conditions Survey, Income and Expenditure Survey, NIDS, SARS Tax Statistics Bulletin (top-end PIT distribution), World Inequality Database",
     },
     {
       category: "Income and Wealth Generation Metrics",
       outcome: "Poverty Headcount and Depth",
-      metric: "% of population below upper-bound poverty line (UBPL); poverty gap index; child poverty rate; share of population below food poverty line",
-      dataSource: "Stats SA Living Conditions Survey, General Household Survey, NIDS-CRAM panel data",
+      metric:
+        "% of population below upper-bound poverty line (UBPL); poverty gap index; child poverty rate; share of population below food poverty line",
+      dataSource:
+        "Stats SA Living Conditions Survey, General Household Survey, NIDS-CRAM panel data",
     },
     {
       category: "Income and Wealth Generation Metrics",
       outcome: "Household Food Security",
-      metric: "% of households reporting hunger (GHS); % of children in food-insecure households; dietary diversity score",
-      dataSource: "Stats SA General Household Survey, NIDS-CRAM, NDOH National Food Consumption Survey",
+      metric:
+        "% of households reporting hunger (GHS); % of children in food-insecure households; dietary diversity score",
+      dataSource:
+        "Stats SA General Household Survey, NIDS-CRAM, NDOH National Food Consumption Survey",
     },
     {
       category: "Income and Wealth Generation Metrics",
       outcome: "Social Grant Adequacy and Beneficiary Reach",
-      metric: "% of eligible population receiving grants; child support grant value relative to food poverty line; uptake among eligible children",
-      dataSource: "SASSA monthly reports, Stats SA General Household Survey, National Treasury Social Development Vote",
+      metric:
+        "% of eligible population receiving grants; child support grant value relative to food poverty line; uptake among eligible children",
+      dataSource:
+        "SASSA monthly reports, Stats SA General Household Survey, National Treasury Social Development Vote",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Mental Health Burden and Service Coverage",
-      metric: "Suicide rate per 100,000 (gender-disaggregated); DALYs lost to depression and anxiety; treatment-gap (% of people with mental-health conditions accessing care); psychiatric beds per 100,000; school-based mental-health screening coverage",
-      dataSource: "MRC Burden of Disease Research Unit, SADAG service-utilisation data, NDOH Mental Health Policy Framework reviews, WHO Mental Health Atlas, Stats SA causes of death",
+      metric:
+        "Suicide rate per 100,000 (gender-disaggregated); DALYs lost to depression and anxiety; treatment-gap (% of people with mental-health conditions accessing care); psychiatric beds per 100,000; school-based mental-health screening coverage",
+      dataSource:
+        "MRC Burden of Disease Research Unit, SADAG service-utilisation data, NDOH Mental Health Policy Framework reviews, WHO Mental Health Atlas, Stats SA causes of death",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Time Poverty and Unpaid Care Burden",
-      metric: "Average minutes per day spent on unpaid domestic and care work (gender-disaggregated); paid-to-unpaid-work ratio; share of working-age women whose paid work is constrained by care responsibilities; commute time as a share of waking hours",
-      dataSource: "Stats SA Time Use Survey, NIDS-CRAM care-work modules, OECD Time Use Database, ILO Care Economy reports",
+      metric:
+        "Average minutes per day spent on unpaid domestic and care work (gender-disaggregated); paid-to-unpaid-work ratio; share of working-age women whose paid work is constrained by care responsibilities; commute time as a share of waking hours",
+      dataSource:
+        "Stats SA Time Use Survey, NIDS-CRAM care-work modules, OECD Time Use Database, ILO Care Economy reports",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Spatial Inequality and Commute Burden",
-      metric: "Average township-to-economic-node travel time (minutes, one-way); commute cost as % of monthly income for bottom 40%; share of workers spending >2 hours per day commuting; jobs accessible within a 60-minute public-transport catchment",
-      dataSource: "Stats SA National Household Travel Survey, Stats SA General Household Survey transport module, HSRC spatial inequality research, World Bank urbanisation reviews",
+      metric:
+        "Average township-to-economic-node travel time (minutes, one-way); commute cost as % of monthly income for bottom 40%; share of workers spending >2 hours per day commuting; jobs accessible within a 60-minute public-transport catchment",
+      dataSource:
+        "Stats SA National Household Travel Survey, Stats SA General Household Survey transport module, HSRC spatial inequality research, World Bank urbanisation reviews",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Adolescent Pregnancy Rate",
-      metric: "Births to mothers aged 10–14 per 1,000; births to mothers aged 15–19 per 1,000; share of school dropouts citing pregnancy; contraceptive-prevalence rate among sexually active adolescents",
-      dataSource: "DBE Learner Pregnancy Reports, Stats SA SADHS, NDOH District Health Information System, Stats SA recorded live births",
+      metric:
+        "Births to mothers aged 10–14 per 1,000; births to mothers aged 15–19 per 1,000; share of school dropouts citing pregnancy; contraceptive-prevalence rate among sexually active adolescents",
+      dataSource:
+        "DBE Learner Pregnancy Reports, Stats SA SADHS, NDOH District Health Information System, Stats SA recorded live births",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Digital Inclusion and Foundational Digital Skills",
-      metric: "% of adults with foundational digital skills (ITU framework); smartphone ownership in bottom 40% income decile; share of public schools with functional computer labs and connectivity; share of public-service applications usable on low-bandwidth feature phones",
-      dataSource: "ICASA State of ICT Report, Research ICT Africa After Access surveys, DBE School Realities, Stats SA General Household Survey ICT module",
+      metric:
+        "% of adults with foundational digital skills (ITU framework); smartphone ownership in bottom 40% income decile; share of public schools with functional computer labs and connectivity; share of public-service applications usable on low-bandwidth feature phones",
+      dataSource:
+        "ICASA State of ICT Report, Research ICT Africa After Access surveys, DBE School Realities, Stats SA General Household Survey ICT module",
     },
     {
       category: "Supplementary Diagnostic Metrics",
       outcome: "Subjective Wellbeing and Life Satisfaction",
-      metric: "Life-satisfaction score (Cantril ladder, 0–10); share reporting positive affect in past day; share reporting financial stress; trust-in-others index; perceived freedom-to-make-life-choices score",
-      dataSource: "HSRC South African Social Attitudes Survey (SASAS), Gallup World Poll / World Happiness Report, Afrobarometer South Africa",
+      metric:
+        "Life-satisfaction score (Cantril ladder, 0–10); share reporting positive affect in past day; share reporting financial stress; trust-in-others index; perceived freedom-to-make-life-choices score",
+      dataSource:
+        "HSRC South African Social Attitudes Survey (SASAS), Gallup World Poll / World Happiness Report, Afrobarometer South Africa",
     },
   ],
 };
@@ -2056,11 +2569,46 @@ export const reinforcingCycleScorecard: CycleScorecardLink[] = [
     description:
       "Whether the safety reforms are creating the security conditions that investors, businesses, and infrastructure operators need to commit capital and create employment.",
     indicators: [
-      { indicator: "Homicide rate per 100,000", source: "SAPS crime statistics", threshold: "Below 30 (from ~45)", latest: "~45", latestPeriod: "2023/24", trend: "worsening" },
-      { indicator: "Business crime victimisation rate", source: "Stats SA Victims of Crime Survey", threshold: "Below 10% (from ~22%)", latest: "~22%", latestPeriod: "2022/23", trend: "stalled" },
-      { indicator: "Infrastructure theft losses (Eskom, Transnet, Telkom)", source: "SOE annual reports", threshold: "Below R3 billion (from ~R7 billion)", latest: "~R7bn", latestPeriod: "2023/24", trend: "worsening" },
-      { indicator: "FDI inflows as % of GDP", source: "SARB quarterly bulletin", threshold: "Above 2% (from ~1.3%)", latest: "~1.3%", latestPeriod: "2024", trend: "stalled" },
-      { indicator: "Small business formation rate", source: "CIPC registrations / Stats SA QLFS", threshold: "Sustained year-on-year increase (from decline)", latest: "Declining", latestPeriod: "2023/24", trend: "worsening" },
+      {
+        indicator: "Homicide rate per 100,000",
+        source: "SAPS crime statistics",
+        threshold: "Below 30 (from ~45)",
+        latest: "~45",
+        latestPeriod: "2023/24",
+        trend: "worsening",
+      },
+      {
+        indicator: "Business crime victimisation rate",
+        source: "Stats SA Victims of Crime Survey",
+        threshold: "Below 10% (from ~22%)",
+        latest: "~22%",
+        latestPeriod: "2022/23",
+        trend: "stalled",
+      },
+      {
+        indicator: "Infrastructure theft losses (Eskom, Transnet, Telkom)",
+        source: "SOE annual reports",
+        threshold: "Below R3 billion (from ~R7 billion)",
+        latest: "~R7bn",
+        latestPeriod: "2023/24",
+        trend: "worsening",
+      },
+      {
+        indicator: "FDI inflows as % of GDP",
+        source: "SARB quarterly bulletin",
+        threshold: "Above 2% (from ~1.3%)",
+        latest: "~1.3%",
+        latestPeriod: "2024",
+        trend: "stalled",
+      },
+      {
+        indicator: "Small business formation rate",
+        source: "CIPC registrations / Stats SA QLFS",
+        threshold: "Sustained year-on-year increase (from decline)",
+        latest: "Declining",
+        latestPeriod: "2023/24",
+        trend: "worsening",
+      },
     ],
   },
   {
@@ -2070,11 +2618,46 @@ export const reinforcingCycleScorecard: CycleScorecardLink[] = [
     description:
       "Whether economic growth is generating the fiscal space needed to fund education, health, and social investment in real terms — and whether that funding is reaching the front line rather than being captured by debt service.",
     indicators: [
-      { indicator: "Real GDP per capita growth", source: "Stats SA / SARB", threshold: "Above 1.5% (from ~0%)", latest: "~-0.3%", latestPeriod: "2024", trend: "worsening" },
-      { indicator: "Real per-learner education spending", source: "National Treasury ENE", threshold: "Year-on-year real increase (from real decline)", latest: "Real decline", latestPeriod: "2024/25", trend: "worsening" },
-      { indicator: "Real per-capita health spending", source: "National Treasury ENE", threshold: "Year-on-year real increase (from real decline)", latest: "Real decline", latestPeriod: "2024/25", trend: "worsening" },
-      { indicator: "Debt service as % of revenue", source: "National Treasury", threshold: "Below 15% (from ~22%)", latest: "~22%", latestPeriod: "2024/25", trend: "worsening" },
-      { indicator: "Expanded unemployment rate", source: "Stats SA QLFS", threshold: "Below 35% (from ~42%)", latest: "~41.9%", latestPeriod: "Q4 2024", trend: "stalled" },
+      {
+        indicator: "Real GDP per capita growth",
+        source: "Stats SA / SARB",
+        threshold: "Above 1.5% (from ~0%)",
+        latest: "~-0.3%",
+        latestPeriod: "2024",
+        trend: "worsening",
+      },
+      {
+        indicator: "Real per-learner education spending",
+        source: "National Treasury ENE",
+        threshold: "Year-on-year real increase (from real decline)",
+        latest: "Real decline",
+        latestPeriod: "2024/25",
+        trend: "worsening",
+      },
+      {
+        indicator: "Real per-capita health spending",
+        source: "National Treasury ENE",
+        threshold: "Year-on-year real increase (from real decline)",
+        latest: "Real decline",
+        latestPeriod: "2024/25",
+        trend: "worsening",
+      },
+      {
+        indicator: "Debt service as % of revenue",
+        source: "National Treasury",
+        threshold: "Below 15% (from ~22%)",
+        latest: "~22%",
+        latestPeriod: "2024/25",
+        trend: "worsening",
+      },
+      {
+        indicator: "Expanded unemployment rate",
+        source: "Stats SA QLFS",
+        threshold: "Below 35% (from ~42%)",
+        latest: "~41.9%",
+        latestPeriod: "Q4 2024",
+        trend: "stalled",
+      },
     ],
   },
   {
@@ -2084,11 +2667,46 @@ export const reinforcingCycleScorecard: CycleScorecardLink[] = [
     description:
       "Whether human development outcomes — learning, employment, health, equality — are producing the capable, employed, healthy population that closes the cycle by reinforcing safety and reducing the conditions that drive crime.",
     indicators: [
-      { indicator: "Grade 4 reading proficiency (PIRLS)", source: "DBE / IEA", threshold: "Above 40% (from ~19%)", latest: "~19%", latestPeriod: "2021 PIRLS", trend: "worsening" },
-      { indicator: "Youth unemployment (15–34)", source: "Stats SA QLFS", threshold: "Below 45% (from ~60%)", latest: "~60%", latestPeriod: "Q4 2024", trend: "stalled" },
-      { indicator: "Childhood stunting rate", source: "DHS / NDoH", threshold: "Below 20% (from ~27%)", latest: "~27%", latestPeriod: "2016 SADHS", trend: "stalled" },
-      { indicator: "Life expectancy at birth", source: "Stats SA mid-year estimates", threshold: "Above 68 years (from ~64.5)", latest: "~64.5", latestPeriod: "2024", trend: "improving" },
-      { indicator: "IHDI (Inequality-adjusted HDI)", source: "UNDP HDR", threshold: "Above 0.55 (from ~0.468)", latest: "~0.468", latestPeriod: "2022", trend: "stalled" },
+      {
+        indicator: "Grade 4 reading proficiency (PIRLS)",
+        source: "DBE / IEA",
+        threshold: "Above 40% (from ~19%)",
+        latest: "~19%",
+        latestPeriod: "2021 PIRLS",
+        trend: "worsening",
+      },
+      {
+        indicator: "Youth unemployment (15–34)",
+        source: "Stats SA QLFS",
+        threshold: "Below 45% (from ~60%)",
+        latest: "~60%",
+        latestPeriod: "Q4 2024",
+        trend: "stalled",
+      },
+      {
+        indicator: "Childhood stunting rate",
+        source: "DHS / NDoH",
+        threshold: "Below 20% (from ~27%)",
+        latest: "~27%",
+        latestPeriod: "2016 SADHS",
+        trend: "stalled",
+      },
+      {
+        indicator: "Life expectancy at birth",
+        source: "Stats SA mid-year estimates",
+        threshold: "Above 68 years (from ~64.5)",
+        latest: "~64.5",
+        latestPeriod: "2024",
+        trend: "improving",
+      },
+      {
+        indicator: "IHDI (Inequality-adjusted HDI)",
+        source: "UNDP HDR",
+        threshold: "Above 0.55 (from ~0.468)",
+        latest: "~0.468",
+        latestPeriod: "2022",
+        trend: "stalled",
+      },
     ],
   },
 ];

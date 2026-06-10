@@ -52,7 +52,6 @@ The evidence from these four countries delivers a message that is simultaneously
 
 In 1953, the Korean War ended with an armistice that left South Korea devastated. The country's infrastructure was destroyed. Its industrial base was obliterated. **Per-capita income was approximately $67 — lower than most countries in sub-Saharan Africa at the time.** Life expectancy was around 47 years. The adult literacy rate was below 30 per cent. By any measure — GDP, HDI, institutional capacity — South Korea was among the poorest and most damaged countries on earth.
 
-
 ![Industrial scale-up combined with universal schooling reshaped a war-flattened economy within a generation | Photo by Adrien Olichon on Unsplash](/images/articles/hd-5-1-when-the-cycle-works/img-1.webp)
 
 The Human Development Index, had it been calculated for South Korea in 1953, would have been approximately 0.30 — placing it below contemporary figures for Chad, the Central African Republic, and South Sudan. Today, South Korea's HDI stands at 0.929, placing it in the "very high human development" category alongside Norway, Switzerland, and Australia. In seven decades, South Korea achieved a transformation in human welfare that has no historical parallel in terms of speed and comprehensiveness.
@@ -113,7 +112,7 @@ Botswana is the exception that proves the resource curse is not inevitable — i
 
 At independence in 1966, Botswana was one of the ten poorest countries in the world. **It had twelve kilometres of paved road. It had 22 university graduates.** Its per capita income was approximately $70. Life expectancy was around 46 years. The British colonial administration had invested almost nothing in the territory — using it primarily as a labour reserve for South African mines.
 
-Then diamonds were discovered. The Orapa mine opened in 1971, followed by Jwaneng in 1982. Botswana became one of the world's largest diamond producers by value. And instead of experiencing the *resource curse*, **Botswana became the fastest-growing economy in the world between 1966 and 1990, averaging over 9 per cent GDP growth per year.**
+Then diamonds were discovered. The Orapa mine opened in 1971, followed by Jwaneng in 1982. Botswana became one of the world's largest diamond producers by value. And instead of experiencing the _resource curse_, **Botswana became the fastest-growing economy in the world between 1966 and 1990, averaging over 9 per cent GDP growth per year.**
 
 ### How Botswana Escaped the Curse
 
@@ -148,7 +147,6 @@ This matters for you because the comparison is not flattering. South Africa has 
 ## Rwanda: From Genocide to Growth
 
 Rwanda's inclusion in a discussion of development success is inherently controversial, and it should be. The Rwandan model raises questions about the relationship between democratic governance and development outcomes that are uncomfortable for anyone committed to both values simultaneously. But the development outcomes are real and must be examined honestly.
-
 
 ![Disciplined public administration and primary health investment rebuilt institutions from the ground up | Photo by wilsan u on Unsplash](/images/articles/hd-5-1-when-the-cycle-works/img-2.webp)
 
@@ -231,7 +229,6 @@ The result, over five decades, was a transformation from a low-income, ethnicall
 ## The Common Pattern
 
 Stepping back from the specifics of each case, a common pattern emerges. It is not identical across countries — the details vary enormously — but the structural logic is consistent.
-
 
 ![Different countries, different sectors, but the institutional sequencing rhymes across every successful case | Photo by Belov Sergey on Unsplash](/images/articles/hd-5-1-when-the-cycle-works/img-3.webp)
 
@@ -350,10 +347,10 @@ South Africa's status: Partially met. The Constitution provides a strong framewo
 The analysis in this article draws on the following institutional research and publications:
 
 - World Bank Open Data — GDP per capita time series, education spending, and development indicators for South Korea, Botswana, Rwanda, Malaysia, and South Africa — [data.worldbank.org](https://data.worldbank.org)
-- United Nations Development Programme (UNDP), *Human Development Reports* — HDI trajectories for comparator countries, showing decades of progress from low baselines — [hdr.undp.org](https://hdr.undp.org)
-- Daron Acemoglu and James Robinson (2012), *Why Nations Fail* — institutional analysis of why some countries build inclusive growth while others stagnate — Crown Business
-- Alice Amsden (1989), *Asia's Next Giant: South Korea and Late Industrialization* — the definitive account of South Korea's state-led industrial and human capital strategy — Oxford University Press
+- United Nations Development Programme (UNDP), _Human Development Reports_ — HDI trajectories for comparator countries, showing decades of progress from low baselines — [hdr.undp.org](https://hdr.undp.org)
+- Daron Acemoglu and James Robinson (2012), _Why Nations Fail_ — institutional analysis of why some countries build inclusive growth while others stagnate — Crown Business
+- Alice Amsden (1989), _Asia's Next Giant: South Korea and Late Industrialization_ — the definitive account of South Korea's state-led industrial and human capital strategy — Oxford University Press
 - Acemoglu, Johnson, and Robinson (2003), "An African Success Story: Botswana" — academic case study of how Botswana converted diamond revenue into sustained development
 - Rwanda Governance Board and National Institute of Statistics of Rwanda — governance indicators, poverty reduction data, and human development progress tracking — [gov.rw](https://www.gov.rw)
-- World Bank (2021), *Malaysia's Development Experience: Lessons for a Divided Society* — analysis of Malaysia's New Economic Policy and ethnic inclusion strategy
-- National Planning Commission (2012), *National Development Plan 2030* — South Africa's own framework, assessed against the sequencing patterns of successful comparator countries — [nationalplanningcommission.org.za](https://www.nationalplanningcommission.org.za)
+- World Bank (2021), _Malaysia's Development Experience: Lessons for a Divided Society_ — analysis of Malaysia's New Economic Policy and ethnic inclusion strategy
+- National Planning Commission (2012), _National Development Plan 2030_ — South Africa's own framework, assessed against the sequencing patterns of successful comparator countries — [nationalplanningcommission.org.za](https://www.nationalplanningcommission.org.za)

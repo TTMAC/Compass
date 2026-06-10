@@ -23,12 +23,16 @@ const pillarData = pillars.map((p) => {
   <!-- Hero -->
   <section class="bg-compass-green text-white py-16 md:py-24">
     <div class="max-w-content mx-auto px-4 md:px-0 text-center">
-      <h1 class="font-heading text-3xl md:text-5xl font-bold mb-6 leading-tight">
-        Making South Africa's government and governance systems legible to ordinary citizens
+      <h1
+        class="font-heading text-3xl md:text-5xl font-bold mb-6 leading-tight"
+      >
+        Making South Africa's government and governance systems legible to
+        ordinary citizens
       </h1>
       <p class="text-lg md:text-xl opacity-90 max-w-lg mx-auto mb-8">
-        Deep, analytical, fact-based, long-form political economy education covering government structure,
-        citizen safety and security, the economy, and human development.
+        Deep, analytical, fact-based, long-form political economy education
+        covering government structure, citizen safety and security, the economy,
+        and human development.
       </p>
       {
         firstArticle && (
@@ -57,8 +61,8 @@ const pillarData = pillars.map((p) => {
       </p>
       <p class="text-lg text-text-secondary leading-relaxed">
         GovCompass breaks this down across four interconnected topics — from how
-        government is structured, to safety, the economy, and ultimately
-        human development. Each topic builds on the others.
+        government is structured, to safety, the economy, and ultimately human
+        development. Each topic builds on the others.
       </p>
     </div>
   </section>
@@ -74,40 +78,54 @@ const pillarData = pillars.map((p) => {
       <!-- Mobile: stacked layout -->
       <div class="block lg:hidden mb-8">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
-          {pillarData.filter((p) => p.slug !== "reform-agenda").map((p) => (
-            <a
-              href={`/pillars/${p.slug}`}
-              class={`border rounded-lg p-5 hover:border-gray-300 transition-colors group ${
-                p.slug === "government-structure"
-                  ? "bg-compass-green-light border-compass-green/30 border-l-4 border-l-compass-green"
-                  : "border-gray-200"
-              }`}
-            >
-              <div class="flex items-center gap-2 mb-2">
-                <span
-                  class="inline-block w-3 h-3 rounded-full shrink-0"
-                  style={`background-color: ${p.color}`}
-                ></span>
-                <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
-                  {p.title}
-                </span>
-              </div>
-              <p class="text-sm text-text-secondary mb-3">
-                {p.description}
-              </p>
-              <span class={`font-heading text-text-secondary ${p.slug === "government-structure" ? "text-sm font-semibold" : "text-xs"}`}>
-                {p.articleCount > 0
-                  ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}`
-                  : "Coming soon"}
-                {p.slug === "government-structure" && " — Start here"}
-              </span>
-            </a>
-          ))}
+          {
+            pillarData
+              .filter((p) => p.slug !== "reform-agenda")
+              .map((p) => (
+                <a
+                  href={`/pillars/${p.slug}`}
+                  class={`border rounded-lg p-5 hover:border-gray-300 transition-colors group ${
+                    p.slug === "government-structure"
+                      ? "bg-compass-green-light border-compass-green/30 border-l-4 border-l-compass-green"
+                      : "border-gray-200"
+                  }`}
+                >
+                  <div class="flex items-center gap-2 mb-2">
+                    <span
+                      class="inline-block w-3 h-3 rounded-full shrink-0"
+                      style={`background-color: ${p.color}`}
+                    />
+                    <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
+                      {p.title}
+                    </span>
+                  </div>
+                  <p class="text-sm text-text-secondary mb-3">
+                    {p.description}
+                  </p>
+                  <span
+                    class={`font-heading text-text-secondary ${p.slug === "government-structure" ? "text-sm font-semibold" : "text-xs"}`}
+                  >
+                    {p.articleCount > 0
+                      ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}`
+                      : "Coming soon"}
+                    {p.slug === "government-structure" && " — Start here"}
+                  </span>
+                </a>
+              ))
+          }
         </div>
-        <p class="text-sm text-text-secondary mb-3">These four topics form a reinforcing loop — progress in one drives progress in the others.</p>
-        <a href="/big-picture" class="block bg-white border border-gray-200 rounded-xl p-4 shadow-sm hover:shadow-md hover:border-gray-300 transition-all">
+        <p class="text-sm text-text-secondary mb-3">
+          These four topics form a reinforcing loop — progress in one drives
+          progress in the others.
+        </p>
+        <a
+          href="/big-picture"
+          class="block bg-white border border-gray-200 rounded-xl p-4 shadow-sm hover:shadow-md hover:border-gray-300 transition-all"
+        >
           <FeedbackLoop />
-          <p class="text-center text-xs text-text-secondary mt-3 font-heading">See how they connect &rarr;</p>
+          <p class="text-center text-xs text-text-secondary mt-3 font-heading">
+            See how they connect &rarr;
+          </p>
         </a>
       </div>
 
@@ -115,117 +133,171 @@ const pillarData = pillars.map((p) => {
       <div class="hidden lg:block mb-8">
         {/* Row 1: Government Structure + Citizen Safety & Security */}
         <div class="grid grid-cols-2 gap-4 mb-4">
-          {pillarData.filter((p) => p.slug === "government-structure").map((p) => (
-            <a
-              href={`/pillars/${p.slug}`}
-              class="bg-compass-green-light border border-compass-green/30 border-l-4 border-l-compass-green rounded-lg p-5 hover:border-gray-300 hover:shadow-sm transition-all group"
-            >
-              <div class="flex items-center gap-2 mb-2">
-                <span class="inline-block w-3 h-3 rounded-full shrink-0" style={`background-color: ${p.color}`}></span>
-                <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
-                  {p.title}
-                </span>
-              </div>
-              <p class="text-sm text-text-secondary mb-3">{p.description}</p>
-              <span class="text-sm font-heading font-semibold text-text-secondary">
-                {p.articleCount > 0 ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}` : "Coming soon"} — Start here
-              </span>
-            </a>
-          ))}
-          {pillarData.filter((p) => p.slug === "safety-security").map((p) => (
-            <a
-              href={`/pillars/${p.slug}`}
-              class="border border-gray-200 rounded-lg p-5 hover:border-gray-300 hover:shadow-sm transition-all group"
-            >
-              <div class="flex items-center gap-2 mb-2">
-                <span class="inline-block w-3 h-3 rounded-full shrink-0" style={`background-color: ${p.color}`}></span>
-                <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
-                  {p.title}
-                </span>
-              </div>
-              <p class="text-sm text-text-secondary mb-3">{p.description}</p>
-              <span class="text-xs font-heading text-text-secondary">
-                {p.articleCount > 0 ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}` : "Coming soon"}
-              </span>
-            </a>
-          ))}
+          {
+            pillarData
+              .filter((p) => p.slug === "government-structure")
+              .map((p) => (
+                <a
+                  href={`/pillars/${p.slug}`}
+                  class="bg-compass-green-light border border-compass-green/30 border-l-4 border-l-compass-green rounded-lg p-5 hover:border-gray-300 hover:shadow-sm transition-all group"
+                >
+                  <div class="flex items-center gap-2 mb-2">
+                    <span
+                      class="inline-block w-3 h-3 rounded-full shrink-0"
+                      style={`background-color: ${p.color}`}
+                    />
+                    <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
+                      {p.title}
+                    </span>
+                  </div>
+                  <p class="text-sm text-text-secondary mb-3">
+                    {p.description}
+                  </p>
+                  <span class="text-sm font-heading font-semibold text-text-secondary">
+                    {p.articleCount > 0
+                      ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}`
+                      : "Coming soon"}{" "}
+                    — Start here
+                  </span>
+                </a>
+              ))
+          }
+          {
+            pillarData
+              .filter((p) => p.slug === "safety-security")
+              .map((p) => (
+                <a
+                  href={`/pillars/${p.slug}`}
+                  class="border border-gray-200 rounded-lg p-5 hover:border-gray-300 hover:shadow-sm transition-all group"
+                >
+                  <div class="flex items-center gap-2 mb-2">
+                    <span
+                      class="inline-block w-3 h-3 rounded-full shrink-0"
+                      style={`background-color: ${p.color}`}
+                    />
+                    <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
+                      {p.title}
+                    </span>
+                  </div>
+                  <p class="text-sm text-text-secondary mb-3">
+                    {p.description}
+                  </p>
+                  <span class="text-xs font-heading text-text-secondary">
+                    {p.articleCount > 0
+                      ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}`
+                      : "Coming soon"}
+                  </span>
+                </a>
+              ))
+          }
         </div>
 
         {/* Center: Feedback loop diagram */}
-        <a href="/big-picture" class="block bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md hover:border-gray-300 transition-all mb-4">
+        <a
+          href="/big-picture"
+          class="block bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md hover:border-gray-300 transition-all mb-4"
+        >
           <FeedbackLoop />
-          <p class="text-center text-xs text-text-secondary mt-3 font-heading">See how they connect &rarr;</p>
+          <p class="text-center text-xs text-text-secondary mt-3 font-heading">
+            See how they connect &rarr;
+          </p>
         </a>
 
         {/* Row 3: Economic Growth + Human Development */}
         <div class="grid grid-cols-2 gap-4">
-          {pillarData.filter((p) => p.slug === "economic-growth").map((p) => (
-            <a
-              href={`/pillars/${p.slug}`}
-              class="border border-gray-200 rounded-lg p-5 hover:border-gray-300 hover:shadow-sm transition-all group"
-            >
-              <div class="flex items-center gap-2 mb-2">
-                <span class="inline-block w-3 h-3 rounded-full shrink-0" style={`background-color: ${p.color}`}></span>
-                <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
-                  {p.title}
-                </span>
-              </div>
-              <p class="text-sm text-text-secondary mb-3">{p.description}</p>
-              <span class="text-xs font-heading text-text-secondary">
-                {p.articleCount > 0 ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}` : "Coming soon"}
-              </span>
-            </a>
-          ))}
-          {pillarData.filter((p) => p.slug === "human-development").map((p) => (
-            <a
-              href={`/pillars/${p.slug}`}
-              class="border border-gray-200 rounded-lg p-5 hover:border-gray-300 hover:shadow-sm transition-all group"
-            >
-              <div class="flex items-center gap-2 mb-2">
-                <span class="inline-block w-3 h-3 rounded-full shrink-0" style={`background-color: ${p.color}`}></span>
-                <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
-                  {p.title}
-                </span>
-              </div>
-              <p class="text-sm text-text-secondary mb-3">{p.description}</p>
-              <span class="text-xs font-heading text-text-secondary">
-                {p.articleCount > 0 ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}` : "Coming soon"}
-              </span>
-            </a>
-          ))}
+          {
+            pillarData
+              .filter((p) => p.slug === "economic-growth")
+              .map((p) => (
+                <a
+                  href={`/pillars/${p.slug}`}
+                  class="border border-gray-200 rounded-lg p-5 hover:border-gray-300 hover:shadow-sm transition-all group"
+                >
+                  <div class="flex items-center gap-2 mb-2">
+                    <span
+                      class="inline-block w-3 h-3 rounded-full shrink-0"
+                      style={`background-color: ${p.color}`}
+                    />
+                    <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
+                      {p.title}
+                    </span>
+                  </div>
+                  <p class="text-sm text-text-secondary mb-3">
+                    {p.description}
+                  </p>
+                  <span class="text-xs font-heading text-text-secondary">
+                    {p.articleCount > 0
+                      ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}`
+                      : "Coming soon"}
+                  </span>
+                </a>
+              ))
+          }
+          {
+            pillarData
+              .filter((p) => p.slug === "human-development")
+              .map((p) => (
+                <a
+                  href={`/pillars/${p.slug}`}
+                  class="border border-gray-200 rounded-lg p-5 hover:border-gray-300 hover:shadow-sm transition-all group"
+                >
+                  <div class="flex items-center gap-2 mb-2">
+                    <span
+                      class="inline-block w-3 h-3 rounded-full shrink-0"
+                      style={`background-color: ${p.color}`}
+                    />
+                    <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
+                      {p.title}
+                    </span>
+                  </div>
+                  <p class="text-sm text-text-secondary mb-3">
+                    {p.description}
+                  </p>
+                  <span class="text-xs font-heading text-text-secondary">
+                    {p.articleCount > 0
+                      ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}`
+                      : "Coming soon"}
+                  </span>
+                </a>
+              ))
+          }
         </div>
       </div>
 
-      {pillarData.filter((p) => p.slug === "reform-agenda").map((p) => (
-        <div class="mb-8 relative">
-          <div class="flex items-center gap-3 mb-4">
-            <div class="w-px h-6 bg-gray-300"></div>
-            <span class="text-xs font-heading text-text-secondary uppercase tracking-wide">Applies across all four topics</span>
-          </div>
-          <a
-            href={`/pillars/${p.slug}`}
-            class="block border border-gray-200 rounded-lg p-5 hover:border-gray-300 hover:shadow-sm transition-all group"
-          >
-            <div class="flex items-center gap-2 mb-2">
-              <span
-                class="inline-block w-3 h-3 rounded-full shrink-0"
-                style={`background-color: ${p.color}`}
-              ></span>
-              <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
-                {p.title}
-              </span>
+      {
+        pillarData
+          .filter((p) => p.slug === "reform-agenda")
+          .map((p) => (
+            <div class="mb-8 relative">
+              <div class="flex items-center gap-3 mb-4">
+                <div class="w-px h-6 bg-gray-300" />
+                <span class="text-xs font-heading text-text-secondary uppercase tracking-wide">
+                  Applies across all four topics
+                </span>
+              </div>
+              <a
+                href={`/pillars/${p.slug}`}
+                class="block border border-gray-200 rounded-lg p-5 hover:border-gray-300 hover:shadow-sm transition-all group"
+              >
+                <div class="flex items-center gap-2 mb-2">
+                  <span
+                    class="inline-block w-3 h-3 rounded-full shrink-0"
+                    style={`background-color: ${p.color}`}
+                  />
+                  <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
+                    {p.title}
+                  </span>
+                </div>
+                <p class="text-sm text-text-secondary mb-3">{p.description}</p>
+                <span class="text-xs font-heading text-text-secondary">
+                  {p.articleCount > 0
+                    ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}`
+                    : "Coming soon"}
+                </span>
+              </a>
             </div>
-            <p class="text-sm text-text-secondary mb-3">
-              {p.description}
-            </p>
-            <span class="text-xs font-heading text-text-secondary">
-              {p.articleCount > 0
-                ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}`
-                : "Coming soon"}
-            </span>
-          </a>
-        </div>
-      ))}
+          ))
+      }
 
       <div class="text-center">
         <a

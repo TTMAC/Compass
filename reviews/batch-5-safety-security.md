@@ -11,23 +11,23 @@
 
 ## Pass/Fail Matrix (post-fix)
 
-| # | Slug | Words | Verdict | Partisan Drift | Blockers | Should-fix |
-|---|---|---:|:-:|:-:|:-:|:-:|
-| 1 | ss-1-1-order-through-oppression | 5,135 | **Pass** | Clean | 0 | 0 |
-| 2 | ss-1-2-from-rainbow-nation-to-state-capture | 5,463 | **Pass** | Clean | 0 | 2 |
-| 3 | ss-2-1-the-broken-pipeline | 5,595 | **Pass** | Clean | 0 | 3 |
-| 4 | ss-2-2-policing-a-divided-country | 4,538 | **Pass** | Clean | 0 | 3 |
-| 5 | ss-2-3-justice-delayed-rights-denied | 4,594 | **Pass** | Clean | 0 | 1 |
-| 6 | ss-2-4-the-systems-most-catastrophic-failure | 4,500 | **Pass** | Clean | 0 | 4 |
-| 7 | ss-2-5-the-private-security-paradox | 4,502 | **Pass** | Clean | 0 | 2 |
-| 8 | ss-3-1-three-tier-policing-architecture | 4,518 | **Pass** | Clean | 0 | 1 |
-| 9 | ss-3-2-independent-investigating-magistracy | 4,821 | **Pass** | Clean | 0 | 2 |
-| 10 | ss-3-3-community-courts-and-restorative-justice | 4,538 | **Pass** | Clean | 0 | 1 |
-| 11 | ss-3-4-sentencing-commission-and-structured-guidelines | 5,108 | **Pass** | Clean | 0 | 2 |
-| 12 | ss-3-5-rehabilitation-as-constitutional-mandate | 4,504 | **Pass** | Clean | 0 | 1 |
-| 13 | ss-4-1-sequencing-reform | 5,113 | **Pass** | Clean | 0 | 2 |
-| 14 | ss-4-2-funding-the-delta | 5,242 | **Pass** | Minor | 0 | 1 |
-| 15 | ss-4-3-measuring-progress | 5,184 | **Pass** | Clean | 0 | 1 |
+| #   | Slug                                                   | Words | Verdict  | Partisan Drift | Blockers | Should-fix |
+| --- | ------------------------------------------------------ | ----: | :------: | :------------: | :------: | :--------: |
+| 1   | ss-1-1-order-through-oppression                        | 5,135 | **Pass** |     Clean      |    0     |     0      |
+| 2   | ss-1-2-from-rainbow-nation-to-state-capture            | 5,463 | **Pass** |     Clean      |    0     |     2      |
+| 3   | ss-2-1-the-broken-pipeline                             | 5,595 | **Pass** |     Clean      |    0     |     3      |
+| 4   | ss-2-2-policing-a-divided-country                      | 4,538 | **Pass** |     Clean      |    0     |     3      |
+| 5   | ss-2-3-justice-delayed-rights-denied                   | 4,594 | **Pass** |     Clean      |    0     |     1      |
+| 6   | ss-2-4-the-systems-most-catastrophic-failure           | 4,500 | **Pass** |     Clean      |    0     |     4      |
+| 7   | ss-2-5-the-private-security-paradox                    | 4,502 | **Pass** |     Clean      |    0     |     2      |
+| 8   | ss-3-1-three-tier-policing-architecture                | 4,518 | **Pass** |     Clean      |    0     |     1      |
+| 9   | ss-3-2-independent-investigating-magistracy            | 4,821 | **Pass** |     Clean      |    0     |     2      |
+| 10  | ss-3-3-community-courts-and-restorative-justice        | 4,538 | **Pass** |     Clean      |    0     |     1      |
+| 11  | ss-3-4-sentencing-commission-and-structured-guidelines | 5,108 | **Pass** |     Clean      |    0     |     2      |
+| 12  | ss-3-5-rehabilitation-as-constitutional-mandate        | 4,504 | **Pass** |     Clean      |    0     |     1      |
+| 13  | ss-4-1-sequencing-reform                               | 5,113 | **Pass** |     Clean      |    0     |     2      |
+| 14  | ss-4-2-funding-the-delta                               | 5,242 | **Pass** |     Minor      |    0     |     1      |
+| 15  | ss-4-3-measuring-progress                              | 5,184 | **Pass** |     Clean      |    0     |     1      |
 
 **Summary: 15/15 Pass, 0 blockers outstanding, 0 forbidden-term hits, 0 articles below the 4,500-word minimum.** Final automated pass clean across all 15 SS articles.
 
@@ -85,14 +85,14 @@ After the initial closure, a follow-up pass applied the should-fix items previou
 - **ss-2-1** sexual-offences conviction ratio: replaced "catastrophically low" lone phrase with the specific 4–8 per cent range from successive NPA annual reports and Stats SA VOCS analyses.
 - **ss-2-2** detective caseload: international 30–40 benchmark added; 150–200 figure anchored to ISS analysis of SAPS Detective Service data.
 - **ss-2-2** "largest in the world" claim now anchored to PSIRA annual reporting and ISS comparative analyses.
-- **ss-2-3** TB rate: anchored to JICS reporting and Department of Health data, with the *Lee v Minister of Correctional Services* (2013) Constitutional Court judgment providing the legal anchor for state liability for TB transmission in custody.
+- **ss-2-3** TB rate: anchored to JICS reporting and Department of Health data, with the _Lee v Minister of Correctional Services_ (2013) Constitutional Court judgment providing the legal anchor for state liability for TB transmission in custody.
 - **ss-2-4** SAPS sexual-offences statistics anchored to the most recent published year (2022/23, ~53,000 cases); SAMRC prevalence framing tightened to "Successive South African Medical Research Council prevalence studies, supplemented by university-based research"; femicide rate citation tightened to "South African Medical Research Council mortuary studies and SAPS data"; forensic backlog citation tightened to "SAPS Forensic Services annual reporting and Auditor-General performance audits".
 - **ss-2-5** PSIRA 2.7M now anchored to "the most recent PSIRA annual report"; SAPS 190,000 now anchored to "its most recent Annual Report".
 - **ss-3-1** Limpopo 5.8M figure anchored to "the most recent Statistics South Africa mid-year population estimate".
 - **ss-3-2** detective caseload (80–150) anchored to ISS analysis of SAPS Detective Service data.
 - **ss-3-2** Scorpions conviction rate quantified as exceeding 90 per cent over the unit's operational lifetime, attributed to press, academic, and parliamentary analyses.
 - **ss-3-3** Hatfield Community Court founding year anchored to "the early 2000s".
-- **ss-4-2** World Bank 10–14% GDP cost anchored to its 2018 *Overcoming Poverty and Inequality in South Africa* analysis.
+- **ss-4-2** World Bank 10–14% GDP cost anchored to its 2018 _Overcoming Poverty and Inequality in South Africa_ analysis.
 - **ss-4-2** R100bn tourism figure anchored to "the most recent year for which complete South African Tourism data is available".
 - **ss-4-2** "performative toughness" reframed to "visible operations" with explicit structural framing of the misalignment between citizen demand under fear conditions and what systems analysis suggests, removing the implicit editorial commentary on political rationality.
 

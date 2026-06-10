@@ -10,7 +10,9 @@ const ga4Id = import.meta.env.PUBLIC_GA4_ID || "";
   data-testid="cookie-consent"
   data-ga4-id={ga4Id}
 >
-  <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+  <div
+    class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-4"
+  >
     <p class="text-sm text-text-secondary font-body">
       We use cookies for anonymised analytics, processed in line with the
       Protection of Personal Information Act (POPIA).
@@ -49,7 +51,11 @@ const ga4Id = import.meta.env.PUBLIC_GA4_ID || "";
   (function () {
     var banner = document.getElementById("cookie-consent");
     var stored = null;
-    try { stored = localStorage.getItem("cookie-consent"); } catch (e) { /* private browsing */ }
+    try {
+      stored = localStorage.getItem("cookie-consent");
+    } catch (e) {
+      /* private browsing */
+    }
 
     if (stored === "accepted") {
       gtag("consent", "update", { analytics_storage: "granted" });
@@ -68,7 +74,11 @@ const ga4Id = import.meta.env.PUBLIC_GA4_ID || "";
 
     if (acceptBtn) {
       acceptBtn.addEventListener("click", function () {
-        try { localStorage.setItem("cookie-consent", "accepted"); } catch (e) { /* private browsing */ }
+        try {
+          localStorage.setItem("cookie-consent", "accepted");
+        } catch (e) {
+          /* private browsing */
+        }
         gtag("consent", "update", { analytics_storage: "granted" });
         loadGA4();
         hideBanner();
@@ -77,7 +87,11 @@ const ga4Id = import.meta.env.PUBLIC_GA4_ID || "";
 
     if (declineBtn) {
       declineBtn.addEventListener("click", function () {
-        try { localStorage.setItem("cookie-consent", "declined"); } catch (e) { /* private browsing */ }
+        try {
+          localStorage.setItem("cookie-consent", "declined");
+        } catch (e) {
+          /* private browsing */
+        }
         hideBanner();
       });
     }
@@ -96,7 +110,11 @@ const ga4Id = import.meta.env.PUBLIC_GA4_ID || "";
 
     // Allow re-opening from footer Cookie Settings link
     window.openCookieConsent = function () {
-      try { localStorage.removeItem("cookie-consent"); } catch (e) { /* private browsing */ }
+      try {
+        localStorage.removeItem("cookie-consent");
+      } catch (e) {
+        /* private browsing */
+      }
       showBanner();
     };
 
@@ -119,7 +137,9 @@ const ga4Id = import.meta.env.PUBLIC_GA4_ID || "";
 
         // Custom events
         setupCustomEvents();
-      } catch (e) { /* GA4 load failed — site works without analytics */ }
+      } catch (e) {
+        /* GA4 load failed — site works without analytics */
+      }
     }
 
     function setupCustomEvents() {
@@ -128,11 +148,10 @@ const ga4Id = import.meta.env.PUBLIC_GA4_ID || "";
       var firedThresholds = {};
 
       window.addEventListener("scroll", function () {
-        var scrollTotal = document.documentElement.scrollHeight - window.innerHeight;
+        var scrollTotal =
+          document.documentElement.scrollHeight - window.innerHeight;
         if (scrollTotal <= 0) return;
-        var scrollPercent = Math.round(
-          (window.scrollY / scrollTotal) * 100,
-        );
+        var scrollPercent = Math.round((window.scrollY / scrollTotal) * 100);
 
         scrollThresholds.forEach(function (threshold) {
           if (scrollPercent >= threshold && !firedThresholds[threshold]) {
@@ -145,11 +164,13 @@ const ga4Id = import.meta.env.PUBLIC_GA4_ID || "";
       });
 
       // WhatsApp share tracking
-      document.querySelectorAll('a[href*="api.whatsapp.com"]').forEach(function (link) {
-        link.addEventListener("click", function () {
-          gtag("event", "whatsapp_share");
+      document
+        .querySelectorAll('a[href*="api.whatsapp.com"]')
+        .forEach(function (link) {
+          link.addEventListener("click", function () {
+            gtag("event", "whatsapp_share");
+          });
         });
-      });
 
       // Copy link tracking
       document.querySelectorAll("[data-copy-btn]").forEach(function (btn) {

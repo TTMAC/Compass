@@ -10,24 +10,24 @@
 
 ## Pass/Fail Matrix
 
-| # | Slug | Words | Verdict | Blockers | Should-fix | Nits |
-|---|---|---:|:-:|:-:|:-:|:-:|
-| 1 | eg-1-1-the-seven-thousand-rand-economy | 7,372 | **Pass** | 0 | 3 | 3 |
-| 2 | eg-1-2-how-we-got-here | 8,223 | **Pass** | 0 | 2 | 2 |
-| 3 | eg-1-3-the-comparator-countries | 7,189 | **Pass** | 0 | 1 | 2 |
-| 4 | eg-2-1-resource-optimisation | 8,417 | **Pass** | 0 | 1 | 2 |
-| 5 | eg-2-2-infrastructure-foundations | 8,550 | **Fix** | 0 | 3 | 2 |
-| 6 | eg-2-3-the-efficiency-transition | 7,636 | **Fix** | 0 | 2 | 2 |
-| 7 | eg-2-4-innovation-driven-growth | 8,544 | **Pass** | 0 | 1 | 2 |
-| 8 | eg-3-1-three-engines-of-growth | 9,365 | **Pass** | 0 | 1 | 2 |
-| 9 | eg-3-2-the-execution-machine | 7,896 | **Pass** | 0 | 1 | 3 |
-| 10 | eg-3-3-watching-the-watchers | 7,901 | **Pass** | 0 | 1 | 2 |
-| 11 | eg-4-1-the-municipal-performance-index | 9,395 | **Pass** | 0 | 0 | 2 |
-| 12 | eg-4-2-the-metro-rankings | 8,691 | **Pass** | 0 | 1 | 2 |
-| 13 | eg-4-3-infrastructure-planning-vs-reality | 8,937 | **Pass** | 0 | 1 | 2 |
-| 14 | eg-5-1-the-political-economy-of-growth | 9,191 | **Pass** | 0 | 1 | 2 |
-| 15 | eg-5-2-from-strategy-to-reality | 11,207 | **Pass** | 0 | 1 | 2 |
-| 16 | eg-5-3-your-economic-citizenship | 9,266 | **Pass** | 0 | 1 | 2 |
+| #   | Slug                                      |  Words | Verdict  | Blockers | Should-fix | Nits |
+| --- | ----------------------------------------- | -----: | :------: | :------: | :--------: | :--: |
+| 1   | eg-1-1-the-seven-thousand-rand-economy    |  7,372 | **Pass** |    0     |     3      |  3   |
+| 2   | eg-1-2-how-we-got-here                    |  8,223 | **Pass** |    0     |     2      |  2   |
+| 3   | eg-1-3-the-comparator-countries           |  7,189 | **Pass** |    0     |     1      |  2   |
+| 4   | eg-2-1-resource-optimisation              |  8,417 | **Pass** |    0     |     1      |  2   |
+| 5   | eg-2-2-infrastructure-foundations         |  8,550 | **Fix**  |    0     |     3      |  2   |
+| 6   | eg-2-3-the-efficiency-transition          |  7,636 | **Fix**  |    0     |     2      |  2   |
+| 7   | eg-2-4-innovation-driven-growth           |  8,544 | **Pass** |    0     |     1      |  2   |
+| 8   | eg-3-1-three-engines-of-growth            |  9,365 | **Pass** |    0     |     1      |  2   |
+| 9   | eg-3-2-the-execution-machine              |  7,896 | **Pass** |    0     |     1      |  3   |
+| 10  | eg-3-3-watching-the-watchers              |  7,901 | **Pass** |    0     |     1      |  2   |
+| 11  | eg-4-1-the-municipal-performance-index    |  9,395 | **Pass** |    0     |     0      |  2   |
+| 12  | eg-4-2-the-metro-rankings                 |  8,691 | **Pass** |    0     |     1      |  2   |
+| 13  | eg-4-3-infrastructure-planning-vs-reality |  8,937 | **Pass** |    0     |     1      |  2   |
+| 14  | eg-5-1-the-political-economy-of-growth    |  9,191 | **Pass** |    0     |     1      |  2   |
+| 15  | eg-5-2-from-strategy-to-reality           | 11,207 | **Pass** |    0     |     1      |  2   |
+| 16  | eg-5-3-your-economic-citizenship          |  9,266 | **Pass** |    0     |     1      |  2   |
 
 **Summary: 14 Pass, 2 Fix, 0 Rewrite. 0 blockers. Both Fix items are structural (heading consistency) rather than content.**
 
@@ -59,15 +59,15 @@ Several expert blocks name the institution but not the specific publication or y
 - **`eg-1-1`** — WEF "Global Competitiveness Reports have consistently classified" — no year; Harvard Growth Lab "Atlas of Economic Complexity and associated working papers" — no year.
 - **`eg-1-2`** — TIPS research on the minerals-energy complex — institution named, no specific working paper title/year; REDI3x3 research on structural unemployment — same gap.
 - **`eg-2-1`** — Minerals Council South Africa "in its 2023 report" — year present, report title missing.
-- **`eg-2-4`** — Porter *The Competitive Advantage of Nations* (1990) cited correctly; other expert blocks less specific.
+- **`eg-2-4`** — Porter _The Competitive Advantage of Nations_ (1990) cited correctly; other expert blocks less specific.
 - **`eg-3-1`** — TIPS evaluation of MSME support architecture — no publication year.
 - **`eg-3-2`** — NPC Assessment, PARI Analysis, GTAC Research — all named but no specific publication years.
 - **`eg-3-3`** — expert blocks reference DPME frameworks without citing specific DPME publications.
-- **`eg-4-2`** — SACN *State of South African Cities Report* — no specific cycle year (2016, 2021).
+- **`eg-4-2`** — SACN _State of South African Cities Report_ — no specific cycle year (2016, 2021).
 - **`eg-4-3`** — DBSA Infrastructure Barometer, Water Research Commission Analysis, National Treasury Infrastructure Analysis — no publication years.
-- **`eg-5-1`** — Acemoglu & Robinson reference uses "their landmark work on why nations fail" — should cite *Why Nations Fail* (2012).
+- **`eg-5-1`** — Acemoglu & Robinson reference uses "their landmark work on why nations fail" — should cite _Why Nations Fail_ (2012).
 - **`eg-5-2`** — Rwanda EDPRS model cited without specific implementation-review year.
-- **`eg-5-3`** — International Budget Partnership *Open Budget Survey* — no cycle year.
+- **`eg-5-3`** — International Budget Partnership _Open Budget Survey_ — no cycle year.
 
 **Recommendation:** Single-sweep pass adding `(Publication Title, Year)` parentheticals to expert-block source lines. Same fix pattern as Batch 1's SF-1.
 
@@ -116,6 +116,7 @@ This is a Batch-2-specific recommendation that wasn't needed in Batch 1 because 
 ## Nits (optional polish)
 
 Not tracked individually — approximately 35 nits total across the 16 articles, mostly:
+
 - Minor phrasing softening ("absurdity" in eg-2-1, "dark comedy" in eg-3-2)
 - Slightly long introductions before the BLUF lands (eg-1-3, eg-5-1)
 - Occasional section tangents that could be tightened by 200–300 words (eg-1-2 "What the Comparator Countries Did Differently" previews material covered in eg-1-3)
@@ -176,6 +177,7 @@ Estimated time for all five: ~90 minutes of focused editing work.
 - **SF-2 (expert-block attribution sweep):** Partially resolved. 29 of 43 `:::expert[...]` blocks across the 17 articles now carry both a publication/report title and a year (or year range). 12 residual blocks reference research traditions (e.g. "Wits School of Governance, PARI, HSRC have consistently identified...") rather than single papers, which is the appropriate framing for a multi-paper consensus and not a defect. Two blocks (`eg-4-1` § Treasury MFIP, `eg-4-2` § Treasury MFIP) reference a programme without a publication date — flagged for opportunistic future polish, not blocking publication. Resources sections in all 17 articles carry the institutional citations that close the loop.
 
 **New article triage — eg-2-3-financing-the-build:** Pass.
+
 - BLUF in opening paragraph (R49.9 trillion in assets vs R150 billion annual gap).
 - Title Case headings throughout.
 - Numerical claims anchored to Swilling & Murau (2025) NPC Finance Task Team report, with publication year explicit on first reference.
@@ -187,6 +189,7 @@ Estimated time for all five: ~90 minutes of focused editing work.
 **Automated pass after closure (2026-04-27 audit re-run):** EG series 17/17 over 4,500 words, 0 frontmatter / linkage / emoji / forbidden-term issues.
 
 **Closure-time fixes applied (three targeted SF-2 rewrites, 2026-04-27).** Three expert blocks named institutions but referenced ongoing programmes or platforms without a year anchor. Per owner direction (drop the citation if no specific year is needed), each block was rewritten to drop the institutional citation and stand on its substantive content:
+
 - `eg-4-1-the-municipal-performance-index` § Treasury MFIP block — reframed around Section 71 of the MFMA (the underlying regulatory system) rather than the MFIP programme.
 - `eg-4-2-the-metro-rankings` § Treasury MFIP block — reframed around the Municipal Money portal (a current, named public data product) rather than the MFIP programme.
 - `eg-2-5-innovation-driven-growth` § World Bank Innovation Policy Platform block — dropped the WBIPP attribution; the comparative observation about South Korea, Finland, and Israel innovation-policy continuity now stands as a historical claim on its own.

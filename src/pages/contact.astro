@@ -52,9 +52,7 @@ const enquiryTypes = [
         class="w-full min-h-[48px] px-4 py-3 border border-gray-300 rounded font-body text-text-primary bg-bg-primary focus:outline-none focus:ring-2 focus:ring-compass-green focus:border-transparent"
       >
         <option value="" disabled selected>Select enquiry type…</option>
-        {enquiryTypes.map((type) => (
-          <option value={type}>{type}</option>
-        ))}
+        {enquiryTypes.map((type) => <option value={type}>{type}</option>)}
       </select>
     </div>
 

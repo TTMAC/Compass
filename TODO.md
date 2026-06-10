@@ -7,24 +7,28 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 ## High Priority — Security
 
 ### Item 1: Content Security Policy (CSP) header
+
 - **Status:** ✅ Done
 - **Why:** No CSP header in netlify.toml leaves the site open to XSS injection via uncontrolled script/style sources.
 - **Action:** Add a `Content-Security-Policy` header to the global `[[headers]]` block, whitelisting only known origins (self, GA4, Netlify Identity, Google Fonts, unpkg for Decap CMS).
-- **Resolution:** CSP header present in global `/*` headers block and `/admin/*` block. Whitelists: `script-src` (self, unsafe-inline, identity.netlify.com, googletagmanager.com), `style-src` (self, unsafe-inline, fonts.googleapis.com), `font-src` (self, fonts.gstatic.com), `img-src` (self, data:), `connect-src` (self, googletagmanager.com, google-analytics.com, analytics.google.com, *.google-analytics.com, identity.netlify.com), `frame-src` (none). Added missing GA4 regional analytics endpoints to prevent silent beacon failures.
+- **Resolution:** CSP header present in global `/*` headers block and `/admin/*` block. Whitelists: `script-src` (self, unsafe-inline, identity.netlify.com, googletagmanager.com), `style-src` (self, unsafe-inline, fonts.googleapis.com), `font-src` (self, fonts.gstatic.com), `img-src` (self, data:), `connect-src` (self, googletagmanager.com, google-analytics.com, analytics.google.com, \*.google-analytics.com, identity.netlify.com), `frame-src` (none). Added missing GA4 regional analytics endpoints to prevent silent beacon failures.
 
 ### Item 2: Strict-Transport-Security (HSTS)
+
 - **Status:** ✅ Done
 - **Why:** HTTPS is enforced by Netlify at the platform level, but without an HSTS header browsers may still attempt an initial HTTP request.
 - **Action:** Add `Strict-Transport-Security: max-age=63072000; includeSubDomains; preload` to the global headers.
 - **Resolution:** Already present in the global `/*` headers block in `netlify.toml` with the exact recommended value.
 
 ### Item 3: Subresource Integrity (SRI) for external scripts
+
 - **Status:** ✅ Done
 - **Why:** External scripts (Netlify Identity widget, Decap CMS, GA4) load without `integrity` attributes — a supply-chain compromise could inject malicious code.
 - **Action:** Add `integrity` and `crossorigin` attributes to `<script>` tags in BaseLayout.astro and admin/index.html. Note: GA4 is dynamically injected after consent so SRI is not feasible there; focus on static script tags.
 - **Resolution:** Netlify Identity widget already had SRI in both BaseLayout.astro and admin/index.html. Added SRI to Decap CMS script in admin/index.html and pinned version from `@^3.0.0` to `@3.11.0` (SRI requires a fixed version). GA4 remains without SRI as it's dynamically injected after consent.
 
 ### Item 4: Permissions-Policy header
+
 - **Status:** ✅ Done
 - **Why:** Without this header, the page implicitly allows browser features (camera, microphone, geolocation) it never uses.
 - **Action:** Add `Permissions-Policy` header denying all unused features.
@@ -35,18 +39,21 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 ## High Priority — Performance
 
 ### Item 5: Use Astro `<Image />` component
+
 - **Status:** ✅ Done (N/A)
 - **Why:** Plain `<img>` tags miss automatic responsive `srcset`/`sizes` generation and modern format conversion (WebP/AVIF). Critical for readers on 4G prepaid data.
 - **Action:** Replace `<img>` tags with Astro's `<Image />` or `<Picture />` component where applicable.
 - **Resolution:** No `<img>` tags exist in the codebase — the site currently has no images. When images are added in the future, Astro's `<Image />` component should be used from the start.
 
 ### Item 6: Enable Astro prefetch
+
 - **Status:** ✅ Done
 - **Why:** Astro supports link prefetching for faster perceived navigation; currently not enabled.
 - **Action:** Enable `prefetch` in astro.config.mjs and apply to key navigation links.
 - **Resolution:** Added `prefetch: true` to `astro.config.mjs`. Astro's default prefetch strategy (`hover`) prefetches links when users hover over them, improving perceived navigation speed without aggressive preloading that would waste data.
 
 ### Item 7: Add bundle analysis tooling
+
 - **Status:** ✅ Done
 - **Why:** No way to monitor whether the 450 KB page-weight budget is being respected.
 - **Action:** Add `rollup-plugin-visualizer` or similar to the build, and consider a Lighthouse CI check in the deploy pipeline.
@@ -57,18 +64,21 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 ## Medium Priority — SEO
 
 ### Item 8: Expand structured data (JSON-LD)
+
 - **Status:** ✅ Done
 - **Why:** Only `Article` schema exists; missing `Organization`, `WebSite`, and `BreadcrumbList` schemas that improve search presence.
 - **Action:** Add Organisation and WebSite schemas to BaseLayout; add BreadcrumbList to article pages.
 - **Resolution:** Added `Organization` and `WebSite` schemas to BaseLayout (rendered on all pages). Added `BreadcrumbList` schema to ArticleLayout with crumbs: Home → Pillar → Part → Article. Updated `jsonLd` prop type to accept single object or array to support multiple page-specific schemas. All four schema types render correctly on article pages; home/non-article pages get Organization + WebSite.
 
 ### Item 9: Add meta theme-color
+
 - **Status:** ✅ Done
 - **Why:** Browser chrome (address bar on mobile) doesn't match site branding.
 - **Action:** Add `<meta name="theme-color" content="#355E3B">` to BaseLayout head.
 - **Resolution:** Added `<meta name="theme-color" content="#355E3B">` (compass-green) to BaseLayout head, applied to all pages.
 
 ### Item 10: Add apple-touch-icon
+
 - **Status:** ✅ Done
 - **Why:** iOS bookmark icon falls back to a screenshot instead of a branded icon.
 - **Action:** Generate a 180×180 PNG icon and add the `<link rel="apple-touch-icon">` tag.
@@ -79,18 +89,21 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 ## Medium Priority — Reliability
 
 ### Item 11: Add 500 error page
+
 - **Status:** ✅ Done
 - **Why:** Server errors show Netlify's generic page instead of a branded experience.
 - **Action:** Create a custom 500.html in public/ or a corresponding Netlify function fallback.
 - **Resolution:** Created `public/500.html` as standalone HTML with inlined styles matching the 404 page design (compass-green branding, Inter/Source Serif fonts, "Go home" + "Browse the series" buttons). Added 500 redirect rule to `netlify.toml`. No external dependencies — works even when the build pipeline or CDN fails.
 
 ### Item 12: Add try-catch to client-side JS
+
 - **Status:** ✅ Done
 - **Why:** Pagefind search initialisation and scroll-depth tracking could silently break with no user feedback.
 - **Action:** Wrap critical client-side code blocks in try-catch with graceful degradation.
 - **Resolution:** Added error handling across four components: (1) CookieConsent — wrapped all `localStorage` calls in try-catch for private browsing, wrapped GA4 `loadGA4()` in try-catch, fixed scroll-depth div-by-zero with early return when `scrollHeight === innerHeight`. (2) Header — wrapped Pagefind script loading and init in try-catch, added `script.onerror` handler. (3) ReadingProgress — fixed div-by-zero when article is shorter than viewport. (4) Government-functions — added null guards on `getElementById` and `querySelector` to prevent crash on missing tab elements.
 
 ### Item 13: Add `aria-live` regions for dynamic content
+
 - **Status:** ✅ Done
 - **Why:** Dynamic updates (search results, form submission feedback) are not announced to screen readers.
 - **Action:** Add `aria-live="polite"` to search results container and form status messages.
@@ -101,6 +114,7 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 ## Lower Priority — Nice-to-haves
 
 ### Item 14: PWA support (service worker + manifest)
+
 - **Status:** ✅ Done
 - **Why:** Offline reading capability is valuable for readers on unreliable 4G connections.
 - **Action:** Add a basic service worker with cache-first strategy for articles and a web manifest.
@@ -117,6 +131,7 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
   - **Build verified** — 93 pages built cleanly, all PWA assets (`sw.js`, `manifest.webmanifest`, `offline.html`, `icon-192.png`, `icon-512.png`) present in `dist/`. Pagefind indexed 93 pages.
 
 ### Item 15: Lighthouse CI in deploy pipeline
+
 - **Status:** ✅ Done
 - **Why:** Performance regressions are not caught before deploy.
 - **Action:** Add Lighthouse CI GitHub Action or Netlify plugin with performance budgets.
@@ -138,12 +153,14 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
   - **Not verified locally** — Lighthouse requires a headful Chrome binary and takes several minutes per run, so end-to-end validation happens on the first CI push. The JSON config parses cleanly, the action is pinned to a released version (`@v12`), and the job structure mirrors the existing `e2e` job exactly — risk of red CI on first push is low, but the owner should watch the initial run.
 
 ### Item 16: Add security.txt
+
 - **Status:** ✅ Done
 - **Why:** No published vulnerability disclosure channel.
 - **Action:** Create `public/.well-known/security.txt` with contact and policy info.
 - **Resolution:** Created `public/.well-known/security.txt` per RFC 9116. Uses the already-public `hello@govcompass.co.za` contact (same address documented on `privacy.astro` and `about.astro`) rather than inventing a new `security@` alias that may not be wired up. Set `Expires: 2027-04-14T00:00:00.000Z` (one year from today) — the RFC requires a future expiry; the owner should refresh this before it lapses. Added `Preferred-Languages: en` and `Canonical: https://govcompass.co.za/.well-known/security.txt`. Build verified clean; file ships to `dist/.well-known/security.txt` as a static asset.
 
 ### Item 17: POPIA-specific cookie consent wording
+
 - **Status:** ✅ Done
 - **Why:** The privacy policy covers POPIA but the cookie banner itself doesn't reference the Act.
 - **Action:** Update CookieConsent banner copy to mention POPIA compliance.
@@ -154,6 +171,7 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 ## High Priority — Content
 
 ### Item 18: Replace generic "The Bottom Line, Up Front" headings with article-specific summaries
+
 - **Status:** ✅ Done
 - **Why:** Every article uses the identical `## The Bottom Line, Up Front` heading, which tells the reader nothing specific. Replacing it with a one-line summary of the article's key argument improves scannability, aids navigation (table-of-contents, search results), and reinforces the article's core message before the reader commits to the full text.
 - **Scope:** 70 articles across `src/content/articles/` use this heading.
@@ -169,10 +187,12 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
   6. **QA:** Build locally and spot-check table-of-contents rendering, anchor links, and heading hierarchy for a sample of articles from each series.
 
 ### Item 19: QA — Fix merged H2 headings in BLUF sections across all articles
+
 - **Status:** ✅ Done
 - **Resolution:** All merged H2 headings across the article corpus were identified and split correctly.
 
 ### Item 20: QA — Full article structure, editorial guidelines, and resources audit
+
 - **Status:** ✅ Done
 - **Why:** Articles have not been systematically reviewed for consistent structure, adherence to editorial guidelines (non-partisan tone, domain language, heading hierarchy), and the presence of a Resources section. Inconsistencies could undermine reader trust and the site's educational mission.
 - **Action plan:**
@@ -191,12 +211,14 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
   3. Build locally and check that the table of contents and heading hierarchy render correctly for each fixed article.
 
 ### Item 21: Fix Resource formatting for all articles
+
 - **Status:** ✅ Done
 - **Why:** Resource sections across articles may have inconsistent formatting (e.g. varying list styles, missing link text, inconsistent heading levels, or broken markup) that undermines readability and the professional quality of the site.
 - **Action:** Audit and standardise the `## Resources` section formatting across all articles in `src/content/articles/`, ensuring consistent list style, proper link markup, and uniform presentation.
 - **Resolution:** Audited all 76 articles and standardised 28 that had inconsistent formatting. Fixed: (1) 6 articles (3-1 through 4-3) converted from paragraph format with bold sub-headings and plain URLs to bullet list with markdown links. (2) 15 eg-series articles converted from various paragraph/prose formats with bold source names to bullet list format. (3) 4 ra-4-x articles had plain URLs converted to markdown links. (4) 2 ra-5-x articles converted from prose paragraphs to bullet list. (5) 2 articles (eg-1-1, eg-4-2) had heading corrected from "Resources and Institutional Sources" to "Resources". (6) All intro lines standardised to "The analysis in this article draws on the following institutional research and publications:". All internal cross-reference links preserved. Build verified clean.
 
 ### Item 34: Batched editorial standards review across all articles
+
 - **Status:** ✅ Done — all 5 batches complete (2026-04-27)
 - **Why:** Item 20 covered structural and domain-language consistency, but articles have not been systematically audited against the full Content Style Guide — voice (direct address, BLUF, lead-with-specifics, O'Reilly register), evidentiary standards (data-anchored claims, visible sources, no speculation as fact), non-partisan tone, the 4,500-word minimum (lowered 2026-04-14), and the requirement that every article close with a practical tool (framework, checklist, data source, or complaint mechanism). With ~77 articles across 5 series, a batched approach is needed to keep review tractable and maintain thematic context.
 - **Standards checklist (applied per article):**
@@ -218,83 +240,95 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
   5. Re-run automated pass to confirm no regressions before moving to next batch.
 - **Batch 1 resolution (2026-04-27):** Core Series (15 articles) closed. Initial review on 2026-04-14 identified 2 blockers and ~30 should-fix items grouped into 7 patterns (SF-1 to SF-7). Verification on 2026-04-27 confirmed all blockers and SF patterns resolved in the corpus, with two residual fixes applied directly: (1) `2-3` first-use definition for "load shedding"; (2) `5-3` replacement of an unsourced "2025 PARI study" reference with attribution to the IEC's 2021 voter-registration statistics and PARI / GGLN local-governance research, plus added Resources entries. Final verdict: 15/15 Pass, 0 blockers, 0 should-fix outstanding. Build clean (104 pages). See `reviews/batch-1-core-series.md`.
 - **Batch 2 resolution (2026-04-27):** Economic Growth & Development (17 articles, up from 16 at original review on 2026-04-14 with the insertion of `eg-2-3-financing-the-build` and renumbering of efficiency-transition / innovation-driven-growth). Initial review identified 0 blockers and ~25 should-fix items across 6 patterns (SF-1 to SF-6). Verification on 2026-04-27 confirmed SF-1, SF-3 (eg-1-1 comparator anchors), SF-4, and SF-5 fully resolved in the corpus. SF-2 expert-block attribution sweep: 29 of 43 blocks fully attributed at verification time; three additional blocks rewritten directly during closure to drop institutional citations that could not carry a specific year (`eg-4-1` and `eg-4-2` Treasury MFIP blocks reframed around Section 71 / Municipal Money portal respectively, `eg-2-5` World Bank Innovation Policy Platform block reframed as a comparative historical observation about South Korea, Finland, and Israel). 9 remaining SF-2 blocks reference multi-paper research consensus where the current framing is the honest attribution and single-paper citation would be misleading — left as-is. New article `eg-2-3-financing-the-build` triaged Pass independently. Automated pass clean across all 17 EG articles. Final verdict: 17/17 Pass, 0 blockers, 0 should-fix blocking publication. See `reviews/batch-2-economic-growth.md`.
-- **Batch 3 resolution (2026-04-27):** Human Development (15 articles) closed. Initial review on 2026-04-14 identified 2 blockers (B1 `:::expert-perspective` directive, B2 HDI/IHDI 0.741/0.462 vs 0.713/0.468 inconsistency) plus ~20 should-fix items across 5 patterns. Verification on 2026-04-27 confirmed B1 fully resolved (zero `expert-perspective` directives in corpus), B2 fully resolved (all five flagged articles unified on UNDP HDR 2023/24 figures 0.713 / 0.468 with explicit citation in hd-1-1 and hd-1-2; "37.6% penalty" framing replaced with "approximately 34%"), SF-1 fully resolved (`## References` → `## Resources`, `sphere` → `pillar`, poverty lines anchored to "for 2023"), and SF-2 fully resolved (`hd-4-1` Rwanda already reads "every tier of the Rwandan state"). Five residual fixes applied directly during closure: (1) `hd-1-4` reference 6 reconciled — was "*National Poverty Lines 2024*" with R1,417 contradicting body's R1,558, now cites 2023 release matching body; (2) `hd-1-3` homicide rate aligned to hd-2-2 — both occurrences updated from "42 per 100,000" to "45 per 100,000" with SAPS *Annual Crime Statistics 2022/23* anchor on first use; (3) `hd-5-2` unemployment figure corrected — was "33 per cent (expanded definition)" which is actually the narrow rate, now reads "42 per cent (Stats SA *Quarterly Labour Force Survey*, expanded definition)" matching hd-1-3 and reality of QLFS data; (4) `hd-5-1` Constitutional Court Resources entry upgraded with neutral citations — Grootboom [2000] ZACC 19; 2001 (1) SA 46 (CC); TAC (No 2) [2002] ZACC 15; 2002 (5) SA 721 (CC); Mazibuko [2009] ZACC 28; 2010 (4) SA 1 (CC). SF-3 attribution sweep: most expert-block / headline figure anchors already in place at verification time (UNAIDS 2023 country estimates, SAPS 2022/23, Treasury *Budget Review 2024*, 2023/24 financial year for education spend); remaining ~5 minor anchors left as nits per review's own categorisation. SF-5 (uneven `:::framework` block usage) noted in original review as "consideration, not a blocker" — left as-is since all articles deliver practical tools in some form. Automated pass clean across all 15 HD articles (0 word-count, frontmatter, linkage, emoji, or forbidden-term issues). Final verdict: 15/15 Pass, 0 blockers, 0 should-fix blocking publication. See `reviews/batch-3-human-development.md`.
-- **Batch 4 resolution (2026-04-27):** Reform Agenda (17 articles, up from 16 at original review on 2026-04-14 with `ra-5-3-the-integrated-reform-programme` slotted ahead of the capstone `ra-5-4-from-citizen-to-reformer`). Initial review identified 6 blockers (B1–B6, all partisan-drift) and ~30 should-fix items across 5 patterns (SF-1 to SF-5). Verification on 2026-04-27 confirmed B2 (ra-2-3 title-deed multi-administration framing), B3 (ra-2-3 Implementation Pathway institutional-incentive language), B4 (ra-4-4 ANC attribution stripped + universal "any governing party" framing), B5 (ra-5-2 Eskom case study leads with structural-vulnerability framing), and B6 (ra-3-2 automatic-enforcement passage stripped of party reference, now reads "shield allies or target opponents — a dynamic that affects any multi-party system where enforcement is discretionary") fully resolved in the corpus. B1 (ra-2-3 Responsibility section emotive litany) closed by trimming "structural cracks, inadequate sewerage, undelivered title deeds years after occupation" to a structural reframe matching the review's recommended language. SF-1 fully resolved across ra-1-2, ra-2-1, and ra-2-2 (Zondo + Gupta universal-vulnerability framing, MEC Schedule 4 structural anchor, NHI/alternative reform parity language). SF-2 attribution sweep: ra-1-1 RAARICLE acronym now expanded on first use ("**R**esponsibility, **A**ccountability, **A**uthority, **R**esources, **I**nformation, **C**apability, **L**egitimacy, and **E**nforcement"); ra-2-1 OECD anchored to *2023 review of education decentralisation*; ra-2-2 Stop Stock Outs framed as a civil society monitoring initiative since 2013 with link in Resources; ra-4-3 IMESA quote anchored to *Technical Staffing Analysis* February 2026; ra-4-4 Free State vacancy figures soft-anchored to "AGSA MFMA audit reporting and DCoG vacancy data" (both already in the article's Resources section); Dullah Omar Institute citation precise (*Skills Mismatch in South African Local Government*, Local Government Bulletin Vol 15 Issue 4, December 2020); LGSETA citation precise (2022-2023 research reports). SF-3 (severity-rating examples) already grounded — rural-municipality compounding example anchored to AGSA 2022-23 municipal audit outcomes ("only 41 of 257 municipalities received clean audits", "R27.3 billion fruitless and wasteful expenditure"), severity scale anchored with the SARS enforcement example. SF-4 forbidden-term sweep clean across the ra-* batch (0 hits in the automated pass). SF-5 minor editorial fixes already in place — "comprehensively clear" / "manifestly dysfunctional" replaced the original emotive phrasings in ra-1-1, "honest answer" not present in ra-1-2, ra-4-2 City Power R4.3bn loss anchored to "the period ending 30 June 2025", ra-5-2 Gupta-era anchored to "between roughly 2012 and 2018" and ra-1-2 to "during roughly 2009 to 2018". ra-5-4 capstone cross-link slugs all verified extant (13/13 unique slugs resolve to existing articles). ra-2-4 spot-read confirmed clean on partisan framing — references to the state capture era are structural (single point of compromise, weaponisation of Crime Intelligence) and the "three-tier policing architecture" is the article's proposed model rather than a sphere-synonym. Automated pass clean across all 17 RA articles (0 word-count, frontmatter, linkage, emoji, or forbidden-term issues). Build clean (101 pages). Final verdict: 17/17 Pass, 0 blockers, 0 should-fix blocking publication. See `reviews/batch-4-reform-agenda.md`.
+- **Batch 3 resolution (2026-04-27):** Human Development (15 articles) closed. Initial review on 2026-04-14 identified 2 blockers (B1 `:::expert-perspective` directive, B2 HDI/IHDI 0.741/0.462 vs 0.713/0.468 inconsistency) plus ~20 should-fix items across 5 patterns. Verification on 2026-04-27 confirmed B1 fully resolved (zero `expert-perspective` directives in corpus), B2 fully resolved (all five flagged articles unified on UNDP HDR 2023/24 figures 0.713 / 0.468 with explicit citation in hd-1-1 and hd-1-2; "37.6% penalty" framing replaced with "approximately 34%"), SF-1 fully resolved (`## References` → `## Resources`, `sphere` → `pillar`, poverty lines anchored to "for 2023"), and SF-2 fully resolved (`hd-4-1` Rwanda already reads "every tier of the Rwandan state"). Five residual fixes applied directly during closure: (1) `hd-1-4` reference 6 reconciled — was "_National Poverty Lines 2024_" with R1,417 contradicting body's R1,558, now cites 2023 release matching body; (2) `hd-1-3` homicide rate aligned to hd-2-2 — both occurrences updated from "42 per 100,000" to "45 per 100,000" with SAPS _Annual Crime Statistics 2022/23_ anchor on first use; (3) `hd-5-2` unemployment figure corrected — was "33 per cent (expanded definition)" which is actually the narrow rate, now reads "42 per cent (Stats SA _Quarterly Labour Force Survey_, expanded definition)" matching hd-1-3 and reality of QLFS data; (4) `hd-5-1` Constitutional Court Resources entry upgraded with neutral citations — Grootboom [2000] ZACC 19; 2001 (1) SA 46 (CC); TAC (No 2) [2002] ZACC 15; 2002 (5) SA 721 (CC); Mazibuko [2009] ZACC 28; 2010 (4) SA 1 (CC). SF-3 attribution sweep: most expert-block / headline figure anchors already in place at verification time (UNAIDS 2023 country estimates, SAPS 2022/23, Treasury _Budget Review 2024_, 2023/24 financial year for education spend); remaining ~5 minor anchors left as nits per review's own categorisation. SF-5 (uneven `:::framework` block usage) noted in original review as "consideration, not a blocker" — left as-is since all articles deliver practical tools in some form. Automated pass clean across all 15 HD articles (0 word-count, frontmatter, linkage, emoji, or forbidden-term issues). Final verdict: 15/15 Pass, 0 blockers, 0 should-fix blocking publication. See `reviews/batch-3-human-development.md`.
+- **Batch 4 resolution (2026-04-27):** Reform Agenda (17 articles, up from 16 at original review on 2026-04-14 with `ra-5-3-the-integrated-reform-programme` slotted ahead of the capstone `ra-5-4-from-citizen-to-reformer`). Initial review identified 6 blockers (B1–B6, all partisan-drift) and ~30 should-fix items across 5 patterns (SF-1 to SF-5). Verification on 2026-04-27 confirmed B2 (ra-2-3 title-deed multi-administration framing), B3 (ra-2-3 Implementation Pathway institutional-incentive language), B4 (ra-4-4 ANC attribution stripped + universal "any governing party" framing), B5 (ra-5-2 Eskom case study leads with structural-vulnerability framing), and B6 (ra-3-2 automatic-enforcement passage stripped of party reference, now reads "shield allies or target opponents — a dynamic that affects any multi-party system where enforcement is discretionary") fully resolved in the corpus. B1 (ra-2-3 Responsibility section emotive litany) closed by trimming "structural cracks, inadequate sewerage, undelivered title deeds years after occupation" to a structural reframe matching the review's recommended language. SF-1 fully resolved across ra-1-2, ra-2-1, and ra-2-2 (Zondo + Gupta universal-vulnerability framing, MEC Schedule 4 structural anchor, NHI/alternative reform parity language). SF-2 attribution sweep: ra-1-1 RAARICLE acronym now expanded on first use ("**R**esponsibility, **A**ccountability, **A**uthority, **R**esources, **I**nformation, **C**apability, **L**egitimacy, and **E**nforcement"); ra-2-1 OECD anchored to _2023 review of education decentralisation_; ra-2-2 Stop Stock Outs framed as a civil society monitoring initiative since 2013 with link in Resources; ra-4-3 IMESA quote anchored to _Technical Staffing Analysis_ February 2026; ra-4-4 Free State vacancy figures soft-anchored to "AGSA MFMA audit reporting and DCoG vacancy data" (both already in the article's Resources section); Dullah Omar Institute citation precise (_Skills Mismatch in South African Local Government_, Local Government Bulletin Vol 15 Issue 4, December 2020); LGSETA citation precise (2022-2023 research reports). SF-3 (severity-rating examples) already grounded — rural-municipality compounding example anchored to AGSA 2022-23 municipal audit outcomes ("only 41 of 257 municipalities received clean audits", "R27.3 billion fruitless and wasteful expenditure"), severity scale anchored with the SARS enforcement example. SF-4 forbidden-term sweep clean across the ra-\* batch (0 hits in the automated pass). SF-5 minor editorial fixes already in place — "comprehensively clear" / "manifestly dysfunctional" replaced the original emotive phrasings in ra-1-1, "honest answer" not present in ra-1-2, ra-4-2 City Power R4.3bn loss anchored to "the period ending 30 June 2025", ra-5-2 Gupta-era anchored to "between roughly 2012 and 2018" and ra-1-2 to "during roughly 2009 to 2018". ra-5-4 capstone cross-link slugs all verified extant (13/13 unique slugs resolve to existing articles). ra-2-4 spot-read confirmed clean on partisan framing — references to the state capture era are structural (single point of compromise, weaponisation of Crime Intelligence) and the "three-tier policing architecture" is the article's proposed model rather than a sphere-synonym. Automated pass clean across all 17 RA articles (0 word-count, frontmatter, linkage, emoji, or forbidden-term issues). Build clean (101 pages). Final verdict: 17/17 Pass, 0 blockers, 0 should-fix blocking publication. See `reviews/batch-4-reform-agenda.md`.
 - **Batch 5 resolution (2026-04-27):** Safety & Security (15 articles) closed. Initial automated pass flagged 4 articles below the 4,500-word minimum (`ss-2-5` −1,030, `ss-2-4` −531, `ss-3-5` −52, `ss-3-1` −30) and 2 forbidden-term hits ("level of government" in `ss-1-1` and `ss-3-1`). Three parallel manual review subagents covering 5/5/5 articles surfaced 10 candidate blockers (all clustering in two patterns: forbidden-term discipline and time-anchoring of DCS/SAPS/NPA/fiscal figures) plus one minor partisan-drift edge case in `ss-2-5` and one methodology gap in `ss-4-2`. Fixes applied: (1) forbidden-term sweep — `ss-1-1` "highest levels of government" → "highest reaches of the apartheid state", `ss-1-1` "alternative policing tier" → "alternative policing sphere", `ss-3-1` APCOF expert block "multiple levels of government" → "multiple spheres of government"; (2) evidentiary precision — `ss-2-3` remand-population and 200% capacity figures anchored to JICS and DCS Annual Report 2022/23, `ss-2-1` 5–8.5% conversion-ratio takeaway carries explicit illustrative caveat referencing SAPS / NPA / Stats SA VOCS / DoJ annual reports, `ss-3-5` 40% recidivism rate cites DCS Annual Report alongside NICRO and CSVR with 40–55% range, `ss-3-5` "Two decades later" anchored to the most recent DCS Annual Report (2022/23), `ss-3-5` facility-population figure anchored to DCS AR 2022/23, `ss-4-2` 2024/25 JCPS allocation reframed as "the most recent published financial year for which a full Estimates of National Expenditure breakdown is available", `ss-4-2` R30–47bn reform-cost range carries explicit derivation note with named risk dimensions; (3) partisan-drift discipline — `ss-2-5` "direct legacy of apartheid spatial planning" reframed to present-tense "patterns rooted in apartheid-era spatial planning... that have not been reversed by post-1994 reforms"; (4) word-count expansions delivered through substantive content additions rather than padding — `ss-2-4` gained an H3 subsection inside Stage Two ("What the Investigation Stage Looks Like From the Survivor's Side" — medico-legal examination, intermittent-contact pattern, the silence between contacts, structural origins of "uncooperative complainant" classification) plus a tightening sentence in Stage Three; `ss-2-5` gained a new H3 ("The Uneven Geography of Private Safety") with concrete cost differentials between estate suburbs and townships, a new political-economy paragraph walking through the safety-exit mechanism (homeowner does not call ward councillor, does not raise at CPF, does not lobby MP), a historical-origins paragraph anchoring the industry's emergence in late-1980s SADF/SAP downsizing and post-1994 mass-market growth, and an Accountability Gap expansion documenting practical inaccessibility of PSIRA and civil-court remedies for non-consumer complainants; `ss-3-1` expanded technology-gap paragraph with comparative anchor (UK, France, Kenya integrated case-management platforms since the 2010s) and explicit non-interoperability list (CAS does not connect to NPA case files, DoJ court roll, or DCS admissions); `ss-3-5` brought to 4,504 by the recidivism-citation expansion alone. SF nits left in place per Batch 1–4 precedent (date-anchoring on PSIRA / SAPS headline figures cited multiple times across the series with Resources-section anchoring; expert-block specific-publication anchors; rhetorical-phrase tone refinements within O'Reilly register; ss-2-4 subtitle retained as intentional emphasis on scale). Automated pass clean across all 15 SS articles (0 word-count, frontmatter, linkage, emoji, or forbidden-term issues). Build clean (101 pages, Pagefind 103 indexed). Final verdict: 15/15 Pass, 0 blockers, 0 should-fix blocking publication. See `reviews/batch-5-safety-security.md`.
 - **Closure (2026-04-27):** All 5 batches complete. Across the corpus (79 articles): 0 word-count gaps, 0 frontmatter issues, 0 linkage issues, 0 emoji, 0 forbidden-term hits. The full editorial standards review applied to the 15-article core series, the 17-article economic growth series, the 15-article human development series, the 17-article reform agenda series, and the 15-article safety & security series is now closed. Item 34 → Done.
-- **Batch 5 should-fix follow-up (2026-04-27):** SF nits initially deferred at closure were applied in a follow-up pass. Sixteen targeted fixes across `ss-1-2` (full-name rendering for Zuma/Mbeki), `ss-2-1` (DNA backlog anchored to 2015–2016 AGSA / SAPS Forensic Services reporting; sexual-offences conviction ratio quantified at 4–8% from NPA annual reports and Stats SA VOCS), `ss-2-2` (international 30–40 detective-caseload benchmark added; ISS attribution for 150–200 figure; PSIRA + ISS attribution for "largest in the world" claim), `ss-2-3` (TB rate anchored to JICS + Department of Health; *Lee v Minister of Correctional Services* (2013) added as legal anchor for state liability), `ss-2-4` (SAPS sexual-offences anchored to 2022/23 ~53,000 cases; SAMRC prevalence + femicide-rate citations tightened; forensic backlog anchored to SAPS Forensic Services and AGSA), `ss-2-5` (PSIRA 2.7M and SAPS 190,000 both anchored to most-recent annual reports), `ss-3-1` (Limpopo 5.8M anchored to Stats SA mid-year estimate), `ss-3-2` (80–150 detective caseload ISS-anchored; Scorpions conviction rate quantified at >90% with multi-source attribution), `ss-3-3` (Hatfield Community Court founding anchored to early 2000s), and `ss-4-2` (World Bank 10–14% GDP cost anchored to 2018 *Overcoming Poverty and Inequality in South Africa*; R100bn tourism figure anchored to "the most recent year for which complete South African Tourism data is available"; "performative toughness" reframed as structural-misalignment language removing implicit editorial commentary). Items intentionally retained: ss-2-4 subtitle (intentional emphasis), ss-3-4 statutory-schedule precision, ss-3-5 Halden tone (already supported by surrounding evidence), ss-4-3 ONS attribution (already in place). Automated pass remains clean (79/79). Build remains clean (101 pages).
+- **Batch 5 should-fix follow-up (2026-04-27):** SF nits initially deferred at closure were applied in a follow-up pass. Sixteen targeted fixes across `ss-1-2` (full-name rendering for Zuma/Mbeki), `ss-2-1` (DNA backlog anchored to 2015–2016 AGSA / SAPS Forensic Services reporting; sexual-offences conviction ratio quantified at 4–8% from NPA annual reports and Stats SA VOCS), `ss-2-2` (international 30–40 detective-caseload benchmark added; ISS attribution for 150–200 figure; PSIRA + ISS attribution for "largest in the world" claim), `ss-2-3` (TB rate anchored to JICS + Department of Health; _Lee v Minister of Correctional Services_ (2013) added as legal anchor for state liability), `ss-2-4` (SAPS sexual-offences anchored to 2022/23 ~53,000 cases; SAMRC prevalence + femicide-rate citations tightened; forensic backlog anchored to SAPS Forensic Services and AGSA), `ss-2-5` (PSIRA 2.7M and SAPS 190,000 both anchored to most-recent annual reports), `ss-3-1` (Limpopo 5.8M anchored to Stats SA mid-year estimate), `ss-3-2` (80–150 detective caseload ISS-anchored; Scorpions conviction rate quantified at >90% with multi-source attribution), `ss-3-3` (Hatfield Community Court founding anchored to early 2000s), and `ss-4-2` (World Bank 10–14% GDP cost anchored to 2018 _Overcoming Poverty and Inequality in South Africa_; R100bn tourism figure anchored to "the most recent year for which complete South African Tourism data is available"; "performative toughness" reframed as structural-misalignment language removing implicit editorial commentary). Items intentionally retained: ss-2-4 subtitle (intentional emphasis), ss-3-4 statutory-schedule precision, ss-3-5 Halden tone (already supported by surrounding evidence), ss-4-3 ONS attribution (already in place). Automated pass remains clean (79/79). Build remains clean (101 pages).
 
 ---
 
 ## Reform Roadmap Page Improvements
 
 ### Item 22: Fix "Institutional Reforms reforms" redundancy in stats bar
+
 - **Status:** ✅ Done
 - **Why:** The stats bar renders `{ws.shortTitle} reforms`, but the reform-agenda workstream's `shortTitle` is "Institutional Reforms", producing the redundant text "Institutional Reforms reforms".
 - **Action:** Fix in `src/pages/real-steps-to-reform.astro` or `src/data/reforms.ts` so the label reads correctly.
 - **Resolution:** Changed `shortTitle` from "Institutional Reforms" to "Institutional" in `src/data/reforms.ts`. This aligns with the other single-word shortTitles (Safety, Economy, People) and fixes the redundancy across all four usage sites (stats bar, filter buttons, timeline labels, legislative badges).
 
 ### Item 23: Add text search filter for reform cards
+
 - **Status:** ✅ Done
 - **Why:** With 84 reforms on a single page, readers have no way to quickly find reforms relevant to a specific topic (e.g. "water", "education", "policing") without scrolling through the entire page.
 - **Action:** Add a search input above the reform cards that filters cards in real-time by matching title and description text. Must be lightweight client-side JS to stay within page-weight budget.
 - **Resolution:** Added a search input with magnifying glass icon to the sticky filter bar in `src/pages/real-steps-to-reform.astro`. Searches against full card text content (title + description) with 150ms debounce. Also added a live reform count indicator ("15 of 84 reforms") that updates on any filter change (workstream, phase, or search). Empty phase sections and workstream sections auto-hide when all their cards are filtered out. Build verified clean.
 
 ### Item 24: Add on-page table of contents / jump links
+
 - **Status:** ✅ Done
 - **Why:** The page is very long. Readers need a way to jump directly to sections (Timeline, Milestones, RAARICLE Framework, each Workstream, Legislative Programme, Cross-Cutting Enablers) without scrolling.
 - **Action:** Add a compact TOC near the top of the page with anchor links to each major section.
 - **Resolution:** Added `id` and `scroll-mt-32` attributes to all 9 major sections (timeline, milestones, raaricle, 4 workstreams, legislative, enablers). Added a compact inline `<nav>` between the stats bar and workstream filter with "Jump to:" label and colour-coded links. Workstream links use their workstream colour; other links use compass-green. Build verified clean.
 
 ### Item 25: Show visible reform count after filtering
+
 - **Status:** ✅ Done
 - **Why:** When a workstream or phase filter is active, readers have no feedback on how many reforms match. Showing "Showing 15 of 84 reforms" near the filter bar gives immediate orientation.
 - **Action:** Add a live count indicator near the workstream filter bar that updates when filters change.
 - **Resolution:** Implemented as part of Item 23. A `<span id="reform-count">` in the filter bar shows "84 reforms" when unfiltered and "X of 84 reforms" when any filter (workstream, phase, or search) is active. Updated by the `applyFilters()` function on every filter change.
 
 ### Item 26: Sync filter state to URL
+
 - **Status:** ✅ Done
 - **Why:** Workstream and phase filters are purely in-memory JS — the state is lost on page reload. Readers cannot share or bookmark a filtered view.
 - **Action:** Sync active workstream and phase to URL hash or query params (e.g. `?ws=safety-security&phase=phase-1`). Read from URL on page load.
 - **Resolution:** Added URL query-param sync for all three filters in `src/pages/real-steps-to-reform.astro`: `ws`, `phase`, and `q` (search). `syncUrl()` runs at the end of `applyFilters()` via `history.replaceState` so no new history entries are created. On page load, an IIFE reads the params, validates `ws`/`phase` against the known sets of IDs (ignoring unknown values), restores the search input value, applies the correct active-button styles via a new shared `setWorkstreamButtonStyles()` helper, and calls `applyFilters()`. The phase param is only honoured when a specific workstream is active, matching the in-page behaviour. Refactored both click handlers to use the shared helper, removing ~30 lines of duplicated button-styling code. Filtered views are now shareable and bookmarkable.
 
 ### Item 27: Add phase shade differentiation in timeline
+
 - **Status:** ✅ Done
 - **Why:** Each workstream's timeline phases use the same solid colour, making it hard to visually distinguish Phase 1 from Phase 3 at a glance.
 - **Action:** Use progressive opacity or shade (e.g. 70%, 85%, 100%) for Phase 1 → 2 → 3 within each workstream's timeline bar.
 - **Resolution:** Applied progressive inline opacity (Phase 1 = 0.7, Phase 2 = 0.85, Phase 3 = 1.0) to `.reform-phase-btn` in `src/pages/real-steps-to-reform.astro`, so each workstream's bar now visibly darkens left-to-right across the 10 years. Replaced the previous `hover:opacity-90` class with `hover:brightness-110` because inline opacity would have overridden the Tailwind hover utility, and brightness gives a consistent hover affordance across all three shade levels. White text remains legible against the lightest (0.7) shade for all four workstream colours.
 
 ### Item 28: Add dependency indicators to reform cards
+
 - **Status:** ✅ Done
 - **Why:** Cross-workstream dependencies are only mentioned in a callout box. Individual reform cards don't show which other reforms they depend on or enable.
 - **Action:** Add an optional `dependsOn` field to the Reform interface and render small dependency tags (e.g. "Depends on: 1.1, 1.5") on relevant cards.
 - **Resolution:** Added `dependsOn?: string[]` to the `Reform` interface in `src/data/reforms.ts`. Populated four textually-obvious dependency chains where the description or legislative field literally references an earlier reform: 2.1 → 1.5 (community courts use Track A defined by the case-flow triage), 3.1 → 2.3 (nationwide three-tier policing rolls out phase-2 pilots), 3.3 → 2.2 (structured guidelines implement the Sentencing Commission), 3.4 → 1.4 (full ICJS expands the digital case management system). Cross-workstream dependencies were left to the owner to populate since they require content judgment beyond what's explicit in the existing text. In `real-steps-to-reform.astro`: built a `reformTitleById` map at the page level; added a "Depends on: X, Y" row in the expanded card details beside the existing Scope/Legislative metadata; each dep renders as a small pill `<a href="#reform-X">` with a `title` tooltip of `id — title` for screen readers and mouse users. Each `<details>` card now carries `id="reform-{id}"` with `scroll-mt-32` and a `target:border-compass-green` highlight so anchor navigation works and the jumped-to card is visually distinct. Added a dep-link click handler that (a) resets any active workstream/phase/search filters when they would otherwise hide the target and (b) sets `target.open = true` so the jumped-to card expands automatically. Build verified clean.
 
 ### Item 29: Make scorecard section actionable with targets
+
 - **Status:** ✅ Done
 - **Why:** The "Example Scorecard" section is a plain numbered list with no baseline or target data, making it hard for citizens to use for accountability.
 - **Action:** Convert the scorecard to a table with columns: Outcome, Baseline, Year 5 Target, Year 10 Target.
 - **Resolution:** Added a `ScorecardOutcome` interface (`{ outcome: string; baseline?: string; year5?: string; year10?: string }`) to `src/data/reforms.ts` and migrated `scorecardOutcomes` from `Record<WorkstreamId, string[]>` to `Record<WorkstreamId, ScorecardOutcome[]>`, wrapping all 50 existing outcome names into `{ outcome: "..." }` objects so the structural change is non-destructive and the outcome text is preserved verbatim. Baseline/year5/year10 were deliberately left empty — populating them requires authoritative SA data (Stats SA, SAPS crime stats, NIDS, World Bank, etc.) and is an editorial/content decision that belongs to the owner, not content I should invent. Replaced the 2-column `<ol>` grid in `src/pages/real-steps-to-reform.astro` with a proper `<table>`: thead with Outcome/Baseline/Year 5 Target/Year 10 Target columns, `scope="col"` for accessibility, a coloured bottom border on the header matching the workstream colour, and row-by-row rendering with `—` (em-dash) fallback for any empty cell. Wrapped the table in `overflow-x-auto -mx-4 px-4` so it scrolls horizontally on narrow mobile viewports without breaking the page layout. Added an explanatory line under the heading: "Baselines and targets will be populated as the scorecard is operationalised — empty cells are shown as '—'." Build verified clean.
 
 ### Item 30: Group legislative items by type
+
 - **Status:** ✅ Done
 - **Why:** The 14 legislative items are listed flat. Grouping by type (New statutes, Amendments, Constitutional) would make the legislative programme easier to scan.
 - **Action:** Add sub-headings or visual grouping by `type` in the Legislative Programme section.
 - **Resolution:** Built a `legislativeGroups` array in the frontmatter of `src/pages/real-steps-to-reform.astro` that splits `legislativeItems` into three typed groups in the natural ordering: New Statutes → Amendments to Existing Legislation → Possible Constitutional Amendment. Each group carries its own heading with a live count suffix, a one-line description framing the group ("Wholly new legislation required to create institutions or frameworks that do not currently exist.", "Changes to existing Acts to enable or implement the reform programme.", "Changes to the Constitution — to be pursued only if legislative reform proves insufficient."), and its items. Empty groups are filtered out so the page gracefully handles future data changes. Replaced the flat `.map()` over `legislativeItems` with a nested render that iterates groups first, then items within each group. Dropped the per-row type pill (New/Amendment/Constitutional) from each card since the group heading already communicates type — this de-clutters the row and leaves room for the workstream pill and phase years to remain legible on mobile. The intro paragraph above the groups still shows the total count and the New/Amendment/Constitutional breakdown, so the high-level split is visible before scrolling. Build verified clean.
 
 ### Item 31: Add expand all / collapse all for reform cards
+
 - **Status:** ✅ Done
 - **Why:** With 84 collapsible `<details>` elements, readers exploring a workstream may want to expand or collapse all cards at once.
 - **Action:** Add "Expand all / Collapse all" toggle buttons per workstream section.
 - **Resolution:** Added a two-button `role="group"` beneath each workstream's vision paragraph in `src/pages/real-steps-to-reform.astro` containing "Expand all" and "Collapse all" buttons. Each button carries `data-workstream={ws.id}` and `data-action="expand"|"collapse"`, so a single delegated JS handler can target only the cards belonging to that workstream by selecting `.reform-card[data-workstream="${ws}"]` and setting `card.open` to true/false. Placement is indented under the workstream title (`ml-7`) to visually attach to the section without competing with the heading. Works correctly alongside the existing filter state — expanding while a filter is active still only affects the filtered-in cards that belong to the workstream, since hidden cards with `display: none` still receive the `open` attribute change but only become visible when the filter is cleared. `aria-label` on the group explains the control ("Expand or collapse {workstream} reform cards"). Build verified clean.
 
 ### Item 32: Show scope badges on collapsed reform card summaries
+
 - **Status:** ✅ Done
 - **Why:** The scope (national/provincial/municipal) is only visible when a card is expanded. Showing scope pills on the collapsed summary lets readers scan for reforms at their sphere of interest.
 - **Action:** Render scope badges in the `<summary>` element of each reform card.
 - **Resolution:** Added a conditional scope pill row inside each `<summary>` in `src/pages/real-steps-to-reform.astro`, rendered between the title and the disclosure chevron. Scope values are abbreviated to "Nat" / "Prov" / "Mun" so 1–3 pills fit comfortably beside the title on desktop without pushing the chevron off-screen. Each pill carries a `title` attribute with the full scope name ("National" / "Provincial" / "Municipal") for tooltip-on-hover and assistive-tech disambiguation. The container is `hidden sm:flex` so scope pills only appear from the `sm` breakpoint upward — on mobile the summary stays compact with just ID, title, and chevron, and full scope info is still visible after tapping to expand (the existing Scope row in the detail panel is unchanged). Build verified clean.
 
 ### Item 33: Verify source footer link target
+
 - **Status:** ✅ Done (no change needed)
 - **Why:** The source footer links to `/big-picture` — need to verify this route exists and is the correct destination for the series landing page.
 - **Action:** Check route exists; fix if broken.
@@ -305,24 +339,28 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 ## High Priority — Content: Pillar ↔ Reform Agenda Alignment
 
 ### Item 35: Add framework cross-links from Reform Agenda to Pillar diagnostic frameworks
+
 - **Status:** ✅ Done
 - **Why:** Commit `5c4551d` added `:::framework` diagnostic sections (e.g. Fiscal Pipeline Diagnostic, Provincial Governance Diagnostic, Municipal Capability Diagnostic) to 12 Pillar articles. No Reform Agenda article currently references these frameworks, missing the opportunity to connect reform proposals to the foundational diagnostic tools readers have already encountered.
 - **Action:** Add `crossLinks` frontmatter entries and/or in-body references from relevant RA articles to the Pillar framework sections. Key mappings: ra-2-1/ra-2-2/ra-2-3 → Fiscal Pipeline Diagnostic (2-1); ra-3-1/ra-3-3 → Provincial frameworks (3-1, 3-2); ra-4-1 through ra-4-4 → Municipal framework (3-3); ra-5-3 → Citizen participation frameworks (4-1, 5-1, 5-2).
 - **Resolution:** Added 18 new `crossLinks` entries across 12 RA articles. Each cross-link references the specific framework name from the Pillar article (e.g. "The Fiscal Pipeline Diagnostic for tracing education budget failures", "The Council Accountability Framework for municipal water governance"). Also updated existing cross-link relationship descriptions to reference framework names where applicable (e.g. ra-3-1's link to 3-1 now mentions "Provincial Performance Assessment Framework", ra-5-3's links now reference "Participation Action Framework" and "Audit Outcome Interrogation Framework").
 
 ### Item 36: Align research citation precision between Pillar and Reform Agenda articles
+
 - **Status:** ✅ Done
 - **Why:** Commit `75e5256` added specific publication dates, report titles, and edition years to research citations across all 15 Pillar articles (e.g. PARI fieldwork "2014–2020", SACN "2016 and 2021 cycles", Spaull "2013 CDE report", FFC "2023/24 Submission", PBO "2023 and 2024 MTBPS analyses"). Where Reform Agenda articles cite the same sources, the citation specificity should match for editorial consistency and credibility.
 - **Action:** Audit and update citations in RA articles that reference the same research sources updated in Pillar articles: PARI (ra-1-2, ra-3-2), SACN (ra-4-4), Spaull/RESEP (ra-2-1), FFC (ra-3-1), PBO (ra-5-1), PMG (ra-5-3), Naidoo Section 100 (ra-3-3), municipal debt R300B figure (ra-2-1), municipal grant underspending R5.8B (ra-4-1 through ra-4-3).
-- **Resolution:** Audited all 16 RA articles. Updated: (1) ra-3-1 FFC citation now specifies "*Submission for the Division of Revenue 2023/24*"; (2) ra-3-1 PARI citation now dates fieldwork "between approximately 2014 and 2020"; (3) ra-5-3 PMG citation now includes founding date (1998) and references "2022 *Monitoring Parliament* reviews"; (4) ra-2-1 TIMSS data now specifies "TIMSS 2019" with score detail matching Pillar precision; (5) ra-3-3 resources section now includes Naidoo's specific publications (*Politikon* 36(2) 2009 and Springer *Handbook of Federal Countries* 2020) and dates PARI fieldwork. Sources that were flagged but do not appear in RA articles (SACN, PBO, Spaull/RESEP, NEEDU, medico-legal, municipal debt R300B, grant underspending R5.8B) — no changes needed as these are Pillar-only citations.
+- **Resolution:** Audited all 16 RA articles. Updated: (1) ra-3-1 FFC citation now specifies "_Submission for the Division of Revenue 2023/24_"; (2) ra-3-1 PARI citation now dates fieldwork "between approximately 2014 and 2020"; (3) ra-5-3 PMG citation now includes founding date (1998) and references "2022 _Monitoring Parliament_ reviews"; (4) ra-2-1 TIMSS data now specifies "TIMSS 2019" with score detail matching Pillar precision; (5) ra-3-3 resources section now includes Naidoo's specific publications (_Politikon_ 36(2) 2009 and Springer _Handbook of Federal Countries_ 2020) and dates PARI fieldwork. Sources that were flagged but do not appear in RA articles (SACN, PBO, Spaull/RESEP, NEEDU, medico-legal, municipal debt R300B, grant underspending R5.8B) — no changes needed as these are Pillar-only citations.
 
 ### Item 37: Verify heading/anchor consistency after Pillar heading rename
+
 - **Status:** ✅ Done
 - **Why:** The heading in `3-3-municipal-councils.md` was renamed from "The Governance Gap That Affects You Most" to "A Governance Gap the Council Does Not Close". Any RA article linking to the old anchor would produce a broken in-page link.
 - **Action:** Search all RA articles for references to the old heading text or its slug anchor. Fix any broken references.
 - **Resolution:** Searched all RA articles for "governance-gap-that-affects" and "Governance Gap That Affects" — zero matches. No broken anchors.
 
 ### Item 38: Verify build after Pillar ↔ Reform Agenda alignment changes
+
 - **Status:** ✅ Done
 - **Why:** Content changes to crossLinks frontmatter and article body text must compile cleanly against the Zod content schema.
 - **Action:** Run `npm run build` and confirm zero errors.
@@ -333,6 +371,7 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
 ## Medium Priority — Content Imagery
 
 ### Item 39: Back-fill imagery for eg-/hd-/ra-/ss- series articles
+
 - **Status:** In Progress — Batch 1 (Economic Growth) closed 2026-04-29; 3 batches remaining (added 2026-04-28)
 - **Why:** Only the 15 Core series articles (1-x to 5-x) carry imagery. The remaining 64 articles across the four other series have neither inline images nor custom OG images:
   - **Core (15 articles):** 3 inline `.webp` images per article in `public/images/articles/<slug>/`, custom OG image in `public/og/<slug>.png`.
@@ -368,4 +407,4 @@ Prioritised list of non-functional improvements for GovCompass, grouped by impac
   7. **Spot-check distribution:** for 2–3 representative articles in the batch, verify the WhatsApp / Twitter / LinkedIn preview renders with the new OG image (use a preview validator or share link in a test channel).
   8. **Batch report:** produce closure note at `reviews/imagery-batch-N-<series>.md` covering: articles touched, image sources + licences, page-weight delta, and any articles where suitable imagery could not be sourced (so the owner can decide whether to commission original photography for those).
 - **Sequencing rationale:** Economic Growth runs first because it is the lowest-sensitivity batch and the largest test of the sourcing+conversion pipeline before applying it to the more sensitive hd-/ra-/ss- batches. Safety & Security runs last so that lessons from the three prior batches (especially attribution discipline and sensitive-tone framings learned in hd-) are applied to the highest-sensitivity content.
-- **Batch 1 resolution (2026-04-29):** Economic Growth & Development (17 articles, `eg-1-1` … `eg-5-3`) closed. Pipeline validated via the existing `scripts/source-article-images.mjs` (Unsplash demo tier, 680×450 WebP @ q78, automatic markdown insertion after specified H2s, alt-text with photographer attribution). Run sequencing: 3 manual sub-batches on 2026-04-28 (offsets 15/20/23), then 3 cron-driven sub-batches on 2026-04-29 at 23:13 / 00:13 / 01:13 SAST hourly via `CronCreate` job `e0c9b307` with self-detecting offset based on already-imaged eg-* directory count. **51 of 51 placements delivered (100%).** 5 of 51 original queries returned zero Unsplash results on first run and were swapped to generic photographable concepts (caption for `eg-5-2` img-2 also adjusted to drop a Rwanda-specific reference that no longer matched the swapped generic skyline image). All 17 articles now carry 3 inline images each in `public/images/articles/eg-*/`. Disk total: ~2.0 MB across 51 webp files; heaviest article-imagery total 188 KB (`eg-4-1`), lightest 60 KB (`eg-2-5`). Build verified clean (`npm run build && npm run budget:strict`): 0 pages over 450 KB hard limit, all EG article HTML 42–49 KB gzipped (well under 250 KB target). Cron job `e0c9b307` deleted at closure. **Lesson applicable to subsequent batches:** prefer concrete photographable subjects ("hospital ward", "court room") over named-place specificity ("Sandton ...", "Putrajaya ...", "Kigali ...") — Unsplash coverage drops sharply when proper-noun place names are combined with industry terms. Caching gotcha: repeated `--force` re-runs on the same article populate stale `.astro/data-store.json` entries that surface as `[glob-loader] Duplicate id` warnings — harmless, but dev loop should run `rm -rf .astro` before a clean build. OG images still fall back to `/og/default.png` for all 17 EG articles; programmatic generation via `scripts/generate-og-images.py` deferred to a separate decision. See `reviews/imagery-batch-1-economic-growth.md`.
+- **Batch 1 resolution (2026-04-29):** Economic Growth & Development (17 articles, `eg-1-1` … `eg-5-3`) closed. Pipeline validated via the existing `scripts/source-article-images.mjs` (Unsplash demo tier, 680×450 WebP @ q78, automatic markdown insertion after specified H2s, alt-text with photographer attribution). Run sequencing: 3 manual sub-batches on 2026-04-28 (offsets 15/20/23), then 3 cron-driven sub-batches on 2026-04-29 at 23:13 / 00:13 / 01:13 SAST hourly via `CronCreate` job `e0c9b307` with self-detecting offset based on already-imaged eg-_ directory count. **51 of 51 placements delivered (100%).** 5 of 51 original queries returned zero Unsplash results on first run and were swapped to generic photographable concepts (caption for `eg-5-2` img-2 also adjusted to drop a Rwanda-specific reference that no longer matched the swapped generic skyline image). All 17 articles now carry 3 inline images each in `public/images/articles/eg-_/`. Disk total: ~2.0 MB across 51 webp files; heaviest article-imagery total 188 KB (`eg-4-1`), lightest 60 KB (`eg-2-5`). Build verified clean (`npm run build && npm run budget:strict`): 0 pages over 450 KB hard limit, all EG article HTML 42–49 KB gzipped (well under 250 KB target). Cron job `e0c9b307`deleted at closure. **Lesson applicable to subsequent batches:** prefer concrete photographable subjects ("hospital ward", "court room") over named-place specificity ("Sandton ...", "Putrajaya ...", "Kigali ...") — Unsplash coverage drops sharply when proper-noun place names are combined with industry terms. Caching gotcha: repeated`--force`re-runs on the same article populate stale`.astro/data-store.json`entries that surface as`[glob-loader] Duplicate id`warnings — harmless, but dev loop should run`rm -rf .astro`before a clean build. OG images still fall back to`/og/default.png`for all 17 EG articles; programmatic generation via`scripts/generate-og-images.py`deferred to a separate decision. See`reviews/imagery-batch-1-economic-growth.md`.

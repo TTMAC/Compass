@@ -3,14 +3,10 @@ import { visit } from "unist-util-visit";
 const CALLOUT_TYPES = ["expert", "takeaway", "framework", "timeline"];
 
 const STYLES = {
-  expert:
-    "border-l-4 border-[#355E3B] bg-[#E6EFE8] p-4 rounded-r-lg my-6",
-  takeaway:
-    "border-l-4 border-[#A68A2B] bg-[#F7F6F4] p-4 rounded-r-lg my-6",
-  framework:
-    "border-2 border-dashed border-[#355E3B] p-4 rounded-lg my-6",
-  timeline:
-    "border border-[#e5e7eb] bg-[#F7F6F4] p-5 rounded-lg my-8",
+  expert: "border-l-4 border-[#355E3B] bg-[#E6EFE8] p-4 rounded-r-lg my-6",
+  takeaway: "border-l-4 border-[#A68A2B] bg-[#F7F6F4] p-4 rounded-r-lg my-6",
+  framework: "border-2 border-dashed border-[#355E3B] p-4 rounded-lg my-6",
+  timeline: "border border-[#e5e7eb] bg-[#F7F6F4] p-5 rounded-lg my-8",
 };
 
 const LABELS = {

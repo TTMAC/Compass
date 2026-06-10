@@ -54,7 +54,7 @@ The framework used here draws on Justin Yifu Lin's New Structural Economics, whi
 This matters because economic development is not a single highway with one lane. It is more like a landscape with multiple viable paths, each requiring different sequencing of reforms. What Lin's approach helps you do is narrow the field. Instead of comparing South Africa to Norway (a country with five million people, a thousand years of institutional continuity, and North Sea oil) or to Rwanda (a small, landlocked economy with fundamentally different governance constraints), you compare it to countries that faced recognisably similar challenges at a similar level of complexity.
 
 :::expert
-The World Bank's *Commission on Growth and Development* (the Spence Commission) examined thirteen economies that sustained growth above seven per cent for twenty-five years or more. Their 2008 report found that while the specific policies varied enormously, the successful economies all shared five common features: they fully exploited the world economy, they maintained macroeconomic stability, they mustered high rates of saving and investment, they let markets allocate resources, and they had committed, credible, and capable governments. The Commission was explicit that there is no single recipe — but the ingredients list is surprisingly consistent.
+The World Bank's _Commission on Growth and Development_ (the Spence Commission) examined thirteen economies that sustained growth above seven per cent for twenty-five years or more. Their 2008 report found that while the specific policies varied enormously, the successful economies all shared five common features: they fully exploited the world economy, they maintained macroeconomic stability, they mustered high rates of saving and investment, they let markets allocate resources, and they had committed, credible, and capable governments. The Commission was explicit that there is no single recipe — but the ingredients list is surprisingly consistent.
 :::
 
 The six comparators chosen here were selected because each illuminates a specific transition that South Africa needs to make. Chile and Botswana speak to the challenge of managing natural resource wealth — directly relevant to a country whose mining sector remains economically significant. Vietnam addresses the question of how to attract manufacturing FDI into a developing economy. Malaysia demonstrates what a powerful coordinating institution looks like in practice. South Korea shows what the innovation transition demands. And Poland proves that post-authoritarian economies can achieve rapid catch-up growth when institutional reform is correctly sequenced.
@@ -84,7 +84,6 @@ South Africa's experience with mining revenues could hardly be more different. D
 ## Vietnam — From War-Devastation to Manufacturing Magnet
 
 In 1986, **Vietnam's GDP per capita was approximately $230.** The country was internationally isolated, its infrastructure was shattered by decades of war, and its command economy was producing chronic food shortages. By 2023, **GDP per capita had risen to approximately $4,300, the poverty rate had fallen from over sixty per cent to under five per cent**, and Vietnam had become the world's fifth-largest recipient of manufacturing foreign direct investment. Samsung alone employs over 100,000 workers in Vietnam and produces roughly half of its global smartphone output there.
-
 
 ![Vietnam's manufacturing surge transformed a war-ravaged economy into a global production hub | Photo by Clement Chai on Unsplash](/images/articles/eg-1-3-the-comparator-countries/img-1.webp)
 
@@ -128,7 +127,6 @@ The Malaysian experience also demonstrates something uncomfortable: successful i
 
 South Korea's story is the most dramatic of the six, and in some ways the most daunting. **In 1960, South Korea's GDP per capita was lower than Ghana's.** By 2023, it was approximately $33,000 — making it one of the very few countries to transition from developing to fully developed status within a single lifetime. The journey from poverty through factor-driven growth, efficiency-driven growth, and into innovation-driven growth took roughly six decades. South Africa, by contrast, has been stuck in the transition between factor-driven and efficiency-driven growth for the better part of three decades.
 
-
 ![South Korea built world-leading firms by sequencing efficiency-led growth into innovation-led growth | Photo by Vee V on Unsplash](/images/articles/eg-1-3-the-comparator-countries/img-2.webp)
 
 The early phase of Korean development (1960s-1970s) was built on low-wage manufacturing — textiles, wigs, plywood, basic steel products. The government under Park Chung-hee directed bank lending to favoured industries (the Heavy and Chemical Industry drive of the 1970s), suppressed wages, restricted imports, and pushed exports relentlessly. This is the phase that produces the fastest visible growth and the most dramatic poverty reduction. It is also the phase that requires conditions South Africa does not currently have: a large pool of workers willing to accept very low wages, a repressive labour regime, and an undervalued currency.
@@ -169,7 +167,7 @@ The third choice was investing resource revenues in education and health. Botswa
 
 The Botswana story has real limitations. The economy remains heavily dependent on diamonds, and diversification into other sectors has been slower than hoped. Tourism, beef, and financial services have grown but have not replaced diamonds as the primary economic driver. Inequality remains high. Youth unemployment is a growing concern. These are genuine failures that Botswana's admirers sometimes gloss over.
 
-But the core lesson stands: *governance of resource revenues — not the abundance of those revenues — determines whether natural resources become a blessing or a curse.* South Africa has far greater mineral diversity than Botswana, a much larger economy, a more developed financial system, and a bigger domestic market. If Botswana could govern diamond revenues with institutional discipline from a starting point of twelve kilometres of paved road, the argument that South Africa lacks the capacity to do the same is not credible. What South Africa has lacked is not capacity but the institutional architecture and political will to deploy that capacity effectively.
+But the core lesson stands: _governance of resource revenues — not the abundance of those revenues — determines whether natural resources become a blessing or a curse._ South Africa has far greater mineral diversity than Botswana, a much larger economy, a more developed financial system, and a bigger domestic market. If Botswana could govern diamond revenues with institutional discipline from a starting point of twelve kilometres of paved road, the argument that South Africa lacks the capacity to do the same is not credible. What South Africa has lacked is not capacity but the institutional architecture and political will to deploy that capacity effectively.
 
 ## Poland — Post-Authoritarian Transition Done Right
 
@@ -196,7 +194,6 @@ Poland's lesson for South Africa is about sequencing. The Polish experience sugg
 ## Common Threads — What All Six Got Right
 
 Step back from the individual stories, and five common threads emerge across all six comparator countries. These are not the only factors that mattered, but they are the ones that appeared in every successful case.
-
 
 ![Six different countries, six different sectors, but the institutional patterns rhyme | Photo by Zoshua Colah on Unsplash](/images/articles/eg-1-3-the-comparator-countries/img-3.webp)
 
@@ -262,9 +259,9 @@ Applying these four questions consistently will not make you a development econo
 
 The analysis in this article draws on the following institutional research and publications:
 
-- World Bank Commission on Growth and Development — *The Growth Report: Strategies for Sustained Growth and Inclusive Development* (2008). The foundational study of thirteen high-growth economies
-- Justin Yifu Lin — *New Structural Economics: A Framework for Rethinking Development and Policy* (World Bank, 2012). The comparative methodology used to identify relevant comparator countries
-- UNIDO — *Industrial Development Report* (various years). Cross-country analysis of manufacturing FDI determinants and industrial policy effectiveness
+- World Bank Commission on Growth and Development — _The Growth Report: Strategies for Sustained Growth and Inclusive Development_ (2008). The foundational study of thirteen high-growth economies
+- Justin Yifu Lin — _New Structural Economics: A Framework for Rethinking Development and Policy_ (World Bank, 2012). The comparative methodology used to identify relevant comparator countries
+- UNIDO — _Industrial Development Report_ (various years). Cross-country analysis of manufacturing FDI determinants and industrial policy effectiveness
 - TIPS (Trade and Industrial Policy Strategies) — Research papers on South Africa's R&D spending, industrial policy, and manufacturing competitiveness — [tips.org.za](https://tips.org.za)
 - DPRU (Development Policy Research Unit, UCT) — Working papers on labour market dynamics, skills development, and trade policy
 - World Bank Logistics Performance Index — Comparative data on trade logistics infrastructure across countries

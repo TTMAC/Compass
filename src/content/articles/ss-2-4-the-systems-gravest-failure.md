@@ -39,7 +39,7 @@ seo:
 
 **South Africa has among the highest rates of gender-based violence in the world — and one of the lowest rates of conviction for GBV offences.**
 
-This is not a coincidence. *Gender-based violence* is the crime category that exposes every structural weakness in the criminal justice system simultaneously. Every failure documented in this series so far — the investigation failures, the SAPS-NPA disconnect, the court delays, the geographic inequality, the remand detention crisis — converges on GBV survivors with crushing force. The system fails GBV survivors at every single stage: at the police station, where survivors face re-traumatisation, victim-blaming, and cases that are never properly opened; during investigation, where dockets go missing, forensic evidence is mishandled, and detectives lack specialised training; at prosecution, where cases are declined or withdrawn at rates far above other crime categories; and at sentencing, where even successful convictions often produce inadequate sentences. This is not an anecdotal problem. It is a systemic, measurable, and well-documented failure.
+This is not a coincidence. _Gender-based violence_ is the crime category that exposes every structural weakness in the criminal justice system simultaneously. Every failure documented in this series so far — the investigation failures, the SAPS-NPA disconnect, the court delays, the geographic inequality, the remand detention crisis — converges on GBV survivors with crushing force. The system fails GBV survivors at every single stage: at the police station, where survivors face re-traumatisation, victim-blaming, and cases that are never properly opened; during investigation, where dockets go missing, forensic evidence is mishandled, and detectives lack specialised training; at prosecution, where cases are declined or withdrawn at rates far above other crime categories; and at sentencing, where even successful convictions often produce inadequate sentences. This is not an anecdotal problem. It is a systemic, measurable, and well-documented failure.
 
 The statistics tell the story with brutal clarity. South Africa records one of the highest rates of sexual offences in the world — over 40,000 reported sexual offences per year in recent SAPS crime statistics, with victim surveys suggesting the true figure is several times higher. The femicide rate — women killed by intimate partners or family members — is estimated at approximately five times the global average. Domestic violence, while notoriously underreported, is pervasive across all socio-economic groups, geographic areas, and demographic categories. And the conviction funnel for these offences is exceptionally narrow: of all sexual offences reported, only a fraction result in arrests, a fraction of those result in prosecutions, and a fraction of prosecutions result in convictions. The system that is supposed to protect the most vulnerable people from the gravest crimes is the system that fails them most completely.
 
@@ -55,7 +55,7 @@ SAPS annual crime statistics for the most recent published year (2022/23) record
 
 Domestic violence is even harder to quantify because it is not a separate crime category in SAPS statistics — domestic violence cases are recorded under the offence type (assault, assault with intent to do grievous bodily harm, murder, sexual offence) rather than under the context in which the violence occurred. The Domestic Violence Act of 1998 provides for protection orders, but the number of protection order applications is itself a fraction of actual domestic violence incidents. Successive South African Medical Research Council prevalence studies, supplemented by university-based research, have estimated that approximately one in three women in South Africa has experienced physical violence from an intimate partner and approximately one in five has experienced sexual violence from a partner.
 
-*Femicide* — the killing of women because they are women, typically by intimate partners or family members — is the most extreme manifestation of GBV. **South Africa's femicide rate, based on South African Medical Research Council mortuary studies and SAPS data, is estimated at approximately 12 per 100,000 women — roughly five times the global average.** Every year, approximately 2,500 to 3,000 women are killed by current or former intimate partners. These are not cold statistics. Each number represents a person whose death was the endpoint of a pattern of violence that the criminal justice system was supposed to interrupt — and failed to.
+_Femicide_ — the killing of women because they are women, typically by intimate partners or family members — is the most extreme manifestation of GBV. **South Africa's femicide rate, based on South African Medical Research Council mortuary studies and SAPS data, is estimated at approximately 12 per 100,000 women — roughly five times the global average.** Every year, approximately 2,500 to 3,000 women are killed by current or former intimate partners. These are not cold statistics. Each number represents a person whose death was the endpoint of a pattern of violence that the criminal justice system was supposed to interrupt — and failed to.
 
 :::takeaway
 South Africa's GBV crisis is measured in stark numbers: over 40,000 reported sexual offences per year (with true prevalence estimated at several times that figure), a femicide rate approximately five times the global average, and domestic violence affecting an estimated one in three women. But the crisis is not just the prevalence of violence — it is the system's failure to respond to it. The criminal justice pipeline for GBV offences is even more broken than the pipeline for crime generally, with case attrition at every stage that is higher, and conviction rates that are lower, than for other serious crime categories.
@@ -64,7 +64,6 @@ South Africa's GBV crisis is measured in stark numbers: over 40,000 reported sex
 ## Stage One: The Police Station — Where Survivors Are Failed First
 
 For many GBV survivors, the police station is their first point of contact with the criminal justice system. It is also, in a disturbing number of cases, the point at which the system first fails them.
-
 
 ![The first contact between survivor and state happens at a counter that decides whether a case begins at all | Photo by Nik on Unsplash](/images/articles/ss-2-4-the-systems-gravest-failure/img-1.webp)
 
@@ -77,7 +76,6 @@ Even when survivors are received respectfully and cases are opened, the quality 
 ## Stage Two: Investigation — Where Dockets Disappear
 
 If a GBV case survives the station-level filter and is opened, it enters the investigation stage — and here, the failures become even more acute.
-
 
 ![GBV dockets are lost at higher rates than any other case category, often before any suspect is identified | Photo by Joachim Schnürle on Unsplash](/images/articles/ss-2-4-the-systems-gravest-failure/img-2.webp)
 
@@ -116,7 +114,6 @@ The withdrawal of charges by survivors is a particularly painful feature of the 
 ## The Thuthuzela Care Centres: An Island of Good Practice
 
 Against this landscape of systemic failure, the Thuthuzela Care Centres (TCCs) stand out as an island of relative good practice — a model that demonstrates what is possible when the system is designed around the survivor's needs.
-
 
 ![Thuthuzela centres co-locate medical care, evidence collection and counselling in one survivor-centred site | Photo by Tasha Kostyuk on Unsplash](/images/articles/ss-2-4-the-systems-gravest-failure/img-3.webp)
 
@@ -182,7 +179,7 @@ If you want to advocate for systemic change, [Making Public Submissions](/articl
 
 The analysis in this article draws on the following institutional research and publications:
 
-- Statistics South Africa (Stats SA), *Victims of Crime Survey* — household-level data on sexual offence prevalence and reporting patterns — [statssa.gov.za](https://www.statssa.gov.za)
+- Statistics South Africa (Stats SA), _Victims of Crime Survey_ — household-level data on sexual offence prevalence and reporting patterns — [statssa.gov.za](https://www.statssa.gov.za)
 - SAPS Annual Crime Statistics, documenting reported sexual offences, contact crimes, and GBV-related crime categories — [saps.gov.za](https://www.saps.gov.za)
 - National Prosecuting Authority (NPA), Thuthuzela Care Centre programme data and sexual offences prosecution statistics — [npa.gov.za](https://www.npa.gov.za)
 - Jewkes, R. et al., South African Medical Research Council (SAMRC), research on the prevalence, drivers, and health consequences of gender-based violence in South Africa — [samrc.ac.za](https://www.samrc.ac.za)

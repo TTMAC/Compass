@@ -56,9 +56,6 @@ const svg = `
 
 const outPath = resolve("public/apple-touch-icon.png");
 
-await sharp(Buffer.from(svg))
-  .resize(SIZE, SIZE)
-  .png()
-  .toFile(outPath);
+await sharp(Buffer.from(svg)).resize(SIZE, SIZE).png().toFile(outPath);
 
 console.log(`Generated ${outPath} (${SIZE}×${SIZE})`);

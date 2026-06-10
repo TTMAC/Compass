@@ -41,7 +41,6 @@ Over the course of Parts 2, 3, and 4 of this series, you have seen a comprehensi
 
 That is a substantial reform agenda. The question that naturally follows — the question that will determine whether any of this actually happens — is: what does it take, legally, to implement each of these reforms? Does South Africa need to rewrite its Constitution? Does it need new Acts of Parliament? Or can some of these changes happen through the stroke of a ministerial pen?
 
-
 ![Three pathways move a reform from idea to effect — administrative action, new legislation, or constitutional amendment | Photo by Mpho Mojapelo on Unsplash](/images/articles/ra-5-1-constitutional-vs-legislative/img-1.webp)
 
 The answer depends on which of three distinct legal pathways each reform requires. Understanding these pathways is not an academic exercise. **It is the difference between knowing where to direct your advocacy energy and wasting years pushing for changes through the wrong channel.** A reform that only needs a regulation change could be implemented within months — but if you spend your energy demanding a constitutional amendment, you will wait a decade and probably get nothing. Conversely, a reform that genuinely requires legislation cannot be short-circuited through a policy directive, no matter how well-intentioned the minister.
@@ -64,7 +63,7 @@ Section 75 bills are ordinary bills that do not affect provinces. They are passe
 
 Section 76 bills are ordinary bills that affect provinces. They require passage through both the National Assembly and the NCOP. In the NCOP, provinces vote as delegations — each province casts a single vote based on the mandate from its provincial legislature, and the bill requires five of nine provincial votes to pass. If the NA and the NCOP disagree, the bill goes to a mediation committee, and **if mediation fails, the NA can only override with a two-thirds majority — the same threshold as a constitutional amendment.** For all practical purposes, a Section 76 bill needs both chambers to agree.
 
-*The Section 75/76 classification is determined by the substance of the bill, not by what the drafter calls it.* A bill that restructures how provinces deliver education, even if it does not amend the Constitution, will almost certainly be classified as a Section 76 bill because it affects provincial competences. This means it needs buy-in from at least five of nine provincial delegations in the NCOP — which, in turn, means it needs support from a majority of provincial governments.
+_The Section 75/76 classification is determined by the substance of the bill, not by what the drafter calls it._ A bill that restructures how provinces deliver education, even if it does not amend the Constitution, will almost certainly be classified as a Section 76 bill because it affects provincial competences. This means it needs buy-in from at least five of nine provincial delegations in the NCOP — which, in turn, means it needs support from a majority of provincial governments.
 
 The timeline for legislation is typically two to four years from drafting to promulgation. This includes policy development, public consultation, Cabinet approval of the bill, introduction in Parliament, committee deliberation, public hearings, passage through both chambers (for Section 76 bills), presidential assent, and commencement. Complex bills with significant stakeholder opposition can take longer. The NHI Act, for instance, was in legislative development for over a decade.
 
@@ -74,7 +73,7 @@ The timeline for legislation is typically two to four years from drafting to pro
 
 Policy changes are even simpler. A national department can change its policy frameworks, guidelines, and administrative directives without formal regulatory process. A National Treasury circular can change how conditional grants are structured. A ministerial directive can change how existing powers are exercised. These instruments do not create new legal authority — they work within the authority that existing legislation already provides — but they can be remarkably powerful when the existing legislation is broad enough.
 
-*The critical question for every reform is: does the existing law already provide the authority to make this change?* If the answer is yes, the reform can be implemented through regulation or policy — no new legislation required. If the answer is no, you need to determine whether new legislation or a constitutional amendment is necessary. This classification exercise is the backbone of this article.
+_The critical question for every reform is: does the existing law already provide the authority to make this change?_ If the answer is yes, the reform can be implemented through regulation or policy — no new legislation required. If the answer is no, you need to determine whether new legislation or a constitutional amendment is necessary. This classification exercise is the backbone of this article.
 
 :::expert
 The National Treasury's Government Technical Advisory Centre (GTAC) has published analyses of the legislative and regulatory frameworks governing intergovernmental fiscal relations, noting that "a significant proportion of the governance improvements recommended by oversight bodies — the Auditor-General, the Financial and Fiscal Commission, the Department of Planning, Monitoring and Evaluation — can be achieved through regulatory amendments or policy changes under existing enabling legislation, without the need for new Acts of Parliament." GTAC's analysis found that the Division of Revenue Act, the Municipal Finance Management Act, and the Municipal Systems Act collectively provide sufficient regulatory authority to implement many of the governance reforms that have been debated for years — the constraint is not legal authority but political will and administrative capacity.
@@ -225,7 +224,6 @@ Shared services arrangements for small municipalities can be established through
 
 The reform-by-reform legal map reveals something that should give every reform advocate both hope and frustration: a remarkable number of the reforms proposed across this series can be implemented through regulation, policy change, or executive action under existing legislation. No new Acts of Parliament. No constitutional amendments. No multi-year legislative processes. Just political will and administrative competence applied to powers that already exist.
 
-
 ![A surprising share of the reform programme can begin immediately under existing constitutional and legislative authority | Photo by Marco Oriolesi on Unsplash](/images/articles/ra-5-1-constitutional-vs-legislative/img-2.webp)
 
 Here is what can be done within months, using existing legal authority.
@@ -290,7 +288,7 @@ The most important finding of this legal mapping exercise is **how little of the
 
 The Constitution of South Africa is remarkably flexible in its allocation of concurrent functions. Schedule 4 lists functions as concurrent — shared between national and provincial government — but it does not prescribe the institutional architecture for delivering those functions. The Constitution does not require that provinces employ teachers through a national bargaining framework, or that the national government control conditional grant conditions at the input level, or that provincial health departments manage district health services through internal departmental structures rather than semi-autonomous entities. **These arrangements are products of ordinary legislation and can be changed through ordinary legislation.**
 
-The *structured autonomy model* — national standard-setting, delivery-level operational authority, automatic enforcement triggers — operates entirely within the existing constitutional framework. It does not move any function from one schedule to another. It does not change the powers of any sphere of government. It does not create new constitutional institutions. It restructures the legislative and fiscal architecture within which existing constitutional competences are exercised. This is precisely what ordinary legislation is for.
+The _structured autonomy model_ — national standard-setting, delivery-level operational authority, automatic enforcement triggers — operates entirely within the existing constitutional framework. It does not move any function from one schedule to another. It does not change the powers of any sphere of government. It does not create new constitutional institutions. It restructures the legislative and fiscal architecture within which existing constitutional competences are exercised. This is precisely what ordinary legislation is for.
 
 The automatic enforcement triggers for concurrent functions operate within Section 100's existing permissive framework. As [When Provinces Fail](/articles/ra-3-3-when-provinces-fail) demonstrated in detail, Section 100 does not prescribe the trigger mechanism, the decision-making process, or the exit criteria. It does not prohibit automatic triggers. It does not require that the decision to intervene be discretionary. The text is broad enough to accommodate a legislative framework that defines automatic triggers, prescribed responses, and binding exit criteria — provided the framework operates within the constitutional authority that Section 100 confers.
 
@@ -331,7 +329,6 @@ The media plays a shaping role in reform politics. Governance reform is not inhe
 ## A Sequenced Legal Reform Programme
 
 Converting the legal map and political feasibility analysis into a practical implementation timeline requires sequencing — doing the fastest, easiest, and most impactful reforms first, building momentum and evidence, and then tackling the more politically difficult legislative changes.
-
 
 ![Sequencing turns a long list of reforms into a programme that builds on each prior step rather than competing with it | Photo by Magic Fan on Unsplash](/images/articles/ra-5-1-constitutional-vs-legislative/img-3.webp)
 
@@ -389,42 +386,42 @@ The three-phase programme above describes the sequencing logic. The timeline bel
 
 No new legislation required. A committed national executive can begin all of these immediately.
 
-| Reform | Function | Legal Pathway | Responsible Institution |
-|--------|----------|---------------|------------------------|
-| Outcome-based conditional grants | All concurrent functions | DORA redesign (annual) | National Treasury |
-| Ring-fenced municipal trading services revenue | Water, electricity, waste | MFMA regulation | National Treasury |
-| Provincial Performance Dashboard | All concurrent functions | Presidential directive | DPME |
-| Education Information System | Education | Ministerial directive | DBE |
-| Health Information Platform and Ideal Clinic regulations | Healthcare | Ministerial directive and NHA regulations | NDoH |
-| Blue and Green Drop enforcement of existing standards | Water | Existing regulatory authority | DWS |
-| Process controller qualification enforcement | Water | Existing regulations | DWS |
-| Extended competency requirements for municipal technical posts | All municipal functions | Municipal Systems Act regulations | DPSA and DCOG |
-| Shared services facilitation for small municipalities | All municipal functions | IGRFA and Municipal Systems Act | DCOG and Provincial COGTA |
-| Standardised IPP procurement templates | Electricity | NERSA regulatory framework | National Treasury and NERSA |
+| Reform                                                         | Function                  | Legal Pathway                             | Responsible Institution     |
+| -------------------------------------------------------------- | ------------------------- | ----------------------------------------- | --------------------------- |
+| Outcome-based conditional grants                               | All concurrent functions  | DORA redesign (annual)                    | National Treasury           |
+| Ring-fenced municipal trading services revenue                 | Water, electricity, waste | MFMA regulation                           | National Treasury           |
+| Provincial Performance Dashboard                               | All concurrent functions  | Presidential directive                    | DPME                        |
+| Education Information System                                   | Education                 | Ministerial directive                     | DBE                         |
+| Health Information Platform and Ideal Clinic regulations       | Healthcare                | Ministerial directive and NHA regulations | NDoH                        |
+| Blue and Green Drop enforcement of existing standards          | Water                     | Existing regulatory authority             | DWS                         |
+| Process controller qualification enforcement                   | Water                     | Existing regulations                      | DWS                         |
+| Extended competency requirements for municipal technical posts | All municipal functions   | Municipal Systems Act regulations         | DPSA and DCOG               |
+| Shared services facilitation for small municipalities          | All municipal functions   | IGRFA and Municipal Systems Act           | DCOG and Provincial COGTA   |
+| Standardised IPP procurement templates                         | Electricity               | NERSA regulatory framework                | National Treasury and NERSA |
 
 ### Phase 2 — Legislation (Years 2–3)
 
 All bills should be drafted during Phase 1 and introduced as a coordinated legislative package.
 
-| Reform | Function | Legal Pathway | Key Political Hurdle |
-|--------|----------|---------------|---------------------|
-| Employment of Educators Act amendments and ELRC restructuring | Education | Section 76 bill | Teacher union opposition to decentralised bargaining |
-| Water Services Act amendments for WSA and WSP separation | Water | Section 76 bill | Municipal organisational restructuring |
-| National Health Act amendments for district PHC authorities and OHSC enforcement | Healthcare | Section 76 bill | NHI alignment and provincial reorganisation |
-| Housing Act amendments for municipal delivery agencies and title deed timelines | Human settlements | Section 76 bill | Provincial role reduction |
-| Framework for Concurrent Function Enforcement Act or IGRFA amendments | All concurrent functions | Section 76 bill | Provincial resistance to automatic triggers |
-| Municipal Capability Act for protected technical appointments | All municipal functions | Section 76 bill | Patronage network disruption |
-| NHBRC Act amendments for construction quality enforcement | Human settlements | Section 75 or 76 (contested) | NHBRC capacity constraints |
-| Waste Act amendments for environmental enforcement strengthening | Waste management | Section 76 bill | Municipal compliance costs |
+| Reform                                                                           | Function                 | Legal Pathway                | Key Political Hurdle                                 |
+| -------------------------------------------------------------------------------- | ------------------------ | ---------------------------- | ---------------------------------------------------- |
+| Employment of Educators Act amendments and ELRC restructuring                    | Education                | Section 76 bill              | Teacher union opposition to decentralised bargaining |
+| Water Services Act amendments for WSA and WSP separation                         | Water                    | Section 76 bill              | Municipal organisational restructuring               |
+| National Health Act amendments for district PHC authorities and OHSC enforcement | Healthcare               | Section 76 bill              | NHI alignment and provincial reorganisation          |
+| Housing Act amendments for municipal delivery agencies and title deed timelines  | Human settlements        | Section 76 bill              | Provincial role reduction                            |
+| Framework for Concurrent Function Enforcement Act or IGRFA amendments            | All concurrent functions | Section 76 bill              | Provincial resistance to automatic triggers          |
+| Municipal Capability Act for protected technical appointments                    | All municipal functions  | Section 76 bill              | Patronage network disruption                         |
+| NHBRC Act amendments for construction quality enforcement                        | Human settlements        | Section 75 or 76 (contested) | NHBRC capacity constraints                           |
+| Waste Act amendments for environmental enforcement strengthening                 | Waste management         | Section 76 bill              | Municipal compliance costs                           |
 
 ### Phase 3 — Constitutional Entrenchment (Years 3–5, Opportunistic)
 
 Neither reform is a prerequisite. Pursue only if a political window opens.
 
-| Reform | Function | Legal Pathway | Condition |
-|--------|----------|---------------|-----------|
+| Reform                                             | Function      | Legal Pathway                                               | Condition                                                                       |
+| -------------------------------------------------- | ------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | Constitutional status for enforcement architecture | All functions | Section 74 amendment requiring two-thirds and six provinces | Pursue only if Phase 2 legislation is working and a constitutional window opens |
-| Schedule 4 and 5 reform for function reallocation | All functions | Section 74 amendment | Desirable but not prerequisite as legislative reforms achieve practical effect |
+| Schedule 4 and 5 reform for function reallocation  | All functions | Section 74 amendment                                        | Desirable but not prerequisite as legislative reforms achieve practical effect  |
 
 :::
 
@@ -479,11 +476,11 @@ The legal pathways are open. The regulatory authority exists. The legislative ar
 The analysis in this article draws on the following institutional research and publications:
 
 - Constitution of the Republic of South Africa, 1996, Sections 74, 75, 76, 100, Schedule 4, Schedule 5 — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)
-- National Treasury (2024). *2024 Budget Review* and *Division of Revenue Bill 2024/25* — conditional grant framework, intergovernmental fiscal architecture — [treasury.gov.za](https://www.treasury.gov.za)
+- National Treasury (2024). _2024 Budget Review_ and _Division of Revenue Bill 2024/25_ — conditional grant framework, intergovernmental fiscal architecture — [treasury.gov.za](https://www.treasury.gov.za)
 - National Treasury. Government Technical Advisory Centre — analysis of legislative and regulatory frameworks for intergovernmental reform — [gtac.gov.za](https://www.gtac.gov.za)
-- Financial and Fiscal Commission (2023). *Submission for the 2024/25 Division of Revenue* — recommendations on intergovernmental fiscal reform — [ffc.co.za](https://www.ffc.co.za)
+- Financial and Fiscal Commission (2023). _Submission for the 2024/25 Division of Revenue_ — recommendations on intergovernmental fiscal reform — [ffc.co.za](https://www.ffc.co.za)
 - Department of Planning, Monitoring and Evaluation. Review of housing delivery chain and governance reform pathways — [dpme.gov.za](https://www.dpme.gov.za)
-- Auditor-General of South Africa (2023). *PFMA Consolidated General Report 2022/23* — provincial and municipal audit outcomes — [agsa.co.za](https://www.agsa.co.za)
+- Auditor-General of South Africa (2023). _PFMA Consolidated General Report 2022/23_ — provincial and municipal audit outcomes — [agsa.co.za](https://www.agsa.co.za)
 - Parliamentary Monitoring Group. Tracking of legislative processes, Section 75/76 classification, Joint Tagging Mechanism proceedings — [pmg.org.za](https://pmg.org.za)
 - Department of Basic Education. Employment of Educators Act, ELRC governance, Education Management Information System — [education.gov.za](https://www.education.gov.za)
 - National Department of Health. National Health Act, OHSC framework, Ideal Clinic programme — [health.gov.za](https://www.health.gov.za)

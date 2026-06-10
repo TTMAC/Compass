@@ -76,7 +76,6 @@ South Africa's SDI ranking is poor for the same reason its PHDI is poor: high en
 
 To understand why South Africa's development is environmentally inefficient, it is necessary to examine the specific sources of its environmental impact — and to recognise that the most pressing environmental problems are those that directly harm people and ecosystems today.
 
-
 ![Coal-heavy electricity and stressed catchments define the environmental ledger development has to balance | Photo by Virtue Solar on Unsplash](/images/articles/hd-5-3-development-within-limits/img-1.webp)
 
 ### Energy, Pollution, and Environmental Health
@@ -179,7 +178,6 @@ Research by the Trade and Industrial Policy Strategies think tank, the Centre fo
 
 The shift toward renewable energy is not merely a substitution of one energy source for another. It is an economic opportunity that could address multiple dimensions of South Africa's development challenge simultaneously.
 
-
 ![Wind and solar build-outs add generation capacity and industrial work at the same time | Photo by Aline Li Varen on Unsplash](/images/articles/hd-5-3-development-within-limits/img-2.webp)
 
 South Africa has extraordinary renewable energy potential. Solar irradiation in the Northern Cape exceeds 2,500 kilowatt-hours per square metre per year — among the highest in the world. Wind resources along the Eastern and Western Cape coastlines are sufficient for large-scale wind generation. The combination of abundant solar and wind resources means that South Africa could, in principle, generate a large share of its electricity from renewable sources at costs that are now lower than new coal generation and increasingly competitive with existing coal generation.
@@ -215,7 +213,6 @@ For South Africa specifically, the responsible development agenda suggests sever
 ## The Case for Leapfrogging
 
 South Africa does not have to follow outdated development models. The concept of leapfrogging — skipping intermediate stages of technological development by adopting the most advanced available technologies directly — is not hypothetical. South Africa has already done it in several domains.
-
 
 ![Newer infrastructure can skip the dirtiest stage of development that earlier industrialisers passed through | Photo by kaori kubota on Unsplash](/images/articles/hd-5-3-development-within-limits/img-3.webp)
 
@@ -273,11 +270,11 @@ What to ask: Is South Africa industrialising and creating jobs? Are coal workers
 
 The analysis in this article draws on the following institutional research and publications:
 
-- United Nations Development Programme (UNDP), *Planetary Pressures-Adjusted HDI (PHDI)* — methodology and country data adjusting HDI for carbon dioxide emissions and material footprint — [hdr.undp.org](https://hdr.undp.org)
-- Department of Forestry, Fisheries and the Environment (DFFE), *National Environmental Management Act* implementation reports and biodiversity assessments — [dffe.gov.za](https://www.dffe.gov.za)
-- Presidential Climate Commission (PCC), *South Africa's Just Energy Transition Framework* — policy framework for managing the coal-to-renewables transition and supporting affected workers and communities — [climatecommission.org.za](https://www.climatecommission.org.za)
-- Department of Water and Sanitation, *Blue Drop and Green Drop Reports* — municipal water quality and wastewater treatment compliance data — [dws.gov.za](https://www.dws.gov.za)
-- South African National Biodiversity Institute (SANBI), *National Biodiversity Assessment* — status of terrestrial, freshwater, estuarine, and marine ecosystems in one of the world's megadiverse countries — [sanbi.org](https://www.sanbi.org)
-- Global Footprint Network, *Ecological Footprint* data — South Africa's resource consumption relative to biocapacity and international comparisons — [footprintnetwork.org](https://www.footprintnetwork.org)
-- Eskom, *Integrated Report* — generation capacity, emissions data, and decommissioning schedules for coal-fired power stations — [eskom.co.za](https://www.eskom.co.za)
+- United Nations Development Programme (UNDP), _Planetary Pressures-Adjusted HDI (PHDI)_ — methodology and country data adjusting HDI for carbon dioxide emissions and material footprint — [hdr.undp.org](https://hdr.undp.org)
+- Department of Forestry, Fisheries and the Environment (DFFE), _National Environmental Management Act_ implementation reports and biodiversity assessments — [dffe.gov.za](https://www.dffe.gov.za)
+- Presidential Climate Commission (PCC), _South Africa's Just Energy Transition Framework_ — policy framework for managing the coal-to-renewables transition and supporting affected workers and communities — [climatecommission.org.za](https://www.climatecommission.org.za)
+- Department of Water and Sanitation, _Blue Drop and Green Drop Reports_ — municipal water quality and wastewater treatment compliance data — [dws.gov.za](https://www.dws.gov.za)
+- South African National Biodiversity Institute (SANBI), _National Biodiversity Assessment_ — status of terrestrial, freshwater, estuarine, and marine ecosystems in one of the world's megadiverse countries — [sanbi.org](https://www.sanbi.org)
+- Global Footprint Network, _Ecological Footprint_ data — South Africa's resource consumption relative to biocapacity and international comparisons — [footprintnetwork.org](https://www.footprintnetwork.org)
+- Eskom, _Integrated Report_ — generation capacity, emissions data, and decommissioning schedules for coal-fired power stations — [eskom.co.za](https://www.eskom.co.za)
 - Centre for Environmental Rights (CER), research and litigation on air quality, mining impacts, and acid mine drainage — [cer.org.za](https://www.cer.org.za)

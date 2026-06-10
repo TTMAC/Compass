@@ -37,7 +37,7 @@ Fourteen articles. Five parts. The architecture, the money, the delivery, the pa
 
 This final article asks the question that everything else has been building toward: now that you understand the system, what do you do with that understanding?
 
-Here is the bottom line: **knowledge of governance, by itself, changes nothing.** The Constitution is not self-executing. Budget documents do not enforce themselves. Audit reports do not, on their own, produce consequences. The gap between what the system promises and what citizens experience is not closed by understanding alone — *it is closed by citizens who use their understanding to act.* Not once. Not in response to a single crisis. But as a sustained practice — a way of relating to government that is as routine as paying your rates, as regular as the budget cycle, and as grounded in evidence as the Auditor-General's own methodology.
+Here is the bottom line: **knowledge of governance, by itself, changes nothing.** The Constitution is not self-executing. Budget documents do not enforce themselves. Audit reports do not, on their own, produce consequences. The gap between what the system promises and what citizens experience is not closed by understanding alone — _it is closed by citizens who use their understanding to act._ Not once. Not in response to a single crisis. But as a sustained practice — a way of relating to government that is as routine as paying your rates, as regular as the budget cycle, and as grounded in evidence as the Auditor-General's own methodology.
 
 This article gives you the framework for that practice.
 
@@ -45,12 +45,11 @@ This article gives you the framework for that practice.
 
 Before building your personal accountability practice, it is worth studying the most successful example of sustained civic engagement in South Africa's democratic history — not to replicate it, but to understand the principles that made it effective.
 
-
 ![The Treatment Action Campaign showed how informed, organised citizens can change policy | Photo by Vitaly Gariev on Unsplash](/images/articles/5-3-becoming-an-active-citizen/img-1.webp)
 
 The Treatment Action Campaign (TAC) was formed on 10 December 1998 — International Human Rights Day — to campaign for access to HIV treatment for all South Africans. At the time, the government was restricting access to the antiretroviral drug Nevirapine, which could prevent mother-to-child transmission of HIV, to a handful of pilot sites — while approximately 80,000 newborns were being infected annually. TAC challenged this policy through the courts, in the streets, in the media, and in communities across the country.
 
-In 2002, the Constitutional Court handed down its judgment in *Minister of Health and Others v Treatment Action Campaign and Others (No 2)*. The Court found the government's restriction of Nevirapine to pilot sites unreasonable and ordered the extension of the drug's availability to all public health facilities, along with the provision of counsellors and reasonable measures to extend testing and counselling throughout the public health sector. By 2004, treatment of HIV using antiretroviral drugs in the public sector became official government policy. **South Africa now runs the world's largest antiretroviral programme.**
+In 2002, the Constitutional Court handed down its judgment in _Minister of Health and Others v Treatment Action Campaign and Others (No 2)_. The Court found the government's restriction of Nevirapine to pilot sites unreasonable and ordered the extension of the drug's availability to all public health facilities, along with the provision of counsellors and reasonable measures to extend testing and counselling throughout the public health sector. By 2004, treatment of HIV using antiretroviral drugs in the public sector became official government policy. **South Africa now runs the world's largest antiretroviral programme.**
 
 TAC's success was not accidental. It rested on four pillars that, taken together, constitute a model for effective civic engagement:
 
@@ -72,7 +71,6 @@ The Treatment Action Campaign's success rested on four pillars: understanding an
 
 One of the most common obstacles to civic engagement is not apathy — it is confusion. Citizens who want to act do not know where to start. The system has dozens of entry points, and nobody has drawn a map showing which entry point matches which problem.
 
-
 ![Effective civic engagement starts with knowing where and when to direct your energy | Photo by Mick Haupt on Unsplash](/images/articles/5-3-becoming-an-active-citizen/img-2.webp)
 
 This section is that map. It connects the specific governance knowledge you have acquired across this series to the specific channels through which you can act.
@@ -87,19 +85,19 @@ The ward committee — established under Section 72 of the Municipal Structures 
 
 ### At the Municipal Level: Budgets, IDPs, and Council Meetings
 
-The Integrated Development Plan review happens annually, and the Municipal Systems Act makes community participation a legal obligation. The municipal budget process — which runs from approximately September to June — includes periods for public comment. Municipal council meetings are generally open to the public. If you used the skills from *Following the Money* and *From Treasury to Your Town* to understand your municipality's revenue sources, grant allocations, and spending patterns, you can bring that analysis to the IDP review or budget consultation and ask specific, evidence-based questions: why did the municipality underspend its Municipal Infrastructure Grant by 40%? Why has the water infrastructure allocation declined in real terms for three consecutive years? Why does the annual report show that only 60% of planned capital projects were completed?
+The Integrated Development Plan review happens annually, and the Municipal Systems Act makes community participation a legal obligation. The municipal budget process — which runs from approximately September to June — includes periods for public comment. Municipal council meetings are generally open to the public. If you used the skills from _Following the Money_ and _From Treasury to Your Town_ to understand your municipality's revenue sources, grant allocations, and spending patterns, you can bring that analysis to the IDP review or budget consultation and ask specific, evidence-based questions: why did the municipality underspend its Municipal Infrastructure Grant by 40%? Why has the water infrastructure allocation declined in real terms for three consecutive years? Why does the annual report show that only 60% of planned capital projects were completed?
 
 **When to use this channel:** Strategic and budget-related issues — how the municipality allocates resources, which areas receive infrastructure investment, whether the IDP's priorities are reflected in the actual budget, whether the municipality's financial health (as shown on Municipal Money) is deteriorating.
 
 ### At the Provincial Level: Health, Education, and Oversight
 
-Provincial governments deliver the two largest public services — health and education — which together consume approximately 80% of every provincial budget. Provincial legislatures have standing committees that oversee departmental performance, including standing committees on public accounts that consider the Auditor-General's findings. In *The Awkward Middle Child*, you learned that provinces are fiscally dependent on national transfers, creating an accountability paradox. Your engagement at the provincial level — attending public hearings, making submissions on provincial legislation, using PAIA to request departmental records — is one of the mechanisms that can strengthen the downward accountability link from province to citizen.
+Provincial governments deliver the two largest public services — health and education — which together consume approximately 80% of every provincial budget. Provincial legislatures have standing committees that oversee departmental performance, including standing committees on public accounts that consider the Auditor-General's findings. In _The Awkward Middle Child_, you learned that provinces are fiscally dependent on national transfers, creating an accountability paradox. Your engagement at the provincial level — attending public hearings, making submissions on provincial legislation, using PAIA to request departmental records — is one of the mechanisms that can strengthen the downward accountability link from province to citizen.
 
 **When to use this channel:** Issues with schools, clinics, hospitals, provincial roads, housing delivery, and social development services. Provincial public hearings on legislation and budget votes are particularly important engagement opportunities.
 
 ### At the National Level: Legislation, Budgets, and Parliamentary Oversight
 
-National engagement channels include public submissions on national legislation (using the process from *Making Public Submissions*), participation in parliamentary committee hearings (tracked through PMG), submissions to the National Assembly or NCOP on the Division of Revenue Bill, and engagement with Chapter 9 institutions including the Auditor-General, the Public Protector, the South African Human Rights Commission, and the Information Regulator.
+National engagement channels include public submissions on national legislation (using the process from _Making Public Submissions_), participation in parliamentary committee hearings (tracked through PMG), submissions to the National Assembly or NCOP on the Division of Revenue Bill, and engagement with Chapter 9 institutions including the Auditor-General, the Public Protector, the South African Human Rights Commission, and the Information Regulator.
 
 **When to use this channel:** National legislation that affects your rights, the national budget and Division of Revenue (which determines how much your province and municipality receive), and matters requiring investigation by a Chapter 9 institution.
 
@@ -138,7 +136,6 @@ Research on participatory governance consistently finds that the most impactful 
 
 It would be dishonest to write about active citizenship without acknowledging why so many South Africans have disengaged. The obstacles are real, they are structural, and pretending they do not exist would undermine the credibility of everything this series has tried to build.
 
-
 ![Civic participation faces real barriers — but understanding them is the first step to overcoming them | Photo by Claudio Schwarz on Unsplash](/images/articles/5-3-becoming-an-active-citizen/img-3.webp)
 
 ### Declining Trust
@@ -149,7 +146,7 @@ This series has tried to give you a different calculation. The tools described i
 
 ### Participation Fatigue
 
-Research consistently finds that participation in formal governance processes is declining — particularly among young South Africans. **Less than 20% of individuals aged 18 to 35 registered to vote in the 2021 local government elections**, according to the Electoral Commission of South Africa's voter registration statistics for that election. Research on local-government participation from institutions including the Public Affairs Research Institute (PARI) and the Good Governance Learning Network's *State of Local Governance* publications has documented that young people generally do not attend IDP meetings or engage with municipal planning processes. The reasons are varied: disillusionment with outcomes, the perception that participation is tokenistic, competing demands on time and energy, and a sense that formal channels are less effective than social media pressure or street protest.
+Research consistently finds that participation in formal governance processes is declining — particularly among young South Africans. **Less than 20% of individuals aged 18 to 35 registered to vote in the 2021 local government elections**, according to the Electoral Commission of South Africa's voter registration statistics for that election. Research on local-government participation from institutions including the Public Affairs Research Institute (PARI) and the Good Governance Learning Network's _State of Local Governance_ publications has documented that young people generally do not attend IDP meetings or engage with municipal planning processes. The reasons are varied: disillusionment with outcomes, the perception that participation is tokenistic, competing demands on time and energy, and a sense that formal channels are less effective than social media pressure or street protest.
 
 The fatigue is understandable. But it creates a self-reinforcing cycle: when citizens disengage from formal channels, those channels become less representative, less scrutinised, and more susceptible to capture by narrow interests — which further reduces the quality of governance, which further discourages participation. Breaking this cycle does not require mass mobilisation. It requires enough informed citizens, engaging consistently through the right channels, at the right times, with the right evidence, to make the accountability mechanisms function as designed.
 
@@ -161,7 +158,7 @@ This divide is real, but it is not absolute. Ward committee meetings do not requ
 
 ### Protest and Institutional Engagement
 
-South Africa has one of the highest protest rates in the world. Municipal IQ's *Municipal Hotspots Monitor*, which has tracked major service delivery protests at the municipal level since 2004, has consistently recorded over a hundred such protests per year in recent cycles, with water and electricity failures among the most common triggers. For many communities, street protest has become the default response to governance failure, driven by the perception that formal channels do not produce results.
+South Africa has one of the highest protest rates in the world. Municipal IQ's _Municipal Hotspots Monitor_, which has tracked major service delivery protests at the municipal level since 2004, has consistently recorded over a hundred such protests per year in recent cycles, with water and electricity failures among the most common triggers. For many communities, street protest has become the default response to governance failure, driven by the perception that formal channels do not produce results.
 
 This series has focused on institutional engagement rather than protest — not because protest is illegitimate (Section 17 of the Constitution protects the right to assemble, demonstrate, and picket) but because institutional engagement and protest serve different functions. Protest signals urgency and creates political pressure. Institutional engagement — budget analysis, audit scrutiny, formal submissions, data-driven accountability — produces the evidence base that converts political pressure into specific remedies. The most effective civic movements in South Africa — TAC, Equal Education, the Social Justice Coalition — have combined both: street mobilisation to create urgency, and institutional engagement to specify the remedy and hold government to its commitments.
 
@@ -171,7 +168,7 @@ The TAC model described earlier is one of several examples of sustained civic en
 
 ### The Social Justice Coalition: Auditing Sanitation in Khayelitsha
 
-The Social Justice Coalition (SJC) in Cape Town mobilised 60 volunteers to conduct a *social audit* of outsourced sanitation services in Khayelitsha's informal settlements. Using the City of Cape Town's own contracts as a baseline, volunteers inspected facilities and documented community experiences. The audit found that **54% of toilets were unusable** and that contractual obligations for cleaning were systematically unmet — in some cases, 10 to 26 families shared a single toilet.
+The Social Justice Coalition (SJC) in Cape Town mobilised 60 volunteers to conduct a _social audit_ of outsourced sanitation services in Khayelitsha's informal settlements. Using the City of Cape Town's own contracts as a baseline, volunteers inspected facilities and documented community experiences. The audit found that **54% of toilets were unusable** and that contractual obligations for cleaning were systematically unmet — in some cases, 10 to 26 families shared a single toilet.
 
 The results were presented to the City of Cape Town with specific demands grounded in the audit's evidence. The outcome: **R26 million in funding for daily maintenance of public toilets in informal settlements**, the introduction of a janitorial service for regular maintenance, and the employment of a dedicated sanitation manager for Khayelitsha and surrounding settlements covering over 400 facilities. In 2015, SJC collected and submitted over 500 resident submissions on the City's budget spending to improve sanitation.
 
@@ -181,7 +178,7 @@ The SJC model demonstrates social accountability at the municipal level: citizen
 
 Equal Education describes its approach as "slow activism" — the deliberate choice to build a mass membership organisation capable of sustained engagement over years and decades rather than single campaigns. Founded in 2008, Equal Education now has a membership base of learners, post-school youth, parents, and community members who participate in the organisation's research, campaigning, and mobilisation.
 
-Equal Education's school infrastructure campaign — described in *Using Government Data* — illustrates the approach. The campaign was launched in 2011, grounded in analysis of the Department of Basic Education's own NEIMS data. The data discrepancy between the department's claim of 49 waterless schools and the NEIMS figure of 1,772 provided the evidentiary foundation. The campaign used courts, petitions, rallies outside Parliament, media engagement, trade union alliances, and grassroots mobilisation. In November 2013 — more than two years after the campaign launched — the Minister signed the Norms and Standards for School Infrastructure into law, requiring every school to have water, electricity, internet, working toilets, safe classrooms with a maximum of 40 learners per class, and — on a longer timeline — libraries, laboratories, and sports facilities.
+Equal Education's school infrastructure campaign — described in _Using Government Data_ — illustrates the approach. The campaign was launched in 2011, grounded in analysis of the Department of Basic Education's own NEIMS data. The data discrepancy between the department's claim of 49 waterless schools and the NEIMS figure of 1,772 provided the evidentiary foundation. The campaign used courts, petitions, rallies outside Parliament, media engagement, trade union alliances, and grassroots mobilisation. In November 2013 — more than two years after the campaign launched — the Minister signed the Norms and Standards for School Infrastructure into law, requiring every school to have water, electricity, internet, working toilets, safe classrooms with a maximum of 40 learners per class, and — on a longer timeline — libraries, laboratories, and sports facilities.
 
 The campaign did not end with the law. Equal Education continued monitoring implementation, releasing research in 2023 — a full decade later — on how school infrastructure affects teaching and learning. The "slow activism" model reflects a principle that runs through this entire series: **accountability is not an event. It is a practice.** The most important civic achievements in South Africa's democracy have come from citizens who stayed engaged long enough for the system's accountability mechanisms to produce results.
 
@@ -209,7 +206,7 @@ This toolkit distils everything you have learned across fifteen articles into a 
 
 **Step 1: Know your representatives and your rights**
 
-Identify your ward councillor at [elections.org.za](https://www.elections.org.za/pw/voter/Who-Is-My-Ward-Councillor) or [pa.org.za](https://www.pa.org.za). Know which sphere of government is responsible for the services you care about (Article 1.2: *Who Does What*). Know your constitutional rights: the right to participate (Section 17), the right to access information (Section 32), the right to just administrative action (Section 33), and the right to vote and make political choices (Section 19). These are not abstract principles — they are enforceable rights that this series has taught you how to use.
+Identify your ward councillor at [elections.org.za](https://www.elections.org.za/pw/voter/Who-Is-My-Ward-Councillor) or [pa.org.za](https://www.pa.org.za). Know which sphere of government is responsible for the services you care about (Article 1.2: _Who Does What_). Know your constitutional rights: the right to participate (Section 17), the right to access information (Section 32), the right to just administrative action (Section 33), and the right to vote and make political choices (Section 19). These are not abstract principles — they are enforceable rights that this series has taught you how to use.
 
 **Step 2: Choose your focus**
 
@@ -233,7 +230,7 @@ When your municipality's annual report is published, compare what was delivered 
 
 **Step 7: Act on what you find**
 
-- **Write** a public submission to a parliamentary or legislative committee considering your entity's audit findings or budget vote (Article 4.3: *Making Public Submissions*).
+- **Write** a public submission to a parliamentary or legislative committee considering your entity's audit findings or budget vote (Article 4.3: _Making Public Submissions_).
 - **Attend** a SCOPA hearing or provincial public accounts committee session — tracked through PMG at [pmg.org.za](https://pmg.org.za) — and follow up on commitments made.
 - **Request** unpublished records through a PAIA request using Form 2 from [inforegulator.org.za/paia-forms](https://inforegulator.org.za/paia-forms/).
 - **Raise** specific issues at your ward committee or IDP meeting, grounded in the data you have gathered.
@@ -257,7 +254,7 @@ The practice compounds. The first year, you are learning the system. The second 
 - Government performance: [dpme.gov.za](https://www.dpme.gov.za)
 - PAIA request forms: [inforegulator.org.za/paia-forms](https://inforegulator.org.za/paia-forms/)
 - Service delivery reporting: [govchat.org](https://www.govchat.org)
-:::
+  :::
 
 :::framework
 **The Accountability Cycle Checklist**
@@ -297,7 +294,7 @@ By following this annual checklist, you build a compounding practice — each cy
 
 ## A Final Word
 
-This series began with a claim: that **the gap between what South Africa's Constitution promises and what citizens experience is not primarily a gap of design.** The Constitution is well-designed. The fiscal system is well-documented. The accountability institutions exist. *The gap is in the practice* — in the space between the mechanisms that exist and the citizens who use them.
+This series began with a claim: that **the gap between what South Africa's Constitution promises and what citizens experience is not primarily a gap of design.** The Constitution is well-designed. The fiscal system is well-documented. The accountability institutions exist. _The gap is in the practice_ — in the space between the mechanisms that exist and the citizens who use them.
 
 Fifteen articles later, you have the knowledge to close that gap — not for the entire country, but for your ward, your municipality, your province, your issue. You know who is responsible. You know where the money comes from and where it goes. You know how to participate in the decisions that shape your services. You know how to read the report card that tells you whether the money was spent properly. You know where to find the data. And you know how to act on what you find.
 
@@ -314,25 +311,25 @@ The data is public. The channels are open. The rights are enforceable. Begin.
 The analysis in this article draws on the following institutional research and publications:
 
 - Constitution of the Republic of South Africa, 1996, Sections 17 (assembly and petition), 19 (political rights), 27 (health care), 32 (access to information), 33 (just administrative action), 195 (public administration values) — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)
-- *Minister of Health and Others v Treatment Action Campaign and Others (No 2)* [2002] ZACC 15 — Constitutional Court judgment ordering extension of Nevirapine access — [saflii.org](http://www.saflii.org)
+- _Minister of Health and Others v Treatment Action Campaign and Others (No 2)_ [2002] ZACC 15 — Constitutional Court judgment ordering extension of Nevirapine access — [saflii.org](http://www.saflii.org)
 - Treatment Action Campaign — history, strategy, and outcomes of the campaign for antiretroviral access — [tac.org.za](https://tac.org.za)
 - White Paper on Transforming Public Service Delivery (1997) — Batho Pele principles — [dpsa.gov.za](https://www.dpsa.gov.za)
 - Municipal Structures Act 117 of 1998, Sections 72–74 — ward committee establishment, composition, and functions — [gov.za](https://www.gov.za/documents/local-government-municipal-structures-act)
 - Local Government: Municipal Systems Act 32 of 2000, Chapters 4–5 — community participation and IDP requirements — [gov.za](https://www.gov.za/documents/local-government-municipal-systems-act)
 - Social Justice Coalition — social audit of sanitation services in Khayelitsha — [sjc.org.za](https://sjc.org.za)
-- International Budget Partnership and Ndifuna Ukwazi — *Social Audits in South Africa: A Guide* — [internationalbudget.org](https://internationalbudget.org)
+- International Budget Partnership and Ndifuna Ukwazi — _Social Audits in South Africa: A Guide_ — [internationalbudget.org](https://internationalbudget.org)
 - Equal Education — school infrastructure campaign, NEIMS data analysis, and Norms and Standards for School Infrastructure — [equaleducation.org.za](https://equaleducation.org.za)
 - Black Sash — Community Monitoring and Advocacy Programme and community-based monitoring methodology — [blacksash.org.za](https://blacksash.org.za) and [cbm.blacksash.org.za](https://cbm.blacksash.org.za)
 - Electoral Commission of South Africa — ward councillor lookup and voter registration statistics, including the 2021 local government elections — [elections.org.za](https://www.elections.org.za/pw/voter/Who-Is-My-Ward-Councillor)
 - Public Affairs Research Institute (PARI) — research on state capacity and local government participation — [pari.org.za](https://pari.org.za)
-- Good Governance Learning Network — *The State of Local Governance* (annual/periodic), member organisation publications on community participation in municipalities — [ggln.org.za](https://www.ggln.org.za)
+- Good Governance Learning Network — _The State of Local Governance_ (annual/periodic), member organisation publications on community participation in municipalities — [ggln.org.za](https://www.ggln.org.za)
 - People's Assembly — councillor identification and civic education resources — [pa.org.za](https://www.pa.org.za)
 - GovChat — citizen-government engagement platform — [govchat.org](https://www.govchat.org)
 - Parliamentary Monitoring Group — committee proceedings and legislative tracking — [pmg.org.za](https://pmg.org.za)
 - Open Government Partnership — South Africa Action Plan 2024–2026 — [opengovpartnership.org/members/south-africa](https://www.opengovpartnership.org/members/south-africa/)
 - World Bank — social accountability frameworks and tools — [worldbank.org](https://www.worldbank.org)
 - Afrobarometer — South Africa country survey rounds on trust in institutions — [afrobarometer.org](https://www.afrobarometer.org)
-- Municipal IQ — *Municipal Hotspots Monitor* tracking major service delivery protests at municipal level — [municipaliq.co.za](https://www.municipaliq.co.za)
+- Municipal IQ — _Municipal Hotspots Monitor_ tracking major service delivery protests at municipal level — [municipaliq.co.za](https://www.municipaliq.co.za)
 - amaBhungane Centre for Investigative Journalism — [amabhungane.org](https://amabhungane.org)
 - GroundUp — public interest journalism on service delivery and human rights — [groundup.org.za](https://groundup.org.za)
 - Corruption Watch — citizen corruption reporting and open data tools — [corruptionwatch.org.za](https://www.corruptionwatch.org.za)

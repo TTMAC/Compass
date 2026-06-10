@@ -27,7 +27,7 @@ seo:
 
 ## When Things Go Wrong, Who Is Actually Responsible?
 
-In the previous article in this series, *The Architecture of the State*, you learned that South Africa's Constitution divides power across three constitutionally equal spheres—national, provincial, and municipal—each with protected powers.
+In the previous article in this series, _The Architecture of the State_, you learned that South Africa's Constitution divides power across three constitutionally equal spheres—national, provincial, and municipal—each with protected powers.
 
 ## The Most Practical Question in South African Governance
 
@@ -39,8 +39,7 @@ This article is the map. It takes the constitutional architecture from Article 1
 
 ## The National Government Machine: Departments, Ministers, and Directors-General
 
-National government is the most visible sphere—the president, the cabinet, Parliament, the Union Buildings—but it is also the sphere that most South Africans misunderstand. **National government does not, for the most part, deliver services directly to you.** Its primary functions are setting policy, passing legislation, regulating sectors, and transferring money to the other two spheres so they can deliver services. There are important exceptions—the South African Police Service, the South African Social Security Agency, the Department of Home Affairs—but the general principle holds: *national government designs the system, it does not run the taps.*
-
+National government is the most visible sphere—the president, the cabinet, Parliament, the Union Buildings—but it is also the sphere that most South Africans misunderstand. **National government does not, for the most part, deliver services directly to you.** Its primary functions are setting policy, passing legislation, regulating sectors, and transferring money to the other two spheres so they can deliver services. There are important exceptions—the South African Police Service, the South African Social Security Agency, the Department of Home Affairs—but the general principle holds: _national government designs the system, it does not run the taps._
 
 ![Parliament in Cape Town, where national legislation is debated and passed | Photo by David Stanley, CC BY 2.0, via Wikimedia Commons](/images/articles/1-2-who-does-what/img-1.webp)
 
@@ -58,7 +57,7 @@ The national Department of Health sets health policy, regulates health professio
 
 ### The South African Police Service
 
-SAPS is one of the few national functions that delivers a service directly to you. The Minister of Police heads the department, and the National Commissioner commands the service. **Every police station in the country, every detective, every visible policing unit falls under national government.** When your neighbourhood is plagued by crime, when your case docket disappears, when the police take four hours to respond to an emergency call—that is a national government failure. Provincial governments have a constitutional oversight role over policing (*Section 206 of the Constitution* allows provincial executives to monitor police conduct and investigate complaints), and municipalities can establish metropolitan police services with limited powers, but the core policing function is national. The station commander at your local police station reports up through a chain that ends at the National Commissioner and the Minister of Police.
+SAPS is one of the few national functions that delivers a service directly to you. The Minister of Police heads the department, and the National Commissioner commands the service. **Every police station in the country, every detective, every visible policing unit falls under national government.** When your neighbourhood is plagued by crime, when your case docket disappears, when the police take four hours to respond to an emergency call—that is a national government failure. Provincial governments have a constitutional oversight role over policing (_Section 206 of the Constitution_ allows provincial executives to monitor police conduct and investigate complaints), and municipalities can establish metropolitan police services with limited powers, but the core policing function is national. The station commander at your local police station reports up through a chain that ends at the National Commissioner and the Minister of Police.
 
 ### The Department of Home Affairs
 
@@ -76,7 +75,6 @@ National government's direct-service departments—SAPS, Home Affairs, SASSA—a
 
 Provincial government is where the Constitution's design meets your daily reality in the most consequential way. Nine provinces, each with a premier, an executive council of Members of the Executive Council (MECs), and provincial departments headed by Heads of Department (HODs). Provincial government runs your schools, your hospitals, your clinics, your ambulances, your provincial roads, and your libraries. It is the implementation sphere—taking national policy frameworks and turning them into functioning services on the ground.
 
-
 ![Provincial legislatures oversee education, health, and other critical services | Photo by the blowup on Unsplash](/images/articles/1-2-who-does-what/img-2.webp)
 
 Each province has its own configuration of departments, but the core ones are consistent: Education, Health, Human Settlements, Public Works and Infrastructure, Social Development, Community Safety, Agriculture, Finance, and the Office of the Premier. The MEC is the political head, accountable to the provincial legislature. The HOD is the administrative head and accounting officer. This distinction—political accountability through the MEC, administrative accountability through the HOD—is essential for directing your pressure to the right person.
@@ -88,7 +86,7 @@ Your child's teacher was hired by the provincial education department. The schoo
 The provincial education MEC is politically responsible. But the operational decisions—which schools get new classrooms, how teachers are distributed across districts, which infrastructure projects are prioritised—are made by the HOD and the district directors who report to them. South Africa's education system is divided into approximately 75 education districts across the nine provinces, each managed by a district director. These district offices are the interface between provincial policy and your child's school, and they are frequently where implementation breaks down.
 
 :::expert
-The National Education Evaluation and Development Unit (NEEDU), established by the Department of Basic Education to evaluate school and education district performance, has documented the district office problem extensively. NEEDU's reports consistently identify the district as the critical weak link in the education delivery chain: subject advisors responsible for curriculum support are spread impossibly thin, often covering 150 to 200 schools each, making meaningful school-level support mathematically impossible. NEEDU's *National Report 2012* on the state of literacy teaching and learning in the foundation phase (published 2013) found that many district offices lacked the specialist staff to provide subject-specific guidance, and that the frequency of school visits fell far below the norms set by provincial departments. The national curriculum may be well-designed and the provincial department may have the formal structures to implement it, but between the provincial head office and the classroom, the district office — chronically understaffed, under-resourced, and often geographically remote from the schools it serves — is where policy intention meets implementation reality, and where the gap between the two is widest.
+The National Education Evaluation and Development Unit (NEEDU), established by the Department of Basic Education to evaluate school and education district performance, has documented the district office problem extensively. NEEDU's reports consistently identify the district as the critical weak link in the education delivery chain: subject advisors responsible for curriculum support are spread impossibly thin, often covering 150 to 200 schools each, making meaningful school-level support mathematically impossible. NEEDU's _National Report 2012_ on the state of literacy teaching and learning in the foundation phase (published 2013) found that many district offices lacked the specialist staff to provide subject-specific guidance, and that the frequency of school visits fell far below the norms set by provincial departments. The national curriculum may be well-designed and the provincial department may have the formal structures to implement it, but between the provincial head office and the classroom, the district office — chronically understaffed, under-resourced, and often geographically remote from the schools it serves — is where policy intention meets implementation reality, and where the gap between the two is widest.
 :::
 
 ### Provincial Health Departments
@@ -107,7 +105,7 @@ When your RDP house has cracks in the walls six months after you moved in, the p
 
 ### Ambulance Services
 
-Emergency medical services—ambulances—are an **exclusively provincial function under Schedule 5 of the Constitution**. The provincial Department of Health typically manages EMS through a dedicated sub-directorate. When the ambulance takes 90 minutes to reach you in a medical emergency, that is a provincial failure. Not national, not municipal. The province funds the ambulances, employs the paramedics, and manages the dispatch system. This is one of the clearest lines of accountability in South Africa's governance architecture, and one of the most frequently misunderstood—*many citizens call their municipality to complain about ambulance response times when the municipality has no role in the service.*
+Emergency medical services—ambulances—are an **exclusively provincial function under Schedule 5 of the Constitution**. The provincial Department of Health typically manages EMS through a dedicated sub-directorate. When the ambulance takes 90 minutes to reach you in a medical emergency, that is a provincial failure. Not national, not municipal. The province funds the ambulances, employs the paramedics, and manages the dispatch system. This is one of the clearest lines of accountability in South Africa's governance architecture, and one of the most frequently misunderstood—_many citizens call their municipality to complain about ambulance response times when the municipality has no role in the service._
 
 :::takeaway
 Provincial government is the implementation sphere for South Africa's two largest social services—education and health—together accounting for approximately 80% of most provincial budgets. The MEC sets political direction and is accountable to the provincial legislature; the HOD is the administrative head and accounting officer. When schools and hospitals fail, the accountability chain runs through the provincial department, not through national government (which sets policy and provides funding) or municipal government (which has no role in these functions). Ambulances are exclusively provincial. Housing delivery is primarily provincial, with national funding and municipal land and infrastructure.
@@ -116,7 +114,6 @@ Provincial government is the implementation sphere for South Africa's two larges
 ## The Municipal Government Machine: Where Services Meet Your Street
 
 Municipal government is where governance becomes tangible. The water from your tap, the electricity powering your lights, the refuse truck that collects your bins, the road surface you drive on, the streetlight outside your house, the local park your children play in—all municipal. South Africa's 257 municipalities—8 metropolitan, 44 district, and 205 local—are constitutionally responsible for the services that most directly determine your quality of life.
-
 
 ![Municipal offices are where citizens access local government services directly | Photo by Gabriele Romano on Unsplash](/images/articles/1-2-who-does-what/img-3.webp)
 
@@ -134,7 +131,7 @@ Sanitation follows a similar pattern. The municipal sewer network, the local was
 
 ### Electricity Distribution
 
-If you are a municipal electricity customer—and most urban South Africans are—your municipality buys bulk electricity from Eskom and distributes it to your home. The municipality maintains the local distribution network (substations, transformers, the cable to your meter), reads your meter, and bills you. *The surcharge your municipality adds to the Eskom bulk tariff is a major source of municipal revenue*—often the largest single revenue line in a municipality's budget.
+If you are a municipal electricity customer—and most urban South Africans are—your municipality buys bulk electricity from Eskom and distributes it to your home. The municipality maintains the local distribution network (substations, transformers, the cable to your meter), reads your meter, and bills you. _The surcharge your municipality adds to the Eskom bulk tariff is a major source of municipal revenue_—often the largest single revenue line in a municipality's budget.
 
 When load shedding hits, that is an Eskom problem—a national government entity's failure to maintain adequate generation capacity. When your power goes out on a day without load shedding, that is almost certainly a municipal distribution failure—a blown transformer, a cable fault, a maintenance backlog. When your electricity bill is incorrect or your prepaid meter malfunctions, that is municipal.
 
@@ -155,7 +152,7 @@ When you hit a pothole, the first question is: whose road is it? If you are on a
 Stormwater drainage and street lighting are exclusively municipal functions. When the intersection floods during every rainstorm because the stormwater system is blocked or undersized, or when street lights have been out for months, your municipality is responsible.
 
 :::expert
-The South African Cities Network (SACN), in its *State of South African Cities Report* series, has documented what its researchers describe as the fundamental governance challenge facing metropolitan municipalities: the gap between constitutional mandate and institutional capacity. SACN's analysis shows that a municipality like eThekwini or the City of Johannesburg is expected to operate like a major corporation — managing billions of rands in revenue, tens of thousands of employees, and massive infrastructure portfolios — but within the governance structure of a political institution. The technical demands are enormous: municipalities need engineers, accountants, planners, IT specialists, environmental scientists, and fleet managers. But the appointment process is shaped by political considerations, council turnover disrupts institutional memory, and municipal salary scales cannot compete with the private sector for scarce technical skills. SACN's research across its 2016 and 2021 *State of South African Cities Report* cycles has identified this capacity gap — between what municipalities are constitutionally required to do and what they have the institutional resources to do — as the defining challenge of South African urban governance.
+The South African Cities Network (SACN), in its _State of South African Cities Report_ series, has documented what its researchers describe as the fundamental governance challenge facing metropolitan municipalities: the gap between constitutional mandate and institutional capacity. SACN's analysis shows that a municipality like eThekwini or the City of Johannesburg is expected to operate like a major corporation — managing billions of rands in revenue, tens of thousands of employees, and massive infrastructure portfolios — but within the governance structure of a political institution. The technical demands are enormous: municipalities need engineers, accountants, planners, IT specialists, environmental scientists, and fleet managers. But the appointment process is shaped by political considerations, council turnover disrupts institutional memory, and municipal salary scales cannot compete with the private sector for scarce technical skills. SACN's research across its 2016 and 2021 _State of South African Cities Report_ cycles has identified this capacity gap — between what municipalities are constitutionally required to do and what they have the institutional resources to do — as the defining challenge of South African urban governance.
 :::
 
 ## The Grey Zones: Delegations, Assignments, and Shared Functions
@@ -284,16 +281,16 @@ This framework will not solve South Africa's service delivery problems on its ow
 
 You now have the operational map that complements the constitutional architecture from the previous article. You know that national government sets policy and delivers policing, identity documents, and social grants directly. You know that provincial government runs schools, hospitals, clinics, ambulances, and housing delivery. You know that municipal government is responsible for water reticulation, electricity distribution, refuse removal, local roads, stormwater, and street lighting. You know how to identify the specific department and official responsible for any given service. And you have a five-step framework for turning that knowledge into effective accountability.
 
-In the next article in this series, *How the Spheres Interact*, we will examine how the cooperative governance system works in practice—the intergovernmental forums, the coordination mechanisms, and the intervention powers that activate when a sphere fails. Understanding who does what is the first step; understanding how the spheres are supposed to work together, and what happens when they do not, is the next.
+In the next article in this series, _How the Spheres Interact_, we will examine how the cooperative governance system works in practice—the intergovernmental forums, the coordination mechanisms, and the intervention powers that activate when a sphere fails. Understanding who does what is the first step; understanding how the spheres are supposed to work together, and what happens when they do not, is the next.
 
 ## Resources
 
 The analysis in this article draws on the following institutional research and publications:
 
 - National Education Evaluation and Development Unit (NEEDU), reports on school and district performance, including the 2013 report on literacy teaching and learning — available through the Department of Basic Education at [education.gov.za](https://www.education.gov.za)
-- South African Cities Network (SACN), *State of South African Cities Report* series — [sacities.net](https://www.sacities.net)
+- South African Cities Network (SACN), _State of South African Cities Report_ series — [sacities.net](https://www.sacities.net)
 - National Treasury, review of public transport spending and conditional grant performance — [treasury.gov.za](https://www.treasury.gov.za)
-- Auditor-General of South Africa (2023). *MFMA Consolidated General Report 2022/23* — [agsa.co.za](https://www.agsa.co.za)
-- Department of Water and Sanitation, *Blue Drop* and *Green Drop* reports on water and wastewater quality — [dws.gov.za](https://www.dws.gov.za)
+- Auditor-General of South Africa (2023). _MFMA Consolidated General Report 2022/23_ — [agsa.co.za](https://www.agsa.co.za)
+- Department of Water and Sanitation, _Blue Drop_ and _Green Drop_ reports on water and wastewater quality — [dws.gov.za](https://www.dws.gov.za)
 - Parliamentary Monitoring Group (PMG), tracking of parliamentary oversight and portfolio committee proceedings — [pmg.org.za](https://pmg.org.za)
 - Constitution of the Republic of South Africa, 1996, Schedules 4–5 — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)

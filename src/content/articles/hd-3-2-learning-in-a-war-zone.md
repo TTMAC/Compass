@@ -55,7 +55,6 @@ South Africa asks millions of children to learn under conditions that make learn
 
 To understand why the environment matters so much, you need to understand what stress does to a developing brain. This is not a digression — it is the biological mechanism that connects community violence, hunger, and poverty to learning outcomes.
 
-
 ![The brain under chronic stress allocates attention to threat rather than to what teachers are teaching | Photo by Anton Ryazanov on Unsplash](/images/articles/hd-3-2-learning-in-a-war-zone/img-1.webp)
 
 The human stress response is an evolutionary adaptation designed for acute threats. When the brain perceives danger — a predator, an attacker, a sudden threat — the amygdala triggers the hypothalamic-pituitary-adrenal (HPA) axis, which floods the body with cortisol and adrenaline. Heart rate increases. Blood is diverted to the muscles. The prefrontal cortex — responsible for higher-order thinking — is suppressed in favour of the amygdala's rapid threat-response circuitry. This is adaptive when the threat is acute and temporary: you escape the predator, cortisol levels return to normal, and the prefrontal cortex resumes normal function.
@@ -98,7 +97,7 @@ South Africa has no comprehensive school transport system. Millions of learners 
 
 The school itself is not always a safe haven. For many South African children, the school is another site of violence — sometimes as dangerous as the route that brought them there.
 
-The Centre for Justice and Crime Prevention's *National School Violence Study* (2012) found that **approximately one in five South African secondary school learners had experienced some form of violence at school** — including physical assault, threats, robbery, and sexual violence. A 2019 survey by the South African Human Rights Commission found that 90 per cent of schools in the Free State and 85 per cent in the Eastern Cape reported incidents of violence. The Department of Basic Education's School Safety Framework acknowledges that violence in schools is "pervasive" and that many schools, particularly in township and rural areas, are not safe learning environments.
+The Centre for Justice and Crime Prevention's _National School Violence Study_ (2012) found that **approximately one in five South African secondary school learners had experienced some form of violence at school** — including physical assault, threats, robbery, and sexual violence. A 2019 survey by the South African Human Rights Commission found that 90 per cent of schools in the Free State and 85 per cent in the Eastern Cape reported incidents of violence. The Department of Basic Education's School Safety Framework acknowledges that violence in schools is "pervasive" and that many schools, particularly in township and rural areas, are not safe learning environments.
 
 **Corporal punishment** was banned in South Africa by the South African Schools Act of 1996 and declared unconstitutional by the Constitutional Court. Despite this, multiple studies and monitoring reports have found that corporal punishment remains prevalent in many schools. A 2018 study published in the South African Medical Journal found that over 40 per cent of learners in a sample of schools reported experiencing corporal punishment. The use of corporal punishment is not evenly distributed — it is more common in under-resourced schools, more common in rural areas, and more common for male learners. The persistence of corporal punishment despite its illegality reflects the broader governance crisis in the education system: the rules exist on paper but are not enforced in practice.
 
@@ -117,7 +116,6 @@ The SAHRC's monitoring reports on school safety, produced through both complaint
 ## Hunger and Learning
 
 A child cannot learn on an empty stomach. This is not folk wisdom. It is nutritional science with a robust evidence base.
-
 
 ![School feeding schemes turn cognitive bandwidth back toward the lesson on the board | Photo by Richard R on Unsplash](/images/articles/hd-3-2-learning-in-a-war-zone/img-2.webp)
 
@@ -141,7 +139,7 @@ The National School Nutrition Programme feeds 9.6 million learners daily and is 
 
 ## The "Cognitive Bandwidth Tax"
 
-In 2013, the economist Sendhil Mullainathan (Harvard) and the psychologist Eldar Shafir (Princeton) published "Scarcity: Why Having Too Little Means So Much," a book that synthesised decades of research into a single framework. Their central finding: scarcity — of money, time, food, safety — imposes a *"bandwidth tax"* on cognitive function. When the mind is preoccupied with scarcity, it has less bandwidth available for everything else.
+In 2013, the economist Sendhil Mullainathan (Harvard) and the psychologist Eldar Shafir (Princeton) published "Scarcity: Why Having Too Little Means So Much," a book that synthesised decades of research into a single framework. Their central finding: scarcity — of money, time, food, safety — imposes a _"bandwidth tax"_ on cognitive function. When the mind is preoccupied with scarcity, it has less bandwidth available for everything else.
 
 The research is experimentally rigorous. In one influential study, Mullainathan and Shafir asked sugarcane farmers in India to take cognitive tests before and after the harvest — when they were poor and when they were not. The same individuals performed significantly worse on cognitive tests when they were poor than when they were financially secure. **The effect size was equivalent to a 13-point drop in IQ — roughly the cognitive impact of a night without sleep.** Poverty was not selecting for lower cognitive ability. Poverty was imposing a cognitive tax on the same people.
 
@@ -200,7 +198,6 @@ The ISS has produced some of the most rigorous research linking community safety
 ## What Would It Take?
 
 The evidence base on integrated interventions — combining educational improvement with safety, nutrition, and psychosocial support — is growing, and the most promising results come from programmes that address multiple barriers simultaneously.
-
 
 ![Safer routes, better nutrition and study space at home are education investments by another name | Photo by leoon liang on Unsplash](/images/articles/hd-3-2-learning-in-a-war-zone/img-3.webp)
 
@@ -262,11 +259,11 @@ Data source: Stats SA General Household Survey (ward-level data); community prof
 
 The analysis in this article draws on the following institutional research and publications:
 
-- Centre for Justice and Crime Prevention (CJCP), *National School Violence Study* — longitudinal data on children's exposure to violence and its dose-response relationship with educational outcomes — [cjcp.org.za](https://www.cjcp.org.za)
+- Centre for Justice and Crime Prevention (CJCP), _National School Violence Study_ — longitudinal data on children's exposure to violence and its dose-response relationship with educational outcomes — [cjcp.org.za](https://www.cjcp.org.za)
 - Adverse Childhood Experiences (ACEs) research — original Kaiser Permanente/CDC study and South African replication studies documenting ACE prevalence above 80% among SA children
-- Department of Basic Education (DBE), *National School Nutrition Programme* annual reports — coverage, targeting, and nutritional impact data — [education.gov.za](https://www.education.gov.za)
+- Department of Basic Education (DBE), _National School Nutrition Programme_ annual reports — coverage, targeting, and nutritional impact data — [education.gov.za](https://www.education.gov.za)
 - Department of Basic Education (DBE), scholar transport programme data — coverage gaps and provincial implementation of learner transport — [education.gov.za](https://www.education.gov.za)
-- Statistics South Africa (Stats SA), *General Household Survey* — household-level data on food security, access to electricity, housing conditions, and ward-level community profiles — [statssa.gov.za](https://www.statssa.gov.za)
+- Statistics South Africa (Stats SA), _General Household Survey_ — household-level data on food security, access to electricity, housing conditions, and ward-level community profiles — [statssa.gov.za](https://www.statssa.gov.za)
 - South African Medical Research Council (SAMRC), research on toxic stress, childhood trauma, and neurobiological impacts of chronic violence exposure — [samrc.ac.za](https://www.samrc.ac.za)
 - Western Cape Education Department, school closure reports and gang violence impact assessments — [wcedonline.westerncape.gov.za](https://wcedonline.westerncape.gov.za)
 - National Income Dynamics Study (NIDS) — longitudinal panel data tracking how household poverty, food insecurity, and neighbourhood conditions affect educational attainment over time — [nids.uct.ac.za](https://www.nids.uct.ac.za)

@@ -1,5 +1,8 @@
 import { describe, it, expect } from "vitest";
-import { calculateReadingTime, getWordCount } from "../../src/utils/reading-time";
+import {
+  calculateReadingTime,
+  getWordCount,
+} from "../../src/utils/reading-time";
 
 describe("calculateReadingTime", () => {
   it("should return 1 minute for a very short text", () => {

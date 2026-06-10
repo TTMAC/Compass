@@ -105,7 +105,9 @@ self.addEventListener("fetch", (event) => {
           fetch(request).then((response) => {
             if (response.ok) {
               const copy = response.clone();
-              caches.open(STATIC_CACHE).then((cache) => cache.put(request, copy));
+              caches
+                .open(STATIC_CACHE)
+                .then((cache) => cache.put(request, copy));
             }
             return response;
           }),

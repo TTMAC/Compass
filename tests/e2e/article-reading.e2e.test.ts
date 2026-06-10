@@ -13,9 +13,9 @@ test.describe("Article reading journey", () => {
 
     // Verify article page loaded
     await expect(page).toHaveURL(/articles\/1-1-architecture-of-the-state/);
-    await expect(
-      page.locator("h1"),
-    ).toContainText("The Architecture of the State");
+    await expect(page.locator("h1")).toContainText(
+      "The Architecture of the State",
+    );
   });
 
   test("should display article metadata", async ({ page }) => {

@@ -1,6 +1,6 @@
 # Sentinel Quadrant — Signature White Paper Research Dossier
 
-**White paper:** *The Integrated Statecraft Audit: A Diagnostic Method for Composite National Problems — Applied to the Republic of South Africa*
+**White paper:** _The Integrated Statecraft Audit: A Diagnostic Method for Composite National Problems — Applied to the Republic of South Africa_
 
 **Purpose of this document:** to collect the indicator framework, current data, source citations, interdependency evidence, and analytical synthesis that underpin the white paper. This is the research deliverable from Phase 2 of the production plan (indicator sourcing, data collection, analysis).
 
@@ -12,18 +12,22 @@
 ## 1. Methodological Notes
 
 ### 1.1 Data vintage policy
+
 - Prefer the most recent officially published figure as of the compilation date.
 - For quarterly series (QLFS, SAPS crime, Eskom EAF), cite the most recent quarter and note the reporting lag.
 - For annual series (HDI, PIRLS, fiscal), cite the most recent report year and its reference period.
 - For every indicator, record both the value and the reference period separately. A "2024 figure" may describe calendar 2023 conditions.
 
 ### 1.2 Triangulation
+
 Each finding is triangulated across at least two of: (i) South African official statistics (Stats SA, SARB, National Treasury, SAPS); (ii) multilateral sources (UNDP, World Bank, IMF, SIPRI, WHO); (iii) independent research (ISS Africa, SAIIA, academic peer-reviewed work). Divergences between sources are flagged, not averaged.
 
 ### 1.3 Limits of the audit
+
 The audit is a diagnostic tool, not a forecast or a scorecard. It identifies load-bearing failures and sequencing constraints; it does not rank countries. Quantitative and qualitative findings are triangulated but not statistically modelled. The paper's claims are framed as analytical conclusions drawn from the indicator set, not causal estimates.
 
 ### 1.4 Political posture
+
 The audit takes clear positions on institutional design (e.g., that cadre deployment compromises state capacity) because the indicator evidence supports them. It does not take positions on party politics, personalities, or contested ideological questions that the evidence does not resolve.
 
 ---
@@ -34,51 +38,51 @@ The Integrated Statecraft Audit uses a structured indicator set per pillar. Indi
 
 ### Pillar 1 — Grand Strategy
 
-| Indicator | What it measures | Primary source |
-|---|---|---|
-| Defence spending as % of GDP | Whether the state can credibly project force and protect borders | SIPRI Military Expenditure Database; National Treasury |
-| Diplomatic footprint (missions, staffing) | State capacity to represent interests abroad | DIRCO Annual Report; Auditor-General reviews |
-| Published National Security Strategy | Whether the state has a coherent theory of its strategic posture | Cabinet publications |
-| Alignment of foreign policy votes with stated strategic posture | Coherence between rhetoric and action | UN General Assembly voting records; IISS |
-| State capacity index | Whether the state can execute its own decisions | World Bank Worldwide Governance Indicators; Bertelsmann BTI |
-| Cadre deployment / merit-appointment balance | Whether senior appointments follow policy priorities or party patronage | PMG analyses; AG performance reports |
+| Indicator                                                       | What it measures                                                        | Primary source                                              |
+| --------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------- |
+| Defence spending as % of GDP                                    | Whether the state can credibly project force and protect borders        | SIPRI Military Expenditure Database; National Treasury      |
+| Diplomatic footprint (missions, staffing)                       | State capacity to represent interests abroad                            | DIRCO Annual Report; Auditor-General reviews                |
+| Published National Security Strategy                            | Whether the state has a coherent theory of its strategic posture        | Cabinet publications                                        |
+| Alignment of foreign policy votes with stated strategic posture | Coherence between rhetoric and action                                   | UN General Assembly voting records; IISS                    |
+| State capacity index                                            | Whether the state can execute its own decisions                         | World Bank Worldwide Governance Indicators; Bertelsmann BTI |
+| Cadre deployment / merit-appointment balance                    | Whether senior appointments follow policy priorities or party patronage | PMG analyses; AG performance reports                        |
 
 ### Pillar 2 — Safety & Security
 
-| Indicator | What it measures | Primary source |
-|---|---|---|
-| Homicide rate per 100,000 | Whether the state holds a monopoly on legitimate violence | SAPS Annual Report; ISS Africa; WHO Global Health Estimates |
-| Violent crime categories (aggravated robbery, rape, attempted murder) | Day-to-day security of citizens | SAPS quarterly releases |
-| Detection and conviction rates | Whether the criminal justice system produces accountability | SAPS; NPA Annual Report |
-| Private security industry headcount ratio to SAPS | Market exit from state security provision | PSIRA Annual Report |
-| Organised crime index | Penetration of state and economy by organised crime | Global Initiative Against Transnational Organized Crime (GI-TOC) |
-| GBV and femicide | A compounding security and development crisis | SAMRC; Stats SA Victims of Crime Survey |
+| Indicator                                                             | What it measures                                            | Primary source                                                   |
+| --------------------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------- |
+| Homicide rate per 100,000                                             | Whether the state holds a monopoly on legitimate violence   | SAPS Annual Report; ISS Africa; WHO Global Health Estimates      |
+| Violent crime categories (aggravated robbery, rape, attempted murder) | Day-to-day security of citizens                             | SAPS quarterly releases                                          |
+| Detection and conviction rates                                        | Whether the criminal justice system produces accountability | SAPS; NPA Annual Report                                          |
+| Private security industry headcount ratio to SAPS                     | Market exit from state security provision                   | PSIRA Annual Report                                              |
+| Organised crime index                                                 | Penetration of state and economy by organised crime         | Global Initiative Against Transnational Organized Crime (GI-TOC) |
+| GBV and femicide                                                      | A compounding security and development crisis               | SAMRC; Stats SA Victims of Crime Survey                          |
 
 ### Pillar 3 — Economic Growth & Development
 
-| Indicator | What it measures | Primary source |
-|---|---|---|
-| Real GDP growth (total and per capita) | Whether the economy is creating aggregate output | Stats SA; SARB; IMF WEO |
-| Expanded unemployment (LU3 / LU4) | Whether the economy generates employment | Stats SA QLFS |
-| Youth unemployment (15–34) | Intergenerational labour-market failure | Stats SA QLFS |
-| Debt-to-GDP and debt-service cost as % of revenue | Fiscal sustainability and fiscal space | National Treasury Budget Review |
-| Gross fixed capital formation as % of GDP | Whether the economy is building productive capacity | Stats SA; SARB |
-| Energy Availability Factor (Eskom) | Functioning of critical infrastructure | Eskom System Status releases |
-| Gini coefficient and Palma ratio | Distribution of income | World Bank; Stats SA Living Conditions Survey |
-| Worldwide Governance Indicators (control of corruption, rule of law, regulatory quality) | Institutional environment for growth | World Bank WGI |
+| Indicator                                                                                | What it measures                                    | Primary source                                |
+| ---------------------------------------------------------------------------------------- | --------------------------------------------------- | --------------------------------------------- |
+| Real GDP growth (total and per capita)                                                   | Whether the economy is creating aggregate output    | Stats SA; SARB; IMF WEO                       |
+| Expanded unemployment (LU3 / LU4)                                                        | Whether the economy generates employment            | Stats SA QLFS                                 |
+| Youth unemployment (15–34)                                                               | Intergenerational labour-market failure             | Stats SA QLFS                                 |
+| Debt-to-GDP and debt-service cost as % of revenue                                        | Fiscal sustainability and fiscal space              | National Treasury Budget Review               |
+| Gross fixed capital formation as % of GDP                                                | Whether the economy is building productive capacity | Stats SA; SARB                                |
+| Energy Availability Factor (Eskom)                                                       | Functioning of critical infrastructure              | Eskom System Status releases                  |
+| Gini coefficient and Palma ratio                                                         | Distribution of income                              | World Bank; Stats SA Living Conditions Survey |
+| Worldwide Governance Indicators (control of corruption, rule of law, regulatory quality) | Institutional environment for growth                | World Bank WGI                                |
 
 ### Pillar 4 — Human Development
 
-| Indicator | What it measures | Primary source |
-|---|---|---|
-| HDI and IHDI | Composite development outcome, with and without inequality adjustment | UNDP Human Development Report |
-| Life expectancy at birth (total, by sex, by population group where available) | Health outcome aggregate | Stats SA Mid-year Population Estimates; SAMRC |
-| PIRLS / TIMSS / SACMEQ scores | Learning outcomes, internationally benchmarked | IEA; SACMEQ |
-| Grade 4 reading-for-meaning benchmark | Foundational learning | PIRLS |
-| Poverty headcount ratios (food, lower-bound, upper-bound) | Material deprivation | Stats SA National Poverty Lines |
-| Social grant reach | Scale of the safety net | SASSA |
-| Infant and maternal mortality | Primary healthcare performance | DHIS; SADHS |
-| Public health system staffing and spend per beneficiary | Healthcare capacity | Department of Health; OHSC |
+| Indicator                                                                     | What it measures                                                      | Primary source                                |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------- | --------------------------------------------- |
+| HDI and IHDI                                                                  | Composite development outcome, with and without inequality adjustment | UNDP Human Development Report                 |
+| Life expectancy at birth (total, by sex, by population group where available) | Health outcome aggregate                                              | Stats SA Mid-year Population Estimates; SAMRC |
+| PIRLS / TIMSS / SACMEQ scores                                                 | Learning outcomes, internationally benchmarked                        | IEA; SACMEQ                                   |
+| Grade 4 reading-for-meaning benchmark                                         | Foundational learning                                                 | PIRLS                                         |
+| Poverty headcount ratios (food, lower-bound, upper-bound)                     | Material deprivation                                                  | Stats SA National Poverty Lines               |
+| Social grant reach                                                            | Scale of the safety net                                               | SASSA                                         |
+| Infant and maternal mortality                                                 | Primary healthcare performance                                        | DHIS; SADHS                                   |
+| Public health system staffing and spend per beneficiary                       | Healthcare capacity                                                   | Department of Health; OHSC                    |
 
 ---
 
@@ -156,12 +160,12 @@ Data compiled as of April 2026. Each indicator block records the value, referenc
 
 The distinctive analytical move of the Integrated Statecraft Audit. Each off-diagonal cell documents how failure in one pillar propagates into another. Diagonal cells are the pillar-level diagnoses already recorded above.
 
-|   | **Strategy →** | **Security →** | **Economy →** | **Human Dev →** |
-|---|---|---|---|---|
-| **← Strategy** | *see §3.1* | Absence of a published National Security Strategy leaves SAPS and SANDF optimising against incompatible objectives; cross-border deployments funded ad hoc rather than strategically. | Strategic drift (AGOA risk, BRICS+ posture ambiguity) feeds investment uncertainty; policy unpredictability is a direct growth drag. | Cadre deployment model applied at senior levels of delivery ministries compromises the execution of education, health, and housing programmes. |
-| **← Security** | Crime's dominance of the domestic political agenda absorbs grand-strategic attention and diplomatic energy. | *see §3.2* | Crime's direct and indirect cost to GDP is estimated at ~10% of GDP; private security spend is a pure dead-weight loss relative to a functioning state monopoly on violence. | Children cannot learn in war-zone conditions; violence directly shortens lives (45/100k homicide) and compounds the human development deficit. |
-| **← Economy** | Fiscal constraint (debt-service ~21% of revenue) directly binds what the state can spend on defence, diplomatic capacity, and strategic investment. | Unemployment at 44.5% (LU4) generates the recruitment base for organised crime; fiscal constraint starves SAPS, NPA, and courts of the capacity to detect and prosecute. | *see §3.3* | Persistent unemployment is the binding constraint on poverty reduction; grants prevent catastrophe but cannot compensate for the absence of wages. |
-| **← Human Dev** | A state that cannot educate its citizens cannot staff its diplomatic service, its technical ministries, or its intelligence agencies at the level grand strategy requires. | Under-educated, unemployed, unparented youth are the dominant recruitment base for organised crime and the dominant victim pool for violence. | 81% of Grade 4 learners cannot read for meaning — the medium-term productivity consequence for a knowledge-dependent economy is direct and severe. | *see §3.4* |
+|                 | **Strategy →**                                                                                                                                                             | **Security →**                                                                                                                                                                        | **Economy →**                                                                                                                                                                | **Human Dev →**                                                                                                                                    |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **← Strategy**  | _see §3.1_                                                                                                                                                                 | Absence of a published National Security Strategy leaves SAPS and SANDF optimising against incompatible objectives; cross-border deployments funded ad hoc rather than strategically. | Strategic drift (AGOA risk, BRICS+ posture ambiguity) feeds investment uncertainty; policy unpredictability is a direct growth drag.                                         | Cadre deployment model applied at senior levels of delivery ministries compromises the execution of education, health, and housing programmes.     |
+| **← Security**  | Crime's dominance of the domestic political agenda absorbs grand-strategic attention and diplomatic energy.                                                                | _see §3.2_                                                                                                                                                                            | Crime's direct and indirect cost to GDP is estimated at ~10% of GDP; private security spend is a pure dead-weight loss relative to a functioning state monopoly on violence. | Children cannot learn in war-zone conditions; violence directly shortens lives (45/100k homicide) and compounds the human development deficit.     |
+| **← Economy**   | Fiscal constraint (debt-service ~21% of revenue) directly binds what the state can spend on defence, diplomatic capacity, and strategic investment.                        | Unemployment at 44.5% (LU4) generates the recruitment base for organised crime; fiscal constraint starves SAPS, NPA, and courts of the capacity to detect and prosecute.              | _see §3.3_                                                                                                                                                                   | Persistent unemployment is the binding constraint on poverty reduction; grants prevent catastrophe but cannot compensate for the absence of wages. |
+| **← Human Dev** | A state that cannot educate its citizens cannot staff its diplomatic service, its technical ministries, or its intelligence agencies at the level grand strategy requires. | Under-educated, unemployed, unparented youth are the dominant recruitment base for organised crime and the dominant victim pool for violence.                                         | 81% of Grade 4 learners cannot read for meaning — the medium-term productivity consequence for a knowledge-dependent economy is direct and severe.                           | _see §3.4_                                                                                                                                         |
 
 **The analytical implication.** No cell is self-contained. Every failure in each pillar is simultaneously a cause and consequence of failures in the others. Interventions that target only one cell will not move the system.
 
@@ -172,18 +176,23 @@ The distinctive analytical move of the Integrated Statecraft Audit. Each off-dia
 From the pillar data and the interdependency matrix, five failures are "load-bearing" in the sense that their resolution would materially unlock the others. These are candidates for the "what to move first" argument in Section 5 of the white paper.
 
 ### 5.1 Appointments on merit
+
 The reversal of the cadre deployment model — restoring merit-based appointment in the senior public service, SOEs, and oversight bodies — is the single lowest-cost, highest-leverage structural reform available. It unlocks capability in every other pillar simultaneously and has no fiscal cost.
 
 ### 5.2 A published, binding National Security Strategy
+
 Aligning foreign policy, defence, intelligence, and domestic policing under one strategic framework would produce coherent prioritisation. Current incoherence is strategic self-harm, not strategic subtlety.
 
 ### 5.3 Foundational literacy and numeracy in the bottom two school quintiles
+
 Given that 81% of Grade 4 learners cannot read for meaning, no downstream educational or labour-market intervention can succeed without solving the foundational-language and basic-numeracy deficit. This is the single highest-leverage human-development intervention available.
 
 ### 5.4 SAPS detection-rate recovery
+
 Moving the murder detection rate from 11% toward 40% (the OECD median) would shift the cost–benefit calculation facing potential offenders. This is a capability problem (forensics, crime intelligence, investigative staffing), not a resource problem exclusively.
 
 ### 5.5 SOE and logistics reform with enforceable governance
+
 Electricity has shown what is possible under focused management. Transnet rail, ports, and water infrastructure are the next binding constraints. Reform must be governance reform, not restructuring theatre.
 
 ---
@@ -192,11 +201,11 @@ Electricity has shown what is possible under focused management. Transnet rail, 
 
 The audit's discipline: some interventions are prerequisites for others and must not be attempted in parallel.
 
-| Phase | Sequencing logic | Interventions |
-|---|---|---|
-| **Enabler phase (Years 0–2)** | Build the institutional capacity that every other reform depends on. Without this, subsequent reforms fail on delivery regardless of their policy merit. | Merit-based senior appointments; publication of National Security Strategy; Treasury-led centralisation of infrastructure procurement under strict governance. |
-| **Capability phase (Years 2–5)** | Rebuild the operational capacity of core state functions. | SAPS detection and conviction-rate recovery; SOE and logistics reform; foundational-literacy intervention at primary-school level. |
-| **Outcome phase (Years 5–10)** | With institutions and capabilities restored, policy outcomes compound. | Visible declines in homicide rate; measurable gains in learning outcomes; employment elasticity of growth restored; poverty headcount declining. |
+| Phase                            | Sequencing logic                                                                                                                                         | Interventions                                                                                                                                                  |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Enabler phase (Years 0–2)**    | Build the institutional capacity that every other reform depends on. Without this, subsequent reforms fail on delivery regardless of their policy merit. | Merit-based senior appointments; publication of National Security Strategy; Treasury-led centralisation of infrastructure procurement under strict governance. |
+| **Capability phase (Years 2–5)** | Rebuild the operational capacity of core state functions.                                                                                                | SAPS detection and conviction-rate recovery; SOE and logistics reform; foundational-literacy intervention at primary-school level.                             |
+| **Outcome phase (Years 5–10)**   | With institutions and capabilities restored, policy outcomes compound.                                                                                   | Visible declines in homicide rate; measurable gains in learning outcomes; employment elasticity of growth restored; poverty headcount declining.               |
 
 Attempting Phase 3 before Phase 1 is the standard pattern of South African reform and the standard explanation for its failure.
 
@@ -206,16 +215,16 @@ Attempting Phase 3 before Phase 1 is the standard pattern of South African refor
 
 Items requiring fresh verification before white paper publication:
 
-| Indicator | Current reading | Vintage | Action before publication |
-|---|---|---|---|
-| SAPS murder 2025/26 annual total | Partial quarterly data through Q2 | 2025/26 annual release expected May 2026 | Update with final annual figure if released before publication. |
-| QLFS | Q4 2025 | Released Feb 2026 | Update to Q1 2026 when released (~May 2026). |
-| Eskom EAF | Dec 2025 / FYTD | Ongoing | Refresh to most recent month. |
-| HDI / IHDI | HDR 2023/24 (ref year 2022) | 2024 | Check whether HDR 2024/25 releases before publication. |
-| Poverty headcount | 2023 reference | *Poverty Trends 2023* release | Flag that next comprehensive update is overdue; use 2023 figures with clear vintage. |
-| PIRLS | 2021 | Published May 2023 | Use as-is; PIRLS 2026 cycle data not yet available. |
-| Budget Review | 2026 | Tabled Feb 2026 | Use as published; MTBPS in Oct 2026 may revise. |
-| Defence expenditure | 2025/26 | Budget 2026 | Cross-check SIPRI figures when they release annual database. |
+| Indicator                        | Current reading                   | Vintage                                  | Action before publication                                                            |
+| -------------------------------- | --------------------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------ |
+| SAPS murder 2025/26 annual total | Partial quarterly data through Q2 | 2025/26 annual release expected May 2026 | Update with final annual figure if released before publication.                      |
+| QLFS                             | Q4 2025                           | Released Feb 2026                        | Update to Q1 2026 when released (~May 2026).                                         |
+| Eskom EAF                        | Dec 2025 / FYTD                   | Ongoing                                  | Refresh to most recent month.                                                        |
+| HDI / IHDI                       | HDR 2023/24 (ref year 2022)       | 2024                                     | Check whether HDR 2024/25 releases before publication.                               |
+| Poverty headcount                | 2023 reference                    | _Poverty Trends 2023_ release            | Flag that next comprehensive update is overdue; use 2023 figures with clear vintage. |
+| PIRLS                            | 2021                              | Published May 2023                       | Use as-is; PIRLS 2026 cycle data not yet available.                                  |
+| Budget Review                    | 2026                              | Tabled Feb 2026                          | Use as published; MTBPS in Oct 2026 may revise.                                      |
+| Defence expenditure              | 2025/26                           | Budget 2026                              | Cross-check SIPRI figures when they release annual database.                         |
 
 ---
 
@@ -235,37 +244,41 @@ Findings to thread through the white paper's executive summary and conclusion:
 ## 9. Reference List
 
 ### South African official sources
-- Statistics South Africa. *Quarterly Labour Force Survey, Q4 2025*. Statistical Release P0211. Pretoria: Stats SA, February 2026. [P02114thQuarter2025.pdf](https://www.statssa.gov.za/publications/P0211/P02114thQuarter2025.pdf)
-- Statistics South Africa. *Mid-Year Population Estimates 2024*. Statistical Release P0302. Pretoria: Stats SA, 2024. [P03022024.pdf](https://www.statssa.gov.za/publications/P0302/P03022024.pdf)
-- Statistics South Africa. *National Poverty Lines (2024)*. Statistical Release P0310.1. Pretoria: Stats SA, 2024. [P031012024.pdf](https://www.statssa.gov.za/publications/P03101/P031012024.pdf)
-- Statistics South Africa. *Poverty Trends in South Africa: An examination of absolute poverty between 2006 and 2023*. Pretoria: Stats SA, 2023. [Report-03-10-062023.pdf](https://www.statssa.gov.za/publications/Report-03-10-06/Report-03-10-062023.pdf)
-- National Treasury. *Budget Review 2026*. Pretoria: National Treasury, 25 February 2026. [FullBR.pdf](https://www.treasury.gov.za/documents/National%20Budget/2026/review/FullBR.pdf)
-- South African Police Service. *Police Recorded Crime Statistics: Quarterly and Annual Releases 2024/25 and 2025/26*. Pretoria: SAPS. [2024_2025_3rd_Quarter_WEB.pdf](https://www.saps.gov.za/services/downloads/2024/2024_2025_3rd_Quarter_WEB.pdf)
-- Eskom. *Power System Status Updates 2025–2026*. [eskom.co.za/power-system-status/](https://www.eskom.co.za/power-system-status/)
+
+- Statistics South Africa. _Quarterly Labour Force Survey, Q4 2025_. Statistical Release P0211. Pretoria: Stats SA, February 2026. [P02114thQuarter2025.pdf](https://www.statssa.gov.za/publications/P0211/P02114thQuarter2025.pdf)
+- Statistics South Africa. _Mid-Year Population Estimates 2024_. Statistical Release P0302. Pretoria: Stats SA, 2024. [P03022024.pdf](https://www.statssa.gov.za/publications/P0302/P03022024.pdf)
+- Statistics South Africa. _National Poverty Lines (2024)_. Statistical Release P0310.1. Pretoria: Stats SA, 2024. [P031012024.pdf](https://www.statssa.gov.za/publications/P03101/P031012024.pdf)
+- Statistics South Africa. _Poverty Trends in South Africa: An examination of absolute poverty between 2006 and 2023_. Pretoria: Stats SA, 2023. [Report-03-10-062023.pdf](https://www.statssa.gov.za/publications/Report-03-10-06/Report-03-10-062023.pdf)
+- National Treasury. _Budget Review 2026_. Pretoria: National Treasury, 25 February 2026. [FullBR.pdf](https://www.treasury.gov.za/documents/National%20Budget/2026/review/FullBR.pdf)
+- South African Police Service. _Police Recorded Crime Statistics: Quarterly and Annual Releases 2024/25 and 2025/26_. Pretoria: SAPS. [2024_2025_3rd_Quarter_WEB.pdf](https://www.saps.gov.za/services/downloads/2024/2024_2025_3rd_Quarter_WEB.pdf)
+- Eskom. _Power System Status Updates 2025–2026_. [eskom.co.za/power-system-status/](https://www.eskom.co.za/power-system-status/)
 
 ### Multilateral sources
-- United Nations Development Programme. *Human Development Report 2023/24: Breaking the Gridlock*. New York: UNDP, 2024. [undp.org/south-africa](https://www.undp.org/south-africa/blog/many-countries-are-bouncing-back-pandemic-poorest-are-not-according-latest-united-nations-development-programmes-global-human)
-- World Bank. *Worldwide Governance Indicators*. Washington: World Bank, annual.
-- World Bank. *Military Expenditure Database (% of GDP) — South Africa*. [data.worldbank.org](https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS?locations=ZA)
-- SIPRI. *Military Expenditure Database*. Stockholm International Peace Research Institute.
-- International Association for the Evaluation of Educational Achievement (IEA). *PIRLS 2021 International Results in Reading*. Boston: TIMSS & PIRLS International Study Center, 2023.
+
+- United Nations Development Programme. _Human Development Report 2023/24: Breaking the Gridlock_. New York: UNDP, 2024. [undp.org/south-africa](https://www.undp.org/south-africa/blog/many-countries-are-bouncing-back-pandemic-poorest-are-not-according-latest-united-nations-development-programmes-global-human)
+- World Bank. _Worldwide Governance Indicators_. Washington: World Bank, annual.
+- World Bank. _Military Expenditure Database (% of GDP) — South Africa_. [data.worldbank.org](https://data.worldbank.org/indicator/MS.MIL.XPND.GD.ZS?locations=ZA)
+- SIPRI. _Military Expenditure Database_. Stockholm International Peace Research Institute.
+- International Association for the Evaluation of Educational Achievement (IEA). _PIRLS 2021 International Results in Reading_. Boston: TIMSS & PIRLS International Study Center, 2023.
 
 ### Independent research and media
-- Institute for Security Studies (ISS Africa). *Is South Africa's crime problem turning around?* [issafrica.org](https://issafrica.org/iss-today/is-south-africa-s-crime-problem-turning-around)
-- Daily Maverick. *Decline in murders brings little consolation for victims' families*. 6 December 2025. [dailymaverick.co.za](https://www.dailymaverick.co.za/article/2025-12-06-decline-in-murders-brings-little-consolation-for-victims-families/)
+
+- Institute for Security Studies (ISS Africa). _Is South Africa's crime problem turning around?_ [issafrica.org](https://issafrica.org/iss-today/is-south-africa-s-crime-problem-turning-around)
+- Daily Maverick. _Decline in murders brings little consolation for victims' families_. 6 December 2025. [dailymaverick.co.za](https://www.dailymaverick.co.za/article/2025-12-06-decline-in-murders-brings-little-consolation-for-victims-families/)
 - DefenceWeb. Defence budget coverage 2025–2026. [defenceweb.co.za](https://www.defenceweb.co.za/sa-defence/sa-defence-sa-defence/real-term-decline-in-disastrous-sa-defence-budget/)
-- Spaull, Nic. *10 Main Findings from PIRLS 2021 South Africa*. May 2023. [nicspaull.com](https://nicspaull.com/2023/05/18/10-main-findings-from-pirls-2021-south-africa/)
-- Global Initiative Against Transnational Organized Crime. *Organized Crime Index — South Africa profile*.
-- South African Medical Research Council. *Burden of disease and femicide research*.
+- Spaull, Nic. _10 Main Findings from PIRLS 2021 South Africa_. May 2023. [nicspaull.com](https://nicspaull.com/2023/05/18/10-main-findings-from-pirls-2021-south-africa/)
+- Global Initiative Against Transnational Organized Crime. _Organized Crime Index — South Africa profile_.
+- South African Medical Research Council. _Burden of disease and femicide research_.
 
 ### Academic and institutional
-- Acemoglu, Daron, and James A. Robinson. *Why Nations Fail: The Origins of Power, Prosperity, and Poverty*. New York: Crown, 2012.
-- North, Douglass C. *Institutions, Institutional Change and Economic Performance*. Cambridge: Cambridge University Press, 1990.
-- Sen, Amartya. *Development as Freedom*. New York: Knopf, 1999.
-- Seekings, Jeremy, and Nicoli Nattrass. *Class, Race, and Inequality in South Africa*. New Haven: Yale University Press, 2005.
-- Terreblanche, Sampie. *A History of Inequality in South Africa, 1652–2002*. Pietermaritzburg: University of Natal Press, 2002.
-- Giliomee, Hermann. *The Afrikaners: Biography of a People*. Cape Town: Tafelberg, 2003.
-- Zondo, Raymond. *Report of the Judicial Commission of Inquiry into Allegations of State Capture, Corruption and Fraud in the Public Sector Including Organs of State*. 2022.
+
+- Acemoglu, Daron, and James A. Robinson. _Why Nations Fail: The Origins of Power, Prosperity, and Poverty_. New York: Crown, 2012.
+- North, Douglass C. _Institutions, Institutional Change and Economic Performance_. Cambridge: Cambridge University Press, 1990.
+- Sen, Amartya. _Development as Freedom_. New York: Knopf, 1999.
+- Seekings, Jeremy, and Nicoli Nattrass. _Class, Race, and Inequality in South Africa_. New Haven: Yale University Press, 2005.
+- Terreblanche, Sampie. _A History of Inequality in South Africa, 1652–2002_. Pietermaritzburg: University of Natal Press, 2002.
+- Giliomee, Hermann. _The Afrikaners: Biography of a People_. Cape Town: Tafelberg, 2003.
+- Zondo, Raymond. _Report of the Judicial Commission of Inquiry into Allegations of State Capture, Corruption and Fraud in the Public Sector Including Organs of State_. 2022.
 
 ---
 

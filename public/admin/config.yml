@@ -74,7 +74,7 @@ collections:
         name: "description"
         widget: "text"
         pattern:
-          - '^.{150,160}$'
+          - "^.{150,160}$"
           - "Must be between 150 and 160 characters for SEO"
         required: true
 

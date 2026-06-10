@@ -34,14 +34,16 @@ const siteSchemas: Record<string, unknown>[] = [
     "@type": "Organization",
     name: "GovCompass",
     url: siteUrl,
-    description: "Making South Africa's government and governance systems legible to ordinary citizens",
+    description:
+      "Making South Africa's government and governance systems legible to ordinary citizens",
   },
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "GovCompass",
     url: siteUrl,
-    description: "Free political education making SA's government and governance systems legible to ordinary citizens",
+    description:
+      "Free political education making SA's government and governance systems legible to ordinary citizens",
     inLanguage: "en-ZA",
   },
 ];
@@ -111,7 +113,9 @@ const allSchemas = [
 
     <slot name="head" />
   </head>
-  <body class="min-h-screen bg-bg-primary text-text-primary font-body flex flex-col">
+  <body
+    class="min-h-screen bg-bg-primary text-text-primary font-body flex flex-col"
+  >
     <a
       href="#main-content"
       class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-compass-green focus:text-white focus:rounded"
@@ -195,16 +199,23 @@ const allSchemas = [
             });
 
           var refreshing = false;
-          navigator.serviceWorker.addEventListener("controllerchange", function () {
-            if (refreshing) return;
-            refreshing = true;
-            window.location.reload();
-          });
+          navigator.serviceWorker.addEventListener(
+            "controllerchange",
+            function () {
+              if (refreshing) return;
+              refreshing = true;
+              window.location.reload();
+            },
+          );
         });
       }
     </script>
 
-    <script is:inline src="https://identity.netlify.com/v1/netlify-identity-widget.js" integrity="sha384-dy2tW8xkhLIj8lZR42MCwZhhDb2cCewZiw0uA65CMpdHiJzL+iubx7HzHcCXU2rW" crossorigin="anonymous"></script>
+    <script
+      is:inline
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+      integrity="sha384-dy2tW8xkhLIj8lZR42MCwZhhDb2cCewZiw0uA65CMpdHiJzL+iubx7HzHcCXU2rW"
+      crossorigin="anonymous"></script>
     <script is:inline>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", function (user) {

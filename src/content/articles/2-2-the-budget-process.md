@@ -39,14 +39,13 @@ Here is the bottom line: the national budget is not an event. It is not the budg
 
 Before walking through the annual cycle, you need to understand a structural feature of South Africa's budgeting system that most citizens are unaware of: the budget is not a one-year plan. It is a three-year rolling plan called the Medium-Term Expenditure Framework (MTEF).
 
-
 ![The budget cycle spans three years, balancing long-term planning with annual adjustments | Photo by Irvin Liang on Unsplash](/images/articles/2-2-the-budget-process/img-1.webp)
 
 Every February, when the Minister of Finance tables the budget, the documents do not just show what government plans to spend in the coming financial year. **They show what government plans to spend over the next three financial years** — the "budget year" and two "outer years." The MTEF means that when the 2026/27 budget is tabled in February 2026, it includes detailed allocations for 2026/27 (the budget year), indicative allocations for 2027/28, and preliminary allocations for 2028/29. When the 2027/28 budget is tabled the following year, the process rolls forward: what was the first outer year becomes the new budget year, with revised allocations reflecting updated revenue projections, policy changes, and new priorities.
 
 The MTEF exists because government cannot plan effectively on a one-year horizon. Building a hospital takes three to five years. Training teachers takes four years. Designing and implementing a new social programme requires multi-year commitment. The three-year framework gives departments, provinces, and municipalities a degree of certainty about future funding — not absolute certainty, because the outer-year figures are indicative and can be revised, but enough to plan capital projects, staffing, and programme delivery over a medium term.
 
-The practical significance for you is this: **the budget decisions that will affect your services in 2028 are already being shaped in 2026.** When you read the budget documents, do not just look at the coming year's numbers. Look at the outer-year projections. If funding for provincial health is projected to decline in real terms over the medium term, that tells you something about where your clinic's staffing levels are heading — even if the coming year's allocation looks stable. *The MTEF makes it possible to see the fiscal future before it arrives.*
+The practical significance for you is this: **the budget decisions that will affect your services in 2028 are already being shaped in 2026.** When you read the budget documents, do not just look at the coming year's numbers. Look at the outer-year projections. If funding for provincial health is projected to decline in real terms over the medium term, that tells you something about where your clinic's staffing levels are heading — even if the coming year's allocation looks stable. _The MTEF makes it possible to see the fiscal future before it arrives._
 
 ## Phase 1: Strategic Planning — Where Priorities Are Set (April to July)
 
@@ -61,7 +60,6 @@ The strategic planning phase is largely invisible to citizens. It happens inside
 ## Phase 2: The Medium-Term Budget Policy Statement — The Preview (October)
 
 The first public moment in the budget cycle comes in October, when the Minister of Finance tables the Medium-Term Budget Policy Statement (MTBPS) in Parliament. The MTBPS is the fiscal preview — a document that sets out the government's fiscal policy framework, revises the economic and revenue outlook, and provides updated medium-term expenditure projections.
-
 
 ![The MTBPS in October previews the fiscal framework before the full budget in February | Photo by Hoi An and Da Nang Photographer on Unsplash](/images/articles/2-2-the-budget-process/img-2.webp)
 
@@ -79,14 +77,13 @@ The MTBPS in October is where the fiscal boundaries are set. If you want to infl
 
 Between August and January, National Treasury conducts the most consequential phase of the budget cycle: the bilateral budget discussions with individual national departments. This is where the actual numbers are decided — how much each department will receive, which programmes will be funded, which will be cut, and which conditional grants will flow to provinces and municipalities.
 
-
 ![Departments negotiate their allocations with National Treasury behind closed doors | Photo by Kelly Sikkema on Unsplash](/images/articles/2-2-the-budget-process/img-3.webp)
 
 The process works like this. National Treasury issues a budget circular to all national departments, setting out the MTEF guidelines, the fiscal constraints, and the timelines for submissions. Each department submits its budget proposal — its request for funding, justified by its strategic plan and APP targets. Treasury officials then engage in bilateral discussions with each department, examining the proposals line by line, challenging assumptions, testing whether the requested funding is justified by performance data, and negotiating the final allocation within the available fiscal envelope.
 
 These bilateral discussions are the black box of the budget process. They are not public. They are not broadcast. There are no transcripts. The negotiations happen between Treasury officials and departmental officials, with the Minister of Finance and the relevant ministers resolving disputes that cannot be settled at the official level. The Ministers' Committee on the Budget (MinComBud), chaired by the Minister of Finance and comprising a small group of senior Cabinet ministers, adjudicates the most significant allocation disputes and makes recommendations to Cabinet. Cabinet approves the final budget allocations, typically in January or early February, just weeks before the budget is tabled.
 
-The opacity of this phase is both a feature and a problem. It is a feature because budget negotiations require candid assessments of departmental performance and capacity — assessments that officials would be reluctant to make in public. *It is a problem because it means the most consequential fiscal decisions are made behind closed doors, with no opportunity for public input.* By the time Parliament receives the budget in February, the allocations have been finalised. Parliamentary committees can scrutinise, question, and criticise, but **the political reality is that Parliament has never rejected a budget tabled by the executive.**
+The opacity of this phase is both a feature and a problem. It is a feature because budget negotiations require candid assessments of departmental performance and capacity — assessments that officials would be reluctant to make in public. _It is a problem because it means the most consequential fiscal decisions are made behind closed doors, with no opportunity for public input._ By the time Parliament receives the budget in February, the allocations have been finalised. Parliamentary committees can scrutinise, question, and criticise, but **the political reality is that Parliament has never rejected a budget tabled by the executive.**
 
 :::expert
 The Parliamentary Budget Office (PBO), established by the Money Bills Amendment Procedure and Related Matters Act of 2009, was created specifically to address the information asymmetry between the executive and the legislature in the budget process. The PBO provides independent analysis and advice to parliamentary committees, enabling them to scrutinise the budget with something closer to the technical depth that National Treasury brings to its preparation. In its annual assessments of the fiscal framework and departmental budgets — including its 2023 and 2024 analyses of the Medium-Term Budget Policy Statement and the main budget — the PBO has consistently identified areas where departmental spending does not align with stated policy priorities — instances where a department's budget allocation has been cut in real terms while its mandate has expanded, or where capital expenditure has been deferred repeatedly, creating growing infrastructure backlogs that will cost more to address in the future. The PBO's analyses of the budget, published on the parliamentary website, are among the most technically rigorous publicly available assessments of government spending and provide an independent check on Treasury's assumptions and projections that citizens can access without needing specialised fiscal expertise.
@@ -100,9 +97,9 @@ But the speech itself is the least important document tabled on budget day. The 
 
 The Budget Review is the flagship document — typically 200–300 pages covering the economic outlook, revenue proposals, expenditure plans, the fiscal framework, debt management strategy, and intergovernmental fiscal relations. It is written in relatively accessible prose (by government document standards) and is the single best overview of the government's fiscal position and plans.
 
-The *Estimates of National Expenditure (ENE)* is the detailed companion document — one chapter for every national department, showing its budget allocation by programme, its expenditure trends over the medium term, its performance targets and achievements, and its planned spending for the coming three years. If the Budget Review tells you the big picture, **the ENE tells you what each department is actually doing with its money.**
+The _Estimates of National Expenditure (ENE)_ is the detailed companion document — one chapter for every national department, showing its budget allocation by programme, its expenditure trends over the medium term, its performance targets and achievements, and its planned spending for the coming three years. If the Budget Review tells you the big picture, **the ENE tells you what each department is actually doing with its money.**
 
-The Division of Revenue Bill, as discussed in *Following the Money*, shows how nationally raised revenue will be divided among the three spheres — including the specific equitable share and conditional grant allocations to each province and each municipality.
+The Division of Revenue Bill, as discussed in _Following the Money_, shows how nationally raised revenue will be divided among the three spheres — including the specific equitable share and conditional grant allocations to each province and each municipality.
 
 The tax proposals — changes to personal income tax brackets, VAT, excise duties, and other taxes — are contained in the Taxation Laws Amendment Bill and the Tax Administration Laws Amendment Bill, which are tabled separately and processed through their own parliamentary procedure.
 
@@ -110,7 +107,7 @@ All of these documents are published on the National Treasury website on budget 
 
 ## Phase 5: Parliamentary Scrutiny — Where the Budget Is Examined (February to June)
 
-Once the budget is tabled, Parliament's role begins. The parliamentary budget process is governed by the *Money Bills Amendment Procedure and Related Matters Act of 2009* — a law that, for the first time, gave Parliament the formal power to amend the budget rather than simply approving or rejecting it. In theory, this makes South Africa's Parliament one of the more fiscally empowered legislatures in the world. In practice, **the amendment power has been used cautiously, and Parliament has never made substantial changes to a tabled budget.**
+Once the budget is tabled, Parliament's role begins. The parliamentary budget process is governed by the _Money Bills Amendment Procedure and Related Matters Act of 2009_ — a law that, for the first time, gave Parliament the formal power to amend the budget rather than simply approving or rejecting it. In theory, this makes South Africa's Parliament one of the more fiscally empowered legislatures in the world. In practice, **the amendment power has been used cautiously, and Parliament has never made substantial changes to a tabled budget.**
 
 The parliamentary process unfolds in several stages.
 
@@ -131,7 +128,7 @@ The quality of this scrutiny varies enormously across committees. Some portfolio
 After the hearings, the National Assembly votes on each department's budget allocation in a series of "budget votes." The Appropriation Bill — which gives legal effect to the budget — is then passed by the National Assembly and considered by the NCOP. Once both houses have approved the Appropriation Bill, the President signs it into law, and the departments have legal authority to spend the allocated funds.
 
 :::expert
-The Parliamentary Monitoring Group (PMG), which has tracked and documented parliamentary committee proceedings since 1998, provides the most comprehensive publicly accessible record of the budget vote process. PMG's longitudinal record of portfolio committee hearings — and its published analyses of parliamentary oversight capacity, including its 2022 *Monitoring Parliament* reviews — reveal the wide variation in scrutiny quality across committees. Their documentation shows that committees with active, technically informed chairpersons and engaged opposition members tend to produce the most substantive engagements — posing detailed questions that draw on Auditor-General findings, ENE data, and departmental performance reports. PMG's records also document a recurring structural problem: committee members frequently receive the budget documentation only days before the hearings, giving them insufficient time to analyse thousands of pages of technical fiscal information. The PBO's establishment has partially addressed this — its pre-hearing briefing notes help members identify the critical questions — but the time pressure remains. PMG makes the minutes, presentations, and submissions from every portfolio committee hearing publicly available at pmg.org.za, giving citizens access to the same information that parliamentarians use and enabling anyone to assess whether their elected representatives are asking the right questions about how public money is being spent.
+The Parliamentary Monitoring Group (PMG), which has tracked and documented parliamentary committee proceedings since 1998, provides the most comprehensive publicly accessible record of the budget vote process. PMG's longitudinal record of portfolio committee hearings — and its published analyses of parliamentary oversight capacity, including its 2022 _Monitoring Parliament_ reviews — reveal the wide variation in scrutiny quality across committees. Their documentation shows that committees with active, technically informed chairpersons and engaged opposition members tend to produce the most substantive engagements — posing detailed questions that draw on Auditor-General findings, ENE data, and departmental performance reports. PMG's records also document a recurring structural problem: committee members frequently receive the budget documentation only days before the hearings, giving them insufficient time to analyse thousands of pages of technical fiscal information. The PBO's establishment has partially addressed this — its pre-hearing briefing notes help members identify the critical questions — but the time pressure remains. PMG makes the minutes, presentations, and submissions from every portfolio committee hearing publicly available at pmg.org.za, giving citizens access to the same information that parliamentarians use and enabling anyone to assess whether their elected representatives are asking the right questions about how public money is being spent.
 :::
 
 ## Phase 6: Implementation and In-Year Monitoring (April to March)
@@ -142,7 +139,7 @@ National and provincial departments submit monthly expenditure reports to Nation
 
 Municipalities submit quarterly financial reports to National Treasury under the Municipal Finance Management Act (MFMA), showing their revenue collection, expenditure, and cash position. These reports are published on the National Treasury municipal finance website and are available for any citizen to access.
 
-*The in-year monitoring data matters because it is the earliest warning system for fiscal problems.* If you check your municipality's quarterly reports and see that it has spent 90% of its operating budget in the first three quarters but collected only 60% of its budgeted revenue, you do not need to wait for the Auditor-General's report (which comes 12–18 months later) to know that the municipality is heading for a cash crisis. The in-year data is current, it is public, and it tells you what is happening now rather than what happened last year.
+_The in-year monitoring data matters because it is the earliest warning system for fiscal problems._ If you check your municipality's quarterly reports and see that it has spent 90% of its operating budget in the first three quarters but collected only 60% of its budgeted revenue, you do not need to wait for the Auditor-General's report (which comes 12–18 months later) to know that the municipality is heading for a cash crisis. The in-year data is current, it is public, and it tells you what is happening now rather than what happened last year.
 
 ## Phase 7: The Adjustments Budget — The Mid-Year Correction (October to November)
 
@@ -160,7 +157,7 @@ The financial year ends on 31 March. In the months that follow, two critical acc
 
 Every national and provincial department is required to produce an Annual Report within five months of the financial year-end. The Annual Report is the department's own account of its performance — what it achieved against its APP targets, how it spent its budget, and what challenges it encountered. Departments table their Annual Reports in Parliament, typically in September or October, and the relevant portfolio committees hold hearings to examine them.
 
-*The Annual Report is a self-assessment — the department marking its own homework.* This makes it useful but unreliable on its own. Departments have an incentive to present their performance in the most favourable light, to explain away missed targets, and to emphasise achievements while downplaying failures. **The Annual Report becomes a powerful accountability tool only when read alongside the Auditor-General's report**, which provides an independent assessment of whether the department's claims are accurate.
+_The Annual Report is a self-assessment — the department marking its own homework._ This makes it useful but unreliable on its own. Departments have an incentive to present their performance in the most favourable light, to explain away missed targets, and to emphasise achievements while downplaying failures. **The Annual Report becomes a powerful accountability tool only when read alongside the Auditor-General's report**, which provides an independent assessment of whether the department's claims are accurate.
 
 ### The Auditor-General's Reports
 
@@ -304,20 +301,20 @@ With these four questions — where in the cycle, which document, which committe
 
 You now understand the complete budget cycle — from strategic planning in April through the MTBPS in October, budget day in February, parliamentary scrutiny in March to June, implementation monitoring, the adjustments budget, and the annual audit. You know which documents matter, when they are published, and where to find them. You know where citizens can engage and which entry points are most meaningful. And you know that the budget is not a single day in February but a continuous twelve-month process with specific decision points where the fiscal choices affecting your life are made.
 
-In *From Treasury to Your Town*, the next article in this series, we will follow the money from national allocation to municipal service delivery — tracing how the equitable share and conditional grants move through the provincial and municipal fiscal systems and what happens to them along the way. The budget process creates the allocations. The question is what happens after the money leaves Treasury.
+In _From Treasury to Your Town_, the next article in this series, we will follow the money from national allocation to municipal service delivery — tracing how the equitable share and conditional grants move through the provincial and municipal fiscal systems and what happens to them along the way. The budget process creates the allocations. The question is what happens after the money leaves Treasury.
 
 ## Resources
 
 The analysis in this article draws on the following institutional research and publications:
 
-- National Treasury (2024). *2024 Budget Review*, *Estimates of National Expenditure*, and *Division of Revenue Bill* — [treasury.gov.za](https://www.treasury.gov.za)
-- National Treasury. *Medium-Term Budget Policy Statement* — annual fiscal framework publication — [treasury.gov.za](https://www.treasury.gov.za)
-- National Treasury. *Quarterly expenditure reports and municipal finance data* — [municipaldata.treasury.gov.za](https://municipaldata.treasury.gov.za)
-- Financial and Fiscal Commission. *Annual submissions on the Division of Revenue* — independent analysis and recommendations — [ffc.co.za](https://www.ffc.co.za)
-- Parliamentary Budget Office. *Pre-hearing briefing notes and fiscal framework analyses* — [parliament.gov.za](https://www.parliament.gov.za)
-- Parliamentary Monitoring Group. *Committee meeting records, submissions, and minutes* — [pmg.org.za](https://pmg.org.za)
-- Auditor-General of South Africa. *PFMA and MFMA Consolidated General Reports* — [agsa.co.za](https://www.agsa.co.za)
-- International Budget Partnership. *Open Budget Survey: South Africa* — budget transparency and participation assessment — [internationalbudget.org](https://www.internationalbudget.org)
+- National Treasury (2024). _2024 Budget Review_, _Estimates of National Expenditure_, and _Division of Revenue Bill_ — [treasury.gov.za](https://www.treasury.gov.za)
+- National Treasury. _Medium-Term Budget Policy Statement_ — annual fiscal framework publication — [treasury.gov.za](https://www.treasury.gov.za)
+- National Treasury. _Quarterly expenditure reports and municipal finance data_ — [municipaldata.treasury.gov.za](https://municipaldata.treasury.gov.za)
+- Financial and Fiscal Commission. _Annual submissions on the Division of Revenue_ — independent analysis and recommendations — [ffc.co.za](https://www.ffc.co.za)
+- Parliamentary Budget Office. _Pre-hearing briefing notes and fiscal framework analyses_ — [parliament.gov.za](https://www.parliament.gov.za)
+- Parliamentary Monitoring Group. _Committee meeting records, submissions, and minutes_ — [pmg.org.za](https://pmg.org.za)
+- Auditor-General of South Africa. _PFMA and MFMA Consolidated General Reports_ — [agsa.co.za](https://www.agsa.co.za)
+- International Budget Partnership. _Open Budget Survey: South Africa_ — budget transparency and participation assessment — [internationalbudget.org](https://www.internationalbudget.org)
 - Money Bills Amendment Procedure and Related Matters Act, No. 9 of 2009 — legislative framework for parliamentary budget powers
 - Public Finance Management Act, No. 1 of 1999, and Municipal Finance Management Act, No. 56 of 2003 — fiscal management frameworks
 - Constitution of the Republic of South Africa, 1996, Sections 213–230 (finance provisions) — [gov.za](https://www.gov.za/documents/constitution-republic-south-africa-1996)

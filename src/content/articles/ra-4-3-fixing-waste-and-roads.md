@@ -46,7 +46,7 @@ You do not need the RAARICLE™ framework to know that waste collection and road
 
 **The Automobile Association estimated in April 2025 that South Africa has more than 25 million potholes — a 67 per cent increase over five years.** The SAICE Infrastructure Report Card 2022 graded municipal paved roads at D and unpaved roads at E — unfit for purpose. **Only 60 per cent of households nationally have access to regular refuse removal, a figure that drops to 12.5 per cent in rural areas.** More than 80 per cent of municipal landfill sites do not meet minimum regulatory requirements. Nearly half of the country's approximately 1,327 documented waste disposal sites are unlicensed.
 
-These two functions — waste management and municipal roads — are combined in a single article not because they are the same service but because the RAARICLE™ diagnosis reveals that they fail for the same structural reasons. **The failure pattern is identical: *resource starvation* (revenue not ring-fenced, maintenance chronically underfunded), *capability collapse* (qualified professionals absent), and *enforcement absence* (non-compliance carries no automatic consequences).** If you understand why one fails, you understand why the other fails. And if you can fix the structural conditions for one, the same fix applies to the other.
+These two functions — waste management and municipal roads — are combined in a single article not because they are the same service but because the RAARICLE™ diagnosis reveals that they fail for the same structural reasons. **The failure pattern is identical: _resource starvation_ (revenue not ring-fenced, maintenance chronically underfunded), _capability collapse_ (qualified professionals absent), and _enforcement absence_ (non-compliance carries no automatic consequences).** If you understand why one fails, you understand why the other fails. And if you can fix the structural conditions for one, the same fix applies to the other.
 
 This shared diagnosis matters because it reveals something important about municipal failure in South Africa. The problem is not function-specific. It is not that waste management is uniquely difficult or that roads are uniquely expensive. The problem is that the municipal institutional architecture — the way resources flow, the way capability is (or is not) deployed, the way enforcement does (or does not) work — produces the same outcome regardless of which function you examine. As [The Provincial Performance Crisis](/articles/ra-3-1-provincial-performance-crisis) showed for the provincial sphere, the consistency of failure across functions tells you that the cause is structural, not managerial.
 
@@ -57,7 +57,6 @@ Waste management and municipal roads share an identical RAARICLE™ failure patt
 ## Waste Management: The Value Chain and Diagnosis
 
 ### The Value Chain
-
 
 ![Waste collection runs from kerbside bin to transfer station to landfill — and breaks when any link fails | Photo by Zoshua Colah on Unsplash](/images/articles/ra-4-3-fixing-waste-and-roads/img-1.webp)
 
@@ -117,7 +116,7 @@ Waste management has a clear constitutional mandate — Schedule 5 Part B assign
 
 The enforcement failure in waste management is the starkest in any municipal function. **Nearly half of South Africa's waste disposal sites are unlicensed. Operating an unlicensed waste disposal facility is a criminal offence under the Waste Act. And yet these sites operate year after year, decade after decade, with minimal consequences.** In Mpumalanga alone, 20 landfill sites operate without licences. An audit of 127 landfill sites found 78 per cent non-compliant with minimum requirements.
 
-Provincial environmental departments are supposed to enforce compliance. But they are understaffed, under-resourced, and politically reluctant to prosecute municipalities that fall within their province. DFFE can issue compliance notices and prosecute — but national enforcement of municipal waste compliance is the exception, not the norm. *The enforcement architecture for waste management is entirely discretionary, entirely under-resourced, and entirely ineffective.*
+Provincial environmental departments are supposed to enforce compliance. But they are understaffed, under-resourced, and politically reluctant to prosecute municipalities that fall within their province. DFFE can issue compliance notices and prosecute — but national enforcement of municipal waste compliance is the exception, not the norm. _The enforcement architecture for waste management is entirely discretionary, entirely under-resourced, and entirely ineffective._
 
 :::expert
 The Department of Forestry, Fisheries and the Environment's own assessment of waste management compliance has acknowledged the scale of the enforcement failure. Of approximately 1,327 documented waste disposal sites nationally, only 19 per cent are compliant with regulations. The department has identified the need for regulatory interventions to strengthen mandatory reporting to the South African Waste Information System and for increased provincial enforcement capacity. However, the enforcement tools available — compliance notices, directives, and criminal prosecution — remain discretionary instruments that require the provincial or national authority to decide to act. No automatic triggers exist: a landfill site can operate unlicensed for years without activating a mandatory consequence. The gap between the legal framework (which is comprehensive) and its enforcement (which is negligible) is the defining feature of waste governance in South Africa.
@@ -126,7 +125,6 @@ The Department of Forestry, Fisheries and the Environment's own assessment of wa
 ## Municipal Roads and Stormwater: The Value Chain and Diagnosis
 
 ### The Value Chain
-
 
 ![Roads and stormwater fail incrementally; the visible damage is the lagging indicator of an underfunded maintenance cycle | Photo by Evan Aker on Unsplash](/images/articles/ra-4-3-fixing-waste-and-roads/img-2.webp)
 
@@ -215,7 +213,6 @@ The Institute of Municipal Engineering of Southern Africa's February 2026 analys
 ## The Reform Blueprint
 
 ### Ring-Fenced Revenue for Both Functions
-
 
 ![A working reform funds maintenance cycles directly rather than treating maintenance as a residual budget item | Photo by CARL LU on Unsplash](/images/articles/ra-4-3-fixing-waste-and-roads/img-3.webp)
 
@@ -311,14 +308,14 @@ Based on the pilot evaluation, mandate the shared services model for all municip
 
 The analysis in this article draws on the following institutional research and publications:
 
-- SAICE, *Infrastructure Report Card 2022* — [saice.org.za](https://www.saice.org.za)
-- Statistics South Africa, *General Household Survey 2023* — [statssa.gov.za](https://www.statssa.gov.za)
-- Automobile Association of South Africa, *Pothole Estimate* — April 2025
-- Department of Forestry, Fisheries and the Environment, *National Environmental Management: Waste Act* (59 of 2008)
-- DFFE, *State of Waste Report* — [sawic.environment.gov.za](https://sawic.environment.gov.za)
-- Institute of Municipal Engineering of Southern Africa, *Technical Staffing Analysis* — February 2026
-- UCT, *Road Maintenance Backlog Research* — [news.uct.ac.za](https://news.uct.ac.za)
-- Auditor-General of South Africa, *MFMA 2023/24 Audit Outcomes* — [agsa.co.za](https://www.agsa.co.za)
-- National Treasury, *Municipal Infrastructure Grant Performance Reports* — [treasury.gov.za](https://www.treasury.gov.za)
-- LGSETA, *Feasibility Study on Shared Services in Local Government* — 2022-2023 — [lgseta.org.za](https://www.lgseta.org.za)
-- Operation Vulindlela Phase II, *Municipal Reform Programme* — launched May 2025
+- SAICE, _Infrastructure Report Card 2022_ — [saice.org.za](https://www.saice.org.za)
+- Statistics South Africa, _General Household Survey 2023_ — [statssa.gov.za](https://www.statssa.gov.za)
+- Automobile Association of South Africa, _Pothole Estimate_ — April 2025
+- Department of Forestry, Fisheries and the Environment, _National Environmental Management: Waste Act_ (59 of 2008)
+- DFFE, _State of Waste Report_ — [sawic.environment.gov.za](https://sawic.environment.gov.za)
+- Institute of Municipal Engineering of Southern Africa, _Technical Staffing Analysis_ — February 2026
+- UCT, _Road Maintenance Backlog Research_ — [news.uct.ac.za](https://news.uct.ac.za)
+- Auditor-General of South Africa, _MFMA 2023/24 Audit Outcomes_ — [agsa.co.za](https://www.agsa.co.za)
+- National Treasury, _Municipal Infrastructure Grant Performance Reports_ — [treasury.gov.za](https://www.treasury.gov.za)
+- LGSETA, _Feasibility Study on Shared Services in Local Government_ — 2022-2023 — [lgseta.org.za](https://www.lgseta.org.za)
+- Operation Vulindlela Phase II, _Municipal Reform Programme_ — launched May 2025

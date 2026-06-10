@@ -473,17 +473,11 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 > **Source categories to include for each article (ensure representation from each category):**
 >
 > 1. **Constitutional and legislative sources:** The Constitution of the Republic of South Africa, 1996 (specific sections and schedules relevant to the article); relevant Acts of Parliament (e.g., the Municipal Finance Management Act, Public Finance Management Act, Division of Revenue Act, Municipal Systems Act, Municipal Structures Act, Intergovernmental Relations Framework Act); and relevant White Papers and policy documents.
->
 > 2. **Government reports and data sources:** Auditor-General of South Africa (AGSA) annual reports (PFMA and MFMA audit reports); National Treasury budget reviews, Estimates of National Expenditure, and Division of Revenue documents; DPME publications (MTSF progress reports, national evaluation reports, MPAT results, Frontline Service Delivery Monitoring reports); Statistics South Africa publications; the Financial and Fiscal Commission annual submissions; and provincial and municipal annual reports and IDPs where relevant.
->
 > 3. **Academic journal articles:** Source from journals including Politikon, Journal of Southern African Studies, African Affairs, Transformation: Critical Perspectives on Southern Africa, Journal of Public Administration, Administratio Publica, Africa Spectrum, Development Southern Africa, South African Journal of Political Studies, and the Local Government Working Paper series. Prioritise articles published between 2015 and 2024. Each reference must include real author names, article titles, journal names, volume numbers, issue numbers, page ranges, and DOIs where available.
->
 > 4. **Academic books and book chapters:** Include seminal works on South African governance such as those by authors like Ivor Chipkin, Mark Swilling, Lungisile Ntsebeza, Steven Friedman, Robert Cameron, Jaap de Visser, Nico Steytler, Chris Thornhill, and other established South African governance scholars. Include publisher and year.
->
 > 5. **Research institute and think tank reports:** Source from the Public Affairs Research Institute (PARI), the Human Sciences Research Council (HSRC), the Institute for Security Studies (ISS), the South African Institute of International Affairs (SAIIA), the Centre for Development and Enterprise (CDE), the Institute for Poverty, Land and Agrarian Studies (PLAAS), the Dullah Omar Institute for Constitutional Law, Governance and Human Rights, and Corruption Watch reports. Include specific report titles, authors, publication dates, and URLs where available.
->
 > 6. **Constitutional Court and High Court judgments:** Where relevant to the article topic, include landmark judgments with full case citations (e.g., Economic Freedom Fighters v Speaker of the National Assembly 2016 (3) SA 580 (CC) for the Nkandla case; Mazibuko v City of Johannesburg for water rights; Doctors for Life International v Speaker of the National Assembly for public participation).
->
 > 7. **Practitioner and M&E community sources:** Include publications from the South African Monitoring and Evaluation Association (SAMEA), the Twende Mbele programme, the Centre for Learning on Evaluation and Results (CLEAR-AA), and the African Evaluation Association (AfrEA) where relevant.
 >
 > **Format:** Use Harvard referencing style. Organise references by article, with sub-headings for each source category. Include URLs for all online sources. Where a DOI is available, include it.
@@ -491,6 +485,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 > **Quality control instruction:** For every academic reference, verify that the author has published in the cited journal or with the cited publisher. For every government report, verify that the institution cited produces reports of the type described. Do not generate plausible-sounding but fictitious references. If you are uncertain about a specific reference, flag it with [VERIFY] and explain what needs to be checked.
 >
 > **Generate references for the following articles:**
+>
 > 1. Article 1.1: The Architecture of the State
 > 2. Article 1.2: Following the Money
 > 3. Article 1.3: Who Watches the Watchers
@@ -511,24 +506,24 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 ## SERIES STRUCTURE SUMMARY
 
-| Part | Article | Sphere | Focus |
-|------|---------|--------|-------|
-| 1 | 1.1 | All | Constitutional division of power |
-| 1 | 1.2 | All | Intergovernmental fiscal system |
-| 1 | 1.3 | All | Oversight and accountability institutions |
-| 1 | 1.4 | All | Monitoring and evaluation system |
-| 2 | 2.1 | National | Executive governance machinery |
-| 2 | 2.2 | National | Performance evaluation framework |
-| 2 | 2.3 | National | Implementation failure analysis |
-| 3 | 3.1 | Provincial | Provincial system structure and constraints |
-| 3 | 3.2 | Provincial | Education and health delivery |
-| 3 | 3.3 | Provincial | Provincial failure and intervention |
-| 4 | 4.1 | Municipal | Municipal system structure |
-| 4 | 4.2 | Municipal | Municipal crisis analysis |
-| 4 | 4.3 | Municipal | Municipal failure and intervention |
-| 4 | 4.4 | Municipal | Metro vs rural divergence |
-| 5 | 5.1 | All | Citizen engagement toolkit |
+| Part | Article | Sphere     | Focus                                       |
+| ---- | ------- | ---------- | ------------------------------------------- |
+| 1    | 1.1     | All        | Constitutional division of power            |
+| 1    | 1.2     | All        | Intergovernmental fiscal system             |
+| 1    | 1.3     | All        | Oversight and accountability institutions   |
+| 1    | 1.4     | All        | Monitoring and evaluation system            |
+| 2    | 2.1     | National   | Executive governance machinery              |
+| 2    | 2.2     | National   | Performance evaluation framework            |
+| 2    | 2.3     | National   | Implementation failure analysis             |
+| 3    | 3.1     | Provincial | Provincial system structure and constraints |
+| 3    | 3.2     | Provincial | Education and health delivery               |
+| 3    | 3.3     | Provincial | Provincial failure and intervention         |
+| 4    | 4.1     | Municipal  | Municipal system structure                  |
+| 4    | 4.2     | Municipal  | Municipal crisis analysis                   |
+| 4    | 4.3     | Municipal  | Municipal failure and intervention          |
+| 4    | 4.4     | Municipal  | Metro vs rural divergence                   |
+| 5    | 5.1     | All        | Citizen engagement toolkit                  |
 
 ---
 
-*Document generated for article series planning. Each prompt is designed to produce a standalone article of at least 4,500 words that is also coherent as part of the full series.*
+_Document generated for article series planning. Each prompt is designed to produce a standalone article of at least 4,500 words that is also coherent as part of the full series._

@@ -121,7 +121,7 @@ A common approach: geometric or arithmetic mean of two sub-indices — one for h
 - Current levels are low relative to the concentrations under which much of plant life evolved.
 - Commercial greenhouses enriching to 800–1,200 ppm see substantial yield gains.
 - The US EPA's 2009 "endangerment finding" classified it as a pollutant under the Clean Air Act based on its greenhouse warming properties — a regulatory/legal decision rather than a purely scientific one.
-- The debate centres on whether the *rate of increase* and *warming effect* constitute a net harm that outweighs the fertilisation benefits.
+- The debate centres on whether the _rate of increase_ and _warming effect_ constitute a net harm that outweighs the fertilisation benefits.
 
 ### Evidence for Anthropogenic CO₂ Increase
 
@@ -139,13 +139,13 @@ A common approach: geometric or arithmetic mean of two sub-indices — one for h
 
 South Africa's HDI sits at around 0.713 (rising to 0.741 in the most recent 2024 figure), placing it in the "high development" band but well below the 0.800 threshold for "very high."
 
-| Component | Value |
-|-----------|-------|
-| Life expectancy | 62.3 years (2023); ~63.6 M / 69.2 F (2024) |
-| Mean years of schooling | 11.3 years |
-| Expected years of schooling | 13.6 years |
-| GNI per capita (PPP) | ~$12,948 |
-| IHDI (inequality-adjusted) | 0.462 (a 0.251-point penalty) |
+| Component                   | Value                                      |
+| --------------------------- | ------------------------------------------ |
+| Life expectancy             | 62.3 years (2023); ~63.6 M / 69.2 F (2024) |
+| Mean years of schooling     | 11.3 years                                 |
+| Expected years of schooling | 13.6 years                                 |
+| GNI per capita (PPP)        | ~$12,948                                   |
+| IHDI (inequality-adjusted)  | 0.462 (a 0.251-point penalty)              |
 
 ### Priority 1: Life Expectancy — The Biggest Drag and Biggest Opportunity
 
@@ -161,7 +161,7 @@ Life expectancy is far below global peers at similar income levels. The primary 
 
 ### Priority 2: Education Quality Revolution
 
-South Africa's education numbers look decent on paper (11.3 mean years is high for the continent), but the HDI doesn't measure *quality* — and this is where South Africa dramatically underperforms:
+South Africa's education numbers look decent on paper (11.3 mean years is high for the continent), but the HDI doesn't measure _quality_ — and this is where South Africa dramatically underperforms:
 
 - The country consistently ranks near the bottom of international reading and maths assessments.
 - Expected years of schooling (13.6) is well below the maximum of 18.
@@ -172,10 +172,10 @@ South Africa's education numbers look decent on paper (11.3 mean years is high f
 ### Priority 3: Income Growth via Structural Unemployment
 
 - GNI per capita of ~$12,948 is middling.
-- The HDI uses a **logarithmic scale** for income, so each additional dollar matters less as you get richer — income is the *hardest* dimension to move for a middle-income country.
+- The HDI uses a **logarithmic scale** for income, so each additional dollar matters less as you get richer — income is the _hardest_ dimension to move for a middle-income country.
 - The real problem: income gains are extremely concentrated. The IHDI drops to 0.462 — a staggering inequality penalty.
 - South Africa's 30%+ unemployment rate is the structural barrier.
-- Income growth is better pursued as a *byproduct* of a healthier, better-educated workforce than as a direct HDI strategy.
+- Income growth is better pursued as a _byproduct_ of a healthier, better-educated workforce than as a direct HDI strategy.
 
 ### Strategic Summary
 
@@ -187,16 +187,16 @@ The health dimension offers the most "points per rand" because life expectancy i
 
 When building tools or analyses for this project, consider these data sources:
 
-| Data | Source | Notes |
-|------|--------|-------|
-| HDI & components | UNDP Human Development Reports | Published annually |
-| PHDI | UNDP (since 2020 report) | Adjusts HDI for CO₂ and material footprint |
-| EPI | Yale Center for Environmental Law & Policy | Biennial |
-| SDI | Jason Hickel / sustainabledevelopmentindex.org | Annual |
-| Ecological Footprint | Global Footprint Network | Per-country biocapacity data |
-| CO₂ emissions | Our World in Data / Global Carbon Project | Per-capita and absolute |
-| World Happiness | World Happiness Report | Annual |
-| Social Progress | Social Progress Imperative | Annual |
+| Data                 | Source                                         | Notes                                      |
+| -------------------- | ---------------------------------------------- | ------------------------------------------ |
+| HDI & components     | UNDP Human Development Reports                 | Published annually                         |
+| PHDI                 | UNDP (since 2020 report)                       | Adjusts HDI for CO₂ and material footprint |
+| EPI                  | Yale Center for Environmental Law & Policy     | Biennial                                   |
+| SDI                  | Jason Hickel / sustainabledevelopmentindex.org | Annual                                     |
+| Ecological Footprint | Global Footprint Network                       | Per-country biocapacity data               |
+| CO₂ emissions        | Our World in Data / Global Carbon Project      | Per-capita and absolute                    |
+| World Happiness      | World Happiness Report                         | Annual                                     |
+| Social Progress      | Social Progress Imperative                     | Annual                                     |
 
 ---
 

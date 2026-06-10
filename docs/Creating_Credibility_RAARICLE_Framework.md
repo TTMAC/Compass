@@ -4,14 +4,14 @@
 
 ---
 
-| Field | Detail |
-|-------|--------|
-| **Document Owner** | Tshepo Machele |
-| **Version** | 0.1 |
-| **Created Date** | 2026-04-23 |
-| **Status** | Draft for internal review |
-| **Companion Documents** | `MRD_RAARICLE_Product.md`; `RAARICLE_ANALYSIS_INSTRUCTIONS.md` |
-| **Purpose** | Define what is required to establish the RAARICLE™ framework as academically respected and practitioner-adopted, specify best-practice diagnostic conduct, and prepare the framework for use beyond South Africa (with United States states as the illustrative test case). |
+| Field                   | Detail                                                                                                                                                                                                                                                                      |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Document Owner**      | Tshepo Machele                                                                                                                                                                                                                                                              |
+| **Version**             | 0.1                                                                                                                                                                                                                                                                         |
+| **Created Date**        | 2026-04-23                                                                                                                                                                                                                                                                  |
+| **Status**              | Draft for internal review                                                                                                                                                                                                                                                   |
+| **Companion Documents** | `MRD_RAARICLE_Product.md`; `RAARICLE_ANALYSIS_INSTRUCTIONS.md`                                                                                                                                                                                                              |
+| **Purpose**             | Define what is required to establish the RAARICLE™ framework as academically respected and practitioner-adopted, specify best-practice diagnostic conduct, and prepare the framework for use beyond South Africa (with United States states as the illustrative test case). |
 
 ---
 
@@ -79,13 +79,13 @@ The credibility of a framework begins with the defensibility of its theoretical 
 - Provide a derivation — why eight and not seven or nine — grounded in the literatures on public administration (Weberian bureaucracy, principal-agent theory), constitutional economics (Ostrom on polycentricity; Buchanan-Tullock on institutional choice), and institutional analysis (North on institutions as rules of the game; Acemoglu-Robinson on inclusive institutions).
 - Engage and cite competing frameworks explicitly: the World Governance Indicators (Kaufmann-Kraay), V-Dem's institutional indices, the World Bank's CPIA, the OECD's Government at a Glance, the Mo Ibrahim Index, the Bertelsmann Transformation Index, Fukuyama's state-capacity framing, and Andrews-Pritchett-Woolcock's Problem-Driven Iterative Adaptation. A reader must be able to identify what RAARICLE™ adds that those frameworks miss.
 
-**A.2 The co-location thesis.** The claim that all eight elements must be co-located in a single institutional chain (or coherently aligned across institutions with binding coordination mechanisms) is the framework's central empirical hypothesis. This must be stated as a falsifiable proposition: *all else equal, public functions in which the eight elements are co-located outperform functions in which they are scattered*. Falsifiability turns advocacy into science.
+**A.2 The co-location thesis.** The claim that all eight elements must be co-located in a single institutional chain (or coherently aligned across institutions with binding coordination mechanisms) is the framework's central empirical hypothesis. This must be stated as a falsifiable proposition: _all else equal, public functions in which the eight elements are co-located outperform functions in which they are scattered_. Falsifiability turns advocacy into science.
 
 **A.3 The five-pattern typology.** Fragmentation, misalignment, absence, conflation and capture are claimed to exhaust the structural failure modes. This requires a derivation showing why these five and not others, worked examples distinguishing them (the boundary between fragmentation and misalignment is not obvious), and a decision tree that an analyst can apply to classify a given diagnosis unambiguously.
 
 **Deliverables for Pillar A**
 
-- A foundational methodology paper (target: *Governance* or *Public Administration Review*) that states and defends the three claims.
+- A foundational methodology paper (target: _Governance_ or _Public Administration Review_) that states and defends the three claims.
 - A companion theoretical review positioning RAARICLE™ against eight to ten comparator frameworks.
 - A formal notation (element = tuple of predicates, co-location = graph property on the institutional chain) that makes the theoretical claims amenable to critique.
 
@@ -101,7 +101,7 @@ Theory without measurement is philosophy. For RAARICLE™ to survive scrutiny, e
 
 **B.4 Manual-override protocol.** The current framework permits manual overrides with written justification. This is correct but must be disciplined: overrides should be rare (monitored as a rate), adjudicated (reviewed by a second analyst), and reported (every diagnostic should disclose which scores were overridden and why). Unchecked overrides are the path to silent analyst bias.
 
-**B.5 Weighting and interaction model.** The MVP uses equal weighting across elements. This is defensible as a starting point but must be explicitly labelled as a *non-informative prior* and revisited once a dataset large enough for empirical weighting exists (approximately 50 diagnostics with matched outcome data, per the MRD). The eventual model should specify: (i) element weights, (ii) interaction terms (e.g., Authority × Enforcement), and (iii) threshold effects (minimum scores below which no substitution is possible).
+**B.5 Weighting and interaction model.** The MVP uses equal weighting across elements. This is defensible as a starting point but must be explicitly labelled as a _non-informative prior_ and revisited once a dataset large enough for empirical weighting exists (approximately 50 diagnostics with matched outcome data, per the MRD). The eventual model should specify: (i) element weights, (ii) interaction terms (e.g., Authority × Enforcement), and (iii) threshold effects (minimum scores below which no substitution is possible).
 
 **Deliverables for Pillar B**
 
@@ -118,7 +118,7 @@ Measurement requires evidence. Evidence requires infrastructure. For every score
 
 **C.2 Replication dataset.** Diagnostics should be published with a companion replication package: the raw indicator values, the scoring algorithm version, the codebook version, the citation chain file, and any analyst notes. This is the norm in empirical economics (AEA data policy, QJE replication standard) and political science (DA-RT principles); RAARICLE™ should adopt the same standard voluntarily from the beginning.
 
-**C.3 Data provenance and versioning.** Public data sources change. The Auditor-General reissues reports; municipalities restate financials; national departments amend annual reports. Every diagnostic must record the *version* of the source document used and date of access. Re-scoring a diagnostic two years later should produce the same result if the source data is held constant, even if the sources themselves have since changed.
+**C.3 Data provenance and versioning.** Public data sources change. The Auditor-General reissues reports; municipalities restate financials; national departments amend annual reports. Every diagnostic must record the _version_ of the source document used and date of access. Re-scoring a diagnostic two years later should produce the same result if the source data is held constant, even if the sources themselves have since changed.
 
 **C.4 Open data commitments.** Where the framework is applied to public institutions using public data, there is no justification for keeping scores proprietary. The Observatory dashboard (Tier 2 in the MRD product architecture) should publish scores under an open licence (CC BY 4.0 for analysis; ODbL for data). This builds a moat of community adoption rather than a moat of artificial scarcity.
 
@@ -173,13 +173,13 @@ Who vouches for the framework matters as much as what the framework says.
 
 ### 3.6 Summary Matrix: Pillars, Deliverables, and Timing
 
-| Pillar | What it establishes | Minimum deliverables | Timing |
-|--------|---------------------|----------------------|--------|
-| A. Theoretical Foundation | The framework's claims are defensible and novel | Methodology paper; theoretical review | Year 1 |
-| B. Measurement Infrastructure | Scores are reproducible | Indicator library v1; codebook; scoring algorithm | Year 1 |
-| C. Evidence Infrastructure | Scores are auditable | Citation chain standard; replication package; open data | Year 1–2 |
-| D. Validation Architecture | The framework survives scrutiny | Four validation studies; pre-registration; peer review | Year 2–4 |
-| E. Institutional Provenance | The framework has a home | Academic MOU; advisory board; ethics charter; stewardship plan | Year 1–3 |
+| Pillar                        | What it establishes                             | Minimum deliverables                                           | Timing   |
+| ----------------------------- | ----------------------------------------------- | -------------------------------------------------------------- | -------- |
+| A. Theoretical Foundation     | The framework's claims are defensible and novel | Methodology paper; theoretical review                          | Year 1   |
+| B. Measurement Infrastructure | Scores are reproducible                         | Indicator library v1; codebook; scoring algorithm              | Year 1   |
+| C. Evidence Infrastructure    | Scores are auditable                            | Citation chain standard; replication package; open data        | Year 1–2 |
+| D. Validation Architecture    | The framework survives scrutiny                 | Four validation studies; pre-registration; peer review         | Year 2–4 |
+| E. Institutional Provenance   | The framework has a home                        | Academic MOU; advisory board; ethics charter; stewardship plan | Year 1–3 |
 
 ---
 
@@ -260,19 +260,19 @@ Commit to re-scoring on a fixed cadence (annually, aligned to the audit cycle wh
 
 ### Summary of the Ten-Phase Protocol
 
-| Phase | Purpose | Primary Output |
-|-------|---------|----------------|
-| 0. Commissioning | Fix scope, funder, IP, ethics in writing | Terms of reference |
-| 1. Scoping | Define function boundary and time window | Scope memo |
-| 2. Institutional mapping | Build value chain and institutional chain | Institutional map |
-| 3. Evidence collection | Assemble citation chain | Evidence file |
-| 4. Dual-analyst blind scoring | Produce independent score sets | Two score sheets |
-| 5. Adjudication and reliability | Compute IRR, resolve disagreements | Adjudicated scores; IRR statistic |
-| 6. Root-cause classification | Name the failure pattern(s) | Diagnosis statement |
-| 7. Internal quality review | Enforce standards before publication | Review sign-off |
-| 8. Reform blueprint | Design co-located architecture | Blueprint document |
-| 9. Stakeholder validation | Right of reply and factual correction | Institution response memo |
-| 10. Publication and tracking | Release and commit to re-scoring | Published diagnostic + replication package |
+| Phase                           | Purpose                                   | Primary Output                             |
+| ------------------------------- | ----------------------------------------- | ------------------------------------------ |
+| 0. Commissioning                | Fix scope, funder, IP, ethics in writing  | Terms of reference                         |
+| 1. Scoping                      | Define function boundary and time window  | Scope memo                                 |
+| 2. Institutional mapping        | Build value chain and institutional chain | Institutional map                          |
+| 3. Evidence collection          | Assemble citation chain                   | Evidence file                              |
+| 4. Dual-analyst blind scoring   | Produce independent score sets            | Two score sheets                           |
+| 5. Adjudication and reliability | Compute IRR, resolve disagreements        | Adjudicated scores; IRR statistic          |
+| 6. Root-cause classification    | Name the failure pattern(s)               | Diagnosis statement                        |
+| 7. Internal quality review      | Enforce standards before publication      | Review sign-off                            |
+| 8. Reform blueprint             | Design co-located architecture            | Blueprint document                         |
+| 9. Stakeholder validation       | Right of reply and factual correction     | Institution response memo                  |
+| 10. Publication and tracking    | Release and commit to re-scoring          | Published diagnostic + replication package |
 
 ---
 
@@ -296,41 +296,41 @@ US states are an unusually demanding stress test for RAARICLE™.
 
 The South African indicator library for water services (MRD Table in Section 8.1) translates to US state water utility governance as follows. The element questions are unchanged; the indicators are re-specified to the US legal and data context.
 
-| Element | South African indicator (example) | US state equivalent indicator | US data source |
-|---------|-----------------------------------|-------------------------------|----------------|
-| **Responsibility** | Is the Water Services Authority function held by the same entity as the Water Services Provider? | Is the water utility regulator separated from the utility operator (investor-owned vs. municipally owned vs. special district; state PUC oversight vs. municipal self-oversight)? | State Public Utility Commission filings; EPA SDWIS database; American Water Works Association utility surveys |
-| **Accountability** | Is there one named individual accountable for water service outcomes in a Section 57 performance contract? | Is there a named accountable officer (utility CEO, city water director) with a performance contract filed with the regulator, and are performance metrics published? | Utility annual reports; state comptroller filings; Form M-1 filings for investor-owned utilities |
-| **Authority** | Can the entity execute a water infrastructure decision within 30 days using only its own powers? | Can the utility issue revenue bonds, set rates, and execute capital projects without requiring state legislative approval or voter referendum for routine actions? Does it have Home Rule authority on water? | State Constitution; municipal charter; state bond authorisation statutes; state PUC rate-case records |
-| **Resources** | Is water services revenue ring-fenced from general municipal revenue? | Is the water enterprise fund legally ring-fenced (enterprise fund accounting required by GASB 34)? Can general-fund transfers occur, and are they disclosed? | Annual Comprehensive Financial Report (ACFR); GASB 34 enterprise fund statements; bond covenants |
-| **Information** | Does the entity have real-time monitoring of water quality at treatment works? | Does the utility report to EPA's Safe Drinking Water Information System (SDWIS) in real time? Is lead-and-copper monitoring data published under the Lead and Copper Rule? Are Consumer Confidence Reports compliant? | EPA SDWIS; state primacy agency records; utility CCRs |
-| **Capability** | Does the WSA have a qualified civil/water engineer on staff? | Does the utility employ state-licensed operators at the required classification for plant size (state operator certification programmes under the Safe Drinking Water Act)? Are certified operator vacancies reported? | State operator certification database; utility operator certificate filings |
-| **Legitimacy** | Has the entity's WSA status been formally gazetted? | Does the utility have a valid Certificate of Convenience and Necessity (CCN) or its state equivalent? Is the service territory formally defined and recognised? | State PUC; state water resources agency |
-| **Enforcement** | Are there automatic, pre-defined consequences for Blue Drop non-compliance? | Do Safe Drinking Water Act violations produce automatic administrative penalties (EPA or state primacy agency enforcement)? Are consent decrees or administrative orders issued on a pre-defined schedule for repeat violators? | EPA ECHO enforcement database; state primacy agency enforcement records |
+| Element            | South African indicator (example)                                                                          | US state equivalent indicator                                                                                                                                                                                                   | US data source                                                                                                |
+| ------------------ | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Responsibility** | Is the Water Services Authority function held by the same entity as the Water Services Provider?           | Is the water utility regulator separated from the utility operator (investor-owned vs. municipally owned vs. special district; state PUC oversight vs. municipal self-oversight)?                                               | State Public Utility Commission filings; EPA SDWIS database; American Water Works Association utility surveys |
+| **Accountability** | Is there one named individual accountable for water service outcomes in a Section 57 performance contract? | Is there a named accountable officer (utility CEO, city water director) with a performance contract filed with the regulator, and are performance metrics published?                                                            | Utility annual reports; state comptroller filings; Form M-1 filings for investor-owned utilities              |
+| **Authority**      | Can the entity execute a water infrastructure decision within 30 days using only its own powers?           | Can the utility issue revenue bonds, set rates, and execute capital projects without requiring state legislative approval or voter referendum for routine actions? Does it have Home Rule authority on water?                   | State Constitution; municipal charter; state bond authorisation statutes; state PUC rate-case records         |
+| **Resources**      | Is water services revenue ring-fenced from general municipal revenue?                                      | Is the water enterprise fund legally ring-fenced (enterprise fund accounting required by GASB 34)? Can general-fund transfers occur, and are they disclosed?                                                                    | Annual Comprehensive Financial Report (ACFR); GASB 34 enterprise fund statements; bond covenants              |
+| **Information**    | Does the entity have real-time monitoring of water quality at treatment works?                             | Does the utility report to EPA's Safe Drinking Water Information System (SDWIS) in real time? Is lead-and-copper monitoring data published under the Lead and Copper Rule? Are Consumer Confidence Reports compliant?           | EPA SDWIS; state primacy agency records; utility CCRs                                                         |
+| **Capability**     | Does the WSA have a qualified civil/water engineer on staff?                                               | Does the utility employ state-licensed operators at the required classification for plant size (state operator certification programmes under the Safe Drinking Water Act)? Are certified operator vacancies reported?          | State operator certification database; utility operator certificate filings                                   |
+| **Legitimacy**     | Has the entity's WSA status been formally gazetted?                                                        | Does the utility have a valid Certificate of Convenience and Necessity (CCN) or its state equivalent? Is the service territory formally defined and recognised?                                                                 | State PUC; state water resources agency                                                                       |
+| **Enforcement**    | Are there automatic, pre-defined consequences for Blue Drop non-compliance?                                | Do Safe Drinking Water Act violations produce automatic administrative penalties (EPA or state primacy agency enforcement)? Are consent decrees or administrative orders issued on a pre-defined schedule for repeat violators? | EPA ECHO enforcement database; state primacy agency enforcement records                                       |
 
-The structure of the table — element, question, indicator, data source — is identical to the South African version. The *content* is different in ways that reflect real institutional variation, not framework modification.
+The structure of the table — element, question, indicator, data source — is identical to the South African version. The _content_ is different in ways that reflect real institutional variation, not framework modification.
 
 ### 5.3 Data Source Substitution Map
 
 The broader data-source substitution follows a consistent pattern. South African sources map to US equivalents at similar points in the value chain.
 
-| South African source | US federal-state equivalent |
-|----------------------|----------------------------|
-| Auditor-General (AGSA) | State Auditor / Comptroller; federal Single Audit Clearinghouse; GAO for federal programmes |
-| National Treasury MFMA data | State Department of Revenue; state bond commissions; MSRB EMMA for municipal bond disclosures |
-| DPME monitoring and evaluation | State performance management offices; federal agency PARTs/Annual Performance Reports; Pew Results First |
-| Stats SA | US Census Bureau; Bureau of Economic Analysis; Bureau of Labor Statistics; state statistical centres |
-| DWS Blue/Green/No Drop | EPA SDWIS; EPA ECHO; state primacy agency reports |
-| SAICE Infrastructure Report Card | ASCE Infrastructure Report Card (national and state editions) |
-| Parliamentary Monitoring Group | State legislative research bureaus; National Conference of State Legislatures (NCSL); Committee reports on state legislature websites |
-| SALGA | National League of Cities; National Association of Counties; International City/County Management Association (ICMA) |
-| NERSA | State Public Utility Commissions; FERC for interstate regulation |
-| District Health Barometer | CMS State Medicaid dashboards; CDC state health profiles; Commonwealth Fund state scorecards |
+| South African source             | US federal-state equivalent                                                                                                           |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| Auditor-General (AGSA)           | State Auditor / Comptroller; federal Single Audit Clearinghouse; GAO for federal programmes                                           |
+| National Treasury MFMA data      | State Department of Revenue; state bond commissions; MSRB EMMA for municipal bond disclosures                                         |
+| DPME monitoring and evaluation   | State performance management offices; federal agency PARTs/Annual Performance Reports; Pew Results First                              |
+| Stats SA                         | US Census Bureau; Bureau of Economic Analysis; Bureau of Labor Statistics; state statistical centres                                  |
+| DWS Blue/Green/No Drop           | EPA SDWIS; EPA ECHO; state primacy agency reports                                                                                     |
+| SAICE Infrastructure Report Card | ASCE Infrastructure Report Card (national and state editions)                                                                         |
+| Parliamentary Monitoring Group   | State legislative research bureaus; National Conference of State Legislatures (NCSL); Committee reports on state legislature websites |
+| SALGA                            | National League of Cities; National Association of Counties; International City/County Management Association (ICMA)                  |
+| NERSA                            | State Public Utility Commissions; FERC for interstate regulation                                                                      |
+| District Health Barometer        | CMS State Medicaid dashboards; CDC state health profiles; Commonwealth Fund state scorecards                                          |
 
 ### 5.4 Constitutional and Legal-Regime Adaptations
 
 Three adaptations of the framework's diagnostic logic are required for US application, each of which is mechanical rather than theoretical.
 
-**The 30-day authority test.** In South Africa, the 30-day test asks whether a municipality can execute a decision within 30 days using only its own powers. In the US, the equivalent test must account for: (i) whether the utility or agency operates under Dillon's Rule or Home Rule; (ii) whether rate changes require state PUC approval (for regulated investor-owned utilities) or council approval alone (for municipal utilities); and (iii) whether capital expenditures above a threshold require a public vote. The test becomes: *Can the entity execute a decision within 30 days given its legal regime, and if not, is the delay structural (PUC rate-case cycle) or discretionary (internal approval layers)?*
+**The 30-day authority test.** In South Africa, the 30-day test asks whether a municipality can execute a decision within 30 days using only its own powers. In the US, the equivalent test must account for: (i) whether the utility or agency operates under Dillon's Rule or Home Rule; (ii) whether rate changes require state PUC approval (for regulated investor-owned utilities) or council approval alone (for municipal utilities); and (iii) whether capital expenditures above a threshold require a public vote. The test becomes: _Can the entity execute a decision within 30 days given its legal regime, and if not, is the delay structural (PUC rate-case cycle) or discretionary (internal approval layers)?_
 
 **Resource ring-fencing.** The South African test is whether revenue is ring-fenced from general municipal revenue. In the US, GASB 34 already requires enterprise fund accounting for fee-funded services, so the surface-level test is usually passed. The deeper test — has the ring-fence been breached by general-fund transfers, deferred capital maintenance, or below-cost rate-setting for political reasons — requires inspection of transfer schedules and rate-case testimony. The element is the same; the indicator is more subtle.
 
@@ -357,13 +357,13 @@ The point is not that RAARICLE™ "explains Flint" in a way that prior work does
 
 A deliberate US pilot should target functions with (i) high data maturity, (ii) cross-state variation that enables comparison, and (iii) active governance reform debates that create demand for diagnostic analysis.
 
-| Function | Why it's a good pilot | Candidate data partners |
-|----------|----------------------|------------------------|
-| K–12 education | N=50 states × strong federal data; NAEP; EdStats; cross-state variation in governance models | RAND; Urban Institute; Education Commission of the States |
-| Medicaid administration | Federal-state programme with sharp governance variation (expansion vs non-expansion; managed care vs FFS) | Commonwealth Fund; Kaiser Family Foundation; MACPAC |
-| Drinking water utilities | EPA SDWIS and ECHO provide structured data; post-Flint attention sustains demand | EPA; AWWA; Pacific Institute |
-| Unemployment insurance administration | Pandemic exposure of state UI systems created structural-reform demand | Century Foundation; Brookings; state-level policy centres |
-| State DOT project delivery | ASCE Report Card; FHWA data; comparable across states | ASCE; Eno Transportation Center; TRB |
+| Function                              | Why it's a good pilot                                                                                     | Candidate data partners                                   |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| K–12 education                        | N=50 states × strong federal data; NAEP; EdStats; cross-state variation in governance models              | RAND; Urban Institute; Education Commission of the States |
+| Medicaid administration               | Federal-state programme with sharp governance variation (expansion vs non-expansion; managed care vs FFS) | Commonwealth Fund; Kaiser Family Foundation; MACPAC       |
+| Drinking water utilities              | EPA SDWIS and ECHO provide structured data; post-Flint attention sustains demand                          | EPA; AWWA; Pacific Institute                              |
+| Unemployment insurance administration | Pandemic exposure of state UI systems created structural-reform demand                                    | Century Foundation; Brookings; state-level policy centres |
+| State DOT project delivery            | ASCE Report Card; FHWA data; comparable across states                                                     | ASCE; Eno Transportation Center; TRB                      |
 
 ### 5.7 What an International Expansion Does for Credibility
 
@@ -393,7 +393,7 @@ Credibility is earned in order. Steps out of sequence do not compound.
 
 ### Year 2 (2027) — Validation
 
-- Publish the inter-rater reliability study as a working paper; submit to *Governance*.
+- Publish the inter-rater reliability study as a working paper; submit to _Governance_.
 - Expand the indicator library to three additional functions (education, electricity, healthcare).
 - Begin the predictive validation study (50 municipalities tracked against audit outcomes).
 - Publish the first five public diagnostic reports with full replication packages.
@@ -430,15 +430,15 @@ Credibility at this point ceases to be an active pursuit and becomes an operatin
 
 A brief audit of how competing frameworks acquired academic and practitioner credibility clarifies what RAARICLE™ must replicate.
 
-| Framework | Credibility path |
-|-----------|------------------|
-| **World Governance Indicators (WGI)** | Kaufmann-Kraay-Mastruzzi methodology papers in Policy Research Working Paper series; replicable data release; transparent aggregation method; decades of peer-reviewed critique and response |
-| **V-Dem** | University of Gothenburg institutional home; multi-country expert panels with documented selection protocol; open datasets at V-Dem.net; dozens of peer-reviewed methodology papers; high-quality interface |
-| **Mo Ibrahim Index** | Foundation-backed with independent academic review board; transparent methodology; annual release with public data; cross-country comparability |
-| **Bertelsmann Transformation Index** | Foundation-backed with country-expert panels; published methodology; decades of continuous release |
-| **World Bank CPIA** | Internal World Bank assessment with published methodology; used to allocate IDA resources; subject to ongoing external critique that is responded to publicly |
-| **Government at a Glance (OECD)** | OECD institutional home; government-agreed methodology; biennial release; public data |
-| **PEFA (Public Expenditure and Financial Accountability)** | Multilateral consortium (World Bank, EU, DFID etc.) as stewardship entity; published methodology; certified assessor programme; cross-country comparability |
+| Framework                                                  | Credibility path                                                                                                                                                                                            |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **World Governance Indicators (WGI)**                      | Kaufmann-Kraay-Mastruzzi methodology papers in Policy Research Working Paper series; replicable data release; transparent aggregation method; decades of peer-reviewed critique and response                |
+| **V-Dem**                                                  | University of Gothenburg institutional home; multi-country expert panels with documented selection protocol; open datasets at V-Dem.net; dozens of peer-reviewed methodology papers; high-quality interface |
+| **Mo Ibrahim Index**                                       | Foundation-backed with independent academic review board; transparent methodology; annual release with public data; cross-country comparability                                                             |
+| **Bertelsmann Transformation Index**                       | Foundation-backed with country-expert panels; published methodology; decades of continuous release                                                                                                          |
+| **World Bank CPIA**                                        | Internal World Bank assessment with published methodology; used to allocate IDA resources; subject to ongoing external critique that is responded to publicly                                               |
+| **Government at a Glance (OECD)**                          | OECD institutional home; government-agreed methodology; biennial release; public data                                                                                                                       |
+| **PEFA (Public Expenditure and Financial Accountability)** | Multilateral consortium (World Bank, EU, DFID etc.) as stewardship entity; published methodology; certified assessor programme; cross-country comparability                                                 |
 
 The pattern is unmistakable: institutional home, published methodology, replicable data, peer review, public release on a fixed cadence. RAARICLE™ must travel the same road.
 
@@ -446,16 +446,16 @@ The pattern is unmistakable: institutional home, published methodology, replicab
 
 ## 8. Appendix B — Risks to Credibility and How to Pre-empt Them
 
-| Risk | Mechanism | Pre-emption |
-|------|-----------|-------------|
-| "It's a South African tool" | All diagnostics are South African; reviewers generalise | Complete the US pilot early; publish a comparative paper |
-| "It's a blog-authored framework" | No institutional signatory | Sign the academic MOU; publish with at least one non-Tshepo co-author |
-| "Scores are subjective" | Qualitative assignment without documented codebook | Publish the codebook; demonstrate IRR ≥ 0.7 |
-| "It's not falsifiable" | Co-location thesis stated as claim rather than hypothesis | State the thesis as a falsifiable proposition; pre-register the predictive validation protocol |
-| "It competes with WGI/Mo Ibrahim/V-Dem" | Reviewers see substitution rather than complement | Position RAARICLE™ as measuring *design*, not *outcome*; cite and build on the existing indices rather than dismissing them |
-| "It's a commercial tool dressed as research" | Paid diagnostics may bias findings | Publish the funding policy; insulate validation research from client engagements; pre-register findings |
-| "It oversimplifies political reality" | Eight elements reduce rich political dynamics to a scoreable grid | Acknowledge the reduction explicitly in every paper; treat the framework as a diagnostic heuristic, not a complete theory of politics |
-| "It will be captured by its clients" | Multilateral engagements create pressure to soften findings | Establish the advisory board and stewardship entity; publish diagnostics even when unwelcome to clients |
+| Risk                                         | Mechanism                                                         | Pre-emption                                                                                                                           |
+| -------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| "It's a South African tool"                  | All diagnostics are South African; reviewers generalise           | Complete the US pilot early; publish a comparative paper                                                                              |
+| "It's a blog-authored framework"             | No institutional signatory                                        | Sign the academic MOU; publish with at least one non-Tshepo co-author                                                                 |
+| "Scores are subjective"                      | Qualitative assignment without documented codebook                | Publish the codebook; demonstrate IRR ≥ 0.7                                                                                           |
+| "It's not falsifiable"                       | Co-location thesis stated as claim rather than hypothesis         | State the thesis as a falsifiable proposition; pre-register the predictive validation protocol                                        |
+| "It competes with WGI/Mo Ibrahim/V-Dem"      | Reviewers see substitution rather than complement                 | Position RAARICLE™ as measuring _design_, not _outcome_; cite and build on the existing indices rather than dismissing them           |
+| "It's a commercial tool dressed as research" | Paid diagnostics may bias findings                                | Publish the funding policy; insulate validation research from client engagements; pre-register findings                               |
+| "It oversimplifies political reality"        | Eight elements reduce rich political dynamics to a scoreable grid | Acknowledge the reduction explicitly in every paper; treat the framework as a diagnostic heuristic, not a complete theory of politics |
+| "It will be captured by its clients"         | Multilateral engagements create pressure to soften findings       | Establish the advisory board and stewardship entity; publish diagnostics even when unwelcome to clients                               |
 
 ---
 
@@ -469,14 +469,14 @@ This appendix specifies how that conversion would work, at both Masters and doct
 
 The research programme sits at the intersection of four established literatures, each of which provides the prior art a thesis must engage.
 
-| Literature | Key scholars and works | RAARICLE™'s contribution |
-|------------|-----------------------|--------------------------|
-| Institutional analysis and development | Elinor Ostrom (Governing the Commons; IAD Framework); Douglass North (Institutions, Institutional Change and Economic Performance); Acemoglu & Robinson (Why Nations Fail) | A sub-national, function-level operationalisation of institutional design that IAD describes at the commons level and North/Acemoglu describe at the national level |
-| State capacity and public-sector reform | Francis Fukuyama (State-Building; Political Order); Matt Andrews, Lant Pritchett & Michael Woolcock (Building State Capability, PDIA); Sue Unsworth (political settlements) | A design-side diagnostic that complements PDIA's problem-driven adaptation by identifying *which* structural misalignment produces the problem |
-| Measurement of governance | Kaufmann, Kraay & Mastruzzi (World Governance Indicators); V-Dem methodology papers (Coppedge et al.); Marcus Melo & Carlos Pereira (Making Brazil Work) | A shift from perception-based and outcome-based measurement to design-based measurement with observable indicators |
-| Federalism and multi-level governance | Daniel Elazar (American Federalism); Jonathan Rodden (Hamilton's Paradox); Ronald Watts (Comparing Federal Systems); Alberto Diaz-Cayeros (Federalism, Fiscal Authority and Centralization) | A diagnostic that makes inter-sphere misalignment observable and scoreable rather than narratively described |
+| Literature                              | Key scholars and works                                                                                                                                                                      | RAARICLE™'s contribution                                                                                                                                            |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Institutional analysis and development  | Elinor Ostrom (Governing the Commons; IAD Framework); Douglass North (Institutions, Institutional Change and Economic Performance); Acemoglu & Robinson (Why Nations Fail)                  | A sub-national, function-level operationalisation of institutional design that IAD describes at the commons level and North/Acemoglu describe at the national level |
+| State capacity and public-sector reform | Francis Fukuyama (State-Building; Political Order); Matt Andrews, Lant Pritchett & Michael Woolcock (Building State Capability, PDIA); Sue Unsworth (political settlements)                 | A design-side diagnostic that complements PDIA's problem-driven adaptation by identifying _which_ structural misalignment produces the problem                      |
+| Measurement of governance               | Kaufmann, Kraay & Mastruzzi (World Governance Indicators); V-Dem methodology papers (Coppedge et al.); Marcus Melo & Carlos Pereira (Making Brazil Work)                                    | A shift from perception-based and outcome-based measurement to design-based measurement with observable indicators                                                  |
+| Federalism and multi-level governance   | Daniel Elazar (American Federalism); Jonathan Rodden (Hamilton's Paradox); Ronald Watts (Comparing Federal Systems); Alberto Diaz-Cayeros (Federalism, Fiscal Authority and Centralization) | A diagnostic that makes inter-sphere misalignment observable and scoreable rather than narratively described                                                        |
 
-A thesis must position RAARICLE™ explicitly against each of these literatures — not merely cite them. The argument should be that the co-location thesis is a *bridge construct*: it connects the macro institutionalism of North/Acemoglu to the commons-level granularity of Ostrom, at the meso level of the public function, which is the level at which service delivery actually succeeds or fails.
+A thesis must position RAARICLE™ explicitly against each of these literatures — not merely cite them. The argument should be that the co-location thesis is a _bridge construct_: it connects the macro institutionalism of North/Acemoglu to the commons-level granularity of Ostrom, at the meso level of the public function, which is the level at which service delivery actually succeeds or fails.
 
 ### C.2 Masters Thesis — Three Viable Scopes
 
@@ -488,25 +488,25 @@ A Masters thesis is typically 20,000–40,000 words, defended in 12–24 months,
 
 **Scope M3 — Theoretical positioning paper.** A review and critique chapter that positions RAARICLE™ against WGI, V-Dem, Mo Ibrahim, CPIA, PEFA and the PDIA research programme, arguing the conceptual space that a design-based meso-level framework occupies. Contribution: clarifies the framework's theoretical novelty and sharpens its falsifiability claims. Methods: systematic literature review; conceptual analysis. This is the **lowest-resource, most-portable** scope but produces the thinnest empirical contribution. Appropriate where access to empirical data is constrained or the candidate's programme privileges conceptual work.
 
-Across all three scopes, the RAARICLE™ framework becomes the thesis's *object* of analysis, not merely its tool. This framing is important: a Masters examiner will not accept a thesis that applies a framework uncritically. The candidate must be willing to say, in defence, where the framework is weakest and what the thesis has not resolved.
+Across all three scopes, the RAARICLE™ framework becomes the thesis's _object_ of analysis, not merely its tool. This framing is important: a Masters examiner will not accept a thesis that applies a framework uncritically. The candidate must be willing to say, in defence, where the framework is weakest and what the thesis has not resolved.
 
 ### C.3 PhD Thesis — The Three-Paper Format
 
 A PhD in public policy, political science or development studies is now commonly structured as three journal-ready papers plus a framing introduction and conclusion (the "three-paper" or "sandwich" thesis), typically 80,000–100,000 words, defended in 3–5 years. The RAARICLE™ research programme maps naturally onto this format.
 
-**Paper 1 — Theoretical contribution: "Co-location as an Institutional Design Principle."** A conceptual paper that formalises the MECE claim and the co-location thesis, derives the eight elements from first principles with reference to Ostromian institutional analysis and Weberian bureaucratic theory, states the co-location thesis as a falsifiable proposition, and positions the framework against the competing literatures. Target venue: *Governance* or *Public Administration Review*. This paper earns the doctoral candidate the right to use RAARICLE™ as their own contribution rather than an imported tool.
+**Paper 1 — Theoretical contribution: "Co-location as an Institutional Design Principle."** A conceptual paper that formalises the MECE claim and the co-location thesis, derives the eight elements from first principles with reference to Ostromian institutional analysis and Weberian bureaucratic theory, states the co-location thesis as a falsifiable proposition, and positions the framework against the competing literatures. Target venue: _Governance_ or _Public Administration Review_. This paper earns the doctoral candidate the right to use RAARICLE™ as their own contribution rather than an imported tool.
 
-**Paper 2 — Measurement contribution: "Operationalising Institutional Design: An Indicator Library and Reliability Study for Water Services Governance."** A methods paper that publishes the indicator library, the codebook, the scoring algorithm, and the results of an inter-rater reliability study across 20–30 cases with three independent coders. Reports Cohen's kappa, intraclass correlation, and codebook stability metrics. Target venue: *Journal of Politics* Methods section, *Political Analysis*, or *Public Administration Review*. This paper earns the right to the claim that RAARICLE™ is measurable, not merely theoretical.
+**Paper 2 — Measurement contribution: "Operationalising Institutional Design: An Indicator Library and Reliability Study for Water Services Governance."** A methods paper that publishes the indicator library, the codebook, the scoring algorithm, and the results of an inter-rater reliability study across 20–30 cases with three independent coders. Reports Cohen's kappa, intraclass correlation, and codebook stability metrics. Target venue: _Journal of Politics_ Methods section, _Political Analysis_, or _Public Administration Review_. This paper earns the right to the claim that RAARICLE™ is measurable, not merely theoretical.
 
 **Paper 3 — Empirical contribution (one of two options).**
 
-- **Option 3A — Predictive validity paper.** Score 50–100 municipalities on a single function at time T, then track observable outcomes (audit results, service delivery indicators, fiscal distress) at time T+2. Test whether RAARICLE™ element scores predict outcomes better than financial viability ratios and prior audit outcomes. Pre-register the prediction protocol on OSF. Target venue: *Journal of Development Economics*, *World Development*, or *American Journal of Political Science*.
+- **Option 3A — Predictive validity paper.** Score 50–100 municipalities on a single function at time T, then track observable outcomes (audit results, service delivery indicators, fiscal distress) at time T+2. Test whether RAARICLE™ element scores predict outcomes better than financial viability ratios and prior audit outcomes. Pre-register the prediction protocol on OSF. Target venue: _Journal of Development Economics_, _World Development_, or _American Journal of Political Science_.
 
-- **Option 3B — Cross-jurisdictional comparative paper.** Apply the framework to one function (e.g. drinking water utility regulation) across two or three jurisdictions with different constitutional architectures — South Africa, one other African case, and one US state or OECD comparator. Test whether the framework's categories travel, document the indicator translation exercise, and produce a comparative diagnostic matrix. Target venue: *Governance*, *Publius: The Journal of Federalism*, or *Regulation & Governance*.
+- **Option 3B — Cross-jurisdictional comparative paper.** Apply the framework to one function (e.g. drinking water utility regulation) across two or three jurisdictions with different constitutional architectures — South Africa, one other African case, and one US state or OECD comparator. Test whether the framework's categories travel, document the indicator translation exercise, and produce a comparative diagnostic matrix. Target venue: _Governance_, _Publius: The Journal of Federalism_, or _Regulation & Governance_.
 
 Option 3A offers stronger causal-inference payoff and is more publishable in economics-leaning journals. Option 3B offers broader geographic reach and positions the candidate for multilateral-track careers. A candidate choosing Option 3B implicitly commits to the US/international adaptation work described in Part III of this document.
 
-**Framing chapters.** The introduction situates the three papers in the combined research question — *"under what conditions does institutional design explain public-function performance, and can design be measured, travelled, and reformed?"* — and the conclusion synthesises findings into an integrated argument about design-based governance assessment, identifying the remaining research frontier.
+**Framing chapters.** The introduction situates the three papers in the combined research question — _"under what conditions does institutional design explain public-function performance, and can design be measured, travelled, and reformed?"_ — and the conclusion synthesises findings into an integrated argument about design-based governance assessment, identifying the remaining research frontier.
 
 ### C.4 Candidate Institutions and Supervisors
 
@@ -544,17 +544,17 @@ The candidate should engage at least two potential supervisors in pre-applicatio
 
 A credible thesis requires demonstrable proficiency across several methods. The candidate should build or document competence in each.
 
-| Method | Purpose in the thesis | Recommended training |
-|--------|-----------------------|----------------------|
-| Systematic literature review | Position RAARICLE™ against the four parent literatures | Cochrane or Campbell Collaboration protocols; PRISMA |
-| Conceptual analysis and formal definition | Specify the eight elements with necessary and sufficient conditions | Gerring's *Concept Formation in the Social Sciences*; Goertz's *Social Science Concepts* |
-| Content analysis and document coding | Build and apply the indicator library | Krippendorff; software: NVivo, ATLAS.ti, or MAXQDA |
-| Inter-rater reliability statistics | Demonstrate reproducibility | Cohen's kappa, Krippendorff's alpha, ICC; Hallgren (2012) tutorial; software: R (`irr` package) |
-| Qualitative comparative analysis (QCA) | Identify configurations of elements associated with outcomes | Ragin's *Redesigning Social Inquiry*; software: fsQCA, R (`QCA` package) |
-| Process tracing | Causal analysis within cases | Bennett & Checkel's *Process Tracing*; Collier's causal-inference typology |
-| Regression and predictive modelling | Test predictive validity | Standard econometrics sequence; Angrist & Pischke; software: R or Stata |
-| Pre-registration and open science | Establish credibility of empirical claims | OSF pre-registration; AEA RCT Registry conventions |
-| Elite interviewing and ethics | Practitioner validation and stakeholder protocols | Leech's interviewing guides; IRB/ethics review conventions |
+| Method                                    | Purpose in the thesis                                               | Recommended training                                                                            |
+| ----------------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Systematic literature review              | Position RAARICLE™ against the four parent literatures              | Cochrane or Campbell Collaboration protocols; PRISMA                                            |
+| Conceptual analysis and formal definition | Specify the eight elements with necessary and sufficient conditions | Gerring's _Concept Formation in the Social Sciences_; Goertz's _Social Science Concepts_        |
+| Content analysis and document coding      | Build and apply the indicator library                               | Krippendorff; software: NVivo, ATLAS.ti, or MAXQDA                                              |
+| Inter-rater reliability statistics        | Demonstrate reproducibility                                         | Cohen's kappa, Krippendorff's alpha, ICC; Hallgren (2012) tutorial; software: R (`irr` package) |
+| Qualitative comparative analysis (QCA)    | Identify configurations of elements associated with outcomes        | Ragin's _Redesigning Social Inquiry_; software: fsQCA, R (`QCA` package)                        |
+| Process tracing                           | Causal analysis within cases                                        | Bennett & Checkel's _Process Tracing_; Collier's causal-inference typology                      |
+| Regression and predictive modelling       | Test predictive validity                                            | Standard econometrics sequence; Angrist & Pischke; software: R or Stata                         |
+| Pre-registration and open science         | Establish credibility of empirical claims                           | OSF pre-registration; AEA RCT Registry conventions                                              |
+| Elite interviewing and ethics             | Practitioner validation and stakeholder protocols                   | Leech's interviewing guides; IRB/ethics review conventions                                      |
 
 A PhD candidate who cannot credibly compute an inter-rater reliability statistic and run a pre-registered predictive study will not publish the empirical paper. This is non-negotiable; the candidate must plan methods training in year one.
 
@@ -578,14 +578,14 @@ A well-targeted research proposal — which the MRD and this credibility documen
 
 The thesis is not a separate track from the credibility roadmap in Part IV; it is the same work with academic registration added. A realistic integrated timeline:
 
-| Year | Thesis milestone | Credibility milestone |
-|------|------------------|----------------------|
-| Pre-registration | Publish methodology working paper (SSRN); use as writing sample | Pillar A deliverable; Pillar B codebook v1 |
-| Year 1 (coursework / confirmation) | Literature review; theoretical paper draft; methods training | Paper 1 submitted as working paper; academic MOU signed |
-| Year 2 | IRR study fieldwork and analysis | Pillar D.2 validation complete; Paper 2 submitted |
-| Year 3 | Predictive-validity or comparative-cross-jurisdictional study fieldwork | Pillar D.3 validation in progress; US pilot running |
-| Year 4 | Paper 3 draft; thesis integration; viva preparation | Paper 3 submitted; stewardship entity formed |
-| Year 5 (if needed) | Revisions and defence | Published framework with three peer-reviewed papers |
+| Year                               | Thesis milestone                                                        | Credibility milestone                                   |
+| ---------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------- |
+| Pre-registration                   | Publish methodology working paper (SSRN); use as writing sample         | Pillar A deliverable; Pillar B codebook v1              |
+| Year 1 (coursework / confirmation) | Literature review; theoretical paper draft; methods training            | Paper 1 submitted as working paper; academic MOU signed |
+| Year 2                             | IRR study fieldwork and analysis                                        | Pillar D.2 validation complete; Paper 2 submitted       |
+| Year 3                             | Predictive-validity or comparative-cross-jurisdictional study fieldwork | Pillar D.3 validation in progress; US pilot running     |
+| Year 4                             | Paper 3 draft; thesis integration; viva preparation                     | Paper 3 submitted; stewardship entity formed            |
+| Year 5 (if needed)                 | Revisions and defence                                                   | Published framework with three peer-reviewed papers     |
 
 The candidate graduates with a PhD, three publications, an international profile and a framework that is by then institutionally anchored. The thesis and the credibility programme are the same programme described from two different sides.
 
@@ -593,15 +593,15 @@ The candidate graduates with a PhD, three publications, an international profile
 
 A thesis route is not free; it carries risks the candidate should weigh.
 
-| Risk | Mechanism | Mitigation |
-|------|-----------|-----------|
-| Supervisor misalignment | A supervisor not expert in institutional design redirects the work toward their own methods | Choose supervisors from the shortlist in Section C.4; ensure at least one is a published institutional-design scholar |
-| Ethical complications | Diagnostics of real institutions may require IRB/ethics approval; interviews with officials create sensitivity | Build ethics approval into the year-one plan; pre-empt with anonymisation protocols |
-| Commercial-academic conflict | Running RAARICLE™ as a paid consulting product while completing a thesis on it creates COI risk | Separate client engagements from thesis data; disclose all commercial work to supervisors and in publications |
-| Data access | Municipalities or state agencies may refuse cooperation | Design the validation around publicly available data where possible; treat cooperation as a bonus, not a dependency |
-| Framework ownership | The institution may claim IP over the thesis's contributions | Negotiate IP terms at admission; retain a permissive licence on the framework itself before enrolling |
-| Timeline slippage | PhDs routinely extend beyond the scheduled timeline | Budget realistically for 5 years rather than 3–4; secure funding that accommodates the realistic timeline |
-| Originality challenge | Examiners may ask whether the work is a framework application rather than an original contribution | The theoretical paper (Paper 1 in the three-paper format) must carry the originality claim; design it to do so from the start |
+| Risk                         | Mechanism                                                                                                      | Mitigation                                                                                                                    |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Supervisor misalignment      | A supervisor not expert in institutional design redirects the work toward their own methods                    | Choose supervisors from the shortlist in Section C.4; ensure at least one is a published institutional-design scholar         |
+| Ethical complications        | Diagnostics of real institutions may require IRB/ethics approval; interviews with officials create sensitivity | Build ethics approval into the year-one plan; pre-empt with anonymisation protocols                                           |
+| Commercial-academic conflict | Running RAARICLE™ as a paid consulting product while completing a thesis on it creates COI risk                | Separate client engagements from thesis data; disclose all commercial work to supervisors and in publications                 |
+| Data access                  | Municipalities or state agencies may refuse cooperation                                                        | Design the validation around publicly available data where possible; treat cooperation as a bonus, not a dependency           |
+| Framework ownership          | The institution may claim IP over the thesis's contributions                                                   | Negotiate IP terms at admission; retain a permissive licence on the framework itself before enrolling                         |
+| Timeline slippage            | PhDs routinely extend beyond the scheduled timeline                                                            | Budget realistically for 5 years rather than 3–4; secure funding that accommodates the realistic timeline                     |
+| Originality challenge        | Examiners may ask whether the work is a framework application rather than an original contribution             | The theoretical paper (Paper 1 in the three-paper format) must carry the originality claim; design it to do so from the start |
 
 ### C.9 Why This Path Is Worth Considering Seriously
 
@@ -632,7 +632,7 @@ The **five failure patterns** — fragmentation, misalignment, absence, conflati
 
 **D.2.1 The indicator translation layer is sector-specific and non-trivial.** What operationalises "Accountability" in a South African municipality (Auditor-General reports, council oversight, Municipal Finance Management Act section 71 reporting, electoral discipline) is unrecognisable in a private firm (board scorecards, shareholder votes, market discipline via customer exit, capital discipline via cost of capital) or in an NGO (donor reporting cycles, trustee oversight, beneficiary feedback loops, regulatory compliance with the relevant non-profit statute). Each element must be re-operationalised per sector. This is the same codebook exercise that Section 5 of this document describes for cross-jurisdictional extension within the public sector, but the codebooks for private sector firms and for NGOs are distinct artefacts that must be built from first principles for each sector. Treating a public sector codebook as transferable to private sector use will produce incoherent diagnostics.
 
-**D.2.2 Element weights almost certainly shift across sectors.** The MVP equal-weighting assumption — already labelled as a non-informative prior in Pillar B — is more clearly a placeholder for cross-sector use than it is for cross-jurisdictional public sector use, because the *relative* explanatory power of the eight elements varies substantially by sector.
+**D.2.2 Element weights almost certainly shift across sectors.** The MVP equal-weighting assumption — already labelled as a non-informative prior in Pillar B — is more clearly a placeholder for cross-sector use than it is for cross-jurisdictional public sector use, because the _relative_ explanatory power of the eight elements varies substantially by sector.
 
 - In the **public sector**, Legitimacy and Enforcement carry heavy weight because citizens have no exit option. A public function that loses its mandate or that operates without consequences will degrade in ways that no amount of capability investment can compensate for.
 - In the **private sector**, market discipline substitutes for much of Enforcement and Accountability. Customers leave; capital reprices. These mechanisms operate continuously and at low latency, so the marginal explanatory power of formal Enforcement and Accountability structures may be lower, while Capability and Information become more diagnostically powerful — competitive advantage in modern markets is increasingly a function of these two elements.
@@ -674,8 +674,8 @@ RAARICLE™ has the characteristic most frameworks lack — a clear theoretical 
 
 ## Document History
 
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 0.1 | 2026-04-23 | Tshepo Machele | Initial draft |
-| 0.2 | 2026-04-23 | Tshepo Machele | Added Appendix C on Masters/PhD thesis development pathway |
-| 0.3 | 2026-05-11 | Tshepo Machele | Added Appendix D on cross-sector extension to private sector and NGO contexts |
+| Version | Date       | Author         | Changes                                                                       |
+| ------- | ---------- | -------------- | ----------------------------------------------------------------------------- |
+| 0.1     | 2026-04-23 | Tshepo Machele | Initial draft                                                                 |
+| 0.2     | 2026-04-23 | Tshepo Machele | Added Appendix C on Masters/PhD thesis development pathway                    |
+| 0.3     | 2026-05-11 | Tshepo Machele | Added Appendix D on cross-sector extension to private sector and NGO contexts |

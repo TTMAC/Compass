@@ -1,9 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("Email subscription", () => {
-  test("should display subscribe form on standalone page", async ({
-    page,
-  }) => {
+  test("should display subscribe form on standalone page", async ({ page }) => {
     await page.goto("/subscribe/");
 
     const form = page.locator('[data-testid="subscribe-form"]');

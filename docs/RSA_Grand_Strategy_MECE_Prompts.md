@@ -1,7 +1,7 @@
 # MECE Prompt Set: South Africa's Grand Strategy Article
 
 **Target output:** One cohesive article of minimum 7,500 words
-**Working title:** *Constitutional Non-Alignment for a Multipolar Era: South Africa's Grand Strategy — Analysis, Critique, and Realignment*
+**Working title:** _Constitutional Non-Alignment for a Multipolar Era: South Africa's Grand Strategy — Analysis, Critique, and Realignment_
 
 ---
 
@@ -14,7 +14,8 @@ Each prompt below corresponds to one **mutually exclusive section** of the artic
 ---
 
 ## PROMPT 1 — Introduction & Conceptual Foundation
-**Section:** *What Grand Strategy Is and Why It Matters for South Africa*
+
+**Section:** _What Grand Strategy Is and Why It Matters for South Africa_
 **Target:** ~800 words
 
 ```
@@ -33,7 +34,8 @@ Tone: rigorous, analytical, accessible to non-specialists. No bullet points — 
 ---
 
 ## PROMPT 2 — The Doctrinal Stack
-**Section:** *Reconstructing South Africa's Grand Strategy from Its Doctrinal Architecture*
+
+**Section:** _Reconstructing South Africa's Grand Strategy from Its Doctrinal Architecture_
 **Target:** ~900 words
 
 ```
@@ -53,7 +55,8 @@ Tone: analytical, prose-driven. No bullet-point lists in the output.
 ---
 
 ## PROMPT 3 — The Ends
-**Section:** *What South Africa Seeks to Achieve: Vision, National Interests, and the Eight NSS Pillars*
+
+**Section:** _What South Africa Seeks to Achieve: Vision, National Interests, and the Eight NSS Pillars_
 **Target:** ~900 words
 
 ```
@@ -77,7 +80,8 @@ Write analytically in prose. Assess whether the ends are internally coherent and
 ---
 
 ## PROMPT 4 — The Ways
-**Section:** *Strategic Posture: How South Africa Converts Interests into Action*
+
+**Section:** _Strategic Posture: How South Africa Converts Interests into Action_
 **Target:** ~1,000 words
 
 ```
@@ -97,7 +101,8 @@ Assess whether these four ways are internally consistent or create contradiction
 ---
 
 ## PROMPT 5 — The Means
-**Section:** *Instruments of National Power: The DIME Assessment*
+
+**Section:** _Instruments of National Power: The DIME Assessment_
 **Target:** ~1,000 words
 
 ```
@@ -124,7 +129,8 @@ Conclude with a clear judgement: the DIME portfolio is diplomatically overweight
 ---
 
 ## PROMPT 6 — Perspectives & Contestation
-**Section:** *Four Lenses: How Different Constituencies Read the Strategy*
+
+**Section:** _Four Lenses: How Different Constituencies Read the Strategy_
 **Target:** ~900 words
 
 ```
@@ -149,7 +155,8 @@ Write as analytical prose with attribution. Do not editorially favour any camp �
 ---
 
 ## PROMPT 7 — Risks & Implementation Gaps
-**Section:** *The Delta Between Doctrine and Delivery: Six Failure Modes*
+
+**Section:** _The Delta Between Doctrine and Delivery: Six Failure Modes_
 **Target:** ~800 words
 
 ```
@@ -173,7 +180,8 @@ Tie the six risks together: they compound each other. Economic weakness starves 
 ---
 
 ## PROMPT 8 — The Alternative: An Endowment-Aligned Grand Strategy
-**Section:** *Playing the Hand South Africa Actually Holds: A Prescriptive Grand Strategy*
+
+**Section:** _Playing the Hand South Africa Actually Holds: A Prescriptive Grand Strategy_
 **Target:** ~1,200 words
 
 ```
@@ -207,7 +215,8 @@ Flag the biggest internal risks: GNU coalition instability, patronage networks r
 ---
 
 ## PROMPT 9 — The Gap & Synthesis
-**Section:** *Bridging the Gap: From Constitutional Non-Alignment to Endowment-Aligned Execution*
+
+**Section:** _Bridging the Gap: From Constitutional Non-Alignment to Endowment-Aligned Execution_
 **Target:** ~700 words
 
 ```
@@ -226,7 +235,8 @@ Conclude that the dominant probable trajectory (per Otto & Nagar, Belfer, ISS) i
 ---
 
 ## PROMPT 10 — Conclusion
-**Section:** *Grand Strategy or Grand Illusion?*
+
+**Section:** _Grand Strategy or Grand Illusion?_
 **Target:** ~400 words
 
 ```
@@ -245,24 +255,26 @@ Tone: measured but pointed. No false optimism, no fatalism. The conclusion shoul
 
 ## Assembly Notes
 
-| Prompt | Section | Target Words | Cumulative |
-|--------|---------|-------------|------------|
-| 1 | Introduction & Conceptual Foundation | 800 | 800 |
-| 2 | The Doctrinal Stack | 900 | 1,700 |
-| 3 | The Ends | 900 | 2,600 |
-| 4 | The Ways | 1,000 | 3,600 |
-| 5 | The Means (DIME) | 1,000 | 4,600 |
-| 6 | Perspectives & Contestation | 900 | 5,500 |
-| 7 | Risks & Implementation Gaps | 800 | 6,300 |
-| 8 | Endowment-Aligned Alternative | 1,200 | 7,500 |
-| 9 | Gap & Synthesis | 700 | 8,200 |
-| 10 | Conclusion | 400 | 8,600 |
+| Prompt | Section                              | Target Words | Cumulative |
+| ------ | ------------------------------------ | ------------ | ---------- |
+| 1      | Introduction & Conceptual Foundation | 800          | 800        |
+| 2      | The Doctrinal Stack                  | 900          | 1,700      |
+| 3      | The Ends                             | 900          | 2,600      |
+| 4      | The Ways                             | 1,000        | 3,600      |
+| 5      | The Means (DIME)                     | 1,000        | 4,600      |
+| 6      | Perspectives & Contestation          | 900          | 5,500      |
+| 7      | Risks & Implementation Gaps          | 800          | 6,300      |
+| 8      | Endowment-Aligned Alternative        | 1,200        | 7,500      |
+| 9      | Gap & Synthesis                      | 700          | 8,200      |
+| 10     | Conclusion                           | 400          | 8,600      |
 
 **MECE Verification:**
+
 - **Mutually Exclusive:** Each prompt covers a non-overlapping analytical domain — concept → doctrine → ends → ways → means → perspectives → risks → alternative → synthesis → conclusion. No content is duplicated across prompts.
 - **Collectively Exhaustive:** The full surface area of the project's content is covered — the conceptual definition of grand strategy, SA's actual doctrinal architecture (all tiers), the Ends–Ways–Means triad, all four interpretive camps, all six risk families, the prescriptive alternative (all five pillars), and the bridge between existing and proposed.
 
 **Key editorial instructions for assembly:**
+
 - Run prompts sequentially; each section should read as if it follows the previous one
 - After assembly, do one editorial pass to smooth transitions between sections
 - Add a bibliography/source register at the end drawing from the Key Source Register in the MECE Analysis document

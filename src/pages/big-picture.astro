@@ -31,10 +31,10 @@ const pillarData = pillars.map((p) => {
     When the loop runs forward, progress compounds: effective institutions
     enable rule of law, safety attracts investment and lets children learn,
     growth generates the tax base that funds services, and a healthier,
-    better-educated population demands and sustains better governance. When
-    the loop runs backward — as it largely does today — decline in any node
-    drags the rest down with it. Understanding the system is the first step
-    toward intervening in it.
+    better-educated population demands and sustains better governance. When the
+    loop runs backward — as it largely does today — decline in any node drags
+    the rest down with it. Understanding the system is the first step toward
+    intervening in it.
   </p>
 
   <FeedbackLoop />
@@ -45,61 +45,65 @@ const pillarData = pillars.map((p) => {
     </h2>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-      {pillarData.filter((p) => p.slug !== "reform-agenda").map((p) => (
-        <a
-          href={`/pillars/${p.slug}`}
-          class="border border-gray-200 rounded-lg p-5 hover:border-gray-300 transition-colors group"
-        >
-          <div class="flex items-center gap-2 mb-2">
-            <span
-              class="inline-block w-3 h-3 rounded-full shrink-0"
-              style={`background-color: ${p.color}`}
-            ></span>
-            <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
-              {p.title}
-            </span>
-          </div>
-          <p class="text-sm text-text-secondary mb-3">
-            {p.description}
-          </p>
-          <span class="text-xs font-heading text-text-secondary">
-            {p.articleCount > 0
-              ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}`
-              : "Coming soon"}
-            {p.slug === "government-structure" && " — Start here"}
-          </span>
-        </a>
-      ))}
+      {
+        pillarData
+          .filter((p) => p.slug !== "reform-agenda")
+          .map((p) => (
+            <a
+              href={`/pillars/${p.slug}`}
+              class="border border-gray-200 rounded-lg p-5 hover:border-gray-300 transition-colors group"
+            >
+              <div class="flex items-center gap-2 mb-2">
+                <span
+                  class="inline-block w-3 h-3 rounded-full shrink-0"
+                  style={`background-color: ${p.color}`}
+                />
+                <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
+                  {p.title}
+                </span>
+              </div>
+              <p class="text-sm text-text-secondary mb-3">{p.description}</p>
+              <span class="text-xs font-heading text-text-secondary">
+                {p.articleCount > 0
+                  ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}`
+                  : "Coming soon"}
+                {p.slug === "government-structure" && " — Start here"}
+              </span>
+            </a>
+          ))
+      }
     </div>
   </section>
 
-  {pillarData.filter((p) => p.slug === "reform-agenda").map((p) => (
-    <section class="mt-10">
-      <h2 class="font-heading text-2xl font-bold text-text-primary mb-6">
-        Reform Agenda
-      </h2>
-      <a
-        href={`/pillars/${p.slug}`}
-        class="block border border-gray-200 rounded-lg p-5 hover:border-gray-300 transition-colors group"
-      >
-        <div class="flex items-center gap-2 mb-2">
-          <span
-            class="inline-block w-3 h-3 rounded-full shrink-0"
-            style={`background-color: ${p.color}`}
-          ></span>
-          <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
-            {p.title}
-          </span>
-        </div>
-        <p class="text-sm text-text-secondary mb-3">
-          {p.description}
-        </p>
-        <span class="text-xs font-heading text-text-secondary">
-          {p.articleCount > 0
-            ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}`
-            : "Coming soon"}
-        </span>
-      </a>
-    </section>
-  ))}
+  {
+    pillarData
+      .filter((p) => p.slug === "reform-agenda")
+      .map((p) => (
+        <section class="mt-10">
+          <h2 class="font-heading text-2xl font-bold text-text-primary mb-6">
+            Reform Agenda
+          </h2>
+          <a
+            href={`/pillars/${p.slug}`}
+            class="block border border-gray-200 rounded-lg p-5 hover:border-gray-300 transition-colors group"
+          >
+            <div class="flex items-center gap-2 mb-2">
+              <span
+                class="inline-block w-3 h-3 rounded-full shrink-0"
+                style={`background-color: ${p.color}`}
+              />
+              <span class="font-heading text-base font-bold text-text-primary group-hover:text-compass-green transition-colors">
+                {p.title}
+              </span>
+            </div>
+            <p class="text-sm text-text-secondary mb-3">{p.description}</p>
+            <span class="text-xs font-heading text-text-secondary">
+              {p.articleCount > 0
+                ? `${p.articleCount} article${p.articleCount === 1 ? "" : "s"}`
+                : "Coming soon"}
+            </span>
+          </a>
+        </section>
+      ))
+  }
 </PageLayout>

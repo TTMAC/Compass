@@ -4,15 +4,15 @@
 
 ---
 
-| Field | Detail |
-|-------|--------|
+| Field              | Detail                                                           |
+| ------------------ | ---------------------------------------------------------------- |
 | **Document Owner** | Tshepo Machele — Product, Engineering, Design, Business/GTM Lead |
-| **Version** | 0.1 |
-| **Created Date** | 2026-02-15 |
-| **Derived From** | MRD v0.1 — GovCompass Market Requirements Document |
-| **Status** | Draft |
-| **Target Launch** | Q3 2026 |
-| **Platform** | Web (Astro static site deployed on Netlify) |
+| **Version**        | 0.1                                                              |
+| **Created Date**   | 2026-02-15                                                       |
+| **Derived From**   | MRD v0.1 — GovCompass Market Requirements Document               |
+| **Status**         | Draft                                                            |
+| **Target Launch**  | Q3 2026                                                          |
+| **Platform**       | Web (Astro static site deployed on Netlify)                      |
 
 ---
 
@@ -61,16 +61,16 @@ The product embodies three principles derived from the MRD's differentiation str
 
 ### 1.4 Traceability to MRD
 
-| MRD Reference | PRD Requirement |
-|---------------|-----------------|
-| MRD §1.3 — Value Proposition (O'Reilly-style articles) | §6 — Article page spec with reading-optimised layout |
-| MRD §1.4 — Success Criteria (10K readers, 8-min ToP) | §2 — Goals & success criteria; §9 — Analytics |
+| MRD Reference                                               | PRD Requirement                                          |
+| ----------------------------------------------------------- | -------------------------------------------------------- |
+| MRD §1.3 — Value Proposition (O'Reilly-style articles)      | §6 — Article page spec with reading-optimised layout     |
+| MRD §1.4 — Success Criteria (10K readers, 8-min ToP)        | §2 — Goals & success criteria; §9 — Analytics            |
 | MRD §3.1 — Job Executor (smartphone, prepaid data, English) | §11 — Performance requirements; §7 — Mobile-first design |
-| MRD §4.2 — Outcome #1 (identify responsible sphere) | §6.3 — Article "practical framework" sections |
-| MRD §5.1 — Anxiety: "Is this pushing an agenda?" | §7 — Non-partisan visual language |
-| MRD §5.1 — Habit: effort cost of 4,500-word articles | §6.3 — Reading progress indicator; estimated read time |
-| MRD §8.1 — MVP Scope (4 articles, email, WhatsApp share) | §15 — Launch plan; §13 — Email system; §14 — Sharing |
-| MRD §8.3 — Target Customer for MVP (Gauteng professionals) | §10 — SEO strategy targeting Gauteng search queries |
+| MRD §4.2 — Outcome #1 (identify responsible sphere)         | §6.3 — Article "practical framework" sections            |
+| MRD §5.1 — Anxiety: "Is this pushing an agenda?"            | §7 — Non-partisan visual language                        |
+| MRD §5.1 — Habit: effort cost of 4,500-word articles        | §6.3 — Reading progress indicator; estimated read time   |
+| MRD §8.1 — MVP Scope (4 articles, email, WhatsApp share)    | §15 — Launch plan; §13 — Email system; §14 — Sharing     |
+| MRD §8.3 — Target Customer for MVP (Gauteng professionals)  | §10 — SEO strategy targeting Gauteng search queries      |
 
 ---
 
@@ -98,14 +98,14 @@ The MVP is launch-ready when all of the following are true:
 
 Derived from MRD §9.2:
 
-| Metric | Validation Target (Months 3–6) | Growth Target (Months 7–12) |
-|--------|---------------------------------|-----------------------------|
-| Unique monthly readers | 1,000 | 10,000 |
-| Average time on page (long-form articles) | 8 minutes | 8 minutes |
-| WhatsApp referral share of traffic | 30% | 30% |
-| Email subscribers | 500 | 2,000 |
-| Returning visitor rate | — | 40% |
-| North Star: readers with 2+ articles and 8+ min total | 100/month | 1,000/month |
+| Metric                                                | Validation Target (Months 3–6) | Growth Target (Months 7–12) |
+| ----------------------------------------------------- | ------------------------------ | --------------------------- |
+| Unique monthly readers                                | 1,000                          | 10,000                      |
+| Average time on page (long-form articles)             | 8 minutes                      | 8 minutes                   |
+| WhatsApp referral share of traffic                    | 30%                            | 30%                         |
+| Email subscribers                                     | 500                            | 2,000                       |
+| Returning visitor rate                                | —                              | 40%                         |
+| North Star: readers with 2+ articles and 8+ min total | 100/month                      | 1,000/month                 |
 
 ---
 
@@ -192,16 +192,16 @@ Both dimensions are displayed on the series overview page and in article metadat
 
 ### 5.1 Technology Stack
 
-| Layer | Technology | Rationale |
-|-------|------------|-----------|
-| **Static site generator** | Astro | Fast build times; excellent static output; content collections for structured article management; partial hydration means minimal client-side JS; Tshepo has existing familiarity |
-| **Hosting & CDN** | Netlify | Free tier covers expected traffic; automatic deploys from Git; built-in form handling (email capture); edge CDN for South African readers; Tshepo has existing familiarity |
-| **Content format** | Markdown (.md) with YAML frontmatter | Simple authoring workflow; version-controlled content; Astro content collections provide type-safe schema validation |
-| **Styling** | Tailwind CSS (via Astro integration) | Utility-first approach speeds development; purged CSS results in tiny bundles; easy to maintain consistent design system |
-| **Analytics** | Google Analytics 4 (GA4) with consent banner | Industry-standard analytics with comprehensive event model and attribution; cookie consent banner required (implemented as lightweight inline notice ≤ 3KB JS); tracks page views, time on page, referral sources, UTM parameters; consent mode v2 defaults `analytics_storage` to "denied" until reader grants consent; anonymised IP; 2-month data retention |
-| **Email** | Netlify Forms → Zapier/webhook → Email provider (Buttondown or Mailchimp free tier) | Netlify Forms handles capture with zero client-side JS; webhook triggers email provider for confirmation and future notifications; Buttondown is lightweight and free for under 100 subscribers, Mailchimp free up to 500 |
-| **Search** | Pagefind (Astro-compatible) | Static search index generated at build time; no server required; works offline; fast and lightweight |
-| **Version control** | Git (GitHub) | Standard; Netlify auto-deploys on push to main |
+| Layer                     | Technology                                                                          | Rationale                                                                                                                                                                                                                                                                                                                                                      |
+| ------------------------- | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Static site generator** | Astro                                                                               | Fast build times; excellent static output; content collections for structured article management; partial hydration means minimal client-side JS; Tshepo has existing familiarity                                                                                                                                                                              |
+| **Hosting & CDN**         | Netlify                                                                             | Free tier covers expected traffic; automatic deploys from Git; built-in form handling (email capture); edge CDN for South African readers; Tshepo has existing familiarity                                                                                                                                                                                     |
+| **Content format**        | Markdown (.md) with YAML frontmatter                                                | Simple authoring workflow; version-controlled content; Astro content collections provide type-safe schema validation                                                                                                                                                                                                                                           |
+| **Styling**               | Tailwind CSS (via Astro integration)                                                | Utility-first approach speeds development; purged CSS results in tiny bundles; easy to maintain consistent design system                                                                                                                                                                                                                                       |
+| **Analytics**             | Google Analytics 4 (GA4) with consent banner                                        | Industry-standard analytics with comprehensive event model and attribution; cookie consent banner required (implemented as lightweight inline notice ≤ 3KB JS); tracks page views, time on page, referral sources, UTM parameters; consent mode v2 defaults `analytics_storage` to "denied" until reader grants consent; anonymised IP; 2-month data retention |
+| **Email**                 | Netlify Forms → Zapier/webhook → Email provider (Buttondown or Mailchimp free tier) | Netlify Forms handles capture with zero client-side JS; webhook triggers email provider for confirmation and future notifications; Buttondown is lightweight and free for under 100 subscribers, Mailchimp free up to 500                                                                                                                                      |
+| **Search**                | Pagefind (Astro-compatible)                                                         | Static search index generated at build time; no server required; works offline; fast and lightweight                                                                                                                                                                                                                                                           |
+| **Version control**       | Git (GitHub)                                                                        | Standard; Netlify auto-deploys on push to main                                                                                                                                                                                                                                                                                                                 |
 
 ### 5.2 Repository Structure
 
@@ -265,24 +265,24 @@ govcompass-blog/
 
 ```typescript
 // src/content/config.ts
-import { defineCollection, z } from 'astro:content';
+import { defineCollection, z } from "astro:content";
 
 const articles = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string(),
     subtitle: z.string(),
     part: z.number().min(1).max(5),
-    articleNumber: z.string(),        // "1.1", "2.3", etc.
-    sphere: z.enum(['national', 'provincial', 'municipal', 'all']),
-    description: z.string(),          // SEO meta description (150-160 chars)
+    articleNumber: z.string(), // "1.1", "2.3", etc.
+    sphere: z.enum(["national", "provincial", "municipal", "all"]),
+    description: z.string(), // SEO meta description (150-160 chars)
     publishDate: z.date(),
     updatedDate: z.date().optional(),
-    readingTime: z.number(),          // Minutes
-    status: z.enum(['published', 'draft', 'coming-soon']),
+    readingTime: z.number(), // Minutes
+    status: z.enum(["published", "draft", "coming-soon"]),
     series: z.object({
-      prev: z.string().nullable(),    // Slug of previous article
-      next: z.string().nullable(),    // Slug of next article
+      prev: z.string().nullable(), // Slug of previous article
+      next: z.string().nullable(), // Slug of next article
     }),
     seo: z.object({
       ogImage: z.string().optional(),
@@ -380,6 +380,7 @@ This is the core product surface. It must be exceptional.
 **Layout specification:**
 
 **A. Above-the-fold (header region):**
+
 - Reading progress bar: thin coloured bar fixed to top of viewport, fills left-to-right as reader scrolls. Implemented with minimal vanilla JS (~20 lines, loaded via Astro `client:load` directive on a single island component).
 - Breadcrumb: Part X → Article X.X
 - Article title (H1): large, bold, serif or strong sans-serif.
@@ -388,6 +389,7 @@ This is the core product surface. It must be exceptional.
 - Share buttons: WhatsApp icon + Copy Link icon (inline).
 
 **B. Article body:**
+
 - Content column: maximum 680px width, centred, with generous left/right margins on desktop. On mobile, content fills screen width with 16–20px horizontal padding.
 - Typography: body text 18–20px on desktop, 17–18px on mobile. Line height 1.6–1.7. Serif or humanist sans-serif font optimised for long-form reading (candidates: Charter, Literata, Source Serif Pro, or Inter for sans-serif). Paragraph spacing of 1.5em.
 - Headings: H2 for major sections, H3 for subsections. Headings generate anchor IDs for deep linking and table of contents.
@@ -396,16 +398,19 @@ This is the core product surface. It must be exceptional.
 - No images required in body text for MVP. If images are added later, they must have alt text and lazy loading.
 
 **C. Table of contents (sidebar or inline):**
+
 - On desktop: optional sticky sidebar TOC showing H2 headings with active-section highlighting. Implemented via Astro component reading the markdown headings at build time. If sidebar clutters the reading experience, fallback to a collapsible inline TOC below the metadata line.
 - On mobile: collapsible inline TOC below metadata. Tap to expand, shows H2 links, tap a heading to scroll.
 
 **D. Article footer (below body):**
+
 - "Practical Framework" or "Toolkit" section: the article's concluding actionable section, visually distinguished (e.g., subtle background colour or boxed container) so that returning readers can find it quickly.
 - Previous / Next article navigation: large, clear links with article titles. "← Previous: [Title]" and "Next: [Title] →".
 - Email capture CTA: "Enjoying the series? Get notified when the next article drops." Email input + button.
 - WhatsApp share CTA: "Found this useful? Share it with your WhatsApp group." Button generates share with pre-filled message (see §14).
 
 **E. Reading experience enhancements:**
+
 - Estimated reading time displayed in header metadata. Calculated at build time based on word count divided by 200 wpm.
 - Reading progress bar (described above).
 - Minimal distractions: no sidebar ads, no pop-ups, no interstitials, no auto-playing media. The reading experience is sacred.
@@ -500,7 +505,7 @@ Scale:
   H3 (subsection):      22px / 1.375rem  (mobile: 18px / 1.125rem)
   Body:                 19px / 1.1875rem (mobile: 17px / 1.0625rem)
   Small (metadata):     14px / 0.875rem
-  
+
 Line height: 1.65 (body), 1.3 (headings)
 Max content width: 680px
 ```
@@ -571,17 +576,17 @@ Content is authored in Markdown files within the `src/content/articles/` directo
 
 ### 9.2 Tracked Events & Metrics
 
-| Metric | Implementation | Maps to MRD Hypothesis |
-|--------|---------------|----------------------|
-| **Page views** | Automatic (GA4 default, after consent) | H2 (readership) |
-| **Unique visitors** | Automatic (GA4 default, after consent) | MRD §1.4 (10K readers) |
-| **Time on page** | Automatic (GA4 engagement time) | MRD §1.4 (8-min target); H2 |
-| **Referral source** | Automatic + UTM parameters | H3 (WhatsApp distribution) |
-| **Scroll depth** | Custom event: fire at 25%, 50%, 75%, 100% scroll | H2 (article completion) |
-| **WhatsApp share clicks** | Custom event on WhatsApp button click | H3 |
-| **Copy link clicks** | Custom event on copy-link button click | H3 |
-| **Email form submissions** | Tracked via Netlify Forms + custom GA4 event | MRD §1.4 (2K subscribers) |
-| **Article-to-article navigation** | Custom event on prev/next click | Validates sequential reading |
+| Metric                                  | Implementation                                    | Maps to MRD Hypothesis            |
+| --------------------------------------- | ------------------------------------------------- | --------------------------------- |
+| **Page views**                          | Automatic (GA4 default, after consent)            | H2 (readership)                   |
+| **Unique visitors**                     | Automatic (GA4 default, after consent)            | MRD §1.4 (10K readers)            |
+| **Time on page**                        | Automatic (GA4 engagement time)                   | MRD §1.4 (8-min target); H2       |
+| **Referral source**                     | Automatic + UTM parameters                        | H3 (WhatsApp distribution)        |
+| **Scroll depth**                        | Custom event: fire at 25%, 50%, 75%, 100% scroll  | H2 (article completion)           |
+| **WhatsApp share clicks**               | Custom event on WhatsApp button click             | H3                                |
+| **Copy link clicks**                    | Custom event on copy-link button click            | H3                                |
+| **Email form submissions**              | Tracked via Netlify Forms + custom GA4 event      | MRD §1.4 (2K subscribers)         |
+| **Article-to-article navigation**       | Custom event on prev/next click                   | Validates sequential reading      |
 | **External link clicks (data sources)** | Custom event on outbound clicks to AGSA, NT, DPME | Validates US-5 and MRD Outcome #2 |
 
 ### 9.3 UTM Parameter Strategy
@@ -609,6 +614,7 @@ Social sharing links (LinkedIn, X) will use appropriate source tags. This enable
 Based on the MRD's identified search-driven user scenario and the target audience's likely search behaviour, the following keyword clusters are prioritised:
 
 **Cluster 1: Accountability & Responsibility (maps to Article 1.1)**
+
 - "who is responsible for water in South Africa"
 - "who is responsible for electricity in South Africa"
 - "who is responsible for roads in South Africa"
@@ -617,18 +623,21 @@ Based on the MRD's identified search-driven user scenario and the target audienc
 - "South Africa government structure explained"
 
 **Cluster 2: Fiscal System (maps to Article 1.2)**
+
 - "where do my taxes go South Africa"
 - "how is government funded in South Africa"
 - "division of revenue South Africa"
 - "municipal budget South Africa explained"
 
 **Cluster 3: Oversight & Accountability (maps to Article 1.3)**
+
 - "Auditor-General South Africa explained"
 - "what is a clean audit South Africa"
 - "Public Protector South Africa how to complain"
 - "how to hold government accountable South Africa"
 
 **Cluster 4: Government Performance (maps to Article 1.4)**
+
 - "how to check government performance South Africa"
 - "DPME reports South Africa"
 - "is my municipality performing South Africa"
@@ -670,16 +679,16 @@ Each article requires a custom Open Graph image (1200x630px) for WhatsApp and so
 
 The target reader is on a mid-range Android smartphone (Samsung Galaxy A15 or similar) on a 4G connection with prepaid data. Performance is both a UX requirement and a respect-for-the-reader requirement — every unnecessary byte costs them money.
 
-| Metric | Target | Hard Limit |
-|--------|--------|------------|
-| **First Contentful Paint (FCP)** | under 1.0s | under 1.5s |
-| **Largest Contentful Paint (LCP)** | under 1.5s | under 2.5s |
-| **Cumulative Layout Shift (CLS)** | under 0.05 | under 0.1 |
+| Metric                               | Target      | Hard Limit  |
+| ------------------------------------ | ----------- | ----------- |
+| **First Contentful Paint (FCP)**     | under 1.0s  | under 1.5s  |
+| **Largest Contentful Paint (LCP)**   | under 1.5s  | under 2.5s  |
+| **Cumulative Layout Shift (CLS)**    | under 0.05  | under 0.1   |
 | **Total page weight (article page)** | under 200KB | under 400KB |
-| **JavaScript payload** | under 20KB | under 50KB |
-| **CSS payload** | under 15KB | under 30KB |
-| **Font payload** | under 80KB | under 120KB |
-| **Lighthouse Performance score** | 95 or above | 90 or above |
+| **JavaScript payload**               | under 20KB  | under 50KB  |
+| **CSS payload**                      | under 15KB  | under 30KB  |
+| **Font payload**                     | under 80KB  | under 120KB |
+| **Lighthouse Performance score**     | 95 or above | 90 or above |
 
 ### 11.2 Performance Strategy
 
@@ -722,9 +731,9 @@ WCAG 2.1 Level AA compliance. The target audience includes readers with varying 
 ### 13.1 Architecture
 
 ```
-Reader enters email → Netlify Forms captures submission → 
+Reader enters email → Netlify Forms captures submission →
 Webhook fires to email service provider (Buttondown or Mailchimp) →
-ESP sends confirmation email → Reader confirms → 
+ESP sends confirmation email → Reader confirms →
 Reader is on the list → Manual or automated send for new articles
 ```
 
@@ -744,11 +753,11 @@ Reader is on the list → Manual or automated send for new articles
 
 ### 13.4 Email Provider Selection
 
-| Option | Free Tier | Pros | Cons |
-|--------|-----------|------|------|
-| **Buttondown** | Up to 100 subscribers | Simple, indie, markdown-native, lightweight | Paid plan needed above 100 subs |
-| **Mailchimp** | Up to 500 subscribers | Well-known, robust | Heavier, more complex than needed |
-| **Loops** | Up to 1,000 contacts | Modern, API-first | Newer, less proven |
+| Option         | Free Tier             | Pros                                        | Cons                              |
+| -------------- | --------------------- | ------------------------------------------- | --------------------------------- |
+| **Buttondown** | Up to 100 subscribers | Simple, indie, markdown-native, lightweight | Paid plan needed above 100 subs   |
+| **Mailchimp**  | Up to 500 subscribers | Well-known, robust                          | Heavier, more complex than needed |
+| **Loops**      | Up to 1,000 contacts  | Modern, API-first                           | Newer, less proven                |
 
 **Recommendation:** Start with Buttondown for simplicity and alignment with the project's indie ethos. Migrate to Mailchimp or Loops when subscriber count exceeds free tier limits.
 
@@ -765,6 +774,7 @@ WhatsApp is the primary distribution channel per MRD §5.2 and H3. The share imp
 WhatsApp share button uses the `https://api.whatsapp.com/send?text=` URL scheme:
 
 **Pre-filled message format:**
+
 ```
 📍 [Article Title]
 
@@ -776,6 +786,7 @@ Read it here: [Article URL with UTM parameters]
 ```
 
 Example:
+
 ```
 📍 The Architecture of the State — How SA's Constitution Divides Power
 
@@ -808,21 +819,21 @@ WhatsApp caches OG data aggressively. To force cache refresh after updates, appe
 
 ### 15.1 Phase 0: Build (Weeks 1–8)
 
-| Week | Deliverable |
-|------|-------------|
-| 1–2 | Astro project scaffold; Tailwind configuration; base layout components (Header, Footer, BaseLayout); Netlify deployment pipeline; domain procurement and DNS |
-| 3–4 | ArticleLayout component; ReadingProgress component; ShareButtons; EmailCapture; TableOfContents; Callout components; all page templates (Home, Series, About, Data Sources, Subscribe, Privacy) |
-| 5–6 | Design polish: typography tuning, colour implementation, responsive testing on Android devices (Chrome DevTools + real device if available), Lighthouse audit, accessibility testing |
-| 7 | Analytics integration (GA4 with consent banner); email pipeline setup (Netlify Forms → Buttondown); OG image generation script; sitemap and robots.txt |
-| 8 | Final QA: all links tested, forms tested, analytics verified, performance budget verified, mobile UX review |
+| Week | Deliverable                                                                                                                                                                                     |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1–2  | Astro project scaffold; Tailwind configuration; base layout components (Header, Footer, BaseLayout); Netlify deployment pipeline; domain procurement and DNS                                    |
+| 3–4  | ArticleLayout component; ReadingProgress component; ShareButtons; EmailCapture; TableOfContents; Callout components; all page templates (Home, Series, About, Data Sources, Subscribe, Privacy) |
+| 5–6  | Design polish: typography tuning, colour implementation, responsive testing on Android devices (Chrome DevTools + real device if available), Lighthouse audit, accessibility testing            |
+| 7    | Analytics integration (GA4 with consent banner); email pipeline setup (Netlify Forms → Buttondown); OG image generation script; sitemap and robots.txt                                          |
+| 8    | Final QA: all links tested, forms tested, analytics verified, performance budget verified, mobile UX review                                                                                     |
 
 ### 15.2 Phase 1: MVP Launch — Part 1 (Weeks 9–16)
 
-| Week | Deliverable |
-|------|-------------|
-| 9–10 | Article 1.1 drafted, reviewed, and published |
-| 11–12 | Article 1.2 drafted, reviewed, and published |
-| 13–14 | Article 1.3 drafted, reviewed, and published |
+| Week  | Deliverable                                                                                                                 |
+| ----- | --------------------------------------------------------------------------------------------------------------------------- |
+| 9–10  | Article 1.1 drafted, reviewed, and published                                                                                |
+| 11–12 | Article 1.2 drafted, reviewed, and published                                                                                |
+| 13–14 | Article 1.3 drafted, reviewed, and published                                                                                |
 | 15–16 | Article 1.4 drafted, reviewed, and published; announce the series via personal networks, LinkedIn, targeted WhatsApp groups |
 
 **Launch distribution plan:** Tshepo shares Article 1.1 to 5–10 Gauteng-based WhatsApp groups (professional, community, alumni). LinkedIn post announcing GovCompass. Targeted outreach to 10–15 politically engaged contacts for initial sharing. Goal: 100 readers in week one, validating the WhatsApp distribution hypothesis.
@@ -847,15 +858,15 @@ Formal assessment against MRD §9 success metrics. Go/no-go decision on expansio
 
 ## 16. Risks & Mitigations
 
-| Risk | Likelihood | Impact | Mitigation |
-|------|------------|--------|------------|
-| **H2 invalidated: target segment won't read 4,500+ word articles** | Medium | High (undermines core format) | Monitor time-on-page and scroll depth from Article 1.1 launch. If avg time-on-page is under 4 minutes and 75% scroll depth is under 30%, consider supplementary short-form formats (WhatsApp-native summaries, article "TL;DR" sections). Do not reduce article depth — add a shorter access layer on top. |
-| **H3 invalidated: WhatsApp is not a viable distribution channel** | Medium | High (undermines GTM) | Monitor referral sources from launch. If WhatsApp share is under 10% of traffic after 3 months, invest in SEO (long-term organic) and explore targeted LinkedIn distribution for the professional sub-segment. |
-| **Content accuracy challenge: governance information changes** | Medium | Medium | Publish dates visible on all articles. "Updated on [date]" shown when articles are revised. Establish a quarterly content review cadence for published articles. Corrections policy on /about page. |
-| **Solo-operator bottleneck: Tshepo is a single point of failure** | High | High | Manage scope ruthlessly — the 15-article series is the product, nothing more. Resist feature creep. Use Claude Code for development acceleration. Build in buffer time for each article (~3 weeks per article rather than 2). |
-| **Domain/hosting failure** | Low | Medium | Netlify provides high uptime on paid plans. Free tier is sufficient for MVP traffic. Git repository on GitHub serves as backup of all content. |
-| **Government data sources change URLs or become unavailable** | Medium | Low | Data Sources page is a single file — easy to update. Quarterly link-check script (Python) can automate broken link detection. Archive critical source documents locally where permitted. |
-| **Trust deficit: readers suspect partisan agenda** | Medium | High | /about page explicitly states editorial principles. Non-partisan tone is enforced in every article. No party is praised or criticised — only institutional performance data is presented. Cite sources from across the political spectrum. |
+| Risk                                                               | Likelihood | Impact                        | Mitigation                                                                                                                                                                                                                                                                                                 |
+| ------------------------------------------------------------------ | ---------- | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **H2 invalidated: target segment won't read 4,500+ word articles** | Medium     | High (undermines core format) | Monitor time-on-page and scroll depth from Article 1.1 launch. If avg time-on-page is under 4 minutes and 75% scroll depth is under 30%, consider supplementary short-form formats (WhatsApp-native summaries, article "TL;DR" sections). Do not reduce article depth — add a shorter access layer on top. |
+| **H3 invalidated: WhatsApp is not a viable distribution channel**  | Medium     | High (undermines GTM)         | Monitor referral sources from launch. If WhatsApp share is under 10% of traffic after 3 months, invest in SEO (long-term organic) and explore targeted LinkedIn distribution for the professional sub-segment.                                                                                             |
+| **Content accuracy challenge: governance information changes**     | Medium     | Medium                        | Publish dates visible on all articles. "Updated on [date]" shown when articles are revised. Establish a quarterly content review cadence for published articles. Corrections policy on /about page.                                                                                                        |
+| **Solo-operator bottleneck: Tshepo is a single point of failure**  | High       | High                          | Manage scope ruthlessly — the 15-article series is the product, nothing more. Resist feature creep. Use Claude Code for development acceleration. Build in buffer time for each article (~3 weeks per article rather than 2).                                                                              |
+| **Domain/hosting failure**                                         | Low        | Medium                        | Netlify provides high uptime on paid plans. Free tier is sufficient for MVP traffic. Git repository on GitHub serves as backup of all content.                                                                                                                                                             |
+| **Government data sources change URLs or become unavailable**      | Medium     | Low                           | Data Sources page is a single file — easy to update. Quarterly link-check script (Python) can automate broken link detection. Archive critical source documents locally where permitted.                                                                                                                   |
+| **Trust deficit: readers suspect partisan agenda**                 | Medium     | High                          | /about page explicitly states editorial principles. Non-partisan tone is enforced in every article. No party is praised or criticised — only institutional performance data is presented. Cite sources from across the political spectrum.                                                                 |
 
 ---
 
@@ -863,16 +874,16 @@ Formal assessment against MRD §9 success metrics. Go/no-go decision on expansio
 
 Directly inherited from MRD §10 and applied to product decisions:
 
-| Excluded | Product Implication |
-|----------|---------------------|
-| Monetisation | No ad slots, no paywall logic, no payment infrastructure |
-| Vernacular languages | Single-language (English) site; no i18n framework needed in v1 |
-| Video/podcast | No media player components, no video hosting, no RSS podcast feed |
-| Interactive data tools | No database, no API integrations, no dynamic dashboards. Static content only. |
-| User accounts / community features | No authentication, no comments system, no user profiles |
-| Current affairs coverage | No news feed, no blog chronological index beyond the series structure |
-| Mobile app | Responsive web only; no PWA service worker (unnecessary complexity for MVP) |
-| CMS admin interface | Content is managed via Git + Markdown. No web-based CMS (Decap CMS, Sanity, etc.) unless authoring friction proves too high post-launch. |
+| Excluded                           | Product Implication                                                                                                                      |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Monetisation                       | No ad slots, no paywall logic, no payment infrastructure                                                                                 |
+| Vernacular languages               | Single-language (English) site; no i18n framework needed in v1                                                                           |
+| Video/podcast                      | No media player components, no video hosting, no RSS podcast feed                                                                        |
+| Interactive data tools             | No database, no API integrations, no dynamic dashboards. Static content only.                                                            |
+| User accounts / community features | No authentication, no comments system, no user profiles                                                                                  |
+| Current affairs coverage           | No news feed, no blog chronological index beyond the series structure                                                                    |
+| Mobile app                         | Responsive web only; no PWA service worker (unnecessary complexity for MVP)                                                              |
+| CMS admin interface                | Content is managed via Git + Markdown. No web-based CMS (Decap CMS, Sanity, etc.) unless authoring friction proves too high post-launch. |
 
 ---
 
@@ -909,29 +920,31 @@ seo:
 
 ```javascript
 // Reading progress milestones (scroll depth)
-gtag('event', 'scroll_depth', { depth_percentage: '25', article_slug: slug });
-gtag('event', 'scroll_depth', { depth_percentage: '50', article_slug: slug });
-gtag('event', 'scroll_depth', { depth_percentage: '75', article_slug: slug });
-gtag('event', 'scroll_depth', { depth_percentage: '100', article_slug: slug });
+gtag("event", "scroll_depth", { depth_percentage: "25", article_slug: slug });
+gtag("event", "scroll_depth", { depth_percentage: "50", article_slug: slug });
+gtag("event", "scroll_depth", { depth_percentage: "75", article_slug: slug });
+gtag("event", "scroll_depth", { depth_percentage: "100", article_slug: slug });
 
 // Share actions
-gtag('event', 'share_whatsapp', { article_slug: slug });
-gtag('event', 'share_copy_link', { article_slug: slug });
+gtag("event", "share_whatsapp", { article_slug: slug });
+gtag("event", "share_copy_link", { article_slug: slug });
 
 // Email subscription
-gtag('event', 'email_subscribe', { form_location: 'inline' | 'footer' | 'header' });
+gtag("event", "email_subscribe", {
+  form_location: "inline" | "footer" | "header",
+});
 
 // Outbound data source clicks
-gtag('event', 'outbound_click', {
-  destination: 'agsa' | 'treasury' | 'dpme' | 'statssa',
-  article_slug: slug
+gtag("event", "outbound_click", {
+  destination: "agsa" | "treasury" | "dpme" | "statssa",
+  article_slug: slug,
 });
 
 // Article navigation
-gtag('event', 'article_nav', {
-  direction: 'next' | 'prev',
+gtag("event", "article_nav", {
+  direction: "next" | "prev",
   from_slug: slug,
-  to_slug: targetSlug
+  to_slug: targetSlug,
 });
 ```
 
@@ -957,36 +970,36 @@ Trigger: Manually before deploy, or integrated into build command
 
 ### Appendix D: Content Publication Schedule
 
-| Article | Title | Target Publish Date | Phase |
-|---------|-------|---------------------|-------|
-| 1.1 | The Architecture of the State | Week 10 (~Aug 2026) | MVP |
-| 1.2 | Following the Money | Week 12 | MVP |
-| 1.3 | Who Watches the Watchers | Week 14 | MVP |
-| 1.4 | Measuring What Matters | Week 16 | MVP |
-| 2.1 | Inside the Machine | Week 18 | Phase 2 |
-| 2.2 | The Report Card | Week 20 | Phase 2 |
-| 2.3 | When National Policy Hits Reality | Week 22 | Phase 2 |
-| 4.1 | Where the Rubber Meets the Road | Week 26 | Phase 3 |
-| 4.2 | The Municipal Crisis | Week 28 | Phase 3 |
-| 3.1 | The Awkward Middle Child | Week 30 | Phase 3 |
-| 4.3 | Section 139 and Beyond | Week 32 | Phase 3 |
-| 3.2 | Health and Education at the Provincial Coal Face | Week 34 | Phase 3 |
-| 4.4 | Metropolitan vs Rural | Week 36 | Phase 3 |
-| 3.3 | When Provinces Fail | Week 38 | Phase 3 |
-| 5.1 | The Citizen's Toolkit | Week 42 | Phase 4 |
+| Article | Title                                            | Target Publish Date | Phase   |
+| ------- | ------------------------------------------------ | ------------------- | ------- |
+| 1.1     | The Architecture of the State                    | Week 10 (~Aug 2026) | MVP     |
+| 1.2     | Following the Money                              | Week 12             | MVP     |
+| 1.3     | Who Watches the Watchers                         | Week 14             | MVP     |
+| 1.4     | Measuring What Matters                           | Week 16             | MVP     |
+| 2.1     | Inside the Machine                               | Week 18             | Phase 2 |
+| 2.2     | The Report Card                                  | Week 20             | Phase 2 |
+| 2.3     | When National Policy Hits Reality                | Week 22             | Phase 2 |
+| 4.1     | Where the Rubber Meets the Road                  | Week 26             | Phase 3 |
+| 4.2     | The Municipal Crisis                             | Week 28             | Phase 3 |
+| 3.1     | The Awkward Middle Child                         | Week 30             | Phase 3 |
+| 4.3     | Section 139 and Beyond                           | Week 32             | Phase 3 |
+| 3.2     | Health and Education at the Provincial Coal Face | Week 34             | Phase 3 |
+| 4.4     | Metropolitan vs Rural                            | Week 36             | Phase 3 |
+| 3.3     | When Provinces Fail                              | Week 38             | Phase 3 |
+| 5.1     | The Citizen's Toolkit                            | Week 42             | Phase 4 |
 
 Note: Municipal articles (Part 4) are scheduled before some Provincial articles (Part 3) to align with 2026 local government election relevance, per MRD §9.3.
 
 ### Appendix E: Stakeholder Sign-Off
 
-| Role | Name | Sign-Off | Date |
-|------|------|----------|------|
-| Product Lead | Tshepo Machele | ☐ Approved | |
-| Engineering Lead | Tshepo Machele | ☐ Approved | |
-| Design Lead | Tshepo Machele | ☐ Approved | |
+| Role             | Name           | Sign-Off   | Date |
+| ---------------- | -------------- | ---------- | ---- |
+| Product Lead     | Tshepo Machele | ☐ Approved |      |
+| Engineering Lead | Tshepo Machele | ☐ Approved |      |
+| Design Lead      | Tshepo Machele | ☐ Approved |      |
 
 ### Appendix F: Document History
 
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 0.1 | 2026-02-15 | Tshepo Machele | Initial draft, derived from MRD v0.1 |
+| Version | Date       | Author         | Changes                              |
+| ------- | ---------- | -------------- | ------------------------------------ |
+| 0.1     | 2026-02-15 | Tshepo Machele | Initial draft, derived from MRD v0.1 |

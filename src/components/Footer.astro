@@ -4,7 +4,10 @@ import { pillars } from "@content/pillars";
 const currentYear = new Date().getFullYear();
 ---
 
-<footer class="bg-bg-secondary border-t border-gray-100 mt-auto" role="contentinfo">
+<footer
+  class="bg-bg-secondary border-t border-gray-100 mt-auto"
+  role="contentinfo"
+>
   <div class="max-w-4xl mx-auto px-4 py-12">
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
       <!-- Brand -->
@@ -13,7 +16,8 @@ const currentYear = new Date().getFullYear();
           GovCompass
         </p>
         <p class="text-sm text-text-secondary">
-          Making South Africa's government and governance systems legible to ordinary citizens.
+          Making South Africa's government and governance systems legible to
+          ordinary citizens.
         </p>
       </div>
 
@@ -31,16 +35,18 @@ const currentYear = new Date().getFullYear();
               The Big Picture
             </a>
           </li>
-          {pillars.map((p) => (
-            <li>
-              <a
-                href={`/pillars/${p.slug}`}
-                class="text-sm text-text-secondary hover:text-compass-green transition-colors"
-              >
-                {p.title}
-              </a>
-            </li>
-          ))}
+          {
+            pillars.map((p) => (
+              <li>
+                <a
+                  href={`/pillars/${p.slug}`}
+                  class="text-sm text-text-secondary hover:text-compass-green transition-colors"
+                >
+                  {p.title}
+                </a>
+              </li>
+            ))
+          }
         </ul>
       </div>
 
@@ -124,7 +130,8 @@ const currentYear = new Date().getFullYear();
 
     <div class="mt-8 pt-6 border-t border-gray-200 text-center">
       <p class="text-xs text-text-secondary">
-        &copy; {currentYear} GovCompass. Essential political education you should know on how your government works for you.
+        &copy; {currentYear} GovCompass. Essential political education you should
+        know on how your government works for you.
       </p>
     </div>
   </div>
