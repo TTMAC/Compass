@@ -226,11 +226,10 @@ const grouped = workstreams.map((ws) => {
     <p class="text-xs text-text-secondary mt-3 italic">
       Stage year ranges draw on the Economic Growth series (<a
         href="/articles/eg-5-2-from-strategy-to-reality"
-        class="text-compass-green hover:underline">From Strategy to Reality</a
+        class="text-compass-green underline">From Strategy to Reality</a
       >) and the Reform Agenda's cycle management architecture (<a
         href="/articles/ra-5-3-the-integrated-reform-programme"
-        class="text-compass-green hover:underline"
-        >The Integrated Reform Programme</a
+        class="text-compass-green underline">The Integrated Reform Programme</a
       >).
     </p>
   </section>
@@ -431,7 +430,7 @@ const grouped = workstreams.map((ws) => {
             data-filter="all"
             aria-pressed="true"
           >
-            All <span class="opacity-70 font-normal">({reformCount})</span>
+            All <span class="font-normal">({reformCount})</span>
           </button>
           {
             grouped.map((ws) => (
@@ -445,7 +444,7 @@ const grouped = workstreams.map((ws) => {
                 aria-pressed="false"
               >
                 {ws.shortTitle}{" "}
-                <span class="opacity-70 font-normal">({ws.reformCount})</span>
+                <span class="font-normal">({ws.reformCount})</span>
               </button>
             ))
           }
@@ -518,17 +517,11 @@ const grouped = workstreams.map((ws) => {
               </p>
               <div class="flex flex-wrap gap-1.5">
                 {ws.phases.map((phase) => {
-                  const phaseOpacity =
-                    phase.id === "phase-1"
-                      ? 0.7
-                      : phase.id === "phase-2"
-                        ? 0.85
-                        : 1;
                   return (
                     <button
                       type="button"
                       class="reform-phase-btn text-left px-2.5 py-1 rounded text-[11px] font-heading font-semibold text-white cursor-pointer transition hover:brightness-110 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 focus-visible:ring-gray-500"
-                      style={`background-color: ${ws.color}; opacity: ${phaseOpacity}`}
+                      style={`background-color: ${ws.color}`}
                       data-workstream={ws.id}
                       data-phase={phase.id}
                       aria-label={`Filter reforms to ${phase.label}, ${phase.years}, ${ws.shortTitle}`}
@@ -561,17 +554,11 @@ const grouped = workstreams.map((ws) => {
                 <div class="flex-1 flex h-8 rounded overflow-hidden gap-px">
                   {ws.phases.map((phase) => {
                     const widthPct = PHASE_WIDTH_PCT[phase.id] ?? 33;
-                    const phaseOpacity =
-                      phase.id === "phase-1"
-                        ? 0.7
-                        : phase.id === "phase-2"
-                          ? 0.85
-                          : 1;
                     return (
                       <button
                         type="button"
                         class="reform-phase-btn relative flex items-center justify-center text-white font-heading text-[11px] font-semibold px-2 cursor-pointer transition hover:brightness-110 hover:ring-2 hover:ring-offset-1 hover:ring-gray-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-1 focus-visible:ring-gray-500 whitespace-nowrap overflow-hidden"
-                        style={`flex-basis: ${widthPct}%; background-color: ${ws.color}; opacity: ${phaseOpacity}`}
+                        style={`flex-basis: ${widthPct}%; background-color: ${ws.color}`}
                         data-workstream={ws.id}
                         data-phase={phase.id}
                         title={`Click to filter to ${phase.label} (${phase.years})`}
@@ -1408,7 +1395,7 @@ const grouped = workstreams.map((ws) => {
       experiences. For detailed analysis supporting each recommendation, explore
       the individual articles in the <a
         href="/big-picture"
-        class="text-compass-green hover:underline">GovCompass series</a
+        class="text-compass-green underline">GovCompass series</a
       >.
     </p>
   </footer>
