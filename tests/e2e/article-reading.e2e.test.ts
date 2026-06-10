@@ -10,10 +10,15 @@ test.describe("Article reading journey", () => {
       .locator('a[href*="/articles/1-1-architecture-of-the-state"]')
       .first();
     await expect(ctaLink).toBeVisible();
-    await ctaLink.click();
+    // Activate via keyboard for reliability — pointer clicks can be intercepted
+    // by overlapping homepage elements before the page is fully interactive.
+    await ctaLink.focus();
+    await Promise.all([
+      page.waitForURL(/articles\/1-1-architecture-of-the-state/),
+      page.keyboard.press("Enter"),
+    ]);
 
     // Verify article page loaded
-    await expect(page).toHaveURL(/articles\/1-1-architecture-of-the-state/);
     await expect(page.locator("h1")).toContainText(
       "The Architecture of the State",
     );
@@ -82,11 +87,15 @@ test.describe("Article reading journey", () => {
 
   test("should have proper heading hierarchy", async ({ page }) => {
     await page.goto("/articles/1-1-architecture-of-the-state/");
+    await page.waitForLoadState("networkidle");
 
     const h1 = page.locator("h1");
     await expect(h1).toHaveCount(1);
 
+    // Wait for the article body (section headings) to be rendered before the
+    // one-shot count, so a slow load can't read zero.
     const h2s = page.locator("article h2");
+    await expect(h2s.first()).toBeVisible({ timeout: 10000 });
     expect(await h2s.count()).toBeGreaterThan(0);
   });
 
@@ -112,11 +121,13 @@ test.describe("Article reading journey", () => {
       .evaluate((d) => d.setAttribute("open", ""));
     const pillarLink = menu.locator('a[href^="/pillars/"]').first();
     await expect(pillarLink).toBeVisible();
-    // Activate the anchor via its DOM click() — Playwright's pointer click
-    // scrolls the link under the sticky header (z-40), which then intercepts
-    // the event. el.click() navigates directly without hit-testing.
-    await pillarLink.evaluate((el) => el.click());
-
-    await expect(page).toHaveURL(/\/pillars\//);
+    // Activate via keyboard: a pointer click scrolls the link under the sticky
+    // header (z-40), which intercepts it, and el.click() proved flaky.
+    // Focusing the link and pressing Enter navigates deterministically.
+    await pillarLink.focus();
+    await Promise.all([
+      page.waitForURL(/\/pillars\//),
+      page.keyboard.press("Enter"),
+    ]);
   });
 });
