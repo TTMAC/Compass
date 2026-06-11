@@ -18,8 +18,10 @@ test.describe("Article reading journey", () => {
       page.keyboard.press("Enter"),
     ]);
 
-    // Verify article page loaded
-    await expect(page.locator("h1")).toContainText(
+    // Verify article page loaded. Scope to the article element: a stray
+    // dev-server toolbar or injected widget can add its own <h1>s, which would
+    // otherwise trip strict-mode on a bare h1 locator.
+    await expect(page.locator("article h1")).toContainText(
       "The Architecture of the State",
     );
   });
