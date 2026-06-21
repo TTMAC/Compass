@@ -1,0 +1,116 @@
+---
+import PageLayout from "@layouts/PageLayout.astro";
+---
+
+<PageLayout
+  title="Accessibility Statement"
+  description="GovCompass accessibility statement. Our commitment to WCAG 2.1 AA and making political education usable for everyone."
+>
+  <h1 class="font-heading text-3xl font-bold text-text-primary mb-6">
+    Accessibility Statement
+  </h1>
+
+  <div class="space-y-6 text-text-secondary leading-relaxed">
+    <p>
+      <strong class="text-text-primary">Last updated:</strong> June 2026
+    </p>
+
+    <p>
+      GovCompass exists to make South Africa's government legible to everyone, so
+      the site itself needs to be usable by everyone. We are committed to meeting
+      the <strong class="text-text-primary"
+        >Web Content Accessibility Guidelines (WCAG) 2.1, Level AA</strong
+      >, and we treat accessibility as a requirement, not an afterthought.
+    </p>
+
+    <h2 class="font-heading text-xl font-bold text-text-primary pt-4">
+      What we do
+    </h2>
+
+    <p>
+      We have built the following into the site to support people using
+      assistive technology, keyboards, and a range of devices and connections:
+    </p>
+
+    <ul class="list-disc pl-6 space-y-2">
+      <li>
+        <strong class="text-text-primary">Keyboard navigation:</strong> All
+        interactive elements can be reached and used with a keyboard, with a
+        visible focus indicator and a "skip to content" link at the top of every
+        page.
+      </li>
+      <li>
+        <strong class="text-text-primary">Semantic structure:</strong> Pages use
+        proper landmarks (header, navigation, main, footer) and a logical
+        heading order, so screen readers can announce and navigate content
+        correctly.
+      </li>
+      <li>
+        <strong class="text-text-primary">Language and labels:</strong> The site
+        declares South African English (<code>lang="en-ZA"</code>), and
+        interactive controls carry descriptive labels and ARIA attributes where
+        needed.
+      </li>
+      <li>
+        <strong class="text-text-primary">Colour and contrast:</strong> Text and
+        interface colours are chosen to meet AA contrast ratios, and the site is
+        readable without relying on colour alone.
+      </li>
+      <li>
+        <strong class="text-text-primary">Readable, responsive layout:</strong>
+        Content reflows cleanly down to small mobile screens, supports browser
+        zoom and larger text, and is optimised to load quickly on slower
+        connections.
+      </li>
+      <li>
+        <strong class="text-text-primary">Descriptive links and images:</strong>
+        Links describe where they lead, and meaningful images include
+        alternative text.
+      </li>
+    </ul>
+
+    <h2 class="font-heading text-xl font-bold text-text-primary pt-4">
+      How we check
+    </h2>
+
+    <p>
+      Accessibility is tested as part of our build process. Every change runs
+      through automated accessibility and quality checks (including Lighthouse
+      accessibility audits, which must score at least 95%) and structural tests
+      that verify landmarks, headings, language, and skip-link behaviour before
+      anything is published.
+    </p>
+
+    <h2 class="font-heading text-xl font-bold text-text-primary pt-4">
+      Known limitations
+    </h2>
+
+    <p>
+      We aim for full WCAG 2.1 AA conformance, but accessibility is ongoing work.
+      Automated testing cannot catch everything, and some older content or
+      embedded material may not yet fully meet our target. Where we identify
+      gaps, we prioritise fixing them.
+    </p>
+
+    <h2 class="font-heading text-xl font-bold text-text-primary pt-4">
+      Tell us if something doesn't work
+    </h2>
+
+    <p>
+      If you encounter a barrier using GovCompass — a page you cannot read with a
+      screen reader, a control you cannot reach with a keyboard, or anything else
+      that gets in your way — please tell us. Your feedback directly helps us
+      improve.
+    </p>
+
+    <p>
+      Reach us via our
+      <a
+        href="/contact"
+        class="text-compass-green underline hover:text-compass-green-dark transition-colors"
+        >contact form</a
+      >. Please describe the problem, the page it happened on, and the device or
+      assistive technology you were using, so we can reproduce and fix it.
+    </p>
+  </div>
+</PageLayout>
