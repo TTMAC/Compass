@@ -25,7 +25,8 @@
     "ra:prompt": "node scripts/generate-ra-articles.mjs prompt",
     "build:analyze": "ANALYZE=true npm run build && node scripts/check-page-weight.mjs",
     "budget": "node scripts/check-page-weight.mjs",
-    "budget:strict": "node scripts/check-page-weight.mjs --strict"
+    "budget:strict": "node scripts/check-page-weight.mjs --strict",
+    "test:resend": "node scripts/test-resend.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.3.0",
