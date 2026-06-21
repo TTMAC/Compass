@@ -2,6 +2,10 @@
   command = "npm run build"
   publish = "dist"
 
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
 # Production (main branch)
 [context.production.environment]
   SITE_URL = "https://govcompass.co.za"
