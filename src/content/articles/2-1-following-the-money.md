@@ -10,7 +10,7 @@ publishDate: 2026-10-01
 readingTime: 37
 status: "published"
 series:
-  prev: "1-3-how-the-spheres-interact"
+  prev: "1-4-measuring-what-matters"
   next: "2-2-the-budget-process"
 seo:
   ogImage: "/og/2-1-following-the-money.png"

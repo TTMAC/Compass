@@ -144,6 +144,30 @@ const ARTICLE_CONFIG = {
       },
     ],
   },
+  "1-4-measuring-what-matters": {
+    queries: [
+      "business charts graphs analytics",
+      "report documents review desk",
+      "dartboard target darts bullseye",
+    ],
+    placements: [
+      {
+        afterH2: "The Results Chain: The Most Useful Idea in This Whole Series",
+        caption:
+          "The results chain runs from the inputs government controls to the impact citizens experience",
+      },
+      {
+        afterH2: "How South Africa Is Supposed to Measure Itself",
+        caption:
+          "Annual Performance Plans and quarterly reports turn government promises into documents you can check",
+      },
+      {
+        afterH2: "How Measurement Goes Wrong",
+        caption:
+          "When a number becomes a target, the incentive shifts from improving reality to improving the number",
+      },
+    ],
+  },
   "2-1-following-the-money": {
     queries: [
       "tax revenue finance treasury",

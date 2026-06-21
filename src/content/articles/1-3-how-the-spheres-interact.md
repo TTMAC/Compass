@@ -11,7 +11,7 @@ readingTime: 34
 status: "published"
 series:
   prev: "1-2-who-does-what"
-  next: "2-1-following-the-money"
+  next: "1-4-measuring-what-matters"
 seo:
   ogImage: "/og/1-3-how-the-spheres-interact.png"
   keywords:
