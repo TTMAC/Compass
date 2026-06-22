@@ -1,9 +1,12 @@
 ---
+import { articleHref } from "@utils/article-url";
+
 interface ArticleLink {
   id: string;
   title: string;
   articleNumber: string;
   status: string;
+  pillar?: string;
 }
 
 interface Props {
@@ -27,7 +30,7 @@ const isLinkable = (status: string) =>
         {prev ? (
           isLinkable(prev.status) ? (
             <a
-              href={`/articles/${prev.id}`}
+              href={articleHref(prev.id, prev.pillar)}
               class="group flex-1 p-4 border border-gray-200 rounded-lg hover:border-compass-green transition-colors"
               data-article-nav="prev"
               data-target-slug={prev.id}
@@ -59,7 +62,7 @@ const isLinkable = (status: string) =>
         {next ? (
           isLinkable(next.status) ? (
             <a
-              href={`/articles/${next.id}`}
+              href={articleHref(next.id, next.pillar)}
               class="group flex-1 p-4 border border-gray-200 rounded-lg hover:border-compass-green transition-colors text-right"
               data-article-nav="next"
               data-target-slug={next.id}
@@ -95,7 +98,7 @@ const isLinkable = (status: string) =>
         const direction = link.getAttribute("data-article-nav");
         const targetSlug = link.getAttribute("data-target-slug");
         const currentSlug = window.location.pathname
-          .replace(/^\/articles\//, "")
+          .replace(/^\/(reform\/)?articles\//, "")
           .replace(/\/$/, "");
         (window as any).gtag("event", "article_navigate", {
           from: currentSlug,

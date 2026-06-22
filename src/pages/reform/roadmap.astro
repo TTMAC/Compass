@@ -1,5 +1,9 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
+import ReformBar from "@components/identity/ReformBar.astro";
+
+// Gated members-only page: rendered on-demand so the auth middleware runs.
+export const prerender = false;
 import JumpToSection from "@components/JumpToSection.astro";
 import {
   workstreams,
@@ -94,6 +98,7 @@ const grouped = workstreams.map((ws) => {
   title="Reform Roadmap"
   description="An interactive explorer of South Africa's sequenced reform programme — 80+ concrete reforms across safety, governance, economy, and human development. Stage 1 of a 25-year reform cycle."
 >
+  <ReformBar />
   <!-- Hero -->
   <header class="mb-8">
     <h1
@@ -131,7 +136,7 @@ const grouped = workstreams.map((ws) => {
       <strong class="text-text-primary">structural principles</strong> for institutional
       design.
       <a
-        href="/diagnostic-frameworks"
+        href="/reform/diagnostic-frameworks"
         class="text-compass-green font-semibold hover:underline"
         >Read the full diagnostic toolkit →</a
       >
@@ -228,7 +233,7 @@ const grouped = workstreams.map((ws) => {
         href="/articles/eg-5-2-from-strategy-to-reality"
         class="text-compass-green underline">From Strategy to Reality</a
       >) and the Reform Agenda's cycle management architecture (<a
-        href="/articles/ra-5-3-the-integrated-reform-programme"
+        href="/reform/articles/ra-5-3-the-integrated-reform-programme"
         class="text-compass-green underline">The Integrated Reform Programme</a
       >).
     </p>
@@ -350,7 +355,7 @@ const grouped = workstreams.map((ws) => {
           systemic change.
         </p>
         <a
-          href="/reform-scorecard"
+          href="/reform/scorecard"
           class="inline-flex items-center gap-1 text-sm font-heading font-semibold text-compass-green hover:text-compass-green-dark hover:underline"
         >
           View the Reinforcing Cycle Scorecard
@@ -372,7 +377,7 @@ const grouped = workstreams.map((ws) => {
       <p class="mt-4 text-xs text-text-secondary">
         Full analysis:
         <a
-          href="/articles/ra-5-3-the-integrated-reform-programme"
+          href="/reform/articles/ra-5-3-the-integrated-reform-programme"
           class="text-compass-green hover:underline font-semibold"
         >
           The Integrated Reform Programme
@@ -1260,7 +1265,7 @@ const grouped = workstreams.map((ws) => {
         established by the Governance Reform Programme Act. The measurement instrument
         is the
         <a
-          href="/reform-scorecard"
+          href="/reform/scorecard"
           class="text-compass-green hover:underline font-semibold"
           >Reinforcing Cycle Scorecard</a
         >.
@@ -1355,7 +1360,7 @@ const grouped = workstreams.map((ws) => {
     </h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       <a
-        href="/diagnostic-frameworks"
+        href="/reform/diagnostic-frameworks"
         class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
       >
         <p
@@ -1370,7 +1375,7 @@ const grouped = workstreams.map((ws) => {
         </p>
       </a>
       <a
-        href="/reform-scorecard"
+        href="/reform/scorecard"
         class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
       >
         <p

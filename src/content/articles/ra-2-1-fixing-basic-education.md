@@ -151,7 +151,7 @@ Education governance scores a 1 on enforcement — critical failure. The system 
 
 ## The Root Cause
 
-The RAARICLE™ diagnosis reveals education's primary failure pattern: **cross-sphere misalignment**. The pattern identified in [Why South Africa's Institutions Keep Failing](/articles/ra-1-2-why-institutions-fail) as Pattern 2 — the wrong entity holds the wrong element — is the dominant structural flaw in basic education governance.
+The RAARICLE™ diagnosis reveals education's primary failure pattern: **cross-sphere misalignment**. The pattern identified in [Why South Africa's Institutions Keep Failing](/reform/articles/ra-1-2-why-institutions-fail) as Pattern 2 — the wrong entity holds the wrong element — is the dominant structural flaw in basic education governance.
 
 ![The root cause is structural: accountability sits with provinces while the authority to act sits in national policy | Photo by Andy Feliciotti on Unsplash](/images/articles/ra-2-1-fixing-basic-education/img-2.webp)
 
@@ -161,7 +161,7 @@ Delivery sits at the provincial level. Provincial departments employ the teacher
 
 Accountability is split. The provincial MEC is politically accountable for matric results and educational outcomes. But the national Minister of Basic Education is accountable for curriculum, policy, and the employment framework. **Neither entity bears full accountability because neither entity controls the full system.**
 
-This misalignment produces the _accountability theatre_ described in [The Eight Tests](/articles/ra-1-1-eight-tests) — a system where accountability is assigned but not genuine, because the entity that is accountable lacks the authority to deliver. The provincial MEC can be blamed for poor results, but the MEC cannot fix the underlying causes because the levers of control sit at the national level.
+This misalignment produces the _accountability theatre_ described in [The Eight Tests](/reform/articles/ra-1-1-eight-tests) — a system where accountability is assigned but not genuine, because the entity that is accountable lacks the authority to deliver. The provincial MEC can be blamed for poor results, but the MEC cannot fix the underlying causes because the levers of control sit at the national level.
 
 The misalignment is compounded by fragmentation (too many entities in the value chain), absence (no automatic enforcement), and, in some provinces, capture (political deployment of unqualified district directors and school principals). But the primary pattern — the one that, if fixed, would create the conditions for addressing the others — is misalignment. Co-locating authority with accountability is the structural reform that education requires.
 
@@ -217,7 +217,7 @@ Research conducted by the Organisation for Economic Co-operation and Development
 
 ### Anti-Capture Protections
 
-The structured autonomy model must address all five capture vectors identified in [Why South Africa's Institutions Keep Failing](/articles/ra-1-2-why-institutions-fail).
+The structured autonomy model must address all five capture vectors identified in [Why South Africa's Institutions Keep Failing](/reform/articles/ra-1-2-why-institutions-fail).
 
 Political capture is addressed through merit-based appointment requirements for all education leadership positions — provincial heads of department, district directors, and school principals. Appointments must follow a prescribed process with independent selection panel participation, and minimum professional qualifications must be specified in legislation rather than policy (making them harder to waive).
 

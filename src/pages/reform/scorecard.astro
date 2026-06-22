@@ -1,5 +1,9 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
+import ReformBar from "@components/identity/ReformBar.astro";
+
+// Gated members-only page: rendered on-demand so the auth middleware runs.
+export const prerender = false;
 import JumpToSection from "@components/JumpToSection.astro";
 import {
   reinforcingCycleScorecard,
@@ -66,6 +70,7 @@ const splitThreshold = (
   description="Is the virtuous cycle turning? The 15 indicators across safety, growth, and development that tell you whether South Africa's reform programme is producing systemic change."
   width="wide"
 >
+  <ReformBar />
   <header class="mb-8">
     <p
       class="font-heading text-sm font-semibold text-compass-green uppercase tracking-wide mb-2"
@@ -206,7 +211,7 @@ const splitThreshold = (
       onwards as part of the Reform Coordination Office's expanded
       cycle-management mandate (Phase 4 of the
       <a
-        href="/articles/ra-5-3-the-integrated-reform-programme"
+        href="/reform/articles/ra-5-3-the-integrated-reform-programme"
         class="text-compass-green hover:underline font-semibold"
         >Integrated Reform Programme</a
       >).
@@ -352,7 +357,7 @@ const splitThreshold = (
     <!-- Primary paths (2 cards) -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
       <a
-        href="/real-steps-to-reform"
+        href="/reform/roadmap"
         class="border-2 border-compass-green/30 bg-compass-green-light/40 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
       >
         <p
@@ -371,7 +376,7 @@ const splitThreshold = (
         </p>
       </a>
       <a
-        href="/articles/ra-5-3-the-integrated-reform-programme"
+        href="/reform/articles/ra-5-3-the-integrated-reform-programme"
         class="border-2 border-compass-green/30 bg-compass-green-light/40 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
       >
         <p
@@ -400,7 +405,7 @@ const splitThreshold = (
     </p>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
       <a
-        href="/articles/ra-5-2-anti-capture-architecture"
+        href="/reform/articles/ra-5-2-anti-capture-architecture"
         class="border border-gray-200 rounded-lg p-4 hover:border-compass-green hover:shadow-sm transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
       >
         <p
@@ -442,7 +447,7 @@ const splitThreshold = (
         </p>
       </a>
       <a
-        href="/advocacy-playbooks"
+        href="/reform/advocacy-playbooks"
         class="border border-gray-200 rounded-lg p-4 hover:border-compass-green hover:shadow-sm transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
       >
         <p

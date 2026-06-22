@@ -1,5 +1,9 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
+import ReformBar from "@components/identity/ReformBar.astro";
+
+// Gated members-only page: rendered on-demand so the auth middleware runs.
+export const prerender = false;
 
 const levels = [
   {
@@ -33,6 +37,7 @@ const levels = [
   title="Advocacy Playbooks for Citizens"
   description="Practical playbooks for civil society coalitions organising for reform at national, provincial, and municipal government level in South Africa."
 >
+  <ReformBar />
   <!-- Hero -->
   <header class="mb-10">
     <h1

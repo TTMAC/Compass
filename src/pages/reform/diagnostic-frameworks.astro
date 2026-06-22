@@ -1,5 +1,9 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
+import ReformBar from "@components/identity/ReformBar.astro";
+
+// Gated members-only page: rendered on-demand so the auth middleware runs.
+export const prerender = false;
 import JumpToSection from "@components/JumpToSection.astro";
 import {
   raaricleElements,
@@ -20,6 +24,7 @@ const jumpLinks = [
   title="Diagnostic Frameworks"
   description="The analytical lens used across GovCompass to diagnose institutional failure and design reform: the RAARICLE™ framework, the five failure patterns, the capture vulnerability assessment, and the structural principles that inform every reform in the programme."
 >
+  <ReformBar />
   <!-- Hero -->
   <header class="mb-10">
     <p
@@ -43,11 +48,11 @@ const jumpLinks = [
         >analytical scaffolding</strong
       > behind the
       <a
-        href="/real-steps-to-reform"
+        href="/reform/roadmap"
         class="text-compass-green hover:underline font-semibold"
         >Reform Roadmap</a
       > and the <a
-        href="/reform-scorecard"
+        href="/reform/scorecard"
         class="text-compass-green hover:underline font-semibold"
         >Reinforcing Cycle Scorecard</a
       >. Use them to evaluate any institution — a department, a municipality, an
@@ -113,7 +118,7 @@ const jumpLinks = [
     <p class="text-sm text-text-secondary leading-relaxed">
       For the foundational essay introducing this diagnostic, see
       <a
-        href="/articles/ra-1-1-eight-tests"
+        href="/reform/articles/ra-1-1-eight-tests"
         class="text-compass-green hover:underline font-semibold"
         >The Eight Tests</a
       >.
@@ -309,7 +314,7 @@ const jumpLinks = [
     </p>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       <a
-        href="/real-steps-to-reform"
+        href="/reform/roadmap"
         class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
       >
         <p
@@ -323,7 +328,7 @@ const jumpLinks = [
         </p>
       </a>
       <a
-        href="/reform-scorecard"
+        href="/reform/scorecard"
         class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
       >
         <p
@@ -337,7 +342,7 @@ const jumpLinks = [
         </p>
       </a>
       <a
-        href="/articles/ra-1-1-eight-tests"
+        href="/reform/articles/ra-1-1-eight-tests"
         class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
       >
         <p
@@ -351,7 +356,7 @@ const jumpLinks = [
         </p>
       </a>
       <a
-        href="/articles/ra-5-2-anti-capture-architecture"
+        href="/reform/articles/ra-5-2-anti-capture-architecture"
         class="border border-gray-200 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group"
       >
         <p

@@ -3,6 +3,7 @@ interface ArticleLink {
   title: string;
   articleNumber: string;
   status: string;
+  pillar?: string;
 }
 
 interface SeriesNav {
@@ -16,6 +17,7 @@ interface ArticleEntry {
     title: string;
     articleNumber: string;
     status: string;
+    pillar?: string;
     series: {
       prev: string | null;
       next: string | null;
@@ -47,5 +49,6 @@ function findArticleLink(
     title: article.data.title,
     articleNumber: article.data.articleNumber,
     status: article.data.status,
+    pillar: article.data.pillar,
   };
 }

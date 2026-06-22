@@ -4,12 +4,17 @@ import SphereFilter from "@components/SphereFilter.astro";
 import TagFilter from "@components/TagFilter.astro";
 import { getCollection } from "astro:content";
 import { pillars, type PillarConfig } from "@content/pillars";
+import { pillarHref } from "@utils/article-url";
 
 export function getStaticPaths() {
-  return pillars.map((pillar) => ({
-    params: { slug: pillar.slug },
-    props: { pillar },
-  }));
+  // The reform-agenda pillar is gated and served from /reform, not as a public
+  // static pillar page. See src/pages/reform/index.astro.
+  return pillars
+    .filter((pillar) => pillar.slug !== "reform-agenda")
+    .map((pillar) => ({
+      params: { slug: pillar.slug },
+      props: { pillar },
+    }));
 }
 
 interface Props {
@@ -475,7 +480,7 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
         {
           relatedPillars.map((p) => (
             <a
-              href={`/pillars/${p.slug}`}
+              href={pillarHref(p.slug)}
               class="group border border-gray-200 rounded-lg p-4 hover:border-gray-300 hover:shadow-sm transition-all"
             >
               <div class="flex items-center gap-2 mb-2">
