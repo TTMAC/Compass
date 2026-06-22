@@ -1,0 +1,49 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import ClerkBoot from "@components/identity/ClerkBoot.astro";
+import { SignIn } from "@clerk/astro/components";
+
+// On-demand: the sign-in widget must never be prerendered to the public CDN.
+export const prerender = false;
+
+const enabled = !!import.meta.env.PUBLIC_CLERK_PUBLISHABLE_KEY;
+---
+
+<BaseLayout
+  title="Sign in"
+  description="Sign in to access the GovCompass Reform members area."
+>
+  <ClerkBoot />
+
+  <div class="max-w-content mx-auto px-4 md:px-0 py-12">
+    <div class="max-w-md mx-auto">
+      <h1
+        class="font-heading text-2xl font-bold text-text-primary mb-2 text-center"
+      >
+        Reform members area
+      </h1>
+      <p class="text-sm text-text-secondary mb-8 text-center">
+        This part of GovCompass is private. Sign in with your invited account to
+        continue.
+      </p>
+
+      {
+        enabled ? (
+          <div class="flex justify-center">
+            <SignIn />
+          </div>
+        ) : (
+          <div class="border border-dashed border-gray-300 rounded-lg p-6 text-center">
+            <p class="font-heading text-sm text-text-secondary">
+              Sign-in is not configured in this environment.
+            </p>
+            <p class="text-xs text-text-secondary mt-2">
+              The Reform area is open here. Access is gated only where Clerk
+              credentials are set (production).
+            </p>
+          </div>
+        )
+      }
+    </div>
+  </div>
+</BaseLayout>

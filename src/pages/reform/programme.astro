@@ -1,5 +1,9 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
+import ReformBar from "@components/identity/ReformBar.astro";
+
+// Gated members-only page: rendered on-demand so the auth middleware runs.
+export const prerender = false;
 import JumpToSection from "@components/JumpToSection.astro";
 
 const jumpLinks = [
@@ -135,28 +139,28 @@ const waves = [
 
 const pathways = [
   {
-    href: "/diagnostic-frameworks",
+    href: "/reform/diagnostic-frameworks",
     title: "Diagnostic Frameworks",
     description:
       "Go deeper on the RAARICLE™ framework, the five failure patterns, the capture vulnerability assessment, and the structural principles that justify each reform.",
     cta: "Open the diagnostic toolkit",
   },
   {
-    href: "/real-steps-to-reform",
+    href: "/reform/roadmap",
     title: "Reform Roadmap",
     description:
       "See the 80+ concrete reforms across four workstreams, sequenced over 10 years, with the legislative changes required to implement them.",
     cta: "Explore the roadmap",
   },
   {
-    href: "/reform-scorecard",
+    href: "/reform/scorecard",
     title: "Reinforcing Cycle Scorecard",
     description:
       "Track the 15 indicators across safety, growth, and development that show whether the reforms are producing systemic change.",
     cta: "View the scorecard",
   },
   {
-    href: "/advocacy-playbooks",
+    href: "/reform/advocacy-playbooks",
     title: "Advocacy Playbooks",
     description:
       "Turn analysis into action. The tactical playbooks for citizens, civil society, and professionals to move reforms from proposal to law.",
@@ -169,6 +173,7 @@ const pathways = [
   title="The Reform Programme"
   description="An executive summary of the integrated reform programme — why South Africa needs a single legislated reform architecture, what it contains, how the components interact, and how to navigate the companion pages."
 >
+  <ReformBar />
   <!-- Hero -->
   <header class="mb-10">
     <p
@@ -199,7 +204,7 @@ const pathways = [
       inside a longer 25-year cycle — structural repair over the first decade,
       then cycle activation and innovation-driven convergence over the following
       fifteen years. See <a
-        href="/real-steps-to-reform#cycle"
+        href="/reform/roadmap#cycle"
         class="text-compass-green hover:underline font-semibold"
         >the 25-year cycle overview</a
       > on the Reform Roadmap page.
@@ -464,7 +469,7 @@ const pathways = [
     <p class="text-sm text-text-secondary leading-relaxed">
       <strong class="text-text-primary">Full analysis:</strong> this summary distils
       <a
-        href="/articles/ra-5-3-the-integrated-reform-programme"
+        href="/reform/articles/ra-5-3-the-integrated-reform-programme"
         class="text-compass-green hover:underline font-semibold"
         >The Integrated Reform Programme</a
       >, the capstone essay of the Reform Agenda series. The article develops

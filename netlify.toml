@@ -2,6 +2,9 @@
   command = "npm run build"
   publish = "dist"
 
+[build.environment]
+  NODE_VERSION = "20"
+
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
@@ -25,6 +28,30 @@
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
     Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://identity.netlify.com https://unpkg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' https://identity.netlify.com https://*.netlify.com; frame-src 'self'"
+
+# Gated members area (/reform/*) and the sign-in page load Clerk, so they relax
+# the global CSP to allow Clerk's frontend API, UI, images and bot-protection.
+# Netlify applies the most specific path match, so public pages keep the stricter
+# /* policy below untouched.
+[[headers]]
+  for = "/reform/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://identity.netlify.com https://www.googletagmanager.com https://*.clerk.accounts.dev https://*.clerk.com https://clerk.govcompass.co.za https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://img.clerk.com https://*.clerk.com; connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://*.google-analytics.com https://identity.netlify.com https://*.clerk.accounts.dev https://*.clerk.com https://clerk.govcompass.co.za; frame-src 'self' https://*.clerk.accounts.dev https://*.clerk.com https://challenges.cloudflare.com; worker-src 'self' blob:; form-action 'self' https://*.clerk.accounts.dev https://*.clerk.com; manifest-src 'self'"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()"
+
+[[headers]]
+  for = "/login"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://identity.netlify.com https://www.googletagmanager.com https://*.clerk.accounts.dev https://*.clerk.com https://clerk.govcompass.co.za https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://img.clerk.com https://*.clerk.com; connect-src 'self' https://www.googletagmanager.com https://www.google-analytics.com https://analytics.google.com https://*.google-analytics.com https://identity.netlify.com https://*.clerk.accounts.dev https://*.clerk.com https://clerk.govcompass.co.za; frame-src 'self' https://*.clerk.accounts.dev https://*.clerk.com https://challenges.cloudflare.com; worker-src 'self' blob:; form-action 'self' https://*.clerk.accounts.dev https://*.clerk.com; manifest-src 'self'"
+    Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=()"
 
 [[headers]]
   for = "/*"
@@ -57,11 +84,52 @@
   to = "/pillars/government-structure"
   status = 301
 
+# Reform section moved under the gated /reform/* namespace (301 from old URLs).
+# These must precede any catch-all so old links and bookmarks resolve.
 [[redirects]]
-  from = "/*"
-  to = "/404"
-  status = 404
+  from = "/pillars/reform-agenda"
+  to = "/reform"
+  status = 301
 
+[[redirects]]
+  from = "/reform-programme"
+  to = "/reform/programme"
+  status = 301
+
+[[redirects]]
+  from = "/leading-and-lagging-metrics"
+  to = "/reform/metrics"
+  status = 301
+
+[[redirects]]
+  from = "/reform-scorecard"
+  to = "/reform/scorecard"
+  status = 301
+
+[[redirects]]
+  from = "/diagnostic-frameworks"
+  to = "/reform/diagnostic-frameworks"
+  status = 301
+
+[[redirects]]
+  from = "/real-steps-to-reform"
+  to = "/reform/roadmap"
+  status = 301
+
+[[redirects]]
+  from = "/advocacy-playbooks"
+  to = "/reform/advocacy-playbooks"
+  status = 301
+
+[[redirects]]
+  from = "/articles/ra-*"
+  to = "/reform/articles/ra-:splat"
+  status = 301
+
+# NOTE: the previous "/* -> /404 (404)" catch-all was removed. With the Netlify
+# SSR adapter it would intercept the on-demand /reform/* and /login routes before
+# the adapter's function handler ran, breaking the gate. Netlify still serves
+# dist/404.html for genuinely unmatched static paths.
 [[redirects]]
   from = "/*"
   to = "/500.html"

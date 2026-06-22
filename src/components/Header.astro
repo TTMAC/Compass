@@ -16,18 +16,23 @@ const mobileNavLinks = [
 ];
 
 const reformLinks = [
-  { href: "/reform-programme", label: "The Reform Programme" },
-  { href: "/leading-and-lagging-metrics", label: "Leading & Lagging Metrics" },
-  { href: "/reform-scorecard", label: "Reinforcing Cycle Scorecard" },
-  { href: "/diagnostic-frameworks", label: "Diagnostic Frameworks" },
-  { href: "/real-steps-to-reform", label: "Reform Roadmap" },
-  { href: "/advocacy-playbooks", label: "Advocacy Playbooks" },
+  { href: "/reform", label: "Reform Overview" },
+  { href: "/reform/programme", label: "The Reform Programme" },
+  { href: "/reform/metrics", label: "Leading & Lagging Metrics" },
+  { href: "/reform/scorecard", label: "Reinforcing Cycle Scorecard" },
+  { href: "/reform/diagnostic-frameworks", label: "Diagnostic Frameworks" },
+  { href: "/reform/roadmap", label: "Reform Roadmap" },
+  { href: "/reform/advocacy-playbooks", label: "Advocacy Playbooks" },
 ];
 
 const topicsLinks = [
   { href: "/big-picture", label: "The Big Picture" },
   { href: "/government-functions", label: "State Functions" },
-  ...pillars.map((p) => ({ href: `/pillars/${p.slug}`, label: p.title })),
+  // reform-agenda is the gated members area with its own "Reform" dropdown, so
+  // it is intentionally excluded from the public Topics list.
+  ...pillars
+    .filter((p) => p.slug !== "reform-agenda")
+    .map((p) => ({ href: `/pillars/${p.slug}`, label: p.title })),
   { href: "/grand-strategy", label: "Grand Strategy" },
   { href: "/glossary", label: "Glossary" },
 ];
@@ -42,12 +47,7 @@ const isTopicsActive =
 
 const isDev = import.meta.env.DEV && !import.meta.env.PUBLIC_DEV_SEARCH;
 const isReformActive =
-  currentPath === "/reform-programme" ||
-  currentPath === "/leading-and-lagging-metrics" ||
-  currentPath === "/reform-scorecard" ||
-  currentPath === "/diagnostic-frameworks" ||
-  currentPath === "/real-steps-to-reform" ||
-  currentPath === "/advocacy-playbooks";
+  currentPath === "/reform" || currentPath.startsWith("/reform/");
 ---
 
 <header

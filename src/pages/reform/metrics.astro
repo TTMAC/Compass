@@ -1,5 +1,9 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
+import ReformBar from "@components/identity/ReformBar.astro";
+
+// Gated members-only page: rendered on-demand so the auth middleware runs.
+export const prerender = false;
 import JumpToSection from "@components/JumpToSection.astro";
 
 const jumpLinks = [
@@ -145,7 +149,7 @@ const knowledgeMap = [
   {
     layer: "Layer 2 — Diagnostic",
     title: "RAARICLE™ & failure patterns",
-    href: "/diagnostic-frameworks",
+    href: "/reform/diagnostic-frameworks",
     role: "Why outcomes fail",
     chainRole:
       "Identifies the institutional conditions that must exist at Stages 1–3 for the chain to work at all. Every reform in the programme traces back to a RAARICLE finding.",
@@ -157,7 +161,7 @@ const knowledgeMap = [
   {
     layer: "Layer 3 — Reform programme",
     title: "Reform Programme & Roadmap",
-    href: "/reform-programme",
+    href: "/reform/programme",
     role: "What must change",
     chainRole:
       "Specifies the Inputs (Stage 1), Activities (Stage 2), and Outputs (Stage 3) that the programme is committing to deliver. The entire left side of the chain is authored here.",
@@ -169,7 +173,7 @@ const knowledgeMap = [
   {
     layer: "Layer 4 — Measurement",
     title: "Reinforcing Cycle Scorecard",
-    href: "/reform-scorecard",
+    href: "/reform/scorecard",
     role: "Confirmation",
     chainRole:
       "Reads the right side of the chain — the Outcomes (Stage 4) and Impact (Stage 5) — through 15 indicators across safety, growth, and development.",
@@ -217,6 +221,7 @@ const pairedExamples = [
   description="How the Kellogg Logic Model maps onto South Africa's reform programme — inputs, activities, outputs, outcomes, impact — and how leading and lagging metrics cut across that chain to connect the GovCompass Knowledge Model."
   width="wide"
 >
+  <ReformBar />
   <!-- Hero -->
   <header class="mb-10">
     <p
@@ -852,7 +857,7 @@ const pairedExamples = [
     </p>
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
       <a
-        href="/reform-scorecard"
+        href="/reform/scorecard"
         class="border-2 border-compass-green/30 bg-compass-green-light/40 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
       >
         <p
@@ -871,7 +876,7 @@ const pairedExamples = [
         </p>
       </a>
       <a
-        href="/real-steps-to-reform"
+        href="/reform/roadmap"
         class="border-2 border-compass-green/30 bg-compass-green-light/40 rounded-lg p-5 hover:border-compass-green hover:shadow-md transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
       >
         <p
@@ -891,7 +896,7 @@ const pairedExamples = [
         </p>
       </a>
       <a
-        href="/reform-programme"
+        href="/reform/programme"
         class="border border-gray-200 rounded-lg p-4 hover:border-compass-green hover:shadow-sm transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
       >
         <p
@@ -906,7 +911,7 @@ const pairedExamples = [
         </p>
       </a>
       <a
-        href="/diagnostic-frameworks"
+        href="/reform/diagnostic-frameworks"
         class="border border-gray-200 rounded-lg p-4 hover:border-compass-green hover:shadow-sm transition-all group focus:outline-none focus-visible:ring-2 focus-visible:ring-compass-green focus-visible:ring-offset-2"
       >
         <p

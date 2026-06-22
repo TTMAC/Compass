@@ -37,3 +37,6 @@ public/pagefind/
 
 # Lighthouse CI
 .lighthouseci/
+
+# Local Netlify folder
+.netlify

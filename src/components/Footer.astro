@@ -36,16 +36,18 @@ const currentYear = new Date().getFullYear();
             </a>
           </li>
           {
-            pillars.map((p) => (
-              <li>
-                <a
-                  href={`/pillars/${p.slug}`}
-                  class="text-sm text-text-secondary hover:text-compass-green transition-colors"
-                >
-                  {p.title}
-                </a>
-              </li>
-            ))
+            pillars
+              .filter((p) => p.slug !== "reform-agenda")
+              .map((p) => (
+                <li>
+                  <a
+                    href={`/pillars/${p.slug}`}
+                    class="text-sm text-text-secondary hover:text-compass-green transition-colors"
+                  >
+                    {p.title}
+                  </a>
+                </li>
+              ))
           }
         </ul>
       </div>
@@ -58,7 +60,7 @@ const currentYear = new Date().getFullYear();
         <ul class="space-y-2" role="list">
           <li>
             <a
-              href="/real-steps-to-reform"
+              href="/reform/roadmap"
               class="text-sm text-text-secondary hover:text-compass-green transition-colors"
             >
               Reform Roadmap
@@ -66,7 +68,7 @@ const currentYear = new Date().getFullYear();
           </li>
           <li>
             <a
-              href="/diagnostic-frameworks"
+              href="/reform/diagnostic-frameworks"
               class="text-sm text-text-secondary hover:text-compass-green transition-colors"
             >
               Diagnostic Frameworks

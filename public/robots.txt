@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
 
+# Gated members area and sign-in are private — keep them out of search indexes.
+# (No public path begins with /reform any more, so this is safe and complete.)
+Disallow: /reform
+Disallow: /login
+
 Sitemap: https://govcompass.co.za/sitemap-index.xml

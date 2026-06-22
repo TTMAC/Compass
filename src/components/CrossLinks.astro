@@ -1,6 +1,7 @@
 ---
 import { getPillarBySlug } from "@content/pillars";
 import { getCollection } from "astro:content";
+import { articleHref } from "@utils/article-url";
 
 interface Props {
   links: { slug: string; label: string; relationship: string }[];
@@ -20,6 +21,7 @@ const resolved = links.map((link) => {
   const pillarConfig = getPillarBySlug(pillarSlug);
   return {
     ...link,
+    href: articleHref(link.slug, pillarSlug),
     title: article?.data.title ?? link.label,
     pillarColor: pillarConfig?.color ?? "#355E3B",
     pillarName: pillarConfig?.shortTitle ?? "Government",
@@ -35,7 +37,7 @@ const resolved = links.map((link) => {
     {
       resolved.map((link) => (
         <a
-          href={`/articles/${link.slug}`}
+          href={link.href}
           class="flex items-start gap-3 p-3 border border-gray-200 rounded-lg hover:border-gray-300 transition-colors"
         >
           <span

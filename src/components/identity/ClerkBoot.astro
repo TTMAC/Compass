@@ -1,0 +1,28 @@
+---
+/**
+ * Boots Clerk on the current page.
+ *
+ * The Clerk integration's global boot scripts are stripped in astro.config.mjs
+ * (see clerk-server-first.mjs) so that public pages ship zero Clerk JS. This
+ * component re-introduces the boot, but ONLY on the pages that include it — the
+ * gated `/reform/*` routes and `/login`. Clerk's interactive components register
+ * their props on `window` and are mounted by `runInjectionScript()` once Clerk
+ * has loaded, so a single call here is sufficient regardless of render order.
+ *
+ * The boot self-guards on the publishable key: when none is configured (dev /
+ * open deploy previews) the gate is dormant and Clerk never loads, so those
+ * environments stay fully open and build without Clerk credentials.
+ *
+ * NOTE: this is a bundled (hoisted) module script — Astro includes it on every
+ * page that renders this component regardless of any surrounding conditional,
+ * which is exactly why the key check lives inside the script, not in the
+ * frontmatter.
+ */
+---
+
+<script>
+  import { runInjectionScript } from "@clerk/astro/internal";
+  if (import.meta.env.PUBLIC_CLERK_PUBLISHABLE_KEY) {
+    await runInjectionScript();
+  }
+</script>

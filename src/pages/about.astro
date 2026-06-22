@@ -1,6 +1,7 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
 import { pillars } from "@content/pillars";
+import { pillarHref } from "@utils/article-url";
 ---
 
 <PageLayout
@@ -32,7 +33,7 @@ import { pillars } from "@content/pillars";
       {
         pillars.map((p) => (
           <a
-            href={`/pillars/${p.slug}`}
+            href={pillarHref(p.slug)}
             class="flex items-start gap-3 p-4 border border-gray-200 rounded-lg hover:border-gray-300 transition-colors group"
           >
             <span
@@ -63,7 +64,7 @@ import { pillars } from "@content/pillars";
       > reference mapping every functional area across the three spheres of government,
       and a
       <a
-        href="/real-steps-to-reform"
+        href="/reform/roadmap"
         class="text-compass-green underline hover:text-compass-green-dark transition-colors"
         >Reform Programme</a
       > consolidating over 80 concrete reforms into a sequenced, phased 10-year plan.
@@ -136,7 +137,7 @@ import { pillars } from "@content/pillars";
       permits, and identify the political economy constraints that make
       implementation hard. The full reform programme is consolidated in our
       <a
-        href="/real-steps-to-reform"
+        href="/reform/roadmap"
         class="text-compass-green underline hover:text-compass-green-dark transition-colors"
         >Reform Roadmap</a
       > page.

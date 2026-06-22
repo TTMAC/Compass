@@ -6,26 +6,27 @@ import ArticleNav from "@components/ArticleNav.astro";
 import CrossLinks from "@components/CrossLinks.astro";
 import ReadingProgress from "@components/ReadingProgress.astro";
 import EmailCapture from "@components/EmailCapture.astro";
+import ReformBar from "@components/identity/ReformBar.astro";
 import { getSeriesNavigation } from "@utils/series-navigation";
 
-export async function getStaticPaths() {
-  const articles = await getCollection("articles");
-  // Reform-agenda articles are gated and served on-demand from
-  // /reform/articles/* — they are deliberately excluded from the public static
-  // build so they can never be fetched as prerendered files from the CDN.
-  const publicArticles = articles.filter(
-    (a) => a.data.pillar !== "reform-agenda",
-  );
-  return publicArticles.map((article) => ({
-    params: { slug: article.id.replace(/\.md$/, "") },
-    props: { article, allArticles: publicArticles },
-  }));
+// Gated, on-demand route: NOT prerendered, so the auth middleware runs for it
+// and the reform articles never exist as public static files. Because it is
+// server-rendered we resolve the entry from params at request time rather than
+// via getStaticPaths, and 404 anything that isn't a reform-agenda article.
+export const prerender = false;
+
+const { slug } = Astro.params;
+const allArticles = await getCollection("articles");
+const article = allArticles.find(
+  (a) => a.id.replace(/\.md$/, "") === slug,
+);
+
+if (!article || article.data.pillar !== "reform-agenda") {
+  return new Response(null, { status: 404 });
 }
 
-const { article, allArticles } = Astro.props;
 const { Content, headings } = await render(article);
-const slug = article.id.replace(/\.md$/, "");
-const articleUrl = new URL(`/articles/${slug}`, Astro.site).href;
+const articleUrl = new URL(`/reform/articles/${slug}`, Astro.site).href;
 const seriesNav = getSeriesNavigation(article, allArticles);
 ---
 
@@ -46,6 +47,8 @@ const seriesNav = getSeriesNavigation(article, allArticles);
   series={article.data.series}
   headings={headings}
 >
+  <ReformBar slot="banner" />
+
   <Content />
 
   <div class="mt-8 pt-6 border-t border-gray-200">
