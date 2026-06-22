@@ -22,6 +22,12 @@ Thumbs.db
 # Astro
 .astro/
 
+# Netlify (SSR adapter output, netlify dev state)
+.netlify/
+
+# Git bundles (one-off transfer artifacts)
+*.bundle
+
 # Test coverage
 coverage/
 
