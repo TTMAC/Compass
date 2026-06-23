@@ -16,6 +16,13 @@ status: "draft"
 series:
   prev: "yt-1-1-the-post-matric-cliff"
   next: "yt-2-1-one-crucible-two-tracks"
+crossLinks:
+  - slug: "ra-1-2-why-institutions-fail"
+    label: "Why South Africa's Institutions Keep Failing"
+    relationship: "The structural reasons institutions and programmes underdeliver, echoing this article's audit"
+  - slug: "hd-1-3-the-reinforcing-cycle"
+    label: "The Reinforcing Cycle"
+    relationship: "How human-development outcomes — including cohesion — reinforce one another"
 seo:
   keywords:
     - "social cohesion South Africa"

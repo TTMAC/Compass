@@ -16,6 +16,13 @@ status: "draft"
 series:
   prev: "yt-3-2-what-it-would-cost"
   next: null
+crossLinks:
+  - slug: "ra-5-2-anti-capture-architecture"
+    label: "The Anti-Capture Architecture"
+    relationship: "The anti-capture design this article applies to protecting the service's money"
+  - slug: "hd-5-4-a-scorecard-for-progress"
+    label: "A Scorecard for Progress"
+    relationship: "The measurement-and-scorecard discipline the funding model depends on"
 seo:
   keywords:
     - "youth service funding"

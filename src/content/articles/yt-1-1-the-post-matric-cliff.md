@@ -16,6 +16,13 @@ status: "draft"
 series:
   prev: null
   next: "yt-1-2-the-cohesion-deficit"
+crossLinks:
+  - slug: "hd-3-3-from-classroom-to-paycheck"
+    label: "From Classroom to Paycheck"
+    relationship: "The school-to-work transition this article's cliff describes, through the human-development lens"
+  - slug: "hd-4-2-skills-beyond-schooling"
+    label: "Skills Beyond Schooling"
+    relationship: "How young people build employable skills outside the formal schooling system"
 seo:
   keywords:
     - "youth unemployment South Africa"

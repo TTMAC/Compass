@@ -16,6 +16,10 @@ status: "draft"
 series:
   prev: "yt-3-1-a-phased-rollout"
   next: "yt-3-3-how-to-pay-for-it"
+crossLinks:
+  - slug: "hd-2-3-the-fiscal-arithmetic-of-health"
+    label: "The Fiscal Arithmetic of Health"
+    relationship: "A companion example of costing a major public good against a constrained budget"
 seo:
   keywords:
     - "national youth service cost"

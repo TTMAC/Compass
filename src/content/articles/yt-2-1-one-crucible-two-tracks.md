@@ -16,6 +16,13 @@ status: "draft"
 series:
   prev: "yt-1-2-the-cohesion-deficit"
   next: "yt-2-2-lessons-from-abroad"
+crossLinks:
+  - slug: "ra-2-1-fixing-basic-education"
+    label: "Fixing Basic Education"
+    relationship: "The education system the service's classroom-assistant stream would support"
+  - slug: "ra-2-2-fixing-primary-healthcare"
+    label: "Fixing Primary Healthcare"
+    relationship: "The primary-health system the service's community-health stream would extend"
 seo:
   keywords:
     - "dual-track national service"

@@ -16,6 +16,13 @@ status: "draft"
 series:
   prev: "yt-2-2-lessons-from-abroad"
   next: "yt-3-1-a-phased-rollout"
+crossLinks:
+  - slug: "hd-4-4-from-income-to-assets"
+    label: "From Income to Assets"
+    relationship: "How young people turn income into durable assets and enterprise — the goal of the capital door"
+  - slug: "ra-5-2-anti-capture-architecture"
+    label: "The Anti-Capture Architecture"
+    relationship: "The governance design that keeps the benefit and finance doors from being captured"
 seo:
   keywords:
     - "national service benefits"

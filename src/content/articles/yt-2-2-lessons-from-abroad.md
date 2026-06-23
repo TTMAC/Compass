@@ -16,6 +16,10 @@ status: "draft"
 series:
   prev: "yt-2-1-one-crucible-two-tracks"
   next: "yt-2-3-making-service-prestigious"
+crossLinks:
+  - slug: "hd-5-1-when-the-cycle-works"
+    label: "When the Cycle Works"
+    relationship: "How development virtuous cycles work in other countries — a comparative companion"
 seo:
   keywords:
     - "Singapore national service"

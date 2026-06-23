@@ -16,6 +16,13 @@ status: "draft"
 series:
   prev: "yt-2-3-making-service-prestigious"
   next: "yt-3-2-what-it-would-cost"
+crossLinks:
+  - slug: "ra-1-1-eight-tests"
+    label: "The Eight Tests Every Government Institution Must Pass"
+    relationship: "The RAARICLE diagnostic and the authority-accountability principle this rollout applies"
+  - slug: "ra-1-2-why-institutions-fail"
+    label: "Why South Africa's Institutions Keep Failing"
+    relationship: "The institutional-design failures this phased rollout is built to avoid"
 seo:
   keywords:
     - "national youth service implementation"
