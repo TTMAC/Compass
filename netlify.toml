@@ -57,12 +57,9 @@
   to = "/pillars/government-structure"
   status = 301
 
-[[redirects]]
-  from = "/*"
-  to = "/404"
-  status = 404
-
-[[redirects]]
-  from = "/*"
-  to = "/500.html"
-  status = 500
+# No catch-all `/* -> /404` (or `/500`) redirect. With the @astrojs/netlify
+# SSR adapter, a catch-all redirect outranks the on-demand function and
+# swallows every SSR route (auth pages, gated /reform-* pages) into the static
+# 404 — confirmed on a real branch deploy. Netlify already serves dist/404.html
+# for unmatched static routes, and the SSR function renders 404.astro for
+# unmatched on-demand routes, so no fallback rule is needed.
