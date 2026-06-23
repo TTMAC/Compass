@@ -1,4 +1,101 @@
+# GovCompass robots.txt
+#
+# Legitimate search engines may crawl and index the site (default rule below).
+# Known AI scrapers / LLM training crawlers are disallowed so the content is
+# not harvested for model training or AI-answer exfiltration.
+#
+# NOTE: robots.txt is advisory. Compliant bots honour it; abusive scrapers
+# ignore it. For hard enforcement, block these user agents at the edge
+# (Netlify firewall / WAF) — robots.txt is the first layer, not the only one.
+
+# --- Default: allow normal search engines (Google, Bing, DuckDuckGo, etc.) ---
 User-agent: *
 Allow: /
+
+# --- AI / LLM training and answer-engine crawlers: disallowed ---
+
+# OpenAI
+User-agent: GPTBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+# Anthropic
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+# Google AI (training corpus — separate from Googlebot search indexing)
+User-agent: Google-Extended
+Disallow: /
+
+# Apple AI (training corpus — separate from Applebot search indexing)
+User-agent: Applebot-Extended
+Disallow: /
+
+# Common Crawl (feeds many training datasets)
+User-agent: CCBot
+Disallow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-User
+Disallow: /
+
+# Meta AI
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+# Amazon AI
+User-agent: Amazonbot
+Disallow: /
+
+# ByteDance (TikTok)
+User-agent: Bytespider
+Disallow: /
+
+# Cohere
+User-agent: cohere-ai
+Disallow: /
+
+# Diffbot
+User-agent: Diffbot
+Disallow: /
+
+# Other known scrapers / dataset harvesters
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Omgili
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: YouBot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
 
 Sitemap: https://govcompass.co.za/sitemap-index.xml
