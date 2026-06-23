@@ -53,11 +53,6 @@ const sphereColors: Record<string, string> = {
   all: "bg-compass-green",
 };
 
-const formattedDate = publishDate.toLocaleDateString("en-ZA", {
-  year: "numeric",
-  month: "long",
-  day: "numeric",
-});
 
 const siteUrl = Astro.site?.origin || "https://govcompass.co.za";
 
@@ -69,7 +64,7 @@ const articleJsonLd = {
   datePublished: publishDate.toISOString(),
   author: {
     "@type": "Person",
-    name: "Citizen X",
+    name: "Tshepo Machele",
   },
   publisher: {
     "@type": "Organization",
@@ -178,10 +173,7 @@ const jsonLd = [articleJsonLd, breadcrumbJsonLd];
         <div
           class="flex items-center gap-4 text-sm text-text-secondary font-heading"
         >
-          <span>Citizen X</span>
-          <time datetime={publishDate.toISOString()}>
-            {formattedDate}
-          </time>
+          <span>Tshepo Machele</span>
           <span aria-label={`${readingTime} minute read`}>
             {readingTime} min read
           </span>
