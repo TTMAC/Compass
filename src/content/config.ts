@@ -8,6 +8,7 @@ const pillarEnum = z.enum([
   "economic-growth",
   "human-development",
   "reform-agenda",
+  "youth",
 ]);
 
 const articles = defineCollection({

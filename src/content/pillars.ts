@@ -228,6 +228,37 @@ export const pillars: PillarConfig[] = [
       },
     ],
   },
+  {
+    slug: "youth",
+    title: "Youth & Nation-Building",
+    shortTitle: "Youth",
+    description:
+      "How a Dual-Track National Youth Service — military or civilian service after matric — could build civic discipline, skills, opportunity, and national cohesion, drawing on models like Singapore's.",
+    color: "#0E6E63",
+    lightColor: "#DCEFEC",
+    filterDimension: "tags",
+    order: 6,
+    parts: [
+      {
+        number: 1,
+        title: "The Problem",
+        description:
+          "The post-matric cliff, the youth unemployment and NEET crisis, the cohesion and discipline deficit, and why past youth programmes underdelivered.",
+      },
+      {
+        number: 2,
+        title: "The Dual-Track Model",
+        description:
+          "How a military-or-civilian national service could work, what Singapore and others teach, and how to make service prestigious with real benefits.",
+      },
+      {
+        number: 3,
+        title: "The Implementation",
+        description:
+          "A phased rollout from pilot to universal, the institutional and legislative architecture, the costing model, and how to measure success.",
+      },
+    ],
+  },
 ];
 
 export function getPillarBySlug(slug: string): PillarConfig | undefined {
