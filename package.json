@@ -29,8 +29,10 @@
     "test:resend": "node scripts/test-resend.mjs"
   },
   "dependencies": {
+    "@astrojs/netlify": "^6.6.5",
     "@astrojs/sitemap": "^3.3.0",
     "@astrojs/tailwind": "^6.0.2",
+    "@clerk/astro": "^3.4.6",
     "astro": "^5.7.0",
     "dotenv": "^17.3.1",
     "remark-directive": "^4.0.0",

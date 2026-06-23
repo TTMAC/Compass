@@ -1,5 +1,6 @@
 ---
 import { pillars } from "@content/pillars";
+import { Show, SignInButton, UserButton } from "@clerk/astro/components";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -21,7 +22,6 @@ const reformLinks = [
   { href: "/reform-scorecard", label: "Reinforcing Cycle Scorecard" },
   { href: "/diagnostic-frameworks", label: "Diagnostic Frameworks" },
   { href: "/real-steps-to-reform", label: "Reform Roadmap" },
-  { href: "/advocacy-playbooks", label: "Advocacy Playbooks" },
 ];
 
 const topicsLinks = [
@@ -29,6 +29,7 @@ const topicsLinks = [
   { href: "/government-functions", label: "State Functions" },
   ...pillars.map((p) => ({ href: `/pillars/${p.slug}`, label: p.title })),
   { href: "/grand-strategy", label: "Grand Strategy" },
+  { href: "/advocacy-playbooks", label: "Advocacy Playbooks" },
   { href: "/glossary", label: "Glossary" },
 ];
 
@@ -38,6 +39,7 @@ const isTopicsActive =
   currentPath === "/big-picture" ||
   currentPath.startsWith("/government-functions") ||
   currentPath === "/grand-strategy" ||
+  currentPath === "/advocacy-playbooks" ||
   currentPath === "/glossary";
 
 const isDev = import.meta.env.DEV && !import.meta.env.PUBLIC_DEV_SEARCH;
@@ -46,8 +48,7 @@ const isReformActive =
   currentPath === "/leading-and-lagging-metrics" ||
   currentPath === "/reform-scorecard" ||
   currentPath === "/diagnostic-frameworks" ||
-  currentPath === "/real-steps-to-reform" ||
-  currentPath === "/advocacy-playbooks";
+  currentPath === "/real-steps-to-reform";
 ---
 
 <header
@@ -58,12 +59,18 @@ const isReformActive =
     class="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between"
     aria-label="Main navigation"
   >
-    <a href="/" class="font-heading font-bold text-xl text-compass-green">
+    <a
+      href="/"
+      class="font-heading font-bold text-xl text-compass-green shrink-0"
+    >
       GovCompass
     </a>
 
     <!-- Desktop nav -->
-    <ul class="hidden lg:flex items-center gap-4" role="list">
+    <ul
+      class="hidden lg:flex items-center gap-3 whitespace-nowrap"
+      role="list"
+    >
       <li>
         <a
           href="/"
@@ -148,6 +155,9 @@ const isReformActive =
           aria-haspopup="true"
         >
           Reform
+          <Show when="signed-out">
+            <span class="text-xs leading-none" aria-hidden="true">🔒</span>
+          </Show>
           <svg
             class="w-3 h-3 transition-transform group-hover/reform:rotate-180 group-focus-within/reform:rotate-180"
             fill="none"
@@ -170,6 +180,17 @@ const isReformActive =
             <div
               class="bg-bg-primary border border-gray-200 rounded-lg shadow-lg py-2 min-w-[220px]"
             >
+              <Show when="signed-out">
+                <SignInButton mode="modal">
+                  <button
+                    type="button"
+                    class="w-full flex items-center gap-2 px-4 py-2 mb-1 border-b border-gray-100 font-heading text-xs text-compass-green hover:bg-compass-green-light transition-colors"
+                  >
+                    <span aria-hidden="true">🔒</span>
+                    <span>Sign in to view</span>
+                  </button>
+                </SignInButton>
+              </Show>
               {
                 reformLinks.map((link) => (
                   <a
@@ -210,7 +231,7 @@ const isReformActive =
         ))
       }
       <li>
-        <div id="search-desktop" class="w-40" aria-live="polite">
+        <div id="search-desktop" class="w-36" aria-live="polite">
           {
             isDev && (
               <p
@@ -222,6 +243,23 @@ const isReformActive =
             )
           }
         </div>
+      </li>
+
+      <!-- Auth controls -->
+      <li class="flex items-center">
+        <Show when="signed-out">
+          <SignInButton mode="modal">
+            <button
+              type="button"
+              class="font-heading text-sm font-semibold text-white bg-compass-green rounded-md px-3 py-1.5 transition-opacity hover:opacity-90"
+            >
+              Sign in
+            </button>
+          </SignInButton>
+        </Show>
+        <Show when="signed-in">
+          <UserButton />
+        </Show>
       </li>
     </ul>
 
@@ -258,6 +296,24 @@ const isReformActive =
     aria-hidden="true"
   >
     <div class="px-4 py-4 border-t border-gray-100 space-y-1">
+      <!-- Auth controls -->
+      <div class="flex items-center gap-3 mb-3 pb-3 border-b border-gray-100">
+        <Show when="signed-out">
+          <SignInButton mode="modal">
+            <button
+              type="button"
+              class="flex-1 font-heading text-sm font-semibold text-white bg-compass-green rounded-md py-2 transition-opacity hover:opacity-90"
+            >
+              Sign in
+            </button>
+          </SignInButton>
+        </Show>
+        <Show when="signed-in">
+          <UserButton />
+          <span class="font-heading text-sm text-text-secondary">Account</span>
+        </Show>
+      </div>
+
       <div id="search-mobile" class="mb-3" aria-live="polite">
         {
           isDev && (
@@ -344,7 +400,12 @@ const isReformActive =
                   : "text-text-secondary"
               }`}
             >
-              Reform
+              <span class="flex items-center gap-1.5">
+                Reform
+                <Show when="signed-out">
+                  <span class="text-xs leading-none" aria-hidden="true">🔒</span>
+                </Show>
+              </span>
               <svg
                 class="w-3 h-3 transition-transform group-open/reform:rotate-180"
                 fill="none"
@@ -360,6 +421,19 @@ const isReformActive =
               </svg>
             </summary>
             <ul class="pl-4 space-y-1 mt-1" role="list">
+              <Show when="signed-out">
+                <li>
+                  <SignInButton mode="modal">
+                    <button
+                      type="button"
+                      class="w-full flex items-center gap-2 py-2 px-3 font-heading text-xs text-compass-green rounded hover:bg-compass-green-light transition-colors"
+                    >
+                      <span aria-hidden="true">🔒</span>
+                      <span>Sign in to view</span>
+                    </button>
+                  </SignInButton>
+                </li>
+              </Show>
               {
                 reformLinks.map((link) => (
                   <li>

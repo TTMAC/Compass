@@ -1,6 +1,9 @@
 ---
 import PageLayout from "@layouts/PageLayout.astro";
 import JumpToSection from "@components/JumpToSection.astro";
+
+// Gated: render on-demand so the Clerk middleware can require sign-in.
+export const prerender = false;
 import {
   raaricleElements,
   failurePatterns,

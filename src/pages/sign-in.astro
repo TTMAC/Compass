@@ -1,0 +1,10 @@
+---
+import { SignIn } from "@clerk/astro/components";
+
+// Render on-demand so the Clerk middleware runs for the sign-in handshake.
+export const prerender = false;
+---
+
+<div class="flex min-h-screen items-center justify-center">
+  <SignIn />
+</div>
