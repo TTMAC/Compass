@@ -1,0 +1,141 @@
+---
+title: "Where Money Comes From"
+subtitle: "Private Banks, Credit Creation, and the Productive-Asset Divide"
+pillar: "economic-growth"
+part: 3
+articleNumber: "3.7"
+tags:
+  - "credit-creation"
+  - "banking"
+  - "money-supply"
+  - "asset-prices"
+  - "productive-credit"
+  - "fiscal-policy"
+description: "Banks do not lend out savings — they create new money when they lend. Most of South Africa's money was made this way, and what it funds is the real question."
+publishDate: 2029-04-01
+readingTime: 33
+status: "draft"
+series:
+  prev: "eg-3-6-the-household-fallacy"
+  next: "eg-3-8-the-real-lever"
+crossLinks:
+  - slug: "eg-3-3-what-tax-is-for"
+    label: "What Tax Is For"
+    relationship: "The lightly taxed asset stock that bank credit keeps inflating"
+  - slug: "1-2-following-the-money"
+    label: "Following the Money"
+    relationship: "How money and the budget work in the formal account"
+seo:
+  ogImage: "/og/default.png"
+  keywords:
+    - "how banks create money"
+    - "credit creation"
+    - "money creation modern economy"
+    - "Richard Werner banks"
+    - "productive versus asset credit"
+    - "bank lending South Africa"
+    - "asset price inflation"
+---
+
+Here is a fact that most people — including many who follow economics closely, and a good number who work in finance — have wrong. They believe that banks are middlemen: that you deposit your savings, the bank keeps some in reserve, and it lends the rest to someone else, acting as a careful intermediary between savers and borrowers. It is a tidy picture, it is taught in schools, and it is false. When a bank grants you a loan, it does not hand over money that savers deposited. It *creates* new money, on the spot, by typing a number into your account. The loan and the deposit appear together, out of nothing, as two entries on the bank's own balance sheet. And the overwhelming majority of the money circulating in South Africa — something like 95 to 97 percent of it — was created in exactly this way, by private commercial banks making loans, not by the government or the Reserve Bank.
+
+That single fact reframes everything in this part. If private banks create most of the money, then the most powerful economic decision in the country is not the tax rate set in the Budget, nor even the question of monetary sovereignty we wrestled with in the last article. It is the decision — made not once, but millions of times, loan by loan, in bank branches and credit committees across the country — about *what that new money is created for*. Money created to build a factory, equip a farm, or fund an exporter adds to what South Africa can produce. Money created to buy an existing house, or to lend against shares already issued, adds nothing to output; it simply raises the price of the asset. And here the wealth thread that has run through this whole part snaps into sharp focus: the asset stock that the tax system barely touches, and whose returns the last-but-one article showed are taxed twice on the way out, is the *same* stock that bank credit relentlessly inflates — and the people locked out of that credit are disproportionately the new, asset-poor wealth-builders this part has been concerned with all along. This is the seventh article in The Fiscal Levers, and it is the one where the argument turns from tax to the thing that was underneath it the whole time.
+
+## The myth of the middleman
+
+Let us dismantle the intermediation story gently, because it is so deeply held that simply asserting the truth sounds like a conspiracy theory. Start with what you probably believe. You picture a bank as a kind of piggy bank with a lending window: depositors put money in, the bank holds a fraction in reserve as a safety buffer, and lends the rest out, recycling society's savings to those who can use them. In the more sophisticated version, taught in first-year economics, the bank can "multiply up" deposits through the banking system — a deposit is lent, the loan is redeposited, lent again, and so on — but the process still begins with a deposit and is still, fundamentally, the recycling of pre-existing money. This is the "money multiplier" model, and it has the comfortable feel of common sense.
+
+Now look at what actually happens when a bank makes a loan. You ask the bank for R1 million to buy a house. The bank approves it. At the moment of approval, the bank does two things simultaneously: it records a R1 million asset (your loan, which you will repay) and it creates a R1 million deposit in your account (the money you will pay the seller). It did not move that R1 million from a saver's account, nor from its reserves, nor from anywhere else. It conjured the deposit into existence by writing it down, balanced by your promise to repay. New money — the R1 million now sitting in your account, fully spendable — has come into being. When you eventually repay the loan, that money is extinguished again, deleted as it returns. Banks create money when they lend and destroy it when loans are repaid. They are not intermediaries passing along existing money; they are the manufacturers of most of the money there is.
+
+If this sounds like a fringe claim, it is worth knowing that the most establishment institution imaginable has said it plainly. In 2014, the Bank of England — the world's oldest major central bank — published an article in its *Quarterly Bulletin* titled "Money creation in the modern economy", written by three of its own economists, Michael McLeay, Amar Radia and Ryland Thomas. Its purpose was to correct exactly the misconception described above. Banks, it stated, do not act simply as intermediaries lending out deposits, and they do not multiply up central bank money. Rather, "whenever a bank makes a loan, it simultaneously creates a matching deposit in the borrower's bank account, thereby creating new money." That is the central bank of the United Kingdom, in an official publication, confirming that the textbook most of us learned from is wrong. This is not heterodoxy; it is, on the mechanics, the orthodox position of the people who run the monetary system.
+
+:::expert
+The economist who pressed this point hardest, and then did something almost no one else had done — tested it — is Richard Werner. In a 2014 paper in the *International Review of Financial Analysis*, "Can banks individually create money out of nothing? — The theories and the empirical evidence", Werner ran the first empirical test in the history of banking on the question. Working with a cooperating German bank, Raiffeisenbank Wildenberg, he arranged to borrow money and watched the bank's internal accounting in real time as the loan was granted. The bank did not draw down its reserves, move money from other depositors, or borrow the funds from elsewhere; it created a new deposit by entering it into its records, exactly as the credit-creation account predicts. Werner distinguishes three theories that have competed in economics — that banks are intermediaries (the textbook view), that individual banks cannot create money but the system does collectively (the fractional-reserve view), and that each individual bank creates new money when it lends (the credit-creation view) — and his evidence, alongside the Bank of England's account, supports the third. It is worth being precise about what is and is not settled: the *mechanics* Werner demonstrated are now well corroborated, but the broader theory he builds on them, and especially the policy conclusions he draws, remain debated. This article rests on the corroborated mechanics; the next weighs the contested policy.
+:::
+
+Two cautions keep this from tipping into the genuinely fringe. First, the claim is about how *new* deposits originate — not that banks can create infinite money. In practice, bank lending is constrained, and tightly: by capital requirements that limit how much a bank can lend against its own equity, by the need to remain profitable and to attract deposits and reserves to settle payments with other banks, by regulation, and above all by the demand for loans from creditworthy borrowers. Banks create money, but within real limits. Second, the point is not that this is a scandal or a trick. It is simply how a modern monetary economy works, and it has worked this way for a long time. The scandal, if there is one, is not that banks create money. It is that we pay so little attention to what they create it *for*.
+
+## The small tiller and the large ship
+
+Hold the 95-to-97-percent figure in your mind, because it changes the scale of everything. If almost all the money in the economy is created by commercial banks deciding what to lend against, then the central bank's famous lever — the interest rate, agonised over each time the Monetary Policy Committee meets — is a comparatively small tiller on a very large ship. The interest rate influences the *price* of credit and thus, at the margin, how much borrowing happens. But the *direction* of the ship — what all that new money actually funds — is set by millions of individual lending decisions in the commercial banks, and that direction is barely discussed in public at all. We hold our breath for the Reserve Bank's rate decision and ignore the far larger question of where the banks are pointing the money they create. It is as if a nation obsessed over the thermostat setting while paying no attention to what was being cooked.
+
+This is not to say the interest rate does not matter — it does, and the last article showed how fiercely an open economy like South Africa's must guard its monetary credibility. But the rate is a single, blunt, economy-wide dial: it makes *all* credit a little dearer or cheaper at once, without distinguishing between a loan that builds a factory and a loan that bids up a beach house. It cannot steer; it can only speed up or slow down. The composition of credit — the *direction* of the ship — is left entirely to the commercial banks' own judgement of what is profitable and safe to lend against, and, as we are about to see, what is profitable and safe for an individual bank is not the same as what is most useful for the economy. The gap between those two things is where this part's argument finally comes to rest.
+
+## Productive credit and asset credit: the distinction that matters most
+
+This is the heart of the article, and it is Werner's most important contribution, so take it slowly. Not all credit is equal. The crucial divide is between credit that funds the *production* of new goods and services, and credit that funds the *purchase of assets that already exist*. Call them productive credit and asset credit, and once you see the line between them you will see it everywhere.
+
+Productive credit finances activity that adds to what the economy can make. A loan giving a manufacturer working capital to buy materials and pay workers; equipment finance letting a farmer buy a new irrigation system; a loan to a township small business to fit out its premises and hold stock; finance for a firm building a new plant — all of these put money into the creation of *new* output. They expand the productive capacity of the economy, they tend to create jobs, and the new goods and services they generate give the new money something real to buy, so they are not, in themselves, inflationary. This is credit doing the work the textbook imagines all credit does: channelling resources into production.
+
+Asset credit is different. It finances the transfer of things that already exist. A bond to buy an existing house; margin lending to buy shares already issued; finance to acquire an existing commercial building; a loan against a property portfolio. None of this creates any new good or service. The house, the shares, the building were all already there. What the new money does is bid up their *price*. And here is the mechanism that matters: because asset credit adds money to the demand for a fixed stock of existing assets, it raises their prices without raising output. The "wealth" it creates is asset-price inflation, not new production. An economy can therefore appear to be getting richer — house prices climbing, share portfolios swelling, a general sense of rising wealth — while it produces no more than before. The wealth is real to whoever owns the assets, but it is a revaluation of existing things, not the creation of new ones, and it is financed by credit that the banks created from nothing.
+
+Watch the mechanism work in the one market every South African understands: housing. Suppose banks become more willing to lend against homes — easier mortgages, larger bonds, lower deposits. More buyers can now bid for the same stock of existing houses, because the banks are creating the money that lets them bid. With more money chasing a roughly fixed supply of houses, prices rise. The family that already owns a home sees its value climb and feels wealthier; if they remortgage, the bank creates still more money against the higher valuation, and they can spend it. But nothing new has been built. The country has not gained a single additional house from this process — it has simply repriced the houses it already had, upward, using money the banks created from nothing. And the first-time buyer, the young worker who owns no home yet, is worse off: the price she must pay has risen, the deposit she must save has grown, and her wage has not moved with any of it. The very credit that made existing owners richer made her entry harder. Multiply that across a decades-long property boom and you have a powerful engine of wealth divergence — one that operates entirely through bank lending, touches no tax rate, and is almost never named in the public debate as what it is.
+
+Contrast that with what the same lending capacity could do if pointed the other way. A bank that instead extends working capital to a manufacturer, equipment finance to an emerging farmer, or a fit-out loan to a township retailer creates exactly the same kind of new money — but the money funds the making of new things. Jobs appear, output rises, and the new goods give the new money something real to buy. The bank's pen moves identically in both cases; what differs is the destination, and the destination is everything. This is why Werner insists that the single most consequential economic variable is not the quantity of credit but its *composition* — and why an economy can have a booming financial sector, soaring asset prices, and a stagnant real economy all at once, which is a fair description of long stretches of South Africa's recent history.
+
+Now connect this to the spine of the whole part. [What Tax Is For](/articles/eg-3-3-what-tax-is-for) showed that South Africa's asset *stock* is taxed lightly and is overwhelmingly old, concentrated and racially skewed. [The Double Taxation of Capital](/articles/eg-3-4-the-double-taxation-of-capital) showed that the *returns* to that stock are taxed heavily and twice when you try to extract them. This article adds the engine that drives the whole thing: that lightly taxed, heavily concentrated asset stock is *continuously revalued upward by asset credit*. Every wave of new lending against existing houses and shares pushes their prices higher. The people who already hold those assets watch their paper wealth grow, financed by bank credit, while the wage-earner trying to buy a first home chases a price that credit keeps pushing further out of reach. This — not the income-tax rate, not even the double taxation of dividends and gains — is the deeper machinery of who accumulates wealth and who does not. The asset-poor are not just taxed differently from the asset-rich. They are running up an escalator that bank credit keeps speeding up, while the asset-rich ride it. The tax debate, which is where the country spends almost all its argumentative energy, is fighting over a few percentage points of the flow while this vastly larger force reshapes the stock.
+
+## The cautionary histories
+
+The distinction is not merely theoretical; it has a body count, told in financial crises. Werner's own formative case is Japan, the subject of his book *Princes of the Yen* (2003). In the 1980s, Japanese banks poured credit into real estate and shares — asset credit on an enormous scale — and the result was one of history's great bubbles: Tokyo land prices reached levels at which the grounds of the Imperial Palace were said to be worth more than all of California. When the bubble burst at the start of the 1990s, Japan fell into the "lost decades" of stagnation from which it has never fully recovered. The 2008 global financial crisis tells a similar story: an enormous expansion of credit against *existing* housing in the United States and elsewhere, inflating a property bubble that, when it collapsed, took the world economy down with it. In both cases, the trouble was not credit as such — it was the *direction* of the credit, the fact that banks had created vast sums of new money to bid up the prices of existing assets rather than to build new productive capacity.
+
+It is only honest to add that economists differ about the causes of these crises, and that no single-variable theory explains everything about Japan or 2008 — regulation, global imbalances, financial engineering and plain mania all played parts. The productive-versus-asset distinction is offered here as a powerful *lens*, strongly argued and historically suggestive, not as a complete theory of every crisis. But you do not have to accept it as the whole story to find it illuminating. Even as one factor among several, the question "was this credit building new capacity or inflating old assets?" turns out to predict a great deal about whether a lending boom ends in broad prosperity or in a bust.
+
+South Africa has its own, milder version of the pattern, even without a single dramatic crash. Through the 2000s the country experienced a long surge in mortgage and household credit that helped drive house prices up faster than incomes for years, while investment in new productive capacity — factories, plant, the tradeable economy — lagged and the manufacturing share of the economy shrank. That is the asset-credit signature: paper wealth accumulating in existing property and financial assets, held disproportionately by those who already owned them, alongside an economy that was not building much new capacity or many new jobs. No one calls it a crisis because there was no single bursting bubble, only a slow, quiet divergence between those with assets to borrow against and those without. But the cumulative effect on who owns what, compounded over two decades, may matter more for South African inequality than any tax change debated in the same period — and it happened almost entirely below the waterline of public attention, in the ordinary, unremarkable business of banks deciding what to lend against.
+
+## The South African question we do not ask
+
+So bring it home, and notice that we have to bring it home as a *question*, not yet an answer — because the answer is partly hidden, and the hiddenness is itself part of the story. Does most new South African bank credit finance productive capacity, or the trading of existing assets? Anyone who has watched the long property boom, the scale of mortgage lending, and the comparative difficulty a township entrepreneur has in getting working capital will have a strong intuition that asset credit dominates and productive credit to new and small businesses is starved. But intuition is not data, and here is the uncomfortable truth: detailed, public, disaggregated figures on the productive-versus-asset split of South African bank credit are limited. We can see the broad categories — mortgages, instalment credit, overdrafts — but the clean split between "credit that built something new" and "credit that bid up something old" is not laid out for public scrutiny in the way tax statistics are.
+
+That opacity is not a minor data gap; it is the scandal at the centre of this article. We debate the corporate tax rate to the decimal point, in granular public detail, every February. We argue about VAT, about the fuel levy, about a sugar tax measured in cents. And meanwhile the far larger lever — the direction of the money that private banks create, which dwarfs the entire tax debate in its effect on growth, employment and inequality — operates almost entirely unscrutinised, because we do not even publish the numbers that would let us hold it to account. You cannot manage what you refuse to measure, and South Africa has chosen, in effect, not to look. The partial evidence that does exist lives in the South African Reserve Bank's banking and credit statistics — the BA900 returns that banks file, the private-sector credit-extension figures, and the data the National Credit Regulator collects — and a first, modest step toward taking this lever seriously would simply be to assemble and publish the productive-versus-asset breakdown that those sources could, with effort, yield.
+
+:::expert
+The South African Reserve Bank's own financial-stability work and its private-sector credit-extension data give the outline of the picture, even if the clean productive-versus-asset split is not published as such. The broad categories the SARB reports — mortgage advances, instalment sale and leasing finance, and "other loans and advances" — show an economy in which lending against property and to households for consumption looms large relative to credit extended to businesses for productive investment, and in which credit to small and emerging enterprises is a notably thin slice. Development-finance and small-business researchers in South Africa have long documented the same gap from the borrower's side: that an established firm or homeowner with collateral can raise bank credit comparatively easily, while a new, asset-poor entrepreneur with a genuinely productive idea struggles to get a hearing. The two observations describe the same machine from opposite ends — a banking system that finds it safer and more profitable to lend against existing assets than to fund the creation of new ones.
+:::
+
+## Setting up the lever
+
+If the composition of credit — productive versus asset — is the deepest lever this part has found, deeper than the tax rate, deeper than the question of monetary sovereignty, then an obvious question follows. Can policy influence where banks create money? Should it even try? Other countries have; the tools exist and have a track record. They also carry real dangers, especially in a country with South Africa's history of capturing and abusing exactly this kind of power. That is the subject of the final article, [The Real Lever](/articles/eg-3-8-the-real-lever), which turns this diagnosis into the hard question of what, if anything, to do about it. Hold on to the core of this article as you go, because everything in the next one rests on it: most money is created by banks when they lend; whether it builds new capacity or inflates old assets is the largest economic choice the country makes; and right now that choice is made by no one in particular, for no stated purpose, and measured by almost nobody.
+
+## Practical Framework: Follow the New Money
+
+:::takeaway
+Banks are not middlemen lending out savings; they create new money when they lend, and 95–97% of South Africa's money was made this way — a fact the Bank of England itself confirms. The decisive question is therefore not the tax rate but what that new money is created for. Productive credit (a factory, a farm, a small business) builds output and jobs; asset credit (an existing house, listed shares, an existing building) merely bids up the price of things that already exist. Asset credit relentlessly inflates the same lightly taxed, concentrated asset stock the earlier articles described — so the asset-poor chase prices that credit pushes ever higher. South Africa argues about tax in granular public detail while this far larger lever operates unmeasured and unwatched.
+:::
+
+Once you grasp that most money is created by bank lending and that its direction is what matters, you can read credit and house-price headlines in a completely different way. Here is the lens.
+
+:::framework
+**Follow the New Money**
+
+For any reported lending trend or asset-price story, work through four questions.
+
+**1. Is this new credit financing something *new* or transferring something *existing*?**
+
+Distinguish productive credit (funding the creation of new goods, services, capacity — a factory, equipment, a new business) from asset credit (funding the purchase of existing houses, shares, or buildings). The first adds to output; the second mostly adds to price. Most lending booms are dominated by the second, which is why "rising wealth" so often coexists with flat production.
+
+**2. If asset credit dominates, who gains and who is shut out?**
+
+Asset credit inflates the prices of assets people already own, so it rewards existing asset holders. Ask who is on the other side: first-time buyers priced out of housing, and workers whose wages do not rise with asset prices. A credit boom in existing assets is, in effect, a transfer from those building wealth to those already holding it.
+
+**3. What does the trend imply for output and jobs, versus prices?**
+
+Productive credit shows up later as new capacity, employment and goods. Asset credit shows up as higher prices for existing things. When you read that "lending is booming", ask which kind — because one builds the economy and the other mainly revalues it.
+
+**4. Where would you check?**
+
+The partial South African evidence sits in the Reserve Bank's BA900 bank returns and private-sector credit-extension data, and in National Credit Regulator statistics. The fuller productive-versus-asset breakdown is not routinely published — which is itself a finding. Asking for it is the first step to managing the lever.
+
+This lens will not, on its own, tell you what policy should do. But it will let you see the largest force in the economy that the public debate almost entirely ignores — and seeing it is the precondition for everything in the next article.
+:::
+
+## Resources
+
+The analysis in this article draws on the following sources. The mechanics of bank money creation are well corroborated; Werner's broader framework and policy conclusions are presented as argued positions.
+
+- Bank of England — Michael McLeay, Amar Radia and Ryland Thomas, "Money creation in the modern economy", *Quarterly Bulletin* 2014 Q1, the authoritative central-bank account of how banks create money — [www.bankofengland.co.uk](https://www.bankofengland.co.uk)
+- Richard A. Werner — "Can banks individually create money out of nothing? — The theories and the empirical evidence", *International Review of Financial Analysis*, vol. 36 (2014), the first empirical test of the question — [www.sciencedirect.com](https://www.sciencedirect.com/science/article/pii/S1057521914001070)
+- Richard A. Werner — *Princes of the Yen: Japan's Central Bankers and the Transformation of the Economy* (2003), for the Japanese asset-credit bubble and the productive-versus-asset distinction
+- Richard A. Werner — "A Lost Century in Economics: Three theories of banking and the conclusive evidence", *International Review of Financial Analysis*, vol. 46 (2016)
+- South African Reserve Bank — the BA900 bank return data and private-sector credit-extension statistics, the partial South African evidence on the composition of bank credit — [www.resbank.co.za](https://www.resbank.co.za)
+- National Credit Regulator — statistics on consumer and mortgage credit in South Africa — [www.ncr.org.za](https://www.ncr.org.za)
