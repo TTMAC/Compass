@@ -2,8 +2,8 @@
 title: "The Political Economy of Growth"
 subtitle: "Winners and Losers, the Social Compact, Trade Diplomacy, and Why Economic Reform Is Always a Political Question"
 pillar: "economic-growth"
-part: 5
-articleNumber: "5.1"
+part: 6
+articleNumber: "6.1"
 tags:
   - "political-economy"
   - "social-compact"
@@ -15,14 +15,14 @@ publishDate: 2029-03-15
 readingTime: 30
 status: "draft"
 series:
-  prev: "eg-4-4-the-scorecard-synthesis"
-  next: "eg-5-2-from-strategy-to-reality"
+  prev: "eg-5-4-the-scorecard-synthesis"
+  next: "eg-6-2-from-strategy-to-reality"
 crossLinks:
   - slug: "1-1-architecture-of-the-state"
     label: "The Architecture of the State"
     relationship: "Parliamentary accountability mechanisms"
 seo:
-  ogImage: "/og/eg-5-1-the-political-economy-of-growth.png"
+  ogImage: "/og/eg-6-1-the-political-economy-of-growth.png"
   keywords:
     - "political economy South Africa"
     - "economic reform winners losers"
@@ -63,7 +63,7 @@ South Africa illustrates this dynamic with painful clarity. The National Develop
 
 To understand why reform stalls, you need to map the specific winners and losers of each major policy area. Abstract discussions about "vested interests" are not useful. What is useful is identifying, with precision, which organisations, industries, and constituencies stand to gain or lose from each proposed reform — and then assessing whether the winners are more politically powerful than the losers.
 
-![Every reform redistributes income and risk — naming the affected groups is the first political task | Photo by Ehimetalor Akhere Unuabona on Unsplash](/images/articles/eg-5-1-the-political-economy-of-growth/img-1.webp)
+![Every reform redistributes income and risk — naming the affected groups is the first political task | Photo by Ehimetalor Akhere Unuabona on Unsplash](/images/articles/eg-6-1-the-political-economy-of-growth/img-1.webp)
 
 Let us work through the four major reform areas covered in this series.
 
@@ -137,7 +137,7 @@ Governance researchers at institutions including the Wits School of Governance, 
 
 The concept of a social compact is straightforward: it is a negotiated agreement among government, business, labour, and civil society on the terms of economic transition. It says, in effect: we agree that the economy needs to change, we agree on the broad direction of change, we agree on how the costs and benefits will be distributed, and we commit to supporting the reform process even when it imposes costs on our own constituency.
 
-![Social compacts work when government, labour and business each give up something they value | Photo by ANNIE HATUANH on Unsplash](/images/articles/eg-5-1-the-political-economy-of-growth/img-2.webp)
+![Social compacts work when government, labour and business each give up something they value | Photo by ANNIE HATUANH on Unsplash](/images/articles/eg-6-1-the-political-economy-of-growth/img-2.webp)
 
 Social compacts have been the vehicle through which several countries managed difficult economic transitions without either authoritarian coercion or political paralysis. Three cases are particularly instructive for South Africa.
 
@@ -203,7 +203,7 @@ Research on South Africa's trade and industrial policy — including work by sch
 
 There is one more political institution that should be central to the political economy of reform but has largely failed to play its role: Parliament.
 
-![Parliament is where reform trade-offs should be debated openly rather than negotiated behind closed doors | Photo by Vitaly Gariev on Unsplash](/images/articles/eg-5-1-the-political-economy-of-growth/img-3.webp)
+![Parliament is where reform trade-offs should be debated openly rather than negotiated behind closed doors | Photo by Vitaly Gariev on Unsplash](/images/articles/eg-6-1-the-political-economy-of-growth/img-3.webp)
 
 As described in [The Architecture of the State](/articles/1-1-architecture-of-the-state), South Africa's Parliament is structured with portfolio committees that are supposed to exercise oversight over executive departments. The Portfolio Committee on Trade, Industry and Competition should scrutinise industrial policy implementation. The Portfolio Committee on Mineral Resources and Energy should hold the minister accountable for beneficiation strategy. The Portfolio Committee on Public Enterprises should oversee SOE reform. The Standing Committee on Finance and the Standing Committee on Appropriations should ensure that budgets align with strategic priorities.
 
@@ -215,7 +215,7 @@ Second, the party-list proportional representation system creates incentives tha
 
 Third, committees lack independent research capacity. The Parliamentary Research Unit provides support, but its capacity is limited relative to the complexity of the policy areas it covers. By contrast, the United States Congress has the Congressional Budget Office, the Congressional Research Service, and the Government Accountability Office — substantial independent research institutions that give legislators the analytical firepower to challenge executive claims. South Africa's Parliament has nothing comparable.
 
-The consequence is that economic reform lacks an institutional accountability mechanism. The executive can announce strategies, set targets, and allocate budgets — and then fail to deliver — without facing meaningful parliamentary scrutiny. The NDP's implementation failures have never been the subject of a comprehensive parliamentary investigation. NEDLAC's non-implementation of negotiated agreements has never been systematically reviewed by a committee. The gap between infrastructure commitments and infrastructure delivery — documented in [Infrastructure Planning vs Reality](/articles/eg-4-3-infrastructure-planning-vs-reality) — has been lamented by parliamentarians but not systematically addressed through the oversight mechanisms at their disposal.
+The consequence is that economic reform lacks an institutional accountability mechanism. The executive can announce strategies, set targets, and allocate budgets — and then fail to deliver — without facing meaningful parliamentary scrutiny. The NDP's implementation failures have never been the subject of a comprehensive parliamentary investigation. NEDLAC's non-implementation of negotiated agreements has never been systematically reviewed by a committee. The gap between infrastructure commitments and infrastructure delivery — documented in [Infrastructure Planning vs Reality](/articles/eg-5-3-infrastructure-planning-vs-reality) — has been lamented by parliamentarians but not systematically addressed through the oversight mechanisms at their disposal.
 
 Strengthening parliamentary accountability is not a technocratic reform — it is a political economy reform. Effective parliamentary oversight creates a political cost for non-implementation. When a minister knows that the portfolio committee will conduct a rigorous public review of whether beneficiation targets were met, whether infrastructure was delivered on schedule, and whether MSME support programmes produced results, the political incentive to actually implement changes. Without that accountability, strategy documents remain documents — aspirational statements that impose no political cost when they are ignored.
 
@@ -295,7 +295,7 @@ Third, you can hold your political representatives accountable for implementatio
 
 Fourth, you can support the institutions that produce the evidence base for reform. Organisations like the Public Affairs Research Institute, Trade and Industrial Policy Strategies, the Human Sciences Research Council, the Centre for Development and Enterprise, and university-based research centres produce the analysis that informs reform design and monitors reform implementation. Their work is publicly available. Reading it, sharing it, and citing it in public discourse raises the quality of democratic debate and makes it harder for vested interests to distort the facts.
 
-The transition from economic strategy to economic reality — the subject of the next article in this series, [From Strategy to Reality](/articles/eg-5-2-from-strategy-to-reality) — is fundamentally a political economy challenge. The strategies exist. The technical knowledge exists. What has been missing is the political management of reform — the deliberate, disciplined construction of reform coalitions, the compensation of losers, the strengthening of accountability institutions, and the sustained political commitment to implementation in the face of resistance.
+The transition from economic strategy to economic reality — the subject of the next article in this series, [From Strategy to Reality](/articles/eg-6-2-from-strategy-to-reality) — is fundamentally a political economy challenge. The strategies exist. The technical knowledge exists. What has been missing is the political management of reform — the deliberate, disciplined construction of reform coalitions, the compensation of losers, the strengthening of accountability institutions, and the sustained political commitment to implementation in the face of resistance.
 
 South Africa's economic future depends not on producing better strategy documents. It depends on building the political conditions under which existing strategies can be implemented. That is the work of political economy management, and it is work that every citizen can contribute to.
 
@@ -327,7 +327,7 @@ If the answer to Question 5 is "no" and the answer to Question 4 is "nothing," t
 
 This is the fundamental insight of political economy: good policy is necessary but not sufficient. Good policy plus good political management is what produces change. South Africa has had no shortage of the former. Its future depends on developing the latter.
 
-The next article in this series, [From Strategy to Reality](/articles/eg-5-2-from-strategy-to-reality), takes this framework and applies it to the specific implementation challenges that stand between South Africa's current economic trajectory and the growth path outlined in this series. And the final article, [Your Economic Citizenship](/articles/eg-5-3-your-economic-citizenship), gives you a personal action framework for contributing to the political conditions that make reform possible.
+The next article in this series, [From Strategy to Reality](/articles/eg-6-2-from-strategy-to-reality), takes this framework and applies it to the specific implementation challenges that stand between South Africa's current economic trajectory and the growth path outlined in this series. And the final article, [Your Economic Citizenship](/articles/eg-6-3-your-economic-citizenship), gives you a personal action framework for contributing to the political conditions that make reform possible.
 
 ## Resources
 

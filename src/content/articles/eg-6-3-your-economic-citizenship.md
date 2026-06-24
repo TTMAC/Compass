@@ -2,8 +2,8 @@
 title: "Your Economic Citizenship"
 subtitle: "Reading the MTBPS, Using the Municipal Performance Index, Engaging Local Economic Development, and Evaluating Economic Promises"
 pillar: "economic-growth"
-part: 5
-articleNumber: "5.3"
+part: 6
+articleNumber: "6.3"
 tags:
   - "citizen-toolkit"
   - "MTBPS"
@@ -16,7 +16,7 @@ publishDate: 2029-03-15
 readingTime: 30
 status: "draft"
 series:
-  prev: "eg-5-2-from-strategy-to-reality"
+  prev: "eg-6-2-from-strategy-to-reality"
   next: null
 crossLinks:
   - slug: "3-3-municipal-councils"
@@ -26,7 +26,7 @@ crossLinks:
     label: "Following the Money"
     relationship: "National budget framework"
 seo:
-  ogImage: "/og/eg-5-3-your-economic-citizenship.png"
+  ogImage: "/og/eg-6-3-your-economic-citizenship.png"
   keywords:
     - "MTBPS citizen guide"
     - "municipal performance index tool"
@@ -61,7 +61,7 @@ Now it is your turn.
 
 Every October, the Minister of Finance tables the Medium Term Budget Policy Statement in Parliament. The MTBPS is not the budget itself — the full budget arrives in February — but **it is in many ways the more important document for understanding the government's actual economic priorities.** The February budget is constrained by the fiscal framework that the MTBPS establishes. By October, the strategic choices have already been made. The February budget fills in the details; the MTBPS reveals the direction.
 
-![The MTBPS is the single best annual document for tracking whether economic promises survive contact with the fiscus | Photo by Mathias Reding on Unsplash](/images/articles/eg-5-3-your-economic-citizenship/img-1.webp)
+![The MTBPS is the single best annual document for tracking whether economic promises survive contact with the fiscus | Photo by Mathias Reding on Unsplash](/images/articles/eg-6-3-your-economic-citizenship/img-1.webp)
 
 You can access the MTBPS on the National Treasury website (treasury.gov.za) on the day it is tabled. The full document is typically between 80 and 120 pages, but you do not need to read all of it. What you need is a structured approach to extracting the information that matters for evaluating economic policy against the framework you have built over this series.
 
@@ -115,7 +115,7 @@ Once you have assembled this data for your municipality, you have a crude but fu
 
 Local Economic Development — LED — is one of the most important and least understood functions of local government in South Africa. The Constitution assigns economic development responsibilities across all three spheres of government, but it is at the local level where economic policy meets the lived reality of communities. Your municipality's LED strategy determines whether industrial land is zoned and serviced, whether small business support programmes are available, whether local procurement policies favour local suppliers, whether investment promotion is active, and whether the regulatory environment enables or inhibits economic activity.
 
-![Local Economic Development units are where most citizens can shape economic policy in practice | Photo by Age Cymru on Unsplash](/images/articles/eg-5-3-your-economic-citizenship/img-2.webp)
+![Local Economic Development units are where most citizens can shape economic policy in practice | Photo by Age Cymru on Unsplash](/images/articles/eg-6-3-your-economic-citizenship/img-2.webp)
 
 The National Framework for Local Economic Development, published by the Department of Cooperative Governance and Traditional Affairs (COGTA) in collaboration with the Department of Economic Development, provides the policy foundation for LED in South Africa. It defines LED as "an outcome of the actions of local people and communities to build up economic activity and so generate employment within their locality." This is a deliberately broad definition, and the framework recognises that LED strategies must be tailored to local economic conditions — what works in the City of Johannesburg will not work in a rural district municipality in the Eastern Cape.
 
@@ -175,7 +175,7 @@ South African economists and political economy researchers — including those a
 
 General elections in South Africa occur every five years, with the next national and provincial elections following the 2024 cycle. In the months before an election, every political party publishes a manifesto — a document outlining its policy positions and commitments across multiple domains, including the economy. These manifestos are the formal, documented basis on which parties ask for your vote. They deserve more serious scrutiny than they typically receive.
 
-![Manifestos deserve to be read against a fixed checklist rather than evaluated on rhetoric alone | Photo by Ernie Journeys on Unsplash](/images/articles/eg-5-3-your-economic-citizenship/img-3.webp)
+![Manifestos deserve to be read against a fixed checklist rather than evaluated on rhetoric alone | Photo by Ernie Journeys on Unsplash](/images/articles/eg-6-3-your-economic-citizenship/img-3.webp)
 
 When you read a party manifesto's economic section, apply the six-question framework systematically. But also look for several additional features that distinguish serious economic thinking from rhetorical posturing.
 
@@ -263,7 +263,7 @@ You now have the knowledge to engage with these decisions. You understand the gr
 
 What remains is the hardest part: actually doing it. Downloading the MTBPS in October and spending two hours with it. Attending the IDP public participation session in March with a printed scorecard. Writing to the Standing Committee on Finance when the infrastructure allocation does not match the infrastructure gap. Lodging a Public Protector complaint when your municipality's capital expenditure drops below acceptable levels for the third year running. Asking your ward councillor, on the record, what the municipality is doing about its qualified audit.
 
-None of this is glamorous. _Economic citizenship is not a revolution; it is a practice._ It is the accumulated effect of thousands of informed citizens making the government's own data visible, asking questions that require data-driven answers, and using the formal accountability mechanisms that the Constitution created but that remain underutilised. As we noted in [Watching the Watchers](/articles/eg-3-3-watching-the-watchers), the gap between measurement and action is where accountability goes to die. Your job — your economic citizenship — is to close that gap.
+None of this is glamorous. _Economic citizenship is not a revolution; it is a practice._ It is the accumulated effect of thousands of informed citizens making the government's own data visible, asking questions that require data-driven answers, and using the formal accountability mechanisms that the Constitution created but that remain underutilised. As we noted in [Watching the Watchers](/articles/eg-4-3-watching-the-watchers), the gap between measurement and action is where accountability goes to die. Your job — your economic citizenship — is to close that gap.
 
 The economy belongs to all of us. It is time we governed it that way.
 

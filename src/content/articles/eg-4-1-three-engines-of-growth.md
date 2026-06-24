@@ -2,8 +2,8 @@
 title: "Three Engines of Growth"
 subtitle: "New Ventures, New Exports, New Financing — The Cross-Cutting Strategies That Power Every Stage of South Africa's Growth Path"
 pillar: "economic-growth"
-part: 3
-articleNumber: "3.1"
+part: 4
+articleNumber: "4.1"
 tags:
   - "entrepreneurship"
   - "MSME"
@@ -16,14 +16,14 @@ publishDate: 2028-11-01
 readingTime: 30
 status: "draft"
 series:
-  prev: "eg-2-5-innovation-driven-growth"
-  next: "eg-3-2-the-execution-machine"
+  prev: "eg-3-8-the-real-lever"
+  next: "eg-4-2-the-execution-machine"
 crossLinks:
   - slug: "3-3-municipal-councils"
     label: "Municipal Councils"
     relationship: "Local economic development and municipal finance"
 seo:
-  ogImage: "/og/eg-3-1-three-engines-of-growth.png"
+  ogImage: "/og/eg-4-1-three-engines-of-growth.png"
   keywords:
     - "South Africa growth engines"
     - "MSME entrepreneurship South Africa"
@@ -41,13 +41,13 @@ Think of the three engines this way. New venture creation determines how many bu
 
 The numbers make the integration clear. South Africa's economy is dominated by a remarkably small number of large firms. **The top forty JSE-listed companies account for a disproportionate share of formal employment, tax revenue, and export earnings.** The export basket is narrow: minerals (platinum group metals, gold, iron ore, coal, manganese), vehicles (assembled under preferential trade agreements), and agriculture (citrus, wine, deciduous fruit) account for the bulk of merchandise exports. And the financing system is structured around the needs of those large firms. The four major commercial banks — Standard Bank, FirstRand, Absa, and Nedbank — lend overwhelmingly to established corporates and to households via mortgages and consumer credit. **The small business lending gap is not a footnote in South Africa's growth story. It is one of the central explanations for why growth has stalled.**
 
-This article examines each engine in turn, but the core argument is that they only work as a system. More ventures without export market access produce businesses that compete for slices of a stagnant domestic pie. Export diversification without venture creation means that the same small number of large firms capture the new opportunities while unemployment remains structurally embedded. And financing without viable ventures to fund and viable markets to sell into produces non-performing loans and wasted development finance. The integrated system — more businesses producing more products for more markets with more access to capital — is the growth strategy. Everything else is implementation detail. The institutional coordination required to make the system work is the subject of [The Execution Machine](/articles/eg-3-2-the-execution-machine). This article gives you the substance that the execution machine must coordinate.
+This article examines each engine in turn, but the core argument is that they only work as a system. More ventures without export market access produce businesses that compete for slices of a stagnant domestic pie. Export diversification without venture creation means that the same small number of large firms capture the new opportunities while unemployment remains structurally embedded. And financing without viable ventures to fund and viable markets to sell into produces non-performing loans and wasted development finance. The integrated system — more businesses producing more products for more markets with more access to capital — is the growth strategy. Everything else is implementation detail. The institutional coordination required to make the system work is the subject of [The Execution Machine](/articles/eg-4-2-the-execution-machine). This article gives you the substance that the execution machine must coordinate.
 
 ## Engine One: New Venture Creation and Scaling
 
 ### The Entrepreneurship Deficit
 
-![Small and medium firms are where most net new jobs are created in successful economies | Photo by Vitaly Gariev on Unsplash](/images/articles/eg-3-1-three-engines-of-growth/img-1.webp)
+![Small and medium firms are where most net new jobs are created in successful economies | Photo by Vitaly Gariev on Unsplash](/images/articles/eg-4-1-three-engines-of-growth/img-1.webp)
 
 South Africa does not have a shortage of people who want to start businesses. It has a shortage of people who successfully do. The Global Entrepreneurship Monitor (GEM), which has tracked entrepreneurial activity across countries since 1999, consistently ranks South Africa's _Total Early-Stage Entrepreneurial Activity (TEA) rate_ — the percentage of the working-age population actively starting or running a new business — well below comparator countries. **South Africa's TEA rate has hovered between roughly seven and eleven per cent over the past decade.** Compare that to Chile (around twenty-five per cent), Brazil (around twenty per cent), or even Botswana (around fifteen per cent in recent surveys). The gap is not marginal. **South Africa's early-stage entrepreneurship rate is roughly half that of peer economies at similar income levels.**
 
@@ -99,7 +99,7 @@ South Africa's entrepreneurship deficit is structural, not cultural. The country
 
 ### The Narrow Basket Problem
 
-![Export diversification reduces commodity risk and forces firms to compete at world standards | Photo by Haris Illahi on Unsplash](/images/articles/eg-3-1-three-engines-of-growth/img-2.webp)
+![Export diversification reduces commodity risk and forces firms to compete at world standards | Photo by Haris Illahi on Unsplash](/images/articles/eg-4-1-three-engines-of-growth/img-2.webp)
 
 South Africa's export structure tells a story of unrealised potential. The Harvard Growth Lab's Atlas of Economic Complexity, which maps every country's export basket and calculates an _Economic Complexity Index (ECI)_, ranks South Africa in the middle of the global distribution — **roughly 50th to 60th out of approximately 130 countries, depending on the year.** That ranking is lower than you would expect for an economy of South Africa's size, industrial history, and institutional sophistication. It is lower than Chile, lower than Malaysia, and substantially lower than South Korea or any of the East Asian manufacturing economies.
 
@@ -147,7 +147,7 @@ South Africa's export basket is narrow and, on some measures, becoming narrower.
 
 ### How Businesses Are Financed
 
-![New financing vehicles channel domestic savings into the productive economy | Photo by Markus Winkler on Unsplash](/images/articles/eg-3-1-three-engines-of-growth/img-3.webp)
+![New financing vehicles channel domestic savings into the productive economy | Photo by Markus Winkler on Unsplash](/images/articles/eg-4-1-three-engines-of-growth/img-3.webp)
 
 Every business, from a spaza shop to a multinational corporation, is financed through some combination of two fundamental sources: equity (ownership capital — the money that founders, partners, or investors put in, in exchange for a share of the business) and debt (borrowed capital — money that must be repaid, usually with interest, regardless of whether the business succeeds or fails). The mix between equity and debt that a business uses — its capital structure — is not arbitrary. It depends on several factors.
 
@@ -189,7 +189,7 @@ First, the DFIs themselves often replicate the lending practices of commercial b
 
 Second, the DFIs are undercapitalised relative to the scale of the problem. **The missing middle in South Africa is estimated at hundreds of billions of rands** — the aggregate unmet demand for financing from MSMEs that have viable business propositions but cannot access credit. No single DFI, and indeed not all of them combined, has the balance sheet capacity to fill that gap through direct lending. The solution must involve leveraging private capital, not substituting for it.
 
-Third, coordination among the DFIs is weak. The IDC, DBSA, NEF, SEFA, and various provincial development agencies operate with overlapping mandates, different application processes, and limited information sharing. A business that is declined by one institution may not be referred to another that might be a better fit. The ecosystem is fragmented in the same way that the non-financial MSME support system is fragmented — a pattern of institutional proliferation without institutional coordination that [The Execution Machine](/articles/eg-3-2-the-execution-machine) addresses directly.
+Third, coordination among the DFIs is weak. The IDC, DBSA, NEF, SEFA, and various provincial development agencies operate with overlapping mandates, different application processes, and limited information sharing. A business that is declined by one institution may not be referred to another that might be a better fit. The ecosystem is fragmented in the same way that the non-financial MSME support system is fragmented — a pattern of institutional proliferation without institutional coordination that [The Execution Machine](/articles/eg-4-2-the-execution-machine) addresses directly.
 
 :::expert
 FinMark Trust, in its series of studies on MSME access to finance in South Africa, quantified the missing middle with unusual precision. Using survey data from thousands of small business owners, FinMark estimated that the unmet demand for MSME credit — the gap between what qualifying small businesses need and what the formal financial system provides — runs into hundreds of billions of rands annually. The studies found that fewer than fifteen per cent of MSMEs had accessed formal credit from a bank or DFI, while a substantial additional proportion had been declined or had not applied because they expected to be declined. The "discouraged borrower" effect — where potential borrowers self-select out of the credit market because they perceive the application process as hopeless — was found to be as significant as actual credit rationing. FinMark's analysis concluded that the missing middle is not a temporary market imperfection that will self-correct as the economy matures. It is a structural feature of the South African financial system that requires deliberate, sustained policy intervention to address.
@@ -239,7 +239,7 @@ You can track the performance of the three engines using publicly available data
 
 For each category, the dashboard should track not just the current level but the trend and the gap. What is the current venture creation rate, is it improving, and how far is it from comparator country benchmarks? What is the current export diversification index, is the basket broadening or narrowing, and how does South Africa compare to Chile, Malaysia, and other peers? What is the current volume of MSME lending, is it growing as a share of total credit, and how does it compare to the estimated demand? The gap between current performance and comparator benchmarks is your measure of unrealised potential. The trend tells you whether policy is working.
 
-You do not need to be an economist to use this dashboard. You need three numbers for each engine — current level, trend, and comparator benchmark — and the willingness to ask why the gaps exist and who is accountable for closing them. That accountability question leads directly to the institutional architecture examined in [The Execution Machine](/articles/eg-3-2-the-execution-machine).
+You do not need to be an economist to use this dashboard. You need three numbers for each engine — current level, trend, and comparator benchmark — and the willingness to ask why the gaps exist and who is accountable for closing them. That accountability question leads directly to the institutional architecture examined in [The Execution Machine](/articles/eg-4-2-the-execution-machine).
 
 :::framework
 **The Growth Engine Dashboard**

@@ -2,8 +2,8 @@
 title: "The Municipal Performance Index"
 subtitle: "A Quantitative Framework for Ranking South Africa's 257 Municipalities — Methodology, Pillars, Indicators, and Data Sources"
 pillar: "economic-growth"
-part: 4
-articleNumber: "4.1"
+part: 5
+articleNumber: "5.1"
 tags:
   - "MPI"
   - "municipal-performance"
@@ -16,14 +16,14 @@ publishDate: 2029-01-15
 readingTime: 30
 status: "draft"
 series:
-  prev: "eg-3-3-watching-the-watchers"
-  next: "eg-4-2-the-metro-rankings"
+  prev: "eg-4-3-watching-the-watchers"
+  next: "eg-5-2-the-metro-rankings"
 crossLinks:
   - slug: "3-3-municipal-councils"
     label: "Municipal Councils"
     relationship: "Municipal finance data"
 seo:
-  ogImage: "/og/eg-4-1-the-municipal-performance-index.png"
+  ogImage: "/og/eg-5-1-the-municipal-performance-index.png"
   keywords:
     - "municipal performance index South Africa"
     - "municipality ranking framework"
@@ -36,17 +36,17 @@ seo:
 
 South Africa has 257 municipalities, and there is no single, publicly available index that tells you how well each one is performing across the dimensions that matter most for economic growth and service delivery. This article builds one. The Municipal Performance Index (MPI) is a quantitative framework that scores every municipality on four pillars — Economic Development, Service Delivery, Governance and Finance, and Infrastructure and Sustainability — using publicly available data from Statistics South Africa, National Treasury, the Auditor-General, and the Department of Water and Sanitation. Each pillar contains between three and six measurable indicators. Each indicator is normalised to a 0-to-100 scale so that different units (percentages, rand values, institutional ratings) can be compared on equal terms. The pillar scores are combined using a weighted geometric mean — a method that rewards balanced performance and penalises municipalities that score well on one dimension while collapsing on another. The result is a single overall score, from 0 to 100, for every municipality in the country, classified into four performance tiers: High Performance (70 and above), Moderate (55 to 69), Needs Improvement (40 to 54), and Critical (below 40).
 
-If you have been following this series, you already know why this matters. [Watching the Watchers](/articles/eg-3-3-watching-the-watchers) showed you that South Africa has invested heavily in the infrastructure of measurement but underinvested in the infrastructure of consequence. The Auditor-General audits every municipality annually. National Treasury publishes quarterly financial data through its Section 71 reports. Stats SA conducts the Census, the General Household Survey, and the Quarterly Labour Force Survey. The Department of Water and Sanitation publishes Blue Drop and Green Drop scores for water and wastewater quality. The data exists. What does not exist is a framework that synthesises all of it into a single, comparable, transparent score that allows you — an ordinary citizen, a journalist, a councillor, a researcher — to answer the question: is my municipality getting better or worse, and how does it compare to similar municipalities?
+If you have been following this series, you already know why this matters. [Watching the Watchers](/articles/eg-4-3-watching-the-watchers) showed you that South Africa has invested heavily in the infrastructure of measurement but underinvested in the infrastructure of consequence. The Auditor-General audits every municipality annually. National Treasury publishes quarterly financial data through its Section 71 reports. Stats SA conducts the Census, the General Household Survey, and the Quarterly Labour Force Survey. The Department of Water and Sanitation publishes Blue Drop and Green Drop scores for water and wastewater quality. The data exists. What does not exist is a framework that synthesises all of it into a single, comparable, transparent score that allows you — an ordinary citizen, a journalist, a councillor, a researcher — to answer the question: is my municipality getting better or worse, and how does it compare to similar municipalities?
 
 The MPI is designed to answer that question. It is not designed to replace the detailed analyses that institutions like the Auditor-General and National Treasury produce. It is designed to make those analyses accessible and actionable. A municipality's audit outcome matters, but it matters more when you can see it in context — alongside that municipality's service delivery record, its economic development performance, and its infrastructure investment execution. The MPI provides that context. And because the methodology is transparent and the data sources are public, you can verify every score, challenge every ranking, and hold every municipal council accountable for its performance against objective benchmarks.
 
-This article gives you the complete methodology. By the end, you will understand exactly how the MPI works, why each design choice was made, and how to calculate a score yourself. If you want to see the results — the actual rankings — you will find them in [The Metro Rankings](/articles/eg-4-2-the-metro-rankings). If you want to understand the municipal governance structures that produce these outcomes, start with [Municipal Councils](/articles/3-3-municipal-councils).
+This article gives you the complete methodology. By the end, you will understand exactly how the MPI works, why each design choice was made, and how to calculate a score yourself. If you want to see the results — the actual rankings — you will find them in [The Metro Rankings](/articles/eg-5-2-the-metro-rankings). If you want to understand the municipal governance structures that produce these outcomes, start with [Municipal Councils](/articles/3-3-municipal-councils).
 
 ## Why a Municipal Performance Index Matters
 
 **Economic growth does not happen at national level. It happens in specific places.** A factory opens in a specific municipality. A small business registers in a specific town. A young person finds or fails to find a job in a specific local economy. The national GDP growth rate is an average that conceals enormous variation between places. In any given year, some South African municipalities are growing employment, attracting investment, and delivering services effectively, while others are losing businesses, shedding jobs, and allowing infrastructure to collapse. The national statistics tell you about the average. The MPI tells you about the distribution.
 
-![A single comparable score lets residents see how their municipality performs against peers | Photo by Jason Richard on Unsplash](/images/articles/eg-4-1-the-municipal-performance-index/img-1.webp)
+![A single comparable score lets residents see how their municipality performs against peers | Photo by Jason Richard on Unsplash](/images/articles/eg-5-1-the-municipal-performance-index/img-1.webp)
 
 This matters for several reasons. The first is accountability. South Africa holds local government elections every five years. Voters are asked to choose between parties and candidates who promise to improve their municipality. But on what basis do you evaluate whether the previous administration succeeded or failed? Anecdotes and lived experience are valuable but incomplete. A pothole on your street tells you something about road maintenance, but it tells you nothing about the municipality's debt collection rate, its capital expenditure execution, or its performance on water quality standards. The MPI gives you a structured basis for evaluation — not a substitute for your own experience, but a complement to it.
 
@@ -94,7 +94,7 @@ These weights are not arbitrary. They reflect the structural differences between
 
 Each pillar contains a set of indicators drawn from publicly available data sources. This section explains every indicator, what it measures, why it was chosen, and where the data comes from.
 
-![Indicators draw from financial, service-delivery, governance and economic data already in the public record | Photo by Jolame Chirwa on Unsplash](/images/articles/eg-4-1-the-municipal-performance-index/img-2.webp)
+![Indicators draw from financial, service-delivery, governance and economic data already in the public record | Photo by Jolame Chirwa on Unsplash](/images/articles/eg-5-1-the-municipal-performance-index/img-2.webp)
 
 ### Economic Development Indicators
 
@@ -194,7 +194,7 @@ A score below 40 places a municipality in the Critical tier. These municipalitie
 
 The MPI draws on data from a defined set of public sources. Transparency about data origins is essential because it allows you to verify any score the MPI produces and to challenge any ranking you believe is inaccurate.
 
-![Treasury, Stats SA and the Auditor-General publish the raw data the MPI assembles | Photo by 1981 Digital on Unsplash](/images/articles/eg-4-1-the-municipal-performance-index/img-3.webp)
+![Treasury, Stats SA and the Auditor-General publish the raw data the MPI assembles | Photo by 1981 Digital on Unsplash](/images/articles/eg-5-1-the-municipal-performance-index/img-3.webp)
 
 Statistics South Africa (Stats SA) provides the economic and demographic data through several instruments. The Quarterly Labour Force Survey, published four times a year, provides unemployment and employment data at the metro level and for some secondary cities. The Census, most recently conducted in 2022, provides comprehensive municipal-level data on service access (water, sanitation, electricity, refuse removal), demographics, and economic activity. The General Household Survey, published annually, provides supplementary household-level data on service delivery and living conditions. All Stats SA data is available at statssa.gov.za.
 
@@ -338,4 +338,4 @@ The analysis in this article draws on the following institutional research and p
 
 - South African Local Government Association (SALGA) — municipal barometer offering supplementary institutional data — [salga.org.za](https://salga.org.za)
 
-- For citizens seeking to engage directly with their municipality's performance, [Your Economic Citizenship](/articles/eg-5-3-your-economic-citizenship) provides practical guidance on using public data for civic advocacy and accountability
+- For citizens seeking to engage directly with their municipality's performance, [Your Economic Citizenship](/articles/eg-6-3-your-economic-citizenship) provides practical guidance on using public data for civic advocacy and accountability

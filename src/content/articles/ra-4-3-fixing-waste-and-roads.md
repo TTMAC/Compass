@@ -18,7 +18,7 @@ series:
   prev: "ra-4-2-fixing-electricity"
   next: "ra-4-4-building-municipal-capability"
 crossLinks:
-  - slug: "eg-4-3-infrastructure-planning-vs-reality"
+  - slug: "eg-5-3-infrastructure-planning-vs-reality"
     label: "Infrastructure Planning vs Reality"
     relationship: "Municipal infrastructure delivery gaps"
   - slug: "3-3-municipal-councils"
@@ -302,7 +302,7 @@ Select two or three district municipalities — one with a mix of functional and
 
 ### Phase 3: National Rollout (Years 3-5)
 
-Based on the pilot evaluation, mandate the shared services model for all municipalities below the defined capacity threshold. Roll out the "Clean Drop" assessment and road condition index nationally. Activate automatic enforcement triggers linked to the published assessments. Amend the Division of Revenue Act to include a dedicated roads maintenance conditional grant tied to road condition data and maintenance spending. As discussed in [Infrastructure Planning vs Reality](/articles/eg-4-3-infrastructure-planning-vs-reality), the gap between infrastructure plans and implementation is the defining failure of South African municipal governance. The reform pathway proposed here does not add new plans. It adds the structural conditions — ring-fenced revenue, qualified professionals, published performance data, and automatic enforcement — that make existing plans executable.
+Based on the pilot evaluation, mandate the shared services model for all municipalities below the defined capacity threshold. Roll out the "Clean Drop" assessment and road condition index nationally. Activate automatic enforcement triggers linked to the published assessments. Amend the Division of Revenue Act to include a dedicated roads maintenance conditional grant tied to road condition data and maintenance spending. As discussed in [Infrastructure Planning vs Reality](/articles/eg-5-3-infrastructure-planning-vs-reality), the gap between infrastructure plans and implementation is the defining failure of South African municipal governance. The reform pathway proposed here does not add new plans. It adds the structural conditions — ring-fenced revenue, qualified professionals, published performance data, and automatic enforcement — that make existing plans executable.
 
 ## Resources
 

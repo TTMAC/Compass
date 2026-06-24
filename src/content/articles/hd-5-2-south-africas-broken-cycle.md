@@ -22,7 +22,7 @@ crossLinks:
   - slug: "ss-1-2-from-rainbow-nation-to-state-capture"
     label: "From Rainbow Nation to State Capture"
     relationship: "Institutional decay that broke the cycle"
-  - slug: "eg-5-1-the-political-economy-of-growth"
+  - slug: "eg-6-1-the-political-economy-of-growth"
     label: "The Political Economy of Growth"
     relationship: "Political obstacles to breaking the vicious spiral"
 seo:
@@ -207,7 +207,7 @@ The intervention must be systemic. It must address multiple links of the spiral 
 
 **Condition Two: Focused safety improvement.** Reducing crime is not optional in the reinforcing cycle — it is a precondition for the other links to function. The evidence from the case studies suggests that visible, rapid improvement in safety outcomes — even partial improvement — changes investment calculus, reduces emigration pressure, and creates space for development investment to take hold. The reform proposals in [Sequencing Reform](/articles/ss-4-1-sequencing-reform) provide a roadmap.
 
-**Condition Three: Fiscal stabilisation with protected development spending.** The fiscal squeeze must be arrested — debt cannot continue growing faster than the economy indefinitely — but fiscal consolidation must not come at the expense of the development spending that builds the capabilities needed for growth. This requires difficult choices about priorities: what to cut, what to protect, and how to raise additional revenue. The political economy of these choices is explored in [The Political Economy of Growth](/articles/eg-5-1-the-political-economy-of-growth).
+**Condition Three: Fiscal stabilisation with protected development spending.** The fiscal squeeze must be arrested — debt cannot continue growing faster than the economy indefinitely — but fiscal consolidation must not come at the expense of the development spending that builds the capabilities needed for growth. This requires difficult choices about priorities: what to cut, what to protect, and how to raise additional revenue. The political economy of these choices is explored in [The Political Economy of Growth](/articles/eg-6-1-the-political-economy-of-growth).
 
 **Condition Four: Growth strategy linked to employment.** The economy must grow, and growth must create jobs. Capital-intensive growth that enriches shareholders without employing workers does not reverse the spiral — it reinforces it. The growth strategy must explicitly target employment creation, particularly for the young, unskilled, and semi-skilled workers who constitute the majority of the unemployed.
 

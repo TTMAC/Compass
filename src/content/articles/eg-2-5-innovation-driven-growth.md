@@ -18,7 +18,7 @@ readingTime: 30
 status: "draft"
 series:
   prev: "eg-2-4-the-efficiency-transition"
-  next: "eg-3-1-three-engines-of-growth"
+  next: "eg-3-1-the-flat-tax-mirage"
 crossLinks:
   - slug: "1-1-architecture-of-the-state"
     label: "The Architecture of the State"
@@ -197,7 +197,7 @@ The countries that have overcome this bias share certain characteristics. South 
 
 For South Africa, this challenge connects directly to the institutional architecture discussed elsewhere in this series. The Department of Science and Innovation, the National Advisory Council on Innovation, the Technology Innovation Agency, the National Research Foundation, and the science councils collectively constitute the institutional infrastructure for innovation policy. Their effectiveness — their funding levels, their leadership quality, their strategic coherence, their insulation from short-term political pressures — will determine whether South Africa's innovation investment is sustained over the decades required.
 
-This is why the execution architecture matters, as explored in [The Execution Machine](/articles/eg-3-2-the-execution-machine). Innovation policy cannot be effective if it is subject to the same implementation failures that afflict other areas of government. R&D tax incentives that take years to process do not incentivise. Technology transfer offices that lack skilled staff do not transfer technology. Venture capital co-investment programmes that are mired in procurement bureaucracy do not stimulate venture capital. The quality of execution determines whether innovation policy achieves its intended outcomes or merely generates impressive-looking strategy documents.
+This is why the execution architecture matters, as explored in [The Execution Machine](/articles/eg-4-2-the-execution-machine). Innovation policy cannot be effective if it is subject to the same implementation failures that afflict other areas of government. R&D tax incentives that take years to process do not incentivise. Technology transfer offices that lack skilled staff do not transfer technology. Venture capital co-investment programmes that are mired in procurement bureaucracy do not stimulate venture capital. The quality of execution determines whether innovation policy achieves its intended outcomes or merely generates impressive-looking strategy documents.
 
 South Africa's own history provides two instructive — and painful — examples of what happens when long-term innovation investments are abandoned mid-course due to political and fiscal pressures.
 

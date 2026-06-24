@@ -2,8 +2,8 @@
 title: "The Metro Rankings"
 subtitle: "Worked Examples, Peer Comparisons, and What Cape Town's 84.0 and Johannesburg's 52.2 Tell Us About Municipal Governance"
 pillar: "economic-growth"
-part: 4
-articleNumber: "4.2"
+part: 5
+articleNumber: "5.2"
 tags:
   - "metro-rankings"
   - "Cape-Town"
@@ -16,14 +16,14 @@ publishDate: 2029-01-15
 readingTime: 30
 status: "draft"
 series:
-  prev: "eg-4-1-the-municipal-performance-index"
-  next: "eg-4-3-infrastructure-planning-vs-reality"
+  prev: "eg-5-1-the-municipal-performance-index"
+  next: "eg-5-3-infrastructure-planning-vs-reality"
 crossLinks:
   - slug: "3-3-municipal-councils"
     label: "Municipal Councils"
     relationship: "Municipal budget performance"
 seo:
-  ogImage: "/og/eg-4-2-the-metro-rankings.png"
+  ogImage: "/og/eg-5-2-the-metro-rankings.png"
   keywords:
     - "metro municipality rankings South Africa"
     - "Cape Town vs Johannesburg governance"
@@ -34,17 +34,17 @@ seo:
 
 ## A 32-Point Chasm Between the Best and Worst Governed Metros
 
-South Africa has eight metropolitan municipalities, and the gap between the best-governed and the worst-governed is not a matter of marginal differences in service delivery or minor variations in budget management. It is a chasm. When you apply the Municipal Performance Index framework described in [The Municipal Performance Index](/articles/eg-4-1-the-municipal-performance-index) to audited data, **Cape Town scores 84.0 out of 100 — placing it firmly in the High Performance tier. Johannesburg scores 52.2 — placing it in the Needs Improvement tier.** That is a 32-point gap between two cities that draw from the same national fiscal framework, operate under the same Municipal Structures Act, report to the same oversight bodies, and face many of the same structural economic challenges. **The gap is not explained by geography or demographics or resource endowments. It is explained by governance**: how well each city collects its revenue, maintains its infrastructure, executes its capital budget, manages its workforce, and accounts for public money.
+South Africa has eight metropolitan municipalities, and the gap between the best-governed and the worst-governed is not a matter of marginal differences in service delivery or minor variations in budget management. It is a chasm. When you apply the Municipal Performance Index framework described in [The Municipal Performance Index](/articles/eg-5-1-the-municipal-performance-index) to audited data, **Cape Town scores 84.0 out of 100 — placing it firmly in the High Performance tier. Johannesburg scores 52.2 — placing it in the Needs Improvement tier.** That is a 32-point gap between two cities that draw from the same national fiscal framework, operate under the same Municipal Structures Act, report to the same oversight bodies, and face many of the same structural economic challenges. **The gap is not explained by geography or demographics or resource endowments. It is explained by governance**: how well each city collects its revenue, maintains its infrastructure, executes its capital budget, manages its workforce, and accounts for public money.
 
 This article takes the methodology you encountered in the previous article and puts it to work. You will see, step by step, how Cape Town's Economic Development pillar score of 74.8 is calculated from six raw indicators. You will see how the four pillar scores are combined using a weighted geometric mean to produce the overall score of 84.0. You will then see how the same process applied to Johannesburg produces a starkly different result, and why. After the two worked examples, you will see where the remaining six metros fall in the rankings, what patterns emerge across the group, and why comparing a metropolitan municipality to a rural municipality without adjusting the framework would produce misleading results. The final sections address the hard question of data limitations — because no ranking framework is more honest than the data it relies upon — and provide you with a practical tool for conducting your own municipal comparisons using publicly available information.
 
-If you have read [Municipal Councils](/articles/3-3-municipal-councils), you understand the political and administrative structures through which metropolitan municipalities govern. This article adds the quantitative layer: what happens when you measure the outputs of those structures against a consistent set of indicators. If you have not yet read [The Municipal Performance Index](/articles/eg-4-1-the-municipal-performance-index), you should do so before continuing, as this article assumes familiarity with the four-pillar framework, the normalisation methodology, and the geometric mean aggregation approach.
+If you have read [Municipal Councils](/articles/3-3-municipal-councils), you understand the political and administrative structures through which metropolitan municipalities govern. This article adds the quantitative layer: what happens when you measure the outputs of those structures against a consistent set of indicators. If you have not yet read [The Municipal Performance Index](/articles/eg-5-1-the-municipal-performance-index), you should do so before continuing, as this article assumes familiarity with the four-pillar framework, the normalisation methodology, and the geometric mean aggregation approach.
 
 ## Cape Town: The Economic Pillar Worked Example
 
 Let us begin with Cape Town's Economic Development pillar, because walking through a single pillar calculation in full detail will make every subsequent score in this article legible. The Economic Development pillar contains six indicators, each measuring a different dimension of how well the metropolitan economy is performing and how effectively the municipality is supporting economic activity within its jurisdiction.
 
-![Cape Town's economic pillar score reflects its tax base, business environment and own-revenue strength | Photo by Rutendo Petros on Unsplash](/images/articles/eg-4-2-the-metro-rankings/img-1.webp)
+![Cape Town's economic pillar score reflects its tax base, business environment and own-revenue strength | Photo by Rutendo Petros on Unsplash](/images/articles/eg-5-2-the-metro-rankings/img-1.webp)
 
 The first indicator is the broad unemployment rate. Cape Town's broad unemployment rate is 23.4 per cent. This is not a good number in absolute terms — nearly one in four working-age residents cannot find employment — but it is the lowest among the eight metros. To convert this raw percentage into a normalised score, you apply the "lower is better" formula, because lower unemployment is a better outcome. The goalposts for metro unemployment are set at 15 per cent (the minimum, representing the best plausible outcome for a South African metro in current conditions) and 40 per cent (the maximum, representing the worst observed metro performance). The formula is: ((Max - Actual) / (Max - Min)) times 100. Substituting the values: ((40 - 23.4) / (40 - 15)) times 100 equals (16.6 / 25) times 100, which equals 66.4. Cape Town scores 66.4 on the unemployment indicator. That score tells you that Cape Town sits roughly two-thirds of the way between the worst metro performance and the best plausible metro performance on unemployment.
 
@@ -82,7 +82,7 @@ When you apply these weights to Cape Town's four pillar scores and calculate the
 
 Johannesburg is South Africa's largest city by economic output, the seat of the Johannesburg Stock Exchange, the commercial hub of the continent's most industrialised economy, and home to approximately 5.6 million people. It generates more GDP than any other South African metro. On paper, it should be the country's best-governed city — it has the largest revenue base, the deepest pool of skilled professionals, and the most developed private sector ecosystem to draw upon. **It is not.** Johannesburg scores 52.2 on the Municipal Performance Index, placing it squarely in the Needs Improvement tier, 32 points behind Cape Town.
 
-![Johannesburg's score diverges across pillars, exposing the gap between scale and governance quality | Photo by Nic Y-C on Unsplash](/images/articles/eg-4-2-the-metro-rankings/img-2.webp)
+![Johannesburg's score diverges across pillars, exposing the gap between scale and governance quality | Photo by Nic Y-C on Unsplash](/images/articles/eg-5-2-the-metro-rankings/img-2.webp)
 
 Understanding where those 32 points are lost is more instructive than any amount of political commentary about the city's governance challenges.
 
@@ -130,7 +130,7 @@ The Financial and Fiscal Commission, South Africa's constitutionally mandated ad
 
 If you were to rank all 257 of South Africa's municipalities on a single league table using uniform weights and identical indicators, the result would be misleading at best and actively harmful at worst. It would be misleading because it would compare institutions that face fundamentally different structural conditions, serve fundamentally different populations, and operate with fundamentally different resource bases. It would be harmful because politicians and media would inevitably use the ranking to shame struggling rural municipalities for failing to match metropolitan performance levels, without acknowledging that the comparison itself is structurally unfair.
 
-![Fair comparison requires grouping municipalities by category before ranking their performance | Photo by Eloi Smith on Unsplash](/images/articles/eg-4-2-the-metro-rankings/img-3.webp)
+![Fair comparison requires grouping municipalities by category before ranking their performance | Photo by Eloi Smith on Unsplash](/images/articles/eg-5-2-the-metro-rankings/img-3.webp)
 
 Consider the differences. A Category A metropolitan municipality like Cape Town has an annual budget exceeding R60 billion, generates the majority of its revenue from own sources, employs thousands of professionally qualified engineers, accountants, and planners, and serves a population that is overwhelmingly urban and connected to formal economic networks. A Category B4 rural municipality in the Eastern Cape or Limpopo may have an annual budget of R200 million, generate less than 10 per cent of its revenue from own sources, employ no professionally qualified engineers at all, and serve a population that is largely dependent on social grants and subsistence agriculture. Expecting these two institutions to perform equally on the same indicators with the same weights is not rigorous analysis — it is a category error.
 
@@ -225,7 +225,7 @@ Once you have calculated your municipality's score, compare it to the metro benc
 Remember that this tool produces an approximation, not a definitive verdict. The value of the exercise is less in the final number and more in the process: by gathering the data, calculating the indicators, and identifying where your municipality falls relative to its peers, you will develop a granular understanding of local governance performance that no amount of political rhetoric can substitute for.
 
 :::takeaway
-You do not need to wait for an academic institution or government agency to rank your municipality. The data sources described above — Municipal Money, Statistics South Africa, the Auditor-General's reports, and the Municipal Demarcation Board — are freely accessible online and contain the raw information you need to calculate a reasonable approximation of your municipality's performance. The exercise of gathering and analysing this data will itself make you a more informed and more demanding citizen, which is ultimately the point of [Your Economic Citizenship](/articles/eg-5-3-your-economic-citizenship).
+You do not need to wait for an academic institution or government agency to rank your municipality. The data sources described above — Municipal Money, Statistics South Africa, the Auditor-General's reports, and the Municipal Demarcation Board — are freely accessible online and contain the raw information you need to calculate a reasonable approximation of your municipality's performance. The exercise of gathering and analysing this data will itself make you a more informed and more demanding citizen, which is ultimately the point of [Your Economic Citizenship](/articles/eg-6-3-your-economic-citizenship).
 :::
 
 :::framework

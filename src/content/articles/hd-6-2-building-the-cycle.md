@@ -23,7 +23,7 @@ crossLinks:
   - slug: "ss-3-3-community-courts-and-restorative-justice"
     label: "Community Courts and Restorative Justice"
     relationship: "Community-level safety interventions that feed the cycle"
-  - slug: "eg-5-3-your-economic-citizenship"
+  - slug: "eg-6-3-your-economic-citizenship"
     label: "Your Economic Citizenship"
     relationship: "Economic participation tools that complement development citizenship"
 seo:
@@ -132,7 +132,7 @@ The design of ward committees embeds a fundamental tension: the ward councillor 
 
 ## Local Economic Development: The Growth Link
 
-The growth link in the reinforcing cycle operates at the local level through the municipality's Local Economic Development (LED) strategy and through the broader ecosystem of economic activity in your area. As explored in detail in [Your Economic Citizenship](/articles/eg-5-3-your-economic-citizenship), the LED process is one of the most important and least understood functions of local government.
+The growth link in the reinforcing cycle operates at the local level through the municipality's Local Economic Development (LED) strategy and through the broader ecosystem of economic activity in your area. As explored in detail in [Your Economic Citizenship](/articles/eg-6-3-your-economic-citizenship), the LED process is one of the most important and least understood functions of local government.
 
 Your engagement with LED connects to the reinforcing cycle in a direct way. A municipality that creates an enabling environment for economic activity — through efficient land use management, functional infrastructure, streamlined regulatory processes, and targeted business support — generates employment, which reduces poverty, which improves development outcomes, which creates the conditions for further growth. A municipality that obstructs economic activity — through bureaucratic red tape, infrastructure failures, corruption, and the inability to process applications — suppresses growth, which intensifies poverty, which worsens development outcomes, which feeds the vicious cycle.
 

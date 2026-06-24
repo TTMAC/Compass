@@ -947,7 +947,7 @@ export const reforms: Reform[] = [
     title: "Demand-Driven Support Integration",
     description:
       "Integrate fragmented Micro, Small and Medium Enterprise (MSME) support agencies — i.e., the Small Enterprise Development Agency (SEDA), Small Enterprise Finance Agency (SEFA), the Department of Trade, Industry and Competition (the dtic), National Empowerment Fund (NEF), and Industrial Development Corporation (IDC) — into a single demand-responsive system. Shift from supply-driven to demand-driven support model — structured around what businesses actually need, not what agencies supply.",
-    articleSlug: "eg-3-1-three-engines-of-growth",
+    articleSlug: "eg-4-1-three-engines-of-growth",
   },
   {
     id: "3A.2",
@@ -957,7 +957,7 @@ export const reforms: Reform[] = [
     title: "Regulatory Simplification",
     description:
       "Reduce compliance burden on small firms. Streamline business registration and licensing (target: 48 hours). Create simplified compliance pathways for businesses under defined revenue thresholds.",
-    articleSlug: "eg-3-2-the-execution-machine",
+    articleSlug: "eg-4-2-the-execution-machine",
   },
   {
     id: "3A.3",
@@ -967,7 +967,7 @@ export const reforms: Reform[] = [
     title: "Digital Financial Inclusion",
     description:
       "Extend bank account access and payment systems to informal businesses. Support mobile money for unbanked MSME populations. Create digital financial inclusion infrastructure.",
-    articleSlug: "eg-3-1-three-engines-of-growth",
+    articleSlug: "eg-4-1-three-engines-of-growth",
   },
   {
     id: "3B.1",
@@ -977,7 +977,7 @@ export const reforms: Reform[] = [
     title: "Small Business Guarantee Fund",
     description:
       "Establish a South African Small Business Guarantee Fund modelled on the US Small Business Administration's (SBA) 7(a) programme. Commercial banks provide credit; government guarantees 75–85% of default risk. Enables lending to early-stage ventures without government doing direct lending.",
-    articleSlug: "eg-3-1-three-engines-of-growth",
+    articleSlug: "eg-4-1-three-engines-of-growth",
   },
   {
     id: "3B.2",
@@ -987,7 +987,7 @@ export const reforms: Reform[] = [
     title: "Alternative Financing Mechanisms",
     description:
       "Expand supply chain financing, invoice discounting and factoring, microfinance, and peer-to-peer lending platforms.",
-    articleSlug: "eg-3-1-three-engines-of-growth",
+    articleSlug: "eg-4-1-three-engines-of-growth",
   },
   {
     id: "3B.3",
@@ -997,7 +997,7 @@ export const reforms: Reform[] = [
     title: "Venture Capital Mobilisation",
     description:
       "Establish tax incentives for angel investment and venture capital funds. Create venture capital matching funds (private + government). Support secondary market development for early-stage equity.",
-    articleSlug: "eg-3-1-three-engines-of-growth",
+    articleSlug: "eg-4-1-three-engines-of-growth",
   },
 
   // ── Economic Growth: Phase 2 ──
@@ -1009,7 +1009,7 @@ export const reforms: Reform[] = [
     title: "Startup Ecosystems",
     description:
       "Following Chile's Start-Up Chile model: attract international entrepreneurs, provide seed funding, embed in local accelerators. Establish dedicated startup funding programmes with venture capital matching. Create incubator and accelerator networks in major metros.",
-    articleSlug: "eg-3-1-three-engines-of-growth",
+    articleSlug: "eg-4-1-three-engines-of-growth",
   },
   {
     id: "3C.2",
@@ -1019,7 +1019,7 @@ export const reforms: Reform[] = [
     title: "Township and Rural Enterprise",
     description:
       "Targeted programmes for township and rural enterprise development with adapted financing, mentoring, and market access support.",
-    articleSlug: "eg-3-1-three-engines-of-growth",
+    articleSlug: "eg-4-1-three-engines-of-growth",
   },
   {
     id: "3D.1",
@@ -1069,7 +1069,7 @@ export const reforms: Reform[] = [
     title: "Trade Agreement Optimisation",
     description:
       "Leverage existing agreements (APDP for automotive, agricultural trade agreements). Negotiate new agreements prioritising high-complexity product categories.",
-    articleSlug: "eg-3-2-the-execution-machine",
+    articleSlug: "eg-4-2-the-execution-machine",
   },
   {
     id: "3E.2",
@@ -1079,7 +1079,7 @@ export const reforms: Reform[] = [
     title: "AfCFTA Positioning",
     description:
       "Position South Africa as a services and manufacturing hub within the African Continental Free Trade Area.",
-    articleSlug: "eg-3-2-the-execution-machine",
+    articleSlug: "eg-4-2-the-execution-machine",
   },
 
   // ── Economic Growth: Phase 3 ──
@@ -1091,7 +1091,7 @@ export const reforms: Reform[] = [
     title: "Metro Economic Rankings",
     description:
       "Establish a metro economic performance ranking system across four pillars: Economic Development, Service Delivery, Governance and Finance, and Infrastructure and Sustainability — creating competitive benchmarking between South Africa's eight metropolitan municipalities.",
-    articleSlug: "eg-4-1-the-municipal-performance-index",
+    articleSlug: "eg-5-1-the-municipal-performance-index",
   },
   {
     id: "3F.2",
@@ -1101,7 +1101,7 @@ export const reforms: Reform[] = [
     title: "Metro Growth Compacts",
     description:
       "Create binding growth compacts between national government and metropolitan municipalities with defined targets, incentives, and consequences.",
-    articleSlug: "eg-4-2-the-metro-rankings",
+    articleSlug: "eg-5-2-the-metro-rankings",
   },
   {
     id: "3G.1",
@@ -1111,7 +1111,7 @@ export const reforms: Reform[] = [
     title: "Regulatory Quality",
     description:
       "Reduce regulatory complexity and improve policy predictability. Create regulatory impact assessments for all new business-affecting legislation.",
-    articleSlug: "eg-3-2-the-execution-machine",
+    articleSlug: "eg-4-2-the-execution-machine",
   },
   {
     id: "3G.2",
@@ -1121,7 +1121,7 @@ export const reforms: Reform[] = [
     title: "Competition and Market Access",
     description:
       "Strengthen competition enforcement to reduce concentration and enable MSME market entry. Address barriers to entry in concentrated sectors.",
-    articleSlug: "eg-3-2-the-execution-machine",
+    articleSlug: "eg-4-2-the-execution-machine",
   },
   {
     id: "3G.3",
@@ -1131,7 +1131,7 @@ export const reforms: Reform[] = [
     title: "Political Economy Management",
     description:
       "Address rent-seeking and patronage networks that distort resource allocation. Build coalitions for reform by demonstrating growth dividends.",
-    articleSlug: "eg-5-1-the-political-economy-of-growth",
+    articleSlug: "eg-6-1-the-political-economy-of-growth",
   },
 
   // ── Human Development: Phase 1 ──
@@ -1388,7 +1388,7 @@ export const legislativeItems: LegislativeItem[] = [
     type: "new",
     workstream: "economic-growth",
     phase: "phase-1",
-    articleSlug: "eg-3-1-three-engines-of-growth",
+    articleSlug: "eg-4-1-three-engines-of-growth",
   },
   {
     id: "L.19",

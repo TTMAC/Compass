@@ -31,10 +31,10 @@ crossLinks:
   - slug: "eg-2-1-resource-optimisation"
     label: "Resource Optimisation"
     relationship: "Infrastructure underpins Stage 1 resource strategy"
-  - slug: "eg-4-3-infrastructure-planning-vs-reality"
+  - slug: "eg-5-3-infrastructure-planning-vs-reality"
     label: "Infrastructure Planning vs Reality"
     relationship: "Detailed analysis of planning-execution gap"
-  - slug: "eg-3-2-the-execution-machine"
+  - slug: "eg-4-2-the-execution-machine"
     label: "The Execution Machine"
     relationship: "Institutional delivery capacity"
   - slug: "eg-2-3-financing-the-build"
@@ -239,11 +239,11 @@ South Africa's infrastructure challenge is not uniform across all sectors. The c
 
 Everything you have read in this article points toward institutional delivery as the binding constraint on infrastructure. But delivery failures do not exist in a vacuum — they sit within a financial system that systematically underinvests in productive fixed assets. [Financing the Build](/articles/eg-2-3-financing-the-build) examines this structural financing architecture in detail: how banks shifted from private lending to government bonds, why pension funds send capital offshore rather than into infrastructure, why DFIs remain tiny relative to the economy's needs, and the fourteen balance sheet reconfigurations the NPC's Finance Task Team has proposed to unlock at least R5 trillion in new investment. The delivery problem and the financing problem must be solved together.
 
-South Africa lacks the institutional machinery to turn plans into projects, projects into construction sites, and construction sites into working infrastructure. This machinery — what [The Execution Machine](/articles/eg-3-2-the-execution-machine) will examine in detail — involves project preparation units, construction management capacity, procurement integrity, inter-governmental coordination, and the political will to sustain investment decisions across electoral cycles.
+South Africa lacks the institutional machinery to turn plans into projects, projects into construction sites, and construction sites into working infrastructure. This machinery — what [The Execution Machine](/articles/eg-4-2-the-execution-machine) will examine in detail — involves project preparation units, construction management capacity, procurement integrity, inter-governmental coordination, and the political will to sustain investment decisions across electoral cycles.
 
 The path forward is not mysterious. The REIPPPP has shown that South Africa can deliver infrastructure at scale when it creates fit-for-purpose institutions with clear mandates, competitive procurement, and ring-fenced capacity. The Gautrain has shown that complex PPPs can work with adequate preparation and political commitment. The question is whether these successes can be generalised — whether the exceptional can become the normal.
 
-For a deeper analysis of how South Africa's infrastructure plans compare with actual delivery outcomes, [Infrastructure Planning vs Reality](/articles/eg-4-3-infrastructure-planning-vs-reality) will examine the gap in granular detail. And as you saw in [Following the Money](/articles/2-1-following-the-money), the budget allocation process itself shapes which projects get funded and at what pace — understanding how infrastructure money flows through the intergovernmental fiscal system is essential to understanding why projects stall.
+For a deeper analysis of how South Africa's infrastructure plans compare with actual delivery outcomes, [Infrastructure Planning vs Reality](/articles/eg-5-3-infrastructure-planning-vs-reality) will examine the gap in granular detail. And as you saw in [Following the Money](/articles/2-1-following-the-money), the budget allocation process itself shapes which projects get funded and at what pace — understanding how infrastructure money flows through the intergovernmental fiscal system is essential to understanding why projects stall.
 
 ## Practical Framework: Infrastructure Report Card
 

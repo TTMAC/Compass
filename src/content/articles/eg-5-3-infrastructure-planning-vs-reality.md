@@ -2,8 +2,8 @@
 title: "Infrastructure Planning vs Reality"
 subtitle: "The National Infrastructure Plan, Strategic Integrated Projects, PPPs, and Why South Africa Keeps Planning Infrastructure It Never Builds"
 pillar: "economic-growth"
-part: 4
-articleNumber: "4.3"
+part: 5
+articleNumber: "5.3"
 tags:
   - "infrastructure"
   - "NIP"
@@ -17,14 +17,14 @@ publishDate: 2029-01-15
 readingTime: 30
 status: "draft"
 series:
-  prev: "eg-4-2-the-metro-rankings"
-  next: "eg-4-4-the-scorecard-synthesis"
+  prev: "eg-5-2-the-metro-rankings"
+  next: "eg-5-4-the-scorecard-synthesis"
 crossLinks:
   - slug: "2-1-following-the-money"
     label: "Following the Money"
     relationship: "Infrastructure budget flows"
 seo:
-  ogImage: "/og/eg-4-3-infrastructure-planning-vs-reality.png"
+  ogImage: "/og/eg-5-3-infrastructure-planning-vs-reality.png"
   keywords:
     - "South Africa infrastructure plan"
     - "strategic integrated projects"
@@ -41,13 +41,13 @@ If you have read [Infrastructure Foundations](/articles/eg-2-2-infrastructure-fo
 
 The answer requires three things: a diagnostic framework that identifies why delivery fails (McKinsey's five dimensions provide this), a quantified analysis of what was promised versus what was delivered (the NIP and SIP data provide this), and a sector-by-sector scorecard that maps current performance against commitments and benchmarks. This article provides all three. By the end, you will have a practical tracker you can use to assess infrastructure delivery in real time, using publicly available data from Treasury budget documents, ISA reports, SOE annual reports, and sector regulators.
 
-The measurement dimension matters because it connects infrastructure delivery to the Municipal Performance Index framework introduced in [The Municipal Performance Index](/articles/eg-4-1-the-municipal-performance-index) and applied in [The Metro Rankings](/articles/eg-4-2-the-metro-rankings). Infrastructure is not something that exists in isolation from municipal governance. Municipalities are responsible for water reticulation, electricity distribution, local roads, and the last-mile connections that determine whether national infrastructure investments actually reach citizens. A bulk water pipeline that terminates at the municipal boundary achieves nothing if the municipality cannot maintain the distribution network that carries water to households. A new power station achieves nothing if the municipal electricity department cannot maintain the substations and transformers that deliver power to homes and businesses. The infrastructure delivery tracker you will find at the end of this article is designed to work alongside the MPI, giving you a national-level complement to the municipal-level measurement.
+The measurement dimension matters because it connects infrastructure delivery to the Municipal Performance Index framework introduced in [The Municipal Performance Index](/articles/eg-5-1-the-municipal-performance-index) and applied in [The Metro Rankings](/articles/eg-5-2-the-metro-rankings). Infrastructure is not something that exists in isolation from municipal governance. Municipalities are responsible for water reticulation, electricity distribution, local roads, and the last-mile connections that determine whether national infrastructure investments actually reach citizens. A bulk water pipeline that terminates at the municipal boundary achieves nothing if the municipality cannot maintain the distribution network that carries water to households. A new power station achieves nothing if the municipal electricity department cannot maintain the substations and transformers that deliver power to homes and businesses. The infrastructure delivery tracker you will find at the end of this article is designed to work alongside the MPI, giving you a national-level complement to the municipal-level measurement.
 
 ## The McKinsey Framework: Five Dimensions of Infrastructure Delivery
 
 To understand why South Africa plans so well and delivers so poorly, you need a diagnostic framework that separates the different stages of infrastructure delivery and identifies where the system breaks down at each stage. McKinsey Global Institute's research on infrastructure productivity, drawn from analysis of dozens of countries, provides precisely this. The framework identifies five dimensions that distinguish countries that deliver infrastructure effectively from those that do not. What makes it useful is not its complexity but its specificity — it tells you where to look.
 
-![Five dimensions — selection, finance, delivery, regulation, capability — determine whether plans become projects | Photo by Fons Heijnsbroek on Unsplash](/images/articles/eg-4-3-infrastructure-planning-vs-reality/img-1.webp)
+![Five dimensions — selection, finance, delivery, regulation, capability — determine whether plans become projects | Photo by Fons Heijnsbroek on Unsplash](/images/articles/eg-5-3-infrastructure-planning-vs-reality/img-1.webp)
 
 ### Dimension 1: Strategic Prioritisation
 
@@ -127,7 +127,7 @@ The planning-execution gap is not a story about one or two troubled projects. It
 
 The following scorecard assesses infrastructure delivery across four critical sectors. For each sector, five dimensions are scored: the original NIP/SIP commitment, the current delivery status, the timeline variance (how far behind schedule delivery has fallen), the cost variance (how much costs have exceeded estimates), and the binding constraint that explains the gap. This structure is designed to be updated as new data becomes available, making it a living measurement tool rather than a static assessment.
 
-![Energy, transport, water and digital infrastructure each show different patterns of planning-to-delivery failure | Photo by Adrian Sulyok on Unsplash](/images/articles/eg-4-3-infrastructure-planning-vs-reality/img-2.webp)
+![Energy, transport, water and digital infrastructure each show different patterns of planning-to-delivery failure | Photo by Adrian Sulyok on Unsplash](/images/articles/eg-5-3-infrastructure-planning-vs-reality/img-2.webp)
 
 ### Energy: The Partial Turnaround
 
@@ -221,7 +221,7 @@ National Treasury's annual Budget Review and the Estimates of National Expenditu
 
 If the diagnosis is clear and the solutions are known, why does the planning-execution gap persist? The answer lies in a set of reinforcing institutional weaknesses that are individually understood but collectively resistant to quick fixes.
 
-![The planning-execution gap is institutional, not technical — capacity sits in plans, not delivery teams | Photo by Wesley Pacífico on Unsplash](/images/articles/eg-4-3-infrastructure-planning-vs-reality/img-3.webp)
+![The planning-execution gap is institutional, not technical — capacity sits in plans, not delivery teams | Photo by Wesley Pacífico on Unsplash](/images/articles/eg-5-3-infrastructure-planning-vs-reality/img-3.webp)
 
 The first and most fundamental reason is the project preparation deficit. Preparing a complex infrastructure project for construction and financing requires sustained effort by a multidisciplinary team over two to five years. It requires engineering design, environmental impact assessment, social consultation, land acquisition, financial modelling, legal structuring, and procurement document preparation — each of which involves specialised skills, regulatory approvals, and coordination across multiple institutions. South Africa does not have enough of these teams, and creating them takes years of capacity building. GTAC, the DBSA, and the Infrastructure Fund collectively employ perhaps a few hundred professionals focused on project preparation. The pipeline requires thousands. No amount of political will can substitute for the patient, technical work of preparing projects to the point where construction can begin and investors can commit capital.
 
@@ -235,13 +235,13 @@ These four factors interact and reinforce each other. Weak project preparation m
 
 ## Connecting to the Municipal Performance Index
 
-The infrastructure delivery analysis in this article operates primarily at the national level — national plans, SOE performance, sector-wide trends. But as you know from [The Municipal Performance Index](/articles/eg-4-1-the-municipal-performance-index) and [The Metro Rankings](/articles/eg-4-2-the-metro-rankings), much of the infrastructure that directly affects citizens' lives is delivered and maintained at the municipal level. Electricity distribution, water reticulation, local roads, stormwater management, and waste collection are municipal responsibilities. National infrastructure investments that do not account for municipal delivery capacity will fail at the last mile.
+The infrastructure delivery analysis in this article operates primarily at the national level — national plans, SOE performance, sector-wide trends. But as you know from [The Municipal Performance Index](/articles/eg-5-1-the-municipal-performance-index) and [The Metro Rankings](/articles/eg-5-2-the-metro-rankings), much of the infrastructure that directly affects citizens' lives is delivered and maintained at the municipal level. Electricity distribution, water reticulation, local roads, stormwater management, and waste collection are municipal responsibilities. National infrastructure investments that do not account for municipal delivery capacity will fail at the last mile.
 
 The connection works in both directions. The MPI measures municipal performance on service delivery outputs — the percentage of households with access to piped water, the percentage of electricity losses in the distribution network, the condition of municipal road surfaces. These municipal-level measures are, in part, outcomes of national infrastructure investment decisions. A municipality that receives bulk water from a well-maintained dam and pipeline system starts with an advantage over one that depends on an unreliable bulk supply. A municipality that benefits from stable grid electricity can focus its resources on distribution network maintenance rather than managing load shedding disruptions.
 
 Conversely, municipal infrastructure performance feeds back into the national picture. A municipality with 60% non-revenue water means that 60% of the national investment in bulk water supply for that area is wasted before it reaches a consumer. A municipality that cannot maintain its electricity distribution network undermines the value of national generation investments. The infrastructure delivery tracker in this article is designed to complement the MPI by providing the national-level context within which municipal performance should be interpreted. When you assess a municipality's water service delivery score in the MPI, the infrastructure delivery tracker tells you what that municipality is working with in terms of bulk supply, pipeline condition, and sector-wide trends.
 
-For the institutional capacity dimensions that [The Execution Machine](/articles/eg-3-2-the-execution-machine) examines in detail, infrastructure delivery performance is both an input and an output. Institutional capacity determines infrastructure delivery quality, and infrastructure delivery results provide one of the most concrete measures of institutional capacity. A government entity that consistently delivers projects on time and on budget is demonstrating institutional capacity. One that consistently underperforms its capital budget is revealing institutional weakness. The infrastructure delivery tracker, in this sense, is a proxy measure for institutional capacity at the sectoral level.
+For the institutional capacity dimensions that [The Execution Machine](/articles/eg-4-2-the-execution-machine) examines in detail, infrastructure delivery performance is both an input and an output. Institutional capacity determines infrastructure delivery quality, and infrastructure delivery results provide one of the most concrete measures of institutional capacity. A government entity that consistently delivers projects on time and on budget is demonstrating institutional capacity. One that consistently underperforms its capital budget is revealing institutional weakness. The infrastructure delivery tracker, in this sense, is a proxy measure for institutional capacity at the sectoral level.
 
 :::takeaway
 Infrastructure measurement cannot be separated from municipal governance measurement. National infrastructure investments succeed or fail at the municipal level, where the last mile of service delivery occurs. The infrastructure delivery tracker in this article is designed to work alongside the MPI: the tracker measures national-level planning and delivery performance, while the MPI measures the municipal-level outcomes that depend on both national infrastructure and local institutional capacity. Used together, they provide a comprehensive picture of whether infrastructure investment is translating into improved services for citizens.
@@ -285,7 +285,7 @@ The tracker should be updated at two intervals. The annual update, aligned with 
 
 For the energy and transport sectors, Eskom's and Transnet's quarterly operational updates (published on their websites and reported in financial media) provide more frequent data points on key operational metrics like the EAF and freight volumes. These higher-frequency indicators serve as leading signals of whether underlying delivery trajectories are improving or deteriorating.
 
-The tracker is designed to connect to the broader measurement architecture described across Part 4 of this series. The MPI provides municipal-level measurement. This tracker provides national-level infrastructure measurement. Together, they give you a two-level assessment system: how well is national infrastructure being planned and delivered (this tracker), and how well are municipalities translating that infrastructure into services for citizens (the MPI). [From Strategy to Reality](/articles/eg-5-2-from-strategy-to-reality) will draw these measurement threads together into an integrated assessment of whether South Africa's economic growth strategy is translating from plan to execution across all spheres of government.
+The tracker is designed to connect to the broader measurement architecture described across Part 4 of this series. The MPI provides municipal-level measurement. This tracker provides national-level infrastructure measurement. Together, they give you a two-level assessment system: how well is national infrastructure being planned and delivered (this tracker), and how well are municipalities translating that infrastructure into services for citizens (the MPI). [From Strategy to Reality](/articles/eg-6-2-from-strategy-to-reality) will draw these measurement threads together into an integrated assessment of whether South Africa's economic growth strategy is translating from plan to execution across all spheres of government.
 
 :::framework
 **The Infrastructure Gap Diagnostic**

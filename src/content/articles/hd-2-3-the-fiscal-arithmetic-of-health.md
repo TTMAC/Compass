@@ -21,7 +21,7 @@ crossLinks:
   - slug: "eg-2-1-resource-optimisation"
     label: "Resource Optimisation"
     relationship: "Getting more health value from existing resources"
-  - slug: "eg-3-1-three-engines-of-growth"
+  - slug: "eg-4-1-three-engines-of-growth"
     label: "Three Engines of Growth"
     relationship: "Human capital as growth engine requires health investment"
 seo:
@@ -290,7 +290,7 @@ This article has presented the fiscal arithmetic of South Africa's health system
 
 ![A growing tax base is what eventually makes universal coverage fiscally durable | Photo by Akeyodia - Business Coaching Firm on Unsplash](/images/articles/hd-2-3-the-fiscal-arithmetic-of-health/img-3.webp)
 
-First, economic growth is health policy. This is not a metaphor or a political slogan. It is a fiscal fact. Without sustained GDP growth of at least three percent per year — and preferably higher — there is no pathway to expanding public health coverage, hiring the health workers the system needs, funding the treatment cascades documented earlier in this series, or implementing NHI in any meaningful form. The economic reforms discussed in [Three Engines of Growth](/articles/eg-3-1-three-engines-of-growth) and [Resource Optimisation](/articles/eg-2-1-resource-optimisation) are not separate from the health agenda. They are its fiscal foundation.
+First, economic growth is health policy. This is not a metaphor or a political slogan. It is a fiscal fact. Without sustained GDP growth of at least three percent per year — and preferably higher — there is no pathway to expanding public health coverage, hiring the health workers the system needs, funding the treatment cascades documented earlier in this series, or implementing NHI in any meaningful form. The economic reforms discussed in [Three Engines of Growth](/articles/eg-4-1-three-engines-of-growth) and [Resource Optimisation](/articles/eg-2-1-resource-optimisation) are not separate from the health agenda. They are its fiscal foundation.
 
 Second, efficiency matters as much as funding. Even within the current budget, there are opportunities to improve health outcomes by spending existing resources more effectively. Procurement reform — buying medicines at the best available prices through competitive tendering and international reference pricing — can stretch the medicine budget. Task-shifting — allowing nurses and community health workers to perform functions currently reserved for doctors — can extend the reach of the existing workforce. Differentiated service delivery — matching the intensity of clinic visits to patients' clinical needs — can reduce wasteful overcrowding and free capacity for patients who need it most. Technology — including electronic health records, mHealth adherence support, and telemedicine for specialist consultation — can improve coordination and reduce unnecessary referrals. None of these efficiency gains substitutes for additional funding, but they can improve the health outcomes achievable at current funding levels while the growth agenda works to expand those levels.
 

@@ -2,8 +2,8 @@
 title: "The Execution Machine"
 subtitle: "Central Coordination, Sector Agencies, and How to Insulate a 25-Year Economic Strategy From Short-Term Political Cycles"
 pillar: "economic-growth"
-part: 3
-articleNumber: "3.2"
+part: 4
+articleNumber: "4.2"
 tags:
   - "execution"
   - "EPU"
@@ -17,14 +17,14 @@ publishDate: 2028-11-01
 readingTime: 30
 status: "draft"
 series:
-  prev: "eg-3-1-three-engines-of-growth"
-  next: "eg-3-3-watching-the-watchers"
+  prev: "eg-4-1-three-engines-of-growth"
+  next: "eg-4-3-watching-the-watchers"
 crossLinks:
   - slug: "1-1-architecture-of-the-state"
     label: "The Architecture of the State"
     relationship: "Constitutional framework for economic coordination"
 seo:
-  ogImage: "/og/eg-3-2-the-execution-machine.png"
+  ogImage: "/og/eg-4-2-the-execution-machine.png"
   keywords:
     - "economic policy coordination South Africa"
     - "economic planning unit"
@@ -42,7 +42,7 @@ The pattern is so consistent that policy researchers now track it explicitly: **
 
 This article argues that the core failure is structural, not political. South Africa has no central coordinating body with the authority, technical capacity, and political insulation to drive a multi-decade economic strategy. Malaysia had the Economic Planning Unit. Singapore had the Economic Development Board. South Korea had the Economic Planning Board. South Africa has a rotating cast of ministers, departments, and task teams with overlapping mandates and none with genuine execution authority. Until this structural absence is addressed, even the best-designed strategy will share the fate of its predecessors.
 
-If you have read [The Comparator Countries](/articles/eg-1-3-the-comparator-countries), you already know that the countries which escaped the middle-income trap did not do so through a single brilliant policy idea. They did it through institutional machinery that could sustain and adapt a strategy over decades. This article examines that machinery in detail — what it looks like, why South Africa has failed to build it, and what a credible South African version might involve. The companion article, [Watching the Watchers](/articles/eg-3-3-watching-the-watchers), will then examine the monitoring and evaluation architecture needed to keep the machinery honest.
+If you have read [The Comparator Countries](/articles/eg-1-3-the-comparator-countries), you already know that the countries which escaped the middle-income trap did not do so through a single brilliant policy idea. They did it through institutional machinery that could sustain and adapt a strategy over decades. This article examines that machinery in detail — what it looks like, why South Africa has failed to build it, and what a credible South African version might involve. The companion article, [Watching the Watchers](/articles/eg-4-3-watching-the-watchers), will then examine the monitoring and evaluation architecture needed to keep the machinery honest.
 
 ## The Strategy Graveyard
 
@@ -94,7 +94,7 @@ Taken together, these five structural features explain why South Africa produces
 
 If you want to see what an execution machine looks like in practice, Malaysia's Economic Planning Unit offers the clearest example. The EPU was established in 1961, shortly after Malaysian independence, and for more than five decades it served as the central coordinating body for Malaysia's economic development strategy. Understanding how it worked — and why it worked — is essential for thinking about what South Africa needs.
 
-![Malaysia's Economic Planning Unit shows how a coordinating body translates strategy into delivery | Photo by Angelyn Sanjorjo on Unsplash](/images/articles/eg-3-2-the-execution-machine/img-1.webp)
+![Malaysia's Economic Planning Unit shows how a coordinating body translates strategy into delivery | Photo by Angelyn Sanjorjo on Unsplash](/images/articles/eg-4-2-the-execution-machine/img-1.webp)
 
 The EPU sat within the Prime Minister's Department, **giving it direct access to the highest level of political authority.** This positioning was not merely symbolic. It meant that the EPU's head reported directly to the prime minister, not to a line minister who might be reshuffled. It meant that the EPU could convene any ministry, any agency, and any state-owned enterprise to a coordination meeting with the authority of the PM's office behind it. And it meant that when the EPU identified a blockage — a ministry dragging its feet on a reform, a state-level government failing to release land for an industrial park — it could escalate the issue directly to the political leadership with the speed and authority that resolution required.
 
@@ -142,7 +142,7 @@ The Korean model is more authoritarian than either the Malaysian or Singaporean 
 
 What would a South African execution machine look like? Not a copy of the EPU or the EDB — South Africa's constitutional framework, democratic requirements, and governance challenges demand a distinct design. But an institution that performs the same core functions, adapted to South African conditions.
 
-![An execution machine sits inside the Presidency with the authority to enforce delivery across departments | Photo by Compagnons on Unsplash](/images/articles/eg-3-2-the-execution-machine/img-2.webp)
+![An execution machine sits inside the Presidency with the authority to enforce delivery across departments | Photo by Compagnons on Unsplash](/images/articles/eg-4-2-the-execution-machine/img-2.webp)
 
 The first design requirement is a legislated mandate that outlasts individual ministers. The institution should be established by an Act of Parliament, not by a ministerial directive or a presidential proclamation. This matters because an institution created by legislation cannot be abolished, reorganised, or defunded by a single minister or a single cabinet reshuffle. Changing its mandate requires a parliamentary process with public hearings, committee deliberation, and a recorded vote. This is the most basic form of institutional insulation — making the institution's existence and core mandate a matter of law rather than a matter of political convenience.
 
@@ -180,7 +180,7 @@ The democratic objection is not wrong, but it is incomplete. The current system 
 
 Operation Vulindlela offers the most relevant recent precedent for what a South African execution machine might look like, and its experience reveals both the potential and the limitations of the current approach.
 
-![Operation Vulindlela proves South Africa can execute when the institutional design is right | Photo by Joshua Williams on Unsplash](/images/articles/eg-3-2-the-execution-machine/img-3.webp)
+![Operation Vulindlela proves South Africa can execute when the institutional design is right | Photo by Joshua Williams on Unsplash](/images/articles/eg-4-2-the-execution-machine/img-3.webp)
 
 Launched in October 2020 as a joint initiative of the Presidency and National Treasury, Operation Vulindlela was established to accelerate the implementation of structural reforms identified in the ERRP. Its mandate covered a specific set of priority reforms: the restructuring of Eskom and the electricity market, the auctioning of broadband spectrum, the reform of water use licensing, the modernisation of the visa regime, the improvement of freight rail access, and the streamlining of municipal licensing for businesses. The unit was staffed with a small team of skilled professionals — many drawn from the private sector and from GTAC — who combined technical expertise with project management capability.
 
@@ -210,7 +210,7 @@ The analysis above gives you a framework for evaluating any economic strategy an
 
 Apply this framework to any of the strategies in the graveyard section above, and the results are consistent. GEAR had no dedicated agency and no legislated mandate. ASGISA had no independent KPI verification and no institutional continuity mechanism. The NDP had no budget authority and no dedicated implementation agency. The ERRP relies on Operation Vulindlela, which has no legislated mandate and depends on the commitment of individual political leaders. In each case, the Execution Quality Audit would have predicted the implementation gap.
 
-This is the framework you can carry forward into [From Strategy to Reality](/articles/eg-5-2-from-strategy-to-reality), where we examine what a properly sequenced implementation plan looks like in practice — and why the sequencing of reforms matters as much as their content.
+This is the framework you can carry forward into [From Strategy to Reality](/articles/eg-6-2-from-strategy-to-reality), where we examine what a properly sequenced implementation plan looks like in practice — and why the sequencing of reforms matters as much as their content.
 
 :::framework
 **The Execution Quality Audit**

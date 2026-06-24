@@ -33,10 +33,10 @@ crossLinks:
   - slug: "2-2-the-budget-process"
     label: "The Budget Process"
     relationship: "MTEF and fiscal allocation mechanisms for infrastructure"
-  - slug: "eg-5-1-the-political-economy-of-growth"
+  - slug: "eg-6-1-the-political-economy-of-growth"
     label: "The Political Economy of Growth"
     relationship: "Political economy of financing reform and entrenched interests"
-  - slug: "eg-3-2-the-execution-machine"
+  - slug: "eg-4-2-the-execution-machine"
     label: "The Execution Machine"
     relationship: "Institutional delivery capacity that must accompany financing reform"
 seo:

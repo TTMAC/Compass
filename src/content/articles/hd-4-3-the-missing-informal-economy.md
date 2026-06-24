@@ -22,7 +22,7 @@ crossLinks:
   - slug: "hd-4-1-the-conversion-problem"
     label: "The Conversion Problem"
     relationship: "The capability-to-earn frame this article extends beyond formal jobs"
-  - slug: "eg-3-1-three-engines-of-growth"
+  - slug: "eg-4-1-three-engines-of-growth"
     label: "Three Engines of Growth"
     relationship: "Macro view of where jobs come from, contrasted with individual self-employment"
 seo:
@@ -81,7 +81,7 @@ When policy discussions turn to small business, they tend to blur two very diffe
 
 The survivalist enterprise is, in the framework of this series, a _conversion mechanism_ — a way for a person to convert her capability to work into income when no employer will hire her. Its purpose is a livelihood, not growth. Most survivalist enterprises will never employ anyone beyond the owner and perhaps a family member, and judging them by whether they "scale" misses their point. Their value is that they catch people the formal economy drops. A country with a healthy survivalist sector has a floor under unemployment; a country without one, like South Africa, has the void this article describes. The right support for survivalists is not incubators and pitch competitions but the basics: a place to trade, access to a small amount of working capital, freedom from regulatory harassment, and protection from crime and extortion.
 
-The high-growth entrepreneur is a different animal with a different need: access to growth finance, markets, skills, and the ability to navigate the regulatory and competitive environment. This is the entrepreneur the [Economic Growth pillar](/articles/eg-3-1-three-engines-of-growth) is most concerned with, because it is high-growth firms that drive the macro story of job creation and rising complexity. South Africa has too few of these as well, but the reasons and the remedies differ from those for survivalists.
+The high-growth entrepreneur is a different animal with a different need: access to growth finance, markets, skills, and the ability to navigate the regulatory and competitive environment. This is the entrepreneur the [Economic Growth pillar](/articles/eg-4-1-three-engines-of-growth) is most concerned with, because it is high-growth firms that drive the macro story of job creation and rising complexity. South Africa has too few of these as well, but the reasons and the remedies differ from those for survivalists.
 
 The reason the distinction matters for _this_ Part — the human-development, individual-capability Part — is that the survivalist route is the one that bears directly on the conversion problem for the mass of unemployed people. Most of the twelve million South Africans who want work and cannot find it are not going to be founders of scaling firms. They need, and in another country would have, the survivalist fallback. The tragedy of South Africa's missing informal economy is most acute at exactly this level: the simplest, most accessible form of self-employment, the one that requires the least and catches the most, is the one the country's history and structure have most thoroughly suppressed.
 
@@ -113,7 +113,7 @@ It would require, second, _capital at survivalist scale_: small amounts of acces
 
 It would require, third, _safety_: enough security that a person can invest in a small enterprise without expecting to lose it to crime or extortion — which is to say, it requires the safety pillar's work to succeed.
 
-And it would require, fourth, a clear-eyed acceptance of what the informal economy is and is not. It is not a romantic solution to unemployment, and it is not a substitute for the formal job creation that the [Economic Growth pillar](/articles/eg-3-1-three-engines-of-growth) pursues. Informal livelihoods are typically low-productivity, low-income, and insecure, and a development strategy that aimed only to expand them would be settling for too little. But a country that offers its unemployed no informal fallback at all has removed the floor that catches people while the larger work of formal job creation proceeds. Restoring that floor is not the whole answer to the conversion problem. It is the part of the answer that could reach the most people, fastest, at the level where the conversion failure is most absolute.
+And it would require, fourth, a clear-eyed acceptance of what the informal economy is and is not. It is not a romantic solution to unemployment, and it is not a substitute for the formal job creation that the [Economic Growth pillar](/articles/eg-4-1-three-engines-of-growth) pursues. Informal livelihoods are typically low-productivity, low-income, and insecure, and a development strategy that aimed only to expand them would be settling for too little. But a country that offers its unemployed no informal fallback at all has removed the floor that catches people while the larger work of formal job creation proceeds. Restoring that floor is not the whole answer to the conversion problem. It is the part of the answer that could reach the most people, fastest, at the level where the conversion failure is most absolute.
 
 ## What This Means for You
 

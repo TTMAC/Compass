@@ -2,8 +2,8 @@
 title: "From Strategy to Reality"
 subtitle: "The Sequenced Roadmap — KPIs, Dashboards, MPI Implementation Phases, and How Rwanda's EDPRS Model Points the Way"
 pillar: "economic-growth"
-part: 5
-articleNumber: "5.2"
+part: 6
+articleNumber: "6.2"
 tags:
   - "implementation"
   - "roadmap"
@@ -18,14 +18,14 @@ publishDate: 2029-03-15
 readingTime: 30
 status: "draft"
 series:
-  prev: "eg-5-1-the-political-economy-of-growth"
-  next: "eg-5-3-your-economic-citizenship"
+  prev: "eg-6-1-the-political-economy-of-growth"
+  next: "eg-6-3-your-economic-citizenship"
 crossLinks:
-  - slug: "eg-3-3-watching-the-watchers"
+  - slug: "eg-4-3-watching-the-watchers"
     label: "Watching the Watchers"
     relationship: "Performance measurement framework"
 seo:
-  ogImage: "/og/eg-5-2-from-strategy-to-reality.png"
+  ogImage: "/og/eg-6-2-from-strategy-to-reality.png"
   keywords:
     - "implementation roadmap South Africa"
     - "KPI dashboard governance"
@@ -38,7 +38,7 @@ seo:
 
 **A strategy without a sequenced implementation plan, measurable milestones, and a course-correction mechanism is just a wish list.** South Africa's history is defined by strategy documents that read beautifully and deliver nothing because they lack three things: a sequencing logic that specifies what must happen first because other things depend on it, measurable key performance indicators at each stage so you know whether you are on track, and a formal course-correction mechanism so you can adjust when reality diverges from the plan. The National Development Plan, the Industrial Policy Action Plans, the New Growth Path, the Economic Reconstruction and Recovery Plan — each was announced with conviction, endorsed by Cabinet, tabled in Parliament, and then allowed to drift into irrelevance because nobody built the operational infrastructure to convert strategic intention into tracked execution. This article builds that infrastructure.
 
-If you have been following this series, you now have the full picture. You understand the three engines of growth — resource optimisation, efficiency-driven transition, and innovation-led development. You have seen the institutional architecture that is supposed to drive execution in [The Execution Machine](/articles/eg-3-2-the-execution-machine) and the monitoring system that is supposed to track whether any of it is working in [Watching the Watchers](/articles/eg-3-3-watching-the-watchers). You have the Municipal Performance Index from [The Municipal Performance Index](/articles/eg-4-1-the-municipal-performance-index) as your local-level scorecard. And you have the political economy analysis from [The Political Economy of Growth](/articles/eg-5-1-the-political-economy-of-growth) that explains why reform is always a negotiation among competing interests. What you do not yet have is the sequenced plan that puts all of these pieces in order, assigns measurable targets to each phase, and specifies what happens when targets are missed. That is what this article provides.
+If you have been following this series, you now have the full picture. You understand the three engines of growth — resource optimisation, efficiency-driven transition, and innovation-led development. You have seen the institutional architecture that is supposed to drive execution in [The Execution Machine](/articles/eg-4-2-the-execution-machine) and the monitoring system that is supposed to track whether any of it is working in [Watching the Watchers](/articles/eg-4-3-watching-the-watchers). You have the Municipal Performance Index from [The Municipal Performance Index](/articles/eg-5-1-the-municipal-performance-index) as your local-level scorecard. And you have the political economy analysis from [The Political Economy of Growth](/articles/eg-6-1-the-political-economy-of-growth) that explains why reform is always a negotiation among competing interests. What you do not yet have is the sequenced plan that puts all of these pieces in order, assigns measurable targets to each phase, and specifies what happens when targets are missed. That is what this article provides.
 
 The approach draws heavily on Rwanda's Economic Development and Poverty Reduction Strategy (EDPRS) monitoring system — not because Rwanda's political context is transferable to South Africa, but because its implementation mechanics represent the most rigorous example of strategy-to-execution conversion on the African continent. Rwanda built a system where every strategic priority has a measurable indicator, every indicator has a responsible institution, every institution reports on a fixed schedule, and deviations from targets trigger a formal review process. South Africa has the institutional capacity to build something at least as good. The question has never been capability. It has been will.
 
@@ -48,7 +48,7 @@ This article gives you the sequencing logic, the stage-specific KPIs, the dashbo
 
 Every economic strategy South Africa has produced since 1994 has contained good ideas. The Reconstruction and Development Programme identified the right priorities. The Growth, Employment and Redistribution strategy contained sound macroeconomic logic. The Accelerated and Shared Growth Initiative was analytically rigorous. The National Development Plan is, by any reasonable assessment, a well-researched document that correctly identifies infrastructure, education, and institutional capability as binding constraints. The problem has never been the quality of the analysis. The problem has been the assumption that a good strategy, once announced, will somehow implement itself.
 
-![Strategies fail not because the goals are wrong but because the sequence of milestones is missing | Photo by Gift Habeshaw on Unsplash](/images/articles/eg-5-2-from-strategy-to-reality/img-1.webp)
+![Strategies fail not because the goals are wrong but because the sequence of milestones is missing | Photo by Gift Habeshaw on Unsplash](/images/articles/eg-6-2-from-strategy-to-reality/img-1.webp)
 
 Strategies do not implement themselves. They are implemented through a sequence of institutional actions, each of which depends on the successful completion of prior actions. This is the sequencing problem, and it is the single most underrated reason why South African economic strategies fail. Consider what happens when you try to attract foreign direct investment into manufacturing without first fixing the electricity supply. The investor conducts due diligence, discovers that load-shedding will interrupt production an average of four hours per day, factors in the cost of backup generation, and invests in Vietnam instead. The manufacturing strategy was sound. The sequencing was wrong. You cannot attract manufacturing investment until you have reliable electricity, and you cannot have reliable electricity until you have resolved Eskom's generation capacity crisis, and you cannot resolve Eskom's generation capacity crisis without both new generation procurement (the REIPPPP) and the restructuring of Eskom's transmission and distribution functions. Each step depends on the one before it. Skip a step, and the entire chain breaks.
 
@@ -120,7 +120,7 @@ The lagging indicators for Stage 3 are GDP per capita (on trajectory from $30,00
 
 Having the right KPIs is necessary but not sufficient. The KPIs must be publicly visible, regularly updated, and presented in a format that allows citizens, journalists, researchers, and opposition politicians to track progress without needing a statistics degree. This is where Rwanda's EDPRS monitoring system provides a genuinely instructive model.
 
-![Public delivery dashboards translate strategic targets into milestones citizens can track in real time | Photo by Vitaly Gariev on Unsplash](/images/articles/eg-5-2-from-strategy-to-reality/img-2.webp)
+![Public delivery dashboards translate strategic targets into milestones citizens can track in real time | Photo by Vitaly Gariev on Unsplash](/images/articles/eg-6-2-from-strategy-to-reality/img-2.webp)
 
 Rwanda's Economic Development and Poverty Reduction Strategy — now in its third iteration as the National Strategy for Transformation (NST1) — is accompanied by **one of the most rigorous implementation monitoring systems in Africa.** The system works because it has four features that South Africa's monitoring architecture has historically lacked.
 
@@ -146,7 +146,7 @@ The dashboard would also include a "lessons learned" section for each indicator 
 
 ## The MPI Implementation Roadmap: From Eight Metros to 257 Municipalities
 
-The Municipal Performance Index — described in full in [The Municipal Performance Index](/articles/eg-4-1-the-municipal-performance-index) — is the local-level component of the implementation dashboard. It provides a standardised, transparent, publicly available score for every municipality in South Africa, enabling citizens, councillors, and national government to track local economic and governance performance on a comparable basis. But an index is only useful if it is actually produced, published, and used. This section sets out the phased implementation plan for rolling the MPI out across all 257 municipalities.
+The Municipal Performance Index — described in full in [The Municipal Performance Index](/articles/eg-5-1-the-municipal-performance-index) — is the local-level component of the implementation dashboard. It provides a standardised, transparent, publicly available score for every municipality in South Africa, enabling citizens, councillors, and national government to track local economic and governance performance on a comparable basis. But an index is only useful if it is actually produced, published, and used. This section sets out the phased implementation plan for rolling the MPI out across all 257 municipalities.
 
 The phased approach is not a luxury. It is a necessity. South Africa's municipalities vary enormously in their data availability, institutional capacity, and administrative sophistication. The eight metropolitan municipalities — Johannesburg, Cape Town, eThekwini, Ekurhuleni, Tshwane, Nelson Mandela Bay, Mangaung, and Buffalo City — have dedicated research units, published economic data, and the staff to engage with a performance index. A Category B4 rural municipality in the Eastern Cape may have a single finance officer, no research capacity, and data that exists only in handwritten ledgers that have not been digitised. Rolling out a sophisticated performance index simultaneously to all 257 municipalities would guarantee that the rural municipalities are scored on incomplete data and then unfairly penalised for data gaps that reflect capacity constraints rather than performance failures.
 
@@ -212,7 +212,7 @@ The key principle is that the burden of proof escalates with the magnitude of th
 
 The course-correction mechanism requires a regular forum where progress is assessed, evidence is reviewed, and decisions about adjustments are made. This is the annual strategy review, and it is the single most important institutional gap in South Africa's economic governance architecture.
 
-![An annual strategy review forces government to defend last year's results before setting next year's targets | Photo by Navy Medicine on Unsplash](/images/articles/eg-5-2-from-strategy-to-reality/img-3.webp)
+![An annual strategy review forces government to defend last year's results before setting next year's targets | Photo by Navy Medicine on Unsplash](/images/articles/eg-6-2-from-strategy-to-reality/img-3.webp)
 
 Rwanda conducts its Joint Sector Reviews annually. Singapore's Economic Development Board conducts quarterly strategy sessions with private sector leaders. South Korea's Blue House (now the Yongsan Presidential Office) held monthly export promotion meetings during its high-growth decades — meetings chaired by the president, attended by the heads of major conglomerates, and focused on identifying and removing obstacles to export performance. These were not ceremonial events. They were working sessions where data was presented, problems were identified, and solutions were agreed upon with specific deadlines and accountable officials.
 
@@ -270,11 +270,11 @@ None of these institutional anchors makes the plan immune to political interfere
 
 ## Connecting the Dashboard to the Citizen
 
-If you have been reading this article thinking "this is all very well for technocrats, but what does it mean for me?" — that is exactly the right question, and it is the question that [Your Economic Citizenship](/articles/eg-5-3-your-economic-citizenship) addresses in full. But the short answer is this: the dashboard and the MPI are designed to give you, as a citizen, the tools to hold your government accountable for economic outcomes. Not for promises. Not for announcements. Not for strategy documents. For outcomes.
+If you have been reading this article thinking "this is all very well for technocrats, but what does it mean for me?" — that is exactly the right question, and it is the question that [Your Economic Citizenship](/articles/eg-6-3-your-economic-citizenship) addresses in full. But the short answer is this: the dashboard and the MPI are designed to give you, as a citizen, the tools to hold your government accountable for economic outcomes. Not for promises. Not for announcements. Not for strategy documents. For outcomes.
 
 When a politician tells you that the economy is improving, you will be able to check the dashboard and see whether the leading and lagging indicators support that claim. When a municipal councillor tells you that your municipality is attracting investment, you will be able to check the MPI and see whether the economic development indicators are actually trending upward. When a minister tells Parliament that the implementation plan is on track, the portfolio committee — and you, through the committee's public proceedings — will be able to see whether the indicators are green, amber, or red.
 
-This is what [Watching the Watchers](/articles/eg-3-3-watching-the-watchers) called the democratisation of data. Not data for its own sake, but data as a tool for democratic accountability. The government collects enormous quantities of data through Stats SA, National Treasury, the AGSA, DPME, and dozens of other institutions. Most of that data is technically public, published in formats that are accessible to specialists but incomprehensible to ordinary citizens. The dashboard and the MPI translate that data into a format that any citizen can understand: is this indicator getting better or worse? Is my municipality performing above or below average? Is the government's own plan on track or off track?
+This is what [Watching the Watchers](/articles/eg-4-3-watching-the-watchers) called the democratisation of data. Not data for its own sake, but data as a tool for democratic accountability. The government collects enormous quantities of data through Stats SA, National Treasury, the AGSA, DPME, and dozens of other institutions. Most of that data is technically public, published in formats that are accessible to specialists but incomprehensible to ordinary citizens. The dashboard and the MPI translate that data into a format that any citizen can understand: is this indicator getting better or worse? Is my municipality performing above or below average? Is the government's own plan on track or off track?
 
 The answer to those questions will not always be comfortable for the government of the day. That is the point. **An implementation monitoring system that only delivers good news is not a monitoring system. It is a public relations operation.** The value of the system lies precisely in its willingness to show red indicators — to tell the truth about where the plan is failing, who is responsible, and what needs to change. A government that is genuinely committed to economic transformation should welcome such a system, because it provides the information needed to correct failures before they become catastrophes. A government that resists such a system is telling you something important about its relationship with accountability.
 
@@ -326,7 +326,7 @@ The fifth question is: who is accountable for delivery, and what happens if they
 
 The sixth question is: has the strategy survived at least one change of minister? This is the toughest test. If a strategy was adopted under one minister and continues to be implemented — with the same KPIs, the same dashboard, the same accountability mechanisms — under a successor minister, it has achieved institutional embedding. If it was quietly shelved when the new minister arrived and replaced with a "refreshed" strategy that carries a new name but has no continuity with the previous plan, it was a ministerial project, not a national strategy. You cannot always answer this question in advance, but you can look for the institutional anchoring mechanisms described earlier: embedding in the MTSF, Cabinet mandates, parliamentary tracking. Strategies that lack these anchors are vulnerable to the reshuffle cycle. Strategies that have them are not invulnerable, but they are significantly more durable.
 
-These six questions are your diagnostic tool. Apply them to any economic strategy you encounter — national, provincial, or local — and you will quickly distinguish the plans that have a realistic chance of delivering from the wish lists that will generate headlines and achieve nothing. In [Your Economic Citizenship](/articles/eg-5-3-your-economic-citizenship), we explore how you can use this diagnostic tool, along with the dashboard and the MPI, to exercise your rights and responsibilities as an economic citizen of South Africa. The strategy exists. The scorecard exists. The implementation plan exists. What happens next depends, in part, on whether citizens demand that it be followed.
+These six questions are your diagnostic tool. Apply them to any economic strategy you encounter — national, provincial, or local — and you will quickly distinguish the plans that have a realistic chance of delivering from the wish lists that will generate headlines and achieve nothing. In [Your Economic Citizenship](/articles/eg-6-3-your-economic-citizenship), we explore how you can use this diagnostic tool, along with the dashboard and the MPI, to exercise your rights and responsibilities as an economic citizen of South Africa. The strategy exists. The scorecard exists. The implementation plan exists. What happens next depends, in part, on whether citizens demand that it be followed.
 
 ## Resources
 
