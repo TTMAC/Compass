@@ -1,0 +1,148 @@
+---
+title: "The Real Lever"
+subtitle: "Credit Allocation Policy for South Africa"
+pillar: "economic-growth"
+part: 3
+articleNumber: "3.8"
+tags:
+  - "credit-allocation"
+  - "development-finance"
+  - "window-guidance"
+  - "industrial-policy"
+  - "banking-regulation"
+  - "fiscal-policy"
+description: "South Africa's loudest economic debate, tax rates, sits near the bottom of the real hierarchy of levers. The top one, where bank credit flows, goes unwatched."
+publishDate: 2029-05-01
+readingTime: 33
+status: "draft"
+series:
+  prev: "eg-3-7-where-money-comes-from"
+  next: "eg-3-1-three-engines-of-growth"
+crossLinks:
+  - slug: "eg-1-2-how-we-got-here"
+    label: "How We Got Here"
+    relationship: "The minerals-energy-finance structure that shaped where credit has flowed"
+  - slug: "eg-3-7-where-money-comes-from"
+    label: "Where Money Comes From"
+    relationship: "The credit-creation mechanics this article turns into policy"
+seo:
+  ogImage: "/og/default.png"
+  keywords:
+    - "credit allocation policy"
+    - "window guidance South Africa"
+    - "development banking DBSA IDC"
+    - "productive credit"
+    - "hierarchy of economic levers"
+    - "directed credit"
+    - "South Africa industrial policy"
+---
+
+If the previous seven articles are right, then South Africa has been holding its most important economic debate upside down. The argument the country watches most closely — about tax rates, brackets, VAT, the size of the deficit — sits near the *bottom* of a hierarchy of levers that actually determine whether an economy grows, employs its people and spreads its wealth. And the question it watches least — where the private banks direct the new money they create — sits at the *top*. A country can run a beautifully designed tax system and still stagnate if its credit floods into existing property and shares; it can carry an imperfect, even incoherent tax system and still grow strongly if its credit reliably funds new productive capacity. Tax is a real lever. It is just not the deepest one, and we have spent this whole part climbing toward the one that is.
+
+This is also, finally, the real answer to the wealth question that has run through every article. The surest way to let a new generation build wealth is not to flatten the income tax, relieve the double taxation of dividends, or cut rates in the name of growth — useful as each of those debates can be. It is to widen access to *productive* credit, so that asset-poor builders can create assets of their own, instead of leaving credit to inflate the stock that established wealth already holds. There are real tools for steering credit toward production, several of them with a track record in the very East Asian economies this pillar holds up as comparators. The reasons they barely feature in South African debate are a mix of ideology, the self-interest of a banking sector that profits from lending against assets, the sheer invisibility of the lever, and some genuine constraints — including South Africa's own hard-learned warning about what happens when the state directs money badly. This is the eighth and final article in The Fiscal Levers, and it turns the diagnosis of the last article into the hardest question of all: what, if anything, should be done about it.
+
+## The hierarchy of levers
+
+Let us state plainly the structure this whole part has been building, because seeing it whole is the point. There is a hierarchy of economic levers, from most fundamental to least, and the public debate is concentrated almost entirely on the bottom two.
+
+At the top sits **credit allocation**: the decision, made loan by loan across the banking system, about whether the new money banks create funds production or inflates existing assets. [Where Money Comes From](/articles/eg-3-7-where-money-comes-from) showed why this matters more than anything below it — it determines whether the economy builds capacity or merely reprices what it already has.
+
+Below that sits **monetary sovereignty**: the state's power over its currency, its central bank, and the regulation of the banks that create money. [The Household Fallacy](/articles/eg-3-6-the-household-fallacy) showed both the reality of this power and the hard limits an open economy like South Africa's faces in using it.
+
+Below that sits **tax policy**: the use of taxes to manage demand and steer behaviour — the disincentive logic, the inflation-draining role, the question of how much revenue to raise and when.
+
+And at the bottom sits **tax structure**: the question of flat versus progressive, the design of brackets and rates and inclusion percentages — the question the country argues about most fiercely of all, in [The Flat Tax Mirage](/articles/eg-3-1-the-flat-tax-mirage), [The Flat-Tax Experiments](/articles/eg-3-2-the-flat-tax-experiments), [What Tax Is For](/articles/eg-3-3-what-tax-is-for) and [The Double Taxation of Capital](/articles/eg-3-4-the-double-taxation-of-capital).
+
+The crucial relationship is that each level operates *inside the space set by the level above it*. The cleverest tax structure cannot rescue an economy whose credit is being systematically misallocated, any more than rearranging the furniture helps if the house is on fire. But effective credit allocation can carry an economy a long way even with a mediocre tax system — which is exactly what several East Asian economies did. So optimising a lower lever while ignoring a higher one is effort spent in the wrong place. It is not that the tax debates are worthless; it is that they are debates about the furniture, conducted while almost no one looks at the fire.
+
+It is worth pausing on the East Asian point, because it is the strongest historical evidence for the whole hierarchy. South Korea, in the decades of its fastest growth, did not have a model tax system or a deregulated financial market. It had a state that deliberately directed credit — cheap, plentiful loans — toward the manufacturing and export industries it was trying to build, and it disciplined that credit with hard performance targets: firms that hit their export goals kept their access to finance, and firms that did not lost it. The credit was the carrot and the loss of credit was the stick, and the combination drove one of the most rapid industrialisations in human history. The tax structure, by comparison, was an afterthought. The lesson is not that South Africa can or should copy mid-century Korea — the world and the country are different, and the same tools in undisciplined hands produce disaster rather than miracle. The lesson is narrower and harder to dodge: the lever that built the East Asian miracles was credit allocation, near the top of the hierarchy, and not tax structure, at the bottom. A country serious about growth has to at least look at the lever that did the work.
+
+## Five tools for steering credit
+
+If credit allocation is the top lever, the obvious question is whether policy can actually pull it. It can. There are at least five established tools, each used somewhere in the world, and each carries a real tension that an honest account has to name alongside the promise.
+
+The first is **window guidance**: the central bank signalling, formally or informally, the directions in which it wants banks to lend — more to manufacturing and export, less to property speculation. This is not a thought experiment. It was central to the post-war Japanese economic miracle, where the Bank of Japan used window guidance to channel credit toward the industries the country was trying to build, and variants were used across the East Asian development states. The tension is sharp in South Africa: window guidance sits awkwardly with the constitutional independence of the Reserve Bank and its single-minded inflation mandate, and asking the SARB to direct credit is asking it to take on a developmental role it was deliberately insulated from. That is a real objection, not a quibble.
+
+The second is **sectoral credit quotas**: rules requiring banks to lend a minimum proportion of their book to favoured sectors (agriculture, small enterprise, manufacturing) or a maximum to disfavoured ones (property). The promise is direct control over composition. The tension is that quotas are blunt and gameable — they create distortions, invite reclassification and evasion, and can force credit toward borrowers who cannot use it well, manufacturing bad loans in the name of good intentions. Quotas have a mixed record precisely because lending by decree is not the same as lending wisely.
+
+The third is **differential capital requirements**, and it is arguably the most market-compatible of the five. Banks must hold capital against their loans, and the amount is risk-weighted; tune those weightings — through the Basel framework that the SARB's Prudential Authority administers — so that productive lending is cheaper for a bank to hold than asset lending, and you tilt the whole system toward production without dictating any single loan. It works with the grain of the market rather than against it, adjusting incentives rather than issuing orders. The tension is technical complexity and the difficulty of defining "productive" cleanly enough to risk-weight, but of the five tools this is the one a cautious reformer would reach for first. It requires no new institution, issues no orders to any individual bank, and leaves every lending decision with the banks themselves — it simply changes the relative cost of holding one kind of loan versus another, nudging rather than commanding. A modest version, well within the existing powers of the Prudential Authority, would be quietly transformative precisely because it works through the system rather than against it, and because it never has to identify a winner — it only has to say that, at the margin, financing the building of new things should cost a bank a little less than financing the trading of old ones.
+
+The fourth is **public development banking**, and here South Africa already has the institutions — it is the mandate, the capitalisation and above all the governance that are in question. The Development Bank of Southern Africa and the Industrial Development Corporation exist precisely to provide finance the commercial banks will not, directed at development and industry. An empowered, well-run development-finance system with an explicit productive-credit mandate could do much of the work of steering credit toward new capacity. The tension is the one this country knows in its bones: development-finance institutions are exactly the kind of body that gets captured, looted or mismanaged when governance fails, and South Africa's recent history offers more than one cautionary example of state finance directed by relationship rather than merit.
+
+The fifth is **macroprudential tools**: loan-to-value limits, debt-to-income caps, and affordability rules that constrain how much banks can lend against assets. South Africa already uses some of these — the affordability-assessment requirements under the National Credit Act are a version of the same machinery — though they are framed as consumer protection and financial stability rather than as instruments shaping the productive-versus-asset split. Reframe them with that split in mind and they become a way to lean against runaway asset credit. The tension is that tightening them restricts access to mortgage and consumer credit, which is politically fraught and distributionally double-edged: the same loan-to-value limit that cools an asset-price spiral also makes it harder for a first-time buyer to get onto the ladder at all. This is the recurring difficulty with every one of these tools — none is clean, each trades one distortion for another — which is precisely why the honest case is for cautious, transparent, rule-based use of the gentlest instruments first, not for a grand directed-credit scheme imposed all at once.
+
+Notice, too, that South Africa is not starting from zero on any of this. It already has development-finance institutions, already runs affordability rules, already administers Basel capital requirements through the Prudential Authority. The country is not being asked to invent a credit-allocation apparatus from scratch; it is being asked to *notice* that it already has the rudiments of one, scattered across institutions that do not think of themselves as steering credit, and to ask whether those existing instruments could be pointed, deliberately and transparently, at the productive-versus-asset problem this part has identified. That is a far more modest and achievable starting point than the phrase "credit allocation policy" makes it sound.
+
+:::expert
+The intellectual foundation for taking these tools seriously is the scholarship on the East Asian "developmental states" — the work of Chalmers Johnson on Japan, Alice Amsden on South Korea, Robert Wade on Taiwan, and Ha-Joon Chang on the role of the state in late industrialisation. Their shared finding, drawn from the economies that grew fastest in the twentieth century, is that state-directed finance — channelling credit toward favoured productive sectors and disciplining it with hard export targets — was central to how those countries industrialised, not incidental to it. Richard Werner's work on Japanese window guidance documents the mechanism in detail. It is essential, though, to represent the mainstream scepticism fairly: a long tradition in development economics, associated with the critique of "financial repression", holds that directed credit more often produces cronyism, bad loans and stagnation than the East Asian miracle, and that the successes depended on an unusually disciplined, capable and insulated state apparatus. Both sides are right about something. Directed credit is a powerful tool that, in the right institutional hands, helped build the most successful development stories of the modern era — and, in the wrong hands, has financed some of its worst boondoggles. The lever is real. So is the danger.
+:::
+
+## The danger, taken seriously
+
+That danger deserves more than a sentence, because in South Africa it is not hypothetical. Directing credit is precisely the kind of power that, misused, produces the patronage, capture and misallocation documented elsewhere in this series. A state that can tell banks where to lend, or that runs development-finance institutions with billions to deploy, is a state with an enormous capacity to reward friends and punish enemies — and South Africa has lived through exactly what happens when that capacity falls into the wrong hands. The honest reformer cannot wave this away.
+
+So the case has to be made carefully, and the distinction it rests on is everything. The argument is *not* for politicians picking winners by phone call, directing loans to the connected and the favoured. That is the road to ruin, and South Africa has driven some distance down it already. The argument is for *rules and mandates* — transparent, general, hard to game — that tilt the whole system toward production: a risk-weighting that favours productive lending, a development bank with a clear and monitored mandate, published data that lets the public see where credit flows. Rules tilt the field for everyone; phone calls reward the few. The difference between them is the difference between credit-allocation policy and corruption, and it is implemented by institutions with the integrity and capability to resist capture — integrity that South Africa has often lacked and would have to rebuild.
+
+The cautionary evidence is close at hand and should temper any enthusiasm. South Africa has watched state-owned enterprises and public funds — bodies with exactly the power to deploy capital that a credit-allocation policy would expand — hollowed out by a decade of capture, their lending and procurement bent toward the connected rather than the productive. The very same institutional muscle that, disciplined, could channel credit toward new factories and farms is the muscle that, captured, channels it toward whoever controls the levers. This is not an argument against ever using the tool; every powerful instrument of state is dangerous in corrupt hands, and the answer to captured tax authorities was not to abolish taxation. It is an argument that the *sequencing* matters: the integrity and capability of the institutions has to come first, or in step, because handing expanded credit-allocation power to a state that cannot yet resist capture is not development policy — it is simply enlarging the prize for the next looter. The lever and the guardrails are not separable projects. They are one project, and the guardrails are the harder half. Hold both ideas at once, because dropping either is a mistake: the lever is real and powerful, *and* the South African record of wielding such levers is a standing warning. To refuse the lever entirely out of fear is to leave the most important economic decision in the country to a banking sector optimising for its own profit; to grab it carelessly is to handed it to whoever captures the state next. The narrow, difficult path between those errors is the only responsible one.
+
+## Why nobody talks about it
+
+If this lever is so consequential, why is it almost absent from South African debate? There are five reasons, and they are explanations, not excuses.
+
+The first is **ideology**. A deep commitment to market allocation treats any suggestion that the state should influence where credit flows as a step toward central planning, to be rejected on principle. The second is the **political economy of the banking sector**, and it deserves spelling out because it is the most powerful obstacle of all. For a bank, a mortgage against an existing house is close to the ideal asset: it is secured by property that can be repossessed, the borrower is usually a salaried customer whose risk is easy to assess, and the loan is large and long-dated, generating years of interest with minimal effort. A loan to a new, asset-poor small business is the opposite: unsecured or thinly secured, hard to assess, small, labour-intensive to administer, and far more likely to default. A profit-maximising bank will therefore always, left to itself, prefer to lend against existing assets than to fund new enterprise — not from malice, but from the ordinary logic of risk and return. That is the whole problem in a sentence: what is most profitable and safe for an individual bank is not what is most useful for the economy, and the gap between the two is exactly the space a credit-allocation policy would try to close. But it means the institutions that would have to change are the ones with the most to lose and the most influence to resist, which is why the lever stays untouched. The third is the **visibility asymmetry**: tax is debated in the open every February, in granular published detail, while credit allocation happens invisibly, in millions of private decisions, with no equivalent moment of public scrutiny. The fourth is **academic orthodoxy**: generations of economists were taught the money-multiplier model that [Where Money Comes From](/articles/eg-3-7-where-money-comes-from) showed to be wrong, and a profession that misunderstands how money is created will not think to manage where it goes. The fifth is **international constraint**: an open economy exposed to capital flight cannot direct credit as freely as a closed one could, and global financial integration genuinely narrows the room to act.
+
+These are real obstacles. But notice that the first step past them costs almost nothing and threatens no one: *measurement*. You cannot manage what you refuse to look at, and South Africa currently refuses to look — it does not even publish the productive-versus-asset breakdown of bank credit that its own data could yield. Before any of the five tools is reached for, the country could simply start *seeing* the lever: assembling and publishing the figures, making the direction of credit as visible as the tax debate already is. Visibility is not control, but it is the precondition for any informed argument about control, and it is available now.
+
+## Landing the part
+
+So let the whole argument come to rest, carefully, because the conclusion is easy to misread as something it is not. None of this means tax does not matter. Progressive income tax remains the more coherent way to tax income, as [What Tax Is For](/articles/eg-3-3-what-tax-is-for) argued. The lightly taxed asset stock arguably deserves *more* attention, not less, and the incoherent double taxation of capital deserves genuine reform rather than slogans, as [The Double Taxation of Capital](/articles/eg-3-4-the-double-taxation-of-capital) showed. The tax *mix* really does matter for growth even though tax cuts do not pay for themselves, per [Taxes and Growth](/articles/eg-3-5-taxes-and-growth). Revenue still matters for managing inflation, as [The Household Fallacy](/articles/eg-3-6-the-household-fallacy) made clear. Every one of those tax arguments is worth having.
+
+The claim is only this: optimal tax policy cannot rescue an economy whose credit is misallocated, while effective credit allocation can carry an economy a long way despite imperfect tax. That is the hierarchy, and keeping it in view is what stops the entire part from collapsing into a one-sided brief about tax rates. The flat-tax curiosity, the flow-versus-stock critique, the double-taxation grievance, the growth case for lower taxes — each of them, taken alone, leans toward a lower-tax conclusion. Held together and resolved upward into the credit thesis, they point somewhere else entirely: toward the unglamorous, half-measured, politically neglected question of what the new money in the economy is created for. That is the lever worth fighting over, and it is the one nobody is fighting over.
+
+Step back and look at the whole climb. We began with the most concrete, most argued-about question in tax — should South Africa adopt a flat income tax? — and found the answer was no, because the arithmetic just moves the burden onto VAT and the poor. We tested that against the international record and found no model worth copying. We asked what tax is even for and found a system that taxes the flow of new earning far more heavily than the stock of old wealth. We found the returns to new capital taxed twice and incoherently. We weighed the growth case for lower taxes and found it half-right and aimed at the wrong constraint. We questioned whether revenue is even the binding limit, and found a more complicated truth about money and inflation. And then we found the thing underneath all of it: that most money is created by banks when they lend, and that what they lend it *for* — production or asset inflation — is the largest economic lever there is. Every step moved the same direction, up the hierarchy, away from the rung the country shouts on and toward the rung it ignores. That is the architecture of this part, and it is why no single article could be read as a brief for cutting taxes: each was a step toward the conclusion that the tax fight, for all its heat, is mostly the wrong fight.
+
+This is also where The Fiscal Levers hands off to what comes next. The Enablers — the part of this pillar that follows — take this diagnosis into practice. The case for new financing vehicles and a reformed development-finance system, in [Three Engines of Growth](/articles/eg-3-1-three-engines-of-growth), is the demand-side and institutional answer to the productive-credit gap this article has named. And the question of whether the state has the integrity and capacity to wield any of these levers without capturing them — the question this article kept circling — is exactly what [The Execution Machine](/articles/eg-3-2-the-execution-machine) takes up. The tax debate, it turns out, was never the main event. It was the argument the country was having while the real lever sat, unwatched, in plain sight.
+
+## Practical Framework: The Lever Ladder
+
+:::takeaway
+There is a hierarchy of economic levers: credit allocation at the top, then monetary sovereignty, then tax policy, then tax structure at the bottom — and South Africa argues almost exclusively about the bottom. A clever tax system cannot save an economy whose credit inflates existing assets instead of building new capacity; an imperfect tax system can coexist with strong growth if credit funds production. Real tools exist to steer credit — window guidance, sectoral quotas, differential capital requirements, development banking, macroprudential limits — several proven in East Asia. They are also dangerous in a state with a capture history, so the case is for transparent rules and mandates, not politicians picking winners. The first step costs nothing and threatens no one: measure and publish where credit actually goes.
+:::
+
+The payoff of this whole part is a single question you can ask of any economic debate, to locate it on the hierarchy and find the better argument underneath.
+
+:::framework
+**The Lever Ladder**
+
+For any economic policy argument, work through four questions to find which lever it is really about — and which lever it is ignoring.
+
+**1. Which lever is this about — tax structure, tax policy, monetary sovereignty, or credit allocation?**
+
+Place the argument on the hierarchy. Most public debate clusters at the bottom two rungs (tax structure and tax policy). Simply naming where an argument sits reveals how much it may be leaving out.
+
+**2. Is the debate concentrated on the lower, more visible levers while the higher ones go unexamined?**
+
+If a discussion about growth, jobs or inequality is conducted entirely in the language of tax rates, ask what it is not talking about — monetary conditions and, above all, where credit is flowing. The most consequential lever is usually the one absent from the conversation.
+
+**3. For credit: is anyone asking whether new lending finances production or asset transfer?**
+
+This is the question almost no one asks. When credit, house prices or bank profits are in the news, ask whether the lending built something new or bid up something old — and where you would check (the SARB's BA900 returns, private-sector credit data, the National Credit Regulator).
+
+**4. If a credit-allocation tool is proposed, what guards against capture and distortion?**
+
+Take the danger as seriously as the promise. For any proposal to steer credit, ask whether it works through transparent, general rules (a risk-weighting, a published mandate) or through discretion that can be captured (a minister's phone call, an opaque development-fund decision). The first is policy; the second is the road South Africa has already travelled and must not travel again.
+
+Used together, these questions will not hand you a policy. They will do something more useful: lift your attention from the rung of the ladder everyone is shouting on to the rungs above it, where the decisions that actually shape the economy are quietly being made — or quietly being left to no one at all.
+:::
+
+## Resources
+
+The analysis in this article draws on the following sources. The mechanics of credit creation are well established; the policy of credit allocation is presented as an argued position, with its mainstream critics represented.
+
+- Richard A. Werner — *Princes of the Yen: Japan's Central Bankers and the Transformation of the Economy* (2003), for window guidance and the mechanics of directed credit
+- Chalmers Johnson — *MITI and the Japanese Miracle* (1982); Alice Amsden — *Asia's Next Giant: South Korea and Late Industrialization* (1989); Robert Wade — *Governing the Market* (1990); Ha-Joon Chang — work on the developmental state and industrial policy, the scholarship on state-directed finance in East Asia
+- South African Reserve Bank — the Prudential Authority's administration of Basel capital requirements and the Bank's financial-stability and credit data — [www.resbank.co.za](https://www.resbank.co.za)
+- Development Bank of Southern Africa and the Industrial Development Corporation — mandates and annual reports of South Africa's principal development-finance institutions — [www.dbsa.org](https://www.dbsa.org)
+- National Credit Regulator and the National Credit Act (Act 34 of 2005), including the affordability-assessment regulations, for the existing macroprudential and consumer-credit tools — [www.ncr.org.za](https://www.ncr.org.za)
+- Trade & Industrial Policy Strategies (TIPS) and the Public Affairs Research Institute (PARI) — South African research on industrial policy, development finance, and state capacity — [www.tips.org.za](https://www.tips.org.za)
+- The development-economics literature on "financial repression" and the critique of directed credit, for the mainstream scepticism represented in the text
