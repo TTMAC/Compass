@@ -124,7 +124,7 @@ No proposal of this scale is risk-free, and a serious case names its risks rathe
 
 None of these risks is a reason not to proceed. Each is a reason to proceed *carefully, in phases, with the mitigations built in* — which is exactly what this rollout is designed to do.
 
-## A Tool: The Phase-Gate Roadmap
+## The Phase-Gate Roadmap
 
 The whole rollout can be held in a single picture — a roadmap in which each phase ends at a gate that must be passed, on evidence, before the next begins:
 

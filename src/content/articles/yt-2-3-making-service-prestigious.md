@@ -126,7 +126,7 @@ Walk it through door by door and the principle becomes concrete. The *work* door
 
 The stakes of getting this right are not merely administrative; they are the same stakes the comparator on South Korea raised. A benefits architecture that became a patronage machine would not just waste money. It would broadcast, to the whole watching cohort, that the service is one more rigged system in which the connected prosper and the rest queue — and that perception would poison the prestige the benefits were meant to build, spinning the flywheel violently backward. Fair, rule-bound, transparent benefits are therefore not a compliance afterthought. They are integral to the prestige design itself, because a benefit that is seen to be captured confers no status on those who earn it honestly. Cleanliness and prestige, here, are the same project.
 
-## A Tool: The Benefits Ladder
+## The Benefits Ladder
 
 To make the bargain concrete, picture it as a ladder a young person climbs by completing the service — each rung a door that opens automatically at the top:
 

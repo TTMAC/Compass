@@ -140,7 +140,7 @@ Honesty requires naming, here and now, the serious objections the design provoke
 
 That these questions are hard is not a reason to abandon the model. It is a reason to be honest that the model is a *destination* reached by a deliberate, phased, carefully-justified path — which is exactly what the rest of this series sets out.
 
-## A Tool: The Service Journey, End to End
+## The Service Journey Map
 
 To make the abstract concrete, here is the journey a single young person would take through the proposed National Youth Service — the map the rest of the series fills in:
 

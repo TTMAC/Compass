@@ -104,7 +104,7 @@ Read this list again and notice something: it is not an argument that youth prog
 
 Notice, too, what this audit is *not*. It is not a charge against any single administration, minister, or party. These programmes were built and run across many years, many departments, and successive governments; their shared shortcomings are structural, baked into how the state approaches youth provision, not the personal failure of whoever happened to hold a particular office. That is precisely why swapping the people in charge has never fixed it, and why the next election's youth-policy promises, whoever makes them, should be read with suspicion if they leave the underlying shape untouched. A structural problem that has survived multiple governments will survive the next one too, unless the structure itself is redesigned. The remainder of this series is an attempt to specify that redesign — and to subject it, honestly, to the same six tests it asks of everything that came before.
 
-## A Tool: Read Any Youth Programme Against the Six Tests
+## The Six-Test Programme Diagnostic
 
 The most useful thing you can take from this article is a way to evaluate any youth intervention — including the one this series will propose, and including whatever a political party offers at the next election. Hold any programme up against six tests, each drawn directly from a failure mode above:
 
@@ -117,7 +117,7 @@ The most useful thing you can take from this article is a way to evaluate any yo
 
 Run South Africa's existing programmes through these six tests and you can see, item by item, why the landscape has not closed the cohesion, discipline, or opportunity gaps: most fail on universality, prestige, and transformation, and the field as a whole fails on coherence and measurement. Run a serious new proposal through the same six tests and you have an immediate, honest way to judge whether it has learned from what came before — or is simply the next well-intentioned scheme destined to join the maze. Keep these six in your pocket; the next Part of this series should be read with them in hand, and so should every youth-policy promise you hear between now and the next election. A proposal that passes all six is rare, and worth taking seriously; one that quietly fails three or four of them, however generous it sounds, is the old maze wearing a new name.
 
-The next Part of this series takes up exactly that challenge. It proposes an institution designed, from the first principle, to pass all five tests: universal, coherent, a genuine pathway, deliberately prestigious, and built to be measured. Whether it succeeds is for you to judge — and now you have the tests to judge it by.
+The next Part of this series takes up exactly that challenge. It proposes an institution designed, from the first principle, to pass all six tests: universal, coherent, a genuine pathway, deliberately prestigious, built to be measured, and genuinely transformative. Whether it succeeds is for you to judge — and now you have the tests to judge it by.
 
 ## Resources
 

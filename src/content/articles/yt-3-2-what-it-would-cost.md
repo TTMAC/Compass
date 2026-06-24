@@ -116,7 +116,7 @@ The honest framing of the youth service's cost, then, is not "R55–70 billion v
 
 There is also a compounding dimension that a single year's comparison misses. The cost of the cliff is not paid once; it is paid every year, and it accumulates. Each cohort left to fall does not simply cost the country for one year and then resolve itself — the scarring effect described in Part 1 means a young person stranded in their twenties tends to remain less employable, less productive, and more dependent for decades afterward. The bill for one wasted cohort is paid across that cohort's whole working life, and a new bill is added each year a new cohort is wasted. Spending to bring a cohort into productive life, by contrast, compounds in the opposite direction: a young person launched into work or enterprise pays taxes, supports a household, and stays off the social-support rolls for decades. The relevant comparison, properly understood, is therefore not between two annual figures but between two compounding trajectories — one of accumulating loss, one of accumulating return. That framing does not settle the decision, but it changes its character entirely from the way "we can't afford it" imagines it.
 
-## A Tool: The Costing Worksheet
+## The Costing Worksheet
 
 The whole method reduces to a worksheet anyone can fill in, challenge, and improve. To estimate the cost of any version of the service, you need only:
 

@@ -120,7 +120,7 @@ The third reason is **universality or fair selection as a source of legitimacy**
 
 Hold these three together — identity over incentives, equal-status common fate, universality as legitimacy — and you have the reason national service keeps reappearing in the toolkit of societies trying to bind themselves together. They are also, precisely, the three things South Africa's past youth programmes lacked. The proposal in this series is an attempt to supply them.
 
-## A Tool: The Comparison Table
+## The Comparative Lesson Table
 
 To carry the lessons in a single glance, hold the four cases side by side against the features that matter:
 
