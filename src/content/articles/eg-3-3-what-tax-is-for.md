@@ -1,0 +1,144 @@
+---
+title: "What Tax Is For"
+subtitle: "Taxation as Disincentive, Flow Versus Stock, and the Question of Who Gets to Build Wealth"
+pillar: "economic-growth"
+part: 3
+articleNumber: "3.3"
+tags:
+  - "taxation"
+  - "wealth-inequality"
+  - "flow-versus-stock"
+  - "progressive-tax"
+  - "fiscal-policy"
+  - "redistribution"
+description: "Every tax says what a society wants less of. South Africa taxes the income flow more heavily than the wealth stock — favouring wealth-holders over builders."
+publishDate: 2028-12-01
+readingTime: 31
+status: "draft"
+series:
+  prev: "eg-3-2-the-flat-tax-experiments"
+  next: "eg-3-4-the-double-taxation-of-capital"
+crossLinks:
+  - slug: "eg-1-2-how-we-got-here"
+    label: "How We Got Here"
+    relationship: "The apartheid origins of South Africa's racially concentrated asset stock"
+  - slug: "eg-1-1-the-seven-thousand-rand-economy"
+    label: "The R7,000 Economy"
+    relationship: "The income and inequality backdrop to the flow-versus-stock argument"
+seo:
+  ogImage: "/og/default.png"
+  keywords:
+    - "what is tax for"
+    - "flow versus stock tax"
+    - "progressive tax South Africa"
+    - "wealth tax South Africa"
+    - "capital gains tax inclusion"
+    - "wealth inequality South Africa"
+    - "taxation disincentive"
+---
+
+Every tax a society levies is a statement about what it wants less of, whether anyone phrasing the law intends it that way or not. Tax cigarettes and you are saying: smoke less. Tax carbon and you are saying: emit less. And tax income — the reward for working, earning, climbing — and you are saying, in the same grammar, something most people never quite hear out loud. Read South Africa's tax system through that lens and its most striking feature jumps out. It discourages *earning your way up* — through heavy, rising taxes on income — far more than it discourages *already being wealthy*, because it levies no annual tax on wealth at all and taxes the assets where established fortunes sit remarkably lightly. For a country in which a Black middle and upper class is, for the first time at scale since 1994, trying to build wealth out of salaries rather than inheritance, that asymmetry has a sharp edge: the system taxes the wealth-*builders* harder than the wealth-*holders*.
+
+I want to be careful about what that argument is and is not, because this is the article where the part's signature thread is laid down and it is easy to misread. It is *not* an argument that progressive income tax is wrong. Progressive design remains the more coherent way to tax income — that is, in fact, where the logic of this article ends up — and the system funds the grants, schooling and services on which the majority depends. It is an argument that the tax debate is fixated on the wrong axis. The live question is not "flat or progressive income tax?", which the first two articles have already shown to be something of a dead end. It is: *why do we tax the flow of new earning so much more heavily than the stock of accumulated wealth — and does that quietly entrench old money against new?* This is the third article in The Fiscal Levers, and it is where we stop asking how much tax and start asking what tax is *for*.
+
+## Two axioms about what a tax does
+
+Start with two simple propositions that, once you see them, are hard to unsee.
+
+The first: *you tax what you wish to see less of.* This is not ideology; it is the explicit logic behind a whole class of taxes economists call Pigouvian, after Arthur Pigou, who argued a century ago that taxing a harmful activity makes the person doing it bear its true cost. South Africa is full of these and nobody pretends otherwise. The "sin taxes" — the excise duties on tobacco and alcohol — exist openly to discourage smoking and drinking. The Health Promotion Levy, the so-called sugar tax introduced in 2018, exists to discourage sugary drinks. The carbon tax, in force since 2019, exists to discourage emissions. In every one of these cases the state says plainly: this behaviour is harmful, so we are taxing it to get less of it. The tax *is* the disincentive, and the disincentive is the point.
+
+The second proposition follows from the first and is more unsettling: *a tax is a disincentive, not an incentive.* A tax can only ever discourage. It cannot, by itself, encourage anything. What we loosely call a tax "incentive" — a rebate, an exemption, an allowance, a deduction — is never actually an incentive in the way the word implies. It is the *removal* of a disincentive relative to being taxed. The research-and-development tax allowance does not pay companies to innovate; it merely taxes them less for innovating than for not. The medical-aid credit does not reward you for having cover; it taxes you less than someone without it. This sounds like hair-splitting until you notice how much political language depends on blurring it. Politicians love to announce "incentives", because an incentive sounds like a gift, like the state actively encouraging good behaviour. Strip the word back and you find the truth underneath: there are only taxes and lesser taxes, disincentives and weaker disincentives. Holding that distinction firmly is the first defence against being sold a tax break as a kindness.
+
+Take a concrete South African case. The Section 12J venture-capital regime, which ran until 2021, let investors deduct money put into qualifying small-business funds from their taxable income — and it was universally described, by government and industry alike, as an "incentive" to channel capital toward job-creating enterprises. Read through the disincentive lens, what it actually did was tax that income *less* than the same income left in a bank account or a listed share. The state was not handing investors anything; it was lowering the disincentive on one use of their money relative to others. That reframing matters for how you judge such schemes. An "incentive" sounds like free policy — pure upside, encouraging good behaviour. A "reduced disincentive" makes the real question visible: who is getting taxed less, by how much, at what cost to the revenue everyone else must then make up, and is the behaviour it nudges actually worth that forgone tax? Section 12J, as it happens, was allowed to lapse partly because the answer to that last question was judged to be no — the benefit flowed heavily to wealthy investors and the job-creation case was thin. You reach that judgement far faster when you refuse the flattering word and call the thing what it is.
+
+## The coherence test: flat versus progressive, one more time
+
+Now apply the two axioms to the choice between a flat and a progressive income tax — not to relitigate the arithmetic of the first article, but to ask what each design *says*.
+
+A flat tax taxes every rand of income at the same rate. Its implicit statement is that an extra rand of income is equally worth discouraging whether it is earned by someone on R8,000 a month or someone on R800,000. A progressive tax, by taxing higher incomes at higher marginal rates, makes a different statement: that the disincentive should weigh more heavily on income the higher up the scale it sits — partly because a rand means less to someone who already has many, partly because the higher reaches of income include a larger share of economic rent and passive gain rather than the fruits of additional effort. Here is the quiet result that the disincentive lens delivers: *if tax is a disincentive, and a disincentive should fall most heavily on what we are most willing to see a little less of, then progressive design is the internally consistent way to tax income.* You do not have to be on the political left to follow that reasoning; it falls out of the premises. South Africa's actual schedule — nothing below the R99,000 threshold, then rates climbing to 45% on income above R1.88 million — is a coherent expression of it.
+
+So the first two articles plus this one have, between them, taken the flat tax apart three ways: its arithmetic forces a regressive VAT increase, its international record is confounded and partly repealed, and its underlying logic is less coherent than the progressive system it would replace. That is about as settled as a contested question in public finance gets. Which is exactly why it is time to stop arguing about the rate schedule and look at what the rate schedule cannot see.
+
+## The strongest case against progressive tax — and its honest qualifications
+
+Before we leave the income-tax rate behind, the case *against* progressivity deserves its full weight, because a fair argument tests itself against the best version of the other side. The objection runs like this: high marginal rates at the top discourage exactly the people whose effort, risk-taking and innovation drive growth. Tax the next rand of a founder's income at 45% and you blunt the incentive to build the company that creates the jobs. Worse, high earners and their capital are mobile; tax them too hard and they emigrate, or route their income offshore, and you lose not just the activity but the revenue. This is a serious argument, advanced by serious economists, and it has real empirical content — the "elasticity of taxable income" literature, surveyed influentially by Saez, Slemrod and Giertz, measures how much reported income shrinks when top rates rise.
+
+But that same literature is what qualifies the objection, and the qualifications matter. First, the measured response to higher top rates runs *substantially through avoidance and timing* — shifting income into companies, deferring it, reclassifying it — rather than through people genuinely working less or innovating less. That is an argument for closing loopholes and taxing different forms of income consistently, not necessarily for lower rates. Second, the income in the top brackets is not all the reward for creation; a large part of it is rent, inheritance, and passive appreciation of assets, which a high marginal rate discourages far less than it discourages a salary. Third, the historical record is genuinely ambiguous. The United States ran top marginal income-tax rates above 90% from the mid-1940s through 1963, and around 70% for years after, through the very decades of its strongest postwar growth and most fertile innovation. That cuts against any simple "high rates kill enterprise" story — though honesty requires the counter-caveat that the *effective* rates the rich actually paid were far lower than those headline figures, perhaps 40-something percent on top incomes and lower still on average, because the era was thick with deductions and shelters. The lesson is not "high rates are costless"; it is that the relationship between top rates and growth is loose, mediated by a hundred other things, and nothing like the tight leash the objection assumes. The Nordic economies make the same point in the present tense: steeply progressive, and among the most innovative on earth.
+
+So the anti-progressive case is *complicated*, not refuted. Capital really is mobile; high earners really do respond to rates; a country really can tax income badly. Hold all of that. The point of this article is that even when you grant the objection its full strength, it is an argument about the *income-tax rate* — and the income-tax rate, it turns out, is not where South Africa's wealth problem actually lives.
+
+## Flow versus stock: the asymmetry nobody argues about
+
+Here is the distinction that reorganises the whole debate. Some taxes fall on *flows* — on money in motion, being earned or spent. Income tax is a flow tax; so is VAT, which taxes income as it is spent. Other taxes fall on *stocks* — on accumulated wealth sitting still. A wealth tax, estate duty, capital gains tax and municipal property rates are stock taxes; they reach the assets a person has piled up rather than the income passing through their hands. Every tax system strikes some balance between taxing the flow and taxing the stock. And South Africa, like most countries but more starkly than many, taxes the flow heavily and the stock lightly.
+
+Look at the stock side concretely. South Africa levies *no annual wealth tax* at all — own R10 million or R10 billion in assets and, in any year you neither earn from them nor sell them, you owe nothing on the holding itself. Capital gains, when you finally do sell, are taxed gently: only 40% of an individual's gain is included in taxable income, which caps the *effective* CGT rate at about 18% — well under half the 45% top rate on a salary. Estate duty, the tax on wealth at death, is 20% on the dutiable value of an estate up to R30 million and 25% above that, but it bites only once a lifetime and is widely planned around. Set that against the flow side, where a rising salary meets marginal rates climbing to 45% every single year, and the asymmetry is plain. The system asks comparatively little of the person who *holds* R20 million in property and shares, and a great deal of the person *earning* their way toward a fraction of it.
+
+There is one genuine recurrent stock tax in the mix, and it is worth naming rather than glossing over: municipal property rates. Local governments levy an annual charge on the value of property, which is a real tax on a held asset, paid year after year. But notice its limits as a counter to the flow-stock asymmetry. Rates fall only on *fixed property* — not on the shares, bonds, pension funds and offshore holdings where the largest fortunes increasingly sit, and which the wealth-distribution research shows account for much of the concentration at the very top. They are set and collected by municipalities for local services, not designed as a national instrument of wealth taxation. And they are modest relative to asset value. So while property rates soften the picture slightly, they do not overturn it: the one recurrent tax on the stock reaches the least mobile, most visible form of wealth — the family home — while barely touching the financial assets that make the top 1% the top 1%. The broad asymmetry stands.
+
+Now the distributional reading, which has to be made carefully and without overclaiming, because this is where the argument earns its keep or discredits itself. South Africa's wealth stock is extraordinarily concentrated, and concentrated along the lines apartheid drew. The most careful estimates available — by Aroop Chatterjee, Léo Czajka and Amory Gethin, combining tax data, surveys and national balance sheets — find that the top 10% of South African adults own about 86% of all personal wealth, the top 1% own roughly 55%, and the top 0.01%, some 3,500 people, hold more wealth than the bottom 90% of the population combined. That concentration has not loosened since 1994. The asset stock, in other words, is overwhelmingly old and overwhelmingly white-held, because that is who apartheid allowed to accumulate. The rising *flow* of new high salaries, by contrast, is where the post-apartheid story is actually happening — it is the channel through which a Black professional and executive class is, at last, entering the upper reaches of the income distribution. A tax system that taxes flow heavily and stock lightly therefore does something with an uncomfortable racial shape: it leans hardest on the new earners climbing through income, and lightest on the inherited assets they are trying to catch.
+
+Make the asymmetry concrete with two people, because the abstraction hides how sharp it is. Thandi is a 38-year-old specialist doctor in Johannesburg, the first in her family to enter the professional class, earning R1.8 million a year. She has no inherited assets; everything she will ever own she must build from that salary. On her income she pays tax at marginal rates running up to 45%, year after year, for her whole working life — the state takes a large, rising slice of every rand as she earns it. Across the city, an established family holds R30 million in a paid-off property portfolio and a share account, assets accumulated over generations. In a year when they neither sell nor draw a salary from those assets, their tax bill on that R30 million is *zero* — there is no annual wealth tax. When they eventually sell a property, the gain is taxed at an effective rate capped around 18%, less than half what Thandi pays on her salary. When the wealth passes at death, estate duty takes 20% — once, and after planning, often considerably less. Thandi, building wealth, is taxed hard and continuously. The family, holding wealth, is taxed lightly and occasionally. They may end up with the same net worth; the tax system will have treated their journeys to it completely differently. That is the flow-versus-stock asymmetry in a single comparison, and once you have seen it you cannot unsee it in the national figures.
+
+:::expert
+The wealth-distribution work of Aroop Chatterjee of the Southern Centre for Inequality Studies at Wits, with Léo Czajka and Amory Gethin, published in the *World Bank Economic Review* in 2022, is the most rigorous picture South Africa has of how concentrated its asset stock really is. Their central finding — that the top 10% hold 86% of wealth and that this has not improved across three decades of democracy — reframes the inequality debate. Income inequality, severe as it is, is only part of the story; wealth inequality is sharper still and far more persistent, precisely because wealth, once accumulated, perpetuates itself across generations through returns and inheritance in a way a salary never can. Their data is the empirical foundation for taking the flow-versus-stock distinction seriously: it shows that the thing South Africa taxes most lightly is also the thing distributed most unequally and most along racial lines.
+:::
+
+This is the moment to be scrupulously precise about history, because the loose version of this argument is false and the false version is dangerous. **Progressive income tax is not a post-1994 invention.** South Africa had a steeply progressive income tax, with high top marginal rates, throughout the apartheid era. VAT was introduced in 1991, before the democratic transition. Capital gains tax arrived in 2001 and the current Dividends Tax in 2012 — both under democratic governments, but neither is the "new" burden the careless version of this story imagines. So the honest claim is *not* that the progressive structure was built to hold Black South Africans back; the structure predates their access to it. What is genuinely post-1994 is the *emergence at scale of Black earners and first-generation entrepreneurs meeting these taxes for the first time* — building wealth from income and from new businesses, while the predominantly white-held asset stock they are trying to reach is taxed far more lightly and can be structured around. The villain, if the word even applies, is not the progressive income tax. It is the under-taxation of the stock, set against the heavy taxation of the flow — an asymmetry that happens, in a country with South Africa's history, to favour exactly the wealth that was accumulated under racial privilege.
+
+And there is a twist the next article is devoted to. You might expect that if the stock is taxed lightly, then the *returns* to the stock — dividends and capital gains — must be lightly taxed too. In one important respect the opposite is true: the returns to capital are taxed not too little but, arguably, *twice*. Hold that paradox; [The Double Taxation of Capital](/articles/eg-3-4-the-double-taxation-of-capital) takes it apart.
+
+## The counter-case, in full
+
+If this article only made the argument above, it would be half an article, and a partisan half at that. So here is the other side at full strength, because the question genuinely has one.
+
+Progressive income tax is the engine of redistribution that the South African majority depends on. The personal income tax that falls hardest on high earners is what funds the social grants reaching more than 18 million people, the no-fee schools, the public clinics, the free basic services. Weaken it — flatten it, cut the top rates in the name of relieving the wealth-builders — and you do not automatically reach the asset stock instead; you may simply collect less and cut the services the poor rely on. "Tax the flow less" is only progressive if it is paired with "tax the stock more", and the second half is politically and administratively the hard part. A wealth tax raises genuine difficulties: assets are hard to value annually, the very wealthy are mobile and well-advised, and capital can flee a jurisdiction that taxes it too aggressively — the same mobility the anti-progressive case invoked now cuts against the wealth-tax solution. Estate duty and CGT are the instruments that *do* reach the stock, and the case for strengthening them (higher inclusion rates, fewer avoidance routes, inflation indexing) is at least as strong as the case for easing the income-tax flow. None of this is settled. It is a values-laden question on which reasonable, informed citizens land in different places, and this article does not pretend to a verdict. It supplies a *lens*, not an answer.
+
+:::expert
+South Africa has already studied this question at official level, which is worth knowing before anyone presents a recurrent wealth tax as either an obvious answer or an obvious folly. The Davis Tax Committee, chaired by Judge Dennis Davis, examined the feasibility of a net wealth tax and concluded with characteristic caution: a recurrent annual wealth tax faced serious practical obstacles in South Africa — reliable, current valuations of assets are hard to obtain, the administrative demands are heavy, and the base is mobile and well-advised — but the existing taxes that *do* reach the stock, principally estate duty and capital gains tax, were under-exploited and could be strengthened and better enforced. That measured position maps almost exactly onto the flow-versus-stock argument of this article: the problem is less that South Africa lacks the means to tax the stock than that it leans so heavily on the flow while leaving the stock-reaching instruments it already has comparatively slack.
+:::
+
+What the lens does is improve the questions. Once you see the flow-stock asymmetry, you stop asking "are the rich taxed too much?" — a question with no agreed answer — and start asking "are we taxing the *building* of wealth and the *holding* of wealth coherently, given who is doing which?" That is a question you can actually investigate. And the deepest version of it, this part will argue, is not about tax at all. The reason the asset stock keeps growing faster than new earners can catch it has less to do with how lightly the stock is taxed than with who can get the *credit* to build assets in the first place — the argument that [The Real Lever](/articles/eg-3-8-the-real-lever) lands, by way of [The Household Fallacy](/articles/eg-3-6-the-household-fallacy)'s challenge to the idea that revenue is even the binding constraint.
+
+## Practical Framework: The Flow-and-Stock Decoder
+
+:::takeaway
+South Africa taxes the flow of new income heavily — up to 45% a year on a rising salary — and the stock of accumulated wealth lightly: no annual wealth tax, capital gains capped at an 18% effective rate, modest estate duty. Because the asset stock is overwhelmingly old, white-held and concentrated (the top 10% own 86% of wealth), while the new high-income flow is where a Black professional class is finally rising, that asymmetry favours holding inherited wealth over building new wealth. The progressive income-tax structure is not the post-1994 villain — it predates democracy. The real question is why we tax the flow so much more than the stock.
+:::
+
+The point of this article is a habit of mind you can apply to any tax, proposed or existing. Stop asking only "is this rate too high or too low?" and start reading each tax as a *behavioural and distributional statement* about flows and stocks. Here is the procedure.
+
+:::framework
+**The Flow-and-Stock Decoder**
+
+For any tax — existing or proposed — work through four questions to see what it actually does and to whom.
+
+**1. Does this land on a flow or a stock?**
+
+Is the tax on money in motion — income being earned (income tax, PAYE) or spent (VAT, excise) — or on accumulated assets sitting still (wealth tax, estate duty, capital gains tax, property rates)? This is the first and most clarifying cut. Most public debate is about flow taxes; most wealth sits in lightly taxed stocks.
+
+**2. What does taxing it say we want less of?**
+
+Apply the disincentive axiom. A tax discourages whatever it lands on. A heavy tax on the income flow discourages earning your way up; a light tax (or none) on the wealth stock barely discourages holding. Ask what behaviour the tax is, in effect, steering people toward or away from — regardless of stated intent.
+
+**3. Who is mostly building the thing taxed, and who is mostly holding it?**
+
+This is the distributional question the flow-stock lens makes visible. In South Africa, the income flow is where new earners — disproportionately the emergent Black middle and upper class — are climbing, while the asset stock is overwhelmingly old, concentrated and racially skewed by apartheid. A tax's fairness depends heavily on which group it actually reaches.
+
+**4. Does the overall balance of flow taxes and stock taxes favour new wealth or old wealth?**
+
+Step back from the single tax to the whole system. If flows are taxed heavily and stocks lightly, the system structurally advantages those who already hold wealth over those trying to build it. If you want to change that, the lever is the *balance* between flow and stock taxation — not the income-tax rate alone.
+
+Run any tax proposal through these four questions and you will see past the headline rate to what the tax is really doing. A debate that is only ever about the income-tax rate is a debate confined to the flow — and the flow is not where the wealth is.
+:::
+
+## Resources
+
+The analysis in this article draws on the following research and institutional sources. All figures are labelled in the text and should be re-checked against the latest releases.
+
+- Aroop Chatterjee, Léo Czajka and Amory Gethin — "Wealth Inequality in South Africa, 1993–2017", *The World Bank Economic Review* (2022), and the related World Inequality Lab / UNU-WIDER working paper "Estimating the distribution of household wealth in South Africa" (2021), for the wealth-concentration figures — [wid.world](https://wid.world)
+- Southern Centre for Inequality Studies (SCIS), University of the Witwatersrand — research on income and wealth inequality in South Africa — [www.wits.ac.za/scis](https://www.wits.ac.za/scis/)
+- Southern Africa Labour and Development Research Unit (SALDRU), University of Cape Town — long-run analysis of South African poverty, income distribution and the labour market — [www.saldru.uct.ac.za](https://www.saldru.uct.ac.za)
+- South African Revenue Service — published rates for capital gains tax (40% individual inclusion rate; 18% maximum effective rate), estate duty (20% / 25%), and the absence of an annual wealth tax — [www.sars.gov.za](https://www.sars.gov.za/tax-rates/income-tax/capital-gains-tax-cgt/)
+- Davis Tax Committee — reports on estate duty and on the feasibility of a wealth tax in South Africa — [www.taxcom.org.za](http://www.taxcom.org.za)
+- Emmanuel Saez, Joel Slemrod and Seth Giertz — "The Elasticity of Taxable Income with Respect to Marginal Tax Rates: A Critical Review", *Journal of Economic Literature* (2012), for the behavioural-response evidence on top tax rates
+- Tax Policy Center and Tax Foundation — historical United States top marginal and effective income-tax rate series, for the postwar comparison — [taxpolicycenter.org](https://taxpolicycenter.org)
