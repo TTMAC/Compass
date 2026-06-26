@@ -976,7 +976,7 @@ export const reforms: Reform[] = [
     subgroup: "Credit and Financing Architecture",
     title: "Small Business Guarantee Fund",
     description:
-      "Establish a South African Small Business Guarantee Fund modelled on the US Small Business Administration's (SBA) 7(a) programme. Commercial banks provide credit; government guarantees 75–85% of default risk. Enables lending to early-stage ventures without government doing direct lending.",
+      "Establish a South African Small Business Guarantee Fund modelled on the US Small Business Administration's (SBA) 7(a) and 504 programmes. Commercial banks provide the credit; government guarantees 75–85% of default risk, steering private lending toward productive small-business investment (the SBA's 504 window finances fixed assets — plant, premises and equipment) without the state doing direct lending. A market-compatible way to tilt bank credit toward building new capacity rather than bidding up existing assets.",
     articleSlug: "eg-4-1-three-engines-of-growth",
   },
   {
@@ -998,6 +998,19 @@ export const reforms: Reform[] = [
     description:
       "Establish tax incentives for angel investment and venture capital funds. Create venture capital matching funds (private + government). Support secondary market development for early-stage equity.",
     articleSlug: "eg-4-1-three-engines-of-growth",
+  },
+  {
+    id: "3H.1",
+    workstream: "economic-growth",
+    phase: "phase-1",
+    subgroup: "Credit Allocation & Capital Taxation",
+    title: "Credit Allocation Transparency",
+    description:
+      "Mandate the South African Reserve Bank and National Treasury to compile and publish, quarterly, the split of bank credit between productive lending (new plant, equipment, working capital, new enterprise) and asset lending (mortgages and finance against existing property and securities), drawing on data the banks already file in their BA900 returns. The cheapest and least intrusive reform in this set — it changes no rate and directs no single loan — and the precondition for any informed debate about where new money goes. You cannot manage what you refuse to measure.",
+    legislative:
+      "Reporting directive to registered banks under the South African Reserve Bank Act and Financial Sector Regulation Act (regulatory, not constitutional)",
+    scope: ["national"],
+    articleSlug: "eg-3-7-where-money-comes-from",
   },
 
   // ── Economic Growth: Phase 2 ──
@@ -1080,6 +1093,45 @@ export const reforms: Reform[] = [
     description:
       "Position South Africa as a services and manufacturing hub within the African Continental Free Trade Area.",
     articleSlug: "eg-4-2-the-execution-machine",
+  },
+  {
+    id: "3H.2",
+    workstream: "economic-growth",
+    phase: "phase-2",
+    subgroup: "Credit Allocation & Capital Taxation",
+    title: "Productive-Credit Capital Weighting",
+    description:
+      "Direct the Prudential Authority to study and pilot differential capital risk-weightings under the Basel framework so that, at the margin, it is cheaper for a bank to hold a loan that finances new productive capacity than one that finances the purchase of an existing asset. The most market-compatible of the credit-steering tools: it issues no order on any individual loan and creates no new institution — it only adjusts the relative cost of holding one kind of lending versus another, leaving every decision with the banks.",
+    legislative:
+      "Prudential Authority directive under the Banks Act and Financial Sector Regulation Act; revised capital-adequacy regulations",
+    scope: ["national"],
+    articleSlug: "eg-3-8-the-real-lever",
+  },
+  {
+    id: "3H.3",
+    workstream: "economic-growth",
+    phase: "phase-2",
+    subgroup: "Credit Allocation & Capital Taxation",
+    title: "Development-Finance Productive Mandate",
+    description:
+      "Sharpen the mandates of the Development Bank of Southern Africa and the Industrial Development Corporation toward financing the creation of new productive capacity, with published targets and transparent, rules-based allocation. Pair the mandate with the anti-capture safeguards set out in the Reform Agenda — protected appointments, beneficial-ownership disclosure, automatic reporting — because state-directed finance is precisely the power that, ungoverned, is captured. The lever and its guardrails are one project, not two.",
+    legislative:
+      "Amendments to the Development Bank of Southern Africa Act and Industrial Development Corporation Act; mandate and governance directives",
+    scope: ["national"],
+    articleSlug: "eg-3-8-the-real-lever",
+  },
+  {
+    id: "3H.4",
+    workstream: "economic-growth",
+    phase: "phase-2",
+    subgroup: "Credit Allocation & Capital Taxation",
+    title: "Capital-Tax Coherence Review",
+    description:
+      "Commission a National Treasury and SARS review to make the taxation of capital coherent rather than simply heavier or lighter: relieve the genuine double taxation of distributed company profits (for example through a dividend-imputation credit), index capital gains for inflation so the tax falls on real rather than nominal gains, and rebalance the system's heavy reliance on the income flow toward the lightly taxed asset stock through better-enforced estate duty and capital gains tax rather than higher income-tax rates. The aim is to stop penalising the builder of new wealth relative to the holder of old wealth.",
+    legislative:
+      "Income Tax Act and Estate Duty Act amendments following the review (regulatory and legislative; no constitutional change required)",
+    scope: ["national"],
+    articleSlug: "eg-3-4-the-double-taxation-of-capital",
   },
 
   // ── Economic Growth: Phase 3 ──
@@ -1399,6 +1451,22 @@ export const legislativeItems: LegislativeItem[] = [
     articleSlug: "ra-5-3-the-integrated-reform-programme",
   },
   // Amendments
+  {
+    id: "L.20",
+    name: "Financial Sector Regulation Act / SARB Act (credit-composition reporting)",
+    type: "amendment",
+    workstream: "economic-growth",
+    phase: "phase-1",
+    articleSlug: "eg-3-7-where-money-comes-from",
+  },
+  {
+    id: "L.21",
+    name: "Banks Act (productive-credit capital weighting)",
+    type: "amendment",
+    workstream: "economic-growth",
+    phase: "phase-2",
+    articleSlug: "eg-3-8-the-real-lever",
+  },
   {
     id: "L.4",
     name: "Criminal Procedure Act, 1977",
@@ -2130,6 +2198,15 @@ export const scorecardOutcomes: Record<WorkstreamId, ScorecardOutcome[]> = {
       metric:
         "Gross fixed capital formation / GDP (%); private vs public split; investment in productive (non-residential) sectors",
       dataSource: "SARB Quarterly Bulletin, Stats SA national accounts",
+    },
+    {
+      outcome: "Composition of Bank Credit (Productive vs Asset)",
+      metric:
+        "Share of new bank credit financing productive activity (new plant, equipment, working capital, new enterprise) versus the purchase of existing assets (mortgages and lending against existing property and securities)",
+      dataSource:
+        "SARB BA900 bank returns and private-sector credit-extension data; National Credit Regulator statistics",
+      baseline: "Not currently published as a productive-vs-asset split",
+      year5: "Compiled and published quarterly by the SARB and National Treasury",
     },
     {
       outcome: "Current Account Balance and Income Account Sustainability",
