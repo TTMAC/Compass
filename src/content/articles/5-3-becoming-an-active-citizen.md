@@ -6,7 +6,7 @@ part: 5
 articleNumber: "5.3"
 sphere: "national"
 description: "The final article in the GovCompass series brings everything together into a practical toolkit for holding government accountable as an informed citizen."
-publishDate: 2027-08-15
+lastUpdated: 2026-06-10
 readingTime: 34
 status: "published"
 series:

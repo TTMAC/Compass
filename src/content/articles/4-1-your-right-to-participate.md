@@ -6,7 +6,7 @@ part: 4
 articleNumber: "4.1"
 sphere: "national"
 description: "Discover the constitutional rights that guarantee your participation in governance and the practical channels available to every South African citizen."
-publishDate: 2027-03-15
+lastUpdated: 2026-06-10
 readingTime: 35
 status: "published"
 series:

@@ -10,7 +10,7 @@ tags:
   - "venture-finance"
   - "service-benefits"
 description: "A service people resent will fail. How to make youth service prestigious through real benefits: hiring preference, venture finance, and public recognition."
-publishDate: 2026-12-29
+lastUpdated: 2026-06-24
 readingTime: 23
 status: "draft"
 series:

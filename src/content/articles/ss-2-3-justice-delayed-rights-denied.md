@@ -11,7 +11,7 @@ tags:
   - "bail"
   - "constitutional-rights"
 description: "South Africa's remand detention crisis — accused persons spending years awaiting trial in overcrowded facilities — is a constitutional emergency in plain sight."
-publishDate: 2027-11-26
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

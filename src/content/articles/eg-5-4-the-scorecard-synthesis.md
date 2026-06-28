@@ -12,7 +12,7 @@ tags:
   - "measurement-architecture"
   - "MPI"
 description: "How the Municipal Performance Index, the metro rankings, and the infrastructure delivery tracker connect to the national reform scorecard and roadmap."
-publishDate: 2029-02-15
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

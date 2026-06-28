@@ -11,7 +11,7 @@ tags:
   - "virtuous-cycle"
   - "vicious-cycle"
 description: "Safety, growth, and development form a single reinforcing system. When links break, decline accelerates. South Africa is trapped in the downward spiral."
-publishDate: 2029-07-01
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

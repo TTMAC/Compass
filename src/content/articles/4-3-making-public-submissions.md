@@ -6,7 +6,7 @@ part: 4
 articleNumber: "4.3"
 sphere: ["national", "provincial"]
 description: "A step-by-step guide to writing and submitting public comments on draft legislation, budgets, and government policies at national and provincial level."
-publishDate: 2027-05-15
+lastUpdated: 2026-06-10
 readingTime: 32
 status: "published"
 series:

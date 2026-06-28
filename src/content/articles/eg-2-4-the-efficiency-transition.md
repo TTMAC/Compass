@@ -12,7 +12,7 @@ tags:
   - "FDI"
   - "stage-2"
 description: "South Africa's efficiency transition — scaling manufacturing, developing services exports, building the education pipeline, and fixing regulatory quality."
-publishDate: 2028-09-01
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

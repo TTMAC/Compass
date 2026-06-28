@@ -13,7 +13,7 @@ tags:
   - "resource-revenue"
   - "stage-1"
 description: "A strategic framework for South Africa's resource optimisation stage — mineral beneficiation, agriculture value chains, energy, and logistics corridors."
-publishDate: 2028-09-01
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

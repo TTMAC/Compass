@@ -12,7 +12,7 @@ tags:
   - "MPI-application"
   - "rural-indicators"
 description: "Worked MPI examples comparing Cape Town's 84.0 score with Johannesburg's 52.2 — what peer comparisons reveal about metropolitan governance in South Africa."
-publishDate: 2029-01-15
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

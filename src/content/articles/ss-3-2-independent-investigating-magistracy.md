@@ -11,7 +11,7 @@ tags:
   - "NPA"
   - "prosecution"
 description: "How the French investigating magistrate model could break the SAPS-NPA deadlock that collapses complex cases before they reach a courtroom in South Africa."
-publishDate: 2028-01-21
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

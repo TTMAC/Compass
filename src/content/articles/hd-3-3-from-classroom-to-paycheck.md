@@ -12,7 +12,7 @@ tags:
   - "human-capital"
   - "productivity"
 description: "The direct link between education quality, economic complexity, and South Africa's 33% unemployment. Countries that fixed education first grew faster."
-publishDate: 2029-10-01
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

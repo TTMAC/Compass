@@ -12,7 +12,7 @@ tags:
   - "deindustrialisation"
   - "apartheid-economy"
 description: "From colonial extraction through GEAR and ASGISA to deindustrialisation — the policy choices and structural forces that built South Africa's R7,000 economy."
-publishDate: 2028-07-01
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

@@ -12,7 +12,7 @@ tags:
   - "digital-infrastructure"
   - "accountability"
 description: "What a national law and order scorecard should measure — not just crime statistics but conviction rates, case attrition, remand detention, and community trust."
-publishDate: 2028-04-15
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

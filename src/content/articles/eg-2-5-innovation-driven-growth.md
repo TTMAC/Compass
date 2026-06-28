@@ -13,7 +13,7 @@ tags:
   - "knowledge-economy"
   - "stage-3"
 description: "How South Africa reaches innovation-driven growth through R&D intensity, venture capital ecosystems, and university-industry collaboration in Stage Three."
-publishDate: 2028-09-01
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

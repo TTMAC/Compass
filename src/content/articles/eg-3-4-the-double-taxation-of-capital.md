@@ -12,7 +12,7 @@ tags:
   - "corporate-tax"
   - "fiscal-policy"
 description: "When a South African business pays out profit, the state taxes it twice — company tax then dividends tax — a combined bite over 40% that hits builders hardest."
-publishDate: 2029-01-01
+lastUpdated: 2026-06-28
 readingTime: 31
 status: "reviewed"
 series:

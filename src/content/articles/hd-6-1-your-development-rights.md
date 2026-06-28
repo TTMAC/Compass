@@ -11,7 +11,7 @@ tags:
   - "education-rights"
   - "citizen-toolkit"
 description: "A practical citizen guide to Sections 26-29 of the Constitution, reading the District Health Barometer, and using data to hold government accountable."
-publishDate: 2029-12-01
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

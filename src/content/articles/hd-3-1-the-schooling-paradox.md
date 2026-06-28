@@ -12,7 +12,7 @@ tags:
   - "learning-outcomes"
   - "education-spending"
 description: "South Africa spends 6.5% of GDP on education — more than South Korea or Germany — yet 81% of Grade 4 learners cannot read for meaning. The paradox explained."
-publishDate: 2029-09-01
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

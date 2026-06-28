@@ -12,7 +12,7 @@ tags:
   - "parole"
   - "mental-health"
 description: "Why South Africa's prisons that only contain and never transform guarantee a 40% recidivism cycle — and what constitutional rehabilitation would require."
-publishDate: 2028-03-04
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

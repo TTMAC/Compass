@@ -12,7 +12,7 @@ tags:
   - "prosecution"
   - "case-attrition"
 description: "A data-driven walk through South Africa's criminal justice pipeline — from crime report to courtroom — showing where the system loses cases at each stage."
-publishDate: 2027-10-29
+lastUpdated: 2026-06-10
 readingTime: 35
 status: "draft"
 series:

@@ -10,7 +10,7 @@ tags:
   - "measurement"
   - "accountability"
 description: "Where the money comes from. Funding a youth service — reprioritised budgets, the skills levy, phased allocation — and a scorecard that proves it works."
-publishDate: 2027-01-19
+lastUpdated: 2026-06-24
 readingTime: 23
 status: "draft"
 series:

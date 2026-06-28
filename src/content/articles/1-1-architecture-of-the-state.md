@@ -6,7 +6,7 @@ part: 1
 articleNumber: "1.1"
 sphere: "all"
 description: "Understand how South Africa's Constitution divides power across national, provincial, and municipal spheres, and how to trace who is actually responsible."
-publishDate: 2026-08-01
+lastUpdated: 2026-06-10
 readingTime: 35
 status: "published"
 series:

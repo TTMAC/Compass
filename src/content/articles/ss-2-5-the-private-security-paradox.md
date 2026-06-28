@@ -11,7 +11,7 @@ tags:
   - "accountability"
   - "market-failure"
 description: "South Africa's private security industry outnumbers SAPS by headcount — a symptom of state failure that deepens inequality by turning safety into a commodity."
-publishDate: 2027-12-24
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

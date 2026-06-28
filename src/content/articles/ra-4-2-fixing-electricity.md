@@ -11,7 +11,7 @@ tags:
   - "Eskom"
   - "reform"
 description: "A RAARICLE™ diagnosis of municipal electricity governance — the cross-subsidy trap, NERSA tariff constraints, and the path to independent power procurement."
-publishDate: 2029-01-15
+lastUpdated: 2026-06-10
 readingTime: 32
 status: "draft"
 series:

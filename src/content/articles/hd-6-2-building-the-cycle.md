@@ -13,7 +13,7 @@ tags:
   - "ward-committees"
   - "reinforcing-cycle"
 description: "How citizens can build the reinforcing cycle of safety, growth, and development from the ground up through SGBs, CPFs, ward committees, and coalitions."
-publishDate: 2029-12-15
+lastUpdated: 2026-06-24
 readingTime: 30
 status: "draft"
 series:

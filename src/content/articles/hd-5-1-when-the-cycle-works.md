@@ -13,7 +13,7 @@ tags:
   - "Malaysia"
   - "development-sequencing"
 description: "International case studies where sequencing safety, growth, and development investment created self-reinforcing progress — and what South Africa can learn."
-publishDate: 2029-10-15
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

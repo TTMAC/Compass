@@ -12,7 +12,7 @@ tags:
   - "Amartya-Sen"
   - "standard-of-living"
 description: "Health and education are capabilities; earning is the functioning they must convert into. Why South Africa's broken conversion machinery traps millions."
-publishDate: 2029-10-03
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

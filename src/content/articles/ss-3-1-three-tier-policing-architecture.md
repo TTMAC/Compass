@@ -11,7 +11,7 @@ tags:
   - "provincial-police"
   - "municipal-police"
 description: "How South Africa could rebuild policing around the Constitution: a narrowed national agency, empowered provincial police, and accountable metro forces."
-publishDate: 2028-01-07
+lastUpdated: 2026-06-10
 readingTime: 35
 status: "draft"
 series:

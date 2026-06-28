@@ -12,7 +12,7 @@ tags:
   - "reform"
   - "title-deeds"
 description: "A RAARICLE™ diagnosis of the most fragmented value chain in South African government — four entities per housing project with no single point of ownership."
-publishDate: 2028-11-01
+lastUpdated: 2026-06-10
 readingTime: 35
 status: "draft"
 series:

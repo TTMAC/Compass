@@ -6,7 +6,7 @@ part: 1
 articleNumber: "1.2"
 sphere: "all"
 description: "Learn which sphere of government is responsible for which services in South Africa — from schools and hospitals to water, roads, and refuse collection."
-publishDate: 2026-08-15
+lastUpdated: 2026-06-10
 readingTime: 32
 status: "published"
 series:

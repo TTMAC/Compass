@@ -11,7 +11,7 @@ tags:
   - "capture"
   - "misalignment"
 description: "Maps the five recurring failure patterns — fragmentation, misalignment, absence, conflation and capture — across South Africa's governance architecture."
-publishDate: 2028-09-15
+lastUpdated: 2026-06-10
 readingTime: 28
 status: "draft"
 series:

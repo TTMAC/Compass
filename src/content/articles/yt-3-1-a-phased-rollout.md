@@ -10,7 +10,7 @@ tags:
   - "institutional-design"
   - "legislation"
 description: "A national youth service cannot start universal. A phased path from volunteer pilot to national institution, with the law and machinery needed to run it well."
-publishDate: 2027-01-05
+lastUpdated: 2026-06-24
 readingTime: 23
 status: "draft"
 series:

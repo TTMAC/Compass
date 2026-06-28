@@ -12,7 +12,7 @@ tags:
   - "fiscal-policy"
   - "redistribution"
 description: "Nothing sacred about progressive tax — it is a contestable instrument. The deeper issue: South Africa taxes the income flow far harder than the wealth stock."
-publishDate: 2028-12-01
+lastUpdated: 2026-06-28
 readingTime: 31
 status: "reviewed"
 series:

@@ -13,7 +13,7 @@ tags:
   - "PAYE"
   - "fiscal-policy"
 description: "Every tax discourages the activity it touches — so could South Africa tax less and grow more? We argue the case, then test cutting PAYE and raising VAT."
-publishDate: 2028-10-01
+lastUpdated: 2026-06-28
 readingTime: 31
 status: "reviewed"
 series:

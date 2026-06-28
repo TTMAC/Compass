@@ -10,7 +10,7 @@ tags:
   - "section-100"
   - "concurrent"
 description: "A full RAARICLE™ sphere-level diagnosis of provincial government — why South Africa's constitutional design creates systematic provincial underperformance."
-publishDate: 2028-11-15
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

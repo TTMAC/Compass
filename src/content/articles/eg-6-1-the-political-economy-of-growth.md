@@ -11,7 +11,7 @@ tags:
   - "parliamentary-accountability"
   - "winners-losers"
 description: "Why economic reform is always a political question — exploring the winners and losers, the social compact, and trade diplomacy in South Africa's context."
-publishDate: 2029-03-15
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

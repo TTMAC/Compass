@@ -31,7 +31,7 @@ const articles = defineCollection({
         .string()
         .min(150, "Description must be at least 150 characters for SEO")
         .max(160, "Description must be at most 160 characters for SEO"),
-      publishDate: z.coerce.date(),
+      lastUpdated: z.coerce.date(),
       scheduledPublishDate: z.coerce.date().optional(),
       readingTime: z.number().int().positive(),
       status: z.enum([

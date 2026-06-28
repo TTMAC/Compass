@@ -12,7 +12,7 @@ tags:
   - "MPI"
   - "South-Africa-development"
 description: "South Africa's HDI of 0.713 drops to 0.468 when adjusted for inequality — one of the largest penalties among upper-middle-income nations. What the gap reveals."
-publishDate: 2029-06-15
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

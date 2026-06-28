@@ -12,7 +12,7 @@ tags:
   - "water-security"
   - "environmental-quality"
 description: "South Africa must industrialise — but not at the cost of clean water, biodiversity, or public health. How the country can pursue industrial progress responsibly"
-publishDate: 2029-11-15
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

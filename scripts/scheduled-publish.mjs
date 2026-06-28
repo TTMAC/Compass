@@ -62,11 +62,11 @@ async function main() {
       'status: "published"',
     );
 
-    // Update publishDate to the scheduled date (YYYY-MM-DD)
-    const publishDateStr = scheduledDate.toISOString().split("T")[0];
+    // Update lastUpdated to the publish date (YYYY-MM-DD)
+    const lastUpdatedStr = scheduledDate.toISOString().split("T")[0];
     updated = updated.replace(
-      /^publishDate:\s*.+$/m,
-      `publishDate: ${publishDateStr}`,
+      /^lastUpdated:\s*.+$/m,
+      `lastUpdated: ${lastUpdatedStr}`,
     );
 
     // Remove scheduledPublishDate line

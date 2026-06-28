@@ -10,7 +10,7 @@ tags:
   - "national-youth-service"
   - "nation-building"
 description: "Every year hundreds of thousands of young South Africans leave school into a labour market with no place for them. This is the scale of the post-matric cliff."
-publishDate: 2026-12-01
+lastUpdated: 2026-06-24
 readingTime: 23
 status: "draft"
 series:

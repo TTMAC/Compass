@@ -12,7 +12,7 @@ tags:
   - "intergenerational-wealth"
   - "financial-literacy"
 description: "Income is not wealth. Financial capability, the debt trap, and the racially skewed asset accumulation that transmits poverty across South African generations."
-publishDate: 2029-10-12
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

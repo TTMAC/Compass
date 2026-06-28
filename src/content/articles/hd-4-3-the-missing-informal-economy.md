@@ -12,7 +12,7 @@ tags:
   - "survivalist-enterprise"
   - "livelihoods"
 description: "South Africa's informal economy is anomalously small for a developing nation. Why so few earn through self-employment, and barriers to survivalist enterprise."
-publishDate: 2029-10-09
+lastUpdated: 2026-06-24
 readingTime: 30
 status: "draft"
 series:

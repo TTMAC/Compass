@@ -12,7 +12,7 @@ tags:
   - "Gulf-states"
   - "fiscal-policy"
 description: "Estonia, Russia, the Gulf — what really happened where flat or zero income tax was tried, and why the rate schedule is a dial nations turn, not a creed."
-publishDate: 2028-11-01
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

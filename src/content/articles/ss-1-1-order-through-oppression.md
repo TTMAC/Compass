@@ -11,7 +11,7 @@ tags:
   - "SAPS"
   - "oversight"
 description: "How colonial and apartheid policing created a system designed to control, not protect — and what South Africa's young democracy inherited from that design."
-publishDate: 2027-10-01
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

@@ -10,7 +10,7 @@ tags:
   - "implementation"
   - "sequencing"
 description: "A practical roadmap for fixing South Africa's criminal justice system — which reforms are prerequisites for others, and what laws must change to enable them."
-publishDate: 2028-03-18
+lastUpdated: 2026-06-10
 readingTime: 35
 status: "draft"
 series:

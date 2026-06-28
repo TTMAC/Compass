@@ -6,7 +6,7 @@ part: 5
 articleNumber: "5.1"
 sphere: "national"
 description: "Learn how to read the Auditor-General's reports and understand what clean audits, qualified opinions, and disclaimers mean for public money and services."
-publishDate: 2027-06-15
+lastUpdated: 2026-06-10
 readingTime: 36
 status: "published"
 series:

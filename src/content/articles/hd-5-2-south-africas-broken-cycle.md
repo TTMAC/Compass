@@ -12,7 +12,7 @@ tags:
   - "broken-cycle"
   - "IHDI-penalty"
 description: "How South Africa's development cycle runs in reverse — inequality driving crime, capital flight, fiscal squeeze, and service collapse in a vicious spiral."
-publishDate: 2029-11-01
+lastUpdated: 2026-06-24
 readingTime: 30
 status: "draft"
 series:

@@ -12,7 +12,7 @@ tags:
   - "laffer-curve"
   - "fiscal-policy"
 description: "Can South Africa redistribute its way out of poverty, or must it grow first? The growth-led tax case in full — and where the evidence holds and breaks."
-publishDate: 2029-02-01
+lastUpdated: 2026-06-28
 readingTime: 32
 status: "reviewed"
 series:

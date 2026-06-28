@@ -10,7 +10,7 @@ tags:
   - "implementation"
   - "reform"
 description: "Maps each proposed RAARICLE™ reform to its legal pathway — what requires a constitutional amendment, what needs new legislation, and what is doable today."
-publishDate: 2029-03-01
+lastUpdated: 2026-06-10
 readingTime: 28
 status: "draft"
 series:

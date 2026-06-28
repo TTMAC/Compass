@@ -13,7 +13,7 @@ tags:
   - "sequencing"
   - "political-cycles"
 description: "How South Africa can insulate a 25-year economic strategy from political cycles through central coordination, sector agencies, and disciplined sequencing."
-publishDate: 2028-11-01
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

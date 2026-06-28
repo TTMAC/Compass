@@ -12,7 +12,7 @@ tags:
   - "productive-credit"
   - "fiscal-policy"
 description: "Banks do not lend out savings — they create new money when they lend. Most of South Africa's money was made this way, and what it funds is the real question."
-publishDate: 2029-04-01
+lastUpdated: 2026-06-28
 readingTime: 33
 status: "reviewed"
 series:

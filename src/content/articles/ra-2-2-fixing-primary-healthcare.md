@@ -12,7 +12,7 @@ tags:
   - "NHI"
   - "reform"
 description: "A RAARICLE™ diagnosis of the NDoH-to-clinic delivery chain — why facility managers cannot procure essential medicines and how to rebuild health governance."
-publishDate: 2028-10-15
+lastUpdated: 2026-06-10
 readingTime: 35
 status: "draft"
 series:

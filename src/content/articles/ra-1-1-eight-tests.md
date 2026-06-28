@@ -10,7 +10,7 @@ tags:
   - "governance-design"
   - "diagnostic"
 description: "Introduces the eight RAARICLE™ governance elements as plain-language tests any South African citizen can apply to any government function they care about."
-publishDate: 2028-09-01
+lastUpdated: 2026-06-10
 readingTime: 25
 status: "draft"
 series:

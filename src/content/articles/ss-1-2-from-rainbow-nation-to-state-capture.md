@@ -12,7 +12,7 @@ tags:
   - "Hawks"
   - "organised-crime"
 description: "How South Africa's criminal justice system was first overwhelmed by the post-apartheid crime explosion and then deliberately hollowed out by state capture."
-publishDate: 2027-10-15
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

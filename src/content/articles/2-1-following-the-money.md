@@ -6,7 +6,7 @@ part: 2
 articleNumber: "2.1"
 sphere: "national"
 description: "Trace how South Africa collects over R2 trillion in tax revenue through SARS and divides it across three spheres of government via the Division of Revenue."
-publishDate: 2026-10-01
+lastUpdated: 2026-06-21
 readingTime: 37
 status: "published"
 series:

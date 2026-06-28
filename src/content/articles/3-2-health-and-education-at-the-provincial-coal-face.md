@@ -6,7 +6,7 @@ part: 3
 articleNumber: "3.2"
 sphere: "provincial"
 description: "Follow your tax money into provincial schools and clinics, the two sectors that consume 80% of every provincial budget, and learn how to judge the results."
-publishDate: 2027-01-15
+lastUpdated: 2026-06-10
 readingTime: 32
 status: "published"
 series:

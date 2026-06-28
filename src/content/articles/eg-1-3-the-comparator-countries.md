@@ -14,7 +14,7 @@ tags:
   - "Poland"
   - "new-structural-economics"
 description: "What Chile, Vietnam, Malaysia, South Korea, Botswana, and Poland reveal about the institutional reforms needed to escape the middle-income trap permanently."
-publishDate: 2028-07-01
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

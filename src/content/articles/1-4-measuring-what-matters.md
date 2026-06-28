@@ -6,7 +6,7 @@ part: 1
 articleNumber: "1.4"
 sphere: "all"
 description: "Learn how to measure whether South African government is working — the difference between outputs and outcomes, and the public data that reveals real results."
-publishDate: 2026-09-15
+lastUpdated: 2026-06-21
 readingTime: 33
 status: "draft"
 series:

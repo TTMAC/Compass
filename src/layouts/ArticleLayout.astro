@@ -17,7 +17,7 @@ interface Props {
   pillar?: string;
   part?: number;
   sphere?: ("national" | "provincial" | "municipal" | "all")[];
-  publishDate: Date;
+  lastUpdated: Date;
   readingTime: number;
   canonicalUrl?: string;
   ogImage?: string;
@@ -36,7 +36,7 @@ const {
   pillar = "government-structure",
   part,
   sphere,
-  publishDate,
+  lastUpdated,
   readingTime,
   canonicalUrl,
   ogImage,
@@ -61,7 +61,7 @@ const articleJsonLd = {
   "@type": "Article",
   headline: title,
   description: description,
-  datePublished: publishDate.toISOString(),
+  dateModified: lastUpdated.toISOString(),
   author: {
     "@type": "Person",
     name: "Tshepo Machele",

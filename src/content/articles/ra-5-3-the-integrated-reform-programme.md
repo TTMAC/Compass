@@ -11,7 +11,7 @@ tags:
   - "measurement"
   - "accountability"
 description: "Why South Africa needs a single legislated reform programme — not ad hoc fixes — and how RAARICLE™ builds a coherent, measurable package across all pillars."
-publishDate: 2029-03-22
+lastUpdated: 2026-06-26
 readingTime: 38
 status: "draft"
 series:

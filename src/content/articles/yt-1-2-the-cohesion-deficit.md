@@ -10,7 +10,7 @@ tags:
   - "youth-programmes"
   - "civic-discipline"
 description: "South Africa's youth inherit division and few shared civic rituals. This examines the cohesion deficit and why past programmes like NYS and NARYSEC fell short."
-publishDate: 2026-12-08
+lastUpdated: 2026-06-24
 readingTime: 23
 status: "draft"
 series:

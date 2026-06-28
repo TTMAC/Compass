@@ -12,7 +12,7 @@ tags:
   - "SBA"
   - "venture-creation"
 description: "South Africa's three cross-cutting growth engines — new ventures, new exports, and new MSME financing — and why they only work as an integrated system."
-publishDate: 2028-11-01
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

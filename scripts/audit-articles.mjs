@@ -186,7 +186,7 @@ function main() {
       "part",
       "articleNumber",
       "description",
-      "publishDate",
+      "lastUpdated",
       "readingTime",
       "status",
       "series",

@@ -13,7 +13,7 @@ tags:
   - "ISA"
   - "gap-analysis"
 description: "From the National Infrastructure Plan to Strategic Integrated Projects and PPPs — why South Africa consistently plans the infrastructure it never builds."
-publishDate: 2029-01-15
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

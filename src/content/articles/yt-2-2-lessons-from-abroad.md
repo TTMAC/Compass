@@ -10,7 +10,7 @@ tags:
   - "national-service"
   - "nation-building"
 description: "Singapore, Israel and South Korea have run national service for decades. What they teach South Africa about cohesion and design — and what does not transfer."
-publishDate: 2026-12-22
+lastUpdated: 2026-06-24
 readingTime: 24
 status: "draft"
 series:

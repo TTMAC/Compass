@@ -11,7 +11,7 @@ tags:
   - "private-security"
   - "resource-allocation"
 description: "Why your safety depends on your postcode — how policing resources are distributed across South Africa's unequal geography, and what that means for rights."
-publishDate: 2027-11-12
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

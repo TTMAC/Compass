@@ -10,7 +10,7 @@ tags:
   - "funding-model"
   - "measurement"
 description: "Ambition meets arithmetic. A transparent, bottom-up per-participant costing for a national youth service — built so every assumption can be checked and tested."
-publishDate: 2027-01-12
+lastUpdated: 2026-06-24
 readingTime: 24
 status: "draft"
 series:

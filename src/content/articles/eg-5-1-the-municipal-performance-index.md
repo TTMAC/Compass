@@ -12,7 +12,7 @@ tags:
   - "geometric-mean"
   - "data-sources"
 description: "A comprehensive methodology for ranking all of South Africa's 257 municipalities using quantitative indicators, geometric scoring, and audited data sources."
-publishDate: 2029-01-15
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

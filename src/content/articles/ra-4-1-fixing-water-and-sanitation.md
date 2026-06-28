@@ -11,7 +11,7 @@ tags:
   - "WSA"
   - "reform"
 description: "A RAARICLE™ diagnosis of the WSA/WSP model — the regulator-provider conflation pattern and a structural blueprint to rebuild South Africa's water governance."
-publishDate: 2029-01-01
+lastUpdated: 2026-06-10
 readingTime: 35
 status: "draft"
 series:

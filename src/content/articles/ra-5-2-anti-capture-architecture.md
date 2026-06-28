@@ -11,7 +11,7 @@ tags:
   - "accountability"
   - "reform"
 description: "The five capture vectors that undermine South African institutions — and the structural defences that make institutional capture architecturally difficult."
-publishDate: 2029-03-15
+lastUpdated: 2026-06-10
 readingTime: 32
 status: "draft"
 series:

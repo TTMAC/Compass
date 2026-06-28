@@ -11,7 +11,7 @@ tags:
   - "municipal"
   - "traditional-justice"
 description: "How community courts at municipal level could decongest South Africa's overburdened magistrates' courts while incorporating restorative justice principles."
-publishDate: 2028-02-04
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "draft"
 series:

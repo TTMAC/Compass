@@ -12,7 +12,7 @@ tags:
   - "banking-regulation"
   - "fiscal-policy"
 description: "South Africa's loudest economic debate, tax rates, sits near the bottom of the real hierarchy of levers. The top one, where bank credit flows, goes unwatched."
-publishDate: 2029-05-01
+lastUpdated: 2026-06-28
 readingTime: 33
 status: "reviewed"
 series:

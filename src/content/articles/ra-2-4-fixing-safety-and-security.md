@@ -13,7 +13,7 @@ tags:
   - "criminal-justice"
   - "SAPS"
 description: "A RAARICLE™ diagnosis of the SAPS-to-courtroom delivery chain — why centralised policing fails across nine provinces and how three-tier architecture fixes it."
-publishDate: 2028-11-08
+lastUpdated: 2026-06-10
 readingTime: 40
 status: "draft"
 series:

@@ -12,7 +12,7 @@ tags:
   - "employability"
   - "lifelong-learning"
 description: "Schooling builds cognitive skills, but employability needs more. TVET, apprenticeships, and the SETA failure — South Africa's broken post-school skills layer."
-publishDate: 2029-10-06
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

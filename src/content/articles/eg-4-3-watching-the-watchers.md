@@ -13,7 +13,7 @@ tags:
   - "oversight"
   - "accountability"
 description: "Inside South Africa's monitoring and evaluation system — DPME, the Auditor-General, SOE oversight boards, and the gaps where accountability breaks down."
-publishDate: 2028-11-01
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

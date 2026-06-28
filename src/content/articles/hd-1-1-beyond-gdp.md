@@ -11,7 +11,7 @@ tags:
   - "GDP-limitations"
   - "human-development"
 description: "GDP measures what an economy produces; HDI reveals what production means for human lives. Why South Africa's $13K GNI per capita masks lived deprivation."
-publishDate: 2029-06-01
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

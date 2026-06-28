@@ -11,7 +11,7 @@ tags:
   - "accountability"
   - "reform"
 description: "How to resolve the authority-accountability split between national policy and provincial service delivery on Schedule 4 concurrent government functions."
-publishDate: 2028-12-01
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

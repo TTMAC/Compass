@@ -6,7 +6,7 @@ part: 2
 articleNumber: "2.3"
 sphere: "municipal"
 description: "Follow public money from National Treasury through grants and the equitable share to your municipality, and see where it turns into services or disappears."
-publishDate: 2026-11-01
+lastUpdated: 2026-06-10
 readingTime: 33
 status: "published"
 series:

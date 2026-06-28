@@ -10,7 +10,7 @@ interface ArticleData {
     | "all"
     | ("national" | "provincial" | "municipal" | "all")[];
   description: string;
-  publishDate: Date | string;
+  lastUpdated: Date | string;
   scheduledPublishDate?: Date | string;
   readingTime: number;
   status: "published" | "draft" | "coming-soon" | "scheduled";
@@ -37,7 +37,7 @@ export class ArticleBuilder {
       sphere: "national",
       description:
         "This is a valid test description for the article schema. It needs to be within the one hundred and fifty to one hundred sixty character limit for SEO.",
-      publishDate: new Date("2025-01-15"),
+      lastUpdated: new Date("2025-01-15"),
       readingTime: 5,
       status: "published",
       series: {
@@ -80,8 +80,8 @@ export class ArticleBuilder {
     return this;
   }
 
-  withPublishDate(date: Date | string): this {
-    this.data.publishDate = date;
+  withLastUpdated(date: Date | string): this {
+    this.data.lastUpdated = date;
     return this;
   }
 

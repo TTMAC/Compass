@@ -6,7 +6,7 @@ part: 5
 articleNumber: "5.2"
 sphere: "national"
 description: "A practical guide to finding, accessing, and interpreting the public datasets from National Treasury, StatsSA, and DPME to assess government outcomes."
-publishDate: 2027-07-15
+lastUpdated: 2026-06-10
 readingTime: 35
 status: "published"
 series:

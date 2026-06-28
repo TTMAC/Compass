@@ -12,7 +12,7 @@ tags:
   - "reform-coordination-office"
   - "systemic-indicators"
 description: "How 15 cross-pillar indicators across safety, growth, and human development can tell South Africans whether the reinforcing cycle is actually turning."
-publishDate: 2029-11-22
+lastUpdated: 2026-06-10
 readingTime: 28
 status: "draft"
 series:

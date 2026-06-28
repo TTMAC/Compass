@@ -11,7 +11,7 @@ tags:
   - "information"
   - "reform"
 description: "A cross-cutting RAARICLE™ diagnosis of the capability and information gaps that undermine all municipal functions — and a structural fix for both elements."
-publishDate: 2029-02-15
+lastUpdated: 2026-06-24
 readingTime: 30
 status: "draft"
 series:

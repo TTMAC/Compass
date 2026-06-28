@@ -11,7 +11,7 @@ tags:
   - "section-100"
   - "reform"
 description: "Why Section 100 interventions in provincial government have mixed results and how to design automatic enforcement triggers that prevent state failure."
-publishDate: 2028-12-15
+lastUpdated: 2026-06-10
 readingTime: 28
 status: "draft"
 series:

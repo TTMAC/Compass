@@ -10,7 +10,7 @@ tags:
   - "national-service"
   - "social-cohesion"
 description: "The model's heart: every young South African does basic military training together, then picks a track — continued military service or civilian service."
-publishDate: 2026-12-15
+lastUpdated: 2026-06-24
 readingTime: 24
 status: "draft"
 series:

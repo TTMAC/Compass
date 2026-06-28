@@ -18,7 +18,7 @@ tags:
   - "GFCF"
   - "development-finance"
 description: "Why energy independence, port efficiency, and rail corridors are the infrastructure preconditions South Africa must build before manufacturing can scale."
-publishDate: 2028-09-01
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

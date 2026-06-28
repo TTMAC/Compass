@@ -6,7 +6,7 @@ part: 4
 articleNumber: "4.2"
 sphere: "municipal"
 description: "Understand how ward committees, public meetings, and IDP participation processes allow South African residents to directly shape local government policy."
-publishDate: 2027-04-15
+lastUpdated: 2026-06-10
 readingTime: 34
 status: "published"
 series:

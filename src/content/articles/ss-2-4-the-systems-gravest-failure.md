@@ -12,7 +12,7 @@ tags:
   - "Thuthuzela"
   - "victim-justice"
 description: "Why South Africa's criminal justice system fails gender-based violence survivors at every stage — from police station to courtroom — and what works despite it."
-publishDate: 2027-12-10
+lastUpdated: 2026-06-10
 readingTime: 35
 status: "draft"
 series:

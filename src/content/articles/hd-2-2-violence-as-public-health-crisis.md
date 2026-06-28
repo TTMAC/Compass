@@ -12,7 +12,7 @@ tags:
   - "trauma"
   - "safety-health-link"
 description: "Violence costs South Africa three to four years of life expectancy. Homicide, GBV, and road deaths overwhelm trauma systems and deepen the development gap."
-publishDate: 2029-08-01
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

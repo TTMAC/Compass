@@ -6,7 +6,7 @@ part: 2
 articleNumber: "2.2"
 sphere: "national"
 description: "Walk through South Africa's annual budget cycle step by step — from Treasury preparation through the budget speech to Parliamentary approval and audit."
-publishDate: 2026-10-15
+lastUpdated: 2026-06-10
 readingTime: 36
 status: "published"
 series:

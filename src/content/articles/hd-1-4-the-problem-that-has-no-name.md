@@ -14,7 +14,7 @@ tags:
   - "HDI"
   - "framing"
 description: "The Carnegie Commission named and solved the 'Poor White Problem.' Post-1994 SA never named its 'Poor Black Problem.' What the asymmetry reveals about power."
-publishDate: 2029-07-15
+lastUpdated: 2026-06-10
 readingTime: 35
 status: "draft"
 series:

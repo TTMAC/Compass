@@ -6,7 +6,7 @@ part: 3
 articleNumber: "3.3"
 sphere: "municipal"
 description: "Learn how municipal councils work across South Africa, how ward councillors are elected, and how council oversight of mayors and officials should work."
-publishDate: 2027-02-15
+lastUpdated: 2026-06-10
 readingTime: 36
 status: "published"
 series:

@@ -11,7 +11,7 @@ tags:
   - "concurrent"
   - "reform"
 description: "A RAARICLE™ diagnosis of the DBE-to-school delivery chain — why provincial MECs are accountable for education results they cannot control and how to fix it."
-publishDate: 2028-10-01
+lastUpdated: 2026-06-10
 readingTime: 35
 status: "draft"
 series:

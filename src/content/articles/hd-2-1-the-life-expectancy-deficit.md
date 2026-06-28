@@ -12,7 +12,7 @@ tags:
   - "ARV"
   - "95-95-95"
 description: "South Africa's life expectancy of 63 is ten years below what its income predicts. HIV and TB explain the gap — and closing it is the best HDI investment."
-publishDate: 2029-07-15
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

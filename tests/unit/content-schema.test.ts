@@ -20,10 +20,10 @@ const articleSchema = z
       .string()
       .min(150, "Description must be at least 150 characters for SEO")
       .max(160, "Description must be at most 160 characters for SEO"),
-    publishDate: z.coerce.date(),
+    lastUpdated: z.coerce.date(),
     scheduledPublishDate: z.coerce.date().optional(),
     readingTime: z.number().int().positive(),
-    status: z.enum(["published", "draft", "coming-soon", "scheduled"]),
+    status: z.enum(["published", "draft", "reviewed", "coming-soon", "scheduled"]),
     series: z.object({
       prev: z.string().nullable().default(null),
       next: z.string().nullable().default(null),
@@ -115,12 +115,12 @@ describe("Article Schema", () => {
 
     it("should accept string dates and coerce to Date", () => {
       const article = new ArticleBuilder()
-        .withPublishDate("2025-03-01")
+        .withLastUpdated("2025-03-01")
         .build();
       const result = articleSchema.safeParse(article);
       expect(result.success).toBe(true);
       if (result.success) {
-        expect(result.data.publishDate).toBeInstanceOf(Date);
+        expect(result.data.lastUpdated).toBeInstanceOf(Date);
       }
     });
 

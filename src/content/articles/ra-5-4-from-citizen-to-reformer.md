@@ -11,7 +11,7 @@ tags:
   - "accountability"
   - "reform"
 description: "How ordinary South African citizens can use RAARICLE™ diagnostics to hold their government accountable and become effective advocates for structural reform."
-publishDate: 2029-04-01
+lastUpdated: 2026-06-10
 readingTime: 25
 status: "draft"
 series:

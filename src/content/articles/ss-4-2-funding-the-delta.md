@@ -11,7 +11,7 @@ tags:
   - "cost-benefit"
   - "political-economy"
 description: "The fiscal case for investing in criminal justice reform — and why the status quo of impunity, recidivism, and lost investment costs more than real reform."
-publishDate: 2028-04-01
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

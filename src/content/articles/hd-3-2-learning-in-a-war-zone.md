@@ -12,7 +12,7 @@ tags:
   - "cognitive-bandwidth"
   - "community-violence"
 description: "When children walk through gang territory, arrive hungry, and learn in violent classrooms, education becomes physiologically impossible. The evidence."
-publishDate: 2029-09-15
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:

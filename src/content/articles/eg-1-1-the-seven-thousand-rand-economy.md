@@ -11,7 +11,7 @@ tags:
   - "Porter"
   - "baseline"
 description: "A baseline snapshot of South Africa's R7,000 GDP per capita — what economic complexity reveals about the structure, constraints, and potential of the economy."
-publishDate: 2028-07-01
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

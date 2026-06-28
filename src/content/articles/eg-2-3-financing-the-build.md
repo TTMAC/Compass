@@ -17,7 +17,7 @@ tags:
   - "Regulation-28"
   - "NPC"
 description: "How South Africa's monetary architecture — banks, pension funds, DFIs, and the SARB — underinvests in infrastructure, and the NPC's fourteen reform proposals."
-publishDate: 2028-09-01
+lastUpdated: 2026-06-28
 readingTime: 30
 status: "reviewed"
 series:

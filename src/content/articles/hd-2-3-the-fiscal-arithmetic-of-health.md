@@ -11,7 +11,7 @@ tags:
   - "GDP-health"
   - "economic-growth-health"
 description: "South Africa spends 8.5% of GDP on health but only 4.1% through the public sector serving 84% of the population. Growth determines what is affordable."
-publishDate: 2029-08-15
+lastUpdated: 2026-06-24
 readingTime: 30
 status: "draft"
 series:

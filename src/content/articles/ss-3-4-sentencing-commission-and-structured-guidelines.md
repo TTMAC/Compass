@@ -11,7 +11,7 @@ tags:
   - "data"
   - "judicial-discretion"
 description: "How a sentencing commission with structured guidelines could replace South Africa's blunt minimum sentences with a data-informed, constitutional framework."
-publishDate: 2028-02-18
+lastUpdated: 2026-06-10
 readingTime: 30
 status: "draft"
 series:
