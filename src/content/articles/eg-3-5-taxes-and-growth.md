@@ -14,7 +14,7 @@ tags:
 description: "Can South Africa redistribute its way out of poverty, or must it grow first? The growth-led tax case in full — and where the evidence holds and breaks."
 publishDate: 2029-02-01
 readingTime: 32
-status: "draft"
+status: "reviewed"
 series:
   prev: "eg-3-4-the-double-taxation-of-capital"
   next: "eg-3-6-the-household-fallacy"

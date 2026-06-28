@@ -15,7 +15,7 @@ tags:
 description: "A strategic framework for South Africa's resource optimisation stage — mineral beneficiation, agriculture value chains, energy, and logistics corridors."
 publishDate: 2028-09-01
 readingTime: 30
-status: "draft"
+status: "reviewed"
 series:
   prev: "eg-1-3-the-comparator-countries"
   next: "eg-2-2-infrastructure-foundations"

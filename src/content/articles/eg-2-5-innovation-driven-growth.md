@@ -15,7 +15,7 @@ tags:
 description: "How South Africa reaches innovation-driven growth through R&D intensity, venture capital ecosystems, and university-industry collaboration in Stage Three."
 publishDate: 2028-09-01
 readingTime: 30
-status: "draft"
+status: "reviewed"
 series:
   prev: "eg-2-4-the-efficiency-transition"
   next: "eg-3-1-the-flat-tax-mirage"

@@ -14,7 +14,7 @@ tags:
 description: "From colonial extraction through GEAR and ASGISA to deindustrialisation — the policy choices and structural forces that built South Africa's R7,000 economy."
 publishDate: 2028-07-01
 readingTime: 30
-status: "draft"
+status: "reviewed"
 series:
   prev: "eg-1-1-the-seven-thousand-rand-economy"
   next: "eg-1-3-the-comparator-countries"

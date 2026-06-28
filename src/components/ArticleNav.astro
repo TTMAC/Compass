@@ -13,7 +13,7 @@ interface Props {
 
 const { prev, next } = Astro.props;
 const isLinkable = (status: string) =>
-  status === "published" || status === "draft";
+  status === "published" || status === "draft" || status === "reviewed";
 ---
 
 {

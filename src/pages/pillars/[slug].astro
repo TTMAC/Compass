@@ -56,7 +56,7 @@ const allTags = allTagsUnsorted.sort(
 );
 
 const isLinkable = (status: string) =>
-  status === "published" || status === "draft";
+  status === "published" || status === "draft" || status === "reviewed";
 
 const sphereColors: Record<string, string> = {
   national: "bg-sphere-national",
@@ -326,6 +326,11 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
                                       In Review
                                     </span>
                                   )}
+                                  {article.data.status === "reviewed" && (
+                                    <span class="text-[10px] font-heading text-green-700 bg-green-100 px-1.5 py-0.5 rounded">
+                                      Reviewed
+                                    </span>
+                                  )}
                                 </div>
                                 <h3 class="font-heading text-base font-semibold text-text-primary">
                                   {article.data.title}
@@ -432,6 +437,11 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
                                 {article.data.status === "draft" && (
                                   <span class="text-[10px] font-heading text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
                                     Draft
+                                  </span>
+                                )}
+                                {article.data.status === "reviewed" && (
+                                  <span class="text-[10px] font-heading text-green-700 bg-green-100 px-1.5 py-0.5 rounded">
+                                    Reviewed
                                   </span>
                                 )}
                               </div>

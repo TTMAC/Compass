@@ -34,7 +34,13 @@ const articles = defineCollection({
       publishDate: z.coerce.date(),
       scheduledPublishDate: z.coerce.date().optional(),
       readingTime: z.number().int().positive(),
-      status: z.enum(["published", "draft", "coming-soon", "scheduled"]),
+      status: z.enum([
+        "published",
+        "draft",
+        "reviewed",
+        "coming-soon",
+        "scheduled",
+      ]),
       series: z.object({
         prev: z.preprocess(
           (v) => (v === "" ? null : v),

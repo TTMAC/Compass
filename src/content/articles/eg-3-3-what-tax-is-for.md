@@ -14,7 +14,7 @@ tags:
 description: "Nothing sacred about progressive tax — it is a contestable instrument. The deeper issue: South Africa taxes the income flow far harder than the wealth stock."
 publishDate: 2028-12-01
 readingTime: 31
-status: "draft"
+status: "reviewed"
 series:
   prev: "eg-3-2-the-flat-tax-experiments"
   next: "eg-3-4-the-double-taxation-of-capital"

@@ -14,7 +14,7 @@ tags:
 description: "A comprehensive methodology for ranking all of South Africa's 257 municipalities using quantitative indicators, geometric scoring, and audited data sources."
 publishDate: 2029-01-15
 readingTime: 30
-status: "draft"
+status: "reviewed"
 series:
   prev: "eg-4-3-watching-the-watchers"
   next: "eg-5-2-the-metro-rankings"

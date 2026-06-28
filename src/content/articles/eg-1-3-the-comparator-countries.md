@@ -16,7 +16,7 @@ tags:
 description: "What Chile, Vietnam, Malaysia, South Korea, Botswana, and Poland reveal about the institutional reforms needed to escape the middle-income trap permanently."
 publishDate: 2028-07-01
 readingTime: 30
-status: "draft"
+status: "reviewed"
 series:
   prev: "eg-1-2-how-we-got-here"
   next: "eg-2-1-resource-optimisation"

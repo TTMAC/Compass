@@ -6,7 +6,7 @@ interface Props {
   title: string;
   sphere?: ("national" | "provincial" | "municipal" | "all")[];
   readingTime: number;
-  status: "published" | "draft" | "coming-soon" | "scheduled";
+  status: "published" | "draft" | "reviewed" | "coming-soon" | "scheduled";
   slug: string;
   pillar?: string;
 }
@@ -21,7 +21,8 @@ const sphereColors: Record<string, string> = {
   all: "bg-compass-green",
 };
 
-const isClickable = status === "published" || status === "draft";
+const isClickable =
+  status === "published" || status === "draft" || status === "reviewed";
 const pillarConfig = pillar ? getPillarBySlug(pillar) : undefined;
 ---
 
@@ -69,6 +70,13 @@ const pillarConfig = pillar ? getPillarBySlug(pillar) : undefined;
           status === "draft" && (
             <span class="text-[10px] font-heading text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
               In Review
+            </span>
+          )
+        }
+        {
+          status === "reviewed" && (
+            <span class="text-[10px] font-heading text-green-700 bg-green-100 px-1.5 py-0.5 rounded">
+              Reviewed
             </span>
           )
         }

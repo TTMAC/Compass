@@ -14,7 +14,7 @@ tags:
 description: "When a South African business pays out profit, the state taxes it twice — company tax then dividends tax — a combined bite over 40% that hits builders hardest."
 publishDate: 2029-01-01
 readingTime: 31
-status: "draft"
+status: "reviewed"
 series:
   prev: "eg-3-3-what-tax-is-for"
   next: "eg-3-5-taxes-and-growth"
@@ -22,7 +22,7 @@ crossLinks:
   - slug: "eg-3-3-what-tax-is-for"
     label: "What Tax Is For"
     relationship: "The flow-versus-stock principle this article completes on the returns side"
-  - slug: "1-2-following-the-money"
+  - slug: "2-1-following-the-money"
     label: "Following the Money"
     relationship: "Where company, dividend, and capital-gains taxes sit in total revenue"
 seo:

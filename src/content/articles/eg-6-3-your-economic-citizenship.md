@@ -14,7 +14,7 @@ tags:
 description: "A practical citizen toolkit for reading the MTBPS, using the Municipal Performance Index, engaging local economic development, and evaluating promises."
 publishDate: 2029-03-15
 readingTime: 30
-status: "draft"
+status: "reviewed"
 series:
   prev: "eg-6-2-from-strategy-to-reality"
   next: null

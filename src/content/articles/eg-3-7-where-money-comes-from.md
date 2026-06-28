@@ -14,7 +14,7 @@ tags:
 description: "Banks do not lend out savings — they create new money when they lend. Most of South Africa's money was made this way, and what it funds is the real question."
 publishDate: 2029-04-01
 readingTime: 33
-status: "draft"
+status: "reviewed"
 series:
   prev: "eg-3-6-the-household-fallacy"
   next: "eg-3-8-the-real-lever"
@@ -22,7 +22,7 @@ crossLinks:
   - slug: "eg-3-3-what-tax-is-for"
     label: "What Tax Is For"
     relationship: "The lightly taxed asset stock that bank credit keeps inflating"
-  - slug: "1-2-following-the-money"
+  - slug: "2-1-following-the-money"
     label: "Following the Money"
     relationship: "How money and the budget work in the formal account"
 seo:
