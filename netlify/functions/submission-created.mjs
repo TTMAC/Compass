@@ -76,9 +76,19 @@ export const handler = async (event) => {
     console.error("submission-created: add-contact failed", err);
   }
 
-  // 2. Send the welcome email — only for newly added contacts, so re-submitting
-  //    the form doesn't spam an existing subscriber.
-  if (newlyAdded && from) {
+  // 2. Welcome email is ON HOLD. For now we only subscribe people — adding them
+  //    to the Resend audience above — and do NOT send a welcome email (the
+  //    sender domain govcompass.co.za is not yet verified in Resend). Set
+  //    WELCOME_EMAIL_ON_HOLD to false to re-enable the welcome.
+  const WELCOME_EMAIL_ON_HOLD = true;
+
+  if (WELCOME_EMAIL_ON_HOLD) {
+    if (newlyAdded) {
+      console.log(
+        `submission-created: welcome on hold; ${email} subscribed to audience only`,
+      );
+    }
+  } else if (newlyAdded && from) {
     const siteUrl = process.env.SITE_URL || "https://govcompass.co.za";
     try {
       const res = await fetch(`${RESEND_API}/emails`, {
