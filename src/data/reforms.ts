@@ -2206,7 +2206,8 @@ export const scorecardOutcomes: Record<WorkstreamId, ScorecardOutcome[]> = {
       dataSource:
         "SARB BA900 bank returns and private-sector credit-extension data; National Credit Regulator statistics",
       baseline: "Not currently published as a productive-vs-asset split",
-      year5: "Compiled and published quarterly by the SARB and National Treasury",
+      year5:
+        "Compiled and published quarterly by the SARB and National Treasury",
     },
     {
       outcome: "Current Account Balance and Income Account Sustainability",

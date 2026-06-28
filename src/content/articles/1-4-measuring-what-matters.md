@@ -67,7 +67,7 @@ The single most important question you can ask about any government statistic is
 
 ## Leading and Lagging: The Time Dimension of Measurement
 
-The results chain organises measures by *what* they capture. A second distinction organises them by *when* they tell you something: the difference between **leading** and **lagging** indicators.
+The results chain organises measures by _what_ they capture. A second distinction organises them by _when_ they tell you something: the difference between **leading** and **lagging** indicators.
 
 A **lagging indicator** confirms a result after it has happened. The matric pass rate, the annual unemployment figure, the year-end audit outcome — these tell you how things turned out. They are accurate and important, but by the time you have them, the period they describe is over. You cannot change last year's results.
 
@@ -78,7 +78,6 @@ Government naturally gravitates toward lagging indicators because they are concr
 ## How South Africa Is Supposed to Measure Itself
 
 South Africa has, on paper, one of the more developed government performance systems in the developing world. Understanding its official architecture tells you where to find the targets government has set for itself — which is the starting point for holding it to them.
-
 
 ![Annual Performance Plans and quarterly reports turn government promises into documents you can check | Photo by Olena Kholina on Unsplash](/images/articles/1-4-measuring-what-matters/img-2.webp)
 
@@ -96,7 +95,7 @@ Sitting in the Presidency is the **Department of Planning, Monitoring and Evalua
 
 The document that matters most for practical accountability is the **Annual Performance Plan (APP)**. Required of every national and provincial department under the Public Finance Management Act and National Treasury's planning framework, the APP is where a department publishes, at the start of each financial year, its specific, measurable targets for that year: how many of each output it will produce, by when, at what cost.
 
-The APP is a public commitment. It is tabled in Parliament or the provincial legislature, it is published online, and the department is required to report its actual performance against it every quarter and at year-end. This is the single most powerful accountability document available to an ordinary citizen, because it lets you compare what a department *promised* against what it *delivered*, in the department's own words and numbers. When a department misses an APP target, that is not your opinion — it is the department's own admission against its own published plan.
+The APP is a public commitment. It is tabled in Parliament or the provincial legislature, it is published online, and the department is required to report its actual performance against it every quarter and at year-end. This is the single most powerful accountability document available to an ordinary citizen, because it lets you compare what a department _promised_ against what it _delivered_, in the department's own words and numbers. When a department misses an APP target, that is not your opinion — it is the department's own admission against its own published plan.
 
 ### The Municipal Equivalents
 
@@ -154,21 +153,20 @@ The abundance of this data is genuinely a strength of South African governance. 
 
 Numbers can mislead as easily as they inform. Five failure modes recur often enough in South African government reporting that recognising them is a practical defence.
 
-
 ![When a number becomes a target, the incentive shifts from improving reality to improving the number | Photo by Mauro Gigli on Unsplash](/images/articles/1-4-measuring-what-matters/img-3.webp)
 
 **The first is mistaking outputs for outcomes** — the error this article has returned to repeatedly. A report celebrates kilometres of pipe laid; the outcome question is whether households now have reliable water. Pipes can be laid and still deliver nothing if the pumps fail, the dam is empty, or the connections were never made.
 
 **The second is the spending-equals-success fallacy** — treating budget expenditure as an achievement in itself. "We spent 100% of our budget" tells you money left the account, not that it bought anything of value. Full expenditure with poor results can be worse than underspending, because it means resources were consumed without return.
 
-**The third is gaming the metric**, captured by **Goodhart's Law**: when a measure becomes a target, it ceases to be a good measure. Once a single number carries high stakes, the incentive shifts from improving the underlying reality to improving the number — and the two come apart. The classic South African illustration is the matric pass rate. Reported as a headline figure each January, it is calculated as the percentage of those who *sat* the final exam and passed. It does not count the learners who started Grade 1 in the same cohort and dropped out, or were held back, before reaching the exam hall. A province can raise its reported pass rate while a large share of its original cohort never completes school at all. The honest outcome measure is **throughput** — how many of those who began the journey actually finish — and it tells a more sobering story than the pass rate alone. None of this means the matric pass rate is meaningless; it means a single output number, elevated to a target, conceals as much as it reveals.
+**The third is gaming the metric**, captured by **Goodhart's Law**: when a measure becomes a target, it ceases to be a good measure. Once a single number carries high stakes, the incentive shifts from improving the underlying reality to improving the number — and the two come apart. The classic South African illustration is the matric pass rate. Reported as a headline figure each January, it is calculated as the percentage of those who _sat_ the final exam and passed. It does not count the learners who started Grade 1 in the same cohort and dropped out, or were held back, before reaching the exam hall. A province can raise its reported pass rate while a large share of its original cohort never completes school at all. The honest outcome measure is **throughput** — how many of those who began the journey actually finish — and it tells a more sobering story than the pass rate alone. None of this means the matric pass rate is meaningless; it means a single output number, elevated to a target, conceals as much as it reveals.
 
 **The fourth is the vanity metric** — a number chosen because it is large and flattering rather than because it captures what matters. "Two million people reached" sounds impressive until you ask what "reached" means and whether anything changed for them.
 
 **The fifth is poor data quality** — targets that are unmeasurable, numbers unsupported by evidence, definitions that shift between years so that progress cannot be tracked. This is precisely the territory the Auditor-General examines when it tests whether performance information is useful and reliable, and its findings show the problem is widespread.
 
 :::expert
-The phenomenon that governance researchers call "isomorphic mimicry" describes institutions that adopt the *form* of high-performing organisations — the strategic plans, the performance frameworks, the dashboards and key performance indicators — without the *function* those forms are meant to serve. The South African state is, in important respects, a sophisticated producer of performance documentation: it generates plans, targets, quarterly reports, and audits in great volume and to a high formal standard. The persistent question raised by analysts of the South African public service is whether this elaborate measurement apparatus drives better outcomes or substitutes for them — whether the energy spent producing and reporting indicators crowds out the harder work of actually delivering. The practical implication for citizens is to treat the existence of a measurement system as the beginning of scrutiny, not the end of it. A department with a beautifully constructed Annual Performance Plan and a wall of green-rated indicators may or may not be changing anything in the communities it serves. Only the outcome data, read independently, can tell you which.
+The phenomenon that governance researchers call "isomorphic mimicry" describes institutions that adopt the _form_ of high-performing organisations — the strategic plans, the performance frameworks, the dashboards and key performance indicators — without the _function_ those forms are meant to serve. The South African state is, in important respects, a sophisticated producer of performance documentation: it generates plans, targets, quarterly reports, and audits in great volume and to a high formal standard. The persistent question raised by analysts of the South African public service is whether this elaborate measurement apparatus drives better outcomes or substitutes for them — whether the energy spent producing and reporting indicators crowds out the harder work of actually delivering. The practical implication for citizens is to treat the existence of a measurement system as the beginning of scrutiny, not the end of it. A department with a beautifully constructed Annual Performance Plan and a wall of green-rated indicators may or may not be changing anything in the communities it serves. Only the outcome data, read independently, can tell you which.
 :::
 
 ## A Worked Example: Reading One Service End to End

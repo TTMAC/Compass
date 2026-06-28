@@ -23,7 +23,9 @@ export const handler = async (event) => {
   }
 
   const formName = payload?.form_name;
-  const email = (payload?.data?.email || payload?.email || "").trim().toLowerCase();
+  const email = (payload?.data?.email || payload?.email || "")
+    .trim()
+    .toLowerCase();
 
   // Only act on newsletter signups.
   if (formName !== "subscribe") {
@@ -44,7 +46,10 @@ export const handler = async (event) => {
       "submission-created: RESEND_API_KEY or RESEND_AUDIENCE_ID not configured",
     );
     // Return 200 so Netlify doesn't retry; the submission is still stored.
-    return { statusCode: 200, body: "Resend not configured; subscriber stored in Netlify only" };
+    return {
+      statusCode: 200,
+      body: "Resend not configured; subscriber stored in Netlify only",
+    };
   }
 
   const authHeaders = {
@@ -114,7 +119,9 @@ export const handler = async (event) => {
       console.error("submission-created: welcome email failed", err);
     }
   } else if (newlyAdded && !from) {
-    console.warn("submission-created: RESEND_FROM not set; skipping welcome email");
+    console.warn(
+      "submission-created: RESEND_FROM not set; skipping welcome email",
+    );
   }
 
   return { statusCode: 200, body: "ok" };

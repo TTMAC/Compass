@@ -4,7 +4,7 @@
 
 This document contains a structured set of article generation prompts for the Economic Growth & Development pillar of GovCompass. The series is organised into **six parts**: The Inheritance (economic context-setting), The Growth Strategy (staged development pathway), **The Fiscal Levers (taxation, monetary sovereignty, and credit allocation)**, The Enablers (cross-cutting strategies and institutional machinery), The Scorecard (municipal performance measurement and infrastructure assessment), and The Bridge (political economy, implementation, and citizen engagement). Each prompt is engineered to produce articles of at least 4,500 words in an accessible, O'Reilly-style conversational tone for a general public audience.
 
-> **Structural update (2026-06-24) — new Part 3 inserted; downstream file renumbering EXECUTED (commit `d813523`).** A new Part 3, **The Fiscal Levers**, has been added between The Growth Strategy and The Enablers. Its eight article prompts live in their own document, **`docs/eg_taxation_series.md`** (derived from `docs/Beyond_Taxation_Report.docx`), which is the single source of truth for that part — they are not duplicated here. Inserting it shifts the three parts that follow down by one: the **Enablers** become Part 4, the **Scorecard** Part 5, and **The Bridge** Part 6. The part **headings** below have been renumbered to reflect this. **The file-level cascade has now been executed (2026-06-24):** the published article files, slugs (`eg-3-x` → `eg-4-x`, `eg-4-x` → `eg-5-x`, `eg-5-x` → `eg-6-x`), `articleNumber`/`part` frontmatter, `series.prev`/`next` navigation, the cross-references across the EG/HD/RA pillars, `src/data/reforms.ts`, and the `ogImage` paths have all been renamed and rewired in `src/`, and the eight new `eg-3-x` Fiscal Levers articles occupy Part 3. `astro sync` clean, 64 unit tests pass, production build succeeds. **Note for prompt re-use:** the per-article prompt prose in the Enabler/Scorecard/Bridge sections *below* was written pre-cascade and still reads `eg-3-x`/`eg-4-x`/`eg-5-x` and "Part 3/4/5"; those are historical, and the live `src/` values are now `eg-4-x`/`eg-5-x`/`eg-6-x` and "Part 4/5/6".
+> **Structural update (2026-06-24) — new Part 3 inserted; downstream file renumbering EXECUTED (commit `d813523`).** A new Part 3, **The Fiscal Levers**, has been added between The Growth Strategy and The Enablers. Its eight article prompts live in their own document, **`docs/eg_taxation_series.md`** (derived from `docs/Beyond_Taxation_Report.docx`), which is the single source of truth for that part — they are not duplicated here. Inserting it shifts the three parts that follow down by one: the **Enablers** become Part 4, the **Scorecard** Part 5, and **The Bridge** Part 6. The part **headings** below have been renumbered to reflect this. **The file-level cascade has now been executed (2026-06-24):** the published article files, slugs (`eg-3-x` → `eg-4-x`, `eg-4-x` → `eg-5-x`, `eg-5-x` → `eg-6-x`), `articleNumber`/`part` frontmatter, `series.prev`/`next` navigation, the cross-references across the EG/HD/RA pillars, `src/data/reforms.ts`, and the `ogImage` paths have all been renamed and rewired in `src/`, and the eight new `eg-3-x` Fiscal Levers articles occupy Part 3. `astro sync` clean, 64 unit tests pass, production build succeeds. **Note for prompt re-use:** the per-article prompt prose in the Enabler/Scorecard/Bridge sections _below_ was written pre-cascade and still reads `eg-3-x`/`eg-4-x`/`eg-5-x` and "Part 3/4/5"; those are historical, and the live `src/` values are now `eg-4-x`/`eg-5-x`/`eg-6-x` and "Part 4/5/6".
 
 The analytical framework draws on the comprehensive knowledge base at `docs/EconomicGrowthAndDevelopment.md`, which covers a MECE economic growth strategy (three Porter stages from $7,000 to $50,000 GDP per capita), South Africa's monitoring and evaluation framework (DPME, AGSA, SOEs), an infrastructure planning gap analysis (NIP, SIPs, PPPs, McKinsey best-practice comparison), and a Municipal Performance Index (four pillars, indicator sets, normalization, geometric mean scoring, and performance tiers). The theoretical foundations are Porter's Competitive Economy Framework, the Atlas of Economic Complexity (Hausmann and Hidalgo), and Justin Yifu Lin's New Structural Economics.
 
@@ -288,20 +288,20 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 ## PART 3: THE FISCAL LEVERS
 
-*Taxation, monetary sovereignty, and credit allocation — the climb from "how much tax?" to "where does the money go?"*
+_Taxation, monetary sovereignty, and credit allocation — the climb from "how much tax?" to "where does the money go?"_
 
 **The eight article prompts for this part are maintained in a separate document: [`docs/eg_taxation_series.md`](./eg_taxation_series.md).** That document is the single source of truth for Part 3 (it is derived from `docs/Beyond_Taxation_Report.docx`) and is not duplicated here, to avoid divergence. In intended final numbering the eight articles are:
 
-| # | Title | Slug (intended) |
-| - | ----- | --------------- |
-| 3.1 | The Flat Tax Mirage | `eg-3-1-the-flat-tax-mirage` |
-| 3.2 | The Flat-Tax Experiments | `eg-3-2-the-flat-tax-experiments` |
-| 3.3 | What Tax Is For | `eg-3-3-what-tax-is-for` |
+| #   | Title                          | Slug (intended)                         |
+| --- | ------------------------------ | --------------------------------------- |
+| 3.1 | The Flat Tax Mirage            | `eg-3-1-the-flat-tax-mirage`            |
+| 3.2 | The Flat-Tax Experiments       | `eg-3-2-the-flat-tax-experiments`       |
+| 3.3 | What Tax Is For                | `eg-3-3-what-tax-is-for`                |
 | 3.4 | The Double Taxation of Capital | `eg-3-4-the-double-taxation-of-capital` |
-| 3.5 | Taxes and Growth | `eg-3-5-taxes-and-growth` |
-| 3.6 | The Household Fallacy | `eg-3-6-the-household-fallacy` |
-| 3.7 | Where Money Comes From | `eg-3-7-where-money-comes-from` |
-| 3.8 | The Real Lever | `eg-3-8-the-real-lever` |
+| 3.5 | Taxes and Growth               | `eg-3-5-taxes-and-growth`               |
+| 3.6 | The Household Fallacy          | `eg-3-6-the-household-fallacy`          |
+| 3.7 | Where Money Comes From         | `eg-3-7-where-money-comes-from`         |
+| 3.8 | The Real Lever                 | `eg-3-8-the-real-lever`                 |
 
 > **Note (cascade executed 2026-06-24):** the `eg-3-x` slugs are now occupied by the eight Fiscal Levers articles. The Enabler/Scorecard/Bridge drafts were renumbered (Enablers → `eg-4-x`, Scorecard → `eg-5-x`, Bridge → `eg-6-x`) in `src/`. The slug references in the prompt prose below are pre-cascade/historical. See the Structural update in the Series Overview.
 
@@ -309,7 +309,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 ## PART 4: THE ENABLERS
 
-> *Heading renumbered from Part 3 → Part 4 (2026-06-24); file cascade EXECUTED — live `src/` slugs are now `eg-4-x` and "Part 4". The `eg-3-x`/"Part 3" references in the prompt prose below are pre-cascade/historical.*
+> _Heading renumbered from Part 3 → Part 4 (2026-06-24); file cascade EXECUTED — live `src/` slugs are now `eg-4-x` and "Part 4". The `eg-3-x`/"Part 3" references in the prompt prose below are pre-cascade/historical._
 
 ---
 
@@ -419,7 +419,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 ## PART 5: THE SCORECARD
 
-> *Heading renumbered from Part 4 → Part 5 (2026-06-24); file cascade EXECUTED — live `src/` slugs are now `eg-5-x` and "Part 5". The `eg-4-x`/"Part 4" references in the prompt prose below are pre-cascade/historical.*
+> _Heading renumbered from Part 4 → Part 5 (2026-06-24); file cascade EXECUTED — live `src/` slugs are now `eg-5-x` and "Part 5". The `eg-4-x`/"Part 4" references in the prompt prose below are pre-cascade/historical._
 
 ---
 
@@ -555,7 +555,7 @@ Every article in this series includes 2–3 expert anecdotes attributed to named
 
 ## PART 6: THE BRIDGE
 
-> *Heading renumbered from Part 5 → Part 6 (2026-06-24); file cascade EXECUTED — live `src/` slugs are now `eg-6-x` and "Part 6". The `eg-5-x`/"Part 5" references in the prompt prose below are pre-cascade/historical.*
+> _Heading renumbered from Part 5 → Part 6 (2026-06-24); file cascade EXECUTED — live `src/` slugs are now `eg-6-x` and "Part 6". The `eg-5-x`/"Part 5" references in the prompt prose below are pre-cascade/historical._
 
 ---
 

@@ -52,7 +52,9 @@ async function main() {
     console.error("  Add it to .env, then re-run this script.");
     process.exit(1);
   }
-  console.log(`✓ RESEND_API_KEY found (${KEY.slice(0, 6)}…, length ${KEY.length})`);
+  console.log(
+    `✓ RESEND_API_KEY found (${KEY.slice(0, 6)}…, length ${KEY.length})`,
+  );
   console.log(`  RESEND_FROM:        ${FROM || "(not set)"}`);
   console.log(`  RESEND_AUDIENCE_ID: ${AUDIENCE_ID || "(not set)"}`);
   line();
@@ -61,7 +63,9 @@ async function main() {
   console.log("Domains:");
   const domains = await get("/domains");
   if (domains.status === 401 || domains.status === 403) {
-    console.error("  ✗ Key rejected (401/403). The API key is invalid or revoked.");
+    console.error(
+      "  ✗ Key rejected (401/403). The API key is invalid or revoked.",
+    );
     process.exit(1);
   }
   if (!domains.ok) {
@@ -76,7 +80,9 @@ async function main() {
   } else {
     for (const d of domainList) {
       const mark = d.status === "verified" ? "✓" : "⚠";
-      console.log(`  ${mark} ${d.name} — status: ${d.status} (region: ${d.region})`);
+      console.log(
+        `  ${mark} ${d.name} — status: ${d.status} (region: ${d.region})`,
+      );
     }
   }
   line();
@@ -87,10 +93,13 @@ async function main() {
   if (audiences.ok) {
     const list = audiences.body?.data || [];
     if (list.length === 0) {
-      console.log("  ⚠ No audiences yet — create one and set RESEND_AUDIENCE_ID");
+      console.log(
+        "  ⚠ No audiences yet — create one and set RESEND_AUDIENCE_ID",
+      );
     } else {
       for (const a of list) {
-        const here = a.id === AUDIENCE_ID ? "  ← matches RESEND_AUDIENCE_ID" : "";
+        const here =
+          a.id === AUDIENCE_ID ? "  ← matches RESEND_AUDIENCE_ID" : "";
         console.log(`  • ${a.name}: ${a.id}${here}`);
       }
     }
@@ -105,10 +114,14 @@ async function main() {
     if (aud.ok) {
       console.log(`✓ RESEND_AUDIENCE_ID resolves: "${aud.body?.name}"`);
     } else {
-      console.log(`✗ RESEND_AUDIENCE_ID does not resolve (status ${aud.status})`);
+      console.log(
+        `✗ RESEND_AUDIENCE_ID does not resolve (status ${aud.status})`,
+      );
     }
   } else {
-    console.log("⚠ RESEND_AUDIENCE_ID not set — pick an id from the list above");
+    console.log(
+      "⚠ RESEND_AUDIENCE_ID not set — pick an id from the list above",
+    );
   }
 
   line();

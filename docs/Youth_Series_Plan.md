@@ -2,15 +2,15 @@
 
 **Status:** Scaffold + outlines complete; review gate CLOSED (2026-06-23). Ready for full drafting on green light.
 
-A standalone Topics series proposing a **Dual-Track National Youth Service** for South Africa. The model has a **common foundation and a fork**: every young South African, after matric, does a shared period of **basic military training** together (the cohesion and discipline crucible), then chooses a **deployment track** — continued **military service** or a **civilian track** (education, health, or public-infrastructure). Goals: civic discipline and order, skills-building, opportunity, and national cohesion — designed to be *prestigious* with *real benefits* (jobs, venture finance, recognition). Primary inspiration: Singapore's National Service; also Israel (Sherut Leumi), South Korea, Germany/Nordics.
+A standalone Topics series proposing a **Dual-Track National Youth Service** for South Africa. The model has a **common foundation and a fork**: every young South African, after matric, does a shared period of **basic military training** together (the cohesion and discipline crucible), then chooses a **deployment track** — continued **military service** or a **civilian track** (education, health, or public-infrastructure). Goals: civic discipline and order, skills-building, opportunity, and national cohesion — designed to be _prestigious_ with _real benefits_ (jobs, venture finance, recognition). Primary inspiration: Singapore's National Service; also Israel (Sherut Leumi), South Korea, Germany/Nordics.
 
-**Editorial register:** proposal framed *educationally and non-partisanly*, mirroring the Reform Agenda series — describe structural patterns, avoid party attribution, anchor every claim to authoritative sources (Stats SA, DPME, Treasury, DHET, AGSA, comparator primary sources).
+**Editorial register:** proposal framed _educationally and non-partisanly_, mirroring the Reform Agenda series — describe structural patterns, avoid party attribution, anchor every claim to authoritative sources (Stats SA, DPME, Treasury, DHET, AGSA, comparator primary sources).
 
 ## Review-gate decisions (2026-06-23)
 
 1. **Name:** "Youth & Nation-Building" (shortTitle "Youth").
 2. **Service basis:** Phased to near-universal — start voluntary (pilots), build legitimacy/prestige, then legislate near-universal service. Engage the constitutional / freedom-of-occupation questions head-on; the civilian track addresses conscientious objection.
-3. **Military track:** **Universal basic military training for everyone** is the shared foundation (Stage 1); the dual-track choice (military vs civilian) is the *deployment* phase (Stage 2). Military is foundational, not optional; most participants then serve in civilian tracks.
+3. **Military track:** **Universal basic military training for everyone** is the shared foundation (Stage 1); the dual-track choice (military vs civilian) is the _deployment_ phase (Stage 2). Military is foundational, not optional; most participants then serve in civilian tracks.
 4. **Scope:** ~8 articles (expanded from 6 — split costing vs funding, and split the model from the comparators).
 5. **Cross-links:** wire `crossLinks` into Reform Agenda (anti-capture, measurement) and Human Development (skills/education) once full drafts exist.
 
