@@ -14,7 +14,7 @@ tags:
 description: "South Africa's HDI of 0.713 drops to 0.468 when adjusted for inequality — one of the largest penalties among upper-middle-income nations. What the gap reveals."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "hd-1-1-beyond-gdp"
   next: "hd-1-3-the-reinforcing-cycle"

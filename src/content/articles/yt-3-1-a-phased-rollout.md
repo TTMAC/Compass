@@ -12,7 +12,7 @@ tags:
 description: "A national youth service cannot start universal. A phased path from volunteer pilot to national institution, with the law and machinery needed to run it well."
 lastUpdated: 2026-06-24
 readingTime: 23
-status: "draft"
+status: "published"
 series:
   prev: "yt-2-3-making-service-prestigious"
   next: "yt-3-2-what-it-would-cost"

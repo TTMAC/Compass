@@ -14,7 +14,7 @@ tags:
 description: "A RAARICLE™ diagnosis of the most fragmented value chain in South African government — four entities per housing project with no single point of ownership."
 lastUpdated: 2026-06-10
 readingTime: 35
-status: "draft"
+status: "published"
 series:
   prev: "ra-2-2-fixing-primary-healthcare"
   next: "ra-2-4-fixing-safety-and-security"

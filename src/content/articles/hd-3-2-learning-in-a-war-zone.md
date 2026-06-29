@@ -14,7 +14,7 @@ tags:
 description: "When children walk through gang territory, arrive hungry, and learn in violent classrooms, education becomes physiologically impossible. The evidence."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "hd-3-1-the-schooling-paradox"
   next: "hd-3-3-from-classroom-to-paycheck"

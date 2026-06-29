@@ -15,7 +15,7 @@ tags:
 description: "Every tax discourages the activity it touches — so could South Africa tax less and grow more? We argue the case, then test cutting PAYE and raising VAT."
 lastUpdated: 2026-06-28
 readingTime: 31
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-2-5-innovation-driven-growth"
   next: "eg-3-2-the-flat-tax-experiments"

@@ -315,22 +315,6 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
                                       {s.charAt(0).toUpperCase() + s.slice(1)}
                                     </span>
                                   ))}
-                                  {(article.data.status === "coming-soon" ||
-                                    article.data.status === "scheduled") && (
-                                    <span class="text-[10px] font-heading text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded">
-                                      Coming soon
-                                    </span>
-                                  )}
-                                  {article.data.status === "draft" && (
-                                    <span class="text-[10px] font-heading text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
-                                      In Review
-                                    </span>
-                                  )}
-                                  {article.data.status === "reviewed" && (
-                                    <span class="text-[10px] font-heading text-green-700 bg-green-100 px-1.5 py-0.5 rounded">
-                                      Reviewed
-                                    </span>
-                                  )}
                                 </div>
                                 <h3 class="font-heading text-base font-semibold text-text-primary">
                                   {article.data.title}
@@ -428,22 +412,6 @@ const relatedPillars = pillars.filter((p) => p.slug !== pillar.slug);
                                 <span class="font-heading text-xs text-text-secondary">
                                   Part {article.data.part}
                                 </span>
-                                {(article.data.status === "coming-soon" ||
-                                  article.data.status === "scheduled") && (
-                                  <span class="text-[10px] font-heading text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded">
-                                    Coming soon
-                                  </span>
-                                )}
-                                {article.data.status === "draft" && (
-                                  <span class="text-[10px] font-heading text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
-                                    Draft
-                                  </span>
-                                )}
-                                {article.data.status === "reviewed" && (
-                                  <span class="text-[10px] font-heading text-green-700 bg-green-100 px-1.5 py-0.5 rounded">
-                                    Reviewed
-                                  </span>
-                                )}
                               </div>
                               <h3 class="font-heading text-base font-semibold text-text-primary">
                                 {article.data.title}

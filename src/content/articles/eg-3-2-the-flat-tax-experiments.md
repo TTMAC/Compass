@@ -14,7 +14,7 @@ tags:
 description: "Estonia, Russia, the Gulf — what really happened where flat or zero income tax was tried, and why the rate schedule is a dial nations turn, not a creed."
 lastUpdated: 2026-06-28
 readingTime: 30
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-3-1-the-flat-tax-mirage"
   next: "eg-3-3-what-tax-is-for"

@@ -14,7 +14,7 @@ tags:
 description: "How South Africa's criminal justice system was first overwhelmed by the post-apartheid crime explosion and then deliberately hollowed out by state capture."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "ss-1-1-order-through-oppression"
   next: "ss-2-1-the-broken-pipeline"

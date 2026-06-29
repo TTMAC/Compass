@@ -13,7 +13,7 @@ tags:
 description: "How a sentencing commission with structured guidelines could replace South Africa's blunt minimum sentences with a data-informed, constitutional framework."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "ss-3-3-community-courts-and-restorative-justice"
   next: "ss-3-5-rehabilitation-as-constitutional-mandate"

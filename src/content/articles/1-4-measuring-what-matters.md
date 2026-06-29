@@ -8,7 +8,7 @@ sphere: "all"
 description: "Learn how to measure whether South African government is working — the difference between outputs and outcomes, and the public data that reveals real results."
 lastUpdated: 2026-06-21
 readingTime: 33
-status: "draft"
+status: "published"
 series:
   prev: "1-3-how-the-spheres-interact"
   next: "2-1-following-the-money"

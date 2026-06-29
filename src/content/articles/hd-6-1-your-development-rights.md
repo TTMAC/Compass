@@ -13,7 +13,7 @@ tags:
 description: "A practical citizen guide to Sections 26-29 of the Constitution, reading the District Health Barometer, and using data to hold government accountable."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "hd-5-4-a-scorecard-for-progress"
   next: "hd-6-2-building-the-cycle"

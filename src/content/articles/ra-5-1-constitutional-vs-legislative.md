@@ -12,7 +12,7 @@ tags:
 description: "Maps each proposed RAARICLE™ reform to its legal pathway — what requires a constitutional amendment, what needs new legislation, and what is doable today."
 lastUpdated: 2026-06-10
 readingTime: 28
-status: "draft"
+status: "published"
 series:
   prev: "ra-4-4-building-municipal-capability"
   next: "ra-5-2-anti-capture-architecture"

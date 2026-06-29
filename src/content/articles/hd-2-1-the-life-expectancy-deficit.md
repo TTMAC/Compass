@@ -14,7 +14,7 @@ tags:
 description: "South Africa's life expectancy of 63 is ten years below what its income predicts. HIV and TB explain the gap — and closing it is the best HDI investment."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "hd-1-4-the-problem-that-has-no-name"
   next: "hd-2-2-violence-as-public-health-crisis"

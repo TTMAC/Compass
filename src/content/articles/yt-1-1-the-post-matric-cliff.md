@@ -12,7 +12,7 @@ tags:
 description: "Every year hundreds of thousands of young South Africans leave school into a labour market with no place for them. This is the scale of the post-matric cliff."
 lastUpdated: 2026-06-24
 readingTime: 23
-status: "draft"
+status: "published"
 series:
   prev: null
   next: "yt-1-2-the-cohesion-deficit"

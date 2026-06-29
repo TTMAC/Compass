@@ -12,7 +12,7 @@ tags:
 description: "The model's heart: every young South African does basic military training together, then picks a track — continued military service or civilian service."
 lastUpdated: 2026-06-24
 readingTime: 24
-status: "draft"
+status: "published"
 series:
   prev: "yt-1-2-the-cohesion-deficit"
   next: "yt-2-2-lessons-from-abroad"

@@ -14,7 +14,7 @@ tags:
 description: "Banks do not lend out savings — they create new money when they lend. Most of South Africa's money was made this way, and what it funds is the real question."
 lastUpdated: 2026-06-28
 readingTime: 33
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-3-6-the-household-fallacy"
   next: "eg-3-8-the-real-lever"

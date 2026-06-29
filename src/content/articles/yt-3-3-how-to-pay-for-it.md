@@ -12,7 +12,7 @@ tags:
 description: "Where the money comes from. Funding a youth service — reprioritised budgets, the skills levy, phased allocation — and a scorecard that proves it works."
 lastUpdated: 2026-06-24
 readingTime: 23
-status: "draft"
+status: "published"
 series:
   prev: "yt-3-2-what-it-would-cost"
   next: null

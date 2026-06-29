@@ -16,7 +16,7 @@ tags:
 description: "The Carnegie Commission named and solved the 'Poor White Problem.' Post-1994 SA never named its 'Poor Black Problem.' What the asymmetry reveals about power."
 lastUpdated: 2026-06-10
 readingTime: 35
-status: "draft"
+status: "published"
 series:
   prev: "hd-1-3-the-reinforcing-cycle"
   next: "hd-2-1-the-life-expectancy-deficit"

@@ -12,7 +12,7 @@ tags:
 description: "South Africa's youth inherit division and few shared civic rituals. This examines the cohesion deficit and why past programmes like NYS and NARYSEC fell short."
 lastUpdated: 2026-06-24
 readingTime: 23
-status: "draft"
+status: "published"
 series:
   prev: "yt-1-1-the-post-matric-cliff"
   next: "yt-2-1-one-crucible-two-tracks"

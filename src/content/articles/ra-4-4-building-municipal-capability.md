@@ -13,7 +13,7 @@ tags:
 description: "A cross-cutting RAARICLE™ diagnosis of the capability and information gaps that undermine all municipal functions — and a structural fix for both elements."
 lastUpdated: 2026-06-24
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "ra-4-3-fixing-waste-and-roads"
   next: "ra-5-1-constitutional-vs-legislative"

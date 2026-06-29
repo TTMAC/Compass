@@ -13,7 +13,7 @@ tags:
 description: "How ordinary South African citizens can use RAARICLE™ diagnostics to hold their government accountable and become effective advocates for structural reform."
 lastUpdated: 2026-06-10
 readingTime: 25
-status: "draft"
+status: "published"
 series:
   prev: "ra-5-3-the-integrated-reform-programme"
   next: null

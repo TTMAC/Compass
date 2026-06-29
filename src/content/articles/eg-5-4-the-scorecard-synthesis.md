@@ -14,7 +14,7 @@ tags:
 description: "How the Municipal Performance Index, the metro rankings, and the infrastructure delivery tracker connect to the national reform scorecard and roadmap."
 lastUpdated: 2026-06-28
 readingTime: 30
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-5-3-infrastructure-planning-vs-reality"
   next: "eg-6-1-the-political-economy-of-growth"

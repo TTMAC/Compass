@@ -13,7 +13,7 @@ tags:
 description: "The five capture vectors that undermine South African institutions — and the structural defences that make institutional capture architecturally difficult."
 lastUpdated: 2026-06-10
 readingTime: 32
-status: "draft"
+status: "published"
 series:
   prev: "ra-5-1-constitutional-vs-legislative"
   next: "ra-5-3-the-integrated-reform-programme"

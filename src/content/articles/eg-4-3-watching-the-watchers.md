@@ -15,7 +15,7 @@ tags:
 description: "Inside South Africa's monitoring and evaluation system — DPME, the Auditor-General, SOE oversight boards, and the gaps where accountability breaks down."
 lastUpdated: 2026-06-28
 readingTime: 30
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-4-2-the-execution-machine"
   next: "eg-5-1-the-municipal-performance-index"

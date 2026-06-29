@@ -15,7 +15,7 @@ tags:
 description: "International case studies where sequencing safety, growth, and development investment created self-reinforcing progress — and what South Africa can learn."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "hd-4-4-from-income-to-assets"
   next: "hd-5-2-south-africas-broken-cycle"

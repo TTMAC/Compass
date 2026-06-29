@@ -19,7 +19,7 @@ tags:
 description: "How South Africa's monetary architecture — banks, pension funds, DFIs, and the SARB — underinvests in infrastructure, and the NPC's fourteen reform proposals."
 lastUpdated: 2026-06-28
 readingTime: 30
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-2-2-infrastructure-foundations"
   next: "eg-2-4-the-efficiency-transition"

@@ -16,7 +16,7 @@ tags:
 description: "A sequenced implementation roadmap with KPIs, dashboards, and MPI phasing — drawing on Rwanda's EDPRS model to turn South Africa's strategies into results."
 lastUpdated: 2026-06-28
 readingTime: 30
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-6-1-the-political-economy-of-growth"
   next: "eg-6-3-your-economic-citizenship"

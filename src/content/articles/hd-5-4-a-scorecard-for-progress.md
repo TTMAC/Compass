@@ -14,7 +14,7 @@ tags:
 description: "How 15 cross-pillar indicators across safety, growth, and human development can tell South Africans whether the reinforcing cycle is actually turning."
 lastUpdated: 2026-06-10
 readingTime: 28
-status: "draft"
+status: "published"
 series:
   prev: "hd-5-3-development-within-limits"
   next: "hd-6-1-your-development-rights"

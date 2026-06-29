@@ -14,7 +14,7 @@ tags:
 description: "A data-driven walk through South Africa's criminal justice pipeline — from crime report to courtroom — showing where the system loses cases at each stage."
 lastUpdated: 2026-06-10
 readingTime: 35
-status: "draft"
+status: "published"
 series:
   prev: "ss-1-2-from-rainbow-nation-to-state-capture"
   next: "ss-2-2-policing-a-divided-country"

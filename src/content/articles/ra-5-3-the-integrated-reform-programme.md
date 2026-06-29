@@ -13,7 +13,7 @@ tags:
 description: "Why South Africa needs a single legislated reform programme — not ad hoc fixes — and how RAARICLE™ builds a coherent, measurable package across all pillars."
 lastUpdated: 2026-06-26
 readingTime: 38
-status: "draft"
+status: "published"
 series:
   prev: "ra-5-2-anti-capture-architecture"
   next: "ra-5-4-from-citizen-to-reformer"

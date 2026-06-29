@@ -13,7 +13,7 @@ tags:
 description: "How to resolve the authority-accountability split between national policy and provincial service delivery on Schedule 4 concurrent government functions."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "ra-3-1-provincial-performance-crisis"
   next: "ra-3-3-when-provinces-fail"

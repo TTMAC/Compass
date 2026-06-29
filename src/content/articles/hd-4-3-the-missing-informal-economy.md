@@ -14,7 +14,7 @@ tags:
 description: "South Africa's informal economy is anomalously small for a developing nation. Why so few earn through self-employment, and barriers to survivalist enterprise."
 lastUpdated: 2026-06-24
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "hd-4-2-skills-beyond-schooling"
   next: "hd-4-4-from-income-to-assets"

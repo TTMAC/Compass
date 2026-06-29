@@ -13,7 +13,7 @@ tags:
 description: "A RAARICLE™ diagnosis of the DBE-to-school delivery chain — why provincial MECs are accountable for education results they cannot control and how to fix it."
 lastUpdated: 2026-06-10
 readingTime: 35
-status: "draft"
+status: "published"
 series:
   prev: "ra-1-2-why-institutions-fail"
   next: "ra-2-2-fixing-primary-healthcare"

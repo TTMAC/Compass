@@ -13,7 +13,7 @@ tags:
 description: "How colonial and apartheid policing created a system designed to control, not protect — and what South Africa's young democracy inherited from that design."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: null
   next: "ss-1-2-from-rainbow-nation-to-state-capture"

@@ -12,10 +12,9 @@ test.describe("Article reading journey", () => {
     await expect(ctaLink).toBeVisible();
     // Activate via keyboard for reliability — pointer clicks can be intercepted
     // by overlapping homepage elements before the page is fully interactive.
-    await ctaLink.focus();
     await Promise.all([
       page.waitForURL(/articles\/1-1-architecture-of-the-state/),
-      page.keyboard.press("Enter"),
+      ctaLink.press("Enter"),
     ]);
 
     // Verify article page loaded. Scope to the article element: a stray
@@ -128,10 +127,9 @@ test.describe("Article reading journey", () => {
     // Activate via keyboard: a pointer click scrolls the link under the sticky
     // header (z-40), which intercepts it, and el.click() proved flaky.
     // Focusing the link and pressing Enter navigates deterministically.
-    await pillarLink.focus();
     await Promise.all([
       page.waitForURL(/\/pillars\//),
-      page.keyboard.press("Enter"),
+      pillarLink.press("Enter"),
     ]);
   });
 });

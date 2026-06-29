@@ -13,7 +13,7 @@ tags:
 description: "How the French investigating magistrate model could break the SAPS-NPA deadlock that collapses complex cases before they reach a courtroom in South Africa."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "ss-3-1-three-tier-policing-architecture"
   next: "ss-3-3-community-courts-and-restorative-justice"

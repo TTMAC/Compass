@@ -15,7 +15,7 @@ tags:
 description: "From the National Infrastructure Plan to Strategic Integrated Projects and PPPs — why South Africa consistently plans the infrastructure it never builds."
 lastUpdated: 2026-06-28
 readingTime: 30
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-5-2-the-metro-rankings"
   next: "eg-5-4-the-scorecard-synthesis"

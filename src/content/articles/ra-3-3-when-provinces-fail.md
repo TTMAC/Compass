@@ -13,7 +13,7 @@ tags:
 description: "Why Section 100 interventions in provincial government have mixed results and how to design automatic enforcement triggers that prevent state failure."
 lastUpdated: 2026-06-10
 readingTime: 28
-status: "draft"
+status: "published"
 series:
   prev: "ra-3-2-making-concurrent-functions-work"
   next: "ra-4-1-fixing-water-and-sanitation"

@@ -14,7 +14,7 @@ tags:
 description: "Schooling builds cognitive skills, but employability needs more. TVET, apprenticeships, and the SETA failure — South Africa's broken post-school skills layer."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "hd-4-1-the-conversion-problem"
   next: "hd-4-3-the-missing-informal-economy"

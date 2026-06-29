@@ -12,7 +12,7 @@ tags:
 description: "A practical roadmap for fixing South Africa's criminal justice system — which reforms are prerequisites for others, and what laws must change to enable them."
 lastUpdated: 2026-06-10
 readingTime: 35
-status: "draft"
+status: "published"
 series:
   prev: "ss-3-5-rehabilitation-as-constitutional-mandate"
   next: "ss-4-2-funding-the-delta"

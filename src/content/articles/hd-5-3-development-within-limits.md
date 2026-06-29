@@ -14,7 +14,7 @@ tags:
 description: "South Africa must industrialise — but not at the cost of clean water, biodiversity, or public health. How the country can pursue industrial progress responsibly"
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "hd-5-2-south-africas-broken-cycle"
   next: "hd-5-4-a-scorecard-for-progress"

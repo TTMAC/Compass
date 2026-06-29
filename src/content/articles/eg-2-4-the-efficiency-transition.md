@@ -14,7 +14,7 @@ tags:
 description: "South Africa's efficiency transition — scaling manufacturing, developing services exports, building the education pipeline, and fixing regulatory quality."
 lastUpdated: 2026-06-28
 readingTime: 30
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-2-3-financing-the-build"
   next: "eg-2-5-innovation-driven-growth"

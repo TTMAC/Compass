@@ -20,7 +20,7 @@ tags:
 description: "Why energy independence, port efficiency, and rail corridors are the infrastructure preconditions South Africa must build before manufacturing can scale."
 lastUpdated: 2026-06-28
 readingTime: 30
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-2-1-resource-optimisation"
   next: "eg-2-3-financing-the-build"

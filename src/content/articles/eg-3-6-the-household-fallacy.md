@@ -14,7 +14,7 @@ tags:
 description: "The state is not a household that must earn before it spends — but for South Africa's open economy and floating rand, that insight runs into hard limits."
 lastUpdated: 2026-06-28
 readingTime: 32
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-3-5-taxes-and-growth"
   next: "eg-3-7-where-money-comes-from"

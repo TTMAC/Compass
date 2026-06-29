@@ -13,7 +13,7 @@ tags:
 description: "The fiscal case for investing in criminal justice reform — and why the status quo of impunity, recidivism, and lost investment costs more than real reform."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "ss-4-1-sequencing-reform"
   next: "ss-4-3-measuring-progress"

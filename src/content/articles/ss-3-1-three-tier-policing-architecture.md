@@ -13,7 +13,7 @@ tags:
 description: "How South Africa could rebuild policing around the Constitution: a narrowed national agency, empowered provincial police, and accountable metro forces."
 lastUpdated: 2026-06-10
 readingTime: 35
-status: "draft"
+status: "published"
 series:
   prev: "ss-2-5-the-private-security-paradox"
   next: "ss-3-2-independent-investigating-magistracy"

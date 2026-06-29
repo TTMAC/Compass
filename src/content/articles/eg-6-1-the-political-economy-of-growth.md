@@ -13,7 +13,7 @@ tags:
 description: "Why economic reform is always a political question — exploring the winners and losers, the social compact, and trade diplomacy in South Africa's context."
 lastUpdated: 2026-06-28
 readingTime: 30
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-5-4-the-scorecard-synthesis"
   next: "eg-6-2-from-strategy-to-reality"

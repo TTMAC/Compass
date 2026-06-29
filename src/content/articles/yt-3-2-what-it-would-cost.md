@@ -12,7 +12,7 @@ tags:
 description: "Ambition meets arithmetic. A transparent, bottom-up per-participant costing for a national youth service — built so every assumption can be checked and tested."
 lastUpdated: 2026-06-24
 readingTime: 24
-status: "draft"
+status: "published"
 series:
   prev: "yt-3-1-a-phased-rollout"
   next: "yt-3-3-how-to-pay-for-it"

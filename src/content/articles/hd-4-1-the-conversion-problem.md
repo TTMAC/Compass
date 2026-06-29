@@ -14,7 +14,7 @@ tags:
 description: "Health and education are capabilities; earning is the functioning they must convert into. Why South Africa's broken conversion machinery traps millions."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "hd-3-3-from-classroom-to-paycheck"
   next: "hd-4-2-skills-beyond-schooling"

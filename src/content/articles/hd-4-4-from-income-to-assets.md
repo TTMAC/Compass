@@ -14,7 +14,7 @@ tags:
 description: "Income is not wealth. Financial capability, the debt trap, and the racially skewed asset accumulation that transmits poverty across South African generations."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "hd-4-3-the-missing-informal-economy"
   next: "hd-5-1-when-the-cycle-works"

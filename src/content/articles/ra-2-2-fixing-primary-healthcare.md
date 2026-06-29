@@ -14,7 +14,7 @@ tags:
 description: "A RAARICLE™ diagnosis of the NDoH-to-clinic delivery chain — why facility managers cannot procure essential medicines and how to rebuild health governance."
 lastUpdated: 2026-06-10
 readingTime: 35
-status: "draft"
+status: "published"
 series:
   prev: "ra-2-1-fixing-basic-education"
   next: "ra-2-3-fixing-human-settlements"

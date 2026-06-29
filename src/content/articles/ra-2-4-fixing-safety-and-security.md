@@ -15,7 +15,7 @@ tags:
 description: "A RAARICLE™ diagnosis of the SAPS-to-courtroom delivery chain — why centralised policing fails across nine provinces and how three-tier architecture fixes it."
 lastUpdated: 2026-06-10
 readingTime: 40
-status: "draft"
+status: "published"
 series:
   prev: "ra-2-3-fixing-human-settlements"
   next: "ra-3-1-provincial-performance-crisis"

@@ -59,27 +59,6 @@ const pillarConfig = pillar ? getPillarBySlug(pillar) : undefined;
             </span>
           ))
         }
-        {
-          (status === "coming-soon" || status === "scheduled") && (
-            <span class="text-[10px] font-heading text-text-secondary bg-bg-secondary px-1.5 py-0.5 rounded">
-              Coming soon
-            </span>
-          )
-        }
-        {
-          status === "draft" && (
-            <span class="text-[10px] font-heading text-amber-700 bg-amber-100 px-1.5 py-0.5 rounded">
-              In Review
-            </span>
-          )
-        }
-        {
-          status === "reviewed" && (
-            <span class="text-[10px] font-heading text-green-700 bg-green-100 px-1.5 py-0.5 rounded">
-              Reviewed
-            </span>
-          )
-        }
       </div>
       <h3 class="font-heading text-base font-semibold text-text-primary">
         {title}

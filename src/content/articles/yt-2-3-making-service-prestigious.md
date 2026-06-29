@@ -12,7 +12,7 @@ tags:
 description: "A service people resent will fail. How to make youth service prestigious through real benefits: hiring preference, venture finance, and public recognition."
 lastUpdated: 2026-06-24
 readingTime: 23
-status: "draft"
+status: "published"
 series:
   prev: "yt-2-2-lessons-from-abroad"
   next: "yt-3-1-a-phased-rollout"

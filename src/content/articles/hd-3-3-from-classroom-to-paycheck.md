@@ -14,7 +14,7 @@ tags:
 description: "The direct link between education quality, economic complexity, and South Africa's 33% unemployment. Countries that fixed education first grew faster."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "hd-3-2-learning-in-a-war-zone"
   next: "hd-4-1-the-conversion-problem"

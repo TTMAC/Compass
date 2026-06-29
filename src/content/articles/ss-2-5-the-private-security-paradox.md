@@ -13,7 +13,7 @@ tags:
 description: "South Africa's private security industry outnumbers SAPS by headcount — a symptom of state failure that deepens inequality by turning safety into a commodity."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "ss-2-4-the-systems-gravest-failure"
   next: "ss-3-1-three-tier-policing-architecture"

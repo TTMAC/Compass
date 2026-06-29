@@ -12,7 +12,7 @@ tags:
 description: "Singapore, Israel and South Korea have run national service for decades. What they teach South Africa about cohesion and design — and what does not transfer."
 lastUpdated: 2026-06-24
 readingTime: 24
-status: "draft"
+status: "published"
 series:
   prev: "yt-2-1-one-crucible-two-tracks"
   next: "yt-2-3-making-service-prestigious"

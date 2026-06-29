@@ -14,7 +14,7 @@ tags:
 description: "South Africa's three cross-cutting growth engines — new ventures, new exports, and new MSME financing — and why they only work as an integrated system."
 lastUpdated: 2026-06-28
 readingTime: 30
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-3-8-the-real-lever"
   next: "eg-4-2-the-execution-machine"

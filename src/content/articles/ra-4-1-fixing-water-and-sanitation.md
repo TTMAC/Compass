@@ -13,7 +13,7 @@ tags:
 description: "A RAARICLE™ diagnosis of the WSA/WSP model — the regulator-provider conflation pattern and a structural blueprint to rebuild South Africa's water governance."
 lastUpdated: 2026-06-10
 readingTime: 35
-status: "draft"
+status: "published"
 series:
   prev: "ra-3-3-when-provinces-fail"
   next: "ra-4-2-fixing-electricity"

@@ -13,7 +13,7 @@ tags:
 description: "A RAARICLE™ diagnosis of municipal electricity governance — the cross-subsidy trap, NERSA tariff constraints, and the path to independent power procurement."
 lastUpdated: 2026-06-10
 readingTime: 32
-status: "draft"
+status: "published"
 series:
   prev: "ra-4-1-fixing-water-and-sanitation"
   next: "ra-4-3-fixing-waste-and-roads"

@@ -13,7 +13,7 @@ tags:
 description: "A RAARICLE™ diagnosis of waste management and municipal roads — the two most visible municipal service delivery failures and how to fix them structurally."
 lastUpdated: 2026-06-24
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "ra-4-2-fixing-electricity"
   next: "ra-4-4-building-municipal-capability"

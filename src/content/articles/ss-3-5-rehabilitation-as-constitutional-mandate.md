@@ -14,7 +14,7 @@ tags:
 description: "Why South Africa's prisons that only contain and never transform guarantee a 40% recidivism cycle — and what constitutional rehabilitation would require."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "ss-3-4-sentencing-commission-and-structured-guidelines"
   next: "ss-4-1-sequencing-reform"

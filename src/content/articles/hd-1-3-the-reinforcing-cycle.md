@@ -13,7 +13,7 @@ tags:
 description: "Safety, growth, and development form a single reinforcing system. When links break, decline accelerates. South Africa is trapped in the downward spiral."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "hd-1-2-south-africas-report-card"
   next: "hd-1-4-the-problem-that-has-no-name"

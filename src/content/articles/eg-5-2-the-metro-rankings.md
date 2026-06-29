@@ -14,7 +14,7 @@ tags:
 description: "Worked MPI examples comparing Cape Town's 84.0 score with Johannesburg's 52.2 — what peer comparisons reveal about metropolitan governance in South Africa."
 lastUpdated: 2026-06-28
 readingTime: 30
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-5-1-the-municipal-performance-index"
   next: "eg-5-3-infrastructure-planning-vs-reality"

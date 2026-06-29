@@ -14,7 +14,7 @@ tags:
 description: "Why South Africa's criminal justice system fails gender-based violence survivors at every stage — from police station to courtroom — and what works despite it."
 lastUpdated: 2026-06-10
 readingTime: 35
-status: "draft"
+status: "published"
 series:
   prev: "ss-2-3-justice-delayed-rights-denied"
   next: "ss-2-5-the-private-security-paradox"

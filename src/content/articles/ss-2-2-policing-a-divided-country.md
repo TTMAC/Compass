@@ -13,7 +13,7 @@ tags:
 description: "Why your safety depends on your postcode — how policing resources are distributed across South Africa's unequal geography, and what that means for rights."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "ss-2-1-the-broken-pipeline"
   next: "ss-2-3-justice-delayed-rights-denied"

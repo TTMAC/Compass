@@ -14,7 +14,7 @@ tags:
 description: "South Africa's loudest economic debate, tax rates, sits near the bottom of the real hierarchy of levers. The top one, where bank credit flows, goes unwatched."
 lastUpdated: 2026-06-28
 readingTime: 33
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-3-7-where-money-comes-from"
   next: "eg-4-1-three-engines-of-growth"

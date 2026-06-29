@@ -15,7 +15,7 @@ tags:
 description: "How citizens can build the reinforcing cycle of safety, growth, and development from the ground up through SGBs, CPFs, ward committees, and coalitions."
 lastUpdated: 2026-06-24
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "hd-6-1-your-development-rights"
   next: null

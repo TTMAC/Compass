@@ -13,7 +13,7 @@ tags:
 description: "How community courts at municipal level could decongest South Africa's overburdened magistrates' courts while incorporating restorative justice principles."
 lastUpdated: 2026-06-28
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "ss-3-2-independent-investigating-magistracy"
   next: "ss-3-4-sentencing-commission-and-structured-guidelines"

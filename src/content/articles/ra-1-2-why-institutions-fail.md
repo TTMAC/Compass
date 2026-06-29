@@ -13,7 +13,7 @@ tags:
 description: "Maps the five recurring failure patterns — fragmentation, misalignment, absence, conflation and capture — across South Africa's governance architecture."
 lastUpdated: 2026-06-10
 readingTime: 28
-status: "draft"
+status: "published"
 series:
   prev: "ra-1-1-eight-tests"
   next: "ra-2-1-fixing-basic-education"

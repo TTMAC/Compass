@@ -13,7 +13,7 @@ tags:
 description: "South Africa's remand detention crisis — accused persons spending years awaiting trial in overcrowded facilities — is a constitutional emergency in plain sight."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "ss-2-2-policing-a-divided-country"
   next: "ss-2-4-the-systems-gravest-failure"

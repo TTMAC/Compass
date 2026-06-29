@@ -15,7 +15,7 @@ tags:
 description: "How South Africa can insulate a 25-year economic strategy from political cycles through central coordination, sector agencies, and disciplined sequencing."
 lastUpdated: 2026-06-28
 readingTime: 30
-status: "reviewed"
+status: "published"
 series:
   prev: "eg-4-1-three-engines-of-growth"
   next: "eg-4-3-watching-the-watchers"

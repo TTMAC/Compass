@@ -14,7 +14,7 @@ tags:
 description: "How South Africa's development cycle runs in reverse — inequality driving crime, capital flight, fiscal squeeze, and service collapse in a vicious spiral."
 lastUpdated: 2026-06-24
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "hd-5-1-when-the-cycle-works"
   next: "hd-5-3-development-within-limits"

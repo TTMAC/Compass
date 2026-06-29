@@ -14,7 +14,7 @@ tags:
 description: "What a national law and order scorecard should measure — not just crime statistics but conviction rates, case attrition, remand detention, and community trust."
 lastUpdated: 2026-06-10
 readingTime: 30
-status: "draft"
+status: "published"
 series:
   prev: "ss-4-2-funding-the-delta"
   next: null

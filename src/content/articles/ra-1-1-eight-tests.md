@@ -12,7 +12,7 @@ tags:
 description: "Introduces the eight RAARICLE™ governance elements as plain-language tests any South African citizen can apply to any government function they care about."
 lastUpdated: 2026-06-10
 readingTime: 25
-status: "draft"
+status: "published"
 series:
   prev: null
   next: "ra-1-2-why-institutions-fail"
