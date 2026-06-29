@@ -157,7 +157,7 @@ Section 139(1)(c) is the most drastic measure: the provincial executive can diss
 
 There are also fiscal interventions under Section 139(4) and (5), which allow provincial intervention specifically when a municipality is in financial crisis — unable to meet its financial commitments or failing to approve a budget.
 
-South Africa has accumulated extensive experience with Section 139 interventions. **Between 1998 and 2023, over 60 municipalities were subjected to some form of provincial intervention**, according to data compiled by COGTA. The track record is, to be blunt, poor. A systematic analysis by PARI of Section 139 interventions found that the majority failed to achieve their stated objectives. Several patterns recur.
+South Africa has accumulated extensive experience with Section 139 interventions. **The Parliamentary Budget Office found that 39 municipalities were under Section 139 intervention between 2020/21 and 2022/23 — several of them dating back as far as 2015/16 — with the North West, Free State and Eastern Cape the most affected.** The track record is, to be blunt, poor. A systematic analysis by PARI of Section 139 interventions found that the majority failed to achieve their stated objectives. Several patterns recur.
 
 First, interventions are frequently politically motivated rather than technically justified. A provincial government controlled by one party intervenes in a municipality controlled by a rival party, using Section 139 as a political weapon rather than a governance tool. The intervention in the Tlokwe Local Municipality (now JB Marks) in the North West Province in 2014 was widely criticised as being driven by factional politics within the governing party rather than by genuine governance concerns.
 
