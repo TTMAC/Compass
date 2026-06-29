@@ -4,7 +4,7 @@
 **Method:** parallel read-only agents per pillar; key/load-bearing + unsourced figures web-verified against authoritative sources (Stats SA, SARB, SARS, National Treasury, AGSA, DWS, SAPS, DCS, NPA, PSIRA, World Bank, OECD, IMF, UNDP, WHO, UNAIDS, WIPO, PIRLS/TIMSS, Davis Tax Committee, academic studies).
 **Verdict key:** ✅ Verified · 🕒 Outdated (year drift) · ❌ Wrong/inconsistent · 📎 Unsourced-but-plausible (needs citation) · ⚖️ Contested · ❓ Unverifiable.
 
-> **Coverage note:** Phase 1 (below) covered Government Structure, all Economic Growth, Safety & Security, Youth, Human Development Parts 1–3, and Reform Agenda through `ra-4-1`. **Phase 1b (addendum at the end of this doc, 2026-06-29)** completed the rest — `hd-4-1…hd-6-2`, `ra-4-2…ra-5-4`, and the EG Part 1/2 value lookups. **Caveat:** the HD/RA Phase-1b agents used internal knowledge rather than live web search, so those verdicts are preliminary (math/consistency findings excepted) — see the addendum.
+> **Coverage note:** Phase 1 (below) covered Government Structure, all Economic Growth, Safety & Security, Youth, Human Development Parts 1–3, and Reform Agenda through `ra-4-1`. **Phase 1b (addendum at the end of this doc, 2026-06-29)** completed the rest — `hd-4-1…hd-6-2`, `ra-4-2…ra-5-4`, and the EG Part 1/2 value lookups. The HD/RA portion was **re-run with live web verification** (cited URLs) after the first pass leaned on internal knowledge; the addendum reflects the source-checked results.
 
 ---
 
@@ -79,7 +79,7 @@
 
 **Coverage now complete** for `hd-4-1…hd-6-2`, `ra-4-2…ra-5-4`, and the EG Part 1/2 value lookups.
 
-> **Confidence caveat:** the **EG Part 1/2 agent did live web verification** (World Bank, Statista 2025, OECD, WIPO, SADC) — its findings below are source-checked, and I re-checked the exact article wording before recording. The **HD Parts 4–6 and RA Parts 4–5 agents fell back on internal knowledge instead of live search**, so their "✅ verified" tags are _plausibility checks, not source-confirmed_. The trustworthy items from those two are the **math / internal-consistency** findings (which need no web). Anything from HD/RA marked 📎/❌ below should be web-confirmed in Phase 2 before editing.
+> **Confidence note:** all three areas below are now **live-web-verified with cited URLs.** EG Part 1/2 was web-checked in the first pass (and I re-checked the exact article wording before recording). HD Parts 4–6 and RA Parts 4–5 were **re-run on 2026-06-29** with real searches after the first agents leaned on internal knowledge — the HD/RA sections below reflect those source-checked results, not the earlier plausibility checks.
 
 ## 🔴 New priority — likely WRONG (high confidence)
 
