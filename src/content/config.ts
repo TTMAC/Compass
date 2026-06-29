@@ -1,4 +1,5 @@
 import { z, defineCollection } from "astro:content";
+import { glob } from "astro/loaders";
 
 const sphereEnum = z.enum(["national", "provincial", "municipal", "all"]);
 
@@ -12,7 +13,7 @@ const pillarEnum = z.enum([
 ]);
 
 const articles = defineCollection({
-  type: "content",
+  loader: glob({ pattern: "**/*.{md,mdx}", base: "./src/content/articles" }),
   schema: z
     .object({
       title: z.string().min(1),
