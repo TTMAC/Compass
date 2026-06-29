@@ -479,6 +479,52 @@ const isReformActive =
 
 {!isDev && <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />}
 
+<style is:global>
+  /* Anchor the Pagefind results to the search box so they render as an
+     opaque dropdown instead of floating transparently over page text. */
+  #search-desktop,
+  #search-mobile {
+    position: relative;
+  }
+
+  /* Desktop: results float as a dropdown panel below the (narrow) search
+     input, with a solid background and a z-index above the sticky header
+     (z-40) and its nav menus (z-50). */
+  #search-desktop .pagefind-ui__drawer {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 0.5rem;
+    width: min(24rem, 90vw);
+    max-height: 75vh;
+    overflow-y: auto;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    box-shadow: 0 12px 32px rgba(26, 26, 26, 0.16);
+    padding: 0.75rem 1rem;
+    z-index: 60;
+  }
+
+  /* Mobile: search lives inside the expanded menu, so keep results in flow
+     (they push content rather than overlap) but still give them a solid
+     surface so nothing shows through. */
+  #search-mobile .pagefind-ui__drawer:not(.pagefind-ui__hidden) {
+    margin-top: 0.5rem;
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    box-shadow: 0 8px 24px rgba(26, 26, 26, 0.12);
+    padding: 0.75rem 1rem;
+  }
+
+  /* Hidden state must stay hidden even with the positioning above. */
+  #search-desktop .pagefind-ui__drawer.pagefind-ui__hidden,
+  #search-mobile .pagefind-ui__drawer.pagefind-ui__hidden {
+    display: none;
+  }
+</style>
+
 <script>
   const toggle = document.querySelector("[data-menu-toggle]");
   const menu = document.querySelector("[data-mobile-menu]");
