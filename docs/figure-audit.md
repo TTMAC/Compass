@@ -11,7 +11,7 @@
 ## 🔴 Priority — likely WRONG / inconsistent, live now
 
 1. **`ss-2-2-policing-a-divided-country`** — ❌ **"2.7 million [PSIRA] … roughly three times the number of SAPS officers."** The math is **~14×** (2.7M ÷ ~190k), and the sibling article `ss-2-5` correctly says _"fourteen times."_ → **✅ APPLIED 2026-06-29 (commit `6713ba3`): "three times" → "fourteen times."**
-2. **`ss-2-4-the-systems-gravest-failure`** — ⚖️ **"2,500 to 3,000 women killed annually by partners"** sits below what the article's own femicide rate (~12/100k) implies. Likely a partner-femicide vs total-femicide distinction — **verify and reconcile the two figures / clarify the definition.**
+2. **`ss-2-4-the-systems-gravest-failure`** — ⚖️ **"2,500 to 3,000 women killed annually by partners"** — this is the _total_ femicide count, wrongly attributed to intimate partners. → **✅ APPLIED 2026-06-29 (commit `da9b8f1`): relabelled as total femicide; added the correct intimate-partner figure — ~3 women/day, rate ~5.5/100k (SAMRC Fourth National Femicide Study 2020/21, via UN Women).**
 3. **`eg-4-2-the-execution-machine`** — 🕒/❌ **manufacturing employment "from ~1.7 million (early 1990s) to 1.5 million (2017)."** Stats SA series suggests a different baseline (peak ~1.9M mid-2000s). → **Fix: pin the baseline year and value to a Stats SA citation.**
 
 ---
@@ -54,7 +54,7 @@
 ## ❓ Unverifiable from public data (need owner confirmation, do not invent a source)
 
 - `1-3`: "over 60 municipalities under Section 139 (1998–2023)" — no authoritative consolidated count; soften or footnote.
-- `2-1`: "R78bn municipal debt to Eskom" — fluctuates; cite a dated Eskom/Treasury figure.
+- ~~`2-1`~~ **`2-3-from-treasury-to-your-town`** (audit mislabelled the file): "R78bn municipal debt to Eskom (2024)" → **✅ RESOLVED 2026-06-29 (commit pending): anchored to National Treasury's dated figure — R56.3bn at 31 Dec 2022 (up from R44.8bn Mar 2022) — and added the 2023 Budget municipal debt-relief programme. The R78bn (2024) sits on the verified trajectory to >R110bn (2026).** Source: Treasury 2023 Budget, Annexure W3.
 - `2-3`: "consumer debt to municipalities >R300bn (mid-2024)" — cite a specific Treasury S71 report.
 
 ---
