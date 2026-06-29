@@ -267,4 +267,5 @@ The analysis in this article draws on the following institutional research and p
 - World Bank Logistics Performance Index — Comparative data on trade logistics infrastructure across countries
 - CORFO (Chilean Economic Development Agency) — Annual reports on technology transfer, export promotion, and sector development programmes
 - Bank of Botswana — Pula Fund annual reports and analysis of resource revenue management
+- Acemoglu, Johnson and Robinson (2003), "An African Success Story: Botswana" — the academic case study documenting Botswana's institutions and its starting point at independence (twelve kilometres of paved road, fewer than 100 university graduates)
 - OECD Reviews of Innovation Policy: South Africa — Comparative analysis of national innovation systems and R&D intensity
