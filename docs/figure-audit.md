@@ -12,7 +12,7 @@
 
 1. **`ss-2-2-policing-a-divided-country`** — ❌ **"2.7 million [PSIRA] … roughly three times the number of SAPS officers."** The math is **~14×** (2.7M ÷ ~190k), and the sibling article `ss-2-5` correctly says _"fourteen times."_ → **✅ APPLIED 2026-06-29 (commit `6713ba3`): "three times" → "fourteen times."**
 2. **`ss-2-4-the-systems-gravest-failure`** — ⚖️ **"2,500 to 3,000 women killed annually by partners"** — this is the _total_ femicide count, wrongly attributed to intimate partners. → **✅ APPLIED 2026-06-29 (commit `da9b8f1`): relabelled as total femicide; added the correct intimate-partner figure — ~3 women/day, rate ~5.5/100k (SAMRC Fourth National Femicide Study 2020/21, via UN Women).**
-3. **`eg-4-2-the-execution-machine`** — 🕒/❌ **manufacturing employment "from ~1.7 million (early 1990s) to 1.5 million (2017)."** Stats SA series suggests a different baseline (peak ~1.9M mid-2000s). → **Fix: pin the baseline year and value to a Stats SA citation.**
+3. **`eg-4-2-the-execution-machine`** — ❌ **manufacturing employment "declined from ~1.7M to 1.5M by 2017"** mixed measures (the ~1.7M is the broader QLFS household figure incl. informal). → **✅ APPLIED 2026-06-29: replaced with Stats SA's formal manufacturing-enterprise survey — 1.40M (2005) → 1.18M (2017) → 1.09M (2021), measure labelled.** Source: [Stats SA](https://www.statssa.gov.za/?p=16493). Strengthens the point (sector lost jobs vs IPAP's +1M target).
 
 ---
 
