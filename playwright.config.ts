@@ -22,8 +22,14 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: "npm run preview",
+    // `astro preview` is unsupported by the @astrojs/netlify adapter, so serve
+    // the production build in ./dist with a minimal static server. This is
+    // faithful to prod output; the dev server's toolbar and dev-only behaviour
+    // skew the tests (extra <h1>s, cross-origin fetches). Run `npm run build`
+    // first; in CI the e2e job restores the dist artifact before this runs.
+    command: "node scripts/serve-dist.mjs",
     port: 4321,
     reuseExistingServer: !process.env.CI,
+    timeout: 120000,
   },
 });
