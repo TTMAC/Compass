@@ -1,28 +1,39 @@
 name: Weekly release
 
-# Batches a week of changes from develop into main. Netlify builds production
-# only when main changes, so this Monday push is the single planned production
-# deploy each week. develop deploys continuously to the dev environment
-# (see the [context.develop] block in netlify.toml); this workflow is the only
-# planned path from develop to production.
+# Batches a week of changes from develop into main, BUT only after a human
+# approves the release. Netlify builds production only when main changes, so
+# this Monday push is the single planned production deploy each week. develop
+# deploys continuously to the dev environment (see the [context.develop] block
+# in netlify.toml); this workflow is the only planned path develop -> main.
+#
+# Flow each Monday 06:00 SAST:
+#   1. `gate` job — is develop ahead of main? If not, stop (nothing to release).
+#      If yes, run the full CI gate (lint, format, tests, build).
+#   2. `release` job — runs only when there are pending changes AND the
+#      `production-release` GitHub Environment approval is granted. It targets
+#      that environment, so the run PAUSES and waits for a required reviewer to
+#      click "Approve" in the Actions run before develop is merged to main.
+#
+# Required reviewers are configured on the `production-release` environment
+# (repo Settings -> Environments). With no pending changes the release job is
+# skipped, so no approval is ever requested on a quiet week.
 #
 # For an out-of-cycle release, run it manually:
-#   Actions tab -> Weekly release -> Run workflow.
+#   Actions tab -> Weekly release -> Run workflow (still requires approval).
 #
 # Compass note: the hourly scheduled-publish.yml bot can also advance main on
-# its own (it promotes articles whose scheduledPublishDate has passed so they
-# deploy on time). When that has happened, main is no longer a clean
-# fast-forward of develop, so the promote step below falls back from
-# `merge --ff-only` to a real merge commit. A genuine content conflict makes
-# the job fail loudly rather than corrupt either branch.
+# its own (it promotes articles whose scheduledPublishDate has passed). When
+# that has happened, main is no longer a clean fast-forward of develop, so the
+# promote step falls back from `merge --ff-only` to a real merge commit. A
+# genuine content conflict makes the job fail loudly rather than corrupt a branch.
 
 on:
   schedule:
-    - cron: "0 6 * * 1" # Mondays 08:00 SAST (UTC+2; South Africa has no DST)
+    - cron: "0 4 * * 1" # Mondays 06:00 SAST (UTC+2; South Africa has no DST)
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: weekly-release
@@ -32,9 +43,11 @@ env:
   NODE_VERSION: 20
 
 jobs:
-  release:
-    name: Gate develop and promote to main
+  gate:
+    name: Gate develop (pending changes + CI)
     runs-on: ubuntu-latest
+    outputs:
+      has_changes: ${{ steps.diff.outputs.has_changes }}
     steps:
       - name: Checkout develop
         uses: actions/checkout@v4
@@ -42,41 +55,70 @@ jobs:
           ref: develop
           fetch-depth: 0
 
+      - name: Detect pending changes on develop
+        id: diff
+        run: |
+          git fetch origin main develop
+          if git merge-base --is-ancestor origin/develop origin/main; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "main already contains develop — nothing to release this week."
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "Pending changes detected on develop; running release checks."
+          fi
+
       - name: Set up Node
+        if: steps.diff.outputs.has_changes == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
           cache: npm
 
       - name: Install dependencies
+        if: steps.diff.outputs.has_changes == 'true'
         run: npm ci
 
       - name: Lint
+        if: steps.diff.outputs.has_changes == 'true'
         run: npm run lint
 
       - name: Format check
+        if: steps.diff.outputs.has_changes == 'true'
         run: npm run format:check
 
       - name: Unit tests
+        if: steps.diff.outputs.has_changes == 'true'
         run: npm test
 
       - name: Build
+        if: steps.diff.outputs.has_changes == 'true'
         run: npm run build
+
+  release:
+    name: Approve and promote to main
+    needs: gate
+    if: needs.gate.outputs.has_changes == 'true'
+    runs-on: ubuntu-latest
+    # Gates the merge on manual sign-off: GitHub pauses here until a required
+    # reviewer of the `production-release` environment approves the run.
+    environment: production-release
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout develop
+        uses: actions/checkout@v4
+        with:
+          ref: develop
+          fetch-depth: 0
 
       - name: Promote develop to main
         run: |
-          # Discard any working-tree changes the build produced
-          # (scripts/scheduled-publish.mjs rewrites article frontmatter at
-          # build time) so the branch operations below start clean.
-          git reset --hard
-          git clean -fd
-
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git fetch origin main develop
 
           if git merge-base --is-ancestor origin/develop origin/main; then
-            echo "main already contains develop — nothing to release this week."
+            echo "main already contains develop — nothing to release."
             exit 0
           fi
 
