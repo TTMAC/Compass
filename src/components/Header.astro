@@ -1,6 +1,6 @@
 ---
 import { pillars } from "@content/pillars";
-import { Show, SignInButton, UserButton } from "@clerk/astro/components";
+import { Show, UserButton } from "@clerk/astro/components";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -178,15 +178,13 @@ const isReformActive =
               class="bg-bg-primary border border-gray-200 rounded-lg shadow-lg py-2 min-w-[220px]"
             >
               <Show when="signed-out">
-                <SignInButton mode="modal">
-                  <button
-                    type="button"
-                    class="w-full flex items-center gap-2 px-4 py-2 mb-1 border-b border-gray-100 font-heading text-xs text-compass-green hover:bg-compass-green-light transition-colors"
-                  >
-                    <span aria-hidden="true">🔒</span>
-                    <span>Sign in to view</span>
-                  </button>
-                </SignInButton>
+                <a
+                  href="/sign-in"
+                  class="w-full flex items-center gap-2 px-4 py-2 mb-1 border-b border-gray-100 font-heading text-xs text-compass-green hover:bg-compass-green-light transition-colors"
+                >
+                  <span aria-hidden="true">🔒</span>
+                  <span>Sign in to view</span>
+                </a>
               </Show>
               {
                 reformLinks.map((link) => (
@@ -245,14 +243,12 @@ const isReformActive =
       <!-- Auth controls -->
       <li class="flex items-center">
         <Show when="signed-out">
-          <SignInButton mode="modal">
-            <button
-              type="button"
-              class="font-heading text-sm font-semibold text-white bg-compass-green rounded-md px-3 py-1.5 transition-opacity hover:opacity-90"
-            >
-              Sign in
-            </button>
-          </SignInButton>
+          <a
+            href="/sign-in"
+            class="inline-block font-heading text-sm font-semibold text-white bg-compass-green rounded-md px-3 py-1.5 transition-opacity hover:opacity-90"
+          >
+            Sign in
+          </a>
         </Show>
         <Show when="signed-in">
           <UserButton />
@@ -296,14 +292,12 @@ const isReformActive =
       <!-- Auth controls -->
       <div class="flex items-center gap-3 mb-3 pb-3 border-b border-gray-100">
         <Show when="signed-out">
-          <SignInButton mode="modal">
-            <button
-              type="button"
-              class="flex-1 font-heading text-sm font-semibold text-white bg-compass-green rounded-md py-2 transition-opacity hover:opacity-90"
-            >
-              Sign in
-            </button>
-          </SignInButton>
+          <a
+            href="/sign-in"
+            class="flex-1 text-center font-heading text-sm font-semibold text-white bg-compass-green rounded-md py-2 transition-opacity hover:opacity-90"
+          >
+            Sign in
+          </a>
         </Show>
         <Show when="signed-in">
           <UserButton />
@@ -421,15 +415,13 @@ const isReformActive =
             <ul class="pl-4 space-y-1 mt-1" role="list">
               <Show when="signed-out">
                 <li>
-                  <SignInButton mode="modal">
-                    <button
-                      type="button"
-                      class="w-full flex items-center gap-2 py-2 px-3 font-heading text-xs text-compass-green rounded hover:bg-compass-green-light transition-colors"
-                    >
-                      <span aria-hidden="true">🔒</span>
-                      <span>Sign in to view</span>
-                    </button>
-                  </SignInButton>
+                  <a
+                    href="/sign-in"
+                    class="w-full flex items-center gap-2 py-2 px-3 font-heading text-xs text-compass-green rounded hover:bg-compass-green-light transition-colors"
+                  >
+                    <span aria-hidden="true">🔒</span>
+                    <span>Sign in to view</span>
+                  </a>
                 </li>
               </Show>
               {
